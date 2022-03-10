@@ -1,6 +1,6 @@
 ---
 title: Creare e acquisire cespiti dalla contabilità fornitori
-description: In questa guida attività verrà illustrata la creazione e l'acquisizione di un cespite con il processo di acquisto.
+description: In questa procedura verrà illustrata la creazione e l'acquisizione di un cespite con il processo di acquisto.
 author: saraschi2
 ms.date: 08/13/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e3342c5e667ad3c8f3638afdcd9f3c15a815777
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dbac069362a15b5ab1d2dbf88a732a14a3cf709d
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823958"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394660"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Creare e acquisire cespiti dalla contabilità fornitori
 
 [!include [banner](../../includes/banner.md)]
 
-In questa guida attività verrà illustrata la creazione e l'acquisizione di un cespite con il processo di acquisto.  Vengono utilizzati l'addetto alla contabilità fornitori e il contabile e la società dimostrativa USMF.
+In questa procedura verrà illustrata la creazione e l'acquisizione di un cespite con il processo di acquisto.  Vengono utilizzati l'addetto alla contabilità fornitori e il contabile e la società dimostrativa USMF.
 
 
 ## <a name="set-fixed-assets-parameters"></a>Impostare i parametri per i cespiti

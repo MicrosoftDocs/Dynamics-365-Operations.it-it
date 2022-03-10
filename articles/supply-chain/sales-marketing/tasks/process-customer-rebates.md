@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 355ca6b8a06b15b68e0fd6236999b4e64a83bf2a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a85c027571a6d77ed61cd874bb9d97221b099967
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573347"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7969089"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Generare ed elaborare sconti cliente
 
@@ -69,7 +69,7 @@ Questa procedura mostra come elaborare gli sconti dalla creazione della richiest
 2. Fare clic su **Cumula**.
 3. Nel campo **Cliente** immettere o selezionare un valore.
 4. Nel campo **Data di inizio** selezionare la data odierna.
-5. Fare clic su **OK**. In seguito all'esecuzione della funzione **Cumula**, l'importo stimato della richiesta è stato rettificato per rappresentare il fatto che il volume di vendita totale del cliente nel periodo rilevante è superiore a quando il primo sconto è stato generato. In modo più specifico, poiché la quantità totale acquistata ha raggiunto 100 unità, il cliente ora si qualifica per 40 EUR per unità (in base alla seconda interruzione di quantità dell'accordo) o per 400 EUR dell'importo totale dello sconto. La differenza verrà registrata come una nuova “rettifica” della richiesta per 800 EUR aggiuntivi. Lo stato delle richieste dello sconto incluse nell'aggiornamento Cumula ora è impostato su Calcolato. 
+5. Fare clic su **OK**. In seguito all'esecuzione della funzione **Cumula**, l'importo stimato della richiesta è stato rettificato per rappresentare il fatto che il volume di vendita totale del cliente nel periodo rilevante è superiore a quando il primo sconto è stato generato. In modo più specifico, poiché la quantità totale acquistata ha raggiunto 100 unità, il cliente ora si qualifica per 40 EUR per unità (in base alla seconda interruzione di quantità dell'accordo) o per 4,000 EUR dell'importo totale dello sconto. La differenza verrà registrata come una nuova “rettifica” della richiesta per 800 EUR aggiuntivi. Lo stato delle richieste dello sconto incluse nell'aggiornamento Cumula ora è impostato su Calcolato. 
 6. Nell'elenco selezionare tutte le righe.
 7. Fare clic su **Approva**.
 8. Fare clic su **Elabora**.

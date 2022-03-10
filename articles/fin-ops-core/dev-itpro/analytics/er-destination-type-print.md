@@ -1,12 +1,10 @@
 ---
 title: Tipo di destinazione stampante ER
-description: In questo argomento viene descritto come configurare una destinazione stampante per ogni componente CARTELLA o FILE di un formato ER configurato per generare documenti in uscita nei formati PDF o di Microsoft Office (Excel/Word).
+description: Questo argomento spiega come configurare una destinazione stampante per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
 author: NickSelin
-manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 672b1d70607a32d30c703ce39573d7480462fec45739b6e1e49ef27166a50e2c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679608"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712714"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destinazione stampante
 
@@ -32,7 +30,7 @@ ms.locfileid: "4679608"
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di iniziare, è necessario installare e configurare l'agente di distribuzione documenti e quindi registrare le stampanti di rete. Per ulteriori informazioni, vedere [Installare l'agente di distribuzione documenti per abilitare la stampa di rete](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/install-document-routing-agent).
+Prima di iniziare, è necessario installare e configurare l'agente di distribuzione documenti e quindi registrare le stampanti di rete. Per ulteriori informazioni, vedere [Installare l'agente di distribuzione documenti per abilitare la stampa di rete](./install-document-routing-agent.md).
 
 ## <a name="make-the-printer-destination-available"></a>Rendere disponibile la destinazione Stampante
 
@@ -41,15 +39,13 @@ Per rendere disponibile la destinazione **Stampante** nell'istanza corrente di M
 1. Convertire i documenti in uscita per la creazione di report elettronici dai formati di Microsoft Office in PDF
 2. Agente di distribuzione dei documenti come destinazione della creazione di report elettronici per i documenti in uscita
 
-[![Attivazione della funzionalità Destinazione stampante ER in Gestione funzionalità](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Attivazione della funzionalità Destinazione stampante ER in Gestione funzionalità.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Applicabilità
 
 La destinazione **Stampante** può essere configurata solo per i componenti di file utilizzati per generare output in formato PDF stampabile (PDF Merger o elementi di formato di file PDF) oppure in formato Microsoft Office Excel/Word (file Excel). Quando l'output viene generato in formato PDF, viene inviato a una stampante. Quando l'output viene generato in un formato Microsoft Office, viene automaticamente convertito in formato PDF e quindi inviato a una stampante.
 
 ### <a name="limitations"></a>Limiti
-
-Questa funzionalità è una funzionalità di anteprima ed è soggetta alle condizioni d'uso descritte in [Condizioni d'uso supplementari per le anteprime di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 La destinazione **Stampante** è implementata solo per le distribuzioni cloud.
 
@@ -59,7 +55,7 @@ La destinazione **Stampante** è implementata solo per le distribuzioni cloud.
 2. Nel campo **Nome stampante**, selezionare la stampante di rete necessaria.
 3. Impostare l'opzione **Salvare nell'archivio di stampa?** su **Sì** per archiviare l'output generato nell'archivio di stampa, di modo che sia disponibile per ulteriori stampe. Per accedere all'output archiviato in un secondo momento, selezionare **Amministrazione organizzazione** \> **Richieste di informazioni e report** \> **Report archivio**.
 
-[![Utilizzare la destinazione Stampante](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Utilizzo della destinazione Stampante.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > L'opzione **Converti in PDF** non deve essere attivata quando si configura la destinazione **Stampante**. La conversione in PDF per scopi di stampa avverrà anche se l'opzione è disattivata.
@@ -70,3 +66,6 @@ Per usare uno specifico [orientamento di pagina](electronic-reporting-destinatio
 
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

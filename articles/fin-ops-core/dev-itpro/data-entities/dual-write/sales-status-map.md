@@ -2,28 +2,19 @@
 title: Configurare il mapping per le colonne dello stato dell'ordine cliente
 description: In questo argomento viene illustrato come configurare le colonne di stato dell'ordine cliente per la doppia scrittura.
 author: dasani-madipalli
-manager: tonyafehr
 ms.date: 06/25/2020
 ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: tfehr
 ms.search.region: global
-ms.search.industry: ''
 ms.author: damadipa
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
-ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
+ms.openlocfilehash: 53d824ca2fb1eadf34e62bf9c08b837db3efaf42
+ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4744301"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7782286"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurare il mapping per le colonne dello stato dell'ordine cliente
 
@@ -102,7 +93,7 @@ Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
 1. In un browser, passa a `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Sostituisci **\<test-name\>** con il collegamento della tua azienda in Sales.
 2. Nella pagina che viene aperta, trova **organizationid** e prendi nota del valore.
 
-    ![Ricerca di organizationid](media/sales-map-orgid.png)
+    ![Ricerca di organizationid.](media/sales-map-orgid.png)
 
 3. In Sales, apri la console del browser ed esegui il seguente script. Utilizza il valore **organizationid** del passaggio 2.
 
@@ -121,32 +112,35 @@ Per abilitare l'attributo **IsSOPIntegrationEnabled**, segui questi passaggi.
     );
     ```
 
-    ![Codice JavaScript nella console del browser](media/sales-map-script.png)
+    ![Codice JavaScript nella console del browser.](media/sales-map-script.png)
 
 4. Verifica che **IsSOPIntegrationEnabled** sia impostato su **true**. Utilizza l'URL del passaggio 1 per controllare il valore.
 
-    ![IsSOPIntegrationEnabled impostato su true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled impostato su true.](media/sales-map-integration-enabled.png)
 
 Per abilitare l'attributo **isIntegrationUser**, segui questi passaggi.
 
 1. In Sales, vai a **Impostazione \> Personalizzazione \> Personalizza il sistema**, seleziona **Tabella utente** e quindi apri **Modulo \> Utente**.
 
-    ![Apertura del modulo utente](media/sales-map-user.png)
+    ![Apertura del modulo utente.](media/sales-map-user.png)
 
 2. In Esplora campi, trova **Modalità utente integrazione** e fai doppio clic su di esso per aggiungerlo al modulo. Salva le modifiche.
 
-    ![Aggiunta della colonna Modalità utente integrazione al modulo](media/sales-map-field-explorer.png)
+    ![Aggiunta della colonna Modalità utente integrazione al modulo.](media/sales-map-field-explorer.png)
 
 3. In Sales, vai a **Impostazione \> Sicurezza \> Utenti** e cambia la visualizzazione da **Utenti abilitati** a **Utenti dell'applicazione**.
 
-    ![Modifica della visualizzazione da Utenti abilitati a Utenti dell'applicazione](media/sales-map-enabled-users.png)
+    ![Modifica della visualizzazione da Utenti abilitati a Utenti dell'applicazione.](media/sales-map-enabled-users.png)
 
 4. Seleziona le due voci per **DualWrite IntegrationUser**.
 
-    ![Elenco di utenti dell'applicazione](media/sales-map-user-mode.png)
+    ![Elenco di utenti dell'applicazione.](media/sales-map-user-mode.png)
 
 5. Cambi il valore della colonna **Modalità utente integrazione** su **Sì**.
 
-    ![Modifica del valore della colonna Modalità utente integrazione](media/sales-map-user-mode-yes.png)
+    ![Modifica del valore della colonna Modalità utente integrazione.](media/sales-map-user-mode-yes.png)
 
 I tuoi ordini cliente sono ora mappati.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

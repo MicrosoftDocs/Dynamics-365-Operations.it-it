@@ -1,7 +1,7 @@
 ---
 title: Eliminare una DBA assistenza
-description: L'ordine di assistenza rappresenta l'intervento eseguito da un tecnico presso la sede di un cliente in una data specifica.
-author: ShylaThompson
+description: In questo argomento viene fornita una procedura che mostra come eliminare una DBA assistenza.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,29 +15,25 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a439186dee6fcfbe25e9184634bdfd48efcca48
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0b1ea4bd8c035db39763b3c1da9ccfc14030c24
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817559"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569073"
 ---
-# <a name="delete-a-service-bom"></a>Eliminare una DBA assistenza 
+# <a name="delete-a-service-bom"></a>Eliminare una DBA assistenza
 
 [!include [banner](../includes/banner.md)]
 
-
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**. Selezionare il contratto di assistenza da cui si desidera eliminare una distinta base (DBA) assistenza.
-
-2.  Nel **riquadro azioni**, fare clic su **Oggetti assistenza**.
-
-3.  Nel modulo **Oggetti assistenza** selezionare l'oggetto assistenza da cui si desidera eliminare una DBA assistenza. Fare clic su **Funzioni** quindi selezionare **Elimina DBA assistenza**.
-
-4.  Fare clic su **Sì**.
+1. Selezionare **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**. Selezionare il contratto di assistenza da cui si desidera eliminare una distinta base (DBA) assistenza.
+1. Nel **riquadro Azioni**, selezionare **Oggetti assistenza**.
+1. Nel modulo **Oggetti assistenza** selezionare l'oggetto assistenza da cui si desidera eliminare una DBA assistenza. Selezionare **Funzioni**, quindi selezionare **Elimina DBA assistenza**.
+1. Selezionare **Sì**.
 
 
 > [!NOTE]
-> <P>Se non viene applicata una DBA modello, è possibile eliminare la DBA assistenza dal modulo <STRONG>DBA modello</STRONG>. Se è stata applicata una DBA modello, la DBA assistenza non può essere eliminata utilizzando questo metodo.</P>
+> Se non viene applicata una DBA modello, è possibile eliminare la DBA assistenza dalla pagina **DBA modello**. Se è stata applicata una DBA modello, la DBA assistenza non può essere eliminata utilizzando questo metodo.
 
 
 

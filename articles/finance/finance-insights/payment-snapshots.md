@@ -1,31 +1,32 @@
 ---
-title: Panoramica degli snapshot (anteprima)
+title: Panoramica degli snapshot
 description: Questo argomento descrive la funzionalità di snapshot, che consente di salvare una previsione di cassa per l'analisi o il confronto con i valori effettivi in un secondo momento. Quando si genera una previsione di cassa, è possibile salvarla come "snapshot". Puoi quindi utilizzare tali snapshot per modificare i conti inclusi nella previsione o confrontare la previsione nello snapshot con i valori effettivi.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
-ms.topic: article
+ms.date: 11/03/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f9b6d44b7381817a40b86c17ee4eaf3dbfc46b67
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827244"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983519"
 ---
-# <a name="snapshots-overview-preview"></a>Panoramica degli snapshot (anteprima)
+# <a name="snapshots-overview"></a>Panoramica degli snapshot
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Gli snapshot consentono alle organizzazioni di modificare e salvare le informazioni sulla loro posizione di cassa e le previsioni di cassa in un determinato momento. Puoi confrontare lo snapshot con i dati finanziari effettivi, esaminare la varianza e utilizzare tali informazioni per migliorare le previsioni di cassa nel tempo. In particolare, gli snapshot possono essere utilizzati nei seguenti modi:
 
@@ -39,12 +40,6 @@ Puoi creare uno snapshot selezionando **Nuovo snapshot** sulla scheda **Posizion
 
 I flussi di cassa in entrata e in uscita negli snapshot possono essere modificati in qualsiasi momento. Quando un importo in entrata o un importo in uscita viene modificato, l'importo aggiornato viene ripartito proporzionalmente ai conti di liquidità che hanno effettuato il saldo originale. Dopo avere modificato uno snapshot, seleziona **Salva** per salvare le modifiche.
 
-Per confrontare più snapshot, seleziona **Confronta snapshot**. Puoi confrontare due snapshot alla volta. Seleziona i due snapshot da confrontare, quindi seleziona **OK**. La pagina **Confronta snapshot** mostrerà un confronto degli snapshot selezionati. Il grafico nella sezione superiore della pagina mostra un confronto dei flussi di cassa in entrata, in uscita e dei saldi bancari nei periodi sovrapposti tra i due snapshot. La griglia nella sezione inferiore mostra un confronto dettagliato delle due previsioni per ciascun importo di liquidità. La colonna **Varianza** nella griglia mostra la differenza tra i saldi in un periodo.
-
-Per confrontare i risultati finanziari effettivi con una previsione salvata come snapshot, seleziona **Confronta con i valori effettivi**. La pagina **Confronta snapshot** mostrerà un confronto tra gli importi effettivi e la previsione. Il grafico nella sezione superiore della pagina mostra un confronto dei flussi di cassa in entrata, in uscita e dei saldi bancari nei periodi sovrapposti tra i due snapshot. La griglia nella sezione inferiore mostra un confronto dettagliato dei saldi effettivi per periodo e il saldo previsto per ciascun importo di liquidità. La colonna **Varianza** nella griglia mostra la differenza tra il saldo effettivo in un periodo e il saldo previsto.
-
-#### <a name="privacy-notice"></a>Informativa sulla privacy
-Le anteprime (1) potrebbero utilizzare meno misure di sicurezza e di privacy rispetto al servizio Dynamics 365 Finance and Operations, (2) non sono incluse nel contratto di servizio di questo servizio, (3) non devono essere utilizzate per elaborare i dati personali o altri dati soggetti a requisiti legati e normativi, e (4) hanno supporto limitato.
-
+Per confrontare i risultati finanziari effettivi con una previsione salvata come snapshot, seleziona **Confronta con i valori effettivi**. La pagina **Confronta con i valori effettivi** mostrerà un confronto tra gli importi effettivi e la previsione. Il grafico nella sezione superiore della pagina mostra un confronto dei flussi di cassa in entrata, in uscita e dei saldi bancari nei periodi sovrapposti tra i due snapshot. La griglia nella sezione inferiore mostra un confronto dettagliato dei saldi effettivi per periodo e il saldo previsto per ciascun importo di liquidità. La colonna **Varianza** nella griglia mostra la differenza tra il saldo effettivo in un periodo e il saldo previsto.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

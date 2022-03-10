@@ -2,11 +2,9 @@
 title: Calcolo generale
 description: In questo argomento vengono descritti i processi tipici per il calcolo e l'assegnazione dei costi generali.
 author: AndersGirke
-manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation, CAMOverheadRateCalculationJournalEntry, CAMFormulaAllocationBase
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d60248f2bd6774b2e9afdb3632b6eb31d67349ce
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 60bce611ae1f6ed5d63860793cd5d1da3c421a9e
+ms.sourcegitcommit: e3290eb58ae569a59d6ae2e6922e7d8be8f1980f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5009520"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "7551806"
 ---
 # <a name="overhead-calculation"></a>Calcolo generale
 
@@ -31,8 +29,7 @@ ms.locfileid: "5009520"
 
 In questo argomento vengono descritti i processi tipici per il calcolo e l'assegnazione dei costi generali.
 
-<a name="term-definition"></a>Definizione del termine
----------------
+## <a name="term-definition"></a>Definizione del termine
 
 I costi generali sono i costi sostenuti per la normale gestione di una società, ma che non possono essere direttamente attribuiti a nessuna attività aziendale, prodotto o servizio specifico. I costi generali forniscono supporto cruciale per la generazione di attività che producono profitto. Di seguito sono riportati alcuni esempi di costi generali:
 
@@ -51,7 +48,7 @@ Il calcolo dei costi generali si basa sui criteri di contabilità industriale es
 
 Il calcolo dei costi generali viene eseguito indipendentemente dalla versione. Di conseguenza, è possibile calcolare la versione Budget prima della versione Effettivo. Il calcolo dei costi generali è costituito da quattro passaggi, come illustrato nella figura seguente. A ogni passaggio, un'intestazione del giornale di registrazione viene creata con voci del giornale di registrazione. In questa intestazione del giornale di registrazione sono archiviati i dati di input per ogni passaggio di calcolo. I criteri e le regole vengono applicati a ogni riga del giornale di registrazione e le voci di costo vengono generate come output. Di conseguenza, la tracciabilità è sempre completa. 
 
-[![Calcolo dei costi generali](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Calcolo generale.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcolare e allocare il costo generale dell'elettricità
 Nella contabilità finanziaria, alcuni costi, ad esempio l'elettricità, vengono registrati come somma forfettaria. Di conseguenza, l'analisi manageriale dettagliata non viene fornita per la contabilità industriale. In contabilità industriale, per fornire l'analisi manageriale dettagliata corretta in tutte le unità organizzative e livelli, i costi devono essere trasferiti attraverso le unità organizzative. Questo flusso deve basarsi su un record accurato del consumo o su una valutazione equa. Nella contabilità generale, il costo di elettricità può essere registrato come illustrato nella seguente tabella.
@@ -621,7 +618,7 @@ Per ulteriori informazioni, vedere [Eseguire il calcolo generale](cost-rollup.md
 
 L'allocazione è utilizzata per assegnare il saldo di un oggetto costo ad altri oggetti costo applicando una base di allocazione. Finance supporta il metodo di allocazione reciproco. Nel metodo di allocazione reciproco, i servizi reciproci che gli oggetti costo ausiliario si scambiano sono completamente riconosciuti. Il sistema determina automaticamente l'ordine corretto per eseguire le allocazioni. Il saldo di un oggetto costo viene assegnato da una singola base di allocazione. Le allocazioni in più dimensioni di oggetti costo e i rispettivi membri sono supportate. L'ordine di allocazione è controllato dall'unità di controllo dei costi. 
 
-[![Metodo reciproco](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Metodo reciproco.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Definizione dell'allocazione costi
 
@@ -1331,86 +1328,18 @@ Nella tabella seguente viene illustrato il risultato quando i servizi imballaggi
 ## <a name="conclusion"></a>Conclusione
 Nella contabilità finanziaria, il costo di 10.000,00 dell'elettricità viene registrato in un ID fittizio del centro di costo. Di conseguenza, i contabili capiranno che il costo deve essere allocato. Nella contabilità industriale, il flusso dei costi nelle unità organizzative e nei livelli, in base ai criteri e alle regole che vengono applicati. Ogni costo è stato associato a una base di allocazione che offre la migliore valutazione per l'allocazione dei costi.
 
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2">Elemento di costo</th>
-<th colspan="9">Oggetto di costo</th>
-<th rowspan="2">Totale</th>
-</tr>
-<tr>
-<th>CC099</th>
-<th>CC001</th>
-<th>CC002</th>
-<th>CC003</th>
-<th>CC004</th>
-<th>Proj 1</th>
-<th>Proj 2</th>
-<th>Prod 1</th>
-<th>Prod 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2">10001 Elettricità</td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>30.00</strong></td>
-<td style="text-align: right;"><strong>10.00</strong></td>
-<td style="text-align: right;"><strong>7,770.57</strong></td>
-<td style="text-align: right;"><strong>2,189.43</strong></td>
-<td style="text-align: right;"><strong>10,000.00</strong></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;">Non classificato</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Costo fisso</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;">776.36</td>
-<td style="text-align: right;">223.64</td>
-<td style="text-align: right;"><strong>1,000.00</strong></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;">Costo variabile</td>
-<td style="text-align: right;">000</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">0,00</td>
-<td style="text-align: right;">30,00</td>
-<td style="text-align: right;">10,00</td>
-<td style="text-align: right;">6,994.21</td>
-<td style="text-align: right;">1,965.79</td>
-<td style="text-align: right;"><strong>9,000.00</strong></td>
-</tr>
-</tbody>
-</table>
+Elemento di costo | Oggetto di costo<br>CC099 | Oggetto di costo<br>CC001 | Oggetto di costo<br>CC002 | Oggetto di costo<br>CC003 | Oggetto di costo<br>CC004 | Oggetto di costo<br>Proj 1 | Oggetto di costo<br>Proj 2 | Oggetto di costo<br>Prod 1 | Oggetto di costo<br>Prod 2 | Totale
+---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:
+10001 Elettricità | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
+Non classificato | 0,00 |  |  |  |  |  |  |  |  |  |
+Costo fisso | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
+Costo variabile | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
 > In questo argomento viene illustrato come una voce di costo principale, 10001 Elettricità, viene trasferita tra gli oggetti di costo. Di conseguenza, questo costo generale viene allocato al livello più basso dell'organizzazione. In altre parole, gli oggetti costo al livello più basso sostengono il costo. Se si richiede un flusso visivo del costo tra gli oggetti costo, è possibile utilizzare le regole dei criteri di rollup del costo per visualizzare il flusso del costo. Per ulteriori informazioni, vedere [Criteri rollup costi e calcolo dei costi generali](cost-rollup.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

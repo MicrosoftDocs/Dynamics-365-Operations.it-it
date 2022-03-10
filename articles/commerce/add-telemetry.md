@@ -2,11 +2,9 @@
 title: Aggiungere codice script nelle pagine del sito per supportare la telemetria
 description: In questo argomento viene descritto come aggiungere il codice script sul lato client alle pagine del sito per supportare la raccolta di telemetria sul lato client.
 author: bicyclingfool
-manager: annbe
 ms.date: 09/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,20 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e035c767474cba19c3a31eafdefb08b422b564ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f796a3e10345da41ff461b656d88affb3adbdf9e
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209205"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964531"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Aggiungere codice script nelle pagine del sito per supportare la telemetria
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere il codice script sul lato client alle pagine del sito per supportare la raccolta di telemetria sul lato client.
-
-## <a name="overview"></a>Panoramica
 
 L'analisi dei dati Web è uno strumento essenziale se si desidera comprendere come i clienti interagiscono con il sito e prendono decisioni che consentono di ottimizzare l'esperienza per la massima conversione. Molti pacchetti di analisi dei dati Web sono disponibili per consentire il raggiungimento di questi obiettivi, ad esempio Google Analytics, Clicky, Moz Analytics e KISSMetrics. La maggior parte dei pacchetti di analisi dei dati Web richiede l'aggiunta di codice script sul lato client nell'elemento **\<head\>** del codice HTML per tutte le pagine del sito.
 
@@ -115,8 +111,6 @@ Per aggiungere uno script esterno direttamente a un modello in Creazione di siti
 [Utilizzare i file di sostituzione CSS](css-override-files.md)
 
 [Aggiungere una favicon](add-favicon.md)
-
-[Aggiungere un messaggio di benvenuto](add-welcome-message.md)
 
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 

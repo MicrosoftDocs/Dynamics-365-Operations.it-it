@@ -1,5 +1,5 @@
 ---
-title: Consolidare le spedizioni quando vengono rilasciate al magazzino utilizzando Rilascio automatico degli ordini cliente
+title: Consolidare le spedizioni rilasciate al magazzino utilizzando Rilascio automatico degli ordini cliente
 description: Questo argomento presenta uno scenario in cui più ordini vengono rilasciati al magazzino nella stessa procedura periodica di rilascio al magazzino automatizzata.
 author: GarmMSFT
 ms.date: 05/12/2020
@@ -10,17 +10,17 @@ ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFi
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 82a95ecf196ef7c33831da7f4d03df629b17fa53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 10c0b8b9478c8b31957cc08a1a827461c4621b8a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807562"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574283"
 ---
-# <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Consolidare le spedizioni quando vengono rilasciate al magazzino utilizzando Rilascio automatico degli ordini cliente
+# <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Consolidare le spedizioni rilasciate al magazzino utilizzando Rilascio automatico degli ordini cliente
 
 [!include [banner](../includes/banner.md)]
 

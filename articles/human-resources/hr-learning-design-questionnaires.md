@@ -1,33 +1,35 @@
 ---
 title: Creazione di questionari
-description: In questo articolo viene descritto il processo per creare un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte.
-author: andreabichsel
-ms.date: 06/20/2017
+description: In questo argomento viene descritto il processo per creare un questionario.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c117864f3a4e21faed450fa11821e7e3432642fb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 90dd59b605c21abd03d2e0d64a89dc787850c26e
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791391"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065203"
 ---
 # <a name="create-questionnaires"></a>Creazione di questionari
 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo articolo viene descritto il processo per creare un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte. 
+In questo argomento viene descritto il processo per creare un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte. 
 
 Un'attenta progettazione del questionario consente di migliorare la qualità dei dati raccolti. Mediante un'attenta progettazione, è possibile aggiornare selezionare le opzioni appropriate al momento opportuno per un questionario. I seguenti passaggi possono risultare utili per pianificare un questionario efficace:
 
@@ -64,7 +66,7 @@ Alcuni prerequisiti devono essere specificati prima di cerare questionari, rispo
 
 ### <a name="questionnaire-types"></a>Tipi di questionario
 
-I tipi di questionario sono obbligatori e devono essere assegnati quando si crea un questionario. I tipi di questionario consentono di gestire e classificare i questionari più facilmente. Utilizzare i tipi di questionario per classificare i questionari e differenziarli tra loro. Ad esempio, se si dispone di più questionari da cui eseguire la selezione, è possibile filtrarli per tipo per rendere più semplice la ricerca di un questionario specifico. Di seguito sono riportati alcuni tipi di questionario:
+I **tipi di questionario** sono obbligatori e devono essere assegnati quando si crea un questionario. I **tipi di questionario** consentono di gestire e classificare i questionari più facilmente. Utilizzare i tipi di questionario per classificare i questionari e differenziarli tra loro. Ad esempio, se si dispone di più questionari da cui eseguire la selezione, è possibile filtrarli per tipo per rendere più semplice la ricerca di un questionario specifico. Di seguito sono riportati alcuni tipi di questionario:
 
 -   Sviluppo risorse umane
 -   Sondaggi clienti
@@ -72,9 +74,9 @@ I tipi di questionario sono obbligatori e devono essere assegnati quando si crea
 
 ### <a name="question-types"></a>Tipi di domanda
 
-I tipi di domanda sono obbligatori e devono essere assegnati quando si crea una domanda. 
+I **tipi di domanda** sono obbligatori e devono essere assegnati quando si crea una domanda. 
 
-Utilizzare i tipi di domanda per eseguire la classificazione per il reporting. I tipi di domanda rendono anche più semplice individuare le domande, poiché è possibile utilizzare i tipi come filtri nella pagina **Domande**. Di seguito sono riportati alcuni tipi di domande:
+Utilizza i **tipi di domanda** per eseguire la classificazione per il reporting. I **tipi di domanda** rendono anche più semplice individuare le domande, poiché è possibile utilizzare i tipi come filtri nella pagina **Domande**. Di seguito sono riportati alcuni tipi di domande:
 
 -   Risorse umane
 -   Gestione aziendale
@@ -93,7 +95,7 @@ I codici di sequenza numerica sono utilizzati per organizzare le domande e le ri
 ## <a name="questionnaire-components"></a>Componenti di questionario
 Nei questionari sono disponibili tre elementi principali: gruppi di risposte contenenti le risposte alle domande a scelta multipla, le domande e il questionario. Puoi facoltativamente raggruppare le domande di un questionario in gruppi di risultati. I gruppi di risultati consentono di classificare le domande e analizzare ulteriormente il questionario. 
 
-[![Componenti di questionario](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+[![Componenti questionario.](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Gruppi di risposte e risposte
 
@@ -106,7 +108,7 @@ Per fornire un elenco di risposte possibili per le domande chiuse, è possibile 
 
 I gruppi di risposte e le risposte sono componenti che costituiscono la parte principale delle informazioni da cui vengono create le domande. Dopo aver creato un gruppo di risposte, è possibile associarlo a una domanda nel campo **Gruppo di risposte** nella pagina **Domande**. 
 
-Un gruppo di risposte può essere utilizzato per più domande dello stesso questionario e in più questionari. 
+Un **gruppo di risposte** può essere utilizzato per più domande dello stesso questionario e in più questionari. 
 
 > [!NOTE]
 > Se si modifica il testo della risposta in gruppi di risposte già stati utilizzati in questionari completati, i dati possono diventare difficili da valutare e i risultati del questionario possono non essere più validi. Se è necessario modificare un gruppo di risposte, considerare la possibilità di creare un nuovo gruppo di risposte anziché modificarne uno esistente. Non è possibile eliminare i gruppi di risposte collegati a una domanda o una risposta o a cui è già stata fornita una risposta.
@@ -172,7 +174,7 @@ In un questionario, non è possibile eliminare i seguenti tipi di domande:
 
 ### <a name="result-groups"></a>Gruppi di risultati
 
-I gruppi di risultati sono facoltativi quando si allegano delle domande a un questionario. 
+I **gruppi di risultati** sono facoltativi quando si allegano delle domande a un questionario. 
 
 Un gruppo di risultati viene utilizzato per calcolare i punti e classificare i risultati di un questionario. Se si utilizzano i gruppi di risultati, è possibile eseguire le attività seguenti:
 

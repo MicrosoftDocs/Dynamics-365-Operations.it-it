@@ -1,26 +1,24 @@
 ---
 title: Confermare ordini cliente
 description: Questa procedura descrive come confermare gli ordini cliente.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, CustConfirmJournal, SysQueryForm, SysQueryFieldLookUp, SysLookup, SalesParmIdLookup, SalesUnconfirmedOrdersPart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f53fea1c1a998b5d3ec4669d772ace2561cb2cec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30396c121b67d1b7095a175d85399ed664f68557
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252752"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572507"
 ---
 # <a name="confirm-sales-orders"></a>Confermare ordini cliente
 

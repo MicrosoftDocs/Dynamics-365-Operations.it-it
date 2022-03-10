@@ -1,26 +1,23 @@
 ---
 title: Panoramica Europa
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Europa.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 07/25/2019
-ms.topic: article
+author: kfend
+ms.date: 01/15/2022
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: global
-ms.author: roschlom
+ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d63d5682521b1991c387604c2cc219c7f147c8d
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: f2d8a2e44713607ff2a4df91271c70d96c4d71d9
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512213"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982096"
 ---
 # <a name="europe-overview"></a>Panoramica Europa
 
@@ -41,6 +38,7 @@ In questo argomento vengono fornite informazioni e collegamenti a risorse utili 
 - [Dichiarazione elenco vendite UE](emea-eu-sales-list.md)
 - [Rettifiche del tasso di cambio](emea-exchange-rate-adjustments.md)
 - [Formati di file per i metodi di pagamento](emea-select-file-formats-for-the-method-of-payments.md)
+- [Guida finanziaria (globalizzazione) sull'impatto della Brexit](https://businesscenter.mbs.microsoft.com/#contentdetail/GuidanceBrexitImpact)
 - [Integrazione servizio fiscale (PVR)](emea-fiscal-service-integration.md)
 - [Dismissione dei cespiti per Estonia e Lituania](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Generare un documento di trasferimento per un trasferimento scorte interno](tasks/transfer-document-internal-inventory-transfer.md)
@@ -65,6 +63,7 @@ In questo argomento vengono fornite informazioni e collegamenti a risorse utili 
 - [Elaborazione fattura](emea-invoice-processing.md)
 - [Rilasciare un certificato di entrata UE](tasks/eur-00012-issue-eu-entry-certificate.md)
 - [Standard supportati per la fatturazione elettronica](emea-oioubl-standards-electronic-invoicing.md)
+- [Generazione di fatture elettroniche forzata](emea-eur-forced-einvoices.md)
 - [Riferimento alla fattura originale (Europa orientale)](tasks/ee-00004-original-invoice-reference.md)
 - [Ricerca della parte tramite l'ID IVA](tasks/eur-00015-party-search-vat-id.md)
 - [Strumento di generazione riferimento di pagamento](tasks/ee-00015-payment-reference-generation-tool.md)
@@ -94,8 +93,13 @@ In questo argomento vengono fornite informazioni e collegamenti a risorse utili 
   - [Creare e inviare report IVA](tasks/create-submit-vat-report.md)
   - [Visualizzare le transazioni in liquidazione per l'Europa orientale](emea-transactions-settlement-form.md)
   - [Data di emissione (data del libro IVA)](emea-tax-point-date.md)
+  - [Data del registro IVA fornitore](emea-date-vendor-VAT-register.md)
+- [Estensione della funzionalità del motivo finanziario](emea-financial-reason.md)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Panoramica dei report elettronici](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Panoramica dei report elettronici](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

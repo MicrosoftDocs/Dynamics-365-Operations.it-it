@@ -1,7 +1,7 @@
 ---
 title: Definire il ciclo di lavorazione di configurazione
 description: Questa procedura riguarda la definizione del ciclo di lavorazione di configurazione che determina la sequenza in cui verranno presentati i gruppi di configurazioni.
-author: ShylaThompson
+author: t-benebo
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 564aee1804a2768a05a14823ae8378cb9c1ac3db
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 54fd7d70f219a0a77957d421088f732032614ff0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818087"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567057"
 ---
 # <a name="define-configuration-route"></a>Definire il ciclo di lavorazione di configurazione
 

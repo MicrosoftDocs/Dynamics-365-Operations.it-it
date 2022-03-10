@@ -2,7 +2,7 @@
 title: Effettua il provisioning di Human Resources
 description: Questo argomento spiega il processo di approvvigionamento di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/11/2021
+ms.date: 01/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
-ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
+ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7644529"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060426"
 ---
 # <a name="provision-human-resources"></a>Effettua il provisioning di Human Resources
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento spiega il processo di approvvigionamento di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources. 
 
@@ -44,7 +44,7 @@ Prima di eseguire il provisioning del tuo primo ambiente di produzione o sandbox
 
 Gli ambienti di prova offrono la possibilità di valutare la funzionalità delle risorse umane per le persone che non hanno già accesso a un ambiente Human Resources. Se stai effettuando il provisioning di un ambiente di valutazione e l'utente autenticato ha già accesso a uno o più ambienti Human Resources esistenti, l'utente verrà reindirizzato all'ambiente esistente o all'elenco di ambienti.
 
-Gli ambienti di valutazione non sono destinati all'utilizzo come ambienti di produzione. Sono limitati a un periodo di valutazione di 60 giorni. Quando un periodo di valutazione scade, l'ambiente e tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. L'ambiente non può essere convertito in sandbox o ambiente di produzione. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
+Gli ambienti di valutazione non sono destinati all'utilizzo come ambienti di produzione. Sono limitati a un periodo di valutazione di 30 giorni. Quando un periodo di valutazione scade, l'ambiente e tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. L'ambiente non può essere convertito in sandbox o ambiente di produzione. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
 
 Quando si crea un ambiente di prova Human Resources, viene creato anche un ambiente di prova Power Apps sul tenant e collegato all'ambiente Human Resources. L'ambiente Power Apps, denominato "TestDrive", ha lo stesso periodo di prova dell'ambiente Human Resources.
 

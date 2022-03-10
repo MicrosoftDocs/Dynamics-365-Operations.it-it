@@ -2,11 +2,9 @@
 title: Creare un ordine di sostituzione articolo
 description: Gli ordini di sostituzione articolo vengono in genere creati dopo la restituzione e l'ispezione di un prodotto.
 author: josaw1
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnReplaceItem
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0932c34cc6b3604afbea7c8a18620640c00d928
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 57bbb8eb638b990914dc00f9700ff0c1925c48852862b02e09f3f26415d3e347
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258001"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745504"
 ---
 # <a name="create-an-item-replacement-order"></a>Creare un ordine di sostituzione articolo 
 

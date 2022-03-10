@@ -1,7 +1,7 @@
 ---
 title: Collaborazione fornitore con i fornitori esterni
 description: In questo argomento viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l'inventario spedizione.
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 30f7919e5ae0933b389a274d80aaed8e149631e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 3b679f8daed1e09c832a5d138473cccba03552f6
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103098"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576978"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 

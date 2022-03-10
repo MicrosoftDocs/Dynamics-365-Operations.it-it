@@ -2,11 +2,9 @@
 title: Area di lavoro mobile della directory aziendale
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile directory della società, che consente agli utenti di vedere e contattare altri dipendenti nell'organizzazione.
 author: jcart1106
-manager: AnnBe
 ms.date: 09/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 3193fbc4d4b3492960c7c13dc24b41bb920e7d23
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2152d89e7d60a74e8d7561ea888e60cff42dd1ffd0ec697fac371aad9b85383c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683434"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720650"
 ---
 # <a name="company-directory-mobile-workspace"></a>Area di lavoro mobile della directory aziendale
 
@@ -45,7 +43,7 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 <tr class="header">
 <th>Prerequisito</th>
 <th>Ruolo</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 </tr>
 </thead>
 <tbody>
@@ -79,7 +77,7 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 3.  La prima volta che si accede viene richiesto di inserire il proprio nome utente e la password. Immettere le proprie credenziali.
 4.  Dopo avere effettuato l'accesso, vengono visualizzate le aree di lavoro disponibili per la società. Nota: se l'amministratore di sistema pubblica una nuova area di lavoro in seguito, è necessario aggiornare l'elenco delle aree di lavoro mobili.
 
-[![Effettuare il pull per l'aggiornamento](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Trascinare verso il basso.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-company-directory-by-using-the-mobile-workspace"></a>Visualizzare la directory della società utilizzando l'area di lavoro mobile
 1.  Nell'app mobile, selezionare l'area di lavoro **Directory società**. Viene visualizzato un elenco dei dipendenti.
@@ -89,3 +87,6 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 1.  Nell'app mobile, selezionare l'area di lavoro **Directory società**.
 2.  Nel campo **Ricerca**, immettere il nome, il cognome, il titolo o il reparto del dipendente per avviare la ricerca.
 3.  Selezionare un dipendente. Viene visualizzata la pagina **Profilo dipendente**. Le informazioni contenute in questa pagina includono il nome, il cognome, la titolo e il reparto del dipendente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

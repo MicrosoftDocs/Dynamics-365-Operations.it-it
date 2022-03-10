@@ -3,25 +3,24 @@ title: Panoramica dei prerequisiti per costi standard
 description: In questo argomento vengono descritti i passaggi di base per l'utilizzo dei costi standard.
 author: AndersGirke
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9800903647a73d0356f758780f5a96806747c042
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7c25f2109522c7ba549ef7c3ea429873d0e1f06e
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335380"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986330"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Panoramica dei prerequisiti per costi standard
 

@@ -1,12 +1,10 @@
 ---
 title: Calcolare il carico di capacità in ordini di lavoro programmati
 description: In questo argomento viene descritto come calcolare il carico di capacità in ordini di lavoro programmati in Gestisci cespite.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a6063db7a63975f439da9f20adec07de9103014
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ff244e51151a1cc0485cae25873566fa97253171516d48449fed75f070146431
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766220"
 ---
 # <a name="calculate-capacity-load-on-scheduled-work-orders"></a>Calcolare il carico di capacità in ordini di lavoro programmati
 
@@ -50,7 +48,7 @@ ms.locfileid: "5264900"
 
 Nella figura seguente viene illustrato il risultato di un calcolo relativo a tre settimane per il tipo di carico **Prenotato**.
 
-![Figura 1](media/08-work-order-scheduling.png)
+![Figura 1.](media/08-work-order-scheduling.png)
 
 [!NOTE]
 Se si selezionano i tipi di carico **Capacità** o **Residuo** per il calcolo, lo stesso risultato sarà visualizzato se non vengono effettuate prenotazioni per le risorse nel periodo selezionato.

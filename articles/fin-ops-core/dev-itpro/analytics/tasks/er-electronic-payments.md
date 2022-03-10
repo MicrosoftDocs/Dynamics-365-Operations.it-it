@@ -2,7 +2,6 @@
 title: ER genera documenti elettronici per i pagamenti utilizzando una configurazione di formato
 description: Questo argomento descrive come utilizzare una nuova configurazione di formato di report elettronico per generare documenti elettronici per l'elaborazione dei pagamenti.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6dd39b3faba90b38b837cd5167b216f9faa31d82
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 05295ff36ffd194b3f50fcdd9d7528c787c80f39104f46f9c51890a75a852735
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570218"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712666"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>ER genera documenti elettronici per i pagamenti utilizzando una configurazione di formato
 

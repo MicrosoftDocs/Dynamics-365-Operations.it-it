@@ -9,15 +9,16 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
+ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 168927e37344a1e6f76490aff32473fd82754c59
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 503febd81b1546426e4024f88a40c1f08834f46f
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354643"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402129"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>Catalogo di apprendimento Dynamics 365 Commerce 
 

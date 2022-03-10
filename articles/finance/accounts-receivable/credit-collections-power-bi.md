@@ -2,11 +2,9 @@
 title: Contenuto Power BI per crediti e riscossioni
 description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Gestione crediti e riscossioni. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: dc68926b8123c7e513f9df46e2b9f9b8ae1311e8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 65423f49ba106a152f58c92533c4f1a16d47a318982cfe69bb23f9091fa09846
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763216"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenuto Power BI per crediti e riscossioni
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto Power BI **Gestione di crediti e riscossioni**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo argomento viene descritto cosa è incluso nel contenuto **Gestione crediti e riscossioni** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -76,3 +74,6 @@ Il contenuto di Power BI **CustCollectionsBICrossCompany** include un report cos
 | Lettere di sollecito         | <ul><li>Importi codice riscossioni</li><li>Dettagli importi codice riscossioni</li><li>Importo lettera di sollecito per società</li><li>Importo lettera di sollecito per gruppo di clienti</li><li>Importo lettera di sollecito per stato/regione</li></ul> |
 
 I grafici e i riquadri in tutti i report possono essere filtrati e aggiunti al dashboard. Per ulteriori informazioni su come applicare filtri ed eseguire aggiunte in Power BI, vedere [Creare e configurare un dashboard](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/) È inoltre possibile utilizzare la funzionalità di esportazione dati sottostanti per esportare i dati sottostanti riepilogati in una visualizzazione.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

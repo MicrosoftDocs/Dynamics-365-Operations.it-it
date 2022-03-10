@@ -1,42 +1,37 @@
 ---
 title: DBA modello
 description: Una distinta base (DBA) modello fornisce un elenco standardizzato di componenti relativi a un oggetto sui quali vengono eseguiti regolarmente interventi di assistenza.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88e732f64b389acafee23427594225dfacda71cc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431101"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571309"
 ---
-# <a name="template-boms"></a>DBA modello    
+# <a name="template-boms"></a>DBA modello
 
 [!include [banner](../includes/banner.md)]
-
 
 Una distinta base (DBA) modello è un elenco standardizzato di componenti relativi a un oggetto sui quali vengono eseguiti regolarmente interventi di assistenza. I componenti inclusi nella DBA modello rappresentano i singoli sottocomponenti dell'oggetto assistenza. Applicando una DBA modello a un oggetto assistenza, è possibile mantenere un record dei sottocomponenti che sono stati sostituiti nell'oggetto assistenza.
 
 Per applicare un DBA modello a un contratto di assistenza o un ordine di assistenza è necessario collegarla a una relazione di oggetto assistenza.
 
-
 > [!NOTE]
-> <P>È possibile utilizzare solo una DBA modello con un oggetto assistenza.</P>
+> È possibile utilizzare solo una DBA modello con un oggetto assistenza.
 
 ## <a name="create-a-template-bom"></a>Creare una DBA modello
 
@@ -44,13 +39,13 @@ Nella tabella seguente vengono fornite informazioni sui vari metodi utilizzabili
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
 <th><p>Metodo</p></th>
-<th><p>Descrizioni</p></th>
+<th><p>Descrizione</p></th>
 </tr>
 </thead>
 <tbody>
@@ -73,7 +68,6 @@ Nella tabella seguente vengono fornite informazioni sui vari metodi utilizzabili
 </tbody>
 </table>
 
-
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>Applicazione della DBA modello a un contratto di assistenza o a un ordine di assistenza
 
 La DBA modello può essere applicata a un contratto di assistenza, un ordine di assistenza o entrambi. Il contratto di assistenza riguarda in genere una relazione a lungo termine con un cliente. Lo storico delle sostituzioni registrato nella DBA assistenza rappresenta un insieme di dati utili ai fini del contratto di assistenza.
@@ -84,7 +78,7 @@ La DBA modello può essere applicata a un contratto di assistenza, un ordine di 
 
 È possibile copiare lo storico di una riga di DBA assistenza da un contratto di assistenza a un altro. Copiando lo storico assistenza tra i contratti di assistenza è possibile mantenere il record delle sostituzioni per un articolo.
 
-**Esempio**
+### <a name="example"></a>Esempio
 
 È stato impostato un contratto di assistenza triennale per l'automobile di un cliente. Durante tale periodo, il cliente si abitua al buon servizio fornito dalla società. Di conseguenza, alla scadenza del contratto il cliente desidera impostarne uno nuovo. A questo punto è possibile negoziare un contratto più favorevole per la società. Poiché il record dei componenti sostituiti può rivelarsi utile in futuro, lo storico della DBA assistenza viene copiato nel nuovo contratto.
 
@@ -102,26 +96,18 @@ Se si sostituisce un articolo incluso nella DBA, è possibile registrare la sost
 
 Per utilizzare le DBA modello, è necessario impostare due sequenze numeriche. Impostare una sequenza numerica per la DBA modello e una per il numero di riga dello storico DBA.
 
-
 > [!NOTE]
-> <P>Le sequenze numeriche vengono utilizzate per allocare gli identificatori ai record che li richiedono. Prima di poter assegnare una sequenza numerica a una DBA modello o a un numero di riga dello storico DBA, è necessario impostare i codici delle sequenze numeriche.</P>
-
+> Le sequenze numeriche vengono utilizzate per allocare gli identificatori ai record che li richiedono. Prima di poter assegnare una sequenza numerica a una DBA modello o a un numero di riga dello storico DBA, è necessario impostare i codici delle sequenze numeriche.
 
 ## <a name="set-up-number-sequences"></a>Imposta sequenze numeriche
 
-1.  Nella pagina elenco **Sequenze numeriche** creare le sequenze numeriche per le DBA modello e il numero di riga dello storico DBA. 
-
-2.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Parametri di gestione assistenza**.
-
-3.  Fare clic su **Sequenze numeriche**, quindi selezionare un codice di sequenza numerica per i riferimenti alle sequenze numeriche creati nel modulo **Sequenze numeriche** .
-
-4.  Chiudere il modulo per salvare le modifiche.
-
+1. Nella pagina elenco **Sequenze numeriche** creare le sequenze numeriche per le DBA modello e il numero di riga dello storico DBA.
+1. Selezionare **Gestione dei servizi** \> **Impostazione** \> **Parametri di gestione dei servizi**.
+1. Selezionare **Sequenze numeriche**, quindi selezionare un codice di sequenza numerica per i riferimenti alle sequenze numeriche creati nel modulo **Sequenze numeriche** .
+1. Chiudere il modulo per salvare le modifiche.
 
 > [!NOTE]
-> <P>Il numero di riga dello storico DBA viene utilizzato dal sistema per associare le transazioni nello storico DBA a un contratto o un ordine di assistenza. Il numero non viene visualizzato nell'interfaccia utente.</P>
-
-
+> Il numero di riga dello storico DBA viene utilizzato dal sistema per associare le transazioni nello storico DBA a un contratto o un ordine di assistenza. Il numero non viene visualizzato nell'interfaccia utente.
 
 ## <a name="see-also"></a>Vedere anche
 
@@ -131,6 +117,4 @@ Per utilizzare le DBA modello, è necessario impostare due sequenze numeriche. I
 
 [Modificare una DBA assistenza](modify-service-bom.md)
 
- 
-
-
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

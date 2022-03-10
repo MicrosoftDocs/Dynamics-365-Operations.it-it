@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 77e3139f62ca73f461ff4a4b5114f5e7ba181d3b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575245"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103140"
 ---
 # <a name="work-with-location-directives"></a>Utilizzare le direttive di ubicazione
 
@@ -164,7 +164,7 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
     > [!NOTE]
     > Questo campo è disponibile solo per i tipi di ordine di lavoro selezionati in cui è consentito il rifornimento. Per un elenco completo, vedere la sezione [Campi specifici per i tipi di ordine di lavoro](#fields-specific-types) precedente in questo argomento.
 
-- **Trova per** - Specificare se la quantità di stoccaggio deve essere l'intera quantità sulla targa o se deve essere considerata articolo per articolo. Utilizzare questo campo per assicurarsi che tutti i contenuti di una targa siano stoccati in un'unica ubicazione e che il sistema non suggerisca di dividere i contenuti in più ubicazioni per i processi di ricevimento **ASN** (ricevimento targa), **Ricevimento targa mista** e **Cluster**. Il processo di ricevimento **Cluster** processo di ricezione richiede che l'opzione *Funzione stoccaggio cluster* sia attivata. Il comportamento della query della direttiva di ubicazione, le righe e le azioni della direttiva di ubicazione variano a seconda del valore selezionato. La Scheda dettaglio **Righe** viene utilizzata solo quando l'opzione **Trova per** è impostato su *Articolo*.
+- **Trova per** - Specificare se la quantità di stoccaggio deve essere l'intera quantità sulla targa o se deve essere considerata articolo per articolo. Utilizzare questo campo per assicurarsi che tutti i contenuti di una targa siano stoccati in un'unica ubicazione e che il sistema non suggerisca di dividere i contenuti in più ubicazioni per i processi di ricevimento **ASN** (ricevimento targa), **Ricevimento targa mista** e **Cluster**. Il processo di ricevimento **Cluster** processo di ricezione richiede che l'opzione [Funzione stoccaggio cluster](putaway-clusters.md) sia attivata. Il comportamento della query della direttiva di ubicazione, le righe e le azioni della direttiva di ubicazione variano a seconda del valore selezionato. La Scheda dettaglio **Righe** viene utilizzata solo quando l'opzione **Trova per** è impostato su *Articolo*.
 
     > [!NOTE]
     > Questo campo è disponibile solo per i tipi di ordine di lavoro selezionati in cui è consentito il rifornimento. Per un elenco completo, vedere la sezione [Campi specifici per i tipi di ordine di lavoro](#fields-specific-types).

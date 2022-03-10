@@ -2,36 +2,29 @@
 title: Panoramica della ricerca basata su cloud
 description: In questo argomento viene fornita una panoramica della ricerca basata su cloud in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-manager: annbe
 ms.date: 06/29/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb34780d5bdd41a128fff543fe0f1ef73cfead8b
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413333"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983671"
 ---
 # <a name="cloud-powered-search-overview"></a>Panoramica della ricerca basata su cloud
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene fornita una panoramica della ricerca basata su cloud in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 L'individuazione dei prodotti garantisce ai clienti di trovare in modo semplice e rapido i prodotti esplorando le categorie, eseguendo ricerche e applicando filtri. Per i rivenditori, l'individuazione dei prodotti è uno strumento principale per l'interazione dei clienti in tutti i canali.
 
@@ -47,7 +40,7 @@ La pertinenza e le prestazioni delle ricerche sono fattori chiave nell'esperienz
 
 Nella figura seguente è illustrato un esempio di funzionalità di esplorazione e ricerca tipica.
 
-![Pagina di destinazione della ricerca](./media/SearchLanding.png)
+![Pagina di destinazione della ricerca.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Esplorazione in base a facet e riepilogo delle scelte 
 
@@ -57,7 +50,7 @@ Utilizzando l'esplorazione in base a facet, è possibile configurare differenti 
 
 Nella figura seguente è illustrato un esempio in cui l'esplorazione in base a facet è utilizzata in una ricerca.
 
-![Riepilogo delle scelte](./media/ChoiceSummary.png)
+![Riepilogo delle scelte.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Suggerimento automatico immersivo
 
@@ -67,7 +60,7 @@ Dynamics 365 Commerce supporta inoltre funzionalità per le corrispondenze con p
 
 Nella figura seguente è illustrato un esempio di utilizzo della funzionalità di suggerimento automatico immersivo.
 
-![Suggerimento automatico immersivo](./media/ImmersiveAutoSuggestUX.png)
+![Suggerimento automatico immersivo.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Ordina
 
@@ -75,10 +68,13 @@ L'ordinamento migliorato in Dynamics 365 Commerce consente ai clienti di ordinar
 
 >[!NOTE]
 >Queste funzionalità di ricerca basate su cloud sono disponibili a partire dalla versione 10.0.8. Verifica che in **Parametri di commercio > Parametri di configurazione** c'è una voce per "ProductSearch.UseAzureSearch impostata su 'true'". 
-![Parametri di configurazione per la ricerca basata su cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+![Parametri di configurazione per la ricerca basata su cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite](category-search-page-overview.md)
+[Panoramica della pagina di destinazione di categoria e della pagina dei risultati di ricerca predefinite](category-search-page-overview.md)
 
 [Gestire i metadati SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

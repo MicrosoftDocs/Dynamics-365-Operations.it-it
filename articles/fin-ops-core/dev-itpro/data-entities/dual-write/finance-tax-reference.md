@@ -9,20 +9,20 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 897cc7bb3515dfbd545fa27781a5abf8e8198107
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: c24f3cb6bdc9dc6e287bf2ff06792cb1c643f474
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782966"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8061785"
 ---
 # <a name="access-to-finance-and-tax-reference-data"></a>Accesso ai dati finanziari e di riferimento imposte
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Ogni azienda lavora con una serie di dati finanziari di base, come l'anno del calendario fiscale, la valuta in cui viene effettuata la transazione, i conti da cui provengono o escono i soldi per la gestione dell'azienda, le aliquote fiscali e le rimesse. Questi dati risiedono nelle app Finance and Operations. Tuttavia, sono esposti a Dataverse in modo che le app customer engagement possano avere un'unica fonte per dati finanziari e di imposte. In questo modo, i dati sono uniformi in tutto l'ecosistema aziendale.
+
+Ogni azienda lavora con una serie di dati finanziari di base, come l'anno del calendario fiscale, la valuta in cui viene effettuata la transazione, i conti da cui provengono o escono i soldi per la gestione dell'azienda, le aliquote fiscali e le rimesse. Questi dati risiedono nelle app per finanza e operazioni. Tuttavia, sono esposti a Dataverse in modo che le app customer engagement possano avere un'unica fonte per dati finanziari e di imposte. In questo modo, i dati sono uniformi in tutto l'ecosistema aziendale.
 
 I dati finanziari e di imposte vengono integrati utilizzando i seguenti mapping:
 

@@ -1,26 +1,28 @@
 ---
 title: Panoramica dei criteri di acquisto
 description: Questo articolo fornisce informazioni sui criteri di acquisto. I criteri di acquisto rappresentano raccolte di regole per il controllo del processo di richiesta di acquisto. I criteri di acquisto consentono agli amministratori di approvvigionamento di implementare la strategia di approvvigionamento creando una struttura di criteri in linea con le esigenze per gli acquisti strategici dell'organizzazione.
-author: kamaybac
+author: Henrikan
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 11614
+ms.custom:
+- "11614"
+- intro-internal
 ms.assetid: 729a304d-0f3f-4ccb-bd5b-46ee0976c57f
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2c69ab02ea9e6a5a5699a204258243d6204413b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3cc150ae1a912fbfb4daf505e4240786c2f380a3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825304"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982279"
 ---
 # <a name="purchasing-policies-overview"></a>Panoramica dei criteri di acquisto
 

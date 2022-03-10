@@ -2,11 +2,9 @@
 title: Dimensioni oggetto di costo
 description: Quando si analizzano i costi, si usano le dimensioni elemento di costo per determinare la destinazione del flusso dei costi. Le dimensioni oggetto di costo sono utilizzate per determinare dove assegnare i costi. In questo argomento vengono fornite informazioni sulle dimensioni oggetto di costo.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionMember, CAMCostObject
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 77b538ef1b427fba28bbd130cff301c4c3fcc9a9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e266a9ee2f47b819a4074291ad4a52d8df46ce1abe4f16308a3645375cd2dd80
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226344"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727398"
 ---
 # <a name="cost-object-dimensions"></a>Dimensioni oggetto di costo
 
@@ -36,7 +34,7 @@ Un oggetto di costo può essere qualsiasi tipo di oggetto da stimare, a cui allo
 ## <a name="cost-object-dimensions-and-cost-object-dimension-members"></a>Dimensioni oggetto di costo e membri di dimensioni oggetto di costo
 Gli oggetti di costo sono definiti come *dimensioni oggetto di costo*. Una volta deciso a quale entità la dimensione oggetto di costo deve fare riferimento, è necessario specificare i singoli valori di dimensione o importarli nella contabilità industriale da altri sistemi di origine. I singoli valori delle dimensioni vengono denominati *membri delle dimensioni oggetto di costo*. Ad esempio, si desidera utilizzare la dimensione finanziaria denominata Centro di costo come dimensione oggetto di costo. Per visualizzare come i costi fluiscono nei singoli centri di costo, è necessario importare i membri delle dimensioni oggetto di costo. In questo caso, i membri delle dimensioni oggetto di costo sono gli effettivi centri di costo, ad esempio Vendite, Produzione, Amministrazione e Località geografiche. Nella schermata seguente è illustrato un esempio di centri di costo come dimensione oggetto di costo con i relativi centri di costo effettivi come membri della dimensione oggetto di costo. 
 
-[![Screenshot che mostra i centri di costo come dimensione dell'oggetto di costo](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
+[![Screenshot che mostra i centri di costo come dimensione dell'oggetto di costo.](./media/cost-object-dimensions.png)](./media/cost-object-dimensions.png)
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>Importare i membri delle dimensioni oggetto di costo tramite connettori dati
 Per semplificare l'importazione di membri delle dimensioni oggetto di costo si utilizzano i connettori dati per recuperare i valori dalle entità che si desidera utilizzare come dimensioni oggetto di costo. È possibile utilizzare connettori dati predefiniti oppure crearne di propri personalizzati.

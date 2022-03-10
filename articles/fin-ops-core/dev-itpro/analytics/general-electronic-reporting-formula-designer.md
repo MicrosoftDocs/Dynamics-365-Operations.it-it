@@ -2,11 +2,9 @@
 title: Designer formula nella creazione di report elettronici (ER)
 description: In questo argomento sono riportate le informazioni sull'utilizzo di designer formula nella creazione di report elettronici (ER).
 author: NickSelin
-manager: kfend
 ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777406"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
@@ -60,11 +58,11 @@ Il Designer formula ER può essere utilizzato per definire un'espressione che tr
 
 La figura seguente mostra la progettazione di un'espressione di questo tipo. In questo esempio, l'espressione arrotonda a due posizioni decimali il valore del campo **Intrastat.AmountMST** nella tabella Intrastat e quindi restituisce il valore arrotondato.
 
-[![Espressione di associazione dati](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
+[![Espressione di associazione dati.](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg)
 
 La figura seguente mostra come è possibile utilizzare un'espressione di questo tipo. In questo esempio, il risultato dell'espressione pianificata è immesso nel componente **Transaction.InvoicedAmount** del modello dati **Modello di dichiarazione imposte**.
 
-[![Espressione di associazione dati utilizzata](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
+[![Espressione di associazione dati utilizzata.](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg)
 
 In fase di esecuzione, la formula progettata, `ROUND (Intrastat.AmountMST, 2)`, arrotonda a due posizioni decimali il valore del campo **AmountMST** per ogni record della tabella Intrastat. Quindi immette il valore arrotondato nel componente **Transaction.InvoicedAmount** del modello dati **Dichiarazione imposte**.
 
@@ -74,17 +72,17 @@ Il Designer formula ER può essere utilizzato per definire un'espressione che fo
 
 La figura seguente mostra la progettazione di una trasformazione di questo tipo. In questo esempio, la trasformazione **TrimmedString** tronca i dati in ingresso del tipo di dati *String* rimuovendo spazi iniziali e finali. Restituisce quindi il valore stringa troncato.
 
-[![Trasformazione](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
+[![Trasformazione.](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg)
 
 La figura seguente mostra come è possibile utilizzare una trasformazione di questo tipo. In questo esempio, più componenti di formato inviano testo come output per la generazione del documento elettronico in fase di runtime. Tutti questi componenti del formato fanno riferimento alla trasformazione **TrimmedString** per nome.
 
-[![Trasformazione utilizzata](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
+[![Trasformazione utilizzata.](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg)
 
 Quando i componenti del formato fanno riferimento alla trasformazione **TrimmedString** (ad esempio, il componente **partyName** della precedente figura), la trasformazione invia il testo come output alla generazione del documento elettronico. Questo testo non include gli spazi iniziali e finali.
 
 Se una formattazione deve essere applicata singolarmente, può essere introdotta come singola espressione di associazione di un determinato componente di formato. La figura seguente mostra un'espressione di questo tipo. In questo esempio, il componente di formato **partyType** è associato all'origine dati mediante un'espressione che converte i dati in ingresso dal campo **Model.Company.RegistrationType** nell'origine dati in testo maiuscolo. L'espressione invia quindi il testo come output al documento elettronico.
 
-[![Applicazione della formattazione a un singolo componente](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+[![Applicazione della formattazione a un singolo componente.](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ## <a name="process-flow-control"></a><a name="Validation"></a>Controllo del flusso del processo
 
@@ -100,7 +98,7 @@ Ogni regola del controllo del flusso del processo è progettata come singola con
 - Se l'elenco delle transazioni è vuoto, la convalida interrompe il processo di esecuzione restituisce **FALSE**.
 - La convalida restituisce un messaggio di errore che include il testo dell'etichetta SYS70894 nella lingua preferita dell'utente.
 
-[![Convalida](./media/picture-validation.jpg)](./media/picture-validation.jpg)
+[![Convalida.](./media/picture-validation.jpg)](./media/picture-validation.jpg)
 
 Designer formula ER può essere utilizzato anche per generare un nome file per la generazione di un documento elettronico e per controllare il processo di creazione del file. La figura seguente mostra la progettazione di un controllo del flusso di processo di questo tipo. Ecco una spiegazione della configurazione in questo esempio:
 
@@ -109,7 +107,7 @@ Designer formula ER può essere utilizzato anche per generare un nome file per l
 - Un'espressione restituisce un nome file per la generazione dei documenti elettronici concatenando il nome file e l'estensione del nome file. Per il secondo batch e tutti i batch successivi, il nome file contiene l'ID batch come suffisso.
 - Un'espressione abilita (restituendo **TRUE**) il processo di creazione file solo per i batch che contengono almeno un record.
 
-[![Controllo del flusso del processo](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+[![Controllo del flusso del processo.](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
 ## <a name="document-content-control"></a><a name="Enabled"></a>Controllo del contenuto dei documenti
 
@@ -123,18 +121,18 @@ La figura seguente mostra espressioni di questo tipo. (La versione 11.12.11 dell
 - Il componente **PaymentNotes** viene utilizzato per generare il testo delle note di pagamento.
 - Il componente **DelimitedSequence** genera numeri di fattura separati con virgole utilizzati per liquidare il bonifico corrente.
 
-[![Componenti PaymentNotes e DelimitedSequence](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+[![Componenti PaymentNotes e DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
 
 > [!NOTE]
 > I componenti **DelimitedSequence** e **PaymentNotes** sono etichettati utilizzando un punto interrogativo. Un punto interrogativo indica che l'uso di un componente è condizionale. In questo caso, l'uso dei componenti si basa sui seguenti criteri:
 >
 > - L'espressione `@.PaymentsNotes <> ""` definita per il componente **PaymentNotes** consente (restituendo **TRUE**) che l'elemento XML **Ustrd** venga riempito con il testo delle note di pagamento, se questo testo per il bonifico corrente non è vuoto.
 >
->    [![Espressione per il componente PaymentNotes](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+>    [![Espressione per il componente PaymentNotes.](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
 >
 > - L'espressione `@.PaymentsNotes = ""` definita per il componente **DelimitedSequence** consente (restituendo **TRUE**) che l'elemento XML **Ustrd** venga riempito con un elenco separato con virgole dei numeri di fattura utilizzati per liquidare il bonifico corrente, se il testo delle note di pagamento per tale bonifico è vuoto.
 >
->    [![Espressione per il componente DelimitedSequence](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+>    [![Espressione per il componente DelimitedSequence.](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
 > 
 > In base a questa impostazione, il messaggio che viene generato per ogni pagamento debitore, l'elemento XML **Ustrd**, conterrà il testo delle note di pagamento o, quando questo testo è vuoto, l'elenco separato con virgole dei numeri di fattura utilizzati per liquidare il pagamento.
 
@@ -142,7 +140,7 @@ La figura seguente mostra espressioni di questo tipo. (La versione 11.12.11 dell
 
 Nella pagina **Designer formula**, selezionare **Test** per convalidare il funzionamento della formula configurata.
 
-[![Selezione di Test per convalidare una formula](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
+[![Selezione di Test per convalidare una formula.](./media/ER-FormulaTest-Start.png)](./media/ER-FormulaTest-Start.png)
 
 Quando sono richiesti i valori degli argomenti della formula, è possibile aprire la finestra di dialogo **Espressione test** dalla pagina **Designer formula**. Nella maggior parte dei casi, questi argomenti devono essere definiti manualmente poiché le associazioni configurate non vengono eseguite in fase di progettazione. La scheda **Risultato test** nella pagina **Designer formula** mostra il risultato dell'esecuzione della formula configurata.
 
@@ -150,17 +148,20 @@ L'esempio seguente mostra come testare la formula configurata per il dominio del
 
 Quando si testa questa formula, è possibile utilizzare la finestra di dialogo **Espressione test** per specificare il valore del codice voce doganale Intrastat per il test.
 
-[![Specifica del codice voce doganale Intrastat per il test](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
+[![Specifica del codice voce doganale Intrastat per il test.](./media/ER-FormulaTest-Start-EnterArguments.png)](./media/ER-FormulaTest-Start-EnterArguments.png)
 
 Dopo aver specificato il codice voce doganale Intrastat e selezionato **OK**, la scheda **Risultato test** nella pagina **Designer formula** mostra il risultato dell'esecuzione della formula configurata. È quindi possibile valutare se il risultato è accettabile. Se il risultato non è accettabile, è possibile aggiornare la formula e testarla di nuovo.
 
-[![Risultato test](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
+[![Risultato del test.](./media/ER-FormulaTest-Result.png)](./media/ER-FormulaTest-Result.png)
 
 Alcune formule non possono essere testate in fase di progettazione. Ad esempio, una formula potrebbe restituire un risultato di un tipo di dati che non può essere mostrato nella scheda **Risultato test**. In questo caso, viene visualizzato un messaggio di errore che indica che la formula non può essere testata.
 
-[![Messaggio di errore](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
+[![Messaggio di errore.](./media/ER-FormulaTest-Error.png)](./media/ER-FormulaTest-Error.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - [Panoramica sui report elettronici](general-electronic-reporting.md)
 - [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

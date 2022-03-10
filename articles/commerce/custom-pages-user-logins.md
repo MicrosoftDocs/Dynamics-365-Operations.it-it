@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f4a3c7c3410a903ae7bc0bac27e861a0dbfa19fdd65761628549c403c4e5db16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799447"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723265"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Impostare pagine personalizzate per l'accesso degli utenti
 
@@ -32,7 +32,7 @@ Per utilizzare pagine personalizzate create in Dynamics 365 Commerce per gestire
 Le pagine personalizzate di Commerce possono essere generate utilizzando il modulo Accesso, Iscrizione, Modifica profilo account, Reimpostazione password o AAD generico. Agli URL di pagina pubblicati per queste pagine personalizzate è quindi necessario fare riferimento nelle configurazioni dei criteri B2C di Azure AD nel portale di Azure.
 
 > [!WARNING] 
-> Azure AD B2C ritirerà i vecchi flussi di utenti (legacy) entro il 1° agosto 2021. Pertanto, è necessario pianificare la migrazione dei flussi utente alla nuova versione consigliata. La nuova versione fornisce funzionalità uguali e nuove funzionalità. Per ulteriori informazioni, vedi [Flussi utente in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> Azure AD B2C ritirerà i vecchi flussi di utenti (legacy) entro il 1° agosto 2021. Pertanto, è necessario pianificare la migrazione dei flussi utente alla nuova versione consigliata. La nuova versione fornisce funzionalità uguali e nuove funzionalità. Per ulteriori informazioni, vedi [Flussi utente in Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
 
 >La libreria del modulo per Commerce versione 10.0.15 o successiva deve essere utilizzata con i flussi utente B2C consigliati. Le pagine dei criteri utente predefiniti offerte in Azure AD B2C possono essere utilizzate e consentono l'aggiunta di immagini di sfondo, del logo e del colore di sfondo relativi al marchio aziendale. Sebbene più limitate in capacità di progettazione, le pagine dei criteri utente predefiniti forniscono la funzionalità dei criteri Azure AD B2C senza creare e configurare pagine personalizzate dedicate. 
 
@@ -40,7 +40,7 @@ Le pagine personalizzate di Commerce possono essere generate utilizzando il modu
 
 Dopo l'impostazione del tenant B2C di Azure AD e l'associazione dello stesso all'ambiente di Commerce, passare alla pagina **Azure AD B2C** nel portale di Azure, quindi scegliere dal menu **Criteri** e selezionare **Flussi utente (criteri)**.
 
-![Comando Flussi utente (criteri)](./media/B2C_CustomPage_PoliciesMenu.png)
+![Comando Flussi utente (criteri) nel menu.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 Ora è possibile configurare i flussi di accesso utente "Iscrizione e accesso", "Modifica profilo" e "Reimpostazione password".
 
@@ -54,13 +54,13 @@ Per configurare il criterio "Iscrizione e accesso", effettuare le seguenti opera
 1. Nella colonna **Raccogli l'attributo**, selezionare le caselle di controllo per **Indirizzo di posta elettronica**, **Nome** e **Cognome**.
 1. Nella colonna **Restituisci l'attestazione**, selezionare le caselle di controllo **Indirizzi di posta elettronica**, **Nome**, **Provider di identità**, **Cognome** e **ID oggetto utente**.
 
-    ![Attributi e attestazioni selezionati](./media/B2C_SignInSignUp_Attributes.png)
+    ![Attributi e attestazioni selezionati.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Selezionare **OK** per creare il criterio.
 1. Fare doppio sul nome del nuovo criterio, quindi, nel pannello di navigazione, selezionare **Proprietà**.
 1. Impostare l'opzione **Abilita JavaScript con imposizione del layout di pagina (anteprima)** su **Attivo**.
 
-    ![La pagina delle proprietà per il nuovo criterio](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![La pagina delle proprietà per il nuovo criterio.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > Al nome del criterio viene fatto riferimento nell'ambiente di Commerce. Il prefisso **B2C\_1\_** verrà incluso nel riferimento. I criteri non possono essere rinominati dopo essere stati creati. Se si sostituisce un criterio esistente per l'ambiente di Commerce, è possibile eliminare il criterio originale e creare un nuovo criterio che ha lo stesso nome. In alternativa, se è già stato eseguito il provisioning dell'ambiente, è possibile inviare il nuovo criterio mediante una richiesta di assistenza.
@@ -150,7 +150,7 @@ Aggiornare il criterio "Iscrizione e accesso" con informazioni sulle pagine pers
     1. Per gli attributi **Indirizzo di posta elettronica**, **Nome** e **Cognome**, selezionare **No** nella colonna **Facoltativo**.
 1. Selezionare **Salva**.
 
-    ![Configurazione del criterio Pagina di iscrizione dell'account locale](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Configurazione del criterio Pagina di iscrizione dell'account locale.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>Aggiornare il criterio "Modifica profilo" con informazioni sulle pagine personalizzate
 
@@ -188,11 +188,11 @@ Nella libreria di moduli, i moduli Accesso sono precompilati con stringhe di tes
 
 Ad esempio, il testo predefinito per il collegamento per la password dimenticata è **Password dimenticata?**. Quanto seguente mostra questo testo predefinito nella pagina di accesso.
 
-![Testo predefinito per il collegamento per la password dimenticata nella pagina di accesso](./media/B2C_SignUp_ModuleFace.png)
+![Testo predefinito per il collegamento per la password dimenticata nella pagina di accesso.](./media/B2C_SignUp_ModuleFace.png)
 
 Tuttavia, nel file global.json per il modulo Accesso della libreria di moduli, è possibile modificare il testo in **Hai dimenticato la password?**, come illustrato nella figura seguente.
 
-![Testo del collegamento aggiornato nel file global.json del modulo Accesso](./media/B2C_CustomizingStringsForModule.png)
+![Testo del collegamento aggiornato nel file global.json del modulo Accesso.](./media/B2C_CustomizingStringsForModule.png)
 
 Una volta aggiornato il file global.json e pubblicato le modifiche, il nuovo testo del collegamento è visualizzato nel modulo Accesso in Commerce e nella pagina di accesso live.
 

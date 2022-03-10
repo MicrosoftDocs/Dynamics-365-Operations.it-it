@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359079"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573035"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking pianificato
 
@@ -117,6 +117,9 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
     - **Numero progressivo:** *1*
     - **Fonte di approvvigionamento:** *Ordine fornitore*
 
+> [!NOTE]
+> È possibile impostare una query per verificare se un determinato modello di cross-docking è utilizzato. La query per i modelli di cross-docking ha solo la tabella *Invent Table* (articoli) e la tabella *WHSInventTable* (articoli WHS) inner join. Se vuoi aggiungere altre tabelle alla query, puoi unirle usando solo join *exist* o *not exist*. Quando si filtrano le tabelle unite, viene recuperato un record dalla tabella principale per ogni record corrispondente nella tabella unita. Se il tipo di join è *exist*, la ricerca termina dopo che è stata trovata la prima corrispondenza. Ad esempio, se unisci la tabella della riga dell'ordine cliente alla tabella degli articoli, il sistema convalida e restituisce gli articoli per i quali almeno una riga dell'ordine cliente presenta la condizione definita. In sostanza, i dati vengono recuperati dalla tabella padre (articoli), non dalla tabella figlio (riga ordine cliente). Pertanto, il filtro in base a documenti di origine come righe di ordini cliente o clienti non può essere eseguito immediatamente.
+
 ### <a name="create-a-work-class"></a>Creare una classe di lavoro
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Lavoro \> Classi di lavoro**.
@@ -151,6 +154,9 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
     - **ID classe lavoro:** *CrossDock*
 
 1. Seleziona **Salva** e verifica che la casella di controllo **Valido** sia selezionata per il modello *51 Cross-docking*.
+1. Opzionale: Seleziona **Modifica query** se vuoi impostare criteri per controllare quando e dove viene utilizzato il modello di lavoro.
+
+    Puoi impostare una query per verificare se un determinato modello di lavoro è utilizzato. Ad esempio, è possibile specificare che un modello può essere utilizzato per il lavoro solo in un'ubicazione specifica. Se desideri che il modello di lavoro cross-docking venga applicato in un'ubicazione specifica, è necessario filtrare in base al campo **Ubicazione di partenza** e non al campo **Ubicazione** perché la creazione del lavoro per i processi in entrata (acquisto, cross-docking e riapprovvigionamento) inizia dalla riga di inserimento. Quando viene creato il lavoro, la direttiva di ubicazione imposta il campo **Ubicazione** sull'ubicazione di stoccaggio. Tuttavia, l'ubicazione di prelievo è memorizzata nel campo **Ubicazione di inizio**.
 
 > [!NOTE]
 > Gli ID della classe di lavoro per i tipi di lavoro *Preleva* e *Inserisci* devono essere gli stessi.

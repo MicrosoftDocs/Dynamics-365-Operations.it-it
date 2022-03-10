@@ -2,7 +2,6 @@
 title: Analizzare i documenti in entrata in formato Excel
 description: In questo argomento vengono fornite informazioni sulla progettazione di formati di report elettronici (ER) per analizzare il contenuto nei file di Microsoft Excel ricevuti.
 author: NickSelin
-manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 847b3309a3e0daf7b341c4ba4a58a8ea0902e61c
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d4ebad1b800abe77871bfa3e550a95f1fe2bfcc4692301cf79fb8b98a0b3f233
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772915"
 ---
 # <a name="parse-incoming-documents-in-excel-format"></a>Analizzare i documenti in entrata in formato Excel
 

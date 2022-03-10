@@ -2,32 +2,29 @@
 title: Automazione delle fatture per documenti digitalizzati
 description: In questo argomento vengono illustrate le funzionalità disponibili per l'automazione completa delle fatture fornitore, anche delle fatture che includono allegati.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6d19d0e10f477e498e8f0fff1f431bc4bfdd9a1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722769"
 ---
-# <a name="invoice-automation-for-scanned-documents"></a>Automazione delle fatture per documenti digitalizzati
+# <a name="invoice-automation-for-scanned-documents"></a>Automazione delle fatture per i documenti digitalizzati
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono illustrate le funzionalità disponibili per l'automazione completa delle fatture fornitore, anche delle fatture che includono allegati.
+In questo argomento vengono illustrate le entità di dati disponibili per l'automazione completa delle fatture fornitore, tra cui le fatture che includono allegati.
 
 Le organizzazioni che desiderano semplificare i processi di contabilità fornitori (AP) spesso identificano l'elaborazione delle fatture come una delle principali aree in cui dovrebbero essere più efficienti. In molti casi, queste organizzazioni scaricano l'elaborazione delle fatture cartacee a un provider di servizi OCR di terze parti. Ricevono poi i metadati della fattura leggibile a computer insieme a un'immagine digitalizzata di ogni fattura. Per agevolare l'automazione, viene integrata "una soluzione nella fase finale" per consentire l'utilizzo di questi elementi nel sistema di fatturazione. Ora questa fase finale automatizzata è abilitata come soluzione predefinita, attraverso una soluzione di automazione delle fatture.
 
@@ -37,7 +34,7 @@ La soluzione di automazione delle fatture è un'interfaccia standard in grado di
 
 Nella figura seguente è illustrato uno scenario di integrazione di esempio in cui Contoso è associato a un provider di servizi OCR per l'elaborazione delle fatture fornitore. I fornitori di Contoso inviano le fatture al provider di servizi tramite posta elettronica. Tramite l'elaborazione OCR, il provider di servizi genera i metadati della fattura (intestazione e/o righe) e un'immagine digitalizzata della fattura. Un livello di integrazione trasforma quindi questi elementi in modo che siano utilizzabili.
 
-![Scenario di integrazione di esempio](media/vendor_invoice_automation_01.png)
+![Scenario di integrazione di esempio.](media/vendor_invoice_automation_01.png)
 
 Più variazioni dello scenario precedente sono possibili se è richiesta l'integrazione delle fatture. La migrazione dei dati è un altro caso di utilizzo in cui questa interfaccia può essere utilizzata per creare fatture e allegati.
 
@@ -91,11 +88,11 @@ Le fatture che vengono importate tramite il pacchetto dati possono essere associ
 
 Negli scenari in cui le fatture fornitore vengono immesse in Finance and Operations tramite l'integrazione, è necessario fornire al membro del team della contabilità fornitori un modo facile per elaborare le eccezioni o fatture non riuscite e creare fatture in sospeso relative alle fatture non riuscite. Questa elaborazione delle eccezioni per le fatture fornitori è ora parte di Finance and Operations.
 
-### <a name="exceptions-list-page"></a>Pagina elenco delle eccezioni
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Fatture fornitore che non sono riuscite a importare la pagina elenco
 
-La nuova pagina elenco delle fatture fornitori è disponibile in **Contabilità fornitori** > **Fatture** > **Errori di importazione** > **Fatture fornitore non importate**. Questa pagina visualizza tutti i record di intestazione delle fatture fornitore dalla tabella di gestione temporanea dell'entità dati intestazione della fattura fornitore. Tenere presente che è possibile visualizzare gli stessi record dall'area di lavoro **Gestione dati**, in cui è possibile eseguire le stesse azioni che sono fornite nella funzionalità di gestione delle eccezioni. Tuttavia, l'interfaccia utente che la funzionalità di gestione delle eccezioni fornisce è ottimizzata per un utente funzionale.
+La nuova pagina elenco delle fatture fornitori è disponibile in **Contabilità fornitori** > **Fatture** > **Errori di importazione** > **Fatture fornitore non importate**. Questa pagina visualizza tutti i record di intestazione delle fatture fornitore dalla tabella di gestione temporanea dell'entità dati intestazione della fattura fornitore. Tieni presente che puoi visualizzare gli stessi record dall'area di lavoro **Gestione dati**. Puoi eseguire le stesse azioni che sono fornite nella funzionalità di gestione delle eccezioni dall'area di lavoro **Gestione dati**. La funzionalità di gestione delle eccezioni è stata ottimizzata per un utente funzionale, il che ne semplifica l'utilizzo.
 
-![Pagina elenco delle eccezioni](media/vendor_invoice_automation_02.png)
+![Pagina elenco delle eccezioni.](media/vendor_invoice_automation_02.png)
 
 Questa pagina elenco include i seguenti campi forniti tramite feed:
 
@@ -119,24 +116,17 @@ Questa pagina elenco include i seguenti campi forniti tramite feed:
 Questa pagina elenco presenta anche un riquadro di anteprima che è possibile utilizzare nei seguenti modi:
 
 + Per visualizzare l'intero messaggio di errore, in modo che non sia necessario espandere la colonna **Messaggio di errore** della griglia.
-+ Per visualizzare l'elenco di allegati per la fattura, se presenti.
 
 La pagina elenco supporta le seguenti azioni:
 
 + **Modifica** - Aprire il record di eccezione in modalità di modifica, in modo da poter correggere gli errori.
 + **Opzioni** - Accedere alle opzioni standard disponibili nelle pagine elenco. È possibile utilizzare l'opzione **Aggiungi ad area di lavoro** per appuntare la pagina elenco delle eccezioni sull'area di lavoro come elenco o riquadro.
 
-### <a name="exception-details-page"></a>Pagina dettagli delle eccezioni
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Fatture fornitore che non sono riuscite a importare la pagina dettagli
 
-Quando si avvia la modalità di modifica, viene visualizzata la pagina dettagli delle eccezioni per la fattura che presenta degli errori. Se sono presenti degli allegati, la fattura e l'allegato predefinito vengono visualizzati parallelamente nella pagina dettagli delle eccezioni.
+Quando si avvia la modalità di modifica, viene visualizzata la pagina **Fatture fornitore che non sono riuscite a importare i dettagli** per la fattura con problemi. Se ci sono problemi con una fattura che ha un allegato, l'allegato non verrà visualizzato. L'allegato deve essere riallegato alla fattura.
 
-![Pagina dettagli delle eccezioni](media/vendor_invoice_automation_03.png)
-
-Nella figura precedente non sono presenti righe per l'intestazione della fattura fornitore immesse. La sezione delle righe è pertanto vuota.
-
-La pagina dettagli delle eccezioni supporta le seguenti operazioni:
-
-+ **Crea fattura in sospeso** - Dopo aver corretto i problemi nella fattura come parte del processo di gestione delle eccezioni, è possibile fare clic su questo pulsante per creare la fattura in sospeso. La creazione di fatture in sospeso viene effettuata in background (come operazione asincrona).
+La pagina **Fatture fornitore che non sono riuscite a importare i dettagli** ti consente di creare una fattura in sospeso. Dopo aver corretto i problemi in una fattura come parte del processo di gestione delle eccezioni, seleziona il pulsante **Crea fattura in sospeso** per creare la fattura in sospeso. La fattura in sospeso verrà creata in background. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Elaborazione delle eccezioni basata sull'organizzazione rispetto al servizio condiviso
 
@@ -144,9 +134,9 @@ La pagina elenco delle eccezioni supporta i costrutti di sicurezza standard che 
 
 + Per ruolo utente
 + Per utente
-+ Per entità giuridica
++ In base all'entità giuridica
 
-![Importare il processo che viene protetto per ruolo utente e per persona giuridica](media/vendor_invoice_automation_04.png)
+![Importare il processo che viene protetto per ruolo utente e per persona giuridica.](media/vendor_invoice_automation_04.png)
 
 Se viene configurata la sicurezza per il processo di importazione della fattura, la pagina elenco delle eccezioni rispetta queste impostazioni. Gli utenti potranno vedere solo i record delle eccezioni fatture che questa impostazione consente loro di visualizzare.
 
@@ -188,7 +178,7 @@ Se una fattura fornitore contiene più di un allegato, è possibile impostare un
 
 Un nuovo pulsante disponibile nelle pagina di richiesta **Elaborazione delle eccezioni**, **Fattura in sospeso** e **Giornale di registrazione fatture** consente di mostrare o nascondere il visualizzatore di allegati.
 
-### <a name="security"></a>Sicurezza
+## <a name="security"></a>Sicurezza
 
 Le azioni seguenti nel visualizzatore allegati sono controllate tramite la sicurezza basata sui ruoli:
 
@@ -213,7 +203,7 @@ I ruoli seguenti forniscono l'accesso in sola lettura o l'accesso in lettura/scr
 + **Addetto contabilità fornitori** e **Responsabile contabilità fornitori** - Il compito Gestisci fatture fornitore viene assegnato a questi ruoli.
 + **Addetto contabilità fornitori**, **Responsabile contabilità fornitori**, **Addetto pagamenti centralizzati contabilità fornitori** e **Addetto pagamenti contabilità fornitori** - Il compito Richiedi informazioni sullo stato delle fatture fornitore viene assegnato a questi ruoli.
 
-### <a name="invoice-exception-details-page"></a>Pagina dettagli delle eccezioni fatture
+### <a name="vendor-invoice-attachment"></a>Allegato della fattura fornitore
 
 I privilegi seguenti forniscono l'accesso in sola lettura o l'accesso in lettura/scrittura al visualizzatore di allegati per le azioni di evidenziazione, blocco e annotazione.
 
@@ -232,3 +222,6 @@ I ruoli seguenti forniscono l'accesso in sola lettura al visualizzatore di alleg
 + **Addetto contabilità fornitori** e **Responsabile contabilità fornitori** - Il compito Gestisci fatture fornitore viene assegnato a questi ruoli.
 
 Per impostazione predefinita, se il ruolo utente fornisce i diritti di modifica in una pagina qualsiasi, l'utente avrà diritti di modifica anche nel visualizzatore di allegati per le azioni di evidenziazione, blocco e annotazione. Tuttavia, se vi sono scenari in cui un ruolo specifico deve avere diritti di modifica nella pagina ma non nel visualizzatore di allegati, è possibile utilizzare i privilegi appropriati dall'elenco precedente per soddisfare il caso di utilizzo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

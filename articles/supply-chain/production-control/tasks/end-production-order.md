@@ -2,11 +2,9 @@
 title: Chiudere un ordine di produzione
 description: Questa procedura indica come terminare un ordine di produzione.
 author: johanhoffmann
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 994f4ca578de970876f714bb397afeea1f39c15c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bb87a8df77ecced213b4bd61c40fa372b092ab765528e1cd96274cf79537d521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765956"
 ---
 # <a name="end-a-production-order"></a>Chiudere un ordine di produzione
 

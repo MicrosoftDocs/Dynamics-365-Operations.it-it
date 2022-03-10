@@ -1,8 +1,8 @@
 ---
 title: Configurare tipi di congedo e assenza
 description: Impostare i tipi di congedo che i dipendenti possono prendere in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/01/2020
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,20 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 76b8661c4c6d8fe6cf0568be966f1652b95b5442
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056614"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067329"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurare tipi di congedo e assenza
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -65,20 +68,52 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 
 1. Impostare opzioni di arrotondamento per il tipo di congedo. Le opzioni includono **Nessuno**, **Su**, **Giù** e **Al più vicino**. È inoltre possibile impostare la precisione di arrotondamento per il tipo di congedo.
 
-2. Impostare **Correzione giorni festivi** per il tipo di congedo. Quando si seleziona questa opzione, Human Resources utilizza il numero di giorni festivi che cadono in un giorno lavorativo per determinare come accumulare permessi per il tipo di congedo. Ad esempio, se il giorno di Natale cade di lunedì, Human Resources sottrarrà un giorno dal tipo di congedo durante l'elaborazione degli accumuli.
+2. Impostare **Correzione giorni festivi** per il tipo di congedo. Quando si seleziona questa opzione, il numero di giorni festivi che cadono in un giorno lavorativo viene usato per determinare come accumulare permessi per il tipo di congedo. Ad esempio, se il giorno di Natale cade di lunedì, Human Resources sottrarrà un giorno dal tipo di congedo durante l'elaborazione degli accumuli.
 
-   i giorni festivi sono impostati nel calendario orario lavorativo. Per ulteriori informazioni, vedere [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md).
+   i giorni festivi sono impostati nel calendario orario lavorativo. Per ulteriori informazioni, vedi [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md).
    
  3. Impostare **Tipo di congedo riportabile** per il tipo di congedo. Quando si seleziona questa opzione, tutti i saldi riportabili verranno trasferiti al tipo di congedo specificato. Anche il tipo di congedo riportabile deve essere incluso nel piano di congedo e assenza. 
  
- 4. Definire **Regole di scadenza** per il tipo di congedo. Quando si configura questa opzione, è possibile scegliere l'unità di giorni o mesi e impostare la durata per la scadenza. È inoltre possibile impostare la data di validità della regola di scadenza. La data di validità viene utilizzata per determinare quando avviare l'esecuzione del processo batch che elabora la scadenza del congedo o la data alla quale la regola diventa effettiva. La scadenza stessa avverrà sempre alla data di inizio del piano di congedo una volta che il processo batch è impostato per l'elaborazione. Ad esempio, la data di inizio del piano può essere 1/1/2020, ma la regola non è stata creata fino al 6/1/2020. Impostando la data di validità su 6/1/2020, la regola verrà elaborata al limite dell'anno successivo, quindi 1/1/2021. Eventuali saldi di congedi esistenti al momento della scadenza verranno sottratti dal tipo di congedo e si rifletteranno nel saldo di congedi. 
+4. Definire **Regole di scadenza** per il tipo di congedo. Quando si configura questa opzione, è possibile scegliere l'unità di giorni o mesi e impostare la durata per la scadenza. La data di validità della regola di scadenza viene utilizzata per determinare quando avviare l'esecuzione del processo batch che elabora la scadenza del congedo o la data alla quale la regola diventa effettiva. La scadenza stessa avverrà sempre alla data di inizio del periodo di accumulo. Ad esempio, se la data di inizio del periodo di accumulo è il 3 agosto 2021 e la regola di scadenza è stata impostata su 6 mesi, la regola verrà elaborata in base allo scostamento di scadenza dalla data di inizio del periodo di accumulo, quindi verrà eseguita il 3 febbraio, 2022. Eventuali saldi di congedi esistenti al momento della scadenza verranno sottratti dal tipo di congedo e si rifletteranno nel saldo di congedi.
  
+## <a name="configure-the-required-attachment-per-leave-type"></a>Configurare l'allegato richiesto per tipo di congedo
+
+> [!NOTE]
+> Per usare il campo **Allegato richiesto**, è necessario prima attivare la funzione **Configura l'allegato richiesto per le richieste di congedo** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
+
+1. Nella pagina **Congedo e assenza** nella scheda **Collegamenti** sotto **Impostazioni**, seleziona **Tipi di congedo e assenza**.
+
+2. Nell'elenco seleziona un tipo di congedo e assenza. Quindi nella sezione **Generale**, usa il campo **Allegato richiesto** per specificare se è necessario caricare un allegato quando un dipendente invia una nuova richiesta di congedo per il tipo di congedo selezionato. 
+
+Ai dipendenti sarà richiesto di caricare un allegato quando inviano una nuova richiesta di congedo con un tipo di congedo in cui il campo **Allegato richiesto** è abilitato. Per visualizzare l'allegato che è stato caricato come parte di una richiesta di congedo, gli approvatori delle richieste di congedo possono utilizzare l'opzione **Allegati** per gli elementi di lavoro loro assegnati. Se si accede a una richiesta di congedo utilizzando l'app Human Resources in Microsoft Teams, l'opzione **Visualizza dettagli** per la richiesta di congedo può essere utilizzata per visualizzarne i dettagli e gli eventuali allegati.
+
+## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Configurare le unità di congedo (ore/giorni) per il tipo di congedo
+
+> [!NOTE]
+> Per utilizzare la funzionalità unità di congedo per tipo di congedo, è necessario prima attivare la funzione **Configurare unità di congedo per tipo di congedo** in Gestione funzionalità. Per ulteriori informazioni su come attivare le funzionalità, vedi [Gestire le funzionalità](hr-admin-manage-features.md).
+
+> [!IMPORTANT]
+> Per impostazione predefinita, i tipi di congedo in una persona giuridica utilizzano le unità di congedo della configurazione dei parametri di congedo a livello di persona giuridica.
+> 
+> L'unità di congedo di un tipo di congedo e assenze può essere modificata solo se non sono presenti transazioni di congedo per quel tipo di congedo.
+> 
+> Una volta attivata, la funzionalità non può essere disattivata.
+
+1. Nella pagina **Congedo e assenza** nella scheda **Collegamenti** sotto **Impostazioni**, seleziona **Tipi di congedo e assenza**.
+
+2. Nell'elenco seleziona un tipo di congedo e assenza. Poi, nella sezione **Generale**, nel campo **Unità** seleziona l'unità di congedo. Puoi selezionare **Ore** o **Giorni**.
+
+3. Facoltativo: se hai selezionato **Ore** nel campo **Unità** puoi usare il campo **Abilita la definizione di mezza giornata** per specificare se i dipendenti possono selezionare la prima mezza giornata o la seconda mezza giornata libera se richiedono una mezza giornata di congedo.
+
+I dipendenti che inviano una nuova richiesta di congedo possono selezionare diversi tipi di congedo per creare la propria richiesta di congedo. Tuttavia, tutti i tipi di congedo selezionati come parte di una singola richiesta di congedo devono avere la stessa unità di congedo. I dipendenti possono visualizzare l'unità di congedo per ogni tipo di congedo nel modulo **Richiedi permesso**.
+
 ## <a name="see-also"></a>Vedere anche
 
 - [Panoramica di congedo e assenza](hr-leave-and-absence-overview.md)
 - [Creare un piano di congedo e assenza](hr-leave-and-absence-plans.md)
 - [Creare un calendario orario di lavoro](hr-leave-and-absence-working-time-calendar.md)
 - [Congedo sospeso](hr-leave-and-absence-suspend-leave.md)
+- [Creare un flusso di lavoro di richieste di acquisto e vendita di congedi](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

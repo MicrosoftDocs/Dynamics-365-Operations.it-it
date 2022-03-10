@@ -1,7 +1,7 @@
 ---
 title: Risorse Operations
 description: Le risorse operative eseguono le attività di un progetto o di un processo di produzione. Possono essere di diversi tipi e possono avere capacità diverse.
-author: sorenva
+author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: sorenand
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 191d5aee93217af19364932a0066464b2af89794
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9296ea874acece9af6be58ccfe777f8713a4d279
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189278"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566721"
 ---
 # <a name="operations-resources"></a>Risorse Operations
 

@@ -3,22 +3,21 @@ title: Panoramica Italia
 description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Italia.
 author: kfend
 ms.date: 12/01/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
 ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac5636506621f9eb60a4e6876753764413e3fb55
-ms.sourcegitcommit: 013196e9737acfc9a3d1f842f351e95f79f64d36
+ms.openlocfilehash: 69e51c05327bd424e939c99f1d1ab2d58cfd9c20
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "7878911"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985587"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 

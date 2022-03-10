@@ -2,7 +2,6 @@
 title: Esaminare le configurazioni per generare report in formato di Office con immagini incorporate
 description: Questo argomento descrive come progettare le configurazioni di creazione di report per generare documenti elettronici che contengono immagini incorporate. (Parte 1 - Impostare i parametri).
 author: NickSelin
-manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6aa5c4d45f9139c65f3aaf1ae392829e3e4967df
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f209fcbac310dffb654f7830a4d4b12fa95d7a461b681864b8c9b547f4a4986c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569439"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717572"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Esaminare le configurazioni per generare report in formato di Office con immagini incorporate
 

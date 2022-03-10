@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 5fc2d99f076c2c8ecba1bba874c30f3d0bd076be
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a8f006c853829f0edfef53a78f21e5516859fb47ee1f2e37de964a0dfc5d692f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748123"
 ---
 # <a name="tax-plafond"></a>Plafond fiscale
 
@@ -50,14 +50,14 @@ Questo argomento descrive come completare queste attività:
 
 3. Nella scheda **Lettere di intenti - Modello telematico** nel campo **Mappatura del formato del modello di lettera di intenti**, specificare il riferimento alla configurazione **Modello telematico lettera di intenti**.
 
-    ![Campo di mappatura del formato del modello di lettera di intenti](media/emea-ita-exil-plafond-model.jpg)
+    ![Campo di mappatura del formato del modello di lettera di intenti.](media/emea-ita-exil-plafond-model.jpg)
 
     > [!NOTE]
     > La configurazione deve essere importata utilizzando il report elettronico (ER). Per ulteriori istruzioni su come scaricare le configurazioni dei report elettronici, vedi [Scarica le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 4. Nella scheda **Contabilità generale e IVA**, nella Scheda dettaglio **IVA**, sezione **Plafond**, imposta i campi **Gruppo plafond fiscale** e **Data plafond predefinita**.
 
-    ![Campi nella sezione Plafond](media/emea-ita-exil-plafond-group.jpg)
+    ![Campi nella sezione Plafond.](media/emea-ita-exil-plafond-group.jpg)
 
 ### <a name="set-up-general-ledger-parameters"></a>Impostazione dei parametri di Contabilità generale
 
@@ -67,9 +67,9 @@ Questo argomento descrive come completare queste attività:
 ### <a name="set-up-sales-tax-codes"></a>Imposta i codici IVA
 
 1. Vai a **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA**.
-2. Nela sezione Scheda dettaglio **Generale**, nella sezione **Fatturazione**, imposta l'opzione **Invia lettere di intento** su **Sì**.
+2. Nella sezione Scheda dettaglio **Generale**, nella sezione **Fatturazione**, imposta l'opzione **Invia lettere di intento** su **Sì**.
 
-    ![Influisce sull'opzione lettere di intenti](media/emea-ita-exil-intent-tax-setup.jpg)
+    ![Influisce sull'opzione lettere di intenti.](media/emea-ita-exil-intent-tax-setup.jpg)
 
 ## <a name="create-tax-plafond"></a>Crea plafond fiscale
 
@@ -142,7 +142,7 @@ Le lettere di intenti create per i fornitori possono essere applicate agli ordin
 
 Per applicare una lettera di intenti a un ordine fornitore o a un giornale di registrazione delle fatture fornitore, selezionala nel campo **Numero lettera di intenti** del relativo ordine fornitore o giornale di fatture dei fornitori. Il gruppo IVA sulle vendite specificato nel campo **Gruppo plafond fiscale** nella pagina **Parametri contabilità fornitori** verrà compilata automaticamente per l'ordine fornitore o per il giornale di fatture dei fornitori.
 
-![Campo del numero di lettera di intenti per un ordine fornitore](media/emea-ita-exil-plafond-PO.jpg)
+![Campo del numero di lettera di intenti per un ordine fornitore.](media/emea-ita-exil-plafond-PO.jpg)
 
 Puoi inoltre rivedere le lettere di intenti per un fornitore specifico dai dati master del fornitore.
 

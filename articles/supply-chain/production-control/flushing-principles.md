@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ef6dfe3fe8b768c2535e2a185442cb99217fe2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7f644f26098bf7ac7d13292d6fbabb09a488d61e29fcd5fbd3cf0d261f0529bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809184"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768025"
 ---
 # <a name="flushing-principles"></a>Principi di registrazione del consumo di materiali
 
@@ -30,7 +30,7 @@ I principi di registrazione del consumo di materiali riflettono le diverse strat
 
 Prima del consumo, i materiali vengono spostati nell'ubicazione di input. Nella seguente illustrazione viene mostrato il processo.
 
-[![scenario4a](./media/scenario4a.png)](./media/scenario4a.png)
+[![scenario4a.](./media/scenario4a.png)](./media/scenario4a.png)
 
 1. Magazzino materiale
 2. Prelievo materie prime

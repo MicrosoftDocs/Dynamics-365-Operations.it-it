@@ -1,12 +1,10 @@
 ---
 title: Domande frequenti sul client
-description: Questo articolo fornisce risposte alle domande frequenti sul client Finance and Operations.
+description: Questo articolo fornisce risposte alle domande frequenti sul client Finanza e operazioni.
 author: jasongre
-manager: AnnBe
 ms.date: 09/11/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -16,18 +14,21 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fe6da2575b7de866de614ad399c8ad5c0110d9a
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: e64fb2453f17760b17ca2a7d3f593ac34cde0cc9
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4798501"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071035"
 ---
 # <a name="client-faq"></a>Domande frequenti sul client
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo fornisce risposte alle domande frequenti sul client Finance and Operations.
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
+Questo articolo fornisce risposte alle domande frequenti sul client Finanza e operazioni.
 
 ## <a name="why-arent-symbols-loaded"></a>Perché i simboli non vengono caricati?
 
@@ -54,3 +55,6 @@ L'opzione **Visualizza dettagli** è disponibile in un paio di modi:
 
 - Se un controllo ha le funzionalità **Visualizza dettagli** e se il controllo ha un valore, il valore viene visualizzato come collegamento ipertestuale. È possibile fare clic sul collegamento ipertestuale per aprire la pagina contenente dettagli aggiuntivi.
 - **Visualizza dettagli** è anche un'opzione dei menu di scelta rapida. Per ulteriori informazioni su quando i menu di scelta rapida vengono visualizzati quando si fa clic con il pulsante destro del mouse, vedere la sezione precedente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

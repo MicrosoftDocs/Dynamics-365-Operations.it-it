@@ -2,11 +2,9 @@
 title: Cambiare le convenzioni di ammortamento per più cespiti
 description: Tale attività consente di aggiornare la convenzione di ammortamento per un gruppo di cespiti specificato.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm, SrsReportViewerForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9744f8a9abe16955b397f85ba731c4723c20b4ee
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ffd50104c13972f8d15d3260600ea239d16284447c76d984e78f4aaa4bc08cab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985164"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765718"
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Cambiare le convenzioni di ammortamento per più cespiti
 
@@ -48,3 +46,6 @@ Tale attività consente di aggiornare la convenzione di ammortamento per un grup
 15. Fare clic su OK.
     *  I risultati del processo vengono visualizzati nel report Aggiornamento di massa.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

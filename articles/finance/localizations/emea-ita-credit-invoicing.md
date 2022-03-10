@@ -15,12 +15,12 @@ ms.search.region: Italy
 ms.author: elgolu
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e5ffe037b77c3c14734d17fea1ff69fd17f388e7
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 5af05dfc703596da5f7e0ed96a73a5ac4e1b6d41
+ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500131"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8051436"
 ---
 # <a name="credit-invoicing-italy"></a>Fatturazione delle note di accredito (Italia)
 

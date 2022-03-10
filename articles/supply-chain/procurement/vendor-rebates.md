@@ -1,26 +1,24 @@
 ---
 title: Sconti fornitore
 description: Questo argomento fornisce una panoramica della maggior parte delle attività comuni che si potrebbero eseguire quando si utilizzano gli sconti fornitore. Gli sconti fornitore consentono alle società di gestire meglio i relativi programmi sconti fornitore automatizzando le attività necessarie per amministrare, tenere traccia e riscuotere gli sconti ottenuti.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 46d6beb287f7d034c6fde09999f7854695a4987c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec8d054d023b7e3f6611199e60f661c480d44d57
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4966657"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566865"
 ---
 # <a name="vendor-rebates"></a>Sconti fornitore
 
@@ -55,7 +53,7 @@ Un accordo sugli sconti fornitore è un record di un contratto con un fornitore 
 
 Per aprire la pagina **Accordi sconto fornitore**, selezionare **Approvvigionamento** &gt; **Sconti fornitore** &gt; **Accordi sugli sconti**.
 
-![Contratto di acquisto](media/purchase-agreement.PNG)
+![Contratto di acquisto.](media/purchase-agreement.PNG)
 
 Nella pagina **Accordi sconto fornitore**, è possibile visualizzare dettagli relativi alle condizioni negoziate di un contratto fornitore.
 
@@ -131,7 +129,7 @@ Le assegnazioni approvate possono essere elaborate dalla contabilità fornitori.
 
     Un giornale di registrazione ratei sconto viene registrato per l'importo dell'attestazione. Questa registrazione addebita il conto degli sconti fornitore accumulati da ricevere del credito fornitore previsto e accredita il conto degli sconti fornitore accumulati ricevuti temporaneo dell'importo dell'attestazione.
 
-    ![Messaggio](media/message.png)
+    ![Messaggio.](media/message.png)
 
 5. Nell'elenco degli sconti, selezionare la riga, quindi nel riquadro azioni, selezionare **Transazioni di sconto** per visualizzare e passare al numero batch del giornale di registrazione per questa registrazione dei ratei sconto.
 
@@ -166,3 +164,6 @@ Il processo di gestione degli sconti fornitore include molteplici attività di t
 - Generazione di attestazioni di sconto accurate
 - Accumulo di guadagni provvisori e crediti previsti nella contabilità generale
 - Aggiornamento del saldo fornitore e del conto economico con lo sconto dovuto
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2da0421bdb1496d51c807e51a26a980238886a42dfec167dac95611cc3df97bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 459c8fce892d9437c7466458b7e53743c71da38f
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730036"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102840"
 ---
 # <a name="cluster-position-full"></a>Posizione cluster piena
 
@@ -28,14 +28,11 @@ La funzione *Posizione cluster piena* offre un'alternativa all'applicazione più
 
 Questa funzione introduce la possibilità di eseguire il pulsante **Completo** su una delle unità di lavoro in un cluster. Nelle versioni precedenti, questa opzione era disponibile solo per il prelievo regolare degli ordini, non per il prelievo in gruppo. Tuttavia, questa funzionalità è diversa dal pulsante **Completo** standard in quanto annulla il lavoro rimanente. Non suggerisce all'utente di aggiungere un altro contenitore allo stesso cluster e non crea automaticamente nuovo lavoro.
 
-## <a name="turn-on-the-cluster-position-full-feature"></a>Attivare la funzionalità Posizione cluster piena
+## <a name="turn-the-cluster-position-full-feature-on-or-off"></a>Attivare o disattivare la funzionalità Posizione cluster piena
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Per utilizzare le funzionalità descritte in questo argomento, è necessario attivare la funzionalità *Posizione cluster piena* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Posizione cluster piena* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Modulo:** *Gestione Magazzino*
-- **Nome funzionalità:** *Posizione cluster piena*
-
-## <a name="setup"></a>Attrezzaggio
+## <a name="setup"></a>Impostazione
 
 Questa sezione fornisce le linee guida e un esempio che mostra come configurare e utilizzare la funzionalità *Posizione cluster piena*.
 

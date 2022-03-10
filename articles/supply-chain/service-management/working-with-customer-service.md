@@ -1,12 +1,10 @@
 ---
 title: Panoramica dell'utilizzo del servizio clienti
 description: Assistenza clienti fornisce il supporto per società di servizi professionali e organizzazioni di assistenza alla produzione.
-author: ShylaThompson
-manager: tfehr
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable, SMADispatchBoard
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b600caa764d6117fda15bfc5597f7256ce99d6b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 21ed2ceb6db06b04255803956c07ad3bcfa0e743
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010299"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982461"
 ---
 # <a name="work-with-customer-service-overview"></a>Panoramica dell'utilizzo del servizio clienti
 
@@ -48,3 +46,6 @@ Negli argomenti inclusi in questa sezione viene fornita una panoramica del proce
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

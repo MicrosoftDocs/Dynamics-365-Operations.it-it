@@ -2,25 +2,25 @@
 title: Configurare i parametri del leasing (anteprima)
 description: Questo argomento descrive le impostazioni di configurazione per Leasing cespite, come le informazioni sulla sicurezza e le impostazioni di contabilità.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 01/11/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: AssetLeasePostingAccounts
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 77caf751f9baf4abef534bac97e226484df7acf7
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 2a644b3c9d9ed4fc86a816af1ab338b96b1aa7ad
+ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881278"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968079"
 ---
 # <a name="configure-lease-parameters"></a>Configurare i parametri del leasing
 
@@ -39,10 +39,11 @@ Diverse impostazioni di configurazione influiscono sul comportamento di Leasing 
 
     Se imposti questa opzione su **Sì** e il tipo di transizione del libro è **Recupero cumulativo Opzione A o B**, il sistema imposta il campo **Tasso incrementale di prestito** sul valore del campo **Tasso incrementale di prestito durante la transizione** nella pagina **Impostazione libro**. Se questa opzione è impostata su **No**, il tasso sul leasing principale è impostato sul valore del campo **Tasso incrementale di prestito** nella pagina **Dettagli libro**, indipendentemente dal tipo di transizione del libro.
 
-4. Imposta l'opzione **Consenti storni di ammortamento sulla versione a libro chiuso** su **Sì** per consentire lo storno delle transazioni di ammortamento. Le transazioni di spesa possono essere stornate anche quando la versione del libro è chiusa.
+4. Imposta l'opzione **Consenti storni di ammortamento su libro chiuso** su **Sì** per consentire lo storno delle transazioni di ammortamento. Le transazioni di spesa possono essere stornate anche quando la versione del libro è chiusa.
 
     > [!NOTE]
     > È consigliabile mantenere questa opzione impostata su **No**. L'impostazione di questa opzione viene utilizzata come convalida e controllo per impedire l'ammortamento accidentale di una versione del libro chiuso. Mantenendo l'opzione impostata su **No**, contribuisci a mantenere accurati i calcoli del valore contabile netto e dell'ammortamento futuro.
 
+5. Imposta l'opzione **Consenti suddivisione importo pagamento** su **sì** per consentire la suddivisione degli importi di pagamento nella scheda dettaglio **Righe scadenzario pagamenti** della pagina **Leasing**. I tipi di suddivisione pagamento sono definiti in **Impostazione** nella pagina **Tipi di importo pagamento**. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

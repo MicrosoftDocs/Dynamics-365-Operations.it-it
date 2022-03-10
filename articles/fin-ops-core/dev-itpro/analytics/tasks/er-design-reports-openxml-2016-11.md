@@ -1,12 +1,10 @@
 ---
 title: ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)
-description: In questo argomento viene descritto come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici (ER) che contiene un modello per la generazione di documenti elettronici in formato OPENXML.
+description: Questo argomento descrive come creare una nuova configurazione di reporting elettronico che contiene un modello per la generazione di documenti elettronici in formato OPENXML.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/12/2019
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753030"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)
 
@@ -30,7 +28,7 @@ In questo argomento viene descritto come un utente assegnato al ruolo di amminis
 
 In questo esempio verrà creata una configurazione per la società di esempio Litware, Inc. Queste operazioni possono essere eseguite nella società GBSI.
 
-Per completare questi passaggi, è necessario completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo". È inoltre necessario disporre di un file Excel che verrà importato in fase di creazione del modello. È possibile accedere a questo file dal [Modello di Report di pagamento](https://go.microsoft.com/fwlink/?linkid=862266).
+Per completare questi passaggi, è necessario completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo". È inoltre necessario disporre di un file Excel che verrà importato in fase di creazione del modello. È possibile accedere a questo file dal [Modello di Report di pagamento](https://download.microsoft.com/download/3/f/0/3f0658b2-042c-43cf-a776-0f4c7f7cfe4e/SampleVendPaymWsReport.xlsx).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Caricare la configurazione del modello dati Pagamenti
@@ -150,3 +148,6 @@ Per completare questi passaggi, è necessario completare i passaggi della proced
 17. Nel campo **Conto bancario** digitare `GBSI OPER`.
 18. Selezionare **OK** e quindi di nuovo **OK**. Verificare il foglio di lavoro creato, inclusi i dettagli delle righe di pagamento, nonché i totali per ciascun codice valuta utilizzato nel messaggio di pagamento.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

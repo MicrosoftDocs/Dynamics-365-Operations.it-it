@@ -2,7 +2,7 @@
 title: Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni
 description: In questo argomento vengono fornite informazioni su come utilizzare la funzionalità di traccia delle prestazioni in Creazione di report elettronici (ER, Electronic Reporting) per risolvere problemi relativi alle prestazioni.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724395"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Generare la traccia dell'esecuzione di formati ER per risolvere problemi relativi alle prestazioni
 
@@ -56,14 +56,14 @@ Per completare gli esempi in questa esercitazione, è necessario disporre del se
 
 Ogni traccia delle prestazioni ER generata nell'applicazione viene archiviata come allegato del record del registro di esecuzione. Il framework DM (Document Management) viene utilizzato per gestire questi allegati. È necessario configurare in anticipo i parametri ER? per specificare il tipo di documento DM da utilizzare per allegare le tracce delle prestazioni. Nell'area di lavoro **Creazione di report elettronici**, selezionare **Parametri per la creazione di report elettronici**. Quindi, nella pagina **Parametri per la creazione di report elettronici**, nella scheda **Allegati**, nel campo **Altri**, selezionare il tipo di documento DM da utilizzare per le tracce delle prestazioni.
 
-![Pagina Parametri per la creazione di report elettronici](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Pagina Parametri per la creazione di report elettronici.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Per essere disponibile nel campo di ricerca **Altri**, un tipo di documento DM deve essere configurato nel seguente modo nella pagina **Tipi di documento** (**Amministrazione organizzazione \> Gestione documenti \> Tipi di documento**):
 
 - **Classe:** Allega file
 - **Gruppo:** File
 
-![Pagina Tipi di documento](./media/GER-PerfTrace-DM-DocumentType.png)
+![Pagina Tipi di documento.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > Il tipo di documento selezionato deve essere disponibile in ogni società dell'istanza corrente poiché gli allegati DM sono specifici della società.
@@ -72,7 +72,7 @@ Per essere disponibile nel campo di ricerca **Altri**, un tipo di documento DM d
 
 Le tracce delle prestazioni ER generate saranno importate in RCS per scopi di analisi mediante la progettazione formato ER e la progettazione mapping ER. Poiché le tracce delle prestazioni ER sono archiviate come allegati del record del registro di esecuzione relativo al formato ER, è necessario configurare in anticipo i parametri RCS per specificare il tipo di documento DM da utilizzare per allegare le tracce delle prestazioni. Nell'istanza di RCS di cui è stato eseguito il provisioning per la società, nell'area di lavoro **Creazione di report elettronici**, selezionare **Parametri per la creazione di report elettronici**. Quindi, nella pagina **Parametri per la creazione di report elettronici**, nella scheda **Allegati**, nel campo **Altri**, selezionare il tipo di documento DM da utilizzare per le tracce delle prestazioni.
 
-![Pagina Parametri per la creazione di report elettronici in RCS](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![Pagina Parametri per la creazione di report elettronici in RCS.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Per essere disponibile nel campo di ricerca **Altri**, un tipo di documento DM deve essere configurato nel seguente modo nella pagina **Tipi di documento** (**Amministrazione organizzazione \> Gestione documenti \> Tipi di documento**):
 
@@ -92,7 +92,7 @@ Si supponga di aver iniziato a progettare una nuova soluzione ER per generare un
     2. Selezionare **Sfoglia** per selezionare il file appropriato per la configurazione ER necessaria in formato XML.
     3. Selezionare **OK**.
 
-    ![Pagina Configurazioni in RCS](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![Pagina Configurazioni in RCS.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>Eseguire la soluzione ER per generare la traccia dell'esecuzione
 
@@ -109,7 +109,7 @@ Presupponiamo di aver completato la progettazione della prima versione della sol
     3. Nella Scheda dettaglio **Configurazioni** selezionare la configurazione **Formato traccia delle prestazioni**.
     4. Nella Scheda dettaglio **Versioni** selezionare la versione **1.1** della configurazione selezionata, quindi selezionare **Importa**.
 
-    ![Configurazione della pagina dell'archivio](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Pagina Archivio di configurazione.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 Le versioni corrispondenti delle configurazioni del modello dati e del mapping di modello vengono importate automaticamente come prerequisiti per la configurazione di formato ER importata.
 
@@ -119,12 +119,27 @@ Le versioni corrispondenti delle configurazioni del modello dati e del mapping d
 2. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
 3. Nella finestra di dialogo **Parametri utente**, nella sezione **Traccia esecuzione**, effettuare le seguenti operazioni:
 
-    1. Nel campo **Formato traccia dell'esecuzione**, selezionare **Debug formato traccia** per avviare la raccolta dei dettagli dell'esecuzione del formato ER. Quando questo valore è selezionato, la traccia delle prestazioni raccoglierà informazioni sul tempo dedicato alle seguenti azioni:
+    1. Nel campo **Formato traccia dell'esecuzione** specifica il formato della traccia delle prestazioni generata in cui sono archiviati i dettagli dell'esecuzione per gli elementi del mapping e del formato ER.
 
-        - Esecuzione di ogni origine dati nel mapping di modello chiamato per acquisire i dati
-        - Elaborazione di ogni elemento del formato per immettere dati nell'output generato
+        - **Debug formato traccia** – Seleziona questo valore se prevedi di eseguire in modo interattivo un formato ER con tempi di esecuzione brevi. Viene quindi avviata la raccolta di dettagli sull'esecuzione del formato ER. Quando questo valore è selezionato, la traccia delle prestazioni raccoglie informazioni sul tempo dedicato alle seguenti azioni:
 
-        Il campo **Formato traccia dell'esecuzione** consente di specificare il formato della traccia delle prestazioni generata in cui sono archiviati i dettagli dell'esecuzione per gli elementi del mapping e del formato ER. Selezionando **Esegui debug formato di traccia** come valore, sarà possibile analizzare il contenuto della traccia nella progettazione Operazione ER e vedere gli elementi del mapping o del formato ER menzionati nella traccia.
+            - Esecuzione di ogni origine dati nel mapping di modello chiamato per acquisire i dati
+            - Elaborazione di ogni elemento del formato per immettere dati nell'output generato
+
+            Se selezioni il valore **Debug formato traccia** è possibile analizzare il contenuto della traccia nella progettazione delle operazioni ER. In questa finestra è possibile visualizzare il formato ER o gli elementi di mapping menzionati nella traccia.
+
+        - **Formato traccia aggregato** – Seleziona questo valore se prevedi di eseguire un formato ER con tempi di esecuzione lunghi in modalità batch. Viene quindi avviata la raccolta di dettagli aggregati sull'esecuzione del formato ER. Quando questo valore è selezionato, la traccia delle prestazioni raccoglie informazioni sul tempo dedicato alle seguenti azioni:
+
+            - Esecuzione di ogni origine dati nel mapping di modello chiamato per acquisire i dati
+            - Esecuzione di ogni origine dati nel mapping di formato chiamato per acquisire i dati
+            - Elaborazione di ogni elemento del formato per immettere dati nell'output generato
+
+            Il valore **Formato traccia aggregato** è disponibile in Microsoft Dynamics 365 Finance versione 10.0.20 e successive.
+
+            Nella progettazione formato ER e progettazione mapping di modello ER, è possibile visualizzare il tempo di esecuzione totale per un singolo componente. Inoltre, la traccia contiene i dettagli sull'esecuzione, come il numero di esecuzioni e il tempo minimo e massimo di una singola esecuzione.
+
+            > [!NOTE]
+            > Questa traccia viene raccolta in base al percorso dei componenti tracciati. Pertanto, le statistiche potrebbero non essere corrette quando un singolo componente padre contiene diversi componenti figlio senza nome o quando più componenti figlio hanno lo stesso nome.
 
     2. Impostare le seguenti opzioni su **Sì** per raccogliere dettagli specifici dell'esecuzione dei componenti mapping di modello ER e formato ER:
 
@@ -141,7 +156,7 @@ Le versioni corrispondenti delle configurazioni del modello dati e del mapping d
     > [!NOTE]
     > I parametri nella finestra di dialogo **Parametri utente** sono specifici all'utente e alla società corrente.
 
-    ![Finestra di dialogo Parametri dell'utente](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Finestra di dialogo Parametri dell'utente.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>Eseguire il formato ER
 
@@ -162,11 +177,11 @@ Le tracce delle prestazioni sono disaccoppiate dal formato ER di origine e posso
 2. Nella pagina **Voci di registro report elettronici**, nel riquadro sinistro, nel campo **Nome configurazione**, selezionare **Formato traccia delle prestazioni** per individuare i record del registro generati dall'esecuzione della configurazione **Formato traccia delle prestazioni**.
 3. Selezionare il pulsante **Allegati** (il simbolo di graffetta) nell'angolo superiore destro della pagina, oppure premere **CTRL+MAIUSC+A**.
 
-    ![Pulsante Allegati nella pagina Voci di registro report elettronici](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Pulsante Allegati nella pagina Voci di registro report elettronici.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. Nella pagina **Allegati per voci di registro report elettronici**, nel riquadro Azioni, selezionare **Apri** per ottenere la traccia delle prestazioni come file zip e archiviarlo localmente.
 
-    ![Allegati per Voci di registro report elettronici](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Allegati per Voci di registro report elettronici.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > La traccia generata contiene un riferimento al report ER di origine tramite un identificatore di report univoco solo nel formato **GUID**. Il numero di versione del formato non viene considerato.
@@ -183,7 +198,7 @@ Si noti che l'associazione tra la traccia delle prestazioni generata per il form
 6. Selezionare **Sfoglia** per selezionare il file zip esportato in precedenza.
 7. Selezionare **OK**.
 
-    ![Finestra di dialogo Impostazioni risultati traccia delle prestazioni in RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Finestra di dialogo Impostazioni risultati traccia delle prestazioni in RCS.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Utilizzare la traccia delle prestazioni per l'analisi in RCS - Esecuzione del formato
 
@@ -194,7 +209,7 @@ Si noti che l'associazione tra la traccia delle prestazioni generata per il form
     - Il tempo effettivo impiegato per immettere dati nell'output generato utilizzando l'elemento del formato
     - Lo stesso tempo espresso come percentuale del tempo totale impiegato per la generazione dell'intero output
 
-    ![Pagina Progettazione formati in RCS](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![Pagina Progettazione formati in RCS.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Chiudere la pagina **Progettazione formati**.
 
@@ -217,7 +232,7 @@ Da notare che ER segnala che il mapping di modello corrente duplica le richieste
 - Una chiamata viene effettuata per immettere i dettagli di ogni transazione nel modello dati, in base alle associazioni configurate.
 - Una chiamata viene effettuata per immettere il numero calcolato di transazioni per fornitore nel modello dati.
 
-![Messaggio sulle richieste di database duplicate nella pagina Progettazione mapping modello in RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Messaggio sulle richieste di database duplicate nella pagina Progettazione mapping modello in RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 Il valore **\[Q:530\]** indica che la tabella VendTrans è stata chiamata 530 volte per restituire un record da quella tabella all'origine dati VendTable/\<Relations/VendTrans.VendTable\_AccountNum. Il valore **\[530\]** indica l'origine dati VendTable/\<Relations/VendTrans.VendTable\_AccountNum che è stata chiamata 530 volte per restituire un record da quell'origine dati e immettere i dettagli della stessa nel modello dati.
 
@@ -225,7 +240,7 @@ Si consiglia di utilizzare la memorizzazione nella cache per l'origine dati Vend
 
 Può anche essere utile ridurre il numero di chiamate effettuate all'origine dati LedgerTransTypeList. Questa origine dati viene utilizzata per associare ogni valore dell'enumerazione **LedgerTransType** alla relativa etichetta. Utilizzando questa origine dati, è possibile trovare un'etichetta appropriata e immetterla nel modello dati per ogni transazione fornitore. Il numero corrente di chiamate a questa origine dati (9.027) è alto per 265 transazioni.
 
-![Pagina Progettazione mapping modello in RCS che mostra 9.027 chiamate all'origine dati](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![Pagina Progettazione mapping modello in RCS che mostra 9.027 chiamate all'origine dati.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Migliorare il mapping di modello basato sulle informazioni della traccia dell'esecuzione
 
@@ -238,7 +253,7 @@ Può anche essere utile ridurre il numero di chiamate effettuate all'origine dat
     3. Espandere **VendTable**, espandere l'elenco delle relazioni uno-a-molti per l'origine dati VendTable (l'elemento **\<Relazioni**) e selezionare **VendTrans.VendTable\_AccountNum**.
     4. Selezionare **Cache**.
 
-    ![Impostazione della memorizzazione nella cache per impedire chiamate duplicate](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Impostazione della memorizzazione nella cache per impedire chiamate duplicate.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Attenersi ai passaggi seguenti per includere l'origine dati LedgerTransTypeList nell'ambito dell'origine dati VendTable:
 
@@ -259,7 +274,7 @@ Può anche essere utile ridurre il numero di chiamate effettuate all'origine dat
     3. Selezionare **VendTable.\$TransType**.
     4. Selezionare **Cache**.
 
-    ![Impostazione della memorizzazione nella cache del campo $TransType](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Impostazione della memorizzazione nella cache del campo $TransType.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Attenersi alla procedura seguente per modificare il campo **\$TransTypeRecord** di modo che inizi a utilizzare il campo **\$TransType** memorizzato nella cache:
 
@@ -314,19 +329,19 @@ Ripetere i passaggi nella sezione [Utilizzare la traccia delle prestazioni per l
 
 Si noti che le rettifiche apportate al mapping di modello hanno eliminato le query duplicate al database. Anche il numero di chiamate alle tabelle di database e alle origini dati per questo mapping di modello sono state ridotti. Di conseguenza, le prestazioni dell'intera soluzione ER sono state migliorate.
 
-![Informazioni sulla traccia per l'origine dati VendTable nella pagina Progettazione mapping modello in RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![Informazioni sulla traccia per l'origine dati VendTable nella pagina Progettazione mapping modello in RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 Nelle informazioni sulla traccia, il valore **\[12\]** per l'origine dati VendTable indica che questa origine dati è stata chiamata 12 volte. Il valore **\[Q:6\]** indica che sei chiamate sono state convertite in chiamate database alla tabella VendTable. Il valore **\[C:6\]** indica che i record recuperati dal database sono stati memorizzati nella cache e altre sei chiamate sono state elaborate utilizzando la cache.
 
 Si noti che il numero di chiamate all'origine dati LedgerTransTypeList è stato ridotto da 9.027 a 240.
 
-![Informazioni sulla traccia per l'origine dati LedgerTransTypeList nella pagina Progettazione mapping modello in RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![Informazioni sulla traccia per l'origine dati LedgerTransTypeList nella pagina Progettazione mapping modello in RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>Verificare la traccia di esecuzione nell'applicazione
 
 Oltre a RCS, alcune versioni possono offrire funzionalità per un'esperienza di progettazione di framework ER. Queste versioni hanno un'opzione **Abilita modalità progettazione** che può essere attivata. Questa opzione è presente nella scheda **Generale** della pagina **Parametri per la creazione di report elettronici**, accessibile dall'area di lavoro **Creazione di report elettronici**.
 
-![Attivare l'opzione di modalità progettazione nella pagina Parametri per la creazione di report elettronici](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Attivare l'opzione di modalità progettazione nella pagina Parametri per la creazione di report elettronici.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Se si utilizza una di queste versioni, è possibile analizzare i dettagli delle tracce delle prestazioni generate direttamente nell'applicazione. Non è necessario esportarli dall'applicazione e importarli in RCS.
 
@@ -344,7 +359,7 @@ Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in
 
 Si noti che il Web browser offre un file zip per il download. Questo file contiene la traccia delle prestazioni in formato PerfView. È quindi possibile utilizzare lo strumento di analisi delle prestazioni PerfView per analizzare i dettagli dell'esecuzione del formato ER.
 
-![Informazioni sulla traccia delle prestazioni in formato PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Informazioni sulla traccia delle prestazioni in formato PerfView.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utilizzare strumenti esterni per esaminare una traccia dell'esecuzione che include le query di database
 
@@ -360,7 +375,7 @@ In seguito ai miglioramenti apportati al framework ER, la traccia delle prestazi
     - Impostare l'opzione **Raccogli statistiche di query** su **Sì**.
     - Impostare l'opzione **Traccia query** su **Sì**.
 
-    ![Sezione Traccia esecuzione, finestra di dialogo Parametri utente](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Sezione Traccia esecuzione, finestra di dialogo Parametri utente.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>Eseguire il formato ER
 
@@ -368,7 +383,7 @@ Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in
 
 Si noti che il Web browser offre un file zip per il download. Questo file contiene la traccia delle prestazioni in formato PerfView. È quindi possibile utilizzare lo strumento di analisi delle prestazioni PerfView per analizzare i dettagli dell'esecuzione del formato ER. Questa traccia ora include i dettagli di accesso al database SQL durante l'esecuzione del formato ER.
 
-![Informazioni sulla traccia per il formato ER eseguito in PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Informazioni sulla traccia per il formato ER eseguito in PerfView.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -1,9 +1,9 @@
 ---
 title: Panoramica sui modelli di configurazione prodotto
 description: Questo articolo definisce termini e concetti importanti relativi ai modelli di configurazione prodotto. I modelli di configurazione prodotto consentono di creare una struttura di prodotto generica utilizzabile per configurare più varianti di un singolo prodotto.
-author: cvocph
+author: t-benebo
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage, PCModalWaitDialog, PCTemplateConfigurationManager, PCConfigurationUIGrouping
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fbf99853b7eb74dd6f277bd1c235145bfa08f4a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338400"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984648"
 ---
 # <a name="product-configuration-models-overview"></a>Panoramica sui modelli di configurazione prodotto
 

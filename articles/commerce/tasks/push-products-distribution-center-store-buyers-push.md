@@ -1,7 +1,7 @@
 ---
-title: " Inviare i prodotti del centro di distribuzione al punto vendita utilizzando la distribuzione push"
+title: Inviare i prodotti del centro di distribuzione al punto vendita utilizzando la distribuzione push
 description: In questa procedura vengono descritti i passaggi per creare ed elaborare una distribuzione push da un'ubicazione a uno o più punti vendita.
-author: rubencdelgado
+author: BrianShook
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0fa48d7cd1af289cf455ebd0e0c14b047b4f1a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 30d82e4b282bac2ea888971ad5c6298adfa8332b
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802649"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779622"
 ---
-# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Inviare i prodotti del centro di distribuzione al punto vendita utilizzando la distribuzione push
+# <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a>Inviare i prodotti del centro di distribuzione al punto vendita utilizzando la distribuzione push
 
 [!include [banner](../includes/banner.md)]
 

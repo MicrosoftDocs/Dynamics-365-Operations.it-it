@@ -2,11 +2,9 @@
 title: Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 description: In questo argomento vengono fornite informazioni su come utilizzare il tipo Campo calcolato per le origini dati ER.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f21b323ddbf653bf8ca8dd1f879a6bdbddcdefc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681258"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349162"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 
@@ -88,7 +86,7 @@ In questo esempio si creerà una configurazione per la società di esempio Litwa
 
     Il mapping di modello in questa configurazione implementa il modello di dati di base per qualsiasi formato ER creato per questo modello ed eseguito in Finance and Operations. Di conseguenza, il contenuto delle origini dati **Imposta** e **Gr** viene esposto per i formati ER, ad esempio origini dati astratte.
 
-    ![Pagina Progettazione mapping modello con le origini dati Imposta e Gr](media/er-calculated-field-type-01.png)
+    ![Pagina Progettazione mapping modello con le origini dati Imposta e Gr.](media/er-calculated-field-type-01.png)
 
 5.  Chiudere la pagina **Progettazione mapping modello**.
 6.  Chiudere la pagina **Mapping modello**.
@@ -103,21 +101,21 @@ In questo esempio si creerà una configurazione per la società di esempio Litwa
     - Presentare i seguenti livelli di tassazione nella dichiarazione fiscale: Normale, Ridotto e Nessuno.
     - Presentare molteplici dettagli a ogni livello di tassazione, avendo un numero differente di dettagli in ogni livello.
 
-    ![Pagina Progettazione formati](media/er-calculated-field-type-02.png)
+    ![Pagina Progettazione formati.](media/er-calculated-field-type-02.png)
 
 4. Selezionare **Mapping**.
 5. Espandere gli elementi **Modello**, **Dati** e **Riepilogo**. 
 
     Il campo calcolato **Model.Data.Summary.Level** contiene l'espressione che restituisce il codice del livello di tassazione (**Normale**, **Ridotto**, **Nessuno** o **Altro**) come valore di testo per qualsiasi codice imposta che è possibile recuperare dall'origine dati **Model.Data.Summary** in fase di esecuzione.
 
-    ![Pagina Progettazione formati con dettagli del modello di dati Modello per ottenere chiamate parametrizzate](media/er-calculated-field-type-03.png)
+    ![Pagina Progettazione formati con dettagli del modello di dati Modello per ottenere chiamate parametrizzate.](media/er-calculated-field-type-03.png)
 
 6. Espandere l'elemento **Model**.**Data2**.
 7. Espandere l'elemento **Model**.**Data2Data2.Summary2**.
    
     L'origine dati **Model**.**Data2.Summary2** è configurata per raggruppare i dettagli delle transazioni dell'origine dati **Model.Data.Summary** per livello di tassazione (restituito dal campo calcolato **Model.Data.Summary.Level** ) e calcolare le aggregazioni.
 
-    ![Pagina Progettazione formati con i dettagli dell'origine dati Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Pagina Progettazione formati con i dettagli dell'origine dati Model.Data2.Summary2.](media/er-calculated-field-type-04.png)
 
 8. Esaminare i campi calcolati. **Model**.**Data2.Level1**, **Model**.**Data2.Level2** e **Model**.**Data2.Level3**. Questi campi calcolati sono utilizzati per filtrare l'elenco di record **Model**.**Data2.Summary2** e restituire solo i record che rappresentano un particolare livello di tassazione.
 9. Chiudere la pagina **Progettazione formati**.
@@ -157,7 +155,7 @@ In questo esempio si creerà una configurazione per la società di esempio Litwa
 
     Il numero massimo di parametri che è possibile specificare per un singolo campo calcolato è 8.
 
-    ![Elenco delle origini dati dei parametri](media/er-calculated-field-type-05.png)
+    ![Elenco delle origini dati dei parametri.](media/er-calculated-field-type-05.png)
 
 5. Selezionare **OK**.
 
@@ -167,7 +165,7 @@ Aggiungendo questo parametro, si specifica la condizione necessaria per chiamare
 
    Il parametro configurato è disponibile nell'elenco delle origini dati per questo campo calcolato. È possibile aggiungere il parametro all'espressione configurata selezionando **Aggiungi origine dati**.
 
-   ![Campi dell'origine dati](media/er-calculated-field-type-06.png)
+   ![Campi dell'origine dati.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Definire un'espressione per aggiungere un campo calcolato
 
@@ -183,7 +181,7 @@ Aggiungendo questo parametro, si specifica la condizione necessaria per chiamare
 
 5. Selezionare **Salva**.
 
-    ![Informazioni sui campi dell'origine dati](media/er-calculated-field-type-07.png)
+    ![Informazioni sui campi dell'origine dati.](media/er-calculated-field-type-07.png)
 
 6. Chiudere la pagina **Designer formula**.
 
@@ -193,7 +191,7 @@ Aggiungendo questo parametro, si specifica la condizione necessaria per chiamare
 
 Nella pagina **Progettazione formati**, il campo calcolato parametrizzato configurato **Livelli** richiede un argomento **Stringa**.
 
-![Elenco espanso dei livelli del campo calcolato](media/er-calculated-field-type-08.png)
+![Elenco espanso dei livelli del campo calcolato.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Utilizzare il campo calcolato configurato per associare elementi di formato
 
@@ -222,7 +220,7 @@ Le chiamate ricorrenti di qualsiasi campo calcolato parametrizzato non sono supp
 
 È possibile selezionare **Modifica formula** e modificare l'argomento applicato per impostazione predefinita del campo calcolato parametrizzato nell'associazione selezionata. Se questo argomento non è presente, può causare errori in fase di esecuzione: gli utenti vengono informati di tale situazione quando il formato corrente viene convalidato.
 
-![Notifica dell'avviso di convalida](media/er-calculated-field-type-10.png)
+![Notifica dell'avviso di convalida.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Configurare un campo calcolato parametrizzato per restituire un record
 Quando un campo calcolato parametrizzato restituisce un record, è necessario supportare l'associazione di singoli campi di tale record con elementi di formato. In tali casi un'associazione padre contenente il valore di un argomento per chiamare un campo calcolato parametrizzato non sarà disponibile; questo valore deve essere definito nell'associazione del campo di un singolo record.
@@ -274,7 +272,7 @@ Quando un campo calcolato parametrizzato restituisce un record, è necessario su
 8. Selezionare **Modifica formula**.
 9. Modificare l'espressione in **Model.Data2.LevelRecord("Nessuno").aggregated.Base**.
 
-![Espressione aggiornata](media/er-calculated-field-type-11.png)
+![Espressione aggiornata.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Rimuovere i campi calcolati non utilizzati
 
@@ -342,3 +340,6 @@ Quando un campo calcolato parametrizzato restituisce un record, è necessario su
 - [Designer formula nella creazione di report elettronici (ER)](general-electronic-reporting-formula-designer.md)
 - [Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

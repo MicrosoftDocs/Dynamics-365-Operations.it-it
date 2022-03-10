@@ -2,11 +2,9 @@
 title: Aggiungere lingue al sito
 description: In questo argomento viene descritto come aggiungere supporto per ulteriori lingue a un sito di Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6ed1e2eae18b381c21b63a5cc403ddee0336f784
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d118c90dc16be964bb22aa6f170fe2d2f009b3e9
+ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207605"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "7964556"
 ---
 # <a name="add-languages-to-your-site"></a>Aggiungere lingue al sito
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come aggiungere supporto per ulteriori lingue a un sito di Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 È possibile localizzare il proprio sito Web in qualsiasi lingua che Commerce supporta. (l'elenco delle lingue supportate è esposto più avanti in questo argomento). Per aggiungere una lingua nel sito Web, è necessario dapprima aggiungerla a un punto vendita online associato al sito.
 
@@ -169,8 +164,6 @@ La lingua aggiunta diventerà disponibile affinché sia possibile configurare il
 [Utilizzare i file di sostituzione CSS](css-override-files.md)
 
 [Aggiungere una favicon](add-favicon.md)
-
-[Aggiungere un messaggio di benvenuto](add-welcome-message.md)
 
 [Aggiungere informazioni sul copyright](add-copyright-notice.md)
 

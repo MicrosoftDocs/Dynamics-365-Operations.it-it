@@ -1,25 +1,24 @@
 ---
-title: Panoramica del riconoscimento ricavi
+title: Panoramica del riconoscimento ricavi (contiene video)
 description: In questo argomento vengono fornite informazioni sulla funzionalità di riconoscimento dei ricavi. Questa funzionalità fornisce un framework flessibile che consente di definire regole specifiche della società per riconoscere sia il prezzo che la programmazione dei ricavi per ordini con più elementi.
 author: kweekley
 ms.date: 11/11/2019
-ms.topic: index-page
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ef59e6a3a0c553ad43db2ed35cb68b57c505f2ac7414592880e361fa3f5c4a12
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5e7b6407fe72c56ea04920532d4327d2b89f8d1
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756275"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982589"
 ---
 # <a name="revenue-recognition-overview"></a>Panoramica del riconoscimento ricavi
 

@@ -2,7 +2,7 @@
 title: Funzionalità rimosse o deprecate in Dynamics 365 Finance
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Finance.
 author: roschlom
-ms.date: 04/14/2021
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: ad3df2ee9c10972dac8258b6ee41ae0a6eabfbea
+ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980899"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7890955"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -33,14 +33,66 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 > [!NOTE]
 > Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
 
-## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.20
+## <a name="features-removed-or-deprecated-in-the-finance-10024-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.24
+
+### <a name="sales-tax-report-for-sweden-design-based-on-reporting-codes"></a>Report IVA per la Svezia (progettazione basata sui codici di reporting)
+
+[Report IVA per la Svezia](../localizations/emea-swe-sales-tax-payment-report-sweden.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Sostituito con un nuovo modello di dichiarazione IVA, [Dichiarazione IVA per la Svezia](../localizations/emea-swe-vat-declaration-sweden.md) |
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Applicazione |
+| **Opzione di distribuzione**              | Tutte |
+| **Status**                         | Deprecato: entro il 1° dicembre 2022, prevediamo di non supportare più il report IVA per la Svezia (layout report svedese). I nuovi formati di report elettronici **XML di dichiarazione IVA (SE**) e **Excel di dichiarazione IVA (SE)** sono stati invece introdotti nel modello **Dichiarazione fiscale**. |
+
+### <a name="vat-statement-for-austria-design-based-on-reporting-codes"></a>Dichiarazione IVA per l'Austria (progettazione basata su codici di reporting)
+
+[Dettagli dichiarazione IVA per l'Austria](../localizations/emea-aut-vat-statement-details.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Sostituito con un nuovo modello di dichiarazione IVA, [Dichiarazione IVA per l'Austria](../localizations/emea-aut-vat-declaration-austria.md) |
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Applicazione |
+| **Opzione di distribuzione**              | Tutte |
+| **Status**                         | Deprecato: entro il 1 dicembre 2022, prevediamo di non supportare più il formato di report elettronici **Dichiarazione IVA (AT)** sotto **Modello di dichiarazione IVA**. I nuovi formati **XML di dichiarazione IVA (AT)** e **Excel di dichiarazione IVA (AT)** sono stati invece introdotti nel modello **Dichiarazione fiscale**. |
+
+### <a name="elster-declaration-for-germany-design-based-on-reporting-codes"></a>Dichiarazione ELSTER per la Germania (progettazione basata su codici di reporting)
+
+[Dichiarazione IVA](../localizations/emea-de-vat-declaration.md)</br>
+[Impostare la dichiarazione fiscale elettronica per la Germania](../../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md)</br>
+[Trasmissione elettronica della dichiarazione IVA (ELSTER)](../localizations/tasks/de-00003-electronic-transmission-elster.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Sostituito con un nuovo modello di dichiarazione IVA, [Dichiarazione IVA per la Germania](../localizations/emea-deu-vat-declaration-germany.md) |
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Applicazione |
+| **Opzione di distribuzione**              | Tutte |
+| **Status**                         | Deprecato: entro il 1 dicembre 2022, prevediamo di non supportare più i formati di report elettronici **Elster (DE)** e **Modello Elster**. I nuovi formati **XML di dichiarazione IVA (DE)** e **Excel di dichiarazione IVA (DE)** sono stati invece introdotti nel modello **Dichiarazione fiscale**. |
+
+### <a name="ob-declaration-for-netherlands-design-based-on-reporting-codes"></a>Dichiarazione OB per i Paesi Bassi (progettazione basata su codici di reporting)
+
+[Dichiarazione OB](../localizations/emea-nl-vat-declaration.md)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Sostituito con un nuovo modello di dichiarazione IVA, [Dichiarazione IVA per i Paesi Bassi](../localizations/emea-nl-vat-declaration-netherlands.md) |
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Applicazione |
+| **Opzione di distribuzione**              | Tutte |
+| **Status**                         | Deprecato: entro il 1 dicembre 2022, prevediamo di non supportare più i formati di report elettronici **Dichiarazione OB (NL)** e **Modello di dichiarazione OB**. I nuovi formati **XML di dichiarazione IVA (NL)** e **Excel di dichiarazione IVA (NL)** sono stati invece introdotti nel modello **Dichiarazione fiscale**. |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.20
 
 ### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>Configurazione di formato "RTIR Query Invoice Data Request (HU)" per la creazione di report elettronici
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Escluso dall'elaborazione della messaggistica elettronica dell'interoperabilità con il sistema di fatturazione online ungherese |
-| **Sostituita da un'altra funzionalità?**   | Nessuno |
+| **Motivo della deprecazione/rimozione** | Escluso dall'elaborazione della messaggistica elettronica dell'interoperabilità con il sistema di fatturazione online ungherese |
+| **Sostituita da un'altra funzionalità?**   | No |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Obsoleto: entro il 15 aprile 2022, prevediamo di non supportare più la configurazione del formato "RTIR Query Invoice Data Request (HU)". |
@@ -49,31 +101,31 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato "File di controllo FEC (FR)" |
+| **Motivo della deprecazione/rimozione** | Sostituito con il nuovo formato "File di controllo FEC (FR)" |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecato: a partire dal 1 maggio 2022, prevediamo di non supportare più il formato "File di controllo FEC in francese" per la creazione di report elettronici per la Francia in "Output file di controllo in tedesco". Il nuovo formato di file di controllo FEC (FR) viene invece introdotto in "Modello di esportazione dati". |
 
-## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.17
+## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.17
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Repository LCS come opzione di archiviazione per configurazioni di report elettronici
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo repository globale di Regulatory Configuration Service (RCS) |
+| **Motivo della deprecazione/rimozione** | Sostituito con il nuovo repository globale di Regulatory Configuration Service (RCS) |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Prodotti Dynamics 365 Finance, Supply Chain Management e Project Operations|
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato: entro il 1° aprile 2022, prevediamo di non supportare più il repository Microsoft Dynamics Lifecycle Services (LCS) come opzione di archiviazione per le configurazioni per la creazione di report elettronici (ER). Le nuove configurazioni di Microsoft ER verranno pubblicate per il download esclusivamente dal repository globale. È possibile accedere al repository globale dai prodotti Dynamics 365 e da RCS. Per ulteriori informazioni, vedere [Importare configurazioni ER da RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md). |
+| **Stato**                         | Deprecato: entro il 1° aprile 2022, prevediamo di non supportare più il repository Microsoft Dynamics Lifecycle Services (LCS) come opzione di archiviazione per le configurazioni per la creazione di report elettronici (ER). Le nuove configurazioni di Microsoft ER verranno pubblicate per il download esclusivamente dal repository globale. È possibile accedere al repository globale dai prodotti Dynamics 365 e da RCS. Per ulteriori informazioni, vedere [Importazione di configurazioni ER da RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) e [Regulatory Configuration Service - Deprecazione dell'archiviazione di Lifecycle Services](../localizations/rcs-lcs-repo-dep-faq.md). |
 
-## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.16
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.16
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Formati di dichiarazione elettronica "Dichiarazione IVA (CZ)" e "Esportazione dichiarazione di controllo (CZ)" per la Repubblica ceca
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con nuovi formati |
+| **Motivo della deprecazione/rimozione** | Sostituito con nuovi formati |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
@@ -83,7 +135,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato di creazione report elettronici "Standard Audit File (SAF-T)".  |
+| **Motivo della deprecazione/rimozione** | Sostituito con il nuovo formato di creazione report elettronici "Standard Audit File (SAF-T)".  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
@@ -93,55 +145,55 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Sostituito con il nuovo formato per la creazione di report elettronici: formato "Excel di dichiarazione IVA (UK)" in "Modello di dichiarazione fiscale".  |
+| **Motivo della deprecazione/rimozione** | Sostituito con il nuovo formato per la creazione di report elettronici: formato "Excel di dichiarazione IVA (UK)" in "Modello di dichiarazione fiscale".  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecato: entro il 1° dicembre 2021, prevediamo di non supportare più il "report VAT 100" nel formato SSRS. Un nuovo formato "Excel di dichiarazione IVA (UK)" in "Modello di dichiarazione fiscale" è stato introdotto nella [funzionalità IVA MTD](../localizations/emea-gbr-mtd-vat-integration.md). |
 
-## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.15
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.15
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Il supporto di Internet Explorer 11 per Dynamics 365 è deprecato
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
+| **Motivo della deprecazione/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
 | **Sostituita da un'altra funzionalità?**   | Consigliamo ai clienti di passare a Microsoft Edge.|
 | **Aree del prodotto interessate**         | Tutti i prodotti Dynamics 365 |
 | **Opzione di distribuzione**              | Tutti|
 | **Stato**                         | Deprecato. Internet Explorer 11 non sarà supportato dopo agosto 2021.|
 
-## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.12
+## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.12
 
 ### <a name="not-deprecated-polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Non deprecato: Report SSRS polacchi: registro IVA vendite, registro IVA acquisti, registro IVA riepilogativo UE - Riferimento funzione PL-00014
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Non obbligatorio per legge.  |
+| **Motivo della deprecazione/rimozione** | Non obbligatorio per legge.  |
 | **Sostituita da un'altra funzionalità?**   | Sì (formato Excel per file di controllo standard con dichiarazione IVA - JPK_VDEK) |
 | **Aree del prodotto interessate**         | Domanda di lavoro |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Non deprecato: da 27 aprile 2021 continueremo a supportare i report SSRS: **Registro IVA vendite, Registro IVA acquisti, Registro IVA riepilogativo UE - Riferimento funzione PL-00014**. È stato anche introdotto un esempio di formato Excel per il file di audit standard con dichiarazione IVA (JPK_VDEK). |
 
-## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.11
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.11
 
 ### <a name="norwegian-standard-main-accounts"></a>Conti principali standard per la Norvegia
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Riprogettazione  |
+| **Motivo della deprecazione/rimozione** | Riprogettazione  |
 | **Sostituita da un'altra funzionalità?**   | Sì (sostituito con parametri specifici dell'applicazione in formato ER) |
 | **Aree del prodotto interessate**         | Richiesta |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecato: entro il 1° aprile 2021, prevediamo di non supportare più la funzionalità relativa ai conti principali standard: campo di riferimento, tabella correlata, entità dei dati. |
 
-## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Funzionalità rimosse o deprecate nella versione Finance and Operations 10.0.7
+## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.7
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>La finestra di dialogo per la modifica della richiesta del flusso di lavoro non include più l'elenco a discesa per la selezione dell'utente
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Modificato nella funzionalità con selezione di gruppi di conti.  |
+| **Motivo della deprecazione/rimozione** | Modificato nella funzionalità con selezione di gruppi di conti.  |
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate**         | Flusso di lavoro |
 | **Opzione di distribuzione**              | Tutti |

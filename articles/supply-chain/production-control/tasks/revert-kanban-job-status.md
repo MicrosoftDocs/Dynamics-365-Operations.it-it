@@ -1,27 +1,25 @@
 ---
 title: Ripristina stato del processo kanban
 description: La procedura riguarda il ripristino di uno stato non di processo kanban non corretto.
-author: ShylaThompson
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94618494b9c338ed27b2558c91dc662c853d3cda
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 771c3b95be05904c84483473a533c708964fbe62
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261095"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574403"
 ---
 # <a name="revert-kanban-job-status"></a>Ripristina stato del processo kanban
 

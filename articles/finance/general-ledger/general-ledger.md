@@ -3,24 +3,26 @@ title: Panoramica di report finanziari e contabilità generale
 description: È possibile utilizzare la contabilità generale per definire e gestire i record finanziari della persona giuridica.
 author: ShylaThompson
 ms.date: 08/14/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 65431
+ms.custom:
+- "65431"
+- intro-internal
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60ebe19d53e87e385af8e32c32b9c0cc43291eba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 639d77e43fc9a55e43ebb030f8fc292ce8fb7fce
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832876"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7985239"
 ---
 # <a name="general-ledger-home-page"></a>Home page contabilità generale
 
@@ -37,7 +39,7 @@ ms.locfileid: "5832876"
 - [Saldi dei conti della contabilità generale](general-ledger-account-balances.md)
 - [Dimensioni finanziarie](financial-dimensions.md)
 
-[![Processo aziendale](./media/GL-process.PNG)](./media/GL-process.PNG)
+[![Processo aziendale.](./media/GL-process.PNG)](./media/GL-process.PNG)
 
 ## <a name="sales-tax"></a>IVA
 Ogni società riscuote imposte e versa gli importi corrispondenti a vari uffici tributari. Le norme e le aliquote variano a seconda del paese, dello stato/regione, della provincia e della città.
@@ -52,14 +54,14 @@ Le regole devono inoltre essere aggiornate periodicamente ogni volta che vengono
 
 #### <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
-Passare ai [piani di rilascio di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) per visualizzare le nuove funzionalità che sono state pianificate. 
+Passare ai [piani di rilascio di Microsoft Dynamics 365](/dynamics365/release-plans/) per visualizzare le nuove funzionalità che sono state pianificate. 
 
 #### <a name="financial-reporting"></a>Creazione di report finanziari
 Andare all'argomento [Panoramica di Financial reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) per informazioni sui report finanziari.
 
 #### <a name="blogs"></a>Blog
 
-Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Per opinioni, notizie e altre informazioni, fai riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.
 

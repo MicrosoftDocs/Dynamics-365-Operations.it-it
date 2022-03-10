@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dc0d8ec546e7455187a87ac124c5e56a93f5bafd2270bf275af950991fc4b87e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740721"
 ---
 # <a name="maintenance-rounds"></a>Cicli di manutenzione
 
@@ -80,7 +80,7 @@ In **Gestione cespiti**, è possibile creare cicli di manutenzione per vari cesp
 
 L'illustrazione seguente mostra ed esempio di un ciclo di manutenzione contenente tre cespiti.
 
-![Figura 1](media/13-preventive-maintenance.png)
+![Figura 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Programma cicli di manutenzione
@@ -106,9 +106,9 @@ Dopo l'impostazione di un ciclo di manutenzione, si esegue un processo di progra
 
 Le due illustrazioni di seguito illustrano un processo di programmazione nella finestra di dialogo **Cicli di programmazione della manutenzione** e le righe del programma di manutenzione create in **Tutto il programma di manutenzione** in base al processo di programmazione.
 
-![Figura 2](media/14-preventive-maintenance.png)
+![Figura 2.](media/14-preventive-maintenance.png)
 
-![Figura 3](media/15-preventive-maintenance.png)
+![Figura 3.](media/15-preventive-maintenance.png)
 
 - Quando gli ordini di lavoro vengono creati manualmente nei cespiti coperti da un garanzia fornitore, viene visualizzata una finestra di dialogo per informare l'utente della garanzia. La creazione dell'ordine di lavoro può quindi essere annullata. La verifica di una relazione di garanzia viene omessa per gli ordini di lavoro creati automaticamente.  
 - È possibile impostare un processo batch nella Scheda dettaglio **Esecuzione in background** per programmare i cicli a intervalli regolari.  

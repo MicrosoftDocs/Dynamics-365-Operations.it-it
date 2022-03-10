@@ -1,32 +1,34 @@
 ---
 title: Opzioni di creazione report
-description: In questo articolo viene descritto come risolvere il problema in cui un cliente intende personalizzare i report di Microsoft Dynamics 365 Human Resources o creare nuovi report.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2020
+description: Questo argomento spiega come personalizzare i rapporti di Microsoft Dynamics 365 Human Resources o creare nuovi rapporti.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 3c82f3d4f040f680cab68228f1aa8ab16f548961
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5113084"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069073"
 ---
 # <a name="reporting-options"></a>Opzioni di creazione report
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+
 
 **Dettagli ambiente**
 
@@ -49,3 +51,6 @@ L'utente non può personalizzare i report di Microsoft Power BI integrati.
 **Soluzione a lungo termine**
 
 Ulteriori opzioni di Power BI saranno disponibili e ulteriori dati ed entità saranno integrate in Dataverse.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

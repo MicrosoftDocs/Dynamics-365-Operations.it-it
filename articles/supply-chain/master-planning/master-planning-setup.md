@@ -1,12 +1,10 @@
 ---
 title: Impostare la pianificazione generale
 description: In questo argomento vengono descritte varie strategie e parametri importanti utilizzati per impostare la pianificazione generale.
-author: t-benebo
-manager: tfehr
+author: ChristianRytt
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 5fd24ad91b669b054b88cd187309038f1716e582
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d33fd53dd088ae4c6b4680d2604f783a3e1a5a0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256209"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580722"
 ---
 # <a name="set-up-master-planning"></a>Impostare la pianificazione generale
 
@@ -108,11 +106,11 @@ Per ogni piano, nella scheda dettaglio **Generale** della pagina **Piani general
 
 ### <a name="operations-scheduling"></a>Programmazione operazioni
 
-Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo. La programmazione operazioni non esplode le operazioni per il ciclo di lavorazione produzione in processi. Per ulteriori informazioni sulla programmazione operazioni, vedere [Programmazione operazioni](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo. La programmazione operazioni non esplode le operazioni per il ciclo di lavorazione produzione in processi. Per ulteriori informazioni sulla programmazione operazioni, vedere [Programmazione operazioni](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>Programmazione processo
 
-La programmazione processo è un metodo di programmazione più dettagliato, dove ogni operazione viene suddivisa in singole attività o processi. La programmazione processo include sulla capacità. Viene solitamente utilizzata per programmare singoli processi del reparto produzione e viene eseguita immediatamente o entro un breve intervallo di tempo. Per ulteriori informazioni sulla programmazione processo, vedere [Programmazione processo](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+La programmazione processo è un metodo di programmazione più dettagliato, dove ogni operazione viene suddivisa in singole attività o processi. La programmazione processo include sulla capacità. Viene solitamente utilizzata per programmare singoli processi del reparto produzione e viene eseguita immediatamente o entro un breve intervallo di tempo. Per ulteriori informazioni sulla programmazione processo, vedere [Programmazione processo](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Intervalli temporali in giorni
 
@@ -160,7 +158,7 @@ I messaggi d'azione suggeriscono le modifiche che è possibile effettuare all'or
 
 Impostando l'opzione **Messaggio d'azione** su **Sì**, è possibile ignorare l'intervallo temporale del messaggio d'azione definito per l'articolo durante la programmazione generale. In questo caso, immettere il numero di giorni in cui la programmazione generale deve generare messaggi d'azione per i fabbisogni. L'intervallo temporale del messaggio d'azione viene calcolato in avanti a partire dalla data corrente.
 
-Per ulteriori informazioni sui messaggi d'azione, vedere [Messaggi d'azione](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Per ulteriori informazioni sui messaggi d'azione, vedere [Messaggi d'azione](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > Il calcolo dei messaggi d'azione genera un tempo di esecuzione più lungo per la pianificazione generale. Se i messaggi d'azione non sono analizzati e applicati regolarmente (giornalmente, settimanalmente e così via), valutare l'opportunità di disattivare il calcolo durante l'esecuzione della pianificazione generale. Per disattivare il calcolo, nella pagina **Piani generali**, impostare l'intervallo temporale **Messaggio d'azione** su **0** (zero) per il piano generale in esecuzione. Assicurarsi inoltre che l'impostazione **Messaggio d'azione** sia disattivata per tutti i gruppi di copertura.
@@ -225,7 +223,7 @@ Lead time + giorni negativi + data odierna – data fabbisogno
 
 Il sistema utilizza solo gli ordini di fornitura pianificati compresi in questo intervallo temporale e crea un nuovo ordine pianificato al di fuori di tale intervallo. Il vantaggio dei giorni negativi dinamici è che includeranno il lead time del singolo prodotto per riutilizzare gli ordini esistenti e impedire la creazione di nuovi ordini pianificati che termineranno in un giorno successivo, a causa dei ritardi causati dal lead time. 
 
-Per ulteriori informazioni, vedere [Giorni negativi e giorni negativi dinamici](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Per ulteriori informazioni, vedere [Giorni negativi e giorni negativi dinamici](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

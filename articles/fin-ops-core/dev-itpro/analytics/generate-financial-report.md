@@ -2,8 +2,7 @@
 title: Genera report finanziari
 description: In questo argomento sono riportate informazioni sulla generazione di un report finanziario.
 author: jinniew
-manager: AnnBe
-ms.date: 03/08/2021
+ms.date: 02/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 742361162c2f502bf479a9ab518054020617af93
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
+ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572423"
+ms.lasthandoff: 02/14/2022
+ms.locfileid: "8119529"
 ---
 # <a name="generate-financial-reports"></a>Genera report finanziari
 
@@ -29,9 +28,22 @@ ms.locfileid: "5572423"
 
 In questo argomento sono riportate informazioni sulla generazione di un report finanziario.
 
-Per generare un report, aprire la definizione di report e quindi selezionare il pulsante **Genera** nella barra degli strumenti. Verrà visualizzata la pagina **Stato coda report** che indica la posizione del report nella coda. Per impostazione predefinita, il report generato si aprirà nel Visualizzatore Web.
+Per generare un report, aprire la definizione di report e selezionare il pulsante **Genera** nella barra degli strumenti. Viene visualizzata la pagina **Stato coda report** che indica la posizione del report nella coda.
 
-Per la generazione di report sono disponibili le opzioni seguenti:
+Durante la generazione del report, i seguenti indicatori di stato della coda di report possono essere visualizzati nella pagina **Stato coda report**.
+
+| Status          | Stato | Description|
+|-----------------|--------|--------------------|
+| Inserimento in coda        | Provvisorio |La definizione del report viene convalidata prima che il report venga inserito nella coda di generazione.                    |
+| In coda          | Provvisorio | Il report entra nella coda di generazione di report e attende di essere elaborato.                      |
+| Elaborazione      | Provvisorio | Questo stato segue in genere lo stato **In coda** e di solito diventa **Finale** al termine dell'elaborazione.       |
+| Post-elaborazione | Provvisorio | Questo stato segue lo stato **Elaborazione** e indica che tutti i dati del report sono stati raccolti, ma che vengono eseguite azioni derivate, come il calcolo e il rollup.            |
+| Annullamento      | Provvisorio | La generazione del report viene annullata su richiesta dell'utente. Questo stato risulta da un annullamento richiesto dall'utente di un report il cui stato è **In coda** o **Elaborazione**. Il sistema tenta di attivare lo stato **Annullato** per il report, a meno che il sistema non sia troppo avanti e debba finalizzarlo in un altro stato. |
+| Annullata        | Finale | L'elaborazione del report è terminata ma non è stata completata a causa di un'interruzione richiesta dall'utente.            |
+| Completato       | Finale | Il report è pronto per l'uso.                      |
+| Non pronto          | Finale | L'elaborazione del report è terminata ma non è riuscita e il report non deve essere utilizzato. |
+
+Per impostazione predefinita, il report generato si aprirà nel Visualizzatore Web. Per la generazione di report sono disponibili le opzioni seguenti:
 
 - Impostare una programmazione per generare un report o un gruppo di report automaticamente
 - Verificare la presenza di conti o dati mancanti in un report e convalidare l'accuratezza di un report

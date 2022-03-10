@@ -2,11 +2,9 @@
 title: Prelevare il batch meno recente su un dispositivo mobile
 description: In questo argomento viene descritto come impostare e applicare le opzioni per prelevare il batch meno recente da un dispositivo mobile.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e0deadaeb403e1f645309a141c5678fbe3f716
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d96221ae14610057cceed304efa01261eb01aef134e4bdad10ccd0386bd52cf9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746725"
 ---
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>Prelevare il batch meno recente su un dispositivo mobile
 

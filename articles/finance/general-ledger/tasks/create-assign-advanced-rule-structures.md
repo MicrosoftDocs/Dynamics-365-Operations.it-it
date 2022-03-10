@@ -2,11 +2,9 @@
 title: Creare e assegnare strutture di regole avanzate
 description: In questo argomento viene descritto come creare e assegnare una struttura di regole avanzate a una struttura dei conti.
 author: aprilolson
-manager: AnnBe
 ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e6a3f7d174c91e357dce8a19ab50a5cd42a85561
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 769f3cb44830a4bc9ef48e5bcfda5a47b87954c20f65d1d3eef5d02af9ed5bd1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968604"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750414"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Creare e assegnare strutture di regole avanzate
 
@@ -58,3 +56,6 @@ In questo argomento viene descritto come creare e assegnare una struttura di reg
 17. Chiudere la pagina.
 18. Selezionare **Attiva**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

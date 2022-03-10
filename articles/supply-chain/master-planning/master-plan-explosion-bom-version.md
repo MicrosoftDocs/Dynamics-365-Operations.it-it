@@ -1,7 +1,7 @@
 ---
 title: Esplosione di una versione DBA
 description: Questo articolo descrive uno scenario di pianificazione generale che include l'esplosione di una versione di distinta base (DBA).
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19211
 ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: be4dfc85ad7ab01df9a95a394896873e2d649e12
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187412"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575101"
 ---
 # <a name="explosion-of-a-bom-version"></a>Esplosione di una versione DBA
 
@@ -34,7 +34,7 @@ Un'esplosione della domanda di una versione DBA (distinta base) crea una domanda
 -   La dimensione sito è obbligatoria e deve essere immessa nella transazione relativa alla domanda.
 -   La dimensione sito è coerente. Di conseguenza, il sito relativo alla domanda di livello inferiore corrisponde a quello riportato nella transazione della domanda iniziale.
 
-Nella figura riportata di seguito è illustrato il processo di esplosione della domanda nella pianificazione generale. ![Esplosione della domanda mediante una versione DBA](./media/multisitedemandexplosionscenariousingbomversion.gif)
+Nella figura riportata di seguito è illustrato il processo di esplosione della domanda nella pianificazione generale. ![Esplosione della domanda utilizzando la versione BOM.](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

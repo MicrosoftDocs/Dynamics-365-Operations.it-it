@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4510ed7033e7c4e5187905906dcbef63f05a130bafcb7d9f19bbb360a7298119
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012093"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500592"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Codici motivo conteggio scorte
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 I codici motivo consentono di analizzare i risultati di un processo di conteggio e le eventuali discrepanze che si verificano durante tale processo. È possibile specificare il motivo del conteggio, ad esempio un pallet rotto o una correzione dello scorte basata su campioni di inventario. Allo stesso tempo, puoi utilizzare la funzionalità di rettifica per registrare il valore delle rettifiche di scorte disponibili nel conto di contropartita appropriato, in base al motivo di ciascuna rettifica di scorte.
 
@@ -37,13 +36,11 @@ Prima di impostare il sistema, si consiglia di definire una strategia per la ges
 - I codici motivo devono essere obbligatori o facoltativi per alcuni articoli?
 - Quanti codici motivo sono necessari?
 - Devi preselezionare un elenco limitato di codici motivo per le rettifiche?
-- In che modo dei lettori di codici a barre devono utilizzare codici motivo? I codici motivo devono essere preselezionati, obbligatori o non modificabili?
+- Come dovrebbero usare i codici di ragione gli utenti degli scanner di codici a barre? I codici motivo devono essere preselezionati, obbligatori o non modificabili?
 - I lavoratori di magazzino richiedono un diverso comportamento del codice motivo sui lettori mobili? Se la risposta è sì, puoi creare più voci di menu e assegnarle a persone diverse.
 - I codici motivo devono guidare la registrazione del conto di contropartita finanziaria?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Attivare le funzionalità del codice motivo nel sistema
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Se non vedi tutte le funzionalità descritte in questo argomento nel tuo sistema, probabilmente devi attivare la funzionalità *Registrare le rettifiche delle scorte disponibili utilizzando codici motivo configurabili collegati ai conti di contropartita*. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 

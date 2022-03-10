@@ -2,13 +2,11 @@
 title: Creazione di ordini di lavoro
 description: Nell'argomento viene descritto come creare ordini di lavoro in Gestione cespiti.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743700"
 ---
 # <a name="creating-work-orders"></a>Creazione di ordini di lavoro
 
@@ -30,7 +28,7 @@ ms.locfileid: "5131795"
 
 Dopo aver programmato processi di manutenzione preventiva, il passaggio successivo prevede la creazione di ordini di lavoro per i processi. È possibile completare questo passaggio utilizzando uno dei programmi di manutenzione. I processi programmati in un programma di manutenzione possono avere diversi tipi di riferimenti, come illustrato nella tabella seguente.
 
-| Tipo di riferimento | descrizione |
+| Tipo di riferimento | Descrizione |
 |---|---|
 | Piani di manutenzione | Processi di manutenzione preventiva basati su tipi di piani di manutenzione *Tempo* o *Contatore*. |
 | Cicli di manutenzione | Processi di manutenzione preventiva contenenti vari cespiti che richiedono un tipo di manutenzione simile. |
@@ -50,7 +48,7 @@ Per creare ordini di lavoro basati sul programma di manutenzione, segui questi p
 
     Viene visualizzata la finestra di dialogo **Crea ordini di lavoro**. Il campo **Ore previste manutenzione** mostra il numero totale di ore previste per le righe selezionate.
 
-    ![Finestra di dialogo Crea ordini di lavoro](media/18-preventive-maintenance.png)
+    ![Finestra di dialogo Crea ordini di lavoro.](media/18-preventive-maintenance.png)
 
 1. Nella sezione **Parametri**, specificare il numero di ordini di lavoro da creare. Consente di selezionare una delle opzioni indicate di seguito.
 
@@ -62,9 +60,6 @@ Per creare ordini di lavoro basati sul programma di manutenzione, segui questi p
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Raggruppare le righe ordine di lavoro che vengono create automaticamente durante l'esecuzione di un piano di manutenzione
 
-> [!IMPORTANT]
-> La funzionalità descritta in questa sezione è disponibile nell'ambito di una versione di anteprima. Il contenuto e la funzionalità sono soggetti a modifiche. Per ulteriori informazioni sui rilasci di anteprima, vedi [Domande frequenti aggiornamenti del servizio One version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
-
 Questa funzionalità consente di definire le regole per raggruppare le righe dell'ordine di lavoro in un unico ordine di lavoro quando il sistema è configurato per generare automaticamente gli ordini di lavoro, in base a un piano di manutenzione. In precedenza, gli ordini di lavoro generati automaticamente potevano contenere solo una riga. Tuttavia, ora puoi raggruppare gli ordini di lavoro per, ad esempio, cespite, tipo di cespite o unità funzionale. Gli ordini di lavoro generati manualmente potrebbero già essere raggruppati in questo modo, come descritto nella sezione precedente di questo argomento.
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Abilitare il raggruppamento per gli ordini di lavoro generati automaticamente
@@ -72,7 +67,7 @@ Questa funzionalità consente di definire le regole per raggruppare le righe del
 Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione cespiti*
-- **Nome funzionalità:** *(Anteprima) Applica regole per raggruppare ordini di lavoro durante l'esecuzione di un piano di manutenzione*
+- **Nome funzionalità:** *Applica regole per raggruppare ordini di lavoro durante l'esecuzione di un piano di manutenzione*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Configurare il raggruppamento per gli ordini di lavoro generati automaticamente
 
@@ -95,3 +90,6 @@ Per configurare il raggruppamento per gli ordini di lavoro generati automaticame
 1. Se desideri che le opzioni vengano applicate quando esegui solo alcuni dei tuoi piani di manutenzione, nella Scheda dettaglio **Record da includere** aggiungi i filtri in base alle tue esigenze, proprio come faresti per altri processi batch in Microsoft Dynamics 365 Supply Chain Management.
 1. Nella Scheda dettaglio **Esegui in background**, configura le opzioni batch e di pianificazione in base alle tue esigenze, proprio come faresti per altri processi batch in Supply Chain Management.
 1. Seleziona **OK** per eseguire e/o pianificare i piani di manutenzione selezionati.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

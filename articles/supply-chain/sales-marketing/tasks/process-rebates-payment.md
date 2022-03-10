@@ -1,26 +1,23 @@
 ---
 title: Elaborare sconti per il pagamento
 description: Questa procedura mostra come convertire gli sconti del cliente approvati ed elaborati in note di accredito.
-author: omulvad
-manager: tfehr
+author: Henrikan
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 981068d26d232b10efd8d7288daaf7358aee3728
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ce813f0f5d9aa750828b524dd9fdf9b4a9f0854
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431273"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572459"
 ---
 # <a name="process-rebates-for-payment"></a>Elaborare sconti per il pagamento
 
@@ -51,3 +48,6 @@ Questa procedura mostra come convertire gli sconti del cliente approvati ed elab
     * Si noti che una transazione dall'importo negativo, rappresentante l'importo totale dello sconto, senza riferimento alla fattura è stata aggiunta al saldo del cliente.   
 15. Scegliere Annulla.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

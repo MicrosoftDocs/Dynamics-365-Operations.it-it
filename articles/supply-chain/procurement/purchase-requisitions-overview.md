@@ -1,9 +1,9 @@
 ---
 title: Panoramica della richiesta di acquisto
 description: Vengono descritti il flusso di lavoro delle richieste di acquisto e i diversi stati che può avere una richiesta di acquisto.
-author: kamaybac
+author: Henrikan
 ms.date: 11/02/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08902aa8f7376fb394f319f186a339bb967a871dfa9151eb99b80e89cf797716
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acd0deebe79e29bd1beb32ea21cd179f5bf12c43
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769541"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982904"
 ---
 # <a name="purchase-requisition-overview"></a>Panoramica della richiesta di acquisto
 

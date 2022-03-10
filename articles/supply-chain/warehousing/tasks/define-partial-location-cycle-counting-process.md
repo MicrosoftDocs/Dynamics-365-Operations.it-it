@@ -1,7 +1,7 @@
 ---
 title: 'Definire il processo di conteggio ciclo parziale di ubicazione '
 description: Quando si utilizzano i piani di conteggio ciclo per creare il lavoro di conteggio, è possibile definire le operazioni di conteggio effettive richiedendo che vengano conteggiati solo i prodotti specifici e le varianti prodotto anziché tutti le scorte disponibili nell'ubicazione.
-author: ShylaThompson
+author: Mirzaab
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanLis
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcda301934c6ccc06f17ed8ae13c52754336d2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7c179b7f6e0b8546e20204a971cb2951c7b62d7b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830908"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579978"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Definire il processo di conteggio ciclo parziale di ubicazione  
 

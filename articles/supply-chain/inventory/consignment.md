@@ -1,7 +1,7 @@
 ---
 title: Impostare la spedizione
 description: In questo argomento viene illustrato come usare i processi di inventario spedizione in entrata.
-author: perlynne
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 220834
 ms.assetid: 3c9d6de4-45d4-459a-aef7-0d9ad2c22b3a
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4a1b96d18048a1ae6e380374f32d2bfa2270ae24
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360402"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577722"
 ---
 # <a name="set-up-consignment"></a>Impostare la spedizione
 

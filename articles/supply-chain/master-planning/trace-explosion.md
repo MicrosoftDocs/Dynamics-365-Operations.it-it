@@ -1,12 +1,10 @@
 ---
 title: Utilizzare la tracciatura per l'esplosione
 description: In questo articolo viene illustrato come utilizzare l'analisi per esplorare le cause associate al risultato dell'esplosione di un ordine.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19231
 ms.assetid: 9bc9bfbe-a7a9-437b-a947-826229b0585a
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7166063e7865e02eb4ee914f7984fa78a51e4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c42eaf4c9218a186bca30848bc7b09c634f9a69e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011411"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567177"
 ---
 # <a name="use-tracing-for-explosion"></a>Utilizzare la tracciatura per l'esplosione
 
@@ -40,10 +38,12 @@ Abilitando la tracciatura, è possibile visualizzare informazioni sui fattori ch
 
 È possibile visualizzare i dettagli sul ritardo e sulle azioni per un ordine selezionato. Nella pagina **Esplosione** le informazioni sulla tracciatura sono disponibili nella scheda **Esplosione** nel riquadro superiore. La tracciatura si verifica quando si esplode un ordine. Per iniziare la tracciatura dell'ordine pianificato, fare clic su **Aggiorna**, quindi selezionare la casella di controllo **Abilita tracciatura**. È possibile utilizzare il campo **Trova testo** per cercare il registro per informazioni specifiche. I risultati della ricerca vengono evidenziati nella struttura.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica piani generali](master-plans.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

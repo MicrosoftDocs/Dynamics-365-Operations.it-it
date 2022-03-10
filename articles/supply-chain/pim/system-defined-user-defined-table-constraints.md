@@ -1,12 +1,10 @@
 ---
 title: Vincoli di tabella definiti dall'utente e dal sistema
 description: "In questo articolo vengono descritti i due tipi di vincoli di tabella per i componenti di un modello di configurazione prodotto: definiti dall'utente e definiti dal sistema. I vincoli di tabella rappresentano le matrici delle combinazioni di attributo consentite, in cui ogni riga definisce un insieme di valori di attributi possibili."
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 19781
 ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 120ffe8e64629d0f99ac036d6ae6a933575903e3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c4b484c99bc8f1cc830d4177460ec15a26714a56
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987156"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577386"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>Vincoli di tabella definiti dall'utente e dal sistema
 
@@ -59,10 +57,12 @@ Quando si crea un vincolo di tabella definito dal sistema, si seleziona una tabe
 
 Prima che un vincolo di tabella possa essere reso effettivo in un modello di configurazione prodotto, deve essere incluso in un vincolo su uno dei componenti del modello. La procedura è creare un nuovo vincolo, selezionare il tipo di vincolo di tabella e quindi selezionare la definizione di vincolo di tabella da utilizzare. Infine, tutti i campi del vincolo della tabella devono essere mappati agli attributi nel modello di configurazione prodotto.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica sui modelli di configurazione prodotto](product-configuration-models.md)
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

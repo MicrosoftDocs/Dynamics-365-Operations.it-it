@@ -3,24 +3,26 @@ title: Informazioni dettagliate pagamenti cliente (anteprima)
 description: Questo argomento descrive la funzionalità di informazioni dettagliate sui pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di singoli clienti. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d359e3ceef0fb7213d52aeb265da2e75120ae223
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822397"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984004"
 ---
 # <a name="customer-payment-insights-preview"></a>Informazioni dettagliate pagamenti cliente (anteprima)
 
@@ -47,11 +49,11 @@ Per ciascuna la fattura aperta, l'analisi dei pagamenti del cliente (anteprima) 
 
 Informazioni dettagliate pagamenti cliente (anteprima) fornisce anche una visione aggregata dei pagamenti previsti per consentire alle organizzazioni di comprendere l'importo totale del pagamento che possono aspettarsi da un cliente in uno dei tre bucket, In tempo, In ritardo e Molto in ritardo.
 
-[![Visualizzazione aggregata delle previsioni di pagamento](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Visualizzazione aggregata delle previsioni di pagamento.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Inoltre, ciascuna fattura è assegnata una probabilità di pagamento in tempo. Se la probabilità di pagamento in tempo è inferiore al 50%, le fatture vengono contrassegnate con un cerchio rosso per indicare che possono richiedere attenzione per la raccolta. 
 
-[![Elenco delle probabilità di pagamenti](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Elenco delle probabilità di pagamenti.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Informazioni dettagliate pagamenti cliente (anteprima) fornisce anche informazioni contestuali per spiegare la previsione, ad esempio i principali fattori che hanno influenzato le previsioni, lo stato attuale delle attività con il cliente e i dettagli sul comportamento di pagamento storico del cliente. In molte aziende, il processo di raccolta è stato un'attività reattiva; il processo di raccolta non inizia fino alla scadenza delle fatture. 
 

@@ -1,7 +1,7 @@
 ---
 title: Sincronizzare conti direttamente da Sales con clienti in Supply Chain Management
 description: Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti da Dynamics 365 Sales in Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 10/25/2018
 ms.topic: article
 ms.prod: ''
@@ -13,24 +13,24 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1bf0da5ba5274b61758bc0efdc2f2167327966ad
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3257f4582ede6cd1be8e593a5ed99f5ffd0ca6f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831652"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8063087"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sincronizzare conti direttamente da Sales con clienti in Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 > [!NOTE]
-> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Microsoft Dataverse per le app](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Prima di utilizzare la soluzione Prospect to cash, è necessario acquisire familiarità con [Integrare i dati in Microsoft Dataverse per le app](/powerapps/administrator/data-integrator).
 
 Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare i conti direttamente da Dynamics 365 Sales in Dynamics 365 Supply Chain Management.
 
@@ -38,7 +38,7 @@ Questo argomento descrive i modelli e le attività sottostanti che vengono utili
 
 La soluzione Prospect to cash utilizza la funzionalità Integrazione dati per sincronizzare i dati tra istanze di Supply Chain Management e Sales.  I modelli Prospect to cash disponibili con la funzionalità Integrazione dati consentono il flusso di dati relativo a conti, contatti, prodotti, offerte di vendita, ordini cliente e fatture di vendita tra Supply Chain Management e Sales. La figura seguente mostra il modo in cui i dati vengono sincronizzati tra Supply Chain Management e Sales.
 
-[![Flusso di dati in Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Flusso di dati in Prospect per uno scenario di liquidazione.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelli e attività
 
@@ -99,7 +99,7 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 > [!NOTE]
 > Il mapping mostra quali informazioni sulle colonne verranno sincronizzate da Sales in Supply Chain Management.
 
-![Mapping dei modelli in Integrazione dati](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![Mapping modello in Integrazione dati.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Argomenti correlati
 

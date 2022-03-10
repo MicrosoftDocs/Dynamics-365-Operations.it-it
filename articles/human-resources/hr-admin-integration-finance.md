@@ -1,37 +1,39 @@
 ---
 title: Configurare l'integrazione con Finance
-description: Questo articolo descrive le funzionalità disponibili per l'integrazione di Dynamics 365 Human Resources con Dynamics 365 Finance.
-author: andreabichsel
-ms.date: 03/26/2020
+description: Questo argomento descrive l'integrazione tra Dynamics 365 Human Resources e Dynamics 365 Finance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0a2c5dd0ce97f33f5f8b65c801fbc15dfc65e8d4
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889958"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065018"
 ---
 # <a name="configure-integration-with-finance"></a>Configurare l'integrazione con Finance
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Per integrare Dynamics 365 Human Resources con Dynamics 365 Finance, è possibile utilizzare il modello da Human Resources a Finance in [Integratore di dati](/powerapps/administrator/data-integrator). Il modello da Human Resources a Finance consente il flusso di dati per lavori, posizioni e lavoratori. Il modello consente ai dati di passare da Human Resources a Finance, ma non consente ai dati di passare da Finance a Human Resources.
 
-![Flusso di integrazione da Human Resources a Finance](./media/hr-admin-integration-finance-flow.png)
+![Flusso di integrazione da Human Resources a Finance.](./media/hr-admin-integration-finance-flow.png)
 
 La soluzione da Human Resources a Finance fornisce i seguenti tipi di sincronizzazione dei dati:
 
@@ -254,6 +256,6 @@ L'ID ubicazione utilizzato per l'indirizzo del lavoratore non fa parte di una se
 
 Nelle figura seguenti viene illustrato un esempio di mapping di modello nel servizio di integrazione di dati. 
 
-![Mapping del modello](./media/IntegrationMapping.png)
+![Mapping modello.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Avviare e interrompere la registrazione dell'ora per un ordine di assistenza
 description: Avviare e interrompere la registrazione dell'ora per un ordine di assistenza.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc205daa35c898147559427b071d1d2c2720de3a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3f6a704629b70fceb6cf0c3d1b689a750bbcb468
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817463"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567825"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>Avviare e interrompere la registrazione dell'ora per un ordine di assistenza 
 

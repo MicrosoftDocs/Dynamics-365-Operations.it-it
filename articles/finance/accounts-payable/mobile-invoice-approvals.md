@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 78ab17952801a1d77f321e212bb61e9b45d93216
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189204"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737357"
 ---
 # <a name="mobile-invoice-approvals"></a>Approvazioni fatture per dispositivi mobili
 
@@ -136,7 +136,7 @@ La prima pagina in versione mobile che è consigliabile progettare è l'elenco d
 
 1.  Nell'URL, sostituire il nome della voce di menu con **VendMobileInvoiceAssignedToMeListPage** per aprire la versione mobile della pagina elenco **Fatture fornitore in sospeso assegnate all'utente** nel modulo **Contabilità fornitori**. A seconda del numero delle fatture assegnate all'utente, questa pagina mostrerà tali fatture. È possibile usare il filtro a sinistra per trovare una fattura specifica. Tuttavia, non è richiesta una fattura specifica per questo esempio. È solo necessario avere qualche fattura assegnata in modo da poter progettare la pagina in versione mobile. Le nuove pagine disponibili sono state progettate appositamente per sviluppare scenari mobili per la fattura fornitore. Di conseguenza, è necessario utilizzare queste pagine. L'URL deve essere simile al seguente e dopo l'immissione la pagina indicata nella figura deve essere visualizzata: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
 
-    [![Pagina Fatture fornitore in sospeso assegnate all'utente](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    [![Pagina Fatture fornitore in sospeso assegnate all'utente.](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
     
 2.  Fare clic sul pulsante **Impostazioni** (ingranaggio) in alto a destra nella pagina e fare clic su **App per dispositivi mobili**.
 3.  Selezionare l'area di lavoro e fare clic su **Modifica**
@@ -145,7 +145,7 @@ La prima pagina in versione mobile che è consigliabile progettare è l'elenco d
 6.  Fare clic su **Fine**.
 7.  Nello strumento di progettazione mobile, nella scheda **Campi** fare clic su **Seleziona campi**. Le colonne della pagina elenco devono essere simili alla figura seguente. 
 
-    [![Colonne nella pagina Fatture fornitore in sospeso assegnate all'utente](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    [![Colonne nella pagina Fatture fornitore in sospeso assegnate all'utente.](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
     
 8.  Aggiungere le colonne necessarie dalla pagina elenco che devono essere visualizzate agli utenti nella pagina in versione mobile. L'ordine di aggiunta è l'ordine in cui i campi verranno visualizzati all'utente finale. Il solo modo per modificare l'ordine dei campi è riselezionarli tutti. In base ai requisiti di questo scenario, sono necessari i seguenti otto campi. Tuttavia, alcuni utenti potrebbero considerare otto campi troppe informazioni da avere su un dispositivo mobile. Di conseguenza, mostreremo solo i campi più importanti nella visualizzazione elenco mobile. I campi rimanenti sembreranno appariranno nella visualizzazione dettagli che progetteremo in un secondo momento. Per ora, aggiungeremo i seguenti campi. Fare clic sul segno (**+**) nelle colonne da aggiungere alla pagina mobile.
     - Nome fornitore
@@ -156,7 +156,7 @@ La prima pagina in versione mobile che è consigliabile progettare è l'elenco d
 
     Dopo che i campi vengono aggiunti, la pagina mobile deve somigliare alla figura seguente. 
     
-    [![Pagina dopo l'aggiunta dei campi](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Pagina dopo l'aggiunta di campi.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  È inoltre necessario aggiungere le seguenti colonne ora, in modo da abilitare le azioni del flusso di lavoro successivamente.
     - Mostra attività completare
@@ -175,7 +175,7 @@ La prima pagina in versione mobile che è consigliabile progettare è l'elenco d
 
 Per progettare la pagina dei dettagli fattura per l'ambiente mobile, utilizzare la pagina **VendMobileInvoiceHeaderDetails**. Tenere presente che, a seconda del numero di fatture nel sistema, la pagina mostra la fattura più vecchia (la fattura creata per prima). È possibile usare il filtro a sinistra per trovare una fattura specifica. Tuttavia, non è richiesta una fattura specifica per questo esempio. Sono neecssari solo alcuni dati della fattura per progettare la pagina in versione mobile. 
 
-[![Pagina Flusso di lavoro](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+[![Pagina Flusso di lavoro.](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Nell'URL, sostituire il nome della voce di menu con **VendMobileInvoiceHeaderDetails** per aprire il modulo
 
@@ -212,7 +212,7 @@ Per progettare la pagina dei dettagli fattura per l'ambiente mobile, utilizzare 
 
 11. Dopo che tutti i campi dai due passaggi precedenti sono stati aggiunti, fare clic su **Fine**. La pagina deve essere simili alla figura seguente.
     
-    [![Illustrazione che mostra i campi aggiuntivi aggiunti](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Illustrazione che mostra i campi aggiuntivi aggiunti.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Fare clic su **Fine** per uscire dalla modalità di modifica.
 
@@ -322,7 +322,7 @@ Per aggiungere le azioni del flusso di lavoro, utilizzare la pagina **VendMobile
 
 4. Impostare l'opzione **Gestione documenti** su **Sì** come indicato di seguito. **Nota:** Se non sono presenti esigenze di visualizzare gli allegati sul dispositivo mobile, è possibile lasciare questa opzione impostata su **No**, che è l'impostazione predefinita.
    
-   ![Gestione documenti](./media/docmanagement-216x300.png)
+   ![Gestione documenti.](./media/docmanagement-216x300.png)
 
 5. Fare clic su **Fine** per uscire dalla modalità di modifica.
 
@@ -339,7 +339,7 @@ I requisiti di questo scenario confermano che ci saranno solo distribuzioni a li
 
 1.  Nell'URL, sostituire il nome della voce di menu, come fatto in precedenza. Verrà visualizzata una che deve essere simile alla figura seguente.
 
-    [![Pagina Tutte le distribuzioni](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Pagina Tutte le distribuzioni.](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Aprire lo strumento di progettazione mobile dal pulsante **Impostazioni** (ingranaggio).
 

@@ -1,7 +1,7 @@
 ---
 title: Importare file ISO20022
 description: In questo argomento viene descritto come importare file di pagamento dei formati camt.054 e pain.002 ISO 20022 Microsoft Dynamics 365 Finance.
-author: neserovleo
+author: anasyash
 ms.date: 07/27/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Italy, Latvia, Lithuania, Norway, Poland, Spain, Sweden, Switzerland, United Kingdom
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0df3f840162cf93c9e9f5f34a22e8b49171ea71f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 19b9e90ac42c496931c2fc936a25ee3b1b16ce58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891162"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592606"
 ---
 # <a name="import-iso20022-files"></a>Importare file ISO20022
 

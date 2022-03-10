@@ -1,8 +1,8 @@
 ---
-title: Configurare il dipendente self-service
+title: Configurare Self-service dipendenti
 description: In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 12/06/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,24 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cafd89d30ca3876953df099e2e7b7cc9c3e1fdc0f69bb039310434f8d770f6f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83718856a864123d7941b21c078bcdb96a62cca8
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721585"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067581"
 ---
 # <a name="configure-employee-self-service"></a>Configurare il dipendente self-service
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per la navigazione di livello superiore in Dipendente self-service. I riquadri Piano benefit indirizzano gli utenti ai piani di benefit per i quali sono idonei.
+In Microsoft Dynamics 365 Human Resources, è possibile configurare configurare riquadri per la navigazione di livello superiore in **Self service dipendente**. I riquadri Piano benefit indirizzano gli utenti ai piani di benefit per i quali sono idonei.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Impostare un riquadro Piani di benefit
 
@@ -34,21 +37,18 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per
 
 2. Selezionare la scheda **Impostazione riquadro Piani di benefit**, quindi selezionare **Nuovo**.
 
-3. Specificare i valori per i seguenti campi:
+3. Specifica i valori per i seguenti campi.
 
-   | Campo | Descrizione |
+   | Campo | Description |
    | --- | --- |
+   | **Codice tipo di piano** | Il tipo di piano visualizzato quando si seleziona questo riquadro in **Self-service benefit**. |
    | **ID riquadro** | L'identificatore univoco per il riquadro. |
-   | **Testo etichetta riquadro** | Il testo che verrà visualizzato per il riquadro Self service. |
+   | **Testo etichetta riquadro** | Il testo che apparirà per il riquadro in **Self-service benefit**. |
    | **Descrizione** | Una descrizione del riquadro. |
-   | **Indirizzo Internet** | Immettere l'URL alla pagina Dipendente self-service. |
-   | **Dimensioni riquadro** | La dimensione del riquadro: Piccolo, Medio o Grande. |
-   | **Destinatario** | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
    | **Immagine di sfondo riquadro** | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
-   | **Avvio** | La data e l'ora di inizio della disponibilità del riquadro. |
-   | **Fine periodo** | La data e l'ora di fine della disponibilità del riquadro. |
+   | **Traccia iscrizioni aperte** | Seleziona questa opzione per monitorare l'avanzamento delle iscrizioni aperte per questo tipo di piano. Ad esempio, potrebbero essere presenti piani creati in cui **Tipo di piano = Altro**. Questi piani potrebbero essere piani facoltativi per i quali non si desidera monitorare lo stato di avanzamento dell'iscrizione. Se non si seleziona questo tipo di piano, i piani di queste tipologie verranno durante il monitoraggio dello stato di avanzamento o di completamento dell'iscrizione sulla scheda **Iscrizione aperta**. Questa impostazione si applica al tipo di piano selezionato per tutti i periodi e le persone giuridiche. |
 
-4. Selezionare **Salva**.
+4. Seleziona **Salva**.
 
 ## <a name="set-up-a-flex-credit-plan-tile"></a>Impostare un riquadro Piano di credito flessibile
 
@@ -56,21 +56,18 @@ In Microsoft Dynamics 365 Human Resources, è possibile configurare riquadri per
 
 2. Selezionare la scheda **Impostazione riquadro Piano di credito flessibile**, quindi selezionare **Nuovo**.
 
-3. Specificare i valori per i seguenti campi:
+3. Specifica i valori per i seguenti campi.
 
-   | Campo | Descrizione |
+   | Campo | Description |
    | --- | --- |
+   | **ID credito benefit** | I piani del programma di credito flessibile visualizzato quando si seleziona questo riquadro in **Self-service benefit**. |
    | **ID riquadro** | L'identificatore univoco per il riquadro. |
-   | **Testo etichetta riquadro** | Il testo che verrà visualizzato per il riquadro Self service. |
+   | **Testo etichetta riquadro** | Il testo che apparirà per il riquadro in **Self-service benefit**. |
    | **Descrizione** | Una descrizione del riquadro. |
-   | **Indirizzo Internet** | Immettere l'URL alla pagina Dipendente self-service. |
-   | **Dimensioni riquadro** | La dimensione del riquadro: Piccolo, Medio o Grande. |
-   | **Destinatario** | Specifica se la pagina deve essere aperta in una nuova finestra o nella finestra corrente. |
    | **Immagine di sfondo riquadro** | L'URL dell'immagine da utilizzare per il riquadro (facoltativo). |
-   | **Avvio** | La data e l'ora di inizio della disponibilità del riquadro. |
-   | **Fine periodo** | La data e l'ora di fine della disponibilità del riquadro. |
+   | **Traccia iscrizioni aperte** | Seleziona questa opzione per monitorare l'avanzamento delle iscrizioni aperte per questo tipo di piano. Ad esempio, potrebbero essere presenti piani creati in cui **Tipo di piano = Altro**. Questi piani potrebbero essere piani facoltativi per i quali non si desidera monitorare lo stato di avanzamento dell'iscrizione. Se non si seleziona questo tipo di piano, i piani di queste tipologie verranno durante il monitoraggio dello stato di avanzamento o di completamento dell'iscrizione sulla scheda **Iscrizione aperta**. Questa impostazione si applica al tipo di piano selezionato per tutti i periodi e le persone giuridiche. |
 
-4. Selezionare **Salva**.
+4. Seleziona **Salva**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

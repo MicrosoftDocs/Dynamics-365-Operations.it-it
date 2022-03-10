@@ -1,28 +1,25 @@
 ---
 title: Crea una nuova regola kanban duplicando una regola esistente
 description: Questa procedura è incentrata sulla creazione di un duplicato di una regola kanban esistente.
-author: ChristianRytt
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 84a0093d95c2f7084c7a0ed17f8b2f86d654b5d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 578ce8bfd5a9ede85670ac0e345f428d705f7914
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430868"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575029"
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>Crea una nuova regola kanban duplicando una regola esistente
 
@@ -44,3 +41,6 @@ Questa procedura è incentrata sulla creazione di un duplicato di una regola kan
 3. Fare clic su OK.
     * Si noti che un duplicato della regola kanban 000017 viene creato.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Unione del modello di valore cespite e registro beni ammortizzabili
 description: 'Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations (1611), le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro.'
-author: ShylaThompson
-ms.date: 06/20/2017
+author: moaamer
+ms.date: 10/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,33 +11,34 @@ ms.reviewer: roschlom
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a8e04f89673b3e0eb07e19aa1e14276f1f22c25b9aaabc91e2919892f74ed985
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9b11edcbf03b0917e35d9cef03834629b7b67fad
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727985"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674928"
 ---
-# <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Unione del modello di valore cespite e registro beni ammortizzabili
+# <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Unione del modello di valore cespite e del registro beni ammortizzabili
 
 [!include [banner](../includes/banner.md)]
 
-Nelle versioni precedenti, erano presenti due concetti di valutazione per i cespiti: modelli di valore e registri beni ammortizzabili. In Microsoft Dynamics 365 for Operations (1611), le funzionalità dei modelli di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro.
+Questo argomento descrive la funzionalità contabile corrente in Cespiti. Questa funzionalità dei libri si basa sulla funzionalità dei modelli di valore disponibile nelle versioni precedenti, ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili.
 
-La nuova funzionalità dei libri si basa sulla precedente funzionalità dei modelli di valore ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili. [![Libro come unione di funzionalità dei modelli di valore e dei registri beni ammortizzabili.](./media/fixed-assets.png)](./media/fixed-assets.png) Grazie a questa unione è ora possibile usare un solo set di pagine, richieste di informazioni e report per tutti i processi relativi ai cespiti. Le tabelle in questo argomento descrivono la precedente funzionalità dei modelli di valore e dei registri dei beni ammortizzabili, insieme alle nuove funzionalità per i libri.
+La funzionalità contabile consente di utilizzare un unico set di pagine, richieste e report per tutti i processi relativi ai cespiti dell'organizzazione. Le tabelle in questo argomento descrivono la precedente funzionalità dei modelli di valore e dei registri dei beni ammortizzabili, insieme alle nuove funzionalità contabili correnti.
 
-## <a name="setup"></a>Imposta
+## <a name="setup"></a>Impostazione
 Per impostazione predefinita, i libri registrano sia nella contabilità generale che nel giornale di registrazione cespiti secondario. I libri hanno una nuova opzione **Registra nella contabilità generale** che consente di disabilitare la registrazione nella contabilità generale e registrare solo nel giornale di registrazione cespiti secondario. Questa funzionalità somiglia al precedente comportamento di registrazione per i registri beni ammortizzabili. L'impostazione dei nomi di giornale di registrazione ha un nuovo livello di registrazione denominato Nessuno. Tale livello di registrazione è stato aggiunto specificamente per le transazioni cespiti. Per registrare transazioni per libri che non registrano nella contabilità generale è necessario usare un nome di giornale di registrazione il cui livello di registrazione è impostato su **Nessuno**.
+
 
 | &nbsp;                                           | Registro beni ammortizzabili               | Modello di valore                     | Libro (Nuovo)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-| Registra nella contabilità generale                                   | Mai                           | Sempre                          | Opzione per effettuare registrazioni nella contabilità generale                                |
+| Registrare nella contabilità generale                                   | Mai                           | Sempre                          | Opzione per la registrazione nella contabilità generale                                |
 | Livelli di registrazione                                   | Non applicabile                  | 3: Corrente, Operazioni e Imposta | 11: Corrente, Operazioni, Imposta, 7 livelli personalizzati e Nessuno |
-| Nomi giornale di registrazione                                    | Nomi giornale di registrazione per registri beni ammortizzabili | Contabilità generale - Nomi giornale di registrazione              | Contabilità generale - Nomi giornale di registrazione                                      |
-| Libri derivati                                    | Non consentito                     | Consentito                         | Consentito                                                 |
+| Nomi giornale di registrazione                                    | Nomi giornale di registrazione per registri beni ammortizzabili | Contabilità generale - nomi dei giornali              | Contabilità generale - nomi dei giornali                                      |
+| Libri derivati                                    | Non consentito                     | Autorizzata                         | Autorizzata                                                 |
 | Sostituzione profilo di ammortamento a livello cespite | Consentito                         | Non consentito                     | Consentito                                                 |
 
 ## <a name="processes"></a>Processi

@@ -2,31 +2,28 @@
 title: Stati della gestione trasporto
 description: Questo argomento spiega come creare uno stato di trasporto e mappare tale stato a uno stato di vettore.
 author: Henrikan
-manager: tfehr
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
-ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 3f7d471771ec2b4703d878fbf395cd90902b6669
-ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
+ms.dyn365.ops.version: 10.0.14
+ms.openlocfilehash: 9c5570d3b5b436a35bb57d051bc06cde8b78934e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4431611"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569891"
 ---
 # <a name="transportation-management-statuses"></a>Stati della gestione trasporto
 
 [!include [banner](../includes/banner.md)]
 
-Impostare codici principali per gli stati di trasporto per interpretare i codici che sono forniti dai vettori di spedizione. Ciò consente l'integrazione con i vettori di spedizione per fornire uno stato. Lo stato del trasporto che si fornisce per un codice dello stato di trasporto principale consente di tenere traccia dello stato di un carico, una spedizione o un contenitore. Lo stato di trasporto specifico per un carico, una spedizione o un container può essere aggiornato solo tramite l'integrazione dei dati e non manualmente tramite l'interfaccia utente.
+Impostare codici principali per gli stati di trasporto per interpretare i codici che sono forniti dai vettori di spedizione. Ciò consente l'integrazione con i vettori di spedizione per fornire uno stato. Lo stato del trasporto che si fornisce per un codice dello stato di trasporto principale consente di tenere traccia dello stato di un carico, una spedizione o un contenitore. Lo stato di trasporto specifico per un carico, una spedizione o un contenitore può essere aggiornato solo tramite l'integrazione dei dati e non manualmente tramite l'interfaccia utente.
 
 ## <a name="create-a-transportation-status"></a>Creare uno stato di trasporto
 
@@ -49,3 +46,6 @@ Per associare uno stato di trasporto a uno stato di vettore, effettuare quanto s
 1. Selezionare il codice dello stato di trasporto che si desidera mappare al codice del vettore di spedizione selezionato.
 1. Immettere il codice esterno utilizzato dal vettore di spedizione.
 1. Chiudere la pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Data LIFO con valore fisico e contrassegno
 description: Data LIFO (Last In, First Out) è un modello inventariale basato sul principio LIFO. Le uscite da magazzino vengono liquidate a fronte delle ultime entrate in magazzino in base alla data della transazione di magazzino. Mediante questo modello inventariale, in assenza di entrate antecedenti all'uscita, quest'ultima viene liquidata a fronte delle entrate successive alla data dell'uscita. In caso di più uscite con la stessa data, la liquidazione può essere effettuata in base all'ordine ultima uscita, ultima entrata.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e88ae89ec10a03cfb7bd057bc5f2c33071b55b4a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233825"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567561"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data LIFO con valore fisico e contrassegno
 
@@ -57,7 +55,9 @@ In questo esempio, il gruppo di modelli di articoli non è contrassegnato per in
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente a 15,00 EUR. 
 
-La seguente illustrazione mostra gli effetti del modello inventariale Data LIFO quando non viene utilizzata l'opzione **Includi valore fisico**. ![Data LIFO con Includi valore fisico](./media/lifodatewithoutincludephysicalvalue.gif) 
+La seguente illustrazione mostra gli effetti del modello inventariale Data LIFO quando non viene utilizzata l'opzione **Includi valore fisico**. 
+
+![Data LIFO senza opzione Includi valore fisico.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -92,7 +92,9 @@ La figura di seguito mostra le transazioni:
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate finanziariamente a 20,00 EUR. 
 
-La seguente illustrazione mostra gli effetti del modello inventariale LIFO quando viene utilizzata l'opzione **Includi valore fisico**. ![Data LIFO con Includi valore fisico](./media/lifodatewithincludephysicalvalue.gif) 
+La seguente illustrazione mostra gli effetti del modello inventariale LIFO quando viene utilizzata l'opzione **Includi valore fisico**. 
+
+![Data LIFO con opzione Includi valore fisico.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 
@@ -138,7 +140,7 @@ La figura di seguito mostra le transazioni:
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. 
 
-Nella seguente illustrazione vengono illustrati gli effetti legati alla scelta del modello inventariale LIFO con contrassegno tra entrate e uscite. ![Data LIFO con Contrassegno](./media/lifodatewithmarking.gif) 
+Nella seguente illustrazione vengono illustrati gli effetti legati alla scelta del modello inventariale LIFO con contrassegno tra entrate e uscite. ![Data LIFO con Contrassegno.](./media/lifodatewithmarking.gif) 
 
 **Informazioni sul diagramma**
 

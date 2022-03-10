@@ -2,7 +2,7 @@
 title: Ridurre asset Right of use
 description: Questo argomento descrive la funzionalità che registra una riduzione di valore e regola il piano di ammortamento dei cespiti di un leasing Accounting Standards Codification Topic 842 (ASC 842) operativo.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 12/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5d30812e77473a5bd2f4134496b237be81cc6c2c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b104cec399a368ada64a73688c42476e6fbd9e52
+ms.sourcegitcommit: 304a482dfcc31dcb61849f710ae73432324ddef3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841167"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "7947342"
 ---
 # <a name="impair-right-of-use-assets"></a>Ridurre asset Right of use
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Se il valore contabile di un asset Right of use non è recuperabile, potrebbe essere necessario verificare se i cespite ha subito una riduzione di valore. Se si determina che il cespite ha subito una riduzione di valore, Leasing cespite può registrare la riduzione di valore e rettificare il piano di ammortamento di conseguenza. Questo argomento descrive la funzionalità che registra una riduzione di valore e regola il piano di ammortamento di un leasing Accounting Standards Codification Topic 842 (ASC 842) operativo. Lo stesso metodo si applica anche ai leasing dell'International Financial Reporting Standard 16 (IFRS 16).
 
@@ -37,13 +38,18 @@ Il saldo residuo dell'asset ROU sarà ammortizzato a quote costanti per il numer
 3. Nella finestra di dialogo che appare, nel campi **Importo di riduzione**, immetti l'importo della riduzione di valore del cespite. Per diminuire l'asset ROU, è necessario immettere un valore positivo.
 4. Nel campo **Data della transazione** immetti la data in cui deve essere registrato il movimento di riduzione del valore.
 5. Nel campo **Periodi rimanenti**, immetti il numero di mesi rimanenti da ammortizzare.
-6. Attiva il parametro **Registra** se desideri che il sistema registri automaticamente la scrittura contabile della spese di riduzione del valore. Se lasci questo parametro disattivato, il sistema crea il movimento ma non lo registra. Puoi quindi registrare la voce dalla pagina **Giornali di registrazione leasing di cespiti**.
-7. Imposta l'opzione **Visualizza anteprima prima della registrazione** su **Sì** per visualizzare la voce proposta prima che venga creata o registrata.
-8. Imposta l'opzione **Chiudi libro** su **Sì** per chiudere il libro di leasing. Non è possibile annullare questa azione. Le voci non possono essere registrate a fronte di contratti di leasing chiusi e i leasing chiusi non possono essere rettificati.
-9. Seleziona **OK** per creare o registrare la voce di riduzione del valore.
-10. Per visualizzare il piano di ammortamento dei cespiti con riduzione del valore, apri il piano di ammortamento dei cespiti per tale libro di leasing. Il cespite verrà ora ammortizzato a quote costanti per il numero di mesi immesso nel campo **Periodi rimanenti**.
-11. Per visualizzare la scrittura contabile di spesa per riduzione di valore, seleziona **Giornale di registrazione leasing cespite** nel riquadro azioni del libro di leasing con riduzione del valore. Il sistema crea una scrittura contabile che addebita il conto di registrazione delle spese di riduzione del valore e accredita il conto di registrazione del cespite del leasing.
-12. Per visualizzare il nuovo valore contabile dell'asset ROU, seleziona **Transazioni cespiti** nel riquadro azioni del libro di leasing.
+6. Imposta l'opzione **Anteprima** per visualizzare il movimento finanziario e saldo cespite proposto prima che vengano creati o registrati.
+7. Imposta l'opzione **Chiudi libro** su **Sì** per chiudere il libro di leasing. Puoi annullare questa azione usando lo stato **Riapri il leasing**. Le voci non possono essere registrate a fronte di contratti di leasing chiusi e i leasing chiusi non possono essere rettificati. 
+8. Seleziona **Registra** per creare o registrare la voce di riduzione del valore.
+
+    > [!NOTE]
+    > Dopo che la transazione di riduzione di valore è stata registrata, viene creata una nuova versione del libro.
+
+    > Se il leasing è classificato come leasing operativo, l'ammortamento mensile dopo la riduzione del valore sarà calcolato utilizzando l'ammortamento a quote costanti.
+
+9. Per visualizzare il piano di ammortamento dei cespiti con riduzione del valore, apri il piano di ammortamento dei cespiti per tale libro di leasing. Il cespite verrà ora ammortizzato a quote costanti per il numero di mesi immesso nel campo **Periodi rimanenti**.
+10. Per visualizzare la scrittura contabile di spesa per riduzione di valore, seleziona **Giornale di registrazione leasing cespite** nel riquadro azioni del libro di leasing con riduzione del valore. Il sistema crea una scrittura contabile che addebita il conto di registrazione delle spese di riduzione del valore e accredita il conto di registrazione del cespite del leasing. 
+11. Per visualizzare il nuovo valore contabile dell'asset ROU, seleziona **Transazioni cespiti** nel riquadro azioni del libro di leasing.
 
 ## <a name="example-of-rou-asset-impairment"></a>Esempio di riduzione del valore dell'asset ROU
 
@@ -92,10 +98,11 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
     | Data transazione       | 1/1/2022 |
     | Periodi rimanenti      | 84       |
     | Registra                   | Sì      |
-    | Visualizza anteprima prima della registrazione | Nessuno       |
-    | Chiudi libro             | Nessuno       |
+    | Visualizza anteprima prima della registrazione | No       |
+    | Chiudi libro             | No       |
 
 6. Una scrittura contabile di spesa per riduzione del valore è stata creata e registrata. Per visualizzarla, accedi al giornale di registrazione dei leasing del cespite nel libro di leasing. Tieni presente che l'importo della riduzione di valore è stato addebitato sul conto di registrazione delle spese di riduzione di valore ed è stato accreditato sul conto di registrazione dell'asset ROU.
+
 7. Per visualizzare l'effetto netto della riduzione del valore, consulta le tabelle delle transazioni di passività e attività. Tien presente che la spesa per riduzione di valore ha diminuito l'asset ROU, ma il valore contabile dell'obbligazione sul leasing non è cambiato.
 
 La riduzione del valore ha un altro effetto che dovresti considerare. Poiché l'importo dell'asset ROU è ora molto inferiore all'obbligazione sul leasing, l'importo deve essere ammortizzato in modo diverso rispetto a prima. In particolare, il cespite viene ora ammortizzato in modo lineare durante i restanti 84 mesi di leasing, a partire dalla data di transazione.

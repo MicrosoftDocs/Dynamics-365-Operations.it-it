@@ -1,7 +1,7 @@
 ---
 title: Sincronizzare le informazioni sul livello di scorte da Supply Chain Management a Field Service
 description: Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ce5ddf863988475550584384f4cf26f1302768aa
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355903"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060947"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Sincronizzare le informazioni sul livello di scorte da Supply Chain Management a Field Service 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 
@@ -53,7 +53,7 @@ Le attività di sincronizzazione seguenti sono necessarie per la sincronizzazion
 | msdynce_externalproductinventories | Disponibilità scorte in base al magazzino Dataverse     |
 
 ## <a name="entity-flow"></a>Flusso di entità
-Le informazioni sul livello delle scorte da Finance and Operations sono inviate a Field Service per i prodotti selezionati. Le informazioni sul livello delle scorte includono: 
+Le informazioni sul livello delle scorte da Finanza e operazioni sono inviate a Field Service per i prodotti selezionati. Le informazioni sul livello delle scorte includono: 
 - Quantità disponibile (quantità corrente fisica registrata presente nel magazzino)
 - Quantità in ordinazione (quantità registrata totale in odinazione, ad esempio ordini cliente)
 - Quantità ordinata (quantità ordinata registrata totale, ad esempio ordini fornitore)

@@ -2,11 +2,9 @@
 title: Domini in Dynamics 365 Commerce
 description: In questo argomento viene descritto come vengono gestiti i domini in Microsoft Dynamics 365 Commerce.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bafa49cc570ddf7e0ff9c3dcb1b6902fb341b790
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225791"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733993"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domini in Dynamics 365 Commerce
 
@@ -40,7 +38,7 @@ Durante il provisioning di un ambiente di e-commerce in [Microsoft Dynamics Life
 
 La seguente illustrazione mostra la schermata di provisioning di e-commerce LCS con la casella **Nomi host supportati** evidenziata. 
 
-![Schermata di provisioning di e-commerce LCS con la casella **Nomi host supportati** evidenziata](./media/Domains_ProvisioningeCommerceScreen.png)
+![Schermata di provisioning di e-commerce LCS con la casella **Nomi host supportati** evidenziata.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 È possibile creare una richiesta di assistenza per aggiungere ulteriori domini a un ambiente se il provisioning è già stato eseguito. Per creare una richiesta di assistenza in LCS, all'interno dell'ambiente andare a **Supporto \> Problemi di supporto** e selezionare **Invia un evento imprevisto**.
 
@@ -58,7 +56,7 @@ Quando si imposta per la prima volta un sito in Creazione di siti Web, viene vis
 
 La figura seguente mostra la finestra di dialogo **Configurare il sito** per un sito denominato "predefinito" quando si accede a Creazione di siti Web per la prima volta.
 
-![Finestra di dialogo **Configurare il sito**](./media/Domains_SetupyoursiteScreen.png)
+![Finestra di dialogo **Configurare il sito**.](./media/Domains_SetupyoursiteScreen.png)
 
 La casella **Seleziona un dominio** consente di associare uno dei nomi host supportati forniti per il sito in LCS al sito in Creazione di siti Web.
 
@@ -81,11 +79,11 @@ Dopo che il sito è stato impostato con un percorso, tutti gli URL associati all
 
 La figura seguente mostra la finestra di dialogo **Nuovo URL** in Creazione di siti Web con un percorso URL di esempio evidenziato. 
 
-![Finestra di dialogo **Nuovo URL** in Creazione di siti Web](./media/Domains_PageSetup2a.png)
+![Finestra di dialogo **Nuovo URL** in Creazione di siti Web.](./media/Domains_PageSetup2a.png)
 
 La figura seguente mostra la pagina **URL** in Creazione di siti Web con un URL di esempio evidenziato nell'elenco.
 
-![Eseguire l'opzione flusso utente nel flusso dei criteri](./media/Domains_URLsInSiteBuilder2a.png)
+![Eseguire l'opzione flusso utente nel flusso dei criteri.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domini in Creazione di siti Web
 
@@ -153,7 +151,7 @@ L'istanza di Azure Front Door fornita da Commerce non supporta i domini Apex (do
 
   [Distribuire un nuovo tenant di e-commerce](deploy-ecommerce-site.md)
 
-  [Impostare un canale punto vendita online](online-stores.md)
+  [Impostare un canale punto vendita online](./channel-setup-online.md)
 
   [Creare un sito di e-commerce](create-ecommerce-site.md)
 

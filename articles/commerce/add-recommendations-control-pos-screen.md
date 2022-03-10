@@ -2,11 +2,9 @@
 title: Aggiungere suggerimenti alla schermata della transazione
 description: In questo argomento viene descritto come aggiungere un controllo di suggerimenti alla schermata della transazione su un dispositivo POS mediante la funzionalità di progettazione del layout dello schermo in Microsoft Dynamics 365 Commerce.
 author: bebeale
-manager: AnnBe
 ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6085a69132a4687455282a908d613aa98d2e7a8d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731009"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Aggiungere suggerimenti alla schermata della transazione
 
@@ -45,7 +43,7 @@ In questo argomento viene descritto come aggiungere un controllo di suggerimenti
 6. Quando si effettua l'accesso, viene visualizzata una pagina simile a quella riportata di seguito. Il layout sarà diverso a seconda delle personalizzazioni effettuate per il punto vendita.
 
 
-    [![Progettazione layout](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Progettazione layout.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Scelta di un'opzione visualizzata
 
@@ -60,11 +58,11 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 1. Ridurre l'altezza dell'area dei dettagli delle righe di transazione in modo che sia la stessa di quella del pannello del cliente alla sua sinistra.
 
 
-    [![Altezza ridotta dell'area dei dettagli delle righe di transazione](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Altezza ridotta dell'area dei dettagli delle righe di transazione.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Dal menu a sinistra, trascinare il controllo dei suggerimenti tra l'area dei dettagli delle righe di transazione e la griglia dei pulsanti in basso al centro della schermata della transazione. Ridimensionare il controllo in modo da adattarlo a tale spazio.
 
-    [![Controllo per suggerimenti aggiunto al layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Controllo per suggerimenti aggiunto al layout.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Fare clic su **X** per salvare le modifiche e chiudere Progettazione layout.
@@ -79,13 +77,13 @@ Sono disponibili due opzioni di configurazioni. Scegliere l'opzione che funziona
 
 2. Fare clic su **Personalizza**.
 
-    [![Finestra di dialogo Personalizzazione - Controllo scheda](./media/pic-5.png)](./media/pic-5.png)
+    [![Finestra di dialogo Personalizzazione - Controllo scheda.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Fare clic su **Nuova scheda**.
 4. Individuare la nuova scheda appena aggiunta. Potrebbe essere necessario scorrere verso il basso.
 5. Nell'elenco a discesa **Contenuti**, selezionare **Prodotti consigliati**.
 
-    [![Selezione di Prodotti consigliati nel campo Contenuto](./media/pic-6.png)](./media/pic-6.png)
+    [![Selezione di Prodotti consigliati nel campo Contenuto.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Nel campo **Etichetta**, digitare un nome per la scheda dei suggerimenti. Ad esempio, digitare "Prodotti consigliati".
 7. Nel campo **Immagine**, selezionare l'immagine che verrà visualizzata sulla scheda.

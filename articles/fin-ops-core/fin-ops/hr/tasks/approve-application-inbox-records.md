@@ -2,7 +2,6 @@
 title: Approvare record di Posta in arrivo di domande di lavoro
 description: Questa procedura illustra come esaminare le domande di lavoro ricevute tramite le pagine del portale Self Service dipendenti.
 author: andreabichsel
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6b1431619a5db7686918a0c58726a90449b9943
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 476e9bf8de408a58edaaf2c488970a1631f4c47610eaa22a136e38c029d2fe0b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570314"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736172"
 ---
 # <a name="approve-application-inbox-records"></a>Approvare record di Posta in arrivo di domande di lavoro
 

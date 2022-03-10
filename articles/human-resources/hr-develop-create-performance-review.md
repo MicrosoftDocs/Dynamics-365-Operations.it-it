@@ -1,8 +1,8 @@
 ---
 title: Creare revisioni delle prestazioni
 description: In questo argomento viene illustrato come creare una revisione delle prestazioni e descritto lo scopo per ogni sezione di revisione.
-author: andreabichsel
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,17 +10,20 @@ ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f64073203d1f1cc99513ff3a3e7da180374734e1
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9c3ab4e769008bd8b401967e454aa6402f013773
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055438"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066952"
 ---
 # <a name="create-performance-reviews"></a>Creare revisioni delle prestazioni
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -65,13 +68,13 @@ In questo argomento viene illustrato come creare una revisione delle prestazioni
 30. Selezionare la scheda **Valutazioni**.  
 
     - La Scheda dettaglio **Dettagli valutazione** consente ai dipendenti di valutare se stessi e il responsabile di valutare il dipendente. Se i pesi vengono utilizzati, il valore del peso dei punteggi verrà calcolato automaticamente.  
-    - Per visualizzare questa sezione, è necessario abilitare le impostazioni dei parametri per la visualizzazione delle valutazioni del dipendente.  
+    - Per visualizzare questa sezione, abilitare le impostazioni dei parametri per mostrare le valutazioni dei dipendenti sulla pagina **Parametri condivisi risorse umane**.  
 
-31. Selezionare la scheda **Conferme**. Se la revisione utilizza il flusso di lavoro, le conferme verranno visualizzate solo dopo il flusso di lavoro viene completato. Se nessun flusso di lavoro è utilizzato, sia il lavoratore che il responsabile sono elencati qui. La casella di controllo richiesta viene selezionata in base alle impostazioni del tipo di revisione.  
+31. Selezionare la scheda **Conferme**. Se la revisione utilizza il flusso di lavoro, le conferme verranno visualizzate solo dopo il flusso di lavoro viene completato. Se nessun flusso di lavoro è utilizzato, sia il lavoratore che il responsabile sono elencati qui. La casella di controllo **Obbligatorio** per **Conferme** viene selezionata in base alle impostazioni del tipo di revisione.  
 32. Selezionare la scheda **Generale**.
 
     - Il periodo di prestazioni crea le date di inizio e fine predefinite. Quelle date sono modificabili.  
-    - Gli stati consentono di controllare l'accesso alla revisione. Lo stato **Non avviato** consente a ognuno di modificare la revisione. Lo stato **In corso** consente solo al dipendente di visualizzare e modificare la revisione. **Pronto per revisione** consente solo al responsabile di visualizzare e modificare la revisione. Lo stato **Revisione finale** consente sia al dipendente sia al responsabile di visualizzare la revisione e anche di modificarla, in caso di impostazione nel tipo di revisione. Gli stati **Completato** e **Annullato** rendono la revisione di sola lettura. Se una revisione ha stato **Rifiutata** e viene reinviata al dipendente, sia il dipendente sia il responsabile possono apportare le modifiche necessarie affinché il dipendente possa eseguire di nuovo l'invio.
+    - Gli stati consentono di controllare l'accesso alla revisione. Lo stato **Non avviato** consente a ognuno di modificare la revisione. Lo stato **In corso** consente solo al dipendente di visualizzare e modificare la revisione. **Pronto per revisione** consente solo al responsabile di visualizzare e modificare la revisione. Lo stato **Revisione finale** consente sia al dipendente che al responsabile di visualizzare e modificare la revisione se l'opzione **Consenti modifica nella revisione finale** è selezionata nel tipo di revisione. Gli stati **Completato** e **Annullato** rendono la revisione di sola lettura. Se una revisione ha stato **Rifiutata** e viene reinviata al dipendente, sia il dipendente sia il responsabile possono apportare le modifiche necessarie affinché il dipendente possa eseguire di nuovo l'invio.
 
 33. Nel campo **Panoramica** digitare un valore.
 34. Selezionare la scheda **Revisione**. Quando la revisione passa da uno stato all'altro, il dipendente e il responsabile possono aggiungere commenti per ciascun obiettivo o competenza.  

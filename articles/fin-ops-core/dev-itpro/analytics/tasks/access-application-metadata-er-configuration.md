@@ -2,7 +2,6 @@
 title: Accedere ai metadati dell'applicazione utilizzando una configurazione ER
 description: Questo argomento descrive come un utente di Regulatory Configuration Service (RCS) può progettare un nuovo mapping di modello per la creazione di report elettronici (ER) utilizzando i metadati.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/28/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 91c50047781fdc21c9157ceb634822c6cfb5a075
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 6ad175f81edcf6b21927d85927c42a3398a0286b4a766e06c88a61952384f75e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559653"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754344"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Accedere ai metadati dell'applicazione utilizzando una configurazione ER
 

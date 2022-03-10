@@ -15,18 +15,21 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f7ffe522f0f17a21280e53728c6efc2823743733
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414666"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069148"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurare le tabelle virtuali di Dataverse
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Dynamics 365 Human Resources è un'origine dati virtuale in Microsoft Dataverse. Fornisce operazioni complete di creazione, lettura, aggiornamento ed eliminazione (CRUD) di Dataverse e Microsoft Power Platform. I dati delle tabelle virtuali non sono archiviati in Dataverse, ma nel database dell'applicazione.
 
@@ -119,10 +122,10 @@ Il passaggio successivo consiste nel configurare l'origine dati delle tabelle vi
 
 4. In **Hub integrità soluzione**, seleziona l'icona **Ricerca avanzata** in alto a destra nella pagina dell'applicazione.
 
-5. Nella pagina **Ricerca avanzata**, nell'elenco a discesa **Cerca**, seleziona **Configurazioni dell'origine dati virtuale di Finance and Operations**.
+5. Nella pagina **Ricerca avanzata**, nell'elenco a discesa **Cerca**, seleziona **Configurazioni dell'origine dati virtuale di Finanza e operazioni**.
 
    > [!NOTE]
-   > L'installazione dell'app Virtual Table dal passaggio di configurazione precedente può richiedere alcuni minuti. Se **Configurazioni dell'origine dati virtuale di Finance and Operations** non è disponibile nell'elenco, attendi un minuto e aggiorna l'elenco.
+   > L'installazione dell'app Virtual Table dal passaggio di configurazione precedente può richiedere alcuni minuti. Se **Configurazioni dell'origine dati virtuale di Finanza e operazioni** non è disponibile nell'elenco, attendi un minuto e aggiorna l'elenco.
 
 6. Seleziona **Risultati**.
 

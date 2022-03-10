@@ -1,7 +1,7 @@
 ---
 title: Impostazione dell'evasione ordini nel punto vendita
 description: In questo argomento viene fornita una panoramica su come impostare l'evasione ordini del punto vendita.
-author: rubencdelgado
+author: BrianShook
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ed709c2a15a2d9e1675da55fc87284127e64ba39
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796440"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779598"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Impostare l'evasione degli ordini nel punto vendita
 
@@ -33,9 +33,9 @@ L'operazione di evasione dell'ordine presso il POS offre una singola area di lav
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Impostare l'operazione di evasione dell'ordine
 
-L'evasione ordini, [ID operazione 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), può essere utilizzata per accedere all'area di lavoro per l'evasione degli ordini del POS.
+L'evasione ordini, [ID operazione 928](pos-operations.md), può essere utilizzata per accedere all'area di lavoro per l'evasione degli ordini del POS.
 
-Completare i passaggi in [Aggiungere l'operazione in una griglia dei pulsanti](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) per specificare i parametri da utilizzare per richiamare l'esecuzione dell'ordine nel POS. Per impostazione predefinita, dopo aver specificato le operazioni di evasione degli ordini, viene selezionato **Tutti gli ordini**. Una volta configurata con questo parametro, l'operazione elencherà tutte le righe ordine per l'esecuzione ordine nel punto vendita corrente. È inoltre disponibile **Ordini da spedire**, che può essere assegnato a un pulsante e utilizzato quando l'utente desidera visualizzare solo gli ordini con spedizione dal punto vendita. Infine, è disponibile **Ordini per prelievo**. Quando viene richiamato nel POS, vengono elencati solo gli ordini da prelevare al negozio. I diversi parametri possono essere assegnati a pulsanti diversi per offrire all'utente una varietà di modi per visualizzare l'evasione degli ordini.
+Completare i passaggi in [Aggiungere l'operazione in una griglia dei pulsanti](pos-screen-layouts.md) per specificare i parametri da utilizzare per richiamare l'esecuzione dell'ordine nel POS. Per impostazione predefinita, dopo aver specificato le operazioni di evasione degli ordini, viene selezionato **Tutti gli ordini**. Una volta configurata con questo parametro, l'operazione elencherà tutte le righe ordine per l'esecuzione ordine nel punto vendita corrente. È inoltre disponibile **Ordini da spedire**, che può essere assegnato a un pulsante e utilizzato quando l'utente desidera visualizzare solo gli ordini con spedizione dal punto vendita. Infine, è disponibile **Ordini per prelievo**. Quando viene richiamato nel POS, vengono elencati solo gli ordini da prelevare al negozio. I diversi parametri possono essere assegnati a pulsanti diversi per offrire all'utente una varietà di modi per visualizzare l'evasione degli ordini.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Consentire agli utenti di accedere all'evasione dell'ordine nel POS
 
@@ -104,9 +104,9 @@ Per impostazione predefinita, gli ordini avranno stato **Accettato**. Lo stato d
 
 - **Modifica** – Se lo stato dell'ordine è in sospeso, può essere modificato nel POS. Gli ordini che sono già stati parzialmente prelevati, imballati o fatturati non possono essere modificati dalla visualizzazione di evasione ordine.
 - **Accetta** – Se l'**Accettazione manuale** è configurata a livello di canale, le righe devono essere accettate prima di poter passare attraverso il processo di evasione degli ordini.
-- **Preleva** – L'opzione di prelievo supporta più azioni. Innanzitutto, **Preleva** aggiorna lo stato della riga ordine in modo che altri nel punto vendita non tentino di selezionare la stessa riga. Successivamente, **Stampa distinta di prelievo** stampa una distinta di prelievo per la riga o le righe e aggiorna anche il relativo stato su **Prelievo**. I formati della distinta di prelievo vengono controllati come parte dei formati di entrata. Per ulteriori informazioni sulle modalità di configurazione dei formati di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing) Infine, **Contrassegna come prelevato** indica che la riga è stata selezionata. **Contrassegna come prelevato** avvia le operazioni di magazzino corrispondenti nel back office. Le azioni di prelievo possono essere eseguite contemporaneamente per più righe ordine negli ordini e con tutte le modalità di consegna.
+- **Preleva** – L'opzione di prelievo supporta più azioni. Innanzitutto, **Preleva** aggiorna lo stato della riga ordine in modo che altri nel punto vendita non tentino di selezionare la stessa riga. Successivamente, **Stampa distinta di prelievo** stampa una distinta di prelievo per la riga o le righe e aggiorna anche il relativo stato su **Prelievo**. I formati della distinta di prelievo vengono controllati come parte dei formati di entrata. Per ulteriori informazioni sulle modalità di configurazione dei formati di ricevute, vedere [Modelli e stampa di ricevute](receipt-templates-printing.md) Infine, **Contrassegna come prelevato** indica che la riga è stata selezionata. **Contrassegna come prelevato** avvia le operazioni di magazzino corrispondenti nel back office. Le azioni di prelievo possono essere eseguite contemporaneamente per più righe ordine negli ordini e con tutte le modalità di consegna.
 - **Rifiuta**– Le righe o le righe parziali possono essere rifiutate. Questo consente di riassegnarle dal back office a un altro punto vendita o magazzino. Le righe possono essere rifiutate solo se non sono ancora state prelevate o imballate. Per rifiutare una riga che è già stata prelevata o imballata, è necessario annullare il prelievo o l'imballaggio per tale riga dal back office.
-- **Imballa** – L'opzione di imballaggio supporta due azioni: **Stampa documento di trasporto** consente di stampare un documento di trasporto per le righe selezionate e **Contrassegna come imballato** contrassegna le righe come imballate e contrassegna le righe come consegnate nel back office. Solo le righe ordine che appartengono allo stesso ordine e che hanno la stessa modalità di consegna possono essere imballate contemporaneamente. I formati della documento di trasporto vengono controllati come parte dei formati di entrata. Per ulteriori informazioni sulle modalità di configurazione dei formati di ricevute, vedere [Modelli e stampa di ricevute](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing)
+- **Imballa** – L'opzione di imballaggio supporta due azioni: **Stampa documento di trasporto** consente di stampare un documento di trasporto per le righe selezionate e **Contrassegna come imballato** contrassegna le righe come imballate e contrassegna le righe come consegnate nel back office. Solo le righe ordine che appartengono allo stesso ordine e che hanno la stessa modalità di consegna possono essere imballate contemporaneamente. I formati della documento di trasporto vengono controllati come parte dei formati di entrata. Per ulteriori informazioni sulle modalità di configurazione dei formati di ricevute, vedere [Modelli e stampa di ricevute](receipt-templates-printing.md)
 - **Spedisci** – L'azione di spedizione contrassegna le righe selezionate come **Consegnato** nel back office. Dopo che una la riga è stata spedita completamente, non verrà più visualizzata nell'evasione ordine.
 - **Preleva** – L'azione di prelievo aggiungere le righe alla visualizzazione transazione per il prelievo. Se sono presenti altre righe dell'ordine che attualmente non vengono prelevate, verranno aggiunte alla visualizzazione transazione con quantità pari a zero. Dopo che una la riga è stata prelevata completamente, non verrà più visualizzata nell'evasione ordine.
 

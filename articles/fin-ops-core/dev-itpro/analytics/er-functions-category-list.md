@@ -2,11 +2,8 @@
 title: Elenco delle funzioni ER nella categoria elenco
 description: Questo argomento fornisce informazioni sulle funzioni di elenco supportate nella creazione di report elettronici (ER).
 author: NickSelin
-manager: kfend
 ms.date: 04/01/2020
-ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2e708c59bceebf845ee78c98057133bb2892cf9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4f0d9f83a1750ff51d76716147f5d16e96c0fb415608256a5dcc7524a1f2bd2f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686180"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734866"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Elenco delle funzioni ER nella categoria elenco
 
@@ -64,3 +61,6 @@ Le funzioni dell'elenco della creazione di report elettronici (ER) possono esser
 [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md)
 
 [Linguaggio della formula nella creazione di report elettronici](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

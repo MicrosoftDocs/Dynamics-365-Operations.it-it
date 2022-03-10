@@ -11,15 +11,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-23
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: f7cde239107528a6bc2aeb0e424d024d4f3fb2a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: e08d11c8e9d98e56c5ef076cbab7bb68bedea62a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839489"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581034"
 ---
 # <a name="cost-calculation-level"></a>Livello di calcolo costi
+
+[!include [banner](../includes/banner.md)]
 
 Il livello della distinta materiali (DBA) denominato **Livello di calcolo dei costi** esclude gli ordini di produzione e batch dai calcoli. Il sistema utilizza questo livello quando esegue i calcoli dei costi nelle versioni di determinazione dei costi. In processi come il ricalcolo e la chiusura dell'inventario, il sistema utilizza invece il livello DBS **Livello di determinazione costi**.
 

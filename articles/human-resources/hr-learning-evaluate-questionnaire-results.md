@@ -1,33 +1,35 @@
 ---
 title: Visualizzare e valutare i risultati dei questionari
-description: In questo articolo viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano.
-author: andreabichsel
-manager: tfehr
-ms.date: 06/20/2017
+description: In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano.
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ff2136e1f0a87b7d77968ca1163e64f8838b234b
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: dc71748a5081b90feb69ed0da936c42b4d0e572a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116118"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070704"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Visualizzare e valutare i risultati dei questionari
 
-In questo articolo viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano. 
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+In questo argomento viene illustrato come è possibile visualizzare e valutare i risultati dei questionari che gli intervistati completano. 
 
 Dopo che gli intervistati avranno compilato un questionario, sarà possibile vedere e valutare i risultati del questionario nei modi seguenti:
 
@@ -72,3 +74,5 @@ Dalla pagina **Risposte**, è possibile visualizzare i dettagli sulle risposte, 
 -   Selezionare o verificare i criteri per analizzare i risultati per caratteristiche del questionario o dell'intervistato. Ad esempio, selezionando **Codice postale (CAP)**, è possibile analizzare la correlazione tra l'ubicazione di un intervistato e le risposte corrette.
 
 Le impostazioni definite vengono salvate e possono essere utilizzate per ricalcolare periodicamente i risultati.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

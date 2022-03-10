@@ -1,12 +1,10 @@
 ---
 title: Aliquote IVA basate su Imponibile marginale e Metodo di calcolo
 description: In questo argomento viene illustrato come i valori nei campi Imponibile marginale e Metodo di calcolo determinano le aliquote IVA nelle transazioni di vendita e di acquisto.
-author: ShylaThompson
-manager: AnnBe
+author: kailiang
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a379a466317757f94b152fb256236fae2fc63e9c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 55fc5416bafe63d8c32bc19359b4e8ba75b372de
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248953"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7727042"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Aliquote IVA basate su Imponibile marginale e Metodo di calcolo
 

@@ -7,7 +7,6 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -15,14 +14,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a2f110d105b8c04f07f219f7f11a57d24e00ce4a
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890078"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067781"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Ottimizzare i processi batch programmati BYOD
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -89,6 +91,12 @@ La funzionalità BYOD prevede le limitazioni seguenti:
 **Problema:** quando si verifica un push completo per un'entità, viene visualizzato un ampio set di record in BYOD quando si utilizza un'istruzione **select**. Tuttavia, quando si esegue un push incrementale, vengono visualizzati solo pochi record in BYOD. Sembra che il push incrementale abbia eliminato tutti i record e aggiunto solo i record modificati in BYOD.
 
 **Soluzione:** le tabelle di rilevamento delle modifiche SQL potrebbero non essere nello stato previsto. In casi di questo tipo, consigliamo di disattivare il rilevamento delle modifiche per l'entità e quindi di riattivarlo. Per ulteriori informazioni, vedere [Abilitare il rilevamento delle modifiche per le entità](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Le tabelle di gestione temporanea non vengono cancellate
+
+**Problema:** Quando si utilizza la gestione temporanea per il progetto, le tabelle di gestione temporanea non vengono cancellate correttamente. I dati nelle tabelle continuano quindi a crescere, causando problemi di prestazioni.
+
+**Soluzione:** Sette giorni di storico sono conservati nelle tabelle di gestione temporanea. I dati storici più vecchi di sette giorni vengono automaticamente cancellati dalle tabelle di gestione temporanea dal processo batch **Importa/Esporta pulizia gestione temporanea**. Se questo processo si blocca, le tabelle non verranno cancellate correttamente. Il riavvio di questo processo batch consentirà al processo di cancellare automaticamente le tabelle di gestione temporanea.
 
 ## <a name="see-also"></a>Vedere anche
 

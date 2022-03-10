@@ -1,7 +1,7 @@
 ---
 title: Pianificazione del budget
 description: L'obiettivo dell'esercitazione è di fornire una visualizzazione guidata degli aggiornamenti alle funzionalità di Microsoft Dynamics 365 Finance nell'area di pianificazione del budget. Lo scopo dell'esercitazione è quello di illustrare esempio rapido di configurazione del modulo di pianificazione del budget e di mostrare il modo in cui la pianificazione budget può essere completata tramite la configurazione.
-author: ShylaThompson
+author: panolte
 ms.date: 06/25/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e995a3fb7f87db2aed676d12ca4b4732eb3e96c5e52b702890d53cd1840d7cb1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0420887c35bbb07aaf8cce05a68173ab6c534f92
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775196"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595336"
 ---
 # <a name="budget-planning"></a>Pianificazione del budget
 

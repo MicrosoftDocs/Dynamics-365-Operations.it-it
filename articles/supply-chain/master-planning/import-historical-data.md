@@ -1,12 +1,10 @@
 ---
 title: Importare dati storici per le previsioni della domanda
 description: Per ottenere le previsioni della domanda accurate, sono necessari i dati storici della domanda per singolo articolo o chiave di allocazione articolo. In questo argomento viene descritto come utilizzare le entità di dati per importare i dati storici della domanda da un sistema, in modo da disporre di uno storico più ampio dei dati di previsione della domanda.
-author: roxanadiaconu
-manager: tfehr
+author: ChristianRytt
 ms.date: 05/10/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6ba2e1a3a884d29bff491f914aa2d5f9ece2b84
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 6dba31279541c20949dd1e86236103045c48b701
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154229"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579666"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importare dati storici per le previsioni della domanda
 
@@ -41,23 +39,6 @@ Per utilizzare questa entità di dati, è necessario disporre di un file di Micr
 
 Per ulteriori informazioni su come importare i dati, incluso come pulire i dati dopo un'importazione, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) ed argomenti correlati.
 
-## <a name="example"></a>Esempio
+Vedi anche [Generare una previsione di base statistica](generate-statistical-baseline-forecast.md).
 
-È possibile utilizzare il seguente file come esempio. Scaricare [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/). Questo file contiene i dati storici della domanda per l'articolo D0001. Contiene solo i seguenti campi obbligatori: sito, quantità e data della domanda.
-
-1. Selezionare la società in cui importare i dati storici della domanda.
-2. Aprire l'area di lavoro **Gestione dei dati**.
-3. Selezionare il riquadro **Importa**.
-4. Immettere un nome per il progetto di importazione, ad esempio **Importare dati storici della domanda per l'articolo D0001**.
-5. Nel campo **Formato dati di origine**, selezionare il formato del file da importare. Per importare il file HistoricalDemandData per questo esempio, selezionare **CSV**.
-6. Nel campo **Nome entità**, selezionare **Domanda esterna storica**.
-7. Salvare il file nel computer e quindi caricarlo.
-8. Selezionare **Importa**.
-9. La pagina **Riepilogo esecuzione** viene visualizzata automaticamente. Verificare i dati importati nella pagina.
-
-Dopo aver importato i dati storici della domanda, è possibile generare una previsione della domanda.
-
-## <a name="additional-resources"></a>Risorse aggiuntive
-
-[Generare una previsione di base statistica](generate-statistical-baseline-forecast.md)  
-[Panoramica processi di importazione ed esportazione dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

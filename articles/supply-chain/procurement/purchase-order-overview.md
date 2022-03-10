@@ -1,26 +1,28 @@
 ---
 title: Panoramica dell'ordine fornitore
 description: In questo articolo vengono fornite informazioni generali sugli ordini fornitore (PO) e collegamenti a ulteriori articoli correlati alle varie fasi che attraversa un PO.
-author: kamaybac
+author: Henrikan
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 93083
+ms.custom:
+- "93083"
+- intro-internal
 ms.assetid: e9b7bc5b-1d7e-4ec2-97be-d655274b0613
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b2e01f73aa78c0fabf0f5a1e0acd3bbc4f69cfc4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825328"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982306"
 ---
 # <a name="purchase-order-overview"></a>Panoramica dell'ordine fornitore
 
@@ -41,7 +43,7 @@ I seguenti articoli forniscono una panoramica delle varie fasi che attraversa un
 -   [Creare gli ordini fornitore](purchase-order-creation.md)
 -   [Approvare e confermare gli ordini fornitore](purchase-order-approval-confirmation.md)
 -   [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
--   [Panoramica delle fatture fornitore](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [Panoramica delle fatture fornitore](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Tipi di ordini fornitore
 Sono disponibili tre tipi di ordini fornitore. Quando si crea un ordine fornitore, è necessario specificare il tipo. È possibile impostare un tipo di ordine predefinito per i nuovi ordini nella pagina **Parametri di approvvigionamento**.
@@ -76,8 +78,7 @@ IL campo **Stato approvazione** viene utilizzato quando un ordine fornitore pass
 -   **Confermato** – questo stato viene assegnato dopo l'ordine è stato confermato. In genere, questo stato è l'ultimo stato di approvazione che viene assegnato a un ordine.
 
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creare gli ordini fornitore](purchase-order-creation.md)
 
@@ -85,7 +86,7 @@ IL campo **Stato approvazione** viene utilizzato quando un ordine fornitore pass
 
 [Entrata prodotti e ordini fornitore](product-receipt-against-purchase-orders.md)
 
-[Panoramica delle fatture fornitore](../../financials/accounts-payable/vendor-invoices-overview.md)
+[Panoramica delle fatture fornitore](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

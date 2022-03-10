@@ -1,12 +1,10 @@
 ---
 title: ER Creare le configurazioni richieste per importare dati da un file esterno
-description: I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può progettare configurazioni per la creazione di report elettronici per importare dati nell'applicazione Microsoft Dynamics 365 Finance da un file esterno.
+description: Questo argomento descrive come progettare le configurazioni di creazione di report elettronici per importare i dati nell'app Microsoft Dynamics 365 Finance da un file esterno in formato CSV.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
@@ -15,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720858"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Creare le configurazioni richieste per importare dati da un file esterno
 
 [!include [banner](../../includes/banner.md)]
 
-I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può progettare configurazioni per la creazione di report elettronici per importare dati nell'applicazione da un file esterno. In questo esempio verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività, "ER Creare un provider di configurazione e contrassegnarlo come attivo". Tali passaggi possono essere completati mediante il set di dati USMF. È inoltre necessario scaricare e salvare i seguenti file in locale utilizzando i collegamenti dall'argomento Panoramica sui report elettronici (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+I passaggi seguenti illustrano come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può progettare configurazioni per la creazione di report elettronici per importare dati nell'applicazione da un file esterno. In questo esempio verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività, "ER Creare un provider di configurazione e contrassegnarlo come attivo". Tali passaggi possono essere completati mediante il set di dati USMF. È inoltre necessario scaricare e salvare localmente i file seguenti: 
+
+| Descrizione contenuto                       | Nome file                                     |
+|-------------------------------------------|-----------------------------------------------|
+| Configurazione del modello di dati ER - 1099 | [1099model.xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| Configurazione di formato ER - 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| Esempio del documento in entrata in formato XML                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Esempio di cartella di lavoro per la gestione dei dati del documento in entrata                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 ER consente agli utenti aziendali di configurare il processo di importazione dei file di dati esterni nelle tabelle in formato TXT o XML. Innanzitutto, un modello dati astratto e una configurazione del modello dati ER devono essere disponibili per rappresentare i dati da importare. Quindi, è necessario definire la struttura del file da importare e il metodo che verrà utilizzato per trasferire i dati dal file al modello dati astratto. La configurazione del formato ER che esegue il mapping al modello dati progettato deve essere creata per il modello dati astratto. Quindi, la configurazione del modello dati deve essere estesa con un mapping che descrive come i dati importati vengono resi persistenti come dati del modello dati astratto e come vengono utilizzati per aggiornare le tabelle.  La configurazione del modello dati ER deve essere aggiunta a un nuovo mapping di modello che descrive l'associazione del modello dati alle destinazioni dell'applicazione.  
 
@@ -254,3 +259,6 @@ Eseguire questo mapping di formato a scopo di verifica. Utilizzare il file 1099e
 27. Chiudere la pagina.
 28. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

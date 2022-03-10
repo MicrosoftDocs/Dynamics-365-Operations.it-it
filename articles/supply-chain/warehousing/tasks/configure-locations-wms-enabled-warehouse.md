@@ -2,11 +2,9 @@
 title: Configurare le ubicazioni in un magazzino abilitato WMS
 description: La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato per WMS (un magazzino che utilizza i processi di gestione avanzata del magazzino).
 author: perlynne
-manager: tfehr
 ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventLocation, WHSLocationFormat, WHSLocationType, WHSLocationProfile, WHSParameters, WHSZoneGroup, WHSZone, WHSLocationBuild, WHSLocation, WHSPackSizeCategory, WHSLocationLimit, WHSInventFixedLocation, WMSLocationIdLookup
 audience: Application User
@@ -15,13 +13,13 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59835d28afc6f855f109cf9b875624f8fd11191a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977316"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599350"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurare le ubicazioni in un magazzino abilitato WMS
 
@@ -35,7 +33,7 @@ La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato
 2. Fare clic su **Nuovo**.
 3. Digitare un valore nel campo **Magazzino**.
 4. Digitare un valore nel campo **Nome**.
-5. Digitare un valore nel campo **Sito**.
+5. Nel campo **Sito**, seleziona o digita un valore del sito esistente.
 6. Espandere la sezione **Magazzino**.
 7. Impostare l'opzione **Usa processi di gestione magazzino** su Sì. Questa impostazione consente di eseguire i processi di organizzazione immagazzinamento avanzati utilizzando dispositivi di lavoro e mobili del magazzino.
 8. Chiudere la pagina.
@@ -174,3 +172,6 @@ La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato
 6. Nell'elenco fare clic sul collegamento nella riga selezionata.
 7. Chiudere la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

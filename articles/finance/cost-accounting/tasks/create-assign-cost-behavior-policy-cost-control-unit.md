@@ -2,26 +2,23 @@
 title: Creare e assegnare i criteri di comportamento costi a un'unità di controllo costi
 description: Il comportamento costo è la classificazione del costo come fisso o variabile.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostBehaviorRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cfdff9b1af9183d21e988dd53559e749eed077eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 77e79b4959d546fd04c9705220c7f7a4c4a0ffd0621a66553adbe1a85b6cce39
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712269"
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Creare e assegnare i criteri di comportamento costi a un'unità di controllo costi
 
@@ -86,3 +83,6 @@ Il comportamento costo è la classificazione del costo come fisso o variabile. A
 15. Nel campo Unità di controllo costi immettere o selezionare un valore.
 16. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

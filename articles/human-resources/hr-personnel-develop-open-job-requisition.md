@@ -1,27 +1,24 @@
 ---
 title: Creare e aprire richieste relative alla mansione lavorativa
 description: I progetti di selezione facilitano la gestione del processo di selezione.
-author: andreabichsel
-manager: tfehr
-ms.date: 02/03/2021
+author: twheeloc
+ms.date: 10/28/2021
 ms.topic: business-process
 ms.prod: ''
-ms.service: human-resources
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 858c97e1563dac59f3dd5aff7191427f104d7aed
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 0d59ccb88b8a76de6e2f00453f185fec2f149873
+ms.sourcegitcommit: 1cc56643160bd3ad4e344d8926cd298012f3e024
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467773"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "7731563"
 ---
 # <a name="create-and-open-job-requisition"></a>Creare e aprire richieste relative alla mansione lavorativa
 
@@ -42,7 +39,7 @@ I progetti di selezione facilitano la gestione del processo di selezione. Dopo a
 6. Trova e seleziona il record desiderato nell'elenco.
 7. Nell'elenco fare clic sul collegamento nella riga selezionata.
 8. Scegli **Seleziona**.
-9. Nel campo Reparto, seleziona il pulsante a discesa per aprire la ricerca.
+9. Nel campo **Reparto**, seleziona il pulsante a discesa per aprire la ricerca.
 10. Nell'elenco fare clic sul collegamento nella riga selezionata.
 11. Nel campo **Processo** seleziona il pulsante a discesa per aprire la ricerca.
 12. Trova e seleziona il record desiderato nell'elenco.
@@ -61,10 +58,10 @@ I progetti di selezione facilitano la gestione del processo di selezione. Dopo a
 25. Immettere una data nel campo **Data di fine**.
 26. Selezionare **Salva**.
 27. Chiudere la pagina.
-28. Seleziona annunci di lavoro.
-29. Selezionare **Salva**.
-30. Chiudere la pagina.
-31. Seleziona o deseleziona la casella di controllo **Visualizza per dipendente self-service**. Seleziona la casella di controllo **Visualizza per dipendente self-service**. Questa selezione rende il progetto di reclutamento visibile ai dipendenti sulle loro pagine self-service dei dipendenti.
+28. Seleziona **annunci di lavoro**.
+29. Seleziona **Salva**.
+30. Chiudi la pagina.
+31. Seleziona o deseleziona la casella di controllo **Visualizza per dipendente self-service**. Seleziona la casella di controllo **Visualizza per dipendente self-service**. Questa selezione rende il progetto di reclutamento visibile ai dipendenti sulla loro pagina **Self-service dei dipendenti**.
 32. Seleziona **Stato progetto di selezione**.
 33. Selezionare **Avvia**. Lo stato **Avviato** indica che il progetto è pronto per ricevere le domande di lavoro.  
 34. Selezionare **OK**.

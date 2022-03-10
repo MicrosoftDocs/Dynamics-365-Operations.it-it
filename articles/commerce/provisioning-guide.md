@@ -2,15 +2,12 @@
 title: Provisioning di un ambiente di valutazione Dynamics 365 Commerce
 description: Questo argomento illustra come eseguire il provisioning di un ambiente di valutazione Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: c8241c31e82d124398189666c3a1709d25884b8acd9c8f3b1068529cbd216684
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4413611"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777502"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Provisioning di un ambiente di valutazione Dynamics 365 Commerce
 
@@ -35,8 +32,6 @@ Prima di iniziare, è consigliabile dare una rapida occhiata a questo argomento 
 
 > [!NOTE]
 > Gli ambienti di valutazione di Commerce non sono generalmente disponibili e sono concessi a partner e clienti in base alla richiesta. Per ulteriori informazioni, contattare il partner Microsoft.
-
-## <a name="overview"></a>Panoramica
 
 Per eseguire correttamente il provisioning di un ambiente di valutazione Commerce, è necessario creare un progetto con un nome e un tipo di prodotto specifici. Anche l'ambiente e Commerce Scale Unit hanno alcuni parametri specifici che devono essere utilizzati quando si prevede di eseguire il provisioning di e-Commerce in seguito. Le istruzioni in questo argomento descrivono tutti i passaggi necessari per completare il provisioning e i parametri da utilizzare.
 
@@ -81,7 +76,7 @@ Per creare un nuovo progetto in LCS, completare i passaggi seguenti:
 
 ### <a name="add-the-azure-connector"></a>Aggiungere il connettore di Azure
 
-Per aggiungere il connettore di Azure al progetto LCS, seguire i passaggi in [Completare il processo di onboarding di Azure Resource Manager (ARM)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
+Per aggiungere il connettore di Azure al progetto LCS, seguire i passaggi in [Completare il processo di onboarding di Azure Resource Manager (ARM)](../fin-ops-core/dev-itpro/deployment/arm-onboarding.md).
 
 ### <a name="deploy-the-environment"></a>Distribuire l'ambiente
 
@@ -95,16 +90,16 @@ Per distribuire l'ambiente, attenersi a questa procedura.
 1. Nel campo **Versione applicazione**, selezionare la versione più recente. Se si ha la necessità di selezionare una versione dell'applicazione diversa dalla versione più recente, non selezionare una versione precedente alla versione **10.0.14**.
 1. Nel campo **Versione piattaforma**, utilizzare la versione della piattaforma che viene scelta automaticamente per la versione dell'applicazione selezionata. 
 
-    ![Selezione delle versioni della piattaforma e dell'applicazione](./media/project1.png)
+    ![Selezione delle versioni della piattaforma e dell'applicazione.](./media/project1.png)
 
 1. Selezionare **Avanti**.
 1. Selezionare **Demo** come topologia dell'ambiente.
 
-    ![Selezionare della topologia dell'ambiente 1](./media/project2.png)
+    ![Selezione della topologia dell'ambiente 1.](./media/project2.png)
 
 1. Nella pagina **Ambiente di distribuzione**, inserire un nome di ambiente. Non modificare le impostazioni avanzate.
 
-    ![Pagina dell'ambiente di distribuzione](./media/project4.png)
+    ![Pagina dell'ambiente di distribuzione.](./media/project4.png)
 
 1. Regolare le dimensioni della VM come richiesto. (Si consiglia un'unità di stockkeeping VM \[SKU\] **D13 v2** .)
 1. Rivedere i termini relativi ai prezzi e alle licenze, quindi selezionare la casella di controllo per accettarli.
@@ -117,7 +112,7 @@ Per distribuire l'ambiente, attenersi a questa procedura.
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>Inizializzare Commerce Scale Unit (cloud)
 
-Per inizializzare CSU, procedere come segue.
+Per inizializzare CSU, procedi come segue.
 
 1. Nella visualizzazione **Distribuzione ambienti ospitati nel cloud**, selezionare l'ambiente nell'elenco.
 1. Nella visualizzazione dell'ambiente a destra, selezionare **Dettagli completi**. Vengono visualizzati i dettagli dell'ambiente.
@@ -130,6 +125,22 @@ Per inizializzare CSU, procedere come segue.
 1. Prima di procedere, assicurarsi che lo stato dell'ambiente CSU sia **Completato**. L'inizializzazione dura circa 2-5 ore.
 
 Se non si riesce a trovare il collegamento **Gestione** nella vista dei dettagli dell'ambiente, contattare il contatto Microsoft per assistenza.
+
+È possibile che venga visualizzato il seguente messaggio di errore durante il processo di distribuzione:
+
+> Gli ambienti di valutazione (demo/test) devono registrare l'applicazione del connettore dell'unità di scala \<application ID\> in headquarters.
+
+Se l'inizializzazione CSU non riesce e viene visualizzato questo messaggio di errore, prendi nota dell'ID applicazione, che è un identificatore univoco globale (GUID), quindi segui i passaggi nella sezione successiva per registrare l'applicazione di distribuzione CSU in Commerce headquarters.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>Registrare l'applicazione di distribuzione CSU in Commerce headquarters (se necessario)
+
+Per registrare l'applicazione di distribuzione CSU in Commerce headquarters, segui questi passaggi.
+
+1. In Commerce headquarters, passa a **Amministrazione sistema \> Impostazione \> Applicazioni Azure Active Directory**.
+1. Nella colonna **ID cliente** immetti l'ID applicazione del messaggio di errore di inizializzazione CSU ricevuto.
+1. Nella colonna **Nome** inserisci un testo descrittivo (ad esempio, **Valutazione CSU**).
+1. Nella colonna **ID utente** immetti **RetailServiceAccount**.
+1. Riprova l'inizializzazione e la distribuzione di CSU da LCS.
 
 ### <a name="initialize-e-commerce"></a>Inizializzare e-Commerce
 
@@ -169,10 +180,13 @@ Per proseguire il processo di provisioning e configurazione dell'ambiente di val
 
 [Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Commerce Scale Unit (cloud)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Commerce Scale Unit (cloud)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Portale di Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Sito Web di Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,29 +2,26 @@
 title: Registrazione produzione
 description: Questo articolo fornisce informazioni sui diversi tipi di registrazioni nel processo di produzione.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemGroup, ProjCategory, WrkCtrResourceGroup, WrkCtrTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 54591
 ms.assetid: 0917fe64-f643-46ae-98ff-5013b266a067
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7214575e1eb3289224446ae5dd9d40221f054f8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee3eaf11f5d77861e7abd29bb428f67b57a3e0e3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431232"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565953"
 ---
 # <a name="production-posting"></a>Registrazione produzione
 
@@ -57,3 +54,6 @@ Nei **Parametri di controllo produzione**, è possibile utilizzare il campo **Re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

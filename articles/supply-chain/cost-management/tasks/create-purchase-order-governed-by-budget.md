@@ -1,7 +1,7 @@
 ---
 title: Creare un ordine fornitore disciplinato dal budget
 description: Utilizzare questa procedura per creare un ordine fornitore controllato in relazione al budget disponibile.
-author: ShylaThompson
+author: AndersGirke
 ms.date: 06/20/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a79b19ce4ff35ecc1f691edea1bdc5e30010b433
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e2bfec4d7d38ef95d1f0ce3bd89938337ecf731
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821371"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572051"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Creare un ordine fornitore disciplinato dal budget
 

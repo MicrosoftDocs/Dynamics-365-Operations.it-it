@@ -1,28 +1,25 @@
 ---
 title: Creare un nuovo layout di magazzino
 description: In questo argomento viene descritto come impostare le informazioni sulle ubicazioni in un magazzino.
-author: perlynne
-manager: tfehr
+author: yufeihuang
 ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 09666e95cc90913f1bf8555b9ff2c48aa55369ed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bf5c5203aa0a4c8522b8f9d04fc6a8cd306a64a3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431413"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580890"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Creare un nuovo layout di magazzino
 
@@ -63,3 +60,6 @@ In questo argomento viene descritto come impostare le informazioni sulle ubicazi
 7. Chiudere la pagina.
 8. Aggiorna la pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

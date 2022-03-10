@@ -2,29 +2,26 @@
 title: Media ponderata con valore fisico e contrassegno
 description: Media ponderata è un modello inventariale basato sul principio della media ponderata, secondo il quale le uscite dal magazzino vengono valutate in base al valore medio degli articoli ricevuti in magazzino durante il periodo di chiusura inventario, più le eventuali scorte disponibili del periodo precedente.
 author: AndersGirke
-manager: tfehr
 ms.date: 10/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 225379df8bb86522d5817add570d614d09a1a92d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d94e61384ad2d0880a6d62b963e9a99518a41db1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4430988"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572003"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Media ponderata con valore fisico e contrassegno
 
@@ -68,7 +65,7 @@ Nello scenario descritto nelle sezioni seguenti sono state registrate un'entrata
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione diretta senza l'opzione Includi valore fisico. 
 
-![Compensazione diretta media ponderata senza l'opzione Includi valore fisico](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Compensazione diretta media ponderata senza l'opzione Includi valore fisico.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -102,7 +99,7 @@ Nel grafico riportato di seguito sono illustrate le seguenti transazioni:
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione riepilogativo senza l'opzione Includi valore fisico. 
 
-![Compensazione riepilogativa media ponderata senza l'opzione Includi valore fisico](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Compensazione riepilogativa media ponderata senza l'opzione Includi valore fisico.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -131,7 +128,7 @@ Nel grafico riportato di seguito sono illustrate le seguenti transazioni:
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione diretta con l'opzione Includi valore fisico. 
 
-![Compensazione diretta media ponderata con l'opzione Includi valore fisico](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Compensazione diretta media ponderata con l'opzione Includi valore fisico.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -164,7 +161,7 @@ Nel grafico riportato di seguito sono illustrate le seguenti transazioni:
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione riepilogativo senza l'opzione Includi valore fisico. 
 
-![Compensazione riepilogativa media ponderata con l'opzione Includi valore fisico](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Compensazione riepilogativa media ponderata con l'opzione Includi valore fisico.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -212,7 +209,7 @@ Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggi
 
 Nel diagramma riportato di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata con contrassegno. 
 
-![Media ponderata con contrassegno](./media/weightedaveragewithmarking.gif) 
+![Media ponderata con contrassegno.](./media/weightedaveragewithmarking.gif) 
 
 **Informazioni sul diagramma**
 - Le operazioni di magazzino sono rappresentate da frecce verticali.
@@ -230,3 +227,6 @@ Nel diagramma riportato di seguito viene illustrata questa serie di transazioni 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

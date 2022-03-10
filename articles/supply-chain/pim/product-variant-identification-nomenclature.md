@@ -1,12 +1,10 @@
 ---
 title: Nomenclatura di nomi e numeri di varianti prodotto
 description: In questo argomento viene descritto come impostare la nomenclatura per il numero prodotto per sostituire il formato fisso [Numero rappresentazione generale prodotto - Configurazione - Dimensione - Colore - Stile].
-author: roxanadiaconu
-manager: tfehr
+author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: benebotg
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f17f9e1401c68c11e23f327d96028663470b3245
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 14ea9bb5afe7b05f1f0392fde523a95a04a6e2ad
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011324"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569699"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura di nomi e numeri di varianti prodotto
 
@@ -190,10 +188,12 @@ A seconda della nomenclatura, il sistema può tentare di assegnare un numero di 
 
 Durante un passaggio del processo di configurazione viene suggerito automaticamente un valore di configurazione in base alla nomenclatura. In questa fase è possibile modificare manualmente il valore di configurazione. Quando si salva la configurazione, il sistema verifica che il valore di configurazione sia univoco. Se il valore immesso non è univoco, verrà visualizzato un messaggio di errore. Per salvare la configurazione è necessario immettere un valore univoco di configurazione.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Creare una nomenclatura del numero di prodotto per le varianti prodotto predefinite](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Creare una nomenclatura di numero prodotto per le varianti prodotto configurate](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

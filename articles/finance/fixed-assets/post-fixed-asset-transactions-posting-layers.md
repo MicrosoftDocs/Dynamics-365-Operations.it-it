@@ -2,11 +2,9 @@
 title: Registrare transazioni cespiti nei livelli di registrazione
 description: Questo articolo fornisce una panoramica delle funzionalità del livello di registrazione per le transazioni cespiti.
 author: moaamer
-manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9a52374d52b3dcd435c79033d462a2982316a68b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 538366163bac8ba593bd5575459ddb9b0079094150187dfb8c04490f467f9798
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240860"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757075"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Registrare transazioni cespiti nei livelli di registrazione
 

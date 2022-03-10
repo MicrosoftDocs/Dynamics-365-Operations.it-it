@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5387aaf5a5e0d20ac22595fbea86a25fdf38a771
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831124"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577818"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenza lavori gestiti dal sistema
 

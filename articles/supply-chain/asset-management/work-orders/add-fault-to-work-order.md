@@ -1,12 +1,10 @@
 ---
 title: Aggiungere registrazioni di errore all'ordine di lavoro
 description: In questo argomento viene descritto come aggiungere registrazioni di errore agli ordini di lavoro in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 489add5befe3660ad49e238b659bc8adbe1418a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1090d95d381a047e77bca3e18ef7b99151ea3d5f941f2d6c9e4877a339f1385e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263760"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761070"
 ---
 # <a name="add-fault-to-work-order"></a>Aggiungere errore all'ordine di lavoro
 
@@ -52,7 +50,7 @@ ms.locfileid: "5263760"
 
 Nella figura seguente viene illustrato un esempio di una registrazione dell'errore.
 
-![Figura 1](media/19-work-orders.png)
+![Figura 1.](media/19-work-orders.png)
 
 
 ## <a name="view-asset-faults"></a>Visualizzare gli errori registrati nei cespiti

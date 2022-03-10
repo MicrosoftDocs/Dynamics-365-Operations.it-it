@@ -13,15 +13,15 @@ ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce056a661130d30426ccfa4c288a0ce5b62ff959
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821299"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572027"
 ---
 # <a name="weighted-average-date"></a>Data media ponderata
 
@@ -39,7 +39,7 @@ Media ponderata = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q
 
 Durante la chiusura inventario, il calcolo verrà eseguito ogni giorno per la durata del periodo di chiusura, come mostrato nell'illustrazione riportata di seguito. 
 
-![Modello di calcolo giornaliero della data media ponderata](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Modello di calcolo giornaliero della data media ponderata.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Le transazioni di magazzino che escono dall'inventario, quali gli ordini cliente, i giornali di registrazione magazzino e gli ordini di produzione avranno luogo a un prezzo di costo stimato alla data di registrazione. Tale prezzo di costo stimato è noto anche come prezzo di costo medio corrente. Alla data della chiusura inventario, il sistema analizza le transazioni di magazzino per i periodi e i giorni precedenti e per il giorno corrente. Questa analisi viene utilizzata per stabilire quale dei seguenti principi di chiusura utilizzare:
 
@@ -72,7 +72,7 @@ La figura di seguito mostra le transazioni:
 -   2b. Uscita finanziaria da magazzino aggiornata per una quantità pari a 2 al costo unitario di 10,00 EUR.
 -   3. La chiusura dell'inventario viene eseguita utilizzando il metodo di compensazione diretta per compensare l'entrata fisica in magazzino con l'uscita finanziaria dal magazzino.
 
-![Compensazione diretta con data media ponderata senza opzione Includi valore fisico](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Compensazione diretta con data media ponderata senza opzione Includi valore fisico.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Chiave per la figura:**
 
@@ -126,7 +126,7 @@ Il sistema genera e registra la transazione per il trasferimento scorte riepilog
 
 Nella figura riportata di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale media ponderata e del principio di compensazione riepilogativo senza l'opzione **Includi valore fisico**. 
 
-![Liquidazione riepilogativa con data media ponderata senza opzione Includi valore fisico](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Liquidazione riepilogativa con data media ponderata senza opzione Includi valore fisico.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Chiave per la figura:**
 
@@ -175,7 +175,7 @@ Per collegare una transazione in uscita a un'entrata prima che la transazione ve
 
 Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR. Nella figura riportata di seguito viene illustrata questa serie di transazioni con gli effetti derivanti dalla scelta del modello inventariale data media ponderata con contrassegno.
 
-![Data media ponderata con contrassegno](./media/weightedaveragedatewithmarking.gif) 
+![Data media ponderata con contrassegno.](./media/weightedaveragedatewithmarking.gif) 
 
 **Chiave per la figura:**
 

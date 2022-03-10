@@ -2,28 +2,25 @@
 title: Panoramica suggerimenti sul prodotto
 description: Questo argomento fornisce informazioni generali sui suggerimenti sul prodotto. I suggerimenti sul prodotto consentono ai clienti di individuare facilmente e rapidamente i prodotti desiderati e persino i prodotti che originariamente non intendevano acquistare.
 author: Moonma
-manager: AnnBe
 ms.date: 05/26/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb64cd05ac8580c3ddcd719d62544f1edbdbef0b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7824de50a65370ef4f2f23b9c8e926f9bec2fcc3
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231034"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7982121"
 ---
 # <a name="product-recommendations-overview"></a>Panoramica suggerimenti sul prodotto
 
@@ -34,6 +31,9 @@ Microsoft Dynamics 365 Commerce può essere utilizzato per visualizzare suggerim
 I suggerimenti sul prodotto consentono ai clienti di individuare facilmente e rapidamente i prodotti desiderati durante un'esperienza ottimale. Il cross-selling e l'up-selling possono inoltre essere utilizzati per consentire ai clienti di individuare ulteriori prodotti che originariamente non intendevano acquistare. Quando i suggerimenti sono utilizzati per aumentare l'individuazione di prodotti, possono creare più opportunità di conversione, aumentare i ricavi da vendite e persino amplificare la soddisfazione e la conservazione dei clienti.
 
 In e-Commerce, i suggerimenti sul prodotto sono generati mediante tecnologie di machine learning del servizio Suggerimenti di Microsoft su vasta scala.
+
+Questo servizio è un componente aggiuntivo per Dynamics 365 Commerce. Per ulteriori informazioni, scaricare l'ultima [guida alle licenze di Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
+
 
 ## <a name="recommendation-service"></a>Servizio Suggerimenti
 

@@ -1,26 +1,25 @@
 ---
 title: Evasione ordine del punto vendita
 description: In questo argomento viene fornita una panoramica dell'evasione ordine del punto vendita.
-author: rubencdelgado
+author: BrianShook
 ms.date: 10/30/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 67a0199cd15e0a10b41ed3ab288951f86c9790ba0499fee0754f05876faf4843
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36ce908e81639fbb836d33ff3e84976c395b1473
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714068"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983344"
 ---
 # <a name="store-order-fulfillment"></a>Evasione ordine del punto vendita
 

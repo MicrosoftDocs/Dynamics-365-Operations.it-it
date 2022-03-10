@@ -2,11 +2,9 @@
 title: " Regole per prezzi di categoria per creare accordi commerciali"
 description: Questa procedura dimostra la creazione degli accordi commerciali sui prezzi di vendita mediante una regola per prezzi di categoria.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca0a002328947746d67abed0d18a96de26b76ffc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 39418f9d9c5e3edf1db92a6d8271df2c55be94deca814838c133d0ef6703ec09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223100"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730709"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a> Regole per prezzi di categoria per creare accordi commerciali
 

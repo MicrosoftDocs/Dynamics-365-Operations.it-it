@@ -2,11 +2,9 @@
 title: Modulo Banner promozionale
 description: In questo argomento vengono descritti i moduli Banner promozionale e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b9325ef31fc61d451584930b09c2039156c0c05
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718782"
 ---
 # <a name="promo-banner-module"></a>Modulo banner promozionale
 
@@ -36,7 +34,7 @@ I moduli Banner promozionale supportano un messaggio di testo e un collegamento.
 
 I moduli Banner promozionale sono basati sui dati del sistema di gestione dei contenuti e possono essere utilizzati in qualsiasi pagina.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Esempi di utilizzo di banner promozionali in e-Commerce
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Esempi di utilizzo di banner promozionali in e-commerce
 
 I banner promozionali possono essere utilizzati nell'intestazione del sito per mostrare promozioni o messaggi in tutto il sito, come negli esempi seguenti.
 
@@ -48,11 +46,11 @@ I banner promozionali possono essere utilizzati nell'intestazione del sito per m
 
 L'immagine seguente mostra un esempio di banner promozionale.
 
-![Esempio di modulo banner promozionale](./media/ecommerce-Promobanner.PNG)
+![Esempio di modulo del banner promozionale.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Proprietà dei moduli Banner promozionale
 
-| Nome proprietà             | Valore                              | Descrizione |
+| Nome proprietà             | Valore                              | descrizione |
 |---------------------------|------------------------------------|-------------|
 | Messaggi banner           | Testo e collegamenti                     | Una matrice di testo e collegamenti. |
 | Riproduzione automatica                  | **True** o **False**              | Un valore che indica se i messaggi vengono automaticamente passati in rassegna, se sono configurati più messaggi. |
@@ -61,6 +59,10 @@ L'immagine seguente mostra un esempio di banner promozionale.
 | Mostra flipper sequenza     | **True** o **False**              | Un valore che indica se i flipper della sequenza devono essere visualizzati, di modo che i clienti possano scorrere manualmente più elementi del banner. |
 | Allineamento testo            | **A destra**, **A sinistra** o **Al centro** | L'allineamento del testo nel modulo banner promozionale. |
 | Collega                      | URL A                              | L'URL di un collegamento facoltativo. |
+|Allineamento testo             | **A destra**, **A sinistra** o **Al centro** | Questa proprietà è disponibile come estensione del tema nel tema Adventure Works. Consente a un utente di impostare l'allineamento del testo nel banner promozionale. |
+
+> [!IMPORTANT]
+> Il tema Adventure Works è disponibile a partire dalla versione Dynamics 365 Commerce 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Aggiungere un modulo banner promozionale a una pagina 
 
@@ -80,7 +82,6 @@ Per aggiungere un modulo banner promozionale a una pagina e impostare le proprie
 
 > [!NOTE]
 > Un banner promozionale viene in genere utilizzato nello slot dell'intestazione di pagina o in uno slot del sottotitolo.
-
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

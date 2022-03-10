@@ -1,28 +1,30 @@
 ---
 title: Panoramica dei processi di importazione ed esportazione dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
-author: Sunil-Garg
-ms.date: 04/22/2021
-ms.topic: article
+author: peakerbl
+ms.date: 10/21/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.custom: intro-internal
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351021"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8071087"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Per creare e gestire processi di importazione ed esportazione di dati si utilizza l'area di lavoro **Gestione dati**. Per impostazione predefinita, il processo di importazione ed esportazione crea una tabella di gestione temporanea per ciascuna entità nel database di destinazione. Le tabelle di gestione temporanea consentono di verificare, pulire o convertire i dati prima di spostarli.
 
@@ -68,6 +70,9 @@ Quando si seleziona un'entità, è necessario selezionare il formato dei dati da
 | Excel                  | Excel                                      | \-N/D-                     |
 | XML                    | \-N/D-                                      | Elemento XML Attributo XML |
 | Larghezza fissa, delimitata | Virgola, punto e virgola, tabulazione, barra verticale, due punti | \-N/D-                     |
+
+> [!NOTE]
+> È importante selezionare il valore corretto per **Delimitatore riga**, **Delimitatore colonna** e **Qualificatore testo**, se l'opzione **Formato file** è impostata su **Delimitato**. Assicurati che i tuoi dati non contengano il carattere utilizzato come delimitatore o qualificatore, poiché ciò potrebbe causare errori durante l'importazione e l'esportazione.
 
 ### <a name="sequence-the-entities"></a>Sequenziare le entità
 È possibile sequenziare le entità in un modello di dati o nei processi di importazione e esportazione. Quando si esegue un processo contenente più entità di dati, è necessario assicurarsi che le entità di dati siano sequenziate correttamente. Il sequenziamento delle entità deve essere eseguito in modo da poter risolvere qualsiasi dipendenza funzionale tra le entità. Se le entità non hanno dipendenze funzionali, possono essere programmate per l'importazione o l'esportazione parallela.
@@ -198,16 +203,10 @@ Quando si esegue la programmazione del processo di pulizia, i seguenti parametri
 > [!NOTE]
 > Se i record nelle tabelle di gestione temporanea non vengono ripuliti completamente, assicurarsi che il processo di pulizia sia pianificato per essere ripetuto. Come spiegato sopra, in qualsiasi esecuzione di pulizia il processo pulirà il maggior numero di ID di esecuzione possibile entro le ore massime previste. Per continuare la pulizia di tutti i record di gestione temporanea rimanenti, è necessario pianificare l'esecuzione periodica del processo.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Pulizia e archiviazione storico processi (disponibile per l'anteprima nel Platform update 39 o nella versione 10.0.15)
-La funzionalità di pulizia e archiviazione storico processi sostituisce le versioni precedenti della funzionalità di pulizia. Questa sezione spiegherà queste nuove funzionalità.
+## <a name="job-history-clean-up-and-archival"></a>Pulizia e archiviazione della cronologia dei lavori 
+La funzionalità di pulizia e archiviazione della cronologia dei processi sostituisce le versioni precedenti della funzionalità di pulizia. Questa sezione spiegherà queste nuove funzionalità.
 
-Una delle principali modifiche alla funzionalità di pulizia è l'uso del processo batch di sistema per la pulizia dello storico. L'utilizzo del processo batch di sistema consente alle Finance and Operations app di pianificare ed eseguire automaticamente il processo batch di pulizia non appena il sistema è pronto. Non è più necessario pianificare manualmente il processo batch. In questa modalità di esecuzione predefinita, il processo batch verrà eseguito ogni ora a partire dalla mezzanotte e conserverà lo storico delle esecuzioni per i 7 giorni più recenti. Lo storco eliminato viene archiviato per il recupero futuro.
-
-> [!NOTE]
-> Poiché questa funzionalità è in anteprima, il processo batch di sistema non eliminerà alcuno storico esecuzione fino a quando non verrà abilitato tramite l'anteprima DMFEnableExecutionHistoryCleanupSystemJob. Quando la funzione sarà generalmente disponibile in una versione futura, questo periodo di pubblicazione non sarà necessario e il processo batch del sistema inizierà a essere eliminato e archiviato dopo che il sistema è pronto, in base alla pianificazione definita come spiegato sopra. 
-
-> [!NOTE]
-> In una versione futura, le versioni precedenti della funzionalità di pulizia verranno rimosse dalle Finance and Operations app.
+Una delle principali modifiche alla funzionalità di pulizia è l'uso del processo batch di sistema per la pulizia dello storico. L'utilizzo del processo batch di sistema consente alle app per finanza e operazioni di pianificare ed eseguire automaticamente il processo batch di pulizia non appena il sistema è pronto. Non è più necessario pianificare manualmente il processo batch. In questa modalità di esecuzione predefinita, il processo batch verrà eseguito ogni ora a partire dalla mezzanotte e conserverà lo storico delle esecuzioni per i 7 giorni più recenti. Lo storco eliminato viene archiviato per il recupero futuro. A partire dalla versione 10.0.20, questa funzionalità è sempre attiva.
 
 La seconda modifica nel processo di pulizia è l'archiviazione dello storico esecuzione eliminato. Il processo di pulizia archivierà i record eliminati nell'archiviazione BLOB che DIXF utilizza per le integrazioni regolari. Il file archiviato sarà nel formato del pacchetto DIXF e sarà disponibile per 7 giorni nel BLOB durante il quale potrà essere scaricato. La longevità predefinita di 7 giorni per il file archiviato può essere modificata fino a un massimo di 90 giorni nei parametri.
 

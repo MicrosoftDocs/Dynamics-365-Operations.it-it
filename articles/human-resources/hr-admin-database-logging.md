@@ -1,14 +1,13 @@
 ---
 title: Configurare e gestire la registrazione del database
 description: Puoi tenere traccia delle modifiche a tabelle e campi in Dynamics 365 Human Resources con la registrazione del database.
-author: andreabichsel
-ms.date: 06/10/2020
+author: twheeloc
+ms.date: 12/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,14 +15,17 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cbe4c105b14935db6803e4bded0d891c564fb81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801337"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066443"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurare e gestire la registrazione del database
+
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -94,14 +96,14 @@ Puoi eliminare tutti o parte dei registri del database, utilizzando le seguenti 
 Per configurare la pulitura del registro del database, effettua le seguenti operazioni: 
 
 1. Vai ad **Amministrazione sistema> Collegamenti> Database > Registro database**. Seleziona **Pulisci registro**.
-
-2. Scegli un metodo di selezione dei registri da eliminare inserendo una delle seguenti opzioni:
+2. Sotto l'intestazione **Record da includere**, seleziona **Filtra**.
+3. Scegli il metodo che verrà utilizzato per selezionare i log da eliminare. Immetti una delle opzioni riportate di seguito:
 
    - ID tabella
    - Tipo di registro
    - Data e ora creazione
 
-3. Usa la scheda **Pulitura registro database** per determinare quando eseguire l'attività di pulizia del registro. Per impostazione predefinita, i registri del database sono disponibili per 30 giorni.
+4. Usa la scheda **Pulitura registro database** per determinare quando eseguire l'attività di pulizia del registro. Per impostazione predefinita, i registri del database sono disponibili per 30 giorni.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,27 +2,25 @@
 title: Fatturazione progetto
 description: Questo argomento fornisce una panoramica della fatturazione per i progetti di tempistica e materiali e a prezzo fisso. Sono riportate informazioni sulle proposte di fatturazione (fatture preliminari), controllo della fattura, fatturazione acconti, fatturazione fornitori e note di credito.
 author: TaylorVH
-manager: AnnBe
 ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: zezhangzhao
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 82de9c8ff1b3eeb1811332316522e541b2a405ff
+ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4979589"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7883570"
 ---
 # <a name="project-invoicing"></a>Fatturazione progetto
 
@@ -131,3 +129,6 @@ Per accreditare un importo fatturato, è necessario prima selezionare l'importo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

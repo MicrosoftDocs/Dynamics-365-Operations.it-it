@@ -1,9 +1,9 @@
 ---
 title: Panoramica dei bonifici SEPA
 description: Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico.
-author: ShylaThompson
+author: sunfzam
 ms.date: 06/20/2017
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7d0d5cea3ee3a8476eeb99b99087f55a60306c4717b58403b3beb43ad84a2da
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737211"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984029"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Panoramica dei bonifici SEPA
 

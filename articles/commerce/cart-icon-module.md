@@ -2,11 +2,9 @@
 title: Modulo Icona carrello
 description: In questo argomento viene descritto il modulo Icona carrello e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
-ms.date: 10/20/2020
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43bc274548de016f24569001bac94aff324bea12
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213236"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735680"
 ---
 # <a name="cart-icon-module"></a>Modulo icona carrello
 
@@ -31,16 +29,32 @@ In questo argomento viene descritto il modulo Icona carrello e la procedura per 
 
 Il modulo Icona carrello rappresenta il carrello nel modulo Intestazione della pagina e mostra in qualsiasi momento il numero di articoli presenti nel carrello. Il modulo Icona carrello mostra anche un riepilogo del carrello (noto anche come mini carrello) quando si passa con il mouse sull'icona del carrello. Il mini carrello fornisce all'utente un riepilogo degli articoli nel carrello senza dover accedere alla pagina del carrello. Inoltre, consente all'utente di accedere direttamente alla pagina di pagamento se è soddisfatto del riepilogo. Ciò riduce il numero di navigazioni della pagina e velocizza il checkout. 
 
-> [!NOTE]
-> Il supporto per l'utilizzo del modulo dell'icona del carrello è disponibile in Dynamics 365 Commerce versione 10.0.11.
-
 L'immagine seguente mostra un esempio di un modulo Icona carrello che visualizza un mini carrello nell'intestazione Fabrikam.
 
-![Esempio di modulo Icona carrello](./media/ecommerce-Minicart.PNG)
+![Esempio di modulo Icona carrello.](./media/ecommerce-Minicart.PNG)
 
 ## <a name="module-properties"></a>Proprietà del modulo
 
-- **Mostra mini carrello** - Se impostata su vero, questa proprietà consente di visualizzare un riepilogo del carrello (mini carrello) quando si passa con il mouse sull'icona del carrello. Questa funzionalità è supportata solo per le porte di visualizzazione desktop.
+- **Mostra mini carrello**: quando questa proprietà è impostata su **Vero** e gli utenti passano con il mouse sull'icona del carrello, viene visualizzato un riepilogo del carrello (mini carrello). Questa funzionalità è supportata solo per le porte di visualizzazione desktop.
+- **Consenti checkout anonimo**: quando questa proprietà è impostata su **Vero**, il mini carrello consente agli utenti che non hanno effettuato l'accesso di effettuare un checkout come guest. Questa proprietà è disponibile nella versione 10.0.21 di Commerce come elemento del pacchetto della libreria di moduli di Commerce.
+- **Ordine degli articoli**: questa proprietà controlla l'ordine in cui gli articoli sono visualizzati nel mini carrello. Quando l'opzione **Nuovi articoli aggiunti all'inizio dell'elenco** è selezionata, i nuovi articoli aggiunti al carrello sono visualizzati all'inizio dell'elenco degli articoli del mini carrello. Quando l'opzione predefinita, ovvero **Nuovi articoli aggiunti alla fine dell'elenco** è selezionata, i nuovi articoli aggiunti al carrello sono visualizzati alla fine dell'elenco degli articoli del mini carrello. Questa proprietà è disponibile a partire dalla versione 10.0.21 di Commerce come elemento del pacchetto della libreria di moduli di Commerce.
+
+> [!IMPORTANT]
+> Le proprietà **Consenti checkout anonimo** e **Ordine degli articoli** sono disponibili a partire dalla versione Commerce 10.0.21. Richiedono che sia installata la versione 9.31 del pacchetto della libreria di moduli di Commerce.
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Proprietà del modulo e slot nel tema Adventure Works
+
+Nel tema Adventure Works il modulo Icona carrello include due slot aggiuntivi per il mini carrello. Questi slot sono inclusi come estensione della definizione del modulo.
+
+- **Promozioni carrello vuoto** - Questo slot accetta un modulo di blocco del contenuto. Quando il carrello è vuoto, viene mostrato il modulo di blocco del contenuto specificato. Il modulo di blocco del contenuto può essere utilizzato per promozioni, contenuti di marketing e collegamenti a pagine di categoria, per aiutare i clienti a continuare il loro percorso di acquisto.
+- **Contenuti promozionali** - Questo slot può essere utilizzato per mostrare promozioni, come "Spedizione gratuita per ordini superiori a $100". I moduli di blocco del contenuto, blocco di testo ed elenco di immagini possono essere utilizzati nello slot dei contenuti promozionali.
+
+L'immagine seguente mostra un esempio di modulo Icona carrello nel tema Adventure Works che mostra il contenuto promozionale sul mini carrello.
+
+![Esempio di un modulo Icona carrello nel tema Adventure Works](./media/AW_minicart.PNG)
+
+> [!IMPORTANT]
+> Gli slot del tema Adventure Works sono disponibili a partire dalla versione 10.0.20 di Dynamics 365 Commerce.
 
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Aggiungere un modulo Icona carrello a una pagina
 

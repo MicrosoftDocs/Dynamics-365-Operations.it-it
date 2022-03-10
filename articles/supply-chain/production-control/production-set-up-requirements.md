@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68e04be6d7c727adc48996e97499361006d048bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bfde8b40927ceaa216878d58ef72c5d91e9ebe01
+ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814562"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "7968798"
 ---
 # <a name="production-setup-requirements"></a>Requisiti di impostazione della produzione
 
@@ -39,7 +39,7 @@ Prima di utilizzare il modulo Controllo produzione è necessario impostare alcun
 -   Gruppi di articoli
 -   Conti CoGe per i gruppi di articoli
 -   Tabella degli articoli di magazzino nella gestione inventario.
--   Creazione di distinte base e di versioni DBA nel modulo Gestione inventario.
+-   Creazione di distinte base e di versioni DBA nel modulo Gestione informazioni sul prodotto.
 
 ## <a name="required-calendar-and-resource-setup"></a>Risorse e calendario obbligatori
 Prima di utilizzare il modulo Controllo produzione, aprire Amministrazione organizzazione e creare e definire il calendario e le risorse operative nel seguente ordine:

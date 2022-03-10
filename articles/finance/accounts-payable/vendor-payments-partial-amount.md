@@ -2,11 +2,9 @@
 title: Pagamenti fornitore per un importo parziale
 description: Talvolta è possibile effettuare a un fornitore un pagamento inferiore rispetto all'importo della fattura. Questo articolo descrive le varie opzioni per gestire questa situazione.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00a3cc8480b4d171c1f2b3cda4e8707893c6a05b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: dd7b7092e0d0baf48a805bbb0cefb0eb77e49946c6dbc44c9f954781ca1259e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991198"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777242"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Pagamenti fornitore per un importo parziale
 
@@ -30,8 +28,7 @@ ms.locfileid: "4991198"
 
 Talvolta è possibile effettuare a un fornitore un pagamento inferiore rispetto all'importo della fattura. Questo articolo descrive le varie opzioni per gestire questa situazione. Le opzioni disponibili dipendono dai requisiti aziendali e dalla configurazione. 
 
-<a name="cash-discount-amounts"></a>Importi sconto di cassa
----------------------
+## <a name="cash-discount-amounts"></a>Importi sconto di cassa
 
 È possibile che un fornitore applichi uno sconto di cassa se il pagamento di una fattura avviene prima della data di scadenza. Si supponga ad esempio di immettere una fattura per un valore 100,00 in cui si specifica uno sconto di cassa del 2% se la fattura viene pagata entro 10 giorni. I termini della data di scadenza sono pari a 30 giorni. Se una proposta di pagamento utilizza lo sconto di cassa come criterio per selezionare una fattura e se la proposta viene effettuata il giorno della data dello sconto di cassa o prima, la fattura viene selezionata per il pagamento e il pagamento viene creato per un valore di 98,00. Uno sconto di cassa può anche essere applicato per un pagamento occasionale creato manualmente.
 
@@ -53,3 +50,6 @@ Si supponga ad esempio di ricevere uno sconto di cassa del 2% se la fattura vien
 
 
 Per ulteriori informazioni, vedere [Panoramica pagamenti fornitore](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

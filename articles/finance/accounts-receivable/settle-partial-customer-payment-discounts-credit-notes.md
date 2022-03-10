@@ -2,11 +2,9 @@
 title: Liquidare un pagamento cliente parziale con sconti sulle note di accredito
 description: Questo articolo descrive uno scenario in cui uno sconto di cassa viene applicato su una nota di accredito quando anche la fattura originale ha uno sconto di cassa.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22354efbf75710bbc34f2b701f68be2083d91bac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6476fed0ac10888c51266128f950fc0e1418b13c743894ab0992d051e733c4e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740148"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidare un pagamento cliente parziale con sconti sulle note di accredito
 
@@ -41,7 +39,7 @@ Il cliente 4035 ha una fattura di 1.000,00 e una nota di accredito di 100,00. Ci
 | CCRN-10050 | Nota di accredito      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | GBP      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Consente di liquidare una nota di accredito con una fattura.
-Nella pagina **Transazioni cliente** Arnie apre la pagina **Liquida transazioni**. Può utilizzare la pagina **Liquida transazioni** per liquidare la fattura e la nota di accredito. Durante il processo di liquidazione visualizza le date e gli importi dello sconto di cassa. Contrassegna i due documenti e quindi fa clic su **Registra** per liquidare le transazioni. È presente uno sconto del -1,00 sulla nota di accredito, perché Fabrikam consente sconti sulle note di accredito.
+Nella pagina **Transazioni cliente** Arnie apre la pagina **Liquida transazioni**. Può utilizzare la pagina **Liquida transazioni** per liquidare la fattura e la nota di accredito. Durante il processo di liquidazione, Arnie visualizza le date e gli importi dello sconto di cassa. Contrassegna i due documenti e quindi fa clic su **Registra** per liquidare le transazioni. È presente uno sconto del -1,00 sulla nota di accredito, perché Fabrikam consente sconti sulle note di accredito.
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo    | Conto | Data      | Data di scadenza  | Fattura  | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|

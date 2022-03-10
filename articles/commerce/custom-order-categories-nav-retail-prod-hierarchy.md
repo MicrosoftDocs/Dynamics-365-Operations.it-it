@@ -2,11 +2,9 @@
 title: Modificare l'ordine di visualizzazione per entità di merchandising
 description: In questo argomento vengono descritti i concetti correlati al controllo dell'ordine di visualizzazione per varie entità di merchandising in Dynamics 365 Commerce.
 author: josaw1
-manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: Category, Retail product hierarchy, Navigation hierarchy
 audience: Application User, Merchandising manager, Catalog manager
@@ -14,20 +12,20 @@ ms.reviewer: josaw
 ms.custom: 268444
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 67807c53a6ffc6dd09cc6f0e48218e2ee2de559f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 444f1ebd99cf8443181a51d93a48b6b4d1addf4d
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207777"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779544"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Modificare l'ordine di visualizzazione per entità di merchandising
 
 
-[!include [banner](includes/banner.md)]
+[!Include [banner](includes/banner.md)]
 
 Per i rivenditori, l'individuazione dei prodotti è uno strumento principale per l'interazione dei clienti in tutti i canali. Varie funzionalità possono consentire ai clienti di scoprire facilmente i prodotti. Ad esempio, possono esaminare le categorie, cercare e filtrare.
 
@@ -53,9 +51,9 @@ Per poter completare questa procedura, i dati dimostrativi devono essere install
 
 L'ordine di visualizzazione della gerarchia di navigazione nei canali verrà riflessa nella sede per la gerarchia di prodotti di Commerce e i prodotti rilasciati per categoria.
 
-![Gerarchia di prodotti ordinata con valori negativi](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
+![Gerarchia di prodotti ordinata con valori negativi.](./media/RetailProductHierarchyCustomSortedWithNegativeValues.png)
 
-![Prodotti rilasciati per categoria ordinati in base alla gerarchia di prodotti](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
+![Prodotti rilasciati per categoria ordinati in base alla gerarchia di prodotti.](./media/ReleasedProductsByCategoryCustomSortedBasedOnRetailProductHierarchy.png)
 
 ## <a name="configure-the-display-order-for-categories-in-the-channel-navigation-hierarchy"></a>Configurare l'ordine di visualizzazione delle categorie nella gerarchia di navigazione nei canali
 
@@ -79,14 +77,14 @@ Per poter completare questa procedura, i dati dimostrativi devono essere install
 
 L'ordine di visualizzazione della gerarchia di navigazione nei canali è rispecchiato nella sede centrale, nel catalogo e nei canali.
 
-![Ordinamento personalizzato nella gerarchia di navigazione nei canali](./media/ChannelNavCustomSorted.png)
+![Ordinamento personalizzato nella gerarchia di navigazione nei canali.](./media/ChannelNavCustomSorted.png)
 
-![Gerarchia di navigazione nei canali ordinata in base alla gerarchia di navigazione nei canali](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
+![Gerarchia di navigazione nei canali ordinata in base alla gerarchia di navigazione nei canali.](./media/CatalogNavHierarchyCustomSortedBasedOnChannelNav.png)
 
-![POS con categorie ordinate](./media/POSChannelCategoriesCustomSorted.png)
+![POS con categorie ordinate.](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> Per impostazione predefinita, la personalizzazione della funzionalità di ordinamento è disattivata. Per informazioni su come attivare questa e altre funzionalità, vedere [Gestione funzionalità](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+> Per impostazione predefinita, la personalizzazione della funzionalità di ordinamento è disattivata. Per informazioni su come attivare questa e altre funzionalità, vedere [Gestione funzionalità](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

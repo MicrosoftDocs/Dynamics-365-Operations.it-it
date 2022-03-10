@@ -1,25 +1,23 @@
 ---
 title: Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale
 description: In questa procedura viene illustrato come creare un nuovo stato del ciclo di vita del prodotto che esclude i prodotti dal calcolo del livello DBA e dalla pianificazione generale.
-author: cvocph
-manager: tfehr
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6bb18f876e7d279624f60f01c5fbf4e449e9ab27
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c7f72be341b81515b7c5540d66f61647df93af41
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986881"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567033"
 ---
 # <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a>Creare uno stato del ciclo di vita del prodotto per escludere i prodotti dalla pianificazione principale
 
@@ -43,3 +41,6 @@ In questa procedura viene illustrato come creare un nuovo stato del ciclo di vit
 5. Nell'elenco contrassegnare la riga selezionata.
 6. Nel campo Stato del ciclo di vita prodotto immettere o selezionare un valore.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

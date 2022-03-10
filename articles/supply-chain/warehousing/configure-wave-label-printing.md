@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 3040406af731e2e35fff456804f893108e7eb896bfa0132082986c09ad128952
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
+ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777673"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7778085"
 ---
 # <a name="wave-label-printing"></a>Stampa di etichette ciclo
 
@@ -53,7 +53,7 @@ Questi miglioramenti rendono più efficiente l'etichettatura dei cartoni prima d
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Attivare la funzionalità di stampa di etichette ondata
 
-Per poter utilizzare la funzionalità *Stampa di etichette ondata*, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo. Tuttavia, la funzionalità viene ancora elencata in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Stampa di etichette ondata*
@@ -506,7 +506,7 @@ Le estensioni di sequenza numerica controllano la conformità GS1 delle sequenze
 
 ## <a name="scenario-3-wave-label-printing-for-multi-tiered-labels"></a>Scenario 3: stampa di etichette ondata per etichette a più livelli
 
-Questo scenario mostra come utilizzare la funzionalità di stampa di etichette ondata quando i processi di magazzino richiedono diversi livelli di etichette indirizzo. Ad esempio, potrebbe essere necessario stampare etichette separate per cartoni e pallet e stampare un'etichetta di interruzione per un'intera spedizione. Le etichette di interruzione sono un tipo distinto di etichetta che può essere utilizzato come divisore tra rotoli e contenitori, ad esempio etichette per l'ID spedizione e un codice a barre, di modo che le etichette possano essere facilmente ordinate dopo la stampa.
+Questo scenario mostra come utilizzare la funzionalità di stampa di etichette ondata quando i processi di magazzino richiedono diversi livelli di etichette indirizzo. Ad esempio, potrebbe essere necessario stampare etichette separate per cartoni e pallet e stampare un'etichetta di interruzione per un'intera spedizione. Le etichette di interruzione sono un tipo distinto di etichetta che può essere utilizzato come divisore tra rotoli e contenitori, ad esempio etichette per l'ID spedizione e un codice a barre, in modo che le etichette possano essere facilmente ordinate dopo la stampa.
 
 La differenza principale tra la configurazione di questo scenario e la configurazione dello scenario 1, oltre al fatto che le etichette di interruzione sono abilitate, è che più tipi di etichette ondata devono essere associati a modelli di etichette ondata e righe di gruppi di sequenze di unità. Per realizzare questa configurazione, i seguenti elementi sono stati impostati per questo scenario:
 

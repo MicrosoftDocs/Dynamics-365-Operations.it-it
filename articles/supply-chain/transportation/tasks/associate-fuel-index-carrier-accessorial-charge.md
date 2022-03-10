@@ -1,27 +1,25 @@
 ---
 title: Associare un indice carburante a un vettore come spesa accessoria
 description: Questa guida illustra creare un'assegnazione di spese accessorie, di spese accessorie per il vettore spedizione e di spese accessorie principali per il supplemento carburante e come associare un indice carburante a un vettore.
-author: ShylaThompson
-manager: tfehr
+author: Henrikan
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRatingProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: kamaybac
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df75f8dc88124b3e07cc342a3e28c8049068d37
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 458ee935bec970fc02e3222dcb0c176cf5ddd509
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205180"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580194"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Associare un indice carburante a un vettore come spesa accessoria
 

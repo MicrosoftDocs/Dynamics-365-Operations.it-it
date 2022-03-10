@@ -1,14 +1,14 @@
 ---
-title: Home page di Finance insights (anteprima)
+title: Home page di Finance Insights
 description: Finance insights fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 01/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,33 +17,25 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 05b0de8b0104238a33f006234d4a0e8ba9fcdb2a
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338231"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087295"
 ---
-# <a name="finance-insights-home-page-preview"></a>Home page di Finance insights (anteprima)
+# <a name="finance-insights-home-page"></a>Home page di Finance Insights
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Finance insights fornisce modelli configurabili ed estendibili per aiutarti a prevedere in modo accurato e intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Tutte queste funzionalità si basano su modelli di apprendimento automatico intelligenti. Quando queste nuove funzionalità vengono combinate con l'automazione nei pagamenti e negli incassi dei fornitori, costituiscono un sistema finanziario avanzato e intelligente che guida il processo decisionale e ti aiuta ad agire per rispondere efficacemente alle sfide aziendali attuali e previste.
-
-> [!NOTE]
-> È disponibile un'anteprima di Finance insights per la distribuzione negli Stati Uniti, in Canada, nel Regno Unito, in Europa, in Asia Pacifico, in Australia e in Nuova Zelanda. Microsoft sta aggiungendo in modo incrementale il supporto per più aree geografiche. Per abilitare Finance Insights negli ambienti di produzione, è necessario abilitare prima le funzionalità [Esporta in Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) nell'ambiente di produzione.
+Finance Insights fornisce soluzioni configurabili ed estendibili per aiutarti a prevedere in modo intelligente il flusso di cassa della tua azienda, prevedere quando riceverai il pagamento per i crediti in sospeso e generare una proposta di budget che può accelerare il processo di impostazione budget. Queste funzionalità utilizzano modelli di apprendimento automatico intelligenti per creare modelli con i dati forniti dall'utente (inclusi i dati di terze parti come le informazioni sui report sui consumatori di un ufficio). Queste capacità intelligenti informano il processo decisionale e ti aiutano ad agire per rispondere efficacemente alle sfide aziendali attuali e previste. L'utente è responsabile di tutti i dati utilizzati o emessi da Finance insights.
 
 > [!NOTE]
-> Questa funzionalità viene offerta come un set di funzionalità di anteprima. Come funzionalità di anteprima, non dovresti utilizzare i modelli di machine learning risultanti per guidare o influenzare le tue decisioni aziendali o proposte di budget. L'utilizzo di questa funzione è regolato dalle [Condizioni d'uso supplementari](https://go.microsoft.com/fwlink/?linkid=2105274).
+> È disponibile Finance Insights per la distribuzione negli Stati Uniti, in Canada, nel Regno Unito, in Europa, in Asia Pacifico, in Giappone, in Australia e in Nuova Zelanda. Microsoft sta aggiungendo in modo incrementale il supporto per più aree geografiche.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
 Questa sezione elenca i requisiti per l'utilizzo di Finance insights. Ove possibile, vengono forniti collegamenti a fonti di informazioni aggiuntive.
-
-### <a name="legal-requirements"></a>Requisiti legali
-
-Per candidarti al programma di anteprima, compila il [contratto per l'anteprima di Finance insights per Dynamics 365 Finance](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUM1c0Uzc1RFpaU1RVTEwxVTNWUERPRThUSy4u).
 
 ### <a name="system-requirements"></a>Requisiti di sistema
 
@@ -51,28 +43,19 @@ Per candidarti al programma di anteprima, compila il [contratto per l'anteprima 
 
 ### <a name="version-requirements"></a>Requisiti di versione
 
-Questo documento si applica alla versione 10.0.11 dell'app Finance and Operations (Platform update 35) e versioni successive.
+Questo argomento si applica a Microsoft Dynamics 365 Finance versione 10.0.21 e successive.
+
+### <a name="license-requirements"></a>Requisiti di licenza
+
+Finance Insights utilizza i crediti di AI Builder per creare previsioni finanziarie. Tutte le licenze necessarie per questo sono incluse nella licenza tenant. A ogni tenant Dynamics 365 Finance vengono forniti 20.000 crediti AI Builder ogni mese. Se sono necessari crediti aggiuntivi per esigenze aziendali, possono essere acquistati direttamente da AI Builder.
 
 ### <a name="historical-data-requirements"></a>Requisiti relativi ai dati storici
 
-È necessario almeno un anno di fatture dei clienti per eseguire correttamente il training del modello di apprendimento automatico utilizzato per la funzione Previsioni di pagamento del cliente.
-
-### <a name="role-and-permission-requirements"></a>Ruolo e requisiti di autorizzazione
-
-Le modifiche verranno apportate a Microsoft Dynamics 365 Finance, Microsoft Dynamics Lifecycle Services (LCS), Power Apps e Azure. Sono necessarie le autorizzazioni corrette in questi ambienti. Ecco alcuni esempi delle modifiche che verranno apportate:
-
-- Verrà creato un nuovo ambiente in Microsoft Power Platform.
-- In Azure verranno creati un account di archiviazione, un Key Vault e un'applicazione.
-- L'amministratore del tenant di Active Directory dovrà autorizzare l'applicazione AI Builder ad accedere al data lake.
-- La funzionalità verrà attivata in Dynamics 365.
-
-La conoscenza del processo di creazione e gestione delle risorse in Azure, Microsoft Dataverse e LCS sarà utile durante il completamento di questo processo.
+È necessario almeno un anno di fatture dei clienti per eseguire correttamente il training del modello di apprendimento automatico utilizzato per la funzione Previsioni di pagamento del cliente. Si raccomandano tre anni di dati storici per le previsioni dei flussi di cassa. Tre anni di budget storico e/o effettivi sono consigliati per proposte di budget intelligenti.
 
 ## <a name="configure-finance-insights"></a>Configurare Finance insights
 
-È necessario completare alcuni passaggi di configurazione prima di poter utilizzare Finance insights. Per ulteriori informazioni sulla configurazione di Finance insights, vedere.
-  - Per le versioni fino alla 10.0.19: [Configurazione per Finance insights (anteprima) - versioni fino alla 10.0.19](configure-for-fin-insites.md).
-  - Per le versioni 10.0.20 e successive: [Configurazione per Finance Insights (anteprima) - versioni 10.0.20 e successive](configure-for-fin-insites-PubPrvw.md).
+È necessario completare i passaggi di configurazione prima di poter utilizzare Finance Insights. Per ulteriori informazioni su come configurare Informazioni finanziarie dettagliate, vedi [Configurazione per Informazioni finanziarie dettagliate](configure-for-fin-insites.md).
 
 ## <a name="create-a-data-integrator-project"></a>Creare un progetto di integrazione dei dati
 
@@ -98,17 +81,14 @@ La funzione Proposte di budget utilizza un modello di apprendimento automatico i
 
 ### <a name="using-customer-payment-predictions"></a>Utilizzo delle previsioni di pagamento del cliente
 
-La previsione di cassa intelligente si basa sulla funzionalità di previsione di cassa esistente in Dynamics 365 Finance. Per rivedere la capacità esistenti, vedi [Previsione di cassa](../cash-bank-management/cash-flow-forecasting.md).
-
 - Per scoprire come le previsioni di pagamento del cliente possono fornire le informazioni necessarie per svolgere proattivamente le attività di riscossione, vedi [Utilizza le previsioni di pagamento del cliente](use-customer-payment-predictions.md).
 - Per informazioni che possono aiutare a valutare l'efficacia del modello di previsione dopo aver iniziato a utilizzare la funzionalità, vedi [Valutare il modello di previsione del pagamento del cliente iniziale](evaluate-payment-prediction.md).
 - Per informazioni che possono aiutare a rettificare i dati utilizzati per costruire la previsione e quindi migliorarne l'efficacia, vedi [Migliorare il modello di previsione](improve-model.md).
-
-Per ulteriori informazioni sui risultati dei modelli di previsione IA, vedi [Risultati dei modelli di apprendimento automatico](confusion-matrix.md).
+- Per ulteriori informazioni sui risultati dei modelli di previsione IA, vedi [Risultati dei modelli di apprendimento automatico](confusion-matrix.md).
 
 ### <a name="using-cash-flow-forecasts"></a>Utilizzo delle previsioni di cassa
 
-La funzionalità di previsione di cassa può aiutarti a stimare più accuratamente la tua posizione di cassa. 
+La funzionalità di previsione di cassa può aiutarti a stimare più accuratamente la tua posizione di cassa. La previsione di cassa intelligente si basa sulla funzionalità di previsione di cassa esistente in Dynamics 365 Finance. Per rivedere la capacità esistenti, vedi [Previsione di cassa](../cash-bank-management/cash-flow-forecasting.md).
 
 - Per conoscere le nuove funzionalità nelle previsioni di cassa, vedi [Previsione di cassa](cash-flow-forecast-intro.md).
 - Per informazioni sull'importazione di dati esterni da includere nella previsione di cassa qui, vedi [Utilizzare dati esterni nelle previsioni di cassa](external-data-in-cash-flow.md). 
@@ -121,6 +101,6 @@ Per informazioni su come accelerare la creazione di un budget, vedi [Proposte di
 
 ## <a name="feedback-and-support"></a>Feedback e supporto
 
-Invia un messaggio e-mail a [Informazioni dettagliate sui pagamenti dei clienti (anteprima)](mailto:fiap@microsoft.com) se sei interessato a fornire feedback o hai bisogno di supporto.
+Se vuoi fornire un feedback o hai bisogno di supporto, invia un'e-mail a [Finance Insights](mailto:fiap@microsoft.com).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

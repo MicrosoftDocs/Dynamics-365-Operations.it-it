@@ -1,12 +1,10 @@
 ---
 title: Tipo di destinazione archivio ER
-description: In questo argomento vengono fornite informazioni su come configurare una destinazione archivio per ogni componente CARTELLA o FILE di un formato ER configurato per generare documenti in uscita.
+description: Questo argomento fornisce informazioni su come configurare una destinazione di archivio per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
 author: NickSelin
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: e2566fc5115df8b47277fc6b6d7f4698cea0a00bea83bcb17e9d7a9e9b765b65
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679680"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718335"
 ---
 # <a name="archive-er-destination-type"></a>Tipo di destinazione archivio ER
 
@@ -30,9 +28,9 @@ ms.locfileid: "4679680"
 
 È possibile configurare una destinazione archivio per ogni componente **Cartella** o **File** di un formato ER configurato per generare documenti in uscita. In base all'impostazione di destinazione, un documento generato viene archiviato come allegato di un record dell'elenco di processi ER. Per visualizzare i risultati, andare su **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Processi di creazione report elettronici**.
 
-È possibile utilizzare questa opzione per inviare il documento generato a una cartella di Microsoft SharePoint o Archiviazione di Microsoft Azure. Impostare **Abilitato** su **Sì** per inviare l'output a una destinazione definita dal tipo di documento selezionato. Solo tipi di documento in cui il gruppo è impostato su **File** sono disponibili per la selezione. I [tipi](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) di documento vengono definiti in **Amministrazione organizzazione** \> **Gestione documenti** \> **Tipi di documento**. La configurazione per le destinazioni ER è lo stessa della configurazione del sistema di gestione documenti.
+È possibile utilizzare questa opzione per inviare il documento generato a una cartella di Microsoft SharePoint o Archiviazione di Microsoft Azure. Impostare **Abilitato** su **Sì** per inviare l'output a una destinazione definita dal tipo di documento selezionato. Solo tipi di documento in cui il gruppo è impostato su **File** sono disponibili per la selezione. I [tipi](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) di documento vengono definiti in **Amministrazione organizzazione** \> **Gestione documenti** \> **Tipi di documento**. La configurazione per le destinazioni ER è lo stessa della configurazione del sistema di gestione documenti.
 
-[![Pagina Tipi di documento](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
+[![Pagina Tipi di documento.](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
 Il percorso posizione determina dove viene salvato il file. Una volta abilitata la destinazione **Archivio**, i risultati possono essere salvati nell'archivio processi. È possibile visualizzare i risultati in **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Processi archiviati di creazione report elettronici**.
 
@@ -43,7 +41,7 @@ Il percorso posizione determina dove viene salvato il file. Una volta abilitata 
 
 È possibile salvare un file in una cartella designata di SharePoint. Per definire il server di SharePoint predefinito selezionare **Amministrazione organizzazione** \> **Gestione documenti** \> **Parametri di gestione documenti**. Nella scheda **SharePoint** configurare la cartella di SharePoint. Quindi, è possibile selezionarla come cartella in cui verrà salvato l'output ER. La posizione **SharePoint** deve essere selezionata in questo tipo di documento.
 
-[![Selezione di una cartella SharePoint](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
+[![Selezione di una cartella di SharePoint.](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
 
 ## <a name="azure-storage"></a>Archiviazione di Azure
 
@@ -57,3 +55,6 @@ Quando il percorso del tipo di documento è impostato su **Archiviazione di Azur
 - [Panoramica dei report elettronici](general-electronic-reporting.md)
 - [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 - [Configurare la gestione dei documenti](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,11 +2,9 @@
 title: Area di lavoro controllo costi
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Controllo costi. Questa area di lavoro rappresenta un punto centrale i cui manager responsabile per un oggetto controllo di costi o dell'insieme di oggetti dei costi in una o più dimensioni possono accedere ai report.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22f441f7dc3d53fee263ebb059679510c2e3d054
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226439"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763192"
 ---
 # <a name="cost-control-workspace"></a>Area di lavoro controllo costi 
 
@@ -118,7 +116,7 @@ L'area di lavoro **Controllo costi** è stata progettata come report Web. Di con
 
 L'elenco dei report disponibili per gli utenti, ad esempio i responsabili, è controllato dall'impostazione dell'opzione **Pubblicato** nella pagina **Configurazioni area di lavoro controllo costi**.
 
-![Report che gli utenti possono visualizzare nell'area di lavoro Controllo costi](./media/report-cost-control.png)
+![Report che gli utenti possono visualizzare nell'area di lavoro Controllo costi.](./media/report-cost-control.png)
 
 Un responsabile può selezionare il periodo del calendario fiscale da visualizzare. La data della sessione viene utilizzata per determinare il periodo corrente predefinito.
 
@@ -138,11 +136,11 @@ Una griglia mostra ciascun elemento di costo associato al nodo gerarchia dimensi
 
 Due grafici mostrano un riepilogo dei valori effettivi rispetto al budget e lo scostamento budget per periodo.
 
-![I grafici che mostrano un riepilogo dei valori effettivi rispetto al budget e lo scostamento budget per periodo](./media/cost-element-details-operations.png)
+![Grafici che mostrano un riepilogo dei valori effettivi rispetto al budget e lo scostamento budget per periodo.](./media/cost-element-details-operations.png)
 
 Gli utenti possono fare clic su **Voci di costo** per eseguire il drill-down dei dettagli della voce in base alle esigenze.
 
-![Voci di costo](./media/cost-entries.png)
+![Voci di costo.](./media/cost-entries.png)
 
 Ad esempio, il noleggio è una spesa che viene distribuita ai centri di costo. Un utente che desidera conoscere il costo del noleggio incluso nel proprio centro di costo può eseguire il drill-down per vedere come è stato calcolato il noleggio.
 
@@ -150,7 +148,7 @@ Se gli utenti fanno clic su **Base di allocazione** nella pagina **Voci di costo
 
 Nel seguente esempio, la base di allocazione è di tipo **Base di allocazione formula** e la formula viene visualizzata. I fattori che definiscono la formula sono elencati. Inoltre, una griglia visualizza il calcolo effettuato per oggetto di costo.
 
-![Calcoli per oggetto di costo](./media/cost-entries-allocation-base.png)
+![Calcoli per oggetto di costo.](./media/cost-entries-allocation-base.png)
 
 Risorse aggiuntive 
 

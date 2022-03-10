@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,24 +15,24 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edbfad387496cb3381c6298b9141129c6a878335
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: dbcf854330b7c5ba6ca812a5aed384584c05ce8d
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891843"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8062188"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Novità e modifiche in Dynamics 365 Human Resources (06 agosto 2020)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Human Resources. Le modifiche si applicano alla build 8.1.3444. I numeri tra parentesi in alcune intestazioni si riferiscono ai numeri del supporto in LCS per riferimento.
 
 ## <a name="platform-update-1001236-is-now-available"></a>L'aggiornamento 10.0.12(36) della piattaforma è ora disponibile
 
-Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations (agosto 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.12 delle app per finanza e operazioni (agosto 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>Entità Data Management Framework per la gestione di benefit
  

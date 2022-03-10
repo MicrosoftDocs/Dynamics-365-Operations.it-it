@@ -1,7 +1,7 @@
 ---
 title: Impostare codici motivo reso
 description: Impostare gruppi di codici motivo reso.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: baf48076b31b5b465234167e001bf58b6427dc86
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cc857f7c2e8bbcf396e6bd7eaa7478f12b26ac12
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835752"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573179"
 ---
 # <a name="set-up-return-reason-codes"></a>Impostare i codici motivo dei resi   
 

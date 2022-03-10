@@ -1,7 +1,7 @@
 ---
 title: Preparare un processo kanban quando non sono disponibili materiali per la cella di lavoro
 description: Questa procedura riguarda la preparazione del processo kanban di lavorazione quando alcuni materiali non sono disponibili per la cella di lavoro ed è pertanto necessario prelevarvi dal magazzino.
-author: ChristianRytt
+author: johanhoffmann
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72fd083edc48504b35f540ea7bdc8c8c736418f3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f75cdbc6ce6f7e427bf266c90428d73c065eac3
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828636"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7576738"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>Preparare un processo kanban quando non sono disponibili materiali per la cella di lavoro
 

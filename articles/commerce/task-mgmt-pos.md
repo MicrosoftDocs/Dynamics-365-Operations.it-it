@@ -2,11 +2,9 @@
 title: Gestione delle attività in POS
 description: Questo argomento descrive la gestione delle attività nelle applicazioni POS di Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 02/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478364"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772108"
 ---
 # <a name="task-management-in-pos"></a>Gestione delle attività in POS
 
@@ -46,11 +44,11 @@ Gli addetti al negozio possono eseguire le seguenti operazioni di attività nell
 
 La seguente illustrazione mostra la scheda **Attività personali** nell'applicazione POS di Commerce.
 
-![Scheda Attività personali nell'applicazione POS di Commerce](media/POS-task-management.png)
+![Scheda Attività personali nell'applicazione POS di Commerce.](media/POS-task-management.png)
 
 La figura di seguito mostra la scheda **Elenchi di attività**.
 
-![Scheda elenchi di attività nell'applicazione POS di Commerce](media/POS-task-lists-management.png)
+![Scheda elenchi di attività nell'applicazione POS di Commerce.](media/POS-task-lists-management.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

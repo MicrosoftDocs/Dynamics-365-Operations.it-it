@@ -2,11 +2,9 @@
 title: ID registrazione
 description: Questo argomento fornisce informazioni sull'impostazione e l'uso degli ID registrazione.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92dd1ac7e849f5ce7db4b4769b062701bb8f158
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236267"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782818"
 ---
 # <a name="registration-ids"></a>ID registrazione
 
@@ -57,7 +55,7 @@ La categoria di registrazione è l'identificatore di registrazione del paese/reg
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Immettere gli ID di registrazione per i record della Rubrica globale
 
-La Rubrica globale contiene informazioni consolidate sugli indirizzi di clienti, fornitori, contatti, relazioni commerciali e le persone giuridiche. Per ulteriori informazioni, vedere [Panoramica della rubrica globale](../../fin-and-ops/organization-administration/overview-global-address-book.md). I record delle parti che vengono archiviati nella rubrica globale possono contenere uno o più record di indirizzo. Gli indirizzi vengono utilizzati per scopi diversi, ad esempio la fatturazione o la consegna. È possibile impostare gli ID di registrazione per informazioni sull'indirizzo per clienti, fornitori, lavoratori e persone giuridiche. Individuare la parte (persona giuridica, fornitore, cliente, lavoratore) per cui si desidera immettere l'ID di registro e fare clic su **D registrazione** nei moduli correlati per la parte, la persona giuridica, il fornitore, il cliente, il lavoratore per aprire la pagina **Gestisci indirizzi** . Nella scheda **Registrazione fiscale** fare clic su  **Aggiungi** quindi immettere le seguenti informazioni sull'ID registrazione.
+La Rubrica globale contiene informazioni consolidate sugli indirizzi di clienti, fornitori, contatti, relazioni commerciali e le persone giuridiche. Per ulteriori informazioni, vedere [Panoramica della rubrica globale](../../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md). I record delle parti che vengono archiviati nella rubrica globale possono contenere uno o più record di indirizzo. Gli indirizzi vengono utilizzati per scopi diversi, ad esempio la fatturazione o la consegna. È possibile impostare gli ID di registrazione per informazioni sull'indirizzo per clienti, fornitori, lavoratori e persone giuridiche. Individuare la parte (persona giuridica, fornitore, cliente, lavoratore) per cui si desidera immettere l'ID di registro e fare clic su **D registrazione** nei moduli correlati per la parte, la persona giuridica, il fornitore, il cliente, il lavoratore per aprire la pagina **Gestisci indirizzi** . Nella scheda **Registrazione fiscale** fare clic su  **Aggiungi** quindi immettere le seguenti informazioni sull'ID registrazione.
 
 
 |Campo                |Descrizione                                                |

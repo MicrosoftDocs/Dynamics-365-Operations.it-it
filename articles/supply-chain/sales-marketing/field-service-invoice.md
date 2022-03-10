@@ -1,7 +1,7 @@
 ---
 title: Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Supply Chain Management
 description: Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le fatture di contratto in Dynamics 365 Field Service con le fatture a testo libero in Dynamics 365 Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/10/2018
 ms.topic: article
 ms.prod: ''
@@ -13,21 +13,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8fffa2bfc0bd7a1fa479c63f0f4d20b5c3ae37c93317a18a67202968b6acf405
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70f1c072c3a2a1b201aac1f1d2beea9979a3b792
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753917"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060766"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Questo argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare le fatture di contratto in Dynamics 365 Field Service con le fatture a testo libero in Dynamics 365 Supply Chain Management.
 

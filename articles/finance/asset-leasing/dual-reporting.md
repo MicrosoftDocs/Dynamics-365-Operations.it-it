@@ -2,13 +2,11 @@
 title: Doppio reporting
 description: In questo argomento viene illustrato un esempio che mostra come soddisfare i requisiti sia per la creazione di report International Financial Reporting Standard (IFRS) sia per il reporting statutario nel leasing di cespiti.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseBookMaster
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d6daa43178625316a40427728e7e4186691cc13c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 406fbb53fc4cd17a7c257b5f5463227118c9051f44d81db000fbe87dca142efe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767058"
 ---
 # <a name="dual-reporting"></a>Doppio reporting
 
@@ -49,7 +47,7 @@ Il libro IFRS 16 è configurato in modo da essere conforme al principio contabil
 | Configurazione valore corrente/valore equo cespite | 0,00           |
 | Soglia a breve termine                    | 12             |
 | Soglia valore basso                     | 5,000.00       |
-| Pagamento al fornitore                           | Nessuno             |
+| Pagamento al fornitore                           | No             |
 
 **Libro statutario**
 
@@ -66,7 +64,7 @@ Il libro statutario è un libro di cassa in cui la società contabilizzerà le s
 | Configurazione valore corrente/valore equo cespite | 0,00        |
 | Soglia a breve termine                    | 0           |
 | Soglia valore basso                     | 0           |
-| Pagamento al fornitore                           | Nessuno          |
+| Pagamento al fornitore                           | No          |
 
 **Libro storno statutario**
 
@@ -83,7 +81,7 @@ Il libro di storno statutario è configurato allo stesso modo del libro statutar
 | Configurazione valore corrente/valore equo cespite | 0,00                           |
 | Soglia a breve termine                    | 0                              |
 | Soglia valore basso                     | 0                              |
-| Pagamento al fornitore                           | Nessuno                             |
+| Pagamento al fornitore                           | No                             |
 
 Per questo esempio, è stato creato un contratto di leasing con le seguenti impostazioni nelle schede **Generale** e **Righe scadenzario pagamenti**.
 

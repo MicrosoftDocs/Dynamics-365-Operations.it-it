@@ -1,28 +1,27 @@
 ---
-title: Panoramica degli oggetti assistenza
-description: Gli oggetti assistenza sono i cespiti cliente e i prodotti per i quali è possibile prestare assistenza.
-author: ShylaThompson
+title: Panoramica oggetti di servizio
+description: In questo argomento viene fornita una panoramica di come utilizzare gli oggetti assistenza.
+author: kamaybac
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ded41bb49c9ce4f0ceb003d1d7537aa4b2023a60
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ad758d32c6e9de0758c6fddb57a7dea886ab73d4
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840487"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986437"
 ---
-# <a name="service-objects-overview"></a>Panoramica degli oggetti assistenza
+# <a name="service-objects-overview"></a>Panoramica oggetti di servizio
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +31,7 @@ Gli oggetti assistenza sono i cespiti cliente e i prodotti per i quali è possib
 
     Un oggetto assistenza tangibile può inoltre corrispondere a un articolo di tipo Assistenza creato nel modulo Dettagli prodotto rilasciato. A seconda del gruppo di dimensioni inventariali collegato all'articolo, è possibile creare un oggetto assistenza fino al di dettaglio che include il numero di serie dell'articolo. Questa funzionalità è utile nel caso in cui sia necessario tenere traccia dell'articolo esatto rappresentato dall'oggetto assistenza.
 
-    Un oggetto assistenza materiale può inoltre essere un articolo non direttamente correlato alla produzione o alla supply chain della società. Ad esempio, un kit di strumenti utilizzato per le riparazioni in un ordine di assistenza può essere un oggetto assistenza non incluso nel magazzino. In questo caso, non registrarlo come articolo di magazzino.
+    Un oggetto assistenza materiale può inoltre essere un articolo non direttamente correlato alla produzione o alla supply chain della società. Ad esempio, un kit di strumenti utilizzato per le riparazioni in un ordine di assistenza può essere un oggetto assistenza non incluso nel magazzino. In questo caso, non lo si registra come articolo di magazzino.
 
 -  Gli oggetti immateriali sono cose non fisiche, ad esempio un set di conti o un documento legale in cui è possibile eseguire un'attività di assistenza.
 

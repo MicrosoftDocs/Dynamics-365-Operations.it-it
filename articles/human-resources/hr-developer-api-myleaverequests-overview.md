@@ -3,26 +3,28 @@ title: Panoramica di MyLeaveRequests
 description: L'entità MyLeaveRequests in Microsoft Dynamics 365 Human Resources fornisce l'elenco delle richieste di congedo nel sistema, con ambito (limitato) alle richieste accessibili all'utente corrente che interroga l'entità.
 author: andreabichsel
 ms.date: 02/03/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 724c4c91e38bb8ac9fe1fd0794dc5a79b2435472
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 41ef8c6fc0e896e7f2cefd94801abab610083b81
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339741"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070857"
 ---
 # <a name="myleaverequests-overview"></a>Panoramica di MyLeaveRequests
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 

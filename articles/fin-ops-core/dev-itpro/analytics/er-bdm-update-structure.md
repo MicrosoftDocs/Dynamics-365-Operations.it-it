@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2f57e3f3a84a6e767755c69074bc194e90793e6edd79d0e07ae7449d45ec7539
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750486"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775288"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Aggiornare la struttura di un modello di documento aziendale 
 
@@ -58,7 +58,7 @@ Completare le seguenti procedure in [Panoramica di gestione dei documenti aziend
 
     Il nuovo modello viene aperto per la modifica nel controllo incorporato di Excel Online nella pagina dell'editor del modello.
 
-[![Utilizzo dell'area di lavoro di Gestione documenti aziendali per iniziare a modificare un modello di documento aziendale](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Utilizzo dell'area di lavoro di Gestione documenti aziendali per iniziare a modificare un modello di documento aziendale.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Rivedi la struttura corrente del modello modificabile
 
@@ -68,7 +68,7 @@ Completare le seguenti procedure in [Panoramica di gestione dei documenti aziend
 4. Nel riquadro **Struttura del modello**, espandere **Report \> Fattura \> rptHeader \> rptHeaderPart1**.
 5. Si noti che, nella struttura del modello in Finance, l'elemento **rptHeaderCompLogo** viene presentato come elemento secondario di **Report \> Fattura \> rptHeader \> rptHeaderPart1**.
 
-[![Utilizzo dell'area di lavoro Gestione documenti aziendali per rivedere la struttura corrente di un modello modificabile](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Utilizzo dell'area di lavoro Gestione documenti aziendali per rivedere la struttura corrente di un modello modificabile.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Aggiornare la struttura di un modello di documento aziendale eliminando un'immagine
 
@@ -85,7 +85,7 @@ Completare le seguenti procedure in [Panoramica di gestione dei documenti aziend
 4. Nel riquadro **Struttura del modello**, espandere **Report \> Fattura \> rptHeader \> rptHeaderPart1**.
 5. Si noti che l'elemento **rptHeaderCompLogo** non è più incluso nella struttura del modello in Finance.
 
-[![Utilizzo dell'area di lavoro di Gestione documenti aziendali per eliminare un'immagine da un modello di documento aziendale](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Utilizzo dell'area di lavoro di Gestione documenti aziendali per eliminare un'immagine da un modello di documento aziendale.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Aggiornare la struttura di un modello di documento aziendale aggiungendo un'immagine
 
@@ -97,7 +97,7 @@ Completare le seguenti procedure in [Panoramica di gestione dei documenti aziend
 6. Nel riquadro **Struttura del modello**, espandere **Report \> Fattura \> rptHeader \> rptHeaderPart1**.
 7. Si noti che la nuova immagine è ora inclusa come un elemento nella struttura del modello in Finance.
 
-[![Utilizzo dell'area di lavoro di Gestione documenti aziendali per aggiungere un'immagine a un modello di documento aziendale](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Utilizzo dell'area di lavoro di Gestione documenti aziendali per aggiungere un'immagine a un modello di documento aziendale.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Collegamenti correlati
 

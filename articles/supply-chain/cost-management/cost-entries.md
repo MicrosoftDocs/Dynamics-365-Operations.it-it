@@ -13,15 +13,15 @@ ms.custom: 19131
 ms.assetid: dd2663d8-bcc0-47b1-b36d-57433143487c
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48c37e4355bc3448930a7cfa73ce08ac8e439b97
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 53e2dd7375daf0d33ff61b870fecfdaa44dd0838
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839417"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575922"
 ---
 # <a name="cost-entries"></a>Voci di costo
 
@@ -62,8 +62,7 @@ La pagina **Voci di costo** abilita il filtro in base all'ID e alla data del doc
 > [!NOTE]
 > Le voci di costo sono disponibili solo per gli [oggetti di costo](cost-object.md) o i prodotti rilasciati.
 
-<a name="additional-resources"></a>Risorse aggiuntive
---------
+## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Oggetti di costo](cost-object.md)
 

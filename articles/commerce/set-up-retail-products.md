@@ -2,16 +2,13 @@
 title: Configurare prodotti di vendita al dettaglio
 description: Questo articolo descrive come impostare prodotti in Dynamics 365 Commerce.
 author: jblucher
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailProductAndCategoryWorkspace, EcoResProductDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 16181
 ms.assetid: b1b57734-1406-4ed6-8e28-21c705ee17e2
 ms.search.region: global
@@ -19,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b2c5a8976973203a943a2cec7658a2998c54f279
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14f18cb18a068983579d64fa37668be898fe0252fb0759603b7d0a14ec0e0181
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745260"
 ---
 # <a name="set-up-retail-products"></a>Configurare prodotti di vendita al dettaglio
 
@@ -40,3 +37,6 @@ Prima di poter offrire i prodotti in vendita nei canali di commercio, è necessa
 4. **Aggiunta di prodotti agli assortimenti.** Un assortimento rappresenta una raccolta di prodotti offerti nei canali. È possibile definire uno o più assortimenti e ogni prodotto può essere assegnato a uno o più assortimenti. Per assegnare prodotti a canali, si assegnano gli assortimenti a tali canali. Quando si crea un assortimento, è possibile aggiungere prodotti non sono ancora rilasciati a una persona giuridica. Tuttavia, è necessario rilasciare i prodotti a una persona giuridica prima che possano essere resi disponibili per i canali.
 5. **Aggiungere prodotti alle gerarchie di navigazione.** Prima che i prodotti possono essere esplorati online o nel POS, devono essere classificati in una gerarchia di navigazione di Commerce.
 6. **Aggiungere prodotti ai cataloghi.** Sebbene questo passaggio sia facoltativo per il POS, i punti vendita online richiedono che i prodotti siano inclusi in almeno un catalogo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

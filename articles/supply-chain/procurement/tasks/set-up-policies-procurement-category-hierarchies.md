@@ -1,26 +1,24 @@
 ---
 title: Impostare criteri per le gerarchie di categorie di approvvigionamento
 description: Utilizzare questa procedura per impostare le regole per ordinare prodotti in una categoria.
-author: RichardLuan
-manager: tfehr
+author: Henrikan
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: riluan
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 415262fa5e68544ea2a4ae2b6818b83c7efb2fad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee056d7c2a8bdc9bcd2f5a0f4b96a7bf69c8c862
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243993"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577098"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Impostare criteri per le gerarchie di categorie di approvvigionamento
 

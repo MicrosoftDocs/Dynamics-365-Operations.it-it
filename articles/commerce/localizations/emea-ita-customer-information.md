@@ -2,7 +2,7 @@
 title: Gestione delle informazioni del cliente per l'Italia
 description: In questo argomento viene descritto come gestire le informazioni relative al cliente nel POS per l'Italia.
 author: sepism
-ms.date: 01/14/2020
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8ef67d95d1df67ab354b2762f3b27c83adbb8fea833b54d29192f22852a31d78
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 240276c0f7a85f2b277b7317d0b3c4c1932df98e
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713406"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512599"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 
@@ -33,7 +33,7 @@ In questo argomento viene descritto come è possibile gestire le informazioni re
 È possibile specificare informazioni sul cliente, come il codice fiscale o il codice lotteria, quando si crea o si modifica un record di dati master del cliente nel POS. È inoltre possibile specificare il codice lotteria per una transazione di vendita copiandolo dal cliente della transazione o immettendolo manualmente. Il codice lotteria può quindi essere stampato sia sulle ricevute fiscali e su quelle normali ed essere utilizzato per la lotteria nazionale. I codici fiscali personali possono inoltre essere utilizzati per individuare un cliente in POS.
 
 > [!NOTE]
-> Questa funzionalità è disponibile nella versione 10.0.7 e successive.
+> Non è possibile specificare un codice lotteria per un cliente nel POS quando l'opzione **Crea cliente in modalità asincrona** è abilitata nel profilo di funzionalità POS. Il supporto per la modalità di creazione del cliente asincrono potrebbe essere aggiunto in futuri aggiornamenti.
 
 ## <a name="setup"></a>Attrezzaggio
 
@@ -63,7 +63,7 @@ Nella pagina **Griglie dei pulsanti**, selezionare la griglia dei pulsanti in cu
 
 Se le informazioni del cliente non sono specificate per una transazione di vendita, una richiesta per tali informazioni può essere attivata automaticamente dopo la finalizzazione della transazione. Questo approccio è un'alternativa all'operazione **Aggiungi informazioni cliente**.
 
-Per attivare la richiesta di informazioni cliente, impostare l'opzione **Abilita richiesta informazioni sul cliente nelle transazioni di vendita** su **Sì** nella sezione **Parametri imposte** della Scheda dettaglio **Funzioni** della pagina **Profili funzionalità POS**.
+Per attivare la richiesta di informazioni cliente, abilitare la funzionalità **(Italia) Gestione delle informazioni cliente in Retail POS** nell'area di lavoro **Gestione funzionalità** e impostare l'opzione **Abilita richiesta informazioni sul cliente nelle transazioni di vendita** su **Sì** nella sezione **Parametri fiscali** nella Scheda dettaglio **Funzioni** della pagina **Profili funzionalità POS**.
 
 ### <a name="set-up-receipt-formats"></a>Impostare formati di ricevuta
 

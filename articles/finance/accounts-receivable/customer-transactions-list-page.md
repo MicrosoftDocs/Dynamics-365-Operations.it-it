@@ -1,27 +1,24 @@
 ---
 title: Pagina elenco di transazioni cliente
 description: Questo argomento fornisce informazioni sulla pagina dell'elenco delle transazioni cliente per Microsoft Dynamics 365 Finance.
-author: mikefalkner
-manager: aolson
+author: abruer
 ms.date: 08/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 4339990d4e2fd89abde4da54b005b212cacff751
+ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4445003"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "7753876"
 ---
 # <a name="customer-transactions-list-page"></a>Pagina elenco di transazioni cliente
 
@@ -97,3 +94,6 @@ Ciascun campo ha un effetto diverso sulla transazione quando lo si modifica:
 - **Modifica termini di sconto di cassa:** vengono modificati gli sconti di cassa in base alla data di base e ai termini di sconto di cassa.
 
 Dopo avere modificato le impostazioni di pagamento, selezionare **Chiudi** per salvare le modifiche.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

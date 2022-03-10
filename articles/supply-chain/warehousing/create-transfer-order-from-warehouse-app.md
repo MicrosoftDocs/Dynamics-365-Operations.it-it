@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cbaeb120032bf2239fd9a5bce39fd7936229b308
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746821"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102940"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Creare ordini di trasferimento dall'app di magazzino
 
@@ -26,19 +26,14 @@ ms.locfileid: "6746821"
 
 Questa funzionalità consente agli addetti al magazzino di creare ed elaborare ordini di trasferimento direttamente nell'app per dispositivi mobili Gestione magazzino. Gli addetti iniziano selezionando il magazzino di destinazione e possono quindi eseguire la scansione di una o più targhe utilizzando l'app per aggiungere le targhe all'ordine di trasferimento. Quando l'addetto al magazzino seleziona **Completa ordine**, un processo batch creerà l'ordine di trasferimento richiesto e le righe dell'ordine in base alle scorte disponibili registrate per tali targhe.
 
-## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Abilitare la funzionalità Crea ordini di trasferimento nell'app di magazzino
+## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Attivare o disattivare questa funzionalità
 
 Prima di utilizzare questa funzionalità, devi abilitarla nel sistema insieme ai relativi prerequisiti. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla se necessario.
 
-1. Abilita prima la funzionalità [Elabora eventi dell'app di magazzino](warehouse-app-events.md), elencata in [ Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) come segue:
-    - **Modulo**: Gestione magazzino
-    - **Nome funzionalità**: Elabora eventi dell'app di magazzino
-1. Quindi abilita la funzionalità *Crea ordini di trasferimento nell'app di magazzino*, elencata come segue:
-    - **Modulo**: Gestione magazzino
-    - **Nome funzionalità** - Crea ed elabora ordini di trasferimento nell'app di magazzino
-1. Per automatizzare l'elaborazione delle spedizioni in uscita, devi abilitare anche la funzionalità [Conferma spedizioni in uscita in processi batch](confirm-outbound-shipments-from-batch-jobs.md). Questa funzionalità è elencata come segue:
-    - **Modulo**: Gestione magazzino
-    - **Nome funzionalità** - Conferma spedizioni in uscita in processi batch
+1. Abilitare le due seguenti funzionalità (nell'ordine) nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partire dalla versione 10.0.25 di Supply Chain Management, entrambe queste funzionalità sono attivate per impostazione predefinita.
+    1. *Elabora eventi dell'app magazzino*
+    1. *Crea ed elabora ordini di trasferimento dall'app magazzino*
+1. Per automatizzare l'elaborazione delle spedizioni in uscita, devi abilitare anche la funzionalità [Conferma spedizioni in uscita in processi batch](confirm-outbound-shipments-from-batch-jobs.md).
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Impostare una voce di menu di dispositivo mobile per creare ordini di trasferimento
 
