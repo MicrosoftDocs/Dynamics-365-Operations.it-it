@@ -1,30 +1,27 @@
 ---
 title: Impostare le maschere codice a barre
 description: In questo argomento viene descritto come impostare i caratteri di maschera codice a barre e come assegnare le maschere codice a barre ai codici a barre.
-author: rubencdelgado
-manager: AnnBe
+author: BrianShook
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 89b63843daaa714d9141fc362c3d6fcb6ca9a91e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddba3ef6c6a1fb1f71198291d5eccd44be737336
+ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413554"
+ms.lasthandoff: 11/09/2021
+ms.locfileid: "7779824"
 ---
 # <a name="set-up-bar-code-masks"></a>Impostare le maschere codice a barre
 
@@ -36,7 +33,7 @@ In questo argomento viene descritto come impostare i caratteri di maschera codic
 
 Le maschere codice a barre sono utilizzate per creare i codici a barre e identificare rapidamente i codici a barre sottoposti a scansione nel POS. Le maschere sono costituite da caratteri con la funzione di segnaposto che indicano il formato per i codici a barre che verranno creati. Per configurare una maschera codice a barre, è necessario impostare i caratteri di maschera codice a barre. Andare a **Retail e Commerce** &gt; **Gestione inventario** &gt; **Codici a barre ed etichette** &gt; **Caratteri maschera**. Fare clic su **Nuovo** per creare nuovi caratteri di maschera codice a barre. I caratteri di maschera possono essere creati per indicare i seguenti dati di codice a barre.
 
-| Campo            | descrizione |
+| Campo            | Descrizione |
 |------------------|-------------|
 | Prodotto          | Segnaposto per ID prodotto. |
 | Qualsiasi numero       | Utilizzato specificare un numero che verrà hardcoded in codici a barre. |
@@ -83,3 +80,6 @@ Le maschere codice a barre devono essere assegnate ai codici a barre prima di po
 5. Fare clic su **Salva**.
 
 La maschera codice a barre può ora essere utilizzata per creare codici a barre per prodotti. I passaggi precedenti sono esempi che illustrano come creare maschere codice a barre per prodotti, ma descrivono anche come creare maschere codice a barre per qualsiasi altro tipo di codice a barre supportato. Le maschere, i tipi e le lunghezze dei codici a barre devono essere modificati in base all'utilizzo nell'ambiente specifico.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

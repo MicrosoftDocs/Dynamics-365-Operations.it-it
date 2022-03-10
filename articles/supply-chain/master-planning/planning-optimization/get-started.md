@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
+ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103595"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7902561"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione della pianificazione
 
@@ -40,7 +40,7 @@ Prima di attivare l'ottimizzazione di pianificazione, si consiglia vivamente di 
 
 ## <a name="availability"></a>Disponibilità
 
-L'ottimizzazione di pianificazione è attualmente disponibile nelle seguenti aree geografiche di Azure: Stati Uniti, Canada, Europa, Regno Unito, Australia e Asia Pacifico. Se si tenta di installare il componente aggiuntivo da un'altra area geografica, LCS mostrerà un messaggio che indica che l'area geografica non è supportata.
+L'ottimizzazione di pianificazione è attualmente disponibile nelle seguenti aree geografiche di Azure: Stati Uniti, Canada, Europa, Regno Unito, Australia, Asia Pacifico, Giappone e India. Se si tenta di installare il componente aggiuntivo da un'altra area geografica, LCS mostrerà un messaggio che indica che l'area geografica non è supportata. Per ulteriori informazioni sulle aree geografiche di Azure e sulle aree correlate, vedi [Aree geografiche di Azure](https://azure.microsoft.com/global-infrastructure/geographies/#geographies).
 
 L'ottimizzazione di pianificazione non supporta le distribuzioni locali Dynamics 365 Supply Chain Management.
 
@@ -98,10 +98,10 @@ Lo stato della connessione indica lo stato corrente della connessione tra Supply
 | Stato connessione | Descrizione | Può l'ottimizzazione di pianificazione essere utilizzata? |
 |---|---|---|
 | Connesso | È stata stabilita una connessione tra il servizio di ottimizzazione di pianificazione e Supply Chain Management. | Sì |
-| Abilitazione connessione | È attualmente in corso una richiesta di attivazione della connessione al servizio di ottimizzazione di pianificazione. | Nessuno |
-| Disconnesso | Non esiste alcuna connessione al servizio di ottimizzazione di pianificazione. La connessione può essere attivata da LCS, come descritto in precedenza in questo argomento. | Nessuno |
-| Disabilitazione della connessione | È attualmente in corso una richiesta di disattivazione della connessione al servizio di ottimizzazione di pianificazione. | Nessuno |
-| Recupero stato | Il sistema è in attesa delle informazioni sullo stato dal servizio di ottimizzazione di pianificazione. | Nessuno |
+| Abilitazione connessione | È attualmente in corso una richiesta di attivazione della connessione al servizio di ottimizzazione di pianificazione. | No |
+| Disconnesso | Non esiste alcuna connessione al servizio di ottimizzazione di pianificazione. La connessione può essere attivata da LCS, come descritto in precedenza in questo argomento. | No |
+| Disabilitazione della connessione | È attualmente in corso una richiesta di disattivazione della connessione al servizio di ottimizzazione di pianificazione. | No |
+| Recupero stato | Il sistema è in attesa delle informazioni sullo stato dal servizio di ottimizzazione di pianificazione. | No |
 
 ### <a name="the-use-planning-optimization-option"></a>L'opzione Usa ottimizzazione di progettazione
 
@@ -109,6 +109,8 @@ L'impostazione dell'opzione **Usa ottimizzazione di pianificazione** determina i
 
 - **Sì** - L'ottimizzazione di pianificazione viene utilizzata per la pianificazione generale.
 - **No** - Il motore di pianificazione incorporato Supply Chain Management viene utilizzato per la pianificazione generale.
+
+Questa impostazione si applica a tutte le persone giuridiche (società). Non è possibile utilizzare Ottimizzazione pianificazione in alcune persone giuridiche e la pianificazione generale incorporata in altre persone giuridiche.
 
 > [!NOTE]
 > Se vengono attivati processi batch di pianificazione esistenti creati per il motore di pianificazione integrato Supply Chain Management mentre l'opzione **Usa ottimizzazione di pianificazione** è impostata su **Sì**, i processi verranno completati.

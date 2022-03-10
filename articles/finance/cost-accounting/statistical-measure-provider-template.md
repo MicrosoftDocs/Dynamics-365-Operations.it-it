@@ -1,17 +1,14 @@
 ---
-title: Membri di dimensione statistica e modelli provider misure statistiche
+title: Modelli di fornitori per membri di dimensioni statistiche e provider misure
 description: Questo argomento fornisce informazioni sui membri di dimensione statistica e i modelli provider misure statistiche. I membri di dimensione statistica possono essere utilizzati come base di allocazione nei criteri quali la distribuzione dei costi e l'allocazione dei costi. Possono essere utilizzati anche per dichiarare il consumo dei costi non monetari.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec8ec7bc7785b1ddec58b78bd14ce164ad1ce032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4444893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767649"
 ---
-# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membri di dimensione statistica e modelli provider misure statistiche
+# <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Modelli di fornitori per membri di dimensioni statistiche e provider misure
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,7 +61,7 @@ Un membro di dimensione statistica diventa automaticamente una base di allocazio
 
 Di seguito sono riportati alcuni esempi di membri di dimensione statistica tipici.
 
-| Nome dimensione statistica  | Elementi statistici | descrizione             | Unità |
+| Nome dimensione statistica  | Elementi statistici | Descrizione             | Unità |
 |-----------------------------|----------------------|-------------------------|------|
 | Elementi statistici condivisi | FTE                  | Dipendenti a tempo pieno     | Cadauno  |
 | Elementi statistici condivisi | Elettricità          | Consumo di elettricità | kWh  |
@@ -94,7 +91,7 @@ La tabella HcmEmployment contiene un elenco di tutti i dipendenti nell'istanza. 
 
 Di seguito è riportato un esempio di dipendenti inclusi nella tabella HcmEmployment.
 
-| Nome       | Centro di costo | descrizione   | Tipo di lavoratore |
+| Nome       | Centro di costo | Descrizione   | Tipo di lavoratore |
 |------------|-------------|----|-------------|
 | Dipendente 1 | CC001       | Risorse umane | Dipendente    |
 | Dipendente 2 | CC002       | FI | Dipendente    |
@@ -155,7 +152,7 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 **Scritture contabili trasferimenti voci statistiche**
 
-| Data di registrazione | Grandezza | Elemento statistico |   descrizione       | Centro di costo |
+| Data di registrazione | Grandezza | Elemento statistico |   Descrizione       | Centro di costo |
 |-----------------|-----------|---------------------|---------------------|-------------|
 | 31-01-2017      | 1,00      | FTE                | Dipendenti a tempo pieno | CC001       |
 | 31-01-2017      | 2.00      | FTE                | Dipendenti a tempo pieno | CC002       |
@@ -163,7 +160,7 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 **Voci statistiche**
 
-| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |  descrizione        | Grandezza |
+| Oggetto di costo |  descrizione  | Data di registrazione | Membro di dimensione statistica |  descrizione        | Grandezza |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | Risorse umane | 31-01-2017      | FTE                         | Dipendenti a tempo pieno | 1,00      |
 | CC002       | FI | 31-01-2017      | FTE                         | Dipendenti a tempo pieno | 2.00      |
@@ -171,7 +168,7 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 Se la base di allocazione del membro di dimensione predefinito dei dipendenti a tempo pieno è assegnata come base di allocazione in una regola di distribuzione costi, il costo verrà distribuito utilizzando il seguente fattore di allocazione.
 
-| Oggetto di costo | descrizione    | Grandezza | Fattore di allocazione |
+| Oggetto di costo | Descrizione    | Grandezza | Fattore di allocazione |
 |-------------|----|-----------|-------------------|
 | CC001       | Risorse umane | 1,00      | (1/5) × Importo    |
 | CC002       | FI | 2.00      | (2/5) × Importo    |
@@ -245,14 +242,14 @@ Dopo l'elaborazione dei dati di origine della misura statistica, le seguenti voc
 
 **Scritture contabili trasferimenti voci statistiche**
 
-| Data di registrazione | Grandezza | Elemento statistico |  descrizione          | Gruppo di prodotti         |
+| Data di registrazione | Grandezza | Elemento statistico |  Descrizione          | Gruppo di prodotti         |
 |-----------------|-----------|---------------------|-----------------------|-----------------------|
 | 31-01-2017      | 16,00     | CC di imballaggio             | Centro di costo per l'imballaggio | Orange juice B2B      |
 | 31-01-2017      | 8,00      | CC di imballaggio             | Centro di costo per l'imballaggio | Orange juice Consumer |
 
 **Voci statistiche**
 
-| Oggetto di costo           | Data di registrazione | Membro di dimensione statistica |    descrizione        | Grandezza |
+| Oggetto di costo           | Data di registrazione | Membro di dimensione statistica |    Descrizione        | Grandezza |
 |-----------------------|-----------------|------------------------------|-----------------------|-----------|
 | Orange juice B2B      | 31-01-2017      | CC di imballaggio                      | Centro di costo per l'imballaggio | 16,00     |
 | Orange juice Consumer | 31-01-2017      | CC di imballaggio                      | Centro di costo per l'imballaggio | 8,00      |
@@ -321,7 +318,7 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 **Scritture contabili trasferimenti voci statistiche**
 
-| Data di registrazione | Grandezza  | Elemento di costo |   descrizione           | Centro di costo |
+| Data di registrazione | Grandezza  | Elemento di costo |   Descrizione           | Centro di costo |
 |-----------------|------------|--------------|-------------------------|-------------|
 | 31-01-2017      | 2,450.00   | Elettricità  | Consumo di elettricità | CC001       |
 | 31-01-2017      | 4,100.00   | Elettricità  | Consumo di elettricità | CC002       |
@@ -329,7 +326,7 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 **Voci statistiche**
 
-| Oggetto di costo |    | Data di registrazione | Membro di dimensione statistica |      descrizione                   | Grandezza  |
+| Oggetto di costo | descrizione | Data di registrazione | Membro di dimensione statistica |      descrizione                   | Grandezza  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | Risorse umane | 31-01-2017      | Elettricità                  | Consumo di elettricità | 2,450.00   |
 | CC002       | FI | 31-01-2017      | Elettricità                  | Consumo di elettricità | 4,100.00   |
@@ -337,12 +334,15 @@ Passare a **Movimento CoGe di contabilità industriale** \> **Versione effettiva
 
 Se la base di allocazione del membro di dimensione predefinito di Elettricità è assegnata come base di allocazione in una regola di distribuzione costi, il costo verrà distribuito utilizzando il seguente fattore di allocazione.
 
-| Oggetto di costo |    | Grandezza | Fattore di allocazione          |
-|-------------|----|-----------|----------------------------|
-| CC001       | Risorse umane | 2,450.00  | (2,450 ÷ 21,550) × Importo  |
-| CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × Importo  |
-| CC003       | TS | 15.000,00 | (15,000 ÷ 21,550) × Importo |
+| Oggetto di costo | descrizione   | Grandezza | Fattore di allocazione          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | Risorse umane            | 2,450.00  | (2,450 ÷ 21,550) × Importo  |
+| CC002       | FI            | 4,100.00  | (4,100 ÷ 21,550) × Importo  |
+| CC003       | TS            | 15.000,00 | (15,000 ÷ 21,550) × Importo |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Basi di allocazione](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

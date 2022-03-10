@@ -1,27 +1,28 @@
 ---
-title: Panoramica delle risorse umane
-description: Risorse umane consente di semplificare molte attività di routine di gestione dei record e automatizzare diversi processi relativi al personale dell'organizzazione. Fornisce inoltre una struttura per il personale delle risorse umane per gestire le aree di supervisione. Queste aree prevedono la selezione e l'assunzione di dipendenti, l'amministrazione di benefit, la formazione, la valutazione delle prestazioni e la gestione delle modifiche.
+title: Panoramica Human Resources
+description: Human resources semplifica le attività di conservazione dei record di routine, automatizza i processi relativi al personale dell'organizzazione, nonché fornisce una struttura per il personale per le risorse umane (HR) per gestire le aree di supervisione.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.custom: 20931
+ms.custom:
+- "20931"
+- intro-internal
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9cd7ce1268dd1aeae142e85fdd3ea2d9faa0a659
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566700"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7983131"
 ---
-# <a name="human-resources-overview"></a>Panoramica delle risorse umane
+# <a name="human-resources-overview"></a>Panoramica Human Resources
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,38 +44,38 @@ Risorse umane consente di semplificare molte attività di routine di gestione de
 
 Quando si utilizza Risorse umane, è necessario strutturare l'organizzazione utilizzando gli elementi, ad esempio reparti, mansioni e posizioni. Questi sono tra gli elementi fondamentali che si configurano in Risorse umane. I singoli dipendenti vengono assegnati alle posizioni che sono associate alle mansioni.
 
-- [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](../../../talent/departments-jobs-positions.md)
-- [Impostare i parametri di Risorse umane (HR) specifici della società](../../../talent/set-up-company-specific-hr-parameters.md)
-- [Impostare i parametri di Risorse umane per le persone giuridiche](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Organizzare la forza lavoro utilizzando i reparti, le mansioni e le posizioni](../../../human-resources/hr-personnel-departments-jobs-positions.md)
+- [Impostare i parametri di Risorse umane (HR) specifici della società](../../../human-resources/hr-setup-parameters.md)
+- [Impostare i parametri di Human resources per le persone giuridiche](../../../human-resources/hr-setup-shared-parameters.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Selezionare, assumere e motivare i dipendenti
 
 I progetti di selezione consentono di gestire il contenuto degli annunci di offerte di lavoro e le domande di lavoro per le posizioni aperte. È possibile utilizzarli per tenere traccia delle risposte agli annunci di lavoro per un progetto di selezione specifico, o candidati specifici, e aggiornare lo stato delle posizioni aperte. È possibile anche assumere singoli candidati o gestire "progetti di assunzione collettiva" che facilitano l'assunzione di più lavoratori, ad esempio, per soddisfare le esigenze aziendali stagionali.
 
 - [Gestire processi di selezione](manage-recruiting-process.md)
-- [Progetti di assunzione collettiva](mass-hire-projects.md) 
+- [Progetti di assunzione collettiva](../../../human-resources/hr-personnel-mass-hire-projects.md) 
 
 Una volta assunto il personale, è possibile impostare i piani per gestire in modo efficace ed equo le retribuzioni, nonché gestire gli elementi quali computer o cellulari che l'organizzazione affida ai propri dipendenti. È possibile creare piani di retribuzione fissa e variabile, nonché definire regole da applicare al piano di retribuzione per soddisfare i criteri del piano.
 
-- [Piani di retribuzione](../../../talent/compensation-plans.md)
-- [Creare i piani di retribuzione fissa](../../../talent/create-fixed-compensation-plans.md)
-- [Creare i piani di retribuzione variabile](../../../talent/create-variable-compensation-plans.md)
+- [Piani di retribuzione](../../../human-resources/hr-compensation-overview.md)
+- [Creare i piani di retribuzione fissa](../../../human-resources/hr-compensation-fixed-plans.md)
+- [Creare i piani di retribuzione variabile](../../../human-resources/hr-compensation-variable-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Gestire lo sviluppo e la formazione dei dipendenti
 
 Per consentire ai dipendenti di raggiungere gli obiettivi di avanzamento professionale mentre soddisfano le esigenze aziendali critiche è possibile impostare gli obiettivi, creare le revisioni delle prestazioni e tenere traccia del riscontro Per permettere ai dipendenti di sviluppare le competenze necessarie è inoltre possibile impostare gli istruttori, i tipi di corso, i corsi, le descrizioni dei corsi, le agende, le tracce e le sessioni prima di assegnare un istruttore a un corso o iscrivere qualcuno a un corso. I docenti, come i lavoratori, i candidati o i contatti, devono già essere presenti.
 
-- [Gestione delle prestazioni](../../../talent/performance-management-overview.md)
-- [Allineare le competenze della forza lavoro alle esigenze aziendali](../../../talent/skills.md)
-- [Impostare i corsi di formazione](../../../talent/courses.md)
+- [Gestione delle prestazioni](../../../human-resources/hr-develop-performance-management-overview.md)
+- [Allineare le competenze della forza lavoro alle esigenze aziendali](../../../human-resources/hr-develop-skills.md)
+- [Impostare i corsi di formazione](../../../human-resources/hr-learning-courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Creare e gestire benefit
 
 Oltre a remunerare il personale con salari, stipendi e premi, è possibile sviluppare programmi di benefit, ad esempio piani pensionistici e di assicurazione sanitaria. È inoltre possibile gestire i benefit come programmi di prestito, in cui la società presta elementi, quali computer o cellulari, ai propri dipendenti.
 
-- [Definire e gestire un programma di benefit](../../../talent/manage-benefit-program.md)
-- [Criteri di idoneità benefit](../../../talent/benefit-eligibility-policies.md)
-- [Gestire gli articoli affidati ai lavoratori](../../../talent/loan-items.md)
+- [Definire e gestire un programma di benefit](../../../human-resources/hr-benefits-management-overview.md)
+- [Criteri di idoneità benefit](../../../human-resources/hr-benefits-eligibility-policies.md)
+- [Gestire gli articoli affidati ai lavoratori](../../../human-resources/hr-personnel-loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Mantenere la conformità e la sicurezza sul posto di lavoro
 
@@ -88,10 +89,10 @@ Microsoft Dynamics AX consente di mantenere un ambiente di lavoro sicuro e confo
 
 È possibile progettare e amministrare questionari per raccogliere le informazioni utilizzate per vari scopi. La funzionalità Gestione questionari consente di progettare e creare questionari. Quando un questionario è pronto, lo si distribuisce su larga scala o a un gruppo specifico di intervistati per il completamento. Dopo che gli intervistati forniscono le risposte, è possibile rivedere e analizzare i risultati.
 
-- [Questionari](../../../talent/questionnaires.md)
-- [Progettare questionari](../../../talent/design-questionnaires.md)
-- [Distribuire e programmare questionari](../../../talent/distribute-questionnaires.md)
-- [Visualizzare e valutare i risultati dei questionari](../../../talent/evaluate-questionnaire-results.md)
+- [Questionari](../../../human-resources/hr-learning-questionnaires.md)
+- [Progettare questionari](../../../human-resources/hr-learning-design-questionnaires.md)
+- [Distribuire e programmare questionari](../../../human-resources/hr-learning-distribute-questionnaires.md)
+- [Visualizzare e valutare i risultati dei questionari](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

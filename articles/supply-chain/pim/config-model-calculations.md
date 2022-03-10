@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-18
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eaf6264f060d33575740ad38e7a65158baba296b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 349fed3ca75b94db2f421a1ff3c3553c96c202c37d59857a3d973f3de8f995ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829620"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755253"
 ---
 # <a name="product-configuration-model-calculations"></a>Calcoli per il modello di configurazione prodotto
 
@@ -70,7 +70,7 @@ Questo esempio utilizza l'attributo di testo `textFixedList` come attributo di d
 
 Lo screenshot seguente mostra come potrebbero apparire le impostazioni per questo attributo nel sistema.
 
-![Impostazioni del tipo di attributo per l'esempio 2](media/model-calculations-example2.png "Impostazioni del tipo di attributo per l'esempio 2")
+![Impostazioni del tipo di attributo per l'esempio 2.](media/model-calculations-example2.png "Impostazioni del tipo di attributo per l'esempio 2")
 
 L'attributo viene utilizzato nella seguente istruzione condizionale:
 
@@ -92,7 +92,7 @@ Questo esempio utilizza l'attributo di destinazione `textFixedList` dell'esempio
 
 Lo screenshot seguente mostra come potrebbero apparire le impostazioni per questo attributo nel sistema.
 
-![Impostazioni del tipo di attributo per l'esempio 3](media/model-calculations-example3.png "Impostazioni del tipo di attributo per l'esempio 3")
+![Impostazioni del tipo di attributo per l'esempio 3.](media/model-calculations-example3.png "Impostazioni del tipo di attributo per l'esempio 3")
 
 Il valore per l'attributo `textFixedList` viene calcolato utilizzando la seguente istruzione condizionale:
 

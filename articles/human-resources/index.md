@@ -1,8 +1,8 @@
 ---
-title: Benvenuto/a in Dynamics 365 Human Resources
+title: Home page di Human Resources
 description: Dynamics 365 Human Resources fornisce informazioni dettagliate sulla forza lavoro necessarie per creare esperienze dei dipendenti basate su dati in più aree.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,78 +14,48 @@ ms.custom:
 - intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b294cbc8d73858aeb6ab358cad608c78c911b0a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8674c228a1e624a79ae210dc6ad5c0f80741570f
+ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339693"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8075048"
 ---
-# <a name="welcome-to-dynamics-365-human-resources"></a>Benvenuto/a in Dynamics 365 Human Resources
+# <a name="human-resources-home-page"></a>Home page di Human Resources
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Human Resources fornisce informazioni dettagliate sulla forza lavoro necessarie per creare esperienze dei dipendenti basate su dati in più aree, tra cui:
 
-- Retribuzione
-- Benefit
-- Congedo e assenza
-- Conformità
-- Integrazione delle retribuzioni
-- Feedback sulle prestazioni
-- Formazione e certificazione
-- Programmi self-service
+Questo argomento fornisce un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Dynamics 365 Human Resources. 
+
+Selezionare l'area di una funzionalità per ulteriori informazioni.
+
+- [Self-service dipendenti](hr-employee-manager-self-service-overview.md)
+- [Gestione dipendente](hr-personnel-departments-jobs-positions.md)
+- [Gestione attività](hr-task-mgmt.md)
+- [Congedo e assenza](hr-leave-and-absence-overview.md)
+- [Benefit](hr-benefits-manage-program.md)
+- [Gestione benefit](hr-benefits-management-overview.md)
+- [Gestione retribuzioni](hr-compensation-overview.md)
+- [Sviluppo del dipendente](hr-develop-performance-management-overview.md)
+- [Apprendimento](hr-learning-courses.md)
+- [Sistema del flusso di lavoro]( ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json)
 
 Human Resources connette le persone e i dati sulle operazioni per consentire alle aziende di ottimizzare i costi della forza lavoro e prendersi cura dei propri dipendenti.
 
-## <a name="whats-new"></a>Novità
+## <a name="dynamics-365-finance"></a>Dynamics 365 Finance
 
-[Novità o modifiche in Human Resources](hr-admin-whats-new.md)
+Per informazioni su Dynamics 365 Finance, vedi la [home page di Finance](../finance/index.md).
 
-## <a name="administrator-guide"></a>Guida per l'amministratore
+## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica](hr-admin-overview.md)</br>
-[Requisiti di sistema](hr-admin-system-requirements.md)</br>
-[Impostare e gestire le istanze](hr-admin-setup-provision.md)</br>
-[Impostare l'integrazione dei dati](hr-admin-integration-choose-technology.md)</br>
-[Configurare la gestione dei dati](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Gestire le funzionalità](hr-admin-manage-features.md)</br>
-[Esplorare l'interfaccia utente](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-[App Human Resources in Teams](hr-admin-teams-leave-app.md)</br>
-[Prepararsi per la fase operativa](hr-admin-go-live-prepare.md)</br>
-[Domande frequenti fase operativa](hr-admin-go-live-faq.md)</br>
-[Risorse di documentazione](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Risolvere i problemi relativi a Human Resources](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
+### <a name="elearning-courses"></a>Corsi eLearning
+Per corsi online e formazione, vedere [Dynamics 365 Human Resources su Microsoft Learn](/learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
-## <a name="developer-guide"></a>Guida per gli sviluppatori
+### <a name="videos"></a>Video
 
-[Panoramica](hr-developer-overview.md)</br>
-[Estendere con Power Apps e Power Automate](hr-developer-power-apps.md)</br>
-[Entità di Human Resources in Dataverse](hr-developer-entities.md)</br>
-[Campi personalizzati](hr-developer-custom-fields.md)</br>
-[Tabelle Dataverse](hr-developer-entities.md)</br>
-[Impostare l'integrazione dei dati](hr-admin-integration-choose-technology.md)</br>
-[Risolvere i problemi di sviluppo con le tabelle virtuali di Dataverse](hr-developer-optimize-virtual-table-queries.md)</br>
-[Riferimento all'API dell'entità](hr-developer-api-authentication.md)</br>
-[API di integrazione ATS](hr-admin-integration-ats-api-introduction.md)</br>
-[API di integrazione retribuzioni](hr-admin-integration-payroll-api-introduction.md)
-
-## <a name="user-guide"></a>Manuale dell'utente
-
-[Panoramica](hr-hrpro-overview.md)</br>
-[Esplorare l'interfaccia utente](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Impostare Human Resources](hr-setup-parameters.md)</br>
-[Configurare le impostazioni dell'organizzazione](../fin-ops-core/fin-ops/organization-administration/organization-administration-home-page.md?toc=/dynamics365/human-resources/toc.json)</br>
-[Gestire il personale](hr-personnel-departments-jobs-positions.md)</br>
-[Configurare piani di retribuzione](hr-compensation-overview.md)</br>
-[Gestione dei benefit](hr-benefits-management-overview.md)</br>
-[Gestire i congedi e le assenze](hr-leave-and-absence-overview.md)</br>
-[Gestire le richieste di congedo in Teams](hr-teams-leave-app.md)</br>
-[Sviluppare i dipendenti](hr-develop-performance-management-overview.md)</br>
-[Crea corsi](hr-learning-courses.md)</br>
-[Configurare il dipendente self-service e il responsabile self-service](hr-employee-manager-self-service-overview.md)
+Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

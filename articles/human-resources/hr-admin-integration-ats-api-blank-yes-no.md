@@ -7,21 +7,23 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 220fc7b49086e1dadb80ea8d0dd9bfcbe2fda1eb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2e0547c071f730a89f4d94a83690954caca07211
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795095"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8068711"
 ---
 # <a name="blank-yes-no"></a>Vuoto Sì No
+
+
+[!INCLUDE [PEAP](../includes/peap-1.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -35,7 +37,7 @@ Questa enumerazione fornisce un set di opzioni per le proprietà sì/no che cons
 | --- | --- | --- |
 | 200000000 | Vuoto | Non è stato selezionato alcun valore. |
 | 200000001 | Sì | Sì. |
-| 200000002 | Nessuno | N. |
+| 200000002 | No | N. |
 
 ## <a name="see-also"></a>Vedere anche
 

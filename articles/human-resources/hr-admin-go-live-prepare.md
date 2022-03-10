@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ff7d689129a4015b6085685f4b19ae61bdd549d2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795143"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8066395"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Preparare per passare alla fase operativa di Human Resources
 
@@ -29,11 +28,14 @@ ms.locfileid: "5795143"
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 Questo argomento descrive come prepararsi per la fase operativa con un progetto Dynamics 365 Human Resources utilizzando Microsoft Dynamics Lifecycle Services (LCS). 
 
 Questo grafico mostra le fasi del processo per la fase operativa. 
 
-![Processo per la fase operativa](./media/hr-admin-go-live-prepare-process.png)
+![Processo per la fase operativa.](./media/hr-admin-go-live-prepare-process.png)
 
 La tabella seguente elenca tutti i passaggi del processo, la durata prevista e chi è responsabile dell'azione.
 
@@ -43,7 +45,7 @@ La tabella seguente elenca tutti i passaggi del processo, la durata prevista e c
 | 2 | Completare e inviare la lista di controllo | Dopo il completamento del test di accettazione dell'utente (UAT) | Partner/Cliente | Seguire le istruzioni fornite in [Valutazione della fase operativa di FastTrack](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Valutazione del progetto (FastTrack) | Architetto FastTrack* | L'architetto fornisce la valutazione dopo aver ricevuto la lista di controllo e continua la revisione fino a quando le domande non vengono chiarite e le attenuazioni sono in atto, se applicabile. |
 | 4 | Workshop di progetto (FastTrack) | Architetto FastTrack* | |
-| 5 | Importazioni del pacchetto di dati | Dipende dal progetto | Partner/Cliente | Seguire le istruzioni in [Panoramica della gestione dei dati](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Importazioni del pacchetto di dati | Dipende dal progetto | Partner/Cliente | Seguire le istruzioni in [Panoramica della gestione dei dati](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Pronto per la produzione | Dopo che tutti i passaggi precedenti sono stati completati | Partner/Cliente | Il partner/cliente può assumere il controllo dell'ambiente di produzione.|
 | 7 | Attività cutover | Dipende dal progetto | Partner/Cliente | |
 | 8 | Fase operativa | Dipende dal progetto | Cliente | |
@@ -66,7 +68,7 @@ Durante la fase UAT, è necessario testare tutti i processi aziendali implementa
 
 - Si consiglia di avviare il processo UAT con un ambiente pulito e aggiornato in cui i dati della configurazione GOLD vengono copiati nell'ambiente prima dell'inizio del processo UAT. Si consiglia di utilizzare l'ambiente di produzione come ambiente GOLD fino alla fase operativa, momento in cui l'ambiente diventa di produzione.
 - I test case coprono l'intero ambito dei requisiti. 
-- Eseguire il test utilizzando i dati migrati. Questi dati devono includere dati master come lavoratori, mansioni e posizioni. Includere anche i saldi di apertura, come i ratei per congedi e assenze. Infine, includere le transazioni aperte, come le attuali iscrizioni ai benefit. Completare il test con tutti i tipi di dati, anche se il set di dati non è finalizzato. 
+- Eseguire il test utilizzando i dati migrati. Questi dati devono includere dati come lavoratori, mansioni e posizioni. Includere anche i saldi di apertura, come i ratei per congedi e assenze. Infine, includere le transazioni aperte, come le attuali iscrizioni ai benefit. Completare il test con tutti i tipi di dati, anche se il set di dati non è finalizzato. 
 - Eseguire il test utilizzando i ruoli di sicurezza corretti (ruoli predefiniti e ruoli personalizzati) assegnati agli utenti. 
 - Assicurarsi che la soluzione sia conforme a tutti i requisiti normativi specifici dell'azienda e del settore. 
 - Documentare tutte le funzionalità e ottenere l'approvazione dal cliente. 
@@ -86,7 +88,7 @@ Prima della fase operativa, è necessario eseguire la relativa simulazione per t
 
 ## <a name="fasttrack-go-live-assessment"></a>Valutazione della fase operativa FastTrack
 
-I clienti che sono idonei per FastTrack e sono impegnati con un FastTrack Solution Architect completeranno una revisione della fase operativa con Microsoft FastTrack. Per ulteriori informazioni, vedere  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+I clienti che sono idonei per FastTrack e sono impegnati con un FastTrack Solution Architect completeranno una revisione della fase operativa con Microsoft FastTrack. Per ulteriori informazioni, vedere  [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 Circa otto settimane prima della fase operativa, il team FastTrack chiederà di compilare un [elenco di controllo per la fase operativa](https://go.microsoft.com/fwlink/?linkid=2146013).
 

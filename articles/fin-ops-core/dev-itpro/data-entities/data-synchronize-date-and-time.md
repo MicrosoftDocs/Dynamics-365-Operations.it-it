@@ -1,7 +1,7 @@
 ---
 title: Sincronizzare la data e l'ora nei processi di importazione
 description: Utilizza i fusi orari UTC nei processi di importazione per evitare problemi con le conversioni di fuso orario.
-author: Sunil-Garg
+author: peakerbl
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41c0ec805a20a525989e0133e5dffb29ce3fed39
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c76eadc5839785ba1624ee3894ef1d0872369aa9
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748671"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403843"
 ---
 # <a name="synchronize-date-and-time-in-import-jobs"></a>Sincronizzare la data e l'ora nei processi di importazione
 
@@ -33,7 +33,7 @@ Questa doppia conversione fa sì che le date cambino tra le applicazioni. Ad ese
 
 3. In **Formato data di origine**, seleziona **CSV-Unicode**.
 
-   [![Modificare il formato della data di origine in UTC](./media/data-source-date-format.png)](./media/data-source-date-format.png)
+   [![Modificare il formato della data di origine in UTC.](./media/data-source-date-format.png)](./media/data-source-date-format.png)
 
 4. Modificare **Fuso orario** in **Fuso orario UTC** e cambiare **Lingua** in **En-US**.
 

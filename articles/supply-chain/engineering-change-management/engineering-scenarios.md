@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91b19598075871dcfaed3ad9978aa8fe8181aa6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836664"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573995"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
 
@@ -57,7 +57,7 @@ Un'organizzazione di progettazione possiede i dati di progettazione ed è respon
     - **Organizzazione di progettazione:** *DEMF*
     - **Nome organizzazione:** *Contoso Entertainment System Germany*
 
-    ![Aggiunta di un'organizzazione di progettazione](media/engineering-org.png "Aggiunta di un'organizzazione di progettazione")
+    ![Aggiunta di un'organizzazione di progettazione.](media/engineering-org.png "Aggiunta di un'organizzazione di progettazione")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>Impostare il gruppo di dimensioni prodotto della versione
 
@@ -67,7 +67,7 @@ Un'organizzazione di progettazione possiede i dati di progettazione ed è respon
 1. Selezionare **Salva** per salvare la nuova dimensione e caricare i valori nella Scheda dettaglio **Dimensioni prodotto**.
 1. Nella Scheda dettaglio **Dimensioni prodotto** impostare **Versione** come dimensione prodotto attiva.
 
-    ![Aggiunta di un gruppo di dimensioni prodotto](media/product-dimension-groups.png "Aggiunta di un gruppo di dimensioni prodotto")
+    ![Aggiunta di un gruppo di dimensioni prodotto.](media/product-dimension-groups.png "Aggiunta di un gruppo di dimensioni prodotto")
 
 ### <a name="set-up-product-lifecycle-states"></a>Impostare gli stati del ciclo di vita prodotto
 
@@ -82,7 +82,7 @@ Mentre un prodotto di progettazione attraversa il suo ciclo di vita, è importan
 1. Selezionare **Salva** per salvare lo stato del ciclo di vita prodotto e caricare i valori nella Scheda dettaglio **Processi aziendali abilitati**.
 1. Nella Scheda dettaglio **Processi aziendali abilitati** selezionare i processi aziendali che devono essere disponibili. Per questo esempio, lasciare il campo **Criteri** impostato su *Abilitato* per tutti i processi aziendali.
 
-    ![Abilitazione dei processi aziendali per uno stato del ciclo di vita](media/product-lifecycle-states-1.png "Abilitazione dei processi aziendali per uno stato del ciclo di vita")
+    ![Abilitazione dei processi aziendali per uno stato del ciclo di vita.](media/product-lifecycle-states-1.png "Abilitazione dei processi aziendali per uno stato del ciclo di vita")
 
 1. Selezionare **Nuovo** per aggiungere un altro stato del ciclo di vita e quindi impostare i seguenti valori:
 
@@ -92,7 +92,7 @@ Mentre un prodotto di progettazione attraversa il suo ciclo di vita, è importan
 1. Selezionare **Salva** per salvare lo stato del ciclo di vita prodotto e caricare i valori nella Scheda dettaglio **Processi aziendali abilitati**.
 1. Nella Scheda dettaglio **Processi aziendali abilitati** selezionare i processi aziendali che devono essere disponibili. Per questo esempio, impostare il campo **Criteri** su *Abilitato con avviso* per tutti i processi aziendali.
 
-    ![Abilitazione (con avvisi) dei processi aziendali per uno stato del ciclo di vita](media/product-lifecycle-states-2.png "Abilitazione (con avvisi) dei processi aziendali per uno stato del ciclo di vita")
+    ![Abilitazione (con avvisi) dei processi aziendali per uno stato del ciclo di vita.](media/product-lifecycle-states-2.png "Abilitazione (con avvisi) dei processi aziendali per uno stato del ciclo di vita")
 
 ### <a name="set-up-a-version-number-rule"></a>Imposta una regola per il numero di versione
 
@@ -103,7 +103,7 @@ Mentre un prodotto di progettazione attraversa il suo ciclo di vita, è importan
     - **Regola numero:** *Automatico*
     - **Formato:** *V-\#\#*
 
-    ![Aggiunta di una regola per il numero di versione del prodotto](media/version-number-rule.png "Aggiunta di una regola per il numero di versione del prodotto")
+    ![Aggiunta di una regola per il numero di versione del prodotto.](media/version-number-rule.png "Aggiunta di una regola per il numero di versione del prodotto")
 
 ### <a name="set-up-a-product-release-policy"></a>Impostare i criteri di rilascio del prodotto
 
@@ -135,7 +135,7 @@ Mentre un prodotto di progettazione attraversa il suo ciclo di vita, è importan
     - **Copia approvazione ciclo di lavorazione:** selezionare questa casella di controllo.
     - **Copia attivazione ciclo di lavorazione:** selezionare questa casella di controllo.
 
-    ![Aggiunta di criteri di rilascio del prodotto](media/product-release-policy.png "Aggiunta di criteri di rilascio del prodotto")
+    ![Aggiunta di criteri di rilascio del prodotto.](media/product-release-policy.png "Aggiunta di criteri di rilascio del prodotto")
 
 ### <a name="set-up-an-engineering-product-category"></a>Impostare una categoria di prodotti di progettazione 
 
@@ -160,7 +160,7 @@ Le categorie di prodotti di progettazione forniscono la base per la creazione di
 1. Nella Scheda dettaglio **Criteri di rilascio** impostare il campo **Criteri di rilascio prodotto** su *Componenti*.
 1. Selezionare **Salva**.
 
-    ![Aggiunta di una categoria di prodotti di progettazione](media/product-category-details.png "Aggiunta di una categoria di prodotti di progettazione")
+    ![Aggiunta di una categoria di prodotti di progettazione.](media/product-category-details.png "Aggiunta di una categoria di prodotti di progettazione")
 
 ### <a name="set-up-product-acceptance-conditions"></a>Impostare le condizioni di accettazione del prodotto
 
@@ -168,7 +168,7 @@ Le categorie di prodotti di progettazione forniscono la base per la creazione di
 1. Andare a **Gestione modifiche di progettazione &gt; Imposta &gt; Parametri per gestione modifiche di progettazione**.
 1. Nella scheda **Controllo rilascio**, nella sezione **Accettazione del prodotto** impostare il campo **Accettazione del prodotto** su *Manuale*.
 
-    ![Impostazione delle condizioni di accettazione del prodotto](media/engineering-change-management-parameters.png "Impostazione delle condizioni di accettazione del prodotto")
+    ![Impostazione delle condizioni di accettazione del prodotto.](media/engineering-change-management-parameters.png "Impostazione delle condizioni di accettazione del prodotto")
 
 ## <a name="create-a-new-engineering-product"></a>Creare un nuovo prodotto di progettazione
 
@@ -187,23 +187,23 @@ Un prodotto di progettazione è un prodotto con versione e controllato tramite l
     - **Numero prodotto:** *Z0001*
     - **Nome prodotto:** *Set altoparlanti*
 
-    ![Aggiunta di un prodotto di progettazione](media/new-product-dialog.png "Aggiunta di un prodotto di progettazione")
+    ![Aggiunta di un prodotto di progettazione.](media/new-product-dialog.png "Aggiunta di un prodotto di progettazione")
 
     Si noti che il campo **Versione** viene impostato automaticamente utilizzando la regola del numero di versione del prodotto impostata in precedenza.
 
 1. Selezionare **OK** per creare il prodotto e chiudere la finestra di dialogo.
 1. Viene visualizzata la pagina dei dettagli del nuovo prodotto. Si noti che i valori sono già stati inseriti per alcuni campi, ad esempio **Gruppo di dimensioni di immagazzinamento**, **Gruppo di dimensioni di tracciabilità** e/o **Gruppo di modelli di articoli**. Questi campi sono stati impostati automaticamente perché il prodotto viene rilasciato nella persona giuridica *DEMF* e utilizza i criteri di rilascio prodotto *Componenti* associati alla categoria di prodotti di progettazione *Componenti*. Poiché l'articolo *D0006* è stato utilizzato in precedenza con un modello per impostare una riga per la persona giuridica *DEMF*, i valori inseriti sono stati presi dall'articolo *D0006*.
 
-    ![Dettagli prodotto rilasciato](media/product-details.png "Dettagli prodotto rilasciato")
+    ![Dettagli prodotto rilasciato.](media/product-details.png "Dettagli prodotto rilasciato")
 
 1. Nel riquadro azioni, nella scheda **Progetta**, nel gruppo **Gestione modifiche di progettazione** selezionare **Versioni di progettazione** per visualizzare le versioni del prodotto.
 
-    ![Versioni di progettazione](media/engineering-versions-list.png "Versioni di progettazione")
+    ![Versioni di progettazione.](media/engineering-versions-list.png "Versioni di progettazione")
 
 1. Nella pagina **Versioni di progettazione** si noti che è presente una sola versione per il prodotto e che è attiva.
 1. Selezionare la versione per visualizzarne i dettagli.
 
-    ![Dettagli della versione di progettazione](media/engineering-version-details.png "Dettagli della versione di progettazione")
+    ![Dettagli della versione di progettazione.](media/engineering-version-details.png "Dettagli della versione di progettazione")
 
 1. Nella pagina **Versione di progettazione**, nella Scheda dettaglio **Distinta base** selezionare **Crea DBA**.
 1. Nella finestra di dialogo **Crea DBA** impostare i valori seguenti:
@@ -212,25 +212,25 @@ Un prodotto di progettazione è un prodotto con versione e controllato tramite l
     - **Nome:** Set altoparlanti
     - **Sito:** 1
 
-    ![Creazione di una DBA](media/create-bom.png "Creazione di una DBA")
+    ![Creazione di una DBA.](media/create-bom.png "Creazione di una DBA")
 
 1. Selezionare **OK** per aggiungere la DBA e chiudere la finestra di dialogo.
 1. Nella Scheda dettaglio **Distinte base** selezionare **Distinta base**.
 1. Nella pagina **Distinte base**, nella Scheda dettaglio **Righe distinte base** aggiungere tre righe, una per ogni numero di articolo *D0001*, *D0003* e *D0006*.
 
-    ![Aggiunta di righe DBA](media/bom.png "Aggiunta di righe DBA")
+    ![Aggiunta di righe DBA.](media/bom.png "Aggiunta di righe DBA")
 
 1. Selezionare **Salva**.
 1. Chiudere la pagina.
 1. Nella pagina **Versione di progettazione**, nella Scheda dettaglio **Distinta base** selezionare **Approva**.
 1. Nella finestra di dialogo visualizzata, selezionare **OK**.
 
-    ![Approvazione della DBA](media/approve-dialog.png "Approvazione della DBA")
+    ![Approvazione della DBA.](media/approve-dialog.png "Approvazione della DBA")
 
 1. Nella pagina **Versione di progettazione**, nella Scheda dettaglio **Distinta base** selezionare **Attiva**.
 1. Si noti che le caselle di controllo **Attiva** e **Approvata** sono selezionate per la DBA.
 
-    ![DBA attiva e approvata](media/approved-bom.png "DBA attiva e approvata")
+    ![DBA attiva e approvata.](media/approved-bom.png "DBA attiva e approvata")
 
 1. Chiudere la pagina.
 
@@ -244,25 +244,25 @@ Il prodotto è ora stato progettato dal reparto tecnico. Per questo esempio, il 
 1. Nella scheda **Prodotto** del riquadro azioni, nel gruppo **Gestisci** selezionare **Struttura prodotto di rilascio** per aprire la procedura guidata **Rilascia prodotti**.
 1. Nella pagina **Seleziona i prodotti di progettazione da rilasciare** selezionare la casella di controllo **Seleziona** per il prodotto *Z0001*.
 
-    ![Selezione dei prodotti di progettazione da rilasciare](media/select-eng-product-to-release.png "Selezione dei prodotti di progettazione da rilasciare")
+    ![Selezione dei prodotti di progettazione da rilasciare.](media/select-eng-product-to-release.png "Selezione dei prodotti di progettazione da rilasciare")
 
 1. Selezionare **Dettagli sul rilascio**.
 1. Viene visualizzata la pagina **Dettagli rilascio prodotto** in cui è possibile esaminare i dettagli del prodotto che verrà rilasciato e la sua struttura. Si noti che l'opzione **Invia DBA** è impostata su *Sì*. Pertanto, sia il prodotto *Z0001* e tutti i relativi articoli figlio della DBA verranno rilasciati.
 
     È possibile selezionare qualsiasi elemento figlio nel riquadro sinistro per rivederne i dettagli. Se a un articolo figlio è associata una DBA, è anche possibile scegliere di rilasciare la DBA di tale articolo.
 
-    ![Revisione dei dettagli di rilascio del prodotto](media/product-release-details.png "Revisione dei dettagli di rilascio del prodotto")
+    ![Revisione dei dettagli di rilascio del prodotto.](media/product-release-details.png "Revisione dei dettagli di rilascio del prodotto")
 
 1. Chiudere la pagina per tornare alla procedura guidata **Rilascia prodotti**.
 1. Selezionare **Avanti** per aprire la pagina **Seleziona prodotti da rilasciare**. Eventuali prodotti standard (non di progettazione) selezionati verrebbero visualizzati in questa pagina. Si noti che quando si rilascia un prodotto standard selezionando **Struttura prodotto di rilascio**, vengono rilasciati anche il ciclo di lavorazione e la DBA relativi.
 
-    ![Selezione dei prodotti standard da rilasciare](media/select-std-product-to-release.png "Selezione dei prodotti standard da rilasciare")
+    ![Selezione dei prodotti standard da rilasciare.](media/select-std-product-to-release.png "Selezione dei prodotti standard da rilasciare")
 
 1. Selezionare **Avanti** per aprire la pagina **Seleziona varianti prodotto da rilasciare**. Per questo esempio non sono presenti varianti.
 1. Selezionare **Avanti** per aprire la pagina **Seleziona società**.
 1. Selezionare le società a cui il prodotto deve essere rilasciato. Per questo esempio, selezionare la casella di controllo per **USMF**.
 
-    ![Selezione delle aziende a cui eseguire il rilascio](media/select-release-companies.png "Selezione delle società a cui eseguire il rilascio")
+    ![Selezione delle aziende a cui eseguire il rilascio.](media/select-release-companies.png "Selezione delle società a cui eseguire il rilascio")
 
 1. Selezionare **Avanti** per aprire la pagina **Conferma selezione**.
 1. Selezionare **Fine**.
@@ -280,7 +280,7 @@ Per esaminare il prodotto e rilasciarlo nella società *USMF*, eseguire queste o
 
     Nella pagina **Rilasci di prodotto aperti** viene visualizzato il prodotto *Z0001*, con stato *In attesa di accettazione*.
 
-    ![Rilasci di prodotti aperti](media/open-product-releases.png "Rilasci di prodotti aperti")
+    ![Rilasci di prodotti aperti.](media/open-product-releases.png "Rilasci di prodotti aperti")
 
 1. Selezionare il valore nella colonna **Numero prodotto** per aprire la pagina **Dettagli rilascio prodotto**. Si notino i seguenti dettagli:
 
@@ -288,7 +288,7 @@ Per esaminare il prodotto e rilasciarlo nella società *USMF*, eseguire queste o
     - Nella Scheda dettaglio **Dettagli sul rilascio** vengono visualizzate le informazioni sul prodotto e sulla versione rilasciata. Qui è possibile modificare le impostazioni, ad esempio le date di validità.
     - La Scheda dettaglio **Ciclo di lavorazione** mostra il ciclo di lavorazione del prodotto. Tuttavia, per questo esempio, non è stato rilasciato alcun ciclo di lavorazione.
 
-    ![Dettagli rilascio del prodotto](media/product-release-details-2.png "Dettagli rilascio del prodotto")
+    ![Dettagli rilascio del prodotto.](media/product-release-details-2.png "Dettagli rilascio del prodotto")
 
 1. Dopo aver esaminato le informazioni, è possibile accettare il prodotto e, in questo modo, rilasciarlo nella società *USMF*. Nel riquadro azioni selezionare **Azioni &gt; Accetta**.
 1. Il prodotto è stato rilasciato nella società *USMF*. Fare clic su **Gestione informazioni sul prodotto &gt; Prodotti &gt; Prodotti rilasciati**. Viene visualizzato l'articolo *Z0001*.
@@ -304,7 +304,7 @@ Il responsabile dei dati master per la società *USMF* desidera assicurarsi che 
 1. Nel riquadro azioni, nella scheda **Prodotto**, nel gruppo **Stato del ciclo di vita** selezionare **Modifica stato del ciclo di vita**.
 1. Nella finestra di dialogo a discesa **Modifica stato del ciclo di vita** impostare il campo **Stato** su *Prototipo*, quindi selezionare **OK**.
 
-    ![Modifica dello stato del ciclo di vita](media/change-lifecycle-state.png "Modifica dello stato del ciclo di vita")
+    ![Modifica dello stato del ciclo di vita.](media/change-lifecycle-state.png "Modifica dello stato del ciclo di vita")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>Aggiungere un prodotto di progettazione a un ordine cliente
 
@@ -318,7 +318,7 @@ Il prodotto può ora essere venduto a un cliente. Per aggiungere il prodotto a u
 
     Viene visualizzato un messaggio di avviso che informa che l'articolo ha uno stato uguale a *Prototipo*. Tuttavia, poiché il messaggio è solo un avviso, l'ordine cliente è stato comunque creato.
 
-    ![Ordine cliente per un prodotto di progettazione](media/sales-order-eng-product.png "Ordine cliente per un prodotto di progettazione")
+    ![Ordine cliente per un prodotto di progettazione.](media/sales-order-eng-product.png "Ordine cliente per un prodotto di progettazione")
 
 ## <a name="request-changes-in-the-engineering-product"></a>Richiedere modifiche nel prodotto di progettazione
 
@@ -328,7 +328,7 @@ Il prodotto è stato inviato a un cliente, ma il cliente non era completamente s
 1. Trovare e aprire l'ordine cliente creato nell'esercizio precedente.
 1. Nella Scheda dettaglio **Righe ordine cliente** selezionare **Gestione modifiche di progettazione &gt; Nuova richiesta modifica di progettazione**.
 
-    ![Creazione di una richiesta di modifica di progettazione per un ordine cliente](media/sales-order-eng-change-request.png "Creazione di una richiesta di modifica di progettazione per un ordine cliente")
+    ![Creazione di una richiesta di modifica di progettazione per un ordine cliente.](media/sales-order-eng-change-request.png "Creazione di una richiesta di modifica di progettazione per un ordine cliente")
 
 1. Compilare la richiesta di modifica di progettazione, in base al feedback del cliente. Per questo esempio, impostare i seguenti valori:
 
@@ -341,7 +341,7 @@ Il prodotto è stato inviato a un cliente, ma il cliente non era completamente s
 1. Nella Scheda dettaglio **Informazioni** selezionare **Nuovo &gt; Nota** per aggiungere una nota alla griglia.
 1. Nel campo **Descrizione** per la nuova nota, indicare che l'articolo *D0003* deve essere eliminato dalla DBA. Se è necessario aggiungere ulteriori informazioni per la nota, è possibile inserire testo nel campo **Note**.
 
-    ![Richiesta di modifica di progettazione](media/eng-change-request.png "Richiesta di modifica di progettazione")
+    ![Richiesta di modifica di progettazione.](media/eng-change-request.png "Richiesta di modifica di progettazione")
 
 1. Nel riquadro azioni selezionare **Salva**.
 1. Si noti che l'articolo è stato aggiunto automaticamente alla Scheda dettaglio **Prodotti** e che l'origine della richiesta di modifica di progettazione (l'ordine cliente) è stata aggiunta alla Scheda dettaglio **Origine**.
@@ -370,26 +370,26 @@ Il tecnico ora esamina la richiesta del cliente e crea un ordine di modifica per
     - **Prodotto:** *Z0001*
     - **Impatto:** *Nuova versione*
 
-    ![Creazione di un ordine di modifica di progettazione](media/eng-change-order.png "Creazione di un ordine di modifica di progettazione")
+    ![Creazione di un ordine di modifica di progettazione.](media/eng-change-order.png "Creazione di un ordine di modifica di progettazione")
 
 1. Si noti che, poiché il campo **Impatto** è stato impostato su *Nuova versione*, il campo **Nuova versione** nella scheda **Dettagli** della Scheda dettaglio **Dettagli prodotto** mostra il numero della nuova versione (in questo esempio *V-02*).
 
-    ![Dettagli prodotto per un ordine di modifica di progettazione](media/eng-change-order-product-details.png "Dettagli prodotto per un ordine di modifica di progettazione")
+    ![Dettagli prodotto per un ordine di modifica di progettazione.](media/eng-change-order-product-details.png "Dettagli prodotto per un ordine di modifica di progettazione")
 
 1. Nel riquadro azioni selezionare **Salva**.
 1. Nella Scheda dettaglio **Dettagli prodotto**, nella scheda **Distinta base**, selezionare **Righe** per aprire la DBA per la versione *V-01* del prodotto *Z0001*.
 
-    ![Righe DBA per prodotti di progettazione](media/eng-product-bom-lines.png "Righe DBA per prodotti di progettazione")
+    ![Righe DBA per prodotti di progettazione.](media/eng-product-bom-lines.png "Righe DBA per prodotti di progettazione")
 
 1. Selezionare la riga per il numero di articolo *D0003* e quindi, nel riquadro azioni, selezionare **Elimina**. Il valore del campo **Tipo di modifica** per la riga viene modificato in *Eliminato*.
 1. Nel riquadro azioni selezionare **Salva**.
 
-    ![Righe DBA per prodotti di progettazione modificate](media/eng-product-bom-lines-modified.png "Righe DBA per prodotti di progettazione modificate")
+    ![Righe DBA per prodotti di progettazione modificate.](media/eng-product-bom-lines-modified.png "Righe DBA per prodotti di progettazione modificate")
 
 1. Chiudere la pagina **Riga DBA** per tornare alla pagina **Ordine di modifica di progettazione**.
 1. Nella Scheda dettaglio **Dettagli prodotto**, nella scheda **Distinta base** si noti che il valore del campo **Tipo di modifica** per la DBA *Z0001* è ora *Modificato*.
 
-    ![Ordine di modifica di progettazione che include una DBA modificata](media/eng-change-order-changed-bom.png "Ordine di modifica di progettazione che include una DBA modificata")
+    ![Ordine di modifica di progettazione che include una DBA modificata.](media/eng-change-order-changed-bom.png "Ordine di modifica di progettazione che include una DBA modificata")
 
     L'ordine ora deve essere approvato prima che le modifiche possano essere elaborate. Quando le modifiche vengono elaborate, i prodotti vengono aggiornati con le modifiche incluse nell'ordine di modifica di progettazione. Per questo esempio, la persona che crea l'ordine di modifica di progettazione è stata specificata come approvatore.
 

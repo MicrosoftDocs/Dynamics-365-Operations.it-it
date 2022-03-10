@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dee16f9d6f8ea583f221a7f6eb466675c8c622d0
+ms.sourcegitcommit: 9638d3a2bd592dc28f5952bda4af7dcf06edfaa4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018687"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8007609"
 ---
 # <a name="engineering-change-management-faq"></a>Gestione modifiche di progettazione - Domande frequenti
 
@@ -46,7 +46,7 @@ Questa opzione è molto più semplice da gestire, perché se si desidera passare
 
 La maggior parte delle organizzazioni sceglie questa opzione perché fornisce la gestione delle versioni e delle modifiche, ma non aggiunge il sovraccarico aggiuntivo di tenere traccia della versione in ogni transazione, nell'inventario e durante la pianificazione generale.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>Quali campi vengono copiati nel modello di articolo rilasciato?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>Quali campi vengono copiati dal modello di articolo rilasciato?
 
 Quando una società di progettazione crea un prodotto di progettazione, quel prodotto viene creato come prodotto rilasciato nella società di progettazione. Il prodotto rilasciato che viene creato è basato sul *modello di articolo rilasciato* selezionato. (Il modello di articolo rilasciato è esso stesso un prodotto rilasciato esistente.) Il modello di articolo rilasciato viene utilizzato anche quando il prodotto viene rilasciato a una società operativa. In ogni caso, il modello di articolo rilasciato definisce la maggior parte dei valori di campo per il prodotto rilasciato e tali valori provengono dalla pagina **Dettagli prodotto rilasciato** associata.
 
@@ -63,6 +63,11 @@ Le seguenti tabelle mostrano i campi che vengono copiati durante questi processi
 | **Varianti prodotto** | Tutti i campi nella sezione **Variante prodotto predefinita** | Gli stessi campi che vengono copiati per la società di progettazione |
 
 Oltre ai campi mostrati nella tabella precedente, tutte le impostazioni dell'ordine predefinite vengono copiate dal modello di articolo rilasciato, sia quando il prodotto viene creato nella società di progettazione sia quando viene rilasciato a una società operativa. (Per visualizzare le impostazioni dell'ordine predefinite per un modello di articolo rilasciato, aprire la pagina **Dettagli prodotto rilasciato** pertinente, quindi, nel riquadro azioni, nella scheda **Gestione articoli**, selezionare **Impostazioni ordine predefinite**.)
+
+> [!NOTE]
+>
+> - L'unità è predefinita dal modello.
+> - Per i rivenditori che utilizzano la funzionalità Dynamics 365 Commerce, quando si assegna una categoria di vendita al dettaglio a un prodotto, la categoria di vendita al dettaglio applica i valori predefiniti per molti dei campi per il livello di prodotto rilasciato. Questi valori predefiniti sovrascrivono i valori predefiniti che potrebbero essere già stati impostati dal modello o copiati dalla progettazione.
 
 ## <a name="should-i-create-a-separate-legal-entity-for-engineering-products-or-use-an-existing-legal-entity"></a>Devo creare una persona giuridica separata per i prodotti di progettazione o utilizzare una persona giuridica esistente?
 

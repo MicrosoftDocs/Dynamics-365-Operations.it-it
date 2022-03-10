@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3d60265df7ff1f447e20866b8b8a447d88db8cc4b3dccedebc0f18ce8f0f70dc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746322"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>L'imposta è registrata nel conto CoGe sbagliato nel giustificativo
 
@@ -30,26 +30,26 @@ Durante la registrazione, l'importa potrebbe essere registrata nel conto CoGe sb
 
 1. Nella pagina **Transazioni giustificativo** selezionare la transazione con cui si desidera lavorare, quindi selezionare **IVA registrata**.
 
-    [![Pulsante IVA registrata nella pagina Transazioni giustificativo](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![Pulsante IVA registrata nella pagina Transazioni giustificativo.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. Nel campo **Codice IVA** rivedere il valore. In questo esempio, è **IVA 19**.
 
-    [![Campo Codice IVA nella pagina IVA registrata](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![Campo Codice IVA nella pagina IVA registrata.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Controllare il gruppo di registrazione contabile del codice imposta
 
 1. Vai a **Imposta** \> **Imposte indirette** \> **IVA** \> **Codici IVA**.
 2. Trova e seleziona il codice imposta, quindi controlla il valore nel campo **Gruppo registrazione contabile**. In questo esempio, è **IVA**.
 
-    [![Campo Gruppo registrazione contabile nella pagina dei codici IVA](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![Campo Gruppo registrazione contabile nella pagina dei codici IVA.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. Il valore nel campo **Gruppo registrazione contabile** è un collegamento. Per visualizzare i dettagli della configurazione del gruppo, selezionare il collegamento. In alternativa, seleziona e tieni premuto (o fai clic con il pulsante destro del mouse) il campo, quindi seleziona **Visualizza dettagli**.
 
-    [![Comando Visualizza dettagli](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![Comando Visualizza dettagli.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. Nel campo **IVA a debito** verificare che il numero di conto sia corretto, in base al tipo di transazione. In caso contrario, seleziona il conto corretto in cui registrare. In questo esempio, l'IVA dell'ordine fornitore deve essere registrata nel conto IVA a debito 222200.
 
-    [![Il campo IVA a debito nella pagina dei gruppi di registrazione contabile](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![Il campo IVA a debito nella pagina dei gruppi di registrazione contabile.](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     La tabella seguente fornisce informazioni su ogni campo nella pagina **Gruppi registrazione contabile**.
 
@@ -71,11 +71,11 @@ Nel codice, il conto di registrazione è determinato dalla dimensione contabile.
 
 1. Per un ordine cliente, aggiungere un punto di interruzione nei metodi **Tax::saveAndPost()** e **Tax::post()**. Presta attenzione al valore di **\_ledgerDimension**.
 
-    [![Esempio di codice di ordine cliente con un punto di interruzione](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![Esempio di codice di ordine cliente con un punto di interruzione.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     Per un ordine fornitore, aggiungere un punto di interruzione ai metodi **TaxPost::saveAndPost()** e **TaxPost::postToTaxTrans()**. Presta attenzione al valore di **\_ledgerDimension**.
 
-    [![Esempio di codice di ordine fornitore con un punto di interruzione](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![Esempio di codice di ordine fornitore con un punto di interruzione.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. Eseguire la seguente query SQL per trovare il valore visualizzato del conto nel database, in base all'ID record salvato dalla dimensione contabile.
 
@@ -83,7 +83,7 @@ Nel codice, il conto di registrazione è determinato dalla dimensione contabile.
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![Valore visualizzato dell'ID record](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![Valore visualizzato dell'ID record.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. Esamina il callstack per trovare dove il valore **_ledgerDimension** viene assegnato. Di solito, il valore proviene da **TmpTaxWorkTrans**. In questo caso, dovresti aggiungere un punto di interruzione in **TmpTaxWorkTrans::insert()** e **TmpTaxWorkTrans::update()** per trovare dove il valore assegnato.
 

@@ -2,7 +2,6 @@
 title: Creare una gerarchia organizzativa
 description: Per creare una gerarchia organizzativa, attenersi alla seguente procedura.
 author: sericks007
-manager: AnnBe
 ms.date: 12/15/2020
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d61d6eee3b55087d633a8416fbed3a6192e82b2
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0623f4e97514246c3fb04e7bfbfe1254e8e08847566282f9a28aa526c806aa47
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758971"
 ---
 # <a name="create-an-organization-hierarchy"></a>Creare una gerarchia organizzativa
 

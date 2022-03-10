@@ -1,7 +1,7 @@
 ---
 title: Elaborazione giornale di registrazione generale
 description: Questo argomento descrive le funzionalità di Microsoft Dynamics 365 Finance che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e che il controllo interno non sia compromesso.
-author: ShylaThompson
+author: kweekley
 ms.date: 08/09/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
-ms.author: peakerbl
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352860"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726779"
 ---
 # <a name="general-journal-processing"></a>Elaborazione giornale di registrazione generale
 

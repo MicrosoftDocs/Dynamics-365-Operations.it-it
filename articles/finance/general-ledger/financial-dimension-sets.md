@@ -2,7 +2,6 @@
 title: Set di dimensioni finanziarie
 description: In questo argomento vengono descritti set di dimensioni finanziarie e vengono forniti alcuni suggerimenti per ottimizzarne l'utilizzo.
 author: yukonpeegs
-manager: AnnBe
 ms.date: 03/23/2021
 ms.topic: article
 ems.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b719d8eb868cb1722b470be4443d01181078ce21
-ms.sourcegitcommit: 97ada5d52ed1829dcf030dad254096cd8df25da8
+ms.openlocfilehash: 415a41100cc5be740f064d52598cd256c0aa2ae1d45473c8039bdc6e22381b3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5864414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739980"
 ---
 # <a name="financial-dimension-sets"></a>Set di dimensioni finanziarie
 

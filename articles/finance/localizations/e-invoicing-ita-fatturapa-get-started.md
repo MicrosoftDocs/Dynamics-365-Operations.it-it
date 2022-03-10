@@ -2,7 +2,7 @@
 title: Configurare l'integrazione diretta di FatturaPA italiana con SDI
 description: Questo argomento fornisce informazioni che ti aiuteranno a iniziare con la fatturazione elettronica per l'Italia e impostare l'integrazione diretta di FatturaPA italiana con il sistema di Exchange (SDI).
 author: abaryshnikov
-ms.date: 12/14/2021
+ms.date: 01/15/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,18 +10,16 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 0ccc9f04e42e748b4531622a1c90559d4ca17196
-ms.sourcegitcommit: b1c758ec4abfcf3bf9e50f18c1102d4a9c1316d0
+ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "7922451"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7984805"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Configurare l'integrazione diretta di FatturaPA italiana con SDI
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > La fatturazione elettronica per l'Italia potrebbe attualmente non supportare tutte le funzioni disponibili per le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.

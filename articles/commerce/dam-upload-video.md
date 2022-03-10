@@ -2,11 +2,9 @@
 title: Caricare i video
 description: In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d74e7116d68074bfc917784a8f51f85d5682c5d6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213844"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735632"
 ---
 # <a name="upload-videos"></a>Caricare i video
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 La libreria multimediale Creazione di siti Web Commerce consente di caricare i video. È sempre necessario caricare la versione di un video con il bitrate e la risoluzione più alti, perché il video verrà automaticamente convertito per essere adatto a diversi riquadri di visualizzazione e ai punti di interruzione.
 
@@ -39,7 +35,7 @@ La libreria multimediale Creazione di siti Web Commerce consente di caricare i v
 Quando si carica un video, è possibile specificare le seguenti informazioni.
 
 - **Titolo, Descrizione, parole chiave**: i metadati del video.
-- **Genera automaticamente sottotitoli**: specifica se i sottotitoli devono essere generati automaticamente per il video.
+- **Genera automaticamente sottotitoli**: specifica se i sottotitoli devono essere generati automaticamente per il video (è supportata solo la lingua inglese). 
 - **Sottotitolo**: specifica i sottotitoli da utilizzare.
 - **Audio normale**: specifica la traccia audio normale da utilizzare.
 - **Anteprima**: specifica l'anteprima per il video. Se non specificata, verrà generata automaticamente.

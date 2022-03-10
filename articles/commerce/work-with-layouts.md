@@ -2,36 +2,30 @@
 title: Utilizzare i layout preimpostati
 description: In questo argomento viene descritto come utilizzare i layout preimpostati in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
-ms.date: 04/14/2020
+ms.date: 02/03/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 56ad992b6a9fd6fce09cadad70b8098acdc74ac0
+ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4413474"
+ms.lasthandoff: 02/04/2022
+ms.locfileid: "8090847"
 ---
 # <a name="work-with-preset-layouts"></a>Utilizzare i layout preimpostati
-
 
 [!include [banner](includes/banner.md)]
 
 In questo argomento viene descritto come utilizzare i layout preimpostati in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Panoramica
 
 Prima di completare le procedure in questo argomento, assicurarsi di leggere [Layout personalizzati e preimpostati](templates-layouts-overview.md#preset-and-custom-layouts). Per una panoramica generale, vedere [Panoramica modelli e layout](templates-layouts-overview.md).
 
@@ -97,15 +91,30 @@ Per visualizzare l'anteprima delle modifiche, aprire una pagina esistente che ut
 
 Dopo avere visualizzato un'anteprima delle modifiche al layout preimpostato, eseguire una di queste operazioni per pubblicare il layout sul sito live:
 
-* Andare a **Layout**, selezionare il layout e quindi **Pubblica**.
-* Selezionare il nome del layout per aprire l'editor del layout, quindi selezionare **Pubblica**.
-* Pubblicare una pagina che fa riferimento al layout non pubblicato. Il layout viene pubblicato automaticamente.
+1. Andare a **Layout**, selezionare il layout e quindi **Pubblica**.
+1. Selezionare il nome del layout per aprire l'editor del layout, quindi selezionare **Pubblica**.
+1. Pubblicare una pagina che fa riferimento al layout non pubblicato. Il layout viene pubblicato automaticamente.
 
 > [!WARNING]
 > Molteplici pagine possono fare riferimento ai layout preimpostati. Quando si pubblica un layout preimpostato, tenere presente che è possibile alterare il layout di molteplici pagine.
+
+## <a name="rename-a-preset-layout"></a>Rinominare un layout preimpostato
+
+Per rinominare un layout preimpostato nello strumento di creazione siti, effettua le seguenti operazioni.
+
+1. Nel pannello di navigazione a sinistra, selezionare **Layout**.
+1. Seleziona il nome del layout che desideri rinominare.
+1. Selezionare **Modifica** per iniziare il layout.
+1. Nel riquadro delle proprietà del layout, seleziona il simbolo della penna accanto al nome del layout.
+1. Modificare il nome del layout, se necessario.
+1. Selezionare il segno di spunta per confermare la modifica del nome.
+1. Selezionare **Fine modifica**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Panoramica modelli e layout](templates-layouts-overview.md)
 
 [Utilizzare i modelli](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

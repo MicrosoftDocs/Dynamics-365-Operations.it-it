@@ -2,11 +2,9 @@
 title: Ignorare il principio di prenotazione predefinito per i materiali in produzione
 description: In questo argomento viene descritto come impostare un principio di prenotazione predefinito per ogni gruppo di modelli di articolo, in modo che possano essere applicati automaticamente principi di prenotazione diversi per ogni articolo che fa parte di una distinta base di produzione (BOM) o di una formula di ordine batch.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: b12740e58b2bf8667bee8a2c51917d69771779f2
+ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501104"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8103365"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Ignorare il principio di prenotazione predefinito per i materiali in produzione
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 La funzionalità *Ignora prenotazione di produzione predefinita* consente di impostare un principio di prenotazione predefinito per ogni gruppo di modelli di articoli. Pertanto, è possibile applicare automaticamente principi di prenotazione diversi per ogni articolo che fa parte di una distinta base di produzione (BOM) o di una formula di ordine batch. È possibile selezionare se ogni gruppo di modelli di articolo deve ignorare il principio di prenotazione predefinito impostato per un ordine e quale principio di prenotazione deve essere utilizzato al suo posto (*Manuale*, *Stima*, *pianificazione*, *rilascio* o *inizio*).
 
@@ -34,12 +31,9 @@ Quando si crea un nuovo ordine di produzione o un nuovo ordine batch, viene rich
 
 Ad esempio, se si dispone di materie prime o ingredienti che richiedono un lavoro di prelievo, la distinta base o le righe formula create per quei prodotti richiedono una prenotazione fisica, perché la prenotazione fisica è un prerequisito per la generazione del lavoro di magazzino. In genere, se desideri che la prenotazione avvenga automaticamente, seleziona uno dei seguenti principi di prenotazione: *stima*, *pianificazione*, *pubblicazione* o *inizio*. D'altra parte, se disponi di materiali o ingredienti che non richiedono un lavoro di prelievo, poiché vengono utilizzati direttamente da una posizione, in genere si seleziona il principio di prenotazione *Manuale*, che non effettua alcuna prenotazione fisica né genera alcun lavoro di prelievo.
 
-## <a name="turn-on-the-feature"></a>Attivare la funzionalità
+## <a name="turn-the-override-default-production-reservation-feature-on-or-off"></a>Attivare o disattivare la funzionalità Ignora prenotazione di produzione predefinita
 
-Prima di poter utilizzare questa funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Controllo produzione*
-- **Nome funzionalità:** *(Anteprima) Ignora prenotazione di produzione predefinita*
+A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Ignora prenotazione di produzione predefinita* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Assegnare un criterio di prenotazione di produzione a un gruppo di modelli di articoli
 

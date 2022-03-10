@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec1683554e389948a64aee68e4d069be1e93cc1a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
+ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567345"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "8087168"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processo di rilascio di Ottimizzazione pianificazione e cronologia dei rilasci
 
@@ -33,6 +33,11 @@ Poiché le notifiche non vengono visualizzate quando Ottimizzazione pianificazio
 
 | Modifiche | Dettagli della gestione funzionalità | Date di rilascio |
 |---|---|---|
+| <p>Aggiunto supporto per la priorità di pianificazione per gli ordini di produzione. | Disponibile con la versione 10.0.25 come parte della funzionalità denominata *Supporto MRP basato sulla priorità per Ottimizzazione pianificazione*. | 12-18 novembre 2021 |
+| <p>Miglioramenti generali di prestazioni, qualità e stabilità. | Non è richiesta alcuna gestione delle funzionalità. | 12-18 novembre 2021 |
+| <p>Aggiunto il supporto per le formule di calcolo del tempo di processo, il percorso di produzione con sovrapposizione e il numero dell'operazione di produzione sulle transazioni del fabbisogno.</p><p>Messaggi di errore avanzati per la pianificazione della produzione relativi a timeout, capacità non trovata e percorso ciclico.</p><p>Maggiore coerenza durante il calcolo delle date di ricevimento e di emissione sia per gli ordini pianificati che per gli ordini stabilizzati.</p><p>Miglioramenti generali di prestazioni, qualità e stabilità. | Nome della funzionalità: *Programmazione capacità infinita per Ottimizzazione pianificazione* | 22-27 ottobre 2021 |
+| <p>Aggiunto il supporto per considerare la percentuale di scarto nel calcolo del tempo di elaborazione.</p><p>Aggiunto il supporto per il numero di operazioni e l'utilizzo dei materiali durante la pianificazione. | Nome della funzionalità: *Programmazione capacità infinita per Ottimizzazione pianificazione* | 5-7 ottobre 2021 |
+| <p>Aggiunto il supporto per i tipi di processo del ciclo di produzione: **Coda prima**, **Coda dopo** e **Tempo di trasporto**.</p><p>Miglioramenti generali di prestazioni, qualità e stabilità. | Nome della funzionalità: *Programmazione capacità infinita per Ottimizzazione pianificazione* | 25-30 settembre 2021 |
 | <p>Aggiunto supporto per piani generali con **Metodo di programmazione** impostato su *Programmazione operazioni*.</p><p>Nella pagina **Gruppi di ciclo** rispetta le impostazioni delle caselle di controllo **Attivazione**, **Orario di lavoro**, e **Capacità** per le righe con un **Tipo ciclo di lavorazione/processo** di *Impostazione* o *Processo*. </p><p>Miglioramenti generali di prestazioni, qualità e stabilità. | <p>Programmazione operazioni è disponibile nella gestione delle funzionalità a partire dalla versione 10.0.20.</p><p>Nome della funzionalità: *Programmazione capacità infinita per Ottimizzazione pianificazione*</p>  | 9-17 settembre 2021 |
 | Miglioramenti generali di prestazioni, qualità e stabilità. | Non è richiesta alcuna gestione delle funzionalità. | 25-30 agosto 2021 |
 | <p>Aggiunto il campo **Lead time** agli ordini pianificati.</p><p>Miglioramenti generali di prestazioni, qualità e stabilità.</p> | Non è richiesta alcuna gestione delle funzionalità. | 12-17 agosto 2021 |

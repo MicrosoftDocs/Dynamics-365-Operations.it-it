@@ -3,7 +3,7 @@ title: Ritenuta d'acconto globale
 description: Questo argomento fornisce informazioni sulla funzionalità della ritenuta d'acconto globale e su come configurarla. La funzionalità della ritenuta d'acconto globale è stata migliorata per le transazioni di fornitori e clienti, in modo che la ritenuta d'acconto venga calcolata a livello di articolo.
 author: roschlom
 ms.date: 01/12/2021
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerParameters
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: c51da1257e11543f025fda76c166301477ef78508caac0451267437e918435eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7a3bb3c8766c7dd591f66a663d8be17769bb7d53
+ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727374"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "7986178"
 ---
 # <a name="global-withholding-tax"></a>Ritenuta d'acconto globale
 

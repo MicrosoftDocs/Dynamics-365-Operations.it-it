@@ -2,11 +2,9 @@
 title: Azioni nei processi di approvazione in un flusso di lavoro
 description: In questo articolo vengono illustrate le azioni che ciascun partecipante a un processo di approvazione del flusso di lavoro può eseguire.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,22 +14,25 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 2e546dc57692e31d4501984dafa21fbae23a48fe
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797604"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070935"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Azioni nei processi di approvazione in un flusso di lavoro
 
 [!include [banner](../includes/banner.md)]
 
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
+
 In questo articolo vengono illustrate le azioni che ciascun partecipante a un processo di approvazione del flusso di lavoro può eseguire.
 
 Un flusso di lavoro può coinvolgere più gruppi di persone: l'iniziatore, gli assegnatari di attività, i decisori e gli approvatori. Nell'esempio di flusso di lavoro relativo alle note spese indicato di seguito, Giorgio è l'iniziatore, i membri della coda sono gli assegnatari dell'attività, Gianni è un decisore ed Ezio, Luisa ed Elena sono gli approvatori.
 
-[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 Nelle sezioni seguenti vengono descritte le azioni del flusso di lavoro che ogni gruppo può eseguire.
 
@@ -141,3 +142,6 @@ Quando un approvatore richiede una modifica di un documento, quest'ultimo viene 
 Si supponga ad esempio che Giorgio abbia presentato un documento pari a USD 12.000 assegnato a Luisa. Se Luisa richiede una modifica, la nota spese viene restituita a Giorgio.
 
 Giorgio può quindi inviare di nuovo la nota spese. È possibile apportare le modifiche richieste prima, oppure può inviare la versione originale della nota spese. Se Giorgio presenta di nuovo la nota spese, questa viene inviata a Ezio per l'approvazione, in quanto Ezio è il primo approvatore nel processo di approvazione.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

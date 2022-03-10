@@ -2,13 +2,11 @@
 title: Riclassificare la quota a breve termine di un'obbligazione sul leasing
 description: Questo argomento spiega come creare una scrittura contabile mensile per riclassificare una parte dell'obbligazione sul leasing come a breve termine.
 author: moaamer
-manager: Ann Beebe
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: Dialog
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 08ca824bb4c4a02a80f2187fb5f8fe4e8b7327c9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 21cf81ce84d91d88a800cd250fca8fd5a9c876e66f506cd366b8d61ed480ea7e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992916"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720624"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Riclassificare la quota a breve termine di obbligazione sul leasing
 
@@ -38,5 +36,7 @@ Per creare e registrare la scrittura contabile di riclassificazione dell'obbliga
 2. Nella finestra di dialogo **Creazione di un giornale in batch**, nel campo **Seleziona scadenziario**, seleziona **Riclassificazione dell'obbligazione sul leasing a breve termine**.
 3. Nel campo **Gruppo di leasing** selezionare un gruppo di leasing. In alternativa, nel campo **ID libro** seleziona l'ID libro.
 4. Attiva il parametro **Registra**. In alternativa, se la voce deve essere creata ma non pubblicata, lascia questo parametro disattivato.
-5. Attiva il parametro **Visualizza anteprima prima della registrazione** per visualizzare la voce prima che venga registrata.
-6. Selezionare **OK**.
+5. Selezionare **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

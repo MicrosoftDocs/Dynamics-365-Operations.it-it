@@ -1,7 +1,7 @@
 ---
 title: Previsioni di magazzino
 description: Questo argomento descrive la funzionalità di previsione della domanda e dell'offerta che può essere utilizzata per creare previsioni di magazzino in Microsoft Dynamics 365 Supply Chain Management.
-author: crytt
+author: ChristianRytt
 ms.date: 06/08/2021
 ms.topic: article
 ms.search.form: EcoResProductDetailsExtended, ForecastSales, ForecastPurch, ForecastInvent
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: 5ce997a0bb3d6766b801f3f4dea8ab3f19085d02
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757808"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577554"
 ---
 # <a name="inventory-forecasts"></a>Previsioni di magazzino
 
@@ -94,7 +94,7 @@ Nella seguente tabella sono descritti i comandi disponibili nella barra degli st
 
 | Comandi | descrizione |
 |---|---|
-| Alloca previsioni | Se stai utilizzando un metodo di allocazione, genera le singole righe di pianificazione per la transazione previsionale. La quantità della riga viene quindi distribuita per data (in base agli intervalli di tempo selezionati), alla quantità e all'importo per l'intero orizzonte temporale. |
+| Alloca previsioni | Se stai utilizzando un metodo di allocazione, genera le singole righe di pianificazione per la transazione previsionale. La quantità della riga viene quindi distribuita per data (in base agli intervalli di tempo selezionati), alla quantità e all'importo per l'intero orizzonte temporale. (Vedere la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo argomento.) |
 | Aggiornamento in blocco | Apri la pagina **Modifica transazioni previsionali**. (Vedi la sezione [Aggiornamento in blocco delle transazioni previsionali](#bulk-update) in questo argomento.) |
 | Previsione di magazzino | Apri una vita della pagina **Previsione di magazzino** filtrata per la combinazione di articolo/modello selezionata. (Vedi la sezione [Previsione di magazzino](#inventory-forecast) in questo argomento.) |
 | Crea richiesta articolo | Apri una finestra di dialogo in cui creare richieste di articoli e righe di ordini cliente o del giornale di registrazione degli articoli per le transazioni previsionali relative al progetto. Sebbene questo comando sia disponibile sia per le righe di previsione dell'offerta che per le righe di previsione della domanda, non può essere usato nella pagina **Previsione dell'offerta**. |
@@ -201,7 +201,7 @@ Nella seguente tabella sono descritti i comandi disponibili nella barra degli st
 
 | Comandi | descrizione |
 |---|---|
-| Alloca previsioni | Se stai utilizzando un metodo di allocazione, genera le singole righe di pianificazione per la transazione previsionale. La quantità della riga viene quindi distribuita per data (in base agli intervalli di tempo selezionati), alla quantità e all'importo per l'intero orizzonte temporale. |
+| Alloca previsioni | Se stai utilizzando un metodo di allocazione, genera le singole righe di pianificazione per la transazione previsionale. La quantità della riga viene quindi distribuita per data (in base agli intervalli di tempo selezionati), alla quantità e all'importo per l'intero orizzonte temporale. (Vedere la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo argomento.)|
 | Aggiornamento in blocco | Apri la pagina **Modifica transazioni previsionali**. (Vedi la sezione [Aggiornamento in blocco delle transazioni previsionali](#bulk-update) in questo argomento.) |
 | Previsione di magazzino | Apri una vita della pagina **Previsione di magazzino** filtrata per la combinazione di articolo/modello selezionata. (Vedi la sezione [Previsione di magazzino](#inventory-forecast) in questo argomento.) |
 | Crea richiesta articolo | Apri una finestra di dialogo in cui creare richieste di articoli e righe di ordini cliente o del giornale di registrazione degli articoli per le transazioni previsionali relative al progetto. |
@@ -296,7 +296,7 @@ La scheda **Dimensioni inventariali** mostra tutti i valori della dimensione inv
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>La griglia Allocazione nella pagina Previsione della domanda
 
-Se stai utilizzando una chiave di allocazione articolo o se hai inserito una previsione dell'articolo per uno o più periodi futuri, puoi allocare la previsione selezionando **Assegna previsione** sulla barra degli strumenti nella scheda **Panoramica**. La quantità viene quindi distribuita secondo le modalità indicate dalle righe nella griglia **Allocazione**.
+Se stai utilizzando una chiave di allocazione articolo o se hai inserito una previsione dell'articolo per uno o più periodi futuri, puoi allocare la previsione selezionando **Assegna previsione** sulla barra degli strumenti nella scheda **Panoramica**. La quantità viene quindi distribuita secondo le modalità indicate dalle righe nella griglia **Allocazione**. (Vedere la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo argomento.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Previsione di magazzino
 
@@ -328,6 +328,25 @@ La tabella seguente descrive i campi nella griglia della pagina **Previsione di 
 | **Distinta base secondaria** | Numero di una DBA secondaria specifica. |
 | **Percorso secondario** | Numero di un ciclo di lavorazione secondario specifico. |
 | (Altre dimensioni) | Ulteriori dimensioni possono essere visualizzate come colonne nella griglia. Per selezionare le dimensioni aggiuntive visualizzate, seleziona **Inventario \> Visualizza dimensioni** nel riquadro delle azioni. |
+
+## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Alloca previsioni
+
+Utilizzare la seguente procedura per elaborare le righe delle transazioni previsionali selezionate. Quando si alloca una previsione, la quantità viene quindi distribuita come indicato dalle righe nella griglia **Allocazione**.
+
+1. A seconda del tipo di entità per cui si sta creando una previsione e del tipo di previsione da creare, aprire una pagina di previsione della domanda o dell'offerta come descritto in [Visualizzare e immettere manualmente le righe della previsione](#manual-entry).
+1. Nella pagina delle righe di previsione della domanda o dell'offerta, selezionare una riga di previsione, quindi, nella scheda **Panoramica**, selezionare **Alloca previsione** sulla barra degli strumenti.
+1. Nella finestra di dialogo **Alloca previsione**, impostare i campi descritti nella tabella seguente. (Il valore che si seleziona nel campo **Metodo** determina gli altri campi che sono disponibili.)
+
+    | Campo | descrizione |
+    |---|---|
+    | Metodo | <p>Seleziona il metodo utilizzato per allocare la transazione previsionale:</p><ul><li>**Nessuna**: non viene eseguita alcuna allocazione.</li><li>**Periodo**: è prevista la stessa quantità per ogni periodo. Se selezioni questo valore, specifica una quantità nel campo **Per** e un'unità di tempo nel campo **Unità**.</li><li>**Chiave**: la previsione viene allocata in base alla chiave di allocazione per periodo specificata nel campo **Chiave periodo**. Puoi utilizzare questo metodo se intendi prendere in considerazione le variazioni stagionali.</li><ul>|
+    | Per | <p>Consente di immettere il numero di intervalli di tempo futuri relativi alla durata della previsione. Questo campo è disponibile solo se nel campo **Metodo** hai selezionato *Periodo*.</p><p>Ad esempio, se selezioni *Periodo* nel campo **Metodo**, immetti *1* nel campo **Per**, quindi seleziona *Mesi* nel campo **Unità**. Quindi, nel campo **Fine**, specificare una data di fine a distanza di un anno. In questo caso, verrà creata una riga di previsione per ciascun mese dell'anno successivo, in base all'articolo e alla quantità specificati nella riga di intestazione. |
+    | Unità | Seleziona l'unità dell'intervallo temporale: *Giorni*, *Mesi* o *Anni*. L'allocazione corrisponderà al numero di giorni, mesi o anni specificato nel campo **Per**.|
+    | Chiave periodo | Permette di specificare la chiave di allocazione del periodo utilizzata per allocare la previsione. Per ulteriori informazioni, vedi [Allocazione dei dati di pianificazione del budget](../../finance/budgeting/budget-planning-data-allocation.md). |
+    | Fine periodo | Specificare la data di fine che si applica alle proprie impostazioni nei campi **Per** e **Unità**. |
+
+1. Selezionare **OK** per confermare le impostazioni.
+1. È possibile rivedere i risultati sulla scheda **Allocazione** per la stessa riga.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Aggiornamento in blocco delle transazioni previste
 

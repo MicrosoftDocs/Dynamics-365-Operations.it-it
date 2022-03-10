@@ -2,11 +2,9 @@
 title: Aggregazioni del riconoscimento dei ricavi
 description: In questo argomento viene descritta la funzionalità di aggregazione inclusa nella funzionalità di riconoscimento dei ricavi nella contabilità clienti. Un'aggregazione comprende un articolo padre e più articoli componente.
 author: kweekley
-manager: aolson
 ms.date: 01/04/2021
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 857078e0b97bd136f5236c999a939d3fd263c39f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 272261f9ba189bec55e856aa617bf5716e3f4fa261ef7bfd7269184a09a51a2b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238378"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770739"
 ---
 # <a name="revenue-recognition-bundles"></a>Aggregazioni del riconoscimento dei ricavi
 
@@ -61,15 +59,15 @@ I seguenti prezzi di vendita base sono definiti per gli articoli componenti:
 
 Viene immesso un ordine cliente per il cliente US-004, Cave Wholesales. L'unica riga immessa è per l'articolo aggregazione laptop. Il prezzo unitario predefinito per la riga padre può essere preso da numerosi punti, come l'accordo commerciale o il prezzo di vendita di base. In questo esempio, $2.300 è stato inserito manualmente come prezzo unitario.
 
-[![Articolo aggregazione laptop in un ordine cliente](./media/bundle-01.png)](./media/bundle-01.png)
+[![Articolo aggregazione laptop in un ordine cliente.](./media/bundle-01.png)](./media/bundle-01.png)
 
 Dal momento che l'ordine cliente contiene un'aggregazione, deve essere confermato. La finestra di dialogo di conferma mostra i componenti dell'aggregazione.
 
-[![Finestra di dialogo Conferma ordine cliente che mostra gli articoli componente](./media/bundle-02.png)](./media/bundle-02.png)
+[![Finestra di dialogo Conferma ordine cliente che mostra gli articoli componente.](./media/bundle-02.png)](./media/bundle-02.png)
 
 Tuttavia, il report di conferma stampato mostrerà solo l'articolo padre dell'aggregazione perché è il documento per l'esterno, per il cliente.
 
-[![Report di conferma che mostra solo l'articolo padre](./media/bundle-03.png)](./media/bundle-03.png)
+[![Report di conferma che mostra solo l'articolo padre.](./media/bundle-03.png)](./media/bundle-03.png)
 
 Dopo la conferma dell'ordine cliente, l'articolo padre viene ancora visualizzato nell'ordine cliente, ma il suo stato è stato modificato in **Annullato**. Inoltre, l'importo netto viene registrato nel campo **Importo netto aggregazione**. Questo importo è necessario per stampare la fattura, poiché la fattura mostra l'articolo padre e non gli articoli componente.
 
@@ -87,7 +85,7 @@ La somma dei componenti deve essere uguale a $2.300 e lo è ($1.713,73 + $450,98
 
 Se sono necessarie modifiche per tutti gli articoli componente, l'articolo padre può essere rimosso. In questo caso, vengono rimossi anche gli articoli componente. L'articolo padre può quindi essere aggiunto di nuovo e le modifiche richieste possono essere completate prima della conferma dell'ordine cliente.
 
-[![Articolo di aggregazione che include modifiche agli articoli componente](./media/bundle-04.png)](./media/bundle-04.png)
+[![Articolo di aggregazione che include modifiche agli articoli componente.](./media/bundle-04.png)](./media/bundle-04.png)
 
 Quando l'ordine cliente viene ritirato e imballato, i documenti includono solo i componenti dell'aggregazione. Il documento di trasporto e la fattura devono includere un'aggregazione completa. In caso contrario, non possono essere registrati. Ad esempio, la finestra di dialogo mostra tre articoli componente. Se si tenta di eliminarne uno, viene visualizzato un messaggio di errore che indica che tutti i prodotti dell'aggregazione devono essere spediti prima di poter essere fatturati.
 
@@ -97,19 +95,19 @@ Un importo parziale può essere spedito e fatturato solo se la quantità viene r
 
 L'ultimo passaggio consiste nella fatturazione dell'ordine cliente. Durante la fatturazione, la finestra di dialogo della fattura mostrerà gli articoli componente.
 
-[![Finestra di dialogo Fattura che mostra gli articoli componente](./media/bundle-06.png)](./media/bundle-06.png)
+[![Finestra di dialogo Fattura che mostra gli articoli componente.](./media/bundle-06.png)](./media/bundle-06.png)
 
 La fattura stampata mostra solo l'articolo padre.
  
-[![Fattura stampata che mostra solo l'articolo padre](./media/bundle-07.png)](./media/bundle-07.png)
+[![Fattura stampata che mostra solo l'articolo padre.](./media/bundle-07.png)](./media/bundle-07.png)
 
 Il giornale di registrazione fatture creato dopo la registrazione non include l'articolo padre dell'aggregazione perché l'articolo ha lo stato di **Annullato**.
 
-[![Giornale di registrazione fatture che non include l'articolo padre](./media/bundle-08.png)](./media/bundle-08.png)
+[![Giornale di registrazione fatture che non include l'articolo padre.](./media/bundle-08.png)](./media/bundle-08.png)
 
 È importante che il giornale di registrazione fatture non includa l'articolo padre dell'aggregazione perché tutti i processi eseguiti dopo la registrazione della fattura si basano su quel giornale di registrazione fatture. Ad esempio, se si crea una nota di credito nella scheda **Vendi** del riquadro Azioni, la nota di credito creata include gli articoli componente ma non l'articolo padre.
 
-[![Nota di credito che mostra gli articoli componente ma non l'articolo padre](./media/bundle-09.png)](./media/bundle-09.png)
+[![Nota di credito che mostra gli articoli componente ma non l'articolo padre.](./media/bundle-09.png)](./media/bundle-09.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

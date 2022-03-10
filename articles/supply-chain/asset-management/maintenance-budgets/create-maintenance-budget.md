@@ -1,29 +1,26 @@
 ---
 title: Creare budget di manutenzione
 description: In questo argomento viene illustrato come creare un budget di manutenzione in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetBudgetLineAdjust, EntAssetBudget, EntAssetBudgetRecalc, EntAssetBudgetCopy, EntAssetBudgetLine, EntAssetBudgetCreate, EntAssetBudgetApprove, EntAssetBudgetCalculateActualCost
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2aaba8794bf0025f0449509752e4f197d3bf3db4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a375eb7c208479615b2d5e7cf78168ffd7ac8b16c52c85a7ef5a41aa69c947d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4431213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776946"
 ---
 # <a name="create-maintenance-budgets"></a>Creare budget di manutenzione
 
@@ -53,9 +50,12 @@ I budget di manutenzione sono basati sui tipi di costo utilizzati in Gestione ce
     > [!NOTE]
     > Dopo aver approvato un budget di manutenzione, non è possibile ricalcolare o rettificare le righe correlate nella pagina **Righe budget di manutenzione** a meno che non si rimuova dapprima l'approvazione. Per rimuovere l'approvazione di un budget di manutenzione, selezionarlo nella pagina **Budget di manutenzione** e quindi selezionare **Approva**. Quindi, nella finestra di dialogo **Approva budget** selezionare **OK**.
 
-![Budget di manutenzione](media/01-maintenance-budgets.png)
+![Budget di manutenzione.](media/01-maintenance-budgets.png)
 
 È anche possibile creare un nuovo budget di manutenzione copiando un budget esistente. Nella pagina **Budget di manutenzione** selezionare il budget da copiare e quindi **Approva**. Questo approccio è utile se, ad esempio, è stato creato un budget per un mese e si desidera copiarlo in altri mesi.
 
 > [!NOTE]
 > Il budget di manutenzione calcola solo i costi in budget basati sulle righe di programma di manutenzione. Per calcolare i costi effettivi per lo stesso periodo, è possibile effettuare tale calcolo nella pagina **Controllo costo dei cespiti**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

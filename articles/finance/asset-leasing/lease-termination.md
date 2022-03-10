@@ -2,13 +2,11 @@
 title: Proposta della risoluzione del leasing
 description: Questo argomento spiega come proporre un leasing per la risoluzione.
 author: moaamer
-manager: Ann Beebe
-ms.date: 1/14/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AssetLease
+ms.search.form: AssetLeaseTerminateLeaseListPage
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 144559b14878a44afd8a77648bb5ce1d3ba17832
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 657bd2aa32179941e4103fea31f813688ad478ac6e9902212c976a92620b2e67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717499"
 ---
 # <a name="propose-a-lease-for-termination"></a>Proporre un leasing per la risoluzione
 
@@ -158,3 +156,6 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
 11. Per visualizzare l'effetto netto della risoluzione, dove il cespite ROU e l'obbligazione sul leasing sarà 0 (zero), apri le tabelle Passività e Transazioni attività.
 
 Lo stato del leasing dovrebbe ora essere **Terminato**. Non verranno registrate voci aggiuntive per questo leasing a meno che la risoluzione non venga annullata.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,7 +5,6 @@ author: sherry-zheng
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -13,13 +12,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: ba745048d1d9f28300f03ed0bc98142d80aa5a26
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833859"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569819"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Moduli Costo sbarcato e Gestione trasporto
 
@@ -51,8 +50,8 @@ TMS e Costo sbarcato non condividono i dati di riferimento per entità come l'im
 
 I seguenti report non sono utilizzabili insieme alla funzionalità Merci in transito di Costo sbarcato:
 
-- [Report Totali merci in transito interaziendali](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Report Totali merci in transito interaziendali](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Report Totali merci in transito interaziendali](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Report Totali merci in transito interaziendali](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 Questi report presumono che le merci siano messe in transito non appena si emette un documento di trasporto e che vengano integrate nelle scorte di transito al momento del ricevimento. Tuttavia, le merci in transito non vengono elaborate in questo modo. Pertanto, se si utilizzano le funzionalità Merci in transito e Interaziendale insieme, i risultati per entrambi questi report non saranno corretti.
 

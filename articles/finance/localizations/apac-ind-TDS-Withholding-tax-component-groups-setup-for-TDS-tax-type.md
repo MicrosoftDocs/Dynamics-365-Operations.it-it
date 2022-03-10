@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 23124d36389b08726defbedbd1bab9a7eb43c197
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a5e627fcd8d25558d766cdf4d3b7c8d9c8544fb5476a978859e9e3ac83f6475c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718222"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>Impostare i gruppi di componenti di ritenuta d'acconto per il tipo di imposta TDS
 
@@ -31,7 +31,7 @@ In questo argomento viene illustrato come impostare i gruppi di componenti di ri
 
 1. Seleziona **Imposta \> Impostazione \> Ritenuta d'acconto \> Gruppi componenti ritenuta d'acconto**.
 
-    [![Pagina Gruppi componenti ritenuta d'acconto](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
+    [![Pagina Gruppi componenti ritenuta d'acconto.](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
 
 2. Nel campo **Tipo di imposta**, seleziona **TDS** per impostare i gruppi di componenti di ritenuta d'acconto per il tipo di imposta TDS.
 3. Nel riquadro azioni seleziona **Nuova** per creare una riga.

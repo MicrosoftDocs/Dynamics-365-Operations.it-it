@@ -1,12 +1,10 @@
 ---
 title: Sintassi di query e filtro avanzata
-description: Questo argomento descrive le opzioni di filtro e query disponibili quando si utilizza la finestra di dialogo Filtro/ordinamento avanzato o l'operatore corrisponde a nel riquadro Filtro o nei filtri di intestazione di colonna.
+description: Questo argomento descrive le opzioni di filtro e query della finestra di dialogo Filtro/ordinamento avanzato e l'operatore corrisponde a nel riquadro Filtro o nei filtri di intestazione di colonna.
 author: jasongre
-manager: AnnBe
 ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysQueryForm
 audience: Application User
@@ -17,16 +15,19 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b867099b131594a64cad102e50ead7c355594f2b
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c0fefac5a7a2b299ba606a854824ee456c572487
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694545"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8070011"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintassi di query e filtro avanzata
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 Questo argomento descrive le opzioni di filtro e query disponibili quando si utilizza la finestra di dialogo Filtro/ordinamento avanzato o l'operatore **corrisponde** a nel riquadro Filtro o nei filtri di intestazione di colonna.
 
@@ -37,7 +38,7 @@ Questo argomento descrive le opzioni di filtro e query disponibili quando si uti
 <tr>
 <th>Sintassi</th>
 <th>Descrizione carattere</th>
-<th>descrizione</th>
+<th>Descrizione</th>
 <th>Esempio</th>
 </tr>
 </thead>
@@ -121,9 +122,9 @@ Questo argomento descrive le opzioni di filtro e query disponibili quando si uti
 <td>Due doppie virgolette consecutive ( <strong> "" </strong>) trova le righe senza valore per la colonna corrente.</td>
 </tr>
 <tr>
-<td>(<span class="code">Query Finance and Operations</span>) (Query Finance and Operations tra parentesi)</td>
+<td>(<span class="code">Query di Finanza e operazioni</span>) (query Finanza e operazioni tra parentesi)</td>
 <td>Corrisponde a una query definita.</td>
-<td>Digitare una query come un'istruzione SQL tra parentesi utilizzando il linguaggio di query Finance and Operations.</td>
+<td>Digita una query come un'istruzione SQL tra parentesi utilizzando il linguaggio di query Finanza e operazioni.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        come esempio di sintassi per una condizione di filtro su un campo dall'origine dati radice e un campo da un'origine dati diversa (per la pagina Tutti i clienti)</td>
 </tr>
@@ -242,3 +243,6 @@ Vedere la tabella nella sezione successiva per ulteriori dettagli sui metodi di 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

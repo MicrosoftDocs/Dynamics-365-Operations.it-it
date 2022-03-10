@@ -16,21 +16,20 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03d8cad743ac2b2b1e7b2832b8272ca3dbf5a163
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 68db4c6561f2cc3fcfd64b49da59a4cc164685f2
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021057"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8069431"
 ---
 # <a name="message-processor-messages"></a>Messaggi dell'elaboratore messaggi
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 I messaggi dell'elaboratore messaggi vengono utilizzati durante l'esecuzione di unità di scala per cloud e rete perimetrale per [carichi di lavoro di produzione](cloud-edge-workload-manufacturing.md) e [carichi di lavoro di gestione del magazzino](cloud-edge-workload-warehousing.md).
 
-Una grande quantità di dati viene scambiata tra l'hub e gli ambienti di distribuzione delle unità di scala per mantenerli sincronizzati, ma solo alcuni di questi scambi di dati verranno elaborati dal *elaboratore messaggi*. È possibile visualizzare i messaggi elaborati dall'elaboratore messaggi andando a **Amministrazione di sistema > Elaboratore messaggi > Messaggi elaboratore messaggi**.
+L'hub e gli ambienti di distribuzione delle unità di scala scambiano una grande quantità di dati per rimanere sincronizzati. Alcuni di questi dati scambiati attiveranno la logica aggiuntiva nell'*elaboratore messaggi*. È possibile visualizzare i messaggi elaborati dall'elaboratore messaggi andando a **Amministrazione di sistema > Elaboratore messaggi > Messaggi elaboratore messaggi**.
 
 ## <a name="message-grid-columns-and-filters"></a>Colonne e filtri della griglia dei messaggi
 
@@ -45,7 +44,7 @@ Puoi utilizzare i campi nella parte superiore della pagina **Messaggi elaborator
   - *In coda* - Il messaggio è pronto per essere elaborato dall'elaboratore messaggi.
   - *Elaborato* - Il messaggio è stato elaborato correttamente dall'elaboratore messaggi.
   - *Annullato* - Il messaggio è stato elaborato, ma l'elaborazione non è riuscita.
-- **Contenuto messaggio** - questo filtro esegue una ricerca full-text del contenuto del messaggio. Il contenuto del messaggio non appare nella griglia. Il filtro tratta la maggior parte dei simboli speciali (ad esempio "-") come spazi e tratta tutti i caratteri di spazio come operatori booleani OR. T = Ad esempio, questo significa che se cerchi uno specifico valore `journalid` uguale a "USMF-123456", il sistema troverà tutti i messaggi che contengono "USMF" o "123456", che probabilmente sarà un lungo elenco. Pertanto, sarebbe meglio inserire solo "123456" perché restituirà risultati più specifici.
+- **Contenuto messaggio** - questo filtro esegue una ricerca full-text del contenuto del messaggio. Il contenuto del messaggio non appare nella griglia. Il filtro tratta la maggior parte dei simboli speciali (ad esempio "-") come spazi e tratta tutti i caratteri di spazio come operatori booleani OR. Ad esempio, questo significa che se si cerca uno specifico valore `journalid` uguale a "USMF-123456", il sistema troverà tutti i messaggi che contengono "USMF" o "123456", che probabilmente sarà un lungo elenco. Pertanto, sarebbe meglio inserire solo "123456" perché restituirà risultati più specifici.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Tipo di messaggio di esempio: Richiedi aggiornamento finanziario per rettifica magazzino
 
@@ -66,7 +65,7 @@ La barra degli strumenti nella scheda **Registro** include i seguenti pulsanti:
 
 ## <a name="message-processor-batch-job"></a>Processo batch dell'elaboratore messaggi
 
-Quando si esegue una distribuzione su cloud e rete perimetrale, il processo batch *Elaboratore messaggi* verrà richiamato automaticamente quando viene creato un nuovo messaggio per l'elaborazione, quindi non dovrebbe essere necessario pianificare questo lavoro manualmente.
+Quando si esegue una topologia ibrida distribuita con unità di scala, il processo batch *Elaboratore messaggi* verrà richiamato automaticamente quando viene creato un nuovo messaggio per l'elaborazione, quindi non dovrebbe essere necessario pianificare questo lavoro manualmente.
 
 Se necessario, puoi accedere al processo batch andando su **Amministrazione di sistema > Elaboratore messaggi > Elaboratore messaggi**.
 
@@ -89,15 +88,15 @@ In questo esempio, l'uso di **Quando si verifica un evento aziendale** con *Micr
 
 1. In [Power Automate](https://preview.flow.microsoft.com), crea un nuovo flusso cloud automatizzato per il trigger di flusso **Quando si verifica un evento aziendale - App Fin & Ops (Dynamics 365)** seguito dai passaggi **Analizza JSON** e **Invia un'e-mail**, come mostrato nell'illustrazione seguente.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flusso cloud automatizzato di Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Flusso cloud automatizzato di Power Automate.":::
 
 1. Nel passaggio **Quando si verifica un evento aziendale** puoi cercare o inserire l'**Istanza** hub seguendo la **Categoria** e poi l'**Evento aziendale** *Messaggio elaboratore messaggi elaborato*, come mostrato nell'illustrazione seguente.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Passaggio Power Automate Quando si verifica un evento aziendale":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Passaggio Power Automate Quando si verifica un evento aziendale.":::
 
 1. Per il passaggio **Analizza JSON**, immettere uno **Schema** che definisce i campi estesi. Puoi usare l'opzione *Scarica schema* nella pagina **Catalogo eventi aziendali** in Supply Chain Management o iniziare incollando il testo dello schema di esempio. Questo testo di esempio viene fornito dopo la seguente illustrazione.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Passaggio Power Automate Analizza JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Passaggio Power Automate Analizza JSON.":::
 
     ```json
     {
@@ -184,7 +183,7 @@ In questo esempio, l'uso di **Quando si verifica un evento aziendale** con *Micr
 
 1. Nel passaggio **Invia e-mail**, è possibile selezionare i singoli campi o iniziare incollando l'esempio del corpo dell'email nel campo **Corpo**. Questo esempio viene fornito dopo la seguente illustrazione.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Passaggio Power Automate Invia e-mail":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Passaggio Power Automate Invia e-mail.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

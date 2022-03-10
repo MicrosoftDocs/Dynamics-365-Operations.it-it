@@ -15,17 +15,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2021-08-12
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 3134e10c096525ec2d82365a25eff16a3c5d5e11
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 1a8eebb589372051272573895a0ae5b4203eef62
+ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472633"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8109783"
 ---
 # <a name="countryregion-picker-module"></a>Modulo di selezione paese/area geografica
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In questo argomento viene descritto il modulo di selezione paese/area geografica e la procedura per configurarlo in Microsoft Dynamics 365 Commerce.
 
@@ -75,5 +74,9 @@ Per ogni URL che si desidera mostrare e consigliare ai clienti, seguire questi p
 [Panoramica della libreria moduli](starter-kit-overview.md)
 
 [Modulo intestazione](author-header-module.md)
+
+[Modulo di selezione sito](site-selector.md)
+
+[Modulo percorso di navigazione](add-breadcrumb.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

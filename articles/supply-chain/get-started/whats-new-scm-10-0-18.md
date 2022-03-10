@@ -1,12 +1,10 @@
 ---
-title: Anteprima di Dynamics 365 Supply Chain Management 10.0.18 (maggio 2021)
+title: Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.18 (maggio 2021)
 description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
-manager: annbe
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0a75cd0b02c48421edebac0b83576095bea65bb6
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571790"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773563"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.18 (maggio 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.18 (maggio 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della versione 10.0.18. di Microsoft Dynamics 365 Supply Chain Management. Questa versione ha il numero di build 10.0.793 ed è disponibile come segue:
+Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.18. Questa versione ha il numero di build 10.0.793 ed è disponibile come segue:
 
 - **Anteprima della versione:** marzo 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** aprile 2021
@@ -36,15 +33,25 @@ Questo argomento elenca le funzionalità nuove o modificate nell'anteprima della
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa versione include le seguenti funzionalità. Alcune delle funzionalità elencate sono ancora in anteprima, mentre altre potrebbero essere già generalmente disponibili. Seguire i collegamenti del [piano di rilascio](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
+Questa versione include le seguenti funzionalità. Seguire i collegamenti del [piano di rilascio](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) per vedere le date di rilascio ufficiali di ciascuna funzionalità.
 
-- Rilascio automatico degli ordini fornitore (miglioramento per [Esecuzione del magazzino con unità di scala nel cloud](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Per ulteriori informazioni, vedere [Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-warehousing.md).
+- Rilascio automatico degli ordini fornitore (miglioramento per [Esecuzione del magazzino con unità di scala nel cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Per ulteriori informazioni, vedere [Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Archiviazione e miglioramenti delle prestazioni dell'inventario su scala aziendale](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Per ulteriori informazioni, vedere [Archiviare transazioni di magazzino](../inventory/archive-inventory-transactions.md)
+- [Creare e visualizzare le certificazioni sull'interfaccia di collaborazione del fornitore](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Per ulteriori informazioni, vedi [Mantenere la certificazione del fornitore](../../finance/public-sector/manage-vendor-certification.md).
 
-- [Gestione degli sconti](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)
+- [Archiviazione e miglioramenti delle prestazioni dell'inventario su scala aziendale](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Per ulteriori informazioni, vedi [Archiviare transazioni di magazzino](../inventory/archive-inventory-transactions.md).
 
-- Interfaccia semplificata solo per l'ora di entrata e di uscita (miglioramento per [Interfaccia di esecuzione dell'area di produzione migliorata per la produzione](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Per ulteriori informazioni, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md).
+- [Gestione degli sconti](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Per ulteriori informazioni, vedi [Panoramica del modulo di gestione degli sconti](../rebate-management/rebate-management-overview.md).
+
+- [Criteri di impostazione dell'esportazione dell'entità di dati di vendita](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Registrazione riga ordine di reso vendita con precisione decimale con e senza peso variabile](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Conferma dell'ordine cliente con un solo clic](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Criteri di eliminazione della riga ordine cliente nell'ordine fornitore](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
+- Interfaccia semplificata solo per l'ora di entrata e di uscita (miglioramento per [Interfaccia di esecuzione dell'area di produzione migliorata per la produzione](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Per ulteriori informazioni, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-configure.md).
 
 La maggior parte di queste funzionalità deve essere abilitata tramite [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) prima di poter essere utilizzate.
 
@@ -71,7 +78,7 @@ Per informazioni sulle correzioni di bug incluse in ciascuno degli aggiornamenti
 
 Desideri sapere quali sono le funzionalità imminenti e rilasciate di recente nella nostra piattaforma o in una delle app aziendali?
 
-Consultare il [piano del primo ciclo di rilascio del 2021 di Dynamics 365](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/). Tutti i dettagli più completi sono stati raccolti in un unico documento utilizzabile per la pianificazione.
+Consultare il [piano del primo ciclo di rilascio del 2021 di Dynamics 365](/dynamics365-release-plan/2021wave1/). Tutti i dettagli più completi sono stati raccolti in un unico documento utilizzabile per la pianificazione.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Funzionalità di Supply Chain Management rimosse e deprecate
 

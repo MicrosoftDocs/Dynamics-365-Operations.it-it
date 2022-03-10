@@ -2,26 +2,23 @@
 title: Configurare sequenze numeriche per flussi di magazzino
 description: Questo argomento fornisce una panoramica della funzionalità che fornisce estensioni di sequenza numerica per ID targa, ID etichetta ondata, ID contenitore e ID polizza di carico.
 author: GarmMSFT
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: mirzaab
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: e9ba06908b9e82763557e98715e495cfaf649753
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4431590"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574715"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurare sequenze numeriche per flussi di magazzino
 
@@ -82,7 +79,7 @@ Per creare e modificare sequenze numeriche, attenersi alla seguente procedura.
 1. Nel campo **Estensione di sequenza numerica**, immettere un nome per la nuova sequenza. Nel campo **Descrizione** immettere una descrizione.
 1. Nella Scheda dettaglio **Segmenti**, utilizzare i pulsanti sulla barra degli strumenti per assemblare il formato di numerazione aggiungendo, eliminando e disponendo i segmenti. Nel campo **Segmento** di ogni riga, assegnare un tipo di segmento per definire lo scopo e il contenuto di quel segmento. Nella seguente tabella vengono illustrati i tipi di segmenti disponibili.
 
-    | Tipo di segmento | descrizione |
+    | Tipo di segmento | Descrizione |
     |---|---|
     | Costante | Questo tipo di segmento aggiunge lo stesso testo costante per ciascun numero generato nella sequenza. Nel campo **Valore** immettere il testo necessario. Il campo **Lunghezza** viene automaticamente aggiornato alla lunghezza del testo immesso nel campo **Valore**. |
     | Sequenza numerica | Nel campo **Valore** immettere un segno numerico (*\#*) per ogni carattere che dovrebbe essere mostrato nella sequenza generata. La sequenza numerica stessa potrebbe generare numeri più lunghi, ma verranno visualizzati solo i caratteri più a destra. Il campo **Lunghezza** viene automaticamente aggiornato al numero di segni numerici immessi nel campo **Valore**.<p>Per soddisfare i requisiti GS1 per i numeri SSCC-18, assicurarsi che la lunghezza di questo segmento sia 16 meno la lunghezza del prefisso GS1.</p> |
@@ -92,3 +89,6 @@ Per creare e modificare sequenze numeriche, attenersi alla seguente procedura.
     | Cifra di controllo | Questo tipo di segmento aggiunge una cifra di controllo, che è un calcolo del modulo 10 (questo comportamento corrisponde alla logica esistente per gli ID targa). Per questo tipo di segmento, il campo **Valore** è sempre impostato su un accento circonflesso (*^*) e il campo **Lunghezza** è sempre impostato su *1*. |
 
 1. Per visualizzare un esempio del formato numerico finale, controllare il campo **Formato** nella parte inferiore della Scheda dettaglio **Segmenti**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

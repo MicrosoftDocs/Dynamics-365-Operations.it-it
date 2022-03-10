@@ -2,7 +2,6 @@
 title: Creare un'unità operativa
 description: Un'unità operativa è un'organizzazione utilizzata per dividere il controllo delle risorse economiche e dei processi operativi in un'azienda.
 author: sericks007
-manager: AnnBe
 ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a99260cdc3ad5aa5a963cc27093984d22af669f
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758995"
 ---
 # <a name="create-an-operating-unit"></a>Creare un'unità operativa
 

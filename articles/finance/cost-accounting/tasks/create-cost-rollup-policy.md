@@ -2,11 +2,9 @@
 title: Creare criteri di rollup costi
 description: In questa procedura viene illustrato come creare i criteri di rollup dei costi e le regole per i criteri.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0a648984a8b4aaa314707e72a615f516116a193
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fd7a390ced7b7b4997d9c86b9218f1fa83ee14729e450e1ae1cb53dbbd605edb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990744"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755668"
 ---
 # <a name="create-a-cost-rollup-policy"></a>Creare criteri di rollup costi
 
@@ -67,3 +65,6 @@ In questa procedura viene illustrato come creare i criteri di rollup dei costi e
     * Continuare finché tutti i centri di costo sono mappati agli elementi di costo secondari corrispondenti.  
 16. Fare clic su Salva.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

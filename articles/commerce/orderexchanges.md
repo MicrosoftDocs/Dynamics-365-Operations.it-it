@@ -2,7 +2,7 @@
 title: Configurare ed elaborare uno scambio in un ordine di reso
 description: In questo argomento viene descritto come configurare uno scambio su un reso in Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/12/2018
+ms.date: 07/28/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 46d6e912aca64951da2865f5609a9dc22fbbcbe3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 488f6fb5af6451bc462566a9714054b49eb1a80b8264528778797f6a39647764
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758338"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>Configurare ed elaborare uno scambio in un ordine di reso
 
@@ -32,7 +32,10 @@ Tuttavia, è stata aggiunta una funzionalità per supportare gli scenari in cui 
 
 ## <a name="configure-commerce-to-support-exchanges-on-return-orders"></a>Configurare Commerce per supportare gli scambi sugli ordini di reso
 
-Seguire questi passaggi per configurare il sistema in modo da supportare cambi sugli ordini di reso.
+> [!NOTE]
+> In Commerce versione 10.0.20 e successive è disponibile una nuova funzionalità denominata "Esperienza di elaborazione dei resi unificata in POS". Se si abilita la funzionalità, i seguenti passaggi di configurazione non sono necessari. **Elabora ordini di reso come ordini cliente** diventa un'impostazione configurata in modo permanente e non è possibile modificarla.
+
+Attenersi alla seguente procedura per configurare il sistema per supportare gli scambi sugli ordini di reso (se la funzionalità **Esperienza unificata nell'elaborazione dei resi in POS** non è abilitata.
 
 1. Accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di commercio**. Nella Scheda dettaglio **Ordini cliente**, impostare l'opzione **Elabora ordini di reso come ordini cliente** su **Sì**.
 2. Eseguire il processo **Programmazione di distribuzione configurazione globale** (**1110**).

@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 18126f53dc314eca3e874e914346b860d7138109
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: adafde2123afdc793a6ef4edf8fa16b857c55bf8
+ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7945016"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "8076938"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-the-czech-republic-legacy"></a>Linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca (legacy)
 
@@ -155,7 +155,7 @@ Nella procedura precedente sono state abilitate le estensioni che sono component
 
 ## <a name="design-of-extensions"></a>Progettazione delle estensioni
 
-L'esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Per ulteriori informazioni sulla progettazione della soluzione di integrazione fiscale, vedi [Panoramica di un progetto di esempio di integrazione fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
+L'esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Per ulteriori informazioni sulla progettazione della soluzione di integrazione fiscale, vedi [Panoramica di un progetto di esempio di integrazione fiscale](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services).
 
 ### <a name="commerce-runtime-extension-design"></a>Progettazione dell'estensione di Commerce Runtime
 

@@ -1,29 +1,27 @@
 ---
-title: Area di lavoro per l'immissione della fattura fornitore
+title: Area di lavoro Automazione fattura fornitore
 description: Questo argomento spiega come impostare l'area di lavoro correlata alle fatture fornitore e che mostra le informazioni disponibili tramite Microsoft Power BI.
 author: abruer
-manager: AnnBe
-ms.date: 09/28/2020
+ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0a32fc46fe6ac33abe5fcebb2ee5e2c92f468f84
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f28cc5f63df2f0d8a4c8cae407f7166aa4fa03db
+ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254126"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8182581"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Area di lavoro per l'immissione della fattura fornitore
+# <a name="vendor-invoice-automation-workspace"></a>Area di lavoro Automazione fattura fornitore
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -32,11 +30,11 @@ Questo argomento spiega come impostare l'area di lavoro correlata alle fatture f
 
 ## <a name="overview"></a>Panoramica
 
-Nell'area di lavoro **Inserimento fatture fornitore** vengono visualizzate le informazioni correlate all'elaborazione delle fatture del fornitore. Include una visualizzazione **Lavoro personale** e una pagina **Analisi - Tutte le società**. Nella visualizzazione **Lavoro personale** vengono visualizzati i riquadri di riepilogo, le griglie di transazione fornitore e le informazioni correlate al fornitore. La pagina **Analisi - Tutte le società** utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate alle fatture fornitore.
+Nell'area di lavoro **Automazione fattura fornitore** vengono visualizzate le informazioni correlate all'elaborazione delle fatture del fornitore. Include una visualizzazione **Lavoro personale** e una pagina **Analisi - Tutte le società**. Nella visualizzazione **Lavoro personale** vengono visualizzati i riquadri di riepilogo, le griglie di transazione fornitore e le informazioni correlate al fornitore. La pagina **Analisi - Tutte le società** utilizza le funzionalità di Microsoft Power BI per visualizzare le rappresentazioni correlate alle fatture fornitore.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Impostare l'area di lavoro per visualizzare il contenuto Power BI
 
-È necessario completare questa configurazione prima che i dati possano essere visualizzati nelle visualizzazioni Power BI nell'area di lavoro **Inserimento fatture fornitore**.
+È necessario completare questa configurazione prima che i dati possano essere visualizzati nelle visualizzazioni Power BI nell'area di lavoro **Automazione fattura fornitore**.
 
 1. Nell'area di lavoro **Gestione delle funzionalità**, filtrare l'elenco per trovare la funzionalità **Automazione fatture fornitore**.
 3. Selezionare **Abilita ora**.
@@ -56,20 +54,20 @@ Per visualizzare le informazioni visualizzate nell'area di lavoro, è necessario
 
 ### <a name="company-selection"></a>Selezione società
 
-Quando la funzionalità **Automatizza fatture fornitore** è attivata, il campo **Società** viene visualizzato nella parte superiore dell'area di lavoro. La selezione del campo **Società** influisce su tutte le informazioni visualizzate nell'area di lavoro. Per impostazione predefinita, la vista mostra le informazioni per l'azienda a cui è stato effettuato l'accesso. Selezionando una società diversa nel campo **Società** è possibile visualizzare le informazioni per quella società nell'area di lavoro. È quindi possibile selezionare un riquadro nell'area di lavoro per andare alla pagina correlata nella società selezionata.
+Quando la funzionalità **Automazione fattura fornitore** è attivata, il campo **Società** viene visualizzato nella parte superiore dell'area di lavoro. La selezione del campo **Società** influisce su tutte le informazioni visualizzate nell'area di lavoro. Per impostazione predefinita, la vista mostra le informazioni per l'azienda a cui è stato effettuato l'accesso. Selezionando una società diversa nel campo **Società** è possibile visualizzare le informazioni per quella società nell'area di lavoro. È quindi possibile selezionare un riquadro nell'area di lavoro per andare alla pagina correlata nella società selezionata.
 
 ### <a name="summary-tiles"></a>Sezioni Riepilogo
 
 I riquadri nella sezione **Riepilogo fatture in sospeso** della visualizzazione **Lavoro personale** forniscono una panoramica dello stato delle fatture del fornitore. È possibile visualizzare i giornali di registrazione non ancora registrati e le fatture in sospeso. Inoltre, ci sono i quattro riquadri associati alla funzione di automazione delle fatture fornitore:
 
-- Abbinamento ricezione manuale necessario
-- Convalida abbinamento non riuscita
-- Fatture non inviate al flusso di lavoro
-- Fatture non importate
+- **Abbinamento ricezione manuale necessario**
+- **Convalida abbinamento non riuscita**
+- **Fatture non inviate al flusso di lavoro**
+- **Fatture non importate**
 
-(Questi quattro riquadri richiedono che la funzione di automazione della fattura fornitore sia attivata nella gestione delle funzionalità.)
+(Questi quattro riquadri richiedono che la funzione di automazione della fattura fornitore sia attivata in **Gestione funzionalità**.)
 
-Per utilizzare il riquadro **Recupera fatture fornitore** la funzione deve essere attivata nei parametri della contabilità fornitori. Andare a **Contabilità fornitori \> Parametri contabilità fornitori** e quindi nella scheda **Fattura** impostare l'opzione **Consenti recupero fattura fornitore** su **Sì**.
+Per utilizzare il riquadro **Recupera fatture fornitore** la funzione deve essere attivata in **Parametri contabilità fornitori**. Andare a **Contabilità fornitori \> Parametri contabilità fornitori** e quindi nella scheda **Fattura** impostare l'opzione **Consenti recupero fattura fornitore** su **Sì**.
 
 Quando la funzione è attiva, verranno raggruppati anche tre riquadri nell'area di lavoro in una sezione chiamata **Giornali di registrazione**. I riquadri sono intitolati **Giornali di registrazione**, **Giornali di registrazione - Assegnati all'utente corrente** e **Pool di fatture**. 
 

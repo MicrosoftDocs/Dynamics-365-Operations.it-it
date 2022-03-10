@@ -1,32 +1,34 @@
 ---
 title: Genera rapporti Affordable Care Act nella gestione dei vantaggi
-description: Questo argomento descrive come la gestione dei benefici ti aiuta a tenere traccia delle informazioni riportate nel modulo 1.095-B e nel modulo 1.095-C per il mandato del datore di lavoro Affordable Care Act (ACA).
-author: andreabichsel
-ms.date: 12/28/2020
+description: Questo argomento descrive come la gestione dei benefici tiene traccia delle informazioni che sono riportate sul modulo 1095-B e sul modulo 1095-C per il mandato del datore di lavoro dell'Affordable Care Act (ACA).
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a41195ea3b52a707ce9deae38f12eb90de2ff5aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79bd8e02aeac1be94e735373740cf9508f494a06
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805804"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8065995"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Genera rapporti ACA nella gestione dei vantaggi
 
+
+[!INCLUDE [PEAP](../includes/peap-2.md)]
+
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La gestione dei benefici ti aiuta a tenere traccia delle informazioni riportate nel modulo 1.095-B e nel modulo 1.095-C per il mandato del datore di lavoro Affordable Care Act (ACA). Come la capacità di reporting ACA nella vecchia area di lavoro **Benefici**, questa funzionalità si applica solo alle persone giuridiche negli Stati Uniti.
+La gestione dei benefici traccia le informazioni che sono riportate sul modulo 1095-B e sul modulo 1095-C per il mandato del datore di lavoro dell'Affordable Care Act (ACA). Come la capacità di reporting ACA nella vecchia area di lavoro **Benefici**, questa funzionalità si applica solo alle persone giuridiche negli Stati Uniti.
 
 Per utilizzare questa funzionalità, è necessario prima attivarla in **Gestione avanzata dei vantaggi**. Per ulteriori informazioni, comprese importanti avvertenze sulla gestione dei vantaggi, vedi [Abilita o disabilita la gestione dei vantaggi](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -49,15 +51,15 @@ I gruppi di copertura Affordable Care ti aiutano a gestire queste informazioni p
 
 1. Nell'area di lavoro **Gestione dei vantaggi**, seleziona **Gruppo di copertura Affordable Care**.
 
-    ![Selezione del gruppo di copertura Affordable Care](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Selezione del gruppo di copertura Affordable Care.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Seleziona **Nuovo** per creare un nuovo gruppo di copertura Affordable Care o **Modifica** per modificare un gruppo esistente.
 
-    ![Selezione di Nuovo o Modifica](./media/hr-benefits-management-aca-new.png)
+    ![Selezione di Nuovo o Modifica.](./media/hr-benefits-management-aca-new.png)
 
 3. Impostare i seguenti campi.
 
-    | Campo | Descrizione |
+    | Campo | descrizione |
     |---|---|
     | Nome | Immetti un nome per il gruppo. |
     | Descrizione | Immettere una descrizione del gruppo. |
@@ -68,7 +70,7 @@ I gruppi di copertura Affordable Care ti aiutano a gestire queste informazioni p
     | Gruppo valido da | La prima data in cui questo record è valido. |
     | Gruppo valido fino a | L'ultima data in cui questo record è valido. Se non c'è una data di scadenza, inserisci **Mai**. |
 
-    ![Creazione di un gruppo di copertura](./media/hr-benefits-management-aca-new-group.png)
+    ![Creazione di un gruppo di copertura.](./media/hr-benefits-management-aca-new-group.png)
 
 4. Selezionare **Salva**.
 
@@ -78,11 +80,11 @@ I gruppi di copertura Affordable Care ti aiutano a gestire queste informazioni p
 2. Seleziona il gruppo a cui assegnare i dipendenti.
 3. Seleziona **Assegnazione di massa**.
 
-    ![Selezione dell'assegnazione di massa](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Selezione dell'assegnazione di massa.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Seleziona i dipendenti nell'elenco, quindi seleziona **Assegna**.
 
-    ![Assegnazione dei dipendenti selezionati a un gruppo](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Assegnazione dei dipendenti selezionati a un gruppo.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Mantenimento di più versioni di opzioni di copertura
 
@@ -112,12 +114,12 @@ Per inserire eccezioni per qualsiasi valore di un gruppo di copertura Affordable
 2. Selezionare il dipendente dall'elenco.
 3. Nella scheda **Impiego**, nella sezione **Ulteriori informazioni**, seleziona **Copertura Affordable Care**.
 
-    ![Modifica delle opzioni per un dipendente](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Modifica delle opzioni per un dipendente.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Seleziona **Modifica**.
 5. Per ogni mese che richiede modifiche, seleziona la casella di controllo **Ignora predefinito**, quindi modifica gli altri valori come richiesto.
 
-    ![Sovrascrittura dei valori predefiniti](./media/hr-benefits-management-aca-override-default.png)
+    ![Sovrascrittura dei valori predefiniti.](./media/hr-benefits-management-aca-override-default.png)
 
 6. Selezionare **Salva**.
 
@@ -132,7 +134,7 @@ Per indicare se è necessario segnalare un piano di benefit, attieniti alla segu
 3. Seleziona **Modifica**.
 4. Impostare l'opzione **Segnalato in Affordable Care Act** su **Sì**.
 
-    ![Report di copertura delle spese mediche](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Report di copertura delle spese mediche.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Selezionare **Salva**.
 
@@ -146,25 +148,25 @@ Puoi inoltre generare i moduli ACA 1.095-B e 1.095-C, quindi distribuirli a cias
 2. Modifica i parametri in base alle esigenze, quindi seleziona **OK**.
 
     > [!NOTE]
-    > Quando si stampano moduli 1.095-C per più di 500 dipendenti, si riceveranno più di un file PDF. Ti consigliamo di aumentare il valore del campo **Dimensioni massime del file in megabyte** nella pagina **Parametri di gestione dei documenti** su **150**. Per aprire rapidamente quella pagina, puoi utilizzare il campo di ricerca sulla barra di navigazione.
+    > Quando si stampano moduli 1.095-C per più di 500 dipendenti, si riceveranno più di un file PDF. Ti consigliamo di aumentare il valore del campo **Dimensioni massime del file in megabyte** nella pagina **Parametri di gestione dei documenti** su **150**. (Per aprire rapidamente quella pagina, usa il campo di ricerca sulla barra di navigazione)
     >
-    > ![Modifica delle dimensioni massime del file](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Modifica delle dimensioni massime del file.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Per controllare lo stato dei tuoi report e visualizzarli, utilizza il campo di ricerca sulla barra di navigazione per aprire la pagina **Processi di creazione report elettronici**.
 
-    ![Ricerca della pagina dei lavori di creazione di report elettronici](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Ricerca della pagina dei lavori di creazione di report elettronici.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Seleziona il report da visualizzare, quindi seleziona **Visualizza file**.
 
-    ![Visualizzazione dei file](./media/hr-benefits-management-aca-show-files.png)
+    ![Visualizzazione dei file.](./media/hr-benefits-management-aca-show-files.png)
 
 5. Selezionare **Apri**.
 
-    ![Apertura di un file](./media/hr-benefits-management-aca-open-file.png)
+    ![Apertura di un file.](./media/hr-benefits-management-aca-open-file.png)
 
 6. Dalla barra di notifica che appare nella parte inferiore della finestra del browser, apri il file zip, quindi seleziona il report. Puoi visualizzare o stampare il file PDF.
 
-    ![Modulo 1.095-C di esempio](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Modulo 1.095-C di esempio.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>Visualizza le informazioni sulla copertura ACA
 
@@ -179,7 +181,7 @@ Per visualizzare queste informazioni, attenersi alla seguente procedura.
 1. Nell'area di lavoro **Gestione dei vantaggi**, seleziona **Copertura Affordable Care del lavoratore**.
 2. Nel campo **Nome gruppo** seleziona un gruppo.
 
-    ![Visualizzazione della copertura ACA](./media/hr-benefits-management-aca-view-coverage.png)
+    ![Visualizzazione della copertura ACA.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Se uno qualsiasi dei valori predefiniti del gruppo di copertura Affordable Care viene sovrascritto, un asterisco verrà visualizzato accanto al valore modificato. Se i valori per tutti i 12 mesi sono uguali e non sono stati ignorati, il valore verrà visualizzato nella colonna **Tutti i 12 mesi**.
 
@@ -199,11 +201,11 @@ Per esportare uno qualsiasi degli elenchi in Microsoft Excel, segui questi passa
 
 Se devi segnalare le persone coperte perché fornisci una copertura autoassicurata, puoi visualizzare le persone a carico che sono coperte da piani di benefit che sono contrassegnati come **ACA segnalabile**. Nel riquadro azioni, seleziona **Visualizza copertura dipendente**.
 
-![Visualizzazione della copertura dipendente](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Visualizzazione della copertura dipendente.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 Vengono visualizzate le informazioni sulla copertura per le persone a carico del dipendente.
 
-![Copertura dei dipendenti](./media/hr-benefits-management-aca-dependents.png)
+![Copertura dei dipendenti.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > La pagina mostra solo i piani di benefit contrassegnati come **Segnalabile ACA**.

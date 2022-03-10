@@ -1,7 +1,7 @@
 ---
 title: Installare, configurare e aggiornare il portale clienti
 description: Questo argomento fornisce dettagli sulle licenze e istruzioni per la configurazione del portale clienti.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
@@ -9,19 +9,20 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 187efe1372bf2400241f3d65751189247c001447
+ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907817"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060615"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Installare, configurare e aggiornare il portale clienti
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+[!include [banner](../includes/banner.md)]
+
 
 ## <a name="licensing-requirements"></a>Requisiti di licenza
 
@@ -34,13 +35,13 @@ Per implementare il portale clienti, è necessario disporre delle seguenti licen
 
 Il portale clienti dipende dai portali Power Apps e dalla doppia scrittura, come mostrato nella figura seguente.
 
-![Dipendenze del portale clienti](media/customer-portal-elements.png "Dipendenze del portale clienti")
+![Dipendenze del portale clienti.](media/customer-portal-elements.png "Dipendenze del portale clienti")
 
 A differenza di altre funzionalità di Supply Chain Management, il modello di portale clienti risiede nei portali Power Apps. Pertanto, il portale clienti è limitato dalle funzionalità fornite dai portali  Power Apps e dalle tabelle in doppia scrittura.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configurazione richiesta per abilitare il portale clienti
 
-Dopo aver verificato di disporre delle licenze necessarie, è possibile configurare la doppia scrittura come descritto in [Istruzioni di sincronizzazione iniziale con doppia scrittura](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
+Dopo aver verificato di disporre delle licenze necessarie, è possibile configurare la doppia scrittura come descritto in [Istruzioni di sincronizzazione iniziale con doppia scrittura](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
 Assicurarsi di abilitare i seguenti mapping di tabelle in doppia scrittura:
 

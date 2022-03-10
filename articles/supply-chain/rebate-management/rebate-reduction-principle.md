@@ -13,13 +13,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
-ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 069a214c3e0a755b677e93d03ebd73718ff44d8ab2dce173faa099864a0ca285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: e6b178704fde18036d526e7a645cb9b4f8bd66c7
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725652"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579066"
 ---
 # <a name="rebate-reduction-principles"></a>Principi di riduzione degli sconti
 
@@ -47,11 +47,11 @@ La tabella seguente mostra alcuni esempi tipici di impostazioni del principio di
 
 | Principio di riduzione degli sconti | descrizione | Applicare la riduzione | Base di riduzione | Escludere dalla riduzione |
 |---|---|---|---|---|
-| Differito | Riduci sconto | Sì | Entrambi | Nessuno |
+| Differito | Riduci sconto | Sì | Entrambi | No |
 | Exclreb | Escludi sconto | Sì | Sconto | Sì |
 | Multiplo | Sconti multipli | Sì | Entrambi | Sì |
-| Nessuna priorità | Solo accantonamento e sconto | Nessuno | Entrambi | Sì |
-| Esegui provisioning | Solo accantonamento | Sì | Esegui provisioning | Nessuno |
+| Nessuno | Solo accantonamento e sconto | No | Entrambi | Sì |
+| Esegui provisioning | Solo accantonamento | Sì | Esegui provisioning | No |
 | Sconto | Solo sconto | Sì | Sconto | Sì |
 
 ## <a name="examples-of-rebate-reduction-principle-calculations"></a>Esempi di calcoli del principio di riduzione dello sconto

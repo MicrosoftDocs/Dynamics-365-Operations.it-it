@@ -1,25 +1,23 @@
 ---
 title: Impostazione dei parametri di Gestione crediti
 description: Questo argomento descrive le opzioni che è possibile utilizzare per configurare Gestione crediti e soddisfare i requisiti della propria azienda.
-author: mikefalkner
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 126cae03228b1fb49ded877af69643ec8676c1ec
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d8bc4f0a981b75c1b65d51aa1d8fada9c2187e22
+ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5242885"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323412"
 ---
 # <a name="credit-management-parameters-setup"></a>Impostazione dei parametri di Gestione crediti
 
@@ -33,7 +31,7 @@ Sono disponibili quattro schede dettaglio nella sezione **Credito** in cui è po
 
 ### <a name="credit-holds"></a>Blocchi credito
 
-- Impostare l'opzione **Consenti modifica del valore ordine cliente dopo il rilascio della sospensione dell'ordine** su **No** per richiedere che le regole di registrazione vengano nuovamente controllate se il valore dell'ordine cliente (prezzo esteso) è stato aumentato dal momento in cui l'ordine cliente è stato rilasciato dall'elenco di sospensioni. .
+- Impostare l'opzione **Consenti modifica del valore ordine cliente dopo il rilascio della sospensione dell'ordine** su **No** per richiedere che le regole di registrazione vengano nuovamente controllate se il valore dell'ordine cliente (prezzo esteso) è stato aumentato dal momento in cui l'ordine cliente è stato rilasciato dall'elenco di sospensioni.
 - Nel campo **Motivi per ordini annullati**, selezionare il motivo del rilascio che verrà utilizzato per impostazione predefinita quando un ordine cliente in attesa della gestione del credito viene annullato.
 - Impostare l'opzione **Verifica limite di credito di gruppi di crediti cliente** su **Sì** per controllare il limite di credito di un gruppo di crediti cliente quando il cliente in un ordine cliente appartiene a un gruppo di crediti cliente. Il limite di credito per il gruppo verrà verificato e quindi, se è sufficiente, verrà verificato il limite di credito per il cliente.
 - Impostare l'opzione **Verifica limite di credito quando vengono aumentati i termini di pagamento** su **Sì** per controllare la classificazione dei termini di pagamento e determinare se i termini di pagamento nell'ordine cliente differiscono dai termini di pagamento predefiniti per il cliente. Se i nuovi termini di pagamento hanno una classificazione superiore rispetto ai termini di pagamento originali, l'ordine viene messo in attesa per la gestione del credito.
@@ -52,7 +50,8 @@ Sono disponibili quattro schede dettaglio nella sezione **Credito** in cui è po
 
 Se non si specifica il numero di giorni di tolleranza, le regole di credito verranno verificate a ogni fase di registrazione impostata per l'esecuzione delle regole di gestione dei crediti. Se si rilascia l'ordine cliente senza registrazione e si esegue nuovamente la stessa fase di elaborazione dell'ordine, le regole di credito verranno nuovamente controllate. Ad esempio, un ordine viene messo in attesa dopo una conferma e lo si rilascia con o senza registrazione. In questo caso, l'ordine verrà nuovamente messo in attesa se viene confermato di nuovo. Utilizzare i giorni di tolleranza se l'ordine deve passare alla fase di elaborazione successiva senza essere messo di nuovo in attesa.
 
-È possibile specificare i giorni di tolleranza per alcuni checkpoint di registrazione, ma non per altri. È necessario impostare tutti i checkpoint di registrazione di modo che abbiano o meno giorni di tolleranza.
+> [!Note]
+> Se un checkpoint di registrazione ha un giorno di tolleranza, tutti i checkpoint contrassegnati per la registrazione devono avere giorni di tolleranza.
 
 - Selezionare la casella di controllo **Registrazione** per eseguire le regole di gestione di crediti quando viene eseguito il checkpoint di registrazione visualizzato nella riga. Se non si seleziona la casella di controllo, le regole verranno verificate una sola volta durante l'intero processo di registrazione.
 - Se si seleziona la casella di controllo **Registrazione**, specificare il numero di giorni di tolleranza che devono trascorrere prima che le regole di blocco vengano nuovamente controllate. Non è possibile aggiungere giorni di tolleranza se la casella di controllo **Registrazione** è deselezionata.
@@ -74,6 +73,10 @@ Diverse statistiche sulla gestione dei crediti sono incluse nella scheda dettagl
 
 - In Gestione crediti, il limite di credito cliente viene mostrato nella valuta del cliente. È necessario definire il tipo di tasso di cambio per il limite di credito nella valuta del cliente. Nel campo **Tipo di tasso di cambio limite di credito**, selezionare il tipo di tasso di cambio da utilizzare per convertire il limite di credito primario in limite di credito del cliente.
 - Impostare l'opzione **Consenti modifica manuale dei limiti di credito** su **No** per impedire agli utenti di modificare i limiti di credito nella pagina **Cliente**. Se questa opzione è impostata su **No**, le modifiche al limite di credito di un cliente possono essere effettuate solo registrando le transazioni di correzione del limite di credito.
+- Imposta l'opzione **Ignora prenotazioni scorte** su **sì** per ignorare le prenotazioni scorte quando vengono controllate le regole di blocco della gestione del credito. In questo caso, il sistema controlla le quantità di riga completate e abilita i periodi di tolleranza del punto di controllo, indipendentemente dalla quantità di prenotazione scorte.
+- Quando la gestione del credito è abilitata, l'impostazione del campo **Messaggio in caso di superamento del limite di credito** viene utilizzato per elaborare solo le fatture a testo libero. Sebbene i messaggi vengano ancora aggiunti agli ordini cliente quando i clienti superano il limite di credito, la presenza di tali messaggi non bloccherà la conferma, la stampa di elenchi di prelievo e documenti di trasporto o la registrazione delle fatture.
+
+    La gestione del credito è abilitata per impostazione predefinita, ma puoi disabilitarla. Se è abilitata, utilizza le regole di blocco della gestione del credito e i checkpoint per identificare quando i clienti hanno superato il limite di credito. Se è disabilitata, i messaggi che vengono aggiunti agli ordini cliente in base all'impostazione del campo **Messaggio in caso di superamento del limite di credito** può aiutarti a identificare quando i clienti hanno superato il limite di credito.
 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Sequenze numeriche e parametri di sequenza numerica condivisi
 

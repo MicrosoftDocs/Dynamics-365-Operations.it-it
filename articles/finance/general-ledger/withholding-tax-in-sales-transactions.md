@@ -2,11 +2,9 @@
 title: Ritenuta d'acconto in transazioni di vendita
 description: Questo argomento elenca i passaggi per evitare il calcolo della ritenuta d'acconto per i clienti selezionati. Per i clienti che specificano la ritenuta d'acconto nei loro pagamenti, è possibile assegnare il gruppo di ritenuta d'acconto predefinito.
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: c50f6df1c63c91107da65f463934565f786d6ccd
-ms.sourcegitcommit: 630a0b3f800f36ced49b79156dd52132904fef75
+ms.openlocfilehash: b221fc04ef82f148846fc0c282f6c8601f0eb4759d99a8dee02256cc0d42417f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/25/2021
-ms.locfileid: "5060756"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747085"
 ---
 # <a name="withholding-tax-in-sales-transactions"></a>Ritenuta d'acconto in transazioni di vendita
 
@@ -63,3 +61,6 @@ Il Gruppo ritenute d'acconto e il Gruppo ritenuta d'acconto articolo predefiniti
 La ritenuta d'acconto viene calcolata e registrata con **Giornale di registrazione pagamenti cliente**. Puoi modificare manualmente il codice della ritenuta d'acconto applicabile, nonché l'importo effettivo della ritenuta d'acconto nella scheda **Ritenuta d'acconto** nella pagina **Liquida transazioni**.
 
 L'importo della ritenuta d'acconto calcolato verrà detratto dal pagamento del cliente e registrato nel conto **Compensazione della ritenuta d'acconto** in un voucher correlato.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

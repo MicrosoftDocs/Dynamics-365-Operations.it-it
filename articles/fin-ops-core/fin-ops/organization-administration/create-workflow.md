@@ -2,31 +2,34 @@
 title: Panoramica della creazione di flussi di lavoro
 description: In questo argomento viene illustrato come creare un flusso di lavoro.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 195583
+ms.custom:
+- "195583"
+- intro-internal
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: d1402019dbaaa60827499fcb6b93ee31440cfc3d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
+ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797654"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8067960"
 ---
 # <a name="create-workflows-overview"></a>Panoramica di creazione di flussi di lavoro
 
 [!include [banner](../includes/banner.md)]
+
+
+[!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 In questo argomento viene illustrato come creare un flusso di lavoro.
 
@@ -83,3 +86,6 @@ Per salvare e attivare il flusso di lavoro, attenersi alla procedura indicata di
 
     - Per attivare questa versione del flusso di lavoro, fare clic su **Attiva la nuova versione**. Quando un flusso di lavoro è attivo, l'utente è in grado di inviare documenti per l'elaborazione.
     - Se non si desidera attivare questa versione, fare clic su **Non attivare la nuova versione**. Sarà possibile attivare il flusso di lavoro in un secondo momento.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

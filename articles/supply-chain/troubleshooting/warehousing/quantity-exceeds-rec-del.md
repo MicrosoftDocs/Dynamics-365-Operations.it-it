@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 66d9cd80cc61e00d1d88ab4f59d03054d746cdd9
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: ec5e0ac8dd097e5ebf016683fc5c17df7ecb2305
+ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6249127"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920400"
 ---
 # <a name="quantity-that-youre-trying-to-update-exceeds-the-receiveddelivered-quantity"></a>La quantità che stai tentando di aggiornare supera la quantità ricevuta/consegnata
 
@@ -62,8 +62,8 @@ Utilizza la seguente procedura per rettificare la quantità della riga di carico
 
 1. Passare a **Gestione magazzino \> Carichi \> Tutti i carichi**.
 1. Seleziona il carico per il quale non è possibile generare il documento di trasporto.
-1. Nel riquadro azioni, nella scheda  **Spedisci e ricevi** nel gruppo  **Storna** seleziona  **Storna conferma spedizione**.
-1. Nella scheda  **Righe carico** seleziona la riga di carico per l'articolo che causa il problema.
+1. Nel riquadro azioni, nella scheda **Spedisci e ricevi** nel gruppo **Storna** seleziona **Storna conferma spedizione**.
+1. Nella scheda **Righe carico** seleziona la riga di carico per l'articolo che causa il problema.
 1. Seleziona **Riduci quantità prelevata** per rettificare la quantità prelevata.
 1. Imposta il campo **Riduci riga di carico** per riflettere le rettifiche sulla riga di carico.
 
@@ -75,5 +75,5 @@ Utilizza la seguente procedura per stornare la registrazione del prelievo.
 
 1. Vai a **Contabilità clienti \> Ordini \> Tutti gli ordini**.
 1. Selezionare l'ordine cliente per il quale non è possibile registrare un documento di trasporto per il carico.
-1. Nella scheda  **Righe ordine cliente** seleziona la riga dell'ordine cliente per cui è stata eseguita la registrazione del prelievo.
+1. Nella scheda **Righe ordine cliente** seleziona la riga dell'ordine cliente per cui è stata eseguita la registrazione del prelievo.
 1. Seleziona **Aggiorna riga \> Prelievo** per annullare il prelievo degli articoli.

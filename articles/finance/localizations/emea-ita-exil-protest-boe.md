@@ -1,7 +1,7 @@
 ---
 title: Importazione di protesti effetti attivi
 description: Questo argomento spiega come impostare e importare le informazioni di protesto da un file di protesto effetto attivo.
-author: neserovleo
+author: anasyash
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 6ec7cdb37b51cac2492ed875e8d8fae601d89ccb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d10a4d03ca584ce866af9b1e2f14638a2ae55a19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814930"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592642"
 ---
 # <a name="bills-of-exchange-protest-import"></a>Importazione di protesti effetti attivi 
 
@@ -31,7 +31,7 @@ Questo argomento spiega come impostare e importare le informazioni di protesto d
 Prima di poter utilizzare la funzionalità di importazione del protesto effetto attivo, devono essere soddisfatti i seguenti prerequisiti:
 
 - L'indirizzo principale della persona giuridica deve essere in Italia.
-- La funzione di gestione di protesti per effetti attivi deve essere attivata nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-and-ops/get-started/feature-management/feature-management-overview.md).
+- La funzione di gestione di protesti per effetti attivi deve essere attivata nell'area di lavoro **Gestione delle funzionalità**. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="import-electronic-reporting-configurations"></a>Importare configurazioni per la creazione di report elettronici
 

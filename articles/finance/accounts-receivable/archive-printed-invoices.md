@@ -1,11 +1,10 @@
 ---
 title: Archiviare le fatture cliente stampate con numeri hash
 description: In questo argomento viene descritto come abilitare l'archiviazione per archiviare le fatture cliente stampate con numeri hash.
-author: ilyako
-ms.date: 03/05/2021
+author: ilkond
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,18 +15,16 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5b0305381ee709ce52b18d171a1ea274e2126cce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 093b1b8c516c0c659e7970d17d3f84b2ed0ccf8f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827700"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500529"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Archiviare le fatture cliente stampate con numeri hash
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 In alcuni paesi, esiste un requisito legale per memorizzare i numeri hash calcolati nel sistema insieme alla stampa di alcuni documenti. I numeri hash possono essere utilizzati per il reporting alle autorità e durante gli audit.
 
@@ -61,5 +58,5 @@ Completare i seguenti passaggi per configurare i dati del cliente e attivare la 
 
 Aprire la pagina **Allegati** per la fattura stampata. Nella Scheda dettaglio **Allegato**, nel gruppo di campi **Dettagli aggiuntivi**, nel campo **Numero hash documento** trovare il numero hash memorizzato calcolato per la fattura stampata.
 
-![Numero hash allegato](media/attach-hash-num.jpg)
+![Numero hash allegato.](media/attach-hash-num.jpg)
 

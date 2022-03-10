@@ -1,12 +1,10 @@
 ---
 title: Stato della manutenzione
 description: In questo argomento viene illustrato come calcolare lo stato della manutenzione in Gestione cespiti.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetStatusCalculate, EntAssetStatus
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f65bfc7b5ef9651853a12bab2ed83dbb8562ba6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 138e2e72fbf761d209d288c2bd778c08519b9c69b0715f4466d4838255a2a31e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253736"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752011"
 ---
 # <a name="maintenance-status"></a>Stato della manutenzione
 
@@ -59,13 +57,13 @@ In Gestione cespiti, è possibile eseguire un calcolo per un periodo specifico p
 
 Nella schermata seguente, i pulsanti **Mese** e **Anno** sono stati attivati. Con le opzioni **Raggruppa per** selezionate, si ha una panoramica generale su base mensile del carico di lavoro e della produttività relativi alle richieste di intervento di manutenzione e agli ordini di lavoro. 
 
-![Esempio del carico di lavoro mensile](media/13-controlling-and-reporting.png)
+![Esempio di carico di lavoro mensile.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Esempio 2
 
 Nella schermata seguente, sono state aggiunte le informazioni sulle unità funzionali. A questo punto, è possibile confrontare il carico di lavoro e la produttività nelle unità funzionali, che possono rappresentare le ubicazioni geografiche, gli stabilimenti o le aree di lavoro. 
 
-![Esempio del carico di lavoro mensile con unità funzionali](media/14-controlling-and-reporting.png)
+![Esempio di carico di lavoro mensile con unità funzionali.](media/14-controlling-and-reporting.png)
 
 
 

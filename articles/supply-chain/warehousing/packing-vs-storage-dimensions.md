@@ -2,11 +2,9 @@
 title: Impostare dimensioni diverse per l'imballaggio e l'immagazzinamento
 description: In questo argomento viene illustrato come specificare il processo (imballaggio, immagazzinamento o imballaggio nidificato) per cui viene utilizzata ciascuna dimensione specificata.
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -15,18 +13,17 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
-ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 0e8ce576f21f1f5ea5f3acb7d43bbe68826e6f39
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501296"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580074"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Impostare dimensioni diverse per l'imballaggio e l'immagazzinamento
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Alcuni articoli sono imballati o sotccati in modo tale che potrebbe essere necessario tener traccia delle dimensioni fisiche in modo diverso per ciascuno dei diversi processi. La funzionalità *Dimensioni prodotto di imballaggio* consente di configurare uno o più tipi di dimensioni per ogni prodotto. Ogni tipo di dimensione fornisce una serie di misure fisiche (peso, larghezza, profondità e altezza) e stabilisce il processo in cui si applicano tali valori di misura fisica. Quando questa fnzionalità è abilitata, il sistema supporterà i seguenti tipi di dimensioni:
 
