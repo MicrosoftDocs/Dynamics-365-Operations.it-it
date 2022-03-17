@@ -2,7 +2,7 @@
 title: Progettare una configurazione per generare documenti in uscita in formato Excel
 description: Questo argomento descrive come progettare un formato di report elettronico (ER) per compilare un modello Excel e quindi generare documenti in formato Excel in uscita.
 author: NickSelin
-ms.date: 01/05/2022
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b1c83894d93789a270ed4521ba7f80da70285ac
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952654"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388265"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -83,31 +83,48 @@ Nella scheda **Mappatura** della progettazione dell'operazione ER, puoi configur
 
 ## <a name="range-component"></a>Componente Intervallo
 
-Il componente **Intervallo** indica un intervallo Excel che deve essere controllato da questo componente ER. Il nome dell'intervallo è definito nella proprietà **Excel range** di questo componente.
-
-### <a name="replication"></a>Replica dati
-
-La proprietà **Replication direction** specifica se e come verrà ripetuto l'intervallo in un documento generato:
-
-- Se la proprietà **Replication direction** è impostata su **Nessuna replica**, l'intervallo Excel appropriato non verrà ripetuto nel documento generato.
-- Se la proprietà **Replication direction** è impostata su **Verticale**, l'intervallo Excel appropriato verrà ripetuto nel documento generato. Ciascun intervallo replicato viene inserito al di sotto dell'intervallo originale in un modello di Excel. Il numero di ripetizioni è definito dal numero di record in un'origine dati di tipo **Elenco di record** associato a questo componente ER.
-- Se la proprietà **Replication direction** è impostata su **Orizzontale**, l'intervallo Excel appropriato verrà ripetuto nel documento generato. Ciascun intervallo replicato viene inserito a destra dell'intervallo originale in un modello di Excel. Il numero di ripetizioni è definito dal numero di record in un'origine dati di tipo **Elenco di record** associato a questo componente ER.
-
-Per ulteriori informazioni sulla replica orizzontale, segui i passaggi [Utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel](tasks/er-horizontal-1.md).
-
 ### <a name="nested-components"></a>Componenti annidati
 
-Il componente **Intervallo** può avere altri componenti ER nidificati che vengono utilizzati per immettere valori negli intervalli denominati Excel appropriati.
+#### <a name="data-typing"></a>Digitazione dei dati
+
+Il componente **Intervallo** può avere altri componenti ER nidificati che vengono utilizzati per immettere valori negli intervalli appropriati.
 
 - Se qualche componente del gruppo **Testo** viene utilizzato per immettere valori, il valore viene inserito in un intervallo di Excel come valore di testo.
 
     > [!NOTE]
     > Utilizza questo modello per formattare i valori immessi in base alle impostazioni internazionali definite nell'applicazione.
 
-- Se il componente **Cella** del gruppo **Excel** viene utilizzato per immettere valori, il valore viene inserito in un intervallo di Excel come valore del tipo di dati definito dall'associazione del componente **Cella** (ad esempio, **Stringa**, **Reale** o **Intero**).
+- Se il componente **Cella** del gruppo **Excel** viene utilizzato per immettere valori, il valore viene inserito in un intervallo di Excel come valore del tipo di dati definito dall'associazione del componente **Cella**. Ad esempio, il tipo di dati potrebbe essere **Stringa**, **Reale** o **Intero**.
 
     > [!NOTE]
     > Utilizza questo modello per abilitare l'applicazione Excel a formattare i valori immessi in base alle impostazioni internazionali del computer locale che apre il documento in uscita.
+
+#### <a name="row-handling"></a>Movimentazione materie prime
+
+Il componente **Intervallo** può essere configurato come replicato verticalmente, in modo che più righe vengano generate in un foglio di lavoro di Excel. Le righe possono essere generate dal componente **Intervallo** padre o dai relativi componenti **Intervallo** annidati.
+
+Nella versione 10.0.26 e successive, puoi forzare un foglio di lavoro generato a mantenere le righe generate sulla stessa pagina. Nella finestra di progettazione del formato ER, imposta l'opzione **Mantieni righe insieme** su **Sì** per il componente **Intervallo** padre nel formato ER modificabile. ER proverà quindi a mantenere tutto il contenuto generato da quell'intervallo sulla stessa pagina. Se l'altezza del contenuto supera lo spazio rimanente nella pagina corrente, verrà aggiunta un'interruzione di pagina e il contenuto inizierà nella parte superiore della nuova pagina successiva.
+
+> [!NOTE]
+> È consigliabile configurare l'opzione **Mantieni righe insieme** solo per intervalli che coprono l'intera larghezza di un documento generato.
+>
+> L'opzione **Mantieni righe insieme** è applicabile solo ai componenti **Excel \> File** configurati per utilizzare un modello di cartella di lavoro di Excel.
+>
+> L'opzione **Mantieni righe insieme** può essere utilizzata solo quando la funzionalità **Abilita l'utilizzo della libreria EPPlus nel framework di creazione di report elettronici** è abilitata.
+>
+> Questa funzionalità può essere utilizzata per i componenti **Intervallo** che risiedono sotto il componente **Pagina**. Tuttavia, non vi è alcuna garanzia che i [totali del piè di pagina](er-paginate-excel-reports.md#add-data-sources-to-calculate-page-footer-totals) verranno calcolati correttamente utilizzando le origini dati [Raccolta dati](er-data-collection-data-sources.md).
+
+Per informazioni su come utilizzare questa opzione, segui i passaggi di esempio in [Progettare un formato ER per tenere insieme le righe sulla stessa pagina di Excel](er-keep-excel-rows-together.md).
+
+### <a name="replication"></a>Replica dati
+
+La proprietà **Replication direction** specifica se e come verrà ripetuto l'intervallo in un documento generato:
+
+- **Nessuna replica** – L'intervallo di Excel appropriato non verrà ripetuto nel documento generato.
+- **Verticale** – L'intervallo di Excel appropriato verrà ripetuto verticalmente nel documento generato. Ciascun intervallo replicato viene inserito al di sotto dell'intervallo originale in un modello di Excel. Il numero di ripetizioni è definito dal numero di record in un'origine dati di tipo **Elenco di record** associato a questo componente ER.
+- **Orizzontale** – L'intervallo di Excel appropriato verrà ripetuto orizzontalmente nel documento generato. Ciascun intervallo replicato viene inserito a destra dell'intervallo originale in un modello di Excel. Il numero di ripetizioni è definito dal numero di record in un'origine dati di tipo **Elenco di record** associato a questo componente ER.
+
+    Per ulteriori informazioni sulla replica orizzontale, segui i passaggi [Utilizzare intervalli espandibili orizzontalmente per aggiungere dinamicamente le colonne in report di Excel](tasks/er-horizontal-1.md).
 
 ### <a name="enabling"></a>Abilitazione
 
@@ -280,12 +297,12 @@ Quando viene generato un documento in uscita in un formato di cartella di lavoro
 
 - Selezionare **Automatico** per ricalcolare tutte le formule dipendenti ogni volta che un documento generato viene aggiunto da nuovi intervalli, celle, ecc.
 
-    >[!NOTE]
+    > [!NOTE]
     > Ciò potrebbe causare un problema di prestazioni per i modelli di Excel che contengono più formule correlate.
 
 - Selezionare **Manuale** per evitare il ricalcolo della formula quando viene generato un documento.
 
-    >[!NOTE]
+    > [!NOTE]
     > Il ricalcolo delle formule viene forzato manualmente quando un documento generato viene aperto per l'anteprima utilizzando Excel.
     > Non utilizzare questa opzione se si configura una destinazione ER che presuppone l'utilizzo di un documento generato senza la sua anteprima in Excel (conversione PDF, invio di e-mail, ecc.) perché il documento generato potrebbe non contenere valori nelle celle che contengono formule.
 

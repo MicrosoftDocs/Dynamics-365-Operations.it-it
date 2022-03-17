@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3030bc7d2501e2162758c94c0dc1a073655c9c0f
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
+ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182520"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8331744"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamenti centralizzati per la contabilità fornitori
 
 [!include [banner](../includes/banner.md)]
 
 Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Questo argomento fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
-
-Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Inoltre, l'organizzazione risparmia tempo, poiché il processo di pagamento viene semplificato.
 
 In un'organizzazione di pagamento centralizzata sono presenti numerose persone giuridiche per le operazioni e ciascuna persona giuridica operativa gestisce le proprie fatture fornitore. I pagamenti per tutte le persone giuridiche operative vengono generati da una singola persona giuridica, nota come persona giuridica del pagamento. Durante il processo di liquidazione, vengono generate le transazioni relative a importi da versare e da ricevere. È possibile specificare quale persona giuridica dell'organizzazione riceve le transazioni di profitto realizzato o di perdita realizzata e la modalità di gestione delle transazioni di sconto di cassa correlate a un pagamento interaziendale. Nella riga del giornale di registrazione pagamenti centralizzato, **Tipo di conto** deve essere impostato su Fornitore. **Tipo di conto di contropartita** deve essere impostato su Banca o Contabilità generale. Il conto bancario deve essere nella società corrente. 
 

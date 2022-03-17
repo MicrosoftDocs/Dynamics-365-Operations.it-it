@@ -2,7 +2,7 @@
 title: Connettere periferiche al POS
 description: Questo argomento illustra come connettere periferiche a Retail POS.
 author: BrianShook
-ms.date: 06/20/2017
+ms.date: 03/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 66912443c25adfae6fa11e6a25c4a97f63a438ba
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779520"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370953"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connettere periferiche al POS
 
@@ -58,21 +58,15 @@ Cloud POS è un POS basato su browser. Dal momento che viene eseguito nel browse
 
 ### <a name="hardware-profile"></a>Profilo hardware
 
-Navigazione: fare clic su **Commercio** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili hardware**.
+Accesso: vai a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**.
 
-Un profilo hardware identifica l'hardware connesso a un registratore di cassa POS o una stazione hardware. Il profilo hardware viene inoltre utilizzato per specificare i parametri del processore di pagamento che devono essere utilizzati durante la comunicazione con il kit di sviluppo software (SDK) per il pagamento. (L'SDK per il pagamento viene distribuito come parte della stazione hardware).
+Un profilo hardware identifica l'hardware connesso a un registratore di cassa POS tramite una stazione hardware condivisa o integrata. Il profilo hardware viene inoltre utilizzato per specificare i parametri del processore di pagamento che devono essere utilizzati durante la comunicazione con il kit di sviluppo software (SDK) per il pagamento. L'SDK per il pagamento viene distribuito come parte della stazione hardware.
 
-### <a name="hardware-station"></a>Hardware Station
+### <a name="hardware-station"></a>Stazione hardware
 
-Navigazione: fare clic su **Retail e Commerce** &gt; **Canali** &gt; **Punti vendita** &gt; **Tutti i punti vendita**. Selezionare un punto vendita, quindi fare clic sulla scheda dettaglio **Stazioni hardware**.
+Accesso: vai a **Vendita al dettaglio e commercio \> Canali \> Punti vendita \> Tutti i punti vendita**, seleziona un punto vendita, quindi seleziona la Scheda dettaglio **Stazioni hardware**.
 
 Una stazione di hardware è un'istanza della logica di business che guida le periferiche POS. Una stazione hardware viene automaticamente installata con MPOS. In alternativa, la stazione hardware può essere installata come componente autonomo e quindi accessibile a MPOS o POS cloud tramite un servizio Web. La stazione hardware deve essere definita a livello di canale.
-
-### <a name="hardware-station-profile"></a>Profilo stazione hardware
-
-Navigazione: fare clic su **Commercio** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili stazione hardware**.
-
-Mentre la stazione hardware in sé specificata al livello del canale include informazioni specifiche dell'istanza, ad esempio l'URL per la stazione hardware, il profilo stazione hardware include informazioni che possono essere statiche o condivise tra più stazioni hardware. Le informazioni statiche includono la porta che deve essere utilizzata, il pacchetto di stazione hardware e il profilo hardware. Le informazioni statiche includono anche una descrizione del tipo di stazione hardware che si sta distribuendo, ad esempio **Check out** o **Resi**, a seconda dell'hardware necessario per ogni stazione hardware specifica.
 
 ## <a name="scenarios"></a>Scenari
 
@@ -84,32 +78,29 @@ Per connettere MPOS a periferiche POS in uno scenario POS fisso tradizionale, pa
 
 Dopo aver assegnato il profilo hardware, sincronizzare le modifiche al database di canale utilizzando la programmazione della distribuzione **Registratori di cassa**. È possibile trovare le programmazioni di distribuzione in **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**. 
 
-Successivamente, impostazione una stazione "locale" sul canale. Fare clic su **Retail e Commerce** &gt; **Canali** &gt; **Punti vendita** &gt; **Tutti i punti vendita** e selezionare un punto vendita. 
+Successivamente, configura una stazione hardware dedicata sul canale. Vai a **Retail e Commerce \> Canali \> Punti vendita \> Tutti i punti vendita** e seleziona un punto vendita. 
 
-Quindi, nella scheda dettaglio **Stazioni hardware**, fare clic su **Aggiungi** per aggiungere una stazione hardware. Immettere una descrizione, immettere **localhost** come nome host e quindi sincronizzare le modifiche al canale utilizzando la programmazione di distribuzione **Configurazione canale**. È possibile trovare le programmazioni di distribuzione in **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**. 
+Quindi, nella scheda dettaglio **Stazioni hardware**, seleziona **Aggiungi** per aggiungere una stazione hardware. Seleziona **Dedicato** come tipo di stazione hardware, quindi immetti una descrizione. Il campo **Profilo hardware** può essere lasciato vuoto, perché il profilo hardware utilizzato in questo scenario proviene dal registro POS stesso. Quindi sincronizza le modifiche con il canale utilizzando la pianificazione della distribuzione **Configurazione canale**. È possibile trovare le programmazioni di distribuzione in **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**. 
 
-Infine, in MPOS, utilizzare l'operazione **Seleziona stazione hardware** per selezionare la stazione hardware **localhost**. Impostare la stazione hardware su **Attivo**. Il profilo hardware utilizzato in questo scenario deve provenire dal registratore di cassa POS stesso. Un profilo di stazione hardware non è necessario per questo scenario.
+Infine, in MPOS, utilizza l'operazione **Seleziona stazione hardware** per selezionare la stazione hardware che corrisponde al valore immesso in precedenza per la descrizione e imposta la stazione hardware su **Attivo**. 
 
 > [!NOTE]
-> Per alcune modifiche al profilo hardware, quali cambiamenti di registratori di cassa, è necessario aprire un nuovo turno dopo che le modifiche sono state sincronizzate al canale.
->
-> POS cloud deve utilizzare la stazione hardware autonoma per comunicare con periferiche.
+> - Per alcune modifiche al profilo hardware, quali cambiamenti di registratori di cassa, è necessario aprire un nuovo turno dopo che le modifiche sono state sincronizzate al canale.
+> - POS cloud deve utilizzare la stazione hardware autonoma per comunicare con periferiche.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS o POS cloud con una stazione hardware autonoma
 
 [![Periferiche condivise.](./media/shared-300x254.png)](./media/shared.png)
 
-In questo scenario, una stazione hardware autonoma viene condivisa con i client MPOS e POS cloud. Per questo scenario è necessario creare un profilo di stazione hardware per specificare il pacchetto di download, la porta e il profilo hardware che utilizza la stazione hardware. Il profilo stazione hardware è disponibile in **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazione POS** &gt; **Profili POS** &gt; **Profili stazione hardware**. 
+In questo scenario, una stazione hardware autonoma viene condivisa con i client MPOS e POS cloud. Per questo scenario è necessario creare una stazione hardware condivisa e specificare il pacchetto di download, la porta e il profilo hardware che utilizza la stazione hardware. Definisci una nuova stazione hardware selezionando la Scheda dettaglio **Stazioni hardware** nel canale specifico (**Vendita al dettaglio e commercio \> Canali \> Punti vendita \> Tutti i punti vendita**) e aggiungendo una nuova stazione hardware del tipo **Condivisa**. 
 
-Dopo aver creato il profilo stazione hardware, passare al canale specifico (**Retail e Commerce** &gt; **Canali** &gt; **Punti vendita** &gt; **Tutti i punti vendita**) e aggiungere una nuova stazione hardware. Mappare la nuova stazione hardware al profilo stazione hardware creato in precedenza. 
+A questo punto, fornire una descrizione che consenta al cassiere di identificare la stazione hardware. Nel campo **Nome host** immettere l'URL del computer host nel seguente formato: `https://<MachineName:Port>/HardwareStation`. Sostituisci **&lt;MachineName:Port&gt;** con il nome effettivo del computer della stazione hardware. Per una stazione hardware autonoma occorre specificare anche l'ID terminale bonifici (EFT). Questo valore identifica il terminale EFT connesso alla stazione hardware quando il connettore pagamenti comunica con il provider di pagamenti. 
 
-A questo punto, fornire una descrizione che consenta al cassiere di identificare la stazione hardware. Nel campo **Nome host** immettere l'URL del computer host nel seguente formato: `https://<MachineName:Port>/HardwareStation`. Sostituire **&lt;NomeComputer:Porta&gt;** con il nome effettivo del computer della stazione hardware e con la porta che è specificata nel profilo della stazione hardware. Per una stazione hardware autonoma occorre specificare anche l'ID terminale bonifici (EFT). Questo valore identifica il terminale EFT connesso alla stazione hardware quando il connettore pagamenti comunica con il provider di pagamenti. 
-
-Successivamente, dal computer stazione hardware effettivo, passare al canale e selezionare la stazione hardware. Fare clic su **Download** e installare la stazione hardware. 
+Successivamente, dal computer che ospita la stazione hardware, passa al canale in Headquarters e seleziona la stazione hardware. Quindi seleziona **Scarica** per scaricare il programma di installazione della stazione hardware e installare la stazione hardware. Per ulteriori informazioni su come installare la stazione hardware, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md). 
 
 Successivamente, da MPOS o POS cloud, utilizzare l'operazione **Seleziona stazione hardware** per selezionare la stazione hardware installata in precedenza. Selezionare **Associa** per stabilire una relazione protetta tra il POS e la stazione hardware. Questo passaggio deve essere completato una volta per ogni combinazione di POS e stazione hardware. 
 
-Dopo che la stazione hardware è associata, viene utilizzata la stessa operazione per rendere attiva la stazione hardware mentre viene utilizzata. Per questo scenario, il profilo hardware deve essere assegnato al profilo della stazione hardware anziché al registratore di cassa stesso. Se per qualsiasi motivo una stazione hardware non dispone di un profilo hardware direttamente assegnato, viene utilizzato il profilo hardware assegnato al registro.
+Dopo che la stazione hardware è associata, viene utilizzata la stessa operazione per rendere attiva la stazione hardware mentre viene utilizzata. Per questo scenario, il profilo hardware deve essere assegnato alla stazione hardware condivisa anziché al registratore di cassa stesso. Se per qualsiasi motivo nessun profilo hardware è assegnato direttamente a una stazione hardware , viene utilizzato il profilo hardware assegnato al registro.
 
 ## <a name="client-maintenance"></a>Manutenzione client
 
@@ -162,15 +153,15 @@ Il profilo funzionalità è impostato a livello di punto vendita. Viene utilizza
 
 #### <a name="receipt-profiles"></a>Profili ricevuta
 
-I profili ricevuta vengono assegnati alle stampanti nel profilo hardware. Vengono utilizzati per specificare i tipi di ricevuta che vengono stampati su una stampante specifica. I profili includono impostazioni relative ai formati e le impostazioni che determinano se la ricevuta viene sempre stampata o se al cassiere viene richiesto di decidere se la ricevuta deve essere stampata. Stampanti diverse possono inoltre utilizzare profili ricevuta diversi. Ad esempio, stampante 1 è una stampante per ricevute termica standard e pertanto ha formati più piccoli. Tuttavia, stampante 2 è una stampante per ricevute in dimensioni reali che consente di stampare solo ricevute di ordini cliente, che richiedono più spazio.
+I profili ricevuta vengono assegnati alle stampanti nel profilo hardware. Vengono utilizzati per specificare i tipi di ricevuta che vengono stampati su una stampante specifica. I profili includono impostazioni relative ai formati e le impostazioni che determinano se la ricevuta viene sempre stampata o se al cassiere viene richiesto di decidere se la ricevuta deve essere stampata. Stampanti diverse possono inoltre utilizzare profili ricevuta diversi. Ad esempio, stampante 1 è una stampante per ricevute termica standard e pertanto ha formati più piccoli. Tuttavia, stampante 2 è una stampante per ricevute in dimensioni reali che consente di stampare solo ricevute di ordini cliente, che richiedono più spazio. Per ulteriori informazioni, vedi [Configurare un profilo ricevuta](configure-emailed-receipt-formats.md#configure-a-receipt-profile).
 
 #### <a name="hardware-profiles"></a>Profili hardware
 
-I profili hardware sono descritti come componenti dell'impostazione client in precedenza in questo articolo. I profili hardware vengono assegnati direttamente al registratore di cassa POS o a un profilo di stazione hardware. Vengono utilizzati per specificare i tipi di dispositivi utilizzati da un determinato registratore di cassa POS o una stazione hardware. I profili hardware vengono utilizzati anche per specificare le impostazioni EFT utilizzate per comunicare con l'SDK per il pagamento.
+I profili hardware sono descritti come componenti dell'impostazione client in precedenza in questo argomento. I profili hardware vengono assegnati direttamente al registratore di cassa del punto vendita o a una stazione hardware condivisa e vengono utilizzati per specificare i tipi di dispositivi utilizzati da uno specifico registratore di cassa del punto vendita o stazione hardware. I profili hardware vengono utilizzati anche per specificare le impostazioni EFT utilizzate per comunicare con l'SDK per il pagamento.
 
 #### <a name="visual-profiles"></a>Profili visivi
 
-I profili visivi vengono assegnati a livello di registratore di cassa. Vengono utilizzati per specificare il tema per un registratore di cassa specifico. I profili includono le impostazioni per il tipo di applicazione che viene utilizzato (MPOS o POS cloud), il colore e tema, la combinazione di tipi di carattere, lo sfondo di accesso e lo sfondo di POS.
+I profili visivi vengono utilizzati per specificare il tema per un registratore di cassa specifico e vengono assegnati a livello di registratore di cassa. I profili includono le impostazioni per il tipo di applicazione che viene utilizzato (MPOS o POS cloud), il colore e tema, la combinazione di tipi di carattere, lo sfondo della pagina di accesso e lo sfondo di POS. Per altre informazioni, vedi [Creare profili visivi per punti vendita (POS)](tasks/create-pos-visual-profile-2016-02.md). 
 
 ### <a name="custom-fields"></a>Campi personalizzati
 
@@ -179,10 +170,6 @@ I profili visivi vengono assegnati a livello di registratore di cassa. Vengono u
 ### <a name="language-text"></a>Testo lingua
 
 Utilizzando le voci di testo di lingua, è possibile ignorare le stringhe predefinite nel POS. Per ignorare una stringa nel POS, aggiungere una nuova riga di testo di lingua. Quindi specificare un ID, la stringa predefinita che deve essere ignorata e il testo che deve essere visualizzato presso il POS anziché la stringa predefinita.
-
-### <a name="hardware-station-profiles"></a>Profili stazione hardware
-
-I profili stazione hardware sono descritti in precedenza in questo articolo. Vengono utilizzati per assegnare informazioni non specifiche di istanza a stazioni hardware.
 
 ### <a name="channel-reports-configuration"></a>Configurazione dei report del canale
 
@@ -202,6 +189,10 @@ Ulteriori informazioni relative alla attivazione includono il lavoratore che ha 
 ### <a name="client-data-synchronization"></a>Sincronizzazione dei dati client
 
 Tutte le modifiche apportate a un client POS, ad eccezione delle modifiche dello stato di attivazione del dispositivo, devono essere sincronizzate nel database di canale per essere effettive. Per sincronizzare le modifiche al database di canale, passare a **Retail e Commerce** &gt; **Vendita al dettaglio e commercio IT** &gt; **Programmazione della distribuzione**, ed eseguire la programmazione di distribuzione necessaria. Per le modifiche del client, è necessario eseguire le programmazioni di distribuzione **Registratori di cassa** e **Configurazione canale**.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Configurare e installare Retail hardware station](retail-hardware-station-configuration-installation.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

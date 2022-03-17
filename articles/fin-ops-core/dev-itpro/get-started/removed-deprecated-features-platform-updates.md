@@ -1,8 +1,8 @@
 ---
 title: Funzionalità della piattaforma rimosse o deprecate
-description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
+description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
 author: sericks007
-ms.date: 12/16/2021
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,25 +12,25 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4ac68cfdd8f8b2c65993fbd91587e52cce56a437
-ms.sourcegitcommit: a5861c2fef4071e130208ad20e26cb3a42a45cf1
+ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7927481"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384722"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app Finance and Operations.
+In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
 
 - Una funzionalità *rimossa* non è più disponibile nel prodotto.
 - Una funzionalità *deprecata* non si trova nella fase attiva di sviluppo e potrebbe essere rimossa in un aggiornamento futuro.
 
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
-Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per finanza e operazioni.
 
 ## <a name="feature-removal-effective-october-2021"></a>Rimozione delle funzionalità in vigore da ottobre 2021
 
@@ -65,9 +65,9 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Sostituita da un'altra funzionalità?**   | N. Eventuali ulteriori piani relativi a questa funzionalità verranno comunicati attraverso il nostro processo di divulgazione del ciclo di rilascio standard. |
 | **Aree del prodotto interessate**         | Client Web - Esperienza con allegati di documenti |
 | **Opzione di distribuzione**              | Tutte |
-| **Stato**                         | Deprecato  |
+| **Status**                         | Deprecato  |
 
-## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.23 delle app Finance and Operations
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.23 delle app per la finanza e le operazioni
 
 ### <a name="ondbsynchronize-event"></a>Evento OnDBSynchronize
 
@@ -90,7 +90,7 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Opzione di distribuzione**              | Tutte |
 | **Stato**                         | Deprecato. La data prevista per la rimozione è aprile 2023. |
 
-## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.21 delle app Finance and Operations
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.21 delle app per la finanza e le operazioni
 
 ### <a name="skype-for-business-online-support"></a>Supporto Skype for Business Online
 
@@ -145,19 +145,19 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 |------------|--------------------|
 | **Motivo del deprecamento/rimozione** | Per ridurre il sovraccarico di funzionamento, monitoraggio e manutenzione della gestione dell'indice da parte dei clienti, questa funzione è stata rimossa. |
 | **Sostituita da un'altra funzionalità?**   | In futuro, la manutenzione dell'indice verrà eseguita dai servizi Microsoft. Ciò avverrà continuamente senza influire sui carichi di lavoro dell'utente. |
-| **Aree del prodotto interessate**         | App di Finance and Operations|
+| **Aree del prodotto interessate**         | App Finanza e operazioni|
 | **Opzione di distribuzione**              | Distribuzione nel cloud: interessa gli ambienti di produzione gestiti da Microsoft e gli ambienti sandbox da Livello 2 a Livello 5. |
 | **Stato**                         | Questa funzionalità è stata rimossa. |
 
 
-## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.17 delle app Finance and Operations
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.17 delle app per la finanza e le operazioni
 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Per supportare le ultime versioni di Visual Studio, è necessario apportare alcune modifiche alle estensioni X++ per Visual Studio. Queste modifiche sono incompatibili con Visual Studio 2015. |
+| **Motivo della deprecazione/rimozione** | Per supportare le ultime versioni di Visual Studio, è necessario apportare alcune modifiche alle estensioni X++ per Visual Studio. Queste modifiche sono incompatibili con Visual Studio 2015. |
 | **Sostituita da un'altra funzionalità?**   | Visual Studio 2017 sostituirà Visual Studio 2015 come versione distribuita e richiesta. |
 | **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutti |
@@ -177,57 +177,58 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Gli artefatti dei metadati associati a Dynamics AX 2012 Enterprise Portal (EP) sono stati deprecati, poiché EP non è mai stato supportato nelle app Finance and Operations. |
-| **Sostituita da un'altra funzionalità?**   | No |
+| **Motivo del deprecamento/rimozione** | Gli artefatti dei metadati associati a Dynamics AX 2012 Enterprise Portal (EP) sono stati deprecati, poiché EP non è mai stato supportato nelle app per la finanza e le operazioni. |
+| **Sostituita da un'altra funzionalità?**   | Numero |
 | **Aree del prodotto interessate**         | Client Web |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Deprecata: tutto il codice EP dovrebbe essere rimosso nella versione di ottobre 2021. |
 
-## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.15 delle app Finance and Operations
+## <a name="deprecation-effective-december-2020"></a>Deprecazione in vigore da dicembre 2020
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Il supporto di Internet Explorer 11 per Dynamics 365 è deprecato
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365. |
+| **Motivo della deprecazione/rimozione** | A partire da dicembre 2020, il supporto di Microsoft Internet Explorer 11 per tutti i prodotti Dynamics 365 e Dynamics Lifecycle Services (LCS) è deprecato e Internet Explorer 11 non sarà supportato dopo agosto 2021.<br><br>Ciò avrà un impatto sui clienti che utilizzano prodotti Dynamics 365 e LCS progettati per essere utilizzati tramite un'interfaccia Internet Explorer 11. Dopo agosto 2021, Internet Explorer 11 non sarà supportato per questi prodotti Dynamics 365 e LCS. |
 | **Sostituita da un'altra funzionalità?**   | Consigliamo ai clienti di passare a Microsoft Edge.|
-| **Aree del prodotto interessate**         | Tutti i prodotti Dynamics 365 |
+| **Aree del prodotto interessate**         | Tutti i prodotti Dynamics 365 e LCS |
 | **Opzione di distribuzione**              | Tutti|
-| **Stato**                         | Deprecata: Internet Explorer 11 non sarà supportato dopo agosto 2021.|
+| **Status**                         | Deprecata: Internet Explorer 11 non sarà supportato dopo agosto 2021.|
 
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.15 delle app per la finanza e le operazioni
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Componente aggiuntivo di Visual Studio per applicare gli hotfix dei metadati
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Gli hotfix dei metadati non sono più supportati con gli aggiornamenti del servizio [One version](../../fin-ops/get-started/one-version.md) introdotti a luglio 2018 con la versione 8.1. |
+| **Motivo della deprecazione/rimozione** | Gli hotfix dei metadati non sono più supportati con gli aggiornamenti del servizio [One version](../../fin-ops/get-started/one-version.md) introdotti a luglio 2018 con la versione 8.1. |
 | **Sostituita da un'altra funzionalità?**   | I singoli hotfix dei metadati non sono disponibili per le versioni supportate. Al loro posto vengono applicati aggiornamenti di qualità cumulativi. |
 | **Aree del prodotto interessate**         | Componenti aggiuntivi di Visual Studio |
 | **Opzione di distribuzione**              | Macchine virtuali di sviluppo |
 | **Stato**                         | Con la versione 10.0.15, il componente aggiuntivo non è più incluso negli strumenti di Visual Studio. |
 
 
-## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.14 delle app Finance and Operations
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.14 delle app per la finanza e le operazioni
 
 ### <a name="online-users-page"></a>Pagina Utenti in linea 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Questa è una pagina legacy creata per la precedente architettura client/server. Le informazioni in questa pagina non sono sempre accurate, generando confusione e informazioni fuorvianti. |
+| **Motivo della deprecazione/rimozione** | Questa è una pagina legacy creata per la precedente architettura client/server. Le informazioni in questa pagina non sono sempre accurate, generando confusione e informazioni fuorvianti. |
 | **Sostituita da un'altra funzionalità?**   | Verrà fornita una nuova pagina in un futuro aggiornamento.|
 | **Aree del prodotto interessate**         | Amministrazione sistema |
 | **Opzione di distribuzione**              | Tutti |
 | **Stato**                         | Entro ottobre 2021 questo modulo verrà rimosso.   |
 
 
-## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.13 delle app Finance and Operations
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.13 delle app per la finanza e le operazioni
 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Codice personalizzato definito nelle proprietà del report SSRS 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | In generale, il codice personalizzato offre vantaggi limitati e, allo stesso tempo, richiede risorse significative ed elaborazione per il supporto. Il codice personalizzato viene utilizzato principalmente dagli autori di report per chiamare metodi pubblici da un assembly di codice personalizzato. Tuttavia, il servizio ospitato nel cloud non supporta i riferimenti ad assembly personalizzati per i report SSRS. |
+| **Motivo della deprecazione/rimozione** | In generale, il codice personalizzato offre vantaggi limitati e, allo stesso tempo, richiede risorse significative ed elaborazione per il supporto. Il codice personalizzato viene utilizzato principalmente dagli autori di report per chiamare metodi pubblici da un assembly di codice personalizzato. Tuttavia, il servizio ospitato nel cloud non supporta i riferimenti ad assembly personalizzati per i report SSRS. |
 | **Sostituita da un'altra funzionalità?**   | Gli autori dei report possono scegliere di continuare a fare riferimento ad API .NET pubbliche per operazioni di matematica, conversione e formattazione da qualsiasi espressione della casella di testo. Per ulteriori informazioni, vedere [Aggiungere codice a un report (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Aree del prodotto interessate**         | Sottoinsieme di progetti di report dell'applicazione definiti in RDL che contengono codice personalizzato. |
 | **Opzione di distribuzione**              | Tutti |
@@ -264,25 +265,25 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 | **Stato**                         | Nella versione 10.0.13/Platform update 37, la funzione delle visualizzazioni salvate è generalmente disponibile e i clienti possono facoltativamente attivare questa funzione. La funzionalità delle visualizzazioni salvate diventerà obbligatoria nella versione di ottobre 2021. |
 
 
-## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.12 delle app per la finanza e le operazioni
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Estensioni di moduli di controllo di griglie o gruppi contenenti riferimenti di campo non validi
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | La proprietà del gruppo di dati nei controlli di griglie o gruppi viene utilizzata per mostrare automaticamente tutti i campi di un gruppo di campi. Un controllo di griglie o gruppi aggiunto dall'estensione potrebbe contenere campi che non sono più definiti nel gruppo di campi oppure potrebbe non avere campi definiti nel gruppo di campi. Ciò può causare un comportamento non coerente in fase di esecuzione. Gli aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations ora classificano questo problema come *avviso* del compilatore. Per risolvere questo problema, aprire l'estensione di moduli e salvarla.
+| **Motivo del deprecamento/rimozione** | La proprietà del gruppo di dati nei controlli di griglie o gruppi viene utilizzata per mostrare automaticamente tutti i campi di un gruppo di campi. Un controllo di griglie o gruppi aggiunto dall'estensione potrebbe contenere campi che non sono più definiti nel gruppo di campi oppure potrebbe non avere campi definiti nel gruppo di campi. Ciò può causare un comportamento non coerente in fase di esecuzione. Gli aggiornamenti della piattaforma per la versione 10.0.12 delle app per la finanza e le operazioni ora classificano questo problema come *avviso* del compilatore. Per risolvere questo problema, aprire l'estensione di moduli e salvarla.
 | **Sostituita da un'altra funzionalità?**   | Questo avviso del compilatore verrà sostituito con un errore del compilatore in un aggiornamento futuro. |
 | **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Un avviso del compilatore è introdotto negli aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations. |
+| **Stato**                         | Un avviso del compilatore è introdotto negli aggiornamenti della piattaforma per la versione 10.0.12 delle app per la finanza e le operazioni. |
 
-## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations
+## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.11 delle app per la finanza e le operazioni
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Elenchi sicuri espliciti per ambienti self-service
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | Il processo per spostare l'IP in elenchi sicuri è cambiato. Il self-service non supporta più gli elenchi sicuri IP. |
+| **Motivo della deprecazione/rimozione** | Il processo per spostare l'IP in elenchi sicuri è cambiato. Il self-service non supporta più gli elenchi sicuri IP. |
 | **Sostituita da un'altra funzionalità?**   | Per ulteriori informazioni, vedere [Configurazione dell'accesso condizionale di Azure Active Directory](/appcenter/general/configuring-aad-conditional-access).|
 | **Aree del prodotto interessate**         | Sicurezza |
 | **Opzione di distribuzione**              | Cloud |
@@ -302,11 +303,11 @@ Informazioni dettagliate sugli oggetti nella app Finance and Operations sono dis
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo del deprecamento/rimozione** | I gruppi di campi nelle definizioni dei metadati della tabella possono contenere riferimenti a campi non validi. Se questi gruppi di campi vengono distribuiti, possono causare errori di runtime in Financial Reporting e in Microsoft SQL Server Reporting Services (SSRS). L'aggiornamento 23 della piattaforma ha introdotto un *avviso* del compilatore che consente di risolvere questo problema relativo ai metadati. Aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations che classificano questo problema come *errore* del compilatore.<p>Per risolvere questo problema, procedere come segue.</p><ol><li>Rimuovere il riferimento di campo non valido dalla definizione del gruppo di campi di tabella.</li><li>Ricompilare.</li><li>Assicurarsi che eventuali errori vengano risolti.</li></ol> |
+| **Motivo del deprecamento/rimozione** | I gruppi di campi nelle definizioni dei metadati della tabella possono contenere riferimenti a campi non validi. Se questi gruppi di campi vengono distribuiti, possono causare errori di runtime in Financial Reporting e in Microsoft SQL Server Reporting Services (SSRS). L'aggiornamento 23 della piattaforma ha introdotto un *avviso* del compilatore che consente di risolvere questo problema relativo ai metadati. Gli aggiornamenti della piattaforma per la versione 10.0.11 delle app per la finanza e le operazioni classificano questo problema come *errore* del compilatore.<p>Per risolvere questo problema, procedere come segue.</p><ol><li>Rimuovere il riferimento di campo non valido dalla definizione del gruppo di campi di tabella.</li><li>Ricompilare.</li><li>Assicurarsi che eventuali errori vengano risolti.</li></ol> |
 | **Sostituita da un'altra funzionalità?**   | Questo errore del compilatore sostituisce in modo permanente l'avviso del compilatore.  |
 | **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato: L'avviso del compilatore è un errore del compilatore negli aggiornamenti della piattaforma per la versione 10.0.11 delle app Finance and Operations. |
+| **Stato**                         | Deprecato: L'avviso del compilatore è un errore del compilatore negli aggiornamenti della piattaforma per la versione 10.0.11 delle app per finanza e operazioni. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licenze ISV create utilizzando l'algoritmo di hashing SHA1
 

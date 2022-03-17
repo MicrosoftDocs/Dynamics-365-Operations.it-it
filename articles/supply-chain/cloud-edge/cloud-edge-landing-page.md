@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ef81ef7ad726ebe0cc6a0acd58cb68d07e222a42
-ms.sourcegitcommit: 0d14c4a1e6cf533dd20463f1a84eae8f6d88f71b
+ms.openlocfilehash: 30f455f37b5161878cf9c864b92966aa74da051f
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119189"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376184"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unità di scala in una topologia ibrida distribuita
 
@@ -40,7 +40,7 @@ Le funzionalità del carico di lavoro vengono rilasciate su base continua attrav
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Unità di scala e carichi di lavoro dedicati
 
-Le unità di scala estendono l'ambiente centrale dell'hub di Supply Chain Management aggiungendo capacità di elaborazione dedicata. Le unità di scala possono essere eseguite nel cloud. In alternativa, possono essere eseguite nella rete perimetrale nelle strutture locali dell'utente.
+Le unità di scala estendono l'ambiente centrale dell'hub di Supply Chain Management aggiungendo capacità di elaborazione dedicata. Le unità di scala possono essere eseguite nel cloud. In alternativa, possono essere eseguite nella [rete perimetrale](cloud-edge-edge-scale-units-lbd.md), nelle strutture locali dell'utente.
 
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 con unità di scala.":::
 
@@ -127,31 +127,25 @@ Quando si abilita l'ambiente Dynamics 365 per supportare la topologia ibrida dis
 
 I dati trasferiti e archiviati nei data center degli Stati Uniti verranno eliminati in base ai criteri di conservazione dei dati di Microsoft. La privacy degli utenti è importante per Microsoft. Per ulteriori informazioni, leggere l'[Informativa sulla privacy](https://go.microsoft.com/fwlink/?LinkId=521839) di Microsoft.
 
-## <a name="onboarding-in-two-stages"></a>Onboarding in due fasi
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Eseguire l'onboarding alla topologia ibrida distribuita per Supply Chain Management
 
-Il processo di onboarding nella topologia ibrida distribuita prevede due fasi. Durante la prima fase, è necessario convalidare le personalizzazioni per assicurarsi che funzionino nella topologia distribuita con unità di scala. Gli ambienti sandbox e di produzione vengono spostati solo durante la seconda fase.
+### <a name="try-out-the-distributed-hybrid-topology"></a>Provare la topologia ibrida distribuita
 
-### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Fase 1: valutare le personalizzazioni in ambienti di sviluppo one-box
+Il processo di onboarding nella topologia ibrida distribuita prevede due fasi. Durante la prima fase, è consigliabile [provare](cloud-edge-try-out.md) la soluzione e convalidare le personalizzazioni per assicurarsi che funzionino nella topologia distribuita con unità di scala. (Puoi utilizzare gli ambienti di sviluppo esistenti per eseguire la convalida.) Puoi quindi passare alla seconda fase, in cui si acquisiscono gli ambienti di produzione.
 
-Prima di iniziare a eseguire l'onboarding degli ambienti sandbox o di produzione, è consigliabile esplorare le unità di scala in una configurazione di sviluppo, come un ambiente one-box (noto anche come ambiente di livello 1), in modo da poter convalidare processi, personalizzazioni e soluzioni. Durante questa fase, i dati e le personalizzazioni verranno applicati agli ambienti one-box. Un ambiente assume il ruolo dell'hub e l'altro assume il ruolo di unità di scala. Questa configurazione fornisce il modo migliore per identificare e risolvere i problemi. L'ultima build PEAP può essere utilizzata anche per completare questa fase.
-
-Per la fase 1, si deve usare gli [strumenti di distribuzione delle unità di scala per ambienti di sviluppo one-box](https://github.com/microsoft/SCMScaleUnitDevTools). Questi strumenti consentono di configurare hub e unità di scala in uno o due ambienti one-box distinti. Gli strumenti sono forniti come versione binaria e nel codice sorgente su GitHub. Esaminare il wiki del progetto, che include una [guida d'uso dettagliata](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) che descrive come vengono utilizzati gli strumenti.
-
-### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Fase 2: acquisire componenti aggiuntivi ed eseguire la distribuzione in ambienti sandbox e di produzione
-
-Per eseguire l'onboarding di uno degli ambienti sandbox o di produzione alla nuova topologia, è necessario acquisire componenti aggiuntivi per una o più unità di scala nel cloud (e, in futuro, per unità di scala nella rete perimetrale). I componenti aggiuntivi garantiranno gli slot di progetto e ambiente corrispondenti in [LCS](https://lcs.dynamics.com/) in modo che gli ambienti delle unità di scala possano essere distribuiti.
-
-> [!NOTE]
-> I componenti aggiuntivi delle unità di scala non sono associati a un numero limitato di utenti ma possono essere utilizzati da qualsiasi utente nella sottoscrizione esistente, in base ai ruoli assegnati dall'amministratore.
+## <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Selezionare il tenant del progetto LCS e il processo di onboarding dettagliato
 
 Le unità di scala sono offerte in più unità di stockkeeping (SKU) e opzioni per la determinazione dei prezzi. Pertanto, è possibile scegliere l'opzione che meglio soddisfa il volume di transazioni mensili pianificato e i requisiti di prestazioni.
+
+> [!TIP]
+> Per identificare il dimensionamento che meglio soddisfa le proprie esigenze, collaborare con il partner di implementazione e Microsoft per comprendere la dimensione della transazione mensile richiesta.
 
 Lo SKU semplice è noto come *Base* e lo SKU più efficace è noto come *Standard*. Ogni SKU è precaricato con un numero specifico di transazioni mensili. Tuttavia, è possibile aumentare il budget mensile delle transazioni aggiungendo componenti aggiuntivi in eccesso per ogni SKU.
 
 :::image type="content" source="media/SKUs-highlevel.png" alt-text="Componente aggiuntivo per unità di scala nel cloud.":::
 
-> [!TIP]
-> Per identificare il dimensionamento che meglio soddisfa le proprie esigenze, collaborare con il partner e Microsoft per comprendere la dimensione della transazione mensile richiesta.
+> [!NOTE]
+> I componenti aggiuntivi per unità di scala non sono associati a un numero limitato di utenti. Sono disponibili per qualsiasi utente nell'abbonamento esistente (a condizione che l'amministratore abbia assegnato loro i ruoli utente richiesti).
 
 L'acquisto di ogni componente aggiuntivo di unità di scala non solo fornisce un volume mensile di transazioni, ma dà anche diritto a un numero specifico di slot di ambiente in LCS. Per ogni componente aggiuntivo Unità di scala nel cloud, si ha diritto a un nuovo slot di produzione e un nuovo slot sandbox. Durante il processo di onboarding, verrà aggiunto un nuovo progetto LCS con questi slot. I diritti di utilizzo per gli slot sono vincolati di modo che gli slot debbano essere usati come unità di scala che dispongono di un hub cloud.
 
@@ -159,9 +153,6 @@ I componenti aggiuntivi in eccesso non danno diritto a nuovi slot di ambiente.
 
 Se si desidera acquisire più ambienti sandbox, è possibile acquistare slot sandbox normali aggiuntivi. Microsoft può quindi fornire assistenza per abilitare quegli slot come unità di scala sandbox per la topologia ibrida.
 
-## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Eseguire l'onboarding alla topologia ibrida distribuita per Supply Chain Management
-
-### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Selezionare il tenant del progetto LCS e il processo di onboarding dettagliato
 
 Dopo aver finito di pianificare il modo in cui eseguire l'onboarding alla topologia ibrida distribuita per Supply Chain Management, si utilizzerà il [portale di gestione delle unite di scala](https://aka.ms/SCMSUM) per iniziare il processo di onboarding. Nel portale, selezionare la scheda **Tenant di Dynamics 365**. Questa scheda mostra l'elenco dei tenant di cui fa parte l'account in uso e in cui l'utente è proprietario o amministratore dell'ambiente per un progetto LCS.
 

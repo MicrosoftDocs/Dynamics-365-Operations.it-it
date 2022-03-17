@@ -2,7 +2,7 @@
 title: Panoramica calcolo delle imposte
 description: In questo argomento vengono illustrati l'ambito e le funzionalità generali di Calcolo imposte.
 author: wangchen
-ms.date: 11/17/2021
+ms.date: 03/02/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1dff1767b8e19215a2b27f87c45325e6abd1266e
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a02767e4a90fa6b7414c796d66e758afe0501cf5
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105439"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388497"
 ---
 # <a name="tax-calculation-overview"></a>Panoramica calcolo delle imposte
 
@@ -58,6 +58,7 @@ Calcolo imposte viene distribuito nelle seguenti aree geografiche di Azure. Altr
 - Canada
 - Europa
 - Giappone
+- Svizzera
 - Regno Unito
 - Stati Uniti
 
@@ -77,6 +78,7 @@ Ti consigliamo di importare e impostare la configurazione del calcolo delle impo
 | 10.0.23         | Configurazione del calcolo dell'imposta 40.50.221 |
 | 10.0.24         | Configurazione del calcolo dell'imposta 40.50.225 |
 | 10.0.25         | Configurazione del calcolo dell'imposta 40.50.225 |
+| 10.0.26         | Configurazione del calcolo dell'imposta 40.54.234 |
 
 
 ## <a name="data-flow"></a>Flusso di dati
@@ -136,11 +138,16 @@ Le seguenti transazioni sono supportate nella versione 10.0.23:
 
 - Fattura a testo libero
 
+Le seguenti transazioni sono supportate nella versione 10.0.26: 
+
+- Giornali di registrazione generali
+- Giornale di registrazione fatture fornitore
+
 ## <a name="supported-countriesregions"></a>Paesi/regioni supportati
 
 Il calcolo delle tasse può essere abilitato per entità giuridica. 
 
-I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.21:
+I seguenti paesi/aree geografiche per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.21:
 
 - Austria
 - Belgio
@@ -162,7 +169,7 @@ I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono 
 - Regno Unito
 - Stati Uniti
 
-I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.22:
+I seguenti paesi/aree geografiche per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.22:
 
 - Australia
 - Bahrein
@@ -177,16 +184,22 @@ I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono 
 - Sudafrica
 - Emirati Arabi Uniti
 
-I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.23:
+I seguenti paesi/aree geografiche per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.23:
 
 - Thailandia
 - Giappone
 - Malaysia
 - Singapore
 
-I seguenti paesi/regioni per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.24:
+I seguenti paesi/aree geografiche per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.24:
 
 - Messico
+
+I seguenti paesi/aree geografiche per l'indirizzo primario di una persona giuridica sono supportati nella versione 10.0.26:
+
+- Cina
+- Repubblica Ceca
+- Spagna
 
 ## <a name="related-resources"></a>Risorse correlate
 

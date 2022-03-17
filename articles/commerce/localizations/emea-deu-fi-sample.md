@@ -2,23 +2,24 @@
 title: Esempio di integrazione del servizio di registrazione fiscale per la Germania
 description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per la Germania in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 128c94407a283bf45e5626de060cee82430f087b
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65315a9fd6bc1af26bc225220e096aee4da09be2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076864"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388161"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Esempio di integrazione del servizio di registrazione fiscale per la Germania
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per la Germania in Microsoft Dynamics 365 Commerce.
 
@@ -396,14 +397,28 @@ Segui questi passaggi per impostare un ambiente di sviluppo in modo da poter tes
             ModernPOS.EFR.Installer.exe install --verbosity 0
             ```
 
-1. Installa le estensioni stazione hardware:
+1. Installare le estensioni del connettore fiscale:
 
-    - Nella cartella **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** trova il programma di installazione **HardwareStation.EFR.Installer**.
-    - Avvia il programma di installazione dell'estensione dalla riga di comando:
+    È possibile installare le estensioni del connettore fiscale sulla [stazione hardware](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) o il [Registro POS](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
 
-        ```Console
-        HardwareStation.EFR.Installer.exe install --verbosity 0
-        ```
+    1. Installa le estensioni stazione hardware:
+
+        1. Nella cartella **Efr\\HardwareStation\\HardwareStation.EFR.Installer\\bin\\Debug\\net461** trova il programma di installazione **HardwareStation.EFR.Installer**.
+        1. Avvia il programma di installazione dell'estensione dalla riga di comando eseguendo questo comando.
+
+            ```Console
+            HardwareStation.EFR.Installer.exe install --verbosity 0
+            ```
+
+    1. Installa le estensioni POS:
+
+        1. Aprire la soluzione di esempio del connettore fiscale POS all'indirizzo **Dynamics365Commerce.Solutions\\FiscalIntegration\\PosFiscalConnectorSample\\Contoso.PosFiscalConnectorSample.sln** e costruiscilo.
+        1. Nella cartella **PosFiscalConnectorSample\\StoreCommerce.Installer\\bin\\Debug\\net461**, trova il programma di installazione **Contoso.PosFiscalConnectorSample.StoreCommerce.Installer**.
+        1. Avvia il programma di installazione dell'estensione dalla riga di comando eseguendo questo comando.
+
+            ```Console
+            Contoso.PosFiscalConnectorSample.StoreCommerce.Installer.exe install --verbosity 0
+            ```
 
 #### <a name="production-environment"></a>Ambiente di produzione
 
@@ -452,5 +467,28 @@ Il connettore supporta le seguenti richieste:
 #### <a name="configuration"></a>Configurazione
 
 Il file di configurazione per il connettore fiscale si trova in **src\\FiscalIntegration\\Efr\\Configurations\\Connectors\\ConnectorEFRSample.xml** nel repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Lo scopo del file è di consentire la configurazione delle impostazioni del connettore fiscale da Commerce headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Progettazione delle estensioni del connettore fiscale POS
+
+Lo scopo dell'estensione del connettore fiscale POS è di comunicare con il servizio di registrazione fiscale dal POS. Utilizza il protocollo HTTPS per la comunicazione.
+
+#### <a name="fiscal-connector-factory"></a>Factory del connettore fiscale
+
+La factory del connettore fiscale associa il nome del connettore all'implementazione del connettore fiscale e si trova nel file **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. Il nome del connettore deve corrispondere al nome del connettore fiscale specificato in Commerce headquarters.
+
+#### <a name="efr-fiscal-connector"></a>Connettore fiscale EFR
+
+Il connettore fiscale EFR si trova nel file **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Implementa l'interfaccia **IFiscalConnector** che supporta le seguenti richieste:
+
+- **FiscalRegisterSubmitDocumentClientRequest** - Invia documenti al servizio di registrazione fiscale e restituisce una risposta.
+- **FiscalRegisterIsReadyClientRequest** - Viene utilizzata per un controllo di integrità del servizio di registrazione fiscale.
+- **FiscalRegisterInitializeClientRequest** - Viene utilizzata per inizializzare il servizio di registrazione fiscale.
+
+#### <a name="configuration"></a>Configurazione
+
+Il file di configurazione si trova nella cartella **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** del repository [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Lo scopo del file è di consentire la configurazione delle impostazioni per il connettore fiscale da Commerce headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale. Vengono aggiunte le seguenti impostazioni:
+
+- **Indirizzo dell'endpoint** – L'URL del servizio di registrazione fiscale.
+- **Timeout** – La quantità di tempo, in millisecondi (ms) che il connettore trascorre in attesa di una risposta dal servizio di registrazione fiscale.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

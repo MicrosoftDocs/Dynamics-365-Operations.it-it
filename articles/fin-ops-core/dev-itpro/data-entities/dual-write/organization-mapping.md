@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: afc1b5996667835c460f467526493380aa2d6403
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 9174612743c68595d12dd223f0932ace1857c0fb
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062088"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358366"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Gerarchia organizzativa in Dataverse
 
@@ -36,11 +36,11 @@ Le mappe delle tabelle della gerarchia organizzativa sono disponibili per la sin
 
 ## <a name="templates"></a>Modelli
 
-Le informazioni di prodotto contengono tutte le informazioni sul prodotto e sulla relativa definizione, come le dimensioni prodotto o le dimensioni di tracciabilità e di immagazzinamento. Come mostrato nella tabella seguente, una raccolta di mappe della tabella viene creata per sincronizzare i prodotti e le informazioni correlate.
+Un'organizzazione è un gruppo di persone che collaborano per svolgere un processo aziendale o raggiungere un obiettivo. Le gerarchie organizzative rappresentano i rapporti tra le organizzazioni che fanno parte dell'azienda. È possibile definire i seguenti tipi di organizzazioni interne: persone giuridiche, unità operative e team. Come mostra la tabella seguente, viene creata una raccolta di mappe di tabelle per sincronizzare le informazioni su persone giuridiche, unità operativa, se relative gerarchie organizzative.
 
-App Finanza e operazioni | App di interazione con i clienti     | descrizione
+App Finanza e operazioni | App di interazione con i clienti     | Description
 -----------------------|--------------------------------|---
-[Persone giuridiche](mapping-reference.md#102) | cdm_companies | Fornisce la sincronizzazione bidirezionale delle informazioni della persona giuridica (società).
+[Persone giuridiche](mapping-reference.md#102) | cdm_companies | 
 [Persone giuridiche](mapping-reference.md#142) | msdyn_internalorganizations |
 [Unità operativa](mapping-reference.md#143) | msdyn_internalorganizations |
 [Gerarchia organizzativa: pubblicata](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Questo modello consente la sincronizzazione unidirezionale di tabella gerarchia organizzativa pubblicata.

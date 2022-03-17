@@ -1,22 +1,22 @@
 ---
-title: Panoramica dell'integrazione fiscale per i canali di commercio
+title: Panoramica dell'integrazione fiscale per i canali Commerce
 description: In questo argomento viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 82913eaca1d56a5b0609480d8825717278eca132
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 46e0afd5a8cb692da56a7d5f261ca30d9b3aaa80
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077194"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388315"
 ---
-# <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Panoramica dell'integrazione fiscale per i canali di commercio
+# <a name="fiscal-integration-overview-for-commerce-channels"></a>Panoramica dell'integrazione fiscale per i canali Commerce
 
 [!include [banner](../includes/banner.md)]
 [!include[banner](../includes/preview-banner.md)]
@@ -27,7 +27,7 @@ L'integrazione fiscale include l'integrazione con vari servizi e dispositivi fis
 
 - Registrare una vendita in un dispositivo fiscale collegato al POS, ad esempio una stampante fiscale, e stampare una ricevuta fiscale per il cliente.
 - Inviare in modo sicuro informazioni relative a vendite e resi completati in Retail POS a un servizio Web esterno gestito dall'ufficio tributario competente.
-- Assicurare l'inalterabilità dei dati delle transazioni di vendita mediante firme digitali.
+- Assicura l'inalterabilità dei dati delle transazioni di vendita mediante firme digitali.
 
 La funzionalità di integrazione fiscale è un framework che fornisce una soluzione comune per un ulteriore sviluppo e personalizzazione dell'integrazione tra Retail POS e i servizi e i dispositivi fiscali. La funzionalità include inoltre campioni di integrazione fiscale che supportano scenari di base per specifici paesi o aree geografiche e utilizzabili con specifici servizi o dispositivi fiscali. Un esempio di integrazione fiscale è costituito da più estensioni di componenti di Commerce ed è incluso nel kit SDK. Per maggiori informazioni sugli esempi di integrazione fiscale, vedi [Esempi di integrazione fiscale nel Commerce SDK](#fiscal-integration-samples-in-the-commerce-sdk). Per informazioni su come installare e usare il Commerce SDK, vedi [Architettura del kit di sviluppo software (SDK) per la vendita al dettaglio](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
@@ -46,6 +46,9 @@ Un esempio di integrazione fiscale potrebbe contenere le estensioni Commerce Run
 - **Configurazione di connettore fiscale** - Questa configurazione definisce la comunicazione fisica con il dispositivo fiscale o servizio.
 
 Un processo di registrazione fiscale per un registro POS specifico viene definito tramite un'impostazione corrispondente nel profilo funzionalità POS. Per ulteriori informazioni su come configurare un processo di registrazione fiscale, caricare le configurazioni di fornitore di documenti fiscali e di connettore fiscale e modificarne i parametri di configurazione, vedere [Configurazione di un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process).
+
+> [!NOTE]
+> Se hai bisogno di dispositivi per operazioni non fiscali, come la ricerca nel catalogo prodotti, la ricerca di clienti o la creazione di bozze di transazione, puoi selezionarli come registri con restrizioni di processo fiscale. Per ulteriori informazioni, vedi [Configurare registri con vincoli di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-registers-with-fiscal-registration-restrictions).
 
 Il seguente flusso di registrazione fiscale tipico inizia con un evento nel POS (ad esempio, la conclusione di una transazione di vendita) e implementa una sequenza predefinita di passaggi che coinvolge altre componenti di Commerce (come CRT e la stazione hardware).
 

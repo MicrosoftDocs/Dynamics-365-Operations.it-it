@@ -2,7 +2,7 @@
 title: Tasti di scelta rapida
 description: Questo argomento fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app per finanza e operazioni.
 author: jasongre
-ms.date: 02/11/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5243ea35138aa37d9fc54821e0923d0fa47c95de
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 7d66c1fd08c29b85ca14bf1ae5d08c603e4a1945
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119554"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384565"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -199,9 +199,12 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Spostarsi sul contenuto della pagina principale (con lo stato attivo in un altro riquadro)                    | ALT + M,M                    |
 | Spostarsi sul riquadro Dettaglio informazioni (può includerne l'apertura)                       | ALT + M,B o CTRL + F2         |
 
+> [!NOTE]
+> La funzionalità **Semplificazione del comportamento della tabulazione nei moduli a pagina intera** introdotta nella versione 10.0.26 consente agli utenti di scorrere tutte le aree di una pagina senza richiedere il mouse o una scorciatoia da tastiera dedicata per spostarsi tra le aree. Puoi comunque utilizzare le scorciatoie da tastiera esistenti (come le scorciatoie da tastiera Alt+M) per spostarti rapidamente tra le regioni di una pagina.
+
 ## <a name="personalization-shortcuts"></a>Tasti di scelta rapida di [personalizzazione](personalize-user-experience.md) 
 
-| Azione                                                                                                             | Tasti di premere                               |
+| Azione                                                                                                             | Premere                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | Transizione della pagina in modalità di personalizzazione                                                                          | CTRL + MAIUSC + P                        |
 | Utilizzare lo strumento Seleziona (quando in modalità di personalizzazione)                                                                     | S                                   |

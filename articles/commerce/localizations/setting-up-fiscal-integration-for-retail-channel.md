@@ -2,19 +2,19 @@
 title: Impostare l'integrazione fiscale per canali di commercio
 description: In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio.
 author: EvgenyPopovMBS
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: fd37934e1ebd103d66c5181e0bfb75047f4cb6a3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c15104e0f34c1f6cb6a599d506dad741be3e5e9e
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076965"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388392"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Impostare l'integrazione fiscale per canali di commercio
 
@@ -46,6 +46,7 @@ Il processo di impostazione dell'integrazione fiscale include le seguenti attivi
 - Configurare il processo di registrazione fiscale che definisce una sequenza di fasi di registrazione fiscale nonché i connettori fiscali e i fornitori di documenti fiscali utilizzati per ogni fase.
 - Assegnare il processo di registrazione fiscale ai profili funzionalità POS.
 - Assegnare profili tecnici di connettore a profili hardware.
+- Assegnare profili tecnici di connettore a profili hardware POS o funzionalità.
 
 ### <a name="upload-configurations-of-fiscal-document-providers"></a>Caricare le configurazioni di fornitori di documenti fiscali
 
@@ -161,10 +162,12 @@ Per assegnare entità del processo di registrazione fiscale a profili POS, segui
 1. In Commerce headquarters, vai alla pagina **Profili funzionalità POS** (**Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili funzionalità**). 
 1. Assegna il processo di registrazione fiscale a un profili funzionalità POS.
 1. Selezionare **Modifica**, quindi nella scheda **Processo di registrazione fiscale**, nel campo **Numero processo**, selezionare un processo.
+1. Nella scheda **Servizi fiscali**, selezionare i profili tecnici del connettore con la posizione del connettore **Registratore di cassa**.
 1. Vai alla pagina **Profilo hardware POS** (**Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**).
 1. Assegna profili tecnici di connettore a un profilo hardware. 
 1. Seleziona **Modifica**, quindi nella scheda **Periferiche fiscali**, aggiungi una riga. 
 1. Nel campo **Numero profilo**, seleziona un profilo tecnico del connettore.
+1. Nella scheda **Periferiche fiscalii**, selezionare i profili tecnici del connettore con la posizione del connettore **Stazione hardware**.
 
 > [!NOTE]
 > È possibile aggiungere più profili tecnici a uno stesso profilo hardware. Tuttavia, un profilo hardware o un profilo funzionalità POS deve avere una sola intersezione con qualsiasi gruppo di connettori fiscali.
@@ -175,6 +178,17 @@ Il flusso di registrazione fiscale viene definito dal processo di registrazione 
 - Il fornitore di documenti fiscali è anche responsabile dell'identificazione del connettore fiscale utilizzato per la registrazione fiscale. Il fornitore abbina i profili funzionali di connettore inclusi nel gruppo di connettori fiscali specificato per il passaggio corrente del processo di registrazione fiscale al profilo tecnico di connettore assegnato al profilo hardware della stazione hardware a cui il POS è associato.
 - Il fornitore di documenti fiscali utilizza le impostazioni di mapping dei dati nella configurazione di fornitore di documenti fiscali per trasformare i dati di eventi/transazioni come imposte e pagamenti durante la generazione di un documento fiscale.
 - Quando il fornitore di documenti fiscali genera un documento fiscale, il connettore fiscale può inviarlo al dispositivo fiscale così com'è oppure analizzarlo e trasformarlo in una sequenza di comandi dell'API del dispositivo, a seconda di come la comunicazione viene gestita.
+
+### <a name="set-up-registers-with-fiscal-registration-restrictions"></a>Configurare registri con vincoli di registrazione fiscale
+
+Puoi selezionare registri dove la registrazione fiscale è proibita, ad esempio nei casi in cui devii fornire solo operazioni non fiscali, come la ricerca nel catalogo prodotti, la ricerca di clienti o la creazione di bozze di transazione su questi dispositivi.
+
+Per configurare registri con vincoli di registrazione fiscale, segui questi passaggi.
+
+1. In Commerce Headquarters, vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**.
+1. Seleziona il processo richiesto.
+1. Seleziona la scheda **Registri POS con vincoli di processo fiscale**.
+1. Aggiungi i registri con vincoli di processo fiscale in base alle esigenze.
 
 ### <a name="validate-the-fiscal-registration-process"></a>Convalidare il processo di registrazione fiscale
 

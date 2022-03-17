@@ -2,27 +2,22 @@
 title: Periferiche
 description: In questo argomento vengono descritti i concetti correlati alle periferiche di Commerce.
 author: BrianShook
-ms.date: 02/04/2022
-ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
+ms.date: 03/01/2022
+ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "268444"
 - intro-internal
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e60b369feff5bf17f58d6a3b4c9e9b290343b1ae
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: fa9b8c79d1b3b5ed04a7d277bf09cd05dbd332d2
+ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8092486"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8370978"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -45,7 +40,7 @@ I dispositivi possono essere mappati ai seguenti tipi di applicazione: Retail Mo
 
 ### <a name="modern-pos"></a>POS moderno
 
-Modern POS è il programma POS per Microsoft Windows. Può essere distribuito in sistemi operativi Windows 10.
+Modern POS è il programma POS per Microsoft Windows. Può essere distribuito in sistemi operativi Windows 10 e Windows 11.
 
 ### <a name="cloud-pos"></a>POS cloud
 
@@ -108,7 +103,7 @@ I tastierini PIN sono supportati tramite OPOS, ma dovranno essere gestiti tramit
 
 ### <a name="secondary-display"></a>Schermo secondario
 
-Quando uno schermo secondario è configurata, lo schermo Windows numero 2 viene utilizzato per visualizzare le informazioni di base. Lo scopo dello schermo secondario è supportare l'estensione del fornitore di software indipendente (ISV), poiché lo schermo secondario predefinito non è configurabile e mostra contenuto limitato.
+Quando uno schermo secondario è configurata, lo schermo Windows numero 2 viene utilizzato per visualizzare le informazioni di base. Per impostazione predefinita, il display secondario non è configurabile e mostra contenuto limitato. Lo scopo del display secondario è supportare un'estensione ISV (Independent Software Vendor). 
 
 ### <a name="payment-device"></a>Dispositivo di pagamento
 
@@ -132,7 +127,7 @@ Per contribuire a garantire che il più ampio range di dispositivi possa essere 
 La stampa della ricevuta nel POS viene ottimizzata per OPOS. OPOS tende a essere molto più veloce della stampa con Windows. Di conseguenza, è consigliabile l'utilizzo di OPOS, soprattutto negli ambienti in cui ricevute a 40 colonne vengono stampate e il tempo delle transazioni deve essere veloce. Per la maggior parte dei dispositivi, verranno utilizzati i controlli OPOS. Tuttavia, alcune stampanti di ricevute OPOS supportano anche i driver Windows. Utilizzando un driver di Windows, è possibile accedere agli caratteri più recenti e collegare in rete una sola stampante per più registratori di cassa. Tuttavia, sono presenti svantaggi nell'uso di driver Windows. Di seguito sono riportati alcuni esempi di svantaggi:
 
 -   Quando i driver di Windows vengono utilizzati, immagini vengono rese in rendering prima della stampa. Di conseguenza, la stampa tende a essere più lenta rispetto alle stampanti che utilizzano i controlli OPOS.
--   I dispositivi connessi tramite la stampante ("connessione a catena") potrebbero non funzionare correttamente quando i driver di Windows vengono utilizzati. Ad esempio, il cassetto della cassa potrebbe non aprirsi o la stampante delle distinte potrebbe non funzionare come previsto.
+-   I dispositivi connessi tramite la stampante ("connessione a catena") potrebbero non funzionare correttamente quando i driver di Windows vengono utilizzati. Ad esempio, il cassetto della cassa potrebbe non aprirsi o la stampante delle ricevute potrebbe non funzionare come previsto.
 -   OPOS inoltre supporta una serie di variabili più estesa, specifica delle stampanti di ricevute, ad esempio la stampa di ritagli e distinte.
 -   Le stampanti Windows non sono supportate tramite la stazione hardware IIS. 
 
@@ -176,7 +171,7 @@ Per utilizzare la stazione hardware dedicata, effettuare le operazioni indicate 
 1. Apri Modern POS in modalità non cassetto e utilizza l'operazione **Gestisci stazioni hardware** per attivare le funzionalità della stazione hardware. La stazione hardware dedicata sarà attiva per impostazione predefinita. 
 1. Esci da Modern POS. Quindi connettiti nuovamente e apri un turno. Le periferiche configurate nel profilo hardware saranno ora utilizzabili. 
 
-### <a name="shared"></a>Condiviso 
+### <a name="shared"></a>Condiviso
 
 A volte indicato anche come stazione hardware "IIS", con "IIS" che indica che l'applicazione POS si collega alla stazione hardware tramite Microsoft Internet Information Services. L'applicazione POS si connette alla stazione hardware IIS mediante servizi Web che vengono eseguiti in un computer in cui i dispositivi sono connessi. Se la stazione hardware condivisa è utilizzata, le periferiche connesse alla stazione hardware possono essere utilizzate da qualsiasi registratore di cassa POS incluso nella stessa rete della stazione hardware IIS. Poiché solo Modern POS per Windows e Android include il supporto integrato per le periferiche, tutte le altre applicazioni Modern POS devono utilizzare la stazione hardware IIS per comunicare con le periferiche POS configurate nel profilo hardware. Di conseguenza, ciascuna istanza della stazione hardware IIS richiede un computer che esegue il servizio Web e l'applicazione che comunica con i dispositivi. 
 
@@ -184,7 +179,7 @@ La stazione hardware condivisa può essere utilizzata per consentire a più clie
 
 Quando viene utilizzata una stazione hardware per supportare la condivisione di periferiche tra più client POS, è necessario utilizzare solo cassetti della cassa, stampanti per ricevute e terminali di pagamento. Non è possibile connettere direttamente scanner di codici a barre, MSR, visualizzazioni riga, bilance o altri dispositivi autonomi. In caso contrario, conflitti accadranno quando più dispositivi POS tentano di usare le periferiche contemporaneamente. Ecco come i conflitti vengono gestiti per i dispositivi supportati:
 
--   **Il cassetto della cassa** il cassetto della cassa viene aperto tramite un evento che verrà inviato al dispositivo. L'unico problema che può verificarsi quando il cassetto della cassa viene chiamato avviene se il cassetto della cassa è già aperto. Nel caso di stazioni hardware condivise, il cassetto della cassa deve essere impostato su **Condiviso** nel profilo hardware. Questa impostazione impedisce al POS di controllare se il cassetto della cassa è già aperto quando invia i comandi di apertura.
+-   **Il cassetto della cassa** il cassetto della cassa viene aperto tramite un evento che verrà inviato al dispositivo. I problemi possono verificarsi quando il cassetto della cassa viene chiamato mentre il cassetto della cassa è già aperto. Un cassetto della cassa utilizzato in una configurazione della stazione hardware condivisa deve essere impostato su **Condiviso** nel profilo hardware. Questa impostazione impedisce al POS di controllare se il cassetto della cassa è già aperto quando invia i comandi di apertura.
 -   **Stampante di ricevute**  se due controlli di stampa di ricevute vengono inviati alla stazione hardware contemporaneamente, uno dei controlli può essere perso, a seconda del dispositivo. Alcuni dispositivi hanno memoria interna o pooling che può evitare questo problema. Se un comando di stampa non ha esito positivo, il cassiere riceve un messaggio di errore e può riprovare il comando di stampa dal POS.
 -   **Terminale di pagamento** se il cassiere tenta di incassare una transazione su un terminale di pagamento già in uso, un messaggio informa il cassiere con il terminale è in uso e al cassiere viene chiesto di provare nuovamente in un secondo momento. In genere, i cassieri possono visualizzare che un terminale è già utilizzato e aspetterà fino al completamento di un'altra transazione prima di provare ancora.
 
@@ -205,7 +200,7 @@ La logica che controlla le periferiche rete connesse fisicamente e indirizzabili
 ## <a name="setup-and-configuration"></a>Impostazione e configurazione
 ### <a name="hardware-station-installation"></a>Installazione della stazione hardware
 
-Per informazioni, vedere [Configurare e installare una stazione hardware](retail-hardware-station-configuration-installation.md).
+Per indicazioni su come installare una stazione hardware IIS, vedere [Configurare e installare la stazione hardware](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Installazione e configurazione di Modern POS per Windows
 
@@ -431,7 +426,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-shared-an-iis-hardware-station"></a>Tutti i client Modern POS condividevano una stazione hardware IIS
+### <a name="all-modern-pos-clients-that-share-an-iis-hardware-station"></a>Tutti i client Modern POS che condividono una stazione hardware IIS
 
 > [!NOTE]
 > Se la stazione hardware IIS è "condivisa ", più dispositivi possono utilizzare la stazione hardware contemporaneamente. Per questo scenario, è necessario utilizzare solo i dispositivi elencati nella seguente tabella. Se si tenta di condividere dispositivi che non sono elencati, ad esempio scanner di codice a barre e i MSR, errori accadranno quando più dispositivi tentano di utilizzare la stessa periferica. In futuro, tale configurazione verrà impedita esplicitamente.
@@ -487,7 +482,7 @@ Le periferiche di rete possono essere supportata direttamente tramite la stazion
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Configurazione per scenari supportati
-Per ulteriori informazioni sulla creazione di profili hardware, vedere [Definire e gestire i client di canale, inclusi i registratori di cassa e le stazioni hardware](define-maintain-channel-clients-registers-hw-stations.md). 
+Per ulteriori informazioni sulla creazione di profili hardware, vedere [Connettere periferiche al POS](define-maintain-channel-clients-registers-hw-stations.md). 
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Modern POS per Windows con una stazione hardware IPC (integrata)
 
@@ -623,9 +618,8 @@ Le periferiche seguenti sono state testate utilizzando la stazione hardware IPC 
 | Produttore | Modello    | Interfaccia | Commenti                |
 | ------------ | -------- | --------- | ----------------------- |
 | Epson        | TM-T88V  | OPOS      |                         |
-| Epson        | TM-T88VI | OPOS      |                         |
-| Epson        | TM-T88   | Personalizzazione    | Collegato tramite la rete   |
-| HP           | F7M67AA  | OPOS      | USB alimentato             |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | USB alimentato             |
 | Star         | TSP650II | Personalizzazione    | Collegato tramite la rete   |
 | Star         | mPOP     | OPOS      | Collegato tramite Bluetooth |
 | Toshiba      | HSP100   | OPOS      |                         |
@@ -637,26 +631,17 @@ Le periferiche seguenti sono state testate utilizzando la stazione hardware IPC 
 #### <a name="bar-code-scanner"></a>Scanner di codice a barre
 
 | Produttore  | Modello         | Interfaccia | Commenti |
-|---------------|---------------|-----------|----------|
-| Motorola      | DS9208        | OPOS      |          |
-| Honeywell     | 1900          | UWP       |          |
-| Simbolo        | LS2208        | OPOS      |          |
-| Integrato HP | E1L07AA       | OPOS      |          |
+| ------------- | ------------- | --------- | -------- |
 | Datalogic     | Magellan 8400 | OPOS      |          |
+| Honeywell     | 1900          | UWP       |          |
+| Integrato HP | E1L07AA       | OPOS      |          |
+| Simbolo        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>Tastierino PIN
+#### <a name="payment-terminals-and-pin-pads"></a>Terminali di pagamento e tastierini PIN
 
-| Produttore | Modello  | Interfaccia | Commenti                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | È richiesta la personalizzazione del connettore pagamenti |
+Dynamics 365 Commerce fornisce una soluzione pronta per l'integrazione con Adyen per i servizi di pagamento. Il [connettore di pagamento Dynamics 365 per Adyen](dev-itpro/adyen-connector.md) utilizza l'[API del terminale di pagamento Adyen](https://www.adyen.com/blog/introducing-the-terminal-api) indipendente dal dispositivo e può interagire con tutti i terminali di pagamento supportati da questa API. Per un elenco completo dei terminali di pagamento supportati, vedi [terminali POS Adyen](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="payment-terminal"></a>Terminale di pagamento
-
-| Produttore | Modello | Interfaccia | Commenti                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personalizzata    | È richiesta la personalizzazione del connettore pagamenti                                |
-| VeriFone     | MX925 | Personalizzata    | È richiesta la personalizzazione del connettore pagamenti; collegata tramite la rete e USB |
-| VeriFone     | MX915 | Personalizzata    | È richiesta la personalizzazione del connettore pagamenti; collegata tramite la rete e USB |
+Puoi anche utilizzare altri provider di servizi di pagamento con Dynamics 365 Commerce creando un connettore personalizzato. È possibile utilizzare qualsiasi terminale di pagamento supportato dal fornitore di servizi di pagamento Dynamics 365 Commerce. Allo stesso modo, Dynamics 365 Commerce consente qualsiasi modello di integrazione del dispositivo di pagamento supportato dal fornitore di servizi di pagamento, come IP locale, API cloud o connessione diretta (ad esempio tramite USB) al POS. Per altre informazioni, vedi [Creare un'integrazione di pagamento end-to-end per un terminale di pagamento](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Cassetto della cassa
 
@@ -670,10 +655,10 @@ Le periferiche seguenti sono state testate utilizzando la stazione hardware IPC 
 
 #### <a name="line-display"></a>Visualizzazione riga
 
-| Produttore  | Modello   | Interfaccia | Commenti |
-|---------------|---------|-----------|----------|
-| Integrato HP | G6U79AA | OPOS      |          |
-| Epson         | M58DC   | OPOS      |          |
+| Produttore | Modello    | Interfaccia | Commenti |
+| ------------ | -------- | --------- | -------- |
+| Epson        | DM-D110  | OPOS      |          |
+| HP           | Serie T | OPOS      |          |
 
 #### <a name="signature-capture"></a>Acquisizione firma
 
@@ -701,39 +686,29 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 
 #### <a name="printer"></a>Stampante
 
-| Produttore | Modello    | Interfaccia | Commenti              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88V  | Personalizzazione    | Collegato tramite la rete |
-| HP           | F7M67AA  | OPOS      | USB alimentato           |
-| Star         | TSP650II | Personalizzazione    | Collegato tramite la rete |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
-
-
+| Produttore | Modello    | Interfaccia | Commenti                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | USB alimentato             |
+| Star         | TSP650II | Personalizzazione    | Collegato tramite la rete   |
+| Star         | mPOP     | OPOS      | Collegato tramite Bluetooth |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="bar-code-scanner"></a>Scanner di codice a barre
 
-| Produttore  | Modello   | Interfaccia | Commenti |
-|---------------|---------|-----------|----------|
-| Motorola      | DS9208  | OPOS      |          |
-| Simbolo        | LS2208  | OPOS      |          |
-| Integrato HP | E1L07AA | OPOS      |          |
+| Produttore  | Modello         | Interfaccia | Commenti |
+| ------------- | ------------- | --------- | -------- |
+| Datalogic     | Magellan 8400 | OPOS      |          |
+| Integrato HP | E1L07AA       | OPOS      |          |
+| Simbolo        | LS2208        | OPOS      |          |
 
-#### <a name="pin-pad"></a>Tastierino PIN
+#### <a name="payment-terminals-and-pin-pads"></a>Terminali di pagamento e tastierini PIN
 
-| Produttore | Modello  | Interfaccia | Commenti                                        |
-|--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | È richiesta la personalizzazione del connettore pagamenti |
+Dynamics 365 Commerce fornisce una soluzione pronta per l'integrazione con Adyen per i servizi di pagamento. Il [connettore di pagamento Dynamics 365 per Adyen](dev-itpro/adyen-connector.md) utilizza l'[API del terminale di pagamento Adyen](https://www.adyen.com/blog/introducing-the-terminal-api) indipendente dal dispositivo e può interagire con tutti i terminali di pagamento supportati da questa API. Per un elenco completo dei terminali di pagamento supportati, vedi [terminali POS Adyen](https://www.adyen.com/pos-payments/terminals).
 
-#### <a name="payment-terminal"></a>Terminale di pagamento
-
-| Produttore | Modello | Interfaccia | Commenti                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | Personalizzata    | È richiesta la personalizzazione del connettore pagamenti                                |
-| VeriFone     | MX925 | Personalizzata    | È richiesta la personalizzazione del connettore pagamenti; collegata tramite la rete e USB |
-| VeriFone     | MX915 | Personalizzata    | È richiesta la personalizzazione del connettore pagamenti; collegata tramite la rete e USB |
+Puoi anche utilizzare altri provider di servizi di pagamento con Dynamics 365 Commerce creando un connettore personalizzato. È possibile utilizzare qualsiasi terminale di pagamento supportato dal fornitore di servizi di pagamento Dynamics 365 Commerce. Allo stesso modo, Dynamics 365 Commerce consente qualsiasi modello di integrazione del dispositivo di pagamento supportato dal fornitore di servizi di pagamento, come IP locale, API cloud o connessione diretta (ad esempio tramite USB) al POS. Per altre informazioni, vedi [Creare un'integrazione di pagamento end-to-end per un terminale di pagamento](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Cassetto della cassa
 
@@ -780,22 +755,20 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 
 #### <a name="printer"></a>Stampante
 
-| Produttore | Modello    | Interfaccia | Commenti              |
-| ------------ | -------- | --------- | --------------------- |
-| Epson        | TM-T88V  | OPOS      |                       |
-| Epson        | TM-T88VI | OPOS      |                       |
-| Epson        | TM-T88   | Personalizzazione    | Collegato tramite la rete |
-| HP           | F7M67AA  | OPOS      | USB alimentato           |
-| Star         | TSP650II | Personalizzazione    | Collegato tramite la rete |
-| Toshiba      | HSP100   | OPOS      |                       |
-| Toshiba      | HSP150   | OPOS      |                       |
+| Produttore | Modello    | Interfaccia | Commenti                |
+| ------------ | -------- | --------- | ----------------------- |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Epson        | TM-T88IV | OPOS      |                         |
+| HP           | H300     | OPOS      | USB alimentato             |
+| Star         | mPOP     | OPOS      | Collegato tramite Bluetooth |
+| Toshiba      | HSP100   | OPOS      |                         |
+| Toshiba      | HSP150   | OPOS      |                         |
 
 #### <a name="payment-terminal"></a>Terminale di pagamento
 
-| Produttore | Modello | Interfaccia | Commenti                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | Personalizzata    | È richiesta la personalizzazione del connettore pagamenti; collegata tramite la rete e USB |
-| VeriFone     | MX915 | Personalizzata    | È richiesta la personalizzazione del connettore pagamenti; collegata tramite la rete e USB |
+Dynamics 365 Commerce fornisce una soluzione pronta per l'integrazione con Adyen per i servizi di pagamento. Il [connettore di pagamento Dynamics 365 per Adyen](dev-itpro/adyen-connector.md) utilizza l'[API del terminale di pagamento Adyen](https://www.adyen.com/blog/introducing-the-terminal-api) indipendente dal dispositivo e può interagire con tutti i terminali di pagamento supportati da questa API. Per un elenco completo dei terminali di pagamento supportati, vedi [terminali POS Adyen](https://www.adyen.com/pos-payments/terminals).
+
+Puoi anche utilizzare altri provider di servizi di pagamento con Dynamics 365 Commerce creando un connettore personalizzato. È possibile utilizzare qualsiasi terminale di pagamento supportato dal fornitore di servizi di pagamento Dynamics 365 Commerce. Allo stesso modo, Dynamics 365 Commerce consente qualsiasi modello di integrazione del dispositivo di pagamento supportato dal fornitore di servizi di pagamento, come IP locale, API cloud o connessione diretta (ad esempio tramite USB) al POS. Per altre informazioni, vedi [Creare un'integrazione di pagamento end-to-end per un terminale di pagamento](dev-itpro/end-to-end-payment-extension.md).
 
 #### <a name="cash-drawer"></a>Cassetto della cassa
 
@@ -822,7 +795,7 @@ Le periferiche seguenti sono state testate utilizzando una stazione hardware IIS
 
 **Soluzione:** Uno dei seguenti fattori può causare questo problema:
 
--   La stazione hardware non è stata impostata correttamente nella sede centrale. Utilizzare la procedura descritta in precedenza in questo argomento per verificare che il profilo della stazione hardware e la stazione hardware siano immessi correttamente.
+-   La stazione hardware non è stata impostata correttamente in Headquarters. Per altre informazioni, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md#troubleshooting). 
 -   I processi non sono stati eseguiti per aggiornare la configurazione di canale. In questo caso, eseguire il processo 1070 per la configurazione di canale.
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS non riflette le nuove impostazioni del cassetto della cassa

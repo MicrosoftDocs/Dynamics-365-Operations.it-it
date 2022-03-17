@@ -2,7 +2,7 @@
 title: Elenco delle funzioni ER della categoria testo
 description: Questo argomento fornisce informazioni sulle funzioni di testo supportate nella creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 09/09/2021
+ms.date: 02/28/2022
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afe45bf1ff5c641346997aa4f32f3241dce2f0a2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 5d185c128de1120e93d1779db04a7666ba557707
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075502"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367769"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Elenco delle funzioni ER della categoria testo
 
@@ -51,7 +51,7 @@ Le funzioni di testo della creazione di report elettronici (ER) possono essere u
 | [Destra](er-functions-text-right.md) | Questa funzione restituisce un valore *Stringa* che presenta il numero specificato di caratteri alla fine della stringa specificata. |
 | [Testo](er-functions-text-text.md) | Questa funzione restituisce il numero specificato come un valore *Stringa* dopo che è stato convertito in stringa di testo formattata in base alle impostazioni locali del server dell'istanza corrente dell'applicazione. |
 | [Traduci](er-functions-text-translate.md) | Questa funzione restituisce un valore *Stringa* che contiene il risultato della sostituzione del testo specificato in caratteri per un altro set di caratteri fornito. |
-| [Trim](er-functions-text-trim.md) | Questa funzione restituisce la stringa di testo specificata come un valore *Stringa* dopo il troncamento degli spazi iniziali e finali e la rimozione di più spazi tra le parole. |
+| [Trim](er-functions-text-trim.md) | Questa funzione restituisce la stringa di testo specificata come un valore *Stringa* dopo che la tabulazione, i caratteri di ritorno a capo, di avanzamento riga e di avanzamento modulo sono stati sostituiti da uno spazio singolo, dopo che gli spazi iniziali e finali sono stati troncati e dopo che più spazi tra le parole sono stati rimossi. |
 | [Upper](er-functions-text-upper.md) | Questa funzione restituisce la stringa di testo specificata come un valore *Stringa* dopo che è stato convertito in lettere maiuscole. |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

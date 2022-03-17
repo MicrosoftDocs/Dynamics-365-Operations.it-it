@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: banluo
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3da92c384d3074335067433120eccc97d11b6b81
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: d78cde26d238d18744adde9a576552588736e619
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103942"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384697"
 ---
 # <a name="inventory-value-reports"></a>Report valore di magazzino
 
@@ -102,7 +102,7 @@ Utilizza la pagina **Report valore di magazzino** per configurare il contenuto i
         - Articoli ricevuti e non ancora fatturati quando l'opzione **Registra inventario fisico** è deselezionata per il relativo gruppo di modelli di articoli.
         - Articoli ricevuti e non ancora fatturati quando l'opzione **Registra entrata prodotti nella contabilità generale** è deselezionata nella Scheda dettaglio **Entrata prodotti** della scheda **Generale** della pagina **Parametri contabilità fornitori** (**Contabilità fornitori \> Imposta \> Parametri contabilità fornitori**).
 
-    - **Calcola il costo medio unitario**. imposta questa opzione su *Sì* per visualizzare una colonna che mostra il costo medio unitario. Il costo unitario medio è la quantità totale divisa per l'importo totale.
+    - **Calcola il costo medio unitario**. imposta questa opzione su *Sì* per visualizzare una colonna che mostra il costo medio unitario. Il costo unitario medio è l'importo totale divisa per la quantità totale.
     - **Valore e quantità totale**: imposta questa opzione su *Sì* per visualizzare colonne che mostrano la quantità totale di scorte fisiche (e quantità finanziarie) e l'importo totale delle scorte fisiche (e importi finanziari). È possibile impostare questa opzione su *Sì* solo se l'opzione **Riepiloga i valori fisici e finanziari** è impostata su *No*.
     - **Dimensioni inventariali**: in questa griglia, seleziona la casella di controllo **Visualizza** per ogni dimensione che desideri visualizzare nel report. Solo le dimensioni in cui l'opzione **Inventario finanziario** è abilitata mostreranno i valori sul report. Altre dimensioni mostreranno solo colonne vuote. Per le dimensioni che scegli di mostrare, puoi selezionare la casella di controllo **Totale** per includere anche i totali.
     - **ID risorsa**: imposta l'opzione **Visualizza** su *Sì* per visualizzare una colonna che identifica l'articolo per ogni riga. Imposta l'opzione **Totale** su *Sì* per includere anche i totali. A seconda del tipo di articolo elencato in ciascuna riga, la colonna mostra uno dei seguenti tipi di informazioni:

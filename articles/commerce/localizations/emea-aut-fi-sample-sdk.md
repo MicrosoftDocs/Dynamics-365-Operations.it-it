@@ -2,23 +2,24 @@
 title: Linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria (legacy)
 description: Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione fiscale per l'Austria da Microsoft Dynamics 365 Commerce Retail software development kit (SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 6238b67a35a303a03c51bbd261dd24d1b2acf041
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 65e2a64ed288fb0dcc05ec1ff2db8ed298ed3a76
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077117"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388417"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria (legacy)
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria da Microsoft Dynamics 365 Commerce Retail software development kit (SDK) in una macchina virtuale per lo sviluppo (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per maggiori informazioni sull'esempio di integrazione fiscale, vedi [Esempio di integrazione del servizio di registrazione fiscale per l'Austria](emea-aut-fi-sample.md). 
 
@@ -87,11 +88,15 @@ I componenti dell'estensione CRT sono inclusi negli esempi CRT. Per completare l
     <add source="assembly" value="Microsoft.Dynamics.Commerce.Runtime.XZReportsAustria" />
     ```
 
-### <a name="enable-hardware-station-extensions"></a>Abilitare le estensioni della stazione hardware
+### <a name="enable-fiscal-connector-extensions"></a>Abilitare le estensioni del connettore fiscale
+
+È possibile abilitare le estensioni del connettore fiscale sulla [stazione hardware](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-connected-to-the-hardware-station) o il [Registro POS](fiscal-integration-for-retail-channel.md#fiscal-registration-is-done-via-a-device-or-service-in-the-local-network).
+
+#### <a name="enable-hardware-station-extensions"></a>Abilitare le estensioni della stazione hardware
 
 I componenti dell'estensione stazione hardware sono inclusi negli esempi per stazione hardware. Per completare le seguenti procedure, apri la soluzione **HardwareStationSamples.sln** in **RetailSdk\\SampleExtensions\\HardwareStation**.
 
-#### <a name="efrsample-component"></a>Componente EFRSample
+##### <a name="efrsample-component"></a>Componente EFRSample
 
 1. Individua il progetto **HardwareStation.Extension.EFRSample** e compilalo.
 2. Nella cartella **Extension.EFRSample\\bin\\Debug** trova i seguenti file assembly:
@@ -114,6 +119,30 @@ I componenti dell'estensione stazione hardware sono inclusi negli esempi per sta
     ``` xml
     <add source="assembly" value="Contoso.Commerce.HardwareStation.EFRSample.dll" />
     ```
+
+#### <a name="enable-pos-extensions"></a>Abilitare le estensioni POS
+
+L'esempio di estensione POS si trova nella cartella **src\\FiscalIntegration\\PosFiscalConnectorSample** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
+
+Per utilizzare l'esempio di estensione POS nell'SDK legacy, segui questi passaggi.
+
+1. Copia la cartella **Pos.Extension** nella cartella **Estensioni** POS dell'SDK legacy (ad esempio, `C:\RetailSDK\src\POS\Extensions`).
+1. Rinomina la copia della cartella **Pos.Extension** **PosFiscalConnector**.
+1. Rimuovi le seguenti cartelle e file dalla cartella **PosFiscalConnector**:
+
+    - bin
+    - DataService
+    - devDependencies
+    - Librerie
+    - obj
+    - Contoso.PosFiscalConnectorSample.Pos.csproj
+    - RetailServerEdmxModel.g.xml
+    - tsconfig.json
+
+1. Apri la soluzione **CloudPos.sln** o **ModernPos.sln**.
+1. Nel progetto **Pos.Extensions**, includi la cartella **PosFiscalConnector**.
+1. Apri il file **extensions.json** e aggiungi l'estensione **PosFiscalConnector**.
+1. Creare l'SDK.
 
 ### <a name="enable-modern-pos-extension-components"></a>Abilitare i componenti dell'estensione Modern POS
 
@@ -243,9 +272,7 @@ Lo scopo dei file è di consentire la configurazione delle impostazioni per il p
 
 ### <a name="hardware-station-extension-design"></a>Progettazione dell'estensione stazione hardware
 
-Lo scopo dell'estensione (connettore fiscale) è di comunicare con il servizio di registrazione fiscale.
-
-L'estensione stazione hardware è **HardwareStation.Extension.EFRSample**. Utilizza il protocollo HTTP per inviare documenti generati dall'estensione CRT per il servizio di registrazione fiscale. Gestisce inoltre le risposte ricevute dal servizio di registrazione fiscale.
+Lo scopo dell'estensione del connettore fiscale è di comunicare con il servizio di registrazione fiscale. L'estensione stazione hardware è denominata **HardwareStation.Extension.EFRSample**. Utilizza i protocolli HTTP o HTTPS per inviare documenti generati dall'estensione CRT per il servizio di registrazione fiscale. Gestisce inoltre le risposte ricevute dal servizio di registrazione fiscale.
 
 #### <a name="request-handler"></a>Gestore richieste
 
@@ -265,3 +292,26 @@ Il file di configurazione si trova nella cartella **Configuration** del progetto
 
 - **Indirizzo dell'endpoint** – L'URL del servizio di registrazione fiscale.
 - **Timeout** – La quantità di tempo, in millisecondi che il driver trascorre in attesa di una risposta dal servizio di registrazione fiscale.
+
+### <a name="pos-fiscal-connector-extension-design"></a>Progettazione delle estensioni del connettore fiscale POS
+
+Lo scopo dell'estensione del connettore fiscale POS è di comunicare con il servizio di registrazione fiscale dal POS. Utilizza il protocollo HTTPS per la comunicazione.
+
+#### <a name="fiscal-connector-factory"></a>Factory del connettore fiscale
+
+La factory del connettore fiscale associa il nome del connettore all'implementazione del connettore fiscale e si trova nel file **Pos.Extension\\Connectors\\FiscalConnectorFactory.ts**. Il nome del connettore deve corrispondere al nome del connettore fiscale specificato in Commerce headquarters.
+
+#### <a name="efr-fiscal-connector"></a>Connettore fiscale EFR
+
+Il connettore fiscale EFR si trova nel file **Pos.Extension\\Connectors\\Efr\\EfrFiscalConnector.ts**. Implementa l'interfaccia **IFiscalConnector** che supporta le seguenti richieste:
+
+- **FiscalRegisterSubmitDocumentClientRequest** - Invia documenti al servizio di registrazione fiscale e restituisce una risposta.
+- **FiscalRegisterIsReadyClientRequest** - Viene utilizzata per un controllo di integrità del servizio di registrazione fiscale.
+- **FiscalRegisterInitializeClientRequest** - Viene utilizzata per inizializzare il servizio di registrazione fiscale.
+
+#### <a name="configuration"></a>Configurazione
+
+Il file di configurazione si trova nella cartella **src\\FiscalIntegration\\Efr\\Configurations\\Connectors** del repository [Dynamics 365 Commerce Solutions](https://github.com/microsoft/Dynamics365Commerce.Solutions/). Lo scopo del file è di consentire la configurazione delle impostazioni per il connettore fiscale da Commerce headquarters. Il formato di file è allineato ai requisiti per la configurazione dell'integrazione fiscale. Vengono aggiunte le seguenti impostazioni:
+
+- **Indirizzo dell'endpoint** – L'URL del servizio di registrazione fiscale.
+- **Timeout** – La quantità di tempo, in millisecondi (ms) che il connettore trascorre in attesa di una risposta dal servizio di registrazione fiscale.

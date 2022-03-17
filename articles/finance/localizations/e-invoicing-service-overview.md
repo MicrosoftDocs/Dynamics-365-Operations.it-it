@@ -1,8 +1,8 @@
 ---
 title: Panoramica della fatturazione elettronica
-description: Questo argomento fornisce informazioni sulla fatturazione elettronica in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
+description: Questo argomento fornisce informazioni generali sulla fatturazione elettronica in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 01/21/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6983abeb4d0fdd1a595a53ea0fd9cd840b24030b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 23a98706bc2ab0abc2c72e9f20d8e8fbff56b2b9
+ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983856"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8371456"
 ---
 # <a name="electronic-invoicing-overview"></a>Panoramica della fatturazione elettronica
 
 [!include [banner](../includes/banner.md)]
 
-La fatturazione elettronica per Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management è un servizio multitenant iper-scalabile che consente l'elaborazione configurabile di documenti di fatturazione elettronica e lo scambio di documenti configurabili. Le regole di elaborazione e integrazione sono completamente configurabili e la logica viene eseguita all'esterno di Finance and Supply Chain Management. Il servizio si rivolge principalmente all'elaborazione di fatture elettroniche in scenari business to government, ma può essere configurato in modo personalizzato per altri scopi.
+La fatturazione elettronica per Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management è un servizio multitenant iper-scalabile che consente l'elaborazione configurabile di fatture elettroniche e lo scambio di documenti configurabili. Le regole di elaborazione e integrazione sono completamente configurabili e la logica viene eseguita all'esterno di Finance and Supply Chain Management. Il servizio è mirato principalmente all'elaborazione di documenti di fatturazione elettronica in scenari business-to-government. Tuttavia, può essere configurato in modo personalizzato per altri scopi, ad esempio scenari business-to-business per diversi tipi di documenti.
 
 La fatturazione elettronica può aiutarti a raggiungere i seguenti obiettivi:
 
@@ -42,75 +42,44 @@ La fatturazione elettronica può aiutarti a raggiungere i seguenti obiettivi:
 - Esportazione, importazione e integrazione integrate e facile estendibilità nell'elaborazione di documenti di fatturazione elettronica
 - Facile riutilizzo delle stesse configurazioni di esportazione, importazione e integrazione tra le aziende
 
-Per utilizzare la fatturazione elettronica, è necessario installarla dal progetto in formato Microsoft Dynamics Lifecycle Services (LCS). Successivamente, segui la procedura di configurazione per attivare l'integrazione con Finance o Supply Chain Management. Per altre informazioni, vedi [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
+## <a name="service-availability"></a>Disponibilità servizio
 
-## <a name="service-availability"></a><a name="availability"></a>Disponibilità servizio
+Attualmente, la funzionalità di fatturazione elettronica è disponibile per i clienti Finance e Supply Chain Management. Per ulteriori informazioni, consulta le condizioni della licenza per la tua applicazione.
 
-Attualmente la fatturazione elettronica è disponibile per i clienti tramite il programma di anteprima e nella fase successiva il servizio diventerà generalmente disponibile. Poiché la funzionalità che soddisfa i requisiti specifici del paese/area geografica potrebbe essere limitata in diverse fasi del rilascio, è necessario controllare sempre la documentazione più aggiornata che evidenzi la copertura e l'ambito delle soluzioni specifiche del paese/area geografica supportato.
+Poiché la funzionalità che soddisfa i requisiti specifici del paese/area geografica potrebbe essere limitata in diverse fasi del rilascio, è necessario controllare sempre la documentazione più aggiornata che evidenzi la copertura e l'ambito delle soluzioni specifiche del paese/area geografica supportato.
 
 La fatturazione elettronica viene distribuita nelle seguenti aree geografiche di Azure:
 
 - Stati Uniti
 - Europa
-- Regno Unito
 - Asia
 
 > [!NOTE]
 > La fatturazione elettronica non supporta le distribuzioni locali.
 
-## <a name="extended-configurability"></a>Configurabilità estesa
-
-La fatturazione elettronica può essere utilizzata in scenari in cui è necessario creare e inviare un documento elettronico alle parti designate. È progettato specificamente per eseguire un flusso configurabile di azioni di elaborazione, in base ai dati ricevuti. Le opzioni di configurabilità disponibili in Finance and Supply Chain Management sono limitate alla trasformazione dei documenti. Il servizio estende queste opzioni aggiungendo le integrazioni configurabili disponibili al suo interno. Inoltre, tutte le funzionalità di fatturazione elettronica precedentemente disponibili, come Nota fiscal eletrônica brasiliana (NF-e), Mexican Comprobante Fiscal Digital por Internet (CFDI) o altri Western European Universal Business Language (UBL)/Pan-European Public Procurement OnLine (PEPPOL) utilizzeranno le configurazioni per l'esportazione e l'importazione e per abilitare le integrazioni con servizi Web esterni.
-
 ## <a name="feature-highlights"></a>Caratteristiche principali
 
 - Integrazione immediata con Finance e Supply Chain Management
-- Esperienza utente coerente per la configurazione e il monitoraggio del processo di fatturazione elettronica per tutti i paesi o aree geografiche
+- Esperienza utente coerente per la configurazione e il monitoraggio del processo di fatturazione elettronica per tutti i paesi e aree geografiche
 - Adozione più rapida, semplice e meno costosa di soluzioni aggiuntive per la fatturazione elettronica in nuovi paesi o aree geografiche
-- Configurazione del servizio tramite la funzionalità Regulatory Configuration Service (RCS) e globalizzazione
+- Configurazione del servizio tramite la configurazione delle funzionalità Regulatory Configuration Service (RCS) e globalizzazione
 - Trasformazione dei dati aziendali in più formati di fattura elettronica (XML, JavaScript Object Notation \[JSON \], TXT e valori separati da virgole \[CSV\]) utilizzando le configurazioni definite in RCS:
 
-    - Formati di report elettronici disponibili per paesi o aree geografiche in cui la configurabilità per la trasformazione della fattura elettronica non è disponibile
+    - Formati di report elettronici disponibili per paesi e aree geografiche in cui la configurabilità per la trasformazione della fattura elettronica non è disponibile
 
 - Invio configurabile di fatture elettroniche a servizi Web esterni, inclusa la gestione della certificazione tramite firme digitali:
 
-    - Integrazione incorporata, facilmente estendibile e configurabile con contenuti aggiuntivi per diversi paesi
-
-    > [!NOTE]
-    > Attualmente, è supportato un numero limitato di invii diretti. Per ulteriori informazioni, vedi la sezione [Disponibilità servizio](#availability) descritta precedentemente in questo argomento. Il supporto verrà esteso in futuro.
+    - Integrazione incorporata, facilmente estendibile e configurabile con contenuti aggiuntivi per diversi paesi e aree geografiche
 
 - Gestione delle risposte dai servizi Web, inclusa la gestione configurabile dei messaggi di eccezione
-- Supporto per firme elettroniche (ad esempio, utilizzando l'algoritmo di firma XMLDSig)
+- Supporto per firme elettroniche (ad esempio, firme elettroniche che utilizzano l'algoritmo di firma XMLDSig)
+- La possibilità di inviare documenti a e-mail e archiviarli in SharePoint
 - Elaborazione batch di messaggi di fatturazione elettronica
-
-## <a name="architecture-and-data-flow"></a>Architettura e flusso di dati
-
-Quando la fatturazione elettronica viene installata da LCS e la configurazione obbligatoria è stata completata in tutte le applicazioni richieste, viene stabilita una connessione sicura. Il servizio si trova attualmente nei data center negli Stati Uniti e in Europa. Pertanto, l'ubicazione del servizio potrebbe differire dall'ubicazione dell'istanza di Finance o Supply Chain Management correlata. Dopo aver completato la configurazione per la fatturazione elettronica e attivato l'integrazione, ogni volta che viene inviata una fattura elettronica, i dati anagrafici e transazionali relativi a un documento specifico vengono inviati alla fatturazione elettronica.
-
-> [!NOTE]
-> Se la fattura elettronica o qualsiasi altro documento contiene dati personali, verifica che l'utilizzo di questa funzione soddisfi il Regolamento generale sulla protezione dei dati (GDPR) e altre normative relative al trasferimento dei dati personali.
-
-### <a name="high-level-description-of-the-data-flow"></a>Descrizione generale del flusso di dati
-
-1. Il cliente invia un documento aziendale canonico al servizio.
-2. In base alle informazioni di contesto ricevute dal client, il servizio seleziona il flusso di elaborazione applicabile.
-3. Il servizio esegue le azioni di elaborazione. Queste azioni potrebbero includere la trasformazione del documento aziendale in una fattura elettronica, l'applicazione di una firma elettronica e l'invio del documento a un servizio Web esterno.
-4. Tutti i documenti ricevuti ed elaborati vengono archiviati in Archiviazione BLOB di Azure del cliente.
-5. Tutti i segreti e i certificati del tenant usati per l'elaborazione vengono archiviati in Azure Key Vault del cliente.
-6. Il servizio fornisce informazioni su richiesta al cliente sullo stato di elaborazione del documento aziendale inviato.
-7. Il client riceve informazioni sull'esecuzione dell'elaborazione completata e rende disponibili tutte le informazioni di registro. Rende inoltre disponibile il documento creato o ricevuto durante l'elaborazione del flusso.
-
-La figura seguente mostra i flussi di dati verso il e provenienti dalla fatturazione elettronica.
-
-![Flusso di dati per la fatturazione elettronica.](media/e-invoicing-service-data-flow-diagram-overview.png)
+- Trasformazione configurabile dei documenti in entrata ed elaborazione di tali documenti in Finance and Supply Chain Management
+- La possibilità di ricevere documenti in arrivo da canali come e-mail e SharePoint
 
 ## <a name="privacy-notice"></a>Informativa sulla privacy
-L'abilitazione e l'utilizzo della fatturazione elettronica potrebbe richiedere l'invio di dati limitati, che includono l'ID di registrazione fiscale dell'organizzazione. Questo verrà trasmesso ad agenzie di terze parti autorizzate dalle autorità fiscali allo scopo di inviare fatture elettroniche nei formati predefiniti richiesti per l'integrazione con questi servizi Web del governo. I dati importati da questi sistemi esterni in questo servizio online Dynamics 365 sono soggetti alla nostra [informativa sulla Privacy](https://go.microsoft.com/fwlink/?LinkId=512132). Consulta le sezioni dell'Informativa sulla privacy nella documentazione delle funzionalità specifiche del paese.
 
-## <a name="additional-resources"></a>Risorse aggiuntive
-- [Amministrazione del servizio](e-invoicing-service-administration.md)
-- [Configurare le fattura elettroniche in RCS](e-invoicing-configuration-rcs.md)
-- [Emissione di fatture elettroniche in Finance e Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
-
+L'abilitazione e l'utilizzo funzionalità di fatturazione elettronica potrebbe richiedere l'invio di dati limitati. Questi dati includono l'ID di registrazione fiscale dell'organizzazione. Questi dati verranno trasmessi ad agenzie di terze parti autorizzate dalle autorità fiscali allo scopo di inviare fatture elettroniche nei formati predefiniti richiesti per l'integrazione con questi servizi Web del governo. I dati importati da questi sistemi esterni in questo servizio online Dynamics 365 sono soggetti alla nostra [informativa sulla Privacy](https://go.microsoft.com/fwlink/?LinkId=512132). Per ulteriori informazioni consulta la sezione "Informativa sulla privacy" nella documentazione delle funzionalità specifiche del paese/area geografica.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

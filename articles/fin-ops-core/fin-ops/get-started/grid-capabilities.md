@@ -2,7 +2,7 @@
 title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità della griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
-ms.date: 02/01/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83d0b6243efd802ffc959f8de14f6232736fc88c
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 58a05f893549a8b9e2e5cb83d02475d0fb5b7277
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087576"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384442"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
@@ -67,7 +67,10 @@ Se si commette un errore e non si desidera più vedere un totale in una determin
 ### <a name="calculating-totals"></a>Calcolo totali in corso
 Quando si arriva a una pagina con il piè di pagina visibile e le colonne sono già configurate per i totali, questi possono o meno essere visualizzati nel piè di pagina. Il comportamento dipende dalla dimensione del set di dati nella pagina. Se il set di dati è sufficientemente piccolo, i totali verranno visualizzati automaticamente, insieme al numero di righe nel set di dati. Se sono presenti trattini nel piè di pagina sotto le colonne configurate per i totali, il set di dati è troppo grande per consentire al sistema di mostrare immediatamente i totali e per calcolare i totali è necessaria un'azione esplicita. A questo proposito, fare clic sul pulsante **Calcola** nel piè di pagina o fare clic con il pulsante destro del mouse su una colonna per la quale si desidera un totale e selezionare **Totale in questa colonna**.
 
-Se il calcolo richiede troppo tempo, è possibile annullare l'operazione selezionando il pulsante **Annulla**. A volte, tuttavia, il set di dati sarà troppo grande per calcolare i totali (un limite imposto dalla propria organizzazione) e verrà invece richiesto di filtrare ulteriormente i dati.
+Se il calcolo richiede troppo tempo per essere completato, è possibile annullare l'operazione selezionando il pulsante **Annulla**. A volte, il set di dati sarà troppo grande per calcolare i totali (un limite imposto dalla propria organizzazione) e verrà invece richiesto di filtrare ulteriormente i dati. 
+
+> [!NOTE]
+> Le amministrazioni di sistema possono modificare il limite per il numero di record disponibili per il calcolo dei totali regolando il parametro **Numero massimo di record locali per ogni griglia** nella pagina **Opzioni di prestazione del cliente**. Il valore predefinito è 25.000 record. Gli amministratori devono prestare attenzione quando regolano questo valore perché un valore troppo grande può esaurire la memoria disponibile sul computer dell'utente. La raccomandazione è di non superare i 50.000 record.   
 
 I totali verranno aggiornati automaticamente a mano a mano che si aggiornano, eliminano o si creano righe nel set di dati.
 

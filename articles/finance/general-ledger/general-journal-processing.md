@@ -2,7 +2,7 @@
 title: Elaborazione giornale di registrazione generale
 description: Questo argomento descrive le funzionalità di Microsoft Dynamics 365 Finance che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e che il controllo interno non sia compromesso.
 author: kweekley
-ms.date: 08/09/2019
+ms.date: 02/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f9f4019618891909e674c6b936f79778ac84744
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: 7096d8576cf124e5e1d814c360d96639f66a742a
+ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726779"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367882"
 ---
 # <a name="general-journal-processing"></a>Elaborazione giornale di registrazione generale
 
@@ -101,7 +101,7 @@ Un pulsante è disponibile nella pagina del giornale di registrazione per sblocc
 La capacità di richiamare un giornale di registrazione in un flusso di lavoro il cui stato è "Irreversibile" viene abilitata utilizzando il pulsante **Flusso di lavoro** in un giornale di registrazione e nella pagina **Storico flusso di lavoro**. Questo pulsante viene abilitato mediante la funzionalità denominata **Ripristino stato del flusso di lavoro per giornali di registrazione** nella pagina **Gestione funzionalità**.
 
 ## <a name="delete-journal-lines"></a>Eliminare le righe di un giornale di registrazione
-La capacità di eliminare tutte le righe di un giornale di registrazione viene abilitata in un giornale di registrazione in **Funzioni** > **Elimina righe giornale di registrazione**. Per abilitare questa funzionalità, in **Gestione funzionalità**, selezionare **Elimina ottimizzazioni prestazioni del giornale di registrazione**.
+La capacità di eliminare tutte le righe di un giornale di registrazione viene abilitata in un giornale di registrazione in **Funzioni** > **Elimina righe giornale di registrazione**. Per abilitare questa funzionalità, in **Gestione funzionalità**, selezionare **Elimina ottimizzazioni prestazioni del giornale di registrazione**. Questa funzionalità influisce sulle estensioni della tabella **LedgerJournalTrans** ed è il metodo **Elimina**, poiché l'insieme di righe viene rimosso senza chiamare il metodo **Elimina** di ciascuna riga. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

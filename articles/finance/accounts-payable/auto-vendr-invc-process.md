@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4fef5011ead69028a7f667835fd5e5ba2401408d
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985658"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358432"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Panoramica dei processi di fatturazione automatizzati dei fornitori
 
@@ -43,7 +43,7 @@ I processi di automazione possono essere utilizzati per eseguire queste attivit�
 
 ## <a name="submit-imported-vendor-invoices-to-the-workflow-system"></a>Inviare fatture fornitore importate al sistema del flusso di lavoro
 
-Come parte di un processo di fatturazione della contabilità fornitori senza contatto, puoi fare in modo che il sistema invii automaticamente una fattura importata al sistema del flusso di lavoro. Il processo verrà eseguito in background, alla frequenza da te specificata (oraria o giornaliera). Per inviare automaticamente fatture importate al sistema del flusso di lavoro, è necessario che il processo inizi con una fattura importata. Per garantire che la fattura possa essere elaborata dall'inizio alla fine senza intervento manuale, devi includere un'attività di registrazione automatizzata nella configurazione del flusso di lavoro.
+Come parte di un processo di fatturazione della contabilità fornitori senza contatto, una fattura importata può essere inviata automaticamente al sistema del flusso di lavoro. Il processo verrà eseguito in background, alla frequenza da te specificata (oraria o giornaliera). Per inviare automaticamente fatture importate al sistema del flusso di lavoro, è necessario che il processo inizi con una fattura importata. Per garantire che la fattura possa essere elaborata dall'inizio alla fine senza intervento manuale, devi includere un'attività di registrazione automatizzata nella configurazione del flusso di lavoro.
 
 
 Le fatture correlate agli ordini fornitore e le fatture che contengono una categoria di approvvigionamento non ordine fornitore e righe non a magazzino possono essere inviate automaticamente al sistema del flusso di lavoro. Le fatture immesse manualmente e le fatture create tramite l'area di lavoro **Fatturazione di collaborazione fornitore** devono essere inviate manualmente al sistema del flusso di lavoro. L'elaborazione della richiesta di pagamento anticipato deve essere eseguita manualmente per le fatture importate. È possibile applicare manualmente i pagamenti anticipati prima o dopo la registrazione della fattura importata. È possibile applicare manualmente i pagamenti anticipati a fatture standard non registrate utilizzando la pagina **Fatture fornitore**. Dopo la registrazione, il pagamento anticipato regolato sarà disponibile per essere applicato manualmente ad altre fatture di questo fornitore nella pagina **Fornitori** (**Contabilità fornitori \> Comune \> Fornitori \> Tutti i fornitori \> Scheda Fattura\> Applica**).
@@ -52,7 +52,7 @@ La funzionalità di automazione fornisce un framework flessibile che consente di
 
 ## <a name="match-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Abbinare entrate prodotti a righe di fattura che hanno criteri di abbinamento a tre elementi di verifica
 
-Il sistema può abbinare automaticamente le entrate prodotti registrate alle righe di fattura per cui sono definiti criteri di abbinamento a tre elementi di verifica. Il processo verrà eseguito fino a quando la quantità delle entrate prodotti abbinate non sarà uguale alla quantità della fattura. Come parte di questo processo, puoi specificare il numero massimo di tentativi del sistema di abbinare le entrate prodotti a una riga di fattura prima che il sistema consideri il processo come non riuscito. Il processo verrà eseguito in background, ogni ora o ogni giorno. Puoi eseguire il processo di abbinamento automatizzato come parte del processo di invio di fatture al sistema del flusso di lavoro. In alternativa, puoi eseguirlo come processo autonomo.
+Le entrate prodotti registrate vengono automaticamente abbinate alle righe di fattura per cui sono definiti criteri di abbinamento a tre elementi di verifica. Il processo verrà eseguito fino a quando la quantità delle entrate prodotti abbinate non sarà uguale alla quantità della fattura. Come parte di questo processo, puoi specificare il numero massimo di tentativi del sistema di abbinare le entrate prodotti a una riga di fattura prima che il sistema consideri il processo come non riuscito. Il processo verrà eseguito in background, ogni ora o ogni giorno. Puoi eseguire il processo di abbinamento automatizzato come parte del processo di invio di fatture al sistema del flusso di lavoro. In alternativa, puoi eseguirlo come processo autonomo.
 
 ## <a name="pre-validate-vendor-invoice-posting"></a>Pre-convalidare la registrazione delle fatture fornitore
 
@@ -60,7 +60,7 @@ La simulazione della registrazione completa i passaggi di convalida eseguiti dur
 
 ## <a name="enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Esperienza migliorata per la visualizzazione delle informazioni dello storico automazione e flusso di lavoro per fatture fornitore
 
-Viene fornita una visualizzazione di facile lettura dello storico flusso di lavoro delle fatture fornitore. Puoi accedere allo storico flusso di lavoro delle fatture fornitore direttamente dalla fattura fornitore. Pertanto, sono necessari meno clic per trovare tali informazioni. Se l'organizzazione ha abilitato la possibiliyà di inviare automaticamente le fatture fornitore importate al flusso di lavoro, viene fornita la cronologia dell'automazione per le fatture importate. La cronologia dell'automazione aiuta a identificare il passaggio del processo corrente, nonché i passaggi che sono già stati completati. Quando un passaggio non viene completato, il sistema fornisce informazioni dettagliate per aiutarti a comprendere il motivo dell'errore.
+Viene fornita una visualizzazione di facile lettura dello storico flusso di lavoro delle fatture fornitore. Puoi accedere allo storico flusso di lavoro delle fatture fornitore direttamente dalla fattura fornitore. Pertanto, sono necessari meno clic per trovare tali informazioni. Se l'organizzazione ha abilitato la possibiliyà di inviare automaticamente le fatture fornitore importate al flusso di lavoro, viene fornita la cronologia dell'automazione per le fatture importate. La cronologia dell'automazione aiuta a identificare il passaggio del processo corrente, nonché i passaggi che sono già stati completati. Quando un passaggio non viene completato, informazioni dettagliate verranno fornite per aiutarti a comprendere il motivo dell'errore.
 
 ## <a name="analytics-and-metrics"></a>Analisi e metriche
 
@@ -78,9 +78,9 @@ Il valore **Data di ricezione fattura** indica la data in cui l'azienda ha ricev
 
 ## <a name="tracking-the-imported-invoice-amount-and-imported-sales-tax-amount-values"></a>Monitoraggio dei valori Importo fattura importata e Importo IVA importata
 
-I valori **Importo fattura importata** e **Importo IVA importata** per le fatture fornitore possono essere forniti nel file di importazione delle fatture fornitore. In genere, questi valori provengono da una fattura sottoposta a scansione da un fornitore esterno e inclusa nel file di importazione. Quando la fattura viene elaborata in Contabilità fornitori, il sistema calcola i valori in base ai dati della fattura. La fattura può essere registrata solo se i valori importati corrispondono ai valori calcolati. I valori corrispondenti garantiscono che la fattura rifletta accuratamente l'importo dovuto al fornitore. Se l'organizzazione consente l'invio automatico delle fatture importate al sistema del flusso di lavoro, è possibile richiedere eventualmente che i totali importati corrispondano ai totali calcolati prima che la fattura possa essere inviata al sistema del flusso di lavoro.
+I valori **Importo fattura importata** e **Importo IVA importata** per le fatture fornitore possono essere forniti nel file di importazione delle fatture fornitore. In genere, questi valori provengono da una fattura sottoposta a scansione da un fornitore esterno e inclusa nel file di importazione. Quando la fattura viene elaborata in Contabilità fornitori, i valori verranno calcolati in base ai dati della fattura. La fattura può essere registrata solo se i valori importati corrispondono ai valori calcolati. I valori corrispondenti garantiscono che la fattura rifletta accuratamente l'importo dovuto al fornitore. Se l'organizzazione consente l'invio automatico delle fatture importate al sistema del flusso di lavoro, è possibile richiedere eventualmente che i totali importati corrispondano ai totali calcolati prima che la fattura possa essere inviata al sistema del flusso di lavoro.
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automazione delle fatture fornitore: riprendere l'elaborazione dell'automazione per più fatture
-Quando una fattura importata non viene inviata correttamente al flusso di lavoro tramite il processo automatizzato, il sistema la rimuoverà dall'ulteriore elaborazione automatizzata. Un addetto alla contabilità fornitori può esaminare e modificare la fattura prima che il processo automatizzato la invii nuovamente al flusso di lavoro. Quando un motivo di errore può essere risolto con la stessa correzione per più fatture, puoi riavviare il processo automatizzato nella pagina **Riprendi l'elaborazione automatica delle fatture**. 
+Quando una fattura importata non viene inviata correttamente al flusso di lavoro tramite il processo automatizzato, verrà rimossa dall'ulteriore elaborazione automatizzata. Un addetto alla contabilità fornitori può esaminare e modificare la fattura prima che il processo automatizzato la invii nuovamente al flusso di lavoro. Quando un motivo di errore può essere risolto con la stessa correzione per più fatture, puoi riavviare il processo automatizzato nella pagina **Riprendi l'elaborazione automatica delle fatture**. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

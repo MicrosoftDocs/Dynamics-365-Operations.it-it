@@ -2,13 +2,13 @@
 title: Panoramica delle fatture fornitore
 description: Questo argomento fornisce informazioni generali sulle fatture fornitore.
 author: abruer
-ms.date: 06/03/2021
+ms.date: 02/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "13971"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22535f4bc320bde096214e2044cfeb00d4e9fbbc
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: b54a60ac3b1868ea7cc5ed88d5a31203b4bd29d3
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985339"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358426"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
@@ -51,10 +51,10 @@ La discussione seguente fornisce ulteriori informazioni su come utilizzare la pa
 
 Quando si apre una fattura fornitore da un ordine fornitore correlato, il sistema crea righe fattura dall'ordine fornitore. Per impostazione predefinita, il sistema prende le quantità dall'entrata prodotti. Tuttavia, è possibile utilizzare uno dei seguenti comportamenti predefiniti:
 
-- **Quantità in Ricevi ora** Utilizzare questa opzione per le spedizioni parziali. Il sistema imposta il valore predefinito in **Quantità** dalla quantità specificata nel campo **Ricevi ora** nell'ordine fornitore.
-- **Quantità ordinata** Utilizzare questa opzione per le spedizioni complete. Il sistema imposta il valore predefinito in **Quantità** dalla quantità specificata nel campo **Ordinato** nell'ordine fornitore.
+- **Quantità in Ricevi ora** Utilizzare questa opzione per le spedizioni parziali. Il valore predefinito nel campo **Quantità** verrà impostato sulla quantità specificata nel campo **Ricevi ora** nell'ordine fornitore.
+- **Quantità ordinata** Utilizzare questa opzione per le spedizioni complete. Il valore predefinito nel campo **Quantità** verrà impostato sulla quantità specificata nel campo **Ordinato** nell'ordine fornitore.
 - **Quantità registrata** Utilizzare questa opzione se l'articolo richiede la registrazione, come specificato nella pagina **Gruppi di modelli di articoli**. Il valore predefinito nel campo **Quantità** è la quantità fisica di aggiornamento registrata.
-- **Quantità entrata prodotti**: utilizzare questa opzione se per l'ordine è già stata ricevuta un'entrata prodotti. Il sistema prende il valore predefinito nel campo **Quantità** dalla quantità totale di entrate prodotti disponibili.
+- **Quantità entrata prodotti**: utilizzare questa opzione se per l'ordine è già stata ricevuta un'entrata prodotti. Il valore predefinito nel campo **Quantità** deriva dalla quantità totale di entrate prodotti disponibili.
 - **Quantità registrata e servizi**: utilizzare questa opzione se le quantità sono state registrate nei giornali di registrazione arrivi per articoli stoccati o articoli non stoccati. In questa opzione sono inoltre inclusi i servizi, indipendentemente dal relativo stato di registrazione.
 
 Se la persona giuridica utilizza l'abbinamento fatture, è possibile visualizzare i risultati degli abbinamenti quantità nella colonna **Abbinamento quantità entrata prodotti**. È anche possibile utilizzare il pulsante **Dettagli corrispondenti** nella scheda **Revisione** del Riquadro azioni per visualizzare i risultati degli abbinamenti quantità.
@@ -65,7 +65,7 @@ Se la persona giuridica utilizza l'abbinamento fatture, è possibile visualizzar
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Invio di una fattura fornitore per la revisione
 
-L'organizzazione può utilizzare flussi di lavoro per gestire il processo di revisione per le fatture fornitore. La revisione del flusso di lavoro può essere necessaria per l'intestazione della fattura, per la riga di fattura o per entrambe. I controlli del flusso di lavoro vengono applicati all'intestazione o alla riga, a seconda della posizione dello stato attivo quando si seleziona il controllo. Anziché il pulsante **Registra**, viene visualizzato il pulsante **Invia** che può essere utilizzato per inviare la fattura fornitore tramite il processo di revisione.
+L'organizzazione può utilizzare flussi di lavoro per gestire il processo di revisione per le fatture fornitore. La revisione del flusso di lavoro può essere necessaria per l'intestazione della fattura, per la riga di fattura o per entrambe. I controlli del flusso di lavoro vengono applicati all'intestazione o alla riga, a seconda della posizione dello stato attivo quando si seleziona il controllo. Anziché il pulsante **Registra**, è possibile utilizzare un pulsante **Invia** per inviare la fattura fornitore tramite il processo di revisione.
 
 ### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Impedire che la fattura venga inviata al flusso di lavoro 
 
@@ -102,7 +102,7 @@ Per registrare una fattura fornitore in un batch, nella pagina **Gestione funzio
 
 ## <a name="working-with-multiple-invoices"></a>Utilizzo con più fatture
 
-È possibile utilizzare più fatture e registrarle tutte contemporaneamente. Se è necessario creare più fatture, utilizzare la pagina **Fatture fornitore in sospeso**. Se è necessario registrare e stampare più fatture fornitore, utilizzare il giornale di approvazione fatture. Se si utilizza il giornale di approvazione fatture è necessario che sia registrata almeno un'entrata prodotti per l'ordine fornitore e che sia registrata una fattura per l'ordine fornitore in un registro fatture. Le informazioni finanziarie relative alla fattura derivano dalla fattura inserita nel registro.
+È possibile utilizzare più fatture e registrarle tutte contemporaneamente. Se è necessario creare più fatture, utilizzare la pagina **Fatture fornitore in sospeso**. Se è necessario registrare e stampare più fatture fornitore, utilizzare il **giornale di approvazione fatture**. Se si utilizza il **giornale di approvazione fatture** è necessario che sia registrata almeno un'entrata prodotti per l'ordine fornitore e che sia registrata una fattura per l'ordine fornitore in un registro fatture. Le informazioni finanziarie relative alla fattura derivano dalla fattura inserita nel registro.
 
 ## <a name="recovering-vendor-invoices-that-are-being-used"></a>Ripristinare fatture fornitore utilizzate
 

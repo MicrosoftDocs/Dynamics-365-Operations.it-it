@@ -2,7 +2,7 @@
 title: Modulo Piè di pagina
 description: In questo argomento vengono descritti i moduli Piè di pagina e la procedura per crearli in Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 03/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 81db5cf32f23b7ee1ca8325eeec2e6ceafda55e0
+ms.sourcegitcommit: 90a553e271e7cd471fed2e4f006d753fdb67b47d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719988"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8374833"
 ---
 # <a name="footer-module"></a>Modulo Piè di pagina  
 
@@ -39,7 +39,7 @@ Come la maggior parte dei contenitori, un modulo Piè di pagina supporta le prop
 
 ## <a name="modules-available-in-a-footer-module"></a>Moduli disponibili in un modulo Piè di pagina
 
-**Elementi piè di pagina** - Un modulo Elementi piè di pagina può contenere un'intestazione, un'immagine e un collegamento. L'intestazione può essere utilizzata da sola o in combinazione con un'immagine e un collegamento. Ogni collegamento nel piè di pagina può essere configurato di modo che abbia solo testo (ad esempio i collegamenti "Contattaci" e "Privacy") oppure del testo e un'immagine (ad esempio collegamenti ai social media).
+**Elemento piè di pagina** - Un modulo di elemento piè di pagina può contenere un'intestazione o un collegamento. L'intestazione è generalmente utilizzata come titolo della sezione del piè di pagina.  Ogni collegamento nel piè di pagina può essere configurato di modo che abbia solo testo (ad esempio i collegamenti "Contattaci" e "Privacy") oppure del testo e un'immagine (ad esempio collegamenti ai social media). Se vengono forniti sia un'intestazione che un collegamento, la proprietà dell'intestazione avrà la precedenza sul collegamento. 
 
 **Torna all'inizio** - Un modulo Torna all'inizio fornisce un collegamento per spostarsi rapidamente all'inizio della pagina. È necessaria una destinazione. Il valore di destinazione predefinito è \#, che porta l'utente all'inizio della pagina.
 

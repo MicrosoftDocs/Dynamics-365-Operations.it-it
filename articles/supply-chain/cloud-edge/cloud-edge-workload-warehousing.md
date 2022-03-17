@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d8b0f5a4878a924943f6f8876575d5247875811
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068111"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384486"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
@@ -210,9 +210,9 @@ La seguente funzionalità di gestione del magazzino non è attualmente supportat
 - Elaborazione con articoli abilitati solo per Gestione trasporto.
 - Elaborazione con scorte disponibili negative.
 - Condivisione dati interaziendali per prodotti. <!-- Planned -->
-- Elaborazione del lavoro di magazzino con note di spedizione.
-- Elaborazione del lavoro di magazzino con movimentazione dei materiali/Warehouse Automation.
+- Elaborazione del lavoro di magazzino con note di spedizione (ad esempio note di imballaggio presso la stazione di imballaggio).
 - Immagini rappresentazione generale prodotto (ad esempio, sull'app per dispositivi mobili Warehouse Management).
+- Elaborazione del lavoro di magazzino con movimentazione dei materiali/Warehouse Automation.
 
 > [!WARNING]
 > Alcune funzionalità di magazzino non saranno disponibili per i magazzini che eseguono i carichi di lavoro di gestione del magazzino su un'unità di scala e inoltre non sono supportate sull'hub o sul carico di lavoro dell'unità di scala.
@@ -235,10 +235,9 @@ La tabella seguente mostra quali funzionalità in uscita sono supportate e dove 
 | Elaborazione ciclo di spedizione                                     | No  |Sì, tranne **Allestimento del carico e ordinamento** |
 | Mantenere le spedizioni per ciclo                                  | No  | Sì|
 | Elaborazione del lavoro di magazzino (inclusa la stampa della targa)        | No  | Sì, ma solo per le funzionalità supportate menzionate in precedenza |
-| Prelievo cluster                                              | No  | Sì|
-| Elaborazione manuale dell'imballaggio, inclusa l'elaborazione del lavoro "Prelievo contenitore imballato" | Numero <P>Alcune elaborazioni possono essere eseguite dopo un processo di prelievo iniziale gestito da un'unità di scala, ma non consigliato a causa delle seguenti operazioni bloccate.</p>  | No |
-| Rimuovi contenitore da gruppo                                  | No  | No |
-| Elaborazione ordinamento in uscita                                  | No  | No |
+| Prelievo cluster                                              | Numero  | Sì|
+| Elaborazione manuale della stazione di imballaggio  | Numero  | Numero |
+| Elaborazione ordinamento in uscita                                  | Numero  | Numero |
 | Stampa di documenti relativi al carico                           | Sì | Sì|
 | Polizza di carico e generazione di ASN                            | No  | Sì|
 | Conferma della spedizione                                             | No  | Sì|
@@ -258,6 +257,7 @@ La tabella seguente mostra quali funzionalità in uscita sono supportate e dove 
 | Inverti conferma spedizione                                | Numero  | Sì|
 | Richiesta di annullamento di righe ordine di magazzino                      | Sì | No, ma la richiesta sarà approvata o respinta |
 | <p>Rilascio ordini di trasferimento per la ricezione</p><p>Questo processo avverrà automaticamente come parte del processo di spedizione dell'ordine di trasferimento. Tuttavia, può essere utilizzato manualmente per abilitare la ricezione della targa su un'unità di scala se le righe dell'ordine di magazzino in entrata sono state annullate o come parte di un nuovo processo di distribuzione del carico di lavoro.</p> | Sì | Numero|
+<!--| Elaborazione manuale della stazione di imballaggio, incluso il lavoro "Prelievo contenitore imballato"  | Numero  | Sì, ma senza la dichiarazione di spedizione TMS e la registrazione del documento di trasporto e senza note di imballaggio e immagini del prodotto |-->
 
 ### <a name="inbound"></a>In entrata
 
@@ -359,6 +359,7 @@ Nella distribuzione hub, è possibile gestire manualmente i seguenti processi ba
     - Processore messaggi unità di scala a hub
     - Registra entrate ordine di origine
     - Completamento ordini di magazzino
+    - Genera ordini magazzino in uscita mancanti
 
 - Gestisci i processi batch seguenti in **Gestione magazzino \> Attività periodiche \> Gestione carico di lavoro**:
 

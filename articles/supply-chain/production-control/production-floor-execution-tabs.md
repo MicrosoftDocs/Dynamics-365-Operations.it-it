@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6207627c1e901ce969e39d960adb5ab50f13e17d
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ee206ced76dbdd356c77d34a4b8f197879e9a3f0
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790868"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384774"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Progettare l'interfaccia di esecuzione dell'area di produzione
 
@@ -54,7 +54,7 @@ Per creare e configurare una nuova scheda, effettuare le seguenti operazioni:
 1. Effettuare le seguenti impostazioni nell'intestazione della pagina:
 
     - **Nome scheda**: specificare un nome per la scheda.
-    - **Visualizzazione principale**: selezionare tra gli elenchi di processi predefiniti (*Processi attivi*, *Tutti i processi* e *Macchina personale*).
+    - **Visualizzazione principale** – Selezionare tra gli elenchi di processi predefiniti (*Processi attivi*, *Tutti i processi*, *Processi personali* e *Macchina personale*).
     - **Visualizzazione dei dettagli**: selezionare tra un valore vuoto o **Dettagli processo**. Se si seleziona il valore vuoto, non ci sarà una visualizzazione dettagliata nella scheda. Se si seleziona **Dettagli processo**, la visualizzazione dettagliata conterrà una descrizione dettagliata del processo selezionato nell'elenco dei processi nella visualizzazione principale.
 
 1. Nella sezione **Barra degli strumenti principale** scegliere quali pulsanti devono essere disponibili nella barra degli strumenti principale. La colonna **Azioni disponibili** mostra un elenco di tutti i pulsanti che possono essere aggiunti. Le colonne **Azioni selezionate** mostrano un elenco di tutti i pulsanti inclusi nella configurazione corrente. Utilizzare i pulsanti tra le colonne per spostare gli elementi selezionati tra le colonne secondo necessità. Utilizzare i pulsanti su e giù accanto alla colonna **Azioni selezionate** per controllare l'ordine in cui i pulsanti vengono presentati nell'interfaccia utente.

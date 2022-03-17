@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fecdafe8765121d6d54389a70e6c2e497a03611a
-ms.sourcegitcommit: 43d0555c17a0643c9e5ba3bc2da3ce5f80754642
+ms.openlocfilehash: f10ddf113f59da4800a97a48300ab1310bfb42dd
+ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "8325970"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "8358183"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Distribuzioni contabili e scritture contabili per le fatture fornitore
 
@@ -31,7 +31,7 @@ Le distribuzioni contabili vengono utilizzate per definire il modo in cui un imp
 ## <a name="accounting-distributions"></a>Distribuzioni contabili 
 
 È possibile utilizzare i pulsanti riportati di seguito nella pagina Fattura fornitore per visualizzare ed eventualmente modificare le distribuzioni contabili per ogni importo nella fattura fornitore.
--   **Distribuisci importi**: consente di visualizzare e modificare le distribuzioni contabili per una singola riga e tutte le righe figlio, ad esempio imposte o spese. È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina Transazioni VAT o Transazioni spese.
+-   **Distribuisci importi**: consente di visualizzare e modificare le distribuzioni contabili per una singola riga e tutte le righe figlio, ad esempio imposte o spese. È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina **Transazioni VAT** o **Transazioni spese**.
     -   Modificare gli importi intestazione della fattura fornitore, ad esempio le spese o gli importi di arrotondamento valuta.
     -   Modificare gli importi delle righe della fattura fornitore.
 -   **Visualizza distribuzioni**: visualizza le distribuzioni contabili per tutte le righe del documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
@@ -62,7 +62,7 @@ Quando si immette una fattura fornitore, ogni importo viene distribuito come ind
 <td>Prodotto stoccato</td>
 <td><ol>
 <li>La distribuzione contabile per la riga dell'ordine fornitore.</li>
-<li>Campo **Conto principale** se la spesa di acquisto per il prodotto è selezionata nella pagina **Registrazione**.</li>
+<li>Campo <strong>Conto principale</strong> se la spesa di acquisto per il prodotto è selezionata nella pagina <strong>Registrazione</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
@@ -73,35 +73,35 @@ Quando si immette una fattura fornitore, ogni importo viene distribuito come ind
 <td>Una categoria di approvvigionamento o un prodotto non stoccato</td>
 <td><ol>
 <li>Se la riga della fattura fornitore fa riferimento a una riga ordine fornitore, la distribuzione contabile per quest'ultima.</li>
-<li>Campo **Conto principale** se la spesa di acquisto per la spesa è selezionata nella pagina **Registrazione**.</li>
+<li>Campo <strong>Conto principale</strong> se la spesa di acquisto per la spesa è selezionata nella pagina <strong>Registrazione</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
 <li>Se il conto principale è un conto di allocazione, utilizzare il valore predefinito dalla definizione del conto di allocazione.</li>
 <li>Utilizzare i valori di dimensione finanziaria predefiniti nella fattura fornitore.</li>
 <li>Utilizzare i valori di dimensione finanziaria della riga fattura fornitore.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina **Piano dei conti**.</li>
+<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina <strong>Piano dei conti</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Cespite</td>
 <td><ol>
 <li>Se la riga della fattura fornitore fa riferimento a una riga ordine fornitore, la distribuzione contabile per quest'ultima.</li>
-<li>Se l'opzione **Acquisizione** è selezionata nel campo **Tipo di transazione** della pagina **Fatture fornitore**, il campo **Conto principale** quando l'opzione **Acquisizione** è selezionata nella pagina **Profili registrazione cespiti**.</li>
-<li>Se l'opzione **Rettifica acquisizione** è selezionata nel campo **Tipo di transazione**, il campo **Conto principale** quando l'opzione **Rettifica acquisizione** è selezionata nella pagina **Profili registrazione cespiti**.</li>
+<li>Se l'opzione <strong>Acquisizione</strong> è selezionata nel campo <strong>Tipo di transazione</strong> della pagina <strong>Fatture fornitore</strong>, il campo <strong>Conto principale</strong> quando l'opzione <strong>Acquisizione</strong> è selezionata nella pagina <strong>Profili registrazione cespiti</strong>.</li>
+<li>Se l'opzione <strong>Rettifica acquisizione</strong> è selezionata nel campo <strong>Tipo di transazione</strong>, il campo <strong>Conto principale</strong> quando l'opzione <strong>Rettifica acquisizione</strong> è selezionata nella pagina <strong>Profili registrazione cespiti</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
 <li>Utilizzare i valori di dimensione finanziaria della riga fattura fornitore.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina **Piano dei conti**.</li>
+<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina <strong>Piano dei conti</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Progetto definito nella riga fattura fornitore</td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga ordine fornitore, la distribuzione contabile per quest'ultima.</li>
-<li>Se **Saldo** è selezionato nel campo **Registra costi - Articolo** nella pagina **Gruppi di progetti**, il campo **Conto principale** quando **Costo** è selezionato nella pagina **Impostazioni registrazione contabile**.</li>
-<li>Se l'opzione **Profitti e perdite** è selezionata nel campo **Registra costi - Articolo** nella pagina **Gruppi di progetti**, il campo **Conto principale** quando l'opzione **Costo - Articolo** è selezionata nella pagina **Impostazioni registrazione contabile**.</li>
+<li>Se <strong>Saldo</strong> è selezionato nel campo <strong>Registra costi - Articolo</strong> nella pagina <strong>Gruppi di progetti</strong>, il campo <strong>Conto principale</strong> quando <strong>Costo</strong> è selezionato nella pagina <strong>Impostazioni registrazione contabile</strong>.</li>
+<li>Se l'opzione <strong>Profitti e perdite</strong> è selezionata nel campo <strong>Registra costi - Articolo</strong> nella pagina <strong>Gruppi di progetti</strong>, il campo <strong>Conto principale</strong> quando l'opzione <strong>Costo - Articolo</strong> è selezionata nella pagina <strong>Impostazioni registrazione contabile</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
@@ -111,18 +111,18 @@ Quando si immette una fattura fornitore, ogni importo viene distribuito come ind
 <td>Sconto riga</td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga ordine fornitore, la distribuzione contabile per quest'ultima.</li>
-<li>Il campo **Conto principale** quando **Sconto** è selezionato nella pagina **Registrazione**.</li>
+<li>Il campo <strong>Conto principale</strong> quando <strong>Sconto</strong> è selezionato nella pagina <strong>Registrazione</strong>.</li>
 <li>Se nel profilo registrazione non è definito un conto principale per uno sconto, la distribuzione contabile del prezzo esteso nella riga ordine fornitore.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
 <li>Utilizzare le dimensioni finanziarie delle distribuzioni contabili per il prezzo esteso nella riga fattura fornitore.</li>
 <li>Utilizzare i valori di dimensione finanziaria per la riga fattura fornitore.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina **Piano dei conti**.</li>
+<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina <strong>Piano dei conti</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
-<td>Spese di acquisto, immesse nella scheda **Prezzo e sconto** della riga ordine fornitore</td>
+<td>Spese di acquisto, immesse nella scheda <strong>Prezzo e sconto</strong> della riga ordine fornitore</td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga ordine fornitore, la distribuzione contabile per quest'ultima.</li>
 <li>La distribuzione contabile del prezzo esteso nella riga ordine fornitore.</li>
@@ -136,21 +136,21 @@ Quando si immette una fattura fornitore, ogni importo viene distribuito come ind
 <td>Spese riga</td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga ordine fornitore, la distribuzione contabile per quest'ultima.</li>
-<li>Se il conto **CoGe** è selezionato nel campo **Tipo di addebito** nel modulo **Codice spese**, il campo **Conto in Dare** nella pagina **Codice spese**.</li>
-<li>Se l'opzione **Articolo** è selezionata nel campo **Tipo di addebito** della pagina **Codice spese**, la distribuzione contabile per il prezzo esteso nella riga ordine fornitore.</li>
-<li>Se l'opzione **Cliente/Fornitore** è selezionata nel campo **Tipo di addebito** nella pagina **Codice spese**, il campo **Conto in Avere** nella pagina **Codice spese**.</li>
+<li>Se il conto <strong>CoGe</strong> è selezionato nel campo <strong>Tipo di addebito</strong> nel modulo <strong>Codice spese</strong>, il campo <strong>Conto in Dare</strong> nella pagina <strong>Codice spese</strong>.</li>
+<li>Se l'opzione <strong>Articolo</strong> è selezionata nel campo <strong>Tipo di addebito</strong> della pagina <strong>Codice spese</strong>, la distribuzione contabile per il prezzo esteso nella riga ordine fornitore.</li>
+<li>Se l'opzione <strong>Cliente/Fornitore</strong> è selezionata nel campo <strong>Tipo di addebito</strong> nella pagina <strong>Codice spese</strong>, il campo <strong>Conto in Avere</strong> nella pagina <strong>Codice spese</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
 <li>Utilizzare le dimensioni finanziarie delle distribuzioni contabili per il prezzo esteso nella riga fattura fornitore.</li>
 <li>Utilizzare i valori di dimensione finanziaria della riga fattura fornitore.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina **Piano dei conti**.</li>
+<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina <strong>Piano dei conti</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Imposta, con la seguente condizione:
 <ul>
-<li>L'opzione Applica regole di tassazione statunitensi è selezionata nella pagina **Parametri di contabilità generale**.</li>
+<li>L'opzione <strong>Applica regole di tassazione statunitensi</strong> è selezionata nella pagina <strong>Parametri di contabilità generale</strong>.</li>
 </ul></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga ordine fornitore, la distribuzione contabile per quest'ultima.</li>
@@ -165,61 +165,61 @@ Quando si immette una fattura fornitore, ogni importo viene distribuito come ind
 <tr class="odd">
 <td>Imposta, con le seguenti condizioni:
 <ul>
-<li>L'opzione Applica regole di tassazione statunitensi è deselezionata nella pagina **Parametri di contabilità generale**.</li>
-<li>Il campo **IVA intracomunitaria** per la fascia IVA è deselezionata nella pagina **Fasce IVA**.</li>
+<li>L'opzione <strong>Applica regole di tassazione statunitensi</strong> è deselezionata nella pagina <strong>Parametri di contabilità generale</strong>.</li>
+<li>Il campo <strong>IVA intracomunitaria</strong> per la fascia IVA è deselezionata nella pagina <strong>Fasce IVA</strong>.</li>
 </ul></td>
 <td><ol>
-<li>Se l'importo IVA è recuperabile, il campo **IVA a credito** nella pagina **Gruppi registrazione contabile**.</li>
+<li>Se l'importo IVA è recuperabile, il campo <strong>IVA a credito</strong> nella pagina <strong>Gruppi registrazione contabile</strong>.</li>
 <li>Se l'importo delle imposte non è recuperabile, il prezzo esteso o la distribuzione contabile per la spesa.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
 <li>Utilizzare le dimensioni finanziarie del prezzo esteso o delle distribuzioni contabili per la spesa nella riga fattura fornitore.</li>
 <li>Utilizzare i valori di dimensione finanziaria della riga fattura fornitore.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina **Piano dei conti**.</li>
+<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina <strong>Piano dei conti</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Imposta, con le seguenti condizioni:
 <ul>
-<li>L'opzione Applica regole di tassazione statunitensi è deselezionata nella pagina **Parametri di contabilità generale**.</li>
-<li>Il campo **IVA intracomunitaria** per la fascia IVA è selezionata nella pagina **Fasce IVA**.</li>
+<li>L'opzione Applica regole di tassazione statunitensi è deselezionata nella pagina <strong>Parametri di contabilità generale</strong>.</li>
+<li>Il campo <strong>IVA intracomunitaria</strong> per la fascia IVA è selezionata nella pagina <strong>Fasce IVA</strong>.</li>
 </ul></td>
 <td><ol>
-<li>Se l'importo IVA è recuperabile, il campo **IVA a credito** nella pagina **Gruppi registrazione contabile**.</li>
-<li>Se l'importo IVA non è recuperabile, il campo **Importo IVA intracomunitaria** nella pagina **Gruppi registrazione contabile**.</li>
+<li>Se l'importo IVA è recuperabile, il campo <strong>IVA a credito</strong> nella pagina <strong>Gruppi registrazione contabile</strong>.</li>
+<li>Se l'importo IVA non è recuperabile, il campo <strong>Importo IVA intracomunitaria</strong> nella pagina <strong>Gruppi registrazione contabile</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
 <li>Utilizzare le dimensioni finanziarie del prezzo esteso o delle distribuzioni contabili per la spesa nella riga fattura fornitore.</li>
 <li>Utilizzare i valori di dimensione finanziaria della riga fattura fornitore.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina **Piano dei conti**.</li>
+<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina <strong>Piano dei conti</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>Spesa intestazione</td>
 <td><ol>
-<li>Se il conto **CoGe** è selezionato nel campo **Tipo di addebito** nel modulo **Codice spese**, il campo **Conto in Dare** nella pagina **Codice spese**.</li>
-<li>Se l'opzione **Cliente/Fornitore** è selezionata nel campo **Tipo di addebito** nella pagina **Codice spese**, il campo **Conto in Avere** nella pagina **Codice spese**.</li>
+<li>Se il conto <strong>CoGe</strong> è selezionato nel campo <strong>Tipo di addebito</strong> nel modulo <strong>Codice spese</strong>, il campo <strong>Conto in Dare</strong> nella pagina <strong>Codice spese</strong>.</li>
+<li>Se l'opzione <strong>Cliente/Fornitore</strong> è selezionata nel campo <strong>Tipo di addebito</strong> nella pagina <strong>Codice spese</strong>, il campo <strong>Conto in Avere</strong> nella pagina <strong>Codice spese</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
 <li>Se il conto principale è un conto di allocazione, utilizzare il valore predefinito dalla definizione del conto di allocazione.</li>
 <li>Utilizzare i valori del modello predefinito di dimensione finanziaria dell'intestazione della fattura fornitore.</li>
 <li>Utilizzare i valori di dimensione finanziaria della riga fattura fornitore.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina **Piano dei conti**.</li>
+<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina <strong>Piano dei conti</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Sconto intestazione</td>
 <td><ol>
-<li>Il campo **Conto principale** per il **tipo di registrazione dello sconto fatture fornitore** nella pagina **Conti per transazioni automatiche**.</li>
+<li>Il campo <strong>Conto principale</strong> per il <strong>tipo di registrazione dello sconto fatture fornitore</strong> nella pagina <strong>Conti per transazioni automatiche</strong>.</li>
 </ol></td>
 <td><ol>
 <li>Se la riga della fattura fa riferimento a una riga dell'ordine fornitore, utilizzare la distribuzione contabile per quest'ultima.</li>
 <li>Utilizzare le dimensioni finanziarie delle distribuzioni contabili per il prezzo esteso nella riga fattura fornitore.</li>
 <li>Utilizzare i valori di dimensione finanziaria della riga fattura fornitore.</li>
-<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina **Piano dei conti**.</li>
+<li>Utilizzare i valori di dimensione finanziaria predefiniti del conto principale nella pagina <strong>Piano dei conti</strong>.</li>
 </ol></td>
 </tr>
 </tbody>
@@ -228,7 +228,7 @@ Quando si immette una fattura fornitore, ogni importo viene distribuito come ind
 
 ## <a name="distributing-taxes"></a>Distribuzione di imposte
 
-impossibile creare distribuzioni contabili per imposte fino a quando queste ultime non verranno calcolate. Per calcolare l'IVA, è necessario completare una delle seguenti attività nella pagina Fattura fornitore:
+impossibile creare distribuzioni contabili per imposte fino a quando queste ultime non verranno calcolate. Per calcolare l'IVA, è necessario completare una delle seguenti attività nella pagina **Fattura fornitore**:
 -   Visualizzare il totale fattura.
 -   Visualizzare l'IVA.
 -   Visualizzare il giornale di registrazione secondario.

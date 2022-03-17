@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 93f5c3e4951784a6c4925b8f9026816bfaf551ee
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102912"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384670"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -217,5 +217,15 @@ La maggior parte dei campi sugli ordini di modifica di progettazione sono gli st
 
 È possibile utilizzare il pulsante **Gestisci/copia informazioni di modifica** per copiare le informazioni sulle modifiche tra i prodotti interessati.
 
+## <a name="use-electronic-signatures-to-approve-and-active-boms-and-routes"></a>Utilizza le firme elettroniche per approvare e attivare distinte base e percorsi
+
+Per utilizzare le firme elettroniche per approvare e/o attivare distinte base (BOM) e/o modifiche di percorso, vai a **Amministrazione organizzazione \> Imposta \> Firma elettronica \> Requisiti di firma elettronica**. Quindi assicurati che ciascuno dei seguenti elementi abbia **Firma richiesta** impostata *Sì*:
+
+- Attiva distinta base prodotto per ordine di modifica di progettazione
+- Attiva ciclo di lavorazione prodotto per ordine di modifica di progettazione
+- Approva distinta base prodotto per ordine di modifica di progettazione
+- Approva ciclo di lavorazione prodotto per ordine di modifica di progettazione
+- Approva DBA della versione di progettazione e versioni DBA
+- Approva ciclo di lavorazione della versione di progettazione
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

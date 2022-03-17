@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 086d05b4080015f6185a083ca20963539f76619f
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075021"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384421"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -71,6 +71,18 @@ L'elenco dei processi attivi include le seguenti colonne:
 - **Completato** - Questa colonna mostra la quantità che è già stata completata per un processo.
 - **Scartato** - Questa colonna mostra la quantità che è già stata scartata per un processo.
 - **Rimanente** - Questa colonna mostra la quantità che resta da completare per un processo.
+
+## <a name="my-jobs-tab"></a>Scheda Processi personali
+
+La scheda **Processi personali** consente ai lavoratori di visualizzare facilmente tutti i processi non avviati e non completati assegnati loro specificamente. È utile nelle aziende in cui i processi sono talvolta o sempre assegnati a lavoratori specifici (risorse umane) anziché ad altri tipi di risorse (come le macchine). 
+
+Il sistema di pianificazione assegna automaticamente ogni processo di produzione a un record di risorse specifico e ogni record di risorse ha un tipo (come macchina o umano). Quando configuri un dipendente come lavoratore di produzione, puoi associare l'account lavoratore a un record di risorse umane univoco. 
+
+La scheda **Processi personali** elenca tutti i processi non avviati e non completati che sono stati assegnati al record delle risorse umane del lavoratore che ha eseguito l'accesso, se un lavoratore ha effettuato l'accesso. Non elenca mai i processi che sono stati assegnati a una macchina o ad un altro tipo di risorsa, anche se il lavoratore che ha eseguito l'accesso ha iniziato a lavorare su quei processi.
+
+Per visualizzare tutti i processi che sono stati avviati dal lavoratore che ha eseguito l'accesso, indipendentemente dal tipo di risorsa a cui è assegnato ciascun processo, utilizza la scheda **Processi attivi**. Per visualizzare tutti i processi non completati che corrispondono alla configurazione del filtro lavori locale, indipendentemente dal lavoratore o dallo stato di inizio, utilizza la scheda **Tutti i processi**.
+
+![Scheda Processi personali.](media/pfei-my-jobs-tab.png "Scheda Processi personali")
 
 ## <a name="my-machine-tab"></a>Scheda Macchina personale
 
@@ -133,6 +145,13 @@ Se viene creato un ordine batch da una versione della formula in cui l'opzione *
 
 In questo caso, il lavoratore può specificare il coprodotto e la quantità da dichiarare selezionando **Variazioni co-prodotti** nella finestra di dialogo Dichiarazione avanzamento. Il lavoratore può quindi selezionare tra tutti i prodotti rilasciati che sono definiti come co-prodotti.
 
+### <a name="reporting-catch-weight-items"></a>Creazione di report di articoli a peso variabile
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+I lavoratori possono utilizzare l'interfaccia di esecuzione dell'area di produzione per dichiarare lo stato di avanzamento degli ordini batch creati per articoli a peso variabile. Gli ordini batch vengono creati da formule che possono essere definite in modo che abbiano articoli a peso variabile come articoli formula, co-prodotti e sottoprodotti. È anche possibile definire una formula per avere righe di formula per gli ingredienti definiti per il peso variabile. Gli articoli a peso variabile utilizzano due unità di misura per tener traccia dell'inventario: la quantità a peso variabile e la quantità di inventario. Ad esempio, nell'industria alimentare, la carne in scatola può essere definita come un articolo a peso variabile, in cui la quantità a peso variabile viene utilizzata per tenere traccia del numero di scatole e la quantità di inventario viene utilizzata per tenere traccia del peso delle scatole.
+
 ## <a name="reporting-scrap"></a>Dichiarazione dello scarto
 
 Quando un lavoratore completa o completa parzialmente un processo, può dichiarare lo scarto selezionando un processo nella scheda **Processi attivi** e quindi selezionando **Dichiara scarto**. Quindi, nella finestra di dialogo **Dichiara scarto** il lavoratore inserisce la quantità di scarto utilizzando la tastiera numerica. Il lavoratore seleziona anche un motivo (*Nessuno*, *Macchina*, *Operatore* o *Materiale*).
@@ -187,6 +206,13 @@ Sarà quindi possibile effettuare le azioni riportate di seguito:
 
 Il pulsante **Regola materiale** può essere configurato in modo da essere visualizzato sulla barra degli strumenti a destra. (Per ulteriori informazioni, vedi [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md)). Un lavoratore può selezionare **Regola materiale** per un processo di produzione in corso. In questo caso, viene visualizzata la finestra di dialogo **Regola materiale** in cui l'operatore può apportare le modifiche desiderate. Quando si apre la finestra di dialogo, per l'ordine di produzione viene creata una distinta di prelievo di produzione che contiene le righe per le quantità rettificate. Se il lavoratore seleziona **Pubblica ora**, la rettifica viene confermata e la distinta di prelievo viene registrata. Se il lavoratore seleziona **Annulla**,la distinta di prelievo viene eliminata e non viene apportata aluna modifica.
 
+### <a name="adjust-material-consumption-for-catch-weight-items"></a>Regolare il consumo di materiale per gli articoli a peso variabile
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until further notice -->
+
+I lavoratori possono regolare il consumo di materiale per gli articoli a peso variabile. Questa funzionalità viene utilizzata negli scenari in cui la quantità effettiva di un materiale a peso variabile consumato da un processo di produzione era maggiore o minore della quantità pianificata. Pertanto, deve essere regolato per mantenere aggiornati i livelli di inventario. Quando un lavoratore regola il consumo di un articolo a peso variabile, può regolare sia la quantità a peso variabile che la quantità di magazzino. Ad esempio, se un processo di produzione prevede di consumare cinque scatole con un peso stimato di 2 chilogrammi per scatola, il lavoratore può regolare sia il numero di scatole da consumare che il peso delle scatole. Il sistema convaliderà che il peso specificato delle scatole rientra nella soglia minima e massima definita sul prodotto rilasciato.
+
 ### <a name="reserve-materials"></a>Prenotare materiali
 
 Nella finestra di dialogo **Regola materiale**, un lavoratore può effettuare e modificare le prenotazioni di materiale selezionando **Prenota materiale**. La finestra di dialogo **Prenota materiale** visualizzata mostra le scorte fisicamente disponibili per l'articolo per ciascuna dimensione di tracciabilità e stoccaggio.
@@ -197,6 +223,8 @@ Per ulteriori informazioni su come configurare il percorso di input di produzion
 
 > [!NOTE]
 > Le prenotazioni che un lavoratore effettua nella finestra di dialogo **Prenota materiale** rimarranno quando il lavoratore seleziona **Annulla** nella finestra di dialogo **Segnala stato** o **Dichiara scarto**.
+>
+> Non è possibile modificare le prenotazioni per gli articoli a peso variabile.
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Completare un processo e iniziare un nuovo processo
 

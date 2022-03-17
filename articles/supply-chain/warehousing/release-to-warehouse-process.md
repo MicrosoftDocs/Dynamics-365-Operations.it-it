@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6c8aa0338ab30e6366601e3759141c7e41bf99fb
-ms.sourcegitcommit: ab1455c67f6ee6ca36bec148bea0dbb0f7704eda
+ms.openlocfilehash: 3269bf3f8a5475fb85e6b51514db29006be9aab1
+ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7428941"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "8376210"
 ---
 # <a name="release-to-warehouse"></a>Rilascia in magazzino
 
@@ -125,6 +125,7 @@ Per configurare il processo batch che rilascia gli ordini di cliente, seguire qu
     - **Quantità da rilasciare**: specifica se l'intera quantità o solo la quantità prenotata fisicamente deve essere rilasciata nel magazzino.
     - **Consenti rilascio degli ordini parzialmente rilasciati**: specificare se le quantità rimanenti per gli ordini parzialmente rilasciati devono essere rilasciate in magazzino.
     - **Mantieni le prenotazioni in caso di mancato rilascio**: specificare se le quantità che sono state prenotate automaticamente per un ordine cliente devono rimanere prenotate se il processo di rilascio in magazzino non riesce.
+    - **Raggruppa rilasci per cliente** – Specifica se il sistema deve elaborare il rilascio alle operazioni di magazzino separatamente per ciascun cliente o se deve rilasciare tutti gli ordini di vendita contemporaneamente. Quando questa opzione è impostata su *Sì*, il sistema raccoglie tutte le righe dell'ordine cliente per un cliente selezionato, rilascia tali ordini al magazzino e quindi elabora il cliente successivo. Quando questa opzione è impostata su *No*, il sistema rilascia tutte le righe di ordine di vendita disponibili in un unico rilascio all'operazione di magazzino. L'abilitazione di questa opzione consente di migliorare le prestazioni e la resilienza del processo di rilascio in magazzino. Tuttavia, è necessario prestare attenzione quando si utilizza questa opzione insieme ai modelli di ciclo configurati per "Elabora ciclo al rilascio in magazzino" perché questa combinazione può generare molti cicli di un singolo cliente, ciascuno con il lavoro generato solo per quel cliente. Per generare un lavoro che combini spedizioni per più clienti, è necessario disattivare l'opzione *Raggruppa rilasci per cliente* o configurare i modelli di ciclo per utilizzare l'elaborazione posticipata.
     - **Gestione ordini bloccati**: selezionare il modo in cui il sistema deve gestire gli ordini cliente attualmente bloccati perché modificati da altri utenti o processi:
 
         - *Attendi lo sblocco degli ordini*: il sistema deve attendere lo sblocco degli ordini prima di rilasciarli in magazzino. In questo caso, il processo di rilascio in magazzino potrebbe richiedere più tempo.

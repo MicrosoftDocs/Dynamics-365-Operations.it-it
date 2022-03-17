@@ -2,23 +2,24 @@
 title: Linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per l'Italia (legacy)
 description: Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per l'Italia da Microsoft Dynamics 365 Commerce Retail software development kit (SDK).
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 03/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 93aca34239affb41998f4309d7c03f29f7b5f003
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: c820c320410c43cafaae43c59cad04efdee24ab2
+ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076888"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "8388446"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-italy-legacy"></a>Linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per l'Italia (legacy)
 
 [!include[banner](../includes/banner.md)]
+[!include[banner](../includes/preview-banner.md)]
 
 Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per l'Italia da Microsoft Dynamics 365 Commerce Retail software development kit (SDK) in una macchina virtuale per lo sviluppo (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per maggiori informazioni sull'esempio di integrazione fiscale, vedi [Esempio di integrazione della stampante fiscale per l'Italia](emea-ita-fpi-sample.md). 
 
@@ -89,13 +90,13 @@ Per creare pacchetti distribuibili contenenti componenti Commerce e per applicar
 1. Completa la procedura descritta nella sezione [Ambiente di sviluppo](#development-environment) in precedenza in questo argomento.
 2. Apportare le seguenti modifiche nei file di configurazione dei pacchetti nella cartella **RetailSdk\\Assets** :
 
-    - Nei file di configurazione **CommerceRuntime.MPOSOffline.Ext.config** e **commerceruntime.ext.config**, aggiungere la seguente riga alla sezione **composition**.
+    1. Nei file di configurazione **CommerceRuntime.MPOSOffline.Ext.config** e **commerceruntime.ext.config**, aggiungere la seguente riga alla sezione **composition**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample" />
         ```
 
-    - Nel file di configurazione **HardwareStation.Extension.config**, aggiungere la seguente riga alla sezione **composition**.
+    1. Nel file di configurazione **HardwareStation.Extension.config**, aggiungere la seguente riga alla sezione **composition**.
 
         ``` xml
         <add source="assembly" value="Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample" />
@@ -103,20 +104,56 @@ Per creare pacchetti distribuibili contenenti componenti Commerce e per applicar
 
 3. Apporta le seguenti modifiche nel file di configurazione di personalizzazione dei pacchetti **Customization.settings** nella cartella **BuildTools**:
 
-    - Aggiungere la seguente riga per includere l'estensione CRT nei pacchetti distribuibili.
+    1. Aggiungere la seguente riga per includere l'estensione CRT nei pacchetti distribuibili.
 
         ``` xml
         <ISV_CommerceRuntime_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.dll"/>
         ```
 
-    - Aggiungere la seguente riga per includere l'estensione stazione hardware nei pacchetti distribuibili.
+    1. Aggiungere la seguente riga per includere l'estensione stazione hardware nei pacchetti distribuibili.
 
         ``` xml
         <ISV_HardwareStation_CustomizableFile Include="$(SdkReferencesPath)\Contoso.Commerce.HardwareStation.EpsonFP90IIIFiscalDeviceSample.dll"/>
         ```
 
-4. Avviare il prompt dei comandi di MSBuild per l'utilità Visual Studio, quindi eseguire **msbuild** nella cartella Retail SDK per creare pacchetti distribuibili.
-5. Applica i pacchetti via LCS o manualmente. Per ulteriori informazioni, vedere [Creare pacchetti distribuibili](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
+4. Apporta le seguenti modifiche nel file **Sdk.ModernPos.Shared.csproj** nella cartella **Packages\_SharedPackagingProjectComponents** per includere i file di risorse per l'Italia nei pacchetti distribuibili:
+
+    1. Aggiungi un sezione **ItemGroup** che contiene nodi che puntano ai file di risorse per le traduzioni desiderate. Assicurati di specificare gli spazi dei nomi e i nomi di esempio corretti. L'esempio seguente aggiunge nodi di risorse per le impostazioni locali **it** e **it-CH**.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. Nella sezione **Nome destinazione="CopyPackageFiles"**, aggiungi una riga per ogni impostazione locale, come mostrato nell'esempio seguente.
+
+        ```xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\CustomizedFiles\ClientBroker\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+5. Apporta le seguenti modifiche nel file **Sdk.RetailServerSetup.proj** nella cartella **Packages\_SharedPackagingProjectComponents** per includere i file di risorse per l'Italia nei pacchetti distribuibili:
+
+    1. Aggiungi un sezione **ItemGroup** che contiene nodi che puntano ai file di risorse per le traduzioni desiderate. Assicurati di specificare gli spazi dei nomi e i nomi di esempio corretti. L'esempio seguente aggiunge nodi di risorse per le impostazioni locali **it** e **it-CH**.
+
+        ```xml
+        <ItemGroup>
+            <ResourcesIt Include="$(SdkReferencesPath)\it\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+            <ResourcesItCh Include="$(SdkReferencesPath)\it-CH\Contoso.Commerce.Runtime.DocumentProvider.EpsonFP90IIISample.resources.dll"/>
+        </ItemGroup>
+        ```
+
+    1. Nella sezione **Nome destinazione="CopyPackageFiles"**, aggiungi una riga per ogni impostazione locale, come mostrato nell'esempio seguente.
+
+        ``` xml
+        <Copy SourceFiles="@(ResourcesIt)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it" SkipUnchangedFiles="true" />
+        <Copy SourceFiles="@(ResourcesItCh)" DestinationFolder="$(OutputPath)content.folder\RetailServer\Code\bin\ext\it-CH" SkipUnchangedFiles="true" />
+        ```
+
+6. Avviare il prompt dei comandi di MSBuild per l'utilità Visual Studio, quindi eseguire **msbuild** nella cartella Retail SDK per creare pacchetti distribuibili.
+7. Applica i pacchetti via LCS o manualmente. Per ulteriori informazioni, vedere [Creare pacchetti distribuibili](../dev-itpro/retail-sdk/retail-sdk-packaging.md).
 
 ## <a name="design-of-extensions"></a>Progettazione delle estensioni
 

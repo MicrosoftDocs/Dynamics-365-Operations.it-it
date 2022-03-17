@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5e139b7b12b8f2e549fb9c2c8e39125e190c7396
-ms.sourcegitcommit: 4d52c67f52ad0add63cd905df61367b344389069
+ms.openlocfilehash: 0c62e11cc6d39c351321419bb862a5169b162fb7
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311981"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349719"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -158,8 +158,8 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 504 | Richiama transazione | Richiamare una transazione sospesa in precedenza dal punto vendita corrente. | Sì | Sì | No | Sì‡ | No |
 | 305 | Riscatta punti fedeltà | Questa operazione non è supportata. | Non applicabile | Non applicabile | Non applicabile | Non applicabile | Sì |
 | 635 | Rimborso spese di spedizione | Rimborsare le spese di spedizione per un ordine annullato. | No | No | No | No | No |
-| 644 | Rimuovi codice buono sconto | Richiede all'utente di rimuovere i buoni sconto selezionandoli in un elenco di buoni sconto attualmente associati alla transazione. | Sì | Sì | No | Sì | No |
-| 1057 | Ristampa Z | Stampa il Z-report per il turno precedente o un turno selezionato. | Sì | Sì | Sì | No | No |
+| 644 | Rimuovi codice buono sconto | Richiede all'utente di rimuovere i buoni sconto selezionandoli in un elenco di buoni sconto attualmente associati alla transazione. | Sì | Sì | No | Sì | Numero |
+| 1057 | Ristampa Z | Ristampa il report Z per il turno precedente. | Sì | Sì | Sì | Numero | Numero |
 | 1216 | Immettere una nuova password | Questa operazione consente a un utente che dispone di autorizzazioni per la reimpostazione della password di reimpostare la password di un altro dipendente utilizzando una password temporanea. | Sì | Sì | Sì | No | No |
 | 1219 | Aprire un URL nel POS | Aprire un URL configurato dall'amministratore in POS. | Sì | Sì | Sì | Sì | No |
 | 109 | Reso prodotto | Consente di effettuare un reso di singoli prodotti. Il prodotto letto tramite scanner successivo viene visualizzato come prodotto reso con un prezzo e una quantità negativi. | Sì | Sì | No | Sì | No |

@@ -2,7 +2,7 @@
 title: Creare resi in POS
 description: Questo argomento descrive come inizializzare resi per transazioni cash-and-carry o ordini cliente nell'applicazione POS di Microsoft Dynamics 365 Commerce.
 author: hhainesms
-ms.date: 06/01/2021
+ms.date: 02/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 4a0d5efe043d72f936a15ec9a8ead9987fdb22b891a5a3ae94f95aa5ea7a6e67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
+ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715532"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "8349693"
 ---
 # <a name="create-returns-in-pos"></a>Creare resi in POS
 
@@ -96,6 +96,13 @@ Se le informazioni lato canale non sono aggiornate per qualche motivo e viene el
 
 > [!NOTE]
 > Quando la funzione **Esperienza di elaborazione dei resi unificata in POS** è attivata, diventano disponibili nuove funzionalità opzionali che supportano la convalida dei resi dei prodotti con numeri di serie. Per ulteriori informazioni, vedere [Restituire prodotti controllati dal numero di serie in POS](POS-serial-returns.md).
+
+## <a name="version-details"></a>Dettagli versione
+
+L'elenco seguente fornisce i requisiti di versione minima per i vari componenti.
+- Commerce Headquarters: versione 10.0.20
+- Commerce Scale Unit (CSU): versione 9.30
+- Point of sale (POS): versione 9.30
 
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Abilita il calcolo delle imposte corretto per i resi con quantità parziale
 

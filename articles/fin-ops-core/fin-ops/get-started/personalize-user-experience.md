@@ -2,7 +2,7 @@
 title: Personalizzare l'esperienza utente
 description: In questo argomento viene illustrato come personalizzare l'app.
 author: jasongre
-ms.date: 01/28/2022
+ms.date: 03/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 840a68d506664043c9affb67e801429e0594f0bd
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bdce3cd12358112e40a783c73795bd6f35545c8
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075424"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384645"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -158,6 +158,7 @@ Per alcune pagine che includono gli elenchi, la funzionalità di personalizzazio
 
 - Per aggiungere un elenco a un'area di lavoro, prima di tutto ordinare o filtrare l'elenco nella pagina in modo che mostri le informazioni come si desidera vengano visualizzate nell'area di lavoro. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Elenco**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile selezionare le colonne da visualizzare nell'elenco nell'area di lavoro. È possibile inoltre specificare l'etichetta da utilizzare per l'elenco nell'area di lavoro.
 - Per aggiungere un riquadro a un'area di lavoro, filtrare prima di tutto l'elenco nella pagina in modo da mostrare i dati da riepilogare o a cui si desidera accedere rapidamente. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Riquadro**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile specificare l'etichetta da utilizzare per il riquadro nell'area di lavoro. È inoltre possibile specificare se il riquadro deve visualizzare un conteggio. Una volta che il riquadro è aggiunto all'area di lavoro, è possibile selezionarlo per aprire la pagina corrente dall'area di lavoro. Sarà quindi possibile visualizzare l'elenco filtrato associato al riquadro.
+    - A partire dalla versione 10.0.26, se la funzionalità **Consenti agli utenti di selezionare e modificare le dimensioni dei riquadri** è abilitata, è possibile selezionarne una tra le quattro **Dimensioni riquadri** per il tuo nuovo riquadro nella finestra di dialogo **Configura riquadro**. Questa funzionalità consente anche di regolare la dimensione del riquadro dopo che è stata creato direttamente dall'area di lavoro.   
 - Per aggiungere un collegamento a un'area di lavoro, filtrare innanzitutto l'elenco nella pagina in modo da mostrare i dati desiderati. Se la funzionalità **Visualizzazioni salvate** è abilitata, non è possibile continuare fino a quando non verrà salvata una visualizzazione che abbia queste condizioni. Quindi, selezionare **Aggiungi ad area di lavoro**. Selezionare un'area di lavoro, quindi nel campo **Presentazione** selezionare **Collegamento**. Dopo aver selezionato **Configura**, viene visualizzata una finestra di dialogo in cui è possibile specificare l'etichetta da utilizzare per il collegamento. È facoltativamente possibile specificare un'etichetta per la sezione in cui verrà posizionato il collegamento. Se tale sezione non esiste, verrà creata una nuova sezione.
 
 > [!NOTE]
@@ -168,6 +169,9 @@ Dopo avere aggiunto l'elenco, il riquadro o il collegamento in un'area di lavoro
 ### <a name="adding-a-summary-from-a-workspace-to-a-dashboard"></a>Aggiunta di un riepilogo da un'area di lavoro a un dashboard
 
 In alcune aree di lavoro sono presenti riquadri di conteggio (ovvero riquadri contenenti numeri) e può essere utile visualizzare tali riquadri anche nel dashboard. In un'area di lavoro, fare clic con il pulsante destro del mouse su un riquadro di conteggio, selezionare **Personalizza** e nella finestra delle proprietà del riquadro selezionare **Aggiungi a dashboard**. La volta successiva che si apre e si aggiorna la dashboard selezionata, il conteggio viene visualizzato sotto il riquadro di navigazione di tale area di lavoro. È possibile selezionare il conteggio in modo che passi direttamente ai dati che rappresenta.
+
+### <a name="changing-the-size-of-a-tile"></a>Modifica delle dimensioni di un riquadro
+A partire dalla versione 10.0.26, la funzionalità **Consenti agli utenti di selezionare e modificare le dimensioni dei riquadri** consente agli utenti di modificare le dimensioni di qualsiasi riquadro non KPI tramite la personalizzazione. In un'area di lavoro, fare clic con il pulsante destro del mouse su un riquadro e quindi selezionare **Personalizza**. Nella finestra delle proprietà del riquadro, seleziona la dimensione desiderata dalle opzioni **Dimensione riquadro**. La dimensione del riquadro viene regolata immediatamente. Se è abilitata la funzionalità **(Anteprima) Supporto visualizzazioni salvate per aree di lavoro**, è possibile salvare questa personalizzazione in una visualizzazione dell'area di lavoro.  
 
 ### <a name="personalizing-your-dashboard"></a>Personalizzazione del dashboard
 

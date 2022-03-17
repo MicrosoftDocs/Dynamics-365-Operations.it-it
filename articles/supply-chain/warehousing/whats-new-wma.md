@@ -2,7 +2,7 @@
 title: Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 description: Questo argomento elenca le funzionalità nuove e modificate per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 01/18/2022
+ms.date: 02/21/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,51 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ceb327599bb2651a37ac51c3e0fdffc39d20c7f6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
+ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067253"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8384373"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20170"></a>Versione 2.0.17.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Risolto un problema per cui i codici a barre venivano scansionati in modo errato.
+- Risolto il problema di scansione GS1 per lo scanner della fotocamera.
+- Risolto il problema di scansione GS1 per lo scanner di codici a barre sui dispositivi Zebra.
+- È stato migliorato il flusso di richiesta della deviazione, quindi la selezione di una scheda in una deviazione ora torna al flusso principale.
+- Aggiunto il supporto per un flusso di richiesta dati generico.
+- Aggiunto un messaggio per informare gli utenti sulle modifiche allo stato della connettività di rete.
+- Autorizzazioni di archiviazione allineate con l'informativa sulla privacy di archiviazione in Android 10.
+- Per i flussi che lo richiedono, il selettore di quantità ora include una posizione che consente agli utenti di inviare un valore numerico vuoto.
+- Risolti i problemi con l'orientamento del selettore di quantità.
+- Risolto un problema per cui il selettore di quantità passava al valore sbagliato.
+- Risolto un problema per cui l'input alla pagina principale veniva perso quando veniva popolato dalla pagina dei dettagli.
+- È stato risolto un problema per cui il testo segnaposto veniva considerato come il valore inizialmente selezionato negli elenchi di selezione.
+- Il pulsante "Invia" sui passaggi di conferma è ora abilitato automaticamente se sono presenti valori preselezionati.
+- Risolto il problema con la scheda dei dettagli per mostrare il maggior numero di righe possibile per i campi di testo con più righe.
+- Risolto il problema con l'altezza dei pulsanti "Invia" e "Altre azioni", quindi ora occupano meno spazio sullo schermo.
+- Aggiunti titoli dell'elenco di selezione mancanti.
+- Risolto un problema per cui il pulsante Indietro non funzionava.
+- Aggiunte diverse correzioni e miglioramenti allo spostamento con la tastiera, anche nelle pagine seguenti:
+  - Login utente
+  - Seleziona connessione
+  - Modifica connessione
+- Corretto lo scorrimento quando si utilizza lo spostamento da tastiera.
+- Accessibilità migliorata, inclusi i seguenti miglioramenti:
+  - Risolto il problema con visibilità e contrasto del colore.
+  - Impedita la perdita dello stato attivo della tastiera quando le pagine pop-up vengono chiuse.
+  - Aggiunti messaggi di errore alla narrazione.
+  - Aumentata la dimensione dei valori segnaposto nel banner del passaggio.
+- Risolto l'esempio della pagina legacy personalizzata in modalità demo.
 
 ## <a name="version-20150"></a>Versione 2.0.15.0
 
@@ -39,7 +72,7 @@ Questa versione introduce le seguenti nuove funzionalità, correzioni e migliora
 ## <a name="version-20130"></a>Versione 2.0.13.0
 
 Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
- 
+
 - Scorrimento tra le pagine migliorato con animazioni più fluide.
 - Risolte le risposte controintuitive ai movimenti di scorrimento e ai blocchi occasionali dello schermo.
 - Migliorate le combinazioni di colori di sfondo e testo in modalità scura per una migliore leggibilità.
