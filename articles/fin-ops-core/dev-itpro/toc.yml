@@ -242,6 +242,8 @@
               href: data-entities/finance-data-azure-data-lake.md
             - name: Rendere disponibile l'archivio entità come Data Lake
               href: data-entities/entity-store-data-lake.md
+            - name: Eventi aziendali generati dal servizio Esporta in Azure Data Lake (anteprima)
+              href: data-entities/Azure-Data-Lake-Generates-Biz-events.md
             - name: Modificare i dati in Azure Data Lake
               href: data-entities/Azure-data-lake-Change-feeds.md
         - name: Operazioni di spostamento del database
@@ -1068,6 +1070,8 @@
                       href: data-entities/dual-write/sales-status-map.md
                     - name: Filtrare gli ordini interaziendali per evitare di sincronizzare ordini e righe ordine
                       href: data-entities/dual-write/filtering-intercompany-orders.md
+                    - name: Disinstallare le soluzioni di orchestrazione dell'applicazione a doppia scrittura
+                      href: data-entities/dual-write/uninstall-solutions.md
                 - name: Gestione della doppia scrittura
                   items:
                     - name: Personalizzazione di mapping di entità e campo

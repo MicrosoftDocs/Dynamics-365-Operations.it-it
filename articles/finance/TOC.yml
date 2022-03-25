@@ -1528,6 +1528,10 @@
                           items:
                             - name: Dichiarazione IVA
                               href: localizations/emea-aut-vat-declaration-austria.md
+                        - name: Dichiarazione della Danimarca
+                          items:
+                            - name: Dichiarazione IVA
+                              href: localizations/emea-dnk-vat-declaration-denmark.md
                         - name: Dichiarazione della Francia
                           items:
                             - name: Dichiarazione IVA
@@ -2344,6 +2348,8 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Elenco vendite UE
                   href: localizations/emea-deu-eu-sales-list.md
+                - name: Dichiarazione IVA
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Ungheria
               items:
                 - name: Panoramica Ungheria
@@ -3566,7 +3572,7 @@
                   href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Dimensioni della divisione di contabilità fiscale
                   href: localizations/apac-tha-tax-branch-dimensions.md
-                - name: Report IVA a debito
+                - name: Report IVA
                   href: localizations/apac-tha-sales-vat-report.md
                 - name: Ritenuta d'acconto
                   href: localizations/apac-tha-withholding-tax.md
@@ -4281,10 +4287,14 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Configurare le origini dati LOOKUP per utilizzare i parametri specifici dell'applicazione ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
-                    - name: Utilizzare le origini dati RACCOLTA DATI nei formati ER
+                    - name: Utilizzare le origini dati RACCOLTA DATI nei formati Report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Debug delle origini dati
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
+                - name: Configurare modelli dati
+                  items:
+                    - name: Supportare le chiamate con parametri di modelli dati di tipo Report elettronici
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/finance/toc.json
                 - name: Configurare i mapping dei modelli
                   items:
                     - name: Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese
@@ -4353,8 +4363,10 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Configurare le destinazioni dipendenti dall'azione
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
-                    - name: Configurare le destinazioni ER specifiche per la gestione della stampa
+                    - name: Configurare le destinazioni specifiche per la gestione della stampa
                       href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: Progettare una nuova soluzione per i report elettronici per stampare etichette ZPL
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-zpl-labels.md?toc=/dynamics365/finance/toc.json
                 - name: Impostare un riferimento su un formato ER
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Verificare automaticamente i report generati

@@ -747,8 +747,32 @@
                   href: cost-management/simulate-cost-changes-costing-version-planned-costs.md
                 - name: Report Confronta prezzi degli articoli in magazzino
                   href: cost-management/compare-item-price.md
+            - name: Metodologie di determinazione dei costi
+              items:
+                - name: Prezzo di costo medio corrente
+                  href: cost-management/running-average-cost-price.md
+                - name: Traccia del costo medio corrente per dimensione inventariale
+                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
+                - name: FIFO con valore fisico e contrassegno
+                  href: cost-management/fifo-physical-value-marking.md
+                - name: Data LIFO con valore fisico e contrassegno
+                  href: cost-management/lifo-date-physical-value-marking.md
+                - name: LIFO con valore fisico e contrassegno
+                  href: cost-management/lifo-physical-value-marking.md
+                - name: Media ponderata con valore fisico e contrassegno
+                  href: cost-management/weighted-average-physical-value-marking.md
+                - name: Data media ponderata con valore fisico e contrassegno
+                  href: cost-management/weighted-average-date.md
+                - name: Media mobile
+                  href: cost-management/moving-average.md
+                - name: Sequenza costi di fallback di media mobile
+                  href: cost-management/moving-average-fallback.md
             - name: Contabilità inventario
               items:
+                - name: Aggiornamenti fisici e finanziari
+                  href: cost-management/physical-financial-updates.md
+                - name: Includi valore fisico
+                  href: cost-management/include-physical-value.md
                 - name: Oggetti di costo
                   href: cost-management/cost-object.md
                 - name: Visualizzare il saldo oggetto di costo
@@ -761,33 +785,11 @@
                   href: cost-management/tasks/view-cost-entries-cost-object.md
                 - name: Gruppi di costi
                   href: cost-management/cost-groups.md
-                - name: FIFO con valore fisico e contrassegno
-                  href: cost-management/fifo-physical-value-marking.md
-                - name: Includi valore fisico
-                  href: cost-management/include-physical-value.md
                 - name: Valori oggetto inventario
                   href: cost-management/physical-quantity.md
-                - name: Data LIFO con valore fisico e contrassegno
-                  href: cost-management/lifo-date-physical-value-marking.md
-                - name: LIFO con valore fisico e contrassegno
-                  href: cost-management/lifo-physical-value-marking.md
-                - name: Media mobile
-                  href: cost-management/moving-average.md
-                - name: Sequenza costi di fallback di media mobile
-                  href: cost-management/moving-average-fallback.md
-                - name: Aggiornamenti fisici e finanziari
-                  href: cost-management/physical-financial-updates.md
-                - name: Prezzo di costo medio corrente
-                  href: cost-management/running-average-cost-price.md
-                - name: Traccia del costo medio corrente per dimensione inventariale
-                  href: cost-management/track-running-average-cost-per-inventory-dimension.md
-                - name: Data media ponderata
-                  href: cost-management/weighted-average-date.md
-                - name: Media ponderata con valore fisico e contrassegno
-                  href: cost-management/weighted-average-physical-value-marking.md
                 - name: Chiusura inventario
                   href: cost-management/inventory-close.md
-                - name: Rettificare i valori di costo dell'inventario disponibile
+                - name: Rettificare i valori di costo dell'inventario disponibili
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Report valore di magazzino
                   href: cost-management/inventory-value-report-storage.md
@@ -1427,10 +1429,14 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurare le origini dati LOOKUP per utilizzare i parametri specifici dell'applicazione ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Utilizzare le origini dati RACCOLTA DATI nei formati ER
+                    - name: Utilizzare le origini dati RACCOLTA DATI nei formati Report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Debug delle origini dati
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Configurare modelli dati
+                  items:
+                    - name: Supportare le chiamate con parametri di modelli dati di tipo Report elettronici
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-model-parameterized-calls.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurare i mapping dei modelli
                   items:
                     - name: Configurare i mapping del modello di report elettronici dipendenti dal contesto del paese
@@ -3855,6 +3861,8 @@
               items:
                 - name: Warehouse mobile app
                   items:
+                    - name: Differenza imprevista tra i dati della richiesta e quelli di sessione durante il test
+                      href: troubleshooting/warehousing/request-session-data-difference.md
                     - name: L'ancoraggio di trust per il percorso di certificazione non è stato trovato durante la configurazione della connessione dell'app
                       href: troubleshooting/warehousing/certification-path-app-connection-error.md
                     - name: L'ancoraggio di trust per il percorso di certificazione non è stato trovato durante l'aggiornamento e la migrazione a WMS
