@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86322fdf14bdefb5c9d4793a69e95ca913843e53
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: d8f0d91667d22ddd1dd7131ca3d03bb2fa70659c
+ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087526"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "8457453"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novità o modifiche in Human Resources
 
@@ -29,7 +29,6 @@ ms.locfileid: "8087526"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Ogni due settimane forniamo una nuova versione per Microsoft Dynamics 365 Human Resources. Gli articoli elencati qui descrivono in dettaglio le modifiche apportate a ogni versione.
 
 Per ulteriori informazioni sulle funzionalità imminenti o sul processo di aggiornamento di Human Resources, vedere i seguenti articoli: 
 

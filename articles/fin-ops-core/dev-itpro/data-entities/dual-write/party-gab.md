@@ -2,19 +2,19 @@
 title: Rubrica globale e parte
 description: In questo argomento vengono descritte le funzionalità della parte e della rubrica globale della doppia scrittura.
 author: RamaKrishnamoorthy
-ms.date: 08/11/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 601c49e21c3a97d2da225705ddbb386e491d4d25
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060334"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407767"
 ---
 # <a name="party-and-global-address-book"></a>Rubrica globale e parte
 
@@ -22,7 +22,7 @@ ms.locfileid: "8060334"
 
 
 
-*Parte* e *rubrica globale* sono concetti delle applicazioni Finanza e operazioni. Una parte può essere una persona o un'organizzazione. È conveniente archiviare e gestire globalmente le proprietà di una parte, come nome, lingua, contatti e indirizzi. Quindi, quando il valore di una proprietà viene cambiato in un punto, il cambiamento si riflette in tutti i punti in cui la parte è coinvolta.
+*Parte* e *rubrica globale* sono concetti delle applicazioni di finanza e operazioni. Una parte può essere una persona o un'organizzazione. È conveniente archiviare e gestire globalmente le proprietà di una parte, come nome, lingua, contatti e indirizzi. Quindi, quando il valore di una proprietà viene cambiato in un punto, il cambiamento si riflette in tutti i punti in cui la parte è coinvolta.
 
 ## <a name="party"></a>Parte
 
@@ -46,7 +46,7 @@ L'immagine seguente mostra il modello di dati per la parte.
 > [!TIP]
 > Quando tenti di creare un nuovo record di conto, utilizza il campo **Parte** per cercare il record in base al nome. In questo modo, se trovi il record, devi solo selezionarlo. Il sistema compila quindi automaticamente tutti i dati della parte. Non è necessario impostare manualmente tutti i campi obbligatori. Questo comportamento può essere trovato nelle pagine predefinite **Conto**, **Contatto** e **Fornitore**.
 
-Non tutti i ruoli di parte delle app per finanza e operazioni sono supportati dalla doppia scrittura. Per un elenco completo dei ruoli della parte, vedi [Panoramica della rubrica globale](../../../fin-ops/organization-administration/overview-global-address-book.md).
+Non tutti i ruoli di parte delle app per la finanza e le operazioni sono supportati dalla doppia scrittura. Per un elenco completo dei ruoli della parte, vedi [Panoramica della rubrica globale](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Rubrica globale
 
@@ -75,7 +75,7 @@ La tabella **Contatto** può memorizzare questi tipi di righe.
 |----------|-------------|
 | Una persona che è un cliente, ad esempio un contatto vendibile o un cliente B2C. | Un record di contatto con striping in cui il campo **Società** non è vuoto e il campo **Cliente** è impostato su **Sì**. |
 | Una persona che è un fornitore, ad esempio, un unico proprietario come fornitore. | Un record di contatto con striping in cui il campo **Società** non è vuoto e il campo **Fornitore** è impostato su **Sì**. |
-| Una persona che è sia un cliente che un fornitore. | Un record di contatto con striping in cui il campo **Società** non è vuoto e il campo **Cliente** è impostato su **Sì** e il campo **Fornitore** è impostato su **Sì**. Una persona può essere sia produttore di un prodotto che consumatore di un altro prodotto. Le app per finanza e operazioni e la doppia scrittura supportano questa relazione. |
+| Una persona che è sia un cliente che un fornitore. | Un record di contatto con striping in cui il campo **Società** non è vuoto e il campo **Cliente** è impostato su **Sì** e il campo **Fornitore** è impostato su **Sì**. Una persona può essere sia produttore di un prodotto che consumatore di un altro prodotto. Le app per la finanza e le operazioni e la doppia scrittura supportano questa relazione. |
 | Una persona che è un contatto per un'organizzazione, ma non è cliente né fornitore. | Un record di contatto senza striping in cui il campo **Società** è vuoto e il campo **Cliente** è impostato su **No** e il campo **Fornitore** è impostato su **No**. |
 
 ## <a name="contact-for-party-table"></a>Tabella Contatto per la parte
@@ -142,7 +142,7 @@ Puoi usare il pulsante **Nuovo indirizzo elettronico** sopra la griglia per crea
 Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle versioni future, tutti i campi dell'indirizzo postale e dell'indirizzo elettronico saranno rimossi da altre schede, per esempio le schede **Riepilogo** e **Dettagli** . I dettagli di contatto visualizzati nella scheda **Dettagli** sono copie di sola lettura dell'indirizzo elettronico primario, come telefono primario, email primario, telefono primario, fax primario e ID Twitter primario. Durante il processo di qualificazione dei lead puoi fornire sia un numero di telefono aziendale che un numero di cellulare. Il numero di telefono aziendale è considerato il telefono principale se **IsMobile=No** e il numero di cellulare è considerato il telefono secondario se **IsMobile=Sì**.
 
 > [!TIP]
-> Usa le schede **Indirizzi** e **Indirizzi elettronici** nei moduli **Account** e **Contatti** per gestire gli indirizzi postali ed elettronici. Questo assicura che i dati degli indirizzi si sincronizzino con Finanza e operazioni apps.
+> Usa le schede **Indirizzi** e **Indirizzi elettronici** nei moduli **Account** e **Contatti** per gestire gli indirizzi postali ed elettronici. Questo assicura che i dati degli indirizzi si sincronizzino con le app per la finanza e le operazioni.
 
 ## <a name="setup"></a>Impostazione
 
@@ -226,11 +226,11 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
 
     ![Regola duplicati per i contatti.](media/duplicate-rule-2.PNG)
 
-11. Se sei già un utente con doppia scrittura, segui le istruzioni in [Eseguire l'aggiornamento al modello di parte e di rubrica globale](upgrade-party-gab.md) e aggiorna i tuoi dati.
+11. Se sei già un utente con doppia scrittura, segui le istruzioni in [Eseguire l'aggiornamento al modello di parte e di rubrica globale](upgrade-party-gab.md) e aggiorna i tuoi dati. **Non procedere al passaggio 12 senza completare questo passaggio:** Se sei un nuovo utente con doppia scrittura, procedere al passaggio 12.
 
-12. Esegui le mappe nell'ordine seguente. Se viene visualizzato un messaggio di errore che indica "Convalida del progetto non riuscita. Campo destinazione mancante ...", apri la mappa e seleziona **Aggiorna tabelle**. Quindi esegui la mappa.
+12. Se sei un utente esistente che usa la doppia scrittura, completa il passaggio 11, quindi esegui le mappe nel seguente ordine. Se sei un nuovo cliente con doppia scrittura, puoi procedere direttamente. Se viene visualizzato un messaggio di errore che indica "Convalida del progetto non riuscita. Campo destinazione mancante ...", apri la mappa e seleziona **Aggiorna tabelle**, quindi esegui la mappa.
 
-    App Finanza e operazioni | App di interazione con i clienti  
+    App per la finanza e le operazioni | App di interazione con i clienti  
     ----------------------------|------------------------
     [Parti CDS](mapping-reference.md#220) | msdyn_parties
     [Ubicazioni dell'indirizzo postale CDS](mapping-reference.md#234) | msdyn_postaladdresscollections
@@ -269,7 +269,7 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
 
 Una raccolta di mappe della tabella funziona in combinazione durante l'interazione con la parte e la rubrica globale, come illustrato nella seguente tabella.
 
-| App Finanza e operazioni | App di interazione con i clienti | Description |
+| App per la finanza e le operazioni | App di interazione con i clienti | Description |
 |----------------------------|-------------------------|-------------|
 | [Titoli contatti](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
 | [Clienti V3](mapping-reference.md#101) | conti |
@@ -295,10 +295,10 @@ Per ulteriori informazioni, vedere [Riferimento per il mapping a doppia scrittur
 
 ## <a name="known-issues-and-limitations"></a>Problemi noti e limitazioni
 
-+ Nelle app per finanza e operazioni, quando crei un cliente insieme all'indirizzo e lo salvi, l'indirizzo potrebbe non sincronizzarsi nella tabella **Indirizzo**. Ciò è dovuto a un problema di sequenza della piattaforma a doppia scrittura. Come soluzione alternativa, crea prima il cliente e salvalo. Quindi aggiungi l'indirizzo.
-+ Nelle app per finanza e operazioni, quando un record cliente ha un indirizzo principale e crei un nuovo contatto per quel cliente, il record del contatto eredita un indirizzo principale dal record cliente associato. Questo accade anche per il contatto del fornitore. Dataverse attualmente non supporta questo comportamento. Se la doppia scrittura è abilitata, un contatto cliente ereditato con un indirizzo principale dall'app per finanza e operazioni è sincronizzato con Dataverse insieme al suo indirizzo.
++ Nelle app per la finanza e le operazioni, quando crei un cliente insieme all'indirizzo e lo salvi, l'indirizzo potrebbe non sincronizzarsi nella tabella **Indirizzo**. Ciò è dovuto a un problema di sequenza della piattaforma a doppia scrittura. Come soluzione alternativa, crea prima il cliente e salvalo. Quindi aggiungi l'indirizzo.
++ Nelle app per la finanza e le operazioni, quando un record cliente ha un indirizzo principale e crei un nuovo contatto per quel cliente, il record del contatto eredita un indirizzo principale dal record cliente associato. Questo accade anche per il contatto del fornitore. Dataverse attualmente non supporta questo comportamento. Se la doppia scrittura è abilitata, un contatto cliente ereditato con un indirizzo principale dall'app per la finanza e le operazioni è sincronizzato con Dataverse insieme al suo indirizzo.
 + Gli indirizzi elettronici impostati nella scheda corrispondente dei moduli **Conto**, **Contatto** e **Fornitore** provengono dalla tabella `msdyn_partyelectronicaddress`. Queste informazioni non fluiscono nelle transazioni associate come l'ordine cliente, offerta e ordine fornitore. Abbiamo in programma di risolvere questo problema in una versione incrementale. I dati esistenti nei campi dell'indirizzo elettronico nei record conto e contatto continueranno a funzionare su transazioni come ordine cliente, offerta e ordine fornitore.
-+ Nelle app per finanza e operazioni puoi creare un record di contatto dal modulo **Aggiungi contatto**. Quando si tenta di creare un nuovo contatto dal modulo **Visualizza contatto**, l'azione non riesce. Questo è un problema noto.
++ Nelle app per la finanza e le operazioni puoi creare un record di contatto dal modulo **Aggiungi contatto**. Quando si tenta di creare un nuovo contatto dal modulo **Visualizza contatto**, l'azione non riesce. Questo è un problema noto.
 
     ![Problema noto con Aggiungi contatto.](media/party-gab-contact-issue.png)
 
@@ -307,4 +307,4 @@ Per ulteriori informazioni, vedere [Riferimento per il mapping a doppia scrittur
 
     ![Problema noto con Indirizzo.](media/party-gab-address-issue.png)
 
-+ Non puoi immettere un indirizzo postale con validità postdatata utilizzando un'app per finanza e operazioni con doppia scrittura, perché Dataverse non supporta la validità della data. Se inserisci un indirizzo postale con data futura utilizzando un'app per finanza e operazioni, si sincronizza con Dataverse completamente e vedrai immediatamente l'indirizzo sull'interfaccia utente. Qualsiasi aggiornamento a questo record comporterà un errore poiché è postdatato e non è corrente nell'app per finanza e operazioni.
++ Non puoi immettere un indirizzo postale con validità postdatata utilizzando un'app per la finanza e le operazioni con doppia scrittura, perché Dataverse non supporta la validità della data. Se inserisci un indirizzo postale con data futura utilizzando un'app per la finanza e le operazioni, si sincronizza con Dataverse completamente e vedrai immediatamente l'indirizzo sull'interfaccia utente. Qualsiasi aggiornamento a questo record comporterà un errore poiché è postdatato e non è corrente nell'app per la finanza e le operazioni.

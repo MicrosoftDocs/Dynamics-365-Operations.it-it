@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: f9674bb68d7f577a6efdef3416d1731d743d0555
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: fd6ecb0b7bc1fcf85feab2588622a96cf43b6155
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087168"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8407847"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processo di rilascio di Ottimizzazione pianificazione e cronologia dei rilasci
 
@@ -33,6 +33,7 @@ Poiché le notifiche non vengono visualizzate quando Ottimizzazione pianificazio
 
 | Modifiche | Dettagli della gestione funzionalità | Date di rilascio |
 |---|---|---|
+| <p>Miglioramenti generali di prestazioni, qualità e stabilità.<p>Manutenzione calendario centralizzato di Ottimizzazione pianificazione<p>Suggerimenti di ottimizzazione pianificazione per ottimizzare l'approvvigionamento esistente | Non è richiesta alcuna gestione delle funzionalità. | 7-11 marzo 2022 |
 | <p>Aggiunto supporto per la priorità di pianificazione per gli ordini di produzione. | Disponibile con la versione 10.0.25 come parte della funzionalità denominata *Supporto MRP basato sulla priorità per Ottimizzazione pianificazione*. | 12-18 novembre 2021 |
 | <p>Miglioramenti generali di prestazioni, qualità e stabilità. | Non è richiesta alcuna gestione delle funzionalità. | 12-18 novembre 2021 |
 | <p>Aggiunto il supporto per le formule di calcolo del tempo di processo, il percorso di produzione con sovrapposizione e il numero dell'operazione di produzione sulle transazioni del fabbisogno.</p><p>Messaggi di errore avanzati per la pianificazione della produzione relativi a timeout, capacità non trovata e percorso ciclico.</p><p>Maggiore coerenza durante il calcolo delle date di ricevimento e di emissione sia per gli ordini pianificati che per gli ordini stabilizzati.</p><p>Miglioramenti generali di prestazioni, qualità e stabilità. | Nome della funzionalità: *Programmazione capacità infinita per Ottimizzazione pianificazione* | 22-27 ottobre 2021 |

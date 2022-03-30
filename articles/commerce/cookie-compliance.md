@@ -2,7 +2,7 @@
 title: Conformità cookie
 description: Questo argomento descrive le considerazioni sulla conformità dei cookie e i criteri predefiniti inclusi in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 07/30/2021
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 509ae998b4d0fa8ab6dd5e3d242dfb4abc492952cd66addc04050fbaff949326
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2efb866d513ba90630b0397c1ca144c92d40719c
+ms.sourcegitcommit: 4645278a4b4a38dcb18fdfb49ce2e276eabb59de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747699"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "8403149"
 ---
 # <a name="cookie-compliance"></a>Conformità dei cookie
 
@@ -29,7 +29,7 @@ Questo argomento descrive le considerazioni sulla conformità dei cookie e i cri
 
 La privacy è un fattore importante quando vengono utilizzate tecnologie di tracciabilità che interessano i clienti di e-Commerce. A causa degli standard di conformità della privacy come il Regolamento generale sulla protezione dei dati (GDPR) nell'Unione Europea (UE), le linee guida elettroniche sulla privacy devono essere prese in considerazione per qualsiasi sito che attivo oggi. Poiché molti siti di e-Commerce sono accessibili a livello globale per impostazione predefinita, è importante rivedere gli standard di conformità per il proprio sito di e-Commerce.
 
-Per ulteriori informazioni sui principi di base utilizzati da Microsoft per la conformità dei cookie, visitare il [Centro di protezione di Microsoft ](https://www.microsoft.com/trust-center). Su questo sito, puoi anche ottenere ulteriori informazioni sulle aree di conformità e della privacy.
+Per ulteriori informazioni sui principi di base utilizzati da Microsoft per la conformità dei cookie, visitare il [Centro di protezione di Microsoft](https://www.microsoft.com/trust-center). Su questo sito, puoi anche ottenere ulteriori informazioni sulle aree di conformità e della privacy.
 
 La seguente tabella mostra l'attuale elenco di riferimento dei cookie inseriti dai siti Dynamics 365 Commerce.
 
@@ -58,6 +58,7 @@ La seguente tabella mostra l'attuale elenco di riferimento dei cookie inseriti d
 | \_msdyn365___aud_0                          | Memorizza i valori del segmento utilizzati dalla destinazione e viene utilizzato solo se la destinazione è configurata in una pagina o frammento richiesto da un utente del sito. Il cookie viene inserito solo quando i valori del segmento provengono da un provider di segmentazione di terze parti.      | 7 giorni |
 | \_msdyn365___aud_1                           | Memorizza i valori del segmento utilizzati dalla destinazione e viene utilizzato solo se la destinazione è configurata in una pagina o frammento richiesto da un utente del sito. Il cookie viene inserito solo quando i valori del segmento provengono da un provider di segmentazione di terze parti.      | 7 giorni |
 | \_msdyn365___aud_2                           | Memorizza i valori del segmento utilizzati dalla destinazione e viene utilizzato solo se la destinazione è configurata in una pagina o frammento richiesto da un utente del sito. Il cookie viene inserito solo quando i valori del segmento provengono da un provider di segmentazione di terze parti.      | 7 giorni |
+| d365gi                                       | Questo cookie conserva i dati delle posizioni geografiche quando viene usato un servizio di geolocalizzazione di terze parti.      | 1 giorno |
 
 Se un utente del sito seleziona qualsiasi collegamento ai social media in un sito, anche i cookie nella tabella seguente verranno monitorati nel suo browser.
 

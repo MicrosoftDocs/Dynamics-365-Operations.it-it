@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 43e57b75933a67c1ee3fb0a59400b0d1bdab931cec5826346247cc361a0206df
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e7350e697beec42b349082df06b77a89d526c27c
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720422"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396526"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Questo argomento verrà aggiornato man mano che vengono documentate le nuove fun
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione.
 
 > [!NOTE]
-> Informazioni dettagliate sugli oggetti nella app Finance and Operations sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app Finance and Operations.
+> Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per finanza e operazioni.
 
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Funzionalità rimosse o deprecate nella versione Supply Chain Management 10.0.19
@@ -52,7 +52,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo della deprecazione/rimozione** | A partire da aprile 2021, *Dynamics 365 for Finance and Operations - Magazzino* (l'app di magazzino) è obsoleta e non sarà supportata dopo aprile 2022. È ora sostituita dall'*App per dispositivi mobili Gestione magazzino*, rilasciata con la versione 10.0.17 di Supply Chain Management. La nuova app è una sostituzione completa ma utilizza lo stesso framework sottostante, il che semplifica la migrazione. Se necessario, le due app possono essere utilizzate contemporaneamente per aiutare gli utenti ad adattarsi gradualmente mentre imparano a utilizzare la nuova app.<br><br>Per ulteriori informazioni sulla nuova app per dispositivi mobili Gestione magazzino vedi [Applicazione per dispositivi mobili per la gestione del magazzino](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md). |
+| **Motivo della deprecazione/rimozione** | A partire da aprile 2021, *Dynamics 365 for Finance and Operations - Magazzino* (l'app di magazzino) è deprecata e non sarà supportata dopo aprile 2022. È ora sostituita dall'*App per dispositivi mobili Gestione magazzino*, rilasciata con la versione 10.0.17 di Supply Chain Management. La nuova app è una sostituzione completa ma utilizza lo stesso framework sottostante, il che semplifica la migrazione. Se necessario, le due app possono essere utilizzate contemporaneamente per aiutare gli utenti ad adattarsi gradualmente mentre imparano a utilizzare la nuova app.<br><br>Per ulteriori informazioni sulla nuova app per dispositivi mobili Gestione magazzino vedi [Applicazione per dispositivi mobili per la gestione del magazzino](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md). |
 | **Sostituita da un'altra funzionalità?**   | Sì, sostituita dalla nuova app per dispositivi mobili Gestione magazzino. |
 | **Aree del prodotto interessate**         | Supply Chain Management - app di magazzino |
 | **Opzione di distribuzione**              | Cloud e locale |
@@ -78,7 +78,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Sostituita da un'altra funzionalità?**   | Sì, l'ottimizzazione di pianificazione sostituirà l'attuale motore di pianificazione generale di Supply Chain Management incorporato. |
 | **Aree del prodotto interessate**         | Supply Chain Management - Pianificazione master |
 | **Opzione di distribuzione**              | Solo cloud. L'ottimizzazione di pianificazione non è supportata con le distribuzioni locali. |
-| **Stato**                         | Deprecato. Entro il 1° aprile 2022 gli scenari di produzione non saranno più supportati con il motore di pianificazione generale Dynamics 365 Supply Chain Management. Per gli scenari di produzione, i clienti devono utilizzare l'ottimizzazione di pianificazione per i calcoli della pianificazione generale. Per ulteriori informazioni, vedere [Panoramica dell'ottimizzazione di pianificazione](../master-planning/planning-optimization/planning-optimization-overview.md). I clienti con implementazioni locali di Dynamics 365 Supply Chain Management possono continuare a utilizzare il motore di pianificazione generale di Supply Chain Management per gli scenari di produzione dopo il mese di aprile 2022. Non verranno tuttavia forniti ulteriori miglioramenti delle funzionalità. |
+| **Stato**                         | Deprecato. Entro il 1° aprile 2022 gli scenari di produzione non saranno più supportati per il motore di pianificazione generale di Supply Chain Management integrato. Da quella data, Microsoft interromperà tutti gli sviluppi attivi negli scenari di produzione per il motore di pianificazione integrato, non rilascerà nuove funzionalità e rilascerà solo risoluzioni ai bug critici. Dopo tale data, tutte le aziende che necessitano di assistenza per gli scenari di produzione devono usare Ottimizzazione pianificazione per il calcolo della pianificazione master. Ottimizzazione pianificazione dovrà supportare completamente gli scenari di produzione da Ottobre 2022. Per ulteriori informazioni, vedi [Panoramica di Ottimizzazione pianificazione](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Le aziende con implementazioni locali di Supply Chain Management possono continuare a utilizzare il motore di pianificazione integrato per gli scenari di produzione dopo il mese di aprile 2022. Non verranno tuttavia forniti ulteriori miglioramenti delle funzionalità. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Funzionalità rimosse o deprecate nella versione Supply Chain Management 10.0.11
 

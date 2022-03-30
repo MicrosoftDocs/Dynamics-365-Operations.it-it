@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8348f935ddee557a5f47b550c24f78cf68e37db2
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
+ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075202"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "8457400"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Home page novità o modifiche nelle app per finanza e operazioni
 
@@ -34,7 +34,7 @@ ms.locfileid: "8075202"
 Per visualizzare novità o modifiche in ogni versione di un'app per finanza e operazioni, vedere i seguenti argomenti:
 
 - **Finance:** [Novità o modifiche in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)
-- **Human Resources (infrastruttura unita):** [Novità o modifiche in Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-25.md)  
+- **Human Resources (infrastruttura unita):** [Novità o modifiche in Microsoft Dynamics 365 Human Resources](../../../human-resources/get-started/hr-whats-new-changed-10-0-26.md)  
 - **Supply Chain Management:** [Novità o modifiche in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **Commerce:** [Novità e modifiche in Dynamics 365 Commerce](../../../commerce/get-started/whats-new-home-page.md)
 

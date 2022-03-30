@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
 author: sericks007
-ms.date: 03/03/2022
+ms.date: 03/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6b4c514d34e4afbaac4afabed6865496747c0411
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384722"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396551"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -31,6 +31,18 @@ In questo argomento vengono descritte le funzionalità rimosse, o di cui è stat
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
 Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per finanza e operazioni.
+
+## <a name="feature-removal-effective-march-14-2022"></a>Rimozione delle funzionalità in vigore dal 14 marzo 2022
+
+### <a name="xslt-scripting-in-data-management"></a>Scripting XSLT in Gestione dati
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Il supporto per lo scripting XSLT in Gestione dati è deprecato per migliorare la sicurezza e la protezione dei dati nelle app per la finanza e le operazioni.  |
+| **Sostituita da un'altra funzionalità?**   | N. I clienti e gli ISV devono considerare la reimplementazione delle loro soluzioni in base al linguaggio X++, al posto dello scripting XSLT. |
+| **Aree del prodotto interessate**         | App per la finanza e le operazioni. |
+| **Opzione di distribuzione**              | Tutto. |
+| **Status**                         | Deprecato: data di rimozione pianificata 14 marzo 2022.<br><br>Eccezione: clienti che utilizzano attualmente lo scripting XLST. Possono continuare a utilizzarlo fino all'aggiornamento alla versione 10.0.30 o successiva. I clienti con questa eccezione hanno ricevuto una notifica nel centro messaggi disponibile nell'interfaccia di amministrazione di Microsoft 365. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Rimozione delle funzionalità in vigore da ottobre 2021
 

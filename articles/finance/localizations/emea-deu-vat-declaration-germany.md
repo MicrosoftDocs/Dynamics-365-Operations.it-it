@@ -2,19 +2,19 @@
 title: Dichiarazione IVA (Germania)
 description: Questo argomento descrive come impostare e generare una dichiarazione di imposta sul valore aggiunto (IVA) avanzata per la Germania nel formato XML ufficiale.
 author: anasyash
-ms.date: 11/22/2021
+ms.date: 03/10/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 29c04e1034c05b4672f3657ce0b7bc9d5f6d7c9c
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: a761a145a876584728098a92b3f3e93ac718a164
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860882"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402805"
 ---
 # <a name="vat-declaration-germany"></a>Dichiarazione IVA (Germania)
 
@@ -163,6 +163,9 @@ Apri l'area di lavoro **Creazione di report elettronici** e importa le seguenti 
 ### <a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a><a name="set-up-application-specific-parameters-for-vat-declaration-fields"></a>Impostare i parametri specifici dell'applicazione per i campi della dichiarazione IVA
 
 Per generare automaticamente una dichiarazione IVA, associa i codici IVA nell'applicazione e i risultati della ricerca nella configurazione della creazione di report elettronici.
+
+> [!NOTE]
+> Consigliamo di abilitare la funzionalità **Utilizza parametri specifici dell'applicazione delle versioni precedenti dei formati ER** nell'area di lavoro **Gestione delle funzionalità**. Quando questa funzionalità è abilitata, i parametri configurati per la versione precedente di un formato ER diventano automaticamente applicabili alla versione successiva dello stesso formato. Se questa funzione non è abilitata, è necessario configurare i parametri specifici dell'applicazione in modo esplicito per ogni versione del formato. Abilitare la funzionalità **Utilizza parametri specifici dell'applicazione delle versioni precedenti dei formati ER** disponibile nell'area di lavoro **Gestione delle funzionalità** a partire dalla versione 10.0.23 di Finance. Per ulteriori informazioni su come impostare i parametri di un formato ER per ciascuna persona giuridica, vedi [Impostare i parametri di un formato ER per la persona giuridica](../../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md).
 
 Segui questi passaggi per definire quali codici IVA generano quali caselle nella dichiarazione IVA.
 

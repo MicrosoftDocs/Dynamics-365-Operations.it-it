@@ -2,7 +2,7 @@
 title: Set di dimensioni finanziarie
 description: In questo argomento vengono descritti set di dimensioni finanziarie e vengono forniti alcuni suggerimenti per ottimizzarne l'utilizzo.
 author: yukonpeegs
-ms.date: 03/23/2021
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: epegors
 ms.search.validFrom: 2021-03-23
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 415a41100cc5be740f064d52598cd256c0aa2ae1d45473c8039bdc6e22381b3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9274e7f85005ab27d9f2b35fbb0be42e216941c9
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739980"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392938"
 ---
 # <a name="financial-dimension-sets"></a>Set di dimensioni finanziarie
 
@@ -61,6 +61,11 @@ Usare il pulsante **Ricostruisci saldi** per ricreare i saldi da zero. In questo
 ## <a name="clear-balances"></a>Cancella saldi
 
 Usare il pulsante **Cancella saldi** per rimuovere i saldi e interrompere eventuali ulteriori aggiornamenti. Il set di dimensioni non avrà più alcun impatto sulle attività di registrazione della contabilità generale.
+
+## <a name="delete-a-dimension-set"></a>Eliminare un set di dimensioni
+
+Non **eliminare e ricreare** la quota impostata come qualsiasi forma di soluzione per risolvere potenziali problemi con i dati di bilancio per un set di quote specifiche. Ricreare un set di quote è costoso. Per ulteriore assistenza con questi problemi, contatta il supporto clienti. 
+
 
 Per ulteriori informazioni, vedere [Dimensioni finanzarie](financial-dimensions.md).
 

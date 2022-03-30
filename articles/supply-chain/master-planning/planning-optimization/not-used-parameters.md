@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 01edccbf1a50264b3867e303cbca44eb1b1d7dd9
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
+ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087501"
+ms.lasthandoff: 03/12/2022
+ms.locfileid: "8408232"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parametri non utilizzati da Ottimizzazione pianificazione
 
@@ -194,12 +194,6 @@ Ottimizzazione pianificazione non utilizza il seguente parametro o opzione nella
   - **Controllo data di consegna**: Ottimizzazione pianificazione non supporta l'opzione *CTP*, in attesa del supporto *CTP*.
   - **Lead time magazzino**: nelle versioni del servizio di ottimizzazione della pianificazione precedenti alla versione del 6 agosto 2021, il servizio utilizza questo parametro per calcolare l'ordine corretto e le date di consegna, ma non salva il lead time calcolato stesso nell'ordine pianificato. Nelle versioni successive, il servizio utilizza anche il lead time calcolato per impostare il campo **Lead time** e l'opzione **Giorni lavorativi** come richiesto per l'ordine pianificato pertinente.
   - **Giorni lavorativi**: nelle versioni del servizio di ottimizzazione della pianificazione precedenti alla versione del 6 agosto 2021, il servizio utilizza questo parametro per calcolare l'ordine corretto e le date di consegna, ma non salva il lead time calcolato stesso nell'ordine pianificato. Nelle versioni successive, il servizio utilizza anche il lead time calcolato per impostare il campo **Lead time** e l'opzione **Giorni lavorativi** come richiesto per l'ordine pianificato pertinente.
-
-## <a name="working-time-calendars-page"></a>Pagina Calendari orario di lavoro
-
-Ottimizzazione pianificazione non utilizza il seguente parametro nella pagina **Calendari orario di lavoro**:
-
-- **Calendario di base**: in attesa del supporto *Calendari di base*.
 
 ## <a name="batch-disposition-master-page"></a>Pagina Smaltimento generale batch
 

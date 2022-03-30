@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e271ddd3331d7b5de78f00a02b60a0479879c172
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 575aef709a0ac3b0cf8150f1e816dac04c069814
+ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700007"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "8396501"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Differenze tra la pianificazione generale integrata e l'ottimizzazione della pianificazione
 
@@ -36,6 +36,7 @@ I risultati di Planning Optimization potrebbero differire dai risultati del moto
 | Garanzia scorte di sicurezza | Ottimizzazione pianificazione utilizza sempre l'opzione *Data odierna + tempo di approvvigionamento* per il campo **Soddisfa minimo** della pagina **Copertura articolo**. Consente di impedire ordini pianificati indesiderati e altri problemi perché se il tempo di approvvigionamento non è incluso per la scorta di sicurezza, gli ordini pianificati creati per le scorte a disponibilità ridotta saranno sempre posticipati a causa dei tempi di consegna. |
 | Pegging delle scorte di sicurezza e fabbisogni netti | Il tipo di requisito *Scorta di sicurezza* non è incluso e non viene visualizzato nella pagina **fabbisogni netti**. Le scorte di sicurezza non rappresentano la domanda e non sono associate a una data di fabbisogno. Imposta invece un vincolo sulla quantità di scorte che deve essere sempre presente. In ogni caso, il valore del campo **Minimo** viene ancora preso in considerazione durante il calcolo degli ordini pianificati durante la pianificazione generale. Ti consigliamo di ispezionare la colonna **Quantità accumulata** nella pagina **fabbisogni netti** per controllare che questo valore sia stato considerato. |
 | Calendari di trasporto | Il valore nella colonna **Calendario di trasporto** nella pagina **Modalità di consegna** è ignorato. |
+| Codice di copertura minimo/massimo senza valori| Con il motore di pianificazione integrato, quando usi un codice di copertura min/max in cui nessun valore minimo o massimo è impostato, il motore di pianificazione tratta il codice di copertura come requisito e crea un ordine per ciascun requisito. Con Ottimizzazione pianificazione, il sistema creerà un ordine per giorno per coprire l'importo completo di tale giorno.  |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

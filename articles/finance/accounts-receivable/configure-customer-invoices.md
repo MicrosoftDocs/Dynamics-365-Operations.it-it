@@ -2,7 +2,7 @@
 title: Creare una fattura cliente
 description: Una fattura cliente per un ordine cliente è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente.
 author: ShivamPandey-msft
-ms.date: 02/01/2022
+ms.date: 03/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d408ca5265802cf17a53dd5cb004f707f6f7855b
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087425"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392913"
 ---
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
@@ -82,6 +82,9 @@ Visualizzare lo stato degli ordini cliente nella pagina elenco **Tutti gli ordin
 Utilizzare questo processo quando uno o più ordini cliente sono pronti per la fatturazione e si desidera consolidarli in una singola fattura. 
 
 È possibile selezionare più fatture nella pagina elenco **Ordine cliente** e quindi utilizzare **Genera fatture** per consolidarle. Nella pagina **Registrazione fattura** è possibile modificare l'impostazione **Ordine riepilogativo** per riepilogare per numero ordine (in cui sono presenti più documenti di trasporto per un singolo ordine cliente) o per conto fatture (in cui sono presenti più ordini cliente per un singolo conto fatture). Utilizzare il pulsante **Disponi** per consolidare gli ordini cliente in singole fatture, in base alle impostazioni **Ordine riepilogativo**.
+
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Registra su account Ricavi per le righe di ordine senza prezzo
+Avrai l'opzione di aggiornare l'account **Ricavi** in **Contabilità generale** per le righe di ordini di vendita senza prezzo. Per configurare o visualizzare queste informazioni, vai al parametro **Registra su account Ricavi per le righe di fatture di ordini di vendite con prezzo** nella scheda **Contabilità generale e IVA** della pagina **Parametri contabilità clienti**. (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per aggiornare l'account **Ricavi** per le righe delle fatture degli ordini di vendita senza prezzo. Un account ricavi viene definito nella pagina dei parametri **Registrazione magazzino**, nella scheda di definizione dell'account **Ordine di vendita**. Se questa opzione non viene selezionata, le righe che non hanno informazioni sul prezzo non registreranno l'account **Ricavi**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Impostazioni aggiuntive che modificano il comportamento di registrazione
 I seguenti campi modificano il comportamento del processo di registrazione.

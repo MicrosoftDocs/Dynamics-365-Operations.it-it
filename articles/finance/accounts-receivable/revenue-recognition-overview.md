@@ -2,7 +2,7 @@
 title: Panoramica del riconoscimento ricavi (contiene video)
 description: In questo argomento vengono fornite informazioni sulla funzionalità di riconoscimento dei ricavi. Questa funzionalità fornisce un framework flessibile che consente di definire regole specifiche della società per riconoscere sia il prezzo che la programmazione dei ricavi per ordini con più elementi.
 author: kweekley
-ms.date: 11/11/2019
+ms.date: 03/15/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: a5e7b6407fe72c56ea04920532d4327d2b89f8d1
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: aae46fa90d306355608200f96ae5cf10793c8464
+ms.sourcegitcommit: 0925b9ee0cb0df93047681a243aacc2abd404dea
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982589"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "8446180"
 ---
 # <a name="revenue-recognition-overview"></a>Panoramica del riconoscimento ricavi
 
@@ -26,10 +26,7 @@ ms.locfileid: "7982589"
 
 Le società di settori che vendono più elementi, ad esempio prodotti, servizi, sottoscrizioni e così via, devono essere in grado di separare gli ordini con più elementi in modo che sia possibile riconoscere i ricavi in base a un set di linee guida specifiche della società e del settore.
 
-> [!NOTE]
-> Il riconoscimento ricavi non può essere attivato tramite Gestione funzionalità. Per attivarlo, attualmente è necessario utilizzare le chiavi di configurazione.
-
-> Il riconoscimento dei ricavi, inclusa la funzionalità aggregazione, non è supportato per l'utilizzo nei canali di Commerce (e-commerce, POS, servizio clienti). Gli articoli configurati con il riconoscimento dei ricavi non devono essere aggiunti agli ordini o alle transazioni creati nei canali di Commerce.
+Il riconoscimento dei ricavi, inclusa la funzionalità aggregazione, non è supportato per l'utilizzo nei canali di Commerce (e-commerce, POS, servizio clienti). Gli articoli configurati con il riconoscimento dei ricavi non devono essere aggiunti agli ordini o alle transazioni creati nei canali di Commerce.
 
 In generale, il processo di riconoscimento ricavi può essere utilizzato in genere per eseguire queste attività:
 

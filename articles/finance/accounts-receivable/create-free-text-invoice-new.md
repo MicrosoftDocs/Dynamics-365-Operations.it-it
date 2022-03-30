@@ -1,23 +1,23 @@
 ---
 title: Creare una fattura a testo libero
 description: In questo argomento viene illustrato come creare le fatture a testo libero.
-author: mikefalkner
-ms.date: 08/24/2018
+author: abruer
+ms.date: 02/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e5ca9e00ec881707248d966470288fd3ddba4e785127f30bd0e6dd4e7186c7e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
+ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763288"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "8392887"
 ---
 # <a name="create-a-free-text-invoice"></a>Creare una fattura a testo libero
 
@@ -68,6 +68,7 @@ In questo argomento viene illustrato come creare le fatture a testo libero. Per 
 
     * È possibile modificare il tempo di stampa delle fatture. Selezionare **Corrente** per stampare ogni fattura man mano che viene aggiornata. Selezionare **Dopo** per eseguire la stampa dopo che tutte le fatture sono state aggiornate.
     * Per modificare il modo in cui il limite di credito del cliente viene verificato prima che la fattura venga registrata, modificare il valore nel campo **Tipo di limite di credito**.
+    * Puoi selezionare di interrompere la fattura quando si verifica un errore nella scheda **Aggiornamenti** nella pagina **Parametri contabilità clienti** (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per il parametro **Interrompi la registrazione di fatture di testo al primo errore** per interrompere la registrazione di fatture a testo libero quando si verifica un errore. Se esegui la registrazione in batch, un errore interromperà il processo di registrazione e lo stato del batch verrà impostato su **Errore**. Se questa opzione non è selezionata, il processo di registrazione ignorerà una fattura con un errore di registrazione e continuerà a registrare fatture aggiuntive. Se esegui la registrazione in un batch, un errore di registrazione non impedirà alle altre fatture di essere registrate. Lo stato del batch sarà **Terminato**. Un report del processo di registrazione dettagliato sarà disponibile per la revisione nella Cronologia processi batch.
     * Per stampare la fattura, impostare l'opzione su **Sì**.
     * Per registrare la fattura, impostare l'opzione su **Sì**. È possibile stampare la fattura senza registrarla.
 
@@ -82,6 +83,12 @@ Dopo aver copiato le righe, è possibile modificare le informazioni secondo le e
 L'utente può creare una fattura a testo libero da un modello. Quando si seleziona **Nuovo da modello** nella scheda **Fattura**, è possibile selezionare un nome di modello e il conto cliente per la nuova fattura a testo libero. Il cliente può compilare automaticamente i valori predefiniti, ad esempio i termini di pagamento e il metodo di pagamento, oppure è possibile utilizzare i valori che erano stati salvati nel modello.
 
 Viene creata una nuova fattura a testo libero ed è possibile modificare i valori secondo le esigenze.
+
+## <a name="resetting-the-workflow-status-for-free-text-invoices-from-unrecoverable-to-draft"></a>Reimpostazione dello stato del flusso di lavoro per le fatture a testo libero da Irreversibile a Bozza
+Un'istanza del flusso di lavoro interrotta a causa di un errore irreversibile avrà lo stato **Irriversibile**. Quando lo stato di un flusso di lavoro di fatture cliente a testo libero è **Irreversibile**, è possibile reimpostarlo su **Bozza** selezionando **Richiama** dalle azioni del flusso di lavoro. Puoi quindi modificare la fattura clienti a testo libero. Questa funzionalità è disponibile se il parametro **Reimpostare lo stato del flusso di lavoro di fatture a testo libero da Irreversibile a Bozza** nella pagina **Gestione funzionalità** è attivato.
+
+È possibile utilizzare la pagina **Storico flusso di lavoro** per reimpostare lo stato flusso di lavoro su **Bozza**. È possibile visualizzare questa pagina da **Fattura a testo libero** o dal percorso **Comune > Richieste di informazioni > Flusso di lavoro**. Per reimpostare lo stato del flusso di lavoro su **Bozza**, selezionare **Richiama**. È inoltre possibile reimpostare lo stato del flusso di lavoro su **Bozza** selezionando l'azione **Richiama** nella pagina **Fattura a testo libero** o **Tutte le fatture a testo libero**. Dopo la reimpostazione dello stato flusso di lavoro su **Bozza**, diventa disponibile per modificare la pagina **Fattura a testo libero**.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 description: Questo argomento elenca le funzionalità nuove e modificate per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 02/21/2022
+ms.date: 03/11/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b146fb12f89559efcb3b0973b0dd1ce9b98ffe2a
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
+ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384373"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8418642"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20190"></a>Versione 2.0.19.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Migliorato il flusso di richiesta dati generico.
+- Migliorato il problema degli spostamenti nelle pagine **Elenco di lavoro** e **Richiesta informazioni su articolo**.
+- Consumo della batteria ridotto.
+- Rimosso il limite sul numero di campi per tessere lavorative.
+- Rettificata l'altezza delle tessere lavorative in modo che abbiano tutte le stesse dimensioni, indipendentemente dal numero di campi in ciascuna.
+- Risolto un problema in cui i caratteri di spazio nei codice a barre verranno ritagliati.
+- Aggiunta l'impostazione **Stile pulsante**, che ti consente di passare dalla vista del dispositivo di scorrimento e la vista del pulsante su tutti i tipi di dispositivi.
+- Sono stati risolti vari problemi che potevano causare l'arresto anomalo dell'app.
+- Imposta automaticamente lo stato attivo sulla prima casella di testo nelle pagine personalizzate.
+- Miglioramenti all'accessibilità relativi alla luminosità, al contrasto, alla narrazione e ai testi dei segnaposto.
 
 ## <a name="version-20170"></a>Versione 2.0.17.0
 

@@ -2,7 +2,7 @@
 title: Creare un sito di e-commerce
 description: Questo argomento descrive i passaggi e le informazioni richiesti per creare un nuovo sito di e-commerce in Creazione di siti Web di Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/04/2022
+ms.date: 03/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e451b1c95c3e26d1292e7b8300b62af43c81f2f
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 37734e2ceea3a50c70a2f7945329d4a9cf660cc6
+ms.sourcegitcommit: 9c19898e1f41495f804c7f07e2636b53a098c4c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388213"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "8402777"
 ---
 # <a name="create-an-e-commerce-site"></a>Creare un sito di e-commerce
 
@@ -70,6 +70,14 @@ Per rinominare il sito nello strumento di creazione siti, effettua le seguenti o
 1. Per aprire la visualizzazione elenco dei siti, seleziona **Cambia sito** nell'angolo in alto a destra, quindi seleziona **Gestisci siti**. 
 1. Seleziona la casella di controllo accanto al sito che desideri rinominare, quindi seleziona **Rinomina** sulla barra dei comandi.
 1. Nella finestra di dialogo **Nuovo nome sito**, immetti il nuovo nome del sito, quindi seleziona **OK**. L'elenco dei siti si aggiornerà per mostrare il nuovo nome del sito.
+
+## <a name="delete-a-site"></a>Elimina un sito
+
+Per eliminare un sito nel generatore siti, seguire questa procedura.
+
+1. Per aprire la visualizzazione elenco dei siti, seleziona **Cambia sito** nell'angolo in alto a destra, quindi seleziona **Gestisci siti**.
+1. Seleziona il sito che desideri eliminare, quindi sulla barra dei comandi, seleziona **Elimina**.
+1. Nella finestra di dialogo **Elimina \<site name\>**, immetti il nome del sito e seleziona **Elimina**.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
