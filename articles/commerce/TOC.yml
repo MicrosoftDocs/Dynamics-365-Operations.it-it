@@ -390,7 +390,7 @@
                   href: tasks/worker.md
                 - name: 'Modern Point of Sale (MPOS), Cloud POS e Store Commerce'
                   items:
-                    - name: App Store Commerce in Microsoft Dynamics 365 Commerce (anteprima)
+                    - name: App Store Commerce
                       href: dev-itpro/store-commerce.md
                     - name: Linee guida per l'implementazione di gestione dei dispositivi
                       href: implementation-considerations-devices.md
@@ -2872,6 +2872,8 @@
               items:
                 - name: Il rimborso dell'ordine di reso viene rifiutato
                   href: troubleshoot/refund-declined.md
+                - name: Le spese rimborsabili sono calcolate in modo erroneo in base alla quantità restituita
+                  href: troubleshoot/refund-miscalculated-partial-return.md
                 - name: Dynamics 365 Payment Connector per Adyen
                   items:
                     - name: Risolvere i problemi di Dynamics 365 Payment Connector per Adyen

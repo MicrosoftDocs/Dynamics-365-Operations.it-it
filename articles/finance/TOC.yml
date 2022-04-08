@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-25.md
                 - name: Finance 10.0.24 (febbraio)
                   href: get-started/whats-new-changed-10-0-24.md
-                - name: Finance 10.0.23 (gennaio)
-                  href: get-started/whats-new-changed-10-0-23.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -414,8 +412,20 @@
               items:
                 - name: Panoramica della fatturazione abbonamento
                   href: accounts-receivable/subscription-billing-summary.md
-                - name: Configurare i programmi di fatturazione
-                  href: accounts-receivable/sb-billing-schedules.md
+                - name: Fatturazione contratto ricorrente
+                  items:
+                    - name: Creare programmi di fatturazione
+                      href: accounts-receivable/sb-billing-schedules.md
+                    - name: Copiare un programma di fatturazione
+                      href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Fatturazione a fasi
+                      href: accounts-receivable/sb-milestonebilling.md
+                    - name: Terminare programmi di fatturazione
+                      href: accounts-receivable/terminate-billing-schedule.md
+                - name: Differimenti ricavi e spese
+                  items: null
+                - name: Allocazione ricavi con più elementi
+                  items: null
             - name: Pagamenti e liquidazioni
               items:
                 - name: Panoramica pagamenti cliente
@@ -1443,11 +1453,11 @@
                             - name: Configurare un canale SharePoint
                               href: localizations/e-invoicing-configure-sharepoint-channel.md
                         - name: Impostare e utilizzare la fatturazione elettronica con Finance e Supply Chain Management
-                          items: null
-                        - name: Attivare e impostare l'integrazione con la fatturazione elettronica
-                          href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
-                        - name: Impostare i parametri di fatturazione elettronica
-                          href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
+                          items:
+                            - name: Attivare e impostare l'integrazione con la fatturazione elettronica
+                              href: localizations/e-invoicing-activate-setup-integration.md?toc=/dynamics365/finance/toc.json
+                            - name: Impostare i parametri di fatturazione elettronica
+                              href: localizations/e-invoicing-set-up-parameters.md?toc=/dynamics365/finance/toc.json
                         - name: Utilizzare la fatturazione elettronica
                           items:
                             - name: Inviare documenti elettronici alla fatturazione elettronica
@@ -1532,6 +1542,10 @@
                           items:
                             - name: Dichiarazione IVA
                               href: localizations/emea-dnk-vat-declaration-denmark.md
+                        - name: Dichiarazione della Finlandia
+                          items:
+                            - name: Dichiarazione IVA
+                              href: localizations/emea-fin-vat-declaration-mult-tax-id.md
                         - name: Dichiarazione della Francia
                           items:
                             - name: Dichiarazione IVA
@@ -1546,6 +1560,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Elenco vendite UE
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Dichiarazione della Norvegia
+                          items:
+                            - name: Dichiarazione IVA
+                              href: localizations/emea-nor-vat-declaration.md
                         - name: Dichiarazione della Spagna
                           items:
                             - name: 'Fornitura immediata di informazioni sull''IVA (Suministro Inmediato de Información del IVA, SII)'
@@ -1564,10 +1582,6 @@
                           items:
                             - name: Dichiarazione IVA
                               href: localizations/emea-gbr-vat-declaration.md
-                        - name: Dichiarazione della Norvegia
-                          items:
-                            - name: Dichiarazione IVA
-                              href: localizations/emea-nor-vat-declaration.md
                     - name: Abilitare il calcolo delle imposte per l'ordine di trasferimento
                       items:
                         - name: Supporto della funzione fiscale per ordini di trasferimento
@@ -1694,8 +1708,6 @@
                   href: localizations/emea-aut-half-year-depreciation.md
                 - name: Addebiti materiale di imballaggio
                   href: localizations/emea-aut-packing-material-fee-calculation.md
-                - name: Dichiarazione IVA
-                  href: localizations/emea-aut-vat-statement-details.md
                 - name: Report sui servizi transfrontalieri
                   href: localizations/emea-aut-cross-border-services-report.md
                 - name: Intrastat austriaca
@@ -2021,8 +2033,6 @@
                 - name: Aggiornare la modalità di visualizzazione degli importi nei report e nei documenti
                   href: localizations/emea-amount-printing-forms.md
                 - name: Dichiarazione IVA
-                  href: localizations/emea-cze-vat-statement-details.md
-                - name: Dichiarazione IVA (Repubblica Ceca)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
                 - name: Intrastat ceco
                   href: localizations/emea-cze-intrastat.md
@@ -2060,6 +2070,8 @@
                   href: localizations/tasks/set-up-payment-slip-format.md
                 - name: Intrastat danese
                   href: localizations/emea-dnk-intrastat.md
+                - name: Dichiarazione IVA
+                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Egitto
               items:
                 - name: Panoramica Egitto
@@ -2242,6 +2254,8 @@
                   href: localizations/emea-fin-sales-tax-payment-report-finland.md
                 - name: Intrastat finlandese
                   href: localizations/emea-fin-intrastat.md
+                - name: Dichiarazione IVA
+                  href: localizations/emea-fin-vat-declaration.md
             - name: Francia
               items:
                 - name: Panoramica Francia
@@ -2332,12 +2346,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Dichiarazione IVA
                   href: localizations/emea-deu-vat-declaration-germany.md
-                - name: Trasmissione elettronica della dichiarazione IVA (ELSTER)
-                  href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Intrastat tedesco
                   href: localizations/emea-deu-intrastat.md
-                - name: Dichiarazione IVA
-                  href: localizations/emea-de-vat-declaration.md
                 - name: Report fatture elettroniche dei clienti
                   href: localizations/emea-deu-e-invoices.md
                 - name: Report elenco giornali di registrazione
@@ -2348,8 +2358,6 @@
                   href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
                 - name: Elenco vendite UE
                   href: localizations/emea-deu-eu-sales-list.md
-                - name: Dichiarazione IVA
-                  href: localizations/emea-dnk-vat-declaration-denmark.md
             - name: Ungheria
               items:
                 - name: Panoramica Ungheria
@@ -2562,6 +2570,8 @@
                                   href: localizations/apac-ind-GST-import-goods-gst.md
                                 - name: Importare servizi con GST
                                   href: localizations/apac-ind-import-services-gst.md
+                                - name: Allocazione delle spese nella pagina della distinta di entrata per gli ordini di importazione
+                                  href: localizations/apac-ind-charge-allocation-boe-page-import-orders.md
                                 - name: Esportare merci con imposta con tariffa zero
                                   href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
                                 - name: Esportare servizi con imposta con tariffa zero
@@ -3116,17 +3126,13 @@
               items:
                 - name: Panoramica Paesi Bassi
                   href: localizations/netherlands.md
-                - name: Dichiarazione IVA
-                  href: localizations/emea-nl-VAT-declaration.md
-                - name: Dichiarazioni dei redditi telematiche (EVAT)
-                  href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Integrazione di Semansys XBRL
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: File di controllo (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
                 - name: Dichiarazione IVA (Paesi Bassi)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
-                - name: Intrastat olandese
+                - name: Intrastat
                   href: localizations/emea-nl-intrastat.md
                 - name: Elenco vendite UE
                   href: localizations/emea-nl-EU-sales-list.md
@@ -3540,7 +3546,7 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Report di pagamento IVA per la Svezia
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
-                - name: Dichiarazione IVA per la Svezia
+                - name: Dichiarazione IVA
                   href: localizations/emea-swe-VAT-declaration-Sweden.md
                 - name: Intrastat svedese
                   href: localizations/emea-swe-intrastat.md
