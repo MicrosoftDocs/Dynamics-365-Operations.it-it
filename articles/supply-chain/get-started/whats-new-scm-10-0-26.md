@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: fae25eb1cb9dd4059b9d49e47cbb0060e717c9bc
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 2b39eef816aaa383f0f8cbf1b2c308a6eafebd8f
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8386998"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524439"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10026-may-2022"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.26 (maggio 2022)
 
@@ -35,7 +35,7 @@ Questa tabella elenca le funzionalità incluse in questa versione. Potremmo aggi
 | Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da |
 |---|---|---|---|
 | Inventario e logistica | [Query sulla visibilità delle scorte disponibili per supportare gli articoli di gestione avanzata del magazzino](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-visibility-support-advanced-warehouse-management) | Presto disponibile | Gestione funzionalità:<br>*Abilita articoli di magazzino in Visibilità inventario* |
-| Inventario e logistica | [Available-to-promise per il componente aggiuntivo per la visibilità di magazzino](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | Presto disponibile | Abilitata dalla configurazione del servizio |
+| Inventario e logistica | [Available-to-promise per il componente aggiuntivo per la visibilità di magazzino](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/available-to-promise-inventory-visibility-add-in) | [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](../inventory/inventory-visibility-available-to-promise.md) | Abilitata dalla configurazione del servizio |
 | Produzione | [Articoli a peso variabile per l'interfaccia di esecuzione dell'area di produzione](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/catch-weight-items-production-floor-execution-interface) | [Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-use.md) | Gestione funzionalità:<br>*(Anteprima) Report sugli articoli a peso variabile dall'interfaccia di esecuzione area di produzione* |
 | Produzione | Scheda Processi personali nell'interfaccia di esecuzione dell'area di produzione <!-- KFM: Add link to release plan when available --> | [Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-use.md) | Gestione funzionalità:<br>*Scheda Processi personali nell'interfaccia di esecuzione dell'area di produzione* |
 

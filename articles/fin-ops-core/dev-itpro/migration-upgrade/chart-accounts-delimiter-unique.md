@@ -2,7 +2,7 @@
 title: Impostare il delimitatore del piano dei conti come univoco
 description: In questo argomento viene descritto perché non è possibile avere lo stesso delimitatore per il piano dei conti e i valori delle dimensioni. Dopo l'aggiornamento, è necessario cambiare i valori del delimitatore.
 author: panolte
-ms.date: 09/17/2021
+ms.date: 03/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: a19dc8926df0efeac242e2e42ac37fdad91df9f8
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 433e9f8a7b0a9f476c74096a4bd7fef03c87dee1
+ms.sourcegitcommit: 0d5ee97670bdeb1986aaea880f32962b5e374751
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500505"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8468050"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Impostare il delimitatore del piano dei conti come univoco
 
@@ -32,8 +32,10 @@ In presenza di un conflitto con il piano dei conti, è possibile cambiare il del
 - È possibile cambiare il delimitatore del piano dei conti dopo l'aggiornamento in **Parametri di contabilità generale** > **Piano dei conti e dimensioni** > **Modifica delimitatore**. 
 - Se il conflitto è presente solo con il formato ID del progetto/sottoprogetto, è possibile modificare il valore in **Parametri Gestione progetti e contabilità** > **Generale** > **Modifica formato sottoprogetto**. 
 
+### <a name="other-considerations"></a>Altre considerazioni
+Analogamente all'ID progetto/sottoprogetto, qualsiasi altro record di dati master utilizzato come dimensioni finanziarie, ad esempio fornitori o clienti, non deve avere valori ID conto che utilizzano lo stesso carattere del delimitatore del piano dei conti. 
+
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Come determinare se l'ambiente richiede delimitatori aggiornati 
 Se i delimitatori nell'ambiente aggiornato sono in conflitto, è possibile avvertire l'instabilità quando si immettono i valori in un controllo di immissione segmentato o in un controllo di immissione delle dimensioni. Ciò significa che è sempre necessario utilizzare le ricerche o un menu a comparsa quando si immettono combinazioni di piano dei conti e dimensioni.
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

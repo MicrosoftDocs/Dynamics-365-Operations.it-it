@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416307"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464911"
 ---
 # <a name="financial-analysis"></a>Analisi finanziaria
 
@@ -38,7 +38,7 @@ ms.locfileid: "7416307"
 
 L'area di lavoro dell' **analisi finanziaria** si concentra sulla possibilità di visualizzare e filtrare i dati sui rapporti esistenti. Siete in grado di aggiungere nuove immagini all'area di lavoro dell' **analisi finanziaria** . L'area di lavoro **Analisi finanziaria** è disponibile sia per l'azienda corrente che per tutte le aziende per mostrare i dati di tutte le entità legali, indipendentemente dalle entità legali a cui il ruolo ha accesso.
 
-- [Aggiungi o modifica le visualizzazioni di Power BI sulla tua dashboard](/powerapps-docs/user/add-powerbi-dashboards.md)
+- [Aggiungi o modifica le visualizzazioni di Power BI sulla tua dashboard](/powerapps/user/add-powerbi-dashboards)
 
 ## <a name="dynamics-365-finance-setup"></a>Impostazione di Dynamics 365 Finance
 **Contabilità generale**
@@ -96,7 +96,7 @@ La seguente tabella di confronto aiuterà a differenziare le due opzioni:
 | **Supporto creazione di report con gerarchia/gerarchia organizzativa**   | Sì                                                               | No |
 | **Report i dati del giornale d registrazione secondario**                             | Sì limitato solo al fornitore, cliente                              | Sì fornitore, cliente, gruppi di clienti/fornitori, indirizzi clienti/fornitori, e così via. |
 | **Valuta di dichiarazione**                                   | Sì valuta di contabilizzazione e convertire in valuta di dichiarazione       | No solo valuta di contabilizzazione |
-| **Sicurezza**                                             | Sì conforme alla sicurezza dell'albero gerarchico di creazione report di Finance | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza Finance and Operations) o solo per la società attiva |
+| **Sicurezza**                                             | Sì conforme alla sicurezza dell'albero gerarchico di creazione report di Finance | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza di Finance and Operations) o solo per la società attiva |
 | **Supporto di diversi piani dei conti e anni fiscali** | Sì                                                               | No |
 | **Report di dati esterni**                              | No                                                                | No |
 | **Supporto di consolidamenti**                               | Sì                                                               | Limitato Può creare report per più società ma utilizzare solo la valuta di contabilizzazione |

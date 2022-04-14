@@ -2,7 +2,7 @@
 title: Certificazione unica
 description: Questo argomento fornisce informazioni sulla certificazione unica per le società in Italia.
 author: ilkond
-ms.date: 06/30/2020
+ms.date: 03/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2ed9d1d1ba28c31573a63e4526a998aba32d5de3034249c5b1ec3b3df31ad165
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c97c96ac89458dbf48ef423efc2029475a2c3d7
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766272"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464894"
 ---
 # <a name="unique-certification"></a>Certificazione unica
 
@@ -55,14 +55,6 @@ La pagina **Imposta valori di certificazione univoca** consente di configurare i
 - **Record B**: Eventi eccezionali
 - **record D** : eventi eccezionali, categorie speciali e province unificate
 - **Record H**: motivo e codice
-
-Il formato del modello telematico della certificazione unica è stato aggiornato secondo le nuove specifiche nell'aggiornamento normativo della certificazione unica, valido dal 7 marzo 2018:
-
-- **Record A**: codice di fornitura CUR18
-- **Record B**: nuovi valori per eventi eccezionali
-- **Record D**: nuovi valori per eventi eccezionali e categorie speciali e introduzione di campi di province unificate
-- **Record H**: nuovi valori per i campi motivo e codice
-- **Record Z**: conteggio di record L su 0
 
 I valori specificati sulla pagina **Imposta valori di certificazione unica** e contrassegnati con **Sì** nella colonna **Attivo**, saranno disponibili nei relativi campi di ricerca nella pagina **Certificazione unica**. Utilizza questa pagina per futuri aggiornamenti normativi della certificazione unica per aggiungere o eliminare valori.
 

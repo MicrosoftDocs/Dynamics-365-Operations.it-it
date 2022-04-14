@@ -2,25 +2,27 @@
 title: Panoramica sulla creazione di report finanziari
 description: In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari.
 author: aprilolson
-ms.date: 07/27/2021
+ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: intro-internal
+ms.custom:
+- "10444"
+- intro-internal
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fbdab1f4f81bbdb8b0b5cb3e6a5237196d7dc76
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: e1db676024f5ec0f254500bd2ceee85ab2150502
+ms.sourcegitcommit: 777f9581dccc0f963c6a04c95b85e00e68573db5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983979"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8527315"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione alla creazione di report finanziari 
 
@@ -174,7 +176,7 @@ Problema 1: Progettazione report non si avvia quando si seleziona **Nuovo** o **
 * In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili e quindi **Siti**. In **Aggiungi questo sito Web alla zona**, immettere "\*\.dynamics.com" (senza virgolette) quindi selezionare **Aggiungi**. 
 * In Internet Explorer, selezionare **Impostazioni**, quindi selezionare **Opzioni Internet**. Selezionare la scheda **Sicurezza**. Selezionare Siti attendibili. Nell'area denominata Livello di sicurezza per questa zona, impostare l'opzione in **Medio-basso**.
 * Disabilitare il blocco popup nel browser.
-* Le workstation sono necessarie per l'installazione di Microsoft .NET Fremework 4.6.2 o versione successiva. È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
+* Le workstation sono necessarie per l'installazione di Microsoft .NET Fremework 4.7.2 o versione successiva. È possibile scaricare e installare questa versione di Microsoft .NET Framework nell'[Area download Microsoft](https://dotnet.microsoft.com/download/dotnet-framework/net472).
 * Se stai utilizzando il browser Chrome, è necessario installare l'estensione ClickOnce per scaricare il client Progettazione report. Se si utilizza Chrome in modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità. Per ulteriori informazioni sull'estensione ClickOnce di Chrome, vedere [Requisiti di sistema per le distribuzioni cloud](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Se stai utilizzando Microsoft Edge con un browser Chrome, non è necessario installare un'estensione ClickOnce per Edge Chromium. Tuttavia, è necessario abilitare l'opzione ClickOnce per scaricare il client Report Designer. Se si utilizza la modalità in incognito, assicurarsi che l'estensione ClickOnce sia attiva in tale modalità.
 

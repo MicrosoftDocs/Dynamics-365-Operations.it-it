@@ -2,7 +2,7 @@
 title: Riconoscimento tra liquidazione saldi contabili e chiusura di fine anno
 description: Questo argomento fornisce informazioni sui miglioramenti che influiscono sulle liquidazioni di saldi contabili e sulla chiusura di fine anno della contabilità generale.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: acfbcf1467363262769884063efbc1a6d6e21eb1
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075573"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462354"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Riconoscimento tra liquidazione saldi contabili e chiusura di fine anno
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 In Microsoft Dynamics 365 Finance versione 10.0.25, la funzionalità **Riconoscimento tra liquidazione saldi contabili e chiusura di fine anno** è disponibile nell'area di lavoro **Gestione funzionalità**. Questa funzionalità aggiunge due miglioramenti principali che influiscono sulla liquidazione dei saldi contabili e sulla chiusura di fine anno della contabilità generale.
 

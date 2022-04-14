@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1593206e8e22aed518ebca9bee0772c6620bec9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
+ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068794"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8464939"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Visualizzare e aggiornare i dati entità con Excel 
 
@@ -48,7 +48,7 @@ Per ulteriori informazioni sull'utilizzo del componente aggiuntivo di Excel, gua
 2. Selezionare l'opzione **Apri in Excel** e aprire la cartella di lavoro generata. Questa cartella di lavoro contiene dati vincolanti per l'entità, un puntatore all'ambiente in uso e un puntatore al componente aggiuntivo di Excel.
 3. In Excel selezionare **Abilita modifica** per attivare il componente aggiuntivo di Excel da eseguire. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4. Se si esegue per la prima volta il componente aggiuntivo di Excel, selezionare **Considera attendibile questo componente aggiuntivo**.
-5. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso all'app per finanza e operazioni. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente dal browser e consentirà l'acceso automatico, se possibile. Per informazioni sul browser utilizzato in base al sistema operativo, vedere [Browser utilizzati dai componenti aggiuntivi di Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.) Per assicurarti che l'accesso sia riuscito, verifica il nome utente nell'angolo in alto a destra del componente aggiuntivo di Excel. 
+5. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso all'app per finanza e operazioni. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente dal browser e consentirà l'acceso automatico, se possibile. Per informazioni sul browser utilizzato in base al sistema operativo, vedere [Browser utilizzati dai componenti aggiuntivi di Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Per assicurarti che l'accesso sia riuscito, verifica il nome utente nell'angolo in alto a destra del componente aggiuntivo di Excel. 
 
 Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità selezionata. Tenere presente che non saranno disponibili dati nella cartella di lavoro finché il componente aggiuntivo di Excel la leggerà.
 

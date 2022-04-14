@@ -1,7 +1,7 @@
 ---
 title: Analisi di adeguatezza dell'ottimizzazione di pianificazione
 description: Questo argomento spiega come verificare la configurazione e i dati correnti rispetto alle funzionalità della funzionalità di ottimizzazione di pianificazione.
-author: ChristianRytt
+author: t-benebo
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 440cddca11df8d705757c6f6adf01e08626c5158
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: dccc955492d33e9e0156f2a5feb6b33387d80af3
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408017"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487644"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
@@ -84,7 +84,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Produzione | Righe DBA/formula con consumo risorse: _\#_ | Questa funzione è in sospeso. Attualmente, le DBA e righe formula con consumo di risorse sono ignorate quando è abilitata l'ottimizzazione della pianificazione. Quando questa funzionalità è supportata, il fabbisogno di materiale verrà impostato sulla data di inizio della produzione. Fino a quando questa funzionalità non sarà supportata, i requisiti non verranno generati per i materiali contrassegnati con un flag di consumo di risorse. | 2022 ottobre |
 | Produzione | Righe DBA/formula con consumo per fasi: _\#_ | Questa funzione è in sospeso. Attualmente, le DBA e righe formula con consumo per fasi sono ignorate quando è abilitata l'ottimizzazione della pianificazione. | 2022 ottobre |
 | Produzione | DBA con scarto costante o variabile definito: _\#_ | Questa funzione è in sospeso. Attualmente, gli scarti costanti e gli scarti variabili definiti in DBA vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. | 2022 ottobre |
-| Produzione | DBA con conto lavoro: _\#_ | Questa funzione è in sospeso. Attualmente, le DBA con conto di lavoro vengono ignorate quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | 2022 aprile |
+| Produzione | DBA con conto lavoro: _\#_ | Questa funzionalità è ora supportata. | Supportata |
 | Produzione | DBA senza un sito: _\#_ | Questa funzionalità è ora supportata. Per ulteriori informazioni, vedi [Pianificazione della produzione](production-planning.md) | Supportata |
 | Produzione | Richiesta con distinta DBA specifica o requisiti di percorso definiti: _\#_ | Questa funzione è in sospeso. Attualmente, i requisiti delle DBA o dei percorsi specifici definiti sulla domanda (come una distinta base secondaria o un ciclo di lavorazione secondario su un ordine cliente) vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. Verrà utilizzata la distinta base o il ciclo di lavorazione standard, indipendentemente da questa impostazione. | 2022 ottobre |
 | Produzione | Versioni formula con sotto/co-prodotti: _\#_ | Questa funzione è in sospeso. Attualmente, i coprodotti e i sottoprodotti associati alla versione della formula vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. | 2022 ottobre |

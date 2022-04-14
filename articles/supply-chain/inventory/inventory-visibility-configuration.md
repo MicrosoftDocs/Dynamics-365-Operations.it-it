@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8ba478fef424a6c4688191ed4e5375bbce52de0c
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
+ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061003"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8524523"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Visibilità inventario
 
@@ -39,22 +39,25 @@ Prima di iniziare a lavorare con la Visibilità dell'inventario, è necessario c
 
 Prima di iniziare, installare e configurare il componente aggiuntivo Visibilità inventario come descritto in [Installare e configurare Visibilità inventario](inventory-visibility-setup.md).
 
-## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Abilitare le funzionalità Visibilità inventario nella gestione delle funzionalità di Power Apps
-
-Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzionalità all'installazione di Power Apps. Per impostazione predefinita, queste funzioni sono disattivate. Per utilizzarle, aprire la pagina **configurazione** in Power Apps, e quindi, nella scheda **Gestione funzionalità**, attivare le seguenti funzionalità.
-
-- *OnHandReservation*
-- *OnHandMostSpecificBackgroundService*
-
-## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Trovare l'endpoint del servizio
-
-Se non conosci l'endpoint corretto del servizio Visibilità inventario, apri la pagina di **configurazione** in Power Apps e poi seleziona **Mostra endpoint del servizio** nell'angolo in alto a destra. La pagina mostrerà l'endpoint di servizio corretto.
-
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Pagina Configurazione dell'app Visibilità inventario
 
 In Power Apps, la pagina **Configurazione** dell'[app Visibilità inventario](inventory-visibility-power-platform.md) aiuta a impostare la configurazione delle scorte disponibili e la configurazione delle prenotazioni preliminari. Dopo l'installazione dell'add-in, la configurazione predefinita include il valore di Microsoft Dynamics 365 Supply Chain Management (l'origine dati `fno` ). È possibile rivedere le impostazioni predefinite. Inoltre, in base alle esigenze aziendali e ai requisiti di registrazione dell'inventario del sistema esterno, è possibile modificare la configurazione per standardizzare il modo in cui le modifiche all'inventario possono essere registrate, organizzate e interrogate su più sistemi. Le restanti sezioni di questo argomento spiegano come utilizzare ogni parte della pagina **Configurazione**.
 
 Dopo che la configurazione è stata completata, assicurarsi di selezionare **Aggiorna configurazione** nell'app.
+
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Abilitare le funzionalità Visibilità inventario nella gestione delle funzionalità di Power Apps
+
+Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzionalità all'installazione di Power Apps. Per impostazione predefinita, queste funzioni sono disattivate. Per utilizzarle, apri la pagina **configurazione** e quindi, nella scheda **Gestione funzionalità**, attiva le seguenti funzionalità secondo le necessità.
+
+| Nome Gestione funzionalità | Description |
+|---|---|
+| OnHandReservation | Questa funzione ti consente di creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità inventario. Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md). |
+| OnHandMostSpecificBackgroundService | Questa funzionalità fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. Per ulteriori informazioni, vedere [Riepilogo inventario](inventory-visibility-power-platform.md#inventory-summary). |
+| OnhandChangeSchedule | La funzione abilita la programmazione delle modifiche scorte disponibili e le funzionalità ATP (facoltativa). Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md). |
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Trovare l'endpoint del servizio
+
+Se non conosci l'endpoint corretto del servizio Visibilità inventario, apri la pagina di **configurazione** in Power Apps e poi seleziona **Mostra endpoint del servizio** nell'angolo in alto a destra. La pagina mostrerà l'endpoint di servizio corretto.
 
 ## <a name="data-source-configuration"></a>Configurazione dell'origine dati
 
@@ -178,15 +181,21 @@ Per configurare una misura calcolata personalizzata, effettuare le seguenti oper
 
 1. Accedi al tuo ambiente Power Apps e apri **Visibilità inventario**.
 1. Aprire la pagina di **configurazione** .
-1. Nella scheda **Misura calcolata** , seleziona **Nuova misura calcolata** per aggiungere una misura calcolata. Impostare poi i campi come descritto nella tabella seguente.
+1. Nella scheda **Misura calcolata** , seleziona **Nuova misura calcolata** per aggiungere una misura calcolata.
+1. Imposta i seguenti campi per la nuova misura calcolata:
 
-    | Campo | Valore |
-    |---|---|
-    | Nuovo nome della misura calcolata | Inserire il nome della misura calcolata. |
-    | Origine dati | Il sistema di interrogazione è una fonte di dati. |
-    | Fonte di dati del modificatore | Inserisci l'origine dei dati del modificatore. |
-    | Modificatore | Inserisci il nome del modificatore. |
-    | Tipo di modificatore | Seleziona il tipo di modificatore *(Aggiunta* o *Sottrazione*). |
+    - **Nome nuova misura calcolata** – Immetti il nome della misura calcolata.
+    - **Origine dati** – Seleziona l'origine dati associata al nuovo modificatore. Il sistema di interrogazione è una fonte di dati.
+
+1. Seleziona **Aggiungi** per aggiungere un modificatore alla nuova misura calcolata.
+1. Imposta i seguenti campi per il nuovo modificatore:
+
+    - **Modificatore** – Seleziona il tipo di modificatore (*Aggiunta* o *Sottrazione*).
+    - **Origine dati** – Seleziona l'origine dati in cui deve essere trovata la misura che fornisce il valore del modificatore.
+    - **Misura** – Seleziona il nome della misura (dall'origine dati selezionata) che fornisce il valore per il modificatore.
+
+1. Ripeti i passaggi da 5 a 6 finché non hai aggiunto tutti i modificatori richiesti.
+1. Seleziona **Salva**.
 
 Per esempio, è possibile che si riceva il seguente risultato di query.
 
@@ -465,6 +474,10 @@ In questo esempio, è possibile effettuare la prenotazione nelle seguenti sequen
 - `(SiteId, LocationId, ColorId, SizeId, StyleId)`
 
 Una sequenza di dimensioni valida deve seguire rigorosamente la gerarchia delle prenotazioni, dimensione per dimensione. Per esempio, la sequenza gerarchica `(SiteId, LocationId, SizeId)` non è valida, perché manca `ColorId` .
+
+## <a name="available-to-promise-configuration-optional"></a>Configurazione available-to-promise (opzionale)
+
+È possibile impostare la visibilità inventario per pianificare le modifiche future disponibili e calcolare le quantità ATP (available-to-promise). ATP è la quantità di un articolo disponibile e che può essere promessa a un cliente nel prossimo periodo. L'uso di questo calcolo può aumentare notevolmente la capacità di evasione degli ordini. Per utilizzare questa funzione, è necessario abilitarla nella scheda **Gestione funzionalità** e quindi configurarla nella scheda **Impostazione ATP**. Per ulteriori informazioni, vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md).
 
 ## <a name="complete-and-update-the-configuration"></a>Completare e aggiornare la configurazione
 

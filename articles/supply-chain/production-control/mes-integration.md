@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8917c9b265bc3df19517f052e28fb7644057cb46
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 9ec0bedcf1a3a2888a91158ea0353283660d3266
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "8330703"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487583"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Eseguire l'integrazione con sistemi di esecuzione della produzione di terze parti
 
@@ -65,6 +65,8 @@ Prima di poter utilizzare questa funzione, un amministratore deve attivarla nel 
 ## <a name="monitor-incoming-messages"></a>Monitorare i messaggi in arrivo
 
 Per monitorare i messaggi in arrivo al sistema, aprire la pagina **Integrazione dei sistemi di esecuzione della produzione**. Qui puoi visualizzare, elaborare e risolvere i problemi.
+
+Tutti i messaggi per un ordine di produzione specifico vengono elaborati nella sequenza in cui vengono ricevuti. Tuttavia, i messaggi per ordini di produzione diversi potrebbero non essere elaborati nella sequenza ricevuta perché i lavori batch vengono elaborati in parallelo. In caso di errore, il processo batch tenterà di elaborare ciascun messaggio tre volte prima di impostarlo sullo stato *Non riuscito*.
 
 ## <a name="call-the-api"></a>Chiamare l'API
 
@@ -119,28 +121,28 @@ La tabella seguente mostra i campi che ogni riga nella sezione `ReportFinishedLi
 | `ReportedGoodQuantity` | Facoltativo | Real|
 | `ReportedErrorCatchWeightQuantity` | Facoltativo | Real |
 | `ReportedGoodCatchWeightQuantity` | Facoltativo | Real |
-| `AcceptError` | Facoltativo |Booleano |
+| `AcceptError` | Facoltativo | Enum (Sì \| No) |
 | `ErrorCause` | Facoltativo | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
 | `ExecutedDateTime` | Facoltativo | Data/Ora |
 | `ReportAsFinishedDate` | Facoltativo | Data |
 | `AutomaticBOMConsumptionRule` | Facoltativo | Enum (FlushingPrincip \| Always \| Never) |
 | `AutomaticRouteConsumptionRule` | Facoltativo |Enum (RouteDependent \| Always \| Never) |
-| `RespectFlushingPrincipleDuringOverproduction` | Facoltativo | Booleano |
-| `ProductionJournalNameId` | Facoltativo | String |
-| `PickingListProductionJournalNameId` | Facoltativo | String|
-| `RouteCardProductionJournalNameId` | Facoltativo | String |
+| `RespectFlushingPrincipleDuringOverproduction` | Facoltativo | Enum (Sì \| No) |
+| `ProductionJournalNameId` | Facoltativo | Stringa |
+| `PickingListProductionJournalNameId` | Facoltativo | Stringa|
+| `RouteCardProductionJournalNameId` | Facoltativo | Stringa |
 | `FromOperationNumber` | Facoltativo | Numero intero|
 | `ToOperationNumber` | Facoltativo | Numero intero|
-| `InventoryLotId` | Facoltativo | String |
-| `BaseValue` | Facoltativo | String |
-| `EndJob` | Facoltativo | Booleano |
-| `EndPickingList` | Facoltativo | Booleano |
-| `EndRouteCard` | Facoltativo | Booleano |
-| `PostNow` | Facoltativo | Booleano |
-| `AutoUpdate` | Facoltativo | Booleano |
-| `ProductColorId` | Facoltativo | String|
-| `ProductConfigurationId` | Facoltativo | String |
-| `ProductSizeId` | Facoltativo | String |
+| `InventoryLotId` | Facoltativo | Stringa |
+| `BaseValue` | Facoltativo | Stringa |
+| `EndJob` | Facoltativo | Enum (Sì \| No) |
+| `EndPickingList` | Facoltativo | Enum (Sì \| No) |
+| `EndRouteCard` | Facoltativo | Enum (Sì \| No) |
+| `PostNow` | Facoltativo | Enum (Sì \| No) |
+| `AutoUpdate` | Facoltativo | Enum (Sì \| No) |
+| `ProductColorId` | Facoltativo | Stringa|
+| `ProductConfigurationId` | Facoltativo | Stringa |
+| `ProductSizeId` | Facoltativo | Stringa |
 | `ProductStyleId` | Facoltativo | String |
 | `ProductVersionId` | Facoltativo | String |
 | `ItemBatchNumber` | Facoltativo | String |
@@ -180,8 +182,8 @@ La tabella seguente mostra i campi che ogni riga nella sezione `PickingListLines
 | `ConsumptionDate` | Facoltativo | Data |
 | `OperationNumber` | Facoltativo | Numero intero |
 | `LineNumber` | Facoltativo | Real |
-| `PositionNumber` | Facoltativo | String |
-| `IsConsumptionEnded` | Facoltativo | Booleano |
+| `PositionNumber` | Facoltativo | Stringa |
+| `IsConsumptionEnded` | Facoltativo | Enum (Sì \| No) |
 | `ErrorCause` | Facoltativo | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
 | `InventoryLotId` | Facoltativo | Stringa |
 
@@ -217,9 +219,9 @@ La tabella seguente mostra i campi che ogni riga nella sezione `RouteCardLines` 
 | `ConsumptionDate` | Facoltativo | Data |
 | `TaskType` | Facoltativo | Enum (QueueBefore \| Setup \| Process \| Overlap \| Transport \| QueueAfter \| Burden) |
 | `ErrorCause` | Facoltativo | Enum (None \| Material \| Machine \| OperatingStaff), extensible |
-| `OperationCompleted` | Facoltativo | Booleano |
-| `BOMConsumption` | Facoltativo | Booleano |
-| `ReportAsFinished` | Facoltativo | Booleano |
+| `OperationCompleted` | Facoltativo | Enum (Sì \| No) |
+| `BOMConsumption` | Facoltativo | Enum (Sì \| No) |
+| `ReportAsFinished` | Facoltativo | Enum (Sì \| No) |
 
 ### <a name="end-production-order-message"></a>Messaggio Termina ordine di produzione
 
@@ -227,12 +229,16 @@ Per il messaggio *Termina ordine di produzione*, il valore `_messageType` è `Pr
 
 | Nome campo | Status | Tipo |
 |---|---|---|
-| `ProductionOrderNumber` | Obbligatorio | String |
+| `ProductionOrderNumber` | Obbligatorio | Stringa |
 | `ExecutedDateTime` | Facoltativo | Data/Ora |
 | `EndedDate` | Facoltativo | Data |
-| `UseTimeAndAttendanceCost` | Facoltativo | Booleano |
-| `AutoReportAsFinished` | Facoltativo | Booleano |
-| `AutoUpdate` | Facoltativo | Booleano |
+| `UseTimeAndAttendanceCost` | Facoltativo | Enum (Sì \| No) |
+| `AutoReportAsFinished` | Facoltativo | Enum (Sì \| No) |
+| `AutoUpdate` | Facoltativo | Enum (Sì \| No) |
+
+## <a name="other-production-information"></a>Altre informazioni sulla produzione
+
+I messaggi supportano azioni o eventi che si verificano nell'area di produzione. Vengono elaborati utilizzando il framework di integrazione MES descritto in questo argomento. Il progetto presuppone che altre informazioni di riferimento da condividere con il MES, come le informazioni relative al prodotto, o la distinta base o il percorso (con i suoi tempi di impostazione e configurazione specifici) utilizzate in uno specifico ordine di produzione vengano recuperate dal sistema usando le [entità di dati](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#data-entities) tramite trasferimento file oppure OData.
 
 ## <a name="receive-feedback-about-the-state-of-a-message"></a>Ricevere il feedback sullo stato di un messaggio
 

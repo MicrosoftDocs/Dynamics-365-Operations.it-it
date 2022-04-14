@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2f31009424629221a8e4f130b0ec1879c6c6e3d4
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
+ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781965"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8492922"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Esercitazione Regression Suite Automation Tool
 
@@ -43,7 +43,7 @@ Nell'esempio seguente viene illustrato come utilizzare questa funzionalità per 
     5. Nell'elenco contrassegnare la riga selezionata.
     6. Verificare che il valore del campo **Totale disponibile** sia **411,0000000000000000**.
 
-2. Salvare il file di Registrazione attività come **registrazione dello sviluppatore** e collegarlo al caso di test in Azure Devops.
+2. Salva il file di registrazione attività come **registrazione dello sviluppatore** e collegalo al caso di test in Azure DevOps.
 3. Aggiungere il test case al piano di test e caricare il test case in RSAT.
 4. Aprire il file dei parametri di Excel e passare alla scheda **TestCaseSteps**.
 5. Per convalidare se le scorte disponibili saranno sempre superiori a **0**, andare al passaggio **Convalida totale disponibile** e cambiare il valore da **411** a **0**. Modificare il valore del campo **Operatore** da un segno di uguale (**=**) a un segno di maggiore di (**\>**).
@@ -172,6 +172,7 @@ RSAT può essere chiamato da una finestra **Prompt dei comandi** o **PowerShell*
         about
         cls
         download
+        downloadsuite
         edit
         generate
         generatederived
@@ -181,11 +182,13 @@ RSAT può essere chiamato da una finestra **Prompt dei comandi** o **PowerShell*
         list
         listtestplans
         listtestsuite
+        listtestsuitebyid
         listtestsuitenames
         playback
         playbackbyid
         playbackmany
         playbacksuite
+        playbacksuitebyid
         quit
         upload
         uploadrecording
@@ -194,17 +197,17 @@ RSAT può essere chiamato da una finestra **Prompt dei comandi** o **PowerShell*
 
 #### <a name=""></a>?
 
-Mostra le informazioni di aiuto su tutti i comandi disponibili e i relativi parametri.
+Elenca tutti i comandi o mostra la guida per un comando specifico, insieme ai parametri disponibili.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``?``**``[command]``
 
 ##### <a name="-optional-parameters"></a>?: Parametri facoltativi
 
-`command`: dove ``[command]`` è uno dei comandi specificati di seguito.
+`command`: Dove ``[command]`` è uno dei comandi dell'elenco precedente.
 
 #### <a name="about"></a>informazioni su
 
-Visualizza la versione corrente.
+Visualizza la versione del RSAT installato.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``about``**
 
@@ -216,21 +219,57 @@ Cancella il contenuto dello schermo.
 
 #### <a name="download"></a>scarica
 
-Scarica gli allegati per il test case specificato nella directory di output.
-È possibile usare il comando ``list`` per ottenere tutti i test case disponibili. Utilizzare qualsiasi valore della prima colonna come parametro **test_case_id**.
+Scarica gli allegati (file di registrazione, esecuzione e parametri) per il test case specificato da Azure DevOps nella directory di output. Puoi usare il comando ``list`` per ottenere tutti i test case disponibili e utilizzare qualsiasi valore dalla prima colonna come parametro **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``download``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="download-optional-switches"></a>download: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di download attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
 
 ##### <a name="download-required-parameters"></a>download: parametri obbligatori
 
 + `test_case_id`: rappresenta l'ID del test case.
-+ `output_dir`: rappresenta la directory di output. È necessario che la directory sia già presente.
+
+##### <a name="download-optional-parameters"></a>download: parametri facoltativi
+
++ `output_dir`: rappresenta la directory di lavoro di output. È necessario che la directory sia già presente. La directory di lavoro delle impostazioni verrà utilizzata se questo parametro non è specificato.
 
 ##### <a name="download-examples"></a>download: esempi
 
 `download 123 c:\temp\rsat`
 
-`download 765 c:\rsat\last`
+`download /retry=240 765`
+
+#### <a name="downloadsuite"></a>downloadsuite
+
+Scarica gli allegati (file di registrazione, esecuzione e parametri) per tutti i test case nella suite di test specificata da Azure DevOps nella directory di output. Puoi usare il comando ``listtestsuitenames`` per ottenere tutte le suite di test disponibili e utilizzare qualsiasi valore come parametro **test_suite_name**.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``downloadsuite``**``[/retry[=<seconds>]] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="downloadsuite-optional-switches"></a>downloadsuite: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di download attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
++ `/byid`: questa opzione indica che la suite di test desiderata è identificata dall'ID Azure DevOps e non dal nome della suite di test.
+
+##### <a name="downloadsuite-required-parameters"></a>downloadsuite: parametri obbligatori
+
++ `test_suite_name`: rappresenta il nome della suite di test. Questo parametro è obbligatorio se lo è l'opzione /byid **non** è specificata. Questo nome è il nome della suite di test Azure DevOps.
++ `test_suite_id`: rappresenta l'ID della suite di test. Questo parametro è obbligatorio se lo è l'opzione /byid **è** specificata. Questo ID è un ID suite di test Azure DevOps.
+
+##### <a name="downloadsuite-optional-parameters"></a>downloadsuite: parametri facoltativi
+
++ `output_dir`: rappresenta la directory di lavoro di output. È necessario che la directory sia già presente. La directory di lavoro delle impostazioni verrà utilizzata se questo parametro non è specificato.
+
+##### <a name="downloadsuite-examples"></a>downloadsuite: esempi
+
+`downloadsuite NameOfTheSuite c:\temp\rsat`
+
+`downloadsuite /byid 123 c:\temp\rsat`
+
+`downloadsuite /retry=240 /byid 765`
+
+`downloadsuite /retry=240 /byid 765 c:\temp\rsat`
 
 #### <a name="edit"></a>modifica
 
@@ -244,7 +283,7 @@ Permette di aprire il file dei parametri nel programma Excel e di modificarlo.
 
 ##### <a name="edit-examples"></a>modifica: esempi
 
-`edit c:\RSAT\TestCase_123_Base.xlsx`
+`edit c:\RSAT\123\TestCase_123_Base.xlsx`
 
 `edit e:\temp\TestCase_456_Base.xlsx`
 
@@ -252,24 +291,41 @@ Permette di aprire il file dei parametri nel programma Excel e di modificarlo.
 
 Genera i file di esecuzione del test e dei parametri per il test case specificato nella directory di output. È possibile usare il comando ``list`` per ottenere tutti i test case disponibili. Utilizzare qualsiasi valore della prima colonna come parametro **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generate``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] [test_case_id] [output_dir]``
+
+##### <a name="generate-optional-switches"></a>generate: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di generazione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
++ `/dllonly`: Genera solo file di esecuzione del test. Non genera nuovamente il file dei parametri di Excel.
++ `/keepcustomexcel`: aggiorna il file dei parametri esistente. Rigenera anche i file di esecuzione.
 
 ##### <a name="generate-required-parameters"></a>generare: parametri obbligatori
 
 + `test_case_id`: rappresenta l'ID del test case.
-+ `output_dir`: rappresenta la directory di output. È necessario che la directory sia già presente.
+
+##### <a name="generate-optional-parameters"></a>generate: parametri facoltativi
+
++ `output_dir`: rappresenta la directory di lavoro di output. È necessario che la directory sia già presente. La directory di lavoro delle impostazioni verrà utilizzata se questo parametro non è specificato.
 
 ##### <a name="generate-examples"></a>generare: esempi
 
 `generate 123 c:\temp\rsat`
 
-`generate 765 c:\rsat\last`
+`generate /retry=240 765 c:\rsat\last`
+
+`generate /retry=240 /dllonly 765`
+
+`generate /retry=240 /keepcustomexcel 765`
 
 #### <a name="generatederived"></a>generatederived
 
-Genera un nuovo test case, derivato dal test case fornito. È possibile usare il comando ``list`` per ottenere tutti i test case disponibili. Utilizzare qualsiasi valore della prima colonna come parametro **test_case_id**.
+Genera un nuovo test case derivato (test case figlio) dal test case fornito. Il nuovo test case viene anche aggiunto alla suite di test specificata. Puoi usare il comando ``list`` per ottenere tutti i test case disponibili e utilizzare qualsiasi valore dalla prima colonna come parametro **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[parent_test_case_id] [test_plan_id] [test_suite_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatederived``**``[/retry[=<seconds>]] [parent_test_case_id] [test_plan_id] [test_suite_id]``
+
+##### <a name="generatederived-optional-switches"></a>generatederived: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di generazione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
 
 ##### <a name="generatederived-required-parameters"></a>generatederived: parametri obbligatori
 
@@ -281,39 +337,63 @@ Genera un nuovo test case, derivato dal test case fornito. È possibile usare il
 
 `generatederived 123 8901 678`
 
+`generatederived /retry 123 8901 678`
+
 #### <a name="generatetestonly"></a>generatetestonly
 
-Genera solo il file di esecuzione del test per il test case specificato nella directory di output. È possibile usare il comando ``list`` per ottenere tutti i test case disponibili. Utilizzare qualsiasi valore della prima colonna come parametro **test_case_id**.
+Genera solo i file di esecuzione del test per il test case specificato. Non genera il file dei parametri di Excel. I file vengono generati nella directory di output specificata. Puoi usare il comando ``list`` per ottenere tutti i test case disponibili e utilizzare qualsiasi valore dalla prima colonna come parametro **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[test_case_id] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestonly``**``[/retry[=<seconds>]] [test_case_id] [output_dir]``
+
+##### <a name="generatetestonly-optional-switches"></a>generatetestonly: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di generazione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
 
 ##### <a name="generatetestonly-required-parameters"></a>generatetestonly: parametri obbligatori
 
 + `test_case_id`: rappresenta l'ID del test case.
-+ `output_dir`: rappresenta la directory di output. È necessario che la directory sia già presente.
+
+##### <a name="generatetestonly-optional-parameters"></a>generatetestonly: parametri facoltativi
+
++ `output_dir`: rappresenta la directory di lavoro di output. È necessario che la directory sia già presente. La directory di lavoro delle impostazioni verrà utilizzata se questo parametro non è specificato.
 
 ##### <a name="generatetestonly-examples"></a>generatetestonly: esempi
 
 `generatetestonly 123 c:\temp\rsat`
 
-`generatetestonly 765 c:\rsat\last`
+`generatetestonly /retry=240 765`
 
 #### <a name="generatetestsuite"></a>generatetestsuite
 
-Genera tutti i test case per la suite specificata nella directory di output. È possibile usare il comando ``listtestsuitenames`` per ottenere tutte le suite di test disponibili. Utilizzare qualsiasi valore della colonna come parametro **test_suite_name**.
+Genera i file di automazione del test per tutti i test case nella suite di test specificata. Puoi usare il comando ``listtestsuitenames`` per ottenere tutte le suite di test disponibili e utilizzare qualsiasi valore come parametro **test_suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[test_suite_name] [output_dir]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``generatetestsuite``**``[/retry[=<seconds>]] [/dllonly] [/keepcustomexcel] ([test_suite_name] | [/byid] [test_suite_id]) [output_dir]``
+
+##### <a name="generatetestsuite-optional-switches"></a>generatetestsuite: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di generazione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
++ `/dllonly`: Genera solo file di esecuzione del test. Non genera nuovamente il file dei parametri di Excel.
++ `/keepcustomexcel`: aggiorna il file dei parametri esistente. Rigenera anche i file di esecuzione.
++ `/byid`: questa opzione indica che la suite di test desiderata è identificata dall'ID Azure DevOps e non dal nome della suite di test.
 
 ##### <a name="generatetestsuite-required-parameters"></a>generatetestsuite: parametri obbligatori
 
-+ `test_suite_name`: rappresenta il nome della suite di test.
-+ `output_dir`: rappresenta la directory di output. È necessario che la directory sia già presente.
++ `test_suite_name`: rappresenta il nome della suite di test. Questo parametro è obbligatorio se lo è l'opzione /byid **non** è specificata. Questo nome è il nome della suite di test Azure DevOps.
++ `test_suite_id`: rappresenta l'ID della suite di test. Questo parametro è obbligatorio se lo è l'opzione /byid **è** specificata. Questo ID è un ID suite di test Azure DevOps.
+
+##### <a name="generatetestsuite-optional-parameters"></a>generatetestsuite: parametri facoltativi
+
++ `output_dir`: rappresenta la directory di lavoro di output. È necessario che la directory sia già presente. La directory di lavoro delle impostazioni verrà utilizzata se questo parametro non è specificato.
 
 ##### <a name="generatetestsuite-examples"></a>generatetestsuite: esempi
 
 `generatetestsuite Tests c:\temp\rsat`
 
-`generatetestsuite Purchase c:\rsat\last`
+`generatetestsuite /retry Purchase c:\rsat\last`
+
+`generatetestsuite /dllonly /byid 121`
+
+`generatetestsuite /keepcustomexcel /byid 121`
 
 #### <a name="help"></a>guida
 
@@ -321,7 +401,7 @@ Identico a [?](#section) comandi.
 
 #### <a name="list"></a>elenco
 
-Elenca tutti i test case disponibili.
+Elenca tutti i test case disponibili nel piano di test corrente.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``list``**
 
@@ -333,13 +413,13 @@ Elenca tutti i piani di test disponibili.
 
 #### <a name="listtestsuite"></a>listtestsuite
 
-Elenca i test case per la suite di test specificata. È possibile usare il comando ``listtestsuitenames`` per ottenere tutte le suite di test disponibili. Utilizzare qualsiasi valore della prima colonna come parametro **suite_name**.
+Elenca i test case per la suite di test specificata. Puoi usare il comando ``listtestsuitenames`` per ottenere tutte le suite di test disponibili e utilizzare qualsiasi valore dell'elenco come parametro **suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuite``**``[test_suite_name]``
 
 ##### <a name="listtestsuite-required-parameters"></a>listtestsuite: parametri obbligatori
 
-+ `suite_name`: nome della suite desiderata.
++ `test_suite_name`: il nome della suite desiderata.
 
 ##### <a name="listtestsuite-examples"></a>listtestsuite: esempi
 
@@ -347,39 +427,67 @@ Elenca i test case per la suite di test specificata. È possibile usare il coman
 
 `listtestsuite NameOfTheSuite`
 
+#### <a name="listtestsuitebyid"></a>listtestsuitebyid
+
+Elenca i test case per la suite di test specificata.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitebyid``**``[test_suite_id]``
+
+##### <a name="listtestsuitebyid-required-parameters"></a>listtestsuitebyid: parametri obbligatori
+
++ `test_suite_id`: l'ID della suite desiderata.
+
+##### <a name="listtestsuitebyid-examples"></a>listtestsuitebyid: esempi
+
+`listtestsuitebyid 12345`
+
 #### <a name="listtestsuitenames"></a>listtestsuitenames
 
-Elenca tutte le suite di test disponibili.
+Elenca tutte le suite di test disponibili nel piano di test corrente.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``listtestsuitenames``**
 
 #### <a name="playback"></a>playback
 
-Riproduce un test case utilizzando un file Excel.
+Riproduce il test case associato al file dei parametri Excel specificato. Questo comando utilizza i file di automazione locali esistenti e non scarica i file da Azure DevOps. Questo comando non è supportato per i test case del commercio POS.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[excel_file]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playback``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file]``
+
+##### <a name="playback-optional-switches"></a>playback: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di riproduzione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
++ `/comments[="comment"]`: Fornisci una stringa di informazioni personalizzata che verrà inclusa nel campo **Commenti** nelle pagine di riepilogo e risultati del test per le esecuzioni di test case di Azure DevOps.
 
 ##### <a name="playback-required-parameters"></a>playback: parametri obbligatori
 
-+ `excel_file`: percorso completo del file di Excel. Il file deve essere già presente.
++ `excel_parameter_file`: il percorso completo di un file di parametri di Excel. Il file deve essere già presente.
 
 ##### <a name="playback-examples"></a>playback: esempi
 
-`playback c:\RSAT\TestCaseParameters\sample1.xlsx`
+`playback c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playback e:\temp\test.xlsx`
+`playback /retry e:\temp\test.xlsx`
+
+`playback /retry=300 e:\temp\test.xlsx`
+
+`playback /comments="Payroll solution 10.0.0" e:\temp\test.xlsx`
 
 #### <a name="playbackbyid"></a>playbackbyid
 
-Riproduce più test case contemporaneamente. È possibile usare il comando ``list`` per ottenere tutti i test case disponibili. Utilizzare qualsiasi valore della prima colonna come parametro **test_case_id**.
+Riproduce più test case contemporaneamente. I test case sono identificati dall'ID. Questo comando scaricherà i file da Azure DevOps. Puoi usare il comando ``list`` per ottenere tutti i test case disponibili e utilizzare uno qualsiasi dei valori dalla prima colonna come parametro **test_case_id**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[test_case_id1] [test_case_id2] ... [test_case_idN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackbyid``**``[/retry[=<seconds>]] [/comments[="comment"]] [test_case_id1] [test_case_id2] ... [test_case_idN]``
+
+##### <a name="playbackbyid-optional-switches"></a>playbackbyid: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di riproduzione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
++ `/comments[="comment"]`: Fornisci una stringa di informazioni personalizzata che verrà inclusa nel campo **Commenti** nelle pagine di riepilogo e risultati del test per le esecuzioni di test case di Azure DevOps.
 
 ##### <a name="playbackbyid-required-parameters"></a>playbackbyid: parametri obbligatori
 
-+ `test_case_id1`: ID del test case esistente.
-+ `test_case_id2`: ID del test case esistente.
-+ `test_case_idN`: ID del test case esistente.
++ `test_case_id1`: l'ID del test case esistente.
++ `test_case_id2`: l'ID del test case esistente.
++ `test_case_idN`: l'ID del test case esistente.
 
 ##### <a name="playbackbyid-examples"></a>playbackbyid: esempi
 
@@ -387,75 +495,132 @@ Riproduce più test case contemporaneamente. È possibile usare il comando ``lis
 
 `playbackbyid 2345 667 135`
 
+`playbackbyid /comments="Payroll solution 10.0.0" 2345 667 135`
+
+`playbackbyid /retry /comments="Payroll solution 10.0.0" 2345 667 135`
+
 #### <a name="playbackmany"></a>playbackmany
 
-Riproduce molti test case contemporaneamente, utilizzando i file di Excel.
+Riproduce più test case contemporaneamente. I test case sono identificati dai file dei parametri di Excel. Questo comando utilizza i file di automazione locali esistenti e non scarica i file da Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[excel_file1] [excel_file2] ... [excel_fileN]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbackmany``**``[/retry[=<seconds>]] [/comments[="comment"]] [excel_parameter_file1] [excel_parameter_file2] ... [excel_parameter_fileN]``
+
+##### <a name="playbackmany-optional-switches"></a>playbackmany: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di riproduzione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
++ `/comments[="comment"]`: Fornisci una stringa di informazioni personalizzata che verrà inclusa nel campo **Commenti** nelle pagine di riepilogo e risultati del test per le esecuzioni di test case di Azure DevOps.
 
 ##### <a name="playbackmany-required-parameters"></a>playbackmany: parametri obbligatori
 
-+ `excel_file1`: percorso completo del file di Excel. Il file deve essere già presente.
-+ `excel_file2`: percorso completo del file di Excel. Il file deve essere già presente.
-+ `excel_fileN`: percorso completo del file di Excel. Il file deve essere già presente.
++ `excel_parameter_file1`: il percorso completo di un file di parametri di Excel. Il file deve essere già presente.
++ `excel_parameter_file2`: il percorso completo di un file di parametri di Excel. Il file deve essere già presente.
++ `excel_parameter_fileN`: il percorso completo di un file di parametri di Excel. Il file deve essere già presente.
 
 ##### <a name="playbackmany-examples"></a>playbackmany: esempi
 
-`playbackmany c:\RSAT\TestCaseParameters\param1.xlsx`
+`playbackmany c:\RSAT\2745\attachments\Create_Purchase_Order_2745_Base.xlsx`
 
-`playbackmany e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
+`playbackmany e:\temp\test.xlsx f:\RSAT\sample1.xlsx c:\RSAT\sample2.xlsx`
+
+`playbackmany /retry=180 /comments="Payroll solution 10.0.0" e:\temp\test.xlsx f:\rsat\sample1.xlsx c:\RSAT\sample2.xlsx`
 
 #### <a name="playbacksuite"></a>playbacksuite
 
-Riproduce tutti i test case dalla suite di test specificata.
-È possibile usare il comando ``listtestsuitenames`` per ottenere tutte le suite di test disponibili. Utilizzare qualsiasi valore della prima colonna come parametro **suite_name**.
+Riproduce tutti i test case da una o più suite di test specificate. Se viene specificata l'opzione /local, gli allegati locali verranno utilizzati per la riproduzione. In caso contrario, gli allegati verranno scaricati da Azure DevOps. Puoi usare il comando ``listtestsuitenames`` per ottenere tutte le suite di test disponibili e utilizzare qualsiasi valore della prima colonna come parametro **suite_name**.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[suite_name]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuite``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] ([test_suite_name1] .. [test_suite_nameN] | [/byid] [test_suite_id1] .. [test_suite_idN])``
+
+##### <a name="playbacksuite-optional-switches"></a>playbacksuite: opzioni facoltative
+
++ `/updatedriver`: se viene specificata questa opzione, il webdriver del browser Internet verrà aggiornato come richiesto prima dell'esecuzione del processo di riproduzione.
++ `/local`: questa opzione indica che gli allegati locali devono essere utilizzati per la riproduzione invece di scaricare i file da Azure DevOps.
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di riproduzione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
++ `/comments[="comment"]`: Fornisci una stringa di informazioni personalizzata che verrà inclusa nel campo **Commenti** nelle pagine di riepilogo e risultati del test per le esecuzioni di test case di Azure DevOps.
++ `/byid`: questa opzione indica che la suite di test desiderata è identificata dall'ID Azure DevOps e non dal nome della suite di test.
 
 ##### <a name="playbacksuite-required-parameters"></a>playbacksuite: parametri obbligatori
 
-+ `suite_name`: nome della suite desiderata.
++ `test_suite_name1`: rappresenta il nome della suite di test. Questo parametro è obbligatorio se lo è l'opzione /byid **non** è specificata. Questo nome è il nome della suite di test Azure DevOps.
++ `test_suite_nameN`: rappresenta il nome della suite di test. Questo parametro è obbligatorio se lo è l'opzione /byid **non** è specificata. Questo nome è il nome della suite di test Azure DevOps.
++ `test_suite_id1`: rappresenta l'ID della suite di test. Questo parametro è obbligatorio se lo è l'opzione /byid **è** specificata. Questo ID è l'ID suite di test Azure DevOps.
++ `test_suite_idN`: rappresenta l'ID della suite di test. Questo parametro è obbligatorio se lo è l'opzione /byid **è** specificata. Questo ID è l'ID suite di test Azure DevOps.
 
 ##### <a name="playbacksuite-examples"></a>playbacksuite: esempi
 
 `playbacksuite suiteName`
 
-`playbacksuite sample_suite`
+`playbacksuite suiteName suiteNameToo`
+
+`playbacksuite /updatedriver /local /retry=180 /byid 151 156`
+
+`playbacksuite /updatedriver /local /comments="Payroll solution 10.0.0" /byid 150`
+
+#### <a name="playbacksuitebyid"></a>playbacksuitebyid
+
+Esegue tutti i test case nella suite di test Azure DevOps specificata.
+
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``playbacksuitebyid``**``[/updatedriver] [/local] [/retry[=<seconds>]] [/comments[="comment"]] [test_suite_id]``
+
+##### <a name="playbacksuitebyid-optional-switches"></a>playbacksuitebyid: opzioni facoltative
+
++ `/retry[=seconds]`: se viene specificata questa opzione e i test case vengono bloccati da altre istanze RSAT, il processo di riproduzione attenderà il numero di secondi specificato, quindi proverà ancora una volta. Il valore predefinito per \[seconds\] è 120 secondi. Senza questa opzione, il processo verrà annullato immediatamente se i test case vengono bloccati.
++ `/comments[="comment"]`: Fornisci una stringa di informazioni personalizzata che verrà inclusa nel campo **Commenti** nelle pagine di riepilogo e risultati del test per le esecuzioni di test case di Azure DevOps.
++ `/byid`: questa opzione indica che la suite di test desiderata è identificata dall'ID Azure DevOps e non dal nome della suite di test.
+
+##### <a name="playbacksuitebyid-required-parameters"></a>playbacksuitebyid: parametri obbligatori
+
++ `test_suite_id`: rappresenta l'ID della suite di test così come esiste in Azure DevOps.
+
+##### <a name="playbacksuitebyid-examples"></a>playbacksuitebyid: esempi
+
+`playbacksuitebyid 2900`
+
+`playbacksuitebyid /retry 2099`
+
+`playbacksuitebyid /retry=200 2099`
+
+`playbacksuitebyid /retry=200 /comments="some comment" 2099`
 
 #### <a name="quit"></a>quit
 
-Chiude l'applicazione.
+Chiude l'applicazione. Questo comando è utile solo quando le applicazioni sono in esecuzione in modalità interattiva.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``quit``**
 
+##### <a name="quit-examples"></a>quit: esempi
+
+`quit`
+
 #### <a name="upload"></a>upload
 
-Carica tutti i file appartenenti alla suite di test o ai test case specificati.
+Carica i file allegati (file di registrazione, esecuzione e parametri) che appartengono a una suite di test o test case specificati in Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``[suite_name] [testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``upload``**``([test_suite_name] | [test_case_id1] .. [test_case_idN])``
 
-#### <a name="upload-required-parameters"></a>upload: parametri obbligatori
+##### <a name="upload-required-parameters"></a>upload: parametri obbligatori
 
-+ `suite_name` Tutti i file appartenenti alla suite di test verranno caricati.
-+ `testcase_id`: Tutti i file appartenenti ai test case verranno caricati.
++ `test_suite_name` Tutti i file che appartengono alla suite di test verranno caricati.
++ `test_case_id1`: rappresenta il primo ID test case che deve essere caricato. Utilizza questo parametro solo quando non è stato fornito alcun nome della suite di test.
++ `test_case_idN`: rappresenta l'ultimo ID test case che deve essere caricato. Utilizza questo parametro solo quando non è stato fornito alcun nome della suite di test.
 
 ##### <a name="upload-examples"></a>upload: esempi
 
 `upload sample_suite`
 
-`upload 123`
+`upload 2900`
 
 `upload 123 456`
 
 #### <a name="uploadrecording"></a>uploadrecording
 
-Carica solo il file di registrazione appartenente ai test case specificati.
+Carica solo il file di registrazione che appartiene a uno o più test case specificati in Azure DevOps.
 
-``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[testcase_id]``
+``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``uploadrecording``**``[test_case_id1] .. [test_case_idN]``
 
 ##### <a name="uploadrecording-required-parameters"></a>uploadrecording: parametri obbligatori
 
-+ `testcase_id`: il file di registrazione appartenente ai test case specificati verrà caricato.
++ `test_case_id1`: rappresenta il primo ID test case per la registrazione che deve essere caricato in Azure DevOps.
++ `test_case_idN`: rappresenta l'ultimo ID test case per la registrazione che deve essere caricato in Azure DevOps.
 
 ##### <a name="uploadrecording-examples"></a>uploadrecording: esempi
 
@@ -465,9 +630,21 @@ Carica solo il file di registrazione appartenente ai test case specificati.
 
 #### <a name="usage"></a>usage
 
-Mostra due modi per invocare questa applicazione: uno che utilizza un file di impostazioni predefinito, un altro che fornisce un file di impostazioni.
+Visualizza le tre modalità di utilizzo di questa applicazione.
 
 ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``usage``**
+
+Esecuzione dell'applicazione in modo interattivo:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``
+
+Esecuzione dell'applicazione specificando un comando:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp ``**``[command]``**
+
+Esecuzione dell'applicazione fornendo un file di impostazioni:
+
++ ``Microsoft.Dynamics.RegressionSuite.ConsoleApp``**``/settings [drive:\Path to\file.settings] [command]``**
 
 ### <a name="windows-powershell-examples"></a>Esempi di Windows PowerShell
 

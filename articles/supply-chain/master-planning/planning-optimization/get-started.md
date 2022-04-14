@@ -1,7 +1,7 @@
 ---
 title: Introduzione all'ottimizzazione di pianificazione
 description: Questo argomento illustra come iniziare a utilizzare la funzionalità di ottimizzazione di pianificazione.
-author: ChristianRytt
+author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 8e6328902cec840b98b401fe8dd46c2a6f18cb54
-ms.sourcegitcommit: 88f8a0369ce66b82314db9639491b695e18a7e5c
+ms.openlocfilehash: faaa2aa921457a3d26c2a921a856a61296192a04
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902561"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469815"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione della pianificazione
 
@@ -58,7 +58,7 @@ Prima di installare il componente aggiuntivo Ottimizzazione pianificazione, è n
 
 - È necessario avere Supply Chain Management in esecuzione su un ambiente ad alta disponibilità abilitato per LCS, di livello 2 o maggiore (non un ambiente OneBox), con Dynamics 365 Supply Chain Management versione 10.0.7 o successiva. Se si tenta di installare il componente aggiuntivo in un ambiente OneBox, l'installazione non verrà completata e sarà necessario annullare l'installazione.
 
-- Il tuo sistema deve essere configurato per l'integrazione con Power Platform. Per ulteriori informazioni, vedere [Integrazione di Microsoft Power Platform con le app Finance and Operations](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
+- Il tuo sistema deve essere configurato per l'integrazione con Power Platform. Per ulteriori informazioni, vedi [Integrazione di Microsoft Power Platform con le app per la finanza e le operazioni](../../../fin-ops-core/dev-itpro/power-platform/overview.md).
 
 ### <a name="enable-the-planning-optimization-license"></a>Abilitare la licenza di Ottimizzazione pianificazione
 

@@ -2,7 +2,7 @@
 title: Addebiti automatici avanzati omnicanale
 description: In questo argomento vengono descritte le funzionalità per la gestione di altre spese ordine relative agli ordini dei canali di commercio utilizzando funzionalità di addebiti automatici avanzati.
 author: hhaines
-ms.date: 03/30/2020
+ms.date: 03/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69432e13424b08b75e8ce7c88eaf6be66db59e65
+ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743433"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "8489620"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Addebiti automatici avanzati omnicanale
 
@@ -187,6 +187,9 @@ Se i codici motivo sono stati acquisiti per le spese sovrascritte, un nuovo repo
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Rimborso delle spese in una transazione di reso POS
 
 Se il parametro **Utilizza addebiti automatici avanzati** è impostato su **Sì**, il parametro di commercio esistente per **Rimborso spese di spedizione** non è più applicabile. Per indicare quali spese devono essere rimborsate in modo sistematico a un cliente quando si utilizzano gli addebiti automatici avanzati, assicurarsi che il codice spese correlato sia stato configurato come **Rimborsabile** nella pagina **Codice spese**. Verificare che le impostazioni siano state sincronizzate ai database dei canali di commercio mediante l'elaborazione della programmazione della distribuzione.
+
+> [!TIP]
+> Per indicazioni che ti aiuteranno a garantire che gli addebiti rimborsabili a livello di riga siano calcolati in base alla quantità restituita, vedi [Le spese rimborsabili non sono calcolate in base alla quantità restituita](/troubleshoot/Refund-charges-miscalculated-for-partial-quantity-returned.md).
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Rimborso delle spese in una transazione ordine di reso
 

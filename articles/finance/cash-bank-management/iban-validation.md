@@ -1,23 +1,23 @@
 ---
 title: Gestire la convalida del conto IBAN (International Bank Account Number)
 description: Questo argomento spiega come gestire la convalida del conto IBAN (International Bank Account Number).
-author: roschlom
+author: twheeloc
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 210d2f57e21ec5ac38ba8ca07195e40ff507e2b9
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 89d6c38088e43f0f24fa41accecaa262a64006cf
+ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860821"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8462766"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Gestire la convalida del conto IBAN (International Bank Account Number)
 
@@ -25,13 +25,13 @@ ms.locfileid: "7860821"
 
 La convalida IBAN (International Bank Account Number) aumenta la convalida che viene effettuata quando si aggiunge un IBAN a un conto bancario.
 
-Le informazioni sulla struttura dell'IBAN vengono archiviate in Microsoft Dynamics 365 Finance. Quelle informazioni vengono caricate automaticamente durante la prima utilizzo dell'IBAN sui conti bancari. Contengono la lunghezza IBAN, le posizioni iniziali del numero di conto bancario e il numero di registrazione e la lunghezza del numero e del numero di registrazione del conto bancario.
+Le informazioni sulla struttura dell'IBAN sono archiviate in Microsoft Dynamics 365 Finance e vengono caricate automaticamente al primo utilizzo dell'IBAN sui conti bancari. Contengono la lunghezza IBAN, le posizioni iniziali del numero di conto bancario e il numero di registrazione e la lunghezza del numero e del numero di registrazione del conto bancario.
 
 ## <a name="set-up-iban-structures"></a>Impostare le strutture IBAN
 
 1. Passare a **Gestione cassa e banche \> Impostazioni \> Strutture IBAN**.
 2. Si noti che le strutture IBAN per ogni paese o area sono state impostate automaticamente.
-3. Se si desidera personalizzare le strutture per un paese o un'area geografica specifica, è possibile modificarle.
+3. Seleziona il pulsante **Modifica** se la struttura deve essere aggiornata per un paese o un'area geografica specifici.
 4. Le definizioni delle strutture saranno parte di ogni nuova versione. È possibile utilizzare il menu **Reimposta strutture** per caricare le definizioni più recenti dopo ogni aggiornamento.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Convalidare la struttura IBAN in un conto bancario

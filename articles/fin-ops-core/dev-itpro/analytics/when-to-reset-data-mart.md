@@ -2,7 +2,7 @@
 title: Domande frequenti sul ripristino dei data mart
 description: In questo argomento vengono fornite risposte ad alcune domande frequenti sul ripristino dei data mart.
 author: jinniew
-ms.date: 02/14/2022
+ms.date: 03/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 53f45f469c39f9e389763aa0daed658e5a62d377
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: ab6417a739e9a7b67b9e67d93f3bef654e55e5e4
+ms.sourcegitcommit: 2c2ef3e312e7221006a9e230c9378bb4c1b4cd33
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119514"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "8466413"
 ---
 # <a name="data-mart-resets-faq"></a>Domande frequenti sul ripristino dei data mart
 
@@ -47,10 +47,14 @@ Se una o più delle seguenti affermazioni si applicano alla tua situazione, la t
 Ecco alcune circostanze in cui non è consigliabile reimpostare un data mart:
 
 - Stai riscontrando problemi di prestazioni di integrazione dei dati.
+- L'integrazione di Financial Reporter non è abilitata. 
+
+    - Ciò significa che i dati di contabilità generale non vengono più sincronizzati con il datamart di Financial Reporting. Il tuo Financial Reporter potrebbe non ricevere numeri aggiornati per i tuoi report finanziari. Ciò si verifica in genere se non si utilizza Financial Reporter per molto tempo.
+    - Verrà richiesto di abilitare l'integrazione reimpostando il data mart. Puoi procedere selezionando **sì**. Puoi anche scegliere di ripristinare il data mart in un secondo momento. Dopo aver abilitato l'integrazione, i dati della contabilità generale vengono nuovamente sincronizzati in Financial Reporter. 
 - Se hai uno schema di ripristino ricorrente per uno dei seguenti motivi:
 
     - **Dati mancanti o imprevisti nel report** – Se noti che mancano dei dati, apri un ticket di supporto con Microsoft per rivedere il formato del report e i possibili problemi di sincronizzazione dei dati.
-    - **Stato di integrazione bloccato**
+    - **Stato di integrazione bloccato** - Se noti che lo stato di integrazione è bloccato in esecuzione, ciò potrebbe essere dovuto a un volume elevato di transazioni nel sistema. Questo stato si risolverà da solo. Tuttavia, se noti che lo stato di integrazione è bloccato per più di quattro ore, apri un ticket di supporto con Microsoft. 
    
 ## <a name="if-i-reset-the-data-mart-will-i-lose-reports-that-ive-already-designed"></a>Se reimposto il data mart, perderò i report che ho già progettato?
 

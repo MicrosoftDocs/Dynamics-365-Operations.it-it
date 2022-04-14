@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e9edd384cf8cc1373481fd47c040cdaeae7d050d2cdba5e0a9afb7c1d361362
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 666ecc5b4e0df9ed518e8e9dabc1babd442508bc
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759115"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487615"
 ---
 # <a name="configure-address-books"></a>Configurare le rubriche
 
@@ -26,7 +26,7 @@ ms.locfileid: "6759115"
 
 Utilizzare questa procedura e le decisioni prese nell'argomento relativo alla pianificazione della configurazione della rubrica globale e delle rubriche aggiuntive per impostare le rubriche aggiuntive per l'organizzazione.
 
-La società di dati dimostrativi utilizzata per creare questa attività è USMF. Questa registrazione è destinata ai membri del team di pianificazione e configurazione.
+La società di dati dimostrativi utilizzata per creare questa attività è USMF.
 
 
 ## <a name="configure-address-books"></a>Configurare le rubriche

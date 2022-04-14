@@ -1,8 +1,8 @@
 ---
-title: Impostare la funzionalità di accesso esteso per MPOS e Cloud POS
-description: Questo argomento illustra le opzioni per l'impostazione dell'accesso esteso per POS cloud e Retail Modern POS (MPOS).
-author: boycezhu
-ms.date: 09/07/2021
+title: Configurare e utilizzare la funzionalità di accesso esteso
+description: In questo argomento viene descritto come configurare e utilizzare la funzionalità di accesso esteso dell'applicazione punto vendita (POS) di Microsoft Dynamics 365 Commerce.
+author: boycez
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,56 +16,52 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
-ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
+ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
+ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7478673"
+ms.lasthandoff: 03/29/2022
+ms.locfileid: "8491441"
 ---
-# <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Impostare la funzionalità di accesso esteso per MPOS e Cloud POS
+# <a name="set-up-and-use-the-extended-logon-capability"></a>Configurare e utilizzare la funzionalità di accesso esteso
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento illustra le opzioni per l'impostazione dell'accesso esteso per POS cloud e Retail Modern POS (MPOS).
+In questo argomento viene descritto come configurare e utilizzare la funzionalità di accesso esteso dell'applicazione punto vendita (POS) di Microsoft Dynamics 365 Commerce.
 
-## <a name="setting-up-extended-logon"></a>Impostazione dell'accesso esteso
+Cloud POS (CPOS) e Modern POS (MPOS) forniscono una funzionalità di accesso esteso che consente agli operatori dei punti vendita al dettaglio di accedere all'applicazione POS scansionando un codice a barre o strisciando una carta utilizzando un lettore di strisce magnetiche (MSR).
 
-Le impostazioni per le maschere dei codici a barre sono disponibili in **Retail e Commerce** &gt; **Impostazione canale** &gt; **Impostazioni POS** &gt; **Profili POS** &gt; **Profili funzionalità**. La scheda Dettaglio **Funzioni** include le seguenti opzioni correlate all'accesso esteso.
+## <a name="set-up-extended-logon"></a>Impostare l'accesso esteso
 
-### <a name="staff-bar-code-logon"></a>Accesso personale con codice a barre
+Per configurare l'accesso esteso per i registri POS in un punto vendita al dettaglio, attieniti alla seguente procedura.
 
-Se l'opzione **Accesso personale con codice a barre** è attivata, i lavoratori con accesso esteso assegnato alle credenziali del POS possono collegarsi mediante un codice a barre.
+1. In Commerce headquarters vai a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Profili POS \> Profili funzionalità**. 
+2. Nel riquadro di spostamento a sinistra, seleziona il profilo di funzionalità associato al punto vendita al dettaglio.
+3. Nella scheda dettaglio **Funzioni** sotto **Opzioni di autenticazione di accesso aggiuntive**, imposta le seguenti opzioni su **sì** o **no** a seconda dei casi:
 
-### <a name="staff-bar-code-logon-requires-password"></a>L'accesso personale con codice a barre richiede la password
+    - **Accesso personale con codice a barre** – Imposta questa opzione su **sì** se vuoi che i tuoi dipendenti accedano al POS scansionando un codice a barre. 
+    - **Accesso personale con codice a barre richiede la password** – Imposta questa opzione su **sì** se vuoi che i tuoi dipendenti accedano al POS scansionando un codice a barre e immettendo una password.
+    - **Accesso personale con badge** – Imposta questa opzione su **sì** se vuoi che i tuoi dipendenti accedano al POS strisciando un badge.
+    - **Accesso personale con badge richiede la password** – Imposta questa opzione su **sì** se vuoi che i tuoi dipendenti accedano al POS strisciando un badge e immettendo una password.
 
-Se l'opzione **L'accesso personale con codice a barre richiede la password** è attivata, l'accesso personale con codice a barre seleziona solo il lavoratore assegnato all'accesso esteso che viene presentato. I lavoratori devono comunque immettere la propria password se questa opzione è abilitata.
+Il codice a barre o la tessera sono associati a credenziali che possono essere assegnate a un lavoratore. Le credenziali devono avere almeno sei caratteri. La stringa che contiene i primi cinque caratteri deve essere univoca ed è considerata l'*ID credenziale* che viene utilizzato per cercare un lavoratore. I caratteri rimanenti vengono utilizzati per la verifica della sicurezza. Ad esempio, hai due tessere, una delle quali ha le credenziali 12345DGYDEYTDW e l'altra ha le credenziali 12345EWUTBDAJH. Poiché queste due tessere hanno la stessa credenziale ID, 12345, non possono essere assegnate entrambe ai lavoratori.
 
-### <a name="staff-card-logon"></a>Accesso personale con badge
-
-Se l'opzione **Accesso personale con badge** è attivata, i lavoratori con accesso esteso assegnato alle credenziali del POS possono collegarsi mediante una banda magnetica.
-
-### <a name="staff-card-logon-requires-password"></a>L'accesso personale con badge richiede la password
-
-Se l'opzione **L'accesso personale con badge richiede la password** è attivata, l'accesso personale con badge seleziona solo il lavoratore assegnato all'accesso esteso che viene presentato. I lavoratori devono comunque immettere la propria password se questa opzione è abilitata.
-
-## <a name="assigning-an-extended-logon"></a>Assegnazione di un accesso esteso
+## <a name="assign-extended-logon"></a>Assegnare l'accesso esteso
 
 Per impostazione predefinita, solo i responsabili possono assegnare l'accesso esteso lavoratori. Per assegnare l'accesso esteso, passare a **Accesso esteso** nel POS. Quindi cercare un lavoratore immettendone l'ID operatore nel campo di ricerca. Selezionare il lavoratore e quindi fare clic su **Assegna**. Nella pagina successiva, passare o leggere con lo scanner l'accesso esteso per assegnarlo al lavoratore. Se il passaggio o la scansione ha esito positivo, il pulsante **OK** diventa disponibile. Fare clic su **OK** per salvare l'accesso esteso per il lavoratore.
 
-## <a name="deleting-an-extended-logon"></a>Eliminazione di un accesso esteso
+## <a name="delete-extended-logon"></a>Eliminare un accesso esteso
 
 Per eliminare l'accesso esteso assegnato a un lavoratore, individuare il lavoratore utilizzando l'operazione **Accesso esteso**. Selezionare il lavoratore e fare clic sulla scheda **Annulla assegnazione**. Tutte le credenziali di accesso esteso associate al lavoratore verranno rimosse.
 
-## <a name="extending-extended-logon"></a>Estensione dell'accesso esteso
+## <a name="use-extended-logon"></a>Utilizzare l'accesso esteso
 
-L'accesso esteso consente solo cinque caratteri significativi per l'identificatore univoco predefinito. Ad esempio, se si configurano due schede con gli ID "1234567" e "1234578", verranno considerate entrambe "12345". È possibile creare un'estensione per supportare più caratteri. Per istruzioni dettagliate, consultare l'argomento [Impostare la funzionalità di accesso esteso per MPOS e Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
+Se l'accesso esteso è configurato e un lavoratore è stato assegnato a un codice a barre o una banda magnetica, il lavoratore dovrà semplicemente passare o eseguire la scansione della scheda durante la visualizzazione della pagina di accesso del POS. Se è necessaria anche una password prima che l'accesso possa continuare, al lavoratore viene richiesto di immettere la relativa password.
 
-Il servizio di accesso può essere esteso per supportare dispositivi di accesso estesi aggiuntivi, ad esempio scanner palmari. Per ulteriori informazioni, vedere la documentazione di POS sull'estendibilità.
+## <a name="extend-extended-logon"></a>Estendere l'accesso esteso
 
-## <a name="using-extended-logon"></a>Utilizzo dell'accesso esteso
+L'implementazione predefinita della funzionalità di accesso esteso richiede che le credenziali abbiano una lunghezza minima di sei caratteri e che i primi cinque caratteri (l'ID credenziale) siano univoci. Inizialmente era inteso come un esempio che gli sviluppatori potevano personalizzare per soddisfare i requisiti di un'implementazione specifica. Ad esempio, può essere personalizzato per supportare più caratteri o utilizzare regole di verifica della sicurezza diverse. Per informazioni dettagliate su come creare estensioni per l'accesso esteso, vedi [Estensione della funzionalità di accesso esteso per MPOS e Cloud POS](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
-Se l'accesso esteso è configurato e un lavoratore è stato assegnato a un codice a barre o una banda magnetica, il lavoratore dovrà semplicemente passare o eseguire la scansione della propria scheda durante la visualizzazione della pagina di accesso del POS. Se è necessaria anche una password prima che l'accesso possa continuare, al lavoratore viene richiesto di immettere la sua password.
-
+Il servizio di accesso può essere esteso anche per supportare dispositivi di accesso estesi aggiuntivi, ad esempio scanner palmari. Per ulteriori informazioni, vedi la [documentazione di POS sull'estendibilità](dev-itpro/pos-extension/pos-extension-overview.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

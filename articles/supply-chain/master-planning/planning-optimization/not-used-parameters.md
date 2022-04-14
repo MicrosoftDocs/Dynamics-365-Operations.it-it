@@ -1,22 +1,22 @@
 ---
 title: Parametri non utilizzati da Ottimizzazione pianificazione
 description: Questo argomento elenca i parametri che Ottimizzazione pianificazione non considera durante il funzionamento.
-author: ChristianRytt
+author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: ReqParameters, ReqGroup, ReqItemTable, ReqPlanSched, EcoResProductDetailsExtended, InventItemOrderSetup, WorkCalendarTable, PdsDispositionMaster
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: crytt
+ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 32e5ceb607d2c4f3d9794421db5382441ac30467
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
+ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8408232"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "8469116"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parametri non utilizzati da Ottimizzazione pianificazione
 
@@ -65,18 +65,6 @@ Ottimizzazione pianificazione non utilizza i seguenti parametri o opzioni nella 
   - **Usa la distinta base o la versione di formula specificata**: in attesa del supporto *Versioni di formula con sotto/co-prodotti*.
   - **Usa la versione di ciclo di lavorazione specificata**: in attesa del supporto *Domanda con distinta base specifica o requisiti di ciclo di lavorazione definiti*.
 
-- Scheda dettaglio **Azione**:
-
-  - **Messaggio di azione**: in attesa del supporto *Azioni*.
-  - **Intervallo temporale azione**: in attesa del supporto *Azioni*.
-  - **Margine di posticipo**: in attesa del supporto *Azioni*.
-  - **Margine di anticipo**: in attesa del supporto *Azioni*.
-  - **Data base**: in attesa del supporto *Azioni*.
-  - **Anticipo**: in attesa del supporto *Azioni*.
-  - **Posticipo**: in attesa del supporto *Azioni*.
-  - **Diminuzione**: in attesa del supporto *Azioni*.
-  - **Aumento**: in attesa del supporto *Azioni*.
-  - **Azioni derivate**: in attesa del supporto *Azioni*.
 
 - Scheda dettaglio **Altro**:
 
@@ -149,7 +137,6 @@ Ottimizzazione pianificazione non utilizza i seguenti parametri o opzioni nella 
   - **Piano previsionale**: in attesa del supporto *Previsione* aggiuntivo.
   - **Capacità**: in attesa del supporto *Programmazione*.
   - **Piano di continuità**: in attesa del supporto *Programmazione continuità*.
-  - **Messaggio di azione**: in attesa del supporto *Azioni*.
   - **Ritardi calcolati**: in attesa del supporto *Ritardi calcolati* aggiuntivo.
   - **Sequenza**: in attesa del supporto *Produzione*.
 

@@ -10,18 +10,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c4731c5f0b0a1553deb53753d82d29a34e5525df
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
+ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8418642"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8487838"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20200"></a>Versione 2.0.20.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Risolti diversi problemi di arresto anomalo.
+- Risolto un problema per cui i valori errati venivano mostrati sulle schede della pagina **Elenco di lavoro**.
+- Migliorata l'esperienza di scorrimento ed eliminato il jitter di scorrimento sulle pagine **Elenco di lavoro** e **Richiesta informazioni su articolo** in Android.
+- Aggiunto un pulsante di uscita alla pagina di accesso, che chiude l'applicazione.
 
 ## <a name="version-20190"></a>Versione 2.0.19.0
 
