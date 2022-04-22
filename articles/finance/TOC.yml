@@ -2,7 +2,7 @@
   items:
     - name: Dynamics 365 Finance
       items:
-        - name: Home page di Dynamics 365 Finance
+        - name: Home page Dynamics 365 Finance
           href: index.md
         - name: Novità o modifiche
           items:
@@ -16,8 +16,6 @@
                   href: get-started/whats-new-changed-10-0-26.md
                 - name: Finance 10.0.25 (aprile)
                   href: get-started/whats-new-changed-10-0-25.md
-                - name: Finance 10.0.24 (febbraio)
-                  href: get-started/whats-new-changed-10-0-24.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -418,14 +416,30 @@
                       href: accounts-receivable/sb-billing-schedules.md
                     - name: Copiare un programma di fatturazione
                       href: accounts-receivable/sb-copy-schedules-items.md
+                    - name: Funzionalità del programma di fatturazione
+                      href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Fatturazione a fasi
                       href: accounts-receivable/sb-milestonebilling.md
+                    - name: Elaborazione supporto e rinnovo
+                      href: accounts-receivable/sb-support-renewals.md
+                    - name: Programmazioni di indicizzazione dei prezzi al consumo
+                      href: accounts-receivable/cpischedules.md
                     - name: Terminare programmi di fatturazione
                       href: accounts-receivable/terminate-billing-schedule.md
                 - name: Differimenti ricavi e spese
-                  items: null
+                  items:
+                    - name: Imposta differimenti ricavi e spese
+                      href: accounts-receivable/sb-deferrals.md
+                    - name: Programmazioni differimento
+                      items:
+                        - name: Creare programmazioni di differimento
+                          href: accounts-receivable/sb-deferrals-schedules.md
+                        - name: Transazioni predefinite di differimento
+                          href: accounts-receivable/sb-deferral-transactions.md
                 - name: Allocazione ricavi con più elementi
-                  items: null
+                  items:
+                    - name: Imposta allocazione ricavi con più elementi
+                      href: accounts-receivable/sb-rev-alloc-setup.md
             - name: Pagamenti e liquidazioni
               items:
                 - name: Panoramica pagamenti cliente
@@ -922,6 +936,8 @@
               items:
                 - name: Definire il piano dei conti
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Definire il piano dei conti locale
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Conti principali
                   items:
                     - name: Tipi di conto principale
@@ -3092,6 +3108,8 @@
                   href: localizations/tasks/mx-00010-cancel-electronic-invoice.md
                 - name: Versione CFDI 3.3
                   href: localizations/latam-mex-cfdi-3-3.md
+                - name: Versione CFDI 4.0
+                  href: localizations/latam-mex-cfdi-4-0.md
                 - name: ID registrazione del cliente e altre informazioni
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
                 - name: Rendiconto dichiarazione DIOT

@@ -1701,13 +1701,15 @@
               items:
                 - name: Panoramica del componente aggiuntivo Visibilità inventario
                   href: inventory/inventory-visibility.md
-                - name: Installare e configurare Visibilità inventario
+                - name: Installare e configurare Inventory Visibility
                   href: inventory/inventory-visibility-setup.md
-                - name: Configurare Visibilità inventario
+                - name: Configurare Inventory Visibility
                   href: inventory/inventory-visibility-configuration.md
-                - name: Utilizzare l'app Visibilità inventario
+                - name: Supporto Inventory Visibility per articoli WHS
+                  href: inventory/inventory-visibility-whs-support.md
+                - name: Utilizzare l'app Inventory Visibility
                   href: inventory/inventory-visibility-power-platform.md
-                - name: Prenotazioni di Visibilità inventario
+                - name: Prenotazioni di Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
                 - name: Programma di modifiche pratiche a Visibilità inventario e modalità ATP (available-to-promise)
                   href: inventory/inventory-visibility-available-to-promise.md
@@ -2927,9 +2929,9 @@
               href: sales-marketing/trade-allowance.md
             - name: Creare un nuovo accordo commerciale
               href: sales-marketing/tasks/create-new-trade-agreement.md
-            - name: Miglioramenti prestazioni di pulizia storico vendite
+            - name: Programmare la pulizia dei dati dello storico vendite
               href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
-        - name: Gestione dei servizi
+        - name: Gestione assistenza
           items:
             - name: Panoramica gestione dei servizi
               href: service-management/service-management-home-page.md
