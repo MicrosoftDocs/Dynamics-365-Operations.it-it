@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 371a8c7178cd7c5091d6dd9a91d0ee03b943a269
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 124fb90ecafd4f4cccbd8a8bb443694c95365732
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103190"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570312"
 ---
 # <a name="sales-update-history-cleanup-job-fails-or-has-performance-issues"></a>Il processo di pulizia della cronologia degli aggiornamenti delle vendite non riesce o presenta problemi di prestazioni
 
@@ -30,5 +30,5 @@ Ciò può verificarsi quando il sistema include un numero elevato di aggiornamen
 
 ## <a name="resolution"></a>Risoluzione
 
-Una nuova versione del processo batch di **pulizia della cronologia degli aggiornamenti delle vendite** è disponibile per Supply Chain Management versione 10.0.19 e successive. Per impostazione predefinita, questa funzionalità è disattivata. Per i dettagli su come funziona e su come abilitarla nella gestione delle funzionalità, vedi [Miglioramenti delle prestazioni di pulizia della cronologia delle vendite](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
+Una nuova versione del processo batch di **pulizia della cronologia degli aggiornamenti delle vendite** è disponibile per Supply Chain Management versione 10.0.19 e successive. Per impostazione predefinita, questa funzionalità è disattivata. Per i dettagli su come funziona e su come abilitarla nella gestione delle funzionalità, vedi [Programmare la pulizia dei dati dello storico vendite](../../sales-marketing/sales-update-history-cleanup-performance-improvements.md).
 

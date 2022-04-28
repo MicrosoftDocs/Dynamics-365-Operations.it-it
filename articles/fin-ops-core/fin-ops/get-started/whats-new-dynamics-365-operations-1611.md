@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0625010143b7df9c3c897bf7f43ef25993303240
-ms.sourcegitcommit: 03fa7556840aa59f825697f6f9edeb58ea673fca
+ms.openlocfilehash: 43a53d5940b2595abb305a08e6f52661bee8ca62
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752810"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548082"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 
@@ -816,7 +816,7 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 | Come fornitore, ottenere le informazioni sull'importo di inventario spedito trasferito al cliente. | Per fatturare a un cliente, il fornitore richiede informazioni sulle materie prime acquistate dall'inventario spedizione e la data di acquisto. Il fornitore può inoltre monitorare le scorte disponibili presso il sito di un cliente utilizzando l'interfaccia di collaborazione fornitore. |
 | Spostare l'inventario di proprietà del fornitore utilizzando un giornale di registrazione trasferimenti. | Per tenere traccia dell'ubicazione fisica dell'inventario di proprietà del fornitore, è necessario poter registrare l'ubicazione nel sistema. Tramite l'utilizzo di un giornale di registrazione trasferimenti, è possibile registrare lo spostamento fisico delle scorte, ad esempio movimenti da un'ubicazione in un magazzino in un'altra ubicazione nel magazzino. |
 | Rettificare l'inventario di proprietà del fornitore utilizzando un giornale di registrazione di conteggio. | È importante mantenere le scorte disponibili nel sistema sincronizzate con l'inventario fisico effettivo. L'inventario di proprietà del fornitore può essere rettificato in entrata e in uscita tramite processi di conteggio quali la correzione della quantità e processi di giornale di registrazione di conteggio. |
-| Scoprire ulteriori informazioni sul supporto di spedizione in Dynamics 365 for Operations | Per ulteriori informazioni sul supporto per i processi di spedizione, vedere [Spedizione](../../../supply-chain/inventory/consignment.md), [Impostazione della spedizione](../../../supply-chain/inventory/set-up-consignment.md), [Creare un ordine di rifornimento spedizione (guida attività)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) e [Modificare la proprietà dell'inventario di spedizione in base alla domanda di produzione (guida attività)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
+| Scoprire ulteriori informazioni sul supporto di spedizione in Dynamics 365 for Operations | Per ulteriori informazioni sul supporto per i processi di spedizione, vedere [Spedizione](../../../supply-chain/inventory/consignment.md), [Impostazione della spedizione](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Creare un ordine di rifornimento spedizione (guida attività)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) e [Modificare la proprietà dell'inventario di spedizione in base alla domanda di produzione (guida attività)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Collaborazione fornitore (in precedenza noto anche come Portale fornitori)
 
@@ -942,7 +942,7 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
+[Home page Novità o modifiche in Finance and Operations](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

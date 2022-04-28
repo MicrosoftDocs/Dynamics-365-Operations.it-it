@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f512a6208bc85cd5796ce9515d2bc440f92ea79f
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "7986360"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566001"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Introduzione alla fatturazione elettronica per il Messico
 
@@ -141,7 +141,7 @@ Per inviare l'annullamento della fattura CFDI, sono obbligatorie le configurazio
 1. Nella pagina **Configurazione versioni funzionalità**, nella scheda **Variabili**, seleziona il nome della variabile **DigitalSignatureXSLT**.
 2. Nel campo **Valori** immetti: {"containerUrl":"https://&lt;AccountStorageName&gt;.blob.core.windows.net/&lt;ContainerName&gt;","percorso":"&lt;RelativePath&gt;"}
    
-    dove: <RelativePath> = cartella\\cartella\\nome file con doppie barre rovesciate, ContainerName deve indicare il contenitore utilizzato per il servizio.
+    dove: \<RelativePath\> = cartella\\cartella\\nome file con doppie barre rovesciate, ContainerName deve indicare il contenitore utilizzato per il servizio.
    
     Esempio della variabile:
     

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4861c0e8b3680f3cd3229facf059b671a4fc765
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983419"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570383"
 ---
 # <a name="landed-cost-module"></a>Modulo Costo sbarcato
 
@@ -39,7 +39,7 @@ Il modulo Costo sbarcato fornisce stime accurate e tempestive dei costi sbarcati
 
 ### <a name="voyages"></a>Viaggi
 
-In Costo sbarcato, un viaggio è un movimento distinto da un'ubicazione in uscita, attraverso un insieme specifico di destinazioni in un periodo specificato, a un'ubicazione di magazzino in entrata specificata. Gli ordini fornitore e le righe d'ordine possono essere aggiunti a un singolo contenitore o più contenitori per un viaggio e i costi verranno allocati correttamente alla riga articolo. Gli ordini e le righe di ordine possono anche essere aggiunti tra persone giuridiche per un singolo viaggio.
+In Costo sbarcato, un viaggio è un movimento distinto da un'ubicazione in uscita, attraverso un insieme specifico di destinazioni in un periodo specificato, a un'ubicazione di magazzino in entrata specificata. Gli ordini fornitore e le righe d'ordine possono essere aggiunti a un singolo contenitore o più contenitori per un viaggio e i costi verranno allocati correttamente alla riga articolo. 
 
 ### <a name="item-ownership"></a>Proprietà degli articoli
 

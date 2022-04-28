@@ -2,7 +2,7 @@
 title: Impostare il delimitatore del piano dei conti come univoco
 description: In questo argomento viene descritto perché non è possibile avere lo stesso delimitatore per il piano dei conti e i valori delle dimensioni. Dopo l'aggiornamento, è necessario cambiare i valori del delimitatore.
 author: panolte
-ms.date: 03/23/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 433e9f8a7b0a9f476c74096a4bd7fef03c87dee1
-ms.sourcegitcommit: 0d5ee97670bdeb1986aaea880f32962b5e374751
+ms.openlocfilehash: 6081a62077f1fc6b6920991ed6faae667c25a47c
+ms.sourcegitcommit: e8a2a1e34fa48a42afac9724828f4ec72b6d7085
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468050"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8573620"
 ---
 # <a name="make-the-chart-of-accounts-delimiter-unique"></a>Impostare il delimitatore del piano dei conti come univoco
 
 [!include [banner](../includes/banner.md)]
 
-In Microsoft Dynamics AX 2012, è possibile utilizzare lo stesso delimitatore per il piano dei conti e i valori delle dimensioni. Nelle versioni correnti di Finance and Operations, non è possibile avere lo stesso delimitatore per il piano dei conti e i valori delle dimensioni. L'eventuale delimitatore duplicato può essere sostituito dopo l'aggiornamento. 
+In Microsoft Dynamics AX 2012, è possibile utilizzare lo stesso delimitatore per il piano dei conti e i valori delle dimensioni. Nelle versioni correnti delle app per la finanza e le operazioni, non è possibile avere lo stesso delimitatore per il piano dei conti e i valori o i nomi delle dimensioni. L'eventuale delimitatore duplicato può essere sostituito dopo l'aggiornamento. 
 
 ## <a name="update-delimiter"></a>Aggiornare il delimitatore
 In presenza di un conflitto con il piano dei conti, è possibile cambiare il delimitatore del piano dei conti e il formato ID del progetto/sottoprogetto. Non è possibile cambiare alcun altro delimitatore delle dimensioni. 

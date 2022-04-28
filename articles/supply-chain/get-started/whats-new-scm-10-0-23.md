@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 83d19f92984c9f67242946aa8faf445d9d2bd881
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 876f5a5f8ebf77a65ba3aa6271a2957b7dc2cb96
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920202"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570480"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.23 (gennaio 2022)
 
@@ -57,7 +57,7 @@ Se vuoi attivare o disattivare una di queste funzioni, devi farlo in [gestione f
 | Approvvigionamento | Pulisci storico aggiornamento ordini fornitore | Questa funzione consente di ripulire i record storici temporanei relativi agli aggiornamenti degli ordini fornitore. Aggiunge un nuovo pulsante chiamato **Pulisci storico aggiornamento acquisti** al riquadro azioni della pagina **Tutti gli ordini fornitore**. Questo funzionalità è abilitata per impostazione predefinita. |
 | Controllo produzione | (Anteprima) Prelievo automatico di materiali pronti per il magazzino per le distinte di prelievo registrate automaticamente | Questa funzionalità consente di prelevare automaticamente e di risolvere le dimensioni inventariali per giornali di distinte di prelievo registrati automaticamente, derivati e di tipo backflush. |
 | Controllo produzione | Convalida la scadenza delle materie prime rispetto alla data di consumo pianificata | Questa funzionalità cambia il modo in cui le date di scadenza del batch vengono convalidate quando si prenota un batch di materie prime da utilizzare durante la produzione. Quando questa funzionalità è abilitata, la data di scadenza del batch viene convalidata rispetto alla data di consumo pianificata (la data delle materie prime), come stabilito nella riga DBA di produzione o nella riga della formula dell'ordine batch. Quando questa funzionalità è disabilitata, la data di scadenza del batch viene convalidata rispetto alla data di consegna pianificata dell'ordine di produzione o batch (come in precedenza). |
-| Vendite e marketing | Pulisci storico aggiornamento vendite in base alla validità | Questa funzionalità consente di impostare l'età massima dei record da conservare durante l'esecuzione dell'attività periodica **Pulizia dello storico aggiornamenti delle vendite**. I record più vecchi verranno eliminati. Ciò è utile quando si imposta l'attività per l'esecuzione periodica perché l'età viene sempre calcolata rispetto alla data di esecuzione dell'attività. Senza questa funzionalità, puoi solo impostare una data specifica per i record più vecchi da conservare. |
+| Vendite e marketing | Pulisci storico aggiornamento vendite in base alla validità | Questa funzionalità consente di impostare l'età massima dei record da conservare durante l'esecuzione dell'attività periodica **Pulizia dello storico aggiornamenti delle vendite**. I record più vecchi verranno eliminati. Ciò è utile quando si imposta l'attività per l'esecuzione periodica perché l'età viene sempre calcolata rispetto alla data di esecuzione dell'attività. Senza questa funzionalità, puoi solo impostare una data specifica per i record più vecchi da conservare. Per ulteriori informazioni, vedi [Programmare la pulizia dei dati dello storico vendite](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Vendite e marketing | Migliora le prestazioni del report "Primi 100" clienti | Questa funzione migliora le prestazioni del report **I primi 100** clienti eseguendo sempre il report su tutti i clienti (che è l'uso previsto) invece che tramite query personalizzate. Quando questa funzione è abilitata, tutte le impostazioni **Record da includere** sono disabilitate nella finestra del report **I primi 100**. |
 | Warehouse Management | Supporto unità di scala per il rilascio al magazzino degli ordini in uscita | Quando questa funzionalità è abilitata, gli ordini in uscita possono essere rilasciati dall'hub direttamente all'unità di scala in cui gli ordini verranno evasi. |
 
@@ -79,9 +79,9 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per app per finanza e operazioni
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.23 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.23 delle app Finance and Operations (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.23 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.23 delle app Finance and Operations (novembre 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-23.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 

@@ -4,7 +4,8 @@ description: Questo argomento fornisce informazioni sulle distribuzioni locali e
 author: sericks007
 ms.date: 07/01/2021
 ms.topic: article
-ms.prod: ''
+ms.prod: dynamics-365
+ms.service: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,24 +17,24 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 93ed4e81db18cd02c097ff188003569e7bb391c511fd93fcab0961c14029dc96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b57183a0c06f4735757c3c0c8d9e355879585e7a
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712570"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8566041"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page delle distribuzioni locali
 
 [!include [banner](../includes/banner.md)]
 
-È possibile distribuire Dynamics 365 Finance + Operations (locale). Quando si sceglie un tipo di distribuzione locale, i requisiti di sistema, il dimensionamento hardware e il funzionamento differiscono da una distribuzione nel cloud. Questo argomento fornisce i collegamenti a contenuti che includono informazioni specifiche sulle distribuzioni locali.
+Puoi distribuire Dynamics 365 Finance + Operations (on-premises). Quando si sceglie un tipo di distribuzione locale, i requisiti di sistema, il dimensionamento hardware e il funzionamento differiscono da una distribuzione nel cloud. Questo argomento fornisce i collegamenti a contenuti che includono informazioni specifiche sulle distribuzioni locali.
 
 ## <a name="get-started"></a>Inizia subito
 - [Panoramica della distribuzione locale](on-premises-overview.md)
 - [Pianificare e preparare le distribuzioni locali](plan-onprem-deployment.md)
 - [Requisiti di sistema per le distribuzioni locali](../../fin-ops/get-started/system-requirements-on-prem.md)
-- [Software supportato Microsoft Dynamics 365 Finance + Operations (locale)](onprem-compatibility.md)
+- [Software Microsoft Dynamics 365 Finance + Operations (on-premises) supportato](onprem-compatibility.md)
 - [Requisiti di dimensionamento hardware per ambienti locali](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Acquistare Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Confronto tra funzionalità cloud e locali](../../fin-ops/get-started/cloud-prem-comparison.md)
@@ -52,7 +53,7 @@ ms.locfileid: "6712570"
 - [Importare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Generazione, pubblicazione e stampa di documenti nelle distribuzioni locali](../analytics/printing-capabilities-on-premises.md)
 - [Configurare proxy per ambienti locali](onprem-reverseproxy.md)
-- [Impostare il supporto tecnico per le app Finance and Operations](../lifecycle-services/support-experience.md)
+- [Impostare il supporto tecnico per app Finance and Operations](../lifecycle-services/support-experience.md)
 - [Connettività Internet client](../user-interface/client-disconnected.md)
 - [Applicare aggiornamenti a distribuzioni locali](apply-updates-on-premises.md)
 - [Ridistribuire ambienti locali](redeploy-on-prem.md)

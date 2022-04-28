@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 197a5b983b307758425b1acc1f354d0a8bfbf8a1
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 94038b0eb412632c348081bbf467f44310d9e955
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371697"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603027"
 ---
 # <a name="create-a-globalization-feature"></a>Creare una funzionalità di globalizzazione
 
@@ -47,7 +47,7 @@ Per creare una funzionalità per la fatturazione elettronica, segui questi passa
 8. Nella griglia **Configurazioni**, esplora e seleziona le configurazioni di formato richieste per la pipeline di elaborazione (ad esempio, per generare file di fattura elettronica o elaborare risposte da servizi Web esterni).
 9. Seleziona **OK**. È ora possibile utilizzare le configurazioni nelle azioni della pipeline di elaborazione. Per ulteriori informazioni, vedi [Utilizzare le configurazioni](e-invoicing-work-configurations.md).
 10. Per aggiungere una configurazione della funzionalità di fatturazione elettronica, crearla nella scheda **Configurazioni** della pagina **Nuova funzionalità**. Per ulteriori informazioni, vedi [Utilizzare l'impostazione delle funzioni](e-invoicing-feature-setup.md).
-11. Completa la configurazione e distribuisci la funzionalità di fatturazione elettronica nell'ambiente del servizio. Per altre informazioni, vedi [Completare, pubblicare e distribuire una funzionalità di globalizzazione](e-invoicing-complete-publish-deploy-globalization-feature).
+11. Completa la configurazione e distribuisci la funzionalità di fatturazione elettronica nell'ambiente del servizio. Per altre informazioni, vedi [Completare, pubblicare e distribuire una funzionalità di globalizzazione](e-invoicing-complete-publish-deploy-globalization-feature.md).
 
 ### <a name="create-file-format-configurations-that-are-derived-from-the-existing-invoice-model"></a>Creare configurazioni del formato di file derivate dal modello di fattura esistente
 
@@ -91,4 +91,4 @@ Le nuove configurazioni del formato di file devono essere condivise con il domin
     - Rivedere le configurazioni, nel caso in cui sia necessario personalizzare i formati per la creazione di report elettronici (ER) e la relativa associazione con mapping di formati per la versione della funzionalità.
     - Esaminare l'impostazione, nel caso sia necessario personalizzare la scheda **Azioni**, la scheda **Regole di applicabilità** o la scheda **Variabili** per la versione della funzionalità.
 
-9. Completa la configurazione e distribuisci la funzionalità di fatturazione elettronica nell'ambiente del servizio. Per altre informazioni, vedi [Completare, pubblicare e distribuire una funzionalità di globalizzazione](e-invoicing-complete-publish-deploy-globalization-feature).
+9. Completa la configurazione e distribuisci la funzionalità di fatturazione elettronica nell'ambiente del servizio. Per altre informazioni, vedi [Completare, pubblicare e distribuire una funzionalità di globalizzazione](e-invoicing-complete-publish-deploy-globalization-feature.md).

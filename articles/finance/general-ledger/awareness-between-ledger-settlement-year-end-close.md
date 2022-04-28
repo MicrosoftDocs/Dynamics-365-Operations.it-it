@@ -2,7 +2,7 @@
 title: Riconoscimento tra liquidazione saldi contabili e chiusura di fine anno
 description: Questo argomento fornisce informazioni sui miglioramenti che influiscono sulle liquidazioni di saldi contabili e sulla chiusura di fine anno della contabilità generale.
 author: kweekley
-ms.date: 03/18/2022
+ms.date: 04/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-31
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: e18f77d73239de23000b5310d9342c6db95bc524
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 13d0a0a11a8f31e4ba647ccc23906f6b137051c2
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462354"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553334"
 ---
 # <a name="awareness-between-ledger-settlement-and-year-end-close"></a>Riconoscimento tra liquidazione saldi contabili e chiusura di fine anno
 
@@ -48,12 +48,16 @@ Per supportare i nuovi miglioramenti, sono state apportate modifiche alla liquid
 
 A causa delle modifiche alla funzionalità e al modello di dati, è importante considerare i seguenti punti prima di abilitare la funzionalità:
 
+- Poiché solo le transazioni liquidate vengono anticipate nel saldo di apertura, è necessario annullare le transazioni dell'anno fiscale corrente che vengono liquidate con le transazioni dell'anno fiscale precedente. Le transazioni devono essere liquidate nuovamente rispetto alle transazioni entro l'anno fiscale in corso. Questo può essere fatto attraverso una voce di rettifica nell'anno fiscale in corso. La rettifica storna i saldi di apertura riepilogati e compensa con la transazione dettagliata necessaria per regolare le scritture contabili nell'anno in corso. 
+
+  > [!IMPORTANT]
+  > In caso contrario, riceverai un errore di **sbilanciamento** quando esegui la chiusura di fine anno per l'anno fiscale corrente. Se non è possibile annullare e reimpostare le transazioni contabili con lo stesso anno fiscale, non abilitare questa funzione fino al completamento della chiusura di fine anno. Abilita la funzione subito dopo il completamento della chiusura di fine anno e prima che le nuove transazioni contabili vengano liquidate nell'anno fiscale successivo. 
+  
 - Tutte le transazioni che sono state contrassegnate per la liquidazione ma non sono state liquidate verranno automaticamente deselezionate quando la funzionalità è abilitata. Per evitare qualsiasi perdita di lavoro, liquida tutte le transazioni contrassegnate prima di abilitare la funzionalità.
 - Alcune organizzazioni eseguono la chiusura di fine anno più volte per lo stesso anno fiscale. Non abilitare la funzionalità se la chiusura di fine anno è già stata eseguita una volta e verrà eseguita nuovamente per lo stesso anno fiscale. La funzionalità deve essere abilitata prima di elaborare la prima chiusura di fine anno o dopo aver elaborato l'ultima chiusura di fine anno per l'anno fiscale.
 
   Se vuoi abilitare la funzionalità, ma la chiusura di fine anno è già stata eseguita una volta, è necessario stornare la chiusura di fine anno prima di poter abilitare la funzionalità.
 
-- Poiché la liquidazione tra anni fiscali non è più consentita, è consigliabile di abilitare la funzionalità prima di iniziare il processo di chiusura di fine anno. Quindi, per garantire che i saldi iniziali dell'anno fiscale successivo non siano influenzati da precedenti liquidazioni tra anni fiscali, la transazione del saldo iniziale deve essere liquidata per l'anno fiscale che si sta chiudendo.
 - Poiché la liquidazione tra conti principali non è più consentita, modifica il piano dei conti o i processi come richiesto per garantire che la liquidazione dei saldi contabili possa essere eseguita nello stesso conto principale.
 - La funzionalità può essere abilitata se viene utilizzato il processo di chiusura di fine anno del settore pubblico.
 

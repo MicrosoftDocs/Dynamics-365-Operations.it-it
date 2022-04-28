@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c856bca32c3dee44469c098961d85b4d8cb70a6
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
+ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060426"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8565630"
 ---
 # <a name="provision-human-resources"></a>Effettua il provisioning di Human Resources
 
@@ -40,6 +40,10 @@ Prima di iniziare il provisioning di un nuovo ambiente di produzione, i seguenti
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Effettuare il provisioning di un ambiente di valutazione per Human Resources
 
+>[!NOTE]
+> A partire da aprile 2022, gli ambienti di prova di Human Resources non saranno disponibili nell'applicazione autonoma. I potenziali clienti interessati a valutare le funzionalità di Human Resources all'interno delle app per la finanza e le operazioni possono farlo utilizzando la versione di prova gratuita di 30 giorni insieme ai dati demo. Dynamics 365 Finance includerà le funzionalità di Human Resources introdotte nell'infrastruttura di Finance tramite l'unione dell'applicazione autonoma. Per ulteriori informazioni, vedi [L'unione delle offerte per le risorse umane unisce le capacità dei clienti](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Per ulteriori informazioni sulle versioni di prova di Dynamics 365 Finance, consulta la [guida](/fin-ops/get-started/before-you-buy) dettagliata. 
+
+
 Prima di eseguire il provisioning del tuo primo ambiente di produzione o sandbox, potresti voler eseguire il provisioning di un [Ambiente di valutazione di Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) per convalidare la funzionalità di Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. 
 
 Gli ambienti di prova offrono la possibilità di valutare la funzionalità delle risorse umane per le persone che non hanno già accesso a un ambiente Human Resources. Se stai effettuando il provisioning di un ambiente di valutazione e l'utente autenticato ha già accesso a uno o più ambienti Human Resources esistenti, l'utente verrà reindirizzato all'ambiente esistente o all'elenco di ambienti.
@@ -58,7 +62,7 @@ Prima di creare il primo ambiente Human Resources, è necessario pianificare att
 Considerazioni per altri ambienti:
 
 - **Migrazione dei dati**: potresti dover considerare un ambiente aggiuntivo per le attività di migrazione dei dati per consentire l'utilizzo del tuo ambiente sandbox a scopo di test durante il progetto. Avere un ambiente aggiuntivo consente alle attività di migrazione dei dati di continuare mentre le attività di test e la configurazione si verificano simultaneamente in un ambiente diverso.
-- **Integrazione**: potresti dover considerare un ambiente aggiuntivo per configurare e testare le integrazioni. Ciò potrebbe includere integrazioni native come le integrazioni LinkedIn Talent Hub di Ceridian Dayforce o integrazioni personalizzate come quelle per le buste paga, i sistemi di tracciamento dei candidati o i sistemi di benefit e i fornitori.
+- **Integrazione**: potresti dover considerare un ambiente aggiuntivo per configurare e testare le integrazioni. Ciò potrebbe includere integrazioni native come le integrazioni Ceridian Dayforce o LinkedIn Talent Hub o integrazioni personalizzate come quelle per le buste paga, i sistemi di tracciamento dei candidati o i sistemi di benefit e i fornitori.
 - **Formazione**: potrebbe essere necessario un ambiente separato configurato con una serie di dati di formazione per formare i dipendenti sull'uso del nuovo sistema. 
 - **Progetto multifase**: potrebbe essere necessario un ambiente aggiuntivo per supportare la configurazione, la migrazione dei dati, il test o altre attività in una fase del progetto pianificata dopo la fase operativa iniziale del progetto.
 

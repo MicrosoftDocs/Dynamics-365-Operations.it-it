@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1e06fafe8d8bbe92ddf4fcd94d7271a1fbb6362a
-ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
+ms.openlocfilehash: 4cd99b1d2c0dbbf48e7eee7e1233e3b078d14ba3
+ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "7413601"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "8603056"
 ---
 # <a name="configure-print-management-record-specific-er-destinations"></a>Configurare le destinazioni ER specifiche per la gestione della stampa
 
@@ -35,7 +35,7 @@ Le procedure possono essere completate nell'azienda USMF. Non è richiesta alcun
 
 ## <a name="introduction"></a>Introduzione
 
-È possibile configurare le [destinazioni](electronic-reporting-destinations.md) per ogni cartella nel componente di output dei file di una[configurazione del](general-electronic-reporting.md#Configuration)  [formato](general-electronic-reporting.md#FormatComponentOutbound) ER che viene utilizzato per generare un documento in uscita. Quando si esegue un formato ER di questo tipo, se si hanno i diritti di accesso appropriati, si possono anche cambiare le impostazioni di destinazione configurate in fase di esecuzione.
+È possibile configurare le [destinazioni](electronic-reporting-destinations.md) per ogni cartella nel componente di output dei file di una[configurazione del](general-electronic-reporting.md#Configuration)  [formato](general-electronic-reporting.md) ER che viene utilizzato per generare un documento in uscita. Quando si esegue un formato ER di questo tipo, se si hanno i diritti di accesso appropriati, si possono anche cambiare le impostazioni di destinazione configurate in fase di esecuzione.
 
 In Microsoft Dynamics 365 Finance **versione 10.0.17 e successive**, un codice di azione può essere [impostato](er-apis-app10-0-17.md) per un formato ER per specificare l'azione che gli utenti eseguono eseguendo quel formato ER. Per esempio, nel modulo **Contabilità clienti** , nelle impostazioni di gestione della stampa, è possibile selezionare un formato ER che genera un documento commerciale specifico, come una fattura a testo libero. È quindi possibile selezionare **Visualizza** per visualizzare in anteprima la fattura o **Stampa** per inviarla a una stampante. Se un'azione viene passata per il formato ER in esecuzione a runtime, è possibile [configurare diverse destinazioni ER per diverse azioni utente](er-action-dependent-destinations.md).
 

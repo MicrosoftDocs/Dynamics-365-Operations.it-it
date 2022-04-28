@@ -2,7 +2,7 @@
 title: Versioni di progettazione e categorie di prodotti di progettazione
 description: Questo argomento fornisce informazioni sul concetto di versioni di progettazione. Le versioni di progettazione garantiscono che i diversi stati di un prodotto e dei dati siano aggiornati e cancellati e che possano essere visualizzati nel sistema.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 42faa9e5f073d718c18422e37212c2ae8a28b28d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4d057c603e6592e491af7597e50fce2497860ec
+ms.sourcegitcommit: b96e0c70553bca9b3f5eb65105a52cb71d978a36
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572891"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8553364"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versioni di progettazione e categorie di prodotti di progettazione
 
@@ -137,7 +137,7 @@ Per ogni riga che si aggiunge alla griglia, impostare i seguenti campi.
 |---|---|
 | Nome | Selezionare l'attributo da aggiungere. |
 | Valore | Selezionare il valore predefinito dell'attributo. |
-| Obbligatorio | Per gli attributi di tipo *Booleano*, se questa opzione è impostata su *Sì*, gli utenti devono impostare l'attributo su *Sì*. Se questa opzione è impostata su *No*, gli utenti possono impostare l'attributo su *Sì* o *No*. Per altri tipi di dati, l'impostazione di questa opzione è solo a scopo informativo. |
+| Obbligatorio | Scegli se l'attributo è obbligatorio, il che significa che gli utenti devono specificare un valore valido per l'attributo prima di poter salvare un prodotto. L'effetto di questa impostazione varia leggermente in base al tipo di dati dell'attributo selezionato, come definito nell'elenco seguente.<ul><li>**Booleano** – Impostalo su *sì* per richiedere che l'attributo abbia un valore *sì* (il sistema rifiuterà di salvare un prodotto su cui è impostato l'attributo *No*). Impostare questa opzione su *No* per accettare un valore *Sì* o *No*. Gli attributi di tipo *booleano* non possono avere un valore vuoto.</li><li>**Intero o decimale** – Impostalo su *sì* per richiedere agli utenti di immettere un valore diverso da zero per questo attributo. Impostare questa opzione su *No* per consentire agli utenti di salvare con un valore pari a zero.  Gli attributi di questo tipo non possono avere un valore vuoto.</li><li>**Elenco** – Gli elenchi hanno un tipo di dati di *Testo*, ma includono anche un elenco predefinito di valori possibili. Pertanto, non è possibile inserire un valore vuoto per attributi di questo tipo, quindi questa impostazione non ha effetto ed è solo informativa.</li><li>**Tutti gli altri tipi di dati** – Impostalo su *sì* per rendere obbligatorio l'attributo. Impostalo su *No* per consentire agli utenti di salvare un prodotto senza fornire un valore per questo attributo.</li></ul> |
 | Attributo batch | Selezionare se l'attributo deve essere propagato tramite la funzionalità batch. |
 
 ### <a name="readiness-policy-fasttab"></a>Scheda dettaglio Criteri di preparazione

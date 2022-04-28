@@ -2,7 +2,7 @@
 title: Crea ordine cliente
 description: Questa procedura indica come creare un ordine cliente.
 author: Henrikan
-ms.date: 06/25/2019
+ms.date: 04/06/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5746fa0ab9fd7ef3e288adc88a755324309a27c0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 462f47ab5d85665ed8132e5bfb6dd945c537c1ef
+ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566313"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8551726"
 ---
 # <a name="create-sales-orders"></a>Crea ordine cliente
 
@@ -64,7 +64,9 @@ I prodotti venduti dall'organizzazione possono presentare varianti differenziate
     
     Nella pagina **Totali** vengono visualizzati i dettagli dell'intero ordine. Sono inclusi l'importo subtotale, ovvero una somma di tutti gli importi netti della riga rettificati per gli sconti riga finali, l'importo totale della fattura, ovvero un importo subtotale rettificato per lo sconto a livello di ordine finale, le spese e l'IVA, la situazione limite di credito del cliente e altro. Importo della fattura è l'importo che verrà visualizzato nel documento fattura del cliente.  
     
-3. Selezionare **OK**.
+3. Seleziona **OK**.
 
+## <a name="sales-order-creation-performance-enhancement"></a>Miglioramento prestazioni creazione ordini cliente
+La nuova funzionalità introdotta con la versione dell'applicazione 10.0.26 riduce la creazione di record aggiuntivi per le tabelle **SourceDocumentHeader** e **SourceDocumentLine**. Le prestazioni sono migliorate e le dimensioni di archiviazione vengono ridotte perché questi record non vengono creati. Queste tabelle del framework del documento di origine sottostante non vengono utilizzate per gli ordini cliente nel prodotto in questo momento e non sono previsti piani per utilizzarle. L'abilitazione di questa funzione è considerata una modifica sicura per migliorare le prestazioni. 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

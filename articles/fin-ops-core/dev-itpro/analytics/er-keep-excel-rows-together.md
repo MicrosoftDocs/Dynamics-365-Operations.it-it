@@ -15,18 +15,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 711681ab38fb24b57a83f008f86a8261176aa5a5
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
+ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388593"
+ms.lasthandoff: 04/16/2022
+ms.locfileid: "8612371"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Progettare un formato ER per tenere insieme le righe sulla stessa pagina di Excel
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Questo argomento spiega come un utente con il ruolo di Amministratore di sistema o Consulente funzionale per la [creazione di report elettronici](general-electronic-reporting.md) può configurare un [formato](er-overview-components.md#format-component) che genera documenti in uscita in Microsoft Excel e gestisce l'impaginazione dei documenti in modo che le righe create vengano mantenute nella stessa pagina.
 

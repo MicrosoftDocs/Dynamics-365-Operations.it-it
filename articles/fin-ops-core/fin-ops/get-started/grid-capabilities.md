@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 81577f54bd7fdc7d683c760dd4410f27da8ee1f0
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
+ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462794"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8602964"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che possono essere utilizzate per migliorare la produttività degli utenti, creare viste più interessanti dei dati e ottenere informazioni dettagliate significative sui dati. In questo articolo vengono illustrate le seguenti funzionalità: 
 

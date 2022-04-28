@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: adab5ee3f626390355f4bab1227efd5fe58c2fcf
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
+ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524523"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8547790"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Visibilità inventario
 
@@ -51,9 +51,10 @@ Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzional
 
 | Nome Gestione funzionalità | Description |
 |---|---|
-| OnHandReservation | Questa funzione ti consente di creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità inventario. Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md). |
-| OnHandMostSpecificBackgroundService | Questa funzionalità fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. Per ulteriori informazioni, vedere [Riepilogo inventario](inventory-visibility-power-platform.md#inventory-summary). |
-| OnhandChangeSchedule | La funzione abilita la programmazione delle modifiche scorte disponibili e le funzionalità ATP (facoltativa). Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md). |
+| *OnHandReservation* | Questa funzione ti consente di creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità inventario. Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md). |
+| *OnHandMostSpecificBackgroundService* | Questa funzionalità fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. Per ulteriori informazioni, vedere [Riepilogo inventario](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnhandChangeSchedule* | La funzione facoltativa abilita la programmazione delle modifiche scorte disponibili e le funzionalità ATP. Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md). |
+| *Abilita articoli di magazzino in Visibilità inventario* | Questa funzione opzionale consente a Visibilità inventario di supportare gli articoli abilitati per i processi di magazzino avanzati (articoli WHS). Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WHS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Trovare l'endpoint del servizio
 
@@ -61,7 +62,7 @@ Se non conosci l'endpoint corretto del servizio Visibilità inventario, apri la 
 
 ## <a name="data-source-configuration"></a>Configurazione dell'origine dati
 
-Ogni origine dati rappresenta un sistema da cui provengono i dati. Alcuni esempi di nomi delle origini dati includono `fno` (che sta per "App Dynamics 365 Finance and Operations") e `pos` (che sta per "point of sale", ovvero "POS"). Per default, Supply Chain Management è impostato come fonte di dati predefinita (`fno`) in Visibilità inventario.
+Ogni origine dati rappresenta un sistema da cui provengono i dati. Alcuni esempi di nomi delle origini dati includono `fno` (che sta per "app per la finanza e le operazioni Dynamics 365") e `pos` (che sta per "point of sale" ovvero punto vendita). Per default, Supply Chain Management è impostato come fonte di dati predefinita (`fno`) in Visibilità inventario.
 
 > [!NOTE]
 > L'origine dati `fno` è riservata a Supply Chain Management. Se il tuo componente aggiuntivo Visibilità inventario è integrato con un ambiente Supply Chain Management, ti consigliamo di non eliminare le configurazioni relative a `fno` nell'origine dati.

@@ -2,19 +2,19 @@
 title: Risoluzione dei problemi generali
 description: In questo argomento vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 04/07/2020
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f6f5b9f26990e2f4db9bf69040a6c4be31400b40
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
+ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062340"
+ms.lasthandoff: 04/07/2022
+ms.locfileid: "8554601"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
@@ -29,20 +29,31 @@ In questo argomento vengono fornite informazioni generale sulla risoluzione dei 
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Abilitare e visualizzare il log di traccia del plug-in Dataverse per visualizzare i dettagli dell'errore
 
+I registri di traccia possono essere utili durante la risoluzione dei problemi di sincronizzazione in tempo reale della doppia scrittura tra Finance & Operations e Dataverse. I log possono fornire dettagli specifici ai team che forniscono supporto tecnico e progettuale per Dynamics 365. Questo articolo illustra come abilitare i log di traccia e come visualizzarli. I registri di traccia sono gestiti nella pagina Impostazioni di Dynamics 365 e richiedono privilegi di livello di amministratore per la modifica e la visualizzazione. 
+
 **Ruolo richiesto per attivare il log di traccia e visualizzare gli errori:** amministratore di sistema
 
+### <a name="turn-on-the-trace-log"></a>Attivare il log di traccia
 Per attivare il log di traccia, effettuare le seguenti operazioni.
 
-1. Accedi all'app customer engagement, apri la pagina **Impostazioni** e quindi sotto **Sistema**, seleziona **Amministrazione**.
-2. Nella pagina **Amministrazione** selezionare **Impostazioni di sistema**.
-3. Nella scheda **Personalizzazione**, nella colonna **Analisi attività plug-in e flusso di lavoro personalizzato**, selezionare **Tutto** per abilitare il log di traccia del plug-in. Se si desidera registrare i log di traccia solo quando si verificano eccezioni, è possibile selezionare **Eccezione**.
+1.  Accedi a Dynamics 365, quindi seleziona **Impostazioni** nella barra di spostamento in alto. Nella pagina del sistema fai clic su **Amministrazione**.
+2.  Nella pagina Amministrazione fai clic su **Impostazioni di sistema**.
+3.  Seleziona la scheda **Personalizzazione** e il plug-in, e quindi nella sezione del traccia dell'attività del flusso di lavoro personalizzato, modifica il menu a discesa in **Tutto**. Questo traccia tutte le attività e fornisce una serie completa di dati per i team che devono esaminare potenziali problemi.
 
+> [!NOTE]
+> Impostando il menu a discesa su **Eccezione** fornirà informazioni di traccia solo quando si verificano eccezioni (errori).
 
+Una volta abilitati, i log di traccia del plug-in continueranno a essere raccolti finché non vengono disattivati manualmente tornando in questa posizione e selezionando **Disattivato**.
+
+### <a name="view-the-trace-log"></a>Visualizzare il log di traccia
 Per visualizzare il log di traccia, effettuare le seguenti operazioni.
 
-1. Accedi all'app customer engagement, apri la pagina **Impostazioni** e quindi sotto **Personalizzazione**, seleziona **Registro di traccia plug-in**.
-2. Trovare i log di traccia dove la colonna **Nome tipo** è impostato su **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
-3. Fare doppio clic su un elemento per visualizzare il registro completo, quindi nella scheda dettaglio **Esecuzione**, esaminare il testo **Blocco messaggio**.
+1. Nella pagina delle impostazioni di Dynamics 365, seleziona **Impostazioni** nella barra di spostamento in alto. 
+2. Seleziona **Log di traccia plug-in** nella sezione **Personalizzazioni** della pagina.
+3. Puoi trovare voci nell'elenco dei log di traccia, in base al nome del tipo e/o al nome del messaggio.
+4. Apri la voce desiderata per visualizzare il log completo. Nella Blocco messaggi nella sezione Esecuzione fornirà le informazioni disponibili per il plug-in. Se disponibili, verranno forniti anche i dettagli dell'eccezione. 
+
+Puoi copiare il contenuto dei log di traccia e incollarlo in un'altra applicazione come Blocco note o altri strumenti per visualizzare registri o file di testo per visualizzare più facilmente tutto il contenuto. 
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Abilitare la modalità debug per risolvere i problemi di sincronizzazione in tempo reale nelle app per finanza e operazioni
 
@@ -69,6 +80,34 @@ Gli errori di doppia scrittura che hanno origine in Dataverse possono apparire n
 5. Aprire il visualizzatore eventi.
 6. Selezionare **Registri applicazioni e servizi \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operativo**.
 7. Rivedere l'elenco degli errori recenti.
+
+## <a name="dual-write-ui-landing-page-showing-blank"></a>Pagina di destinazione dell'interfaccia utente a doppia scrittura visualizzata vuota
+Quando si apre la pagina a doppia scrittura nel browser Microsoft Edge o Google Chrome, la home page non viene caricata e viene visualizzata una pagina vuota o un errore come "Si è verificato un errore".
+In Devtools, viene visualizzato un errore nei registri della console:
+
+>bundle.eed39124e62c58ef34d2.js:37 DOMException: impossibile leggere la proprietà 'sessionStorage' da 'Window': accesso negato per questo documento. at t.storeInSessionStorage (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:16:136860 ) at new t (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:69:20103 ) at ci (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:44115 ) at Eo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:58728 ) at jo (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:65191 ) at Nr (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:84692 ) at Or (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:85076 ) at Ss (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91750 ) at vs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:91130 ) at hs (https://dataintegrator.trafficmanager.net/bundle.eed39124e62c58ef34d2.js:37:90151 )
+
+L'interfaccia utente utilizza l'archiviazione della sessione del browser per memorizzare alcuni valori di proprietà per il caricamento della home page. Affinché ciò funzioni, i cookie di terze parti devono essere consentiti nel browser del sito. L'errore è indicativo del fatto che l'interfaccia utente non è in grado di accedere all'archiviazione della sessione. Ci possono essere due scenari in cui si verifica questo problema:
+
+1.  Stai aprendo l'interfaccia utente in modalità di navigazione in incognito di Edge/Chrome e i cookie di terze parti in modalità di navigazione in incognito sono bloccati.
+2.  Hai bloccato del tutto i cookie di terze parti in Edge/Chrome.
+
+### <a name="mitigation"></a>Attenuazione
+I cookie di terze parti devono essere consentiti nelle impostazioni del browser.
+
+### <a name="google-chrome-browser"></a>Browser Google Chrome
+1 opzione:
+1.  Vai alle impostazioni inserendo chrome://settings/ nella barra degli indirizzi, quindi vai su Privacy e sicurezza -> Cookie e altri dati del sito.
+2.  Seleziona "Consenti tutti i cookie". Se non desideri farlo, scegli la seconda opzione.
+
+2 opzione:
+1.  Vai alle impostazioni inserendo chrome://settings/ nella barra degli indirizzi, quindi vai su Privacy e sicurezza -> Cookie e altri dati del sito.
+2.  Se è selezionato "Blocca cookie di terze parti in incognito" o "Blocca cookie di terze parti", vai su "Siti che possono sempre utilizzare i cookie" e fai clic su **Aggiungi**. 
+3.  Aggiungi il nome del tuo sito per le app Finance + Operations - https://<tua_istanza_FinOp>.cloudax.dynamics.com. Assicurati di selezionare la casella di controllo "Tutti i cookie, solo su questo sito". 
+
+### <a name="microsoft-edge-browser"></a>Browser Microsoft Edge
+1.  Vai in Impostazioni -> Autorizzazioni sito -> Cookie e dati del sito.
+2.  Disattiva "Blocca cookie di terze parti".  
 
 ## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Scollega e collega un altro ambiente Dataverse da un'app per finanza e operazioni
 
@@ -97,14 +136,14 @@ Per riattivare l'opzione del modulo **Informazioni**, attenersi alla seguente pr
 
 Il team di supporto potrebbe dover esaminare le tracce di rete per risolvere alcuni problemi. Segui questi passaggi per creare una traccia di rete:
 
-### <a name="chrome"></a>Chrome
+### <a name="google-chrome-browser"></a>Browser Google Chrome
 
 1. Nella scheda aperta, premi **F12** o scegli **Strumenti di sviluppo** per aprire gli strumenti di sviluppo.
 2. Apri la scheda **Rete** e digita **integ** nella casella di testo del filtro.
 3. Esegui il tuo scenario e osserva le richieste registrate.
 4. Fai clic con il tasto destro del mouse sulle voci e seleziona **Salva tutto come HAR con contenuto**.
 
-### <a name="microsoft-edge"></a>Microsoft Edge
+### <a name="microsoft-edge-browser"></a>Browser Microsoft Edge
 
 1. Nella scheda aperta, premi **F12** o scegli **Strumenti di sviluppo** per aprire gli strumenti di sviluppo.
 2. Apri la scheda **Rete**.

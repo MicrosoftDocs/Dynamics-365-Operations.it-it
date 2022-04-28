@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 03ed2d52f44bd38910b01ffbd3767f750da2cbf8
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: f0f1830c9f667d617b8aae28e61a8e541b17c77f
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920575"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570327"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.19 (giugno 2021)
 
@@ -50,7 +50,7 @@ Questa tabella elenca i miglioramenti delle funzionalità incluse in questa vers
 
 | Modulo | Nome della&nbsp;funzionalità&nbsp;nella gestione&nbsp;delle funzionalità | Ulteriori informazioni |
 |---|---|---|
-| Vendite e marketing | Miglioramenti delle prestazioni di pulizia della cronologia delle vendite | La pulizia della cronologia delle vendite può richiedere molto tempo se eseguita raramente in ambienti con un volume elevato di aggiornamenti delle vendite. Per ridurre la durata e migliorare l'affidabilità, questa funzionalità suddivide la pulizia in batch che vengono eseguiti per una durata limitata. Ove possibile, le funzionalità del database verranno sfruttate per ridurre al minimo il blocco ed evitare di unire tabelle transazionali durante la pulizia. Per ulteriori informazioni, vedi [Miglioramenti delle prestazioni di pulizia della cronologia delle vendite](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
+| Vendite e marketing | Miglioramenti delle prestazioni di pulizia della cronologia delle vendite | La pulizia della cronologia delle vendite può richiedere molto tempo se eseguita raramente in ambienti con un volume elevato di aggiornamenti delle vendite. Per ridurre la durata e migliorare l'affidabilità, questa funzionalità suddivide la pulizia in batch che vengono eseguiti per una durata limitata. Ove possibile, le funzionalità del database verranno sfruttate per ridurre al minimo il blocco ed evitare di unire tabelle transazionali durante la pulizia. Per ulteriori informazioni, vedi [Programmare la pulizia dei dati dello storico vendite](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Vendite e marketing | Aggiorna data di ricevimento richiesta con data confermata per ordini interaziendali | Questa funzionalità consente di controllare cosa accadrà ai valori dei campi della data di acquisto e di vendita quando si utilizza la consegna diretta interaziendale. Puoi scegliere se il sistema aggiornerà le date richieste o ignorerà l'aggiornamento. Se ignori l'aggiornamento, le date richieste rappresenteranno ciò che il cliente ha richiesto. Se abiliti l'aggiornamento, le date richieste (quando si utilizza il controllo della data di consegna) rappresentano inizialmente solo ciò che il cliente ha richiesto. Controllo della data di consegna, se diversa da *Nessuna*, annullerà quanto inizialmente richiesto. È possibile impostare questa opzione utilizzando la nuova impostazione **Aggiorna data di ricevimento richiesta con data confermata** nelle impostazioni del fornitore o del cliente interaziendale.<br><br>Se la funzionalità è disabilitata, il sistema sovrascriverà la data di ricezione richiesta sugli ordini di vendita originali in base alla regola di controllo della data di consegna, ma la data di spedizione richiesta rimarrà invariata. |
 | Gestione magazzino | Arrotonda quantità per difetto all'unità di vendita più vicina al momento del rilascio nel magazzino | Questa funzionalità aggiunge un'opzione che può limitare le quantità dell'ordine al rilascio in magazzino. Quando è abilitata, le quantità dell'ordine verranno arrotondate per difetto all'unità di vendita intera più vicina e gli ordini che includono quantità per meno di un'unità di vendita verranno rifiutati per il rilascio. |
 | Gestione magazzino | Metodo di ciclo "Programma creazione lavoro" a livello di organizzazione | Quando viene abilitata questa funzionalità, il metodo ciclo *Programma creazione lavoro* verrà configurato per essere eseguito in parallelo tra tutte le persone giuridiche. Saranno interessate anche diverse impostazioni aggiuntive. Per i dettagli completi, vedi [Pianificare la creazione del lavoro nel corso del ciclo](../warehousing/configure-wave-schedule-work-creation.md). |
@@ -70,9 +70,9 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per app per finanza e operazioni
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.19 delle app Finance and Operations (giugno 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.19 delle app per finanza e operazioni (giugno 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 

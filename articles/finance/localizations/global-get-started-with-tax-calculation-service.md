@@ -2,7 +2,7 @@
 title: Introduzione a Calcolo imposte
 description: In questo argomento viene illustrato come configurare Calcolo imposte.
 author: wangchen
-ms.date: 01/05/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae2c20fe79c2f8fd8d102740441230ae443f16a3
-ms.sourcegitcommit: f5fd2122a889b04e14f18184aabd37f4bfb42974
+ms.openlocfilehash: 61ee15901a091ee733b83c8cbaa5b84801fa8e5d
+ms.sourcegitcommit: 4afd1e0b325d27cd7c4e0d9a198400b038262ac7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952523"
+ms.lasthandoff: 04/09/2022
+ms.locfileid: "8558315"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introduzione al calcolo delle imposte
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni su come iniziare a usare Calcolo imposte. Le sezioni in questo argomenti ti guidano attraverso i passaggi di progettazione di alto livello e configurazione in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance e Dynamics 365 Supply Chain Management. 
+Questo argomento fornisce informazioni su come iniziare a usare Calcolo imposte. Le sezioni in questo argomenti ti guidano attraverso i passaggi di progettazione di alto livello e configurazione in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance, e Dynamics 365 Supply Chain Management. 
 
 La configurazione consiste in tre passaggi principali.
 
@@ -36,7 +36,7 @@ La configurazione consiste in tre passaggi principali.
 
 ## <a name="high-level-design"></a>Progettazione di alto livello
 
-### <a name="runtime-design"></a>Progettazione runtime
+### <a name="runtime-design"></a><a name="runtime"></a> Progettazione runtime
 
 La figura seguente mostra la progettazione del runtime ad alto livello del calcolo delle imposte. Poiché il calcolo delle imposte può essere integrato con più app Dynamics 365, l'illustrazione utilizza l'integrazione con Finance come esempio.
 
@@ -95,6 +95,14 @@ Prima di poter completare le procedure restanti in questo argomento, è necessar
 - Le seguenti caratteristiche devono essere attivate nell'area di lavoro di **gestione delle caratteristiche** del tuo ambiente RCS distribuito.
 
     - Funzionalità di globalizzazione
+
+- I seguenti ruoli devono essere assegnati in base alle esigenze degli utenti nell'ambiente RCS:
+
+    - Sviluppatore per la creazione di report elettronici
+    - Sviluppatore funzionalità di globalizzazione
+    - Sviluppatore motore fiscale
+    - Consulente funzionale motore fiscale
+    - Sviluppatore del servizio imposte
 
 ## <a name="set-up-tax-calculation-in-lcs"></a>Configurare Calcolo imposte in LCS
 
@@ -203,15 +211,21 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
     | Vendite            | DEU       | FRA     | DEU_EU       |
     | Vendite            | BEL       | BEL     | BEL_Domestic |
     | Vendite            | BEL       | FRA     | BEL_EU       |
+    
+    > [!NOTE]
+    > Se la fascia IVA predefinita nelle righe del documento imponibile è corretta, lascia vuota questa matrice. Per ulteriori informazioni, vedi la sezione [Progettazione runtime](#runtime) in questo argomento.
 
 22. Nella scheda **Applicabilità del gruppo d'imposta dell'articolo** , seleziona le colonne che sono necessarie per determinare il codice d'imposta corretto e poi seleziona **Aggiungi**. Immetti o seleziona i valori per ciascuna colonna. Il campo del **gruppo fiscale dell'articolo** sarà l'output di questa matrice. Se questa scheda non è configurata, verrà utilizzato il gruppo di imposte sulle vendite dell'articolo sulla linea della transazione.
 
     Ecco un esempio.
 
-    | Codice articolo | Gruppo d'imposta dell'articolo |
+    | Codice articolo | Gruppo di imposte articolo |
     | --------- | -------------- |
     | D0001     | Completo           |
     | D0003     | Ridotta        |
+
+    > [!NOTE]
+    > Se la fascia IVA articolo predefinita nelle righe del documento imponibile è corretta, lascia vuota questa matrice. Per ulteriori informazioni, vedi la sezione [Progettazione runtime](#runtime) in questo argomento.
 
     Per maggiori informazioni su come i codici fiscali sono determinati in Calcolo imposta, vedi [Logica di determinazione dei gruppi di imposte sulle vendite e dei gruppi di imposte sulle vendite degli articoli](global-sales-tax-group-determination.md).
 

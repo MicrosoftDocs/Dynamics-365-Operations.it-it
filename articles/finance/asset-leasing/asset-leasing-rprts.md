@@ -2,25 +2,25 @@
 title: Report di leasing cespite
 description: Questo argomento elenca e descrive brevemente i report disponibili in Leasing cespite.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7044378a66ed9ff952f4579d375d59576fe09294fc158c000ab28a93f4173421
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739409"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550041"
 ---
 # <a name="asset-leasing-reports"></a>Report di leasing cespite
 
@@ -37,7 +37,7 @@ Il report sul movimento del cespite funge da rapporto di rollforward per i saldi
 |     Campi del report                  |     Descrizione                                                                |
 |------------------------------------|--------------------------------------------------------------------------------|
 |     Data di inizio              |     La data di inizio della prima versione del leasing.                     |   
-|     Termine del leasing                     |     Il termine del leasing della prima versione del leasing.                            |
+|     Termine del leasing                     |     La versione attuale del termine del leasing.                            |
 |     Leasing a breve termine               |     Se il leasing è classificato come leasing a breve termine verrà visualizzato come **Sì**.         |
 |     Leasing a valore basso                |     Se il leasing è classificato come leasing a valore basso verrà visualizzato come **Sì**.          |
 |     Asset Right of use iniziale     |     Il valore originale dell'Asset Right of use dalla scrittura contabile di rilevazione iniziale.      |

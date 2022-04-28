@@ -8,12 +8,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: aamiral
 ms.search.validFrom: 2021-11-12
-ms.openlocfilehash: 7e3721421e15bc3e5937691cdbaee51e4d3cdd17
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: 63d6e5ef7e883578106495d5ec778bbd686ee92d
+ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349745"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "8550009"
 ---
 # <a name="commerce-analytics-preview"></a>Analisi di Commerce (anteprima)
 
@@ -352,15 +352,20 @@ La pagina **Report impressioni** include le seguenti metriche:
 
 ### <a name="enable-and-configure-commerce-analytics-preview"></a><a name="enableCommerceAnalytics"></a>Abilitare e configurare Analisi di Commerce (anteprima)
 
-Per installare Analisi di Commerce (anteprima), è necessario disporre delle autorizzazioni per creare risorse in una sottoscrizione di Azure. È inoltre necessario disporre delle autorizzazioni per installare i componenti aggiuntivi in LCS. 
+Per installare Analisi di Commerce (anteprima), è necessario disporre delle autorizzazioni per creare risorse in una sottoscrizione di Azure. È inoltre necessario disporre delle autorizzazioni per installare i componenti aggiuntivi in LCS.
 
 Per abilitare e configurare Analisi di Commerce (anteprima) segui questi passaggi.
 
-1. [Abilita e configura il componente aggiuntivo Esporta in Data Lake](#enableExportToDataLake).
-1. [Installa e configura Azure Synapse workspace](#configureAzureSynapse).
-1. [Aggiungi segreti al Key Vault](#addSecrets).
-1. [Abilita e configura il componente aggiuntivo Analisi di Commerce (anteprima)](#enableCommerceAnalyticsAddin).
-1. [Installa l'app modello Power BI](#powerbi).
+1. [Invia il modulo di acquisizione in anteprima per Analisi di Commerce (anteprima)](#joinPreview)
+2. [Abilita e configura il componente aggiuntivo Esporta in Data Lake](#enableExportToDataLake).
+3. [Installa e configura Azure Synapse workspace](#configureAzureSynapse).
+4. [Aggiungi segreti al Key Vault](#addSecrets).
+5. [Abilita e configura il componente aggiuntivo Analisi di Commerce (anteprima)](#enableCommerceAnalyticsAddin).
+6. [Installa l'app modello Power BI](#powerbi).
+
+### <a name="submit-the-preview-intake-form-for-commerce-analytics-preview"></a><a name="joinPreview"></a>Inviare il modulo di acquisizione in anteprima per Analisi di Commerce (anteprima)
+
+Invia il [modulo di acquisizione in anteprima per Analisi di Commerce (anteprima)](https://forms.office.com/r/vW5VLJGXZ2). Dopo l'elaborazione della richiesta, verrà inviata un'e-mail di conferma all'indirizzo e-mail fornito nel modulo.
 
 ### <a name="enable-and-configure-the-export-to-data-lake-add-in"></a><a name="enableExportToDataLake"></a>Abilita e configura il componente aggiuntivo Esporta in Data Lake
 

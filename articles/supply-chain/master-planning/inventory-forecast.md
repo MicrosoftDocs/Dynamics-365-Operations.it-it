@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: abc827139c71f7942335cd2b7e2c7502f7fc1cfe
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
+ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469396"
+ms.lasthandoff: 04/05/2022
+ms.locfileid: "8548169"
 ---
 # <a name="inventory-forecasts"></a>Previsioni di magazzino
 
@@ -39,7 +39,7 @@ Esistono anche altri modi per creare righe di previsione:
 - [Generare una previsione di base statistica](generate-statistical-baseline-forecast.md).
 - [Importare i dati storici per le previsioni della domanda](import-historical-data.md).
 - [Generare la previsione usando un servizio Web Learning Machine di Microsoft Azure](demand-forecasting-setup.md).
-- [Importare righe di previsione della domanda e dell'offerta usando il framework di gestione dei dati (entità di dati ForecastDemandForecastEntryStaging e ForecastSupplyForecastEntryStaging)](../../dev-itpro/data-entities/data-entities-data-packages.md).
+- [Importare righe di previsione della domanda e dell'offerta usando il framework di gestione dei dati (entità di dati ForecastDemandForecastEntryStaging e ForecastSupplyForecastEntryStaging)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).
 
 Come mostra la tabella al passaggio 1, esistono diversi modi per accedere alle pagine utilizzate.
 

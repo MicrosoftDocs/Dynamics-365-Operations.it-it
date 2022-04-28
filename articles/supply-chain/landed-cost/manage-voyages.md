@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 50b6f306da1d32b1fd98da68bd997de1f1c23ffb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 996a8b62b59dd27691a1eaa5ed619f94e899e8cf
+ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570948"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "8570438"
 ---
 # <a name="manage-voyages"></a>Gestire i viaggi
 
@@ -66,9 +66,9 @@ Nella seguente tabella sono descritte le azioni disponibili nella scheda **Gesti
 | In transito | Aggiorna il campo **Stato viaggio** allo stato In transito stabilito nella pagina **[Parametri di costo sbarcato](landed-cost-parameters.md)**. Non c'è ulteriore logica in questo processo. Un viaggio può anche essere aggiornato automaticamente allo stato in transito, in base alle impostazioni nel [Centro di controllo tracciabilità](delivery-information-setup.md).
 | Pronto per determinazione costi | Aggiorna il campo **Stato viaggio** allo stato Pronto per determinazione costi nella pagina **[Parametri di costo sbarcato](landed-cost-parameters.md)**. È possibile preventivare il costo di un viaggio quando tutte le fatture sono state elaborate (sia le fatture scorte che le fatture costo di viaggio) e le merci sono state ricevute. Se i costi stimati associati a un viaggio non sono stati preventivati, si verifica un errore quando si tenta di elaborare il costo di un viaggio. |
 | Preventivato | Elimina eventuali irregolarità nei costi dopo la creazione di una fattura per tutti gli ordini fornitore e i costi di viaggio. Quando si seleziona questo pulsante, viene visualizzata la finestra di dialogo **Aggiornamento viaggio - Preventivato**. Nella finestra di dialogo, è possibile registrare la data finanziaria standard o specificare una data di registrazione e quindi eseguire l'azione. È possibile rieseguire l'azione tutte le volte che si vuole. È anche possibile usare la finestra di dialogo **Aggiornamento viaggio - Preventivato** allo scopo di stabilire una pianificazione per eseguire l'azione come attività periodica (processo batch). Si consiglia di eseguire regolarmente l'azione configurandola come processo batch. |
-| Registra elenco entrate | Consente di registrare un elenco di entrate per tutte le righe di ordine fornitore nel viaggio. In caso di viaggi con più società, viene aperta una nuova finestra di dialogo per la registrazione dell'elenco entrate per ciascuna società, che deve essere elaborata in ogni persona giuridica. |
-| Registra entrata prodotti | Consente di registrare un entrata prodotti per tutte le righe di ordine fornitore nel viaggio. Il processo di entrata prodotti per le righe di ordine fornitore associate a un viaggio verrà utilizzato solo se per le merci **non** viene eseguita un'elaborazione merci in transito. Se per le merci viene eseguita un'elaborazione merci in transito, viene visualizzato un errore quando si tenta di registrare l'entrata prodotti per una riga di ordine fornitore. In caso di viaggi con più società, viene aperta una nuova finestra di dialogo per la registrazione della bolla di consegna per ciascuna società. |
-| Registra fattura | Consente di registrare una fattura per tutte le righe di ordine fornitore nel viaggio. Se per le merci del viaggio non viene eseguita un'elaborazione merci in transito, le righe di ordine fornitore verranno fatturate prima dell'esecuzione del processo di ricevimento. Quando l'ordine fornitore originale viene fatturato, verranno creati ordini di merci in transito associati alle righe dell'ordine fornitore originale. Tali ordini possono quindi essere ricevuti dal magazzino. Se si utilizzano spedizioni con più società, per ogni società viene aperta una nuova finestra di dialogo per la registrazione delle fatture. |
+| Registra elenco entrate | Consente di registrare un elenco di entrate per tutte le righe di ordine fornitore nel viaggio.  |
+| Registra entrata prodotti | Consente di registrare un entrata prodotti per tutte le righe di ordine fornitore nel viaggio. Il processo di entrata prodotti per le righe di ordine fornitore associate a un viaggio verrà utilizzato solo se per le merci **non** viene eseguita un'elaborazione merci in transito. Se per le merci viene eseguita un'elaborazione merci in transito, viene visualizzato un errore quando si tenta di registrare l'entrata prodotti per una riga di ordine fornitore.  |
+| Registra fattura | Consente di registrare una fattura per tutte le righe di ordine fornitore nel viaggio. Se per le merci del viaggio non viene eseguita un'elaborazione merci in transito, le righe di ordine fornitore verranno fatturate prima dell'esecuzione del processo di ricevimento. Quando l'ordine fornitore originale viene fatturato, verranno creati ordini di merci in transito associati alle righe dell'ordine fornitore originale. Tali ordini possono quindi essere ricevuti dal magazzino.  |
 | Ordine di trasferimento spedizione | Consente di registrare un viaggio dell'ordine di trasferimento per tutte le righe dell'ordine di trasferimento nel viaggio. Quando questo pulsante è selezionato, solo gli ordini di trasferimento saranno disponibili per l'aggiornamento. |
 | Ricevi ordine di trasferimento | Consente di registrare un ricevimento dell'ordine di trasferimento per tutte le righe dell'ordine di trasferimento nel viaggio. |
 | Ricevi merci in transito | Consente di ricevere tutte le righe dell'ordine in transito nel viaggio. Questo pulsante è una delle tre opzioni disponibili per ricevere merci in transito di un viaggio. (Le altre due opzioni sono il pulsante **Crea giornale di registrazione arrivi** descritto più avanti in questa tabella e nell'app per dispositivi mobili Gestione magazzino). Questa opzione è la più semplice ed elaborerà le merci in transito che non sono nel magazzino merci in transito e nel magazzino di destinazione finale. Se si desidera un maggiore controllo sul processo, utilizzare il giornale di registrazione arrivi o un dispositivo mobile per elaborare il ricevimento delle merci. |
@@ -84,7 +84,7 @@ Nella seguente tabella sono descritti i pulsanti disponibili nella scheda **Gene
 
 | Pulsante | Descrizione |
 |---|---|
-| Elenco entrate | Apre un elenco di entrate prodotti per tutte le righe di ordine fornitore nel viaggio. In caso di viaggi con più società, viene aperto un nuovo elenco di entrate per ciascuna società. Se nessun elenco di entrate prodotti è stato elaborato, questo pulsante non è disponibile. |
+| Elenco entrate | Apre un elenco di entrate prodotti per tutte le righe di ordine fornitore nel viaggio.  Se nessun elenco di entrate prodotti è stato elaborato, questo pulsante non è disponibile. |
 | Entrata prodotti | Apre il record di entrata prodotti per le righe dell'ordine fornitore associate al viaggio, se viene utilizzato tale record. Se nessuna entrata prodotti è stata registrata, questo pulsante non è disponibile. Il processo di entrata prodotti non verrà utilizzato se si utilizza l'elaborazione merci in transito. |
 | Arrivo articoli | Apre il giornale di registrazione arrivi di articoli, se utilizzato. |
 | Tracciabilità | Apre la pagina **Tracciabilità in entrata**, in cui è possibile aggiornare la data di arrivo prevista delle merci in un contenitore di spedizione e in un viaggio e quindi aggiornare le date di consegna previste delle righe dell'ordine fornitore. |
