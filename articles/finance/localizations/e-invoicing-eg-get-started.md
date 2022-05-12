@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fe1dd4254db8b390c17558320a6eaff2b0dcd19
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: e21c4ce4d676c3194665672a078dc1e3d0492799
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371358"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661724"
 ---
 # <a name="electronic-invoicing-for-egypt"></a>Fatturazione elettronica per l'Egitto
 
@@ -42,7 +42,7 @@ Prima di iniziare le procedure in questo argomento, completa i seguenti prerequi
     - [Installa il componente aggiuntivo per microservizi in Lifecycle Services](e-invoicing-install-add-in-microservices-lcs.md)
     
 - Attiva l'integrazione tra l'applicazione Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management e il servizio di fatturazione elettronica come descritto in [Attivare e configurare l'integrazione con la fatturazione elettronica](e-invoicing-activate-setup-integration.md).
-- Crea un segreto del certificato digitale in Azure Key Vault e configuralo come descritto in [Certificati e segreti del cliente](e-invoicing-customer-certificates-secrets.md). A scopo di test, l'ufficio tributario egiziano fornisce certificati digitali di test specifici che devono essere utilizzati solo durante le fasi di test e convalida della soluzione. Per ulteriori informazioni, vai al Web dell'ufficio tributario egiziano utilizzando il collegamento fornito in [SDK per la fatturazione elettronica per l'Egitto](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+- Crea un segreto del certificato digitale in Azure Key Vault e configuralo come descritto in [Certificati e segreti del cliente](e-invoicing-customer-certificates-secrets.md). A scopo di test, l'ufficio tributario egiziano fornisce certificati digitali di test specifici che devono essere utilizzati solo durante le fasi di test e convalida della soluzione. Per ulteriori informazioni, vai al Web dell'ufficio tributario egiziano utilizzando il collegamento fornito in [SDK per la fatturazione elettronica per l'Egitto](https://sdk.invoicing.eta.gov.eg/faq/).
 
 ## <a name="country-specific-configuration-for-the-egyptian-electronic-invoice-eg-feature"></a>Configurazione specifica del paese per la funzionalità di fatturazione elettronica egiziana
 
@@ -56,7 +56,7 @@ Alcuni dei parametri della **Fattura elettronica egiziana (EG)** vengono pubblic
 6. Nella scheda **Pipeline di elaborazione**, nella sezione **Pipeline di elaborazione**, seleziona **Firma documento JSON per l'ufficio tributario egiziano**.
 7. Nella sezione **Parametri**, seleziona **Nome certificato** e quindi seleziona il nome del certificato digitale creato.
 8. Nella sezione **Processing pipeline**, seleziona **Integrazione con il servizio ETA egiziano**. Ripetere questo passaggio per le due occorrenze di questa azione.
-9. Nella sezione **Parametri**, seleziona **URL servizio Web** e **URL servizio di accesso**. Quindi esamina i parametri URL. Per recuperare l'URL di test e produzione, vai al sito Web dell'ufficio tributario egiziano utilizzando il collegamento fornito in [SDK per la fatturazione elettronica per l'Egitto](https://sdk.sit.invoicing.eta.gov.eg/faq/).
+9. Nella sezione **Parametri**, seleziona **URL servizio Web** e **URL servizio di accesso**. Quindi esamina i parametri URL. Per recuperare l'URL di test e produzione, vai al sito Web dell'ufficio tributario egiziano utilizzando il collegamento fornito in [SDK per la fatturazione elettronica per l'Egitto](https://sdk.invoicing.eta.gov.eg/faq/).
 10. Selezionare **Salva**, quindi chiudere la pagina.
 11. Ripeti i passaggi da 4 a 10 per la configurazione della funzionalità **Fattura di progetto derivata**.
 

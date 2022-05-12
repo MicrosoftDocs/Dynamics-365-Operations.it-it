@@ -2,7 +2,7 @@
 title: Panoramica dei processi di importazione ed esportazione dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: peakerbl
-ms.date: 10/21/2021
+ms.date: 04/25/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e63daad6f206500bfa21c28635648c717f5bbdde
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071087"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644461"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -74,8 +74,11 @@ Quando si seleziona un'entità, è necessario selezionare il formato dei dati da
 > [!NOTE]
 > È importante selezionare il valore corretto per **Delimitatore riga**, **Delimitatore colonna** e **Qualificatore testo**, se l'opzione **Formato file** è impostata su **Delimitato**. Assicurati che i tuoi dati non contengano il carattere utilizzato come delimitatore o qualificatore, poiché ciò potrebbe causare errori durante l'importazione e l'esportazione.
 
+> [!NOTE]
+> Per i formati di file basati su XML, assicurati di utilizzare solo caratteri validi. Per maggiori dettagli sui caratteri validi, vedi [Caratteri validi in XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 non consente alcun carattere di controllo ad eccezione di tabulazioni, ritorni a capo e avanzamenti di riga. Esempi di caratteri non validi sono parentesi quadre, parentesi graffe e barre rovesciate. 
+
 ### <a name="sequence-the-entities"></a>Sequenziare le entità
-È possibile sequenziare le entità in un modello di dati o nei processi di importazione e esportazione. Quando si esegue un processo contenente più entità di dati, è necessario assicurarsi che le entità di dati siano sequenziate correttamente. Il sequenziamento delle entità deve essere eseguito in modo da poter risolvere qualsiasi dipendenza funzionale tra le entità. Se le entità non hanno dipendenze funzionali, possono essere programmate per l'importazione o l'esportazione parallela.
+È possibile sequenziare le entità in un modello di dati o nei processi di importazione e esportazione. Quando si esegue un processo contenente più entità di dati, è necessario assicurarsi che le entità di dati siano sequenziate correttamente. Il sequenziamento delle entità deve essere eseguito in modo da poter risolvere qualsiasi dipendenza funzionale tra le entità. Se le entità non hanno dipendenze funzionali, possono essere programmate per l'importazione o l'esportazione parallela. 
 
 #### <a name="execution-units-levels-and-sequences"></a>Unità di esecuzione, livelli e sequenze
 L'unità di esecuzione, il livello nell'unità di esecuzione e la sequenza di un'entità consentono di determinare l'ordine in cui i dati vengono esportati o importati.

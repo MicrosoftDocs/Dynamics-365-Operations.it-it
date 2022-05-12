@@ -14,18 +14,27 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ebf11b55f1034b9a84dda9ada77c2f1b7f587a58
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 89d2f53a761085949885c987d664654c3423524b
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781591"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645079"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Installare il componente aggiuntivo Intelligence IoT in LCS
 
 [!include [banner](../../includes/banner.md)]
 
 In questo argomento viene descritto come installare il componente aggiuntivo Intelligence IoT in Microsoft Dynamics Lifecycle Services (LCS). Si noti che i componenti aggiuntivi non possono essere installati in un ambiente demo/di prova. Prima di poter installare il componente aggiuntivo, devi [creare le risorse di Azure](iot-azure-setup.md).
+
+Puoi impostare e configurare Intelligenza IoT senza scrivere alcun codice. Ecco i passaggi di base.
+
+1. [Impostare le risorse di Azure](iot-azure-setup.md): creare un hub IoT, una cache Redis e un insieme di credenziali delle chiavi a cui è possibile accedere da Supply Chain Management.
+2. [Formati dello schema dei messaggi per l'hub IoT](iot-schema-format.md): configurare i dispositivi per inviare messaggi all'hub IoT e definire il formato del messaggio JavaScript Object Notation (JSON).
+3. In Gestione funzionalità, abilitare il flag della funzionalità di Intelligenza IoT.
+4. Installa il componente aggiuntivo Intelligenza IoT in Microsoft Dynamics Lifecycle Services (LCS): installa il componente aggiuntivo in LCS e configura i segreti di Azure (come descritto in questo argomento).
+5. [Impostare le metriche](iot-metrics-setup.md): impostare le metriche in Supply Chain Management.
+6. [Configurazione dello scenario](iot-scenario-setup.md): configurare gli scenari in Supply Chain Management.
 
 ## <a name="set-up-the-lcs-environment"></a>Configurare l'ambiente LCS
 

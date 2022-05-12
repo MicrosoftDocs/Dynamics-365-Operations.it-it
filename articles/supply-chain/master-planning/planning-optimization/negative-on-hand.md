@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4eb8f6aee50d74127ecc816af691a96bb1d8966b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: bb837a38485bad2b9b76a5e4f20d311c0281e192
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469144"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625389"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Pianificazione con quantità disponibili negative
 
@@ -75,7 +75,7 @@ Il risultato è un ordine pianificato di 25 pz. (= 25 pz. &minus; 0 pz.) per ric
 
 ## <a name="planning-when-there-is-a-reservation-against-negative-on-hand-inventory"></a>Pianificazione in caso di prenotazione a fronte di scorte disponibili negative
 
-Se modifichi l'inventario mentre esistono prenotazioni fisiche, puoi causare una situazione in cui un ordine viene prenotato fisicamente a fronte di un inventario negativo. In questo caso, poiché esiste una prenotazione fisica, Ottimizzazione pianificazione presuppone che sia supportata dalle scorte disponibili, anche se il ricevimento delle scorte disponibili non è ancora registrato nel sistema. Pertanto, presuppone che il riapprovvigionamento non sia necessario e non crea un ordine pianificato per rifornire la quantità dell'ordine.
+Se modifichi l'inventario mentre esistono prenotazioni fisiche, puoi causare una situazione in cui un ordine viene prenotato fisicamente a fronte di un inventario negativo. In questo caso, poiché esiste una prenotazione fisica, è necessario disporre di una fornitura per coprire la quantità prenotata. Pertanto, è necessario il rifornimento, quindi il sistema creerà un ordine pianificato per rifornire la quantità che non può essere coperta dalle scorte disponibili esistenti o per coprirla con un ordine esistente per l'articolo.
 
 Nel seguente scenario di esempio viene illustrato questo aspetto.
 
@@ -88,7 +88,7 @@ Il sistema è configurato nel seguente modo:
 - Esiste un ordine cliente per una quantità di *10* pezzi di prodotto *FG*.
 - La quantità dell'ordine cliente viene prenotata fisicamente per le scorte disponibili esistenti.
 
-Quindi regoli la quantità del prodotto *FG* in modo che le scorte disponibili diventino 0 (zero). Poiché le scorte di prodotti disponibili sono pari a zero, la quantità dell'ordine cliente è ora riservata rispetto a scorte negative. Tuttavia, se esegui la pianificazione generale, non verrà creato alcun ordine pianificato per fornire l'ordine cliente, poiché Ottimizzazione pianificazione presuppone che esistano le scorte disponibili necessarie per fornire la prenotazione fisica.
+Quindi regoli la quantità del prodotto *FG* in modo che le scorte disponibili diventino 5. Poiché l'inventario dei prodotti disponibili è 5, la quantità dell'ordine cliente è ora riservata su una quantità che non è disponibile (sarebbe simile se l'inventario disponibile fosse 0, nel qual caso l'ordine cliente sarebbe riservato su un inventario negativo). Se ora esegui la pianificazione generale, verrà creato un ordine pianificato di quantità 5 per *FG* per fornire l'ordine cliente, poiché Ottimizzazione pianificazione utilizzerà sempre la fornitura esistente o creerà un nuovo ordine pianificato per fornire la prenotazione fisica.
 
 ## <a name="related-resources"></a>Risorse correlate
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 642ba812156a95e9b0be2e996d4a93096a5809a9
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468330"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618262"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Differenze tra la pianificazione generale integrata e l'ottimizzazione della pianificazione
 
@@ -37,6 +37,7 @@ I risultati di Planning Optimization potrebbero differire dai risultati del moto
 | Pegging delle scorte di sicurezza e fabbisogni netti | Il tipo di requisito *Scorta di sicurezza* non è incluso e non viene visualizzato nella pagina **fabbisogni netti**. Le scorte di sicurezza non rappresentano la domanda e non sono associate a una data di fabbisogno. Imposta invece un vincolo sulla quantità di scorte che deve essere sempre presente. In ogni caso, il valore del campo **Minimo** viene ancora preso in considerazione durante il calcolo degli ordini pianificati durante la pianificazione generale. Ti consigliamo di ispezionare la colonna **Quantità accumulata** nella pagina **fabbisogni netti** per controllare che questo valore sia stato considerato. |
 | Calendari di trasporto | Il valore nella colonna **Calendario di trasporto** nella pagina **Modalità di consegna** è ignorato. |
 | Codice di copertura minimo/massimo senza valori| Con il motore di pianificazione integrato, quando usi un codice di copertura min/max in cui nessun valore minimo o massimo è impostato, il motore di pianificazione tratta il codice di copertura come requisito e crea un ordine per ciascun requisito. Con Ottimizzazione pianificazione, il sistema creerà un ordine per giorno per coprire l'importo completo di tale giorno.  |
+| Fabbisogno netto e ordini pianificati creati manualmente | Con il motore di pianificazione integrato, gli ordini di fornitura creati manualmente per un articolo vengono visualizzati automaticamente tra i fabbisogni netti dell'articolo. Ad esempio, quando si crea un ordine fornitore da un ordine cliente, l'ordine fornitore viene visualizzato nella pagina **Fabbisogno netto** senza richiedere alcuna azione preventiva. Ciò avviene perché il motore di pianificazione integrato registra le transazioni di magazzino nella tabella `inventLogTTS` e mostra le modifiche nella pagina **Fabbisogno netto** per i piani dinamici. Tuttavia, con Ottimizzazione pianificazione, gli ordini creati manualmente non verranno visualizzati tra i fabbisogni netti di un articolo finché non viene eseguita l'Ottimizzazione pianificazione (utilizzando un piano che include l'articolo) o finché non si seleziona **Aggiorna \> Pianificazione principale** nel riquadro azioni della pagina **Fabbisogno netto** che eseguirà la pianificazione generale per l'articolo. Per ulteriori informazioni su come lavorare con la pagina **Fabbisogni netti**, vedi [Fabbisogni netti e informazioni di pegging con Ottimizzazione pianificazione](net-requirements.md). |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

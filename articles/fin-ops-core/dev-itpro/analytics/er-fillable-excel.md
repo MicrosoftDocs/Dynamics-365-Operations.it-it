@@ -2,7 +2,7 @@
 title: Progettare una configurazione per generare documenti in uscita in formato Excel
 description: Questo argomento descrive come progettare un formato di report elettronico (ER) per compilare un modello Excel e quindi generare documenti in formato Excel in uscita.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b2f38aa9e5eff9366697afd57ceefd06f026096
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388265"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645137"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -141,7 +141,12 @@ Puoi configurare il tuo modello Excel in modo che utilizzi le celle per presenta
 > [!NOTE]
 > A causa di una nota [Limitazione di Excel](https://support.microsoft.com/topic/you-cannot-use-the-autofit-feature-for-rows-or-columns-that-contain-merged-cells-in-excel-34b54dd7-9bfc-6c8f-5ee3-2715d7db4353), anche se configuri le celle per il testo a capo e configuri le righe che contengono quelle celle per regolare automaticamente la loro altezza in modo che si adatti al testo a capo, potresti non essere in grado di utilizzare le funzionalità di Excel **Adattamento automatico** e **Testo a capo** per le celle unite e le righe che le contengono. 
 
-A partire da Dynamics 365 Finance versione 10.0.23, puoi forzare ER a calcolare, in un documento generato, l'altezza di ogni riga che è stata configurata per adattare automaticamente la sua altezza al contenuto delle celle nidificate ogni volta che quella riga contiene almeno una cella unita che è stata configurata per mandare a capo il testo al suo interno. L'altezza calcolata viene quindi utilizzata per ridimensionare la riga per garantire che tutte le celle della riga siano visibili nel documento generato. Per iniziare a utilizzare questa funzionalità quando si eseguono formati ER configurati per l'utilizzo di modelli Excel per generare documenti in uscita, attieniti alla seguente procedura.
+A partire da Dynamics 365 Finance versione 10.0.23, quando lavori in un documento generato, puoi forzare ER a calcolare, in un documento generato, l'altezza di ogni riga che è stata configurata per adattare automaticamente la sua altezza al contenuto delle celle nidificate ogni volta che quella riga contiene almeno una cella unita che è stata configurata per mandare a capo il testo al suo interno. L'altezza calcolata viene quindi utilizzata per ridimensionare la riga per garantire che tutte le celle della riga siano visibili nel documento generato.
+
+> [!NOTE]
+> Tieni presente che questa funzionalità potrebbe non funzionare come previsto quando viene utilizzato un carattere personalizzato per formattare una cella unita. Poiché Excel non incorpora caratteri personalizzati, non fornisce informazioni sulla dimensione del carattere personalizzata. Pertanto, la dimensione della cella unita può essere stimata in modo non corretto.
+
+Per iniziare a utilizzare questa funzionalità quando si eseguono formati ER configurati per l'utilizzo di modelli Excel per generare documenti in uscita, attieniti alla seguente procedura.
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nella pagina **Configurazioni localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Parametri per la creazione di report elettronici**.

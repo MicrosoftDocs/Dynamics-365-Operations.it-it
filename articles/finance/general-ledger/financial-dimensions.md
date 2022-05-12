@@ -2,7 +2,7 @@
 title: Dimensioni finanziarie
 description: Questo argomento illustra i vari tipi di dimensioni finanziarie e come impostarle.
 author: aprilolson
-ms.date: 01/03/2019
+ms.date: 03/07/2022
 ms.topic: article
 ems.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d5de5b58f0d498c4766659671d43fdb216cd6a870345509505b5a6bc19bdd4a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e667e8dd1282e788eb40cd392baa9db824cec2
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754196"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644361"
 ---
 # <a name="financial-dimensions"></a>Dimensioni finanziarie
 
@@ -79,8 +79,12 @@ Per contribuire a garantire l'integrità referenziale dei dati, le dimensioni fi
 - La dimensione finanziaria è utilizzata in una struttura dei conti attiva, una struttura di regole avanzate o un set di dimensioni finanziarie?
 - La dimensione finanziaria fa parte di un formato di integrazione predefinito della dimensione finanziaria?
 - La dimensione finanziaria è stata impostata come dimensione predefinita?
+- La dimensione finanziaria è stata deselezionata dall'impostazione di Financial Reporting? 
 
 Se uno dei criteri viene soddisfatto, non sarà possibile eliminare la dimensione finanziaria.
+
+> [!NOTE]
+> A partire dalla versione Finance 10.0.27, le dimensioni finanziarie non verranno più selezionate automaticamente per l'impostazione di Financial Reporting quando vengono create. 
 
 ## <a name="default-dimension-values"></a>Valori di dimensione predefiniti
 

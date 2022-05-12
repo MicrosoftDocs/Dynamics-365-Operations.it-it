@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b8e8c65cebe64f86dcf158668e8a4f5600c158a1
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 2956a9e18e24532c5a26bbbaf61438c9b7550a1a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782429"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644702"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configurazione dello scenario per l'Intelligence IoT
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento spiega come configurare gli scenari per Intelligence IoT in Microsoft Dynamics 365 Supply Chain Management. Prima di poter impostare lo scenario è necessario [impostare Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+Questo argomento spiega come configurare gli scenari per Intelligence IoT in Microsoft Dynamics 365 Supply Chain Management. <!-- KFM: Hide setup info for now: Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md). -->
 
 In questo argomento, configurerai lo scenario **Tempo morto dell'attrezzatura** per generare una notifica in Supply Chain Management quando un computer si arresta. L'argomento mostra anche come configurare lo scenario **Qualità del prodotto** in modo che venga generata una notifica se un attributo di un articolo è al di fuori di un intervallo specificato e come configurare lo scenario **Ritardi in produzione** in modo che venga generata una notifica se la velocità di produzione scende al di sotto di un valore di soglia.
 

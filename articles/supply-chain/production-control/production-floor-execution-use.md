@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: a677eb71f97a953c625a1f667b055e5b7696fbe6
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f163b8feb906470f31a648bf09abf5647c5f1bab
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384421"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644992"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -74,9 +74,9 @@ L'elenco dei processi attivi include le seguenti colonne:
 
 ## <a name="my-jobs-tab"></a>Scheda Processi personali
 
-La scheda **Processi personali** consente ai lavoratori di visualizzare facilmente tutti i processi non avviati e non completati assegnati loro specificamente. È utile nelle aziende in cui i processi sono talvolta o sempre assegnati a lavoratori specifici (risorse umane) anziché ad altri tipi di risorse (come le macchine). 
+La scheda **Processi personali** consente ai lavoratori di visualizzare facilmente tutti i processi non avviati e non completati assegnati loro specificamente. È utile nelle aziende in cui i processi sono talvolta o sempre assegnati a lavoratori specifici (risorse umane) anziché ad altri tipi di risorse (come le macchine).
 
-Il sistema di pianificazione assegna automaticamente ogni processo di produzione a un record di risorse specifico e ogni record di risorse ha un tipo (come macchina o umano). Quando configuri un dipendente come lavoratore di produzione, puoi associare l'account lavoratore a un record di risorse umane univoco. 
+Il sistema di pianificazione assegna automaticamente ogni processo di produzione a un record di risorse specifico e ogni record di risorse ha un tipo (come macchina o umano). Quando configuri un dipendente come lavoratore di produzione, puoi associare l'account lavoratore a un record di risorse umane univoco.
 
 La scheda **Processi personali** elenca tutti i processi non avviati e non completati che sono stati assegnati al record delle risorse umane del lavoratore che ha eseguito l'accesso, se un lavoratore ha effettuato l'accesso. Non elenca mai i processi che sono stati assegnati a una macchina o ad un altro tipo di risorsa, anche se il lavoratore che ha eseguito l'accesso ha iniziato a lavorare su quei processi.
 
@@ -87,7 +87,7 @@ Per visualizzare tutti i processi che sono stati avviati dal lavoratore che ha e
 ## <a name="my-machine-tab"></a>Scheda Macchina personale
 
 La scheda **Macchina personale** consente ai lavoratori di selezionare un cespite connesso a una risorsa di tipo macchina all'interno del filtro impostato nella scheda **Tutti i processi**. Il lavoratore può quindi visualizzare lo stato e l'integrità del cespite selezionato leggendo i valori per un massimo di quattro contatori selezionati e gli elenchi delle recenti richieste di manutenzione e dei tempi di fermo registrati. Il lavoratore può anche richiedere la manutenzione per il cespite selezionato e registrare e modificare i tempi di fermo macchina. Il nome di questa scheda è personalizzabile e potrebbe essere diverso per il tuo sistema.
- 
+
 ![Scheda Macchina personale.](media/pfei-my-machine-tab.png "Scheda Macchina personale")
 
 La scheda **Macchina personale** include le seguenti colonne. I numeri corrispondono ai numeri della precedente figura.
@@ -202,9 +202,9 @@ Sarà quindi possibile effettuare le azioni riportate di seguito:
 - Se il lavoratore seleziona **OK**, la distinta di prelievo non viene eliminata. Verrà pubblicata quando il lavoro sarà segnalato nella finestra di dialogo **Dichiara scarto** o **Segnala stato**.
 - Se il lavoratore seleziona **Annulla** nella finestra di dialogo **Segnala stato** o **Dichiara scarto**, la distinta di prelievo viene eliminata.
 
-### <a name="adjust-material-from-the-toolbar-on-the-right"></a>Regolare il materiale dalla barra degli strumenti a destra
+### <a name="adjust-material-from-the-primary-or-secondary-toolbar"></a>Rettificare il materiale dalla barra degli strumenti principale o secondaria
 
-Il pulsante **Regola materiale** può essere configurato in modo da essere visualizzato sulla barra degli strumenti a destra. (Per ulteriori informazioni, vedi [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md)). Un lavoratore può selezionare **Regola materiale** per un processo di produzione in corso. In questo caso, viene visualizzata la finestra di dialogo **Regola materiale** in cui l'operatore può apportare le modifiche desiderate. Quando si apre la finestra di dialogo, per l'ordine di produzione viene creata una distinta di prelievo di produzione che contiene le righe per le quantità rettificate. Se il lavoratore seleziona **Pubblica ora**, la rettifica viene confermata e la distinta di prelievo viene registrata. Se il lavoratore seleziona **Annulla**,la distinta di prelievo viene eliminata e non viene apportata aluna modifica.
+Il pulsante **Rettifica materiale** può essere configurato in modo da essere visualizzato sulla barra degli strumenti principale o secondaria. (Per ulteriori informazioni, vedi [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md)). Un lavoratore può selezionare **Regola materiale** per un processo di produzione in corso. In questo caso, viene visualizzata la finestra di dialogo **Regola materiale** in cui l'operatore può apportare le modifiche desiderate. Quando si apre la finestra di dialogo, per l'ordine di produzione viene creata una distinta di prelievo di produzione che contiene le righe per le quantità rettificate. Se il lavoratore seleziona **Pubblica ora**, la rettifica viene confermata e la distinta di prelievo viene registrata. Se il lavoratore seleziona **Annulla**,la distinta di prelievo viene eliminata e non viene apportata aluna modifica.
 
 ### <a name="adjust-material-consumption-for-catch-weight-items"></a>Regolare il consumo di materiale per gli articoli a peso variabile
 
@@ -260,6 +260,42 @@ In entrambi gli scenari, dopo che Shannon ha confermato la sua selezione, va all
 I lavoratori possono registrare le pause. Le pause possono essere definite in modo flessibile, come descritto in [Retribuzione basata sulle registrazioni](pay-based-on-registrations.md).
 
 Un lavoratore registra una pausa selezionando **Pausa** e quindi selezionando la scheda che rappresenta il tipo di pausa (come pranzo). Dopo che il lavoratore ha confermato la selezione, il dispositivo mostra la pagina di accesso o una pagina che attende che il lavoratore confermi di essere tornato dalla pausa. La pagina che appare dipende dalla configurazione dell'interfaccia di esecuzione dell'area di produzione. (Per ulteriori informazioni, vedere [Configurare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-configure.md).)
+
+## <a name="view-the-my-day-dialog"></a>Visualizzare la finestra di dialogo "Registrazioni quotidiane"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+La finestra di dialogo **Registrazioni quotidiane** fornisce ai lavoratori una panoramica delle registrazioni e dei saldi. La finestra di dialogo è suddivisa nelle tre sezioni seguenti:
+
+- La sezione principale elenca le registrazioni che l'attuale lavoratore ha effettuato in una data selezionata. Si apre mostrando le registrazioni per il giorno corrente e fornisce un selettore di date che consente al lavoratore di visualizzare altri giorni.
+- La sezione **Ultimo saldo giornaliero calcolato** mostra i saldi correnti del lavoratore per ore retribuite, straordinari retribuiti, assenze e assenze retribuite. Questi valori si basano sulle registrazioni che sono state calcolate durante il processo di approvazione.
+- La sezione **Saldi** fornisce una panoramica dei saldi entro un periodo definito per le categorie selezionate di registrazioni (come ferie, orari standard e straordinari). Questi saldi si basano sul modo in cui i saldi statistici sono impostati nel modulo **Orario e presenze**. Per ulteriori informazioni su come impostarlo, vedi [Mostrare i saldi ferie nell'interfaccia di esecuzione dell'area di produzione](production-floor-execution-payroll-stats.md).
+
+Gli amministratori possono aggiungere questa funzione all'interfaccia inserendo il pulsante **Registrazioni quotidiane** su una barra degli strumenti per ciascuna scheda pertinente come descritto in [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md).
+
+## <a name="working-in-teams"></a>Lavorare in team
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Quando più lavoratori vengono assegnati allo stesso processo di produzione, possono formare un team. Il team può nominare un lavoratore come pilota. I restanti lavoratori quindi diventano automaticamente assistenti del pilota. Per il team risultante, solo il pilota deve registrare lo stato del processo. I record di tempo si applicano a tutti i membri del team.
+
+### <a name="prerequisites"></a>Prerequisiti
+
+Per utilizzare i team, un amministratore deve abilitare l'azione **Assistente** per la barra degli strumenti principale nella scheda **Tutti i processo** dell'interfaccia di esecuzione dell'area di produzione. Per istruzioni, vedi [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md).
+
+### <a name="form-a-new-team-that-has-a-pilot-and-an-assistant"></a>Formare un nuovo team che ha un pilota e un assistente
+
+Un lavoratore può registrarsi come assistente selezionando **Assistente** nella scheda **Tutti i processi**. Poi, nella finestra di dialogo **Selezionare un dipendente per l'assistenza** visualizzata, il lavoratore può selezionare un pilota in un elenco di lavoratori che stanno attivamente lavorando a un processo. Dopo che il lavoratore ha confermato la selezione, diventa assistente del lavoratore selezionato, che diventa il pilota del nuovo team.
+
+### <a name="assign-a-new-pilot-to-an-existing-team"></a>Assegnare un nuovo pilota a un team esistente
+
+Quando un team vuole selezionare un nuovo pilota, il pilota attuale deve nominare un altro lavoratore del team come nuovo pilota. Per nominare un nuovo pilota, il pilota attuale seleziona **Assistente** nella scheda **Tutti i processi**. Poi, nella finestra di dialogo **Cambia pilota** visualizzata, il pilota può selezionare un nuovo pilota in un elenco di lavoratori che fanno già parte del team. Dopo che il pilota corrente ha confermato la selezione, viene completamente rimosso dal team. Tuttavia, può rientrare nel team se necessario.
+
+### <a name="assistant-clocks-out"></a>Uscita dell'assistente
+
+Quando un lavoratore che lavora come assistente esce, lascia il team. Se le opzioni **Team permanenti** e **Riavvia all'entrata** sono impostate su *sì*, un lavoratore che esce, rientra automaticamente nel team la prossima volta che effettua la timbratura per entrare. Puoi trovare queste opzioni nella scheda **Generale** della pagina **Parametri di orari e presenze**.
 
 ## <a name="opening-instructions"></a>Apertura delle istruzioni
 

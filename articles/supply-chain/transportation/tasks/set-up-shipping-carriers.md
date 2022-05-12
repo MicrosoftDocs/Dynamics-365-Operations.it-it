@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e9bc4fefb6aabc0b93d4d96f5930590ef99235b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 38bf1f9f201e7f34e6a7ea76fbef399ba94caafa
+ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567658"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8660381"
 ---
 # <a name="set-up-shipping-carriers"></a>Impostare vettori di spedizione
 
@@ -27,8 +27,8 @@ ms.locfileid: "7567658"
 
 In questo argomento viene descritto come impostare un vettore di spedizione e come definire dettagli quali servizio, modalità di spedizione, metodo di pagamento del trasporto, vincoli di trasporto e tariffa di trasporto. Un coordinatore dei trasporti può quindi assegnare un vettore di spedizione a un carico in entrata o in uscita.
 
-
 ## <a name="create-a-new-shipping-carrier"></a>Creare un nuovo vettore di spedizione
+
 1. Andare a **Pannello di navigazione > Moduli > Gestione trasporto > Impostazioni > Vettori > Vettori spedizione**.
 2. Nel Riquadro azioni seleziona **Nuovo**.
 3. Nel campo **Vettore spedizione** digitare un valore.
@@ -36,6 +36,7 @@ In questo argomento viene descritto come impostare un vettore di spedizione e co
 5. Nel campo **Modo**, selezionare un'opzione dal menu a discesa.
 
 ## <a name="fill-in-the-general-information-for-the-shipping-carrier"></a>Inserire le informazioni generali per il vettore di spedizione
+
 1. Attivare/disattivare l'espansione della sezione **Panoramica**.
 2. Selezionare o deselezionare la casella di controllo **Attiva vettore di spedizione**.
 3. Nel campo **Conto fornitore**, selezionare un'opzione dal menu a discesa. Selezionare il conto fornitore a cui assegnare il vettore di spedizione.  
@@ -43,13 +44,16 @@ In questo argomento viene descritto come impostare un vettore di spedizione e co
 5. Selezionare o deselezionare la casella di controllo **Attiva valutazione vettore**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Creare i servizi necessari per il vettore di spedizione
+
 1. Attivare/disattivare l'espansione della sezione **Servizi**.
 2. Selezionare **Nuovo**.
 3. Nel campo **Servizio trasporto** digitare un valore.
 4. Digitare un valore nel campo **Nome**.
-5. Nel campo **Metodo di trasporto**, selezionare un'opzione dal menu a discesa.
+5. Nel campo **ID modello di carico** seleziona un modello di carico da associare al servizio. Il modello di carico definisce le misure massime per il peso e il volume di un intero carico. Ad esempio, il modello di carico può rappresentare la dimensione di un contenitore o di un camion. Gli ID dei modelli di carico vengono specificati anche nei modelli di creazione del carico e quando si utilizza il [workbench di allestimento del carico](load-building-workbench.md), che ti aiuta ad applicare strategie di creazione del carico. Di conseguenza, il sistema sarà in grado di abbinare ogni nuovo carico a un servizio di corriere appropriato confrontando gli ID modello di carico specificati.
+6. Nel campo **Metodo di trasporto**, selezionare un'opzione dal menu a discesa.
 
 ## <a name="set-up-the-address-for-the-carrier-optional"></a>Impostare l'indirizzo del vettore (facoltativo)
+
 1. Attiva/disattiva l'espansione della sezione **Indirizzi**.
 2. Selezionare **Nuovo**.
 3. Digitare un valore nel campo **Nome o descrizione**.
@@ -59,6 +63,7 @@ In questo argomento viene descritto come impostare un vettore di spedizione e co
 7. Selezionare **OK**.
 
 ## <a name="set-up-the-rating-profile-for-the-shipping-carrier"></a>Impostare il profilo di valutazione per il vettore di spedizione
+
 1. Attivare/disattivare l'espansione della sezione **Profili valutazione**.
 2. Selezionare **Nuovo**.
 3. Nel campo **Profilo valutazione** digitare un valore.

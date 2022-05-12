@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6ca4197e6dcea769b4344aa0627247d95bb11e1c115f3da9385730b8f193ef22
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f8c69e66df17a305f97a8d9094337f70c9df3c8
+ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763072"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8660399"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
@@ -33,7 +33,7 @@ Configurare i libri IVA italiani seguendo le istruzioni in [Libri IVA italiani](
 
 ## <a name="set-up-the-yearly-tax-communication-report"></a>Configurare il report di comunicazione annuale delle imposte
 
-1. In Microsoft Dynamics 365 Finance, andare a **Amministrazione organizzazione** \> **Organizzazioni** \> **Persone giuridiche**.
+1. In Microsoft Dynamics 365 Finance, vai a **Amministrazione organizzazione** \> **Organizzazioni** \> **Persone giuridiche**.
 2. Nella Scheda dettaglio **Numeri di registrazione**, nel campo **Partita IVA** immetter la partita IVA della propria società.
 3. Nella Scheda dettaglio **Registrazione fiscale**, nel campo **Codice fiscale** immettere il codice fiscale della propria società.
 4. In [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2), nella raccolta di risorse condivise scaricare le ultime versioni delle configurazioni per la creazione di report elettronici per i seguenti formati della dichiarazione IVA:
@@ -56,93 +56,16 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 
 9. Nella scheda **Impostazione campi** creare righe e impostare i seguenti campi su di esse.
 
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Campo</strong></p>
-</td>
-<td>
-<p><strong>Descrizione</strong></p>
-</td>
-</tr>
-<tr>
-<td>
-<p>ID campo</p>
-</td>
-<td>
-<p>Immettere il numero di identificazione del campo.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Descrizione</p>
-</td>
-<td>
-<p>Immettere una descrizione del campo.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Formattazione</p>
-</td>
-<td>
-<p>Selezionare il formato richiesto del campo. Per ulteriori informazioni sui formati disponibili, vedere la sezione <a href="https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/IT_Yearly_tax_communication/articles/finance/localizations/emea-ita-yearly-tax-communication.md#formats-of-the-fields">Formati dei campi</a> più avanti in questo argomento.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Calcolo</p>
-</td>
-<td>
-<p>Selezionare un metodo di calcolo:</p>
-<ul>
-<li><strong>Manuale</strong> &ndash; Il valore viene immesso manualmente.</li>
-<li><strong>Transazione fiscale</strong> &ndash; Il valore viene raccolto dalle transazioni fiscali.</li>
-<li><strong>Totale</strong> &ndash; Il valore viene calcolato utilizzando una formula composta dai valori di altri campi (solo i campi per i quali il valore del campo <strong>Calcolo</strong> non è selezionato).</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>
-<p>Valore</p>
-</td>
-<td>
-<p>Immettere un valore per il campo. È possibile modificare questo valore solo quando il campo <strong>Calcolo</strong> è impostato su <strong>Manuale</strong>.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Imposta sul reddito</p>
-</td>
-<td>
-<p>Selezionare uno dei seguenti valori:</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Imponibile</strong> &ndash; Il campo dovrebbe rappresentare un imponibile.</p>
-<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Importo imposta </strong>&ndash; Il campo dovrebbe rappresentare un importo dell'imposta.</p>
-<p>È possibile modificare questo valore solo quando il campo <strong>Calcolo</strong> è impostato su <strong>Transazioni fiscali</strong>.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>Segno</p>
-</td>
-<td>
-<p>Immettere <strong>1</strong> se il valore deve essere rappresentato così com'è. Immettere <strong>-1</strong> se i valori devono essere invertiti.</p>
-<p>È possibile modificare questo valore solo quando il campo <strong>Calcolo</strong> è impostato su <strong>Transazioni fiscali o Totale</strong>.</p>
-</td>
-</tr>
-<tr>
-<td>
-<p>IVA non deducibile</p>
-</td>
-<td>
-<p>Se il <strong>campo Calcolo è impostato su Transazione fiscale </strong>e il <strong>campo Imposta è impostato su Importo imposta, selezionare questa casella di controllo</strong> per ridurre l'importo dell'imposta calcolato in base all'importo dell'imposta non detraibile.</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+    | Campo     | Description                             |
+    |-----------|-----------------------------------------|
+    | ID campo                | Immetti il numero di identificazione del campo.   |
+    | Descrizione             | Immetti una descrizione del campo. |
+    | Formattazione                  | Seleziona il formato richiesto del campo. Per ulteriori informazioni sui formati disponibili, vedi la sezione [Formati dei campi](#formats) più avanti in questo argomento. |
+    | Calcolo             | Selezionare un metodo di calcolo:   <br>- **Manuale** - Il valore viene immesso manualmente. <br>- **Transazione fiscale** - Il valore viene raccolto dalle transazioni fiscali. <br>-   **Totale** - Il valore viene calcolato utilizzando una formula composta dai valori di altri campi (solo i campi per i quali il valore del campo **Calcolo** non è selezionato). |
+    | Valore                   | Immetti un valore per il campo. Puoi modificare questo valore solo quando il campo **Calcolo** è impostato su **Manuale**.    |
+    | Imposta                     | Seleziona uno dei seguenti valori: <br>- **Imponibile** - Il campo deve rappresentare un imponibile.   <br>- **Importo imposta** - Il campo deve rappresentare un importo dell'imposta. <br> È possibile modificare questo valore solo quando il campo **Calcolo** è impostato su **Transazioni fiscali**.  |
+    | Segno                    | Immetti **1** se il valore deve essere rappresentato così com'è. Immettere **-1** se i valori devono essere invertiti.   <br> È possibile modificare questo valore solo quando il campo **Calcolo** è impostato su **Transazioni fiscali** o **Totale**.  |
+    | IVA non deducibile | Se il campo **Calcolo** è impostato su **Transazione fiscale** e il campo **Imposta** è impostato su **Importo imposta**, seleziona questa casella di controllo per ridurre l'importo dell'imposta calcolato in base all'importo dell'imposta non detraibile.    |
 
 > [!NOTE]
 > Se vengono apportate modifiche nella dichiarazione, è necessario modificare le impostazioni del campo.
@@ -173,7 +96,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
     | Segno       | Immettere **1** se il valore del campo deve essere accettato così com'è. Immettere **-1** se il valore del campo deve essere invertito. |
     | ID campo   | Selezionare il campo da sommare. I campi in cui il campo **Calcolo** è impostato su **Totale** non possono essere selezionato qui. |
 
-### <a name="formats-of-the-fields"></a>Formati dei campi
+### <a name="formats-of-the-fields"></a><a name="formats"></a> Formati dei campi
 
 I valori dei campi possono in genere essere numerici (formato **NU**) o alfanumerici (formato **UN**).
 

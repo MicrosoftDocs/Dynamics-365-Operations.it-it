@@ -2,7 +2,7 @@
 title: Modulo dei risultati di ricerca
 description: Questo argomento tratta i moduli dei risultati di ricerca e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 04/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,17 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bae825ed7093494c48abac119c480be0dba4f951
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919476"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644928"
 ---
 # <a name="search-results-module"></a>Modulo dei risultati di ricerca
 
 [!include [banner](includes/banner.md)]
-
+[!include [banner](includes/preview-banner.md)]
 
 Questo argomento tratta i moduli dei risultati di ricerca e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 
@@ -86,53 +86,44 @@ Per aggiungere un modulo di risultati di ricerca a una pagina di categoria effet
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Abilitare la consapevolezza dell'inventario per il modulo dei risultati di ricerca
 
-I clienti generalmente si aspettano che un sito di e-commerce sia consapevole dell'inventario durante l'esperienza di esplorazione, in modo che possano decidere cosa fare se non ci sono scorte per un prodotto. Il modulo dei risultati di ricerca può essere migliorato in modo che incorpori i dati di inventario e fornisca le seguenti esperienze:
+I clienti generalmente si aspettano che un sito web di e-commerce sia consapevole dell'inventario durante l'esperienza di esplorazione, in modo che possano decidere cosa fare se non ci sono scorte per un prodotto. Il modulo dei risultati di ricerca può essere configurato per incorporare i dati di inventario e fornire le seguenti esperienze:
 
-- Mostra un'etichetta di disponibilità delle scorte insieme ai prodotti.
-- Nascondi i prodotti esauriti.
-- Mostra i prodotti esauriti alla fine dell'elenco dei risultati di ricerca.
-    
-Per abilitare queste esperienze, è necessario configurare le seguenti impostazioni dei prerequisiti in Commerce headquarters.
+- Mostrare un'etichetta di disponibilità delle scorte insieme al prodotto.
+- Nascondere i prodotti esauriti dall'elenco dei prodotti.
+- Mostrare i prodotti esauriti alla fine dell'elenco dei prodotti.
+- Filtrare i prodotti nei risultati di ricerca per livello di inventario.
 
-### <a name="enable-the-enhanced-e-commerce-product-discovery-to-be-inventory-aware-feature"></a>Abilitare la funzionalità Individuazione di prodotti e-commerce migliorata basata sulle scorte
+Per abilitare queste esperienze, devi prima abilitare la funzionalità **Individuazione di prodotti e-commerce migliorata basata sulle scorte** nell'area di lavoro **Gestione funzionalità**.
 
 > [!NOTE]
-> La funzionalità **Individuazione di prodotti e-commerce migliorata basata sulle scorte** è disponibile a partire da Commerce versione 10.0.20.
+> La funzionalità **Individuazione di prodotti e-commerce migliorata basata sulle scorte** è disponibile in Commerce versione 10.0.20 e successive.
 
-Per abilitare la funzionalità **Individuazione di prodotti e-commerce migliorata basata sulle scorte** in Commerce headquarters attieniti alla seguente procedura.
+La ricerca di prodotti in base all'inventario utilizza gli attributi del prodotto per ottenere informazioni sulla disponibilità delle scorte. Come prerequisito per la funzionalità, devono essere creati attributi di prodotto dedicati, devono essere inseriti i dati di inventario che poi devono essere aggiunti al canale online. 
 
-1. Vai a **Aree di lavoro \> Gestione funzionalità**.
-1. Cerca la funzionalità **Individuazione di prodotti e-commerce migliorata basata sulle scorte** e abilitala.
-
-### <a name="configure-the-populate-product-attributes-with-inventory-level-job"></a>Configurare il processo Popola attributi di prodotto con livello scorte
-
-Il processo **Popola attributi di prodotto con livello scorte** crea un nuovo attributo del prodotto per acquisire la disponibilità delle scorte e quindi impostare tale attributo sull'ultimo valore del livello di scorte per ogni rappresentazione generale prodotto. Poiché la disponibilità di magazzino di un prodotto o assortimento in vendita cambia costantemente, ti consigliamo vivamente di pianificare il processo come processo batch.
-
-Per configurare il processo **Popola attributi di prodotto con livello scorte** in Commerce headquarters, segui questi passaggi.
+Per creare attributi di prodotto dedicati per supportare il modulo dei risultati di ricerca in base all'inventario, segui questi passaggi.
 
 1. Vai in **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Prodotti e inventario**.
-1. Seleziona **Popola attributi di prodotto con livello scorte**.
-1. Nella finestra di dialogo **Popola attributi di prodotto con livello scorte** segui questi passaggi:
+1. Seleziona e apri **Popola attributi di prodotto con livello scorte**.
+1. Nella finestra di dialogo immetti le seguenti informazioni:
 
-    1. In **Parametri**, nel campo **Nome tipo e attributo di prodotto**, specifica un nome per l'attributo di prodotto dedicato che verrà creato per acquisire la disponibilità delle scorte.
-    1. In **Parametri**, nel campo **Disponibilità scorte basata su**, seleziona la quantità su cui basare il calcolo del livello di scorte (ad esempio, **Fisico disponibile**).
-    1. In **Esegui in background**, configura il processo per l'esecuzione in background e, facoltativamente, attiva l'opzione **Elaborazione batch**. 
+    1. Nel campo **Nome tipo e attributo di prodotto**, specifica un nome per l'attributo di prodotto dedicato che verrà creato per acquisire i dati delle scorte.
+    1. Nel campo **Disponibilità scorte basata su**, seleziona il tipo di quantità su cui basare il calcolo del livello di scorte (ad esempio, **Fisico disponibile**). 
 
-> [!NOTE]
-> Per un calcolo coerente del livello di scorte tra le pagina dettagli prodotto e le pagine elenco prodotti sul tuo sito di e-commerce, assicurati di selezionare la stessa opzione di quantità per l'impostazione **Disponibilità scorte basata su** in Commerce headquarters e l'impostazione **Livello scorte basato su** nel generatore di siti di Commerce. Per ulteriori informazioni sulle impostazioni relative alle scorte in generatore di siti, vedi [Applicare le impostazioni relative alle scorte](inventory-settings.md).
-
-### <a name="configure-the-new-product-attribute"></a>Configurare il nuovo attributo di prodotto
-
-Dopo l'esecuzione del processo **Popola attributi di prodotto con livello scorte** è necessario configurare l'attributo di prodotto appena creato sul sito di e-commerce in cui vuoi abilitare la consapevolezza dell'inventario per il modulo dei risultati di ricerca.
-
-Per configurare il nuovo attributo di prodotto in Commerce headquarters, seguire questi passaggi.
-
-1. Passa a **Retail e Commerce \> Impostazione canale \> Categorie canale e attributi del prodotto** e seleziona un sito di e-commerce.
-1. Seleziona e apri un gruppo di attributi associato, aggiungi l'attributo di prodotto appena creato e poi chiudi la pagina.
-1. Seleziona **Imposta metadati di attributi**, seleziona l'attributo di prodotto appena aggiunto, quindi attiva le opzioni **Mostra attributo sul canale**, **Recuperabile**, **Ridefinizione possibile**, ed **Esecuzione query possibile**.
+1. Esegui il processo in background. Poiché la disponibilità di magazzino di un prodotto cambia costantemente in un ambiente multicanale, ti consigliamo vivamente di pianificare il processo come processo batch.
 
 > [!NOTE]
-> Per i prodotti visualizzati nel modulo dei risultati di ricerca, il livello di scorte viene immesso a livello di rappresentazione generale prodotto anziché a livello di singola variante. Ha solo due valori possibili: "disponibile" ed "esaurito". Il testo effettivo per i valori viene recuperato dalla definizione [profilo del livello di scorte](inventory-buffers-levels.md). Una rappresentazione generale prodotto è considerata esaurita solo quando tutte le sue varianti sono esaurite. Il livello di scorte di una variante viene determinato in base alla definizione del profilo del livello di scorte del prodotto. 
+> Per un calcolo coerente del livello di scorte tra le pagine e i moduli sul tuo sito web di e-commerce, assicurati di selezionare lo stesso tipo di quantità per l'impostazione **Disponibilità scorte basata su** in Commerce headquarters e l'impostazione **Livello scorte basato su** nel generatore di siti di Commerce. Per ulteriori informazioni sulle impostazioni relative alle scorte in generatore di siti, vedi [Applicare le impostazioni relative alle scorte](inventory-settings.md).
+
+Per configurare gli attributi del prodotto per un canale online, attieniti alla seguente procedura. 
+
+1. Passare a **Retail e Commerce \> Impostazione canale \> Categorie canale e attributi del prodotto**.
+2. Seleziona un canale online per il quale abilitare il modulo dei risultati di ricerca in base all'inventario.
+3. Seleziona e apri un gruppo di attributi associato e aggiungi l'attributo di prodotto appena creato.
+4. Per le versioni di Commerce precedenti alla versione 10.0.27, seleziona **Imposta metadati di attributi**, seleziona l'attributo di prodotto appena aggiunto, quindi attiva le opzioni **Mostra attributo sul canale**, **Recuperabile**, **Ridefinizione possibile**, ed **Esecuzione query possibile**.
+5. Vai a **Vendita al dettaglio e commercio \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**, ed esegui il processo **1150 (Catalogo)**. Se pianifichi il processo **Popola attributi di prodotto con livello scorte** come processo batch, ti consigliamo di pianificare anche il processo 1150 come processo batch che viene eseguito con la stessa frequenza.
+
+> [!NOTE]
+> Per i prodotti visualizzati nel modulo dei risultati di ricerca, il livello di scorte viene visualizzato a livello di rappresentazione generale prodotto anziché a livello di singola variante. Ha solo due valori possibili: "disponibile" ed "esaurito". L'etichetta effettiva per il valore viene recuperata dalla definizione [profilo del livello di scorte](inventory-buffers-levels.md). Una rappresentazione generale prodotto è considerata esaurita solo quando tutte le sue varianti sono esaurite.
 
 Dopo che tutti i passaggi di configurazione precedenti sono stati completati, gli affinamenti nelle pagine dei risultati di ricerca mostreranno un filtro basato sull'inventario e il modulo dei risultati di ricerca recupererà i dati di inventario in background. Puoi quindi configurare l'opzione **Impostazioni inventario per le pagine elenco prodotti** nel generatore di siti di Commerce per controllare il modo in cui il modulo dei risultati di ricerca mostra i prodotti esauriti. Per ulteriori informazioni, vedere [Applicare impostazioni relative alle scorte](inventory-settings.md).
 

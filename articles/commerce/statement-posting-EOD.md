@@ -2,19 +2,19 @@
 title: Miglioramenti alla funzionalità di registrazione del rendiconto
 description: Questo argomento descrive i miglioramenti apportati alla funzionalità di registrazione dei rendiconti.
 author: analpert
-ms.date: 01/31/2022
+ms.date: 04/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: d7c7c330695cbcd18a44db5b3f4e28411d8de4f3
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462552"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649021"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
@@ -52,26 +52,7 @@ Come parte dei miglioramenti alla funzionalità di registrazione dei rendiconti,
 > [!NOTE]
 > A partire dalla versione Commerce 10.0.14, quando la funzionalità **Rendiconti di vendita al dettaglio (inserimento continuo)** è abilitata, il processo batch **Registra magazzino** non è più applicabile e non può essere eseguito.
 
-Inoltre, i seguenti parametri sono stati introdotti nella scheda dettaglio **Elaborazione batch** della scheda **Registrazione** della pagina **Parametri di commercio** : 
-
-- **Numero massimo di registrazioni rendiconti paralleli** – Questo campo definisce il numero di attività batch che verranno utilizzate per registrare più rendiconti. 
-- **Numero massimo di thread per l'elaborazione ordini per rendiconto** – Questo campo rappresenta il numero massimo di thread utilizzati dal processo batch di registrazione del rendiconto per creare e fatturare gli ordini di vendita per un singolo rendiconto. Il numero totale di thread che verrà utilizzato dal processo di registrazione del rendiconto verrà calcolato in base al valore in questo parametro moltiplicato per il valore nel parametro **Numero massimo di registrazioni rendiconti paralleli**. L'impostazione del valore di questo parametro troppo alto può influire negativamente sulle prestazioni del processo di registrazione del rendiconto.
-- **Numero massimo di righe transazione incluse nell'aggregazione** – Questo campo definisce il numero di righe transazione che verranno incluse in una singola transazione aggregata prima che ne venga creata una nuova. Le transazioni aggregate vengono create in base a diversi criteri di aggregazione come cliente, data del giorno lavorativo o dimensioni finanziarie. È importante notare che le righe de una singola transazione non verranno suddivise tra diverse transazioni aggregate. Ciò significa che è necessario prendere in considerazione la possibilità che il numero di righe in una transazione aggregata sia leggermente superiore o inferiore in base a fattori quali il numero di prodotti distinti.
-- **Numero massimo di thread per convalidare le transazioni del punto vendita** – Questo campo definisce il numero di thread che verranno utilizzati per convalidare le transazioni. La convalida delle transazioni è un passaggio necessario che deve verificarsi prima che le transazioni vengano inserite nei rendiconti. Inoltre, è necessario definire un **Prodotto gift card** nella Scheda dettaglio **Gift card** della scheda **Registrazione** della pagina **Parametri di commercio**. Ciò deve essere definito anche se nessuna gift card verrà utilizzata dall'organizzazione.
-
-La tabella seguente elenca i valori consigliati per i parametri precedenti. Questi valori devono essere testati e adattati alla configurazione della distribuzione e all'infrastruttura disponibile. Qualsiasi aumento dei valori consigliati può influire negativamente su altre elaborazioni batch e deve essere convalidato.
-
-| Parametro | Valore consigliato | Dettagli |
-|-----------|-------------------|---------|
-| Numero massimo di registrazioni rendiconti paralleli | <p>Imposta questo parametro sul numero di attività batch disponibili per il gruppo batch che esegue il processo **Dichiarazione**.</p><p>**Regola generale:** moltiplica il numero di server virtuali Application Object Server (AOS) per il numero di attività batch disponibili per ogni server virtuale AOS.</p> | Questo parametro non è applicabile quando la funzionalità **Rendiconti di vendita al dettaglio (inserimento continuo)** è abilitata. |
-| Thread massimo per elaborazione ordini per rendiconto | Inizia a testare i valori a **4**. In genere, il valore non deve superare **8**. | Questo parametro specifica il numero di thread utilizzati per creare e registrare ordini cliente. Rappresenta il numero di thread disponibili per la pubblicazione per istruzione. |
-| Numero massimo di righe transazione incluse in un'aggregazione | Inizia a testare i valori a **1000**. A seconda della configurazione della sede centrale, ordini più piccoli potrebbero essere più vantaggiosi per le prestazioni. | Questo parametro determina il numero di righe che verranno incluse in ciascun ordine cliente durante la registrazione della dichiarazione. Una volta raggiunto questo numero, le righe verranno suddivise in un nuovo ordine. Sebbene il numero di righe di vendita non sia esatto, poiché la suddivisione si verifica a livello di ordine cliente, sarà vicina al numero impostato. Questo parametro viene utilizzato per generare ordini cliente per transazioni al dettaglio che non hanno un cliente denominato. |
-| Numero massimo di thread per convalidare le transazioni del punto vendita | Si consiglia di impostare questo parametro su **4** e di aumentarlo solo se non raggiungi prestazioni accettabili. Il numero di thread utilizzati da questo processo non può superare il numero di processori disponibili per il server batch. Se assegni troppi thread qui, potresti influire su altre elaborazioni batch. | Questo parametro controlla il numero di transazioni che possono essere convalidate contemporaneamente per un determinato punto vendita. |
-
-> [!NOTE]
-> Tutti i parametri e le impostazioni correlati alle registrazioni dei rendiconti e definiti nei punti vendita e nella pagina **Parametri di commercio** sono applicabili alla funzionalità di registrazione dei rendiconti migliorata.
-
-## <a name="processing"></a>Elaborazione in corso
+## <a name="processing"></a>Elaborazione
 
 I rendiconti possono essere calcolati e registrati in batch utilizzando le voci di menu **Calcola rendiconti in batch** e **Registra rendiconti in batch**. In alternativa, i rendiconti possono essere calcolati e registrati manualmente utilizzando la voce di menu **Rendiconti** fornita dalla funzionalità di registrazione dei rendiconti migliorata.
 

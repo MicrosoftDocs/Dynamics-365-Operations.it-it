@@ -2,27 +2,42 @@
 title: Impostare l'integrazione fiscale per canali di commercio
 description: In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 04/28/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: e4b0b9f7eb4fb0ffab3237459d85ea92c83dd206
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462159"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661751"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Impostare l'integrazione fiscale per canali di commercio
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio. Per ulteriori informazioni sull'integrazione fiscale, vedere [Panoramica dell'integrazione fiscale per i canali di commercio](fiscal-integration-for-retail-channel.md).
 
+## <a name="enable-features-in-commerce-headquarters"></a>Abilitare le funzionalità in Commerce headquarters
+
+Per abilitare le funzionalità relative alla funzionalità di integrazione fiscale per i canali di Commerce, attieniti alla seguente procedura.
+
+1. In Commerce Headquarters andare a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
+1. Trova e abilita le seguenti funzionalità:
+
+    - **Integrazione fiscale diretta da registri POS** – Questa funzione estende il framework di integrazione fiscale aggiungendo la capacità di creare connettori fiscali che verranno eseguiti nel punto vendita (POS). Questo tipo di connettore comunica con un dispositivo o un servizio fiscale che fornisce un'API (Application Programming Interface) HTTP e non richiede una macchina fisica dedicata nel negozio. Ad esempio, questa funzionalità consente l'integrazione fiscale per i dispositivi mobili senza richiedere una stazione hardware condivisa.
+    - **Sostituzioni profilo tecnico fiscale di integrazione fiscale** – Questa funzionalità consente di ampliare la configurazione dell'integrazione fiscale e aggiunge la possibilità di verificare i parametri di connessione nella pagina delle impostazioni di un registro POS. Quando questa funzione è abilitata, puoi sostituire i parametri di un profilo tecnico.
+    - **Stato della registrazione fiscale dei registri POS** – Quando questa funzione è abilitata, è possibile disabilitare il processo di registrazione fiscale per specifici registri POS. Se la registrazione fiscale è disabilitata per un registro POS, le transazioni di vendita non possono essere completate su quel registro.
+    - **Backup archiviazione locale di integrazione fiscale** – Questa funzione estende le capacità di gestione degli errori del framework di integrazione fiscale. Consente inoltre il backup automatico dei dati di registrazione fiscale in caso di perdita dei dati, in modo che i dati nella memoria locale vengano ripristinati all'attivazione di un dispositivo.
+
 ## <a name="set-up-commerce-parameters"></a>Configurare parametri di commercio
+
+Per impostare i parametri di Commerce, effettua le seguenti operazioni.
 
 1. Nella pagina **Parametri condivisi di commercio**, nella scheda **Generale**, impostare l'opzione **Abilita integrazione fiscale** su **Sì**.
 1. Nella scheda **Sequenze numeriche**, definire le sequenze numeriche per i seguenti riferimenti:
@@ -33,8 +48,8 @@ In questo argomento vengono fornite indicazioni per l'impostazione della funzion
 
 1. Nella pagina **Parametri di commercio** definire la sequenza numerica per il numero di profilo funzionale fiscale.
 
-    > [!NOTE]
-    > Le sequenze numeriche sono facoltative. I numeri per tutte le entità di integrazione fiscale possono essere generati a partire da sequenze numeriche o manualmente.
+> [!NOTE]
+> Le sequenze numeriche sono facoltative. I numeri per tutte le entità di integrazione fiscale possono essere generati a partire da sequenze numeriche o manualmente.
 
 ## <a name="set-up-a-fiscal-registration-process"></a>Configurare un processo di registrazione fiscale
 
@@ -43,7 +58,7 @@ Il processo di impostazione dell'integrazione fiscale include le seguenti attivi
 - Configurare connettori fiscali che rappresentano dispositivi o servizi fiscali utilizzati a scopo di registrazione fiscale, ad esempio le stampanti fiscali.
 - Configurare fornitori di documenti che generano documenti fiscali che verranno registrati nei dispositivi o servizi fiscali mediante connettori fiscali.
 - Configurare il processo di registrazione fiscale che definisce una sequenza di fasi di registrazione fiscale nonché i connettori fiscali e i fornitori di documenti fiscali utilizzati per ogni fase.
-- Assegnare il processo di registrazione fiscale ai profili funzionalità POS.
+- Assegna il processo di registrazione fiscale ai profili funzionalità POS.
 - Assegnare profili tecnici di connettore a profili hardware.
 - Assegnare profili tecnici di connettore a profili hardware POS o funzionalità.
 
@@ -283,4 +298,21 @@ Per abilitare l'esecuzione manuale di una registrazione fiscale posticipata, è 
     1. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1090** per trasferire le modifiche al database del canale.
 
 
+## <a name="view-connection-parameters-and-other-information-in-pos"></a>Visualizzare i parametri di connessione e altre informazioni nel POS
+
+Per visualizzare i parametri di connessione e altre informazioni nel POS, segui questi passaggi.
+
+1. Apri Modern POS (MPOS) o Cloud POS (CPOS).
+1. Selezionare **Impostazioni**. Se l'integrazione fiscale è abilitata, la sezione **Integrazione fiscale** a destra mostrerà le seguenti informazioni:
+
+    - Stato della registrazione fiscale
+    - Stato dell'ultima transazione fiscale
+    - Numero di eventi di controllo in sospeso
+
+1. Seleziona **Dettagli** per visualizzare le seguenti informazioni:
+
+    - Passaggi del processo di registrazione
+    - Parametri di connessione
+    - Dettagli degli eventi di controllo
+ 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Visualizzazioni salvate
 description: In questo argomento viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
 author: jasongre
-ms.date: 09/13/2021
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: bd1b034ebb66b996e20173c2ad4f958e643f9c2e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065708"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644789"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -45,7 +45,7 @@ Dopo che le visualizzazioni sono state rese disponibili per un ambiente, qualsia
 
 Il selettore di visualizzazioni include due variazioni di dimensioni: 
 
-- **Selettori di visualizzazioni grandi**: le pagine con un elenco avranno un selettore di visualizzazioni più grande per alcuni motivi. In particolare, il selettore di visualizzazioni più grande indica le pagine in cui la visualizzazione può includere filtri definiti dall'utente. Poiché i filtri sono inclusi nelle visualizzazioni, la dimensione più grande del selettore è anche garantita in quanto i nomi di visualizzazioni saranno spesso la migliore descrizione dei dati visualizzati sullo schermo e l'aspettativa è che gli utenti passeranno più spesso da una visualizzazione all'altra su questi tipi di pagine.
+- **Selettori di visualizzazioni grandi**: le pagine con un elenco avranno un selettore di visualizzazioni più grande per alcuni motivi. In particolare, il selettore di visualizzazioni più grande indica le pagine in cui la visualizzazione può includere filtri e ordinamenti definiti dall'utente. Poiché i filtri e gli ordinamenti sono inclusi nelle visualizzazioni, la dimensione più grande del selettore è anche garantita in quanto i nomi di visualizzazioni saranno spesso la migliore descrizione dei dati visualizzati sullo schermo e l'aspettativa è che gli utenti passeranno più spesso da una visualizzazione all'altra su questi tipi di pagine. Il raggruppamento in una griglia può anche essere salvato nelle visualizzazioni di una pagina con selettori di visualizzazioni di grandi dimensioni. 
 - **Selettori di visualizzazioni piccoli**: tutte le altre pagine a schermo intero (con l'eccezione delle aree di lavoro e del dashboard) hanno un selettore di visualizzazioni più piccolo visualizzato accanto al titolo della pagina. Le visualizzazioni in queste pagine includono solo personalizzazioni, non filtri definiti dall'utente. In queste pagine, il sottotitolo o titolo del record è in genere l'informazione più importante nella parte superiore della pagina. La dimensione più piccola del selettore della visualizzazione riflette inoltre una frequenza prevista di passaggio da una visualizzazione all'altra inferiore in queste pagine. 
  
 Se si seleziona il nome della visualizzazione, viene aperto il selettore di visualizzazioni che visualizza l'elenco delle visualizzazioni disponibili per tale pagina.

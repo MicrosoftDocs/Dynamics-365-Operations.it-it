@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
 author: sericks007
-ms.date: 03/08/2022
+ms.date: 04/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 27be0e720b7eca5883c5d73dfe312c09fcd22c65
-ms.sourcegitcommit: ddcab9726e9dbcf3296cb0988b97a3ae7ccb3dfb
+ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "8396551"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644609"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -32,7 +32,19 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per finanza e operazioni.
 
-## <a name="feature-removal-effective-march-14-2022"></a>Rimozione delle funzionalità in vigore dal 14 marzo 2022
+## <a name="feature-deprecation-effective-april-2022"></a>Ritiro delle funzionalità in vigore da aprile 2022
+
+### <a name="xml-url-resolution-in-data-management"></a>Risoluzione URL XML nella gestione dei dati 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Stiamo rimuovendo il supporto per la risoluzione degli URL XML poiché è stata identificata come una potenziale vulnerabilità di sicurezza. Ciò significa che le risorse esterne associate ai file XML non verranno più risolte.  |
+| **Sostituita da un'altra funzionalità?**   | N. |
+| **Aree del prodotto interessate**         | App Finanza e operazioni |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecato. |
+
+## <a name="feature-deprecation-effective-march-14-2022"></a>Ritiro delle funzionalità in vigore dal 14 marzo 2022
 
 ### <a name="xslt-scripting-in-data-management"></a>Scripting XSLT in Gestione dati
 
@@ -40,9 +52,9 @@ Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono d
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | Il supporto per lo scripting XSLT in Gestione dati è deprecato per migliorare la sicurezza e la protezione dei dati nelle app per la finanza e le operazioni.  |
 | **Sostituita da un'altra funzionalità?**   | N. I clienti e gli ISV devono considerare la reimplementazione delle loro soluzioni in base al linguaggio X++, al posto dello scripting XSLT. |
-| **Aree del prodotto interessate**         | App per la finanza e le operazioni. |
-| **Opzione di distribuzione**              | Tutto. |
-| **Status**                         | Deprecato: data di rimozione pianificata 14 marzo 2022.<br><br>Eccezione: clienti che utilizzano attualmente lo scripting XLST. Possono continuare a utilizzarlo fino all'aggiornamento alla versione 10.0.30 o successiva. I clienti con questa eccezione hanno ricevuto una notifica nel centro messaggi disponibile nell'interfaccia di amministrazione di Microsoft 365. |
+| **Aree del prodotto interessate**         | App Finanza e operazioni |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecato <br><br>**Eccezione:** i clienti che utilizzano attualmente lo scripting XLST. Possono continuare a utilizzarlo fino all'aggiornamento alla versione 10.0.30 o successiva. Per le versioni precedenti, l'eccezione scadrà a partire dal 31 gennaio 2023. I clienti con questa eccezione hanno ricevuto una notifica nel centro messaggi disponibile nell'interfaccia di amministrazione di Microsoft 365. |
 
 ## <a name="feature-removal-effective-october-2021"></a>Rimozione delle funzionalità in vigore da ottobre 2021
 

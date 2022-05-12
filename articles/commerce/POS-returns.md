@@ -2,24 +2,20 @@
 title: Creare resi in POS
 description: Questo argomento descrive come inizializzare resi per transazioni cash-and-carry o ordini cliente nell'applicazione POS di Microsoft Dynamics 365 Commerce.
 author: hhainesms
-ms.date: 02/24/2022
+ms.date: 04/27/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+audience: Application User, Developer, IT Pro
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 3250f702f033fb8b00763542fd8342c089b47b2e
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349693"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8648990"
 ---
 # <a name="create-returns-in-pos"></a>Creare resi in POS
 
@@ -107,9 +103,64 @@ L'elenco seguente fornisce i requisiti di versione minima per i vari componenti.
 ## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Abilita il calcolo delle imposte corretto per i resi con quantità parziale
 
 Questa funzione garantisce che quando un ordine viene restituito utilizzando più fatture, le imposte saranno pari all'importo delle imposte addebitato in origine.
-1.  Accedere all'area di lavoro **Gestione funzionalità** e cercare **Abilita il calcolo delle imposte corretto per i resi con quantità parziale**.
-2.  Selezionare **Abilita il calcolo delle imposte corretto per i resi con quantità parziale** e quindi fare clic su **Abilita**.
 
+1. Nell'area di lavoro **Gestione funzionalità** cerca **Abilita il calcolo delle imposte corretto per i resi con quantità parziale**.
+1. Seleziona la funzionalità **Abilita il calcolo delle imposte corretto per i resi con quantità parziale** e quindi fai clic su **Abilita**.
+
+## <a name="set-up-return-locations-for-retail-stores"></a>Impostare le ubicazioni di reso per i punti vendita al dettaglio
+
+Commerce ti consente di impostare le ubicazioni di reso basate sui codici informativi di vendita al dettaglio e sui codici motivo marketing. Quando i clienti restituiscono gli acquisti, i cassieri spesso indicano il motivo del reso. Puoi specificare che i prodotti resi siano assegnati a diverse ubicazioni di reso in magazzino, a seconda dei codici informativi e dei codici motivo selezionati dal cassiere nel registro POS.
+
+Ad esempio, un cliente restituisce un prodotto difettoso e il cassiere elabora la transazione di reso. Quando Retail POS mostra il codice informativo per i resi, il cassiere seleziona il sottocodice per i resi difettosi. Il prodotto restituito viene quindi assegnato automaticamente a un'ubicazione di reso specifica.
+
+Un'ubicazione di reso può essere un punto vendita, un magazzino, un'ubicazione in un magazzino o un pallet specifico, in base alle ubicazioni di magazzino che l'organizzazione ha impostato. È possibile eseguire il mapping di ciascuna ubicazione di reso a uno o più codici informativi di vendita al dettaglio e ai codici motivo di vendita e marketing.
+
+### <a name="prerequisites"></a>Prerequisiti
+
+Prima di poter impostare le ubicazioni di reso, è necessario impostare i seguenti elementi:
+
+- **Codici informativi al dettaglio**: richieste nel registro POS impostate nel modulo **Vendita al dettaglio**. Per ulteriori informazioni, vedi [Impostare i codici informativi](/dynamicsax-2012/appuser-itpro/setting-up-info-codes).
+- **Codici motivo vendite e marketing**: richieste nel registro POS impostate nel modulo **Vendite e marketing**. Per ulteriori informazioni, vedi [Impostare i codici motivo](/dynamicsax-2012/appuser-itpro/set-up-return-reason-codes).
+- **Ubicazioni di magazzino**: i luoghi in cui è conservato l'inventario. Per maggiori informazioni, vedi [Impostare le ubicazioni di magazzino](/dynamicsax-2012/appuser-itpro/about-locations).
+    
+### <a name="set-up-return-locations"></a>Impostare le ubicazioni di reso
+
+Per impostare le ubicazioni di reso, effettua le seguenti operazioni.
+
+1. Vai a **Vendita al dettaglio e commercio \> Impostazione canale \> Magazzini** e seleziona un magazzino.
+1. Sulla Scheda dettaglio **Vedere al dettaglio**, nel campo **Ubicazione di reso predefinita** seleziona l'ubicazione dell'inventario da utilizzare per i resi in cui i codici informativi o i codici motivo non sono mappati alle ubicazioni di reso.
+1. Nel campo **Pallet resi predefinito** seleziona il pallet da utilizzare per i resi in cui i codici informativi o i codici motivo non sono mappati alle ubicazioni di reso.
+1. Vai a **Vendita al dettaglio e commercio \> Gestione articoli \> Ubicazioni di reso**.
+1. Seleziona **Nuovo** per creare un criterio di ubicazione di reso.
+1. Immetti un nome univoco e una descrizione per l'ubicazione di reso.
+
+    > [!NOTE]
+    > Il nome viene immesso automaticamente se è stato impostata una sequenza numerica per le ubicazioni di reso.
+
+1. Sulla Scheda dettaglio **Generale**, imposta l'opzione **Stampa etichette** su **sì** per stampare le etichette per tutti i prodotti assegnati alle ubicazioni di reso.
+1. Imposta l'opzione **Blocca scorte** su **sì** per portare i prodotti resi nell'ubicazione di reso predefinita al di fuori del magazzino e impedirne la vendita.
+1. Per mappare codici e sottocodici informativi di vendita al dettaglio specifici alle ubicazioni di reso, attieniti alla seguente procedura:
+
+    1. Nella Scheda dettaglio **Codici informativi di vendita al dettaglio** seleziona **Aggiungi**.
+    1. Nel campo **Codice informativo** seleziona un codice informativo per i resi.
+    1. Nel campo **Sottocodice** selezionare un sottocodice per il motivo del reso. Il campo **Descrizione** mostra la descrizione del sottocodice selezionato.
+    1. Nel campo **Punto vendita** seleziona il punto vendita in cui viene utilizzato il codice informativo.
+    1. Usa i campi **Magazzino**, **Ubicazione**, e **ID pallet** per specificare un'ubicazione di reso. Ad esempio, per specificare un'ubicazione in un punto vendita, seleziona un punto vendita nel campo **Punto vendita** e un'ubicazione nel campo **Ubicazione**.
+    1. Seleziona la casella di controllo **Blocca scorte** per portare i prodotti resi fuori dal magazzino e impedirne la vendita.
+
+1. Per mappare codici motivo di vendite e marketing specifici alle ubicazioni di reso, attieniti alla seguente procedura:
+
+    1. Sulla Scheda dettaglio **Codici motivo vendite e marketing**, seleziona **Aggiungi**.
+    1. Seleziona un codice motivo per i resti nel campo **Codice motivo**. Il campo **Descrizione** mostra la descrizione del codice motivo selezionato.
+    1. Nel campo **Punto vendita** seleziona il punto vendita in cui viene utilizzato il codice motivo.
+    1. Usa i campi **Magazzino**, **Ubicazione**, e **ID pallet** per specificare un'ubicazione di reso. Ad esempio, per specificare un pallet specifico in un'ubicazione in un magazzino, selezionare un magazzino nel campo **Magazzino**, in un'ubicazione nel campo **Ubicazione** e un pallet nel campo **ID pallet**.
+    1. Seleziona la casella di controllo **Blocca scorte** per portare i prodotti resi fuori dal magazzino e impedirne la vendita.
+
+    > [!NOTE]
+    > Se per un articolo viene utilizzato un criterio di ubicazione di reso, ma il motivo del reso selezionato dal cassiere non corrisponde a nessun codice specificato nella Scheda dettaglio **Codici informativi vendita al dettaglio** o **Codici motivo vendite e marketing**, l'articolo viene inviato all'ubicazione di reso predefinita definita nella pagina **Magazzino**. Inoltre, l'impostazione della casella di controllo **Blocca scorte** sulla Scheda dettaglio **Generale** della pagina **Ubicazioni di reso** determina se l'articolo restituito deve essere bloccato dall'inventario.
+
+1. Vai in **Vendita al dettaglio e commercio \> Gerarchia di prodotti di commercio**.
+1. Sulla Scheda dettaglio **Gestisci proprietà categorie di magazzino**, nel campo **Ubicazione di reso** seleziona un'ubicazione di reso. Poiché è possibile definire più criteri di ubicazione di reso per lo stesso punto vendita, il valore selezionato qui determina il criterio di ubicazione di reso utilizzato.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

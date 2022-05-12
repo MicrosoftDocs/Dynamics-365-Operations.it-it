@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c022bb15975a1411230d28067a2225c95c0573bf
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e43aaad2f5b80996eb0fc10f550f073aec67fe5d
+ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062727"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661460"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Domande frequenti sull'unione dell'infrastruttura Dynamics 365 Human Resources
 
@@ -231,6 +231,3 @@ Gli utenti esistenti delle app Dynamics 365 e gli utenti di istanze autonome di 
 
 Non sono necessari ambienti aggiuntivi per supportare la modifica dell'infrastruttura.
 
-### <a name="where-should-i-go-if-i-have-additional-questions-about-product-licensing"></a>Dove devo rivolgermi se ho ulteriori domande sulla licenza del prodotto?
-
-Se hai domande sulla licenza, puoi trovare maggiori informazioni in [Biz Apps Hub – Prezzi e licenze D365](https://businessapplications.transform.microsoft.com/resources/pricing-and-licensing?tab=grandfathering). Se queste informazioni non risolvono il tuo problema, apri una richiesta con LicenseQ.

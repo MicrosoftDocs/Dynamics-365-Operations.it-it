@@ -2,7 +2,7 @@
 title: Funzionalità del controllo griglia
 description: Questo argomento descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità della griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
-ms.date: 03/21/2022
+ms.date: 04/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 08348185a424d20b6da1563189496b7dd51944d9
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: 57133a853d1700b2d8ebb938f93af475410b82cb
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602964"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644415"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
@@ -106,7 +106,7 @@ Per utilizzare questa funzionalità, fare clic con il pulsante destro del mouse 
 - Numero di righe di dati in questo gruppo
 - Subtotali per qualsiasi colonna configurata per mostrare i totali
 
-Con la funzionalità [Visualizzazioni salvate](saved-views.md) abilitata, questo raggruppamento può essere salvato mediante personalizzazione come parte di una visualizzazione per un accesso rapido alla successiva visita della pagina.
+Insieme alle [Visualizzazioni salvate](saved-views.md) abilitate, puoi salvare un raggruppamento come parte di una vista nelle pagine che consentono di salvare le query nelle viste. Ad esempio, quelli con i selettori di visualizzazioni di grandi dimensioni. Per ulteriori dettagli, vedi la sezione [Passaggio da una visualizzazione all'altra](saved-views.md#switching-between-views). 
 
 ### <a name="multiple-levels-of-grouping"></a>Più livelli di raggruppamento
 Dopo aver raggruppato i dati in una singola colonna, puoi raggruppare i dati in una colonna diversa selezionando **Raggruppa in base a questa colonna** sulla colonna desiderata. Questo processo può essere ripetuto fino a quando non si ottengono 5 livelli di raggruppamento nidificati, ovvero la profondità massima supportata. A questo punto, non sarà più possibile raggruppare per colonne aggiuntive.

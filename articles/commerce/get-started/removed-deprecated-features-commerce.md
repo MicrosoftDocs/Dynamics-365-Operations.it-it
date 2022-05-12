@@ -2,7 +2,7 @@
 title: Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Commerce.
 author: josaw
-ms.date: 03/04/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7b06f8ca65e4fac13f322f8d72b8ad4f9db8ccd7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 213ed2091b1f2359f2481b162cba07812b3ffe90
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384611"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649077"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 
@@ -32,6 +32,20 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 > [!NOTE]
 > Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per finanza e operazioni.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.25
+
+### <a name="modern-point-of-sale-mpos"></a>Modern Point of Sale (MPOS)
+
+L'applicazione Modern Point of Sale (MPOS) sarà deprecata nella versione 10.0.25 di Commerce e sostituita con l'app Store Commerce.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Le app nel punto vendita sono la pietra angolare dell'offerta multicanale di Dynamics 365 Commerce. Innoviamo continuamente per fornire esperienze di negozio moderne e intelligenti e per modernizzare ulteriormente la nostra soluzione stiamo implementando nuove serie di modifiche che miglioreranno significativamente le operazioni IT e le esperienze degli utenti con le nostre applicazioni nel punto vendita esistenti su Windows. La nuova applicazione Store Commerce è un aggiornamento tecnologico del MPOS esistente. Fornisce prestazioni, affidabilità e supporto a lungo termine migliorati sulla piattaforma Windows ed elimina la necessità di ricomprimere l'app ad ogni aggiornamento. |
+| **Sostituita da un'altra funzionalità?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
+| **Aree del prodotto interessate**         | Modern Point of Sale |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecato: a partire dalla versione 10.0.25 di Commerce, il programma di installazione MPOS fornito tramite le macchine virtuali (VM) LCS verrà rimosso nell'ottobre 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.21
 
@@ -59,7 +73,7 @@ Il Retail SDK viene spedito in Lifecycle Services (LCS). Questo modo di distribu
 | **Sostituita da un'altra funzionalità?**   |  [Scaricate i campioni del Retail SDK e i pacchetti di riferimento da GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
 | **Aree del prodotto interessate**         | Retail SDK |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato: A partire dalla release 10.0.21, l'SDK fornito tramite le VM LCS sarà rimosso ad aprile 2023. |
+| **Stato**                         | Deprecato: A partire dalla release 10.0.21, l'SDK fornito tramite le VM LCS sarà rimosso nell'ottobre 2023. |
 
 ### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Pacchetto distribuibile al dettaglio e installatori combinati di POS, stazione hardware e unità Cloud Scale
 
@@ -92,7 +106,7 @@ Lo sviluppo di estensioni POS utilizzando ModernPos.sln, CloudPos.sln, POS.Exten
 | **Sostituita da un'altra funzionalità?**   | [SDK di imballaggio indipendente dal POS](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
 | **Aree del prodotto interessate**         | Dynamics 365 Commerce Estensione e implementazione del POS |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato: A partire dalla release 10.0.21, il supporto per i pacchetti POS combinati e il modello di estensione che utilizzano ModernPos.Sln, CloudPOs.sln e POS.Extensons.csproj in Retail SDK sarà rimosso ad aprile 2023. |
+| **Stato**                         | Deprecato: A partire dalla release 10.0.21, il supporto per i pacchetti POS combinati e il modello di estensione che utilizzano ModernPos.Sln, CloudPOs.sln e POS.Extensons.csproj in Retail SDK sarà rimosso nell'ottobre 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.17
 

@@ -1,8 +1,8 @@
 ---
 title: Informazioni generali sulla fatturazione degli abbonamenti
-description: In questo argomento viene descritta la fatturazione degli abbonamenti in Microsoft Dynamics 365 Finance.
+description: In questo argomento viene descritta la fatturazione abbonamento in Microsoft Dynamics 365 Finance.
 author: JodiChristiansen
-ms.date: 02/09/2022
+ms.date: 04/13/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2022-02-09
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 2796e25ec783941de381fb5ae96145eeba870bde
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 9d46492cca3cc435048fa497f6b1f3a28b77140a
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462471"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644529"
 ---
 # <a name="subscription-billing-overview"></a>Informazioni generali sulla fatturazione degli abbonamenti
 
@@ -33,6 +33,8 @@ La soluzione prevede tre moduli utilizzabili indipendentemente. In alternativa, 
 - **Fatturazione ricorrente di contratti** – Questo modulo consente la fatturazione ricorrente e la gestione dei prezzi per fornire il controllo su parametri di fatturazione e prezzi, rinnovo del contratto e fatturazione consolidata.
 - **Differimenti ricavi e spese** – Questo modulo elimina i processi manuali e la dipendenza da sistemi esterni gestendo i ricavi e consentendo una visione in tempo reale dei ricavi mensili ricorrenti.
 - **Allocazione dei ricavi con più elementi** – Questo modulo agevola la conformità ai ricavi gestendo l'allocazione di ricavi e prezzi in più articoli.
+
+Per ulteriori informazioni sulla fatturazione abbonamento, vedi [Contenuto Power BI di Fatturazione abbonamento](sub-bill-power-bi.md).
 
 La fatturazione degli abbonamenti è abilitata tramite **Gestione funzionalità**. Tuttavia, non può essere utilizzata con la funzionalità **Riconoscimento ricavi**. Pertanto, è necessario disabilitare tale funzionalità prima di abilitare la fatturazione degli abbonamenti.
 

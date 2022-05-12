@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5a0ead85eaeb6b96b80716614990af8c8e5e70f7
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384749"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644346"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -111,17 +111,67 @@ Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione fu
 
 - *(Anteprima) Report sugli articoli a peso variabile dall'interfaccia di esecuzione area di produzione*
 
+### <a name="enable-the-my-day-dialog"></a>Abilitare la finestra di dialogo "Registrazioni quotidiane"
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+La finestra di dialogo **Registrazioni quotidiane** fornisce ai lavoratori una panoramica delle loro registrazioni giornaliere e dei saldi correnti per ore retribuite, straordinari retribuiti, assenze e assenze retribuite.
+
+Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Visualizzazione "Registrazioni quotidiane" per l'interfaccia di esecuzione dell'area di produzione*
+
+### <a name="enable-teams"></a>Abilitare i team
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Quando più lavoratori vengono assegnati allo stesso processo di produzione, possono formare un team. Il team può nominare un lavoratore come pilota. I restanti lavoratori quindi diventano automaticamente assistenti del pilota. Per il team risultante, solo il pilota deve registrare lo stato del processo. I record di tempo si applicano a tutti i membri del team.
+
+Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Team di produzione nell'interfaccia di esecuzione dell'area di produzione*
+
+### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Abilitare la configurazione aggiuntiva nell'interfaccia di esecuzione dell'area di produzione
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: preview until 10.0.27 GA -->
+
+Questa funzione aggiunge le impostazioni per la seguente funzionalità alla pagina **Configurare esecuzione area di produzione**:
+
+- Viene visualizzata automaticamente la finestra di dialogo **Avvia processo** al termine di una ricerca.
+- Viene visualizzata automaticamente la finestra di dialogo **Segnala stato** al termine di una ricerca.
+- Precompila la quantità rimanente nella finestra di dialogo **Segnala stato**.
+- Abilita le rettifiche al consumo di materiale dalla finestra di dialogo **Segnala stato**. (Questa funzionalità richiede anche la funzionalità *Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (non WMS)*.)
+- Abilita le ricerche per ID progetto.
+
+Le informazioni su come utilizzare le impostazioni sono fornite più avanti in questo argomento.
+
+Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Configurazione aggiuntiva nell'interfaccia di esecuzione dell'area di produzione*
+
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Utilizzare le configurazioni di esecuzione dell'area di produzione
 
 Per creare e gestire configurazioni di esecuzione dell'area di produzione, andare a **Controllo produzione \> Imposta \> Esecuzione produzione \> Configura esecuzione area di produzione**. La pagina **Configura esecuzione area di produzione** mostra un elenco di configurazioni esistenti. In questa pagina è possibile effettuare le azioni riportate di seguito:
 
 - Selezionare una configurazione dell'area di produzione elencata nella colonna di sinistra per visualizzarla e modificarla.
-- Selezionare **Nuovo** nel riquadro azioni per aggiungere una nuova configurazione all'elenco. Immettere un nome nel campo **Configurazione** per identificare la nuova configurazione. Il nome inserito deve essere univoco tra tutte le configurazioni e non sarà possibile modificarlo in un secondo momento.
+- Seleziona **Nuovo** nel riquadro azioni per aggiungere una nuova configurazione all'elenco. Immettere un nome nel campo **Configurazione** per identificare la nuova configurazione. Il nome inserito deve essere univoco tra tutte le configurazioni e non sarà possibile modificarlo in un secondo momento. Nel campo **Descrizione** puoi immettere facoltativamente una descrizione della configurazione.
 
-Successivamente, configurare le varie impostazioni per la configurazione selezionata. Sono disponibili i campi seguenti:
+Quindi, configura le varie impostazioni per la configurazione selezionata, come descritto nelle seguenti sottosezioni.
 
-- **Solo ora di entrata e di uscita** - Impostare questa opzione su *Sì* per creare un'interfaccia semplificata che fornisca solo la funzionalità ora di entrata e ora di uscita. Ciò disabilita la maggior parte delle altre opzioni in questa pagina. È necessario rimuovere tutte le righe dalla Scheda dettaglio **Selezione scheda** per poter abilitare questa opzione.
-- **Abilita la ricerca**: imposta questa opzione su *Sì* per includere un campo di ricerca nell'elenco dei lavori. I lavoratori possono trovare un processo specifico inserendo l'ID lavoro o trovare tutti i lavori per un ordine specifico inserendo l'ID ordine. I lavoratori possono inserire l'ID utilizzando una tastiera o eseguendo la scansione di un codice a barre.
+### <a name="the-general-fasttab"></a>Scheda dettaglio Generale
+
+Le seguenti impostazioni sono disponibili nella scheda dettaglio **Generale**:
+
+- **Solo ora di entrata e di uscita** - Impostare questa opzione su *Sì* per creare un'interfaccia semplificata che fornisca solo la funzionalità ora di entrata e ora di uscita. Questa impostazione disabilita la maggior parte delle altre opzioni in questa pagina. È necessario rimuovere tutte le righe dalla Scheda dettaglio **Selezione scheda** per poter abilitare questa opzione.
+- **Abilita la ricerca**: imposta questa opzione su *Sì* per includere un campo di ricerca nell'elenco dei lavori. I lavoratori possono trovare un processo specifico inserendo l'ID lavoro o possono trovare tutti i lavori per un ordine specifico inserendo l'ID ordine. I lavoratori possono inserire l'ID utilizzando una tastiera o eseguendo la scansione di un codice a barre.
+- **Abilita la ricerca per ID progetto** – Imposta questa opzione su *sì* per consentire ai lavoratori di cercare per ID progetto (oltre a ID processo e ID ordine) nel campo di ricerca dell'interfaccia di esecuzione dell'area di produzione. È possibile impostare questa opzione su *Sì* solo se anche l'opzione **Abilita ricerca** è impostata su *Sì*.
+- **Apri automaticamente la finestra di dialogo di avvio** – Quando questa opzione è impostata su *sì*, la finestra di dialogo **Avvia processo** viene aperta automaticamente quando i lavoratori utilizzano la barra di ricerca per trovare un processo.
+- **Apri automaticamente la finestra di dialogo di Segnala stato** – Quando questa opzione è impostata su *sì*, la finestra di dialogo **Segnala stato** viene aperta automaticamente quando i lavoratori utilizzano la barra di ricerca per trovare un processo.
+- **Abilita rettifica materiali** – Imposta questa opzione su *sì* per abilitare il pulsante **Rettifica materiali** nella finestra di dialogo **Segnala stato**. I lavoratori possono selezionare questo pulsante per rettificare il consumo di materiale per il processo.
 - **Segnala quantità all'uscita** - Impostare questa opzione su *Sì* per richiedere ai lavoratori di fornire il loro feedback sui lavori in corso quando timbrano il cartellino. Se impostato su *No*, ai lavoratori non verrà richiesto di eseguire questa operazione.
 - **Blocca dipendente** - Quando questa opzione è impostata su *No*, i lavoratori verranno disconnessi immediatamente dopo aver effettuato una registrazione (ad esempio un nuovo lavoro). L'interfaccia tornerà quindi alla pagina di accesso. Quando questa opzione è impostata su *Sì*, i lavoratori rimarranno connessi all'interfaccia di esecuzione dell'area di produzione. Tuttavia, un lavoratore può disconnettersi manualmente di modo che un altro lavoratore possa accedere mentre l'Interfaccia di esecuzione dell'area di produzione continua a funzionare con lo stesso account utente di sistema. Per ulteriori informazioni su questi tipi di account, vedere [Utenti assegnati](config-job-card-device.md#assigned-users).
 - **Utilizza ora di registrazione effettiva** - Impostare questa opzione su *Sì* affinché l'ora di ogni nuova registrazione sia uguale all'ora esatta in cui la registrazione è stata presentata dal lavoratore. Quando questa opzione è impostata su *No*, viene utilizzata l'ora di accesso. Di solito si imposta questa opzione su *Sì* se sono state impostate le opzioni **Blocca dipendente** e/o **Singolo lavoratore** su *Sì* per i casi dove i lavoratori rimangono spesso connessi per periodi più lunghi.
@@ -130,7 +180,17 @@ Successivamente, configurare le varie impostazioni per la configurazione selezio
 - **Durata blocco schermo** - Quando l'opzione **Consenti blocco del touchscreen** è impostata su *Sì*, utilizzare questa opzione per specificare il numero di secondi in cui il touchscreen deve essere bloccato per la pulizia. La durata deve essere un numero tra 5 e 120 secondi.
 - **Genera targa** - Impostare questa opzione su *Sì* per generare una nuova targa ogni volta che un lavoratore utilizza l'interfaccia di esecuzione dell'area di produzione. Il numero di targa viene generato da una sequenza numerica impostata nella pagina **Parametri di gestione magazzino**. Quando l'opzione è impostata su *No*, i lavoratori devono specificare una targa esistente al momento della dichiarazione di finito.
 - **Stampa etichetta** - Impostare questa opzione su *Sì* per stampare l'etichetta di una targa quando un lavoratore utilizza l'interfaccia di esecuzione dell'area di produzione per la dichiarazione di finito. La configurazione dell'etichetta è impostata nella distribuzione dei documenti, come descritto in [Layout di distribuzione del documento per le etichette della targa](../warehousing/document-routing-layout-for-license-plates.md).
-- **Selezione delle schede** - Utilizzare le impostazioni in questa sezione per scegliere quali schede devono essere visualizzate dall'interfaccia di esecuzione dell'area di produzione quando la configurazione corrente è attiva. È possibile progettare tutte le schede necessarie, quindi aggiungerle e disporle qui come richiesto. Per dettagli su come progettare le schede e lavorare con le impostazioni qui, vedere [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md).
+
+### <a name="the-tab-selection-fasttab"></a>Scheda dettaglio Selezione scheda
+
+Utilizza le impostazioni della scheda dettaglio **Selezione scheda** per scegliere quali schede devono essere visualizzate dall'interfaccia di esecuzione dell'area di produzione quando la configurazione corrente è attiva. Puoi progettare tutte le schede di cui hai bisogno, quindi aggiungerle e disporle come desideri utilizzando i pulsanti sulla barra degli strumenti della Scheda dettaglio. Per informazioni su come progettare le schede e lavorare con le impostazioni qui, vedi [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md).
+
+### <a name="the-report-progress-fasttab"></a>Scheda dettaglio Segnala stato
+
+Le seguenti impostazioni sono disponibili nella scheda dettaglio **Segnala stato**.
+
+- **Abilita rettifica materiali** – Imposta questa opzione su *sì* per includere il pulsante **Rettifica materiali** nella finestra di dialogo **Segnala stato**. I lavoratori possono selezionare questo pulsante per rettificare il consumo di materiale per il processo.
+- **Quantità rimanente predefinita** – Imposta questa opzione su *sì* per precompilare la quantità rimanente prevista per un processo di produzione nella finestra di dialogo **Segnala stato**.
 
 ## <a name="clean-up-job-configurations"></a>Pulire le configurazioni dei processi
 

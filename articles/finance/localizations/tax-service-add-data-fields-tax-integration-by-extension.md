@@ -2,7 +2,7 @@
 title: Aggiungere campi dati nell'integrazione fiscale usando le estensioni
 description: In questo argomento viene illustrato come usare le estensioni X++ per aggiungere campi dati nell'integrazione fiscale.
 author: qire
-ms.date: 02/17/2022
+ms.date: 04/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: acbe8070424febf24883362448ea56857d9d72d9
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 79b51812eac354072ebf2a0ef6fe8d39610c6385
+ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323522"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8649103"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Aggiungere campi dati nell'integrazione fiscale usando l'estensione
 
@@ -334,9 +334,10 @@ Estendi il metodo `copyToTaxableDocumentHeaderWrapperFromTaxIntegrationDocumentO
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
+    // private const str IOEnumExample = 'Enum Example';
 
     /// <summary>
     /// Copies to <c>TaxableDocumentLineWrapper</c> from <c>TaxIntegrationLineObject</c> by line.
@@ -349,20 +350,24 @@ final static class TaxIntegrationCalculationActivityOnDocument_CalculationServic
         // Set the field we need to integrated for tax service
         _destination.SetField(IOCostCenter, _source.getCostCenter());
         _destination.SetField(IOProject, _source.getProjectId());
+
+        // If the field to be extended is an enum type, use enum2Symbol to convert an enum variable exampleEnum of ExampleEnumType to a string
+        // _destination.SetField(IOEnumExample, enum2Symbol(enumNum(ExampleEnumType), _source.getExampleEnum()));
     }
 }
 ```
 
-In questo codice, `_destination` è l'oggetto wrapper utilizzato per generare la richiesta di registrazione e `_source` è l'oggetto `TaxIntegrationLineObject`.
+In questo codice, `_destination` è l'oggetto wrapper utilizzato per generare la richiesta e `_source` è l'oggetto `TaxIntegrationLineObject`.
 
 > [!NOTE]
-> Definisci la chiave utilizzata nel modulo di richiesta come **private const str**. La stringa deve essere esattamente la stessa del nome della misura aggiunta nell'argomento [Aggiungere campi dati nelle configurazioni imposte](tax-service-add-data-fields-tax-configurations.md).
-> Imposta il campo nel metodo **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** utilizzando il metodo **SetField**. Il tipo di dati del secondo parametro deve essere **string**. Se il tipo di dati non è **string**, convertilo.
-> Se un **tipo di enumerazione** X++ è esteso, notare la differenza tra il valore, l'etichetta e il nome dello stesso.
+> Definisci il nome campo utilizzato nella richiesta come **private const str**. La stringa deve essere esattamente la stessa del nome del nodo (non l'etichetta) aggiunta nell'argomento [Aggiungere campi dati nelle configurazioni imposte](tax-service-add-data-fields-tax-configurations.md).
 > 
+> Imposta il campo nel metodo **copyToTaxableDocumentLineWrapperFromTaxIntegrationLineObjectByLine** utilizzando il metodo **SetField**. Il tipo di dati del secondo parametro deve essere **string**. Se il tipo di dati non è **string**, convertilo in stringa.
+> Se il tipo di dati è **tipo enum** X++, ti consigliamo di utilizzare il metodo **enum2Symbol** per convertire il valore enum in una stringa. Il valore enum aggiunto nella configurazione fiscale deve essere esattamente lo stesso del nome dell'enumerazione. Di seguito è riportato un elenco delle differenze tra valore enum, etichetta e nome.
+> 
+>   - Il nome di enum è un nome simbolico nel codice. **enum2Symbol()** può convertire il valore enum nel relativo nome.
 >   - Il valore dell'enumerazione è intero.
->   - L'etichetta dell'enumerazione può essere diversa nelle lingue preferite. Non utilizzare **enum2Str** per convertire il tipo di enumerazione in string.
->   - Il nome dell'enumerazione è consigliato poiché è fisso. **enum2Symbol** può essere utilizzato per convertire l'enumerazione nel relativo nome. Il valore di enumerazione aggiunto nella configurazione fiscale deve essere esattamente lo stesso del nome dell'enumerazione.
+>   - L'etichetta dell'enumerazione può essere diversa nelle lingue preferite. **enum2Str()** può convertire il valore enum nella relativa etichetta.
 
 ## <a name="model-dependency"></a>Dipendenza dal modello
 
@@ -526,7 +531,7 @@ final class TaxIntegrationPurchTableDataRetrieval_Extension
 [ExtensionOf(classStr(TaxIntegrationCalculationActivityOnDocument_CalculationService))]
 final static class TaxIntegrationCalculationActivityOnDocument_CalculationService_Extension
 {
-    // Define key for the form in post request
+    // Define the field name in the request
     private const str IOCostCenter = 'Cost Center';
     private const str IOProject = 'Project';
 

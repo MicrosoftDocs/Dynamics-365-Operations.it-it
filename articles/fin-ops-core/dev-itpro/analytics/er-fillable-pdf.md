@@ -2,7 +2,7 @@
 title: Progettare le configurazioni ER per completare i modelli PDF
 description: In questo argomento vengono fornite informazioni su come progettare un formato di report elettronico (ER) da completare in un modello PDF.
 author: NickSelin
-ms.date: 02/28/2022
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a568ddd93bfbc7d536e951a13470b3dedb796e1b
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 706256300cf0b64bc5b5e1e7adb77c1da500d16f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367858"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8645109"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Progettare le configurazioni ER per completare i modelli PDF
 
 [!include[banner](../includes/banner.md)]
 
-Le procedure in questo argomento sono esempi che mostrano come un utente nel ruolo di **Amministratore di sistema** o **Sviluppatore per la creazione di report elettronici** può configurare un formato di report elettronico (ER) che genera report come file PDF utilizzando documenti PDF compilabili come modelli di report. Queste operazione possono essere eseguite in qualsiasi società di Dynamics 365 Finance o Regulatory Configuration Service (RCS).
+Le procedure in questo argomento sono esempi che mostrano come un utente nel ruolo di **Amministratore di sistema** o **Sviluppatore per la creazione di report elettronici** può configurare un formato di report elettronico (ER) che genera report come file PDF utilizzando documenti PDF compilabili come modelli di report. Queste operazione possono essere eseguite in qualsiasi società di Dynamics 365 Finance o Regulatory Configuration Services (RCS).
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -252,10 +252,14 @@ Poiché entrambe le proprietà sono facoltative per un elemento di formato **Cam
 - Se l'attributo **Nome** è definito e l'espressione **Nome** è configurata, viene compilato il campo PDF che ha lo stesso nome del valore restituito dall'espressione **Nome** dell'elemento di formato.
 
 > [!NOTE]
-> Una casella di controllo PDF può essere compilata come selezionata nei seguenti modi:
+> Quando una casella di controllo nel modello PDF non appartiene a un gruppo di caselle di controllo, è rappresentata nel formato ER modificabile come un elemento **Campo** nidificato sotto l'elemento **File PDF**. Questo tipo di casella di controllo PDF può essere impostato come selezionato nei seguenti modi:
 >
-> - Quando l'elemento di formato **Campo** corrispondente viene associato a un campo di origine dati di tipo **Booleano** con valore **True**
-> - Quando l'elemento di formato **Campo** corrispondente contiene un elemento di formato **Stringa** nidificato associato a un campo di origine dati con un valore di testo di **1**, **True** o **Sì**
+> - L'elemento di formato **Campo** corrispondente viene associato a un campo di origine dati di tipo *[Booleano](er-formula-supported-data-types-primitive.md#boolean)* con valore **True**.
+> - L'elemento di formato **Campo** corrispondente contiene un elemento di formato **Stringa** nidificato associato a un campo di origine dati con un valore di testo di **1**, **True** o **Sì**.
+>
+> Il tuo modello può contenere un gruppo di caselle di controllo in cui è possibile selezionare solo una casella di controllo alla volta. Tali caselle di controllo sono rappresentate in un modello PDF come più campi modulo di tipo *CASELLA DI CONTROLLO*. Ogni campo ha lo stesso nome ma un valore di esportazione diverso. Quando importi il modello nel formato ER modificabile, ogni casella di controllo sarà rappresentata nella struttura gerarchica del formato come un **Elemento gruppo di caselle di controllo** nidificato sotto lo stesso elemento **Gruppo di caselle di controllo**. Il nome dell'elemento **Gruppo di caselle di controllo** sarà uguale al nome dei campi della casella di controllo nel modello PDF. Il nome di ogni **Elemento gruppo di caselle di controllo** sarà uguale al valore di esportazione del campo della casella di controllo corrispondente nel modello PDF.
+>
+> Puoi associare un **Elemento gruppo di caselle di controllo** a un campo origine dati solo di tipo *booleano*.
 
 ## <a name="run-the-format-configuration"></a>Eseguire la configurazione di formato
 

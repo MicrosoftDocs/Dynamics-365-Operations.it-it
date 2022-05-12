@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1bcce7af0a15add63f1d9c3b32563de0ab6698bd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 335bed49b05bf64547d7ded885f365a30487484f
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577650"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644640"
 ---
 # <a name="costing-parameter-values-setup"></a>Impostazione dei valori dei parametri di determinazione dei costi
 
@@ -123,9 +123,9 @@ Nella seguente tabella sono descritte le impostazioni disponibili per ogni model
 
 ## <a name="volumetric-divisors"></a>Divisori volumetrici
 
-I divisori volumetrici vengono utilizzati per calcolare il peso volumetrico. Ogni società di spedizione/trasporto formula i propri divisori volumetrici. Inoltre, i divisori di una società in genere variano a seconda della modalità di consegna. Ad esempio, per il trasporto aereo e per quello marittimo i divisori sono molto diversi. Una società può anche rendere le proprie regole più complesse, a seconda del luogo da cui effettua le spedizioni.
+I divisori volumetrici vengono utilizzati per calcolare il peso volumetrico. Ogni società di spedizione/trasporto formula i propri divisori volumetrici. Inoltre, i divisori di una società in genere variano a seconda della modalità di consegna. Ad esempio, per il trasporto aereo e per quello marittimo i divisori sono molto diversi. Una società può anche rendere le proprie regole più complesse, a seconda del luogo da cui effettua le spedizioni. Il sistema utilizza la seguente formula per trovare il peso volumetrico: VolumetricWeight = Volume ÷ VolumetricDivisor.
 
-Ad esempio, un pacco spedito per via aerea ha un volume di 3 metri cubi (m³). La società addebita in base al peso volumetrico e applica un divisore volumetrico di 6. Questo divisore viene moltiplicato per il volume per determinare il peso volumetrico. Pertanto, il peso volumetrico per questo esempio è 3 × 6 = 18 chilogrammi (kg).
+Ad esempio, un pacco spedito per via aerea ha un volume di 3 metri cubi (m³). La società addebita in base al peso volumetrico e applica un divisore volumetrico di 6. Questo divisore viene diviso per il volume per determinare il peso volumetrico. Pertanto, il peso volumetrico per questo esempio è 3 ÷ 6 = 0,5 chilogrammi (kg).
 
 Per impostare divisori volumetrici, selezionare **Costo sbarcato \> Configurazione dei costi \> Divisori volumetrici**. La pagina **Divisori volumetrici** fornisce una griglia che elenca tutti i divisori volumetrici esistenti. È possibile utilizzare i pulsanti nel riquadro Azioni per aggiungere, rimuovere e modificare righe nella griglia.
 
@@ -136,4 +136,7 @@ Nella seguente tabella sono descritti i campi disponibili in ogni riga della gri
 | Società di spedizione | Selezionare il conto fornitore della società di spedizione associata al divisore volumetrico. |
 | Codice tipo di costo | Selezionare il codice di tipo di costo associato al divisore volumetrico. Utilizzare questo campo per inserire i tipi di costo nei bucket di report. I report possono essere stampati sia per categorie di report che per tipo di costo. |
 | Porto di origine | Selezionare il porto di origine a cui si applica il divisore volumetrico. |
-| Divisore volumetrico | Immettere il valore del divisore volumetrico che si applica alla riga. Il valore immesso verrà *moltiplicato* per il volume di ogni pacco per determinare il peso volumetrico di quel pacco. |
+| Divisore volumetrico | Immettere il valore del divisore volumetrico che si applica alla riga. Il volume di ogni pacco sarà diviso per il valore che inserisci qui per determinare il peso volumetrico di quel pacco. |
+
+> [!NOTE]
+> Il sistema utilizzerà il valore massimo tra **peso effettivo** e **peso volumetrico**.

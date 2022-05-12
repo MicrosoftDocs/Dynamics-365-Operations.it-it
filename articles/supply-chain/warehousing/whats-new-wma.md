@@ -2,7 +2,7 @@
 title: Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 description: Questo argomento elenca le funzionalità nuove e modificate per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 03/11/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2544c30afe18f290b681efed1705f7cef0cb7620
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 679222005fe12009004921fa75a56145ae94c3ba
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487838"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644734"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20210"></a>Versione 2.0.21.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Risolti diversi problemi di arresto anomalo.
+- Risolto un problema per cui alcuni caratteri non venivano riconosciuti durante la scansione o la digitazione nella pagina predefinita.
+- Risolto un problema per cui la digitazione di un backspace nella pagina predefinita eliminava due caratteri alla volta.
+- Risolto un problema per cui il campo **Ordina per** nella pagina **Elenco di lavoro** visualizza un valore errato che non corrisponde all'ordinamento effettivo delle schede.
+- Risolto un problema per cui veniva mostrato un layout errato dopo aver ridimensionato la finestra dell'app durante l'esecuzione in Microsoft Windows.
+- Risolto un problema per cui lo scorrimento di un elenco a comparsa poteva far sì che alcuni elementi dell'elenco rimanessero nascosti o venissero distorti.
+- È stata riprogettata la pagina di accesso per consentire di visualizzare i campi nome utente e password sulla stessa pagina durante l'esecuzione su schermi più grandi.
+- Migliorato il modo in cui i controlli reagiscono al tocco veloce.
+- Aggiunta una visualizzazione del registro degli errori in-app.
+- Aggiunti diversi miglioramenti all'accessibilità (narrativa migliorata, corretti i segnaposto mancanti in Android, input da tastiera abilitato per i controlli del dispositivo di scorrimento e altro).
 
 ## <a name="version-20200"></a>Versione 2.0.20.0
 

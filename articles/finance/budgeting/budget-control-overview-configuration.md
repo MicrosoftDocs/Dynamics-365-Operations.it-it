@@ -2,7 +2,7 @@
 title: Panoramica del controllo del budget
 description: Questo argomento introduce la funzionalità di controllo del budget e fornisce informazioni che consentono di configurare il controllo del budget per ottimizzare la gestione delle risorse finanziarie dell'organizzazione.
 author: panolte
-ms.date: 11/08/2021
+ms.date: 03/28/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14b852bb4aeca927adeeb2665b9887e467b71158
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7019b3546b83047e91fa129d8d92f209f131c993
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986058"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644851"
 ---
 # <a name="budget-control-overview"></a>Panoramica del controllo del budget
 
@@ -80,7 +80,9 @@ Nella scheda **Fondi budget disponibili** è possibile definire la formula da ut
 > [!NOTE]
 > Se il calcolo viene modificato durante il ciclo di budget, le modifiche non interessano i documenti che precedentemente hanno superato le verifiche del controllo del budget e sono stati registrati o completati. Una funzionalità denominata **Traccia solo gli importi nel calcolo dei fondi di budget disponibili** consente di modificare i dati registrati nelle tabelle BudgetSourceTracking. Quando questa funzione è attivata, gli importi vengono memorizzati solo se selezionati per essere utilizzati nel calcolo dei fondi di budget disponibili. Per ulteriori informazioni, vedere [Fondi budget disponibili](budget-funds-available.md).
 
-Successivamente, nella pagina **Documenti e giornali di registrazione** è possibile selezionare i documenti di origine e i giornali di registrazione che saranno soggetti alle verifiche del controllo del budget e se le verifiche vengono eseguite all'immissione della riga o per l'intero documento. 
+### <a name="documents-and-journals"></a>Documenti e giornali di registrazione
+
+Nella pagina **Documenti e giornali di registrazione** è possibile selezionare i documenti di origine e i giornali di registrazione che saranno soggetti alle verifiche del controllo del budget e se le verifiche vengono eseguite all'immissione della riga o per l'intero documento. Inoltre, la nuova funzionalità **Miglioramento del filtro documenti del controllo del budget** disponibile a partire da Microsoft Dynamics 365 Finance versione 10.0.27 fornisce un'opzione di filtro basata su query per ogni documento incluso nel controllo del budget. Pertanto, è possibile specificare quali documenti di controllo del budget devono essere controllati. In questo modo, la funzione consente di controllare il budget solo per un sottoinsieme di un tipo di documento. Ad esempio, puoi controllare solo gli ordini di acquisto in cui il campo **Pool** è impostato su **01**. Una nuova colonna che viene aggiunta alla scheda **Documenti e giornali di registrazione** indica se è stata definita una query per il tipo di documento selezionato. Inoltre, due nuovi pulsanti aggiunti alla barra degli strumenti sopra la griglia del documento consentono di aggiungere, modificare o eliminare i filtri. 
 
 È consigliabile abbinare i documenti di origine selezionati con le caselle di controllo per i saldi inclusi nel calcolo dei fondi budget disponibili. Ad esempio, se si seleziona **Prenotazioni budget per gli impegni di spesa**, è necessario selezionare l'opzione **Ordini fornitore**. Quando viene eseguita una verifica del budget per gli importi e i conti in una riga acquisto, la categoria di controllo del budget assegnata alla prenotazione è **Impegno di spesa**. Quando viene eseguita una verifica del budget per gli importi e i conti in una richiesta di acquisto, la categoria di controllo del budget assegnata alla prenotazione è **Impegno preliminare di spesa**. 
 

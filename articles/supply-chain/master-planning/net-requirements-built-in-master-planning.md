@@ -2,7 +2,7 @@
 title: Fabbisogni netti e informazioni di pegging con pianificazione generale integrata
 description: Questo argomento fornisce informazioni sui fabbisogni netti calcolati e sul pegging nella pianificazione generale incorporata.
 author: t-benebo
-ms.date: 7/28/2021
+ms.date: 04/20/2022
 ms.topic: article
 ms.search.form: ReqTransOverview
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 19c64d62386a94494b729aa05b0612609812a418
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 98da80c73eec58c08d1043e48deb14ca828c34eb
+ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470431"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8618290"
 ---
 # <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>Fabbisogni netti e informazioni di pegging con pianificazione generale integrata
 
@@ -26,6 +26,8 @@ Quando si esegue la pianificazione generale, è importante comprenderne l'output
 
 La pagina **Fabbisogni netti** mostra i fabbisogni netti calcolati per il prodotto durante la pianificazione generale. Mostra anche le impostazioni di copertura che sono state applicate durante l'esecuzione della pianificazione generale, un'analisi dei totali del fabbisogno per tipo di transazione e informazioni sul pegging.
 
-La pagina **Fabbisogni netti** funziona allo stesso modo, indipendentemente dal fatto che tu stia utilizzando l'ottimizzazione della pianificazione o il motore di pianificazione principale integrato. Per ulteriori informazioni su come lavorare con questa pagina, vedi [Fabbisogni netti e informazioni di pegging con Ottimizzazione pianificazione](planning-optimization/net-requirements.md).
+La pagina **Fabbisogni netti** funziona in modo leggermente diverso basandosi sul fatto che tu stia o meno utilizzando l'ottimizzazione della pianificazione o il motore di pianificazione principale integrato. Per maggiori informazioni sulle differenze, vedi [Differenze tra la pianificazione generale integrata e l'ottimizzazione della pianificazione](planning-optimization/planning-optimization-differences-with-built-in.md)
+
+Per ulteriori informazioni su come lavorare con questa pagina, vedi [Fabbisogni netti e informazioni di pegging con Ottimizzazione pianificazione](planning-optimization/net-requirements.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Gestire utenti partner commerciali nei siti di e-commerce B2B
 description: Questo argomento descrive come aggiungere, modificare ed eliminare gli utenti partner commerciali nei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce e in Commerce headquarters.
 author: josaw1
-ms.date: 02/17/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: def8d4de082ceb4be77ed7e8898cbef82d52b749
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: c2fb4846a8457296a2ce758198ade5f4b0df8124
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323457"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616859"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gestire utenti partner commerciali nei siti di e-commerce B2B
 
@@ -28,7 +28,8 @@ ms.locfileid: "8323457"
 Questo argomento descrive come aggiungere, modificare ed eliminare gli utenti partner commerciali nei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce e in Commerce headquarters.
 
 > [!NOTE]
-> L'argomento [Gestire partner commerciali B2B utilizzando gerarchie dei clienti](partners-customer-hierarchies.md) è un prerequisito per questo documento. 
+> - L'argomento [Gestire partner commerciali B2B utilizzando gerarchie dei clienti](partners-customer-hierarchies.md) è un prerequisito per questo documento.
+> - Assicurati di inizializzare l'entità dei tipi di documento nella sede centrale di Commerce aprendo il modulo **Tipi di documenti** in **Amministrazione organizzazione \> Gestione documenti \> Tipi di documenti**.
 
 I siti Web di e-commerce B2B richiedono che le organizzazioni si registrino per diventare partner commerciali. Dopo che un'organizzazione ha inviato i dettagli della registrazione a un sito Web di e-commerce B2B, la richiesta di registrazione passa attraverso un processo di qualifica. Se l'organizzazione è qualificata con successo, viene inserita come partner commerciale.
 

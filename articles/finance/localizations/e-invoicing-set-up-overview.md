@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8138c63e9eff1d2ca934f9d4467e4e3b73dae941
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371649"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661694"
 ---
 # <a name="electronic-invoicing-setup"></a>Configurazione della fatturazione elettronica
 
@@ -35,7 +35,5 @@ Quindi, configura le risorse di Azure necessarie per la fatturazione elettronica
 Dopo aver configurato i componenti principali, lavora con RCS per configurare i principali componenti logici della fatturazione elettronica. Innanzitutto, definisci il numero di ambienti di servizio che manterrai. In questo modo si definiscono i dati logici e il partizionamento della configurazione per assicurarsi di avere un confine tra un ambiente di sviluppo o test e gli ambienti di produzione. Per configurare il processo di sviluppo in modo flessibile, potrebbero essere necessari diversi ambienti di sviluppo e test separati. Oltre a definire gli ambienti di servizio, imposta un collegamento alle tue applicazioni aziendali, come Finance o Supply Chain Management, direttamente da RCS per configurare i parametri necessari per il corretto funzionamento con la fatturazione elettronica. Per ulteriori informazioni sugli ambienti, vedi [Ambienti di servizio](e-invoicing-service-environments.md).
 
 Dopo aver configurato tutto, puoi creare le tue funzionalità di globalizzazione che definiscono diversi scenari per l'elaborazione di documenti elettronici e la trasformazione dei dati, o per l'importazione dei documenti dal repository globale. Per ulteriori informazioni su come lavorare con le funzionalità di globalizzazione, vedi [Lavorare con le funzionalità di globalizzazione](e-invoicing-working-globalization-features.md).
-
-Per informazioni sulle azioni nelle pipeline di elaborazione che costituiscono il processo che verrà creato nelle funzionalità di globalizzazione, vedi **[COMPLETO!: Azioni di elaborazione dei documenti]**.
 
 Se i tuoi scenari richiedono l'integrazione con e-mail o SharePoint per elaborare i documenti elettronici in entrata, vedi [Elaborazione dei documenti elettronici in entrata](e-invoicing-process-incoming-electronic-documents.md) per informazioni su come impostare e utilizzare tali canali.

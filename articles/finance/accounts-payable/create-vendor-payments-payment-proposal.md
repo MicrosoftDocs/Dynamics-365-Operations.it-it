@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71e87b1102e21e035c25af4c63245eaaa59e4babb82bcf59c5cfba48f7d114f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 101cbcc77b2e1eab9fb4b6724fc5e3e8925a54c5
+ms.sourcegitcommit: 836695c0e95d366ba993f34eee30f57191f356d8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749054"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8629437"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Creare pagamenti fornitore utilizzando una proposta di pagamento
 
@@ -48,7 +48,7 @@ La query della proposta di pagamento contiene le varie schede, ciascuna delle qu
 - **Includi fatture fornitore da altre persone giuridiche**: se l'organizzazione dispone di un processo centralizzato per il pagamento e la proposta di pagamento deve includere le fatture di altre persone giuridiche presenti nei criteri di ricerca, impostare questa opzione su **Sì**.
 - **Proponi pagamenti fornitore separati per persona giuridica**: se questa opzione è impostata su **Sì**, un pagamento separato viene creato per ogni persona giuridica per fornitore. Il fornitore nel pagamento corrisponde a quello della fattura per ogni persona giuridica. Se questa opzione è impostata su **No** e per lo stesso fornitore sono presenti fatture in più persone giuridiche, un pagamento viene creato per l'importo totale delle fatture selezionate. Il fornitore utilizzato per il pagamento corrisponde al fornitore presente nella persona giuridica corrente. Se tale account non esiste nella persona giuridica corrente, verrà utilizzato l'account fornitore della prima fattura da pagare.
 - **Valuta pagamento**: questo campo specifica la valuta in cui vengono creati tutti i pagamenti. Se una valuta non è definita, ogni fattura viene pagata nella valuta della fattura.
-- **Giorno feriale di pagamento**: immettere il giorno feriale in cui il pagamento deve essere eseguito. Questo campo viene utilizzato solo se il metodo di pagamento viene impostato sul totale delle fatture per un determinato giorno della settimana.
+- **Pagamento nei giorni feriali** – Inserisci il giorno della settimana in cui deve essere effettuato il pagamento, questo campo viene utilizzato solo se la modalità di pagamento è impostata su **Settimana**. L'importo delle fatture per il pagamento viene sommato nel giorno della settimana specificato per il pagamento.
 - **Tipo di conto di contropartita** e **Conto di contropartita**: impostare questi campi per definire un tipo di conto specifico (ad esempio **Contabilità generale** o **Banca**) e il conto di contropartita (ad esempio un determinato conto bancario). Il metodo di pagamento della fattura definisce il tipo di conto di contropartita e il conto di contropartita predefiniti, ma è possibile utilizzare questi campi per sostituire i valori predefiniti.
 - **Data pagamenti riepilogati** - Questa opzione viene utilizzata solo se il campo **Periodo** del metodo di pagamento è impostato su **Totale**. Se viene definita una data, tutti i pagamenti vengono creati in questa data. Il campo **Data di pagamento minima** viene ignorato.
 - **Filtri aggiuntivi**: nella scheda dettaglio **Record da includere** è possibile definire ulteriori intervalli di criteri. Ad esempio, se si desidera pagare solo un intervallo di fornitori, è possibile definire un filtro per l'intervallo di fornitori. Questa funzionalità viene spesso utilizzata per selezionare le fatture per uno specifico metodo di pagamento. Ad esempio, se si definisce un filtro in cui **Metodo di pagamento** = **Assegno**, solo le fatture con quel metodo di pagamento sono selezionate per il pagamento, purché soddisfino anche gli altri criteri specificati nella query.

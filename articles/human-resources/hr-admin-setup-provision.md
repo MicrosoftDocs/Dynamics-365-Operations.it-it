@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65891e380f740f4a1fa404d57789a6f50506d3b5
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 7ce30b64bc7c3889347bec94186614bd6cc337f4
+ms.sourcegitcommit: 1050e58e621d9a0454895ed07c286936f8c03320
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565630"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625361"
 ---
 # <a name="provision-human-resources"></a>Effettua il provisioning di Human Resources
 
@@ -41,7 +41,7 @@ Prima di iniziare il provisioning di un nuovo ambiente di produzione, i seguenti
 ## <a name="provision-a-human-resources-trial-environment"></a>Effettuare il provisioning di un ambiente di valutazione per Human Resources
 
 >[!NOTE]
-> A partire da aprile 2022, gli ambienti di prova di Human Resources non saranno disponibili nell'applicazione autonoma. I potenziali clienti interessati a valutare le funzionalità di Human Resources all'interno delle app per la finanza e le operazioni possono farlo utilizzando la versione di prova gratuita di 30 giorni insieme ai dati demo. Dynamics 365 Finance includerà le funzionalità di Human Resources introdotte nell'infrastruttura di Finance tramite l'unione dell'applicazione autonoma. Per ulteriori informazioni, vedi [L'unione delle offerte per le risorse umane unisce le capacità dei clienti](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Per ulteriori informazioni sulle versioni di prova di Dynamics 365 Finance, consulta la [guida](/fin-ops/get-started/before-you-buy) dettagliata. 
+> A partire da aprile 2022, gli ambienti di prova di Human Resources non saranno disponibili nell'applicazione autonoma. I potenziali clienti interessati a valutare le funzionalità di Human Resources all'interno delle app per la finanza e le operazioni possono farlo utilizzando la versione di prova gratuita di 30 giorni insieme ai dati demo. Dynamics 365 Finance includerà le funzionalità di Human Resources introdotte nell'infrastruttura di Finance tramite l'unione dell'applicazione autonoma. Per ulteriori informazioni, vedi [L'unione delle offerte per le risorse umane unisce le capacità dei clienti](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Per ulteriori informazioni sulle versioni di prova di Dynamics 365 Finance, consulta la [guida](../fin-ops-core/fin-ops/get-started/before-you-buy.md) dettagliata. 
 
 
 Prima di eseguire il provisioning del tuo primo ambiente di produzione o sandbox, potresti voler eseguire il provisioning di un [Ambiente di valutazione di Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) per convalidare la funzionalità di Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. 

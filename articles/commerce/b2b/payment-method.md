@@ -2,7 +2,7 @@
 title: Configurare il metodo di pagamento del conto cliente per i siti Web di e-commerce B2B
 description: Questo argomento descrive come configurare il metodo di pagamento del conto cliente in Microsoft Dynamics 365 Commerce. Descrive inoltre in che modo i limiti di credito influiscono sull'acquisizione del pagamento in acconto nei siti di e-commerce business-to-business (B2B).
 author: josaw1
-ms.date: 02/16/2022
+ms.date: 04/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0366f7b51ac138cc7305f98d5607c554440e6d34
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: a8fdeb109204557f0e44457e23a60224e662474f
+ms.sourcegitcommit: 96e2fb26efd2cd07bbf97518b5c115e17b77a0a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323357"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "8616834"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurare il metodo di pagamento del conto cliente per i siti Web di e-commerce B2B
 
@@ -82,20 +82,20 @@ I valori che la proprietà **Tipo di limite di credito** supporta sono **Nessuno
 
 Un'altra proprietà che influisce sull'ordine in acconto è la proprietà **Limite di credito obbligatorio**, che si trova nella Scheda dettaglio **Credito e riscossioni** del record cliente. Impostando questa proprietà su **Sì** per specifici clienti, è possibile forzare il sistema a verificare il loro limite di credito, anche se la proprietà **Tipo di limite di credito** è stata impostata su **Nessuno** per specificare che il limite di credito non deve essere verificato per alcun cliente.
 
-Attualmente, i siti B2B in cui la proprietà **Limite di credito obbligatorio** è abilitata hanno funzionalità aggiuntive. Se la proprietà è abilitata in un record cliente, quando il cliente effettua un ordine, il sito B2B impedisce allo stesso di utilizzare il metodo di pagamento in acconto per pagare più del saldo residuo a credito. Ad esempio, se il credito residuo del cliente è $1.000, ma l'importo dell'ordine è $1.200, il cliente può pagare solo $1.000 utilizzando il metodo di pagamento in acconto. Deve utilizzare un altro metodo di pagamento per pagare il saldo. Se la proprietà **Limite di credito obbligatorio** è disabilitata in un record cliente, il cliente può pagare qualsiasi importo utilizzando il metodo di pagamento in acconto. Tuttavia, anche se un cliente può effettuare ordini, il sistema non consentirà l'evasione di tali ordini se superano il limite di credito. Se devi controllare il limite di credito per tutti i clienti idonei per i pagamenti in acconto, consigliamo di impostare la proprietà **Tipo di limite di credito** su **Saldo+Documento di trasporto o entrata prodotti** e la proprietà **Limite di credito obbligatorio** su **No**.
+Attualmente, un cliente che utilizza il metodo di pagamento acconto non può pagare più del saldo residuo per un ordine. Ad esempio, se il credito residuo di un cliente è $1.000, ma l'importo dell'ordine è $1.200, il cliente può pagare solo $1.000 utilizzando il metodo di pagamento in acconto. Il cliente deve utilizzare un altro metodo di pagamento per pagare il saldo. In una versione futura, una configurazione di Commerce consentirà agli utenti di spendere oltre il limite di credito quando effettuano gli ordini.
 
 Il modulo **Credito e riscossioni** ha nuove funzionalità di gestione del credito. Per attivare queste funzionalità, abilitare la funzionalità **Gestione crediti** nell'area di lavoro **Gestione funzionalità**. Una delle nuove funzionalità consente di sospendere gli ordini cliente in base a regole di blocco. L'utente tipo che si occupa della gestione dei crediti può quindi rilasciare o rifiutare gli ordini dopo un'ulteriore analisi. Tuttavia, la possibilità di sospendere gli ordini cliente non è applicabile agli ordini di Commerce, poiché gli ordini cliente spesso prevedono un pagamento anticipato e la funzionalità **Gestione crediti** non supporta completamente gli scenari di pagamento anticipato. 
 
 Indipendentemente dal fatto che la funzionalità **Gestione crediti** è abilitata o meno, se il saldo di un cliente supera il limite di credito durante l'evasione dell'ordine, gli ordini cliente non verranno sospesi. Invece, Commerce genererà un messaggio di avviso o un messaggio di errore, a seconda del valore del campo **Messaggio in caso di superamento del limite di credito** nella Scheda dettaglio **Limiti di credito**.
 
-La proprietà **Escludi da gestione crediti** che impedisce la sospensione degli ordini cliente di Commerce si trova nell'intestazione dell'ordine cliente (**Vendita al dettaglio e commercio \> Clienti\> Tutti gli ordini cliente**). Se questa proprietà è impostata su **Sì** (il valore predefinito) per gli ordini cliente di Commerce, gli ordini verranno esclusi dal flusso di lavoro sospeso della gestione dei crediti. Si noti che, sebbene la proprietà sia denominata **Escludi dalla gestione del credito**, il limite di credito definito verrà comunque utilizzato durante l'evasione dell'ordine. Gli ordini non verranno sospesi.
+La proprietà **Escludi da gestione crediti** che impedisce la sospensione degli ordini cliente di Commerce si trova nell'intestazione dell'ordine cliente (**Vendita al dettaglio e commercio \> Clienti\> Tutti gli ordini cliente**). Se questa proprietà è impostata su **Sì** (il valore predefinito) per gli ordini cliente di Commerce, gli ordini verranno esclusi dal flusso di lavoro sospeso della gestione dei crediti. Sebbene la proprietà sia denominata **Escludi dalla gestione del credito**, il limite di credito definito verrà comunque utilizzato durante l'evasione dell'ordine. Gli ordini non verranno sospesi.
 
 La possibilità di sospendere gli ordini cliente di Commerce in base a regole di blocco è pianificata per le future versioni di Commerce. Fino a che non sarà supportata, se devi forzare gli ordini cliente di Commerce a passare attraverso i nuovi flussi di gestione del credito, puoi personalizzare i seguenti file XML nella soluzione Visual Studio. Nei file, modifica la logica in modo che il flag **CredManExcludeSalesOrder** sia impostato su **No**. In questo modo, la proprietà **Escludi da gestione crediti** sarà impostata su **No** per impostazione predefinita per gli ordini cliente di Commerce.
 
 - RetailCreateCustomerOrderExtensions_CredMan_Extension.xml
 - RetailCallCenterOrderExtensions_CredMan_Extension.xml
 
-Da notare che, se il flag **CredManExcludeSalesOrder** è impostato su **No** e un cliente B2B può acquistare da punti vendita utilizzando l'applicazione POS, la registrazione delle transazioni cash and carry potrebbe non riuscire. Ad esempio, esiste una regola di blocco sul tipo di pagamento in contanti e il cliente B2B ha acquistato alcuni articoli nel punto vendita utilizzando contanti. In questo caso, l'ordine cliente risultante non verrà fatturato correttamente perché verrà sospeso. Pertanto, la registrazione avrà esito negativo. Per questo motivo, consigliamo di eseguire test end-to-end dopo aver implementato questa personalizzazione.
+Se il flag **CredManExcludeSalesOrder** è impostato su **No** e un cliente B2B può acquistare da punti vendita utilizzando l'applicazione POS, la registrazione delle transazioni cash and carry potrebbe non riuscire. Ad esempio, esiste una regola di blocco sul tipo di pagamento in contanti e il cliente B2B ha acquistato alcuni articoli nel punto vendita utilizzando contanti. In questo caso, l'ordine cliente risultante non verrà fatturato correttamente perché verrà sospeso. Pertanto, la registrazione avrà esito negativo. Per questo motivo, consigliamo di eseguire test end-to-end dopo aver implementato questa personalizzazione.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7f765e7cfd97170bd144dfff12c18ced96e3332a
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 3c9b9602e5c219be5756f5987b0497f2ce5c269d
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533714"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644304"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Accumula piani di congedo e assenza
 
@@ -105,8 +105,10 @@ Consente di eliminare i record di accumuli per un piano e un intervallo di date 
 **Controllo accumuli congedi** viene visualizzato ogni volta che si esegue o si elimina un accumulo per uno o tutti i dipendenti. Vengono visualizzate anche la data e la persona che ha eseguito l'azione.
 
 1. Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.
-
 2. Sotto **Gestisci congedo**, selezionare **Elimina controllo accumuli congedi**.
+
+## <a name="leave-accrual-rounding"></a>Arrotondamento accumulo per congedo
+Quando un dipendente è iscritto o non iscritto, l'arrotondamento della maturazione delle ferie verrà ripartito proporzionalmente. In precedenza, l'arrotondamento era consentito solo quando un piano di ferie era impostato in modo proporzionale e un dipendente veniva iscritto/cancellato a metà del periodo. I ratei per ferie ora verranno arrotondati indipendentemente dall'iscrizione/cancellazione a metà periodo o all'inizio di un periodo.
 
 ## <a name="leave-accrual-transaction-auditing"></a>Controllo transazione accumulo per congedo
 

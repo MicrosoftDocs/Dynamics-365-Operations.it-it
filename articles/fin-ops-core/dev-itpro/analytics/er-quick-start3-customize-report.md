@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2c8cf4866b6a8c239359d726d8cd4f03a9eb4137
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: a7353d7d8149ff1316fbc0adc55b7e1050f443a8
+ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324089"
+ms.lasthandoff: 04/30/2022
+ms.locfileid: "8661660"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizzare le configurazioni dei rapporti elettronici per generare un documento elettronico
 
@@ -61,7 +61,7 @@ In qualità di utente nel ruolo di consulente funzionale per la creazione di rep
 ### <a name="configure-er-parameters"></a>Configurare i parametri ER
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Parametri per la creazione di report elettronici**.
+2. Nella pagina **Progetto localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Parametri per la creazione di report elettronici**.
 3. Nella pagina **Parametri per la creazione di report elettronici**, nella scheda **Generale**, imposta l'opzione **Abilita integrazione fiscale** su **Sì**.
 4. Nella scheda **Allegati** nel campo **Configurazioni** selezionare **File**.
 5. Nei campi **Archivio processi**, **Temporaneo**, **Base** e **Altri**, seleziona il tipo **File**.
@@ -78,13 +78,13 @@ Ogni configurazione ER aggiunta viene contrassegnata come di proprietà di un pr
 #### <a name="review-the-list-of-er-configuration-providers"></a>Rivedere l'elenco dei provider di configurazione ER
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Provider di configurazione**.
+2. Nella pagina **Progetto localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Provider di configurazione**.
 3. Nella pagina **Tabella del provider di configurazione**, ogni record del provider ha un nome e un URL univoci. Rivedi il contenuto della pagina. Se un record per **Litware, Inc.** (`https://www.litware.com`) esiste già, salta la procedura successiva, [Aggiungere un nuovo provider di configurazione ER](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Aggiungere un nuovo provider di configurazione ER
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Provider di configurazione**.
+2. Nella pagina **Progetto localizzazione**, nella sezione **Collegamenti correlati**, seleziona **Provider di configurazione**.
 3. Nella pagina **Provider di configurazione**, seleziona **Nuovo**.
 4. Nel campo **Nome**, immetti **Litware, Inc.**
 5. Nel campo **Indirizzo Internet** immetti `https://www.litware.com`.
@@ -93,7 +93,7 @@ Ogni configurazione ER aggiunta viene contrassegnata come di proprietà di un pr
 #### <a name="activate-an-er-configuration-provider"></a>Attivare un provider di configurazioni ER
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, seleziona il riquadro **Litware, Inc.**, quindi seleziona **Imposta attivo**.
+2. Nella pagina **Progetto localizzazione**, nella sezione **Provider di configurazione**, seleziona il riquadro **Litware, Inc.**, quindi seleziona **Imposta attivo**.
 
 Per ulteriori informazioni sui provider di configurazione ER, vedi [Creare provider di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -102,7 +102,7 @@ Per ulteriori informazioni sui provider di configurazione ER, vedi [Creare provi
 Per aggiungere le configurazioni ER standard all'istanza corrente di Finance, è necessario importarle dall'[archivio](general-electronic-reporting.md#Repository) ER che era configurato per quell'istanza.
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, seleziona il riquadro **Microsoft**, quindi seleziona **Archivi** per visualizzare l'elenco dei repository per il provider Microsoft.
+2. Nella pagina **Progetto localizzazione**, nella sezione **Provider di configurazione**, seleziona il riquadro **Microsoft**, quindi seleziona **Archivi** per visualizzare l'elenco dei repository per il provider Microsoft.
 3. Nella pagina **Archivi di configurazione** seleziona l'archivio del tipo **Globale**, quindi seleziona **Apri**. Se viene richiesta l'autorizzazione per connettersi a Regulatory Configuration Service, segui le istruzioni di autorizzazione.
 4. Nella pagina **Archivio di configurazioni**, nella struttura delle configurazioni del riquadro sinistro, seleziona la configurazione del formato **Fattura di vendita Peppol**.
 5. Nella scheda dettaglio **Versioni**, selezionare la versione **11.2.2**.
@@ -116,7 +116,7 @@ Per aggiungere le configurazioni ER standard all'istanza corrente di Finance, è
 ### <a name="review-the-imported-er-configurations"></a>Rivedere le configurazioni ER importate
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione**, nella sezione **Configurazioni**, selezionare il riquadro **Configurazioni report**.
+2. Nella pagina **Progetto localizzazione**, nella sezione **Configurazioni**, seleziona il riquadro **Configurazioni report**.
 3. Nella pagina **Configurazioni** espandere la scheda dettaglio **Componenti di configurazione**.
 4. Nell'albero di configurazione nel riquadro di sinistra, espandere **Modello di fattura** e quindi espandere **Fattura di vendita UBL**.
 

@@ -2,19 +2,19 @@
 title: Risoluzione dei problemi generali
 description: In questo argomento vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse.
 author: RamaKrishnamoorthy
-ms.date: 04/07/2020
+ms.date: 04/18/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8b5951f9f40179ca0bf31f5cccf1f05a0f968213
-ms.sourcegitcommit: 1843235766b6f8cf950a13a310e9f4f2f53c59a4
+ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
+ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "8554601"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "8614097"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
@@ -131,6 +131,29 @@ Per riattivare l'opzione del modulo **Informazioni**, attenersi alla seguente pr
 2. Trovare il modulo **Informazioni** sotto il nodo dei moduli.
 3. Selezionare il modulo **Informazioni** e fare clic su **Abilita ruoli di sicurezza**.
 4. Cambiare l'impostazione di sicurezza su **Mostra a tutti**.
+
+## <a name="how-to-ensure-data-integration-is-using-the-most-current-finance-and-operations-schema"></a>Come garantire che l'integrazione dei dati utilizzi lo schema per la finanza e le operazioni più aggiornato
+
+Potresti riscontrare problemi con i dati nell'integrazione dei dati se non viene utilizzato lo schema più aggiornato. I passaggi seguenti ti aiuteranno ad aggiornare l'elenco di entità nelle app per la finanza e le operazioni e le entità nell'integratore di dati.
+
+### <a name="refresh-entity-list-in-finance-and-operations-environment"></a>Aggiornare l'elenco di entità nelle app per la finanza e le operazioni
+1.  Accedi all'ambiente delle app per la finanza e le operazioni.
+2.  Seleziona **Gestione dati**.
+3.  In Gestione dati seleziona **Parametri framework**.
+4.  Nella pagina **Parametri framework di importazione/esportazione dei dati**, seleziona la scheda **Impostazioni entità**, quindi **Aggiorna elenco entità**. L'aggiornamento potrebbe richiedere più di 30 minuti, a seconda del numero di entità coinvolte.
+5.  Passa a **Gestione dati** e seleziona **Entità di dati** per convalidare che le entità previste siano elencate. Se le entità previste non sono elencate, verifica che le entità appaiano nel tuo ambiente per la finanza e le operazioni e ripristina le entità mancanti, se necessario.
+
+#### <a name="if-the-refresh-fails-to-resolve-the-issue-delete-and-re-add-the-entities"></a>Se l'aggiornamento non riesce a risolvere il problema, elimina e aggiungi nuovamente le entità
+
+> [!NOTE]
+> Potrebbe essere necessario interrompere tutti i gruppi di elaborazione che stanno utilizzando attivamente le entità prima dell'eliminazione.
+
+1.  Seleziona **Gestione dati** nel tuo ambiente per la finanza e le operazioni e seleziona **Entità di dati**.
+2.  Cerca le entità che hanno problemi e annota l'entità di destinazione, la tabella di gestione temporanea, il nome dell'entità e altre impostazioni. Elimina l'entità o le entità dall'elenco.
+3.  Seleziona **Nuovo** e aggiungi nuovamente l'entità o le entità utilizzando i dati del passaggio 2. 
+
+#### <a name="refresh-entities-in-data-integrator"></a>Aggiornare le entità nell'integratore di dati
+Accedi all'interfaccia di amministrazione di Power Platform e seleziona **Integrazione dati**. Apri il progetto in cui si verificano i problemi e seleziona **Aggiorna entità**.
 
 ## <a name="how-to-enable-and-save-network-trace-so-that-traces-can-be-attached-to-support-tickets"></a>Come abilitare e salvare la traccia di rete in modo che le tracce possano essere allegate ai ticket di supporto
 

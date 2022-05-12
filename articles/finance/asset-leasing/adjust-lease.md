@@ -2,7 +2,7 @@
 title: Rettificare leasing
 description: L'argomento spiega come rettificare un leasing. Potrebbe essere necessario una rettifica se i termini del leasing vengono modificati, il leasing viene prolungato o altre circostanze cambiano.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d7151c28d124420638dc4e69a8ab5359ecf443c
+ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729656"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "8644557"
 ---
 # <a name="adjust-leases"></a>Rettificare leasing
 
@@ -134,5 +134,19 @@ Se un leasing è stato rettificato, puoi visualizzarne le diverse versioni. Puoi
 2. Per visualizzare i programmi storici, apri il leasing modificato dalla pagina **Riepilogo leasing**, seleziona il libro desiderato, quindi, nel riquadro azioni, seleziona **Cronologia versioni libro**.
 3. Nella pagina **Versione libro** seleziona una versione e una programmazione da visualizzare.
 
+## <a name="adjust-a-lease-book"></a>Rettificare un libro di leasing
+
+Per rettificare solo un libro di leasing, segui questi passaggi.
+
+1. Vai a **Leasing cespiti** \> **Leasing** \> **Riepilogo leasing**.
+2. Seleziona e apri un leasing.
+3. Nella pagina **Dettagli leasing**, seleziona **Libri**.
+4. Nella pagina **Dettagli libri** del riquadro azioni, nel gruppo **Gestisci**, seleziona **Rettifica libro**. 
+5. Rimuovi le righe di scadenzario pagamenti.
+6. Nel campo **Data modifica leasing** immetti la data di modifica. Quindi prendi in considerazione la rimozione di tutte le considerazioni aggiuntive relative all'attività/passività (costo diretto iniziale, incentivo del leasing, pagamento anticipato del leasing, costo di smantellamento e garanzia del valore residuo), se presenti. 
+7. Per evitare calcoli imprecisi per la rettifica del leasing, aggiungi nuove righe programma pagamenti per le nuove date di pagamento che corrispondono alla data di modifica. 
+
+> [!NOTE] 
+> Ti consigliamo di utilizzare la procedura guidata **Rettifica leasing** per rettificare un leasing. La procedura guidata riduce il numero di passaggi manuali, fornisce un'anteprima dei saldi dopo la rettifica e consente di modificare gli importi prima della registrazione.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
