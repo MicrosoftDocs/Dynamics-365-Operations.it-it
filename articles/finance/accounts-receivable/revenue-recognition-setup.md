@@ -2,7 +2,7 @@
 title: Impostazione del riconoscimento ricavi
 description: In questo argomento vengono descritte le opzioni di impostazione per il riconoscimento ricavi e le loro implicazioni.
 author: kweekley
-ms.date: 11/24/2021
+ms.date: 04/28/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e8e29ec1ca5a02db67bb4baf522da96ec23c740f
-ms.sourcegitcommit: ac23a0a1f0cc16409aab629fba97dac281cdfafb
+ms.openlocfilehash: 5f72ebd743763db7c68340a833c2501d47d27081
+ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "7867222"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8656723"
 ---
 # <a name="revenue-recognition-setup"></a>Impostazione del riconoscimento ricavi
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Immettere valori descrittivi nei campi **Programmazione ricavi** e **Descrizione
     - **Occorrenze**: l'importo è allocato equamente tra le occorrenze, ma può includere un periodo supplementare se si seleziona **Data di inizio effettiva** come convenzione di riconoscimento.
     - **Periodo fiscale in base ai giorni**: l'importo è allocato in base ai giorni effettivi di ogni periodo fiscale. 
 
-    I risultati di **Ogni mese in base ai giorni** e **Periodo fiscale in base ai giorni** sono uguali quando i periodi fiscali seguono i mesi di calendario. L'unica eccezione è quando la convenzione di riconoscimento è impostata su **Fine mese/periodo** e i campi **Data di inizio contratto** e **Data di fine** vengono lasciati vuoti in una riga dell'ordine cliente.
+         - I risultati di **Ogni mese in base ai giorni** e **Periodo fiscale in base ai giorni** sono uguali quando i periodi fiscali seguono i mesi di calendario. L'unica eccezione è quando la convenzione di riconoscimento è impostata su **Fine mese/periodo** e i campi **Data di inizio contratto** e **Data di fine** vengono lasciati vuoti in una riga dell'ordine cliente.
 
 - **Convenzione di riconoscimento**: la convenzione di riconoscimento determina le date che vengono impostate nella programmazione dei ricavi per la fattura.
 
@@ -108,7 +108,7 @@ Immettere valori descrittivi nei campi **Programmazione ricavi** e **Descrizione
     - **Giorno 1 del mese/periodo**: la data della prima riga della programmazione è la data di inizio del contratto (o data della fattura). Tuttavia, tutte le righe successive della programmazione sono create per il primo giorno del mese o del periodo fiscale.
     - **Divisione a metà mese**: la data della prima riga della programmazione dipende dalla data della fattura. Se la fattura viene registrata nei primi quindici giorni del mese, la programmazione dei ricavi viene creata utilizzando il primo giorno del mese. Se la fattura viene registrata dal sedicesimo giorno in poi, la programmazione dei ricavi viene creata utilizzando il primo giorno del mese successivo.
 
-        **Divisione a metà mese** non può essere selezionato se la base di riconoscimento è impostata su **Periodo fiscale in base ai giorni**.
+        - **Divisione a metà mese** non può essere selezionato se la base di riconoscimento è impostata su **Periodo fiscale in base ai giorni**.
 
     - **Giorno 1 del mese/periodo successivo**: la data di inizio della programmazione è il primo giorno del mese o del periodo fiscale successivo.
     - **Fine mese/periodo**: la data della prima riga della programmazione è la data di inizio del contratto o la data della fattura. Tuttavia, tutte le righe successive della programmazione sono create per l'ultimo giorno del mese o del periodo fiscale. 

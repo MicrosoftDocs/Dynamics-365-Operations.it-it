@@ -12,14 +12,12 @@
               items:
                 - name: Home page Novità o modifiche di Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.27 (luglio 2022)
+                  href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (maggio 2022)
                   href: get-started/whats-new-scm-10-0-26.md
                 - name: Supply Chain Management 10.0.25 (aprile 2022)
                   href: get-started/whats-new-scm-10-0-25.md
-                - name: Supply Chain Management 10.0.24 (febbraio 2022)
-                  href: get-started/whats-new-scm-10-0-24.md
-                - name: Supply Chain Management 10.0.23 (gennaio 2022)
-                  href: get-started/whats-new-scm-10-0-23.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -1725,8 +1723,6 @@
               href: iot/iot-azure-setup.md
             - name: Formati dello schema dei messaggi per l'hub IoT
               href: iot/iot-schema-format.md
-            - name: Installare il componente aggiuntivo in LCS
-              href: iot/iot-lcs-setup.md
             - name: Impostare le metriche
               href: iot/iot-metrics-setup.md
             - name: Impostazione dello scenario
@@ -2757,6 +2753,8 @@
                   href: production-control/production-floor-execution-setup.md
                 - name: Come i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione
                   href: production-control/production-floor-execution-use.md
+                - name: Mostrare i saldi di congedo nell'interfaccia di esecuzione dell'area di produzione
+                  href: production-control/production-floor-execution-payroll-stats.md
                 - name: Creare lo stile per l'interfaccia di esecuzione dell'area di produzione
                   href: production-control/production-floor-execution-styles.md
                 - name: Personalizzare l'interfaccia di esecuzione dell'area di produzione

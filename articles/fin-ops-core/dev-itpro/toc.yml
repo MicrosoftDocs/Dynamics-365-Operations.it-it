@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Platform update versione 10.0.27 (luglio 2022)
+                  href: get-started/whats-new-platform-updates-10-0-27.md
                 - name: Platform update versione 10.0.26 (maggio 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
                 - name: Platform update versione 10.0.25 (aprile 2022)
@@ -66,6 +68,8 @@
                   href: data-entities/odata.md
                 - name: Sviluppo di servizio personalizzato
                   href: data-entities/custom-services.md
+                - name: Traccia di richiesta di assistenza
+                  href: data-entities/service-request-tracing.md
                 - name: Integrazioni ricorrenti
                   href: data-entities/recurring-integrations.md
                 - name: Eseguire test sui servizi mediante utilità di terze parti
@@ -1714,6 +1718,22 @@
                       href: migration-upgrade/migrate-upgraded-cube-entity-store.md
                     - name: Aggiornare la pianificazione del budget
                       href: migration-upgrade/upgrade-budget-planning.md
+                - name: Risoluzione dei problemi di aggiornamento
+                  items:
+                    - name: Risoluzione dei problemi degli ambienti di sviluppo durante l'aggiornamento
+                      href: migration-upgrade/troubleshoot-dev-env.md
+                    - name: Risoluzione dei problemi relativi agli aggiornamenti degli ambienti self-service
+                      href: migration-upgrade/troubleshoot-self-service-env.md
+                    - name: Risoluzione dei problemi relativi agli script di aggiornamento PreSync e PostSync
+                      href: migration-upgrade/pre-post-upgrade-scripts.md
+                - name: Operazioni dell'ambiente
+                  items:
+                    - name: Eseguire la migrazione di allegati ai documenti
+                      href: migration-upgrade/migrate-doc-attachments-ax-2012.md
+                    - name: Pulire i dati di origine per l'aggiornamento
+                      href: migration-upgrade/clean-up-source-data-upgrade.md
+                    - name: Comprimere le tabelle in ambienti Dynamics AX 2012
+                      href: migration-upgrade/compress-tables-ax-2012.md
             - name: Migrazione dei dati da AX 2009
               items:
                 - name: Migrare i dati da AX 2009 a Finance and Operations
@@ -2000,3 +2020,5 @@
       href: ../../finance/index.md
     - name: Dynamics 365 Commerce
       href: ../../commerce/index.md
+    - name: Dynamics 365 Human Resources
+      href: ../../human-resources/index.md
