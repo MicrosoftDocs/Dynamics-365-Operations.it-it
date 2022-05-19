@@ -50,10 +50,6 @@
           items:
             - name: Integrazione tra le app per la finanza e le operazioni e servizi di terze parti
               href: data-entities/integration-overview.md
-            - name: Limitazione basata su priorità
-              hreF: data-entities/priority-based-throttling.md
-            - name: Domande frequenti sulla limitazione basata su priorità
-              href: data-entities/throttling-faq.md
             - name: API di integrazione dati
               items:
                 - name: API REST di pacchetti di gestione dei dati
@@ -74,7 +70,19 @@
                   href: data-entities/recurring-integrations.md
                 - name: Eseguire test sui servizi mediante utilità di terze parti
                   href: data-entities/third-party-service-test.md
-            - name: Connettore Finance and Operations
+            - name: Limiti di protezione del servizio
+              items:
+                - name: Limiti API di protezione del servizio
+                  href: data-entities/service-protection-api-limits.md
+                - name: Priorità di limitazione
+                  href: data-entities/priority-based-throttling.md
+                - name: Eseguire di nuovo le operazioni
+                  href: data-entities/service-protection-retry-operations.md
+                - name: Monitorare la limitazione API
+                  href: data-entities/service-protection-monitoring.md
+                - name: Ottimizzare la produttività API
+                  href: data-entities/service-protection-maximizing-api-throughput.md
+            - name: Connettore per la finanza e le operazioni
               href: data-entities/fin-ops-connector.md
             - name: Sviluppo per l'integrazione
               items:
@@ -398,6 +406,8 @@
                       href: deployment/onprem-SSRSHA.md
                     - name: Configurare proxy per ambienti locali
                       href: deployment/onprem-reverseproxy.md
+                    - name: Configurare l'app Magazzino per distribuzioni in locale
+                      href: deployment/warehousing-for-on-premise-deployments.md
                     - name: Installare le stampanti di rete in ambienti locali
                       href: analytics/install-network-printer-onprem.md
                     - name: Diagnostica locale
@@ -472,16 +482,14 @@
                   href: help/language-locale.md
                 - name: 'Estendere, personalizzare e collaborare alla Guida'
                   href: help/contributor-guide.md
-            - name: Considerazioni sulla distribuzione
+            - name: Servizi regionali delle app per la finanza e le operazioni
               items:
-                - name: Opzioni di distribuzione cloud sovrano e locale per Dynamics 365 Finance e Dynamics 365 Supply Chain Management
+                - name: Geografie locali
                   href: deployment/deployment-options-geo.md
-                - name: Finance e Supply Chain Management in US Government Community Cloud (GCC)
+                - name: US Government Community Cloud (GCC)
                   href: deployment/us-gcc-deployment.md
-                - name: Finance e Supply Chain Management gestiti da 21Vianet in Cina
+                - name: Gestito da 21Vianet in Cina
                   href: deployment/china-local-deployment.md
-                - name: App per la finanza e le operazioni in Francia
-                  href: deployment/france-local-deployment.md
         - name: Sviluppo e personalizzazione
           items:
             - name: Home page sviluppo e personalizzazione
@@ -559,7 +567,7 @@
                     - name: Panoramica della creazione di modelli ed elementi del modello dati
                       href: dev-tools/create-data-model-elements.md
                     - name: Linee guida sulla denominazione per estensioni
-                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
+                      href: /dynamics365/fin-ops-core/dev-itpro/extensibility/naming-guidelines-extensions
                     - name: Disattivare la personalizzazione del modello e la funzionalità deprecata
                       href: dev-tools/lock-models.md
                 - name: Report di Analisi personalizzazione

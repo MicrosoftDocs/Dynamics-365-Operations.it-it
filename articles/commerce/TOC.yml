@@ -600,6 +600,8 @@
                       href: wallets.md
                     - name: Pagamenti avanzati nel checkout dalla vetrina
                       href: dev-itpro/enhanced-sca.md
+                    - name: Configurare i pagamenti rapidi per PayPal
+                      href: dev-itpro/express-payments-paypal.md
                     - name: Domande frequenti sui pagamenti
                       href: dev-itpro/payments-retail.md
                 - name: Posta elettronica e notifiche
@@ -958,6 +960,8 @@
               href: online-store-overview.md
             - name: Creare un sito di e-commerce
               items:
+                - name: Mappare i canali ai siti di e-commerce
+                  href: map-channels-sites.md
                 - name: Configurare il proprio nome di dominio
                   href: configure-your-domain-name.md
                 - name: Distribuire un nuovo tenant di e-commerce
@@ -2560,18 +2564,20 @@
                       href: dev-itpro/pos-extension/pos-extension-basics.md
                     - name: Eseguire la migrazione di estensioni POS a Commerce SDK
                       href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Creare un progetto di pacchetto di estensioni POS
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
                     - name: Eseguire il debug delle estensioni di Store Commerce usando VS Code
                       href: dev-itpro/sc-debug.md
+                    - name: Estensioni MPOS e CPOS nascoste
+                      items:
+                        - name: Crea un file .appx per un pacchetto di estensione Modern POS
+                          href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                        - name: Eseguire il debug delle estensioni MPOS (nascosta) e CPOS
+                          href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: Impostazione dell'ambiente
                   items:
                     - name: Ambiente di sviluppo locale
                       href: dev-itpro/setup-local-dev-env.md
-                    - name: Creare un progetto di pacchetto di estensioni POS
-                      href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Crea un file .appx per un pacchetto di estensione Modern POS
-                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Eseguire il debug di estensioni POS
-                      href: dev-itpro/pos-extension/debug-pos-extension.md
                 - name: API e riferimento
                   items:
                     - name: Visualizzare informazioni sul pacchetto dell'estensione POS
@@ -2834,6 +2840,10 @@
                           href: e-commerce-extensibility/instance-cache.md
                         - name: Ottimizzazione del modulo CSS
                           href: e-commerce-extensibility/module-css-optimization.md
+                        - name: Ottimizzare le immagini nelle pagine dei dettagli del prodotto
+                          href: e-commerce-extensibility/optimize-images-pdp.md
+                        - name: Ottimizzare le immagini nelle pagine di ricerca e di categoria
+                          href: e-commerce-extensibility/optimize-images-search-cat.md
                     - name: Telemetria e analisi dei dati
                       items:
                         - name: Registrazione telemetria

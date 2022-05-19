@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: kweekley
+ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b0560024d87ad72c7ab77eaff52a305a4ab5a089
-ms.sourcegitcommit: cd0ba5f0ac7c44d36559a3e6e0fffb6ed18f9a20
+ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "7947264"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8725602"
 ---
 # <a name="year-end-activities-faq"></a>Domande frequenti sulle attività di fine anno 
 
@@ -170,7 +170,7 @@ Un'organizzazione potrebbe dover creare manualmente le transazioni 1099 non asso
 
 Le transazioni 1099 create manualmente non vengono aggiornate con il processo **Aggiorna tutto** o il processo **Ricalcola importi 1099 esistenti** nell'utilità **Aggiorna modulo 1099**.
 
-## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Contabilità fornitori: 1099 - Dynamics 365 Finance supporta il modulo 1096? 
+## <a name="accounts-payable-1099--does-dynamics-365-finance-support-the-1096-form"></a>Contabilità fornitori: 1099 - Il modulo Dynamics 365 Finance supporta il modulo 1096? 
 
 Dynamics 365 Finance non stampa il modulo 1096 Riepilogo annuale e trasmissione delle dichiarazioni negli Stati Uniti.
 

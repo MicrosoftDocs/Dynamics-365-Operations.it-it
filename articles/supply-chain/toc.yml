@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Acquistare Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurare l'app Magazzino per distribuzioni locali
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/supply-chain/toc.json
             - name: Risorse di documentazione
               items:
                 - name: Guida
@@ -3299,8 +3297,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Registrare articoli per un articolo abilitato a immagazzinaggio di base tramite un giornale di registrazione arrivi
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Importare gli ASN in entrata tramite l'entità di dati V2
-                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Importare gli ASN in entrata tramite l'entità di dati V3
+                  href: warehousing/import-asn-data-entity.md
                 - name: Cross-docking di prodotti da magazzino ricevente a punti vendita
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore

@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/system-requirements-on-prem.md?toc=/dynamics365/finance/toc.json
                 - name: Acquistare Finance + Operations (on-premises)
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Configurare l'app Magazzino per distribuzioni locali
-                  href: ../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/dynamics365/finance/toc.json
             - name: Risorse di documentazione
               items:
                 - name: Guida
@@ -272,6 +270,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Profili registrazione fornitori
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Creare codici di spese
+              href: accounts-receivable/create-charges-codes.md
             - name: Date di fattura fornitore
               href: accounts-payable/vendor-invoice-dates.md
             - name: Rivalutazione valuta estera per la contabilità fornitori e la contabilità clienti
@@ -292,6 +292,8 @@
               items:
                 - name: Pagamenti centralizzati per la contabilità fornitori
                   href: accounts-payable/centralized-payments-accounts-payable.md
+                - name: Impostazione ed elaborazione dei pagamenti provvisori
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Configurare la liquidazione
                   href: cash-bank-management/configure-settlement.md
                 - name: Residuo liquidazione
@@ -354,8 +356,12 @@
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Distribuzioni contabili e scritture contabili nel giornale di registrazione secondario per le fatture a testo libero
               href: accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
+            - name: Registrazione Contabilità clienti
+              href: general-ledger/accts-recvble-posting.md
             - name: Profili di registrazione cliente
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Creare codici di spese
+              href: accounts-receivable/create-charges-codes.md
             - name: Panoramica degli addebiti diretti SEPA
               href: accounts-receivable/sepa-direct-debit-overview.md
             - name: Impostazione del mandato di addebito diretto SEPA
@@ -436,6 +442,8 @@
                       href: accounts-receivable/terminate-billing-schedule.md
                     - name: Scenari di date di allineamento
                       href: accounts-receivable/sb-alignment-date-examples.md
+                    - name: Suddivisione ricavi
+                      href: accounts-receivable/sb-revenue-split.md
                 - name: Differimenti ricavi e spese
                   items:
                     - name: Imposta differimenti ricavi e spese
@@ -452,6 +460,8 @@
               items:
                 - name: Panoramica pagamenti cliente
                   href: cash-bank-management/tasks/customer-payment-overview.md
+                - name: Impostazione ed elaborazione dei pagamenti provvisori
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Pagamenti centralizzati per la contabilità clienti
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Depositare pagamenti cliente
@@ -1026,6 +1036,14 @@
                       href: general-ledger/import-currency-exchange-rates.md
                     - name: Doppia valuta
                       href: general-ledger/dual-currency.md
+                - name: Profili registrazione
+                  items:
+                    - name: Panoramica dei profili di registrazione
+                      href: general-ledger/pstg-prfles-ovrvw.md
+                    - name: Procedure consigliate per i profili di registrazione
+                      href: general-ledger/recommended-practices-pstg-prfles.md
+                    - name: Conti per transazioni automatiche
+                      href: general-ledger/accounts-for-auto-transactions.md
                 - name: Regole di allocazione
                   items:
                     - name: Regole di allocazione contabile
