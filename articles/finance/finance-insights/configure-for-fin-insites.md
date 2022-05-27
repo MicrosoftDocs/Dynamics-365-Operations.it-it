@@ -8,26 +8,26 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: b9bad6445e9e77688f66c6c4186422d7a898edd7
-ms.sourcegitcommit: 7fc0a9a6440ac087292e9e76c26c67f56154b9e6
+ms.openlocfilehash: 6ec7e6a7e616e239128281ba669c8bbbfc5e3c7a
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "8051372"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710616"
 ---
 # <a name="configuration-for-finance-insights"></a>Configurazione per Finance Insights
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Finance Insights combina le funzionalità di Microsoft Dynamics 365 Finance con Dataverse, Azure e AI Builder per fornire potenti strumenti di previsione per la tua organizzazione. In questo argomento vengono illustrati i passaggi di configurazione che consentiranno al sistema di utilizzare le funzionalità disponibili in Finance Insights. Per completare correttamente le procedure in questo argomento, è necessario disporre dell'accesso come amministratore di sistema e addetto alla personalizzazione del sistema nell'[interfaccia di amministrazione di Power Portal](https://admin.powerplatform.microsoft.com/), dell'accesso come amministratore di sistema in Dynamics 365 Finance e dell'accesso per creare ambienti in Microsoft Dynamics Lifecycle Services (LCS).
+Finance Insights combina le funzionalità di Microsoft Dynamics 365 Finance con Dataverse, Azure e AI Builder per fornire potenti strumenti di previsione per l'organizzazione. In questo argomento vengono illustrati i passaggi di configurazione che consentiranno al sistema di utilizzare le funzionalità disponibili in Finance Insights. Per completare correttamente le procedure in questo argomento, è necessario disporre dell'accesso come amministratore di sistema e addetto alla personalizzazione del sistema nell'[interfaccia di amministrazione di Power Portal](https://admin.powerplatform.microsoft.com/), dell'accesso come amministratore di sistema in Dynamics 365 Finance e dell'accesso per creare ambienti in Microsoft Dynamics Lifecycle Services (LCS).
 
 > [!NOTE]
 > Le seguenti procedure per l'impostazione di Finance Insights sono valide per Dynamics 365 Finance versione 10.0.21 e successive.
@@ -36,7 +36,7 @@ Finance Insights combina le funzionalità di Microsoft Dynamics 365 Finance con 
 
 Attieniti a questa procedura per distribuire gli ambienti.
 
-1. In LCS, crea o aggiorna un ambiente Dynamics 365 Finance. L'ambiente richiede la versione dell'app 10.0.21 o successiva.
+1. In LCS, creare o aggiornare un ambiente Dynamics 365 Finance. L'ambiente richiede la versione dell'app 10.0.21 o successiva.
 
     > [!NOTE]
     > L'ambiente deve essere un ambiente ad alta disponibilità (HA). (Questo tipo di ambiente è noto anche come ambiente Tier-2). Per altre informazioni, vedi [Pianificazione ambientale](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
@@ -90,9 +90,9 @@ L'installazione del componente aggiuntivo potrebbe richiedere diversi minuti.
 
 ## <a name="one-last-thing"></a>Un'ultima cosa...
 
-Dopo che il componente aggiuntivo è stato installato correttamente, potrebbe essere necessaria fino a un'ora prima che tu possa abilitare le funzionalità di Finance insights nell'area **Gestione funzionalità** in Dynamics 365 Finance. Se non vuoi aspettare così a lungo, puoi eseguire manualmente il processo **Verifica stato provisioning di Insights**. 
+Dopo che il componente aggiuntivo è stato installato correttamente, potrebbe essere necessaria fino a un'ora prima che sia possibile abilitare le funzionalità di Finance insights nell'area **Gestione funzionalità** in Dynamics 365 Finance. Se non vuoi aspettare così a lungo, puoi eseguire manualmente il processo **Verifica stato provisioning di Insights**. 
 
-1. In Dynamics 365 Finance, vai a **Amministratore di sistema \> Imposta \> Automazione del processo**.
+1. In Dynamics 365 Finance, andare a **Amministratore di sistema \> Imposta \> Automazione del processo**.
 2. Nella scheda **Processi in background**, trova **Verifica stato provisioning di Insights** e seleziona **Modifica**.
 3. Imposta il campo **Esecuzione successiva** su 30 minuti prima dell'ora corrente.
 

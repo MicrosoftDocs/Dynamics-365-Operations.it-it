@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9552e518855711781c905514cae1cc25d33718c6
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533572"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722243"
 ---
 # <a name="update-process"></a>Aggiornare un processo
 
@@ -38,7 +37,7 @@ Gli aggiornamenti vengono rilasciati a cadenza regolare per tutti gli ambienti. 
 
 Gli aggiornamenti di Human Resources vengono applicati automaticamente a tutti gli ambienti. Human Resources fornisce due tipi di rilasci:
 
-- **Aggiornamenti del servizio**: aggiornamenti bisettimanali che includono correzioni di bug e nuove funzionalità. Gli aggiornamenti del servizio includono anche gli aggiornamenti applicabili della piattaforma quando vengono rilasciati. Per avere un'idea di quando vengono rilasciati gli aggiornamenti della piattaforma, vedere [Tabella 3: versioni della piattaforma ](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). Gli aggiornamenti bisettimanali prevedono un'implementazione globale in fasi tra le regioni. Per ulteriori informazioni sugli aggiornamenti bisettimanali, vedere [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Aggiornamenti del servizio**: aggiornamenti bisettimanali che includono correzioni di bug e nuove funzionalità. Gli aggiornamenti del servizio includono anche gli aggiornamenti applicabili della piattaforma quando vengono rilasciati. Per ulteriori informazioni sui rilasci della piattaforma, vedere [Novità o modifiche negli aggiornamenti della piattaforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Gli aggiornamenti bisettimanali prevedono un'implementazione globale in fasi tra le regioni. Per ulteriori informazioni sugli aggiornamenti bisettimanali, vedere [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Tutti i datacenter supportati vengono aggiornati ogni due settimane, salvo diversa indicazione. Gli Stati Uniti, l'Australia, l'Europa, il Regno Unito, l'Asia e il Canada sono inclusi negli aggiornamenti bisettimanali. 
 

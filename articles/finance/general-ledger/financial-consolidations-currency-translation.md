@@ -1,30 +1,30 @@
 ---
 title: Panoramica dei consolidamenti finanziari e delle conversioni di valuta
 description: In questo argomento vengono descritti i consolidamenti finanziari e le conversioni di valuta nella contabilità generale.
-author: jiwo
+author: jinniew
 ms.date: 10/07/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: aolson
+ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a77fe5e1970c617203706d9d629ac65e3a47909b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f6f0094ac3307164e1c715a71e16b0766247e275
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982407"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713870"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Panoramica consolidamenti finanziari e conversione valuta
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive l'approccio utilizzato da Microsoft Dynamics 365 Finance e la funzionalità di creazione di report finanziari per i consolidamenti. Descrive scenari che implicano la creazione di report per più società, l'aggregazione, l'eliminazione e gli interessi di minoranza. Descrive inoltre come gestire le situazioni speciali, ad esempio gli scenari in cui le persone giuridiche hanno periodi fiscali diversi o piani dei conti diversi.
+Questo argomento descrive l'approccio utilizzato da Microsoft Dynamics 365 Finance e dalla funzionalità di creazione di report finanziari per i consolidamenti. Descrive scenari che implicano la creazione di report per più società, l'aggregazione, l'eliminazione e gli interessi di minoranza. Descrive inoltre come gestire le situazioni speciali, ad esempio gli scenari in cui le persone giuridiche hanno periodi fiscali diversi o piani dei conti diversi.
 
 In questo argomento sono state inserite informazioni relative a utenti e consulenti funzionali e si presuppone che i lettori abbiano una conoscenza generale di Finance e della funzionalità di creazione di report finanziari. L'impostazione di base non viene trattata.
 

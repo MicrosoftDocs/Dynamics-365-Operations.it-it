@@ -13,19 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eaf48306607b27c70359e0d0faee4c92f4b82cac
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: a9ee95621f184b882ead1750d61626d184174cef
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182606"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716478"
 ---
 # <a name="create-consolidation-groups-and-additional-consolidation-accounts"></a>Creare gruppi di consolidamento e conti di consolidamento aggiuntivi
 
 [!include [banner](../../includes/banner.md)]
 
 Questa procedura mostra come creare un gruppo di conti di consolidamento e aggiungere i conti nel gruppo. Questa procedura utilizza la società di dati dimostrativi USMF.
-
 
 ## <a name="create-a-consolidation-account-group"></a>Creare un gruppo di conti di consolidamento
 1. Andare a **Contabilità generale > Piano dei conti > Conti > Gruppi di conti di consolidamento**.
@@ -34,14 +33,12 @@ Questa procedura mostra come creare un gruppo di conti di consolidamento e aggiu
 4. Digitare un valore nel campo **Nome**.
 
 ## <a name="add-accounts-to-consolidation-account-group"></a>Aggiungere conti al gruppo di conti di consolidamento
-1. Andare a Contabilità generale > Piano dei conti > Conti > Conti di consolidamento aggiuntivi.
-2. Fare clic su Nuovo.
-3. Nel campo Conto principale fare clic sul pulsante a discesa per aprire la ricerca.
-4. Nell'elenco fare clic sul conto principale che si desidera mappare.
-5. Nel campo Gruppo di conti di consolidamento fare clic sul pulsante a discesa per aprire la ricerca.
-6. Nell'elenco, fare clic sul gruppo di conti di consolidamento.
-7. Digitare un valore nel campo Conto di consolidamento.
-8. Digitare un valore nel campo Nome conto di consolidamento.
+1. Andare a **Contabilità generale > Piano dei conti > Conti > Conti di consolidamento aggiuntivi**.
+2. Fare clic su **Nuovo**.
+3. Nel campo **Conto principale**, dall'elenco selezionare il conto principale di cui eseguire il mapping.
+4. Nel campo **Gruppo di conti di consolidamento**, dall'elenco fare clic sul gruppo di conti di consolidamento.
+5. Nel campo **Conto di consolidamento** digitare un valore.
+6. Nel campo **Nome conto di consolidamento** digitare un valore.
 
 
 

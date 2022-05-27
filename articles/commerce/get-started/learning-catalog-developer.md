@@ -9,16 +9,15 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8fd6630a92ad9c7ad9b270e99814355fafc5510c
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 4c74ce27c120342011c3bee53b0790dbc43a583b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402474"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694204"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-developers"></a>Catalogo di apprendimento per sviluppatori Dynamics 365 Commerce
 
@@ -26,11 +25,11 @@ Devi scrivere codice per l'integrazione con altre origini dati, estendere le fun
 
 Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini specifici e dalla più elementare alla più avanzata. Se il contenuto esiste in più formati, verrà reso noto in modo da poter scegliere il formato di formazione più adatto alle esigenze.
 
-Per la formazione sulle funzionalità condivise con altre app Finance and Operations, vedere il [Catalogo di apprendimento Dynamics 365 Finance](../../finance/get-started/learning-catalog-developer.md).
+Per la formazione sulle funzionalità condivise con altre app per la finanza e le operazioni, vedere il [Catalogo di apprendimento di Dynamics 365 Finance](../../finance/get-started/learning-catalog-developer.md).
 
-## <a name="get-started"></a>Per iniziare<a name="get-started"></a>
+## <a name="get-started"></a>Attività iniziali<a name="get-started"></a>
 
-| Contenuto  | Descrizione  | Formatta  | Durata    |
+| Contenuto  | Description  | Formato  | Durata    |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/)   | Questa esperienza di apprendimento illustra un percorso che inizia mostrando come la trasformazione digitale e la potenza delle applicazioni aziendali possono trasformare l'azienda. Verrà illustrato come Dynamics 365 e Power Platform aiuteranno a prendere decisioni informate in base alle esigenze e agli obiettivi dell'organizzazione, attraverso quattro elementi costitutivi della trasformazione digitale: moderni, unificati, intelligenti e adattabili.                                                                    | Percorso di apprendimento online gratuito autonomo | 6.5 ore |
 | [Introduzione a Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/)                                                              | Dynamics 365 Commerce, basato sulle funzionalità consolidate di Dynamics 365 Retail, offre una soluzione multicanale completa che unifica le esperienze di back office, punto vendita, servizio clienti e area Digital. Dynamics 365 Commerce consente di sviluppare la fedeltà al marchio mediante servizi personalizzati offerti ai clienti, di aumentare i ricavi con una migliore produttività dei dipendenti, di ottimizzare le operazioni per ridurre i costi e favorire l'efficacia della catena di approvvigionamento e quindi di ottenere risultati aziendali migliori. | Percorso di apprendimento online gratuito autonomo | 2 ore   |

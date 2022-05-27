@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e810badf9b43a3b0e57390b05247113021e26b6a0242cf29022274307c5fd56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771802"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713673"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Creare un giornale di registrazione annullamento per un cliente
 
@@ -77,7 +77,7 @@ Questa guida attività indicherà come impostare i parametri per gli annullament
 1. Andare a **Contabilità clienti > Clienti > Tutti i clienti**.
 2. Selezionare un account cliente. Ad esempio, selezionare US-001 (Contoso Retail San Diego).
 3. Nel **riquadro azioni** fare clic su **Raccolta**.
-4. Fare clic su **Annullare**.
+4. Fare clic su **Annulla**.
 5. Fare clic su **OK**.
 6. Chiudere la pagina.
 

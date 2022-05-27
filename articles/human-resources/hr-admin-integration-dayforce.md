@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PersonnelIntegrationConfiguration
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7e2043e75aa647e21f3e0816247dcf651be64730
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067078"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8691334"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurare l'integrazione con Dayforce
 
@@ -42,7 +41,7 @@ Questo argomento descrive i passi da seguire per abilitare l'integrazione e spie
 
 ## <a name="enable-the-integration"></a>Abilitare l'integrazione
 
-In Human Resources è necessario attivare l'integrazione e immettere le informazioni di configurazione per connettersi a Dayforce. Se si desidera che la transazione contabile prodotta venga importata in Microsoft Dynamics 365 Finance, è necessario impostare anche un conto di archiviazione di Microsoft Azure e immettere la stringa di connessione di Archiviazione di Azure in Finance.
+In Human Resources è necessario attivare l'integrazione e immettere le informazioni di configurazione per connettersi a Dayforce. Se si desidera che la transazione contabile prodotta venga importata in Microsoft Dynamics 365 Finance, è necessario impostare anche un account di archiviazione di Microsoft Azure e immettere la stringa di connessione di Archiviazione di Azure in Finance.
 
 Per attivare l'integrazione in Human Resources, seguire questi passaggi.
 

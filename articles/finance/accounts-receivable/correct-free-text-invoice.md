@@ -1,6 +1,6 @@
 ---
 title: Correzione di una fattura a testo libero
-description: In questo articolo viene illustrato come correggere una fattura a testo libero registrata e come riemetterla in modo corretto.
+description: In questo argomento viene illustrato come correggere una fattura a testo libero registrata e riemetterla in modo corretto.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf4503e3d4b200219d6b444b69c866871d21787d
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 7fb535b14f4c270f914a427d09027c37b3be7b72
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753804"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716215"
 ---
 # <a name="correct-a-free-text-invoice"></a>Correzione di una fattura a testo libero
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene illustrato come correggere una fattura a testo libero registrata e come riemetterla in modo corretto.
+In questo argomento viene illustrato come correggere una fattura a testo libero registrata e riemetterla in modo corretto.
 
 Per correggere una fattura a testo libero già registrata, aprire la fattura a testo libero registrata. Nella pagina **Fattura** selezionare **Annulla** e quindi selezionare **Fattura corretta**. Selezionare un codice motivo, aggiungere commenti e selezionare la data della nuova fattura corretta. È possibile modificare la fattura corretta e registrarla. 
 

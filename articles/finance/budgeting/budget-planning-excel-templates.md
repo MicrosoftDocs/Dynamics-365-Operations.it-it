@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775172"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711978"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelli di pianificazione del budget per Excel
 
@@ -55,7 +55,7 @@ I documenti del piano di budget possono essere visualizzati e modificati utilizz
 Il modello di Excel contiene tutti gli elementi dal layout di documento del piano di budget, in cui la colonna **Disponibile nel foglio di lavoro** è impostata su True. La sovrapposizione di elementi non è consentita nel modello Excel. Ad esempio, se il layout include le colonne Request Q1, Request Q2, Request Q3, e Request Q4 e una colonna di richiesta totale che rappresenta una somma di tutte le 4 colonne trimestrali, solo le colonne trimestrali o la colonna totale è disponibile da utilizzare nel modello Excel. Il file di Excel non può aggiornare le colonne sovrapposte durante l'aggiornamento perché i dati della tabella possono diventare obsoleti e inesatti.
 
 > [!NOTE] 
-> Per evitare problemi potenziali di visualizzazione e modifica dei dati del piano di budget utilizzando Excel, lo stesso utente deve essere collegato sia a Microsoft Dynamics 365 Finance che al connettore dati del componente aggiuntivo per Office di Microsoft Dynamics.
+> Per evitare potenziali problemi di visualizzazione e modifica dei dati del piano di budget utilizzando Excel, lo stesso utente deve essere collegato sia a Microsoft Dynamics 365 Finance che al connettore dati del componente aggiuntivo per Office di Microsoft Dynamics.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Aggiungere un'intestazione al modello di documento del piano di budget
 Per aggiungere informazioni di intestazione, selezionare la riga superiore nel file di Excel e inserire righe vuote. Fare clic su **Progettazione** in **Connettore dati** per aggiungere i campi di intestazione al file Excel.

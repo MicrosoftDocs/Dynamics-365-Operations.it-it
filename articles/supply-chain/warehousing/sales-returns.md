@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cfcfd165b5f7b97d1ee88175b3f6c9d418c30c2
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565281"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695565"
 ---
 # <a name="sales-returns"></a>Resi su vendite
 
@@ -76,7 +76,6 @@ Quando si crea un ordine di reso, le informazioni nella tabella che segue devono
 | Codice NAR         | ID assegnato all'ordine di reso              | Viene utilizzato come chiave alternativa nel corso del processo relativo all'ordine di reso. Il codice NAR assegnato si basa sulla sequenza numerica NAR impostata nella pagina **Parametri contabilità clienti**.                                                                                                                              |
 | Scadenza           | Ultima data in cui un articolo può essere restituito               | Il valore predefinito viene calcolato in base alla data corrente cui viene aggiunto il periodo di validità. Ad esempio, se un reso è valido solo per 90 giorni dalla data in cui l'ordine di reso viene creato e se l'ordine di reso è stato creato il 1° maggio, il campo sarà impostato su **30 luglio**. Il periodo di validità viene impostato nella pagina **Parametri contabilità clienti**. |
 | Codice motivo reso | Motivo del cliente per la restituzione degli articoli          | Il codice motivo è selezionato nell'elenco dei codici motivo definiti dall'utente. È possibile aggiornare questo campo in qualsiasi momento.                                                                                                                                                                                                                                    |
-
 ### <a name="create-return-order-lines"></a>Crea righe ordine di reso
 
 Dopo aver completato l'intestazione di reso, è possibile creare righe di reso utilizzando uno dei seguenti metodi:
@@ -84,7 +83,8 @@ Dopo aver completato l'intestazione di reso, è possibile creare righe di reso u
 -   Immettere manualmente i dettagli dell'articolo, la quantità e altre informazioni per ogni riga di reso.
 -   Creare una riga di reso utilizzando la funzione **Trova ordine cliente**. Si consiglia di utilizzare questa funzione quando si crea un ordine di reso. La funzione **Trova ordine cliente** stabilisce un riferimento dalla riga di reso alla riga dell'ordine cliente fatturata e recupera dettagli riga, quali il numero di articolo, la quantità, il prezzo, lo sconto e i valori di costo dalla riga di vendita. Il riferimento consente di garantire che, quando il prodotto viene restituito alla società, sia valutato allo stesso costo unitario di vendita. Il riferimento conferma inoltre che gli ordini di reso non sono creati per una quantità superiore a quella venduta indicata in fattura.
 
->[Nota!] Le righe di reso con un riferimento a un ordine cliente vengono gestite come rettifiche o storni della vendita. Per ulteriori informazioni, vedere la sezione relativa alla registrazione nella contabilità generale più avanti in questo argomento.
+>[!NOTE] 
+>Le righe di reso con un riferimento a un ordine cliente vengono gestite come rettifiche o storni della vendita. Per ulteriori informazioni, vedere la sezione relativa alla registrazione nella contabilità generale più avanti in questo argomento.
 
 ### <a name="charges"></a>Spese
 
@@ -189,8 +189,10 @@ Durante il processo di arrivo i resi si integrano nel processo generale degli ar
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Identificare i prodotti nell'elenco della panoramica degli arrivi
 
-Nella pagina **Panoramica arrivi** vengono elencati tutti gli arrivi previsti in entrata. 
->[Nota!] Gli arrivi provenienti dagli ordini di reso devono essere elaborati separatamente da altri tipi di transazioni di arrivi. Dopo aver identificato un collo ricevuto nella pagina **Panoramica arrivi** (ad esempio utilizzando il documento NAR di accompagnamento), nel riquadro azioni fare clic su **Inizia arrivo** per creare e inizializzare un giornale di registrazione arrivi che corrisponda all'arrivo.
+Nella pagina **Panoramica arrivi** vengono elencati tutti gli arrivi previsti in entrata.
+
+>[!NOTE] 
+>Gli arrivi provenienti dagli ordini di reso devono essere elaborati separatamente da altri tipi di transazioni di arrivi. Dopo aver identificato un collo ricevuto nella pagina **Panoramica arrivi** (ad esempio utilizzando il documento NAR di accompagnamento), nel riquadro azioni fare clic su **Inizia arrivo** per creare e inizializzare un giornale di registrazione arrivi che corrisponda all'arrivo.
 
 ### <a name="edit-the-arrival-journal"></a>Modificare il giornale di registrazione arrivi
 
@@ -232,7 +234,8 @@ Se si spedisce un articolo sostitutivo al cliente e si utilizza l'azione di smal
 
 L'articolo sostitutivo verrà consegnato utilizzando un ordine cliente indipendente, l'ordine cliente sostitutivo. Questo ordine cliente viene creato quando il documento di trasporto per l'ordine di reso viene generato. L'intestazione dell'ordine utilizza le informazioni del cliente cui viene fatto riferimento nell'intestazione dell'ordine di reso. Le informazioni delle righe vengono raccolte in base alle informazioni immesse nella pagina **Articolo sostitutivo**. La pagina **Articolo sostitutivo** deve essere specificata nelle righe con azioni di smaltimento che iniziano con la parola "sostituire". Tuttavia, né la quantità né l'identità dell'articolo sostitutivo vengono convalidate o limitate. Questo comportamento prende in considerazione i casi in cui il cliente desidera lo stesso articolo, ma in una configurazione o dimensione diversa, nonché i casi in cui i clienti desiderano un articolo completamente diverso. Per impostazione predefinita, nella pagina **Articolo sostitutivo** viene immesso un articolo identico. Tuttavia, è possibile selezionare un articolo diverso, a condizione che la funzione sia stata installata. 
 
->[Nota!] È possibile modificare ed eliminare l'ordine cliente sostitutivo dopo che è stato creato.
+>[!NOTE] 
+>È possibile modificare ed eliminare l'ordine cliente sostitutivo dopo che è stato creato.
 
 ## <a name="generate-a-packing-slip"></a>Generare un documento di trasporto
 Affinché i resi possano essere ricevuti nel magazzino, è necessario aggiornare il documento di trasporto relativo all'ordine cui essi si riferiscono. Come il processo di aggiornamento della fattura rappresenta l'aggiornamento della transazione finanziaria, il processo di aggiornamento del documento di trasporto rappresenta l'aggiornamento fisico del record di magazzino. In altre parole, consente di eseguire il commit delle modifiche nel magazzino. Nel caso dei resi, i passaggi assegnati all'azione di smaltimento vengono implementati durante l'aggiornamento del documento di trasporto. Quando si genera il documento di trasporto, si verificano i seguenti eventi:
@@ -253,8 +256,10 @@ Sebbene la pagina **Ordine di reso** contiene le informazioni e le azioni necess
 
 ### <a name="credit-correction"></a>Correzione credito
 
-Durante il processo di fatturazione verificare che tutti gli addebiti vari siano corretti. Per far sì che le registrazioni contabili diventino correzioni (Storno), valutare l'opportunità di utilizzare l'opzione **Correzione credito** nella scheda **Altro** della pagina **Registrazione fattura** quando si registra la fattura o la nota di accredito. 
->[Nota!] Per impostazione predefinita, l'opzione **Correzione credito** è attivata se l'opzione **Nota di accredito correttiva** nella pagina **Parametri contabilità clienti** è stata attivata. Tuttavia, è consigliabile non registrare resi con Storno.
+Durante il processo di fatturazione verificare che tutti gli addebiti vari siano corretti. Per far sì che le registrazioni contabili diventino correzioni (Storno), valutare l'opportunità di utilizzare l'opzione **Correzione credito** nella scheda **Altro** della pagina **Registrazione fattura** quando si registra la fattura o la nota di accredito.
+
+> [!NOTE]
+> Per impostazione predefinita, l'opzione **Correzione credito** è attivata se l'opzione **Nota di accredito correttiva** nella pagina **Parametri contabilità clienti** è stata attivata. Tuttavia, è consigliabile non registrare resi con Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Creare ordini di reso interaziendali
 Gli ordini di reso possono essere completati tra due società della propria organizzazione. Sono supportati gli scenari che seguono:
@@ -308,7 +313,8 @@ L'ordine di reso non fa riferimento a una fattura cliente. L'articolo reso viene
 
 ![L'ordine di reso non fa riferimento a una fattura cliente.](./media/SalesReturn09.png)  
 
->[Nota!] Il prezzo nel record generale dell'articolo viene utilizzato come valore predefinito per il parametro **Prezzo di costo reso**. Il prezzo predefinito è diverso dal prezzo di costo al momento dell'uscita da magazzino. Di conseguenza, l'implicazione è che si è verificata una perdita di 3. Inoltre, l'ordine di reso non include lo sconto concesso al cliente nell'ordine cliente. Di conseguenza, si verifica un credito in eccesso.
+> [!NOTE]
+> Il prezzo nel record generale dell'articolo viene utilizzato come valore predefinito per il parametro **Prezzo di costo reso**. Il prezzo predefinito è diverso dal prezzo di costo al momento dell'uscita da magazzino. Di conseguenza, l'implicazione è che si è verificata una perdita di 3. Inoltre, l'ordine di reso non include lo sconto concesso al cliente nell'ordine cliente. Di conseguenza, si verifica un credito in eccesso.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Esempio 2: la correzione del credito è selezionata per l'ordine di reso
 
@@ -316,7 +322,8 @@ L'esempio 2 corrisponde all'esempio 1, ma il parametro **Correzione credito** è
 
 ![Ordine di reso in presenza della selezione di una correzione di credito.](./media/SalesReturn10.png)  
 
->[Nota!] Le registrazioni contabili vengono immesse come correzioni negative.
+>[!NOTE] 
+>Le registrazioni contabili vengono immesse come correzioni negative.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Esempio 3: la riga dell'ordine di reso viene creata utilizzando la funzione Trova ordine cliente
 
@@ -324,7 +331,8 @@ In questo esempio la riga dell'ordine di reso viene creata utilizzando la funzio
 
 ![Riga ordine di reso creata usando Trova ordine cliente.](./media/SalesReturn11.png)  
 
->[Nota!] **Sconto** e **Prezzo di costo reso** vengono impostati correttamente. Di conseguenza, viene eseguito uno storno esatto della fattura cliente.
+> [!NOTE]
+> **Sconto** e **Prezzo di costo reso** vengono impostati correttamente. Di conseguenza, viene eseguito uno storno esatto della fattura cliente.
 
 
 

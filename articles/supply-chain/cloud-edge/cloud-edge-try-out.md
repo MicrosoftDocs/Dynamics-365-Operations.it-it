@@ -2,7 +2,7 @@
 title: Provare unità di scala in una topologia ibrida distribuita
 description: Questo argomento fornisce informazioni su come provare le unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino.
 author: perlynne
-ms.date: 03/03/2022
+ms.date: 05/02/2022
 ms.topic: article
 ms.search.form: ScaleUnitWorkloadsWorkspace
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-03-03
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 04fd79f3c582ae9ac51882f73410477efaa35496
-ms.sourcegitcommit: b52ff5dfd32580121f74a5f262e5c2495e39d578
+ms.openlocfilehash: 658948d94cd012b95812a786433967f5cadc3a15
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/03/2022
-ms.locfileid: "8376245"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711888"
 ---
 # <a name="try-out-scale-units-in-a-distributed-hybrid-topology"></a>Provare unità di scala in una topologia ibrida distribuita
 
@@ -26,7 +26,7 @@ Il processo di sperimentazione della topologia ibrida distribuita è semplice. D
 
 ## <a name="option-1-evaluate-customizations-in-development-environments"></a>Opzione 1: valutare le personalizzazioni in ambienti di sviluppo
 
-Prima di iniziare a eseguire l'onboarding degli ambienti sandbox, è consigliabile esplorare le unità di scala in una configurazione di sviluppo, come un ambiente one-box (noto anche come ambiente di livello 1), in modo da poter convalidare processi, personalizzazioni e soluzioni. Durante questa fase, i dati e le personalizzazioni verranno applicati agli ambienti one-box. È possibile eseguire in un unico ambiente, che può assumere il ruolo sia dell'hub aziendale che dell'unità di scalabilità. In alternativa, è possibile disporre di due ambienti di sviluppo, uno dei quali assume il ruolo di hub e l'altro il ruolo di unità di scala. Questa configurazione fornisce il modo migliore per identificare e risolvere i problemi. L'ultima build di [accesso in anteprima PEAP](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxURUFWTjQzTzg0UUk5RkJHMDFEMVlSSDFEQy4u) può essere utilizzata anche per completare questa fase.
+Prima di iniziare a eseguire l'onboarding degli ambienti sandbox, è consigliabile esplorare le unità di scala in una configurazione di sviluppo, come un ambiente one-box (noto anche come ambiente di livello 1), in modo da poter convalidare processi, personalizzazioni e soluzioni. Durante questa fase, i dati e le personalizzazioni verranno applicati agli ambienti one-box. È possibile eseguire in un unico ambiente, che può assumere il ruolo sia dell'hub aziendale che dell'unità di scalabilità. In alternativa, è possibile disporre di due ambienti di sviluppo, uno dei quali assume il ruolo di hub e l'altro il ruolo di unità di scala. Questa configurazione fornisce il modo migliore per identificare e risolvere i problemi. L'ultima [build di anteprima](../../fin-ops-core/fin-ops/get-started/one-version.md#how-can-i-get-early-access-to-non-released-platform-updates) può anche essere utilizzata per completare questa fase.
 
 È consigliabile usare gli [strumenti di distribuzione delle unità di scala per ambienti di sviluppo one-box](https://github.com/microsoft/SCMScaleUnitDevTools) per installare e mantenere gli ambienti. Questi strumenti consentono di configurare hub e unità di scala in uno o due ambienti one-box. Gli strumenti sono forniti come versione binaria e nel codice sorgente su GitHub. Esaminare il wiki del progetto, che include una [guida d'uso dettagliata](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) che descrive come vengono utilizzati gli strumenti. Se stai [distribuendo unità di scala perimetrali su hardware personalizzato utilizzando i dati aziendali locali (LBD)](cloud-edge-edge-scale-units-lbd.md), devi seguire una procedura diversa.
 

@@ -1,6 +1,6 @@
 ---
 title: Liquidare un pagamento parziale prima della data dello sconto e del pagamento finale dopo la data dello sconto
-description: In questo articolo viene descritto uno scenario in cui vengono eseguiti più pagamenti parziali, alcuni nel periodo dello sconto di cassa e altri fuori dello stesso periodo.
+description: In questo argomento viene descritto uno scenario in cui vengono eseguiti più pagamenti parziali, alcuni nel periodo dello sconto di cassa e altri fuori dello stesso periodo.
 author: abruer
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14411
 ms.assetid: 302ad6ae-28ee-4899-9f6b-f74424a5f50c
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 693339929bbdbc960afc2a5e63b3a3864bfd3ca19cd2dbc992de776836b17e50
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7331b4b2ad48cfa380497336d4ac22c8723568b5
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737139"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716749"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Liquidare un pagamento parziale prima della data dello sconto e del pagamento finale dopo la data dello sconto
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene descritto uno scenario in cui vengono eseguiti più pagamenti parziali, alcuni nel periodo dello sconto di cassa e altri fuori dello stesso periodo.
+In questo argomento viene descritto uno scenario in cui vengono eseguiti più pagamenti parziali, alcuni nel periodo dello sconto di cassa e altri fuori dello stesso periodo.
 
 Fabrikam acquista merci dal fornitore 3057. Fabrikam riceve uno sconto di cassa dell'1% se la fattura viene pagata entro 14 giorni. Le fatture devono essere pagate in 30 giorni. Il fornitore consente inoltre a Fabrikam di applicare sconti di cassa su pagamenti parziali. I parametri di liquidazione si trovano nella pagina **Parametri contabilità fornitori**.
 

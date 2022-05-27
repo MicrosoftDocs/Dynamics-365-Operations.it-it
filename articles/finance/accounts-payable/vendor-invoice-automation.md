@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722769"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716411"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automazione delle fatture per i documenti digitalizzati
 
@@ -58,7 +58,7 @@ Un pacchetto dati è l'unità di lavoro che deve essere inviata, in modo che le 
 
 L'allegato documento della fattura fornitore è una nuova entità dati che è introdotta come parte di questa funzionalità. L'entità intestazione della fattura fornitore è stata modificata in modo che supporti gli allegati. L'entità riga fattura fornitore non è stata modificata per questa funzionalità.
 
-Per informazioni dettagliate sui pacchetti di dati, vedi [Panoramica sulla gestione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Per informazioni su come creare pacchetti di dati utilizzando l'area di lavoro di gestione dei dati, vedi [Elaborare e consumare pacchetti di dati nella soluzione per app Dynamics 365 Finance and Operations](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Per informazioni dettagliate sui pacchetti di dati, vedi [Panoramica sulla gestione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Per informazioni su come creare pacchetti di dati utilizzando l'area di lavoro di gestione dei dati, vedi [Elaborare e consumare pacchetti di dati nella soluzione per le app Dynamics 365 Finance per la finanza e le operazioni](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Per generare rapidamente i dati di test che includono fatture e allegati, effettuare le seguenti operazioni.
 

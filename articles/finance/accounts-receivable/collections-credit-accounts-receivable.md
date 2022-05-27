@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b143ebead89804af57e7d2dbfa6f7d366c1ae664573776d78bff44763ddeb819
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 03d1304c39628323c6d6e15181263a73ba965930
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723921"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710359"
 ---
 # <a name="collections-in-accounts-receivable"></a>Riscossioni nella contabilità clienti
 
@@ -49,7 +49,7 @@ L'intestazione dello snapshot di aging contiene l'importo totale dovuto, il limi
 
 Per ogni periodo di aging nella definizione del periodo di aging viene creato un record di dettaglio dello snapshot di aging. Ogni record di dettaglio dello snapshot di aging contiene l'ID del periodo di aging e l'importo totale delle transazioni con le date comprese nel periodo di aging. Le transazioni vengono assegnate a un periodo di aging, ad esempio 30 giorni oltre la scadenza. La data è relativa alla data specificata in Aging a partire da al momento della creazione dello snapshot di aging. Queste informazioni vengono visualizzate nella pagina elenco Saldi con aging e nel riquadro Dettaglio informazioni relativo ai saldi con aging nella pagina Riscossioni.
 
-## <a name="collections-customer-pools"></a> Pool di clienti per riscossioni 
+## <a name="collections-customer-pools"></a>Pool di clienti per riscossioni
 I pool di clienti sono query che definiscono un gruppo di record cliente che possono essere visualizzati e gestiti per i processi di riscossione o di aging. Utilizzare i pool di clienti per filtrare le informazioni presenti nelle pagine elenco Saldi con aging, Attività di riscossione e Casi di riscossione. È inoltre possibile utilizzare i pool di clienti per filtrare i conti cliente inclusi quando vengono creati gli snapshot di aging.
 
 ## <a name="collections-agents"></a>Agenti di riscossione

@@ -2,19 +2,19 @@
 title: Rubrica globale e parte
 description: In questo argomento vengono descritte le funzionalità della parte e della rubrica globale della doppia scrittura.
 author: RamaKrishnamoorthy
-ms.date: 03/10/2022
+ms.date: 04/25/2022
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: josaw
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 2e0d16b29a71da23acc925c09c87f0bb4776759c
-ms.sourcegitcommit: 6dc2b877cf8ea9185a07964ec05c5ddb7a78471b
+ms.openlocfilehash: 1e2dcfa69308f6691e787a1ff1893f9080dcaef1
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/12/2022
-ms.locfileid: "8407767"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8717448"
 ---
 # <a name="party-and-global-address-book"></a>Rubrica globale e parte
 
@@ -139,7 +139,7 @@ La griglia include le colonne seguenti:
 
 Puoi usare il pulsante **Nuovo indirizzo elettronico** sopra la griglia per creare tutti gli indirizzi postali che desideri.
 
-Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle versioni future, tutti i campi dell'indirizzo postale e dell'indirizzo elettronico saranno rimossi da altre schede, per esempio le schede **Riepilogo** e **Dettagli** . I dettagli di contatto visualizzati nella scheda **Dettagli** sono copie di sola lettura dell'indirizzo elettronico primario, come telefono primario, email primario, telefono primario, fax primario e ID Twitter primario. Durante il processo di qualificazione dei lead puoi fornire sia un numero di telefono aziendale che un numero di cellulare. Il numero di telefono aziendale è considerato il telefono principale se **IsMobile=No** e il numero di cellulare è considerato il telefono secondario se **IsMobile=Sì**.
+Durante il processo di qualificazione dei lead puoi fornire sia un numero di telefono aziendale che un numero di cellulare. Il numero di telefono aziendale è considerato il numero di telefono principale se **IsMobile=No** e il numero di cellulare è considerato il numero di telefono secondario se **IsMobile=Sì**.
 
 > [!TIP]
 > Usa le schede **Indirizzi** e **Indirizzi elettronici** nei moduli **Account** e **Contatti** per gestire gli indirizzi postali ed elettronici. Questo assicura che i dati degli indirizzi si sincronizzino con le app per la finanza e le operazioni.
@@ -148,7 +148,7 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
 
 1. Aprire l'ambiente dell'app Customer Engagement.
 
-2. Installa l'ultima versione (2.2.2.60 o successiva) della [soluzione di orchestrazione delle applicazioni a doppia scrittura](https://aka.ms/dual-write-app).
+2. Installa tutte le soluzioni prerequisito, come descritto in [Pacchetto separato di orchestrazione dell'applicazione a doppia scrittura](separated-solutions.md).
 
 3. Installa le [soluzioni di doppia scrittura per parte e rubrica globale](https://aka.ms/dual-write-gab).
 
@@ -165,8 +165,8 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
 
     Mappa | Aggiorna a questa versione | Modifiche
     ---|---|---
-    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
-    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Questa è una nuova mappa aggiunta come parte di questa versione.
+    `CDS Parties (msdyn_parties)`| 1.0.0.2 | Questa è una nuova mappa aggiunta come parte di questa versione.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Customers V3 (accounts)` | 1.0.0.5 |Rimossi i campi `PartyNumber` e altri campi relativi alla parte come nome, dettagli personali, indirizzo postale, e indirizzo elettronico di contatto.
     `Customer V3 (contacts)` | 1.0.0.5 | Rimossi i campi `PartyNumber` e altri campi relativi alla parte come nome, dettagli personali, indirizzo postale, e indirizzo elettronico di contatto.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Rimossi i campi `PartyNumber` e altri campi relativi alla parte come nome, dettagli personali, indirizzo postale, e indirizzo elettronico di contatto.
@@ -174,16 +174,17 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Sostituita la persona di contatto con il riferimento `ContactforParty`.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Sostituita la persona di contatto con il riferimento `ContactforParty`.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Questa è una nuova mappa aggiunta come parte di questa versione.
-    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Questa è una nuova mappa aggiunta come parte di questa versione.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
-    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
+    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
+    `CDS Address roles (msdyn_addressroles)` | 1.0.0.0 | Questa è una nuova mappa aggiunta come parte di questa versione.
 
 8. Prima di eseguire le mappe precedenti, è necessario aggiornare manualmente le chiavi di integrazione come descritto nei passaggi seguenti. Quindi selezionare **Salva**.
 
@@ -251,14 +252,15 @@ Gli indirizzi elettronici sono disponibili solo su questa griglia. Nelle version
     [Intestazione offerta di vendita CDS](mapping-reference.md#215) | offerte
     [Intestazioni ordine cliente CDS](mapping-reference.md#217) | salesorders
     [Intestazioni fattura di vendita V2](mapping-reference.md#118) | fatture
+    [Ruoli indirizzo CDS](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > La mappa `CDS Contacts V2 (contacts)` è la mappa che hai interrotto nel passaggio 1. Quando si tenta di eseguire altre mappe, queste 2 mappe potrebbero essere visualizzate nell'elenco delle dipendenze. Non eseguire queste mappe.
 >
-> Se è installata la soluzione parte e rubrica globale, è necessario disabilitare il pluging denominato `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Se è disinstallata la soluzione parte e rubrica globale, è necessario riabilitare il pluging .
+> Se è installata la soluzione parte e rubrica globale, è necessario disabilitare il plugin denominato `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Se è disinstallata la soluzione parte e rubrica globale, è necessario riabilitare il pluging .
 >
 > Il campo `msdyn_*partynumber` (un campo di testo a riga singola) incluso nelle tabelle **Conto**, **Contatto** e **Fornitore** non dovrebbero essere utilizzate in futuro. Il nome dell'etichetta ha il prefisso **(Deprecato)** per chiarezza. Utilizza invece il campo **msdyn_partyid**. Il campo è una ricerca nella tabella **msdyn_party**.
-
+>
 > Nome tabella | Vecchio campo | Nuovo campo
 > --------|-------|--------
 > Conto | `msdyn_partynumber` | `msdyn_partyid`
@@ -290,21 +292,22 @@ Una raccolta di mappe della tabella funziona in combinazione durante l'interazio
 | [Intestazioni fattura di vendita V2](mapping-reference.md#118) | fatture |
 | [Formule di apertura](mapping-reference.md#228) | msdyn\_salutations |
 | [Fornitori V2](mapping-reference.md#202) | msdyn\_vendors |
+| [Ruoli indirizzo CDS](mapping-reference.md#301) |msdyn\_addressroles|
 
 Per ulteriori informazioni, vedere [Riferimento per il mapping a doppia scrittura](mapping-reference.md).
+
+## <a name="address-roles-as-a-multi-select-drop-down-list"></a>Ruoli indirizzo come un elenco a discesa a selezione multipla
+Un indirizzo postale o un indirizzo elettronico può servire a più di uno scopo. Ad esempio, un indirizzo postale può fungere sia da indirizzo di fatturazione che da indirizzo di consegna. In questi casi, un utente può selezionare entrambi **Fattura** e **Consegna** nell'elenco a discesa, come mostrato nell'illustrazione seguente. 
+
+![Elenco a discesa Scopo/ruolo.](media/purpose.png)
 
 ## <a name="known-issues-and-limitations"></a>Problemi noti e limitazioni
 
 + Nelle app per la finanza e le operazioni, quando crei un cliente insieme all'indirizzo e lo salvi, l'indirizzo potrebbe non sincronizzarsi nella tabella **Indirizzo**. Ciò è dovuto a un problema di sequenza della piattaforma a doppia scrittura. Come soluzione alternativa, crea prima il cliente e salvalo. Quindi aggiungi l'indirizzo.
 + Nelle app per la finanza e le operazioni, quando un record cliente ha un indirizzo principale e crei un nuovo contatto per quel cliente, il record del contatto eredita un indirizzo principale dal record cliente associato. Questo accade anche per il contatto del fornitore. Dataverse attualmente non supporta questo comportamento. Se la doppia scrittura è abilitata, un contatto cliente ereditato con un indirizzo principale dall'app per la finanza e le operazioni è sincronizzato con Dataverse insieme al suo indirizzo.
-+ Gli indirizzi elettronici impostati nella scheda corrispondente dei moduli **Conto**, **Contatto** e **Fornitore** provengono dalla tabella `msdyn_partyelectronicaddress`. Queste informazioni non fluiscono nelle transazioni associate come l'ordine cliente, offerta e ordine fornitore. Abbiamo in programma di risolvere questo problema in una versione incrementale. I dati esistenti nei campi dell'indirizzo elettronico nei record conto e contatto continueranno a funzionare su transazioni come ordine cliente, offerta e ordine fornitore.
 + Nelle app per la finanza e le operazioni puoi creare un record di contatto dal modulo **Aggiungi contatto**. Quando si tenta di creare un nuovo contatto dal modulo **Visualizza contatto**, l'azione non riesce. Questo è un problema noto.
 
     ![Problema noto con Aggiungi contatto.](media/party-gab-contact-issue.png)
 
-+ **Sincronizzazione iniziale** non supporta i campi di data/ora **Disponibile da** e **Disponibile fino a** in **ContactForParty**, perché DIXF converte il valore in una stringa anziché in un numero intero. La conversione attiva l'errore `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
-+ Quando un indirizzo postale viene utilizzato per più di un motivo, ad esempio, indirizzo di comunicazione aziendale e indirizzo di fatturazione, dovrebbe apparire come `Business;Invoice` come mostrato nell'immagine seguente. Se aggiungi uno spazio tra i valori, otterrai un errore.
-
-    ![Problema noto con Indirizzo.](media/party-gab-address-issue.png)
-
++ **Sincronizzazione iniziale** non supporta i campi di data/ora **Disponibile da** e **Disponibile fino a** in **ContactForParty**, perché DIXF converte il valore in una stringa anziché in un numero intero. La conversione attiva l'errore `Cannot convert the literal '<say 08:00:00>' to the expected type edm.int32`.
 + Non puoi immettere un indirizzo postale con validità postdatata utilizzando un'app per la finanza e le operazioni con doppia scrittura, perché Dataverse non supporta la validità della data. Se inserisci un indirizzo postale con data futura utilizzando un'app per la finanza e le operazioni, si sincronizza con Dataverse completamente e vedrai immediatamente l'indirizzo sull'interfaccia utente. Qualsiasi aggiornamento a questo record comporterà un errore poiché è postdatato e non è corrente nell'app per la finanza e le operazioni.

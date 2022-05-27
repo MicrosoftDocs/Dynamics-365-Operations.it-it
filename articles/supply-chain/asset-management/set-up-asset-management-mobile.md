@@ -1,6 +1,6 @@
 ---
 title: Configurare l'area di lavoro per dispositivi mobili Gestione cespiti
-description: Questo argomento descrive come configurare Microsoft Dynamics 365 Supply Chain Management e l'app per dispositivi mobili Finance and Operations (Dynamics 365) per eseguire un'area di lavoro per dispositivi mobili Gestione dispositivi che i lavoratori possono utilizzare per eseguire attività di gestione dei cespiti.
+description: Questo argomento descrive come configurare Microsoft Dynamics 365 Supply Chain Management e l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365) per eseguire un'area di lavoro per dispositivi mobili Gestione dispositivi che i lavoratori possono utilizzare per eseguire attività di gestione dei cespiti.
 author: johanhoffmann
 ms.date: 01/15/2021
 ms.topic: article
@@ -8,23 +8,22 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5d628f99d4fc6788ddb38590c65decb871d49f93
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a056be417d266fd400ce1572312f327dc070cb6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572195"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8693502"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurare l'area di lavoro per dispositivi mobili Gestione cespiti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come configurare Microsoft Dynamics 365 Supply Chain Management e l'app per dispositivi mobili Finance and Operations (Dynamics 365) per eseguire un'area di lavoro per dispositivi mobili **Gestione dispositivi** che i lavoratori possono utilizzare per eseguire attività di gestione dei cespiti.
+Questo argomento descrive come configurare Microsoft Dynamics 365 Supply Chain Management e l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365) per eseguire un'area di lavoro per dispositivi mobili **Gestione cespiti** che i lavoratori possono utilizzare per eseguire attività di gestione dei cespiti.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Configurare gli utenti addetto alla manutenzione in Supply Chain Management
 
@@ -42,7 +41,7 @@ Per ogni utente che richiede l'accesso all'area di lavoro per dispositivi mobili
 
 ## <a name="publish-the-asset-management-mobile-workspace"></a>Pubblicare l'area di lavoro per dispositivi mobili Gestione cespiti
 
-Per rendere disponibili le funzionalità di gestione dei cespiti nell'app per dispositivi mobili Finance and Operations (Dynamics 365), devi pubblicare l'area di lavoro per dispositivi mobili **Gestione cespiti**.
+Per rendere disponibili le funzionalità di gestione dei cespiti nell'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365), devi pubblicare l'area di lavoro per dispositivi mobili **Gestione cespiti**.
 
 1. In Supply Chain Management, seleziona il pulsante **Impostazioni** (il simbolo dell'ingranaggio nell'angolo in alto a destra), quindi seleziona **App per dispositivi mobili** sul menu.
 1. Nella finestra di dialogo **Gestisci app per dispositivi mobili**, trova il riquadro **Gestione cespiti**. Se contiene il testo "Nei metadati - non pubblicato", l'area di lavoro non è stata ancora pubblicata. Se contiene il testo "Nei metadata - pubblicato", l'area di lavoro è già stata pubblicata e puoi saltare il resto di questa procedura.
@@ -51,14 +50,14 @@ Per rendere disponibili le funzionalità di gestione dei cespiti nell'app per di
 
 1. Seleziona il riquadro **Gestione cespiti**, quindi seleziona **Pubblica** sulla barra degli strumenti. Dopo alcuni secondi, dovresti ricevere una notifica che informa che l'area di lavoro è stata pubblicata correttamente. Inoltre, il testo sul riquadro dovrebbe cambiare in "Nei metadati - pubblicato".
 
-## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Installare e configurare l'app per dispositivi mobili Finance and Operations (Dynamics 365)
+## <a name="install-and-set-up-the-finance-and-operations-dynamics-365-mobile-app"></a>Installare e configurare l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365)
 
-1. Vai a uno dei seguenti app store per installare l'app **Microsoft Finance and Operations (Dynamics 365)** sul tuo dispositivo mobile:
+1. Vai a uno dei seguenti app store per installare l'app **Microsoft per la finanza e le operazioni (Dynamics 365)** sul tuo dispositivo mobile:
 
     - [Per dispositivi Google Android](https://go.microsoft.com/fwlink/?linkid=850662)
     - [Per dispositivi Apple iOS](https://go.microsoft.com/fwlink/?linkid=850663)
 
-1. Apri l'app Finance and Operations (Dynamics 365). Dovrebbe essere visualizzata la pagina di accesso. Nel campo **Accedi**, immetti il tuo URL di Supply Chain Management o seleziona un URL recente nell'elenco **Ambienti recenti**, quindi tocca **Connetti**.
+1. Aprire l'app per la finanza e le operazioni (Dynamics 365). Dovrebbe essere visualizzata la pagina di accesso. Nel campo **Accedi**, immetti il tuo URL di Supply Chain Management o seleziona un URL recente nell'elenco **Ambienti recenti**, quindi tocca **Connetti**.
 
     ![Pagina di accesso.](media/mobile-app-sign-in.png "Pagina di accesso")
 
@@ -81,7 +80,7 @@ Per rendere disponibili le funzionalità di gestione dei cespiti nell'app per di
 
 Per ulteriori informazioni su come lavorare con l'area di lavoro per dispositivi mobili **Gestione cespiti**, vedi [Utilizzare l'area di lavoro per dispositivi mobili per la gestione dei cespiti](asset-management-mobile-workspace.md).
 
-Per ulteriori informazioni sull'app per dispositivi mobili Finance and Operations (Dynamics 365), vedi la [Home page dell'app per dispositivi mobili](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+Per ulteriori informazioni sull'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365), vedi la [Home page dell'app per dispositivi mobili](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

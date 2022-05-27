@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bcc69cbf418131d0b1747f1c904de3188d7ba84216cb3145607b45553263244c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757221"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711322"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)
 
@@ -969,7 +969,7 @@ Presenza di installazione migliore del componente client "a tocco" tramite l'imp
 </tr>
 <tr>
 <td>Monitorare le integrità del sistema e diagnostichi errori e le uscite.</td>
-<td>Questa funzionalità richiede <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack per Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Questa funzionalità richiede <a href="https://www.microsoft.com/en-us/download/details.aspx?id=58205">System Center 2012 Management Pack per Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Il monitoraggio e la diagnostica per i componenti al dettaglio è ora disponibili tramite <strong>Comprensioni operative</strong> il dashboard in LC.</td>
 <td><strong>Comprensioni operative</strong> Il dashboard è in un portale basato su cloud del monitoraggio che sostituiscono la necessità di impostare l'infrastruttura di System Center Operations Manager (SCOM).</td>
 </tr>
@@ -1028,7 +1028,7 @@ Non sono state aggiunte nuove funzionalità.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Novità o modifiche nella Finance and Operations home page](whats-new-changed.md)
+[Home page Novità o modifiche in Finance and Operations](whats-new-changed.md)
 
 [Nuove guide attività (febbraio 2016)](new-task-guides-available-february-2016.md)
 

@@ -1,6 +1,6 @@
 ---
 title: Elaborare le allocazioni
-description: Questo argomento fornisce informazioni sulle allocazioni, le opzioni per elaborarle in Microsoft Dynamics 365 Finance e sul modo in cui possono essere utilizzate nella pianificazione del budget. Le allocazioni vengono utilizzate per distribuire importi tra più combinazioni di conti CoGe. Consentono di garantire che le spese o i ricavi vengano contabilizzate in relazione all'oggetto corretto.
+description: Questo argomento fornisce informazioni sulle allocazioni, le opzioni per elaborarle in Microsoft Microsoft Dynamics 365 Finance e sul modo in cui possono essere utilizzate nella pianificazione del budget. Le allocazioni vengono utilizzate per distribuire importi tra più combinazioni di conti CoGe. Consentono di garantire che le spese o i ricavi vengano contabilizzate in relazione all'oggetto corretto.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b79282abd0edf86f1a9f39fd869cf1fab28b9a4
-ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
+ms.openlocfilehash: d300654269ef0ad52140f160f918707397c843ad
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/31/2021
-ms.locfileid: "7726994"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8721956"
 ---
 # <a name="process-allocations"></a>Elaborare le allocazioni
 

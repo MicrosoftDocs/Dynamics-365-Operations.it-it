@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 222564
 ms.assetid: ''
 ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722697"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722438"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Impostare descrizioni predefinite per la registrazione automatica
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722697"
 Questo argomento spiega come impostare il testo predefinito utilizzato per descrivere le voci contabili registrate automaticamente nella contabilità generale. È possibile impostare il testo di descrizione predefinito utilizzando il testo libero o selezionando variabili fisse.
 
 > [!NOTE]
-> Per alcuni tipi di transazioni, in alcuni paesi, è possibile includere anche il testo presente nei campi del database Microsoft Dynamics AX correlati a tali tipi di transazioni. Per un elenco dei tipi di transazione, dei paesi e delle aree geografiche, vedere la sezione [Facoltativo: Aggiungere altro testo alle descrizioni predefinite](#optional-add-other-text-to-default-descriptions) più avanti in questo argomento.
+> Per alcuni tipi di transazioni, in alcuni paesi, è possibile includere anche il testo presente nei campi correlati a tali tipi di transazioni. Per un elenco dei tipi di transazione, dei paesi e delle aree geografiche, vedere la sezione [Facoltativo: Aggiungere altro testo alle descrizioni predefinite](#optional-add-other-text-to-default-descriptions) più avanti in questo argomento.
 
 ## <a name="set-up-default-descriptions"></a>Impostare descrizioni predefinite
 

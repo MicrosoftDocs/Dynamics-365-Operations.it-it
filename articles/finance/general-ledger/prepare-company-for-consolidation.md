@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a1ffbf79cdccab457b1aee1bc0f1d963bca49b3e390187c6be5da475f278a3d8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720504"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722040"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Preparare una persona giuridica per il processo di consolidamento
 
@@ -27,7 +27,7 @@ ms.locfileid: "6720504"
 Durante un consolidamento le transazioni di alcuni set di conti di persone giuridiche vengono raccolte in un unico set di conti. In questo argomento viene illustrato come preparare una persona giuridica per un consolidamento.
 
 > [!NOTE]
-> Ti consigliamo di utilizzare Management Reporter per Microsoft Dynamics 365 Finance per combinare i risultati finanziari per più persone giuridiche in un formato consolidato. Management Reporter ti consente di creare report finanziari consolidati tra persone giuridiche, utilizzare Excel per importare dati di consolidamento da altre origini e convertire gli importi in un numero qualsiasi di valute di reporting senza dover eseguire il processo di consolidamento in Dynamics 365 Finance.
+> Ti consigliamo di utilizzare Management Reporter per Microsoft Microsoft Dynamics 365 Finance per combinare i risultati finanziari per più persone giuridiche in un formato consolidato. Management Reporter ti consente di creare report finanziari consolidati tra persone giuridiche, utilizzare Excel per importare dati di consolidamento da altre origini e convertire gli importi in un numero qualsiasi di valute di reporting senza dover eseguire il processo di consolidamento in Dynamics 365 Finance.
 
 Puoi stampare report, ad esempio rendiconti finanziari, dalla persona giuridica consolidata. Tuttavia, non è possibile utilizzare la persona giuridica consolidata per le transazioni giornaliere.
 

@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 04987f18542ff331124f5224e4b1240672874e83
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533966"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692424"
 ---
 # <a name="copy-an-instance"></a>Copiare un'istanza
 
@@ -70,11 +69,11 @@ Per completare questa attività, innanzi tutto copiare un'istanza, quindi accede
 
 4. Nel riquadro attività **Copia un'istanza**, selezionare l'istanza da sovrascrivere, quindi selezionare **Copia**. Attendere che il valore di **Stato copia** diventi **Completata**.
 
-   ![[Seleziona l'istanza da sovrascrivere.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Selezionare l'istanza da sovrascrivere.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Selezionare **Power Platform** e accedere all'interfaccia di amministrazione di Microsoft Power Platform.
 
-   ![[Seleziona Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Selezionare Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Selezionare l'ambiente Power Apps da copiare, quindi selezionare **Copia**.
 

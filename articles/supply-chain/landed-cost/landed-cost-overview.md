@@ -1,24 +1,23 @@
 ---
 title: Modulo Costo sbarcato
 description: Il modulo Costo sbarcato consente alle aziende di semplificare le operazioni di spedizione in entrata fornendo agli utenti un controllo finanziario e logistico completo sulle merci importate, dal produttore al magazzino.
-author: sherry-zheng
+author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: chuzheng
+ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 90410585f314aa9f17f2c132afb6568307fb28ab
-ms.sourcegitcommit: 197e6ddee84522fd587c6e4ee4f9089101e301c2
+ms.openlocfilehash: aa6f3baf6e6d980ac3c15e2045d1fcdef08ec296
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8570383"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694629"
 ---
 # <a name="landed-cost-module"></a>Modulo Costo sbarcato
 

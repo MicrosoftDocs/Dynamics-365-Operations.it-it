@@ -2,7 +2,7 @@
 title: Modulo di selezione sito
 description: In questo argomento viene descritto il modulo di selezione sito e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/06/2022
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ad4d4d5f950d0631059d8f509e9e808a9106eb98
-ms.sourcegitcommit: 4861ec2d3ae24cc9dd4ad3ac748fd05be3d80c70
+ms.openlocfilehash: a1954f6b2fea35d5138218e6a2a23ab1fd04c8fc
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8551696"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710305"
 ---
 # <a name="site-picker-module"></a>Modulo di selezione sito
 
@@ -43,7 +43,23 @@ Il modulo di selezione sito deve essere configurato con l'elenco dei siti (merca
 
 ## <a name="add-a-site-picker-module-to-a-page"></a>Aggiungere un modulo di selezione sito a una pagina
 
-Il modulo di selezione sito può essere aggiunto allo slot **Selezione sito** del [modulo di intestazione](author-header-module.md). Dopo aver aggiunto un modulo di selezione sito, è possibile definire l'intestazione del modulo e le opzioni del sito. In genere, un modulo di intestazione è contenuto in un frammento di intestazione che può essere condiviso tra le pagine di e-commerce di un sito. Nell'esempio seguente, il modulo di selezione sito è stato aggiunto allo slot **Selezione sito** di un modulo di intestazione contenuto in un frammento di intestazione denominato **HeaderContainer**.
+Il modulo di selezione sito può essere aggiunto allo slot **Selezione sito** del [modulo di intestazione](author-header-module.md). Dopo aver aggiunto un modulo di selezione sito, è possibile definire l'intestazione del modulo e le opzioni del sito. In genere, un modulo di intestazione è contenuto in un frammento di intestazione che può essere condiviso tra le pagine di e-commerce di un sito. 
+
+Per aggiungere il modulo di selezione del sito a un modulo di intestazione, sequi questi passaggi.
+
+1. Nello slot **Selezione sitoe** del modulo di intestazione del frammento di intestazione, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** aggiungi un modulo **Selezione sito**, quindi seleziona **OK**.
+1. Nel riquadro delle proprietà **Selezione sito**, seleziona **Aggiungi elenco opzioni sito**. Viene visualizzato un **Elenco delle opzioni del sito** modificabile.
+1. Seleziona **Elenco opzioni sito**. Viene visualizzata la finestra **Elenco opzioni sito**.
+1. In **Nome del sito**, inserisci il testo del nome del sito che verrà mostrato nell'elenco a discesa di selezione del sito.
+1. In **URL di reindirizzamento sito**, seleziona **Aggiungi un collegamento**. Viene visualizzato il riquadro a comparsa **Aggiungi un collegamento**.
+1. Nel riquadro a compara **Aggiungi un collegamento**, seleziona **Pagina personalizzata**, quindi seleziona **Avanti**.
+1. Dall'elenco degli URL del sito, seleziona l'URL con il percorso che hai creato durante l'aggiunta del canale al sito (ad esempio, `www.adventure-works.com/fr-ca`), quindi seleziona **Applica**.
+1. Seleziona **OK**.
+1. Selezionare **Salva** e quindi selezionare **Fine modifica**.
+1. Seleziona **Pubblica** per pubblicare la pagina.
+
+Nell'esempio seguente, il modulo di selezione sito è stato aggiunto allo slot **Selezione sito** di un modulo di intestazione contenuto in un frammento di intestazione denominato **HeaderContainer**.
 
 ![Esempio di un modulo di selezione sito in un frammento di intestazione.](./media/ecommerce-sitepicker-2.png)
 

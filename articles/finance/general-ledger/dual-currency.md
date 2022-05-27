@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b20c45952d2c0c28a1b785fd92bf47cfb25251fa3a3308d14130ad0f1c78305d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6762069"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8713587"
 ---
 # <a name="dual-currency"></a>Doppia valuta
 
@@ -199,7 +199,7 @@ Inoltre, le modifiche principali sono stati effettuate al processo di ammortamen
     
 ### <a name="consolidations"></a>Consolidamenti
     
-La funzionalità introdotta in Dynamics 365 Finance versione 10.0.5 (ottobre 2019) viene abilitata mediante Gestione funzionalità per una migliore flessibilità quanto a consolidamento e valuta doppia. Per abilitare questa funzionalità, andare all'area di lavoro **Gestione funzionalità** e selezionare **Abilitare la funzionalità Doppia valuta nel consolidamento della contabilità generale**.
+La funzionalità introdotta in Dynamics 365 Finance versione 10.0.5 (ottobre 2019) viene abilitata mediante Gestione funzionalità per una migliore flessibilità relativamente a consolidamento e valuta doppia. Per abilitare questa funzionalità, andare all'area di lavoro **Gestione funzionalità** e selezionare **Abilitare la funzionalità Doppia valuta nel consolidamento della contabilità generale**.
 
 Nel consolidamento della contabilità generale, è stata aggiunta una nuova opzione per consolidare gli importi in valuta di dichiarazione o contabilizzazione delle società di origine. Se la valuta di dichiarazione o contabilizzazione è uguale alla valuta di dichiarazione o contabilizzazione nella società di consolidamento, gli importi verranno copiati direttamente anziché convertiti.
 

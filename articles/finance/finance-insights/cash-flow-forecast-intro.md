@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom:
 - "14151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 62e30e382d94e4eff73789b3e884c6b81afce6c1
-ms.sourcegitcommit: c8dc60bb760553f166409c2e06dd2377f601c006
+ms.openlocfilehash: 2ed6795073b4a013df7a6a8a7a61df2c11525c51
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/23/2021
-ms.locfileid: "7945831"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711004"
 ---
 # <a name="cash-forecast"></a>Previsione di cassa
 
@@ -53,7 +53,7 @@ La funzionalità Previsioni di cassa include le seguenti funzionalità.
 
 - Consente di filtrare e visualizzare i conti bancari correlati alle dimensioni finanziarie.
 
-La funzionalità di previsione di cassa in Dynamics 365 Finance consentirà alla tua organizzazione di trasformare la proiezione del flusso di cassa noiose, complesse e ripetitive in un processo semplice e automatizzato. L'automazione degli aspetti più noiosi della previsione di cassa consente di concentrarsi sul processo decisionale critico per ottenere i risultati aziendali desiderati.
+La funzionalità di previsione di cassa in Dynamics 365 Finance consentirà all'organizzazione di trasformare la proiezione del flusso di cassa noiosa, complessa e ripetitiva in un processo semplice e automatizzato. L'automazione degli aspetti più noiosi della previsione di cassa consente di concentrarsi sul processo decisionale critico per ottenere i risultati aziendali desiderati.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

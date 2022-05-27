@@ -2,7 +2,7 @@
 title: Impostare un tenant B2C in Commerce
 description: Questo argomento descrive come configurare il tenant Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione del sito dell'utente in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 02/11/2022
+ms.date: 05/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d4cbb117e47940491266134fb1e2dbe87374d4a3
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 086128091b23ce6ab46dd2dfc0803af38de6bac7
+ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109891"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8714314"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Impostare un tenant B2C in Commerce
 
@@ -332,9 +332,9 @@ Per aggiungere le informazioni dell'applicazione tenant Azure AD B2C a Commerce,
 
 1. Accedere come amministratore a Creazione di siti Web di Commerce per l'ambiente.
 1. Nel riquadro di spostamento a sinistra, selezionare **Impostazioni tenant** per espanderlo.
-1. In **Impostazioni tenant**, selezionare **Impostazioni B2C**. 
-1. Nella finestra principale accanto ad **Applicazioni B2C**, selezionare **Gestisci**. (Se il tenant viene visualizzato nell'elenco Applicazioni B2C, è stato già aggiunto da un amministratore. Verificare che gli elementi nel passaggio 6 di seguito corrispondano all'applicazione B2C).
-1. Selezionare **Aggiungi applicazione B2C**.
+1. In **Impostazioni tenant**, seleziona **Configurazione autenticazione sito**. 
+1. Nella finestra principale accanto a **Profili di autenticazione sito**, seleziona **Gestisci**. (Se il tenant viene visualizzato nell'elenco dei profili di autenticazione del sito, è stato già aggiunto da un amministratore. Verifica che gli elementi nel passaggio 6 di seguito corrispondano alla configurazione B2C che hai scelto. È anche possibile creare un nuovo profilo utilizzando tenant Azure AD B2C simili o applicazioni per tenere conto di differenze minori, come ID criteri utente diversi.
+1. Seleziona **Aggiungi profilo di autenticazione sito**
 1. Immettere i seguenti elementi richiesti nel modulo visualizzato, utilizzando i valori del tenant e dell'applicazione B2C. I campi non obbligatori (quelli senza asterisco) possono essere lasciati vuoti.
 
     - **Nome applicazione**: il nome dell'applicazione B2C, ad esempio "Fabrikam B2C".
@@ -347,12 +347,13 @@ Per aggiungere le informazioni dell'applicazione tenant Azure AD B2C a Commerce,
 1. Selezionare **OK**. Ora il nome dell'applicazione B2C appare nell'elenco.
 1. Selezionare **Salva** per salvare le modifiche.
 
+Il campo **Dominio personalizzato per l'accesso** facoltativo deve essere utilizzato solo se stai configurando un dominio personalizzato per il tenant Azure AD B2C. Per ulteriori dettagli e considerazioni sull'utilizzo del campo **Dominio personalizzato per l'accesso**, vedi [Ulteriori informazioni su B2C](#additional-b2c-information) di seguito.
+
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>Associare l'applicazione B2C al sito e al canale
 
 > [!WARNING]
-> Se il sito è già associato a un'applicazione B2C, la modifica in un'altra applicazione B2C rimuoverà i riferimenti correnti stabiliti per gli utenti già registrati in questo ambiente. Se modificato, le credenziali associate all'applicazione B2C attualmente assegnata non saranno disponibili per gli utenti. 
-> 
-> Aggiornare l'applicazione B2C solo se si sta configurando l'applicazione B2C del canale per la prima volta o se si intende far iscrivere gli utenti con nuove credenziali a questo canale con la nuova applicazione B2C. Prestare attenzione quando si associano i canali alle applicazioni B2C e denominare chiaramente le applicazioni. Se un canale non viene associato a un'applicazione B2C nei passaggi seguenti, gli utenti che accedono a quel canale per il sito verranno inseriti nell'applicazione B2C mostrando **predefinito** nell'elenco **Impostazioni tenant \> Impostazioni B2C** di applicazioni B2C.
+> - Se il sito è già associato a un'applicazione B2C, la modifica in un'altra applicazione B2C rimuoverà i riferimenti correnti stabiliti per gli utenti già registrati in questo ambiente. Se modificato, le credenziali associate all'applicazione B2C attualmente assegnata non saranno disponibili per gli utenti. 
+> - Aggiornare l'applicazione B2C solo se si sta configurando l'applicazione B2C del canale per la prima volta o se si intende far iscrivere gli utenti con nuove credenziali a questo canale con la nuova applicazione B2C. Prestare attenzione quando si associano i canali alle applicazioni B2C e denominare chiaramente le applicazioni. Se un canale non viene associato a un'applicazione B2C nei passaggi seguenti, gli utenti che accedono a quel canale per il sito verranno inseriti nell'applicazione B2C mostrando **predefinito** nell'elenco **Impostazioni tenant \> Impostazioni B2C** di applicazioni B2C.
 
 Per associare l'applicazione B2C al sito e al canale, seguire questi passaggi.
 
@@ -378,6 +379,23 @@ Per ulteriori informazioni sulla personalizzazione dei flussi di criteri e delle
 ### <a name="secondary-admin"></a>Amministratore secondario
 
 Un account amministratore secondario facoltativo può essere aggiunto nella sezione **Utenti** del tenant B2C. Questo può essere un account diretto o un account generale. Se è necessario condividere un account tra le risorse del team, è anche possibile creare un account comune. A causa della sensibilità dei dati memorizzati in Azure AD B2C, un account comune deve essere attentamente monitorato secondo le procedure di sicurezza dell'azienda.
+
+### <a name="set-up-a-custom-sign-in-domain"></a>Configurare un dominio di accesso personalizzato
+
+Azure AD B2C consente di configurare un dominio di accesso personalizzato per il tenant Azure AD B2C. Per istruzioni, vedere [Abilitare domini personalizzati per Azure Active Directory B2C](/azure/active-directory-b2c/custom-domain). 
+
+Se utilizzi un dominio di accesso personalizzato, il dominio deve essere inserito in Commerce Site Builder.
+
+Per immettere un dominio di accesso personalizzato in Site Builder seguire questi passaggi.
+
+1. Nell'angolo superiore destro di Site Builder, seleziona l'opzione per cambaire sito, quindi seleziona **Gestisci siti**.
+1. Nel riquadro di spostamento sinistro, seleziona **Impostazioni tenant \> Configurazione autenticazione sito**.
+1. Nella sezione **Profili di autenticazione sito**, seleziona **Gestisci**.
+1. Nel menu a comparsa sulla destra, seleziona il pulsante **Modifica** (simbolo della matita) accanto al profilo di autenticazione del sito per il quale vuoi inserire un dominio personalizzato.
+1. Nella finestra di dialogo **Modifica profilo di autenticazione sito**, in **Dominio personalizzato per l'accesso**, inserisci il tuo dominio di accesso personalizzato (ad esempio, "login.fabrikam.com").
+
+> [!WARNING]
+> Quando esegui l'aggiornamento a un dominio personalizzato per il tenant Azure AD B2C, la modifica ha impatto sui dettagli dell'emittente del tenant per il token generato. I dettagli dell'emittente includeranno quindi il dominio personalizzato anziché il dominio predefinito fornito da Azure AD B2C. Una diversa configurazione di **Emittente** in Commerce headquarters (**Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio \> Provider di identità**) modifica l'interazione del sistema con gli utenti del sito, creando potenzialmente un nuovo record cliente se un utente sta eseguendo l'autenticazione a fronte del nuovo emittente. Eventuali modifiche al dominio personalizzato devono essere testate a fondo prima di passare al dominio personalizzato in un ambiente Azure AD B2C live.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

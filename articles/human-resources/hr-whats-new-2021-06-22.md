@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 897c25df96017c5be1ae789027d178ca6b3ccc0410b4f65c7d2557b39e840134
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1d2ccf1083f34aefbe87354f03dbebd6cb5be7e
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735353"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694426"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Novità e modifiche in Dynamics 365 Human Resources 22 giugno 2021
 
@@ -83,7 +82,7 @@ Le seguenti nuove funzionalità sono in anteprima. Per ulteriori informazioni su
 
 | Funzionalità | Dettagli |
 | --- | --- |
-| Platform Update 10.0.19 (43) | L'implementazione dell'aggiornamento della piattaforma 10.0.19 inizierà con la versione di servizio il 28 giugno 2021. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.19 delle app Finance and Operations (giugno 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
+| Platform Update 10.0.19 (43) | L'implementazione dell'aggiornamento della piattaforma 10.0.19 inizierà con la versione di servizio il 28 giugno 2021. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.19 delle app per la finanza e le operazioni (giugno 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19). |
 |  Attivare/Disattivare la visualizzazione anni di servizio | Questa funzione offre la possibilità di utilizzare date diverse per calcolare gli anni di servizio visualizzati nel modulo **Inserimento dipendenti semplificato** e nel modulo **Persone**.  Questo sarà disponibile nei parametri Human Resources. |
 |  Consentire a un responsabile dei congedi di gestire le ferie | [Consentire a un responsabile dei congedi di gestire le ferie](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/enable-absence-manager-manage-leave) |
 |  Collegamenti di mandato per tipi di congedo specifici | Questa funzione consente agli amministratori di richiedere l'aggiunta di collegamenti di mandato quando si inviano richieste di congedo per tipi di congedo specifici. |

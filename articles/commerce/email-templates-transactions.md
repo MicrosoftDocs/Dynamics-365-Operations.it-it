@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4fd46ea161fb4441d94a9e7c7f7ffbfb245eb873
-ms.sourcegitcommit: 9c2bc045eafc05b39ed1a6b601ccef48bd62ec55
+ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
+ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7919503"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8722521"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Creare modelli e-mail per eventi transazionali
 
@@ -64,8 +64,8 @@ Il tipo di notifica prelievo completato supporta i seguenti segnaposto e-mail ag
 | ------------------- | ------- |
 | `pickupstorename`     | Il nome del negozio in cui l'ordine è disponibile per il ritiro. |
 | `pickupstoreaddress`  | L'indirizzo del negozio in cui l'ordine è disponibile per il ritiro. |
-| `pickupstorehourfrom` | L'orario di apertura del punto vendita. |
-| `pickupstorehourto`   | L'orario di chiusura del punto vendita. |
+| `pickupstoreopenfrom` | L'orario di apertura del punto vendita. |
+| `pickupstoreopento` | L'orario di chiusura del punto vendita. |
 | `pickupchannelid`     | L'ID del canale del negozio di ritiro. |
 | `packingslipid`      | L'ID del documento di trasporto per l'ordine che verrà ritirato. |
 | `confirmationid`      | L'ID di conferma dell'ordine che verrà ritirato. Questo ID è talvolta indicato come ID di riferimento del canale. |
@@ -102,7 +102,7 @@ Il tipo di notifica Emetti gift card supporta i seguenti segnaposto aggiuntivi.
 | Nome segnaposto      | Scopo |
 | --------------------- | ------- |
 | `giftcardnumber`        | Il numero della carta regalo, per i prodotti del tipo di carta regalo. |
-| `giftcardbalance`       | Il saldo della carta regalo, per i prodotti del tipo di carta regalo. |
+| `availablebalance` | Il saldo rimanente sulla carta regalo. |
 | `giftcardmessage`       | Il messaggio della carta regalo, per i prodotti del tipo di carta regalo. |
 | `giftcardpin`         | Il PIN (numero di identificazione personale) della carta regalo, per i prodotti del tipo di carta regalo. Questo segnaposto è specifico per le carte regalo esterne. |
 | `giftcardexpiration`    | La data di scadenza della carta regalo, per i prodotti del tipo di carta regalo. Questo segnaposto è specifico per le carte regalo esterne. |

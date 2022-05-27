@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2add53b4b014cb65caacff03bf175078d2b70d8f
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485909"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8690584"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Novità o modifiche in Dynamics 365 Human Resources 6 settembre 2021
 
@@ -77,7 +76,7 @@ Per un elenco completo delle funzionalità pianificate e dei relativi rilasci pr
 
 | Funzionalità | Dettagli |
 |---|---|
-| Platform Update 10.0.21 (45) | Il roll-out dell'aggiornamento 10.0.21 della piattaforma è previsto per iniziare con il rilascio del servizio il 4 ottobre 2021. Per maggiori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.21 di Finance and Operations apps (ottobre 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
+| Platform Update 10.0.21 (45) | Il roll-out dell'aggiornamento 10.0.21 della piattaforma è previsto per iniziare con il rilascio del servizio il 4 ottobre 2021. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.21 delle app per la finanza e le operazioni (ottobre 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21). |
 | Rendiconto benefit | Rendiconto dei benefit per la visualizzazione delle attuali idoneità dei benefit di un dipendente. Per ulteriori informazioni, vedi [Rendiconto benefit](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/benefits-summary-statement) nel documento del ciclo di rilascio. |
 
 ## <a name="see-also"></a>Vedere anche
