@@ -9,23 +9,22 @@ ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f18c3bd95901303379c460d026bc944cee809b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0fe5bc5af953ee7cbbda3477d75a38261bb2bb10
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576666"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687414"
 ---
 # <a name="rebate-management-deal-workflows"></a>Flussi di lavoro di transazioni per la gestione degli sconti
 
 [!include [banner](../includes/banner.md)]
 
-Per approvare le transazioni di sconti, la gestione degli sconti utilizza la stessa piattaforma del flusso di lavoro delle altre app Finance and Operations. Ad ogni flusso di lavoro sono associati due processi di lavoro:
+Per approvare le transazioni di sconti, la gestione degli sconti utilizza la stessa piattaforma del flusso di lavoro delle altre app per la finanza e le operazioni. Ad ogni flusso di lavoro sono associati due processi di lavoro:
 
 - Un elemento del flusso di lavoro approva la transazione.
 - Un elemento del flusso di lavoro attiva la transazione in modo che l'utente o il processo del flusso di lavoro possa approvare le transazioni.

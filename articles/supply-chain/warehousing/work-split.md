@@ -1,7 +1,7 @@
 ---
 title: Divisione lavoro
 description: In questo argomento vengono fornite informazioni sulla funzionalità di suddivisione del lavoro. Questa funzionalità consente di suddividere gli ordini di lavoro di grandi dimensioni in diversi ordini di lavoro più piccoli che è possibile quindi assegnare a più lavoratori di magazzino. In questo modo, lo stesso lavoro può essere prelevato contemporaneamente da più magazzinieri.
-author: mirzaab
+author: Mirzaab
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b06164a81a18548cf9d98ea2f577b5783145100
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: b9914958684d552f0b45ddca641238124ade3454
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778259"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8669462"
 ---
 # <a name="work-split"></a>Divisione lavoro
 

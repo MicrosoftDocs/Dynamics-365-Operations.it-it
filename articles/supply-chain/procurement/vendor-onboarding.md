@@ -1,7 +1,7 @@
 ---
 title: Inserimento di fornitori
 description: In questa sezione viene descritto il processo per l'integrazione di nuovi fornitori. Descrive le azioni necessarie per diversi ruoli durante il processo.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: VendProspectiveVendorRegistrationRequests, SysUserRequestListPag
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c2950cecfaf2c8b19ed14df748810b7d6f926c53
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 396b3c4622c612fa082796080aa230a0d693ce4f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566889"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8671002"
 ---
 # <a name="onboard-vendors"></a>Inserimento di fornitori
 
@@ -46,7 +46,7 @@ Nella seguente tabella sono riportati i passaggi e ruoli inclusi nel processo.
 | Amministratore            | | | Creare un utente in Supply Chain Management e Microsoft Azure. | | | |
 | Contatto del fornitore    | | | Inviare un messaggio di posta elettronica al contatto. | Registrare le informazioni sul fornitore. | | |
 
-Per una dimostrazione rapida del processo di inserimento del fornitore, vedere questo breve video su YouTube su [come inserire un nuovo fornitore in Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Per una dimostrazione rapida del processo di inserimento del fornitore, vedere questo breve video su YouTube: [Come aggiungere un nuovo fornitore in Finance and Operations](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Importare la richiesta di registrazione di fornitori potenziali
 

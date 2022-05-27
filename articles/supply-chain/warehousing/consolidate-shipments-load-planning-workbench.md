@@ -1,7 +1,7 @@
 ---
 title: Consolidare le spedizioni utilizzando Rilascia in magazzino dal workbench di pianificazione del carico
 description: Questo argomento presenta uno scenario in cui più ordini vengono rilasciati al magazzino nello stesso carico e vengono quindi automaticamente consolidati in spedizioni.
-author: GarmMSFT
+author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: b724b3f040a1b277d99dd067525dfda2b47ca73b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3d74a4171bc8d601d034afb9b7f12634a8f9dbed
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577890"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8672544"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Consolidare le spedizioni utilizzando Rilascia in magazzino dal workbench di pianificazione del carico
 

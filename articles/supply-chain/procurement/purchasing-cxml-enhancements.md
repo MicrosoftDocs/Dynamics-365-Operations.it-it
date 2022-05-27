@@ -1,7 +1,7 @@
 ---
 title: Miglioramenti cXML per gli acquisti
 description: La funzionalità Miglioramenti cXML per gli acquisti si basa sulla funzionalità del catalogo esterno esistente, PunchOut, utilizzata per le richieste di acquisto.
-author: Henrikan
+author: GalynaFedorova
 ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: CatCXMLParameters, CatCXMLPurchRequest
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: henrikan
+ms.author: gfedorova
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 2942b141eb3a5b83fb39b0de721bae60c074e01c
-ms.sourcegitcommit: f5885999e008a49fe072d95f15e239905c24918a
+ms.openlocfilehash: 319079ca82ea91a4ab963a1dfa34ed256a3ddb21
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "7900707"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8674283"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Miglioramenti cXML per gli acquisti
 

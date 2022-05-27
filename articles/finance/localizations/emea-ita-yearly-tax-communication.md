@@ -2,7 +2,7 @@
 title: Comunicazione annuale imposte
 description: Questo argomento fornisce informazioni sul report di comunicazione annuale delle imposte in Italia.
 author: anasyash
-ms.date: 11/03/2020
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0f8c69e66df17a305f97a8d9094337f70c9df3c8
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 4077e87171f57c1c014c303f106e9cbd4280e9fb
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660399"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8678335"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
@@ -29,11 +29,11 @@ Il report **Comunicazione annuale imposte** contiene le informazioni della dichi
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Configurare i libri IVA italiani seguendo le istruzioni in [Libri IVA italiani](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/finance/localizations/emea-ita-fiscal-books.md#set-up-sales-tax-books).
+Configurare i libri IVA italiani seguendo le istruzioni in [Libri IVA italiani](emea-ita-fiscal-books.md#set-up-sales-tax-books).
 
 ## <a name="set-up-the-yearly-tax-communication-report"></a>Configurare il report di comunicazione annuale delle imposte
 
-1. In Microsoft Dynamics 365 Finance, vai a **Amministrazione organizzazione** \> **Organizzazioni** \> **Persone giuridiche**.
+1. In Dynamics 365 Finance, andare a **Amministrazione organizzazione** \> **Organizzazioni** \> **Persone giuridiche**.
 2. Nella Scheda dettaglio **Numeri di registrazione**, nel campo **Partita IVA** immetter la partita IVA della propria società.
 3. Nella Scheda dettaglio **Registrazione fiscale**, nel campo **Codice fiscale** immettere il codice fiscale della propria società.
 4. In [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2), nella raccolta di risorse condivise scaricare le ultime versioni delle configurazioni per la creazione di report elettronici per i seguenti formati della dichiarazione IVA:
@@ -52,7 +52,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
 ![Pagina Impostazioni comunicazione annuale imposte.](media/1_Yearly_tax_communication_setup.png)
 
 > [!NOTE]
-> Per visualizzare il modulo "Comunicazione annuale IVA" per l'anno 2020 e le relative istruzioni, vedere [Modello e istruzioni - IVA 2020](https://www.agenziaentrate.gov.it/portale/web/guest/iva-2020/modello-e-istruzioni-imprese).
+> Per visualizzare il modulo "Comunicazione annuale IVA" per l'anno 2020 e le relative istruzioni, vedere [Modello e istruzioni - IVA 2020](https://www.agenziaentrate.gov.it/portale/web/guest/iva-2020/modello-e-istruzioni).
 
 9. Nella scheda **Impostazione campi** creare righe e impostare i seguenti campi su di esse.
 
@@ -134,7 +134,7 @@ Nella colonna **Formato** è possibile specificare un formato di campo. Oltre a 
     |----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | ID comunicazione imposte | Numero di identificazione del report **Comunicazione annuale imposte**.                                                                                                                                                                                                                                                      |
     | Anni                | Anno della comunicazione imposte. Questo campo viene automaticamente impostato sull'anno precedente. Se si crea il report nel 2020, questo campo è ad esempio impostato su **2019**.                                                                                                                                                |
-    | Codice ATECOFIN        | Codice imposta associato alla classificazione di possibili attività della società. Questo campo viene compilato dalla pagina **Libri IVA italiani**. Per ulteriori informazioni, vedere [Libri IVA italiani](./emea-ita-fiscal-books.md#set-up-sales-tax-books). |
+    | Codice ATECOFIN        | Codice imposta associato alla classificazione di possibili attività della società. Questo campo viene compilato dalla pagina **Libri IVA italiani**. Per ulteriori informazioni, vedere [Libri IVA italiani](/dynamics365/finance/localizations/emea-ita-fiscal-books#set-up-sales-tax-books). |
     | Esportato             | Valore che indica se il file con estensione ivc è stato esportato. Questo campo e i due campi successivi vengono impostati automaticamente quando si seleziona **Esporta e genera file**.                                                                                                                                                     |
     | Data di esportazione       | Data in cui è stato esportato il file con estensione .ivc.                                                                                                                                                                                                                                                                                  |
     | Nome file di esportazione     | Nome del file con estensione ivc che è stato esportato.                                                                                                                                                                                                                                                                               |

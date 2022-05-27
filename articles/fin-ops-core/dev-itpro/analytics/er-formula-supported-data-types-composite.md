@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf7178888e39a5f26ae92e77df9c996374b76bf3
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 933c8211276c1335a6a81bf4a8cb1c3f270762d4
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323667"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689244"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Tipi di dati compositi supportati per le formule di creazione di report elettronici
 
@@ -81,7 +81,7 @@ Un *elenco di record* è un elenco di elementi di tipo *record*. In genere, un *
 
 Per impostazione predefinita, l'accesso ai record di un *elenco di record* avviene in modo sequenziale. Per accedere a un record specifico, è possibile utilizzare la funzione [INDEX](er-functions-list-index.md) e specificare l'indice sotto forma di *numero intero*.
 
-Il valore predefinito di un *elenco di record* è **vuoto**. È possibile usare la funzione [ISEMPTY](/er-functions-list-isempty.md) per valutare se un *elenco di record* è vuoto.
+Il valore predefinito di un *elenco di record* è **vuoto**. È possibile usare la funzione [ISEMPTY](er-functions-list-isempty.md) per valutare se un *elenco di record* è vuoto.
 
 > [!NOTE]
 > Se un *elenco di record* è vuoto, qualsiasi tentativo di ottenere un valore di campo per un *record* all'interno dello stesso determina la generazione di un'eccezione in runtime. Per sapere come prevenire eccezioni di runtime di questo tipo, vedere [Considerazione dei casi di elenco vuoto](er-components-inspections.md#i9).

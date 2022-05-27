@@ -1,7 +1,7 @@
 ---
 title: Rifornimento superiore alla capacità dell'ubicazione
 description: Questo argomento fornisce informazioni sulla funzionalità di rifornimento superiore alla capacità dell'ubicazione. Questa funzionalità consente a tutto il lavoro di rifornimento da eseguire obbligatoriamente durante la giornata di essere creato e gestisce la disponibilità di tale lavoro di rifornimento per garantire che l'ubicazione di prelievo non esaurisca le scorte né superi la capacità.
-author: mirzaab
+author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6ff9f133010ec4370a99c585259aece4e279f801
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778209"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677928"
 ---
 # <a name="replenishment-over-location-capacity"></a>Rifornimento superiore alla capacità dell'ubicazione
 

@@ -1,23 +1,23 @@
 ---
 title: Catalogo di apprendimento per gli utenti di Dynamics 365 Supply Chain Management
 description: Informazioni su tutte le opzioni di formazione per gli utenti di Dynamics 365 Supply Chain Management.
-author: margoc
+author: kamaybac
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: kamaybac
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fe547f6e224a072301a4d846f1a2867b70c86da3
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: a8324fe183efd956fa39ddd97f562e4c33630580
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402668"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8673188"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Catalogo di apprendimento per gli utenti di Dynamics 365 Supply Chain Management
 
@@ -31,7 +31,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 |---------|-------------|--------|--------|
 | [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Si è interessati all'apprendimento delle applicazioni aziendali? Forse non si sa da dove come cominciare a usare le applicazioni Microsoft Dynamics 365 e Power Platform ? Ottenere informazioni su come la potenza delle applicazioni aziendali può aiutare a trasformare l'azienda. | Percorso di apprendimento online gratuito autonomo | 8 ore |
 | [Dynamics 365 e Power Platform Fundamentals](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
-| [Introduzione alle app Finance and Operations](/learn/paths/get-started-finance-operations/) | Informazioni su come le applicazioni Finance and Operations supportano le aziende nella gestione dei loro sistemi finanziari globali, dei processi aziendali operativi e delle catene di fornitura semplificate per consentire alle persone di prendere decisioni informate e rapidamente. Come primo passo nella carriera di collaboratore in Finance and Operations, è necessario familiarizzare con le caratteristiche e le funzionalità, indipendentemente dal ruolo desiderato. | Percorso di apprendimento online gratuito autonomo | 2 ore |
+| [Attività iniziali per le applicazioni Finanza e operazioni](/learn/paths/get-started-finance-operations/) | Informazioni su come le applicazioni Finanza e operazioni supportano le aziende nella gestione dei loro sistemi finanziari globali, dei processi aziendali operativi e delle catene di fornitura semplificate per consentire alle persone di prendere decisioni informate e rapidamente. Come primo passo nella carriera di collaboratore delle app per finanza e operazioni, è necessario familiarizzare con le caratteristiche e le funzionalità, indipendentemente dal ruolo desiderato. | Percorso di apprendimento online gratuito autonomo | 2 ore |
 | [Introduzione alla Gestione cespiti per Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | La gestione cespiti è un modulo avanzato per gestire i cespiti e i processi di manutenzione in Dynamics 365 Supply Chain Management. Gestione cespiti consente di gestire e eseguire in modo efficiente le attività correlate alla gestione e alla manutenzione di molti tipi di attrezzature della società, come macchine, attrezzature di produzione e veicoli. Gestione cespiti supporta soluzioni per numerosi settori. | Modulo di apprendimento online gratuito e personalizzato | 1 ora |
 | [Inizia con il componente aggiuntivo di Engineering Change Management per Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management consente ai dipendenti e alle organizzazioni di ottenere una visione unificata di inventario, magazzino, produzione, servizio e logistica con analisi predittiva che trasforma i dati in intuizioni per supportare decisioni strategiche migliori. | Modulo di apprendimento online gratuito e personalizzato | 2 ore |
 | [Introduzione a Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Con Dynamics 365 Intelligent Order Management, i clienti possono gestire l'orchestrazione degli ordini fino all'evasione. Queste funzionalità consentono alle organizzazioni di orchestrare i flussi di ordini in piattaforme e app diverse. | Modulo di apprendimento online gratuito e personalizzato | 4 ore |
@@ -39,10 +39,10 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 ## <a name="core-platform-knowledge"></a>Conoscenza della piattaforma principale<a name="core-platform-knowledge"></a>
 
-| Contenuto | Descrizione | Formatta | Durata |
+| Contenuto | Description | Formato | Length |
 |---------|-------------|--------|--------|
-| [Configurare l'organizzazione nelle app Finance and Operations](/learn/paths/configure-your-organization-finance-ops/) | Come consulente funzionale che lavora con app Finance and Operations, è necessario comprendere come impostare un'organizzazione per il cliente. Questo percorso di apprendimento mostra tra le altre attività, come configurare persone giuridiche, implementare impostazioni di sicurezza, personalizzare l'interfaccia utente per gli utenti, progettare e creare app per dispositivi mobili e implementare integrazioni comuni. | Percorso di apprendimento online gratuito autonomo | 12 ore |
-| [Configurare e lavorare con analisi e report nelle app Finance and Operations](/learn/paths/configure-analytics-reporting-finance-operations/) | I leader aziendali possono prendere decisioni importanti nella loro azienda se hanno una visione accurata dei dati finanziari e operativi sottostanti. Un utente aziendale può anche configurare e utilizzare lo strumento di creazione di report elettronici senza una singola riga di codice, per adottare nuovi requisiti normativi e generare documenti aziendali nel formato richiesto per scambiare elettronicamente informazioni con enti governativi, banche e altre parti. | Percorso di apprendimento online gratuito autonomo | 4 ore |
+| [Configurare l'organizzazione nelle app per la finanza e le operazioni](/learn/paths/configure-your-organization-finance-ops/) | Come consulente funzionale che lavora con app per la finanza e le operazioni, è necessario comprendere come impostare un'organizzazione per il cliente. Questo percorso di apprendimento mostra tra le altre attività, come configurare persone giuridiche, implementare impostazioni di sicurezza, personalizzare l'interfaccia utente per gli utenti, progettare e creare app per dispositivi mobili e implementare integrazioni comuni. | Percorso di apprendimento online gratuito autonomo | 12 ore |
+| [Configurare e lavorare con analisi e report nelle app per la finanza e le operazioni](/learn/paths/configure-analytics-reporting-finance-operations/) | I leader aziendali possono prendere decisioni importanti nella loro azienda se hanno una visione accurata dei dati finanziari e operativi sottostanti. Un utente aziendale può anche configurare e utilizzare lo strumento di creazione di report elettronici senza una singola riga di codice, per adottare nuovi requisiti normativi e generare documenti aziendali nel formato richiesto per scambiare elettronicamente informazioni con enti governativi, banche e altre parti. | Percorso di apprendimento online gratuito autonomo | 4 ore |
 
 ## <a name="supply-chain-management"></a>Supply Chain Management<a name="supply-chain-management"></a>
 
