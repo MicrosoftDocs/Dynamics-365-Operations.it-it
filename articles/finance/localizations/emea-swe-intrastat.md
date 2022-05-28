@@ -1,20 +1,20 @@
 ---
 title: Intrastat svedese
 description: Questo argomento contiene informazioni sulla creazione di report Intrastat in Svezia.
-author: andosip
+author: anasyash
 ms.date: 8/24/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 1031b93950e44fe3b1b6254bf1503b4c09d6fd10
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486948"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727400"
 ---
 # <a name="swedish-intrastat"></a>Intrastat svedese
 
@@ -43,7 +43,7 @@ Per ulteriori informazioni, vedere [Scaricare configurazioni ER dall'archivio gl
 
 ## <a name="set-up-foreign-trade-parameters"></a>Imposta parametri per il commercio estero
 
-1. In Microsoft Dynamics 365 Finance, vai a **Imposta** > **Impostazione** > **Parametri per il commercio estero**.
+1. In Microsoft Dynamics 365 Finance, andare a **Imposta** > **Impostazione** > **Parametri per il commercio estero**.
 2. Nella scheda **Intrastat** nella Scheda dettaglio **Creazione di report elettronici**, nel campo **Mapping di formato file**, seleziona **Intrastat (SE)**.
 3. Nel campo **Mapping di formato report** seleziona **Report Intrastat**.
 4. Nella scheda dettaglio **Gerarchia di codici di voce doganale**, nel campo **Gerarchia di categorie** seleziona **Intrastat**.

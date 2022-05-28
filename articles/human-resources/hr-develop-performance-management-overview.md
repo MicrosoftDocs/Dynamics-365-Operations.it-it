@@ -7,7 +7,6 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom:
 - "221024"
 - intro-internal
@@ -16,18 +15,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fa4d90d568697526adeef52443a01c3251696bf4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984748"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735725"
 ---
 # <a name="performance-management"></a>Gestione delle prestazioni
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile. A loro volta, i responsabili possono fornire un riscontro e le indicazioni ai dipendenti.  
+Il processo di gestione delle prestazioni consente ai dipendenti di documentare e discutere le prestazioni con il responsabile. A loro volta, i responsabili possono fornire un riscontro e le indicazioni ai dipendenti.
 
 Come illustrato nel diagramma, sono disponibili tre pagine utilizzate per gestire il processo:
 
@@ -35,7 +34,7 @@ Come illustrato nel diagramma, sono disponibili tre pagine utilizzate per gestir
 -   Obiettivi
 -   Verifica delle prestazioni
 
-Nel diagramma riportato di seguito viene illustrato come i componenti principali di gestione delle prestazioni sono correlati tra loro. [![Panoramica del processo delle prestazioni.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
+Nel diagramma riportato di seguito viene illustrato come i componenti principali di gestione delle prestazioni sono correlati tra loro. <!--note from editor: This alt text should describe the relationship among the boxes so a reader with low vision will understand. This will require using the :::image type="complex"::: tag and a long description. -->[![Panoramica del processo delle prestazioni.](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Giornale di registrazione prestazioni
 
@@ -57,7 +56,7 @@ Quando si accede alla pagina **Giornale di registrazione prestazioni** tramite l
 
 ### <a name="send-feedback"></a>Invia riscontro
 
-Il giornale di registrazione prestazioni contiene una funzionalità aggiuntiva denominata **Invia commenti e suggerimenti**. Quando si fa clic su **Invia commenti e suggerimenti**, è possibile selezionare un dipendente e fornire un riscontro al dipendente tramite posta elettronica. Il messaggio viene inviato al dipendente che riceve commenti e suggerimenti, al responsabile di tale dipendente, al dipendente che invia commenti e suggerimenti e al responsabile di tale dipendente. Una voce del giornale di registrazione prestazioni viene creata per ogni persona che riceve commenti e suggerimenti.
+Il giornale di registrazione prestazioni contiene una funzionalità aggiuntiva, **Invia riscontro**. Quando si seleziona **Invia riscontro**, è possibile scegliere un dipendente e fornire un feedback sul dipendente tramite posta elettronica. Il messaggio viene inviato al dipendente a cui si riferisce il feedback<!--note from editor: Suggested-->, al responsabile di quel dipendente, al dipendente che invia il feedback e al responsabile di quel dipendente. Una voce del giornale di registrazione prestazioni viene creata per ogni persona che riceve commenti e suggerimenti.
 
 ## <a name="goals"></a>Obiettivi
 
@@ -72,11 +71,11 @@ Un obiettivo di base deve includere le seguenti informazioni:
 
 È inoltre possibile specificare una categoria di obiettivo per organizzare facilmente gli obiettivi. I responsabili vedono anche il nome della persona a cui è assegnato l'obiettivo. 
 
-Se sono presenti più istruzioni dettagliate per un obiettivo, è possibile creare gli argomenti dell'obiettivo. Questi argomenti includono un titolo e una descrizione. È possibile includere un numero illimitato di argomenti secondo le necessità per garantire che i dettagli relativi all'obiettivo siano chiari per il dipendente e per il responsabile. Sia i dipendenti che i responsabili possono inoltre immettere commenti sull'avanzamento degli obiettivi. 
+Se sono presenti più istruzioni dettagliate per un obiettivo, è possibile creare gli argomenti dell'obiettivo. Questi argomenti includono un titolo e una descrizione. È possibile includere un numero illimitato di argomenti secondo le necessità per garantire che i dettagli relativi all'obiettivo siano chiari per il dipendente e per il responsabile. Sia il dipendente che il responsabile possono inoltre immettere commenti sull'avanzamento degli obiettivi. 
 
 Gli obiettivi hanno spesso risultati misurabili. È possibile aggiungere le misure per tenere traccia dei risultati dell'obiettivo di destinazione e dei risultati effettivi. Se la misura è un obiettivo esteso, è possibile contrassegnare la misura utilizzando l'opzione **Obiettivo esteso**. 
 
-Nel giornale di registrazione prestazioni saranno contenute le attività che forniscono al responsabile ulteriori informazioni su come è stato ottenuto l'obiettivo. Se è stato associato un giornale di registrazione prestazioni all'obiettivo, questo viene visualizzato nella sezione **Attività** di tale obiettivo. È inoltre possibile aggiungere un nuovo giornale di registrazione prestazioni dalla pagina **Obiettivi prestazioni**. Il giornale di registrazione prestazioni sarà collegato automaticamente all'obiettivo. 
+Il giornale di registrazione prestazioni descriverà<!--note from editor: Suggested.--> le attività che forniscono al responsabile ulteriori informazioni su come è stato ottenuto l'obiettivo. Se è stato associato un giornale di registrazione prestazioni all'obiettivo, questo viene visualizzato nella sezione **Attività** di tale obiettivo. È inoltre possibile aggiungere un nuovo giornale di registrazione prestazioni dalla pagina **Obiettivi prestazioni**. Il giornale di registrazione prestazioni sarà collegato automaticamente all'obiettivo. 
 
 Se si desidera allegare un documento all'obiettivo, ad esempio un certificato di completamento, è possibile associarlo nella sezione **Allegati** della pagina **Obiettivi prestazioni**. Un visualizzatore documenti viene fornito per consentire di visualizzare rapidamente il contenuto del documento allegato. 
 
@@ -84,9 +83,9 @@ Se si desidera allegare un documento all'obiettivo, ad esempio un certificato di
 
 ## <a name="performance-reviews"></a>Revisioni delle prestazioni
 
-Le revisioni delle prestazioni sono più formalmente note come discussioni. Ora sono sufficientemente flessibili da supportare il riscontro continuo, i piani di sviluppo e altre revisioni formali. È possibile creare rapidamente piccole riunioni per due persone, ad esempio una riunione a due, oppure è possibile creare una revisione più complessa che corrisponde al processo di revisione della società. 
+Le revisioni delle prestazioni sono più formalmente note come discussioni. Ora sono sufficientemente flessibili da supportare il riscontro continuo, i piani di sviluppo e altre revisioni formali. È possibile creare rapidamente piccole riunioni per due persone<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> oppure creare una revisione più complessa che corrisponda al processo di revisione dell'azienda. 
 
-Una riunione a due è una revisione semplice e richiede un nome breve, una descrizione dettagliata del contenuto della riunione, la data della riunione e il periodo di revisione che viene discusso. I responsabili vedono anche il nome della persona per cui è stata creata la revisione. 
+Una riunione a due è una revisione semplice che richiede un nome breve, una descrizione dettagliata del contenuto della riunione, la data della riunione e il periodo di revisione che viene discusso. I responsabili vedono anche il nome della persona per cui è stata creata la revisione. 
 
 Per revisioni più dettagliate, è possibile effettuare il pull degli obiettivi attivi e completati e immettere i relativi commenti. Tutte le attività e le misure del giornale di registrazione prestazioni relative a un obiettivo verranno visualizzate nella revisione. Dopo che la revisione è terminata, uno snapshot delle misure viene archiviato per mantenere lo storico degli articoli al momento della revisione. 
 
@@ -105,9 +104,9 @@ Per stampare le revisioni, selezionare il pulsante **Stampa revisione**. Se il p
 
 ### <a name="review-detail"></a>Dettagli della revisione
 
-È possibile effettuare il pull degli obiettivi nei dettagli della revisione e specificare i relativi commenti. È inoltre possibile impostare le competenze e specificare i relativi commenti.
+È possibile effettuare il pull degli obiettivi nei dettagli della revisione e specificare i relativi commenti. È inoltre possibile impostare le competenze e specificare i relativi commenti.<!--note from editor: Suggested, in the spirit of using the fewest words to say the same thing.-->
 
-### <a name="measurements"></a>Misure
+### <a name="measurements"></a>Misurazioni
 
 È possibile visualizzare le misure correlate a un obiettivo o a una revisione. È inoltre possibile aggiungere una nuova misura correlata alla revisione.
 
@@ -121,7 +120,7 @@ Per stampare le revisioni, selezionare il pulsante **Stampa revisione**. Se il p
 
 ### <a name="sign-offs"></a>Conferme
 
-Il dipendente e/o il responsabile verranno elencati nella revisione in base ai parametri di revisione impostati. Le revisioni possono essere obbligatorie o facoltative. Una volta effettuate tutte le conferme necessarie, la revisione verrà contrassegnata con lo stato di **Completato**.
+Il dipendente e/o il responsabile verranno elencati nella revisione in base ai parametri di revisione impostati. Le revisioni possono essere obbligatorie o facoltative. Dopo<!--note from editor: Via Writing Style Guide.--> aver effettuato tutte le conferme necessarie, la revisione verrà contrassegnata con lo stato di **Completato**.
 
 ### <a name="attachments"></a>Allegati
 
@@ -129,33 +128,33 @@ Il dipendente e/o il responsabile verranno elencati nella revisione in base ai p
 
 ## <a name="workflow-for-performance-management"></a>Flusso di lavoro per la gestione delle prestazioni
 
-È possibile utilizzare il flusso di lavoro Revisione lavoratore per verificare l'approvazione di una revisione. È inoltre possibile scegliere di ignorare il flusso di lavoro automatizzato e di modificare manualmente lo stato della revisione che consente di creare documenti più semplici come una riunione a due senza dover utilizzare il processo del flusso di lavoro. L'accesso a una revisione è controllato dallo stato della revisione.
+È possibile utilizzare il flusso di lavoro Revisione lavoratore per verificare l'approvazione di una revisione. È inoltre possibile scegliere di ignorare il flusso di lavoro automatizzato e di modificare manualmente lo stato della revisione che consente di creare documenti più semplici come una riunione a due senza dover utilizzare il processo del flusso di lavoro. L'accesso a una revisione è controllato dallo stato della revisione, come segue:<!--note from editor: Suggested as an intro to the list.-->
 
-1.  Al momento della creazione la revisione è impostata sullo stato **Non avviata**. La revisione è modificabile da chiunque.
+1.  Al momento della creazione la revisione è impostata su **Non avviata**. La revisione è modificabile da chiunque.
 
-2.  Dopo che il dipendente preme il pulsante **Inizia revisione**, la revisione è impostata sullo stato **In corso**. Il dipendente quindi inizia ad aggiungere il contenuto. A questo punto, il responsabile non potrà più visualizzare il documento di revisione.
+2.  Dopo che il dipendente seleziona **Inizia revisione**, la revisione è impostata su **In corso**. Il dipendente quindi inizia ad aggiungere il contenuto. A questo punto, il responsabile non potrà più visualizzare il documento di revisione.
 
 3.  Il dipendente modifica lo stato su **Pronto per revisione**.
 
 4.  Il responsabile può aggiungere commenti e valutazioni. A questo punto, solo il responsabile può visualizzare la revisione.
 
-5.  Il responsabile cambia lo stato in **Revisione finale**, in modo che sia il responsabile che il dipendente possano visualizzare la revisione e discuterla. È possibile specificare i parametri indipendentemente dal fatto che la revisione può essere modificata in questo momento. Anche questo passaggio è facoltativo se il responsabile desidera semplicemente condividere la revisione con il dipendente e contrassegnarla come **Completato** al termine.
+5.  Il responsabile cambia lo stato in **Revisione finale**, in modo che sia il responsabile che il dipendente possano visualizzare la revisione e discuterla. È possibile specificare i parametri se la revisione può essere modificata in questo momento. Anche questo passaggio è facoltativo se il responsabile desidera semplicemente condividere la revisione con il dipendente e contrassegnarla come **Completato** al termine.
 
 6.  Dopo che le conferme vengono completate, lo stato viene impostato su **Completato**. A questo punto non è possibile modificare la revisione.
 
 Il flusso di lavoro Revisione lavoratore ha due elementi:
 
-1.  Approva revisione. Aggiungere questo elemento per controllare la modifica dello stato da **In corso** a **Pronto per revisione**. Modificare l'assegnazione per utilizzare la gerarchia direttiva in cui il livello del responsabile Employee.line = 1.
+1.  Approva revisione. Aggiungere questo elemento per controllare la modifica dello stato da **In corso** a **Pronto per revisione**. Modificare l'assegnazione per utilizzare la gerarchia direttiva in cui **Livello del responsabile Employee.line = 1**.<!--note from editor: Edit assumes that this is a UI string. -->
 
-2.  Revisione finale. Aggiungere questo elemento per controllare la modifica dello stato da **Pronto per revisione** a **Revisione finale**. Modificare l'assegnazione per utilizzare la gerarchia direttiva dove il livello del responsabile Employee.line = 1 se si desidera che il responsabile approvi la revisione finale. Modificare l'assegnazione su Utente del flusso di lavoro se si desidera che il dipendente la approvi. Se si desidera che il responsabile e il dipendente la approvino, aggiungere due passaggi nel flusso di lavoro ed effettuare l'assegnazione appropriata per ogni passaggio nell'ordine che si desidera venga seguito dalle approvazioni.
+2.  Revisione finale. Aggiungere questo elemento per controllare la modifica dello stato da **Pronto per revisione** a **Revisione finale**. Modificare l'assegnazione per utilizzare la gerarchia direttiva in cui **Livello del responsabile Employee.line = 1** se si desidera che il responsabile approvi la revisione finale. Modificare l'assegnazione su **Utente del flusso di lavoro** se si desidera che il dipendente la approvi. Se si desidera che il responsabile e il dipendente la approvino, aggiungere due passaggi nel flusso di lavoro ed effettuare l'assegnazione appropriata per ogni passaggio nell'ordine che si desidera venga seguito dalle approvazioni.<!--note from editor: I like this, so succinct.-->
 
-## <a name="setup"></a>Attrezzaggio
+## <a name="setup"></a>Impostazione
 
-Sono disponibili tre pagine che consentono di impostare le informazioni necessarie per completare il processo delle prestazioni: le pagine **Misure**, **Tipi di origine giornale di registrazione prestazioni** e **Tipi di revisione**.
+Tre pagine<!--note from editor: Suggested, to avoid "there are" (via Writing Style Guide).--> consentono di impostare le informazioni necessarie per completare il processo delle prestazioni: **Misure**, **Tipi di origine giornale di registrazione prestazioni** e **Tipi di revisione**.
 
 ### <a name="measurements"></a>Misurazioni
 
-La pagina **Misure** consente di creare le misure standard che verranno utilizzate nelle pagine **Obiettivi prestazioni** e **Revisioni**. È possibile creare misure quali date, importi, quantità o percentuali o misure basate su un modello di valutazione.
+Utilizzare la pagina **Misure** per<!--note from editor: Via Writing Style Guide, https://styleguides.azurewebsites.net/Styleguide/Read?id=2700&topicid=35221--> creare le misure standard che verranno utilizzate nelle pagine **Obiettivi prestazioni** e **Revisioni**. È possibile creare misure quali date, importi, quantità, percentuali o misure basate su un modello di valutazione.
 
 ### <a name="performance-journal-source-types"></a>Tipi di origine giornale di registrazione prestazioni
 

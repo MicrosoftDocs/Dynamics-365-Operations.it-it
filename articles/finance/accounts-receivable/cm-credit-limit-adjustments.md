@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c171ab99a434e529c48f39be9147ac411fb08b9b
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: 4d96f50db4379a44ad8f2b06725db654a27393f9
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753900"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734805"
 ---
 # <a name="credit-limit-adjustments"></a>Correzioni limite di credito 
 
@@ -27,7 +27,7 @@ Le correzioni dei limiti di credito consentono ai gestori dei crediti di aggiorn
 
 ## <a name="set-up-credit-limit-adjustments"></a>Impostare correzioni del limite di credito
 
-È possibile creare voci nel giornale di registrazione delle correzioni dei limiti di credito nella pagina **Correzione del limite di credito**(**Gestione crediti \> Correzioni del limite di credito \> Correzioni del limite di credito**).
+È possibile creare voci nel giornale di registrazione delle **correzioni dei limiti di credito** nella pagina **Correzione del limite di credito** (**Gestione crediti \> Correzioni del limite di credito \> Correzioni del limite di credito**).
 
 1. Selezionare **Nuovo**. Viene creato un nuovo gruppo di voci con un numero di correzione del limite di credito.
 2. Seleziona il tipo di correzione del limite di credito:

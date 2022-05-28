@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ed70e133b93c783542d4669b679fc5b6d2d20240
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968914"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740626"
 ---
 # <a name="use-customer-payment-predictions"></a>Utilizzare previsioni di pagamento del cliente
 
@@ -86,10 +86,6 @@ I dati nella sezione **Customer Insights** e nelle Schede dettaglio **Storico cl
 
 Puoi visualizzare l'accuratezza delle previsioni di pagamento accedendo a **Credito e riscossion \> Imposta\> Informazioni dettagliate finanziarie \> Parametri di Informazioni dettagliate finanziarie**. Nella scheda **Informazioni dettagliate sui pagamenti dei clienti**, la sezione **Modello di previsione** mostra l'accuratezza del modello di previsione come percentuale.
 
-[![Accuratezza delle previsioni di pagamento.](./media/finance-insights-parameters-accuracy-2nd.png)](./media/finance-insights-parameters-accuracy-2nd.png)
-
 Se non sei soddisfatto dell'accuratezza, seleziona il collegamento **Migliora la precisione del modello** per aprire l'esperienza dell'estensione AI Builder. Nell'esperienza dell'estensione AI Builder, puoi selezionare o annullare la selezione dei campi finché non hai selezionato i campi che ritieni più importanti per prevedere con precisione le probabilità di pagamento. Al termine, puoi facilmente eseguire nuovamente il training del modello di previsione e pubblicare le modifiche. Il modello di previsione il cui training è stato appena completato verrà automaticamente selezionato per le previsioni in Dynamics 365 Finance.
-
-[![Esperienza di estensione AI Builder.](./media/ai-builder.png)](./media/ai-builder.png)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

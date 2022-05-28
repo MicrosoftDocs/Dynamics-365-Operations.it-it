@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ec7fcb97bd46551846ccee13b369a1b02a589688
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: cf38717ab3768249e3c9b988ee3893c5e539bcd0
+ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075301"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8739389"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.21 (ottobre 2021)
 
@@ -130,7 +130,7 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 | Pianificazione generale | [Visualizzare i registri di pianificazione e dello storico del piano](../master-planning/planning-optimization/plan-history-logs.md) |
 | Warehouse Management | [Strategie di imballaggio dei contenitori](../warehousing/container-packing-strategy-overview.md) |
 | Warehouse Management | [Scenari di esempio di conteggio ciclo](../warehousing/cycle-counting-scenarios.md) |
-| Warehouse Management | [Importare gli ASN in entrata tramite l'entità di dati V2](../warehousing/import-asn-v2-data-entity.md) |
+| Warehouse Management | [Importare gli ASN in entrata tramite l'entità di dati V3](../warehousing/import-asn-data-entity.md) |
 | Warehouse Management | [Prelievo in eccesso per ordini cliente e di trasferimento](../warehousing/over-picking-for-sales-and-transfer-orders.md) |
 | Warehouse Management | [Programmare la stampa di etichette ciclo durante il ciclo](../warehousing/configure-task-based-wave-label-printing.md) |
 | Warehouse Management | [Novità o modifiche nell'app per dispositivi mobili Warehouse Management](../warehousing/whats-new-wma.md) |

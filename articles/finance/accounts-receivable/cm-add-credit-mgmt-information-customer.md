@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschloma
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3c8584c33b4f77b6d1f5a4dc0d62208b76b3ffa3
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: d5ced2f2bc419f18431663273236d21546c5541b
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7753972"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734459"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Aggiungere informazioni sulla gestione dei crediti per i clienti
 
@@ -32,7 +32,7 @@ Dopo aver impostato i parametri che controllano la gestione dei crediti, è poss
 1. Impostare l'opzione **Limite di credito illimitato** su **Sì** se il cliente non deve essere limitato da alcun test del limite di credito.
 2. Impostare l'opzione **Escludi da gestione crediti** su **Sì** per escludere il cliente da qualsiasi azione che in genere si verifica durante i processi di gestione dei crediti.
 3. Selezionare il gruppo di gestione dei crediti per il cliente.
-4. Per calcolare il limite di credito nella valuta del cliente, nel campo **Limite di credito nella valuta del cliente**, immettere il limite di credito del cliente. Il limite di credito nella valuta della società verrà convertito utilizzando i tassi di cambio definiti dal tipo di tasso di cambio del limite di credito selezionato nei parametri di Gestione crediti.
+4. Per calcolare il limite di credito nella valuta del cliente, nel campo **Limite di credito nella valuta del cliente**, immettere il limite di credito del cliente. Il limite di credito nella valuta della società verrà convertito utilizzando i tassi di cambio definiti dal tipo di tasso di cambio del limite di credito selezionato nei **parametri di gestione crediti**.
 5. Nel campo **Data ultima revisione**, inserire la data in cui il limite di credito del cliente è stato esaminato l'ultima volta da un responsabile crediti.
 6. Nel campo **Prossima data di revisione programmata**, inserire la data alla quale verrà esaminato e aggiornato il credito del cliente.
 7. Nel campo **Limite di credito idoneo**, inserire il limite di credito più alto che può essere assegnato al cliente, in base alla revisione dello storico credito di quel cliente. Il limite di credito idoneo può differire dal limite di credito visualizzato nella scheda dettaglio **Credito e riscossioni**.
@@ -46,7 +46,8 @@ Dopo aver impostato i parametri che controllano la gestione dei crediti, è poss
 15. Nel campo **Cliente dal**, inserire la data in cui le prime transazioni sono state elaborate per il cliente. Questa informazione viene utilizzata quando si creano punteggi di rischio.
 16. Immettere le note che il team di gestione dei crediti può utilizzare per valutare ulteriormente l'affidabilità creditizia del cliente.
 
-Si noti che alcune delle informazioni visualizzate nella pagina **Cliente** sono create da un altro processo:
+> [!Note] 
+> Alcune delle informazioni visualizzate nella pagina **Cliente** sono create da un altro processo:
 
 - Il campo **Scadenza limite di credito** mostra la data di scadenza del limite di credito. Se non si imposta questo campo, il limite di credito del cliente non scadrà.
 - Il campo **Data limite di credito** mostra la data di creazione del limite di credito. Questo campo viene aggiornato ogni volta che il limite di credito viene corretto.

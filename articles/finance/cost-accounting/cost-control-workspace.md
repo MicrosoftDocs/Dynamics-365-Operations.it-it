@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace, CAMCostControlWorkspaceConfigurationPerUser
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db587f5526e0541fc81964d510000a42a671a9bd65224e7167b9d869475c3601
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 36e94ff2cd499a827c631d6836a6c976af53dfa1
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763192"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734606"
 ---
 # <a name="cost-control-workspace"></a>Area di lavoro controllo costi 
 
@@ -54,7 +54,7 @@ Nella scheda dettaglio **Filtro dati**, è necessario definire la struttura dei 
 | Movimento CoGe di contabilità industriale                                            | Il **Movimento CoGe di contabilità industriale** su cui è basato il report. Il valore deriva dal campo **Unità di controllo costi**. |
 | Unità di controllo costi                                                 | Il valore selezionato determina il movimento CoGe di contabilità industriale e gli oggetti di costo su cui sarà basato il report. |
 | Gerarchia di dimensione statistica, Gerarchia dimensioni di elemento di costo | Un record di configurazione dell'area di lavoro **Controllo costi** può indicare valori monetari o non monetari, ma non nello stesso layout. Selezionare un valore nel campo **Gerarchia dimensioni di elemento di costo** per indicare valori monetari. Selezionare un valore nel campo **Gerarchia di dimensione statistica** per indicare valori non monetari. Il record di gerarchia di dimensione selezionato determina la struttura del reporting e dei livelli di aggregazione.<blockquote>[!NOTE]<br>Per visualizzare affiancati i valori monetari e non monetari, è possibile esportare i dati in Microsoft Excel per il pacchetto di contenuti di Microsoft Power BI.</blockquote> |
-| Gerarchia dimensioni di oggetto di costo                                   | Selezionare la gerarchia di dimensione della dimensione oggetto di coste adeguata allo scopo del reporting da definire. |
+| Gerarchia dimensioni di oggetto di costo      | Selezionare la gerarchia di dimensione della dimensione oggetto di coste adeguata allo scopo del reporting da definire. |
 | Versione originale budget                                           | Selezionare l'ID della versione budget che funge da budget originale nel contesto del report. |
 | Versione rivista budget                                            | Selezionare l'ID della versione budget che funge da budget rivisto nel contesto del report. |
 

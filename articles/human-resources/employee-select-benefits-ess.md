@@ -7,19 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 190eb7e437af7edd8eee97b8f2b7601254cbd240
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 68aa401487a74b9fcd186ec6cbdb268cdb41168c
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066420"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743488"
 ---
 # <a name="employees-select-plans-by-using-employee-self-service-optional"></a>I dipendenti selezionano i piani tramite il self-service dipendenti (opzionale)
 
@@ -35,11 +34,11 @@ Per accedere ai propri benefit per l'iscrizione, il dipendente va in **Self-serv
 Nella pagina **Self-service benefit**, i piani di benefit sono raggruppati per tipo di piano. Per visualizzare i piani di benefit in un tipo di piano, il dipendente seleziona un riquadro nella pagina **Benefit dipendente**. Il dipendente vedrà solo i benefit a cui ha diritto.
 
 > [!IMPORTANT]
-> Prima che un tipo di piano possa essere mostrato in **Self-service dipendenti**, deve essere configurato. Per ulteriori informazioni, vedi [Configurare il self-service dipendenti](/hr-benefits-setup-employee-self-service.md).
+> Prima che un tipo di piano possa essere mostrato in **Self-service dipendenti**, deve essere configurato. Per ulteriori informazioni, vedi [Configurare il self-service dipendenti](/dynamics365/human-resources/hr-benefits-setup-employee-self-service).
 
 A seconda del tipo di piano, è possibile selezionare uno o più benefit per l'iscrizione. Ad esempio, un tipo di piano medico potrebbe essere configurato per limitare il dipendente a un piano medico. Un tipo di piano di assicurazione sulla vita potrebbe consentire al dipendente di selezionare più piani di assicurazione sulla vita.
 
-Dopo che il dipendente ha deciso a quale piano iscriversi, potrebbe essere richiesto di selezionare le persone a carico. Se il dipendente ha selezionato un'opzione di copertura che è **Dipendente +1**, **Dipendente + figli**, o **Famiglia**, le persone a carico devono essere selezionate. Per ulteriori informazioni sulle opzioni di copertura vedi [Creare le opzioni di copertura](/hr-benefits-setup-coverage-options.md).
+Dopo che il dipendente ha deciso a quale piano iscriversi, potrebbe essere richiesto di selezionare le persone a carico. Se il dipendente ha selezionato un'opzione di copertura che è **Dipendente +1**, **Dipendente + figli**, o **Famiglia**, le persone a carico devono essere selezionate. Per ulteriori informazioni sulle opzioni di copertura vedi [Creare le opzioni di copertura](/dynamics365/human-resources/hr-benefits-setup-coverage-options).
 
 Per selezionare un piano di benefit, il dipendente seleziona il pulsante con i puntini di sospensione (**...**) o **Aggiungi al carrello**. Dopo che il dipendente ha finito di aggiungere tutte le selezioni di benefit al carrello, seleziona **Visualizza carrello**. Il dipendente viene quindi portato alla pagina **Piani** dove può visualizzare i piani di benefit selezionati e rinunciati.
 

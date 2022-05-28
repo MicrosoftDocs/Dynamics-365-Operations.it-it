@@ -1,6 +1,6 @@
 ---
 title: Impostare i periodi di liquidazione IVA
-description: In questo argomento viene illustrato come impostare periodi di liquidazione IVA in Dynamics 365 Finance.
+description: In questo argomento viene illustrato come impostare i periodi di liquidazione IVA in Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f57cd2b5b0f8f86d67500086403c5f484a263f76601453c00f59ede901b01a8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732959"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735816"
 ---
-# <a name="set-up-sales-tax-settlement-periods"></a>Impostare i periodi di liquidazione IVA
+# <a name="set-up-sales-tax-settlement-periods"></a>Imposta i periodi di liquidazione IVA
 
 [!include [banner](../../includes/banner.md)]
 
@@ -28,7 +28,7 @@ In questo argomento viene illustrato come impostare periodi di liquidazione IVA.
 
 In questa attività viene utilizzata la società dimostrativa USMF.
 
-1. Nel pannello di navigazione andare a **Moduli > Imposta > Imposte indirette > IVA > Periodi liquidazione IVA**.
+1. Andare a **Imposta > Imposte indirette > IVA > Periodi liquidazione IVA**.
 2. Selezionare **Nuovo**.
 3. Nel campo **Periodo di liquidazione** digitare un calore.
 4. Digitare un valore nel campo **Descrizione**

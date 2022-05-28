@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 68f236ad000adea91e746309564baf84a270a0e5
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: a00e20569f05730296ef611938a94b73ebb7f6f5
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075452"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735320"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Immettere manualmente i dati del candidato e della domanda di lavoro
 
-> [!IMPORTANT]
-> La funzionalità indicata in questo argomento è attualmente disponibile per i clienti di Human Resources nell'infrastruttura finanziaria.  
+> [!NOTE]
+> La funzionalità di selezione in questo argomento sarà denominata Progetti di selezione e si concentra su candidati, domande di lavoro e progetti di selezione.  
 
 
 Questa procedura illustra come gestire manualmente informazioni sui candidati e sulla relativa domanda di lavoro. È possibile immettere e gestire informazioni personali, date e ore del colloquio, referenze, competenze e richieste di facilitazione per i candidati. È inoltre possibile aggiornare lo stato delle domande di lavoro dei candidati e creare lettere o messaggi di posta elettronica per comunicare con i candidati. Quando si crea un record candidato, viene creato un record per il candidato nella Rubrica globale. La società di dati dimostrativi **USMF** è stata utilizzata per creare questa procedura.

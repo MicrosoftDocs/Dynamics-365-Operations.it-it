@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-06-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d221e1a47dca85880fd683177ca95dd1b7766fb9
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 350fb5a00b85f28fa8aef2ca50cf1f277b8f635e
+ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8064924"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743543"
 ---
 # <a name="server-to-server-authentication-for-the-ats-integration-api"></a>Autenticazione da server a server per l'API di integrazione ATS
 
@@ -89,7 +89,7 @@ Per il nuovo ruolo, l'accesso appropriato deve essere assegnato, come minimo, al
 
 Il secondo passaggio consiste nell'assicurare che all'applicazione vengano concesse le autorizzazioni appropriate per i dati delle Risorse umane collegandola a un utente nell'applicazione delle Risorse umane. Per un utente dell'applicazione, le chiamate da server a server tramite le tabelle virtuali di Dataverse vengono eseguite nel contesto dell'identità dell'utente (app) in Dataverse che sta chiamando l'azione. Il servizio adattatore della tabella virtuale cerca l'utente associato nelle Risorse umane ed esegue la query nel contesto di quell'utente. Ciò significa che è necessario creare un utente nelle Risorse umane con i ruoli corretti assegnati per fornire l'accesso ai dati di cui necessiterà l'applicazione di integrazione.
 
-L'utente delle Risorse umane dovrà inoltre ricevere le autorizzazioni corrette per i dati nelle Risorse umane. Il ruolo **Applicazione di selezione** (HcmRecruitingIntegrator) è disponibile con privilegi per le entità primarie necessarie per l'integrazione con i dati di selezione. Questo ruolo può essere assegnato all'utente dell'applicazione nella pagina **Utenti** per concedere l'accesso appropriato ai dati. Per ulteriori informazioni sui ruoli di sicurezza delle Risorse umane, vedere [Sicurezza basata sui ruoli](/fin-ops-core/dev-itpro/sysadmin/role-based-security).
+L'utente delle Risorse umane dovrà inoltre ricevere le autorizzazioni corrette per i dati nelle Risorse umane. Il ruolo **Applicazione di selezione** (HcmRecruitingIntegrator) è disponibile con privilegi per le entità primarie necessarie per l'integrazione con i dati di selezione. Questo ruolo può essere assegnato all'utente dell'applicazione nella pagina **Utenti** per concedere l'accesso appropriato ai dati. Per ulteriori informazioni sui ruoli di sicurezza delle Risorse umane, vedere [Sicurezza basata sui ruoli](/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 ### <a name="set-up-the-new-user-with-appropriate-permissions"></a>Configurare il nuovo utente con le autorizzazioni appropriate
 

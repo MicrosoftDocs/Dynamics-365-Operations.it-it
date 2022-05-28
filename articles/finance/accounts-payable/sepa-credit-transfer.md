@@ -1,6 +1,6 @@
 ---
 title: Panoramica dei bonifici SEPA
-description: Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico.
+description: Questo argomento fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: overview
@@ -8,7 +8,7 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "11124"
 - intro-internal
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc37dde8829abdd26a224adbd788538834f4d320
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: f43c45aa4f22f5044e7c10329dafa76226970b3d
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984029"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734518"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Panoramica dei bonifici SEPA
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico.
+Questo argomento fornisce informazioni generali sui bonifici ISO 20022, che includono i bonifici SEPA (Single Euro Payments Area) e qualsiasi altro pagamento elettronico per i fornitori. Un bonifico SEPA è un tipo di pagamento specifico in Euro effettuato da un individuo o una società a un'altra società o un altro individuo. Nell'argomento viene inoltre illustrato come impostare e trasmettere un file di pagamento di bonifico.
 
 ## <a name="what-is-a-credit-transfer-message"></a>Che cos'è un messaggio di bonifico?
 Il messaggio di bonifico è una richiesta inviata dalla parte che inizia la transazione (la società) per spostare fondi dal proprio conto a quello di un creditore. Esistono molte implementazioni specifiche per banca e per paese di messaggi di bonifico. Alcune di tali implementazioni sono utilizzate all'interno di un paese e alcune stanno diventando standard. Uno standard globale affermato è ISO 20022 e i relativi messaggi di inizio della transazione, ad esempio Bonifico. La figura riportata di seguito mostra le relazioni e la copertura per messaggi di bonifico selezionati. 
@@ -50,7 +50,7 @@ L'EPC, che è costituito dalle banche europee, sviluppa i framework commerciali 
 Un bonifico SEPA è un pagamento effettuato da un individuo o una società a un'altra società o un altro individuo. I pagamenti devono essere in Euro e devono includere il numero IBAN (International Bank Account Number) e il codice BIC (Bank Identifier Code) di entrambe le parti. Il codice BIC è detto anche codice Society for Worldwide Interbank Financial Telecommunication \[SWIFT\]. Inoltre, i costi della transazione devono essere condivisi da entrambe le parti. I bonifici effettuati tra le parti devono utilizzare file XML conformi agli standard di elaborazione di pagamento ISO 20022 e il formato XML, come specificato dalla EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Come viene implementato un bonifico?
-Il formato di pagamento dei bonifici per i paesi europei è implementato utilizzando la creazione di report elettronici (ER, Electronic reporting) e la funzionalità Metodi di pagamento in Microsoft Dynamics 365 Finance. Alcuni formati di bonifico utilizzati in altre aree utilizzano ancora il framework di pagamento precedente. Tra i molti altri formati, sono disponibili dodici formati di file di bonifico ISO 20022. Questi formati di esportazione sono conformi allo standard XML ISO 20022 SEPA. Vengono utilizzati per generare bonifici in valuta diversa dall'euro per i paesi in cui vengono utilizzati e pagamenti in euro come specificato nella versione 8.2 del documento SEPA Credit Transfer Scheme Rulebook rilasciato dall'EPC. Prima di poter implementare i bonifici, è necessario contattare la banca per ottenere il software necessario per caricare i file di E-banking. Verrà utilizzato tale software per trasferire i file XML contenenti gli ordini di pagamento alla banca.
+Il formato di pagamento dei bonifici per i paesi europei è implementato utilizzando la creazione di report elettronici (ER, Electronic reporting) e la funzionalità Metodi di pagamento in Microsoft Dynamics 36 per la finanza. Alcuni formati di bonifico utilizzati in altre aree utilizzano ancora il framework di pagamento precedente. Tra i molti altri formati, sono disponibili dodici formati di file di bonifico ISO 20022. Questi formati di esportazione sono conformi allo standard XML ISO 20022 SEPA. Vengono utilizzati per generare bonifici in valuta diversa dall'euro per i paesi in cui vengono utilizzati e pagamenti in euro come specificato nella versione 8.2 del documento SEPA Credit Transfer Scheme Rulebook rilasciato dall'EPC. Prima di poter implementare i bonifici, è necessario contattare la banca per ottenere il software necessario per caricare i file di E-banking. Verrà utilizzato tale software per trasferire i file XML contenenti gli ordini di pagamento alla banca.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported"></a>Quali formati di bonifico sono attualmente supportati?
 È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco più aggiornato di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'argomento che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.

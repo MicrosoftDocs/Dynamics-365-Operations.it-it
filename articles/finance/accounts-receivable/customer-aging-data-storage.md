@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 497d49da84f4df90877908bef3031e079bc36066
-ms.sourcegitcommit: d0e99545d722c924db57ae2bd06f72154a1f1f97
+ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557880"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735523"
 ---
 # <a name="customer-aging-data-storage"></a>Archiviazione dati di aging cliente
 
 [!include [banner](../includes/banner.md)]
 
-
-Questo argomento descrive il processo di utilizzo dell'archiviazione esterna per i dati di aging dei clienti. In Microsoft Dynamics 365 Finance è possibile eseguire il processo di archiviazione dei dati di aging del cliente per rendere disponibile l'output per l'esportazione in un sistema esterno. Quando si esegue il processo, le stesse opzioni di report di aging disponibili nel sistema sono disponibili per i sistemi esterni. I dettagli sono sempre inclusi nei dati esportati.
+Questo argomento descrive il processo di utilizzo dell'archiviazione esterna per i dati di aging dei clienti. In Microsoft Dynamics 365 Finance è possibile eseguire il processo **Archiviazione dati di aging cliente** per rendere disponibile l'output per l'esportazione in un sistema esterno. Quando si esegue il processo, le stesse opzioni di report di aging disponibili nel sistema sono disponibili per i sistemi esterni. I dettagli sono sempre inclusi nei dati esportati.
 
 Può essere utile rendere disponibili i dati di aging dei clienti a un sistema esterno per l'archiviazione nei casi in cui l'output contenga molti clienti e/o molte transazioni. Se l'esistente report **Aging del cliente** esegue un timeout perché ha troppi dati da stampare, questa funzione fornisce un modo alternativo per ottenere gli stessi dati.
 

@@ -13,20 +13,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a6ecee078b18b12769a14cadc7e0182bf03d704
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 4bae8c038d048d18096eab20150701fd0e47250a
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075375"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734662"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>Assunzione del candidato tramite la selezione
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> La funzionalità indicata in questo argomento è attualmente disponibile per i clienti di Human Resources nell'infrastruttura finanziaria.  
-
+> La funzionalità di selezione in questo argomento sarà denominata Progetti di selezione e si concentra su candidati, domande di lavoro e progetti di selezione.  
 
 Questa procedura consente a un responsabile della selezione di assumere un candidato che ha inviato una domanda di lavoro per un progetto di selezione specifico. Quando assumi un candidato tramite un progetto di selezione, un nuovo record lavoratore verrà creato e al record del candidato sarà associato lo stato **Assunto**. La società di dati dimostrativi **USMF** è stata utilizzata per creare questa procedura.
 

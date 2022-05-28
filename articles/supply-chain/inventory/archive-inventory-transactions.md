@@ -2,7 +2,7 @@
 title: Archiviare le transazioni di magazzino
 description: In questo argomento viene descritto come archiviare i dati delle transazioni di magazzino per migliorare le prestazioni del sistema.
 author: yufeihuang
-ms.date: 03/01/2021
+ms.date: 05/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99a7b61d9bd5e1e2bd8d2c7df34882646bb51270
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567465"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736063"
 ---
 # <a name="archive-inventory-transactions"></a>Archiviare le transazioni di magazzino
 
@@ -116,3 +116,110 @@ La barra degli strumenti sopra la griglia include i seguenti pulsanti utilizzabi
 - **Sospendi archiviazione** - Sospende un archivio selezionato che è attualmente in fase di elaborazione. La sospensione viene attivata solo dopo la generazione dell'attività di archiviazione. Pertanto, potrebbe esserci un breve ritardo prima della sospensione dell'archiviazione. Se un archivio è stato sospeso, viene visualizzato un segno di spunta nel campo **Interrompi aggiornamento corrente**.
 - **Riprendi archiviazione** - Riprende l'elaborazione di un archivio selezionato attualmente sospeso.
 - **Storno** - Esegue lo storno dell'archivio selezionato. È possibile stornare un archivio solo se il campo **Stato** è impostato su *Finito*. Se un archivio è stato stornato, viene visualizzato un segno di spunta nel campo **Storno**.
+
+## <a name="extend-your-code-to-support-custom-fields"></a>Estendere il codice per supportare i campi personalizzati
+
+Se la tabella `InventTrans` contiene uno o più campi personalizzati, potrebbe essere necessario estendere il codice per supportarli, a seconda di come sono denominati.
+
+- Se i campi personalizzati della tabella `InventTrans` hanno gli stessi nomi dei campi nella tabella `InventtransArchive`, ciò significa che sono mappati 1:1. Pertanto, è possibile inserire semplicemente i campi personalizzati nel gruppo di campi `InventoryArchiveFields` della tabella `inventTrans`.
+- Se i nomi dei campi personalizzati nella tabella `InventTrans` non corrispondono ai nomi dei campi nella tabella `InventtransArchive`, è necessario aggiungere il codice per mapparli. Ad esempio, se si dispone di un campo di sistema chiamato `InventTrans.CreatedDateTime`, è necessario creare un campo nella tabella `InventTransArchive` con un nome diverso (come `InventtransArchive.InventTransCreatedDateTime`) e aggiungere le estensioni alle classi `InventTransArchiveProcessTask` e `InventTransArchiveSqlStatementHelper`, come illustrato nel codice di esempio seguente.
+
+Nel seguente codice di esempio viene illustrato un modo per aggiungere l'estensione richiesta alla classe `InventTransArchiveProcessTask`.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveProcessTask))]
+Final class InventTransArchiveProcessTask_Extension
+{
+
+    protected void addInventTransFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTrans, ModifiedBy))
+            .add(fieldStr(InventTrans, CreatedBy)).add(fieldStr(InventTrans, CreatedDateTime));
+
+        next addInventTransFields(_selectionObject);
+    }
+
+
+    protected void addInventTransArchiveFields(SysDaSelection _selectionObject)
+    {
+        _selectionObject.add(fieldStr(InventTransArchive, InventTransModifiedBy))
+            .add(fieldStr(InventTransArchive, InventTransCreatedBy)).add(fieldStr(InventTransArchive, InventTransCreatedDateTime));
+
+        next addInventTransArchiveFields(_selectionObject);
+    }
+}
+```
+
+Nel seguente codice di esempio viene illustrato un modo per aggiungere l'estensione richiesta alla classe `InventTransArchiveSqlStatementHelper`.
+
+```xpp
+[ExtensionOf(classStr(InventTransArchiveSqlStatementHelper))]
+final class InventTransArchiveSqlStatementHelper_Extension
+{
+    private str     inventTransModifiedBy;  
+    private str     inventTransCreatedBy;
+    private str     inventTransCreatedDateTime;
+
+    protected void initialize()
+    {
+        next initialize();
+        inventTransModifiedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, ModifiedBy)).name(DbBackend::Sql);
+        inventTransCreatedDateTime = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedDateTime)).name(DbBackend::Sql);
+        inventTransCreatedBy = new SysDictField(tablenum(InventTrans), fieldNum(InventTrans, CreatedBy)).name(DbBackend::Sql);
+    }
+
+    protected str buildInventTransArchiveSelectionFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransArchiveSelectionFieldsStatement();
+        
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransModifiedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedBy)).name(DbBackend::Sql));
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1',  new SysDictField(tablenum(InventTransArchive), fieldNum(InventTransArchive, InventTransCreatedDateTime)).name(DbBackend::Sql));
+        }
+
+        return ret;
+    }
+
+    protected str buildInventTransTargetFieldsStatement()
+    {
+        str     ret;
+
+        ret = next buildInventTransTargetFieldsStatement();
+
+        if (inventTransModifiedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransModifiedBy);
+        }
+
+        if (inventTransCreatedBy)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedBy);
+        }
+
+        if (inventTransCreatedDateTime)
+        {
+            ret += ',';
+            ret += strFmt('%1', inventTransCreatedDateTime);
+        }
+
+        return ret;
+    }
+}
+```

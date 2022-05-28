@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-10-12
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 174cbd85139db5cee75481041fb721dc7646ab66
-ms.sourcegitcommit: eef5d9935ccd1e20e69a1d5b773956aeba4a46bc
+ms.openlocfilehash: e74336270ab46fc19adb4c797745c9582028391a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/11/2021
-ms.locfileid: "7913604"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8687473"
 ---
 # <a name="print-tax-information-on-transfer-order-documents"></a>Stampare le informazioni delle imposte sui documenti dell'ordine di trasferimento
 
@@ -39,7 +38,7 @@ I seguenti dati rilevanti ai fini fiscali vengono aggiunti ai documenti dell'ord
 
 1. [Abilita e imposta la funzione delle imposte per gli ordini di trasferimento](tasks/Tax-feature-support-for-transfer-order.md).
 2. [Crea e imposta più numeri di partita IVA per una persona giuridica](emea-multiple-vat-registration-numbers.md).
-3. Imposta il codice di esenzione, la descrizione, le direttive fiscali e stampa il codice nei codici imposta. Per questo esempio, vengono creati e sincronizzati in Microsoft Dynamics 365 Finance tre codici imposta: **NL-Exempt**, **BE-RC-21**, e **BE-RC+21**.
+3. Imposta il codice di esenzione, la descrizione, le direttive fiscali e stampa il codice nei codici imposta. Per questo esempio, vengono creati e sincronizzati in Microsoft Microsoft Dynamics 365 Finance tre codici imposta: **NL-Exempt**, **BE-RC-21**, e **BE-RC+21**.
 
     1. In Finance, vai a **Imposta** \> **Impostazione** \> **IVA** \> **Codici di esenzione IVA**.
     2. Seleziona **Modifica** e inserisci una descrizione per il codice di esenzione **EC**. Ad esempio, inserisci **Spedizioni CE esentasse con numero di partita IVA**.

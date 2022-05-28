@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c461c3d3e9b073b186e68ff1b0453fafe5da80e7
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739337"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734869"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Impostare fasce IVA e fasce IVA articoli
 
 [!include [banner](../../includes/banner.md)]
 
-In questa registrazione attività verrà illustrata l'impostazione dell'IVA e delle fasce IVA articoli. Le fasce IVA sono gruppi di codici IVA allegati a clienti e fornitori. Vengono anche allegati ai conti CoGe per le transazioni che non vengono registrate per uno specifico fornitore o cliente.  Le fasce IVA articoli sono gruppi di codici IVA collegati alle risorse come i prodotti.  Le fasce IVA applicabili a una transazione specifica sono determinate dai codici IVA inclusi nella fascia IVA e nella fascia IVA articoli della transazione.  L'IVA può essere calcolata solo se vengono selezionate una fascia IVA e una fascia IVA articoli per ciascuna transazione per la quale è necessario calcolare o registrare l'IVA.  
+In questa registrazione attività verrà illustrata l'impostazione dell'IVA e delle fasce IVA articoli. Le fasce IVA sono gruppi di codici IVA allegati a clienti e fornitori. Vengono anche allegati ai conti CoGe per le transazioni che non vengono registrate per uno specifico fornitore o cliente. Le fasce IVA articoli sono gruppi di codici IVA collegati alle risorse come i prodotti. Le fasce IVA applicabili a una transazione specifica sono determinate dai codici IVA inclusi nella fascia IVA e nella fascia IVA articoli della transazione. L'IVA può essere calcolata solo se vengono selezionate una fascia IVA e una fascia IVA articoli per ciascuna transazione per la quale è necessario calcolare o registrare l'IVA.  
 
 1. Andare a **Pannello di navigazione > Moduli > Imposta > Imposte indirette > IVA > Fasce IVA**.
 2. Fare clic su **Nuovo**.

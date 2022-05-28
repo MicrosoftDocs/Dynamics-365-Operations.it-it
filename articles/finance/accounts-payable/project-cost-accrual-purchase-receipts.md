@@ -1,6 +1,6 @@
 ---
 title: Attribuzione dei costi per progetto nelle entrate acquisti
-description: In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 Finance.
+description: In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Microsoft Dynamics 365 Finance.
 author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CostControlCommittedCost
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7ae2f57e0104a30492363f1576962d36a2a1b04b
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 7e435002bca8fd4deb58c16c50db55237a3e9053
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595232"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735112"
 ---
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Attribuzione dei costi per progetto nelle entrate acquisti
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Entrate acquisti per attribuzione per competenza dei costi di progetto
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Dynamics 365 Finance. 
+In questo argomento viene descritto come i ratei e risconti passivi di progetto provenienti dalle entrate di acquisto possono essere tracciati in Microsoft Microsoft Dynamics 365 Finance. 
 
 Le fatture per un progetto spesso arrivano dopo la consegna di merci e servizi, aspetto che potrebbe avere un impatto significativo sugli indicatori di prestazione chiave (KPI) del progetto. È importante poter tenere traccia di queste transazioni sia nei report finanziari che in quelli di progetto.
 

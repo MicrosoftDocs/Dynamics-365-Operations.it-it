@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxReportCollection
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b7d12ffa90bde30518780d750e74d20db89f007044f8622480b8bd6e629e00dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ff5a5622fa63b6058b9e768f1fd1bc776a48962
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728747"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734841"
 ---
 # <a name="set-up-sales-tax-reporting-codes"></a>Imposta i codici reporting IVA
 
 [!include [banner](../../includes/banner.md)]
 
-Questi codici reporting IVA fanno riferimento a un numero di campo elencato in un report IVA. Vengono utilizzati su layout di report specifici per paese/area geografica. Vengono utilizzati anche nel pagamento IVA per codice (report). Tale report mostra gli importi IVA per un periodo di liquidazione riepilogati per ogni codice di reporting. Dopo aver creato i codici reporting IVA, è possibile utilizzarli come riferimenti nelle Schede dettaglio Impostazione report accessibili dalla pagina **Codice IVA**. 
+Questi **codici reporting IVA** fanno riferimento a un numero di campo elencato in un report IVA. Vengono utilizzati su layout di report specifici per paese/area geografica. Vengono utilizzati anche nel pagamento IVA per codice (report). Tale report mostra gli importi IVA per un periodo di liquidazione riepilogati per ogni codice di reporting. Dopo aver creato i **codici reporting IVA**, è possibile utilizzarli come riferimenti nelle Schede dettaglio **Impostazione report** accessibili dalla pagina **Codice IVA**. 
 
 Questa registrazione utilizza la società dimostrativa DEMF.
 

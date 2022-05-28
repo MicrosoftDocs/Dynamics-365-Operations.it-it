@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: adeae6e20a799165e086df28b92a1357e8f2f0d3
-ms.sourcegitcommit: f82372b1e9bf67d055fd265b68ee6d0d2f10d533
+ms.openlocfilehash: af5d0a001fbe705834e116516933be67f2de8826
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7921201"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734160"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Creare una sequenza di lettere di sollecito
 
@@ -26,10 +26,10 @@ ms.locfileid: "7921201"
 
 Utilizza questa procedura per creare una sequenza di lettere di sollecito. In questa attività viene utilizzata la società dimostrativa USMF.
 
-1. Nel pannello di navigazione andare a **Moduli > Crediti e riscossioni > Impostazione > Imposta la sequenza lettere di sollecito**.
+1. Andare a **Crediti e riscossioni > Impostazioni > Imposta la sequenza lettere di sollecito**.
 2. Fare clic su **Nuovo**.
 3. Nel campo **Sequenza lettere di sollecito**, immettere un ID sequenza che rappresenterà la sequenza. Verrà utilizzato quando si imposta un profilo registrazione.
-4. Digitare un valore nel campo **Descrizione**  I termini di pagamento sono facoltativi. Se si immette un valore in questo campo, la fattura di addebito lettera di sollecito utilizzerà questi termini di pagamento anziché i termini di pagamento archiviati con il cliente.  
+4. Digitare un valore nel campo **Descrizione** I termini di pagamento sono facoltativi. Se si immette un valore in questo campo, la fattura di addebito lettera di sollecito utilizzerà questi termini di pagamento anziché i termini di pagamento archiviati con il cliente.  
 5. Nel campo **Codice lettera di sollecito** selezionare il codice per la prima lettera di sollecito che si desidera inviare. La prima nota d'interesse viene creata in base alla data di scadenza riportata sulla fattura, al valore specificato per il periodo di tolleranza nel campo Giorni e alle altre informazioni immesse in questa riga.  
 6. Digitare un valore nel campo **Descrizione** 
 7. La valuta predefinite della commissione è la valuta della persona giuridica. Questo codice valuta può essere diverso dalla valuta della fattura.   
@@ -52,9 +52,9 @@ Utilizza questa procedura per creare una sequenza di lettere di sollecito. In qu
 22. Nell'elenco fare clic sul collegamento nella riga selezionata.
 23. Nel campo **Saldo scaduto minimo** immettere un numero.
 24. Nel campo **Giorni** immettere un numero.
-25. Selezionare la casella di controllo **Blocca** per impedire al cliente di effettuare operazioni di consegna e fatturazione aggiuntive. Per sbloccare il conto, selezionare **No** nel campo Fatturazione e consegna in attesa della pagina Clienti.  
+25. Selezionare la casella di controllo **Blocca** per impedire al cliente di effettuare operazioni di consegna e fatturazione aggiuntive. Per sbloccare il conto, selezionare **No** nel campo **Fatturazione e consegna in attesa** della pagina **Clienti**.  
 26. Espandere la Scheda dettaglio **Nota**.
-27. Immettere il testo da visualizzare sulla lettera di sollecito per il codice lettera di sollecito selezionato. È possibile tradurre il testo in più lingue utilizzando il menu Traduzioni sopra la casella della nota.  
+27. Immettere il testo da visualizzare sulla lettera di sollecito per il codice lettera di sollecito selezionato. È possibile tradurre il testo in più lingue utilizzando il menu **Traduzioni** sopra la casella della nota.  
 
 
 

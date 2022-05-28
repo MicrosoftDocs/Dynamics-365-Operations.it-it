@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ffb2c42748678ae265a706a00db327a160cc9f5
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
+ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392913"
+ms.lasthandoff: 05/14/2022
+ms.locfileid: "8756965"
 ---
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
 [!include [banner](../includes/banner.md)]
 
-Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita e che un'organizzazione presenta a un cliente. Questo tipo di fattura cliente viene creato in base a un ordine cliente che include righe ordine e numeri articolo. I numeri articolo vengono specificati e registrati nella contabilità generale. Non sono disponibili inserimenti nel giornale di registrazione secondario per una fattura cliente relativa a un ordine cliente. Per ulteriori informazioni, vedere [Creare fatture ordine cliente](tasks/create-sales-order-invoices.md).
+Una **fattura cliente per un ordine cliente** è una fattura correlata a una vendita che un'organizzazione presenta a un cliente. Questo tipo di fattura cliente viene creato in base a un ordine cliente che include righe ordine e numeri articolo. I numeri articolo vengono specificati e registrati nella contabilità generale. Non sono disponibili inserimenti nel giornale di registrazione secondario per una fattura cliente relativa a un ordine cliente. Per ulteriori informazioni, vedere [Creare fatture ordine cliente](tasks/create-sales-order-invoices.md).
 
 Una **fattura a testo libero** non è correlata a un ordine cliente. Contiene righe ordine che includono conti CoGe, descrizioni a testo libero e un importo di vendita immesso manualmente. Non è possibile immettere un numero articolo in questo tipo di fattura. È necessario immettere le informazioni sull'IVA appropriate. In ogni riga fattura viene indicato il conto principale per la vendita, che può essere distribuito in più conti CoGe facendo clic su **Distribuisci importi** nella **fattura a testo libero**. Il saldo cliente, inoltre, viene registrato nel conto riepilogativo dal profilo di registrazione utilizzato per la fattura a testo libero.
 
@@ -41,7 +41,10 @@ Per ulteriori informazioni, vedere:
 [Generare e registrare fatture a testo libero ricorrenti](tasks/post-recurring-free-text-invoices.md)
 
 
-Una **fattura proforma** è una fattura preparata come stima degli importi effettivi prima della registrazione della fattura vera e propria. È possibile stampare una fattura proforma sia per una fattura cliente basata su un ordine cliente che per una fattura a testo libero.
+Una **fattura proforma** è una fattura preparata come stima degli importi effettivi prima della registrazione della fattura vera e propria. È possibile stampare una **fattura proforma** sia per una fattura cliente basata su un ordine cliente che per una fattura a testo libero. 
+
+>[!NOTE]
+> In caso di interruzione del sistema durante il processo di fattura proforma di vendita, una fattura proforma può diventare orfana. Una fattura proforma orfana può essere eliminata eseguendo il processo periodico **Elimina fatture proforma manualmente**. Andare a **Vendite e marketing > Attività periodiche > Pulisci > Elimina fatture proforma manualmente**.
 
 ## <a name="using-sales-order-customer-invoice-data-entities"></a>Utilizzo delle entità dei dati della fattura cliente dell'ordine cliente
 È possibile utilizzare le entità dati per importare ed esportare informazioni su una fattura cliente per un ordine cliente. Esistono diverse entità per le informazioni sull'intestazione della fattura di vendita e le righe della fattura di vendita.
@@ -70,7 +73,7 @@ Nella pagina elenco **Tutti gli ordini cliente** è possibile visualizzare lo st
 ## <a name="post-and-print-individual-customer-invoices-that-are-based-on-packing-slips-and-the-date"></a>Registrare e stampare fatture cliente individuali in base ai documenti di trasporto e alla data
 Utilizzare questa procedura quando uno più documenti di trasporto sono stati registrati per l'ordine cliente. La fattura cliente si basa sui documenti di trasporto e riflette le quantità in essi contenute. Le informazioni finanziarie per la fattura si basano sulle informazioni immesse al momento della registrazione della fattura stessa. 
 
-È possibile creare una fattura cliente in base agli articoli delle righe dei documenti di trasporto spediti fino alla data corrente, anche se non sono stati ancora spediti tutti gli articoli di un ordine cliente specifico. Questa funzionalità è utilizzabile, ad esempio, se per ogni cliente la persona giuridica emette una fattura al mese per coprire tutte le consegne del mese in questione. Ogni documento di trasporto corrisponde a una consegna completa o parziale dell'ordine cliente. 
+È possibile creare una fattura cliente in base agli articoli delle righe dei documenti di trasporto spediti fino alla data corrente, anche se non sono stati spediti tutti gli articoli di un ordine cliente specifico. Questa funzionalità è utilizzabile, ad esempio, se per ogni cliente la persona giuridica emette una fattura al mese per coprire tutte le consegne del mese in questione. Ogni documento di trasporto corrisponde a una consegna completa o parziale dell'ordine cliente. 
 
 Quando la fattura viene registrata, la quantità **Rimanente fattura** per ogni articolo viene aggiornata con il totale delle quantità consegnate, tratto dai documenti di trasporto selezionati. Se entrambe le quantità **Rimanente fattura** e **Rimanente consegna** per tutti gli articoli dell'ordine cliente sono uguali a 0 (zero), lo stato dell'ordine cliente passa a **Fatturato**. Se la quantità **Rimanente fattura** è diversa da 0 (zero), lo stato dell'ordine cliente non viene modificato e per tale ordine è possibile immettere ulteriori fatture. 
 
@@ -83,8 +86,13 @@ Utilizzare questo processo quando uno o più ordini cliente sono pronti per la f
 
 È possibile selezionare più fatture nella pagina elenco **Ordine cliente** e quindi utilizzare **Genera fatture** per consolidarle. Nella pagina **Registrazione fattura** è possibile modificare l'impostazione **Ordine riepilogativo** per riepilogare per numero ordine (in cui sono presenti più documenti di trasporto per un singolo ordine cliente) o per conto fatture (in cui sono presenti più ordini cliente per un singolo conto fatture). Utilizzare il pulsante **Disponi** per consolidare gli ordini cliente in singole fatture, in base alle impostazioni **Ordine riepilogativo**.
 
+## <a name="split-sales-order-invoices-by-site-and-delivery-information"></a>Dividere le fatture degli ordini cliente per sito e informazioni sulla consegna
+È possibile configurare la suddivisione delle fatture cliente degli ordini cliente per sito o per indirizzo di consegna nella scheda **Aggiornamento riepilogativo** della pagina **Parametri contabilità clienti**. 
+ - Selezionare l'opzione **Dividi in base al sito fattura** per creare una singola fattura per ogni sito durante la registrazione. 
+ - Selezionare l'opzione **Dividi in base alle informazioni di consegna** per creare una singola fattura per ogni indirizzo di consegna delle righe dell'ordine cliente durante la registrazione. 
+
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Registra su account Ricavi per le righe di ordine senza prezzo
-Avrai l'opzione di aggiornare l'account **Ricavi** in **Contabilità generale** per le righe di ordini di vendita senza prezzo. Per configurare o visualizzare queste informazioni, vai al parametro **Registra su account Ricavi per le righe di fatture di ordini di vendite con prezzo** nella scheda **Contabilità generale e IVA** della pagina **Parametri contabilità clienti**. (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per aggiornare l'account **Ricavi** per le righe delle fatture degli ordini di vendita senza prezzo. Un account ricavi viene definito nella pagina dei parametri **Registrazione magazzino**, nella scheda di definizione dell'account **Ordine di vendita**. Se questa opzione non viene selezionata, le righe che non hanno informazioni sul prezzo non registreranno l'account **Ricavi**.
+Sarà disponibile l'opzione per aggiornare l'account **Ricavi** in **Contabilità generale** per le righe di ordini cliente senza prezzo. Per configurare o visualizzare queste informazioni, vai al parametro **Registra su account Ricavi per le righe di fatture di ordini di vendite con prezzo** nella scheda **Contabilità generale e IVA** della pagina **Parametri contabilità clienti**. (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per aggiornare l'account **Ricavi** per le righe delle fatture degli ordini di vendita senza prezzo. Un account ricavi viene definito nella pagina dei parametri **Registrazione magazzino**, nella scheda di definizione dell'account **Ordine cliente**. Se questa opzione non viene selezionata, le righe che non hanno informazioni sul prezzo non registreranno l'account **Ricavi**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Impostazioni aggiuntive che modificano il comportamento di registrazione
 I seguenti campi modificano il comportamento del processo di registrazione.
@@ -152,7 +160,7 @@ I seguenti campi modificano il comportamento del processo di registrazione.
 <td>Verifica limite di credito</td>
 <td>Selezionare le informazioni che devono essere analizzate quando viene eseguito un controllo del limite di credito.
 <ul>
-<li><strong>Nessuno</strong>: non è presente alcuna richiesta di controllo del limite di credito.</li>
+<li><strong>Nessuno</strong>: non è presente alcun requisito per il controllo del limite di credito.</li>
 <li><strong>Saldo</strong>: il limite di credito viene verificato rispetto al saldo cliente.</li>
 <li><strong>Saldo+Documento di trasporto o entrata prodotti</strong>: il limite di credito viene verificato rispetto al saldo e alle consegne del cliente.</li>
 <li><strong>Saldo+Tutto</strong>: la verifica del limite di credito viene eseguita in base al saldo del cliente, alle consegne e agli ordini aperti.</li>

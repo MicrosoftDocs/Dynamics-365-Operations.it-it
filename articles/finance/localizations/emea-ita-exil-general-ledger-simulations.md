@@ -10,15 +10,15 @@ ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
-ms.author: ilyako
+ms.author: anasyash
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a09db13a9d539880da246b709632cfa57e5065d3e1bc60f408d2bf5764b8936c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 332446024ef515b772dd2477115fa8e7f805be99
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735447"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734352"
 ---
 # <a name="general-ledger-simulations"></a>Simulazioni di contabilità generale
 

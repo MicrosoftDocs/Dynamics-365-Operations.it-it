@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 21910c61cc330e0c9292990b7b1914f56bac844c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
+ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570755"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8736035"
 ---
 # <a name="dual-use-goods"></a>Beni a duplice uso
 
@@ -34,7 +34,7 @@ Prendiamo in considerazione lo scenario seguente:
 2. La pagina **Dettagli prodotto rilasciato** per il prodotto X-100 indica che si tratta di un bene a duplice uso. Insieme, il codice, la categoria, il gruppo e il regime indicano la classificazione del controllo delle esportazioni a cui appartiene il prodotto.
 3. La pagina **Certificati per duplice uso** include un certificato per il prodotto X-100 quando viene spedito in Francia. Questo certificato scade il 1 gennaio 2020.
 4. Il 17 giugno 2020, si crea un ordine cliente per un'azienda cliente con sede in Francia e l'ordine include il prodotto X-100.
-5. Quando si salva l'ordine cliente, il sistema determina le seguenti informazioni:
+5. Quando si conferma l'ordine cliente, il sistema determina le seguenti informazioni:
 
     1. L'ordine include prodotti che sono beni a duplice uso?
     2. Se l'ordine include beni a duplice uso, il paese di destinazione richiede certificati per duplice uso?

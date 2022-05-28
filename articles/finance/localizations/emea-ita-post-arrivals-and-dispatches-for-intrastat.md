@@ -1,20 +1,20 @@
 ---
 title: Registrare arrivi e spedizioni per Intrastat
 description: Questo argomento fornisce un esempio che mostra come registrare arrivi e spedizioni per Intrastat.
-author: andosip
+author: anasyash
 ms.date: 8/23/2021
 ms.topic: article
 audience: Application User
-ms.reviewer: kfender
+ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: f7bd1811fd0e580a6b6655244c689268915d320e
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: 4ab4402740d199043519773b18732bdde9a0fb2f
+ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414789"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8724785"
 ---
 # <a name="post-arrivals-and-dispatches-for-intrastat"></a>Registrare arrivi e spedizioni per Intrastat
 
@@ -32,7 +32,7 @@ Questo argomento fornisce un esempio che mostra come registrare arrivi e spedizi
 
     Ulteriori dettagli in [Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
 
-2. In Microsoft Dynamics 365 Finance, definisci le seguenti sequenze numeriche come continue: **Gene\_397**, **Acco\_16403**, **Gene\_407**, and **PUR\_EU**.
+2. In Microsoft Dynamics 365 Finance, definire le seguenti sequenze numeriche come continue: **Gene\_397**, **Acco\_16403**, **Gene\_407** e **PUR\_EU**.
 
     1. Vai a **Amministrazione organizzazione** > **Sequenze numeriche** > **Sequenze numeriche**.
     2. Nella griglia, seleziona uno dei codici di sequenza numerica.

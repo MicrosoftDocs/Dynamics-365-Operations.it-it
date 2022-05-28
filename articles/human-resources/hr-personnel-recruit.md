@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 77d37cba84fcd6fb8f93da79b10db2db91d91db0
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066602"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733987"
 ---
 # <a name="recruit-job-candidates"></a>Selezione dei candidati per la posizione
 
@@ -29,7 +28,7 @@ ms.locfileid: "8066602"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dynamics 365 Human Resources aiuta a gestire le richieste di selezione. Aiuta anche a passare senza problemi i candidati a una posizione come dipendenti. Se l'organizzazione utilizza un'applicazione di selezione separata, il processo di selezione potrebbe includere i seguenti passaggi:
+Dynamics 365 Human Resources aiuta a gestire le richieste di selezione. Aiuta anche a passare senza problemi i candidati a una posizione come dipendenti. Se l'organizzazione utilizza un'applicazione di selezione separata, il processo di selezione potrebbe includere i seguenti passaggi:<!--note from editor: Should this be a numbered list? These steps do seem to follow a particular order.-->
 
 - Immettere la richiesta di selezione in Human Resources.
 - Ricevere le referenze dei candidati in Human Resources dall'applicazione di selezione.
@@ -38,17 +37,22 @@ Dynamics 365 Human Resources aiuta a gestire le richieste di selezione. Aiuta an
 Se non si sta utilizzando un'applicazione di selezione separata, è possibile anche gestire manualmente i candidati in Human Resources.
 
 > [!NOTE]
-> Se si è un amministratore o uno sviluppatore e si desidera integrare Human Resources con un'applicazione di selezione di terze parti, vedi [Configurare l'integrazione di Dataverse](hr-admin-integration-common-data-service.md) e [Configurare le tabelle virtuali di Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
+> Se si è un amministratore o uno sviluppatore e si desidera integrare Human Resources con un'applicazione di selezione di terze parti, andare a [Configurare l'integrazione di Dataverse](hr-admin-integration-common-data-service.md) e [Configurare le tabelle virtuali di Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > È anche possibile trovare app di integrazione di selezione in [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
-## <a name="enable-recruiting-requests"></a>Abilita richieste di selezione
+## <a name="enable-recruiting-requests-on-the-merged-infrastructure"></a>Abilitare le richieste di selezione nell'infrastruttura unita
 
-Se si desidera inviare richieste di selezione in Human Resources, è necessario prima abilitare la funzionalità in **Parametri condivisi delle risorse umane**.
+Se si desidera inviare richieste di selezione nella selezione HR, è necessario prima abilitare le funzionalità **Esperienza utente HR** e **Gestione processo di selezione**.
 
-1. Nell'area di lavoro **Gestione personale** selezionare **Collegamenti**.
-2. Sotto **Impostazione**, selezionare **Parametri condivisi di risorse umane**.
-3. Nella scheda **Selezione** sotto **Selezione del personale**, impostare **Abilita richieste di selezione** su **Sì**.
+Una volta attivate, selezionare la funzionalità con i seguenti passaggi: 
+1. Andare a **Risorse umane** > **Impostazione** > **Parametri Risorse umane**.
+2. Nella scheda  **Selezione** , impostare il campo **Selezione disabilitata** su **No**.
+3. Nel menu a discesa **Esperienza di selezione**, selezionare **Selezione HR**.   
+
+> [!Note] 
+> Una volta selezionato **Selezione HR**, **Progetti di selezione** (legacy) sarà in sola lettura. 
+
 
 ## <a name="add-a-recruiting-request-location"></a>Aggiungere una posizione per la richiesta di selezione
 
@@ -60,8 +64,8 @@ Se l'organizzazione ha più sedi, è possibile aggiungerle in modo che i richied
 
     ![Aggiungere una posizione per la richiesta di selezione.](./media/hr-recruit-0a-add-location.png)
 
-4. Nel campo **Descrizione** immettere una descrizione per la posizione.
-5. Sotto **Posizione**, selezionare **Aggiungi**. Se la finestra di dialogo **Nuovo indirizzo** viene visualizzato, immettere l'indirizzo della posizione.
+4. Per **Descrizione** immettere una descrizione per la posizione.
+5. Sotto **Posizione**, selezionare **Aggiungi**. Se viene visualizzata la finestra di dialogo **Nuovo indirizzo**, immettere l'indirizzo della posizione.<!--note from editor: Please make the address in this image less plausible. Via the fictitious guidelines on CELAweb: For street addresses, you should use sequential numbers, common street names, and incorrect zip codes (e.g., 4567 Main St Buffalo, NY 98052). (See https://microsoft.sharepoint.com/sites/CELAWeb-Copyrights-Trademarks-And-Patents/SitePages/trademarks-fictitious-names.aspx)-->
 
     ![Immettere indirizzo.](./media/hr-recruit-0b-address.png)
 
@@ -83,7 +87,7 @@ I responsabili possono inviare richieste di selezione in Human Resources. Se si 
     ![Completare la richiesta di selezione.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Selezionare **Continua**. Viene visualizzata la richiesta di selezione per la posizione.
-6. In **Generale**, selezionare un responsabile assunzioni dal menu a discesa **Responsabile assunzioni** quindi selezionare una posizione nel menu a discesa **Posizione richiesta di selezione**.
+6. In **Generale**, selezionare un responsabile assunzioni dall'elenco a discesa **Responsabile assunzioni**, quindi selezionare una posizione nell'elenco a discesa **Posizione richiesta di selezione**.
 7. In **Lavoro**, modificare le informazioni in base alle esigenze, quindi selezionare **Crea dettagli dal lavoro**.
 
     ![Creare dettagli dalla mansione.](./media/hr-recruit-3-create-details-from-job.png)
@@ -91,7 +95,7 @@ I responsabili possono inviare richieste di selezione in Human Resources. Se si 
     Il resto della richiesta di selezione verrà compilato con le informazioni predefinite per il lavoro inserito.
 
 8. In **Descrizione esterna**, inserire una descrizione del lavoro per l'esterno.
-9. In **Posizioni**, selezionare **Aggiungi**, quindi selezionare una posizione per questa richiesta di selezione.
+9. In **Posizioni**, selezionare **Aggiungi**, quindi selezionare una posizione per questa richiesta di selezione.<!--note from editor: In all of these images, are they approved fictitious names, or do they come from sample data included with the app?-->
 
     ![Aggiungere una posizione.](./media/hr-recruit-4-select-position.png)
 
@@ -101,7 +105,7 @@ I responsabili possono inviare richieste di selezione in Human Resources. Se si 
     ![Aggiungere i requisiti di istruzione.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. In **Commento**, aggiungere commenti se necessario.
-13. In **Compensazione**, selezionare un livello dal menu a discesa **Livello** e quindi regolare **Soglia bassa**, **Punto di controllo**, e **Soglia alta** come necessario.
+13. In **Compensazione**, selezionare un livello dall'elenco a discesa **Livello** e quindi regolare **Soglia bassa**, **Punto di controllo** e **Soglia alta** come necessario.
 14. Quando la richiesta di selezione è completa e si è pronti per iniziare il processo di selezione, selezionare **Attiva** nella barra dei menu.
 
     ![Attivare la richiesta di selezione.](./media/hr-recruit-6-activate-recruit-request.png)

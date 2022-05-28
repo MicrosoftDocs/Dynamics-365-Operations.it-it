@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerSystemSetup, CustPosting, VendPosting, InventPosting, AssetPosting, ProjPosting, AssetLeasePostingAccounts, ProjCategory, ITMCostTypeTable, ProdGroup, WrkCtrTable, WrkCtrResourceGroup
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ad33d9a34bc449b81ec6d02a78b9ca1653aca5
-ms.sourcegitcommit: 96f936267d3f314f06da6ce6f809eba2ec3b205f
+ms.openlocfilehash: 4c29597155e525638e7c2ded7d641017f2189c49
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "8018381"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734578"
 ---
 # <a name="posting-profiles-overview"></a>Panoramica dei profili di registrazione
 
@@ -99,7 +99,7 @@ Il termine *conto di compensazione* è spesso usato in contabilità. Alcuni tipi
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-Molti moduli in Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce, e Dynamics 365 Project Operations hanno un profilo di registrazione o configurazioni aggiuntive che controllano il funzionamento della registrazione nella contabilità generale. Usa i seguenti argomenti per saperne di più sui profili di registrazione e sulle impostazioni di registrazione in ciascun modulo:
+Molti moduli in Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Project Operations hanno un profilo di registrazione o configurazioni aggiuntive che controllano il funzionamento della registrazione nella contabilità generale. Usa i seguenti argomenti per saperne di più sui profili di registrazione e sulle impostazioni di registrazione in ciascun modulo:
 
 - [Conti per transazioni automatiche](accounts-for-auto-transactions.md)
 - [Registrazione nella contabilità fornitori](accts-payble-posting.md)

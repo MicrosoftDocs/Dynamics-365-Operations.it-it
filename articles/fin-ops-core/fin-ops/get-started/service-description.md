@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: cd033cfc3df21ddac5572aa70c18db5ffe26f54e
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 26b2821f33ea23dde1fda1d461baa5de1b4f9efc
+ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656805"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740654"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrizione del servizio per le app per la finanza e le operazioni
 
@@ -265,7 +265,7 @@ L'amministratore del tenant del cliente può accedere alle istanze di produzione
 |---|---|---|
 | **Non produzione**<br>Sandbox di livello 1 | Un ambiente non di produzione che i clienti distribuiscono per scopi di sviluppo, dimostrazione o formazione. | Una sandbox di livello 1 (nota anche come ambiente ospitato nel cloud) è una macchina virtuale gestita dal cliente che viene distribuita alla sottoscrizione di Azure del cliente da LCS. Poiché si tratta di una macchina virtuale nella sottoscrizione di Azure del cliente, il cliente dispone dell'accesso amministrativo completo all'ambiente tramite Desktop remoto. |
 | **Non produzione**<br>Sandbox di livello 2 (o superiore) | Un ambiente non di produzione che i clienti distribuiscono per test di accettazione degli utenti, test di integrazione, formazione, gestione temporanea o qualsiasi altro scenario di pre-produzione. | Le sandbox di livello 2 e superiori vengono distribuite nell'abbonamento SaaS per la finanza e le operazioni. L'accesso ai database SQL di Azure associati all'ambiente non di produzione è concesso tramite [accesso just-in-time](../../dev-itpro/database/database-just-in-time-jit-access.md). L'accesso a Desktop remoto non è disponibile. |
-| **Produzione** | Un ambiente di produzione viene distribuito quando il progetto è [pronto per la fase operativa iniziale](/imp-lifecycle/environment-planning.md#production-system-readiness). | Gli ambienti di produzione vengono distribuiti all'abbonamento SaaS. Tutto l'accesso avviene tramite il browser, gli endpoint di servizio o LCS. |
+| **Produzione** | Un ambiente di produzione viene distribuito quando il progetto è [pronto per la fase operativa iniziale](../imp-lifecycle/environment-planning.md#production-system-readiness). | Gli ambienti di produzione vengono distribuiti all'abbonamento SaaS. Tutto l'accesso avviene tramite il browser, gli endpoint di servizio o LCS. |
 
 ### <a name="microsoft-administrative-access"></a>Accesso amministrativo Microsoft
 
@@ -286,7 +286,7 @@ Microsoft ha investito in un ampio set di strumenti per monitorare e diagnostica
 |---|---|
 | <ul><li>Monitora la disponibilità del servizio.</li><li>Monitora e invia continuamente avvisi tramite metriche di integrità e watchdog per componenti critici come Application Object Server (AOS), Batch, Data Import/Export Framework (DIXF), Commerce e Management Reporter.</li><li>Monitorare il degrado delle prestazioni causato dai servizi di infrastruttura (come Azure Active Directory \[Azure AD\] e Azure SQL).</li><li>Se Microsoft determina che un singolo processo o processo batch sta causando aberrazioni, tale processo verrà terminato dopo la comunicazione con il cliente.</li></ul> | <ul><li>Monitorare le modifiche alle configurazioni e alle estensioni delle applicazioni che possono causare problemi di funzionalità e prestazioni.</li><li>Gli errori dell'applicazione devono essere diagnosticati utilizzando gli strumenti di monitoraggio. Utilizzare questi strumenti per diagnosticare le aberrazioni delle prestazioni segnalate dall'utente.</li><li>Informare Microsoft se è previsto un carico sul sistema oltre il picco di utilizzo previsto.</li><li>Se il servizio applicabile non è disponibile nell'istanza di produzione, il cliente può utilizzare LCS per segnalare un'[interruzione della produzione](../../dev-itpro/lifecycle-services/report-production-outage.md).</li></ul> |
 
-Inviando richieste di supporto online, tramite LCS, i clienti consentono a Microsoft di fornire competenze tecniche rapide e approfondite nel modo più efficace ed efficiente. Sebbene sia disponibile un'opzione telefonica, dovrebbe essere utilizzata solo se l'opzione online non è disponibile. Per ulteriori informazioni, vedere [Opzioni di supporto telefonico](/power-platform/admin/support-overview.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json#is-there-a-phone-number-i-can-call-to-contact-support).
+Inviando richieste di supporto online, tramite LCS, i clienti consentono a Microsoft di fornire competenze tecniche rapide e approfondite nel modo più efficace ed efficiente. Sebbene sia disponibile un'opzione telefonica, dovrebbe essere utilizzata solo se l'opzione online non è disponibile. Per ulteriori informazioni, vedere [Opzioni di supporto telefonico](/power-platform/admin/support-overview?toc=%2Fdynamics365%2Ffin-ops-core%2Fdev-itpro%2Ftoc.json&bc=%2Fdynamics365%2Fbreadcrumb%2Ftoc.json#is-there-a-phone-number-i-can-call-to-contact-support).
 
 ## <a name="incident-management"></a>Gestione incidenti
 

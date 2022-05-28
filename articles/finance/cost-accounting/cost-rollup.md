@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f86529359f548bf48fdef8817bd2e2260235561cce57cac28158739687ade2c1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779958"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734431"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
@@ -30,9 +30,7 @@ ms.locfileid: "6779958"
 La contabilità industriale consente di ottenere i dettagli di come il flusso dei costi riguarda i prodotti e i servizi offerti a un'organizzazione. Per vedere la trasparenza dei costi, è essenziale ottenere l'allocazione dei costi tra gli oggetti di costo secondo una base di allocazione appropriata. Per impostazione predefinita, l'allocazione dei costi viene raggiunta per l'elemento di costo principale, utile in alcune situazioni, ma con alcune implicazioni che devono essere considerate.
 
 -   Gli oggetti di costo ausiliari terminano con saldo zero per l'elemento di costo principale dopo il calcolo dei costi generali.
-
 -   Il volume delle voci di costo generate dal calcolo dei costi generali può essere molto elevato.
-
 -   Non è possibile tenere traccia del flusso dei costi tra gli oggetti di costo.
 
 Per evitare queste implicazioni, la contabilità industriale consente di configurare l'allocazione dei costi adatta ai requisiti di reporting direttivi dell'organizzazione. In questo argomento viene descritto come determinare il livello corretto degli elementi di costo secondari e creare le regole di rollup dei costi adatte al reporting dell'organizzazione e alla tracciabilità dei costi.
