@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 852cfa536ed7e6985ce1f7de612b34e2a492ee07
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766978"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735084"
 ---
 # <a name="dimension-hierarchy"></a>Gerarchia dimensioni
 
@@ -203,13 +203,13 @@ Se si creano report utilizzando Excel o Power BI, solo i primi 15 livelli di ger
 Nell'esempio seguente viene illustrata una gerarchia di dimensioni nella struttura di reporting.
 
 | Gerarchia dimensioni di oggetto di costo - Livello 1 | Gerarchia dimensioni di oggetto di costo - Livello 2 | Gerarchia dimensioni di oggetto di costo - Livello 3 | Gerarchia dimensioni di oggetto di costo - Livello 4 | Gerarchia dimensioni di oggetto di costo - Livello 15 |
-|-------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|--------------------------------------------|
-| Organizzazione                              | Amministratore                                     | Dati finanziari                                   | CC002                                     |                                            |
-| Organizzazione                              | Amministratore                                     | Dati finanziari                                   | CC003                                     |                                            |
-| Organizzazione                              | Amministratore                                     | Dati finanziari                                   | CC007                                     |                                            |
-| Organizzazione                              | Amministratore                                     | Risorse umane                                        | CC001                                     |                                            |
-| Organizzazione                              | Produzione                                | Imballaggio                                 | CC005                                     |                                            |
-| Organizzazione                              | Produzione                                | Assemblaggio                                  | CC006                                     |                                            |
+|----------------------------------|---------------------------------|-------------------------|-------------------------|----------------------------------------|
+| Organizzazione              | Amministratore                 | Dati finanziari                    | CC002              |                                            |
+| Organizzazione              | Amministratore                 | Dati finanziari                    | CC003              |                                            |
+| Organizzazione              | Amministratore               | Dati finanziari                     | CC007               |                                            |
+| Organizzazione              | Amministratore                | Risorse umane                           | CC001              |                                            |
+| Organizzazione              | Produzione           | Imballaggio                    | CC005             |                                            |
+| Organizzazione              | Produzione          | Assemblaggio                      | CC006            |                                            |
 
 ### <a name="update-the-dimension-hierarchies-that-are-used-for-reporting"></a>Aggiornare gerarchie di dimensioni utilizzate per il reporting 
 
@@ -328,7 +328,7 @@ Le impostazioni per la gerarchia dell'elenco accessi vengono utilizzate per cont
 - Power BI:
 
     - Data visualizzati nelle visualizzazioni di Power BI
-    - Le visualizzazioni dei dati di Power BI sono incorporate nel client Dynamics 365 Finance
+    - Visualizzazioni dei dati di Power BI incorporate nel client Dynamics 365 Finance
 
 > [!NOTE] 
 > - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

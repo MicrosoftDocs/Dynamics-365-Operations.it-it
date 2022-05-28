@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4519e90e19d0652f855999d1a73ca64777b53b53465d6065987afc1cf2494187
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dc7e89fabe1651c858097a6c564b4910a524331f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731939"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8692753"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-20-2021"></a>Novità o modifiche in Dynamics 365 Human Resources (20 maggio 2021)
 
@@ -42,7 +41,7 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 
 | Funzionalità | Piano di rilascio | Documentazione |
 | --- | --- | --- |
-| Platform Update 10.0.18 (42) | -- | [Aggiornamento della piattaforma per la versione 10.0.18 delle app Finance and Operations (maggio 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
+| Platform Update 10.0.18 (42) | -- | [Aggiornamenti della piattaforma per la versione 10.0.18 delle app per la finanza e le operazioni (maggio 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) |
 | L'app Human Resources per Microsoft Teams ora supporta le definizioni di metà giornata e la funzionalità per suddividere il giorno | -- | [Gestire le richieste di congedo in Teams](/dynamics365/human-resources/hr-teams-leave-app#create-a-new-request) |
 
 ### <a name="bug-fixes"></a>Correzioni di bug

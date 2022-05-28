@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f76e06f7265a4dc1837a66171d3db13bc2e580
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c36ace4fe61d4f3add7750c66594c0f1060f8127
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982511"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8694370"
 ---
 # <a name="sales-agreements-overview"></a>Panoramica dei contratti di vendita
 
@@ -36,7 +36,8 @@ Il periodo di validità di un contratto di vendita viene definito dai campi **Da
 
 È possibile creare un ordine cliente direttamente da un contratto di vendita mediante l'azione **Ordine di rilascio**. In alternativa, è possibile selezionare un contratto di vendita valido quando si prendono gli ordini (vedere la sezione “Applicazione di contratti di vendita nel processo di ordinazione" in questo articolo).  
 
-> [Nota!] Nelle versioni precedenti, i contratti di vendita erano chiamati ordini cliente di copertura.
+> [!NOTE] 
+> Nelle versioni precedenti, i contratti di vendita erano chiamati ordini cliente di copertura.
 
 ## <a name="commitment-types"></a>Tipi di impegno
 Ogni riga di un contratto di vendita indica un impegno di vendita di un prodotto. In generale sono disponibili due categorie di impegno:

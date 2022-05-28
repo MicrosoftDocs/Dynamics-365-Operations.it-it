@@ -1,6 +1,6 @@
 ---
 title: Liquidare un pagamento fornitore parziale che ha più periodi di sconto
-description: Questo articolo descrive uno scenario in cui vengono effettuati più pagamenti parziali a un fornitore che offre più sconti di cassa.
+description: Questo argomento descrive uno scenario in cui vengono effettuati più pagamenti parziali a un fornitore che offre più sconti di cassa.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -8,25 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0538a522733a9df9ae3b8832959c68bb0c25056694786e4b1a46a2ee7d0fcfc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d805ce2de866d0073b4bb797eb7ddae0736e8948
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737091"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716281"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Liquidare un pagamento fornitore parziale che ha più periodi di sconto
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo descrive uno scenario in cui vengono effettuati più pagamenti parziali a un fornitore che offre più sconti di cassa. 
+Questo argomento descrive uno scenario in cui vengono effettuati più pagamenti parziali a un fornitore che offre più sconti di cassa. 
 
 Il fornitore 3054 offre a Fabrikam uno sconto di cassa del 2% se la fattura viene pagata in cinque giorni e uno sconto di cassa dell'1% se la fattura viene pagata in 14 giorni.
 

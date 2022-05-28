@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14e485d1e02247159e1d9eb1c5d81be37626216
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d206654dcb7964ac2ed9aa9ccf7cec709e1bd38c
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580506"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689680"
 ---
 # <a name="price-simulation"></a>Simulazione prezzo
 
@@ -32,7 +32,8 @@ In una simulazione di prezzo per un'offerta viene mostrato il nuovo importo tota
 
 Una simulazione di prezzo non modifica il prezzo nell'offerta. Se la simulazione di prezzo viene applicata a un'intera offerta, verrà trattata come sconto speciale nell'intestazione dell'offerta. Se la simulazione di prezzo viene applicata ad articoli specifici, verrà trattata come sconto speciale nelle righe offerta. Quando si applica una simulazione di prezzo, il prezzo unitario di vendita nella riga dell'offerta che viene creata non cambia. Viene invece applicata una percentuale di sconto corrispondente alla riduzione di prezzo della riga dell'offerta. Quando si applica una simulazione di prezzo, il prezzo unitario di vendita e la percentuale di sconto vengono trasferiti nella riga o nell'intestazione dell'offerta.  
 
->[Nota!] Quando si esegue una simulazione di prezzo, per creare la simulazione viene utilizzata solo la valuta di vendita corrente. Per la visualizzazione dei totali dell'offerta, tuttavia, viene utilizzata una combinazione di valuta società e di valuta di vendita.  
+>[!NOTE]
+>Quando si esegue una simulazione di prezzo, per creare la simulazione viene utilizzata solo la valuta di vendita corrente. Per la visualizzazione dei totali dell'offerta, tuttavia, viene utilizzata una combinazione di valuta società e di valuta di vendita.  
 
 Gli articoli supplementari aggiunti alle righe dell'offerta possono attivare sconti riga o plurimi. È possibile che attivino sconti totali in grado di modificare i margini e i rapporti di contribuzione delle righe dell'offerta e lo sconto complessivo.  
 

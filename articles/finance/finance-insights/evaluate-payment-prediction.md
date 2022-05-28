@@ -2,25 +2,25 @@
 title: Valutare il modello di previsione di pagamento del cliente iniziale
 description: In questo argomento vengono descritti i passaggi che è possibile eseguire per comprendere il modello di previsione del pagamento del cliente e valutarne l'efficacia.
 author: ShivamPandey-msft
-ms.date: 07/16/2021
+ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 874c6e938681537a0420eece6835a4c2124e11fc
-ms.sourcegitcommit: 133aa728b8a795eaeaef22544f76478da2bd1df9
+ms.openlocfilehash: c0951c8dcf6205ebbb15baf86b1272af4e95547f
+ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7969114"
+ms.lasthandoff: 05/03/2022
+ms.locfileid: "8677956"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model"></a>Valutare il modello di previsione di pagamento del cliente iniziale
 
@@ -89,10 +89,10 @@ In questo caso, il punteggio F1 Macro di circa il 49,3% indica che il modello no
 
 ## <a name="improving-the-model"></a>Miglioramento del modello
 
-Dopo aver compreso meglio i risultati del primo modello, è consigliabile migliorare il modello aggiungendo o rimuovendo le colonne delle funzionalità oppure filtrando le parti del set di dati che non supportano previsioni accurate. Chiudi AI Builder, quindi usa il collegamento **Migliora il modello** in Dynamics 365 Finance per riavviare il processo AI Builder. Puoi sperimentare caratteristiche diverse senza alcun impatto sul modello pubblicato. Il modello pubblicato è interessato solo quando selezioni **Pubblica**. Ricorda che per la tua istanza di Dynamics 365 Finance viene utilizzato un unico modello. Pertanto, è necessario esaminare attentamente qualsiasi nuovo modello prima di pubblicarlo.
+Dopo aver compreso meglio i risultati del primo modello, è consigliabile migliorare il modello aggiungendo o rimuovendo le colonne delle funzionalità oppure filtrando le parti del set di dati che non supportano previsioni accurate. Chiudere AI Builder, quindi usare il collegamento **Migliora il modello** in Dynamics 365 Finance per riavviare il processo AI Builder. Puoi sperimentare caratteristiche diverse senza alcun impatto sul modello pubblicato. Il modello pubblicato è interessato solo quando selezioni **Pubblica**. Tenere presente che per l'istanza di Dynamics 365 Finance viene utilizzato un unico modello. Pertanto, è necessario esaminare attentamente qualsiasi nuovo modello prima di pubblicarlo.
 
 ## <a name="for-more-information"></a>Ulteriori informazioni
 
-Per ulteriori informazioni su come valutare i modelli di previsione, vedi [Risultati dei modelli di apprendimento automatico](/confusion-matrix.md)
+Per ulteriori informazioni su come valutare i modelli di previsione, vedi [Risultati dei modelli di apprendimento automatico](confusion-matrix.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 537707
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d5d867cb4a1a4bb5254fd42b82fc52be41dafa2cd4fa5b73ba455cde482e8e82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8731ea0c852de94d85841ff0dd8111c161e4208f
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742860"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689624"
 ---
 # <a name="unified-posting-date-control"></a>Controllo unificato della data di registrazione
 

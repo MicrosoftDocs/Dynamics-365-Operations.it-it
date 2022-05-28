@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2f68a3d7ed4384fe5a97f1e59903e3191df6b741
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647715"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8689216"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Supporto della funzione fiscale per ordini di trasferimento
 
@@ -31,7 +30,7 @@ In questo argomento vengono fornite informazioni sul calcolo delle imposte e sul
 Per configurare e utilizzare questa funzionalità, è necessario completare tre passaggi principali:
 
 1. **Configurazione RCS:** In Regulatory Configuration Service, imposta la funzione fiscale, i codici imposta e l'applicabilità dei codici imposta per la determinazione del codice imposta negli ordini di trasferimento.
-2. **Configurazione Dynamics 365 Finance:** In Finance, attiva la funzionalità **Imposta in ordine di trasferimento**, imposta i parametri del servizio di calcolo imposte per l'inventario e imposta i parametri fiscali di base.
+2. **Configurazione di Dynamics 365 Finance**: In Finance, attiva la funzionalità **Imposta in ordine di trasferimento**, imposta i parametri del servizio di calcolo imposte per l'inventario e imposta i parametri fiscali di base.
 3. **Configurazione inventario:** Imposta la configurazione dell'inventario per le transazioni degli ordini di trasferimento.
 
 ## <a name="set-up-rcs-for-tax-and-transfer-order-transactions"></a>Impostare RCS per le transazioni di imposte e ordini di trasferimento

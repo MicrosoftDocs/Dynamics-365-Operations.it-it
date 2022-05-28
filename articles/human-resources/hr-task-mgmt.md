@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 727e1eb75f807d84f088cf3dd139eb094aa76618
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: ae453bd57217f272038decc7e40ed373f618ae03
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087219"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710224"
 ---
 # <a name="task-management"></a>Gestione attività
 
@@ -57,18 +56,14 @@ La scheda **Offboarding** contiene un elenco di dipendenti che stanno uscendo da
 La scheda **Transizioni** contiene un elenco **Tutte le attività** che mostra tutte le attività per tutti i dipendenti che cambieranno posizione o che hanno cambiato posizione di recente. Contiene anche un elenco di attività scadute e un elenco di attività assegnate all'utente corrente.
 
 In tutte e tre le schede, gli assistenti e i manager delle risorse umane possono completare le seguenti attività:
-
-- Applicare un elenco di controllo a un dipendente.
-- Aggiornare lo stato di un'attività.
-- Riassegnare un'attività.
-- Aggiornare la data di scadenza di un'attività.
+- Applicare un elenco di controllo a un dipendente
+- Aggiornare lo stato di un'attività
+- Riassegnare un'attività
+- Aggiornare la data di scadenza di un'attività
 
 > [!NOTE]
 > Per impostazione predefinita, la scheda **Onboarding** mostra i dipendenti assunti negli ultimi sette giorni. Per modificare questa impostazione, nella pagina **Parametri di Human Resources**, nella scheda **Generale**, immettere un intervallo di tempo nel campo **Assunzioni recenti**. Le informazioni nell'elenco **Assunzioni recenti** possono essere visualizzate per un numero specifico di giorni, mesi o anni. Ad esempio, per visualizzare l'elenco dei dipendenti assunti negli ultimi 14 giorni, imposta il campo **Periodo** su **14** e il campo **Unità** su **giorni**.
->
-> Nella pagina **Parametri risorse umane** puoi anche aggiornare l'intervallo di date per gli elenchi dei dipendenti usciti e in uscita che vengono visualizzati nella scheda **Offboarding**.
->
-> Queste impostazioni si applicano anche all'area di lavoro **Gestione personale**.
+> Nella pagina **Parametri Risorse umane** è anche possibile aggiornare l'intervallo di date per gli elenchi dei dipendenti usciti e in uscita che vengono visualizzati nella scheda **Offboarding**. Queste impostazioni si applicano anche all'area di lavoro **Gestione del personale**.
 
 ## <a name="setting-up-tasks"></a>Impostazione delle attività
 
@@ -188,6 +183,13 @@ Puoi anche applicare un elenco di controllo a un dipendente aprendo la pagina **
 ## <a name="completing-tasks"></a>Completamento delle attività
 
 Nella pagina **Self-service dipendenti** un dipendente può visualizzare tutte le attività che gli sono state assegnate. Per ogni attività assegnata, sono mostrati i valori **Attività**, **Descrizione**, **Istruzioni**, e **Contatto**. Inoltre, per ogni attività, il dipendente può aprire la pagina Web esterna associata o la pagina associata nell'app Dynamics 365.
+
+Le attività possono essere visualizzate anche sulla dashboard predefinita. Per visualizzare le attività sulla dashboard predefinita:
+1. Andare a **Opzioni utente – Preferenze – Gestione attività** 
+2. Impostare **Visualizza attività su dashboard predefinita** su **Attivo**.  
+
+>[!Note] 
+>La funzionalità **Gestione attività** deve essere attivata in **Gestione funzionalità** per visualizzare l'opzione in **Opzioni utente**.
 
 Le attività possono essere contrassegnate come **In corso**, **Annullato**, o **Completato**. Se un'attività viene assegnata a un gruppo, viene contrassegnata come **Completato** quando una persona del gruppo la completa.
 

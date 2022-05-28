@@ -3,7 +3,7 @@ title: Modulo Selettore punto vendita
 description: In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ee9d3cec9c524f73472929052d46d87f8270ba67568314eceb462b1803cf149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772158"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8710782"
 ---
 # <a name="store-selector-module"></a>Memorizzare il modulo di selezione
 
@@ -59,6 +59,16 @@ Per immettere i valori di latitudine e longitudine per l'ubicazione di un punto 
     ![Esempio di configurazione di latitudine e longitudine per un punto vendita in Commercial Headquarters.](./media/Store-latitude-longitude.png)
 
 1. Nel riquadro azioni selezionare **Salva**. 
+
+### <a name="hide-a-store-from-the-store-selector-module"></a>Nascondere un punto vendita dal modulo di selezione del punto vendita
+
+Alcuni punti vendita in un gruppo di evasione ordini potrebbero non essere luoghi di ritiro validi. Per assicurarti che solo i punti di ritiro validi vengano visualizzati come opzioni nel modulo di selezione del punto vendita, segui questi passaggi in Commerce headquarters.
+
+1. Accedere a **Retail e Commerce \> Impostazione commercio \> Gruppi di adempimento \> Tutti i punti vendita**.
+1. Nel riquadro azioni, seleziona **Modifica**.
+1. In **Impostazione**, per ogni punto vendita che non è un punto di ritiro valido, deseleziona la casella di controllo **Ubicazione di prelievo**.
+1. Nel riquadro azioni selezionare **Salva**.
+1. Eseguire il processo di programmazione della distribuzione 1070 **Configurazione canale**.
 
 ## <a name="bing-maps-integration"></a>Integrazione di Bing Maps
 

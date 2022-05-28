@@ -2,7 +2,7 @@
 title: Aggiornamenti normativi
 description: In questo argomento viene fornito un elenco degli aggiornamenti normativi pianificati e rilasciati per Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 01/20/2022
+ms.date: 04/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 734a4abf4559d05b1f96bcfbde151b49bba8e827
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: 4e9a74f814e6ae93fd5c12b05c4fbd00ad503fca
+ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649131"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8711916"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -29,11 +29,11 @@ Gli aggiornamenti normativi sono funzionalità implementate per supportare una n
 
 Microsoft cerca di implementare i nuovi requisiti normativi il prima possibile. La data di implementazione effettiva dipende da quella di annuncio della legge, dalla disponibilità dei dettagli relativi ai requisiti presso le autorità locali, dalla disponibilità degli strumenti di convalida e dalla dimensione e dalla complessità della modifica.
 
-Progettiamo di fornire aggiornamenti normativi negli aggiornamenti del servizio versione uno rilasciati affinché i clienti effettuino l'aggiornamento e siano pronti alla data di applicazione (per aggiornamenti normativi transazionali) o alla prima scadenza della dichiarazione obbligatoria (per aggiornamenti normativi correlati alla dichiarazione). I clienti e i partner potranno visualizzare in anteprima i nuovi aggiornamenti normativi nel programma Preview Early Adoption Program (PEAP).
+Progettiamo di fornire aggiornamenti normativi negli aggiornamenti del servizio versione uno rilasciati affinché i clienti effettuino l'aggiornamento e siano pronti alla data di applicazione (per aggiornamenti normativi transazionali) o alla prima scadenza della dichiarazione obbligatoria (per aggiornamenti normativi correlati alla dichiarazione). I clienti e i partner potranno visualizzare in anteprima i nuovi aggiornamenti normativi nel pacchetto di anteprima fornito per ciascun aggiornamento del servizio.
 
 In caso di date di annuncio tardive, disponibilità tardiva dei dettagli sui requisiti o degli strumenti di convalida oppure di modifiche eccezionalmente estese e complesse, potrebbe non essere possibile rendere disponibile un aggiornamento normativo entro la data di disponibilità generale di un aggiornamento mensile. In questi casi, l'aggiornamento normativo verrà spedito come hotfix per gli aggiornamenti mensili pertinenti disponibili.
 
-Gli aggiornamenti normativi che vengono rilasciati come parte dell'aggiornamento mensile sono indicati solo dalla versione di rilascio. Gli aggiornamenti normativi offerti come hotfix o come parte di un'anteprima della versione possono essere identificati dalle abbreviazioni HF e PEAP, rispettivamente. 
+Gli aggiornamenti normativi che vengono rilasciati come parte dell'aggiornamento mensile sono indicati solo dalla versione di rilascio. Gli aggiornamenti normativi offerti come hotfix o come parte di un'anteprima della versione possono essere identificati dalle abbreviazioni HF e anteprima, rispettivamente. 
 
 Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabella riportata di seguito.   
 

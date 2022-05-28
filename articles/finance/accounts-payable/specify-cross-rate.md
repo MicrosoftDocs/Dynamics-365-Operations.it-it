@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46ac3324a985810ede61072190014538d0b7ed36f7eedfc387468619cc88cb2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737019"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735292"
 ---
 # <a name="specify-the-cross-rate"></a>Specificare il tasso di cambio incrociato
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato lo scopo di un tasso di cambio incrociato e come specificare il tasso di cambio incrociato quando viene liquidato un pagamento con una fattura. Utilizzare un tasso di cambio incrociato quando sono applicabili tutti i criteri seguenti: 
+In questo argomento viene illustrato lo scopo di un tasso di cambio incrociato e come specificare il tasso di cambio incrociato quando viene liquidato un pagamento con una fattura. Utilizzare un tasso di cambio incrociato quando sono applicabili i criteri seguenti: 
 -   Si liquida un pagamento con una fattura. 
 -   La riga di pagamento e la riga fattura utilizzano valute diverse. 
 -   Nessuna valuta è quella di contabilizzazione. 

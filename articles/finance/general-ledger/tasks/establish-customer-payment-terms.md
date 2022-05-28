@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c26cfedca3f3b0eec1a3b068184522f87ff8d103a41b81a0775bf5a35d0e03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
+ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766961"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8716973"
 ---
 # <a name="establish-customer-payment-terms"></a>Definire condizioni di pagamento cliente
 
@@ -26,7 +26,7 @@ ms.locfileid: "6766961"
 
 Questa procedura consente di definire un'impostazione dello sconto di cassa e della data di scadenza. Questa guida attività utilizza la società dimostrativa USMF.
 
-1. Selezionare **Pannello di navigazione > Moduli > Contabilità clienti > Impostazione pagamenti > Giorni di pagamento**. L'impostazione dei **termini di pagamento** viene condivisa per la **contabilità clienti** e la **contabilità fornitori**. Se viene definita nel modulo, sarà disponibile anche nell'altro modulo. Per questa guida attività tutti i termini di pagamento vengono impostati nella **contabilità clienti**.
+1. Selezionare **Pannello di navigazione > Moduli > Contabilità clienti > Impostazione pagamenti > Giorni di pagamento**. L'impostazione dei **termini di pagamento** viene condivisa per la **contabilità clienti** e la **contabilità fornitori**. Se viene definita nel modulo, sarà disponibile anche nell'altro modulo. Per questa guida attività, vengono impostati tutti i termini di pagamento in **Contabilità clienti**.
 2. Fare clic su **Nuovo**. Creare un giorno di pagamento se i termini di pagamento richiedono un determinato giorno della settimana (lunedì, martedì e così via) o una data specifica del mese (quinta, decima e così via). 
 3. Nel campo **Giorno di pagamento** immettere un ID.
 4. Nel campo **Descrizione** immettere una descrizione del giorno di pagamento.

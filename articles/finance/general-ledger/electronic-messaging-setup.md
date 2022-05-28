@@ -7,17 +7,17 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: kfend
 ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a9d623c712de34afd1b38dbc6a8738ebf9613d49
-ms.sourcegitcommit: 8c17717b800c2649af573851ab640368af299981
+ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/23/2021
-ms.locfileid: "7860560"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8734221"
 ---
 # <a name="set-up-electronic-messages"></a>Impostare i messaggi elettronici
 
@@ -72,7 +72,7 @@ Nella tabella seguente sono descritti i campi della pagina **Stati del messaggio
 
 ## <a name="additional-fields"></a><a id="additional"></a>Campi aggiuntivi
 
-La funzionalità EM ti consente di raccogliere record da tabelle transazionali in Microsoft Dynamics 365 Finance come elementi del messaggio. In questo modo, è possibile preparare i record per il reporting e quindi includerli nei report. Tuttavia, le tabelle transazionali talvolta non hanno informazioni sufficienti per completare i record in un modo che soddisfa i requisiti di reporting. Per immettere tutte le informazioni che devono essere incluse in un report per un record, è possibile configurare ulteriori campi. Ulteriori campi possono essere associati a messaggi e a elementi del messaggio. È possibile configurare campi aggiuntivi andando a **Imposta** \> **Impostazione** \> **Messaggi elettronici** \> **Campi aggiuntivi**.
+La funzionalità EM consente di raccogliere record da tabelle transazionali in Microsoft Dynamics 365 Finance come elementi del messaggio. In questo modo, è possibile preparare i record per il reporting e quindi includerli nei report. Tuttavia, le tabelle transazionali talvolta non hanno informazioni sufficienti per completare i record in un modo che soddisfa i requisiti di reporting. Per immettere tutte le informazioni che devono essere incluse in un report per un record, è possibile configurare ulteriori campi. Ulteriori campi possono essere associati a messaggi e a elementi del messaggio. È possibile configurare campi aggiuntivi andando a **Imposta** \> **Impostazione** \> **Messaggi elettronici** \> **Campi aggiuntivi**.
 
 Nella seguente tabella sono descritti i campi generali della pagina **Campi aggiuntivi**.
 

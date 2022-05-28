@@ -8,20 +8,20 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c30a7c2765647aad17a475ba8705b8e688d166593adf242fcd15d90e49334189
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13d562a4f42644b822c9548d1ea87d44a396b2c2
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733031"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8733880"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Diritti di accesso per i controller oggetto di costo
 
@@ -91,7 +91,7 @@ Le impostazioni per la gerarchia dell'elenco accessi vengono utilizzate per cont
 - Microsoft Power BI:
 
     - Data visualizzati nelle visualizzazioni di Power BI
-    - Le visualizzazioni dei dati di Power BI sono incorporate nel client Dynamics 365 Finance
+    - Visualizzazioni dei dati di Power BI incorporate nel client Dynamics 365 Finance
 
 > [!IMPORTANT]
 > - Prima che la gerarchia dell'elenco accessi possa influire sui dati in Power BI, la gerarchia dell'elenco accessi e la sicurezza a livello di riga in Power BI devono essere abbinate. Per ulteriori informazioni, vedere [Impostare la sicurezza del pacchetto di contenuti per la contabilità industriale](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

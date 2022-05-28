@@ -2,7 +2,7 @@
 title: Personalizzare l'interfaccia di esecuzione dell'area di produzione
 description: Questo argomento spiega come estendere i moduli correnti o creare nuovi moduli e pulsanti per l'interfaccia di esecuzione del piano di produzione.
 author: johanhoffmann
-ms.date: 11/08/2021
+ms.date: 05/04/2022
 ms.topic: article
 ms.search.form: ''
 ms.technology: ''
@@ -11,13 +11,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-11-08
-ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 67fb381cbef6f1673afcaa834666b4a859bdf4e6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.dyn365.ops.version: 10.0.25
+ms.openlocfilehash: ad5037442f27a5068b38613655591f1298808eac
+ms.sourcegitcommit: 28537b32dbcdefb1359a90adc6781b73a2fd195e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066548"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "8712945"
 ---
 # <a name="customize-the-production-floor-execution-interface"></a>Personalizzare l'interfaccia di esecuzione dell'area di produzione
 
@@ -60,7 +60,7 @@ Al termine, il nuovo pulsante (azione) verrà automaticamente elencato nella pag
 1. Crea un'estensione denominata `<ExtensionPrefix>_JmgProductionFloorExecution<FormName>_Extension`, dove il metodo `getMainMenuItemsList` viene esteso aggiungendo la nuova voce di menu all'elenco. Il seguente codice illustra un esempio.
 
     ```xpp
-    [ExtensionOf(classStr(JmgProductionFloorExecutionForm))]
+    [ExtensionOf(classStr(JmgProductionFloorExecutionMenuItemProvider))]
     public final class <ExtensionPrefix>_JmgProductionFloorExecutionForm<FormName>_Extension{
         static public List getMainMenuItemsList()
         {
@@ -142,6 +142,79 @@ formRun.setNumpadController(numpadController);
 numpadController.setValueToNumpad(333.56);
 formRun.run();
 ```
+
+## <a name="add-a-date-and-time-controls-to-a-form-or-dialog"></a>Aggiungere un controllo di data e ora a un modulo o finestra di dialogo
+
+Questa sezione mostra come aggiungere i controlli di data e ora a un modulo o a una finestra di dialogo. I controlli touch-friendly di data e ora consentono ai lavoratori di specificare date e orari. Gli screenshot seguenti mostrano come vengono generalmente visualizzati i controlli sulla pagina. Il controllo orario prevede sia la versione 12 ore che quella 24 ore; la versione mostrata seguirà la preferenza impostata per l'account utente con cui è in esecuzione l'interfaccia.
+
+![Esempio di controllo di data.](media/pfe-customize-date-control.png "Esempio di controllo di data")
+
+![Esempio di controllo di ora con orologio a 12 ore.](media/pfe-customize-time-control-12h.png "Esempio di controllo di ora con orologio a 12 ore")
+
+![Esempio di controllo di ora con orologio a 24 ore.](media/pfe-customize-time-control-24h.png "Esempio di controllo di ora con orologio a 24 ore")
+
+Nella procedura seguente viene illustrato un esempio di come aggiungere i controlli di data e ora a un modulo.
+
+1. Aggiungi un controller al modulo per ogni controllo di data e ora che il modulo deve contenere. (Il numero di controllori deve essere uguale al numero di controlli di data e ora nel modulo.)
+
+    ```xpp
+    private JmgProductionFloorExecutionDateTimeController  dateFromController; 
+    private JmgProductionFloorExecutionDateTimeController  dateToController; 
+    private JmgProductionFloorExecutionDateTimeController  timeFromController; 
+    private JmgProductionFloorExecutionDateTimeController  timeToController;
+    ```
+
+1. Dichiara le variabili obbligatorie (di tipo `utcdatetime`).
+
+    ```xpp
+    private utcdatetime fromDateTime;
+    private utcdatetime toDateTime;
+    ```
+
+1. Crea metodi in cui il datetime verrà aggiornato dai controller datetime. L'esempio seguente mostra tale metodo.
+
+    ```xpp
+    private void setFromDateTime(utcdatetime _value)
+        {
+            fromDateTime = _value;
+        }
+    ```
+
+1. Imposta il comportamento di ciascun controller di datetime e collega ciascun controller a una parte del modulo. L'esempio seguente mostra come configurare i dati per i controlli di data e ora da. È possibile aggiungere un codice simile per i controlli di data e ora (non mostrati).
+
+    ```xpp
+    /// <summary>
+    /// Initializes all date and time controllers, defines their behavior, and connects them with the form parts.
+    /// </summary>
+    private void initializeDateControlControllers()
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        timeFromController = new JmgProductionFloorExecutionDateTimeController();
+        timeFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        timeFromController.parmDateTimeValue(fromDateTime);
+        
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, timeFromController);
+        TimeFromFormPart.getPartFormRun().setTimeControlController(timeFromController, dateFromController);
+        
+        ...
+
+    }
+    ```
+
+    Se tutto ciò di cui hai bisogno è un controllo della data, puoi saltare l'impostazione del controllo dell'ora e invece impostare semplicemente il controllo della data come mostrato nell'esempio seguente:
+
+    ```xpp
+    {
+        dateFromController = new JmgProductionFloorExecutionDateTimeController();
+        dateFromController.setDateControlValueToCallerFormDelegate += eventhandler(this.setFromDateTime);
+        dateFromController.parmDateTimeValue(fromDateTime);
+    
+        DateFromFormPart.getPartFormRun().setDateControlController(dateFromController, null);
+    }
+    ```
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

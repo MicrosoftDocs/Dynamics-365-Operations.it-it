@@ -8,19 +8,18 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 206c7f590b495278b7899271db0e83b3a4da3edc
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 3cf83421d5385e3c95dfda6db35edfb8eb4b9336
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641432"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8695762"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-5-2021"></a>Novità o modifiche in Dynamics 365 Human Resources 5 ottobre 2021
 
@@ -42,7 +41,7 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 
 | Funzionalità | Piano di rilascio | Documentazione |
 |---|---|---|
-| Platform Update 10.0.21 (45) | -- | [Aggiornamento della piattaforma per la versione 10.0.21 delle app Finance and Operations (ottobre 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
+| Platform Update 10.0.21 (45) | -- | [Aggiornamenti della piattaforma per la versione 10.0.21 delle app per la finanza e le operazioni (ottobre 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-21) |
 
 
 ### <a name="bug-fixes"></a>Correzioni di bug
@@ -87,7 +86,7 @@ Per un elenco completo delle funzionalità pianificate e dei relativi rilasci pr
 
 | Funzionalità | Dettagli |
 |---|---|
-| Platform Update 10.0.22 (46) | Il roll-out dell'aggiornamento 10.0.22 della piattaforma è previsto per iniziare con il rilascio del servizio il 1 novembre 2021. Per maggiori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.22 di Finance and Operations apps (novembre 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
+| Platform Update 10.0.22 (46) | Il roll-out dell'aggiornamento 10.0.22 della piattaforma è previsto per iniziare con il rilascio del servizio il 1 novembre 2021. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.22 delle app per la finanza e le operazioni (novembre 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22). |
 
 
 

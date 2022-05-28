@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CAMDimension, CAMDimensionMember, CAMDimensionMapping
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 223234
 ms.assetid: 4c66a231-aed2-48b5-9727-b3eb4fe6e6aa
 ms.search.region: global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b9ac59f305afd55edfcfb3b47bf38ddd44d92a706904f55a069a6a9fc9050825
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7654f748fb0cfc70d76718f03a235c5d4d13a908
+ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728033"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8735466"
 ---
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Eseguire il mapping dei membri di dimensione elemento di costo a un set comune di membri di dimensione
 
@@ -33,12 +33,12 @@ Se si è una società globale conforme ai requisiti contabili statutari, è poss
 ## <a name="map-cost-element-dimension-members-to-a-common-format"></a>Mappare i membri delle dimensioni elemento di costo a un formato comune
 Nel seguente esempio viene illustrato come un controller di costi può creare una nuova dimensione elemento di costo nella contabilità industriale che mappa i membri delle dimensioni elemento di costo dalla struttura del piano dei conti negli Stati Uniti e dalla struttura del piano dei conti francese a un set comune di membri delle dimensioni elemento di costo. È quindi possibile utilizzare il set comune dei membri delle dimensioni elemento di costo per analizzare i dati sui costi delle due persone giuridiche in un movimento CoGe di contabilità industriale.
 
-| Origine: piano dei conti statunitense                                          | Origine: piano dei conti francese                                          | Nuovo set comune di membri delle dimensioni elemento di costo                        |
-|-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| Origine: piano dei conti statunitense          | Origine: piano dei conti francese           | Nuovo set comune di membri delle dimensioni elemento di costo                        |
+|------------------------------------|----------------------------------------------|-------------------------------------------------------------------------|
 | Membri delle dimensioni elemento di costo importati dal piano dei conti statunitense | Membri delle dimensioni elemento di costo importati dal piano dei conti francese | Mapping dei membri delle dimensioni elemento di costo statunitensi e francesi a un set comune |
-| 5001: Vendite                                                           | 5001: Vendite e annunci                                               | 5000: Vendite e annunci                                             |
-| 5030: Annunci                                                     | 6390: Acquisti scorte\*                                                    | 7000: Spese di pulizia                                                 |
-| 7001: Spese di pulizia                                               | 7001: Spesa di viaggio                                                      | 7001: Spese di viaggio                                                   |
+| 5001: Vendite                   | 5001: Vendite e annunci                      | 5000: Vendite e annunci                               |
+| 5030: Annunci             | 6390: Acquisti scorte\*                          | 7000: Spese di pulizia                                   |
+| 7001: Spese di pulizia              | 7001: Spesa di viaggio                     | 7001: Spese di viaggio                                                   |
 
 \*Il membro della dimensione elemento di costo francese Acquisto scorte non è mappato.
 

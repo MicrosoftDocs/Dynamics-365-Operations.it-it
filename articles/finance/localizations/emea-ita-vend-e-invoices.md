@@ -9,18 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 3984823
 ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2021-12-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d797ec3f9b08ec850c7a73518035b33490763329
-ms.sourcegitcommit: 6109fc2fe5f407363bb6f240d64b7214657f5914
+ms.openlocfilehash: 3267b81872c17df3fa053939be2429352528ae3a
+ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "8603071"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8696112"
 ---
 # <a name="vendor-electronic-invoices"></a>Fatture elettroniche del fornitore
 
