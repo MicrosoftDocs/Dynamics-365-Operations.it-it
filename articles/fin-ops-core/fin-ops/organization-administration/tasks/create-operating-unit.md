@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dcfcd64ae24297c8e11f36629490ebe7cd063de53c717559e1b73743ccc61664
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bc0020a7f7aa60305bfc7c66474e0bbc26f27bef
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758995"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809560"
 ---
 # <a name="create-an-operating-unit"></a>Creare un'unità operativa
 
@@ -37,7 +37,7 @@ Un'unità operativa è un'organizzazione utilizzata per dividere il controllo de
     + Immettere informazioni relative all'indirizzo, quali il nome della via e il numero civico, il codice postale e la città. Fare clic su **Aggiungi** per immettere un nuovo record indirizzo o su Modifica per modificare un record indirizzo esistente.   
     + Espandere la sezione **Informazioni contatto** se necessario.  
     + Immettere informazioni sui metodi di comunicazione, ad esempio indirizzi di posta elettronica, URL e numeri di telefono. Per immettere un nuovo record di comunicazione, fare clic su Nuovo. Per modificare un record di comunicazione esistente, fare clic su **Altre opzioni > Avanzate**.   
-6. Se lo si desidera, modificare **Numero unità operativa** come necessario. Da notare che questo numero è un identificatore univoco per il record **Parte** corrispondente e non può essere uguale a qualsiasi altra unità operativa.
+6. Se lo si desidera, modificare **Numero unità operativa** come necessario. Tieni presente che questo numero è un identificatore univoco per il record **Parte** corrispondente e non può essere uguale a qualsiasi altra unità operativa.
 7. Selezionare **Salva**.
 
 

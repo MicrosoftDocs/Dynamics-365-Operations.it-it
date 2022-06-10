@@ -2,7 +2,7 @@
 title: Progettare report multilingue nella creazione di report elettronici
 description: Questo argomento spiega come utilizzare le etichette della creazione di report elettronici (ER) per progettare e generare report multilingue.
 author: NickSelin
-ms.date: 11/30/2021
+ms.date: 04/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eab17635494657740fe46364bde0773dae5b9e4b
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313693"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811609"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Progettare report multilingue nella creazione di report elettronici
 
@@ -218,6 +218,11 @@ Le etichette di un componente ER che possono essere modificate vengono conservat
 
 È possibile fare riferimento alle etichette di un componente ER di base in una versione derivata del componente ER creata per introdurre le modifiche.
 
+> [!TIP]
+> Quando si progetta una soluzione ER, è possibile derivare il componente del [modello di dati](er-overview-components.md#data-model-component) ER da quello fornito. In questo modello di dati derivato, puoi introdurre le tue etichette ER e usarle in tutti i formati ER che utilizzeranno il modello di dati come origine dati. È possibile derivare il componente del [formato](er-overview-components.md#format-component) ER da quello fornito selezionando il modello di dati ER derivato anziché quello fornito. Nella versione 10.0.28 e successive, puoi abilitare la funzione **Accesso avanzato alle etichette del modello di dati ER ascendente** per accedere alle etichette di un modello di dati ER ascendente in componenti di formato ER derivati, anche quando il modello di dati ER selezionato per il componente ER derivato è diverso da quello utilizzato nel componente ER di base.
+>
+> Quando lo stesso nome dell'etichetta viene utilizzato nel componente derivato e nei suoi componenti ascendenti, la traduzione di tale etichetta viene utilizzata come quella più pertinente.
+
 Il controllo delle versioni ER controlla l'assegnazione delle etichette a qualsiasi attributo in un componente ER. Le modifiche all'assegnazione dell'etichetta vengono registrate nell'elenco delle modifiche (delta) di un componente ER modificabile che è stato creato come versione derivata del componente ER fornito. Queste modifiche vengono convalidate quando una versione derivata viene riassegnata a una nuova versione di base.
 
 ## <a name="functions"></a>Funzioni
@@ -240,7 +245,7 @@ Quando si modifica lo stato di una versione della configurazione ER da **Bozza**
 
 È consigliabile abilitare la funzionalità **Accelera l'archiviazione delle etichette ER** nell'area di lavoro **Gestione funzionalità**. Questa funzionalità consente di migliorare l'utilizzo della larghezza di banda della rete e le prestazioni complessive del sistema poiché, nella maggior parte dei casi, vengono utilizzate etichette ER di una singola lingua quando si lavora con una configurazione ER singola.
 
-Per applicare lo schema di archiviazione selezionato per mantenere le etichette di tutte le configurazioni ER nell'istanza corrente di Finance, completare i passaggi seguenti.
+Per applicare lo schema di archiviazione selezionato per mantenere le etichette di tutte le configurazioni ER nell'istanza corrente di Finance, completa i passaggi seguenti.
 
 1. Vai a **Amministrazione organizzazione** > **Periodico** > **Applica le etichette selezionate che archiviano lo schema per tutte le configurazioni ER**.
 2. Seleziona **OK**.

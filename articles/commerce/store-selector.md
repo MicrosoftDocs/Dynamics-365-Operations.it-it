@@ -3,7 +3,7 @@ title: Modulo Selettore punto vendita
 description: In questo argomento viene descritto il modulo selettore punto vendita e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/04/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7276f25daada8286490ad7e1af2b350e4a2805bb
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 76682f26f62fe4686f5102e3099f038a50005f5e
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710782"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780642"
 ---
 # <a name="store-selector-module"></a>Memorizzare il modulo di selezione
 
@@ -135,26 +135,29 @@ Per la modalità **Preleva nel punto vendita**, il modulo può essere utilizzato
 Per configurare il modulo di selezione del punto vendita in modo da mostrare i punti vendita disponibili per una pagina delle posizioni dei punti vendita, come nell'illustrazione che appare in precedenza in questo argomento, attenersi alla seguente procedura.
 
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
-1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello di marketing**, quindi selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immetti **Modello di marketing**, quindi seleziona **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
-1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
-1. Nella finestra di dialogo **Scegli un modello**, selezionare il modello **Modello di marketing**. Sotto **Nome pagina**, Immettere **Posizioni dei punti vendita** e selezionare **OK**.
-1. Nello slot **Principale** della nuova pagina, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
-1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore con 2 colonne** e quindi **OK**.
+1. Accedi a **Pagine** e quindi seleziona **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Crea una nuova pagina**, sotto **Nome pagina**, immetti **Ubicazioni punti vendita**, quindi seleziona **Avanti**.
+1. Sotto **Scegli un modello**, seleziona il **modello di marketing** creato e seleziona **Avanti**.
+1. Sotto **Scegli un layout**, seleziona un layout di pagina (ad esempio, **Layout flessibile**), quindi seleziona **Avanti**.
+1. Sotto **Verifica e termina**, rivedi la configurazione della pagina. Se è necessario modificare le informazioni sulla pagina, seleziona **Indietro**. Se le informazioni sulla pagina sono corrette, seleziona **Crea pagina**. 
+1. Nello slot **Principale** della nuova pagina, seleziona i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nello slot **Contenitore** seleziona i puntini di sospensione (**...**) quindi seleziona **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Contenitore con 2 colonne** e quindi **OK**.
 1. Nel riquadro delle proprietà del modulo, impostare il valore **Larghezza** su **Riempi contenitore**.
 1. Impostare il valore **Configurazione colonna porte di visualizzazione molto piccole** su **100%**.
 1. Impostare il valore **Configurazione colonna porte di visualizzazione piccole** su **100%**.
 1. Impostare il valore **Configurazione colonna porte di visualizzazione medie** su **33% 67%**.
 1. Impostare il valore **Configurazione colonna porte di visualizzazione grandi** su **33% 67%**.
-1. Nello slot **Contenitore con 2 colonne** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Selettore punto vendita** e quindi selezionare **OK**.
+1. Nello slot **Contenitore con 2 colonne** seleziona i puntini di sospensione (**...**), quindi seleziona **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Selettore punto vendita** e quindi seleziona **OK**.
 1. Nel riquadro delle proprietà del modulo, impostare il valore **Modalità** su **Trova punti vendita**.
 1. Impostare il valore di **Raggio di ricerca** in miglia.
 1. Impostare altre proprietà, ad esempio **Imposta come punto vendita preferito**, **Mostra tutti i punti vendita** e **Abilita suggerimento automatico** in base alle tue esigenze.
-1. Nello slot **Contenitore con 2 colonne** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Mappa** e quindi **OK**.
+1. Nello slot **Contenitore con 2 colonne** seleziona i puntini di sospensione (**...**), quindi seleziona **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Mappa** e quindi **OK**.
 1. Nel riquadro delle proprietà del modulo, impostare tutte le proprietà aggiuntive di cui si ha bisogno.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
  

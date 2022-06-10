@@ -2,7 +2,7 @@
 title: Area di lavoro mobile per scorte disponibili
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Scorte disponibili. Questa area di lavoro mobile consente di ottenere informazioni su dispositivo mobile relative alle scorte disponibili e prenotate in qualsiasi momento e ovunque.
 author: yufeihuang
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,21 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9e67e16acc8ed72d571e9010131723038c8586a9
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573899"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811468"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Area di lavoro mobile per scorte disponibili
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Scorte disponibili**. Questa area di lavoro consente di ottenere informazioni su dispositivo mobile relative alle scorte disponibili e prenotate in qualsiasi momento e ovunque.
 
-Questa area di lavoro mobile può essere utilizzata con l'app Finance and Operations per dispositivi mobili.
+Questa area di lavoro mobile può essere utilizzata con l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365).
 
 ## <a name="overview"></a>Panoramica
 In genere, le società con più spedizioni e più ricevimenti di scorte ogni giorno. Tali movimenti modificano costantemente lo stato delle scorte disponibili. L'area di lavoro mobile **Scorte disponibili** consente di visualizzare lo stato delle scorte interaziendali disponibili, in modo da poter ottenere le informazioni più aggiornate sui dati delle scorte sul dispositivo mobile di propria scelta. Indipendentemente dal fatto che si lavori nel magazzino o nei reparti acquisti, vendite, produzione, gestione o si ricoprano altri ruoli, è possibile accedere ai dati sulle scorte disponibili in qualsiasi momento e ovunque. 
@@ -93,7 +94,7 @@ Se nell'organizzazione è stato distribuito l'Aggiornamento piattaforma 3 o vers
 
 ## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app per dispositivi mobili
 
-Scaricare e installare l'app Finance and Operations per dispositivi mobili:
+Scarica e installa l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365):
 
 -   [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

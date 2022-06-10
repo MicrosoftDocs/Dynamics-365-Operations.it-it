@@ -10,15 +10,17 @@
           items:
             - name: Novità o modifiche nelle app per la finanza e le operazioni
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-            - name: Novità o modifiche negli aggiornamenti della piattaforma
+            - name: Novità o modifiche negli aggiornamenti piattaforma
               items:
-                - name: Home page Novità o modifiche negli aggiornamenti della piattaforma
+                - name: Home page Novità o modifiche negli aggiornamenti piattaforma
                   href: get-started/whats-new-home-page.md
-                - name: Platform update versione 10.0.27 (luglio 2022)
+                - name: Aggiornamento piattaforma versione 10.0.28 (agosto 2022)
+                  href: get-started/whats-new-platform-updates-10-0-28.md
+                - name: Aggiornamento piattaforma versione 10.0.27 (luglio 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Platform update versione 10.0.26 (maggio 2022)
+                - name: Aggiornamento piattaforma versione 10.0.26 (maggio 2022)
                   href: get-started/whats-new-platform-updates-10-0-26.md
-                - name: Platform update versione 10.0.25 (aprile 2022)
+                - name: Aggiornamento piattaforma versione 10.0.25 (aprile 2022)
                   href: get-started/whats-new-platform-updates-10-0-25.md
             - name: Funzionalità rimosse o deprecate
               items:
@@ -384,9 +386,9 @@
                   items:
                     - name: Impostare progetti locali in LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Impostare e distribuire gli ambienti locali (Platform update 41 e successivi)
+                    - name: Impostare e distribuire gli ambienti locali (Aggiornamento piattaforma 41 e successivi)
                       href: deployment/setup-deploy-on-premises-pu41.md
-                    - name: Impostare e distribuire gli ambienti locali (Platform update da 12 a 40)
+                    - name: Impostare e distribuire gli ambienti locali (Aggiornamento piattaforma da 12 a 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Passaggi di installazione per i componenti del canale Retail in un ambiente locale
                       href: deployment/deploy-retail-onprem.md
@@ -1018,6 +1020,8 @@
                   href: lifecycle-services/azure-data-explorer.md
             - name: Riavviare i servizi dell'ambiente
               href: lifecycle-services/restart-environment-services.md
+            - name: Aggiornare l'amministratore dell'ambiente
+              href: lifecycle-services/update-environment-admin.md
             - name: Segnalare un'interruzione della produzione
               href: lifecycle-services/report-production-outage.md
             - name: Tracciare gli accessi degli utenti
@@ -1266,6 +1270,8 @@
               items:
                 - name: Panoramica dei componenti aggiuntivi
                   href: power-platform/add-ins-overview.md
+            - name: Creare esperienze per dispositivi mobili
+              href: power-platform/build-mobile-experiences.md
             - name: Criteri e comunicazioni
               href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Piattaforma per dispositivi mobili
@@ -1782,7 +1788,7 @@
                       href: migration-upgrade/appupdate-80-81.md
                 - name: Criteri del ciclo di vita del software e versioni nel cloud
                   href: migration-upgrade/versions-update-policy.md
-                - name: Applicare l'ultimo aggiornamento della piattaforma agli ambienti
+                - name: Applicare l'ultimo aggiornamento piattaforma agli ambienti
                   href: migration-upgrade/upgrade-latest-platform-update.md
                 - name: Aggiornare i dati in ambienti di dimostrazione o di sviluppo
                   href: migration-upgrade/upgrade-data-to-latest-update.md

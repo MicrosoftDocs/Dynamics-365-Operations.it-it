@@ -12,6 +12,8 @@
               items:
                 - name: Home page Novità o modifiche in Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.28 (agosto)
+                  href: get-started/whats-new-changed-10-0-28.md
                 - name: Finance 10.0.27 (luglio)
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (maggio)
@@ -258,6 +260,8 @@
               href: accounts-payable/positive-pay-overview.md
             - name: Impostare e generare file pagamenti sicuri
               href: accounts-payable/set-up-generate-positive-pay-files.md
+            - name: Impostare e generare file pagamenti sicuri usando Creazione di report elettronici
+              href: accounts-payable/set-up-positive-pay-ER.md
             - name: Conti di contropartita predefiniti per i giornali di registrazione fatture fornitore e i giornali di registrazione approvazione fatture
               href: accounts-payable/default-offset-accounts-vendor-invoice-journals.md
             - name: Flusso di lavoro fornitore
@@ -268,6 +272,8 @@
                   href: accounts-payable/resolve-invoice-totals-invoice-matching-discrepancies.md
                 - name: Cercare o risolvere eccezioni
                   href: accounts-payable/tasks/research-resolve-exceptions.md
+            - name: Registrazione della contabilità fornitori
+              href: general-ledger/accts-payble-posting.md
             - name: Profili registrazione fornitori
               href: accounts-payable/vendor-posting-profiles.md
             - name: Creare codici di spese
@@ -346,8 +352,12 @@
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
             - name: Informazioni dettagliate pagamenti cliente (anteprima)
               href: accounts-receivable/payment-insights-overview.md
+            - name: Registrazione Contabilità clienti
+              href: general-ledger/accts-recvble-posting.md
             - name: Profili di registrazione cliente
               href: accounts-receivable/customer-posting-profiles.md
+            - name: Creare codici di spese
+              href: accounts-receivable/create-charges-codes.md
             - name: Copiare i clienti mediante sequenze numeriche condivise
               href: accounts-receivable/copy-customer.md
             - name: Flusso di lavoro cliente
@@ -444,6 +454,8 @@
                       href: accounts-receivable/sb-alignment-date-examples.md
                     - name: Suddivisione ricavi
                       href: accounts-receivable/sb-revenue-split.md
+                    - name: Attività periodiche
+                      href: accounts-receivable/sb-periodic-tasks.md
                 - name: Differimenti ricavi e spese
                   items:
                     - name: Imposta differimenti ricavi e spese
@@ -466,6 +478,8 @@
                   href: accounts-receivable/centralized-payments-accounts-receivable.md
                 - name: Depositare pagamenti cliente
                   href: accounts-receivable/tasks/deposit-customer-payments.md
+                - name: Impostazione ed elaborazione dei pagamenti provvisori
+                  href: accounts-receivable/set-up-and-process-bridged-payments.md
                 - name: Panoramica degli addebiti diretti SEPA
                   href: accounts-receivable/sepa-direct-debit-overview.md
                 - name: Mandato per addebito diretto SEPA
@@ -662,6 +676,8 @@
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
                 - name: Impostare il processo di importazione della riconciliazione estratti conto avanzata
                   href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
+                - name: Impostare il processo di importazione della riconciliazione estratti conto avanzata usando Creazione di report elettronici
+                  href: accounts-payable/import-bai2-er.md
                 - name: Impostare le regole di abbinamento della riconciliazione estratti conto
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Riconciliare rendiconti bancari utilizzando la riconciliazione estratti conto avanzata
@@ -1044,6 +1060,14 @@
                       href: general-ledger/recommended-practices-pstg-prfles.md
                     - name: Conti per transazioni automatiche
                       href: general-ledger/accounts-for-auto-transactions.md
+                    - name: Registrazione della contabilità fornitori
+                      href: general-ledger/accts-payble-posting.md
+                    - name: Registrazione Contabilità clienti
+                      href: general-ledger/accts-recvble-posting.md
+                    - name: Registrazione dei leasing cespite
+                      href: asset-leasing/set-up-lease-posting-accts.md
+                    - name: Registrazione dei cespiti
+                      href: fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md
                 - name: Regole di allocazione
                   items:
                     - name: Regole di allocazione contabile
@@ -1292,6 +1316,8 @@
                   href: public-sector/accounts-payable-public-sector.md
                 - name: Codici ordine fornitore nel settore pubblico
                   href: public-sector/purchase-order-codes-public-sector.md
+                - name: Ordini fornitore e budget riportabile in avanti
+                  href: public-sector/determine-carry-forward-budget.md
                 - name: Creare e assegnare un codice partner commerciale nel settore pubblico
                   href: public-sector/tasks/create-assign-trading-partner-code-public-sector.md
                 - name: Definizioni di registrazione nel settore pubblico
@@ -1778,6 +1804,8 @@
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
                 - name: Esporta transazioni contabili
                   href: localizations/emea-bel-export-ledger-transactions.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-bel-eu-sales-list.md
                 - name: Dichiarazione IVA INTERVAT
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Report di riconciliazione
@@ -1792,6 +1820,8 @@
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
                 - name: Intrastat belga
                   href: localizations/emea-bel-intrastat.md
+                - name: Dichiarazione IVA
+                  href: localizations/emea-bel-vat-declaration-belgium.md
             - name: Brasile
               items:
                 - name: Panoramica Brasile
@@ -2094,6 +2124,8 @@
                   href: localizations/tasks/create-post-free-text-invoice-public-sector-customer.md
                 - name: Creare e registrare una fattura progetto per un cliente del settore pubblico
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-dnk-eu-sales-list.md
                 - name: Importare le configurazioni della fatturazione elettronica OIOUBL
                   href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
                 - name: Registrare una fattura a testo libero con una distinta di pagamento
@@ -2296,6 +2328,8 @@
                   href: localizations/emea-fin-intrastat.md
                 - name: Dichiarazione IVA
                   href: localizations/emea-fin-vat-declaration.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-fin-eu-sales-list.md
             - name: Francia
               items:
                 - name: Panoramica Francia
@@ -3088,6 +3122,8 @@
                   href: localizations/tasks/lt-00003-fixed-asset-transfer.md
                 - name: Dettagli della dichiarazione IVA
                   href: localizations/emea-ltu-vat-statement-details.md
+                - name: Intrastat lituana
+                  href: localizations/emea-ltu-intrastat.md
                 - name: Report i.SAF per la Lituania
                   href: localizations/emea-ltu-isaf.md
                 - name: File di controllo standard per imposta (SAF-T) per la Lituania
@@ -3230,6 +3266,8 @@
                   href: localizations/emea-pol-correction-notes.md
                 - name: Duplicare la numerazione della fattura di vendita
                   href: localizations/emea-pol-sales-invoice-duplicates-numbering.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-pol-eu-sales-list.md
                 - name: Ammortamento dei cespiti
                   href: localizations/emea-pol-fixed-assets-depreciation.md
                 - name: Estensione della funzionalità di dismissione del cespite
@@ -3548,10 +3586,12 @@
                   href: localizations/emea-esp-bill-of-exchange-options.md
                 - name: Calcolare le date di scadenza e riferire sul periodo medio dei pagamenti
                   href: localizations/emea-esp-invoice-due-dates.md
-                - name: IVA condizionale
+                - name: IVA condizionata
                   href: localizations/emea-esp-conditional-sales-tax.md
                 - name: Fatturazione note di accredito
                   href: localizations/tasks/emea-esp-credit-invoicing.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-esp-sales-list.md
                 - name: Conto fatture di dati fiscali
                   href: localizations/emea-esp-fiscal-data-invoice-account.md
                 - name: Rivalutazione gruppo cespiti
@@ -3670,6 +3710,8 @@
                       href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Statistiche sul report procedure di pagamento
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-uk-eu-sales-list.md
             - name: Stati Uniti
               items:
                 - name: Panoramica Stati Uniti
@@ -4335,10 +4377,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                     - name: Utilizzare BARCODE per generare immagini di codici a barre
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
-                    - name: Configurare le origini dati LOOKUP per utilizzare i parametri specifici dell'applicazione ER
+                    - name: Configurare le origini dati RICERCA per utilizzare i parametri specifici dell'applicazione Report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Utilizzare le origini dati RACCOLTA DATI nei formati Report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Utilizzare le origini dati USER INPUT PARAMETER per specificare i parametri per un report da generare
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Debug delle origini dati
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Configurare modelli dati

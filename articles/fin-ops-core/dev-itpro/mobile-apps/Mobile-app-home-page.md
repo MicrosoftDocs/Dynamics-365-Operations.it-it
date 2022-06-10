@@ -1,8 +1,8 @@
 ---
 title: Home page app per dispositivi mobili
-description: In questo argomento viene descritta l'app per dispositivi mobili Finance and Operations (Dynamics 365) e vengono forniti i collegamenti alle risorse necessarie per implementarla nell'organizzazione.
+description: In questo argomento viene descritta l'app per la finanza e le operazioni (Dynamics 365) per dispositivi mobili e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
 author: ChrisGarty
-ms.date: 01/22/2020
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 8a91f603b4dd058341110c59039a6d3c782e06ee768fbf0e7f94e9527a6354ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a6928b1fc7713b6822f53aaa77b8d1281eb6d320
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729710"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811175"
 ---
 # <a name="mobile-app-home-page"></a>Home page app per dispositivi mobili
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-In questo argomento viene descritta l'app per dispositivi mobili **Finance and Operations (Dynamics 365)** e vengono forniti i collegamenti alle risorse necessarie per implementarla nell'organizzazione.
+In questo argomento viene descritta l'app per la **finanza e le operazioni (Dynamics 365)** per dispositivi mobili e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
 
 ## <a name="overview"></a>Panoramica
 
@@ -76,7 +77,7 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 <tr class="odd">
 <td>1</td>
 <td>Amministratore di sistema</td>
-<td>Implementare l'app Finance and Operations nell'organizzazione.</td>
+<td>Implementa l'app per la finanza e le operazioni nell'organizzazione.</td>
 <td><ul><li>Se non è stata distribuita una versione di Microsoft Dynamics 365, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>.</li><li>Per visualizzare un elenco di aree di lavoro mobili da utilizzare, vedere <a href="mobile-workspaces-released.md">Aree di lavoro mobili rilasciate di recente</a>.</li></ul></td>
 </tr>
 <tr class="even">

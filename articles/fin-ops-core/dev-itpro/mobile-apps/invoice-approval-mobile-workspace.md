@@ -2,7 +2,7 @@
 title: Area di lavoro mobile Approvazioni fatture
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Approvazioni fatture.
 author: abruer
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0d19e99776f04eab28eb7371bc0ac90ac046b62af0ad785fd3ab28309cae43ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 08775a574bcd57948c6bf6a634d822b32112f782
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759982"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811360"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Area di lavoro mobile Approvazioni fatture
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Approvazioni fatture**. Questa area di lavoro fornisce un elenco di fatture assegnate all'utente mediante il processo del flusso di lavoro di intestazione della fattura fornitore. 
 
@@ -40,7 +41,7 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 <tr class="header">
 <th>Prerequisito</th>
 <th>Ruolo</th>
-<th>Descrizione</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

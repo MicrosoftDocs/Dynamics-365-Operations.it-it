@@ -12,6 +12,8 @@
               items:
                 - name: Home page Novità o modifiche in Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.28 (luglio 2022)
+                  href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (luglio 2022)
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (maggio 2022)
@@ -1300,6 +1302,10 @@
               items:
                 - name: Creare pagine di risposta personalizzate per gli errori di codice stato 4xx/5xx
                   href: build-pages-400-500-errors.md
+            - name: Integrazione del servizio
+              items:
+                - name: Integrare Customer Voice nelle pagine del sito di e-commerce
+                  href: customer-voice-integration.md
         - name: Fraud Protection
           items:
             - name: Integrazione di Dynamics 365 Fraud Protection con Dynamics 365 Commerce
@@ -2114,10 +2120,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
                     - name: Utilizzare BARCODE per generare immagini di codici a barre
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Configurare le origini dati LOOKUP per utilizzare i parametri specifici dell'applicazione ER
+                    - name: Configurare le origini dati RICERCA per utilizzare i parametri specifici dell'applicazione Report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Utilizzare le origini dati RACCOLTA DATI nei formati Report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
+                    - name: Utilizzare le origini dati USER INPUT PARAMETER per specificare i parametri per un report da generare
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Debug delle origini dati
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Configurare modelli dati
@@ -2728,6 +2736,8 @@
                               href: e-commerce-extensibility/interactive-components.md
                             - name: Simulare lo stato di accesso durante lo sviluppo locale
                               href: e-commerce-extensibility/mock-sign-in.md
+                            - name: Impostare il trasferimento dell'autenticazione dell'API Web utilizzando Azure Active Directory B2C
+                              href: e-commerce-extensibility/web-api-auth-trans-aad-b2c.md
                             - name: Configurare le proprietà del modulo da visualizzare in base al contesto
                               href: e-commerce-extensibility/configure-properties-context.md
                             - name: Globalizzare moduli utilizzando la classe CultureInfoFormatter
@@ -2944,6 +2954,8 @@
                   href: troubleshoot/items-without-inventory-checked-out.md
                 - name: Il perfezionamento delle valutazioni viene visualizzato nei risultati di ricerca e nelle pagine delle categorie quando la soluzione per valutazioni e recensioni non è abilitata
                   href: troubleshoot/hide-ratings-refiner.md
+                - name: Il totale parziale del riepilogo ordine non include le imposte sugli addebiti quando si utilizzano moduli di riepilogo ordine personalizzati
+                  href: troubleshoot/summary-taxes-custom-modules-10.0.27.md
             - name: Gestione clienti
               items:
                 - name: Il messaggio e-mail di benvenuto non viene inviato quando vengono creati nuovi clienti

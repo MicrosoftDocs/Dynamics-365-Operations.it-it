@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ea45b238200d4d9d43d563e160e8574271a8ce7
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
+ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487866"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "8789214"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page di Supply Chain Management
 
@@ -58,7 +58,7 @@ Per informazioni su Dynamics 365 Finance, passare alla [home page di Finance](..
 
 In questo breve video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 for Finance and Operations versione 8.0 (aprile 2018).
 
-- [Sincronizzare un ordine di lavoro tra Field Service e Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Sincronizzare un ordine di lavoro in Field Service con gli ordini cliente in Finance and Operations](https://youtu.be/hAB4TDVMjxU)
 
 In questi brevi video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (dicembre 2017).
 
@@ -98,7 +98,7 @@ Numerosi argomenti sulla produzione e sulla gestione della supply chain sono dis
 ## <a name="white-papers"></a>White paper
 
 - [Lean manufacturing: metodo capable-to-promise e programmazione dei processi kanban](/dynamics/s-e/)
-- [Calcolo DBA tramite uno schema di determinazione dei costi](https://www.microsoft.com/download/details.aspx?id=101937/)
+- [Calcolo DBA tramite uno schema di determinazione dei costi](https://www.microsoft.com/download/details.aspx?id=101937)
 
 ## <a name="elearning-courses"></a>Corsi eLearning
 

@@ -2,7 +2,7 @@
 title: Area di lavoro mobile di controllo costi
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Controllo costi. Questa area di lavoro consente ai responsabili del centro di costo visualizzare informazioni sulle prestazioni del centro di costo in qualsiasi momento e ovunque.
 author: AndersGirke
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,21 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 1f5e0314678758849a787e6b3f7a67391c701046
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 75d8abaeec85b46f0fd0e430040bc7e3a8fd3042
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734075"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811326"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Area di lavoro mobile di controllo costi
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Controllo costi**. Questa area di lavoro consente ai responsabili del centro di costo visualizzare informazioni sulle prestazioni del centro di costo in qualsiasi momento e ovunque.
 
-Questa area di lavoro mobile può essere utilizzata con l'app Finance and Operations per dispositivi mobili.
+Questa area di lavoro mobile può essere utilizzata con l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365).
 
 ## <a name="overview"></a>Panoramica
 L'area di lavoro mobile **Controllo costi** fornisce una visualizzazione immediata delle prestazioni correnti dei centri di costo confrontando i costi effettivi rispetto ai costi a budget. È possibile eseguire il drill-down per visualizzare lo stato dei singoli elementi di costo.
@@ -113,7 +114,7 @@ Se nell'organizzazione è stato distribuita la versione 1611 con Aggiornamento p
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app per dispositivi mobili
-Scaricare e installare l'app Finance and Operations per dispositivi mobili:
+Scarica e installa l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365):
 
 -   [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

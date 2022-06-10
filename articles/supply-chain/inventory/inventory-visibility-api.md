@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cbd33b16a4b21e8e1931bc61cb55e376e7d73179
-ms.sourcegitcommit: a3b121a8c8daa601021fee275d41a95325d12e7a
+ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8524467"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786867"
 ---
 # <a name="inventory-visibility-public-apis"></a>API pubbliche di visibilità dell'inventario
 
@@ -41,17 +41,22 @@ La seguente tabella elenca le API che sono attualmente disponibili:
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Registra | [Impostare/sovrascrivere le quantità disponibili](#set-onhand-quantities) |
 | /api/environment/{environmentId}/onhand/reserve | Registra | [Creare un evento di prenotazione](#create-one-reservation-event) |
 | /api/environment/{environmentId}/onhand/reserve/bulk | Registra | [Creare più eventi di prenotazione](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/on-hand/changeschedule | Registra | [Crea una modifica scorte disponibili programmata](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/on-hand/changeschedule/bulk | Registra | [Crea più modifiche scorte disponibili programmate](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule | Registra | [Crea una modifica scorte disponibili programmata](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Registra | [Crea più modifiche scorte disponibili programmate](inventory-visibility-available-to-promise.md) |
 | /api/environment/{environmentId}/onhand/indexquery | Registra | [Interrogare usando il metodo post](#query-with-post-method) |
 | /api/environment/{environmentId}/onhand | Ottieni | [Interrogare usando il metodo get](#query-with-get-method) |
+| /api/environment/{environmentId}/allocation/allocate | Registra | [Creare un evento di allorazione](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/unallocate | Registra | [Creare un evento di annullamento dell'allorazione](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/reallocate | Registra | [Creare un evento di riallorazione](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/consume | Registra | [Creare un evento di consumo](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation/query | Registra | [Risultato della query di allocazione](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
 > La parte del percorso {environmentId} è l'ID ambiente in Microsoft Dynamics Lifecycle Services (LCS).
 > 
 > L'API in blocco può restituire un massimo di 512 record per ogni richiesta.
 
-Microsoft ha fornito una raccolta di richieste di *Postman* out-of-box. Puoi importare questa collezione nel tuo software *Postman* utilizzando il seguente link condiviso: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+Microsoft ha fornito una raccolta di richieste di *Postman* out-of-box. Puoi importare questa collezione nel tuo software *Postman* utilizzando il seguente link condiviso: <https://www.getpostman.com/collections/ad8a1322f953f88d9a55>.
 
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Trova l'endpoint secondo il tuo ambiente Lifecycle Services
 
@@ -84,7 +89,7 @@ Microsoft ha costruito un'interfaccia utente (UI) in Power Apps in modo da poter
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autenticazione
 
-Il token di sicurezza della piattaforma è usato per chiamare l'API pubblica Visibilità inventario. Pertanto, è necessario generare un token _Azure Active Directory (Azure AD)_ usando l'applicazione Azure AD. È quindi necessario utilizzare il token Azure AD per ottenere il _token di accesso_ dal servizio di sicurezza.
+Il token di sicurezza della piattaforma è usato per chiamare l'API pubblica Visibilità inventario. Pertanto, è necessario generare un _token Azure Active Directory (Azure AD)_ usando l'applicazione Azure AD. È quindi necessario utilizzare il token Azure AD per ottenere il _token di accesso_ dal servizio di sicurezza.
 
 Microsoft fornisce una raccolta di ottenimento di token *Postman* out-of-box. Puoi importare questa collezione nel tuo software *Postman* utilizzando il seguente link condiviso: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -539,7 +544,7 @@ L'esempio seguente mostra un esempio di contenuto del corpo.
 }
 ```
 
-Gli esempi seguenti mostrano come eseguire query su tutti i prodotti in un sito e in una posizione specifici.
+L'esempio seguente mostra come eseguire query su tutti i prodotti in un sito e in una posizione specifici.
 
 ```json
 {
@@ -580,6 +585,10 @@ Ecco un esempio di URL. Questa richiesta di get è esattamente la stessa dell'es
 
 ## <a name="available-to-promise"></a>Available-to-promise
 
-È possibile impostare la visibilità inventario per pianificare le modifiche future disponibili e calcolare le quantità ATP. ATP è la quantità di un articolo disponibile e che può essere promessa a un cliente nel prossimo periodo. L'uso del calcolo ATP può aumentare notevolmente la capacità di evasione degli ordini. Per informazioni su come abilitare questa funzione e su come interagire con la visibilità inventario tramite la relativa API dopo che la funzione è stata abilitata, vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md).
+È possibile impostare la visibilità inventario per pianificare le modifiche future disponibili e calcolare le quantità ATP. ATP è la quantità di un articolo disponibile e che può essere promessa a un cliente nel prossimo periodo. L'uso del calcolo ATP può aumentare notevolmente la capacità di evasione degli ordini. Per informazioni su come abilitare questa funzione e su come interagire con la visibilità inventario tramite la relativa API dopo che la funzione è stata abilitata, vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md#api-urls).
+
+## <a name="allocation"></a>Allocazione
+
+Le API relative all'allocazione si trovano in [Allocazione di Inventory Visibility](inventory-visibility-allocation.md#using-allocation-api).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

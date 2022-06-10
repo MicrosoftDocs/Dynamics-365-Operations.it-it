@@ -2,7 +2,7 @@
 title: Modulo iFrame
 description: In questo argomento viene descritto il modulo iFrame e la procedura per aggiungerlo alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 11/04/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bce6a50e8c145f8961bd0c839fe16c1f4d69e811
-ms.sourcegitcommit: 408786b164b44bee4e16ae7c3d956034d54c3f80
+ms.openlocfilehash: eeb9d76367be6b2d2153578f6358594b807382ac
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "7754016"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780236"
 ---
 # <a name="iframe-module"></a>Modulo Iframe
 
@@ -53,15 +53,18 @@ L'immagine seguente mostra esempi di moduli iFrame che presentano video esterni 
 Per aggiungere un modulo iFrame a una pagina per mostrare un video esterno, attenersi alla seguente procedura.
 
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
-1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello di marketing**, quindi selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immetti **Modello di marketing**, quindi seleziona **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
-1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
-1. Nella finestra di dialogo **Scegli un modello**, selezionare il modello **Modello di marketing**. Sotto **Nome pagina**, immettere **Pagina di marketing** e selezionare **OK**.
-1. Nello slot **Principale** della nuova pagina, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Accedi a **Pagine** e quindi seleziona **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Crea una nuova pagina**, sotto **Nome pagina**, immetti **Pagina marketing**, quindi seleziona **Avanti**.
+1. Sotto **Scegli un modello**, seleziona il **modello di marketing** creato e seleziona **Avanti**.
+1. Sotto **Scegli un layout**, seleziona un layout di pagina (ad esempio, **Layout flessibile**), quindi seleziona **Avanti**.
+1. Sotto **Verifica e termina**, rivedi la configurazione della pagina. Se è necessario modificare le informazioni sulla pagina, seleziona **Indietro**. Se le informazioni sulla pagina sono corrette, seleziona **Crea pagina**. 
+1. Nello slot **Principale** della nuova pagina, seleziona i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** selezionare il modulo **Contenitore** e quindi **OK**.
 1. Nel riquadro delle proprietà del modulo, impostare il valore **Larghezza** su **Riempi contenitore**.
-1. Nello slot **Contenitore** selezionare i puntini di sospensione (**...**), quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **iFrame** e quindi **OK**.
+1. Nello slot **Contenitore** seleziona i puntini di sospensione (**...**) quindi seleziona **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **iframe** e quindi **OK**.
 1. Nel riquadro delle proprietà del modulo, impostare il valore **URL di destinazione** su un URL esterno per un video.
 1. Impostare altre proprietà, ad esempio **Intestazione** e **Altezza**, in base alle esigenze.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 20e48fee237615c7b1acdb564e5e524d393f8eba
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 598e29ead50e1ecb249a7338c7f0952a912b4f69
+ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469899"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809097"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migrazione all'ottimizzazione di pianificazione per la pianificazione generale
 
@@ -63,7 +63,7 @@ Attualmente le eccezioni per la migrazione di Ottimizzazione pianificazione sono
 
 Dopo che le funzionalità richieste diventano disponibili, Microsoft fornirà un periodo di tolleranza fino alla scadenza dell'eccezione. L'amministratore dell'ambiente verrà informato quando le funzionalità richieste saranno disponibili e il periodo di tolleranza è iniziato.
 
-Il diagramma di flusso seguente riepiloga le informazioni fornite in questo argomento in modo da poter scoprire rapidamente se è necessario richiedere un'eccezione. Se devi richiedere un'eccezione, compila e invia il [questionario sulla migrazione e sulle eccezioni di Ottimizzazione pianificazione](https://go.microsoft.com/fwlink/?linkid=2144962).
+Il diagramma di flusso seguente riepiloga le informazioni fornite in questo argomento in modo da poter scoprire rapidamente se è necessario richiedere un'eccezione. Se devi richiedere un'eccezione, compila e invia il [questionario sulla migrazione e sulle eccezioni di Ottimizzazione pianificazione](https://go.microsoft.com/fwlink/?linkid=2144962). Il gruppo di prodotti è responsabile della valutazione e dell'approvazione di ogni richiesta di eccezione, quindi invia la tua richiesta direttamente al gruppo di prodotti utilizzando il collegamento fornito senza creare un ticket di supporto. Se la tua richiesta viene rifiutata, non creare un ticket di supporto perché il supporto Microsoft non è in grado di rivalutare o concedere eccezioni.
 
 ![Diagramma di flusso delle eccezioni.](media/exception-diagram.png "Diagramma di flusso delle eccezioni")
 

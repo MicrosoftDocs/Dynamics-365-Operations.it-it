@@ -2,7 +2,7 @@
 title: Destinazioni dei report elettronici
 description: Questo argomento fornisce informazioni sulla gestione delle destinazioni di report elettronici, i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
 author: nselin
-ms.date: 09/16/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: e3154cb62531bf956365b420b454c98ead7f7335
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647095"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780462"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici
 
@@ -173,11 +173,11 @@ Nelle versioni di Finance **antecedenti alla versione 10.0.18**, l'opzione di co
 
 ### <a name="limitations"></a>Limiti
 
-L'opzione di conversione PDF è disponibile solo per le distribuzioni cloud.
+A partire da Finance **versione 10.0.9** l'opzione di conversione PDF è disponibile solo per le distribuzioni cloud. A partire dalla versione Finance **10.0.27**, l'opzione di conversione PDF è disponibile per qualsiasi distribuzione locale che abbia la [connettività Internet](../user-interface/client-disconnected.md) abilitata.
 
 Il documento PDF generato è limitato a un numero massimo di 300 pagine.
 
-In Finance **versione 10.0.9**, nel documento PDF prodotto da un output Excel è supportato solo l'orientamento orizzontale della pagina. In Finance **versione 10.0.10 (maggio 2020) e successive**, è possibile [specificare l'orientamento della pagina](#SelectPdfPageOrientation) nel documento PDF prodotto da un output di Excel mentre si configura una destinazione ER.
+A partire da Finance **versione 10.0.9**, nel documento PDF prodotto da un output Excel è supportato solo l'orientamento orizzontale della pagina. A partire da Finance **versione 10.0.10**, è possibile [specificare l'orientamento della pagina](#SelectPdfPageOrientation) nel documento PDF prodotto da un output di Excel mentre si configura una destinazione ER.
 
 Solo i caratteri di sistema comuni del sistema operativo Windows vengono utilizzati per la conversione di un output che non contiene caratteri incorporati.
 

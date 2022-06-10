@@ -2,7 +2,7 @@
 title: Area di lavoro mobile di collaborazione fornitore
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Collaborazione fornitore. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
 author: GalynaFedorova
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,21 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c1e8a6589b16c4a24b151980d01929ed154bbb7b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670106"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811716"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Area di lavoro mobile di collaborazione fornitore
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Collaborazione fornitore**. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
 
-Questa area di lavoro mobile può essere utilizzata con l'app Finance and Operations per dispositivi mobili.
+Questa area di lavoro mobile può essere utilizzata con l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365).
 
 ## <a name="overview"></a>Panoramica 
 L'area di lavoro mobile **Collaborazione fornitore** mantiene i fornitori aggiornati sui nuovi ordini fornitore e consente loro di visualizzare gli ordini e quindi di rispondere tramite il client Web. 
@@ -109,7 +110,7 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 
 ## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app per dispositivi mobili
 
-Scaricare e installare l'app Finance and Operations per dispositivi mobili:
+Scarica e installa l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365):
 
 -   [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

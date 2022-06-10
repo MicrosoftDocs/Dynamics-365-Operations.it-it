@@ -2,7 +2,7 @@
 title: Modulo Casella acquisti
 description: In questo argomento vengono descritti i moduli Casella acquisti e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eba86cd0fe2790cabed1f091ddc59002d19ae228
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717797"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780436"
 ---
 # <a name="buy-box-module"></a>Modulo casella acquisti
 
@@ -89,22 +89,25 @@ Per aggiungere un modulo Casella acquisti a una nuova pagina e impostare le prop
 1. Andare a **Frammenti** e selezionare **Nuovo** per creare un nuovo frammento.
 1. Nella finestra di dialogo **Nuovo frammento**, selezionare il modulo **Casella acquisti**.
 1. In **Nome frammento**, inserire il nome **Frammento casella acquisti**, quindi selezionare **OK**.
-1. Nello slot **Galleria multimediale** del modulo Casella acquisti, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Galleria multimediale** e quindi selezionare **OK**.
-1. Nello slot **Selettore punto vendita** del modulo Casella acquisti, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Selettore punto vendita** e quindi selezionare **OK**.
+1. Nello slot **Galleria multimediale** del modulo Casella acquisti, seleziona i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Galleria multimediale** e quindi seleziona **OK**.
+1. Nello slot **Selettore punto vendita** del modulo Casella acquisti, seleziona i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Selettore punto vendita** e quindi seleziona **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
-1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immettere **Modello PDP**, quindi selezionare **OK**.
-1. Nello slot **Corpo** selezionare i puntini di sospensione (**...**) quindi selezionare **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
+1. Nella finestra di dialogo **Nuovo modello**, sotto **Nome modello**, immetti **Modello PDP**, quindi seleziona **OK**.
+1. Nello slot **Corpo** seleziona i puntini di sospensione (**...**) quindi seleziona **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Pagina predefinita** e quindi seleziona **OK**.
 1. Nello slot **Principale** della pagina predefinita, selezionare il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi frammento**.
-1. Nella finestra di dialogo **Seleziona frammento**, selezionare il frammento **Frammento casella acquisti** creato in precedenza, quindi selezionare **OK**.
+1. Nella finestra di dialogo **Seleziona un frammento**, seleziona il frammento **Frammento casella acquisti** creato, quindi seleziona **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
-1. Andare a **Pagine** e quindi selezionare **Nuovo** per creare una nuova pagina.
-1. Nella finestra di dialogo **Scegli un modello**, selezionare il modello **Modello PDP**. Sotto **Nome pagina**, Immettere **Pagina PDP** e selezionare **OK**.
+1. Accedi a **Pagine** e quindi seleziona **Nuovo** per creare una nuova pagina.
+1. Nella finestra di dialogo **Crea una nuova pagina**, sotto **Nome pagina**, immetti **Pagina PDP**, quindi seleziona **Avanti**.
+1. In **Scegli un modello**, seleziona **Modello PDP**, e seleziona **Avanti**.
+1. Sotto **Scegli un layout**, seleziona un layout di pagina (ad esempio, **Layout flessibile**), quindi seleziona **Avanti**.
+1. Sotto **Verifica e termina**, rivedi la configurazione della pagina. Se è necessario modificare le informazioni sulla pagina, seleziona **Indietro**. Se le informazioni sulla pagina sono corrette, seleziona **Crea pagina**.
 1. Nello slot **Principale** della nuova pagina, selezionare il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi frammento**.
-1. Nella finestra di dialogo **Seleziona frammento**, selezionare il frammento **Frammento casella acquisti** creato in precedenza, quindi selezionare **OK**.
+1. Nella finestra di dialogo **Seleziona un frammento**, seleziona il frammento **Frammento casella acquisti** creato, quindi seleziona **OK**.
 1. Salvare la pagina e visualizzarne l'anteprima. Aggiungere il parametro della stringa di query **?productid=&lt;product id&gt;** all'URL della pagina di anteprima. In tal modo, il contesto del prodotto è utilizzato per caricare ed eseguire il rendering della pagina di anteprima.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla. Una casella acquisti deve essere visualizzata nella pagina dettagli prodotto.
 

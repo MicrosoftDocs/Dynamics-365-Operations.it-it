@@ -2,7 +2,7 @@
 title: Utilizzare l'area di lavoro per dispositivi mobili Gestione cespiti
 description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Gestione cespiti.
 author: johanhoffmann
-ms.date: 01/15/2021
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 62bb178e714611367c825c87044a31275f5540accc9363137c7cecbcec1bec65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b874237721d9252e7102c2611414a2cc74026c3
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771541"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811506"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Utilizzare l'area di lavoro per dispositivi mobili Gestione cespiti
 
 [!include [banner](../../includes/banner.md)]
+[!include [mobile app deprecated](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro per dispositivi mobili **Gestione cespiti**. Questa area di lavoro consente agli utenti di visualizzare e creare richieste di manutenzione e ordini di lavoro. Gli utenti possono inoltre visualizzare i processi di ordine di lavoro assegnati in una visualizzazione elenco o del calendario. È inoltre possibile visualizzare e eseguire ricerche di cespiti e unità funzionali.
 
@@ -45,7 +46,7 @@ Prima di poter utilizzare l'area di lavoro per dispositivi mobili **Gestione ces
 
 ## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app per dispositivi mobili
 
-Scaricare e installare l'app mobile Dynamics 365 for Unified Operations:
+Scarica e installa l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365):
 
 - [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
 - [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)

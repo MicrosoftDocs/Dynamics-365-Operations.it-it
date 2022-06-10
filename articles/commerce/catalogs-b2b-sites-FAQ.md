@@ -2,19 +2,19 @@
 title: Domande frequenti sui cataloghi di Commerce per B2B
 description: In questo argomento viene fornita risposta alle domande frequenti sui cataloghi di Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 04/28/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 776820e8e77cd0884b3df5412bb95e6e80ca4fc7
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: 5bdc7dfcb0e48aa85db2db4d178c5bf62ea0411b
+ms.sourcegitcommit: bca0cb730307948368a9aabe322cf963688ed8b1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656840"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782864"
 ---
 # <a name="commerce-catalogs-for-b2b-faq"></a>Domande frequenti sui cataloghi di Commerce per B2B
 
@@ -25,7 +25,7 @@ In questo argomento viene fornita risposta alle domande frequenti sui cataloghi 
 
 ## <a name="why-cant-i-configure-a-catalog-specific-navigation-hierarchy-or-see-an-option-to-associate-a-customer-hierarchy"></a>Perché non posso configurare una gerarchia di navigazione specifica del catalogo o visualizzare un'opzione per associare una gerarchia di clienti?
 
-Assicurati che la funzionalità **Abilita l'utilizzo di più cataloghi nei canali di vendita al dettaglio** sia abilitata nell'area di lavoro **Gestione funzionalità** in Commerce headquarters. Inoltre, assicurati che il tuo ambiente utilizzi la versione di Commerce 10.0.26 o successiva.
+Assicurati che la funzionalità **Abilita l'utilizzo di più cataloghi nei canali di vendita al dettaglio** sia abilitata nell'area di lavoro **Gestione funzionalità** in Commerce headquarters. Inoltre, assicurati che il tuo ambiente utilizzi la versione di Commerce 10.0.27 o successiva.
 
 ## <a name="can-i-view-the-catalog-specific-hierarchy-and-enrich-category-pages-in-commerce-site-builder"></a>Posso visualizzare la gerarchia specifica del catalogo e arricchire le pagine delle categorie nel generatore di siti di Commerce?
 

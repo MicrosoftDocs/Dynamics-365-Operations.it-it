@@ -2,7 +2,7 @@
 title: Progettare una configurazione per generare documenti in uscita in formato Excel
 description: Questo argomento descrive come progettare un formato di report elettronico (ER) per compilare un modello Excel e quindi generare documenti in formato Excel in uscita.
 author: NickSelin
-ms.date: 03/25/2022
+ms.date: 05/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec25065f2e3cc3b5dd3c9004d5330447f7b2ac61
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 4a34f990c865aa8c82213a60c23d5a44ad75aee4
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645137"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811422"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -288,6 +288,16 @@ Puoi selezionare **Aggiorna da Excel** nella scheda **Importa** del riquadro azi
 
 ![Creare l'opzione elemento formato del foglio di Excel nella finestra di dialogo Aggiorna da Excel.](./media/er-excel-format-update-template.png)
 
+Nella versione 10.0.28 e successive, puoi utilizzare l'opzione **Aggiorna elementi con formato intestazione e piè di pagina di Excel**.
+
+- Quando imposti questa opzione su **No**, gli elementi di formato Intestazione di Excel e Piè di pagina di Excel rimangono invariati, anche se le intestazioni o i piè di pagina corrispondenti sono stati aggiornati nei fogli di lavoro del modello importato nel formato cartella di lavoro di Excel.
+- Quando imposti questa opzione su **Sì**, gli elementi del formato Intestazione di Excel e Piè di pagina di Excel cambiano quando le intestazioni o i piè di pagina corrispondenti vengono aggiornati nei fogli di lavoro del modello importato nel formato cartella di lavoro di Excel.
+
+    - Se la struttura dell'intestazione o del piè di pagina di un foglio di lavoro non è stata modificata o se è stata solo aggiunta, la struttura dell'elemento di formato intestazione o piè di pagina di Excel corrispondente viene aggiornata. Le associazioni degli elementi di formato nidificati in questo elemento di formato Intestazione di Excel o Piè di pagina di Excel verranno mantenute.
+    - Se la struttura dell'intestazione o del piè di pagina di un foglio di lavoro non è stata modificata, l'elemento di formato intestazione o piè di pagina di Excel corrispondente viene ricreato. Le associazioni degli elementi di formato nidificati in questo elemento di formato Intestazione di Excel o Piè di pagina di Excel verranno rimosse.
+
+![Opzione Aggiorna elementi con formato intestazione e piè di pagina di Excel nella finestra di dialogo Aggiorna da Excel.](./media/er-excel-format-update-template2.png)
+
 Per saperne di più su questa funzionalità, segui i passaggi in [Modificare i formati per la creazione di report elettronici riapplicando modelli di Excel](modify-electronic-reporting-format-reapply-excel-template.md).
 
 ## <a name="validate-an-er-format"></a>Convalida un formato ER
@@ -355,7 +365,7 @@ Quando viene generato un documento in uscita in un formato di cartella di lavoro
 
 ## <a name="example-2-fixing-the-merged-cells-epplus-issue"></a><a name="example-2"></a>Esempio 2: risoluzione del problema EPPlus delle celle unite
 
-È possibile eseguire un formato ER per generare un documento in uscita in un formato cartella di lavoro di Excel. Quando la funzionalità **Abilita l'utilizzo della libreria EPPlus nel framework per la creazione di report elettronici** è abilitata nell'area di lavoro **Gestione funzionalità**, la [Libreria EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) viene utilizzata per produrre l'output di Excel. Tuttavia, a causa del noto [Comportamento di Excel](https://answers.microsoft.com/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) e di una limitazione della libreria EPPlus, potresti riscontrare la seguente eccezione: "Impossibile eliminare/sovrascrivere le celle unite. Un intervallo viene parzialmente unito all'altro intervallo unito." Per sapere che tipo di modelli di Excel possono causare questa eccezione e come risolvere il problema, completa l'esempio seguente.
+È possibile eseguire un formato ER per generare un documento in uscita in un formato cartella di lavoro di Excel. Quando la funzionalità **Abilita l'utilizzo della libreria EPPlus nel framework per la creazione di report elettronici** è abilitata nell'area di lavoro **Gestione funzionalità**, la [Libreria EPPlus](https://www.nuget.org/packages/epplus/4.5.2.1) viene utilizzata per produrre l'output di Excel. Tuttavia, a causa del noto [Comportamento di Excel](https://answers.microsoft.com/en-us/msoffice/forum/all/deleting-a-range-of-cells-that-includes-merged/8601462c-4e2c-48e0-bd23-848eecb872a9) e di una limitazione della libreria EPPlus, potresti riscontrare la seguente eccezione: "Impossibile eliminare/sovrascrivere le celle unite. Un intervallo viene parzialmente unito all'altro intervallo unito." Per sapere che tipo di modelli di Excel possono causare questa eccezione e come risolvere il problema, completa l'esempio seguente.
 
 1. Nell'applicazione desktop Excel, crea una nuova cartella di lavoro di Excel.
 2. Nel foglio di lavoro **Foglio1**, aggiungi il nome **ReportTitle** per la cella **A2**.

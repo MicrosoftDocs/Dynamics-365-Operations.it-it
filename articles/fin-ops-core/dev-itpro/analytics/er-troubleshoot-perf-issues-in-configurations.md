@@ -2,7 +2,7 @@
 title: Risoluzione dei problemi di prestazioni nelle configurazioni di ER
 description: Questo argomento spiega come trovare e risolvere i problemi di prestazioni nelle configurazioni di Creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 06/08/2021
+ms.date: 05/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744388"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811682"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Risoluzione dei problemi di prestazioni nelle configurazioni di ER
 
@@ -55,7 +55,7 @@ A volte, i problemi di prestazioni non sono causati da una configurazione del fo
 
 Preparare un piccolo esempio o raccogliere diverse tracce durante le parti casuali della generazione del rapporto.
 
-Quindi, nel [parser di traccia](#trace-parser), eseguire un-analisi bottom-to-up standard e rispondere alle seguenti domande:
+Quindi, nel [parser di traccia](#trace-parser), esegui un'analisi dal basso verso l'alto standard e rispondi alle seguenti domande:
 
 - Quali sono i metodi migliori in termini di consumo di tempo?
 - Quanta parte del tempo totale utilizzano questi metodi?
@@ -82,7 +82,7 @@ Quindi, aprire la traccia nella soluzione di progettazione del mapping del model
 
 - Il numero di query e record recuperati corrisponde alla quantità complessiva di dati? Ad esempio, se un documento ha 10 righe, le statistiche mostrano che il report estrae 10 righe o 1.000 righe? Se si dispone di un numero considerevole di record recuperati, prendere in considerazione una delle seguenti correzioni:
 
-    - [Usare la funzione **FILTER** anziché la funzione **WHERE**](#filter) per elaborare i dati sul lato SQL Server.
+    - [Usa a funzione **FILTER** anziché la funzione **WHERE**](#filter) per elaborare i dati sul lato Microsoft SQL Server.
     - Utilizzare la memorizzazione nella cache per evitare di recuperare gli stessi dati.
     - [Utilizzare le funzioni dei dati raccolti](#collected-data) per evitare di recuperare gli stessi dati per il riepilogo.
 
@@ -190,6 +190,10 @@ Esistono alcune limitazioni a questo approccio. È necessario disporre dell'acce
 #### <a name="use-caching"></a><a name="use-caching"></a>Usare la memorizzazione nella cache
 
 Sebbene la memorizzazione nella cache riduca la quantità di tempo necessaria per recuperare nuovamente i dati, ha un costo significativo in termini di memoria. Usare la memorizzazione nella cache nei casi in cui la quantità di dati recuperati non è molto grande. Per ulteriori informazioni e un esempio che mostra come utilizzare la memorizzazione nella cache, vedere [Migliorare il mapping del modello in base alle informazioni della traccia di esecuzione](trace-execution-er-troubleshoot-perf.md#improve-the-model-mapping-based-on-information-from-the-execution-trace).
+
+#### <a name="reduce-volume-of-data-fetched"></a><a name="reduce-fetched-data"></a>Ridurre il volume dei dati recuperati
+
+È possibile ridurre il consumo di memoria per la memorizzazione nella cache limitando il numero di campi nei record di una tabella dell'applicazione che si recupera in fase di esecuzione. In questo caso, recupererai solo quei valori di campo di una tabella dell'applicazione di cui hai bisogno nel mapping di modello ER. Gli altri campi in quella tabella non verranno recuperati. Pertanto, il volume di memoria necessario per memorizzare nella cache i record recuperati viene ridotto. Per ulteriori informazioni, vedi [Migliorare le prestazioni delle soluzioni ER riducendo il numero di campi della tabella recuperati in fase di esecuzione](er-reduce-fetched-fields-number.md).
 
 #### <a name="use-a-cached-parameterized-calculated-field"></a><a name="cached-parameterized"></a>Usare un campo calcolato memorizzato nella cache e parametrizzato
 

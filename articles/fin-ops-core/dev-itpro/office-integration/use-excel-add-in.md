@@ -2,7 +2,7 @@
 title: Visualizzare e aggiornare i dati entità con Excel
 description: In questo argomento viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo di Excel di Microsoft Dynamics.
 author: jasongre
-ms.date: 10/01/2021
+ms.date: 05/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b97c585009b50c6623036d10f54e78a65a89cea
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: f5090674fc4f7c49c55a8a12aea8c567545d519f
+ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464939"
+ms.lasthandoff: 05/16/2022
+ms.locfileid: "8762655"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Visualizzare e aggiornare i dati entità con Excel 
 
@@ -110,7 +110,7 @@ Se le origini dati sono state aggiunte come origini dati correlate, l'intestazio
 5. Se è stato aggiunto un campo (colonna), selezionare **Aggiorna** per effettuare il pull di una serie aggiornata di dati.
 
 ## <a name="change-the-publish-batch-size"></a>Modificare la dimensione del batch di pubblicazione
-Quando gli utenti pubblicano le modifiche ai record di dati utilizzando il componente aggiuntivo di Excel, gli aggiornamenti vengono inviati in batch. La dimensione predefinita del batch di pubblicazione è 100 righe. Nella versione 10.0.17 e successive, la funzionalità **Consenti la configurazione delle dimensioni del batch di pubblicazione nel componente aggiuntivo di Excel** offre un controllo flessibile sulla dimensione del batch di pubblicazione.
+Quando gli utenti pubblicano le modifiche ai record di dati utilizzando il componente aggiuntivo di Excel, gli aggiornamenti vengono inviati in batch. La dimensione del batch di pubblicazione predefinita (e massima) è 100 righe; in ogni caso, la funzionalità **Consenti configurazione della dimensione batch di pubblicazione nel componente aggiuntivo di Excel** offre flessibilità nel ridurre le dimensioni del batch di pubblicazione, soprattutto se si verificano dei timeout quando si tenta di pubblicare gli aggiornamenti da Excel.
 
 Gli amministratori di sistema possono specificare un limite a livello di sistema per le dimensioni del batch di pubblicazione per le cartelle di lavoro "Apri in Excel" impostando il campo **Pubblica limite batch** nella sezione **Parametri dell'app** della pagina **Parametri dell'app di Office**.
 

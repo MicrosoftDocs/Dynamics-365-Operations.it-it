@@ -2,7 +2,7 @@
 title: Impostare un canale di vendita al dettaglio
 description: In questo argomento viene descritto come creare un nuovo canale di vendita al dettaglio in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 04/23/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6a8db8bb4b42c7ad6c0c0e0c257bc03e356de7d525f524c22eab46e38c018d49
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74a4f0f61e0bbfd73d0006d3cf45863af6fef18f
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745408"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770223"
 ---
 # <a name="set-up-a-retail-channel"></a>Impostare un canale di vendita al dettaglio
 
@@ -90,6 +90,13 @@ Per impostare i metodi di pagamento per ogni tipo di pagamento supportato per un
 L'immagine seguente illustra un esempio di metodo di pagamento in contanti.
 
 ![Esempio di metodi di pagamento.](media/channel-setup-retail-5.png)
+
+L'immagine seguente mostra un esempio di un metodo di pagamento in contanti e la configurazione della scheda **Quantità**.
+
+![Esempio di impostazione del metodo di pagamento per gli importi.](media/payment-methods-recount.png)
+
+> [!NOTE]
+> I valori per la scheda **Quantità** vengono memorizzati nella cache nel server di vendita al dettaglio e non avranno effetto immediatamente dopo l'esecuzione dei processi di pianificazione della distribuzione. Potrebbe essere necessario riavviare Unità di scala cloud per applicare immediatamente questi valori per il test.
 
 ### <a name="set-up-cash-declaration"></a>Impostare il riepilogo di cassa
 

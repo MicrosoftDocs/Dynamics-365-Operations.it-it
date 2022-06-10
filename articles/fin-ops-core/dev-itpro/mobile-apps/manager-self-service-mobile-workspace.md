@@ -2,7 +2,7 @@
 title: Area di lavoro mobile Team personale
 description: Questo argomento fornisce informazioni sull'area di lavoro Team personale, che consente ai responsabili di visualizzare i loro diretti subalterni e il personale esteso.
 author: ShielaSogge
-ms.date: 12/01/2017
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,16 +12,17 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 74abb4ce77b4fc13c614e8e1b734e1b9f5f24e0a728a10b79508e6be4faf3dca
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7793bd6bb1c2dfb5f6840430914393e837242fb5
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767114"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811059"
 ---
 # <a name="my-team-mobile-workspace"></a>Area di lavoro mobile Team personale
 
 [!include [banner](../includes/banner.md)]
+[!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
 In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Team personale**. Quest'area di lavoro consente ai responsabili di visualizzare i loro subalterni diretti e il personale esteso. Possono inoltre inviare complimenti ai singoli alle persone della loro catena di subalterni.
 
@@ -49,12 +50,12 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 <tbody>
 <tr class="odd">
 <td>Uno dei seguenti prodotti deve essere distribuito nell'organizzazione:
-<ul><li>Un'app Finance and Operations</li>
+<ul><li>App Finance and Operations</li>
 <li>Microsoft Dynamics 365 Human Resources</li>
 </ul>
 </td>
 <td>Amministratore di sistema</td>
-<td>Se l'app Finance and Operations non è stata ancora distribuito nell'organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>. Se Human Resources non è stata ancora distribuita nell'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione dalla <a href="https://dynamics.microsoft.com/human-resources/overview/">pagina Web di Human Resources</a>.
+<td>Se l'app Finance and Operations non è stato ancora distribuito nell&#39;organizzazione, vedere <a href="../deployment/deploy-demo-environment.md">Distribuire un ambiente di dimostrazione</a>. Se Human Resources non è stata ancora distribuita nell'organizzazione, l'amministratore di sistema può accedere a una versione di valutazione dalla <a href="https://dynamics.microsoft.com/human-resources/overview/">pagina Web di Human Resources</a>.
 </td>
 </tr>
 <tr class="even">

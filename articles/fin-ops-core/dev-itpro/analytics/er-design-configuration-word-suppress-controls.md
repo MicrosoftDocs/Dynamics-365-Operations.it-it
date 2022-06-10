@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: f8e74902e939355aba9bbadd8e7f8f8aa46fe5c5
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323927"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782178"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Sopprimere i controlli del contenuto di Word nei report generati
 
@@ -47,7 +47,7 @@ Dopo aver completato i passaggi di queste guide attività, vengono preparati i s
 
 È inoltre necessario scaricare e salvare il seguente modello per il report di esempio:
 
-- [Modello associato 2 di Report di pagamento (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/a/1/2/a126cb43-6281-4f7b-bde0-25e03ff9bc1e/SampleVendPaymDocReportBounded2.docx)
+- [Modello associato 2 di Report di pagamento (SampleVendPaymDocReportBounded2.docx)](https://download.microsoft.com/download/1/9/b/19b36e39-861a-414e-9150-9880d9d2487c/SampleVendPaymDocReportBounded2.docx)
 
 ## <a name="review-the-downloaded-word-template"></a><a id="tag-control"></a>Rivedere il modello di Word scaricato
 

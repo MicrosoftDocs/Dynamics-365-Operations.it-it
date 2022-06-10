@@ -2,7 +2,7 @@
 title: Designer formula nella creazione di report elettronici (ER)
 description: In questo argomento sono riportate le informazioni sull'utilizzo di designer formula nella creazione di report elettronici (ER).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 04/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eec63fb1782c5afed0320eb841b6bfc92af31a691731ef6bac5d00ed442c0dcd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
+ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6777406"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8782206"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
@@ -41,7 +41,8 @@ La pagina **Designer formula** può essere aperta quando si esegue una delle seg
 - Associazione di articoli di origini dati a componenti del modello dati.
 - Associazione di articoli di origini dati a componenti del formato.
 - Gestione completa dei campi calcolati che sono parte delle origini dati.
-- Definizione delle condizioni di visibilità per i parametri di input utente.
+- Definizione delle condizioni di visibilità e modificabilità per i parametri di input utente.
+- Definizione dei valori predefiniti per i parametri di input utente.
 - Progettazione delle trasformazioni di un formato.
 - Definizione delle condizioni di abilitazione per i componenti del formato.
 - Definizione dei nomi di file per i componenti FILE del formato.

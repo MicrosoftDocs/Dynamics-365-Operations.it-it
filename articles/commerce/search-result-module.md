@@ -2,7 +2,7 @@
 title: Modulo dei risultati di ricerca
 description: Questo argomento tratta i moduli dei risultati di ricerca e descrive come aggiungerli alle pagine del sito in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/21/2022
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 15b3bb50eb0b75fa19ac8e136da83cb362b4cec6
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dcf3dedbb7c499135bbae45b917153854ecd4a28
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644928"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780920"
 ---
 # <a name="search-results-module"></a>Modulo dei risultati di ricerca
 
@@ -65,23 +65,26 @@ Il modulo di risultati di ricerca supporta il [modulo di visualizzazione rapida]
 
 ## <a name="add-a-search-results-module-to-a-category-page"></a>Aggiungere un modulo dei risultati di ricerca a una pagina di categoria
 
-Per aggiungere un modulo di risultati di ricerca a una pagina di categoria effettua le seguenti operazioni.
+Per aggiungere un modulo di risultati della ricerca alla pagina di una categoria in Creazione di siti Web, effettua le seguenti operazioni.
 
 1. Andare a **Modelli** e selezionare **Nuovo** per creare un nuovo modello.
 1. Nella finestra di dialogo **Nuovo modello**, immetti il nome **Risultati di ricerca** e seleziona **OK**.
 1. Nello slot **Corpo** seleziona i puntini di sospensione (...), quindi seleziona **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Pagina predefinita** e quindi selezionare **OK**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Pagina predefinita** e quindi seleziona **OK**.
 1. Nello slot **Principale** del modulo **Pagina predefinita**, seleziona i puntini di sospensione (...) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Contenitore** e quindi **OK**.
+1. Nella finestra di dialogo **Seleziona moduli** selezionare il modulo **Contenitore** e quindi **OK**.
 1. Nello slot **Contenitore** seleziona i puntini di sospensione (...), quindi seleziona **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Percorso di navigazione** e quindi **OK**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Breadcrumb** e quindi **OK**.
 1. Nel riquadro delle proprietà **Percorso di navigazione** immetti il valore **1** per **Numero minimo ricorrenze**.
 1. Nello slot **Contenitore** seleziona i puntini di sospensione (...), quindi seleziona **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Risultati di ricerca** e quindi **OK**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Risultati di ricerca** e quindi **OK**.
 1. Nel riquadro delle proprietà **Risultati di ricerca**, immetti il valore **1** per **Numero minimo ricorrenze** e quindi imposta qualsiasi altra proprietà richiesta per il modulo dei risultati di ricerca. Impostando queste proprietà nel modello, ti assicuri che qualsiasi personalizzazione per una pagina di categoria specifica includerà automaticamente queste impostazioni.
 1. Selezionare **Fine modifica**, quindi selezionare **Pubblica** per pubblicare il modello.
 1. Accedi a **Pagine** e quindi seleziona **Nuovo** per creare una nuova pagina.
-1. Nella finestra di dialogo **Scegli un modello**, seleziona il modello **Risultati di ricerca** creato, quindi immetti **Pagina categoria** per **Nome pagina**, e seleziona **OK**. Poiché tutti i valori sono impostati nel modello, la pagina è pronta per essere pubblicata.
+1. Nella finestra di dialogo **Crea una nuova pagina**, sotto **Nome pagina**, immetti **Pagina categoria**, quindi seleziona **Avanti**.
+1. Sotto **Scegli un modello**, seleziona il modello **Risultati della ricerca** creato e seleziona **Avanti**.
+1. Sotto **Scegli un layout**, seleziona un layout di pagina (ad esempio, **Layout flessibile**), quindi seleziona **Avanti**.
+1. Sotto **Verifica e termina**, rivedi la configurazione della pagina. Se è necessario modificare le informazioni sulla pagina, seleziona **Indietro**. Se le informazioni sulla pagina sono corrette, seleziona **Crea pagina**.
 1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
 
 ## <a name="enable-inventory-awareness-for-the-search-results-module"></a>Abilitare la consapevolezza dell'inventario per il modulo dei risultati di ricerca
@@ -102,7 +105,7 @@ La ricerca di prodotti in base all'inventario utilizza gli attributi del prodott
 
 Per creare attributi di prodotto dedicati per supportare il modulo dei risultati di ricerca in base all'inventario, segui questi passaggi.
 
-1. Vai in **Retail e Commerce \> Vendita al dettaglio e commercio IT \> Prodotti e inventario**.
+1. In headquarters vai a **Vendita al dettaglio e commercio \> Vendita al dettaglio e commercio IT \> Prodotti e inventario**.
 1. Seleziona e apri **Popola attributi di prodotto con livello scorte**.
 1. Nella finestra di dialogo immetti le seguenti informazioni:
 
@@ -116,11 +119,11 @@ Per creare attributi di prodotto dedicati per supportare il modulo dei risultati
 
 Per configurare gli attributi del prodotto per un canale online, attieniti alla seguente procedura. 
 
-1. Passare a **Retail e Commerce \> Impostazione canale \> Categorie canale e attributi del prodotto**.
-2. Seleziona un canale online per il quale abilitare il modulo dei risultati di ricerca in base all'inventario.
-3. Seleziona e apri un gruppo di attributi associato e aggiungi l'attributo di prodotto appena creato.
-4. Per le versioni di Commerce precedenti alla versione 10.0.27, seleziona **Imposta metadati di attributi**, seleziona l'attributo di prodotto appena aggiunto, quindi attiva le opzioni **Mostra attributo sul canale**, **Recuperabile**, **Ridefinizione possibile**, ed **Esecuzione query possibile**.
-5. Vai a **Vendita al dettaglio e commercio \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**, ed esegui il processo **1150 (Catalogo)**. Se pianifichi il processo **Popola attributi di prodotto con livello scorte** come processo batch, ti consigliamo di pianificare anche il processo 1150 come processo batch che viene eseguito con la stessa frequenza.
+1. Nelle sedi centrali, andare a **Vendita al dettaglio e commercio \> Impostazione canale \> Categorie canale e attributi del prodotto**.
+1. Seleziona un canale online per il quale abilitare il modulo dei risultati di ricerca in base all'inventario.
+1. Seleziona e apri un gruppo di attributi associato e aggiungi l'attributo di prodotto appena creato.
+1. Per le versioni di Commerce precedenti alla versione 10.0.27, seleziona **Imposta metadati di attributi**, seleziona l'attributo di prodotto appena aggiunto, quindi attiva le opzioni **Mostra attributo sul canale**, **Recuperabile**, **Ridefinizione possibile**, ed **Esecuzione query possibile**.
+1. Vai a **Vendita al dettaglio e commercio \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**, ed esegui il processo **1150 (Catalogo)**. Se pianifichi il processo **Popola attributi di prodotto con livello scorte** come processo batch, ti consigliamo di pianificare anche il processo 1150 come processo batch che viene eseguito con la stessa frequenza.
 
 > [!NOTE]
 > Per i prodotti visualizzati nel modulo dei risultati di ricerca, il livello di scorte viene visualizzato a livello di rappresentazione generale prodotto anziché a livello di singola variante. Ha solo due valori possibili: "disponibile" ed "esaurito". L'etichetta effettiva per il valore viene recuperata dalla definizione [profilo del livello di scorte](inventory-buffers-levels.md). Una rappresentazione generale prodotto è considerata esaurita solo quando tutte le sue varianti sono esaurite.

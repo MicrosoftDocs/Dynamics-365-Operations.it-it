@@ -2,24 +2,19 @@
 title: Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito
 description: In questo argomento vengono descritte le considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito dallo sviluppo alla produzione.
 author: psimolin
-ms.date: 10/01/2019
+ms.date: 05/25/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application user
+audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: df92aeae967bbf248b90dffc6bc2239a8d2959183acb9e9181bc344b9e3eff8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716859"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806407"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito
 
@@ -30,11 +25,15 @@ In questo argomento vengono descritte le considerazioni SEO (ottimizzazione del 
 
 ## <a name="a-site-that-is-under-development"></a>Sito in fase di sviluppo
 
-Quando un sito è in fase di sviluppo, tutte le pagine del sito deve avere i tag **NOFOLLOW** e **NOINDEX**, di modo che i motori di ricerca non indicizzino le pagine e memorizzino le versioni di sviluppo del sito nella cache. Per eseguire questa configurazione, è necessario aggiungere il modulo Tag meta predefinito al modello di pagina del sito. Le proprietà dei tag meta predefiniti saranno quindi disponibili nella sezione delle proprietà SEO nell'editor di pagine. È possibile utilizzare queste proprietà per gestire i tag meta.
+Per garantire che i motori di ricerca non indicizzino un sito in fase di sviluppo, tutte le pagine del sito devono avere i meta tag **noindex** e **nofollow**. Una buona pratica è creare un frammento basato sul [modulo MetaTag](metatags-module.md) che contiene la seguente voce di meta tag e assicurarsi che il frammento venga aggiunto alla sezione HTML \<head\> di tutti i modelli utilizzati sul tuo sito.
+
+```html
+<meta name="robots" content="noindex,nofollow" /> 
+```
 
 ## <a name="soft-launch-of-a-site"></a>Soft launch di un sito
 
-Durante un "soft launch", un sito Web è disponibile a un'audience o un mercato limitato prima che venga eseguito il full launch. Se si esegue un soft launch del sito Web, è necessario prendere in considerazione la possibilità di mantenere i tag meta **NOINDEX**. In questo modo, il soft launch rimane disponibile solo per l'audience limitata a cui è destinato.
+Durante un "soft launch", un sito Web è disponibile a un'audience o un mercato limitato prima che venga eseguito il full launch. Se si esegue un soft launch del sito Web, è necessario prendere in considerazione la possibilità di mantenere i meta tag **noindex**. In questo modo, il soft launch rimane disponibile solo per l'audience limitata a cui è destinato.
 
 ## <a name="a-site-that-is-in-production"></a>Sito in produzione
 
@@ -44,7 +43,7 @@ Per ottimizzare l'indicizzazione del motore di ricerca, il framework di renderin
 
 ### <a name="page-seo-settings-for-internal-preview-limited-audiences-and-all-audiences"></a>Impostazioni SEO delle pagine per anteprima interna, audience limitata e tutte le audience
 
-Poiché Dynamics 365 Commerce supporta le anteprime autenticate WYSIWYG nel generatore di pagine visivo, gli autori possono preparare il contenuto delle pagine senza preoccuparsi che le informazioni saranno visibili ai visitatori del sito. Se è necessario pubblicare una pagina, ma l'esposizione deve essere limitata, deve avere il tag meta **NOINDEX**, di modo che non venga indicizzata dai motori di ricerca. Quindi, quando la pagina è pronta per tutte le audience, tutti i metadati SEO di base devono essere presenti, allo scopo di ottimizzare l'efficienza di indicizzazione dei motori di ricerca. Inoltre, il tag meta **NOLIMIT** deve essere rimosso.
+Poiché Dynamics 365 Commerce supporta le anteprime autenticate WYSIWYG nel generatore di pagine visivo, gli autori possono preparare il contenuto delle pagine senza preoccuparsi che le informazioni saranno visibili ai visitatori del sito. Se è necessario pubblicare una pagina, ma l'esposizione deve essere limitata, deve avere il meta tag **noindex**, di modo che non venga indicizzata dai motori di ricerca. Quindi, quando la pagina è pronta per tutte le audience, tutti i metadati SEO di base devono essere presenti, allo scopo di ottimizzare l'efficienza di indicizzazione dei motori di ricerca. Inoltre, il meta tag **nolimit** deve essere rimosso.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

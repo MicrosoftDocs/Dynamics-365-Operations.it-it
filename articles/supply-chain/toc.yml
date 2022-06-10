@@ -12,6 +12,8 @@
               items:
                 - name: Home page Novità o modifiche di Supply Chain Management
                   href: get-started/whats-new-home-page.md
+                - name: Supply Chain Management 10.0.28 (agosto 2022)
+                  href: get-started/whats-new-scm-10-0-28.md
                 - name: Supply Chain Management 10.0.27 (luglio 2022)
                   href: get-started/whats-new-scm-10-0-27.md
                 - name: Supply Chain Management 10.0.26 (maggio 2022)
@@ -711,6 +713,8 @@
           items:
             - name: Home page gestione dei costi
               href: cost-management/cost-management-home-page.md
+            - name: Domande frequenti sui costi di inventario
+              href: cost-management/inventory-costing-faq.md
             - name: Prerequisiti per i costi standard
               items:
                 - name: Prerequisiti per panoramica dei costi standard
@@ -1423,10 +1427,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Utilizzare BARCODE per generare immagini di codici a barre
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Configurare le origini dati LOOKUP per utilizzare i parametri specifici dell'applicazione ER
+                    - name: Configurare le origini dati RICERCA per utilizzare i parametri specifici dell'applicazione Report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Utilizzare le origini dati RACCOLTA DATI nei formati Report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Utilizzare le origini dati USER INPUT PARAMETER per specificare i parametri per un report da generare
+                      href: ../fin-ops-core/dev-itpro/analytics/er-user-input-parameter-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Debug delle origini dati
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Configurare modelli dati
@@ -1707,7 +1713,9 @@
                   href: inventory/inventory-visibility-power-platform.md
                 - name: Prenotazioni di Inventory Visibility
                   href: inventory/inventory-visibility-reservations.md
-                - name: Programma di modifiche pratiche a Visibilità inventario e modalità ATP (available-to-promise)
+                - name: Allocazione inventario di Inventory Visibility
+                  href: inventory/inventory-visibility-allocation.md
+                - name: Programma di modifiche pratiche a Inventory Visibility e modalità ATP (available-to-promise)
                   href: inventory/inventory-visibility-available-to-promise.md
                 - name: API pubbliche per Visibilità inventario
                   href: inventory/inventory-visibility-api.md
@@ -3285,6 +3293,18 @@
               href: landed-cost/landed-cost-inquiries.md
             - name: Report sui costi di spedizione
               href: landed-cost/landed-cost-reports.md
+            - name: Entità di dati costi di spedizione
+              items:
+                - name: Panoramica delle entità dei costi di spedizione
+                  href: landed-cost\landed-cost-entities-overview.md
+                - name: Entità di creazione viaggi
+                  href: landed-cost\landed-cost-entities-voyage-creation.md
+                - name: Entità di transazione costi
+                  href: landed-cost\landed-cost-entities-cost-transactions.md
+                - name: Entità di attività contenitore
+                  href: landed-cost\landed-cost-entities-container-activities.md
+                - name: Entità di fatture fornitore
+                  href: landed-cost\landed-cost-entities-vendor-invoices.md
         - name: Gestione magazzino
           items:
             - name: Panoramica gestione del magazzino

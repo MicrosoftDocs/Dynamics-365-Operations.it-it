@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
 author: sericks007
-ms.date: 04/26/2022
+ms.date: 05/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0cf0d4b3ff108645c8542ce10a0be58d29cc68ed
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644609"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811248"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -31,6 +31,33 @@ In questo argomento vengono descritte le funzionalità rimosse, o di cui è stat
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
 Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per finanza e operazioni.
+
+
+## <a name="feature-deprecation-effective-june-2022"></a>Ritiro delle funzionalità in vigore da giugno 2022
+
+### <a name="finance-and-operations-dynamics-365-mobile-application-and-mobile-platform"></a>Applicazione per la finanza e le operazioni (Dynamics 365) per dispositivi mobili e piattaforma per dispositivi mobili 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Stiamo deprecando l'applicazione per la finanza e le operazioni (Dynamics 365) per dispositivi mobili e la piattaforma per dispositivi mobili per consolidarla in un'unica piattaforma mobile, che è Power Apps. |
+| **Sostituita da un'altra funzionalità?**   | Sì, è possibile creare esperienze mobili tramite i dati dell'app per la finanza e le operazioni con l'integrazione Power Platform. Vedi [Creare esperienze mobili](../power-platform/build-mobile-experiences.md) per ulteriori dettagli. |
+| **Aree del prodotto interessate**         | App Finanza e operazioni |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecato. La data di fine del supporto è prevista per ottobre 2024. |
+
+
+## <a name="platform-updates-for-version-10029-of-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per la versione 10.0.29 delle app per la finanza e le operazioni
+
+### <a name="panorama-tab-style"></a>Stile della scheda Panorama
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Le pagine a scorrimento orizzontale si allineano a schemi di layout obsoleti che presentano problemi di usabilità e accessibilità noti.  |
+| **Sostituita da un'altra funzionalità?**   | No, ma sono ancora disponibili altri stili di scheda. |
+| **Aree del prodotto interessate**         | Client Web |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecato. |
+
 
 ## <a name="feature-deprecation-effective-april-2022"></a>Ritiro delle funzionalità in vigore da aprile 2022
 

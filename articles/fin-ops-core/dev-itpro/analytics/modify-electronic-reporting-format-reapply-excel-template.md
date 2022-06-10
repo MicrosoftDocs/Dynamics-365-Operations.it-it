@@ -2,7 +2,7 @@
 title: Modificare i formati per la creazione di report elettronici riapplicando modelli di Excel
 description: Questo argomento descrive come modificare il formato di creazione di report elettronici (ER) utilizzato per generare documenti aziendali riapplicando un modello di Excel modificato.
 author: NickSelin
-ms.date: 06/01/2017
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57f0db12657878fa34c86c55925d62100c26cad8799e5e6ace7e7dd81d91cd9f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 626450b05789c93f63675a55e050649c862c86f6
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737877"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811394"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Modificare i formati per la creazione di report elettronici riapplicando i modelli di Excel
 
@@ -28,9 +28,12 @@ ms.locfileid: "6737877"
 
 Lo strumento di creazione di report elettronici viene utilizzato per generare documenti aziendali in formato elettronico. Per generare un documento aziendale, è necessario creare un formato ER e quindi utilizzare la finestra di progettazione ER per definire il layout del documento aziendale e specificare i dati da includere nello stesso. È quindi possibile eseguire il formato ER per generare il documento aziendale.
 
-Lo strumento di creazione di report elettronici può essere utilizzato per generare documenti aziendali come file di Microsoft Excel. È possibile utilizzare un documento di Excel come modello per tali documenti. Per definire il layout di documento nella finestra di progettazione ER, è possibile importare il contenuto del documento di Excel che si desidera utilizzare come modello nel formato ER definito. Per ulteriori dettagli e per acquisire familiarità con questo scenario, riprodurre la guida attività **Creazione di report elettronici: progettare una configurazione per la generazione di report in formato OPENXML** (parte del processo aziendale 7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)).
+Lo strumento di creazione di report elettronici può essere utilizzato per generare documenti aziendali come file di Microsoft Excel. È possibile utilizzare un documento di Excel come modello per tali documenti. Per definire il layout di documento nella finestra di progettazione ER, è possibile importare il contenuto del documento di Excel che si desidera utilizzare come modello nel formato ER definito. Per ulteriori dettagli e per acquisire familiarità con questo scenario, riprodurre la guida attività **Creazione di report elettronici: progettare una configurazione per la generazione di report in formato OPENXML** (parte del processo aziendale 7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)). Nel passaggio della guida alle attività in cui si importa un modello Excel, utilizza il modello iniziale del file Excel del report di pagamento, [SampleVendPaymWsReport](https://download.microsoft.com/download/e/6/b/e6bb79f0-cc08-44af-96fa-49c7929d4fb8/SampleVendPaymWsReport.xlsx).
 
-Se si modifica il documento di Excel utilizzato come modello per un documento aziendale, la nuova funzionalità ER consente di riapplicare il modello aggiornato al formato ER. Il formato ER viene quindi aggiornato in modo che sia conforme al modello aggiornato. Per ulteriori informazioni su questa funzionalità, riprodurre la guida attività **Modificare un formato per la creazione di report elettronici riapplicando un modello di Excel** (parte del processo aziendale 7.5.5.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10683)). Nel passaggio della guida attività per importare un modello aggiornato, utilizzare il modello modificato del file di Excel Report di pagamento, SampleVendPaymWsReport2, come modello.
+Se si modifica il documento di Excel utilizzato come modello per un documento aziendale, la nuova funzionalità ER consente di riapplicare il modello aggiornato al formato ER. Il formato ER viene quindi aggiornato in modo che sia conforme al modello aggiornato. Per ulteriori informazioni su questa funzionalità, riprodurre la guida attività **Modificare un formato per la creazione di report elettronici riapplicando un modello di Excel** (parte del processo aziendale 7.5.5.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10683)). Nel passaggio della guida attività per importare un modello aggiornato, utilizza il modello modificato del file di Excel Report di pagamento, [SampleVendPaymWsReport2](https://download.microsoft.com/download/3/1/0/3104d397-c9c5-4227-b68e-f98625313801/SampleVendPaymWsReport2.xlsx).
 
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Aggiorna un modello](er-fillable-excel.md#update-a-template)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Modulo elenco immagini
 description: Questo argomento descrive i moduli elenco immagini e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7df62fe426799905f9d6d412c4c510b8ce021b7ddd768a98b8180ca7e9b467a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67da83410d819d01396d0b7d421076ee3b0f17ec
+ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742390"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "8780845"
 ---
 # <a name="image-list-module"></a>Modulo elenco immagini
 
@@ -53,12 +53,12 @@ L'illustrazione seguente mostra un esempio in cui un modulo elenco immagini visu
 Per aggiungere un modulo elenco immagini a una nuova pagina e impostare le proprietà necessarie nel generatore del sito Commercio, effettuare le seguenti operazioni.
 
 1. Andare a **Modelli** e aprire il modello di marketing per la home page del sito (o creare un nuovo modello di marketing).
-1. Nello slot **Principale** della pagina predefinita, selezionare i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare il modulo **Elenco immagini**, quindi selezionare **OK**.
+1. Nello slot **Principale** della pagina predefinita, seleziona i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona il modulo **Elenco immagini**, quindi scegli **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il modello, quindi selezionare **Pubblica** per pubblicarlo.
 1. Andare in **Pagine** e aprire la home page del sito (o creare una nuova home page utilizzando il modello di marketing).
-1. Nello slot **Principale** della pagina predefinita, selezionare il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
-1. Nella finestra di dialogo **Aggiungi modulo** selezionare **Elenco immagini**, quindi selezionare **OK**.
+1. Nello slot **Principale** della pagina predefinita, seleziona il pulsante con i puntini di sospensione (**...**) e quindi **Aggiungi modulo**.
+1. Nella finestra di dialogo **Seleziona moduli** seleziona **Elenco immagini** e quindi **OK**.
 1. Nel riquadro delle proprietà per il modulo elenco immagini, aggiungere un'intestazione, ad esempio **I nostri marchi**.
 1. Aggiungere un elemento elenco immagini e specificare un'immagine, del testo in paragrafi e un URL di reindirizzamento.
 1. Aggiungere e configurare ulteriori moduli elenco immagini in base alle esigenze.

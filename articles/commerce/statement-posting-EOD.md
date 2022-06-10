@@ -2,19 +2,19 @@
 title: Miglioramenti alla funzionalità di registrazione del rendiconto
 description: Questo argomento descrive i miglioramenti apportati alla funzionalità di registrazione dei rendiconti.
 author: analpert
-ms.date: 04/27/2022
+ms.date: 05/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: be9aa68aec1fd7deff315234a6dbf41edc3d6819
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: f3937ee7b34b7204c31d922900029ae3a2c59e18
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8649021"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770171"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
@@ -137,11 +137,11 @@ In alcune situazioni, le transazioni aggregate potrebbero non riuscire a registr
 
 ![Casella di controllo per il filtro Mostra solo errori nella vista delle transazioni aggregate.](media/aggregated-transactions-failure-view.png)
 
-Dalla pagina **Transazioni aggregate**, è possibile scaricare l'XML per una specifica transazione aggregata selezionando **Esporta dati aggregati**. È possibile rivedere l'XML in qualsiasi strumento di formattazione XML per visualizzare i dettagli dei dati effettivi che implicano la creazione e la registrazione di ordini di vendita. La funzionalità per il download dell'XML per le transazioni aggregate non è disponibile per i rendiconti registrati.
+Dalla pagina **Transazioni aggregate**, è possibile scaricare l'XML per una specifica transazione aggregata selezionando **Esporta dati aggregati**. È possibile rivedere l'XML in qualsiasi strumento di formattazione XML per visualizzare i dettagli dei dati effettivi che implicano la creazione e la registrazione di ordini cliente. La funzionalità per il download dell'XML per le transazioni aggregate non è disponibile per i rendiconti registrati.
 
 ![Pulsante Esporta dati di aggregazione nella pagina Transazioni aggregate.](media/aggregated-transactions-export.png)
 
-Nel caso in cui non sia possibile correggere l'errore correggendo i dati sull'ordine di vendita o i dati che supportano l'ordine di vendita, un pulsante **Elimina ordine cliente** è disponibile. Per eliminare un ordine, seleziona la transazione aggregata non riuscita, quindi seleziona **Elimina ordine cliente**. La transazione aggregata e l'ordine cliente corrispondente vengono eliminati. Ora puoi rivedere le transazioni utilizzando la funzionalità di modifica e controllo. In alternativa, possono essere rielaborati attraverso un nuovo rendiconto. Dopo che tutti gli errori sono stati corretti, è possibile riprendere la registrazione del rendiconto eseguendo la funzione di post rendiconto per il rendiconto pertinente.
+Nel caso in cui non sia possibile correggere l'errore correggendo i dati sull'ordine cliente o i dati che supportano l'ordine cliente, un pulsante **Elimina ordine cliente** è disponibile. Per eliminare un ordine, seleziona la transazione aggregata non riuscita, quindi seleziona **Elimina ordine cliente**. La transazione aggregata e l'ordine cliente corrispondente vengono eliminati. Ora puoi rivedere le transazioni utilizzando la funzionalità di modifica e controllo. In alternativa, possono essere rielaborati attraverso un nuovo rendiconto. Dopo che tutti gli errori sono stati corretti, è possibile riprendere la registrazione del rendiconto eseguendo la funzione di post rendiconto per il rendiconto pertinente.
 
 ![Pulsante Elimina ordine cliente nella vista delle transazioni aggregate.](media/aggregated-transactions-delete-cust-order.png)
 
@@ -151,6 +151,9 @@ La visualizzazione delle transazioni aggregate fornisce i seguenti vantaggi:
 - L'utente ha visibilità sul modo in cui le transazioni vengono aggregate.
 - L'utente dispone di un audit trail completo, dalle transazioni agli ordini cliente e alle fatture di vendita. Questo audit trail non era disponibile nella funzionalità di registrazione dei rendiconti legacy.
 - Il file XML aggregato rende più semplice l'identificazione di eventuali problemi durante la creazione e la fatturazione di ordini cliente.
+
+> [!NOTE]
+> Quando le transazioni vengono aggregate, il membro del personale assegnato alla transazione non è più disponibile per il **Report primi venditori**, nel senso che il **Report primi venditori** non mostrerà tutte le transazioni. Ti consigliamo di non utilizzare il **Report primi venditori** con transazioni aggregate.
 
 ### <a name="journal-vouchers"></a>Giustificativi giornale di registrazione
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 13768988fcb2b1485753b29b3562c20ee6ba35c7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1c6d0952b98334dc0c0a2e780a7c6f54a7811185
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687759"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811744"
 ---
 # <a name="tax-calculation-overview"></a>Panoramica calcolo delle imposte
 
@@ -89,7 +89,7 @@ Ecco uno schema del processo di flusso dei dati per Calcolo imposta.
 2. In RCS, creare o mantenere caratteristiche fiscali. È possibile utilizzare le funzioni fiscali per mantenere le aliquote d'imposta e le regole di applicabilità dell'imposta.
 3. Dopo che la configurazione delle caratteristiche fiscali è stata completata, pubblica le configurazioni fiscali e le caratteristiche fiscali da RCS al repository globale.
 4. In Finanza, seleziona quale versione di impostazione delle funzioni fiscali utilizzare per una specifica entità legale.
-5. In Finance e Supply Chain Management, operare le transazioni come al solito. Quando il calcolo delle tasse è necessario, il cliente raccoglierà le informazioni dalla transazione, come l'ordine di vendita o di acquisto, e impacchetterà le informazioni come payload. Verrà quindi inviata una richiesta per calcolare la tassa.
+5. In Finance e Supply Chain Management, operare le transazioni come al solito. Quando il calcolo delle tasse è necessario, il cliente raccoglierà le informazioni dalla transazione, come l'ordine cliente o fornitore, e impacchetterà le informazioni come payload. Verrà quindi inviata una richiesta per calcolare la tassa.
 6. La richiesta di calcolo dell'imposta viene ricevuta dal cliente e il calcolo viene completato. Il risultato fiscale viene poi restituito al cliente.
 7. Il client Dynamics 365 riceve il risultato dell'imposta e presenta il risultato del calcolo dell'imposta su una pagina dell'imposta sulle vendite.
 
@@ -142,6 +142,11 @@ Le seguenti transazioni sono supportate nella versione 10.0.26:
 
 - Giornali di registrazione generali
 - Giornale di registrazione fatture fornitore
+
+Le seguenti transazioni sono supportate nella versione 10.0.28: 
+
+- Giornale di registrazione pagamenti fornitore
+- Giornale di registrazione pagamenti cliente
 
 ## <a name="supported-countriesregions"></a>Paesi/regioni supportati
 

@@ -2,7 +2,7 @@
 title: Operazioni POS online e offline
 description: In questo argomento vengono forniti i dettagli relativi alle operazioni POS in Dynamics 365 Commerce. Specifica dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili in modalità offline.
 author: jblucher
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dc281a691b34731fb0b5986222b41b436912c782
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 7e4556ad11cbea0cb8fb3c5447116a1b54576e17
+ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740684"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8811204"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -44,7 +44,7 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 > [!NOTE]
 > Le operazioni elencate di seguito vengono applicate all'ultima versione di Commerce. È possibile che alcune operazioni siano state modificate o che non siano disponibili nelle versioni precedenti.
 
-| ID   | Operazione                                         | Description                                                                                                                                                                                                    | Operazione utente?    | Schermata transazione | Schermata di benvenuto | Disponibile offline? | Specifica dell'applicazione |
+| ID   | Operazione                                         | Description                                                                                                                                                                                                    | Operazioni utente    | Schermata transazione | Schermata di benvenuto | Disponibile offline? | Specifica dell'applicazione |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |
 | 100  | Vendita prodotto                                      | Aggiunge un prodotto specificato alla transazione.                                                                                                                                                                    | Sì            | Sì                | Sì            | Sì               | Numero              |
 | 101  | Controllo del prezzo                                       | Cerca il prezzo per un prodotto specifico.                                                                                                                                        | Sì            | Sì                | Sì            | Sì               | Numero              |
@@ -273,11 +273,11 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 1219 | Aprire un URL nel POS                                   | Apri un URL configurato dall'amministratore in POS.                                                                                                                                                                           | Sì            | Sì                | Sì            | Sì               | Numero              |
 | 1220 | Gestisci cassaforte                                       | Gestisci la cassaforte per diversi registri.                                                                                                                                                                       | Sì            | Sì                | Sì            | Sì               | Numero              |
 | 1221 | Annulla transazioni sospese                       | Annulla le transazioni sospese.                                                                                                                                                                               | Sì            | Sì                | Sì            | Sì               | Numero              |
-| 1300 | Ignora registrazione fiscale                          | Ignora registrazione fiscale.                                                                                                                                                                                       | Sì            | Sì                | Sì            | Sì               | Sì             |
-| 1301 | Contrassegna l'evento fiscale come registrato                      |  Contrassegna l'evento fiscale come registrato.                                                                                                                                                                                  | Sì            | Sì                | Sì            | Sì               | Sì             |
-| 1302 | Processo di registrazione fiscale completo              | Processo di registrazione fiscale completo.                                                                                                                                                                           | Sì            | Sì                | Sì            | Sì               | Sì             |
-| 1303 | Ignora errore di verifica integrità                           | Ignora errore di verifica integrità.                                                                                                                                                                                        | Sì            | Sì                | Sì            | Sì               | Sì             |
-| 1304 |  Posticipa registrazione fiscale                     | Posticipare la registrazione fiscale.                                                                                                                                                                                  | Sì            | Sì                | Sì            | Sì               | Sì             |
+| 1300 | Ignora registrazione fiscale                          | Ignora registrazione fiscale.                                                                                                                                                                                       | Numero            | Numero                | Numero            | Sì               | Numero             |
+| 1301 | Contrassegna l'evento fiscale come registrato                      |  Contrassegna l'evento fiscale come registrato.                                                                                                                                                                                  | Numero            | Numero                | Numero            | Sì               | Numero             |
+| 1302 | Processo di registrazione fiscale completo              | Processo di registrazione fiscale completo.                                                                                                                                                                           | Numero            | Numero                | Sì            | Sì               | Sì             |
+| 1303 | Ignora errore di verifica integrità                           | Ignora errore di verifica integrità.                                                                                                                                                                                        | Sì            | Sì                | Sì            | Sì               | Numero             |
+| 1304 |  Posticipa registrazione fiscale                     | Posticipare la registrazione fiscale.                                                                                                                                                                                  | Numero            | Numero                | Numero            | Sì               | Numero             |
 | 1400 | Gestisci elenchi di controllo e attività                       | Gestisci l'elenco di controllo e le attività dei dipendenti.                                                                                                                                                                        | Numero             | Numero                 | Sì            | Numero                | Numero              |
 | 2000 | Gestione programmazione                               | Questa operazione non è ancora supportata.                                                                                                                                                                           | Sì            | Sì                | Sì            | No                | No              |
 | 2001 | Richieste di programmazione                                 | Questa operazione non è ancora supportata.                                                                                                                                                                           | Sì            | Sì                | Sì            | Numero                | Numero              |

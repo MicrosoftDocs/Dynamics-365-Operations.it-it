@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 5c2eb6c8e18770eb149c445f662ab7a90aad81a7
-ms.sourcegitcommit: 367e323bfcfe41976e5d8aa5f5e24a279909d8ac
+ms.openlocfilehash: 73dbc2242639a54d687506e7c325fec4b9a95d12
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8660455"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770156"
 ---
 # <a name="revenue-split-templates-in-subscription-billing"></a>Modelli di suddivisione ricavi in Fatturazione abbonamento
 
@@ -99,3 +99,54 @@ Per creare un programma di fatturazione con un articolo impostato per la suddivi
 > - Gli articoli figlio vengono inseriti automaticamente nell'ordine cliente o nella riga del programma di fatturazione.
 >
 > Se l'opzione **Crea automaticamente suddivisione dei ricavi** è impostata su **No**, il comportamento è come spiegato in precedenza.
+
+## <a name="additional-revenue-split-information"></a>Informazioni sulla suddivisione ricavi aggiuntive
+
+Quando aggiungi un elemento che fa parte di una suddivisione ricavi, tieni presente le seguenti informazioni: 
+
+- L'importo padre non può essere differito.
+- I valori di data di inizio, data di fine, quantità, unità, sito e magazzino degli articoli figlio si basano sull'articolo padre. Questi valori non possono essere modificati per gli articoli figlio. Tutte le modifiche devono essere apportate all'articolo padre. 
+- Il metodo di determinazione prezzi è **forfettario** e non può essere modificato.
+- Gli articoli figlio possono essere aggiunti o rimossi.
+- Gli articoli padre e figlio devono utilizzare lo stesso gruppo di articoli. 
+- Gli articoli figlio possono avere una delle seguenti configurazioni:
+
+    - I campi **Frequenza di fatturazione** e **Intervalli di fatturazione** sono impostati sullo stesso valore dell'articolo padre. 
+    - Il campo **Frequenza di fatturazione** è impostato su **Una volta**. In questo caso, il campo **Intervalli di fatturazione** viene impostato automaticamente su **1**. 
+
+- La somma degli importi netti degli articoli figlio è uguale all'importo dell'articolo padre. Se il metodo di allocazione è **Importi a zero**, sia la somma degli importi dell'articolo figlio che dell'importo padre sono 0 (zero). 
+
+    > [!NOTE]
+    > Se il metodo di allocazione è **Importo padre a zero**, la somma (diversa da zero) degli articoli figlio non è uguale all'importo padre, che è 0 (zero). Questo metodo di allocazione viene utilizzato per scopi interni, in modo che i dipendenti possano vedere gli articoli figlio. Tuttavia, i clienti possono vedere solo l'articolo padre.
+
+- Se il tipo di organizzazione con più elementi (MEA) dell'ordine cliente è **Sigolo**, la riga di transazione di allocazione dei ricavi a più elementi corrispondente viene creata quando vengono aggiunti gli articoli padre e figlio. 
+- Se il metodo di allocazione per una suddivisione dei ricavi è **Pari importi** e l'importo padre viene modificato, gli importi vengono ricalcolati per tutte le righe figlio. 
+- Per una suddivisione dei ricavi in cui si trova il metodo di allocazione **Importo variabile**, si verifica il seguente comportamento:
+
+    - L'importo netto dell'articolo padre viene visualizzato nella colonna **Importo padre**. È possibile modificare questo valore. Tuttavia, il prezzo unitario, l'importo netto e lo sconto sono a 0 (zero) e non possono essere modificati.
+    - Il prezzo unitario degli articoli figlio è 0 (zero). Puoi modificare il prezzo unitario o l'importo netto. Quando modifichi un valore, l'altro valore viene aggiornato automaticamente.
+
+- Per una suddivisione dei ricavi in cui si trova il metodo di allocazione **Percentuale**, si verifica il seguente comportamento:
+
+    - L'importo netto dell'articolo padre viene visualizzato nella colonna **Importo padre**. È possibile modificare questo valore. Tuttavia, il prezzo unitario, l'importo netto e lo sconto sono a 0 (zero) e non possono essere modificati. 
+    - L'importo netto degli articoli figlio viene calcolato come *Percentuale* &times; *Importo padre*.
+
+- Per una suddivisione dei ricavi in cui si trova il metodo di allocazione **Pari importo**, si verifica il seguente comportamento:
+
+    - L'importo netto dell'articolo padre viene visualizzato nella colonna **Importo padre**. È possibile modificare questo valore. Tuttavia, il prezzo unitario, l'importo netto e lo sconto sono a 0 (zero) e non possono essere modificati. 
+    - L'importo netto degli articoli figlio viene calcolato dividendo l'importo padre equamente tra tutti gli articoli figlio. 
+    - Se gli articoli figlio vengono rimossi o aggiunti, l'importo netto e i prezzi unitari vengono ricalcolati in modo che tutte le righe figlio abbiano importi uguali. 
+    - Se l'importo padre non può essere diviso equamente, l'importo netto e il prezzo unitario dell'ultimo articolo figlio potrebbero essere leggermente superiori o inferiori all'importo netto e al prezzo unitario degli altri articoli figlio. 
+
+- Per una suddivisione dei ricavi in cui si trova il metodo di allocazione **Importo a zero**, si verifica il seguente comportamento:
+
+    - È possibile modificare il prezzo unitario, l'importo netto e lo sconto. L'importo padre è 0 (zero) e non può essere modificato. 
+    - I valori di quantità, unità, sito e magazzino degli articoli figlio si basano sull'articolo padre. Questi valori non possono essere modificati per gli articoli figlio. Tutte le modifiche devono essere apportate all'articolo padre. 
+    - Il prezzo unitario e il prezzo netto degli articoli figlio è 0 (zero) e non può essere modificato. 
+
+- Per una suddivisione dei ricavi in cui si trova il metodo di allocazione **Importo padre a zero**, si verifica il seguente comportamento:
+
+    - Il prezzo unitario, l'importo padre e l'importo netto dell'articolo principale sono 0 (zero).
+    - In una programmazione di fatturazione, le righe figlio vengono visualizzate come se fossero state aggiunte manualmente e tutti i valori vengono aggiornati in base al gruppo di programmazioni di fatturazione selezionato. Questi valori possono essere modificati. Per gli articoli figlio, puoi accedere alle opzioni **Escalation e sconto** e **Determinazione dei prezzi avanzata** utilizzando i campi **Quantità inserita**, **Prezzo unitario**, **Sconto**, e **Importo netto** in **Visualizza dettagli di fatturazione**. 
+    - In un ordine cliente, le righe figlio hanno uno sconto e una percentuale di sconto pari a 0 (zero). 
+    - È possibile modificare la frequenza di fatturazione degli articoli padre e figlio e ciascuna riga può avere una frequenza diversa. Tuttavia, l'articolo padre viene aggiornato automaticamente in modo che utilizzi la frequenza più breve tra le righe figlio. Ad esempio, una suddivisione dei ricavi ha due articoli figlio, uno dei quali utilizza la frequenza di fatturazione **Mensile** e l'altro utilizza la frequenza di fatturazione **Annuale**. In questo caso, la frequenza di fatturazione dell'articolo padre viene aggiornata a **Mensile**.

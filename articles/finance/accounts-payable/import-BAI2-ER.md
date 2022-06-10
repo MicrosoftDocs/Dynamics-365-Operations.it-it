@@ -1,6 +1,6 @@
 ---
 title: Impostare l'importazione avanzata delle riconciliazioni bancarie utilizzando la Creazione di report elettronici
-description: Questo argomento spiega come utilizzare la Creazione di report elettronici per impostare il processo avanzato di importazione delle riconciliazioni bancarie per i rendiconti BAI2.
+description: Questo argomento spiega come utilizzare la Creazione di report elettronici per impostare il processo avanzato di importazione delle riconciliazioni bancarie.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 39f1d8ba561ab0e36346f1dfb4f70df318c92a37
-ms.sourcegitcommit: cf7d4af11bf85638ee831a28ea5ee1a1e041a675
+ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
+ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/04/2022
-ms.locfileid: "8544502"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8770196"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Impostare l'importazione avanzata delle riconciliazioni bancarie utilizzando la Creazione di report elettronici
 
 [!include [banner](../includes/banner.md)]
 
-La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 Finance. In questo argomento viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari BAI2.
+La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 Finance. In questo argomento viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari. L'impostazione dell'importazione dei rendiconti bancari varia a seconda del formato del rendiconto bancario elettronico. Microsoft Dynamics 365 Finance supporta tre formati di rendiconto bancario: ISO20022, MT940 e BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Impostare la creazione di report elettronici
 
@@ -62,3 +62,14 @@ La funzionalità di riconciliazione bancaria avanzata consente di importare rend
 5. Seleziona **Sfoglia**, e seleziona il file **BAI**.
 6. Selezionare **Carica**.
 7. Seleziona **OK** per importare il file selezionato.
+
+
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Esempi di formati di rendiconto bancario e di layout tecnici
+Di seguito sono riportati esempi di definizioni avanzate di layout tecnici dei file di importazione di riconciliazione bancaria e tre file di esempio di rendiconto bancario: [Esempi di file di importazione](//download.microsoft.com/download/8/e/c/8ec8d2d0-eb8c-41fb-ad8c-f01a4d670a44/Dynamics365FinanceAdvancedBankStatementLayouts.xlsx)  
+
+| Definizione di layout tecnico                             | File di esempio di rendiconto bancario          |
+|---------------------------------------------------------|--------------------------------------|
+| DynamicsAXMT940Layout | [MT940StatementExample](//download.microsoft.com/download/2/d/c/2dcc4e55-ddc8-4a74-b79c-250fae201c3c/mt940StatementExample.txt)     |
+| DynamicsAXISO20022Layout | [ISO20022StatementExample](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdownload.microsoft.com%2Fdownload%2F1%2F5%2F5%2F155d84ed-c250-48f3-b0b1-c5a431e7855b%2FISO20022-MultipleStatements.xml&data=04%7C01%7CRobert.Schlomann%40microsoft.com%7C30d0c233cb6546547d0a08d8f4965edc%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637528273956712775%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=3VzvLZK%2BO8PjuI7XVdC6rD2j3nUJfteo7zFp%2B1s9BwM%3D&reserved=0)             |
+| DynamicsAXBAI2Layout    | [BAI2StatementExample](//download.microsoft.com/download/1/1/6/11693f57-bfc1-4993-a274-5fb978be70fa/BAI2StatementExample.txt)     |
+

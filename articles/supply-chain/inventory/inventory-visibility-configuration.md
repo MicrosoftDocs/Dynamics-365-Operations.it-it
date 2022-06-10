@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a2f7929026f41e921b71bc5a899810695c859902
-ms.sourcegitcommit: d475dea4cf13eae2f0ce517542c5173bb9d52c1c
+ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
+ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547790"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "8786840"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Visibilità inventario
 
@@ -60,7 +60,7 @@ Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzional
 
 Se non conosci l'endpoint corretto del servizio Visibilità inventario, apri la pagina di **configurazione** in Power Apps e poi seleziona **Mostra endpoint del servizio** nell'angolo in alto a destra. La pagina mostrerà l'endpoint di servizio corretto.
 
-## <a name="data-source-configuration"></a>Configurazione dell'origine dati
+## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configurazione dell'origine dati
 
 Ogni origine dati rappresenta un sistema da cui provengono i dati. Alcuni esempi di nomi delle origini dati includono `fno` (che sta per "app per la finanza e le operazioni Dynamics 365") e `pos` (che sta per "point of sale" ovvero punto vendita). Per default, Supply Chain Management è impostato come fonte di dati predefinita (`fno`) in Visibilità inventario.
 
@@ -141,7 +141,7 @@ Per aggiungere le mappature delle dimensioni, seguite questi passi.
 
 Per esempio, se la vostra origine dati include una dimensione di colore del prodotto, potete mapparla alla dimensione base `ColorId` per aggiungere una dimensione personalizzata `ProductColor` nell'origine dati `exterchannel` . Viene poi mappato alla dimensione di base `ColorId` .
 
-### <a name="physical-measures"></a>Misure fisiche
+### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Misure fisiche
 
 Quando una fonte di dati inserisce una variazione d'inventario in Visibilità inventario, inserisce tale variazione utilizzando le *misure fisiche*. Le misure fisiche modificano la quantità e riflettono lo stato dell'inventario. Potete definire le vostre misure fisiche, in base alle vostre esigenze. Le interrogazioni possono essere basate sulle misure fisiche.
 
@@ -175,6 +175,9 @@ Se l'origine dei dati è Supply Chain Management, non è necessario ricreare le 
 ### <a name="calculated-measures"></a>Misure calcolate
 
 Puoi usare Visibilità inventario per interrogare sia le misure fisiche dell'inventario che le *misure calcolate personalizzate*. Le misure calcolate forniscono una formula di calcolo personalizzata che consiste in una combinazione di misure fisiche. Questa funzionalità permette di definire un insieme di misure fisiche che saranno aggiunte, e/o un insieme di misure fisiche che saranno sottratte, per formare la misura personalizzata.
+
+> [!IMPORTANT]
+> Una misura calcolata è una composizione di misure fisiche. La formula può includere solo misure fisiche senza duplicati, non misure calcolate.
 
 La configurazione permette di definire un insieme di modificatori che vengono aggiunti o sottratti per ottenere la quantità totale aggregata in uscita.
 
@@ -297,7 +300,7 @@ La soluzione include questa configurazione della partizione per impostazione pre
 
 ## <a name="product-index-hierarchy-configuration"></a><a name="index-configuration"></a>Configurazione della gerarchia dell'indice del prodotto
 
-La maggior parte delle volte, la query dell'inventario on-hand non sarà solo al livello più alto "totale". Invece, potreste voler vedere anche i risultati aggregati in base alle dimensioni dell'inventario.
+La maggior parte delle volte, la query dell'inventario on-hand non sarà solo al livello più alto "totale". Invece, potresti voler vedere anche i risultati aggregati in base alle dimensioni dell'inventario.
 
 Visibilità inventario fornisce flessibilità permettendovi di impostare gli _indici_. Questi indici sono basati su una dimensione o su una combinazione di dimensioni. Un indice consiste in un *numero di set*, una *dimensione* e una *gerarchia*, come definito nella tabella seguente.
 
