@@ -2,7 +2,7 @@
 title: Ricerca di prodotti e di clienti nel POS
 description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 10/26/2021
+ms.date: 05/25/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
-ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
+ms.openlocfilehash: 460c7d3b00421ba43414f7343887edf9b8adad9c
+ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "7700091"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "8806429"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Ricerca di prodotti e di clienti nel POS
 
@@ -106,6 +106,8 @@ Per impostare i criteri di ricerca come collegamenti, l'amministratore deve apri
 > Se si aggiungono troppi collegamenti, il menu a discesa nella barra della ricerca nel POS non riesce a visualizzarli correttamente a scapito della ricerca da parte del dipendente. Si consiglia di aggiungere solo i collegamenti necessari.
 
 Il campo **Ordine di visualizzazione** determina l'ordine in cui i collegamenti vengono visualizzati nel POS. I criteri che vengono visualizzati sono le proprietà predefinite utilizzate dall'algoritmo di ricerca del cliente per cercare i clienti. Tuttavia, i partner possono aggiungere proprietà personalizzate come collegamenti di ricerca. Per aggiungere proprietà personalizzate come collegamenti di ricerca, l'amministratore di sistema deve estendere l'enumerazione (enum) estendibile utilizzata per i criteri di ricerca del cliente e quindi contrassegnare le proprietà personalizzate del partner come collegamenti. I partner sono responsabili della scrittura del codice per trovare i risultati derivanti dall'utilizzo dei collegamenti personalizzati.
+
+Le traduzioni per i tasti di scelta rapida sono necessarie se vuoi che i tasti di scelta rapida vengano visualizzati sul POS. Se la lingua del tuo canale è diversa dalla lingua predefinita del sistema, devi definire la traduzione per ogni tasto di scelta rapida nella lingua prevista. È possibile definire le traduzioni selezionando **Traduci** per ogni tasto di scelta rapida. 
 
 > [!NOTE]
 > Una proprietà personalizzata che viene aggiunta all'enumerazione non influisce sull'algoritmo predefinito di ricerca del cliente. In altre parole, l'algoritmo di ricerca del cliente non cerca nella proprietà personalizzata. Gli utenti possono utilizzare una proprietà personalizzata per le ricerche solo se la proprietà personalizzata viene aggiunta come collegamento o se l'algoritmo di ricerca predefinito viene sovrascritto.

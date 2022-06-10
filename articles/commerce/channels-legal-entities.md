@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bc5f097a7f941dfa05f4011d9be5caffbb7f01b5f6e67cd7535ef3d1b13f59fe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9812a828cb159400c6388f02f10e00694aa64ad
+ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740433"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809534"
 ---
 # <a name="create-legal-entities"></a>Crea persone giuridiche
 
@@ -62,7 +62,7 @@ Per creare una nuova persona giuridica in Dynamics 365 Commerce, completare i pa
 1. Nella sezione **Immagine nel dashboard** visualizzare o modificare l'immagine del dashboard e del logo associata alla persona giuridica.
 1. Nella sezione **Registrazione fiscale** immettere i numeri di registrazione utilizzati per le dichiarazioni alle autorità fiscali.
 1. Nella sezione **Imposta 1099** immettere le informazioni incluse nel modulo 1099 per la persona giuridica.
-1. Nella sezione **Informazioni sull'imposta**, immettere le informazioni sull'imposta per la persona giuridica.
+1. Nella sezione **Informazioni sull'imposta**, immetti le informazioni sull'imposta per la persona giuridica.
 1. Selezionare **Salva**.
 
 L'immagine seguente illustra un esempio di persona giuridica.

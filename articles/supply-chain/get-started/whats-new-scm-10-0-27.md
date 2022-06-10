@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: e8ec20c361f76a6012a7c8e1f03296007f5a05aa
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 77c79c88b08844bf7e399a762bb9eb9746ffb71a
+ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645356"
+ms.lasthandoff: 05/28/2022
+ms.locfileid: "8812946"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10027-july-2022"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.27 (luglio 2022)
 
@@ -34,7 +34,7 @@ Questa tabella elenca le funzionalità incluse in questa versione. Possiamo aggi
 
 | Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da |
 |---|---|---|---|
-| Inventario e logistica | [Allocazione inventario per il componente aggiuntivo visibilità inventario](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | Presto disponibile | Abilitato per impostazione predefinita |
+| Inventario e logistica | [Allocazione inventario per il componente aggiuntivo visibilità inventario](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/inventory-allocation-inventory-visibility-add-in) | [Allocazione inventario di Inventory Visibility](../inventory/inventory-visibility-allocation.md) | Abilitato per impostazione predefinita |
 | Produzione | Visualizzazione "Registrazioni quotidiane" per l'interfaccia di esecuzione dell'area di produzione | [In che modo i lavoratori utilizzano l'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-use.md) e [Visualizzare i saldi delle ferie nell'interfaccia di esecuzione dell'area di produzione](../production-control/production-floor-execution-payroll-stats.md) | Gestione funzionalità:<br>*Visualizzazione "Registrazioni quotidiane" per l'interfaccia di esecuzione dell'area di produzione* |
 | Pianificazione | [Supporto di Ottimizzazione pianificazione per conto lavoro](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-subcontracting) | [Gestire il lavoro in conto lavoro in produzione](../production-control/manage-subcontract-work-production.md) | Abilitato per impostazione predefinita |
 
@@ -69,7 +69,7 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per app per finanza e operazioni
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.27 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.27 delle app per finanza e operazioni (giugno 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md).<!-- KFM Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.27 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.27 delle app per finanza e operazioni (giugno 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-27.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 
