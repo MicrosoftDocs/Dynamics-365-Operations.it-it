@@ -1,6 +1,6 @@
 ---
 title: Creazione di assegni con stato In bianco
-description: In questo argomento viene illustrato come creare assegni in bianco per un conto bancario.
+description: In questo articolo viene illustrato come creare assegni in bianco per un conto bancario.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b3a0fbb26f135e567bf6af7b2f10b39a28be4c9e
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 834e11e0e359521c674e2b6fd78c93dcb23961a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861446"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Creazione di assegni con stato In bianco
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come creare assegni in bianco. Ad esempio, è possibile creare un assegno in bianco per registrare un assegno danneggiato che non può essere utilizzato per il pagamento.
+In questo articolo viene illustrato come creare assegni in bianco. Ad esempio, è possibile creare un assegno in bianco per registrare un assegno danneggiato che non può essere utilizzato per il pagamento.
 
 Nella pagina **Assegni**, eseguire le attività di manutenzione per gli assegni. Ad esempio, è possibile creare nuovi numeri di assegno ed eliminare gli assegni. È inoltre possibile creare assegni con stato **In bianco**. Dopo aver creato gli assegni in bianco, non è possibile eliminarli o riutilizzarli nel sistema.
 

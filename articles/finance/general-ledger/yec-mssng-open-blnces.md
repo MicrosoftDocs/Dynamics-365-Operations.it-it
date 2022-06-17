@@ -1,6 +1,6 @@
 ---
 title: Saldo iniziale mancante nella chiusura di fine anno
-description: In questo argomento viene illustrato perché il saldo iniziale potrebbe mancare quando si chiude un anno e come ricostruire il saldo se manca.
+description: In questo articolo viene illustrato perché il saldo iniziale potrebbe mancare quando si chiude un anno e come ricostruire il saldo se manca.
 author: kweekley
 ms.date: 05/12/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 582363ba6c5f6e63e695d41e73ee2f0b382cf26e
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9b64118fc3ff368e21ea8935c1e706f2161c620f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727174"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894850"
 ---
 # <a name="year-end-close-missing-opening-balances"></a>Saldo iniziale mancante nella chiusura di fine anno
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato perché il saldo iniziale potrebbe mancare quando si chiude un anno e come ricostruire il saldo se manca.
+In questo articolo viene illustrato perché il saldo iniziale potrebbe mancare quando si chiude un anno e come ricostruire il saldo se manca.
 
 ### <a name="symptom"></a>Sintomo
 
@@ -36,7 +36,7 @@ Di seguito sono riportate le cose da verificare se è stato chiuso un anno nella
 
 Se il campo **Annulla chiusura precedente** è impostato su **Sì**, la chiusura di fine anno precedente per lo stesso anno fiscale viene annullata. Quando si esegue un processo di annullamento della chiusura di fine anno, tutte le voci per il saldo finale e il saldo iniziale vengono eliminate, come se la chiusura di fine anno non fosse mai stata eseguita. Anche i giustificativi vengono eliminati. Il processo di chiusura di fine anno non viene ripetuto automaticamente. È necessario rieseguire il processo, questa volta aggiornando l'opzione **Annulla chiusura precedente** su **No**.
 
-Questo scenario è trattato nell'argomento Domande frequenti sulla chiusura di fine anno. Per ulteriori informazioni, vedere [Domande frequenti sulle attività di fine anno](faq-year-end-activities.md).
+Questo scenario è trattato nell'articolo Domande frequenti sulla chiusura di fine anno. Per ulteriori informazioni, vedere [Domande frequenti sulle attività di fine anno](faq-year-end-activities.md).
 
 ### <a name="symptom"></a>Sintomo
 

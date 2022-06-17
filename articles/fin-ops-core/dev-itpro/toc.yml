@@ -410,6 +410,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Configurare l'app Magazzino per distribuzioni in locale
                       href: deployment/warehousing-for-on-premise-deployments.md
+                    - name: Abilitare RSAT negli ambienti Finance + Operations (on-premises).
+                      href: deployment/onprem-rsat-configuration.md
                     - name: Installare le stampanti di rete in ambienti locali
                       href: analytics/install-network-printer-onprem.md
                     - name: Diagnostica locale
@@ -1048,6 +1050,8 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Esercitazione dell'estensione Azure DevOps (anteprima pubblica)
                   href: lifecycle-services/dts-ado-tutorial.md
+                - name: Estensione Dynamics 365 Translation Service Visual Studio Code (anteprima pubblica)
+                  href: lifecycle-services/dts-vscode-doc.md
         - name: Integrazione di Microsoft Power Platform
           items:
             - name: Panoramica

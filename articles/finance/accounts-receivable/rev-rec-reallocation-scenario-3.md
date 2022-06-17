@@ -1,6 +1,6 @@
 ---
 title: Riallocazione del riconoscimento ricavi - Scenario 3
-description: Questo argomento descrive uno scenario di riallocazione in cui una nuova riga viene aggiunta a un ordine cliente esistente e fatturato. Quando un nuovo articolo viene aggiunto a un contratto, può essere aggiunto a un nuovo ordine cliente o all'ordine cliente esistente.
+description: In questo articolo viene descritto uno scenario di riallocazione in cui una nuova riga viene aggiunta a un ordine cliente esistente e fatturato. Quando un nuovo articolo viene aggiunto a un contratto, può essere aggiunto a un nuovo ordine cliente o all'ordine cliente esistente.
 author: kweekley
 ms.date: 12/21/2020
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3b3b41b09cc9f4c56fdb04f6a2c4156bc1637699
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7aa62406a80eb3381206172caaae457ec71b7bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904818"
 ---
 # <a name="revenue-recognition-reallocation--scenario-3"></a>Riallocazione del riconoscimento ricavi - Scenario 3
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive uno scenario di riallocazione in cui una nuova riga viene aggiunta a un ordine cliente esistente e fatturato. Quando un nuovo articolo viene aggiunto a un contratto, può essere aggiunto a un nuovo ordine cliente o all'ordine cliente esistente. Questo scenario mostra anche cosa si verifica quando la contabilità clienti viene aggiornata a causa della riallocazione.
+In questo articolo viene descritto uno scenario di riallocazione in cui una nuova riga viene aggiunta a un ordine cliente esistente e fatturato. Quando un nuovo articolo viene aggiunto a un contratto, può essere aggiunto a un nuovo ordine cliente o all'ordine cliente esistente. Questo scenario mostra anche cosa si verifica quando la contabilità clienti viene aggiornata a causa della riallocazione.
 
 Per questo scenario, l'opzione **Correzioni delle fatture registrate in contabilità clienti** è impostata su **Sì** nella scheda **Riconoscimento ricavi** della pagina **Parametri di contabilità generale** (**Riconoscimento ricavi \> Impostazione \> Parametri di contabilità generale**).
 

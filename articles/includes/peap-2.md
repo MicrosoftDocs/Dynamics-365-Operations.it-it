@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 6e4b90176d8e1dfeafea36e2ef6c2eb955c97cf1
-ms.sourcegitcommit: 39f1455215e0363cd1449bbc6bdff489097f9ded
+ms.openlocfilehash: 6d46859d62a5af8312d4233c01de20f2d55beed3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/07/2022
-ms.locfileid: "8087194"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846359"
 ---
 > [!IMPORTANT]
-> La funzionalità indicata in questo argomento è attualmente disponibile per i clienti di Dynamics 365 Human Resources standalone. Alcune o tutte le funzionalità saranno disponibili come parte di una versione futura dell'infrastruttura Finance dopo la versione Finance 10.0.25.
+> La funzionalità indicata in questo articolo è attualmente disponibile per i clienti di Dynamics 365 Human Resources standalone. Alcune o tutte le funzionalità saranno disponibili come parte di una versione futura dell'infrastruttura Finance dopo la versione Finance 10.0.25.

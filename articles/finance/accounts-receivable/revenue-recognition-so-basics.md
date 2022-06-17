@@ -1,6 +1,6 @@
 ---
 title: Riconoscimento ricavi negli ordini cliente
-description: In questo argomento viene descritta la funzionalità di base per il riconoscimento ricavi negli ordini cliente e nelle fatture. Il riconoscimento ricavi è disponibile nell'ordine cliente e nella fattura corrispondente creata dall'ordine cliente.
+description: In questo articolo viene descritta la funzionalità di base per il riconoscimento ricavi negli ordini cliente e nelle fatture. Il riconoscimento ricavi è disponibile nell'ordine cliente e nella fattura corrispondente creata dall'ordine cliente.
 author: kweekley
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7aaa5e7c3b568400c72a1a84b5f29082579aeeae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5df7341160940f5c5db0dd4c5d86e4d9698d22e2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899959"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Riconoscimento ricavi negli ordini cliente
 
@@ -27,10 +27,10 @@ ms.locfileid: "8725486"
 > [!NOTE]
 > Il riconoscimento ricavi non può essere attivato tramite Gestione funzionalità. Per attivarlo, attualmente è necessario utilizzare le chiavi di configurazione.
 
-In questo argomento viene descritta la funzionalità di base per il riconoscimento ricavi negli ordini cliente e nelle fatture. Il riconoscimento ricavi è disponibile in un ordine cliente e nella fattura corrispondente creata dall'ordine cliente. L'ordine cliente può anche essere creato con un progetto di tempistica e materiali.
+In questo articolo viene descritta la funzionalità di base per il riconoscimento ricavi negli ordini cliente e nelle fatture. Il riconoscimento ricavi è disponibile in un ordine cliente e nella fattura corrispondente creata dall'ordine cliente. L'ordine cliente può anche essere creato con un progetto di tempistica e materiali.
 
 > [!NOTE]
-> Nelle figure di questo argomento, le colonne sono state nascoste o aggiunte alle griglie per una migliore visualizzazione dei concetti. Di conseguenza, le pagine e i dati contenuti nelle figure possono essere diversi da quanto viene visualizzato nel prodotto.
+> Nelle figure di questo articolo, le colonne sono state nascoste o aggiunte alle griglie per una migliore visualizzazione dei concetti. Di conseguenza, le pagine e i dati contenuti nelle figure possono essere diversi da quanto viene visualizzato nel prodotto.
 
 ## <a name="enter-a-sales-order"></a>Inserire un ordine cliente
 

@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti sulle attività di fine anno
-description: Questo argomento elenca le domande che possono sorgere in relazione alle attività di chiusura di fine anno e le risposte che possono aiutare per eseguire tali attività.
+description: Questo articolo elenca le domande che possono sorgere in relazione alle attività di chiusura di fine anno e le risposte che possono aiutare per eseguire tali attività.
 author: moaamer
 ms.date: 12/21/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 19d23c2c5a8fabd6799c6240c25f3ede4064c001
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1c5aca6180821dfc9fd1d475d4726c82acdf4d78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725602"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865742"
 ---
 # <a name="year-end-activities-faq"></a>Domande frequenti sulle attività di fine anno 
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca le domande che possono sorgere in relazione alle attività di chiusura di fine anno e le risposte che possono aiutare per eseguire tali attività. Le informazioni in questo argomento si concentrano principalmente sulle domande relative alle attività di chiusura di fine anno per la contabilità generale e la contabilità fornitori.
+Questo articolo elenca le domande che possono sorgere in relazione alle attività di chiusura di fine anno e le risposte che possono aiutare per eseguire tali attività. Le informazioni in questo articolo si concentrano principalmente sulle domande relative alle attività di chiusura di fine anno per la contabilità generale e la contabilità fornitori.
 
 ## <a name="general-ledger-year-end-enhancements"></a>Miglioramenti per la chiusura di fine anno della contabilità generale 
 Nella versione 10.0.20 è stato introdotto un miglioramento della chiusura di fine anno, abilitato per impostazione predefinita a partire dalla versione 10.0.25. Se l'organizzazione utilizza una versione precedente alla 10.0.25, consigliamo di abilitare questa funzionalità prima di iniziare il processo di chiusura di fine anno. Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro Gestione funzionalità per controllare lo stato della funzionalità e, se necessario, attivarla. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
@@ -75,7 +75,7 @@ I set di dimensioni non necessari influiscono anche sul processo batch **BudgetD
 [![Set di dimensioni finanziarie.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configurazione del modello di chiusura di fine anno
-Il modello di chiusura di fine anno consente alle organizzazioni di selezionare il livello di dimensione finanziaria da mantenere quando si trasferiscono i saldi di profitti e perdite agli utili non distribuiti. Le impostazioni consentono a un'organizzazione di mantenere le dimensioni finanziarie dettagliate (**Chiudi tutto**) quando si spostano i saldi negli utili non distribuiti o si sceglie di riepilogare gli importi in un singolo valore di dimensione (**Chiudi singolo**). Queste impostazioni possono essere definite per ogni dimensione finanziaria. Per ulteriori informazioni su queste impostazioni, vedere l'argomento [Chiusura di fine anno](year-end-close.md).
+Il modello di chiusura di fine anno consente alle organizzazioni di selezionare il livello di dimensione finanziaria da mantenere quando si trasferiscono i saldi di profitti e perdite agli utili non distribuiti. Le impostazioni consentono a un'organizzazione di mantenere le dimensioni finanziarie dettagliate (**Chiudi tutto**) quando si spostano i saldi negli utili non distribuiti o si sceglie di riepilogare gli importi in un singolo valore di dimensione (**Chiudi singolo**). Queste impostazioni possono essere definite per ogni dimensione finanziaria. Per ulteriori informazioni su queste impostazioni, vedere l'articolo [Chiusura di fine anno](year-end-close.md).
 
 Si consiglia di valutare i requisiti dell'organizzazione e, se possibile, chiudere il maggior numero di dimensioni possibile utilizzando l'opzione di fine anno **Chiudi singolo** per migliorare le prestazioni. Se si chiude un valore di dimensione singola (che può anche essere un valore vuoto), il sistema calcola meno dettagli quando determina i saldi per le voci contabili relative a utili non distribuiti.
 

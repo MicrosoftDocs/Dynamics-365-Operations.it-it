@@ -1,6 +1,6 @@
 ---
 title: Risorse di globalizzazione
-description: In questo argomento vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità e offerte specifiche del paese/area geografica.
+description: In questo articolo vengono forniti gli elenchi delle risorse che è possibile utilizzare per ottenere ulteriori informazioni sulle funzionalità e offerte specifiche del paese/area geografica.
 author: kfend
 ms.date: 02/19/2021
 ms.topic: index-page
@@ -14,27 +14,27 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 822f00c21715b928027a7656f299a693686bf5dfc01f1f5a1738d5eb8d4bf124
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866539"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
 ## <a name="local-and-regional-deployments"></a>Distribuzioni locali e regionali
 Se le normative governative locali richiedono che i dati vengano memorizzati o gestiti in modo diverso rispetto a quanto richiesto per altri paesi/aree geografiche, per la distribuzione potrebbe essere necessario tenere in considerazione dei requisiti locali specifici. Tenere presente le seguenti risorse che potrebbero essere rilevanti per distribuzioni specifiche:
 
-[App Finance and Operations gestite de 21Vianet in Cina](../deployment/china-local-deployment.md)
+[App per la finanza e le operazioni gestite da 21Vianet in Cina](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Funzionalità per la normativa e la localizzazione
 
 [!include [banner](../includes/banner.md)]
 
-Nelle app Finance and Operations sono presenti funzionalità per i paesi/aree geografiche documentati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/dynamics_365_international_availability_deck). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
+Nelle app per la finanza e le operazioni sono presenti funzionalità per i paesi/aree geografiche documentati nella [Guida alla disponibilità della localizzazione e della traduzione del prodotto](https://aka.ms/dynamics_365_international_availability_deck). Questa funzionalità è abilitata in base all'indirizzo principale della persona giuridica attiva. 
 
-In questo argomento sono inclusi gli elenchi delle risorse utili per effettuare le operazioni seguenti: 
+In questo articolo sono inclusi gli elenchi delle risorse utili per effettuare le operazioni seguenti: 
 - Ottenere ulteriori informazioni su come sviluppare soluzioni specifiche per paese/area geografica.
 - Recuperare aggiornamenti specifici del paese/area geografica.
 - Inviare e consultare degli avvisi normativi.
@@ -62,11 +62,11 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 #### <a name="dynamics-365-release-plans"></a>Piani di rilascio di Dynamics 365
 I [piani di rilascio di Dynamics 365](/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
 
-#### <a name="finance-and-operations-apps-whats-new"></a>Novità delle app Finance and Operations
-La [home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse nelle versioni specifiche delle app Finance and Operations.
+#### <a name="finance-and-operations-apps-whats-new"></a>Novità delle app per la finanza e le operazioni
+La [Home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse in versioni specifiche delle app per la finanza e le operazioni.
 
 ### <a name="electronic-reporting"></a>Creazione di report elettronici
-Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi/aree geografiche. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
+Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
 -   [Panoramica dei report elettronici](../analytics/general-electronic-reporting.md)
 -   [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Creare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-configuration.md)

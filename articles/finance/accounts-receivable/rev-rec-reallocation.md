@@ -1,6 +1,6 @@
 ---
 title: Riallocazione del riconoscimento ricavi
-description: Questo argomento fornisce informazioni sulla riallocazione, che consente alle organizzazioni di ricalcolare i prezzi dei ricavi quando vengono modificati i termini di una vendita contrattuale. Include i collegamenti ad altri argomenti che descrivono come riconoscere i ricavi in più scenari.
+description: In questo articolo vengono fornite informazioni sulla riallocazione, che consente alle organizzazioni di ricalcolare i prezzi dei ricavi quando vengono modificati i termini di una vendita contrattuale. Include i collegamenti ad altri argomenti che descrivono come riconoscere i ricavi in più scenari.
 author: kweekley
 ms.date: 09/09/2021
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7528202ed140dc2c0a7fc8c595178f155c3c1f75
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a79288fd69a2e7780ff03952b05b99db2ed88e41
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726129"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903422"
 ---
 # <a name="revenue-recognition-reallocation"></a>Riallocazione del riconoscimento ricavi
 
@@ -58,7 +58,7 @@ Un parametro influisce sul processo di riallocazione.
 
 Poiché la riallocazione può essere eseguita su un ordine cliente parzialmente o interamente fatturato, qualsiasi precedente voce contabile per la fattura deve essere corretta utilizzando i nuovi prezzi dei ricavi riallocati. Questa correzione viene eseguita stornando la voce contabile della fattura originale e registrando una nuova voce contabile basata sui prezzi dei ricavi riallocati.
 
-Ogni organizzazione deve decidere se la correzione aggiorna solo la contabilità generale o anche la contabilità clienti. La decisione determina l'impostazione appropriata dell'opzione **Correzioni delle fatture registrate in contabilità clienti** nella scheda **Riconoscimento ricavi** della pagina **Parametri di contabilità generale** (**Riconoscimento ricavi \> Impostazione \> Parametri di contabilità generale**). L'impostazione appropriata dipende dallo scenario specifico. Per ulteriori informazioni sui possibili scenari, utilizzare i collegamenti nella sezione [Scenari per la riallocazione](#scenarios-for-reallocation) più avanti in questo argomento.
+Ogni organizzazione deve decidere se la correzione aggiorna solo la contabilità generale o anche la contabilità clienti. La decisione determina l'impostazione appropriata dell'opzione **Correzioni delle fatture registrate in contabilità clienti** nella scheda **Riconoscimento ricavi** della pagina **Parametri di contabilità generale** (**Riconoscimento ricavi \> Impostazione \> Parametri di contabilità generale**). L'impostazione appropriata dipende dallo scenario specifico. Per ulteriori informazioni sui possibili scenari, utilizzare i collegamenti nella sezione [Scenari per la riallocazione](#scenarios-for-reallocation) più avanti in questo articolo.
 
 [![Scheda Riconoscimento ricavi nella pagina Parametri di contabilità generale.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
@@ -90,7 +90,7 @@ Per avviare il processo di riallocazione, selezionare **Riallocazione del prezzo
 
 [![Riallocazione del prezzo con nuove righe ordine.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-La griglia superiore della pagina **Riallocazione del prezzo con nuove righe ordine** è denominata **Vendite**. Elenca gli ordini cliente. Selezionare gli ordini cliente che devono essere riallocati. Se un ordine cliente ha un ID riallocazione, è già stato contrassegnato per la riallocazione da un altro utente. Se uno o più ordini cliente sono stati riallocati in precedenza e devono essere inclusi in un'altra riallocazione, la riallocazione di tali ordini cliente deve prima essere annullata. Quindi, possono essere inclusi in una nuova riallocazione. Per informazioni più dettagliate, vedere le sezioni [Annullare una riallocazione](#undo-a-reallocation) e [Riallocare più volte](#reallocate-multiple-times) più avanti in questo argomento.
+La griglia superiore della pagina **Riallocazione del prezzo con nuove righe ordine** è denominata **Vendite**. Elenca gli ordini cliente. Selezionare gli ordini cliente che devono essere riallocati. Se un ordine cliente ha un ID riallocazione, è già stato contrassegnato per la riallocazione da un altro utente. Se uno o più ordini cliente sono stati riallocati in precedenza e devono essere inclusi in un'altra riallocazione, la riallocazione di tali ordini cliente deve prima essere annullata. Quindi, possono essere inclusi in una nuova riallocazione. Per informazioni più dettagliate, vedere le sezioni [Annullare una riallocazione](#undo-a-reallocation) e [Riallocare più volte](#reallocate-multiple-times) più avanti in questo articolo.
 
 La griglia inferiore della pagina è denominata **Righe**. Dopo aver selezionato uno o più ordini cliente nella griglia **Vendite**, la griglia **Righe** mostra le righe dell'ordine cliente. Selezionare le righe ordine cliente che devono essere riallocate. Se è stato selezionato un solo ordine cliente, le righe dello stesso ordine cliente devono essere riallocate. Questa situazione può verificarsi quando una delle righe dell'ordine cliente è stata precedentemente fatturata e quindi è stata aggiunta una nuova riga oppure una riga esistente è stata rimossa o annullata. Se una riga è stata rimossa, non viene inclusa nella griglia. Pertanto, non può essere selezionata. Tuttavia, verrà comunque considerata quando viene eseguito il processo di riallocazione.
 

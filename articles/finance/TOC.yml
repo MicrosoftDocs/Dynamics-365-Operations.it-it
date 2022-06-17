@@ -58,8 +58,10 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
                 - name: Applicare aggiornamenti a distribuzioni locali
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Configurare aggiornamenti del servizio
+                - name: Configurare gli aggiornamenti del servizio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
+                - name: Pre-assistenza e post-assistenza
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/finance/toc.json
                 - name: Sospendere gli aggiornamenti del servizio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Ricevere notifiche sugli aggiornamenti del servizio
@@ -1684,6 +1686,8 @@
                       href: general-ledger/sales-tax-calculation-methods-origin-field.md
                     - name: Opzioni Importo totale e Intervallo per i codici IVA
                       href: general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                    - name: Arrotondamento e calcolo dell'IVA
+                      href: general-ledger/sales-tax-calculation-rounding.md
                     - name: Calcolo dell'IVA nelle righe giornale di registrazione generale
                       href: general-ledger/sales-tax-calculation-on-general-journal.md
                     - name: Calcolare e rettificare l'IVA in una fattura fornitore
@@ -2168,6 +2172,8 @@
                   href: localizations/emea-est-vat-statement-details.md
                 - name: Intrastat estone
                   href: localizations/emea-est-intrastat.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-est-eu-sales-list.md
             - name: Europa
               items:
                 - name: Panoramica Europa
@@ -2452,6 +2458,8 @@
                   href: localizations/emea-hun-online-invoicing.md
                 - name: Report IVA per l'Ungheria
                   href: localizations/emea-hun-sales-tax-reports.md
+                - name: Intrastat ungherese
+                  href: localizations/emea-hun-intrastat.md
                 - name: Calcoli IVA differita
                   href: localizations/emea-hun-deferred-vat.md
             - name: Islanda
@@ -3112,6 +3120,8 @@
                   href: localizations/emea-lva-vat-statement-details.md
                 - name: Intrastat lettone
                   href: localizations/emea-lva-intrastat.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-lva-eu-sales-list.md
             - name: Lituania
               items:
                 - name: Panoramica Lituania
@@ -3130,7 +3140,9 @@
                   href: localizations/emea-ltu-saf-t.md
                 - name: Impostare i documenti di trasferimento per il movimento di merci all'interno di una società
                   href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
-            - name: Malesia
+                - name: Elenco vendite UE
+                  href: localizations/emea-ltu-eu-sales-list.md
+            - name: Malaysia
               items:
                 - name: Panoramica Malaysia
                   href: localizations/malaysia.md
@@ -4483,11 +4495,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Risolvere i problemi di prestazioni nelle configurazioni di report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Gestione documenti aziendali
+                    - name: Ridurre il numero di campi di tabella che vengono recuperati in fase di esecuzione
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/finance/toc.json
+                - name: Gestione documenti aziendali (BDM)
                   items:
-                    - name: Panoramica di Gestione documenti aziendali
+                    - name: Panoramica di Gestione documenti aziendali (BDM)
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Nuova interfaccia utente per documenti in Gestione documenti aziendali
+                    - name: Nuova interfaccia utente per documenti in Gestione documenti aziendali (BDM)
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
                     - name: Modificare i modelli di documenti aziendali in Gestione documenti aziendali
                       items:

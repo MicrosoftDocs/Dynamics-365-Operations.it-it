@@ -1,6 +1,6 @@
 ---
 title: Home page Cespiti
-description: In questo argomento viene fornito l'accesso alle risorse che consentono di utilizzare i cespiti per Microsoft Dynamics 365 Finance.
+description: In questo articolo viene fornito l'accesso alle risorse che consentono di utilizzare i cespiti per Microsoft Dynamics 365 Finance.
 author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cee27143ca005f2fa42899365933ec3014aa13f6
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 57e81aaefd61eb9e695d8fe0d1c7cac4091bece7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720448"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880818"
 ---
 # <a name="fixed-assets-home-page"></a>Home page Cespiti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornito l'accesso alle risorse che consentono di utilizzare i cespiti per Microsoft Dynamics 365 Finance. I cespiti sono elementi di valore di proprietà di un individuo o di un'organizzazione. Gli elementi includono edifici, veicoli, terreni e attrezzature. 
+In questo articolo viene fornito l'accesso alle risorse che consentono di utilizzare i cespiti per Microsoft Dynamics 365 Finance. I cespiti sono elementi di valore di proprietà di un individuo o di un'organizzazione. Gli elementi includono edifici, veicoli, terreni e attrezzature. 
 
 È possibile impostare e immettere informazioni sull'acquisizione per i cespiti, quindi gestire i cespiti utilizzando la funzione di ammortamento e impostare una soglia di capitalizzazione per determinare l'ammortamento. È inoltre possibile calcolare le rettifiche ai cespiti ed eseguire la dismissione dei cespiti. Quando si utilizza Contabilità generale in combinazione con Cespiti, è possibile visualizzare il valore corrente di tutti i cespiti. La modalità di gestione dei cespiti deve corrispondere sia agli standard contabili internazionali sia alla legislazione contabile di ogni paese/area geografica. I requisiti possono includere regole per la registrazione di transazioni di acquisizione e dismissione, ammortamento, durata, rivalutazione e svalutazione di cespiti. Nelle funzionalità relative ai cespiti sono integrati molti di questi standard e regole.
 

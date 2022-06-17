@@ -1,6 +1,6 @@
 ---
 title: Home page di contabilità fornitori
-description: In questo argomento viene fornita una panoramica della contabilità fornitori.
+description: In questo articolo viene fornita una panoramica della contabilità fornitori.
 author: sunfzam
 ms.date: 02/15/2019
 ms.topic: index-page
@@ -8,27 +8,27 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom:
 - "21901"
 - intro-internal
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
 ms.search.region: Global
-ms.author: roschlom
+ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce768ecaa668f2c69d6753401eaa145b6fddc5ec
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 5ed6aacb94de14bdb72185cd528f62e74cd3cc15
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595289"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946103"
 ---
 # <a name="accounts-payable-home-page"></a>Home page di contabilità fornitori
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica della contabilità fornitori. 
+In questo articolo viene fornita una panoramica della contabilità fornitori. 
 
 È possibile immettere manualmente le fatture fornitore o riceverle elettronicamente tramite un'entità di dati. Dopo che le fatture sono state immesse o ricevute, è possibile esaminarle e approvarle utilizzando un giornale di approvazione fatture o la pagina **Fattura fornitore**. È possibile utilizzare l'abbinamento fatture, i criteri di fattura fornitore e il flusso di lavoro per automatizzare il processo di revisione, in modo che le fatture che soddisfano determinati criteri vengano approvate automaticamente e le rimanenti fatture vengano contrassegnate per essere riviste da un utente autorizzato.
 
@@ -126,7 +126,7 @@ Passare ai [piani di rilascio di Microsoft Dynamics 365](/dynamics365/release-pl
 
 #### <a name="blogs"></a>Blog
 
-Per opinioni, notizie e altre informazioni sulla contabilità fornitori e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Per opinioni, notizie e altre informazioni sulla contabilità fornitori e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)e al [blog di Microsoft Dynamics 365 Finance - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.
 

@@ -1,6 +1,6 @@
 ---
 title: Home page di Finance
-description: In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance.
+description: In questo articolo viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance.
 author: kfend
 ms.date: 11/04/2021
 ms.topic: index-page
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a442256797cb64d30a18268232a07b463bc0db36
-ms.sourcegitcommit: 9f11ce4d24f546e96ab794a23479a43a89b742f0
+ms.openlocfilehash: 9299a0ef4def8a41620ada24e8b13d7b41ed7cb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/16/2022
-ms.locfileid: "8762597"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887892"
 ---
 # <a name="finance-home-page"></a>Home page di Finance
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance. 
+In questo articolo viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di gestione finanziaria in Microsoft Dynamics 365 Finance. 
 
 Selezionare l'area di una funzionalità per ulteriori informazioni.
 

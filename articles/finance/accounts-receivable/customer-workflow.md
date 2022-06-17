@@ -1,6 +1,6 @@
 ---
 title: Flusso di lavoro cliente
-description: In questo argomento vengono fornite informazioni sul flusso di lavoro del cliente. È possibile modificare campi specifici per un cliente e inviare tali modifiche per l'approvazione utilizzando il flusso di lavoro prima che vengano aggiunte al cliente.
+description: In questo articolo vengono fornite informazioni sul flusso di lavoro del cliente. È possibile modificare campi specifici per un cliente e inviare tali modifiche per l'approvazione utilizzando il flusso di lavoro prima che vengano aggiunte al cliente.
 author: abruer
 ms.date: 08/24/2018
 ms.topic: index-page
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ccea0de202ec2f5ab706cb2110110fc9ffdc03ee
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 883e77b5480a52201673e58a641c7180009a129c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864427"
 ---
 # <a name="customer-workflow"></a>Flusso di lavoro cliente
 

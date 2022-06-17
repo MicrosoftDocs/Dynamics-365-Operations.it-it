@@ -1,6 +1,6 @@
 ---
 title: Home page di Supply Chain Management
-description: In questa pagina viene fornito un elenco di argomenti della Guida e di altre risorse necessarie per le funzionalità di Supply Chain Management.
+description: In questa pagina viene fornito un elenco di articoli della Guida e di altre risorse necessarie per le funzionalità di Supply Chain Management.
 author: kamaybac
 ms.date: 09/15/2021
 ms.topic: index-page
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ae75f33d96261691eee52c963a1f1f00c75b0de
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879078"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page di Supply Chain Management
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene fornito un elenco di argomenti della Guida e di altre risorse in Dynamics 365 Supply Chain Management.
+In questo articolo viene fornito un elenco di articoli della Guida e altre risorse di Dynamics 365 Supply Chain Management.
 
 ## <a name="whats-new-and-in-development"></a>Novità rilasciate e in via di sviluppo
 
@@ -93,7 +93,7 @@ Le registrazioni di conferenze tecniche seguenti illustrano le funzionalità di 
 
 ## <a name="blogs"></a>Blog
 
-Numerosi argomenti sulla produzione e sulla gestione della supply chain sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](/archive/blogs/axmfg/) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La maggior parte dei post si riferisce alla versione precedente, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente.
+Numerosi articoli sulla produzione e sulla gestione della supply chain sono disponibili nel [blog del team di ricerca e sviluppo per Dynamics AX - Produzione](/archive/blogs/axmfg/) e nel [blog del team di ricerca e sviluppo per Dynamics AX - Supply Chain Management](https://blogs.msdn.microsoft.com/dynamicsaxscm/). La maggior parte dei post si riferisce alla versione precedente, ma i concetti sono ancora validi e le procedure sono simili nella versione corrente.
 
 ## <a name="white-papers"></a>White paper
 

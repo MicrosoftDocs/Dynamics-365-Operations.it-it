@@ -1,6 +1,6 @@
 ---
 title: Impostazione del riconoscimento ricavi
-description: In questo argomento vengono descritte le opzioni di impostazione per il riconoscimento ricavi e le loro implicazioni.
+description: In questo articolo vengono descritte le opzioni di impostazione per il riconoscimento ricavi e le loro implicazioni.
 author: kweekley
 ms.date: 04/28/2022
 ms.topic: index-page
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 86690af303eb87335c980bd7dae3ae34ce06a2a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: ef294af8d3a8f39a80b98aeba293267dcca1f29b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900015"
 ---
 # <a name="revenue-recognition-setup"></a>Impostazione del riconoscimento ricavi
 [!include [banner](../includes/banner.md)]
 
-È stato aggiunto un nuovo modulo di **Riconoscimento ricavi** che include le voci di menu per qualsiasi impostazione richiesta. In questo argomento vengono descritte le opzioni di impostazione e le loro implicazioni.
+È stato aggiunto un nuovo modulo di **Riconoscimento ricavi** che include le voci di menu per qualsiasi impostazione richiesta. In questo articolo vengono descritte le opzioni di impostazione e le loro implicazioni.
 
 > [!NOTE]
 > La funzionalità Riconoscimento ricavi è ora abilitata per impostazione predefinita tramite Gestione funzionalità. Se l'organizzazione non utilizza questa funzione, è possibile disattivarla nell'area di lavoro **Gestione funzionalità**.

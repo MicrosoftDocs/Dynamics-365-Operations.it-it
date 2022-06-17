@@ -58,8 +58,10 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Applicare aggiornamenti a distribuzioni locali
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Configurare aggiornamenti del servizio
+                - name: Configurare gli aggiornamenti del servizio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Pre-assistenza e post-assistenza
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/pre-post-servicing.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Sospendere gli aggiornamenti del servizio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Ricevere notifiche sugli aggiornamenti del servizio
@@ -1529,11 +1531,13 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Risolvere i problemi di prestazioni nelle configurazioni di report elettronici
                       href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Gestione documenti aziendali
+                    - name: Ridurre il numero di campi di tabella che vengono recuperati in fase di esecuzione
+                      href: ../fin-ops-core/dev-itpro/analytics/er-reduce-fetched-fields-number.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Gestione documenti aziendali (BDM)
                   items:
-                    - name: Panoramica di Gestione documenti aziendali
+                    - name: Panoramica di Gestione documenti aziendali (BDM)
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Nuova interfaccia utente per documenti in Gestione documenti aziendali
+                    - name: Nuova interfaccia utente per documenti in Gestione documenti aziendali (BDM)
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Modificare i modelli di documenti aziendali in Gestione documenti aziendali
                       items:

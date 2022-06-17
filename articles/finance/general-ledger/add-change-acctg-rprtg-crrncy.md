@@ -1,6 +1,6 @@
 ---
 title: Modificare la valuta di contabilizzazione o di dichiarazione
-description: In questo argomento viene illustrato come modificare la valuta di contabilizzazione o di dichiarazione o come aggiungere una valuta di dichiarazione all'impostazione della contabilità generale.
+description: In questo articolo viene illustrato come modificare la valuta di contabilizzazione o di dichiarazione o come aggiungere una valuta di dichiarazione all'impostazione della contabilità generale.
 author: kweekley
 ms.date: 05/05/2021
 ms.topic: index-page
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ff5c38193e8469cb806c525b77809844847d6c92
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b02432c8e0bdf52c2a588f67a581b78e682b1bf8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904616"
 ---
 # <a name="change-the-accounting-or-reporting-currency"></a>Modificare la valuta di contabilizzazione o di dichiarazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come modificare la valuta di contabilizzazione o di dichiarazione o come aggiungere una valuta di dichiarazione all'impostazione della contabilità generale.
+In questo articolo viene illustrato come modificare la valuta di contabilizzazione o di dichiarazione o come aggiungere una valuta di dichiarazione all'impostazione della contabilità generale.
 
 ## <a name="symptom"></a>Sintomo
 
@@ -73,7 +73,7 @@ Attenersi alla seguente procedura per copiare l'impostazione e i dati master dal
 10. Nell'area **Entità selezionate** selezionare **Aggiungi modello**.
 11. Selezionare i modelli da utilizzare. I modelli suggeriti per una nuova persona giuridica includono **025 - Contabilità generale** e **dati Finance**. Consigliamo di esaminare tutti gli altri modelli disponibili per determinare se si applicano ai propri requisiti.
 12. Selezionare **Copia in persona giuridica** per avviare un processo batch che crea le entità selezionate e le copia nella persona giuridica di destinazione.
-13. Dopo che il processo è stato completato, ma prima che venga registrata qualsiasi transazione, andare alla contabilità generale e aggiornare le valute di contabilizzazione e di dichiarazione come descritto in precedenza in questo argomento.
+13. Dopo che il processo è stato completato, ma prima che venga registrata qualsiasi transazione, andare alla contabilità generale e aggiornare le valute di contabilizzazione e di dichiarazione come descritto in precedenza in questo articolo.
 
 Se è stata creata una nuova persona giuridica in modo da poter modificare la valuta di contabilizzazione o di dichiarazione, verificare che i saldi iniziali siano convertiti dalle valute della persona giuridica precedente alle nuove valute.
 
