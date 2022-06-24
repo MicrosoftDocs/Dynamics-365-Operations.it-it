@@ -1,6 +1,6 @@
 ---
 title: Integrare l'approvvigionamento tra Supply Chain Management e Field Service
-description: In questo argomento viene descritto come l'integrazione della doppia scrittura supporta la creazione di ordini fornitore e gli aggiornamenti sia da Supply Chain Management che da Field Service.
+description: In questo articolo viene descritto come l'integrazione della doppia scrittura supporta la creazione di ordini fornitore e gli aggiornamenti sia da Supply Chain Management che da Field Service.
 author: RamaKrishnamoorthy
 ms.date: 11/11/2020
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ab251ee60bf3c831b0139beb9557c6b3faaf9f66
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: d5a59365b3a524b8a5ec9e1e829fe181aa3d3660
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7783285"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897146"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrare l'approvvigionamento tra Supply Chain Management e Field Service
 

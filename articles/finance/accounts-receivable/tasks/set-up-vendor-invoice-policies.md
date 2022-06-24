@@ -1,6 +1,6 @@
 ---
-title: Impostare criteri di fatture fornitore
-description: In questo argomento viene spiegato come impostare i criteri di fatture fornitore.
+title: Imposta criteri fatture fornitore
+description: In questo articolo viene spiegato come impostare i criteri di fatture fornitore.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f9707c7b283f42729126efa57e890e0df65ca8b
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: 049b38b6feba5f4369d79b89b4c81a8195dd7758
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109758"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904732"
 ---
-# <a name="set-up-vendor-invoice-policies"></a>Impostare criteri di fatture fornitore
+# <a name="set-up-vendor-invoice-policies"></a>Imposta criteri fatture fornitore
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene spiegato come impostare i criteri di fatture fornitore. I criteri fattura fornitore vengono eseguiti quando si registra una fattura fornitore tramite la pagina **Fattura fornitore** e quando si apre la pagina **Violazioni criteri** per fatture fornitore. È inoltre possibile configurare il flusso di lavoro delle fatture fornitore affinché i criteri fatture fornitore vengano eseguiti ogni volta che si invia una fattura al flusso di lavoro. 
+In questo articolo viene spiegato come impostare i criteri di fatture fornitore. I criteri fattura fornitore vengono eseguiti quando si registra una fattura fornitore tramite la pagina **Fattura fornitore** e quando si apre la pagina **Violazioni criteri** per fatture fornitore. È inoltre possibile configurare il flusso di lavoro delle fatture fornitore affinché i criteri fatture fornitore vengano eseguiti ogni volta che si invia una fattura al flusso di lavoro. 
 
 - I criteri fatture fornitore non sono applicabili alle fatture create nel registro fatture o nel giornale di registrazione fatture.  
 - La convalida di abbinamento fatture non utilizza i criteri fatture fornitore, ma viene invece impostata nella pagina **Parametri contabilità fornitori**.  

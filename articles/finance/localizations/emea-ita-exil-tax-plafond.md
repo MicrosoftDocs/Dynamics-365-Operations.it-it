@@ -1,6 +1,6 @@
 ---
 title: Plafond fiscale
-description: Questo argomento spiega come impostare e lavorare con il plafond fiscale, un processo di esenzione fiscale.
+description: Questo articolo spiega come impostare e lavorare con il plafond fiscale, un processo di esenzione fiscale.
 author: ilkond
 ms.date: 02/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a8f006c853829f0edfef53a78f21e5516859fb47ee1f2e37de964a0dfc5d692f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7d5e37f8c15708e4e760d1a9df45d96d295197f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902347"
 ---
 # <a name="tax-plafond"></a>Plafond fiscale
 
@@ -26,7 +26,7 @@ ms.locfileid: "6748123"
 
 Il plafond fiscale è un processo di esenzione fiscale disponibile per le aziende, chiamato *esportatore abituale*, di acquistare e importare beni e servizi senza pagare l'IVA, entro un valore limitato delle loro vendite all'estero nel periodo precedente. Una società è una *esportatore abituale* se, durante l'anno precedente, il 10 percento del suo valore dei ricavi proveniva dalla vendita in un paese straniero. L'importo iniziale del plafond e le sue date di validità sono stabiliti all'inizio del periodo. La società può acquistare senza pagare l'IVA purché il valore degli acquisti sia inferiore all'importo iniziale del plafond.
 
-Questo argomento descrive come completare queste attività:
+Questo articolo descrive come completare queste attività:
 
 - Configurare il sistema affinché utilizzi la funzionalità **Plafond fiscale**.
 - Lavora con lettere di intenti e plafond fiscali.

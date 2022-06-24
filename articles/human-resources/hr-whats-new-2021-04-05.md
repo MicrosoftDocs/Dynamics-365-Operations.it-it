@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (5 aprile 2021)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 5 aprile 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 5 aprile 2021.
 author: marcelbf
 ms.date: 04/05/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 19ac856de0fed9253bf79cb4c06d4347e5a19c77
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1b8074877b8d2b2c05596406cbf2d98febd2e8cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693474"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899529"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-april-5-2021"></a>Novità o modifiche in Dynamics 365 Human Resources (5 aprile 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Uscita |  descrizione |
+| Numero problema | Problema |  Description |
 | --- | --- | --- |
 | 550852 | Il pulsante **Approvazione** non funziona con i campi obbligatori impostati nel modulo **Rivedi**. | Quando si imposta un campo nel modulo **Rivedi** come obbligatorio e si pubblicano le modifiche per il ruolo di responsabile, il modulo non viene convalidato come previsto. |
 | 559564 | Le azioni storiche dei lavoratori per la modifica della retribuzione fissa generano errori per gli utenti con rapporto di lavoro concluso. | L'azione lavoratore relativa alla retribuzione di un dipendente con rapporto di lavoro concluso genera un errore. Dopo che un dipendente conclude il rapporto di lavoro, l'azione lavoratore di promozione prima della conclusione del rapporto di lavoro genera un errore. |

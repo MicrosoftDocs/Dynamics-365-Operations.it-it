@@ -1,6 +1,6 @@
 ---
 title: Calendari fiscali, anni fiscali e periodi
-description: In questo argomento vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l'impostazione del budget.
+description: In questo articolo vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l'impostazione del budget.
 author: aprilolson
 ms.date: 03/05/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d50db3a96d6267f59dd5a99c039dd8fc8b44079a
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a1583df4650d0b36ecc2cb0d3e2d3a410aa807ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717392"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909100"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Calendari fiscali, anni fiscali e periodi
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l'impostazione del budget.
+In questo articolo vengono illustrati calendari fiscali, anni fiscali e periodi e il modo in cui utilizzarli per le persone giuridiche, i cespiti e l'impostazione del budget.
 
 I calendari fiscali forniscono una struttura per l'attività finanziaria di un'organizzazione. Ogni calendario fiscale contiene uno o più anni fiscali e ogni anno fiscale contiene più periodi. I calendari fiscali possono essere basati su un anno di calendario dal 1° gennaio al 31 dicembre o su date selezionate. Alcune organizzazioni selezionano, ad esempio, un calendario fiscale che inizia il 1° luglio di un anno e termina il 30 giugno dell'anno successivo. 
 

@@ -1,6 +1,6 @@
 ---
 title: Sistema della guida (video)
-description: Questo argomento fornisce una panoramica della Guida per le app per finanza e operazioni.
+description: Questo articolo fornisce una panoramica della Guida per le app per finanza e operazioni.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd34addc2ffa5e437691cb1e3e8b33246053ccc7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898371"
 ---
 # <a name="help-system"></a>Guida
 
@@ -70,7 +70,7 @@ In alternativa, puoi iscriverti a un feed RSS tramite app:
 
 ### <a name="leave-us-feedback"></a>Invia commenti e suggerimenti
 
-Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento nella parte inferiore della pagina.
+Se si hanno suggerimenti o domande riguardo un articolo, scrivi un commento nella parte inferiore della pagina.
 
 1. Seleziona **Feedback** per passare al riquadro dei commenti nell'area inferiore della pagina. Quindi, seleziona uno dei due **Commenti e suggerimenti sul prodotto** o **Accedi per lasciare commenti e suggerimenti sulla documentazione**.
 
@@ -83,7 +83,7 @@ Se si hanno suggerimenti o domande riguardo un argomento, scrivere un commento n
 
 ## <a name="contribute-to-the-documentation"></a>Contribuire alla documentazione
 
-È possibile contribuire alla documentazione e apportarvi delle modifiche. Per iniziare, seleziona il pulsante **Modifica** (simbolo della matita) su un argomento. Nel video seguente viene mostrato come contribuire alla nostra documentazione.
+È possibile contribuire alla documentazione e apportarvi delle modifiche. Per iniziare, seleziona il pulsante **Modifica** (simbolo della matita) su un articolo. Nel video seguente viene mostrato come contribuire alla nostra documentazione.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
@@ -98,7 +98,7 @@ Per ulteriori informazioni, vedi la [Guida del collaboratore alla documentazione
 
 La guida attività è un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o un processo aziendale. È possibile aprire (riprodurre) una guida attività dal riquadro **Guida**. Quando selezioni per la prima volta una guida attività, nel riquadro **Guida** vengono visualizzate le istruzioni dettagliate per l'attività. Sono disponibili guide attività localizzate.
 
-Microsoft ha rilasciato le librerie delle guide attività per le versioni dei prodotti fino alla versione di dicembre 2017 di Dynamics 365 for Finance and Operations. La sezione [Accesso alle guide attività dal riquadro Guida](#accessing-task-guides-from-the-help-pane) di questo argomento descrive come trovare le guide attività appropriate per il prodotto.
+Microsoft ha rilasciato le librerie delle guide attività per le versioni dei prodotti fino alla versione di dicembre 2017 di Dynamics 365 for Finance and Operations. La sezione [Accesso alle guide attività dal riquadro Guida](#accessing-task-guides-from-the-help-pane) di questo articolo descrive come trovare le guide attività appropriate per il prodotto.
 
 ![Visualizzazione lettura della guida attività.](./media/task-guide-ops.png)
 
@@ -121,7 +121,7 @@ Per accedere al contenuto della Guida, seleziona il pulsante **Guida** (**?**), 
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Accesso agli argomenti della Guida dal riquadro Guida
 
-Dal riquadro della **Guida** è possibile accedere agli argomenti applicabili al client. Quando si apre il riquadro della **Guida** e si fa clic sulla scheda **Guida**, vengono visualizzati gli argomenti applicabili alla pagina attualmente aperta. Se non viene trovato alcun argomento, puoi immettere le parole chiave per ridefinire la ricerca. Quando selezioni un argomento nel riquadro **Guida**, viene aperto in una nuova scheda nel browser.
+Dal riquadro della **Guida** è possibile accedere agli argomenti applicabili al client. Quando si apre il riquadro della **Guida** e si fa clic sulla scheda **Guida**, vengono visualizzati gli argomenti applicabili alla pagina attualmente aperta. Se non viene trovato alcun argomento, puoi immettere le parole chiave per ridefinire la ricerca. Quando selezioni un articolo nel riquadro **Guida**, viene aperto in una nuova scheda nel browser.
 
 > [!IMPORTANT]
 > Questa sezione non si applica a Dynamics 365 Human Resources. Il sistema Guida per Human Resources è automaticamente connessa alle guide attività per il prodotto. Inoltre, non è possibile creare Guide attività personalizzate per Human Resources.

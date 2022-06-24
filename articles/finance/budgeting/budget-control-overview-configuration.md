@@ -1,6 +1,6 @@
 ---
 title: Panoramica del controllo del budget
-description: Questo argomento introduce la funzionalità di controllo del budget e fornisce informazioni che consentono di configurare il controllo del budget per ottimizzare la gestione delle risorse finanziarie dell'organizzazione.
+description: Questo articolo introduce la funzionalità di controllo del budget e fornisce informazioni che consentono di configurare il controllo del budget per ottimizzare la gestione delle risorse finanziarie dell'organizzazione.
 author: panolte
 ms.date: 03/28/2022
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e36ecacc621b4ecb8cc71e42b7a306c4494f625a
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 27eb31919937e7f43a785616b547e3d6952eaaf2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898300"
 ---
 # <a name="budget-control-overview"></a>Panoramica del controllo del budget
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento introduce la funzionalità di controllo del budget e fornisce informazioni che consentono di configurare il controllo del budget per ottimizzare la gestione delle risorse finanziarie dell'organizzazione.
+Questo articolo introduce la funzionalità di controllo del budget e fornisce informazioni che consentono di configurare il controllo del budget per ottimizzare la gestione delle risorse finanziarie dell'organizzazione.
 
 Il controllo del budget supporta la gestione delle risorse finanziarie di un'organizzazione tramite il piano dei conti, i flussi di lavoro, i gruppi di utenti, i documenti di origine e i giornali di registrazione, il calcolo configurabile dei fondi disponibili, i cicli di budget e le soglie. Se i controlli sono sul posto, un'organizzazione può programmare, misurare, gestire e programmare le risorse finanziarie nel corso dell'anno fiscale. 
 

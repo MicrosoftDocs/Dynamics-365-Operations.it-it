@@ -1,6 +1,6 @@
 ---
 title: Sviluppare una struttura di retribuzione
-description: In questo argomento viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità.
+description: In questo articolo viene illustrato come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità.
 author: twheeloc
 ms.date: 08/25/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f069d4e982a9c02070c2010b894b2ec7a9c7f6ab
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 86953e6d54843f17d0d6090a9def8bc256624f21
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693089"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902978"
 ---
 # <a name="develop-a-compensation-structure"></a>Sviluppare una struttura di retribuzione
 
@@ -26,7 +26,7 @@ ms.locfileid: "8693089"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo argomento viene descritto come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità. Questo argomento utilizza i dati dimostrativi USMF e si applica ai responsabili retribuzione e benefit.
+In questo articolo viene descritto come creare un piano di retribuzione fissa e iscrivere i dipendenti al piano in base alle regole di idoneità. Questo articolo utilizza i dati dimostrativi USMF e si applica ai responsabili retribuzione e benefit.
 
 ## <a name="create-a-fixed-compensation-plan"></a>Creare un piano di retribuzione fissa
 

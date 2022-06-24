@@ -1,6 +1,6 @@
 ---
 title: Impostare codici reporting di ritenuta d'acconto per il tipo di imposta TDS
-description: I codici reporting di ritenuta d'acconto sono utilizzati per generare dichiarazioni con modulo 26Q e modulo 27Q per l'imposta dedotta all'origine (TDS). In questo argomento viene illustrato come impostare i passaggi dei codici reporting di ritenuta d'acconto in modo da poter impostare i codici reporting TDS.
+description: I codici reporting di ritenuta d'acconto sono utilizzati per generare dichiarazioni con modulo 26Q e modulo 27Q per l'imposta dedotta all'origine (TDS). In questo articolo viene illustrato come impostare i passaggi dei codici reporting di ritenuta d'acconto in modo da poter impostare i codici reporting TDS.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 769159fc10c3edfba8c2f626e7bff702e3e5cd7f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: bdd2e89d29807dc31d8f2d4684ee413470b1dbde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907800"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Impostare codici reporting di ritenuta d'acconto per il tipo di imposta TDS
 
 [!include [banner](../includes/banner.md)]
 
-I codici reporting di ritenuta d'acconto sono utilizzati per generare dichiarazioni con modulo 26Q e modulo 27Q per l'imposta dedotta all'origine (TDS). In questo argomento viene illustrato come impostare i passaggi dei codici reporting di ritenuta d'acconto in modo da poter impostare i codici reporting TDS.
+I codici reporting di ritenuta d'acconto sono utilizzati per generare dichiarazioni con modulo 26Q e modulo 27Q per l'imposta dedotta all'origine (TDS). In questo articolo viene illustrato come impostare i passaggi dei codici reporting di ritenuta d'acconto in modo da poter impostare i codici reporting TDS.
 
 1. Seleziona **Imposta \> Impostazione \> Ritenuta d'acconto \> Codici reporting ritenuta d'acconto**.
 

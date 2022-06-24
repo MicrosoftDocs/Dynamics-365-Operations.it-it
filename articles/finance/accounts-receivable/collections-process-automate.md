@@ -1,6 +1,6 @@
 ---
 title: Automazione processo riscossioni
-description: Questo argomento descrive il processo di impostazione delle strategie di processo di riscossione che identificano automaticamente le fatture del cliente che richiedono un promemoria tramite posta elettronica, un'attività di riscossione o una lettera di sollecito da inviare al cliente.
+description: Questo articolo descrive il processo di impostazione delle strategie di processo di riscossione che identificano automaticamente le fatture del cliente che richiedono un promemoria tramite posta elettronica, un'attività di riscossione o una lettera di sollecito da inviare al cliente.
 author: JodiChristiansen
 ms.date: 03/12/2021
 ms.topic: article
@@ -8,23 +8,23 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 59db852024faf457db7ac145b67619b31555aaf2
-ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
+ms.openlocfilehash: 9ec749db197b4d04ee2e99ac7a16f4f2120c6707
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "7486871"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946180"
 ---
 # <a name="collections-process-automation"></a>Automazione processo riscossioni
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive il processo di impostazione delle strategie di processo di riscossione che identificano automaticamente le fatture del cliente che richiedono un promemoria tramite posta elettronica, un'attività di riscossione (come una telefonata) o una lettera di sollecito da inviare al cliente. 
+Questo articolo descrive il processo di impostazione delle strategie di processo di riscossione che identificano automaticamente le fatture del cliente che richiedono un promemoria tramite posta elettronica, un'attività di riscossione (come una telefonata) o una lettera di sollecito da inviare al cliente. 
 
 Le organizzazioni spesso dedicano molto tempo alla ricerca di report sui saldi con aging, conti clienti e fatture aperte per determinare quali clienti devono essere contattati in merito a una fattura aperta o al saldo del conto. Questa ricerca sottrae tempo a un agente di riscossione per comunicare con i clienti per riscuotere saldi scaduti o risolvere controversie sulle fatture. L'automazione del processo di riscossione consente di impostare un approccio basato sulla strategia al processo di riscossione. Ciò consente di applicare le attività di riscossione in modo coerente fornendo promemoria e-mail personalizzati o un processo programmato per l'invio di lettere di sollecito. 
 

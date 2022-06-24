@@ -1,6 +1,6 @@
 ---
 title: Registrare l'ammortamento asset Right of use (anteprima)
-description: In questo argomento viene illustrato come creare la scrittura contabile per l'ammortamento richiesto per i leasing rilevati nello stato patrimoniale di un'organizzazione.
+description: In questo articolo viene illustrato come creare la scrittura contabile per l'ammortamento richiesto per i leasing rilevati nello stato patrimoniale di un'organizzazione.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebac6c8d008babec93061071414579eec3a73223
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 93e521cf409af4c01d625f27bdd7a7564e471bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903278"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrare l'ammortamento asset Right of use (anteprima)
 
@@ -28,13 +28,13 @@ ms.locfileid: "8727708"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Per i leasing rilevati nello stato patrimoniale un'organizzazione, l'Asset Right of use (ROU) viene ammortizzato mensilmente. In questo argomento viene illustrato come creare la scrittura contabile per l'ammortamento. L'ammortamento addebita il conto CoGe delle spese e accredita il conto CoGe degli ammortamenti accumulati, in base all'impostazione del profilo di registrazione e al tipo di leasing. Queste voci possono essere create per ogni leasing oppure possono essere create per più leasing utilizzando la funzionalità di giornale di registrazione batch.
+Per i leasing rilevati nello stato patrimoniale un'organizzazione, l'Asset Right of use (ROU) viene ammortizzato mensilmente. In questo articolo viene illustrato come creare la scrittura contabile per l'ammortamento. L'ammortamento addebita il conto CoGe delle spese e accredita il conto CoGe degli ammortamenti accumulati, in base all'impostazione del profilo di registrazione e al tipo di leasing. Queste voci possono essere create per ogni leasing oppure possono essere create per più leasing utilizzando la funzionalità di giornale di registrazione batch.
 
 ## <a name="asset-depreciation-schedule"></a>Programmazione di ammortamento cespite
 
 1. Nella pagina **Riepilogo leasing**, seleziona un leasing. Quindi seleziona **Libri \> Piano di ammortamento cespite** per aprire la pagina **Piano di ammortamento cespite**.
 
-    La scrittura contabile delle spese di ammortamento dell'asset ROU si basa sull'importo nella colonna **Spesa di ammortamento**. Per un esempio della guida per la conformità ai principi contabili, vedi la sezione [Calcolo della spesa di ammortamento dell'asset ROU per leasing finanziari](#calculation-of-rou-asset-amortization-expense-for-finance-leases) più avanti in questo argomento.
+    La scrittura contabile delle spese di ammortamento dell'asset ROU si basa sull'importo nella colonna **Spesa di ammortamento**. Per un esempio della guida per la conformità ai principi contabili, vedi la sezione [Calcolo della spesa di ammortamento dell'asset ROU per leasing finanziari](#calculation-of-rou-asset-amortization-expense-for-finance-leases) più avanti in questo articolo.
     
 2. Seleziona il periodo di ammortamento, quindi seleziona **Crea giornale di registrazione**. Viene visualizzato un messaggio che informa che è stato creato il giornale di registrazione che verrà utilizzato per registrare l'ammortamento.
 3. Seleziona **Giornali di registrazione \> Giornali di registrazione leasing di cespiti** per aprire la pagina **Giornale di registrazione leasing cespite**, in cui è possibile visualizzare la scrittura contabile delle spese di ammortamento creata.

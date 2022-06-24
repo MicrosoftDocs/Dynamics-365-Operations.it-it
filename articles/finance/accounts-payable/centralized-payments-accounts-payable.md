@@ -1,6 +1,6 @@
 ---
 title: Pagamenti centralizzati per la contabilità fornitori
-description: Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Questo argomento fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
+description: Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Questo articolo fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df0d2178d1ebd3dcb154e2c4f7821a4007da55d4
-ms.sourcegitcommit: 5033d42a2aac852916d726e40bd98a164d1a837d
+ms.openlocfilehash: 5478a2ac61fb7304bc617f3d2614e68cda6154de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8331744"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903451"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamenti centralizzati per la contabilità fornitori
 
 [!include [banner](../includes/banner.md)]
 
-Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Questo argomento fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
+Le organizzazioni che includono più persone giuridiche possono creare e gestire i pagamenti utilizzando una sola persona giuridica che gestisca tutti i pagamenti. Di conseguenza, gli stessi pagamenti non devono essere immessi in più persone giuridiche. Questo articolo fornisce esempi che indicano come gestire la registrazione dei pagamenti centralizzati in diversi scenari.
 
 In un'organizzazione di pagamento centralizzata sono presenti numerose persone giuridiche per le operazioni e ciascuna persona giuridica operativa gestisce le proprie fatture fornitore. I pagamenti per tutte le persone giuridiche operative vengono generati da una singola persona giuridica, nota come persona giuridica del pagamento. Durante il processo di liquidazione, vengono generate le transazioni relative a importi da versare e da ricevere. È possibile specificare quale persona giuridica dell'organizzazione riceve le transazioni di profitto realizzato o di perdita realizzata e la modalità di gestione delle transazioni di sconto di cassa correlate a un pagamento interaziendale. Nella riga del giornale di registrazione pagamenti centralizzato, **Tipo di conto** deve essere impostato su Fornitore. **Tipo di conto di contropartita** deve essere impostato su Banca o Contabilità generale. Il conto bancario deve essere nella società corrente. 
 

@@ -1,6 +1,6 @@
 ---
 title: Applicazioni connesse
-description: Questo argomento spiega come configurare le applicazioni connesse nella fatturazione elettronica.
+description: Questo articolo spiega come configurare le applicazioni connesse nella fatturazione elettronica.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59b67589139c0ce332716acf998825c6a024bded
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 7a0a9c19009c49b80ca8c182c31592c1a713a2aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906289"
 ---
 # <a name="connected-applications"></a>Applicazioni connesse
 
@@ -39,7 +39,7 @@ La disponibilità dei parametri Finance o Supply Chain Management in RCS è util
 3. Nella pagina **Configurazione ambiente**, nel riquadro Azioni, selezionare **Applicazioni connesse**.
 4. Seleziona **Nuovo** per creare un'applicazione connessa.
 5. Nel campo **Nome** immettere il nome dell'applicazione da connettere.
-6. Nel campo **Tipo** selezionare **Dynamics 365 Finance**.
+6. Nel campo **Tipo** seleziona **Dynamics 365 Finance**.
 7. Nel campo **Applicazione** immetti l'URL dell'ambiente da connettere.
 8. Nel campo **Tenant**, immetti il tenant dell'ambiente.
 9. Seleziona **Salva**.

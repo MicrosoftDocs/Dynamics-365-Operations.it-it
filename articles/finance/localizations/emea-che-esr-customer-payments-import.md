@@ -1,6 +1,6 @@
 ---
 title: Importazione pagamenti cliente PVR
-description: In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
+description: In questo articolo vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
 author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 29bac54445ee78d4753b7b77004e21c67ae7d1ba
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 12fbad758215c24f986db2566c7e6495ed6d3460
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904304"
 ---
 # <a name="esr-customer-payments-import"></a>Importazione pagamenti cliente PVR
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
+In questo articolo vengono fornite informazioni sull'importazione dei pagamenti cliente in formato PVR.
 
 PVR è un servizio di addebito elettronico che utilizza distinte di pagamento per raccogliere denaro. Si tratta del sistema di pagamento elettronico standard creato dalla Posta svizzera. È possibile ricevere i file di pagamento clienti in formato PVR, il quale può includere le transazioni e le commissioni bancarie. Questa funzionalità è progettata per le transazioni clienti importate in base ai riferimenti di pagamento originariamente generati in Dynamics 365 Finance e stampati nella distinta di pagamento.
 

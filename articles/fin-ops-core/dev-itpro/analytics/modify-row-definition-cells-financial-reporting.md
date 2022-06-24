@@ -1,6 +1,6 @@
 ---
-title: Modificare le celle di definizione di riga
-description: In questo argomento vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
+title: Modificare le celle di definizione riga
+description: In questo articolo vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
 author: ShylaThompson
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80df992ce14577ba78587648f8af2c35b382a589
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b06c59e3ec35d0eea7fc4b81af540e0bcca144fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905114"
 ---
-# <a name="modify-row-definition-cells"></a>Modificare le celle di definizione di riga
+# <a name="modify-row-definition-cells"></a>Modificare le celle di definizione riga
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
+In questo articolo vengono descritte le informazioni necessarie per ogni cella in una definizione di riga in un report finanziario, e viene illustrato come immettere le informazioni.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Specificare un codice di riga in una definizione riga
 

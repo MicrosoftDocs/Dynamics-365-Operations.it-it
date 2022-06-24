@@ -1,6 +1,6 @@
 ---
 title: Utilizzare flussi di lavoro per gestire le informazioni del dipendente
-description: In questo argomento viene descritto come utilizzare i flussi di lavoro per gestire le informazioni sui dipendenti.
+description: In questo articolo viene descritto come utilizzare i flussi di lavoro per gestire le informazioni sui dipendenti.
 author: twheeloc
 ms.date: 11/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c416a82976bc39464006325f02f1af4d2f32ea4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fcbacc3cb891043560fabf28487bfeb12d1b77b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908803"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Utilizzare flussi di lavoro per gestire le informazioni del dipendente
 
@@ -27,7 +27,7 @@ ms.locfileid: "8691528"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo argomento viene descritto come utilizzare la funzionalità del flusso di lavoro per le risorse umane per gestire le informazioni sui dipendenti. Ad esempio, è possibile associare un flusso di lavoro a una posizione e configurare un flusso di lavoro di approvazione che viene avviato quando i dipendenti modificano i propri record.
+In questo articolo viene descritto come utilizzare la funzionalità del flusso di lavoro per le risorse umane per gestire le informazioni sui dipendenti. Ad esempio, è possibile associare un flusso di lavoro a una posizione e configurare un flusso di lavoro di approvazione che viene avviato quando i dipendenti modificano i propri record.
 
 La funzionalità del flusso di lavoro per le risorse umane fornisce numerosi flussi di lavoro per la gestione delle attività delle risorse umane. Sono inoltre disponibili numerose opzioni per poter modificare flussi di lavoro specifici e associarli a una gerarchia di reporting. I flussi di lavoro sono disponibili per agevolare la gestione delle modifiche a vari tipi di informazioni sui dipendenti. È possibile associare un flusso di lavoro a una posizione. Quindi, se i dipendenti modificano i propri record dipendente, viene avviato un flusso di lavoro che richiede l'approvazione prima che le nuove informazioni vengano salvate. I flussi di lavoro sono predefiniti per i seguenti tipi di informazioni per consentire di gestire le modifiche in modo efficiente e garantire la precisione dei dati dei dipendenti.
 

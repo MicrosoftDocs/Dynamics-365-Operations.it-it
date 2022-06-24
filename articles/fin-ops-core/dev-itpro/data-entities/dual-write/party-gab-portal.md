@@ -1,6 +1,6 @@
 ---
 title: Utilizzo dei portali Microsoft Power Apps con il modello di dati parte
-description: In questo argomento vengono descritte le modifiche ai ruoli Web dei portali Microsoft Power Apps a causa del modello di dati della parte in doppia scrittura.
+description: In questo articolo vengono descritte le modifiche ai ruoli Web dei portali Microsoft Power Apps a causa del modello di dati della parte in doppia scrittura.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 8242a74b8b2251a8489b772f5c4746b113fe2987
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: c2e9d0f47ef90167bf84bb5b20e6a7ad2d58ffd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898948"
 ---
 # <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Utilizzo dei portali Microsoft Power Apps con il modello di dati parte
 
@@ -24,7 +24,7 @@ ms.locfileid: "8060922"
 
 La versione della soluzione di orchestrazione delle applicazioni a doppia scrittura 2.0.999.0 e successive include le modifiche al modello di dati della parte e alla rubrica globale per le tabelle Conto e Contatto. Le modifiche consentono le relazioni molti-a-molti che supportano scenari aziendali avanzati. Queste modifiche non sono supportate dai ruoli Web del portale, incluso il portale del cliente, forniti in modo predefinito o esistenti nell'ambiente prima dell'installazione della doppia scrittura. Affinché i ruoli Web funzionino come previsto, è necessario creare nuovi ruoli Web utilizzando il nuovo modello di dati. 
 
-In sintesi, il modo in cui le tabelle interagiscono è cambiato, ma le autorizzazioni delle tabelle nel portale dei clienti non sono cambiate. Questo argomento spiega come creare nuovi ruoli Web che funzionano con il nuovo modello di dati avanzato.
+In sintesi, il modo in cui le tabelle interagiscono è cambiato, ma le autorizzazioni delle tabelle nel portale dei clienti non sono cambiate. Questo articolo spiega come creare nuovi ruoli Web che funzionano con il nuovo modello di dati avanzato.
 
 Questo diagramma mostra la relazione tra le tabelle **senza** il modello dei dati la parte e della rubrica globale:
 

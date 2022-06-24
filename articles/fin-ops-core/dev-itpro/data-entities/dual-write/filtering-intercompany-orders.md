@@ -1,6 +1,6 @@
 ---
 title: Filtrare gli ordini interaziendali per evitare di sincronizzare ordini e righe ordine
-description: Questo argomento spiega come filtrare gli ordini interaziendali in modo che le entità Ordini e Righe ordini non siano sincronizzate.
+description: Questo articolo spiega come filtrare gli ordini interaziendali in modo che le entità Ordini e Righe ordini non siano sincronizzate.
 author: negudava
 ms.date: 11/09/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: negudava
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8575f38ca23ef245947a41c35846983604662ef2
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: 47d5cc358165d9a870892e0d026948d65343e5f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7782555"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910353"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Filtrare gli ordini interaziendali per evitare di sincronizzare ordini e righe ordine
 

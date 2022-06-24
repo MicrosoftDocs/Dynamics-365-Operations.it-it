@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources 21 gennaio 2021
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 21 gennaio 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 21 gennaio 2021.
 author: marcelbf
 ms.date: 01/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be50596cd64839ba82b847b2fabb0f46dc749a3f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9f1f660b7993804901f5fc9d3b608c141882bff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901091"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Novità o modifiche in Dynamics 365 Human Resources 21 gennaio 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -53,9 +53,9 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Uscita |  Descrizione |
+| Numero problema | Problema |  Description |
 | --- | --- | --- |
 | 533079 | Errore di navigazione "Il modulo è stato richiamato in modo errato" quando proviamo a esaminare le detrazioni. | Risolto errore durante la visualizzazione delle detrazioni sui benefit con vista **Ad oggi**. |
 | 543641 | Il codice postale non viene compilato nella creazione dei report elettronici.  | Risolto un bug interno sul codice postale che non veniva visualizzato nei report elettronici ACA per la gestione dei benefit quando il codice di copertura è compreso tra M e Q. |

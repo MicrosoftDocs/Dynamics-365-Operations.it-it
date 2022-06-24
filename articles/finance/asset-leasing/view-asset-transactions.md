@@ -1,6 +1,6 @@
 ---
 title: Visualizzare le transazioni relative a passività, attività e spese
-description: Questo argomento spiega come visualizzare le transazioni per un asset in leasing. Queste transazioni includono transazioni di obbligazione sul leasing e transazioni di spese di esecuzione che sono state registrate.
+description: Questo articolo spiega come visualizzare le transazioni per un asset in leasing. Queste transazioni includono transazioni di obbligazione sul leasing e transazioni di spese di esecuzione che sono state registrate.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: be11250a85d160aa71ab76af9cfdb0258fd7bf11
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 552b5a6044950c4dd7547a5239c1b3f7d355dbce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727484"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906415"
 ---
 # <a name="view-liability-asset-and-expense-transactions"></a>Visualizzare le transazioni relative a passività, attività e spese
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come visualizzare le transazioni per un asset in leasing. Queste transazioni includono transazioni di obbligazione sul leasing e transazioni di spese di esecuzione che sono state registrate. I valori contabili dell'passività e dell'asset ROU sono utilizzati in diversi report. Sono anche utilizzati per calcolare i valori di rettifica.
+Questo articolo spiega come visualizzare le transazioni per un asset in leasing. Queste transazioni includono transazioni di obbligazione sul leasing e transazioni di spese di esecuzione che sono state registrate. I valori contabili dell'passività e dell'asset ROU sono utilizzati in diversi report. Sono anche utilizzati per calcolare i valori di rettifica.
 
 ## <a name="liability-transactions"></a>Transazioni di passività
 

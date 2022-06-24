@@ -1,6 +1,6 @@
 ---
 title: Impostare sequenze numeriche singole
-description: Questo argomento spiega come impostare sequenze numeriche singole.
+description: Questo articolo spiega come impostare sequenze numeriche singole.
 author: SunilGarg
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b95a639c593c0f126a9aa1dd50434838d09ef746
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 7be72d348957c5c6494958276b2baa9c67d63c58
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7777915"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904990"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Impostare sequenze numeriche singole
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento spiega come impostare sequenze numeriche singole. Le sequenze numeriche vengono utilizzate per generare identificatori univoci e leggibili per record anagrafica e record transazioni che li richiedono. Un record transazioni o dati master che richiede un identificatore viene definito riferimento. Prima di poter creare nuovi record per un riferimento, è necessario impostare una sequenza numerica e associarla al riferimento. È possibile impostare tutte le sequenze numeriche richieste contemporaneamente utilizzando la procedura guidata **Imposta sequenze numeriche** oppure creare o modificare singole sequenze numeriche utilizzando la pagina **Sequenze numeriche**.
+Questo articolo spiega come impostare sequenze numeriche singole. Le sequenze numeriche vengono utilizzate per generare identificatori univoci e leggibili per record anagrafica e record transazioni che li richiedono. Un record transazioni o dati master che richiede un identificatore viene definito riferimento. Prima di poter creare nuovi record per un riferimento, è necessario impostare una sequenza numerica e associarla al riferimento. È possibile impostare tutte le sequenze numeriche richieste contemporaneamente utilizzando la procedura guidata **Imposta sequenze numeriche** oppure creare o modificare singole sequenze numeriche utilizzando la pagina **Sequenze numeriche**.
 
 1. Andare a **Pannello di navigazione > Moduli > Amministrazione organizzazione > Sequenze numeriche > Sequenze numeriche**.
 2. Selezionare **Sequenza numerica**.

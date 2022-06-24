@@ -1,6 +1,6 @@
 ---
 title: Cosa c'è di nuovo o cambiato in Dynamics 365 Human Resources 23 agosto 2021
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 23 agosto 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 23 agosto 2021.
 author: marcelbf
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-23
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 21c3448c373600ffebca82be41fb5849b952dfe1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 91c2cd396ca26cc78c3fd4fab40a29b98a7826c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909732"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-23-2021"></a>Cosa c'è di nuovo o cambiato in Dynamics 365 Human Resources 23 agosto 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le caratteristiche che sono nuove, cambiate o in arrivo in Microsoft Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Microsoft Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -40,9 +40,9 @@ Questa versione include le seguenti nuove funzionalità e correzioni di bug. Le 
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo argomento per includere le correzioni di bug che sono state inserite nella build dopo che questo argomento è stato inizialmente pubblicato.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Problema | descrizione |
+| Numero problema | Problema | Description |
 | --- | --- | --- |
 | 594066 | Impossibile eliminare le informazioni di contatto | Quando si sceglie di eliminare un record di informazioni di contatto per un dipendente, viene invece eliminato un record di informazioni di contatto diverso dal record selezionato. |
 | 611339 | L'aggiunta di una personalizzazione fa sì che il conto bancario ignori il filtro e recuperi il primo record | L'aggiunta di una personalizzazione fa sì che l'elenco dei conti bancari esegua una query di personalizzazione dopo l'esecuzione della query dell'origine dati, con il risultato che la query recupera il record principale indipendentemente dal lavoratore per il quale vengono visualizzati i dettagli. |

@@ -1,6 +1,6 @@
 ---
 title: Impostare descrizioni predefinite per la registrazione automatica
-description: Questo argomento spiega come impostare il testo predefinito utilizzato per descrivere le voci contabili registrate automaticamente nella contabilità generale. È possibile impostare il testo di descrizione predefinito utilizzando il testo libero o selezionando variabili fisse.
+description: Questo articolo spiega come impostare il testo predefinito utilizzato per descrivere le voci contabili registrate automaticamente nella contabilità generale. È possibile impostare il testo di descrizione predefinito utilizzando il testo libero o selezionando variabili fisse.
 author: aprilolson
 ms.date: 07/23/2019
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 772c754e9980e693daf7542de273cbe278ca7038
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 71982a7d5b1bb08d3e238646ea0b15f17260bdcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722438"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904501"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Impostare descrizioni predefinite per la registrazione automatica
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come impostare il testo predefinito utilizzato per descrivere le voci contabili registrate automaticamente nella contabilità generale. È possibile impostare il testo di descrizione predefinito utilizzando il testo libero o selezionando variabili fisse.
+Questo articolo spiega come impostare il testo predefinito utilizzato per descrivere le voci contabili registrate automaticamente nella contabilità generale. È possibile impostare il testo di descrizione predefinito utilizzando il testo libero o selezionando variabili fisse.
 
 > [!NOTE]
-> Per alcuni tipi di transazioni, in alcuni paesi, è possibile includere anche il testo presente nei campi correlati a tali tipi di transazioni. Per un elenco dei tipi di transazione, dei paesi e delle aree geografiche, vedere la sezione [Facoltativo: Aggiungere altro testo alle descrizioni predefinite](#optional-add-other-text-to-default-descriptions) più avanti in questo argomento.
+> Per alcuni tipi di transazioni, in alcuni paesi, è possibile includere anche il testo presente nei campi correlati a tali tipi di transazioni. Per un elenco dei tipi di transazione, dei paesi e delle aree geografiche, vedi la sezione [Facoltativo: Aggiungere altro testo alle descrizioni predefinite](#optional-add-other-text-to-default-descriptions) più avanti in questo articolo.
 
 ## <a name="set-up-default-descriptions"></a>Impostare descrizioni predefinite
 
@@ -78,7 +78,7 @@ Questa opzione è disponibile per i seguenti paesi e le aree geografiche:
 
 ### <a name="add-text-to-default-descriptions"></a>Aggiungere del testo alle descrizioni predefinite
 
-Dopo aver completato i passaggi descritti precedentemente in questo argomento nella sezione [Impostare descrizioni predefinite](#set-up-default-descriptions), seguire questi passaggi per aggiungere altro testo alle descrizioni predefinite.
+Dopo aver completato i passaggi descritti precedentemente in questo articolo nella sezione [Impostare descrizioni predefinite](#set-up-default-descriptions), segui questi passaggi per aggiungere altro testo alle descrizioni predefinite.
 
 1. Nella Scheda dettaglio **Parametri** selezionare **Aggiungi**.
 2. Nel campo **Tabella riferimenti** selezionare la tabella del database da cui aggiungere i dati dei parametri alla descrizione.

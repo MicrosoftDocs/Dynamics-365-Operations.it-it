@@ -1,6 +1,6 @@
 ---
 title: Genera report finanziari
-description: In questo argomento sono riportate informazioni sulla generazione di un report finanziario.
+description: In questo articolo sono riportate informazioni sulla generazione di un report finanziario.
 author: jinniew
 ms.date: 02/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00a860089265800ca1a0058f222d5e85c360501c
-ms.sourcegitcommit: 6a269db08e8bb3bb3405c9f4a512091d13c80faa
+ms.openlocfilehash: 59ec6978d83f5c51309bc7d90d47366774cb2880
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "8119529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898829"
 ---
 # <a name="generate-financial-reports"></a>Genera report finanziari
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento sono riportate informazioni sulla generazione di un report finanziario.
+In questo articolo sono riportate informazioni sulla generazione di un report finanziario.
 
 Per generare un report, aprire la definizione di report e selezionare il pulsante **Genera** nella barra degli strumenti. Viene visualizzata la pagina **Stato coda report** che indica la posizione del report nella coda.
 

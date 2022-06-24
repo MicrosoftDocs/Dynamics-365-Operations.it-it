@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (3 maggio 2021)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 3 maggio 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 3 maggio 2021.
 author: marcelbf
 ms.date: 05/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 01babeae8ccb5af5e414cb78734ce05adf670277
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 01ebd15e09e181a7ea0ec5bf70c8df731d2169c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902862"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Novità o modifiche in Dynamics 365 Human Resources (3 maggio 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Uscita |  descrizione |
+| Numero problema | Problema |  Description |
 | --- | --- | --- |
 | 559312 |  Il livello non viene mostrato quando si crea un piano di retribuzione fissa per un dipendente. |  Quando si verifica una mancata corrispondenza tra il fuso orario dell'utente e il fuso orario dell'azienda, non è possibile leggere il livello di retribuzione sul lavoro. La query è stata aggiornata per essere recuperata in base all'ora UTC. |
 | 573676  | Impossibile aggiungere un nuovo periodo nel modulo **Piano benefit**. | Aggiornato il modulo di modo che il pulsante **Nuovo** sia abilitato sotto la Scheda dettaglio **Periodo** in **Piani benefit**. |

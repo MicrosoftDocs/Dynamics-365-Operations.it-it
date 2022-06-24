@@ -1,6 +1,6 @@
 ---
 title: Configurare i parametri per l'automazione del processo di riscossione
-description: Questo argomento descrive i parametri che influiscono sui processi di riscossione automatizzata e fornisce indicazioni per impostarli in modo che il processo automatizzato rifletta le intenzioni e le aspettative.
+description: Questo articolo descrive i parametri che influiscono sui processi di riscossione automatizzata e fornisce indicazioni per impostarli in modo che il processo automatizzato rifletta le intenzioni e le aspettative.
 author: JodiChristiansen
 ms.date: 08/05/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: e7a7e048a371fc90456368206b91c29c4b1264d5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c5d0f801c47ef2d98d8ba410dc593bd7640839c1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734398"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900044"
 ---
 # <a name="configure-parameters-for-collection-process-automation"></a>Configurare i parametri per l'automazione del processo di riscossione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive i parametri che influiscono sui processi di riscossione automatizzata e fornisce indicazioni per impostarli in modo che il processo automatizzato rifletta le intenzioni e le aspettative. Per informazioni su come automatizzare i processi di riscossione, vedi [Automazione del processo di riscossione](collections-process-automate.md).
+Questo articolo descrive i parametri che influiscono sui processi di riscossione automatizzata e fornisce indicazioni per impostarli in modo che il processo automatizzato rifletta le intenzioni e le aspettative. Per informazioni su come automatizzare i processi di riscossione, vedi [Automazione del processo di riscossione](collections-process-automate.md).
 
 ## <a name="general"></a>Generali
 Inserisci un numero in **Percentuale di clienti per attività batch** per determinare il numero di attività batch per processo di automazione. Imposta **Invia lettere di sollecito automaticamente** su **Sì** quindi il tipo di azione lettera di sollecito pubblica la lettera durante l'automazione. Imposta **Crea attività per automazioni** su **Sì** per creare e chiudere attività per tipi di azione non attività per visualizzare tutti i passaggi automatizzati eseguiti su un account. Definisci il numero di giorni in cui la cronologia di riscossione è memorizzata in **Giorni per conservare la cronologia dell'automazione del processo di riscossione**. Quando una fattura raggiunge l'ultimo passaggio del processo di riscossione, non verrà utilizzata per creare futuri tipi di azioni di automazione del processo se **Escludi la fattura dopo aver attivato l'ultimo passaggio del processo** è impostato su **Sì**. La fattura più vecchia successiva determina il passaggio di automazione del processo successivo per garantire che le azioni di automazione del processo di riscossione continuino. 

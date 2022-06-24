@@ -1,6 +1,6 @@
 ---
 title: Aliquote IVA basate su Imponibile marginale e Metodo di calcolo
-description: In questo argomento viene illustrato come i valori nei campi Imponibile marginale e Metodo di calcolo determinano le aliquote IVA nelle transazioni di vendita e di acquisto.
+description: In questo articolo viene illustrato come i valori nei campi Imponibile marginale e Metodo di calcolo determinano le aliquote IVA nelle transazioni di vendita e di acquisto.
 author: kailiang
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32d334b0c5dcce1e5211fb0580872731d38fb87b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 00cdc470397cedfd951e4c3a05a32f048775a4b9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903133"
 ---
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Aliquote IVA basate su Imponibile marginale e Metodo di calcolo
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come i valori nei campi Imponibile marginale e Metodo di calcolo determinano le aliquote IVA nelle transazioni di vendita e di acquisto.
+In questo articolo viene illustrato come i valori nei campi Imponibile marginale e Metodo di calcolo determinano le aliquote IVA nelle transazioni di vendita e di acquisto.
 
 Il calcolo dell'imponibile marginale nella scheda dettaglio della pagina dei codici IVA determina quale importo viene utilizzato per prelevare le aliquote appropriate nella pagina dei valori del codice IVA. Il tipo di importo nel campo Imponibile marginale congiuntamente al metodo nel campo Metodo di calcolo determina la logica per cercare le aliquote corrette per una transazione. 
 

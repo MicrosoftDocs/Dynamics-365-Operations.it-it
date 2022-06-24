@@ -1,6 +1,6 @@
 ---
 title: Importazione di protesti effetti attivi
-description: Questo argomento spiega come impostare e importare le informazioni di protesto da un file di protesto effetto attivo.
+description: Questo articolo spiega come impostare e importare le informazioni di protesto da un file di protesto effetto attivo.
 author: anasyash
 ms.date: 04/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: d10a4d03ca584ce866af9b1e2f14638a2ae55a19
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 8dacc1553879b27424701440ae1bb83dd477cffe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908953"
 ---
 # <a name="bills-of-exchange-protest-import"></a>Importazione di protesti effetti attivi 
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come impostare e importare le informazioni di protesto dal file di protesto effetto attivo ricevuto dalla banca.
+Questo articolo spiega come impostare e importare le informazioni di protesto dal file di protesto effetto attivo ricevuto dalla banca.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
