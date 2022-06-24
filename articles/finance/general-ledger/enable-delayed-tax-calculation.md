@@ -1,6 +1,6 @@
 ---
 title: Abilitare il calcolo IVA differito nei giornali di registrazione
-description: In questo argomento viene descritto come attivare la funzionalità del calcolo IVA differito per migliorare le prestazioni di calcolo dell'IVA quando il numero delle righe del giornale di registrazione è molto elevato.
+description: In questo articolo viene descritto come attivare la funzionalità del calcolo IVA differito per migliorare le prestazioni di calcolo dell'IVA quando il numero delle righe del giornale di registrazione è molto elevato.
 author: EricWang
 ms.date: 09/18/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: fddb6d3a9850b8f2f88f813f9591006637c7e535
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 02a038318d4c0fb44b6fcc4bb159ea87c2e9368a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887921"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Abilitare il calcolo IVA differito nei giornali di registrazione
 [!include [banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come è possibile effettuare il calcolo IVA dei giornali di registrazione. Questa funzionalità consente di migliorare le prestazioni dei calcoli IVA quando sono presenti molte righe del giornale di registrazione.
+In questo articolo viene descritto come è possibile effettuare il calcolo IVA dei giornali di registrazione. Questa funzionalità consente di migliorare le prestazioni dei calcoli IVA quando sono presenti molte righe del giornale di registrazione.
 
 Per impostazione predefinita, gli importi IVA nelle righe del giornale di registrazione vengono calcolati quando i campi relativi all'IVA vengono aggiornati. Tra questi campi sono inclusi i campi delle fasce IVA e delle fasce IVA articoli. Qualsiasi aggiornamento a una riga del giornale di registrazione comporta il ricalcolo degli importi IVA per tutte le righe del giornale di registrazione. Sebbene questo comportamento aiuti l'utente a visualizzare gli importi IVA calcolati in tempo reale, può anche influire sulle prestazioni se il numero di righe del giornale di registrazione è molto elevato.
 

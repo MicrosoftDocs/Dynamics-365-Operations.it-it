@@ -1,6 +1,6 @@
 ---
 title: Pacchetto separato di orchestrazione dell'applicazione a doppia scrittura
-description: Il pacchetto di orchestrazione dell'applicazione a doppia scrittura non è più un singolo pacchetto ma è stato separato in pacchetti più piccoli. Questo argomento spiega le soluzioni e le mappe contenute in ogni pacchetto e la dipendenza da altri pacchetti.
+description: Il pacchetto di orchestrazione dell'applicazione a doppia scrittura non è più un singolo pacchetto ma è stato separato in pacchetti più piccoli. Questo articolo spiega le soluzioni e le mappe contenute in ogni pacchetto e la dipendenza da altri pacchetti.
 author: RamaKrishnamoorthy
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: f6950ec3e6ded49a71f119c21be67f538c8e1c69
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874814"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Pacchetto separato di orchestrazione dell'applicazione a doppia scrittura
 
@@ -42,7 +42,7 @@ Poiché si trattava di un unico pacchetto, questo pacchetto ha creato una situaz
 
 ![Pacchetto separato.](media/separated-package-1.png)
 
-Questo argomento spiega le soluzioni e le mappe contenute in ogni pacchetto e la dipendenza da altri pacchetti.
+Questo articolo spiega le soluzioni e le mappe contenute in ogni pacchetto e la dipendenza da altri pacchetti.
 
 ## <a name="dual-write-application-core"></a>Core dell'applicazione a doppia scrittura
 

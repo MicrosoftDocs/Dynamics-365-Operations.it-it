@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e6af5fbd050642ac462ecb159c05d78f534f0ce
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: ae6b2b505acb211f9fb5506234953eba9f3ec2a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722551"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865774"
 ---
 # <a name="posting-definition-examples"></a>Esempi di definizioni di registrazione
 
@@ -28,7 +28,7 @@ ms.locfileid: "8722551"
 
 L'articolo offre alcuni esempi che mostrano come utilizzare le definizioni di registrazione per gli impegni di spesa di ordini fornitore e le ripartizioni di budget.
 
-Prima di leggere questo argomento, è consigliabile acquisire familiarità con le definizioni di registrazione e le definizioni di registrazione della transazione. Per ulteriori informazioni, vedere [Definizioni di registrazione](posting-definitions.md). Gli esempi seguenti possono essere impostati nella pagina **Definizioni di registrazione**. Ogni esempio contiene queste sezioni:
+Prima di leggere questo articolo, ti consigliamo di acquisire familiarità con le definizioni di registrazione e le definizioni di registrazione della transazione. Per ulteriori informazioni, vedere [Definizioni di registrazione](posting-definitions.md). Gli esempi seguenti possono essere impostati nella pagina **Definizioni di registrazione**. Ogni esempio contiene queste sezioni:
 
 -   Definizione di registrazione – criteri di corrispondenza
 -   Definizione di registrazione – voci generate

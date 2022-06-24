@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti sul ripristino dei data mart
-description: In questo argomento vengono fornite risposte ad alcune domande frequenti sul ripristino dei data mart.
+description: In questo articolo vengono fornite risposte ad alcune domande frequenti sul ripristino dei data mart.
 author: jinniew
 ms.date: 03/21/2022
 ms.topic: article
@@ -13,16 +13,16 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 61c7047096f42e71cde5e9ba1ddc59785383795a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: d2b20ec7af9f0c6b7899617c2b8fdbf0992d7397
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714131"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892394"
 ---
 # <a name="data-mart-resets-faq"></a>Domande frequenti sul ripristino dei data mart
 
-In questo argomento vengono fornite risposte ad alcune domande frequenti sul ripristino dei data mart. Un ripristino del data mart può richiedere molto tempo e, a seconda delle circostanze, potrebbe non essere la soluzione necessaria. Pertanto, questo argomento include informazioni sulle circostanze in cui un ripristino del data mart potrebbe essere d'aiuto e anche sulle circostanze in cui è improbabile che sia d'aiuto.
+In questo articolo vengono fornite risposte ad alcune domande frequenti sul ripristino dei data mart. Un ripristino del data mart può richiedere molto tempo e, a seconda delle circostanze, potrebbe non essere la soluzione necessaria. Pertanto, questo articolo include informazioni sulle circostanze in cui un ripristino del data mart potrebbe essere d'aiuto e anche sulle circostanze in cui è improbabile che sia d'aiuto.
 
 ## <a name="what-is-a-data-mart-reset"></a>Cos'è una reimpostazione di un data mart?
 

@@ -1,6 +1,6 @@
 ---
 title: Migliorare il tracciamento dei risultati dei report elettronici generati per confrontarli con i valori di base
-description: Questo argomento descrive i miglioramenti alla funzionalità di base ER in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019).
+description: Questo articolo descrive i miglioramenti alla funzionalità di base ER in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b6e8299dd57730486c731cd38578bd5ff6b8a1754f145432e300c1217c6dd640
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847403"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Migliorare il tracciamento dei risultati dei report elettronici generati per confrontarli con i valori di base
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene descritto il primo set di miglioramenti apportati alle funzionalità di base del framework di report elettronici (ER). Questi miglioramenti sono disponibili in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019) e versioni successive.
+In questo articolo viene descritto il primo set di miglioramenti apportati alle funzionalità di base del framework di report elettronici (ER). Questi miglioramenti sono disponibili in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019) e versioni successive.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatizzare l'impostazione delle regole di base
 
-L'argomento [Generare la traccia dei risultati dei report generati e confrontarli con i valori di base](er-trace-reports-compare-baseline.md) descrive il modo in cui configurare il framework ER per raccogliere informazioni sulle esecuzioni del formato ER e valutare i risultati di tali esecuzioni. L'esempio in questo argomento illustra i passaggi che devono essere completati.
+L'articolo [Generare la traccia dei risultati dei report generati e confrontarli con i valori di base](er-trace-reports-compare-baseline.md) descrive il modo in cui configurare il framework ER per raccogliere informazioni sulle esecuzioni del formato ER e valutare i risultati di tali esecuzioni. L'esempio in questo articolo illustra i passaggi che devono essere completati.
 
 Di seguito sono riportati alcuni passaggi:
 
@@ -45,7 +45,7 @@ Di seguito sono riportati alcuni passaggi:
 
 ## <a name="example-automate-the-setting-of-baseline-rules"></a>Esempio: automatizzare l'impostazione delle regole di base
 
-Per completare i passaggi in questo esempio, completare dapprima i passaggi dell'esempio nell'argomento [Generare la traccia dei risultati dei report generati e confrontarli con i valori di base](er-trace-reports-compare-baseline.md) fino alla sezione "Aggiungere una nuova base per un formato ER progettato".
+Per completare i passaggi in questo esempio, completa dapprima i passaggi dell'esempio nell'articolo [Generare la traccia dei risultati dei report generati e confrontarli con i valori di base](er-trace-reports-compare-baseline.md) fino alla sezione "Aggiungere una nuova base per un formato ER progettato".
 
 ### <a name="review-added-baseline"></a>Esaminare la base aggiunta
 
@@ -80,7 +80,7 @@ La base è stata aggiunta per il formato **Formato per ottenere basi ER** selezi
 
 ### <a name="run-the-format"></a>Eseguire il formato
 
-A questo punto è possibile completare i passaggi rimanenti nell'esempio dell'argomento [Generare la traccia dei risultati dei report generati e confrontarli con i valori di base](er-trace-reports-compare-baseline.md) a partire dalla sezione "Eseguire il formato ER progettato ed esaminare il registro per analizzare i risultati".
+A questo punto è possibile completare i passaggi rimanenti nell'esempio dell'articolo [Generare la traccia dei risultati dei report generati e confrontarli con i valori di base](er-trace-reports-compare-baseline.md) a partire dalla sezione "Eseguire il formato ER progettato ed esaminare il registro per analizzare i risultati".
 
 > [!NOTE]
 > Quando si elimina la regola di base aggiunta automaticamente nella Scheda dettaglio **Basi**, l'allegato a cui si fa riferimento non viene eliminato automaticamente.
@@ -91,7 +91,7 @@ Quando un formato ER è progettato per contenere informazioni che vengono modifi
 
 ## <a name="example-configure-the-baseline-so-that-it-ignores-constantly-changing-parts-of-the-er-output"></a>Esempio: configurare la base in modo che ignori le parti variabili dell'output ER
 
-Per completare i passaggi in questo esempio, completare dapprima i passaggi dell'esempio nell'argomento[Generare la traccia dei risultati dei report generati e confrontarli con i valori di base](er-trace-reports-compare-baseline.md).
+Per completare i passaggi in questo esempio, completa dapprima i passaggi dell'esempio nell'articolo [Generare la traccia dei risultati dei report generati e confrontarli con i valori di base](er-trace-reports-compare-baseline.md).
 
 ### <a name="modify-a-configured-er-format"></a>Modificare un formato ER configurato
 
@@ -142,7 +142,7 @@ Il componente del formato ER selezionato è stato aggiunto all'elenco dei compon
 
 ### <a name="make-a-new-baseline-rule"></a>Creare un nuova regola di base
 
-Seguire i passaggi nella sezione "Esempio: automatizzare l'impostazione delle regole di base" vista precedentemente in questo argomento. Una notifica informa che il file in uscita è stato generato utilizzando le impostazioni di base e che si è verificata una sostituzione forzata delle associazioni del formato.
+Segui i passaggi nella sezione "Esempio: automatizzare l'impostazione delle regole di base" vista precedentemente in questo articolo. Una notifica informa che il file in uscita è stato generato utilizzando le impostazioni di base e che si è verificata una sostituzione forzata delle associazioni del formato.
 
 ![Notifica sulla pagina Configurazioni.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Schermata della notifica nella pagina Configurazioni")
 

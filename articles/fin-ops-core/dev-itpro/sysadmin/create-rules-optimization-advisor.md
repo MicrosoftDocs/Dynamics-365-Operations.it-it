@@ -1,6 +1,6 @@
 ---
 title: Creare regole per il consulente dell'ottimizzazione
-description: In questo argomento viene descritto come aggiungere nuove regole al consulente dell'ottimizzazione.
+description: In questo articolo viene descritto come aggiungere nuove regole al consulente dell'ottimizzazione.
 author: roxanadiaconu
 ms.date: 02/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b1d9b14cb67b1dd0a961f6f8618de37147a2c52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734666"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850907"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Creare regole per il consulente dell'ottimizzazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene spiegato come creare nuove regole per il **consulente dell'ottimizzazione**. Ad esempio, è possibile creare una nuova regola che identifica quali casi di richieste di offerta (RdO) hanno un titolo vuoto. L'uso di titoli nei casi li rende facilmente identificabili e ricercabili. Anche se abbastanza semplice, questo esempio mostra i risultatiti che è possibile ottenere con le regole di ottimizzazione. 
+In questo articolo viene spiegato come creare nuove regole per il **consulente dell'ottimizzazione**. Ad esempio, è possibile creare una nuova regola che identifica quali casi di richieste di offerta (RdO) hanno un titolo vuoto. L'uso di titoli nei casi li rende facilmente identificabili e ricercabili. Anche se abbastanza semplice, questo esempio mostra i risultatiti che è possibile ottenere con le regole di ottimizzazione. 
 
 Una *regola* è un controllo sui dati dell'applicazione. Se la condizione che la regola valuta è soddisfatta, vengono create opportunità per ottimizzare i processi o migliorare i dati. È possibile agire sulle opportunità e, facoltativamente, misurare l'impatto delle azioni. 
 

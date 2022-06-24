@@ -1,6 +1,6 @@
 ---
 title: Gestire diversi mapping derivati per una singola radice del modello
-description: Questo argomento spiega come gestire diversi mapping derivati configurati per una singola radice del modello.
+description: Questo articolo spiega come gestire diversi mapping derivati configurati per una singola radice del modello.
 author: NickSelin
 ms.date: 01/04/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d71b05b3f2eda93a93f728926e675c040371781e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892481"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gestire diversi mapping derivati per una singola radice del modello
 
@@ -32,9 +32,9 @@ I componenti di mapping del modello di creazione di report elettronici (ER) poss
 
 Molti provider di configurazione potrebbero offrire configurazioni di mapping del modello ER per lo stesso modello di dati ER. Tali configurazioni di mapping del modello potrebbero contenere componenti di mapping per diverse definizioni di root. È consigliabile utilizzare un mapping del modello per una definizione radice offerta da un [provider](general-electronic-reporting.md#Provider) e utilizzare un mapping del modello per un'altra definizione di radice offerta da un altro provider.
 
-Le procedure in questo argomento spiegano come gestire più configurazioni di mapping del modello ER di un modello di dati ER quando contengono diversi componenti di mapping del modello configurati per la stessa definizione radice. 
+Le procedure in questo articolo spiegano come gestire più configurazioni di mapping del modello ER di un modello di dati ER quando contengono diversi componenti di mapping del modello configurati per la stessa definizione radice. 
 
-Per completare la procedura di questo argomento, devi avere il ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici assegnato.
+Per completare la procedura di questo articolo, devi avere il ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici assegnato.
 
 Tutte le seguenti procedure possono essere eseguite nell'azienda USMF. Non è richiesta alcuna codifica.
 

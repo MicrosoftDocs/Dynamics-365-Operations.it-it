@@ -1,6 +1,6 @@
 ---
 title: Liquidazione automatica e priorità
-description: Questo argomento descrive la modalità di liquidazione delle transazioni se si seleziona la liquidazione automatica nella pagina Parametri contabilità clienti. Viene anche illustrato come è possibile utilizzare la liquidazione automatica insieme alla priorità di pagamento.
+description: Questo articolo descrive la modalità di liquidazione delle transazioni se si seleziona la liquidazione automatica nella pagina Parametri contabilità clienti. Viene anche illustrato come è possibile utilizzare la liquidazione automatica insieme alla priorità di pagamento.
 author: ShivamPandey-msft
 ms.date: 01/30/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 47ccdb49b4d5c43b4f9cb9a967bd30376474e4c1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: bd5b894c82beb1b5d69ad6bf485161ab9c91a806
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712260"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855522"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Liquidazione automatica e priorità
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la modalità di liquidazione delle transazioni se si seleziona la liquidazione automatica nella pagina Parametri contabilità clienti. Viene anche illustrato come è possibile utilizzare la liquidazione automatica insieme alla priorità di pagamento.
+Questo articolo descrive la modalità di liquidazione delle transazioni se si seleziona la liquidazione automatica nella pagina Parametri contabilità clienti. Viene anche illustrato come è possibile utilizzare la liquidazione automatica insieme alla priorità di pagamento.
 
 Quando vengono liquidati i pagamenti con le fatture e altre transazioni sono disponibili due opzioni. È possibile selezionare manualmente le transazioni da liquidare oppure il sistema può selezionare le transazioni automaticamente utilizzando la funzionalità di liquidazione automatica. È inoltre possibile personalizzare il modo in cui le liquidazioni automatiche vengono elaborate tramite l'opzione **Assegna priorità a liquidazione**. Tutte queste opzioni fanno parte dei parametri di liquidazione definiti nella pagina **Parametri contabilità clienti**. La modalità in cui le transazioni vengono automaticamente liquidate può essere diversa, a seconda del metodo utilizzato per la liquidazione automatica. Sono disponibili i seguenti metodi:
 

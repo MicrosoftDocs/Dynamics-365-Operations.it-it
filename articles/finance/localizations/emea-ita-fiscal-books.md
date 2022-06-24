@@ -1,6 +1,6 @@
 ---
 title: Libri IVA italiani
-description: Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
+description: Nell'articolo viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
 author: ShylaThompson
 ms.date: 06/24/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b424c1e24396f5ca69b2f17f468b3060e4e603a0e1c326f617fdccb1e2297f9b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bcc45873d6a3482fbcd2b5c990ff0fc7d0398763
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872365"
 ---
 # <a name="italian-sales-tax-books"></a>Libri IVA italiani
 
 [!include [banner](../includes/banner.md)]
 
-Nell'argomento viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
+Nell'articolo viene descritto come impostare e utilizzare i libri IVA italiani e i sezionali IVA italiani.
 
 In base alla legislazione tributaria italiana, ciascuna transazione IVA (imposta sul valore aggiunto) deve appartenere a un *Libro IVA* che verrà utilizzato per il reporting fiscale. Per soddisfare questi requisiti legislativi, Dynamics 365 Finance implementa i libri IVA italiani. I libri IVA possono essere di diversi tipi. È necessario specificare il tipo di libro IVA per assicurarsi che tutte le transazioni di vendita e acquisti siano incluse nel report **Liquidazione IVA italiana**. È possibile mantenere tutti i libri IVA di tipo **Vendite** e **Acquisti** necessari. Ciascun libro IVA può essere diviso in più *Sezionali IVA*. Tutte le transazioni IVA devono essere numerate in sequenza (senza interruzioni) e ordinate in base alla data di registrazione. Un sezionale IVA equivale a una sequenza numerica per il numero di giustificativo IVA italiano (*Protocollo IVA*) che deve essere applicato sempre durante la registrazione per assicurare l'ordine cronologico in base alla data di registrazione.
 

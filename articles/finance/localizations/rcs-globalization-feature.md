@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Services (RCS) - Funzionalità di globalizzazione
-description: Questo argomento spiega come utilizzare Microsoft Regulatory Configuration Services (RCS) e il repository globale per creare e utlizzare le funzionalità di globalizzazione.
+description: Questo articolo spiega come utilizzare Microsoft Regulatory Configuration Services (RCS) e il repository globale per creare e utlizzare le funzionalità di globalizzazione.
 author: JaneA07
 ms.date: 06/04/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: e8df8a56d493e58f28699a87dd9dab1f87540a4ee327450384f89e6d426ba1a7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf08f25f7d092e0f93284a4019096378543adb9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760633"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888896"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) - Funzionalità di globalizzazione
 
@@ -40,7 +40,7 @@ Prima di completare le procedure, è necessario completare i passaggi correlati 
 - Accesso a un'istanza RCS.
 - Creazione e attivazione di un provider di configurazioni. Per ulteriori informazioni, vedi [Creare provider di configurazioni e contrassegnarli come attivi](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Nell'istanza delle app Finance and Operations, attenersi alla seguente procedura.
+Nelle app per la finanza e le operazioni segui questi passaggi.
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Se non è stato effettuato il provisioning di alcun ambiente RCS per la società, selezionare **Regulatory services - Configurazione** e seguire le istruzioni per il provisioning di un ambiente.
@@ -64,7 +64,7 @@ Per utilizzare una funzionalità di globalizzazione, è necessario innanzitutto 
 
 ## <a name="access-globalization-features"></a>Accedere alle funzionalità di globalizzazione
 
-1. Assicurarsi che **Funzionalità di globalizzazione** sia attivata in Gestione funzionalità, come descritto in precedenza in questo argomento.
+1. Assicurati che **Funzionalità di globalizzazione** sia attivata in Gestione funzionalità, come descritto in precedenza in questo articolo.
 2. Aprire la nuova area di lavoro **Funzionalità di globalizzazione** e quindi sotto **Funzionalità**, selezionare il riquadro **Fatturazione elettronica**.
 
     ![Area di lavoro Funzionalità di globalizzazione.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
@@ -161,7 +161,7 @@ Le seguenti azioni sono disponibili per le configurazioni:
 - **Visualizza** - Visualizza le configurazioni delle funzionalità sottostanti che non richiedono alcun aggiornamento.
 - **Modifica** - Crea una versione bozza di una configurazione selezionata in modo da poter modificare il formato o il mapping del formato nella finestra Progettazione formati.
 - **Elimina** - Elimina una configurazione selezionata dalla funzionalità.
-- **Riassegna** - Riassegna la funzionalità. Per ulteriori informazioni, vediere la sezione [Riassegnare funzionalità di globalizzazione derivate](#rebase) più avanti in questo argomento.
+- **Riassegna** - Riassegna la funzionalità. Per ulteriori informazioni, vedi la sezione [Riassegnare funzionalità di globalizzazione derivate](#rebase) più avanti in questo articolo.
 
 ### <a name="setups"></a>Impostazioni
 
@@ -182,7 +182,7 @@ Le azioni seguenti sono disponibili per le impostazioni di funzionalità:
 
 Le seguenti azioni sono disponibili per gli ambienti:
 
-- **Abilita** - Per la versione della funzionalità selezionata, selezionare un ambiente pubblicato e una **Data di inizio validità** alla quale dovrebbe essere disponibile. Per ulteriori informazioni, vediere la sezione [Configurare ambienti per l'abilitazione](#configureenvironment) più avanti in questo argomento.
+- **Abilita** - Per la versione della funzionalità selezionata, selezionare un ambiente pubblicato e una **Data di inizio validità** alla quale dovrebbe essere disponibile. Per ulteriori informazioni, vedi la sezione [Configurare ambienti per l'abilitazione](#configureenvironment) più avanti in questo articolo.
 - **Annulla** - Rimuove un ambiente per un'impostazione di funzionalità.
 
 ### <a name="organizations"></a>Organizzazioni

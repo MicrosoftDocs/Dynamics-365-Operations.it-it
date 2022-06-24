@@ -1,6 +1,6 @@
 ---
 title: Registrazione dei costi indiretti
-description: Questo argomento spiega come registrare i costi indiretti, creare gruppi di costi e aggiungere nodi alla scheda di determinazione costi per i costi indiretti.
+description: Questo articolo spiega come registrare i costi indiretti, creare gruppi di costi e aggiungere nodi alla scheda di determinazione costi per i costi indiretti.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: CostSheetDesigner, BOMCostGroup, ProjCategory, CostingVersion, C
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: d7f4753f69d83d172993e1c9b04be2220fdf253f
-ms.sourcegitcommit: 1ea145dc606e243c7f51d91a5c0dd9e385bbda4a
+ms.openlocfilehash: 04af10760ec50d60cbbc31c233109dffb786933c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8804619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868433"
 ---
 # <a name="indirect-cost-posting"></a>Registrazione dei costi indiretti
 

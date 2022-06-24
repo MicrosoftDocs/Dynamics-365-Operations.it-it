@@ -1,6 +1,6 @@
 ---
 title: Supportare le chiamate con parametri di modelli dati di tipo Report elettronici
-description: Questo argomento spiega come implementare le chiamate parametrizzate di modelli di dati di reporting elettronico (ER).
+description: Questo articolo spiega come implementare le chiamate parametrizzate di modelli di dati di reporting elettronico (ER).
 author: NickSelin
 ms.date: 03/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 968b0769607e9fdbed57c25b727ed44988a92913
-ms.sourcegitcommit: 399d0d3f8e2ebb81b6b9d640365ebe182690bab2
+ms.openlocfilehash: 65ac81e9aa25b286640fd526e71b55de3b0695ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884259"
 ---
 # <a name="support-parameterized-calls-of-er-data-models"></a>Supportare le chiamate con parametri di modelli dati di tipo Report elettronici
 
@@ -160,7 +160,7 @@ La nuova funzionalità consente di parametrizzare la chiamata a qualsiasi campo 
 > [!NOTE]
 > Il valore predefinito per il parametro di un campo del modello di dati non è supportato. Se aggiungi un parametro a un campo in un modello dati e la versione di quel modello dati è già stata rilasciata e pubblicata, devi [riassegnare](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) tutti i mapping e i formati del modello corrispondenti alla nuova versione di questo modello, perché questa modifica del modello di dati non è compatibile con le versioni precedenti.
 
-È possibile configurare i campi del modello di dati parametrizzati per rendere le chiamate di mapping del modello specifiche per il formato. Questo approccio può aiutarti a ridurre il numero di mapping del modello che devono essere configurati per molti formati di un singolo modello di dati. Puoi anche utilizzare questo approccio per migliorare le prestazioni di esecuzione dei tuoi formati e ridurre il tempo necessario per generare documenti aziendali. Per ulteriori informazioni su questa funzionalità, completare l'esempio in questo argomento.
+È possibile configurare i campi del modello di dati parametrizzati per rendere le chiamate di mapping del modello specifiche per il formato. Questo approccio può aiutarti a ridurre il numero di mapping del modello che devono essere configurati per molti formati di un singolo modello di dati. Puoi anche utilizzare questo approccio per migliorare le prestazioni di esecuzione dei tuoi formati e ridurre il tempo necessario per generare documenti aziendali. Per ulteriori informazioni su questa funzionalità, completa l'esempio in questo articolo.
 
 ## <a name="example-use-parameterized-calls-of-er-data-models"></a>Esempio: usa le chiamate con parametri di modelli dati di tipo Report elettronici
 

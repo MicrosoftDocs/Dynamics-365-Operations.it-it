@@ -1,6 +1,6 @@
 ---
 title: Sopprimere i controlli del contenuto di Word nei report generati
-description: In questo argomento viene descritto come configurare un formato di creazione di report elettronici (ER) per generare report come file Microsoft Word in cui i controlli del contenuto sono stati eliminati.
+description: In questo articolo viene descritto come configurare un formato di creazione di report elettronici (ER) per generare report come file Microsoft Word in cui i controlli del contenuto sono stati eliminati.
 author: NickSelin
 ms.date: 02/11/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 2c2d79c9ea36c42cfc0f6ba0d3c81d063d8d9446
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782178"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882115"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Sopprimere i controlli del contenuto di Word nei report generati
 

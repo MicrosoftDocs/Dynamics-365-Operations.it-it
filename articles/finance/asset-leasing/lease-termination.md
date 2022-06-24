@@ -1,6 +1,6 @@
 ---
 title: Proposta della risoluzione del leasing
-description: Questo argomento spiega come proporre un leasing per la risoluzione.
+description: Questo articolo spiega come proporre un leasing per la risoluzione.
 author: moaamer
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 2f6990177251418bece8c99a0f9befa333d6549f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: a5939f165943ff76ba453fb49d8c0c376c8ce4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879655"
 ---
 # <a name="propose-a-lease-for-termination"></a>Proporre un leasing per la risoluzione
 
 [!include [banner](../includes/banner.md)]
 
-Se un leasing viene terminato anticipatamente, il leasing dei beni può registrare una risoluzione della scrittura contabile per annullare l'obbligazione sul leasing, asset Right of use (ROU) e l'ammortamento accumulato e prenotare un guadagno o una perdita. Il processo di risoluzione anticipata termina un leasing e i relativi libri di leasing associati. Non risolve i libri di leasing individuali. Questo argomento descrive la funzionalità che consente di proporre un leasing per la risoluzione e l'elaborazione della scrittura contabile del termine del leasing.
+Se un leasing viene terminato anticipatamente, il leasing dei beni può registrare una risoluzione della scrittura contabile per annullare l'obbligazione sul leasing, asset Right of use (ROU) e l'ammortamento accumulato e prenotare un guadagno o una perdita. Il processo di risoluzione anticipata termina un leasing e i relativi libri di leasing associati. Non risolve i libri di leasing individuali. Questo articolo descrive la funzionalità che consente di proporre un leasing per la risoluzione e l'elaborazione della scrittura contabile del termine del leasing.
 
 Se un leasing non è classificato come leasing per trattamento di passività sui contratti e non è associato a un cespite, il leasing di cespiti produce la seguente scrittura contabile del fine rapporto.
 
@@ -121,7 +121,7 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
 
 ### <a name="steps-for-terminating-the-lease"></a>Passaggi per la risoluzione del leasing
 
-1. Dopo aver creato il leasing come descritto in precedenza in questo argomento, vai al libro dei leasing e conferma lo scadenziario dei pagamenti. Quindi registra la scrittura contabile del riconoscimento iniziale. Il cespite ROU iniziale è $ 71.235,81 e l'obbligazione sul leasing dovrebbe essere pari a $ 70.235,81. In questo esempio, il leasing è stato classificato come leasing operativo ai sensi dell'Accounting Standards Codification Topic 842 (ASC 842).
+1. Dopo aver creato il leasing come descritto in precedenza in questo articolo, vai al libro dei leasing e conferma lo scadenziario dei pagamenti. Quindi registra la scrittura contabile del riconoscimento iniziale. Il cespite ROU iniziale è $ 71.235,81 e l'obbligazione sul leasing dovrebbe essere pari a $ 70.235,81. In questo esempio, il leasing è stato classificato come leasing operativo ai sensi dell'Accounting Standards Codification Topic 842 (ASC 842).
 2. Esegui il processo di registrazione batch tre volte per simulare il passaggio di tre anni per i canoni di leasing, gli interessi passivi e le spese di ammortamento.
 3. Dopo aver terminato l'esecuzione di tutti e tre i processi batch, torna al libro dei leasing e aprire le tabelle delle transazioni delle passività e dei cespiti per visualizzare il valore contabile corrente dell'asset ROU e dell'obbligazione sul leasing. Dopo tre anni, il valore della passività dovrebbe essere di circa $ -53.893,00 e il valore del cespite dovrebbe essere di circa $54.593,00.
 

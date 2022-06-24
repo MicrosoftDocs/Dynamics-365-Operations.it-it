@@ -1,6 +1,6 @@
 ---
 title: Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
-description: In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
+description: In questo articolo vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
 author: EvgenyPopovMBS
 ms.date: 10/31/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 43cfeee75596207e431d20f227acd026c4649e5015faad0a2b3c6236b0741b0f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 84ef26ddb597c4e7528dd7df4511ae914fc64a14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849751"
 ---
 # <a name="split-payment-for-invoices-issued-to-the-public-administration"></a>Scissione dei pagamenti per fatture emesse alla Pubblica Amministrazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
+In questo articolo vengono fornite informazioni sullo schema di contabilità di scissione dei pagamenti.
 
 Lo schema di contabilità di scissione dei pagamenti è valido per la vendita di merci e servizi resi alla Pubblica amministrazione. Il meccanismo di scissione dei pagamenti trasferisce l'obbligo di pagamento delle imposte alla Pubblica amministrazione che sarà obbligata a pagare solo la base imponibile al fornitore. L'IVA viene accreditata in un conto riservato specifico. Le società con relazioni con la Pubblica amministrazione devono assicurarsi che l'IVA relativa venga registrata nelle vendite del registro, senza contribuire al pagamento IVA periodico.
 

@@ -1,6 +1,6 @@
 ---
-title: Configurare i formati di ER per utilizzare i parametri specifici per la persona giuridica
-description: In questo argomento viene descritto come configurare i formati per la creazione di report elettronici (ER) specifici per la persona giuridica.
+title: Configurare i formati ER per utilizzare i parametri specifici per la persona giuridica
+description: In questo articolo viene descritto come configurare i formati per la creazione di report elettronici (ER) specifici per la persona giuridica.
 author: NickSelin
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2bf4d1ecad3e25299df7c87ffa2236736ddcac300a5ded779616b25920745d7e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb44422c4cdcc87989cdfb28dcd7d5cfea9002eb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858830"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurare i formati di ER per utilizzare i parametri specifici per la persona giuridica
 
@@ -37,13 +37,13 @@ La funzione dei parametri specifici dell'applicazione ER consente agli utenti es
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Per completare gli esempi in questo argomento è necessario disporre dell'accesso all'istanza di Regulatory Configuration Service (RCS) di cui è stato eseguito il provisioning per lo stesso tenant di Finance per uno dei seguenti ruoli:
+Per completare gli esempi in questo articolo è necessario disporre dell'accesso all'istanza di Regulatory Configuration Services (RCS) di cui è stato eseguito il provisioning per lo stesso tenant di Finance per uno dei seguenti ruoli:
 
 - Sviluppatore per la creazione di report elettronici
 - Consulente funzionale per la creazione di report elettronici
 - Amministratore di sistema
 
-Si consiglia di completare i passaggi descritti nell'argomento [Supportare le chiamate con parametri di origini dati ER del tipo di campo calcolato](er-calculated-field-type.md). Se sono già stati completati questi passaggi, è possibile ignorare i passaggi nella sezione **Importare le configurazioni di ER in RCS** che segue.
+Ti consigliamo di completare i passaggi descritti nell'articolo [Supportare le chiamate con parametri di origini dati ER del tipo di campo calcolato](er-calculated-field-type.md). Se sono già stati completati questi passaggi, è possibile ignorare i passaggi nella sezione **Importare le configurazioni di ER in RCS** che segue.
 
 ## <a name="import-er-configurations-into-rcs"></a>Importare le configurazioni di ER in RCS
 
@@ -58,7 +58,7 @@ Scarica e archivia localmente le seguenti configurazioni ER.
 
 Accedere all'istanza RCS.
 
-In questo esempio verrà creata una configurazione per la società di esempio Litware, Inc. Per poter eseguire questa procedura, è necessario completare i passaggi descritti nell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md) in RCS.
+In questo esempio verrà creata una configurazione per la società di esempio Litware, Inc. Per poter eseguire questa procedura, è necessario completare i passaggi descritti nell'articolo [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md) in RCS.
 
 1.  Nel dashboard predefinito, selezionare **Creazione di report elettronici**.
 2.  Selezionare **Configurazioni report**.
@@ -300,7 +300,7 @@ Ripetere i passaggi di questa sezione per gli elementi padre del formato **Forma
 -   Mapping per ottenere chiamate parametrizzate.xml
 -   Modello per ottenere chiamate parametrizzate.xml
 
-Per informazioni su come utilizzare il formato ER configurato **Formato per ottenere ricerche di dati di persona giuridica** per impostare set di codici imposta dipendenti dalla persona giuridica per filtrare le transazioni fiscali per livelli diversi di tassazione, completare i passaggi descritti nell'argomento [Impostare i parametri di un formato ER per la persona giuridica](er-app-specific-parameters-set-up.md).
+Per informazioni su come utilizzare il formato ER configurato **Formato per ottenere ricerche di dati di persona giuridica** per impostare set di codici imposta dipendenti dalla persona giuridica per filtrare le transazioni fiscali per livelli diversi di tassazione, completa i passaggi descritti nell'articolo [Impostare i parametri di un formato ER per la persona giuridica](er-app-specific-parameters-set-up.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

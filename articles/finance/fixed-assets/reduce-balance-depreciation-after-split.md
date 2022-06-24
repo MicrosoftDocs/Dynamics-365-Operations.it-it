@@ -1,6 +1,6 @@
 ---
 title: Ridurre l'ammortamento a saldi decrescenti dopo una divisione
-description: In questo argomento viene descritto il metodo utilizzato in Cespiti per calcolare l'ammortamento dopo la divisione di un cespite utilizzando il metodo di riduzione del saldo.
+description: In questo articolo viene descritto il metodo utilizzato in Cespiti per calcolare l'ammortamento dopo la divisione di un cespite utilizzando il metodo di riduzione del saldo.
 author: moaamer
 ms.date: 11/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 35637ac1484121232c3571d1a26132a86d69e366
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 539967a9a73da91f6b49c1bb89f404267ae0a804
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726755"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883302"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Ridurre l'ammortamento a saldi decrescenti dopo una divisione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto il metodo utilizzato in Cespiti per calcolare l'ammortamento dopo la divisione di un cespite in un altro cespite utilizzando il metodo di riduzione del saldo. L'anno di ammortamento configurato nel libro cespiti è l'anno fiscale. Per ulteriori informazioni, vedi [Ridurre l'ammortamento del saldo](reduce-balance-depreciation.md) e [Dividere un cespite](tasks/split-fixed-asset.md).
+In questo articolo viene descritto il metodo utilizzato in Cespiti per calcolare l'ammortamento dopo la divisione di un cespite in un altro cespite utilizzando il metodo di riduzione del saldo. L'anno di ammortamento configurato nel libro cespiti è l'anno fiscale. Per ulteriori informazioni, vedi [Ridurre l'ammortamento del saldo](reduce-balance-depreciation.md) e [Dividere un cespite](tasks/split-fixed-asset.md).
 
 Se dividi un cespite durante un periodo fiscale successivo al periodo in cui il cespite è stato acquisito, l'ammortamento del saldo ridotto contabilizzerà il valore contabile netto del cespite dell'anno precedente. Conterrà anche le transazioni di acquisizione e di rettifica dell'ammortamento generate dalla transazione che ha suddiviso il bene. Questo comportamento presuppone che il cespite sia stato acquisito in un anno fiscale e diviso in un anno fiscale successivo. L'importo che deve essere ammortizzato per il cespite originale dopo la suddivisione riflette l'NBV del cespite prima che il cespite fosse diviso e la transazione di rettifica dell'acquisizione e dell'ammortamento registrata per la divisione.
 

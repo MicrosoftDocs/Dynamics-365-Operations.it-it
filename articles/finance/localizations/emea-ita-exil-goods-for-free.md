@@ -1,6 +1,6 @@
 ---
 title: Fattura fiscale per le merci consegnate gratuitamente
-description: Questo argomento fornisce informazioni sulle fatture imposta per le merci che sono state consegnate gratuitamente.
+description: Questo articolo fornisce informazioni sulle fatture imposta per le merci che sono state consegnate gratuitamente.
 author: ilkond
 ms.date: 09/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: d5cebeae9917deb38ee06801662a9e489929f14c
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: bc83b9213392b4534e28e966a46dbd29e4805618
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500012"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858348"
 ---
 # <a name="tax-invoice-for-goods-delivered-for-free"></a>Fattura fiscale per le merci consegnate gratuitamente
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come gestire le merci che sono state consegnate gratuitamente. La funzionalità disponibile tramite **Fattura fiscale per le merci consegnate gratuitamente** consente di generare fatture che includono le parole "Fattura gratuita". Il totale di queste fatture equivale solo all'importo delle imposte.
+Questo articolo descrive come gestire le merci che sono state consegnate gratuitamente. La funzionalità disponibile tramite **Fattura fiscale per le merci consegnate gratuitamente** consente di generare fatture che includono le parole "Fattura gratuita". Il totale di queste fatture equivale solo all'importo delle imposte.
 
 Per generare queste fatture, imposta le causali per la consegna che possono essere utilizzate nell'ordine cliente.
 

@@ -1,6 +1,6 @@
 ---
 title: Ammortamento cespiti
-description: In questo argomento viene fornita una panoramica dell'ammortamento dei cespiti.
+description: In questo articolo viene fornita una panoramica dell'ammortamento dei cespiti.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2442830766ef1dccc109db5569bfbbbc8182f027
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: b4fedee481b4066c81671cf1fca3781c8c75aaeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890982"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874525"
 ---
 # <a name="fixed-asset-depreciation"></a>Ammortamento cespiti
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In questo argomento viene fornita una panoramica dell'ammortamento dei cespiti.
+In questo articolo viene fornita una panoramica dell'ammortamento dei cespiti.
 
 Per ammortamento si intende una transazione periodica che di solito determina una riduzione del valore dei cespiti nello stato patrimoniale e viene addebitata come spesa in un conto profitti e perdite. Di conseguenza, per l'accredito dell'ammortamento periodico nello stato patrimoniale viene in genere utilizzato un conto principale. Un conto di contropartita è un conto nella parte profitti e perdite del piano dei conti.
 

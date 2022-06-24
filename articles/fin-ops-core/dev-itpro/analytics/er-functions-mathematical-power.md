@@ -1,6 +1,6 @@
 ---
 title: Funzione ER POWER
-description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione POWER della creazione di report elettronici (ER).
+description: In questo articolo sono riportate le informazioni sull'utilizzo della funzione POWER della creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6955d2787b2a9be6d38fe10165a9d5ef8310b108e3a9772709d9d1ff51712424
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da3ae988b57cb5588de1e2fd8ee962b77b5534ff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767146"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864690"
 ---
 # <a name="power-er-function"></a>Funzione ER POWER
 

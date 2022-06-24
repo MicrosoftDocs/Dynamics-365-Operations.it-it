@@ -1,6 +1,6 @@
 ---
 title: Tenere traccia dell'esecuzione dei formati di creazione di report elettronici per risolvere i problemi di prestazioni
-description: In questo argomento vengono fornite informazioni su come utilizzare la funzionalità di traccia delle prestazioni in Creazione di report elettronici (ER, Electronic Reporting) per risolvere problemi relativi alle prestazioni.
+description: In questo articolo vengono fornite informazioni su come utilizzare la funzionalità di traccia delle prestazioni in Creazione di report elettronici (ER, Electronic Reporting) per risolvere problemi relativi alle prestazioni.
 author: NickSelin
 ms.date: 06/22/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851953"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Generare la traccia dell'esecuzione di formati ER per risolvere problemi relativi alle prestazioni
 
@@ -305,27 +305,27 @@ Può anche essere utile ridurre il numero di chiamate effettuate all'origine dat
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Importare la configurazione del mapping di modello ER modificata da RCS nell'applicazione
 
-Ripetere la procedura nella sezione [Importare una configurazione ER da RCS in Finance and Operations](#import-configuration) vista in precedenza in questo argomento per importare la versione 1.2 della configurazione **Mapping traccia delle prestazioni**.
+Ripeti la procedura nella sezione [Importare una configurazione ER da RCS in Finance and Operations](#import-configuration) vista in precedenza in questo articolo per importare la versione 1.2 della configurazione **Mapping traccia delle prestazioni**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Eseguire la soluzione ER modificata per generare la traccia dell'esecuzione
 
 ### <a name="run-the-er-format"></a>Eseguire il formato ER
 
-Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo argomento per generare una nuova traccia delle prestazioni.
+Ripeti i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo articolo per generare una nuova traccia delle prestazioni.
 
 ## <a name="work-with-the-execution-trace"></a>Utilizzare la traccia dell'esecuzione
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Esportare la traccia generata dall'applicazione
 
-Ripetere i passaggi nella sezione [Esportare la traccia generata dall'applicazione](#export-trace) vista in precedenza in questo argomento per salvare una nuova traccia delle prestazioni localmente.
+Ripeti i passaggi nella sezione [Esportare la traccia generata dall'applicazione](#export-trace) vista in precedenza in questo articolo per salvare una nuova traccia delle prestazioni localmente.
 
 ### <a name="import-the-generated-trace-into-rcs"></a>Importare la traccia generata in RCS
 
-Ripetere i passaggi nella sezione [Importare la traccia generata in RCS](#import-trace) vista in precedenza in questo argomento per importare la nuova traccia delle prestazioni in RCS.
+Ripeti i passaggi nella sezione [Importare la traccia generata in RCS](#import-trace) vista in precedenza in questo articolo per importare la nuova traccia delle prestazioni in RCS.
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a>Utilizzare la traccia delle prestazioni per l'analisi in RCS - mapping di modello
 
-Ripetere i passaggi nella sezione [Utilizzare la traccia delle prestazioni per l'analisi in RCS - mapping di modello](#use-trace) vista in precedenza in questo argomento per analizzare la traccia delle prestazioni più recente.
+Ripeti i passaggi nella sezione [Utilizzare la traccia delle prestazioni per l'analisi in RCS - mapping di modello](#use-trace) vista in precedenza in questo articolo per analizzare la traccia delle prestazioni più recente.
 
 Si noti che le rettifiche apportate al mapping di modello hanno eliminato le query duplicate al database. Anche il numero di chiamate alle tabelle di database e alle origini dati per questo mapping di modello sono state ridotti. Di conseguenza, le prestazioni dell'intera soluzione ER sono state migliorate.
 
@@ -355,7 +355,7 @@ Se si utilizza una di queste versioni, è possibile analizzare i dettagli delle 
 
 ### <a name="run-the-er-format"></a>Eseguire il formato ER
 
-Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo argomento per generare una nuova traccia delle prestazioni.
+Ripeti i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo articolo per generare una nuova traccia delle prestazioni.
 
 Si noti che il Web browser offre un file zip per il download. Questo file contiene la traccia delle prestazioni in formato PerfView. È quindi possibile utilizzare lo strumento di analisi delle prestazioni PerfView per analizzare i dettagli dell'esecuzione del formato ER.
 
@@ -379,7 +379,7 @@ In seguito ai miglioramenti apportati al framework ER, la traccia delle prestazi
 
 ### <a name="run-the-er-format"></a>Eseguire il formato ER
 
-Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo argomento per generare una nuova traccia delle prestazioni.
+Ripeti i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo articolo per generare una nuova traccia delle prestazioni.
 
 Si noti che il Web browser offre un file zip per il download. Questo file contiene la traccia delle prestazioni in formato PerfView. È quindi possibile utilizzare lo strumento di analisi delle prestazioni PerfView per analizzare i dettagli dell'esecuzione del formato ER. Questa traccia ora include i dettagli di accesso al database SQL durante l'esecuzione del formato ER.
 

@@ -1,6 +1,6 @@
 ---
 title: Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate
-description: Questo argomento spiega come migliorare le prestazioni delle soluzioni di creazione di report elettronici (ER) aggiungendo origini dati CAMPO CALCOLATO parametrizzate.
+description: Questo articolo spiega come migliorare le prestazioni delle soluzioni di creazione di report elettronici (ER) aggiungendo origini dati CAMPO CALCOLATO parametrizzate.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,32 +14,32 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c2c0499ac3d41c9bb6026cc05f971087799c28f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850116"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Migliorare le prestazioni delle soluzioni ER aggiungendo origini dati CAMPO CALCOLATO parametrizzate
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come prendere le [tracce delle prestazioni](trace-execution-er-troubleshoot-perf.md) dei formati della [creazione di report elettronici (ER)](general-electronic-reporting.md) che vengono eseguiti e quindi utilizzare le informazioni di tali tracce per migliorare le prestazioni configurando un'origine dati **Campo calcolato**.
+Questo articolo spiega come prendere le [tracce delle prestazioni](trace-execution-er-troubleshoot-perf.md) dei formati della [creazione di report elettronici (ER)](general-electronic-reporting.md) che vengono eseguiti e quindi utilizzare le informazioni di tali tracce per migliorare le prestazioni configurando un'origine dati **Campo calcolato**.
 
 Nell'ambito del processo di pianificazione delle configurazioni ER per la generazione di documenti aziendali, si definisce il metodo utilizzato per recuperare i dati dall'applicazione e immetterli nell'output generato. Progettando un'origine dati ER parametrizzata di tipo **Campo calcolato** è possibile ridurre il numero di chiamate al database e ridurre notevolmente il tempo e il costo coinvolti nella raccolta dei dettagli dell'esecuzione del formato ER.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-- Per completare gli esempi in questo argomento, è necessario disporre dell'accesso ai seguenti [ruoli](../sysadmin/tasks/assign-users-security-roles.md):
+- Per completare gli esempi in questo articolo, è necessario disporre dell'accesso ai seguenti [ruoli](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Sviluppatore per la creazione di report elettronici
     - Consulente funzionale per la creazione di report elettronici
     - Amministratore di sistema
 
 - La società deve essere impostata su **DEMF**.
-- Seguire i passaggi nell'[Appendice 1](#appendix1) di questo argomento per scaricare i componenti della soluzione Microsoft ER di esempio richiesti per completare gli esempi in questo argomento.
-- Seguire i passaggi nell'[Appendice 2](#appendix2) di questo argomento per configurare il set minimo di parametri ER necessario per utilizzare il framework ER per migliorare le prestazioni della soluzione Microsoft ER di esempio.
+- Segui i passaggi nell'[Appendice 1](#appendix1) di questo articolo per scaricare i componenti della soluzione Microsoft ER di esempio richiesti per completare gli esempi in questo articolo.
+- Segui i passaggi nell'[Appendice 2](#appendix2) di questo articolo per configurare il set minimo di parametri ER necessario per utilizzare il framework ER per migliorare le prestazioni della soluzione Microsoft ER di esempio.
 
 ## <a name="import-the-sample-er-solution"></a>Importare le soluzione ER di esempio
 
@@ -47,8 +47,8 @@ Si supponga di dover progettare una soluzione ER per generare un nuovo report ch
 
 Il primo passaggio consiste nell'importare la soluzione ER di esempio per generare un report delle transazioni del fornitore.
 
-1. Accedere all'istanza di Microsoft Dynamics 365 Finance di cui è stato eseguito il provisioning per la società.
-2. In questo argomento si creeranno e modificheranno configurazioni per la società di esempio **Litware, Inc**. Verificare che questo provider di configurazioni sia stato aggiunto all'istanza di Finance e sia selezionato come attivo. Per ulteriori informazioni, vedi [Creare provider di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+1. Accedi all'istanza di Microsoft Dynamics 365 Finance di cui è stato eseguito il provisioning per la società.
+2. In questo articolo si creeranno e modificheranno configurazioni per la società di esempio **Litware, Inc**. Verificare che questo provider di configurazioni sia stato aggiunto all'istanza di Finance e sia selezionato come attivo. Per ulteriori informazioni, vedi [Creare provider di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Nell'area di lavoro **Creazione di report elettronici**, selezionare il riquadro **Configurazioni report**.
 4. Nella pagina **Configurazioni**, importare le configurazioni ER scaricate come prerequisito in Finance, nel seguente ordine: modello dati, mapping di modello, formato. Per ogni configurazione, procedere come segue:
 
@@ -220,7 +220,7 @@ Attenersi alla seguente procedura per utilizzare la memorizzazione nella cache e
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Eseguire la soluzione ER modificata per generare la traccia dell'esecuzione
 
-Ripetere i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo argomento per generare una nuova traccia delle prestazioni.
+Ripeti i passaggi nella sezione [Eseguire il formato ER](#run-format) vista in precedenza in questo articolo per generare una nuova traccia delle prestazioni.
 
 ## <a name="use-the-performance-trace-to-analyze-adjustments-to-the-model-mapping"></a>Utilizzare la traccia delle prestazioni per analizzare le modifiche al mapping di modello 
 

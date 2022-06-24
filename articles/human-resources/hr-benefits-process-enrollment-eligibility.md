@@ -1,6 +1,6 @@
 ---
 title: Elaborare l'idoneità di iscrizione
-description: Questo argomento spiega come eseguire il processo di idoneità all'iscrizione.
+description: In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78a7de6dbb8d8ed13392eb7eb9aa02b15db2e009
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c01d7a6f456514fc9da1889ccaff5af1ae7c0f52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693173"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877745"
 ---
 # <a name="process-enrollment-eligibility"></a>Elaborare l'idoneità di iscrizione
 
@@ -28,7 +28,7 @@ ms.locfileid: "8693173"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento spiega come eseguire il processo di idoneità all'iscrizione.
+In questo articolo viene descritto come eseguire l'elaborazione dell'idoneità di iscrizione.
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Elaborazione idoneità iscrizione**.
 
@@ -55,7 +55,7 @@ Questo argomento spiega come eseguire il processo di idoneità all'iscrizione.
 
 ## <a name="view-process-results"></a>Visualizzare i risultati del processo
 
-Questo argomento spiega come visualizzare i risultati del processo di idoneità.
+In questo articolo viene descritto come visualizzare i risultati del processo di idoneità.
 
 1.  Nell'area di lavoro **Gestione benefit**, sotto **Elaborazione**, selezionare **Risultati processo**.
 

@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources 26 settembre 2020
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 26 settembre 2020.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 26 settembre 2020.
 author: jcart1106
 ms.date: 09/26/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8b0260c4d1bafe271a08336ceed7dc3742f1d590
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 1b7a89ae8a2132c8548d9451aa235d1bccb88809
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061386"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874248"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 26 settembre 2020
 
@@ -27,7 +27,7 @@ ms.locfileid: "8061386"
 
 
 
-Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
+Questo articolo descrive le funzionalità nuove, modificate o future di Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
 Per ulteriori informazioni sulle nuove funzionalità e sulle date di disponibilità generale previste, vedere [Panoramica del secondo ciclo di rilascio del 2020 di Dynamics 365 Human Resources](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -46,9 +46,9 @@ La seguente funzione è generalmente disponibile con questa versione:
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potrebbero esserci aggiornamenti a questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potrebbero esserci aggiornamenti a questo articolo per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo articolo.
 
-| Numero problema | Uscita | Descrizione |
+| Numero problema | Problema | Description |
 | --- | --- | --- |
 | 469495 | Aggiornare la griglia e la finestra di dialogo delle dimensioni finanziarie predefinite | La griglia e la finestra di dialogo delle dimensioni finanziarie sono state aggiornate in Human Resources. |
 | 474887 | L'elemento di lavoro della richiesta di congedo apre un collegamento errato in una decisione manuale | Quando una configurazione del flusso di lavoro contiene una decisione manuale, passare alla richiesta di congedo da **Elementi di lavoro assegnati all'utente** apre il collegamento sbagliato, mostrando un modulo vuoto o una richiesta di congedo creata dall'utente corrente invece di quella assegnatagli per la decisione manuale. |

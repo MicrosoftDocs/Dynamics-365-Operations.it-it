@@ -1,6 +1,6 @@
 ---
 title: Ritenuta d'acconto globale
-description: Questo argomento fornisce informazioni sulla funzionalità della ritenuta d'acconto globale e su come configurarla. La funzionalità della ritenuta d'acconto globale è stata migliorata per le transazioni di fornitori e clienti, in modo che la ritenuta d'acconto venga calcolata a livello di articolo.
+description: Questo articolo fornisce informazioni sulla funzionalità della ritenuta d'acconto globale e su come configurarla. La funzionalità della ritenuta d'acconto globale è stata migliorata per le transazioni di fornitori e clienti, in modo che la ritenuta d'acconto venga calcolata a livello di articolo.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 9cb02ba77fa33c839bc2a74811131973d1e5877f
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 49d5048b9df30e94d959cf9f22b8ae837b74abdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846830"
 ---
 # <a name="global-withholding-tax"></a>Ritenuta d'acconto globale
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sulla funzionalità della ritenuta d'acconto globale e spiega come configurarla. La nuova funzionalità è disponibile nella versione 10.0.17 e successive.
+Questo articolo fornisce informazioni sulla funzionalità della ritenuta d'acconto globale e spiega come configurarla. La nuova funzionalità è disponibile nella versione 10.0.17 e successive.
 
 La funzionalità della ritenuta d'acconto globale è stata migliorata per le transazioni di fornitori e clienti, in modo che la ritenuta d'acconto venga calcolata a livello di articolo. Il saldo nel conto della ritenuta d'acconto derivante dalle transazioni di acquisto può essere regolato eseguendo il processo di pagamento della ritenuta d'acconto sul conto liquidazione della ritenuta d'acconto.
 

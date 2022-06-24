@@ -1,6 +1,6 @@
 ---
 title: API retribuzioni No Sì
-description: Questo argomento descrive il set di opzioni No Sì nell'API retribuzioni di Dynamics 365 Human Resources.
+description: Questo articolo descrive il set di opzioni No Sì nell'API retribuzioni di Dynamics 365 Human Resources.
 author: marcelbf
 ms.date: 06/25/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b715aac51a27f691ec5369d062f233fbcf9b0abe
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 7fe030100d2fe51cace4b940c80f7ac950ce9697
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865413"
 ---
 # <a name="payroll---no-yes-option-set"></a>Retribuzioni - Set di opzioni No Sì
 
@@ -27,7 +27,7 @@ ms.locfileid: "8069123"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive l'opzione No/Sì impostata per Dynamics 365 Human Resources.
+Questo articolo descrive l'opzione No/Sì impostata per Dynamics 365 Human Resources.
 
 ## <a name="option-set-no-yes"></a>Set di opzioni: No/Sì
 

@@ -1,6 +1,6 @@
 ---
 title: Contenuto Power BI per crediti e riscossioni
-description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Gestione crediti e riscossioni. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+description: In questo articolo viene descritto cosa è incluso nel contenuto Power BI Gestione crediti e riscossioni. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 author: ShivamPandey-msft
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 291eeddf754ef86bf7eb8f534ac36b1151e39b3a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 350c7ff2f0fa93d4ff99e2a11b9418413854a076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889934"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>Contenuto Power BI per crediti e riscossioni
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto **Gestione crediti e riscossioni** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo articolo viene descritto cosa è incluso nel contenuto Microsoft Power BI **Gestione crediti e riscossioni**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 

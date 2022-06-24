@@ -1,6 +1,6 @@
 ---
 title: Aggiungere i tipi di importo di pagamento
-description: Nell'argomento viene descritto come configurare i tipi di importo di pagamento in Leasing cespite.
+description: Nell'articolo viene descritto come configurare i tipi di importo di pagamento in Leasing cespite.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 037afa458277a3a07bcb937c6ec4d961d0dd5ca9
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 03fc903e6cfe78ef2fed7e3a0744a8f809f6892d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891611"
 ---
 # <a name="add-payment-amount-types"></a>Aggiungere i tipi di importo di pagamento
 
 [!include [banner](../includes/banner.md)]
 
-Nell'argomento viene illustrato come configurare i tipi di importo di pagamento in Leasing cespite. In questo modo è possibile dettagliare l'importo del canone di leasing invece di aggiungere l'importo forfettario nelle righe scadenzario pagamenti.
+Nell'articolo viene illustrato come configurare i tipi di importo di pagamento in Leasing cespite. In questo modo è possibile dettagliare l'importo del canone di leasing invece di aggiungere l'importo forfettario nelle righe scadenzario pagamenti.
 
 Per aggiungere i tipi di importo di pagamento effettua le operazioni indicate di seguito.
 

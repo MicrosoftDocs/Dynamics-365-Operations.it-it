@@ -1,6 +1,6 @@
 ---
 title: Introduzione alla fatturazione elettronica per il Brasile
-description: Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per il Brasile in Finance e Supply Chain Management.
+description: Questo articolo fornisce informazioni introduttive sulla fatturazione elettronica per il Brasile in Finance e Supply Chain Management.
 author: gionoder
 ms.date: 03/29/2021
 ms.topic: article
@@ -9,30 +9,32 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: intro-internal
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 82bbf806d207af0b15406e4bec516420db7f2c06
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 74debbca4ee365e05f1c15d45179f0cd1d23c3e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984855"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846586"
 ---
 # <a name="get-started-with-electronic-invoicing-for-brazil"></a>Introduzione alla fatturazione elettronica per il Brasile 
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per il Brasile. Questo argomento guida l'utente attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e completa i passaggi descritti nell'argomento [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
+Questo articolo fornisce informazioni introduttive sulla fatturazione elettronica per il Brasile. Questo articolo guida l'utente attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e completa i passaggi descritti nell'articolo [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-brazilian-nf-e-br-electronic-invoicing-feature"></a>Configurazione specifica del paese per la funzionalità di fatturazione elettronica NF-e brasiliano (BR)
 
 Alcuni dei parametri della **Funzione di fatturazione elettronica NF-e brasiliano (BR)** vengono pubblicati con valori predefiniti. Rivedi i valori e, se necessario, aggiorna i valori per riflettere meglio le operazioni aziendali prima di distribuire la funzionalità di fatturazione elettronica nell'ambiente di servizio.
 
-Questa sezione è a complemento della sezione **Configurazione specifica del paese per la funzionalità di fatturazione elettronica** nell'argomento [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
+Questa sezione è a complemento della sezione **Configurazione specifica del paese per la funzionalità di fatturazione elettronica** nell'articolo [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
 2. Nella pagina **Funzionalità della fatturazione elettronica**, verificare che la funzionalità di fatturazione elettronica **NF-e brasiliano (BR)** creata sia selezionata.
@@ -51,7 +53,7 @@ Questa sezione è a complemento della sezione **Configurazione specifica del pae
 
 Completa questi passaggi prima di distribuire la configurazione dell'applicazione nell'applicazione Finance o Supply Chain Management Connected.
 
-Questa sezione è a complemento della sezione **Configurazione specifica del paese dell'impostazione dell'applicazione** nell'argomento [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
+Questa sezione è a complemento della sezione **Configurazione specifica del paese dell'impostazione dell'applicazione** nell'articolo [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
 2. Nella pagina **Funzionalità della fatturazione elettronica**, verifica che la funzionalità di fatturazione elettronica **NF-e brasiliano (BR)** sia selezionata.
@@ -71,7 +73,7 @@ Questa sezione è a complemento della sezione **Configurazione specifica del pae
 
 Alcuni dei parametri della **Funzione di fatturazione elettronica Brazilian NFS-e ABRASF Curitiba (BR)** vengono pubblicati con valori predefiniti. Rivedi e, se necessario, aggiorna i valori per riflettere meglio le operazioni aziendali prima di distribuire la funzionalità di fatturazione elettronica nell'ambiente di servizio.
 
-Questa sezione è a complemento della sezione **Configurazione specifica del paese per la funzionalità di fatturazione elettronica** nell'argomento [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
+Questa sezione è a complemento della sezione **Configurazione specifica del paese per la funzionalità di fatturazione elettronica** nell'articolo [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
 2. Nella pagina **Funzionalità della fatturazione elettronica**, verifica che la funzionalità di fatturazione elettronica **Brasiliano NFS-e ABRASF Curitiba (BR)** creata sia selezionata.
@@ -96,7 +98,7 @@ Questa sezione è a complemento della sezione **Configurazione specifica del pae
 
 Completa questi passaggi prima di distribuire la configurazione dell'applicazione nell'applicazione Finance o Supply Chain Management Connected.
 
-Questa sezione è a complemento della sezione **Configurazione specifica del paese dell'impostazione dell'applicazione** nell'argomento [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
+Questa sezione è a complemento della sezione **Configurazione specifica del paese dell'impostazione dell'applicazione** nell'articolo [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 1. In RCS, nell'area di lavoro **Funzionalità di globalizzazione** della sezione **Funzionalità**, seleziona il riquadro **Fatturazione elettronica**.
 2. Nella pagina **Funzionalità della fatturazione elettronica**, verificare che la funzionalità di fatturazione elettronica **Brasiliano NFS-e ABRASF Curitiba (BR)** sia selezionata.

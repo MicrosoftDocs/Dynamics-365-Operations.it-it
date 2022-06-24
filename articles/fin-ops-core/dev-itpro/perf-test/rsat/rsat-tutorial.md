@@ -1,6 +1,6 @@
 ---
-title: Esercitazione Regression Suite Automation Tool
-description: In questo argomento viene illustrato come utilizzare lo strumento Regression Suite Automation Tool (RSAT). Vengono descritte varie funzionalità e forniti esempi che utilizzano lo script avanzato.
+title: Esercitazione su Regression Suite Automation Tool
+description: In questo articolo viene illustrato come utilizzare lo strumento Regression Suite Automation Tool (RSAT). Vengono descritte varie funzionalità e forniti esempi che utilizzano lo script avanzato.
 author: FrankDahl
 ms.date: 09/23/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: e2273aefb98880a1ae746ef7ec65b4f2262f3560
-ms.sourcegitcommit: 49c97b0c94e916db5efca5672d85df70c3450755
+ms.openlocfilehash: 04c7d7081ece4e077881092534ed061fe2d0e999
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8492922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854601"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Esercitazione Regression Suite Automation Tool
 

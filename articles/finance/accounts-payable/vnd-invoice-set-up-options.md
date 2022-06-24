@@ -1,6 +1,6 @@
 ---
 title: Opzioni di configurazione per l'automazione delle fatture fornitore (anteprima)
-description: In questo argomento vengono descritte le opzioni disponibili per l'impostazione e la configurazione dell'automazione delle fatture fornitore.
+description: In questo articolo vengono descritte le opzioni disponibili per l'impostazione e la configurazione dell'automazione delle fatture fornitore.
 author: sunfzam
 ms.date: 02/14/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c1dc443e4225a3ffc6b88cedf7add396a66ec25d
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86ad68b3dc08bf2c57ab5f9bc6c65bc37c0901e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874843"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Opzioni di configurazione per l'automazione delle fatture fornitore
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le opzioni disponibili per l'impostazione e la configurazione dell'automazione delle fatture fornitore. Le funzionalità di automazione delle fatture utilizzano i seguenti tipi di parametri di configurazione:
+In questo articolo vengono descritte le opzioni disponibili per l'impostazione e la configurazione dell'automazione delle fatture fornitore. Le funzionalità di automazione delle fatture utilizzano i seguenti tipi di parametri di configurazione:
 
 - Parametri per l'applicazione automatica dei pagamenti anticipati nelle fatture importate.
 - Parametri per l'invio di fatture fornitore importate al sistema del flusso di lavoro e l'abbinamento delle righe di entrata prodotti registrate alle righe di fattura fornitore in sospeso.

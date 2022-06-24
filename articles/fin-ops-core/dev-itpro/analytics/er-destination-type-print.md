@@ -1,6 +1,6 @@
 ---
 title: Tipo di destinazione stampante ER
-description: Questo argomento spiega come configurare una destinazione stampante per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
+description: Questo articolo spiega come configurare una destinazione stampante per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 02/14/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2513fc4f86519c71602089cd46e9757813b1a708
-ms.sourcegitcommit: b80692c3521dad346c9cbec8ceeb9612e4e07d64
+ms.openlocfilehash: 826455d0901a45ef26755fd323ee2a2737b5eec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/05/2022
-ms.locfileid: "8388290"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845572"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destinazione stampante
 
@@ -34,7 +34,7 @@ Prima di iniziare, è necessario installare e configurare l'agente di distribuzi
 
 ## <a name="make-the-printer-destination-available"></a>Rendere disponibile la destinazione Stampante
 
-Per rendere disponibile la destinazione **Stampante** nell'istanza corrente di Microsoft Dynamics 365 Finance, accedere all'area di lavoro **Gestione funzionalità** e attivare le seguenti funzionalità, in questo ordine:
+Per rendere disponibile la destinazione **Stampante** nell'istanza corrente di Microsoft Dynamics 365 Finance, accedi all'area di lavoro **Gestione funzionalità** e attiva le seguenti funzionalità, in questo ordine:
 
 1. Convertire i documenti in uscita per la creazione di report elettronici dai formati di Microsoft Office in PDF
 2. Agente di distribuzione dei documenti come destinazione della creazione di report elettronici per i documenti in uscita

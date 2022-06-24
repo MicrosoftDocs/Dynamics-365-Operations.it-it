@@ -1,6 +1,6 @@
 ---
 title: Funzionalità del programma di fatturazione
-description: In questo argomento vengono illustrate le funzionalità del programma di fatturazione, ad esempio metodi di determinazione del prezzo, escalation e sconti, date di allineamento, ripartizione proporzionale, fatturazione con storno e gruppi di articoli suddivisi.
+description: In questo articolo vengono illustrate le funzionalità del programma di fatturazione, ad esempio metodi di determinazione del prezzo, escalation e sconti, date di allineamento, ripartizione proporzionale, fatturazione con storno e gruppi di articoli suddivisi.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0ce323565a94e8e70d90a65b7a3143e984a1c159
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b6cfebc2bbfe06e118bfc96f9ae0df6323805e39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8700723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853585"
 ---
 # <a name="billing-schedule-features"></a>Funzionalità del programma di fatturazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono illustrate le funzioni del programma di fatturazione e delle righe programma di fatturazione. Descrive i diversi metodi utilizzati per la determinazione del prezzo, come utilizzare le escalation e gli sconti e come stornare un periodo di fatturazione. Include anche esempi di calcoli proporzionali e gruppi di articoli divisi.
+In questo articolo vengono illustrate le funzioni del programma di fatturazione e delle righe programma di fatturazione. Descrive i diversi metodi utilizzati per la determinazione del prezzo, come utilizzare le escalation e gli sconti e come stornare un periodo di fatturazione. Include anche esempi di calcoli proporzionali e gruppi di articoli divisi.
 
 ## <a name="pricing-methods"></a>Metodi di determinazione dei prezzi
 

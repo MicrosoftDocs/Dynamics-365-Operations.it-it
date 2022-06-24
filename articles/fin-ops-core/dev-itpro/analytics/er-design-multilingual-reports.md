@@ -1,8 +1,8 @@
 ---
 title: Progettare report multilingue nella creazione di report elettronici
-description: Questo argomento spiega come utilizzare le etichette della creazione di report elettronici (ER) per progettare e generare report multilingue.
+description: Questo articolo spiega come utilizzare le etichette della creazione di report elettronici (ER) per progettare e generare report multilingue.
 author: NickSelin
-ms.date: 04/28/2022
+ms.date: 05/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa8297d4f5c56a7a20561b1a90c5852e65dbff31
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c042d609d68544aa4be5d707109a15b2ab8d422c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811609"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845746"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Progettare report multilingue nella creazione di report elettronici
 
@@ -142,6 +142,9 @@ Se si configura un formato ER in questo modo, il report viene generato utilizzan
 
 Se un'etichetta a cui si fa riferimento non ha una traduzione per la lingua del contesto di esecuzione del formato, al suo posto viene utilizzato il testo dell'etichetta nella lingua EN-US.
 
+> [!TIP]
+> Puoi usare la **CARTELLA** e tipi distinti di componenti **FILE** nel formato ER modificabile per specificare come viene generato un file in uscita. Per denominare un file generato, configura l'[espressione](er-formula-language.md) ER per il parametro **Nome file** del componente. Puoi utilizzare le etichette nell'espressione configurata. Poiché il parametro **Nome file** è indipendente dalla lingua per impostazione predefinita, il testo di tutte le etichette a cui si fa riferimento in questa espressione viene esposto nella lingua EN-US predefinita in fase di esecuzione. Tuttavia, nella versione 10.0.28 e successive, puoi abilitare la funzionalità **Applica il parametro "Preferenza lingua" all'espressione "Nome file"**. L'espressione **Nome file** quindi prende il parametro **Preferenze lingua** in considerazione quando viene calcolata.
+
 ## <a name="language"></a>Lingua
 
 ER supporta diversi modi per specificare una lingua per un report generato. Nel campo **Preferenze lingua** della scheda **Formato** è possibile selezionare i seguenti valori:
@@ -198,7 +201,7 @@ La configurazione di un componente ER viene eseguita nella versione bozza della 
 
 ![Pagina Configurazioni ER che offre l'accesso alla versione della configurazione nello stato bozza.](./media/er-multilingual-labels-configurations.png)
 
-Come descritto in precedenza in questo argomento, è possibile aggiungere le etichette ER richieste a un componente ER modificabile. In questo modo, è possibile specificare il testo delle etichette ER nella lingua EN-US. È quindi possibile esportare le etichette del componente ER utilizzando la funzione ER integrata. Selezionare la versione bozza di una configurazione ER che contiene il componente ER modificabile, quindi selezionare **Scambio \> Esporta etichette**.
+Come descritto in precedenza in questo articolo, è possibile aggiungere le etichette ER richieste a un componente ER modificabile. In questo modo, è possibile specificare il testo delle etichette ER nella lingua EN-US. È quindi possibile esportare le etichette del componente ER utilizzando la funzione ER integrata. Selezionare la versione bozza di una configurazione ER che contiene il componente ER modificabile, quindi selezionare **Scambio \> Esporta etichette**.
 
 ![Pagina Configurazioni ER che consente di esportare le etichette ER dalla versione di configurazione selezionata.](./media/er-multilingual-labels-export.png)
 
@@ -229,7 +232,7 @@ Il controllo delle versioni ER controlla l'assegnazione delle etichette a qualsi
 
 La funzione ER [LISTOFFIELDS](er-functions-list-listoffields.md) incorporata può accedere alle etichette ER che sono state configurate per alcuni elementi dei componenti ER.
 
-Come descritto in precedenza in questo argomento, gli attributi **Etichetta** e **Descrizione** del valore dell'enumerazione ER di ciascun [modello](#LinkModelEnum) o [formato](#LinkFormatEnum) possono essere collegati a un'etichetta ER accessibile nel componente ER appropriato. È possibile configurare un'espressione ER in cui si chiama la funzione **LISTOFFIELDS** utilizzando l'enumerazione ER come argomento. Questa espressione restituisce un elenco che contiene un record per ogni valore di un'enumerazione ER che è stata definita come argomento di questa funzione. Ogni record contiene il valore di un'etichetta ER collegata a un valore di enumerazione ER:
+Come descritto in precedenza in questo articolo, gli attributi **Etichetta** e **Descrizione** del valore dell'enumerazione ER di ciascun [modello](#LinkModelEnum) o [formato](#LinkFormatEnum) possono essere collegati a un'etichetta ER accessibile nel componente ER appropriato. È possibile configurare un'espressione ER in cui si chiama la funzione **LISTOFFIELDS** utilizzando l'enumerazione ER come argomento. Questa espressione restituisce un elenco che contiene un record per ogni valore di un'enumerazione ER che è stata definita come argomento di questa funzione. Ogni record contiene il valore di un'etichetta ER collegata a un valore di enumerazione ER:
 
 - Il valore di un'etichetta ER collegata agli attributi **Etichetta** sono memorizzati nel campo **Etichetta** del record restituito.
 - Il valore di un'etichetta ER collegata agli attributi **Descrizione** sono memorizzati nel campo **Descrizione** del record restituito.

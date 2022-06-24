@@ -1,6 +1,6 @@
 ---
 title: Ordinare le righe fattura di vendita per documento di trasporto
-description: Questo argomento spiega come impostare e stampare le fatture accompagnatorie che includono i dettagli dei documenti di trasporto richiesti.
+description: Questo articolo spiega come impostare e stampare le fatture accompagnatorie che includono i dettagli dei documenti di trasporto richiesti.
 author: ilkond
 ms.date: 10/28/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a65714210ef5f09e48d124db45edf8819953e15fd5174a0213dcba6c0f57d34d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd65b66a8f5fb7acc8cf65d6d86fc002eaa17abe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722658"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858342"
 ---
 # <a name="sort-sales-invoice-lines-by-packing-slip"></a>Ordinare le righe fattura di vendita per documento di trasporto
 

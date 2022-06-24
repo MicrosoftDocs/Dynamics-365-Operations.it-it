@@ -1,6 +1,6 @@
 ---
 title: Aggiornare la pianificazione del budget
-description: In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.
+description: In questo articolo viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.
 author: panolte
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c52de15faddd797d31d0875882863b8fe37a7d173b38be058e51a06b2e7fe078
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769193"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890408"
 ---
 # <a name="upgrade-budget-planning"></a>Aggiornamento della pianificazione del budget
 
 [!include [banner](../includes/banner.md)]
 
-Tra Microsoft Dynamics AX 2012 e Dynamics 365 Finance sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo argomento viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.  
+Tra Microsoft Dynamics AX 2012 e Dynamics 365 Finance sono presenti differenze significative nella pianificazione del budget. Alcune funzionalità non sono state aggiornate e richiedono quindi la riconfigurazione. In questo articolo viene descritto quali elementi è necessario riconfigurare e vengono descritte le nuove funzionalità che devono essere considerate dopo il completamento dell'aggiornamento.  
 
-La pianificazione del budget in Finance include molti miglioramenti che non erano disponibili in Dynamics AX 2012. In questo argomento vengono illustrate le modifiche che devono eseguire i clienti che effettuano l'aggiornamento. Vengono inoltre illustrate le nuove funzionalità che devono essere considerate nel processo di aggiornamento. A causa delle dimensioni delle modifiche, tutti i piani di budget esistenti non potranno essere aperti fino a che non sono state apportate le modifiche descritte in questo argomento. Tuttavia, i report dovrebbero continuare a funzionare e non richiedono modifiche aggiuntive.
+La pianificazione del budget in Finance include molti miglioramenti che non erano disponibili in Dynamics AX 2012. In questo articolo vengono illustrate le modifiche che devono eseguire i clienti che effettuano l'aggiornamento. Vengono inoltre illustrate le nuove funzionalità che devono essere considerate nel processo di aggiornamento. A causa delle dimensioni delle modifiche, tutti i piani di budget esistenti non potranno essere aperti fino a che non sono state apportate le modifiche descritte in questo articolo. Tuttavia, i report dovrebbero continuare a funzionare e non richiedono modifiche aggiuntive.
 
 ## <a name="overview-of-changes"></a>Panoramica delle modifiche
 Nell'Impostazione budget di Finance and Operations sono state apportate molte modifiche significative. Le modifiche hanno lo scopo di rendere la struttura del budget più semplice da configurare e più riutilizzabile, per ridurre le operazioni di manutenzione annuali e le impostazioni. Le seguenti aree di AX 2012 non esistono più in Finance:
@@ -58,7 +58,7 @@ I processi di pianificazione del budget sono fondamentalmente gli stessi di AX 2
 In AX 2012, i documenti di motivazione venivano salvati in una cartella dell'allegato. Nessun documento di motivazione precedente viene aggiornato. I documenti di questo tipo vengono ora archiviati nel database. Se queste informazioni devono essere salvate nella versione aggiornata, è possibile caricare i documenti di motivazione definitivi per ciascun piano come allegato tramite il pulsante **Motivazione** nel riquadro azioni. In AX 2012, i fogli di lavoro di Excel per ciascun piano di budget venivano creati in base al modello. In Finance tutti i piani aprono una copia del layout. Tuttavia, nessuna modifica apportata al file di Excel viene salvata. Tutte le formule o informazioni aggiuntive utilizzate in base al singolo piano devono essere aggiunte tramite i commenti, un documento di motivazione o un altro processo aggiuntivo.
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>Configurazione di un ambiente aggiornato da AX 2012
-Per consentire di determinare la modalità di configurazione del sistema aggiornato, nel seguente esempio viene utilizzato un processo di budget aggiornato dei dati dimostrativi di AX 2012. I dati di configurazione predefiniti per le colonne sono stati creati per agevolare l'esecuzione del processo di aggiornamento. È possibile aggiornare o eliminare questi dati predefiniti se non soddisfano i propri requisiti di configurazione. **Nota:** sono presenti nuovi campi obbligatori che non verranno impostati nel sistema. Se si rimane bloccati in una pagina, ad esempio nella pagina **Configurazione di pianificazione del budget** e non è possibile uscire da questa pagina, si può chiudere il browser e quindi riaprirlo in una pagina distinta per immettere i dettagli secondo l'ordine corretto. Alcuni campi obbligatori non sono ancora stati impostati. Di conseguenza, possono verificarsi dei problemi fino a che tutti gli elementi sono stati configurati e tutti i campi obbligatori sono stati impostati. In questo argomento viene descritto come impostare questi campi, secondo le esigenze. Di seguito sono riportati alcuni campi obbligatori:
+Per consentire di determinare la modalità di configurazione del sistema aggiornato, nel seguente esempio viene utilizzato un processo di budget aggiornato dei dati dimostrativi di AX 2012. I dati di configurazione predefiniti per le colonne sono stati creati per agevolare l'esecuzione del processo di aggiornamento. È possibile aggiornare o eliminare questi dati predefiniti se non soddisfano i propri requisiti di configurazione. **Nota:** sono presenti nuovi campi obbligatori che non verranno impostati nel sistema. Se si rimane bloccati in una pagina, ad esempio nella pagina **Configurazione di pianificazione del budget** e non è possibile uscire da questa pagina, si può chiudere il browser e quindi riaprirlo in una pagina distinta per immettere i dettagli secondo l'ordine corretto. Alcuni campi obbligatori non sono ancora stati impostati. Di conseguenza, possono verificarsi dei problemi fino a che tutti gli elementi sono stati configurati e tutti i campi obbligatori sono stati impostati. In questo articolo viene descritto come impostare questi campi, secondo le esigenze. Di seguito sono riportati alcuni campi obbligatori:
 
 -   Pagina **Processo di pianificazione del budget**: campo **Struttura dei conti predefinita**
 -   Pagina **Processo di pianificazione del budget**: campo **Layout** della scheda dettaglio **Regole e layout fase di pianificazione del budget**
@@ -69,7 +69,7 @@ Per consentire di determinare la modalità di configurazione del sistema aggiorn
    -   Scenari del piano di budget: Effettivi, Base, Richiesta budget, Budget approvato
    -   Righe del piano di budget per tutti gli scenari nel 2017 ed effettivi per entrambi 2017 e 2016
 
-   Verranno create le colonne che seguono in Finance and Operations:
+   Le colonne seguenti verranno create in Finance and Operations:
 
    | Nome colonna    | Scenario del piano di budget | Periodo di tempo colonna | Offset anno |
    |----------------|----------------------|--------------------|-------------|

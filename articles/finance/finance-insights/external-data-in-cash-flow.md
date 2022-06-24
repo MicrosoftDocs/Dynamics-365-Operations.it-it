@@ -1,6 +1,6 @@
 ---
 title: Dati esterni nelle previsioni di cassa
-description: In questo argomento vengono descritti i passaggi di configurazione che è necessario completare in modo che i dati esterni possano essere immessi o importati nelle previsioni di cassa.
+description: In questo articolo vengono descritti i passaggi di configurazione che è necessario completare in modo che i dati esterni possano essere immessi o importati nelle previsioni di cassa.
 author: RyanCCarlson2
 ms.date: 02/16/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f7fac80b7ad0fde273fbd33aa5df146e569be46e
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f0cb05770dc2fbd4e13af261b5f0a0e117a2f6d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846975"
 ---
 # <a name="external-data-in-cash-flow-forecasts"></a>Dati esterni nelle previsioni di cassa
 
 [!include [banner](../includes/banner.md)]
 
-I dati esterni possono essere inseriti o importati nelle previsioni di cassa. In questo argomento vengono descritti i passaggi di configurazione specifici per l'utilizzo di dati esterni e che consentono di includere i dati esterni in una previsione di cassa.
+I dati esterni possono essere inseriti o importati nelle previsioni di cassa. In questo articolo vengono descritti i passaggi di configurazione specifici per l'utilizzo di dati esterni e che consentono di includere i dati esterni in una previsione di cassa.
 
 ## <a name="external-data-setup"></a>Configurazione dei dati esterni
 

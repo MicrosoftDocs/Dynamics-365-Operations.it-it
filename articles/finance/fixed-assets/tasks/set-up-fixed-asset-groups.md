@@ -1,6 +1,6 @@
 ---
-title: Impostare gruppi di cespiti
-description: In questo argomento viene illustrato come creare un nuovo gruppo cespite.
+title: Configurare i gruppi cespite
+description: In questo articolo viene illustrato come creare un nuovo gruppo cespite.
 author: moaamer
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17f149f3815867e2b174e017dd6b4998e2d7c16f
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7eef214142bab80f6754c74787e94c4e79a3e037
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870077"
 ---
-# <a name="set-up-fixed-asset-groups"></a>Impostare gruppi di cespiti
+# <a name="set-up-fixed-asset-groups"></a>Configurare i gruppi cespite
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene illustrato come creare un nuovo gruppo cespite. Utilizza il ruolo Ragioniere e i dati dimostrativi per la persona giuridica USMF.
+In questo articolo viene illustrato come creare un nuovo gruppo cespite. Utilizza il ruolo Ragioniere e i dati dimostrativi per la persona giuridica USMF.
 
 1. Nel pannello di navigazione, passare a **Moduli > Cespiti > Impostazione > Gruppi cespite**.
 2. Selezionare **Nuovo**.

@@ -1,6 +1,6 @@
 ---
 title: Designer formula nella creazione di report elettronici (ER)
-description: In questo argomento sono riportate le informazioni sull'utilizzo di designer formula nella creazione di report elettronici (ER).
+description: In questo articolo sono riportate le informazioni sull'utilizzo di designer formula nella creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 04/08/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 606532411aa8297654d8d20a9061472597e773da
-ms.sourcegitcommit: 6c1bf233748c4bc70fc5a1a9711758cdfd9e07dc
+ms.openlocfilehash: 6b03613cb40c5ca718f45e69740d29059fcfb70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8782206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894297"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come utilizzare designer formula nei report elettronici (ER). Quando si progetta un formato di un documento elettronico specifico in ER, è possibile utilizzare le formule per la trasformazione dei dati in modo da soddisfare i requisiti per la compilazione e la formattazione del documento. Le formule somigliano alle formule in Microsoft Excel. Nelle formule sono supportate funzioni di diverso tipo: funzioni di testo, data e ora, logica matematica, informazioni e conversione del tipo di dati, oltre ad altre funzioni specifiche del dominio aziendale.
+Questo articolo illustra come utilizzare designer formula nei report elettronici (ER). Quando si progetta un formato di un documento elettronico specifico in ER, è possibile utilizzare le formule per la trasformazione dei dati in modo da soddisfare i requisiti per la compilazione e la formattazione del documento. Le formule somigliano alle formule in Microsoft Excel. Nelle formule sono supportate funzioni di diverso tipo: funzioni di testo, data e ora, logica matematica, informazioni e conversione del tipo di dati, oltre ad altre funzioni specifiche del dominio aziendale.
 
 ## <a name="formula-designer-overview"></a>Panoramica su Designer formula
 

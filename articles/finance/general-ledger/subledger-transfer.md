@@ -1,6 +1,6 @@
 ---
 title: Trasferire il giornale di registrazione secondario alla contabilità generale
-description: In questo argomento vengono descritte le funzionalità correlate al processo di trasferimento del giornale di registrazione secondario alla contabilità generale.
+description: In questo articolo vengono descritte le funzionalità correlate al processo di trasferimento del giornale di registrazione secondario alla contabilità generale.
 author: RyanCCarlson2
 ms.date: 12/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 70a34fa1f4ee540d89ec05816e4065fb3e1df9ef
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6d9b40409089e2050dc28c21040069107b766aa0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871248"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Trasferire il giornale di registrazione secondario alla contabilità generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le funzionalità correlate alle regole per il trasferimento di batch delle voci del giornale di registrazione secondario.
+In questo articolo vengono descritte le funzionalità correlate alle regole per il trasferimento di batch delle voci del giornale di registrazione secondario.
 
 Nella versione 8.1, sono state apportate modifiche per consentire il trasferimento di regole che hanno deprecato l'opzione **Sincrona**. Per ulteriori informazioni, vedere [Funzionalità rimosse o deprecate per Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
 

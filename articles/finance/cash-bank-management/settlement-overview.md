@@ -1,6 +1,6 @@
 ---
-title: Panoramica della liquidazione
-description: Questo argomento fornisce informazioni generali sul processo di liquidazione. Descrive i tipi di transazione che possono essere liquidati e i tempi e il processo necessari per la liquidazione. Viene anche fornita una descrizione dei risultati del processo di liquidazione.
+title: Panoramica della compensazione/liquidazione
+description: Questo articolo fornisce informazioni generali sul processo di liquidazione. Descrive i tipi di transazione che possono essere liquidati e i tempi e il processo necessari per la liquidazione. Viene anche fornita una descrizione dei risultati del processo di liquidazione.
 author: panolte
 ms.date: 07/30/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e1992019570129461f3ecdd5479a87bafd8aeacb
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: a495a71a95032a0022cbab2783f356db48ee349d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724899"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887950"
 ---
 # <a name="settlement-overview"></a>Panoramica della liquidazione
 
@@ -30,7 +30,7 @@ ms.locfileid: "8724899"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Questo argomento fornisce informazioni generali sul processo di liquidazione. Descrive i tipi di transazione che possono essere liquidati e i tempi e il processo necessari per la liquidazione. Viene anche fornita una descrizione dei risultati del processo di liquidazione.
+Questo articolo fornisce informazioni generali sul processo di liquidazione. Descrive i tipi di transazione che possono essere liquidati e i tempi e il processo necessari per la liquidazione. Viene anche fornita una descrizione dei risultati del processo di liquidazione.
 
 Durante la compensazione, le transazioni in un documento vengono applicate alle transazioni in un altro documento per aumentare o diminuire il saldo di ciascun documento. È possibile ad esempio applicare un pagamento a una fattura. È possibile liquidare vari tipi di transazioni, in momenti diversi e con metodi diversi. Il processo di liquidazione può anche generare nuove transazioni.
 

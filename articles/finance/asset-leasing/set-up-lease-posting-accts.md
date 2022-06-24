@@ -1,6 +1,6 @@
 ---
 title: Configurare conti di registrazione leasing
-description: Questo argomento elenca i conti di registrazione richiesti per le transazioni di Leasing cespite e spiega come definire i conti di registrazione nella pagina Parametri di registrazione del leasing.
+description: Questo articolo elenca i conti di registrazione richiesti per le transazioni di Leasing cespite e spiega come definire i conti di registrazione nella pagina Parametri di registrazione del leasing.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 147d8cd93f9664039b2004b878dcaff96c8b6ce6
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 6e3a0d8dd3bb3e58ca10b2efce0cc88a2f48d2de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726380"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859916"
 ---
 # <a name="set-up-lease-posting-accounts"></a>Configurare conti di registrazione leasing
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca i conti di registrazione richiesti per le transazioni di Leasing cespite e spiega come definire i conti di registrazione nella pagina **Parametri di registrazione del leasing**.
+Questo articolo elenca i conti di registrazione richiesti per le transazioni di Leasing cespite e spiega come definire i conti di registrazione nella pagina **Parametri di registrazione del leasing**.
 
 Per essere conformi ai principi Accounting Standards Codification Topic 842 (ASC 842) e International Financial Reporting Standard 16 (IFRS 16), potrebbe essere necessario creare i conti nel piano dei conti. Tuttavia, tutti i conti creati per conformarsi agli standard ASC e IFRS non sono conti cespite. Ai sensi di ASC 842, viene registrato un asset Right of use (ROU) sia per i leasing finanziari che per quelli operativi. Questi leasing sono separati dai cespiti. (È comunque possibile mantenere un asset ROU utilizzando Cespiti.)
 

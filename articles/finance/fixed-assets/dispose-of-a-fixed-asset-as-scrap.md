@@ -1,6 +1,6 @@
 ---
 title: Dismettere un cespito come scarto
-description: Questo argomento descrive il processo di eliminazione delle transazioni per un cespite dismesso come scarto.
+description: Questo articolo descrive il processo di eliminazione delle transazioni per un cespite dismesso come scarto.
 author: moaamer
 ms.date: 08/14/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: c30837da84bff67bbab80ff5116135e2533a867d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 6564314c70de1880e437c3c493689f12d96d91ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713080"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855435"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Dismettere un cespito come scarto
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive il processo di eliminazione delle transazioni per un cespite dismesso come scarto. I tipi di transazioni che possono essere eliminati includono le transazioni di acquisizione e di ammortamento accumulato di un cespite e altre transazioni relativi ai cespiti. L'eliminazione di queste transazioni altera i conti dello stato patrimoniale, ad esempio conti di rettifica acquisizione, rettifica ammortamento, rivalutazione e svalutazione.
+Questo articolo descrive il processo di eliminazione delle transazioni per un cespite dismesso come scarto. I tipi di transazioni che possono essere eliminati includono le transazioni di acquisizione e di ammortamento accumulato di un cespite e altre transazioni relativi ai cespiti. L'eliminazione di queste transazioni altera i conti dello stato patrimoniale, ad esempio conti di rettifica acquisizione, rettifica ammortamento, rivalutazione e svalutazione.
 
 | Transazione                                         | Dare (dr.) | Avere (cr.) |
 |-----------------------------------------------------|-------------|--------------|

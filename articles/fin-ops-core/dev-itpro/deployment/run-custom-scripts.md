@@ -1,6 +1,6 @@
 ---
 title: Esegui script X++ personalizzati senza tempi di inattività
-description: Questo argomento descrive come caricare ed eseguire pacchetti distribuibili che contengono script X++ personalizzati senza dover sospendere il sistema.
+description: Questo articolo descrive come caricare ed eseguire pacchetti distribuibili che contengono script X++ personalizzati senza dover sospendere il sistema.
 author: AndersGirke
 ms.date: 12/16/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: fcd0a472fa5116ca0b3a59561b6eeb72181a9113
-ms.sourcegitcommit: 44e6875e974a3a1b3e1d7a24c1a3cff3d3697cdc
+ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8088346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867331"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Esegui script X++ personalizzati senza tempi di inattività
 
@@ -122,7 +122,7 @@ Utilizza la procedura seguente per caricare ed eseguire uno script.
 
 1. Nell'app Finanza e operazioni, vai a **Amministrazione di sistema \> Attività periodiche \> Database \> Script personalizzati**.
 1. Selezionare **Carica**.
-1. Seleziona il pacchetto distribuibile che hai creato come descritto in precedenza in questo argomento. Ti verrà chiesto di specificare lo scopo dello script.
+1. Seleziona il pacchetto distribuibile che hai creato come descritto in precedenza in questo articolo. Ti verrà chiesto di specificare lo scopo dello script.
 1. Lo script ora deve essere approvato da un utente diverso dall'utente che lo ha caricato. Il responsabile dell'approvazione deve seguire questi passaggi:
 
     1. Vai a **Amministrazione di sistema \> Periodico \> Database \> Script personalizzati**.

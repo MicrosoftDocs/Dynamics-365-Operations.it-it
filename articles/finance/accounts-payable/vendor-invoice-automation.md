@@ -1,6 +1,6 @@
 ---
-title: Automazione delle fatture per documenti digitalizzati
-description: In questo argomento vengono illustrate le funzionalità disponibili per l'automazione completa delle fatture fornitore, anche delle fatture che includono allegati.
+title: Automazione delle fatture per i documenti digitalizzati
+description: In questo articolo vengono illustrate le funzionalità disponibili per l'automazione completa delle fatture fornitore, anche delle fatture che includono allegati.
 author: abruer
 ms.date: 03/24/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02fcb6ce49156c32f23bfb37478a1076f62aa868
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883418"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automazione delle fatture per i documenti digitalizzati
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono illustrate le entità di dati disponibili per l'automazione completa delle fatture fornitore, tra cui le fatture che includono allegati.
+In questo articolo vengono illustrate le entità di dati disponibili per l'automazione completa delle fatture fornitore, tra cui le fatture che includono allegati.
 
 Le organizzazioni che desiderano semplificare i processi di contabilità fornitori (AP) spesso identificano l'elaborazione delle fatture come una delle principali aree in cui dovrebbero essere più efficienti. In molti casi, queste organizzazioni scaricano l'elaborazione delle fatture cartacee a un provider di servizi OCR di terze parti. Ricevono poi i metadati della fattura leggibile a computer insieme a un'immagine digitalizzata di ogni fattura. Per agevolare l'automazione, viene integrata "una soluzione nella fase finale" per consentire l'utilizzo di questi elementi nel sistema di fatturazione. Ora questa fase finale automatizzata è abilitata come soluzione predefinita, attraverso una soluzione di automazione delle fatture.
 
@@ -46,7 +46,7 @@ L'impronta della soluzione è costituita dai seguenti componenti:
 + Elaborazione delle eccezione per le fatture
 + Visualizzatore degli allegati parallelo nelle fatture
 
-Il resto di questo argomento fornisce descrizioni dettagliate di questi componenti della soluzione.
+Il resto di questo articolo fornisce descrizioni dettagliate di questi componenti della soluzione.
 
 ## <a name="data-entities"></a>Entità di dati
 

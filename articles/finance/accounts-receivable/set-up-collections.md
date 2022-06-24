@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6eee0fe373f246d0f289c80b07dc5da15794b803
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 49f47c48158f833f3d2cc0cad851860e995d3886
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725710"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870338"
 ---
 # <a name="set-up-collections"></a>Impostare la riscossione
 
@@ -38,7 +38,7 @@ In questo articolo viene descritto come impostare le funzionalità di riscossion
 - Impostazioni di Outlook per gli utenti che utilizzano la pagina **Riscossioni**
 - Indirizzi di posta elettronica
 
-Questi punti sono discussi in maggior dettaglio nel resto di questo argomento. 
+Questi punti sono discussi in maggior dettaglio nel resto di questo articolo. 
 
 ## <a name="set-up-aging-period-definitions"></a>Imposta le definizioni di periodi di aging
 

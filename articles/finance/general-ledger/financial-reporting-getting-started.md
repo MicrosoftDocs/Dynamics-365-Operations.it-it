@@ -1,6 +1,6 @@
 ---
-title: Panoramica sulla creazione di report finanziari
-description: In questo argomento viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari.
+title: Panoramica su Financial Reporting
+description: In questo articolo viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari.
 author: aprilolson
 ms.date: 03/31/2022
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a209390a8424e2ec3d6654b54b36e36fcd349b3
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721901"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853411"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione alla creazione di report finanziari 
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto dove accedere a Financial Reporting e come utilizzare le funzionalità di Financial Reporting. Include anche una descrizione dei report finanziari predefiniti forniti.
+In questo articolo viene descritto dove accedere a Financial Reporting e come utilizzare le funzionalità di Financial Reporting. Include anche una descrizione dei report finanziari predefiniti forniti.
 
 ## <a name="accessing-financial-reporting"></a>Accesso ai report finanziari
 

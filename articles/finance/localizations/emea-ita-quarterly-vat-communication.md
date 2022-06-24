@@ -1,6 +1,6 @@
 ---
 title: Report di comunicazione IVA trimestrale
-description: Questo argomento fornisce informazioni sul report di comunicazione IVA trimestrale in Italia.
+description: Questo articolo fornisce informazioni sul report di comunicazione IVA trimestrale in Italia.
 author: liza-golub
 ms.date: 09/15/2021
 ms.topic: article
@@ -10,12 +10,12 @@ audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
 ms.author: elgolu
-ms.openlocfilehash: ccca7390d506d66364075138b921948d36c0e53a
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: f4bf405a768694236c417ea8f5d45517758db1f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500047"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865490"
 ---
 # <a name="quarterly-vat-communication-report"></a>Report di comunicazione IVA trimestrale
 

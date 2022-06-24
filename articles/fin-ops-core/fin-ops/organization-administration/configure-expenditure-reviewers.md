@@ -1,6 +1,6 @@
 ---
 title: Configurare i revisori spese
-description: Questo argomento descrive come utilizzare i revisori spese per selezionare dinamicamente l'utente a cui è assegnata un'attività del flusso di lavoro, un'approvazione o una decisione manuale.
+description: Questo articolo descrive come utilizzare i revisori spese per selezionare dinamicamente l'utente a cui è assegnata un'attività del flusso di lavoro, un'approvazione o una decisione manuale.
 author: rachel-profitt
 ms.date: 06/25/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: ad980889247e0239ad743078cb013c1c5839f676
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 110edf4c2733f899368069c7d215ae5b0882f5cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070148"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863225"
 ---
 # <a name="configure-expenditure-reviewers"></a>Configurare i revisori spese
 [!include[banner](../includes/banner.md)]
@@ -75,7 +75,7 @@ Quando viene creato l'ordine di acquisto, il campo **Progetto** deve essere spec
 
 ## <a name="set-up-expenditure-reviewers"></a>Impostazione dei revisori spese
 
-Questo esempio mostra come configurare un revisore spese per la richiesta di acquisto. Per configurare altri tipi di revisori spese, sostituire il percorso di navigazione nel passaggio 1 con il percorso appropriato dalla tabella nella precedente sezione [Tipi di revisori spese](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) in questo argomento.
+Questo esempio mostra come configurare un revisore spese per la richiesta di acquisto. Per configurare altri tipi di revisori spese, sostituisci il percorso di navigazione nel passaggio 1 con il percorso appropriato dalla tabella nella precedente sezione [Tipi di revisori spese](configure-expenditure-reviewers.md#types-of-expenditure-reviewers) in questo articolo.
 
 1. Andare ad **Approvvigionamento \> Imposta \> Criteri \> Revisori spese per la richiesta di acquisto**.
 2. Nella pagina **Revisori spese per la richiesta di acquisto** selezionare **Nuovo**.

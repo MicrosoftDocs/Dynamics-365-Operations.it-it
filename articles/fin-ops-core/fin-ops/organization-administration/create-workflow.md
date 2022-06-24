@@ -1,6 +1,6 @@
 ---
 title: Panoramica della creazione di flussi di lavoro
-description: In questo argomento viene illustrato come creare un flusso di lavoro.
+description: In questo articolo viene illustrato come creare un flusso di lavoro.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: abdb8ce3186806ac1b756c9161d53547dd8ae40b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 1343061ba06d13e68a98b05c013867af0a4d07a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067960"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864488"
 ---
-# <a name="create-workflows-overview"></a>Panoramica di creazione di flussi di lavoro
+# <a name="create-workflows-overview"></a>Panoramica della creazione di flussi di lavoro
 
 [!include [banner](../includes/banner.md)]
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In questo argomento viene illustrato come creare un flusso di lavoro.
+In questo articolo viene illustrato come creare un flusso di lavoro.
 
 ## <a name="open-the-workflow-editor"></a>Aprire l'editor flusso di lavoro
 
@@ -56,7 +56,7 @@ Per configurare le proprietà del flusso di lavoro, eseguire i passaggi indicati
 
 1. Per verificare che non sia selezionato alcun elemento del flusso di lavoro, fare clic sulla canvas.
 2. Fare clic su **Proprietà** per aprire la pagina **Proprietà** per il flusso di lavoro.
-3. Seguire le procedure nell'argomento [Configurare le proprietà del flusso di lavoro](configure-workflow-properties.md).
+3. Segui le procedure nell'articolo [Configurare le proprietà del flusso di lavoro](configure-workflow-properties.md).
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Configurare gli elementi del flusso di lavoro
 

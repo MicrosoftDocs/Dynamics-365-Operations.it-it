@@ -1,6 +1,6 @@
 ---
 title: Comunicazione annuale imposte
-description: Questo argomento fornisce informazioni sul report di comunicazione annuale delle imposte in Italia.
+description: Questo articolo fornisce informazioni sul report di comunicazione annuale delle imposte in Italia.
 author: anasyash
 ms.date: 05/02/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4077e87171f57c1c014c303f106e9cbd4280e9fb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4983f829fb1edfe26b312aadaae2656d80a44cc7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859712"
 ---
 # <a name="yearly-tax-communication"></a>Comunicazione annuale imposte
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione
     |-----------|-----------------------------------------|
     | ID campo                | Immetti il numero di identificazione del campo.   |
     | Descrizione             | Immetti una descrizione del campo. |
-    | Formattazione                  | Seleziona il formato richiesto del campo. Per ulteriori informazioni sui formati disponibili, vedi la sezione [Formati dei campi](#formats) più avanti in questo argomento. |
+    | Formattazione                  | Seleziona il formato richiesto del campo. Per ulteriori informazioni sui formati disponibili, vedi la sezione [Formati dei campi](#formats) più avanti in questo articolo. |
     | Calcolo             | Selezionare un metodo di calcolo:   <br>- **Manuale** - Il valore viene immesso manualmente. <br>- **Transazione fiscale** - Il valore viene raccolto dalle transazioni fiscali. <br>-   **Totale** - Il valore viene calcolato utilizzando una formula composta dai valori di altri campi (solo i campi per i quali il valore del campo **Calcolo** non è selezionato). |
     | Valore                   | Immetti un valore per il campo. Puoi modificare questo valore solo quando il campo **Calcolo** è impostato su **Manuale**.    |
     | Imposta                     | Seleziona uno dei seguenti valori: <br>- **Imponibile** - Il campo deve rappresentare un imponibile.   <br>- **Importo imposta** - Il campo deve rappresentare un importo dell'imposta. <br> È possibile modificare questo valore solo quando il campo **Calcolo** è impostato su **Transazioni fiscali**.  |

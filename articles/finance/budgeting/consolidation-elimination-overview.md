@@ -1,6 +1,6 @@
 ---
 title: Panoramica su eliminazione e consolidamento
-description: Questo argomento fornisce informazioni generali sul processo di consolidamento ed eliminazione. Sono incluse le risposte ad alcune domande frequenti.
+description: Questo articolo fornisce informazioni generali sul processo di consolidamento ed eliminazione. Sono incluse le risposte ad alcune domande frequenti.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 670b238580ecf800686324fe664be747c551090d
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871393"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Panoramica su eliminazione e consolidamento
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni generali sul processo di consolidamento ed eliminazione. Sono incluse le risposte ad alcune domande frequenti.
+Questo articolo fornisce informazioni generali sul processo di consolidamento ed eliminazione. Sono incluse le risposte ad alcune domande frequenti.
 
 Quando si consolidano i dati, i risultati finanziari di più società affiliate vengono combinati in un risultato per un'unica società consolidata. Le affiliate potrebbero utilizzare versioni o sistemi diversi, non essere completamente di proprietà e utilizzare valute diverse. Sono disponibili più opzioni per il consolidamento dei dati:
 

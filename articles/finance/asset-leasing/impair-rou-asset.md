@@ -1,6 +1,6 @@
 ---
 title: Ridurre asset Right of use
-description: Questo argomento descrive la funzionalità che registra una riduzione di valore e regola il piano di ammortamento dei cespiti di un leasing Accounting Standards Codification Topic 842 (ASC 842) operativo.
+description: Questo articolo descrive la funzionalità che registra una riduzione di valore e regola il piano di ammortamento dei cespiti di un leasing Accounting Standards Codification Topic 842 (ASC 842) operativo.
 author: moaamer
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 497739e56c6ce0f4fe0bd4aec889f0782d08fc4a
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f953b3a351859c6becba10a129bbb17b49be6290
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894115"
 ---
 # <a name="impair-right-of-use-assets"></a>Ridurre asset Right of use
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Se il valore contabile di un asset Right of use non è recuperabile, potrebbe essere necessario verificare se i cespite ha subito una riduzione di valore. Se si determina che il cespite ha subito una riduzione di valore, Leasing cespite può registrare la riduzione di valore e rettificare il piano di ammortamento di conseguenza. Questo argomento descrive la funzionalità che registra una riduzione di valore e regola il piano di ammortamento di un leasing Accounting Standards Codification Topic 842 (ASC 842) operativo. Lo stesso metodo si applica anche ai leasing dell'International Financial Reporting Standard 16 (IFRS 16).
+Se il valore contabile di un asset Right of use non è recuperabile, potrebbe essere necessario verificare se i cespite ha subito una riduzione di valore. Se si determina che il cespite ha subito una riduzione di valore, Leasing cespite può registrare la riduzione di valore e rettificare il piano di ammortamento di conseguenza. Questo articolo descrive la funzionalità che registra una riduzione di valore e regola il piano di ammortamento di un leasing Accounting Standards Codification Topic 842 (ASC 842) operativo. Lo stesso metodo si applica anche ai leasing dell'International Financial Reporting Standard 16 (IFRS 16).
 
 Il saldo residuo dell'asset ROU sarà ammortizzato a quote costanti per il numero di periodi rimanenti, indipendentemente dal fatto che il leasing sia stato classificato come leasing finanziario secondo l'IFRS 16 o come leasing operativo secondo ASC 842.
 
@@ -83,7 +83,7 @@ Le tabelle seguenti mostrano i valori impostati nelle schede **Generale** e **Ri
 
 ### <a name="steps"></a>Gradi
 
-1. Dopo aver creato il leasing come descritto in precedenza in questo argomento, vai al libro dei leasing e conferma lo scadenziario dei pagamenti. Quindi registra la scrittura contabile del riconoscimento iniziale. L'asset ROU iniziale e l'obbligazione sul leasing dovrebbero essere pari a $70.235,81. In questo esempio, il leasing è stato classificato come leasing operativo ai sensi di ASC 842.
+1. Dopo aver creato il leasing come descritto in precedenza in questo articolo, vai al libro dei leasing e conferma lo scadenziario dei pagamenti. Quindi registra la scrittura contabile del riconoscimento iniziale. L'asset ROU iniziale e l'obbligazione sul leasing dovrebbero essere pari a $70.235,81. In questo esempio, il leasing è stato classificato come leasing operativo ai sensi di ASC 842.
 2. Esegui il processo di registrazione batch tre volte per simulare il passaggio di tre anni per i canoni di leasing, gli interessi passivi e le spese di ammortamento.
 3. Dopo aver terminato l'esecuzione di tutti e tre i processi batch, torna al libro dei leasing e aprire le tabelle delle transazioni delle passività e dei cespiti per visualizzare il valore contabile corrente dell'asset ROU e dell'obbligazione sul leasing. Dopo tre anni, il valore della passività dovrebbe essere di circa $ -53.893,00 e il valore del cespite dovrebbe essere di circa $53.893,00. 
 

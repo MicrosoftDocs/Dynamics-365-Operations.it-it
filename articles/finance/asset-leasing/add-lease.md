@@ -1,6 +1,6 @@
 ---
 title: Aggiungere o copiare leasing (anteprima)
-description: In questo argomento viene descritto come creare un nuovo leasing inserendo le relative informazioni in Leasing cespite o copiando le informazioni da un leasing esistente.
+description: In questo articolo viene descritto come creare un nuovo leasing inserendo le relative informazioni in Leasing cespite o copiando le informazioni da un leasing esistente.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b09a87c7d4f5ba076647218c3586d17a13e6c558
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 798ab3ece45ee6f21694a364cfb7a4ff14a9c8aa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880934"
 ---
 # <a name="add-or-copy-leases-preview"></a>Aggiungere o copiare leasing (anteprima)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come creare un leasing da zero in Leasing cespite e anche come creare un leasing copiando un leasing esistente. Il processo per creare un leasing da zero prevede l'immissione delle informazioni per il nuovo leasing e quindi la creazione di una pianificazione del leasing. Dopo che è stato configurato almeno un leasing, potrebbe essere più semplice copiare le informazioni da un leasing esistente e quindi modificare tali informazioni come richiesto per creare un nuovo leasing.
+Questo articolo spiega come creare un leasing da zero in Leasing cespite e anche come creare un leasing copiando un leasing esistente. Il processo per creare un leasing da zero prevede l'immissione delle informazioni per il nuovo leasing e quindi la creazione di una pianificazione del leasing. Dopo che è stato configurato almeno un leasing, potrebbe essere più semplice copiare le informazioni da un leasing esistente e quindi modificare tali informazioni come richiesto per creare un nuovo leasing.
 
 ## <a name="create-a-lease"></a>Creare un leasing
 

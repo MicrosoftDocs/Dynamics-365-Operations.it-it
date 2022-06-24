@@ -1,6 +1,6 @@
 ---
 title: Spese varie per chilogrammo in una dichiarazione Intrastat
-description: Questo argomento spiega come attivare, configurare e utilizzare la funzionalità per le spese varie per chilogrammo in una dichiarazione Intrastat.
+description: Questo articolo spiega come attivare, configurare e utilizzare la funzionalità per le spese varie per chilogrammo in una dichiarazione Intrastat.
 author: ilkond
 ms.date: 10/28/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 19e3fb1ecb11c0e5304740f560a9e27e301b1d5d1d22e4a9d9b3cd70cf16960a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6398b80b7ddf3fc04866405dceb642e331d30ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888943"
 ---
 # <a name="miscellaneous-charges-per-kilogram-in-an-intrastat-declaration"></a>Spese varie per chilogrammo in una dichiarazione Intrastat
 

@@ -1,6 +1,6 @@
 ---
 title: Preparare una persona giuridica per il processo di consolidamento
-description: Durante un consolidamento le transazioni di alcuni set di conti di persone giuridiche vengono raccolte in un unico set di conti. In questo argomento viene illustrato come preparare una persona giuridica per un consolidamento.
+description: Durante un consolidamento le transazioni di alcuni set di conti di persone giuridiche vengono raccolte in un unico set di conti. In questo articolo viene illustrato come preparare una persona giuridica per un consolidamento.
 author: jinniew
 ms.date: 10/30/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0ef6736046748b92357c41d27eeedfc88c610d33
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2a3d4645c79ec30df2bbb7a32a82a59fdb7016e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894028"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Preparare una persona giuridica per il processo di consolidamento
 
 [!include [banner](../includes/banner.md)]
 
-Durante un consolidamento le transazioni di alcuni set di conti di persone giuridiche vengono raccolte in un unico set di conti. In questo argomento viene illustrato come preparare una persona giuridica per un consolidamento.
+Durante un consolidamento le transazioni di alcuni set di conti di persone giuridiche vengono raccolte in un unico set di conti. In questo articolo viene illustrato come preparare una persona giuridica per un consolidamento.
 
 > [!NOTE]
 > Ti consigliamo di utilizzare Management Reporter per Microsoft Microsoft Dynamics 365 Finance per combinare i risultati finanziari per più persone giuridiche in un formato consolidato. Management Reporter ti consente di creare report finanziari consolidati tra persone giuridiche, utilizzare Excel per importare dati di consolidamento da altre origini e convertire gli importi in un numero qualsiasi di valute di reporting senza dover eseguire il processo di consolidamento in Dynamics 365 Finance.

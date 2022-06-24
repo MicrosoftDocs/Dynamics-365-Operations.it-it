@@ -1,6 +1,6 @@
 ---
 title: Impostare i gruppi di imposte
-description: Questo argomento spiega come impostare i gruppi di imposte nel servizio Calcolo imposte.
+description: Questo articolo spiega come impostare i gruppi di imposte nel servizio Calcolo imposte.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 50abafb958edfb8476434ff5842cd84cb186962f
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 89c5670ee7e78f2dc51f128c3ae8d284bb6b925b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862901"
 ---
 # <a name="set-up-tax-groups"></a>Impostare i gruppi di imposte
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come impostare i gruppi di imposte nel servizio Calcolo imposte. Spiega inoltre come impostare la matrice della regola di applicabilità del gruppo imposte e configurare le righe nella matrice.
+Questo articolo spiega come impostare i gruppi di imposte nel servizio Calcolo imposte. Spiega inoltre come impostare la matrice della regola di applicabilità del gruppo imposte e configurare le righe nella matrice.
 
 Il concetto di gruppi di imposte nel servizio Calcolo imposte è simile al concetto di fasce IVA in Microsoft Dynamics 365 Finance. Sono gruppi di codici imposte. Il servizio Calcolo imposte utilizza l'intersezione di un gruppo di imposte e un gruppo di imposte articoli per determinare i codici imposta.
 

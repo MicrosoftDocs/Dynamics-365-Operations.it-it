@@ -1,6 +1,6 @@
 ---
 title: Linee guida per la configurazione della doppia scrittura
-description: Questo argomento descrive gli scenari supportati per l'impostazione della doppia scrittura.
+description: Questo articolo descrive gli scenari supportati per l'impostazione della doppia scrittura.
 author: RamaKrishnamoorthy
 ms.date: 10/12/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6de449b14bcdd82336e3e255bf62ad069d3daaf5
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a0d1b4e1f093874a8fd37cf7aadb331cd1e7adc4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873151"
 ---
 # <a name="guidance-for-dual-write-setup"></a>Linee guida per la configurazione della doppia scrittura
 
@@ -26,7 +26,7 @@ ms.locfileid: "8061606"
 
 È possibile impostare una connessione di doppia scrittura tra un ambiente Finanza e operazioni e un ambiente Dataverse.
 
-+ Un **ambiente Finanza e operazioni** fornisce la piattaforma sottostante per le **app per finanza e operazioni** (ad esempio Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources).
++ Un **ambiente Finanza e operazioni** fornisce la piattaforma sottostante per le **app per la finanza e le operazioni** (ad esempio Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources).
 + Un **ambiente Dataverse** fornisce la piattaforma sottostante per le **app di interazione con i clienti** in Dynamics 365 (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365, Dynamics 365 Marketing e Dynamics 365 Project Service Automation).
 
 > [!IMPORTANT]
@@ -78,11 +78,11 @@ Per sincronizzare i dati Dataverse esistenti nell'app per finanza e operazioni, 
 3. [Avviare](bootstrap-company-data.md) i dati Dataverse utilizzando un codice aziendale di tre lettere International Organization for Standardization (ISO).
 4. Eseguire la funzionalità **Sincronizzazione iniziale** per le tabelle per cui si desidera sincronizzare i dati.
 
-Per i collegamenti a un esempio e un approccio alternativo, consultare la sezione [Esempio](#example) più avanti in questo argomento.
+Per i collegamenti a un esempio e un approccio alternativo, consulta la sezione [Esempio](#example) più avanti in questo articolo.
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Una nuova istanza dell'app per finanza e operazioni con dati e una nuova istanza di app Customer Engagement
 
-Per impostare una connessione a doppia scrittura tra una nuova istanza dell'app per finanza e operazioni con dati e una nuova istanza di un'app Customer Engagement, seguire i passaggi nella sezione [Una nuova istanza dell'app per finanza e operazioni e una nuova istanza dell'app Customer Engagement](#new-new) precedente in questo argomento. Al termine della configurazione della connessione, se si desidera sincronizzare i dati con l'app Customer Engagement, attenersi alla seguente procedura.
+Per impostare una connessione a doppia scrittura tra una nuova istanza dell'app per finanza e operazioni con dati e una nuova istanza di un'app Customer Engagement, segui i passaggi nella sezione [Una nuova istanza dell'app per finanza e operazioni e una nuova istanza dell'app Customer Engagement](#new-new) precedente in questo articolo. Al termine della configurazione della connessione, se si desidera sincronizzare i dati con l'app Customer Engagement, attenersi alla seguente procedura.
 
 1. Apri l'app per finanza e operazioni dalla pagina LCS, accedere e passare a **Gestione dati \> Doppia scrittura**.
 2. Eseguire la funzionalità **Sincronizzazione iniziale** per le tabelle per cui si desidera sincronizzare i dati.
@@ -91,7 +91,7 @@ Per i collegamenti a un esempio e un approccio alternativo, consultare la sezion
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Una nuova istanza dell'app per finanza e operazioni con dati e un'istanza esistente di app Customer Engagement
 
-Per impostare una connessione a doppia scrittura tra una nuova istanza dell'app per finanza e operazioni con dati e un'istanza esistente di un'app Customer Engagement, seguire i passaggi nella sezione [Una nuova istanza dell'app per finanza e operazioni e un'istanza esistente dell'app Customer Engagement](#new-existing) precedente in questo argomento. Al termine della configurazione della connessione, se si desidera sincronizzare i dati con l'app Customer Engagement, attenersi alla seguente procedura.
+Per impostare una connessione a doppia scrittura tra una nuova istanza dell'app per finanza e operazioni con dati e un'istanza esistente di un'app Customer Engagement, segui i passaggi nella sezione [Una nuova istanza dell'app per finanza e operazioni e un'istanza esistente dell'app Customer Engagement](#new-existing) precedente in questo articolo. Al termine della configurazione della connessione, se si desidera sincronizzare i dati con l'app Customer Engagement, attenersi alla seguente procedura.
 
 1. Apri l'app per finanza e operazioni dalla pagina LCS, accedere e passare a **Gestione dati \> Doppia scrittura**.
 2. Eseguire la funzionalità **Sincronizzazione iniziale** per le tabelle per cui si desidera sincronizzare i dati.

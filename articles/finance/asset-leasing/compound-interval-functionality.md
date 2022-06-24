@@ -1,6 +1,6 @@
 ---
 title: Funzionalità di intervallo composto
-description: Questo argomento fornisce informazioni che ti aiuteranno a scegliere tra intervalli composti mensili, trimestrali, semestrali e annuali.
+description: Questo articolo fornisce informazioni che ti aiuteranno a scegliere tra intervalli composti mensili, trimestrali, semestrali e annuali.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d1b8af3d5f8f6a6812fe309f57f682d0c5023d00
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 2de5f1e9d52de41388298031a03fbc487a1b1cde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710444"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886420"
 ---
 # <a name="compounding-interval-functionality"></a>Funzionalità di intervallo composto
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento fornisce informazioni che ti aiuteranno a scegliere tra intervalli composti mensili, trimestrali, semestrali e annuali. La funzionalità dell'intervallo composto viene utilizzata per determinare il numero di periodi composti all'anno nello scadenziario di pagamento di un leasing. Ciascuno dei quattro esempi in questo argomento mostra come apparirà lo scadenziario del pagamento di un leasing per un intervallo diverso.
+Questo articolo fornisce informazioni che ti aiuteranno a scegliere tra intervalli composti mensili, trimestrali, semestrali e annuali. La funzionalità dell'intervallo composto viene utilizzata per determinare il numero di periodi composti all'anno nello scadenziario di pagamento di un leasing. Ciascuno dei quattro esempi in questo articolo mostra come apparirà lo scadenziario del pagamento di un leasing per un intervallo diverso.
 
 Non è possibile selezionare un intervallo composto meno frequente della frequenza di pagamento del leasing. Ad esempio, un intervallo composto trimestrale non può essere utilizzato con una frequenza di pagamento mensile e un intervallo di composizione annuale non può essere utilizzato con una frequenza di pagamento semestrale. Se tenti di selezionare un intervallo composto meno frequente della frequenza di pagamento del leasing, ricevi un messaggio di errore.
 
 > [!NOTE]
-> In tutti e quattro gli esempi in questo argomento, l'intervallo composto corrisponde alla frequenza di pagamento.
+> In tutti e quattro gli esempi in questo articolo, l'intervallo composto corrisponde alla frequenza di pagamento.
 
 ## <a name="examples"></a>Esempi
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08ab90d6f53dbb9eabeea3c2cf020792e8957c7b71ed27fc491008fcad114c72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a75b268f2d8341c1a6dd0d3f1bd9dcb31d9084ca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727487"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884143"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Importare le configurazioni per generare documenti che contengono dati dell'applicazione
 
@@ -25,7 +25,7 @@ ms.locfileid: "6727487"
 
 Per completare i passaggi in questa procedura, è necessario prima completare i passaggi della procedura "ER Creare un provider di configurazione e contrassegnarlo come attivo".
 
-I passaggi di questa procedura descrivono come progettare le configurazioni ER per generare un documento elettronico. In questa procedura, le configurazioni ER necessarie create per la società di esempio Litware, Inc. saranno importate e utilizzate per generare documenti elettronici. Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. Tali passaggi possono essere completati mediante il set di dati DEMF. Prima di iniziare, scarichiate e salvare i file elencati nell'argomento della Guida "Generare documenti elettronici e aggiornare i dati dell'applicazione mediante lo strumento di creazione di report elettronici" (generate-electronic-documents-update-application-data/). I file sono Intrastat (model).xml, Intrastat (mapping).xml e Intrastat (format).xml.
+I passaggi di questa procedura descrivono come progettare le configurazioni ER per generare un documento elettronico. In questa procedura, le configurazioni ER necessarie create per la società di esempio Litware, Inc. saranno importate e utilizzate per generare documenti elettronici. Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. Tali passaggi possono essere completati mediante il set di dati DEMF. Prima di iniziare, scarica e salva i file elencati nell'articolo della Guida "Generare documenti elettronici e aggiornare i dati dell'applicazione mediante lo strumento di creazione di report elettronici" (generate-electronic-documents-update-application-data/). I file sono Intrastat (model).xml, Intrastat (mapping).xml e Intrastat (format).xml.
 
 1. Andare ad Amministrazione organizzazione > Aree di lavoro > Creazione di report elettronici.
     * Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come attivo. Se il provider di configurazione non è visualizzato, è necessario innanzitutto completare i passaggi della procedura "Creare un provider di configurazione e contrassegnarlo come attivo".  

@@ -1,6 +1,6 @@
 ---
 title: Iscriversi al servizio di fatturazione elettronica e installarlo
-description: Questo argomento fornisce informazioni su come configurare e installare il servizio Fatturazione elettronica.
+description: Questo articolo fornisce informazioni su come configurare e installare il servizio Fatturazione elettronica.
 author: dkalyuzh
 ms.date: 02/07/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ab16652e4a50dd71a5d0b2b49b4dd79e327f7a8
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 57314058883e60599bc51d91a65b0daeae724bb7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371642"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865528"
 ---
 # <a name="sign-up-for-and-install-the-electronic-invoicing-service"></a>Iscriversi al servizio di fatturazione elettronica e installarlo
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni su come configurare e installare il servizio Fatturazione elettronica. Ci sono quattro passaggi per questo processo. I passaggi da 1 a 3 sono obbligatori e il passaggio 4 è facoltativo.
+Questo articolo fornisce informazioni su come configurare e installare il servizio Fatturazione elettronica. Ci sono quattro passaggi per questo processo. I passaggi da 1 a 3 sono obbligatori e il passaggio 4 è facoltativo.
 
 ### <a name="step-1-sign-up-for-regulatory-configuration-service"></a>Passaggio 1: iscriviti a Regulatory Configuration Service
 

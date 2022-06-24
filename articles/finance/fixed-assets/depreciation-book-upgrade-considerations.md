@@ -1,6 +1,6 @@
 ---
 title: Panoramica dell'aggiornamento dei registri beni ammortizzabili
-description: Questo argomento descrive la funzionalità contabile corrente in Cespiti. Questa funzionalità dei libri si basa sulla funzionalità dei modelli di valore disponibile nelle versioni precedenti, ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili.
+description: Questo articolo descrive la funzionalità contabile corrente in Cespiti. Questa funzionalità dei libri si basa sulla funzionalità dei modelli di valore disponibile nelle versioni precedenti, ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: global
 ms.author: moaamer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b43c499928988e98cae63b85f528b8a71e042cc7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 784ec32ae886ef7ea9342b085f893eeeec761961
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713644"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855493"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>Panoramica dell'aggiornamento dei registri beni ammortizzabili
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la funzionalità contabile corrente in Cespiti. Questa funzionalità dei libri si basa sulla funzionalità dei modelli di valore disponibile nelle versioni precedenti, ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili. Il modello di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro. La funzionalità contabile consente di utilizzare un unico set di pagine, richieste e report per tutti i processi relativi ai cespiti dell'organizzazione. Questo argomento fornisce alcuni elementi da considerare prima di eseguire l'aggiornamento. 
+Questo articolo descrive la funzionalità contabile corrente in Cespiti. Questa funzionalità dei libri si basa sulla funzionalità dei modelli di valore disponibile nelle versioni precedenti, ma include anche tutte le funzionalità prima fornite solo nei registri beni ammortizzabili. Il modello di valore e le funzionalità dei registri beni ammortizzabili sono state unite in un unico concetto noto come libro. La funzionalità contabile consente di utilizzare un unico set di pagine, richieste e report per tutti i processi relativi ai cespiti dell'organizzazione. Questo articolo fornisce alcuni elementi da considerare prima di eseguire l'aggiornamento. 
 
 Il processo di aggiornamento sposterà l'impostazione esistente e tutte le transazioni esistenti nella nuova struttura dei libri. I modelli di valore rimarranno come sono attualmente, come libro che registra nella contabilità generale. I registri beni ammortizzabili verranno spostati in un libro con l'opzione Registra nella contabilità generale impostata su No. I nomi di giornale di registrazione per registri beni ammortizzabili vengono spostati in un nome di giornale di registrazione di contabilità generale con livello di registrazione impostato su Nessuno. Le transazioni del registro beni ammortizzabili verranno spostate nelle transazioni cespiti.
 

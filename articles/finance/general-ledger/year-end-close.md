@@ -1,6 +1,6 @@
 ---
 title: Chiusura di fine anno
-description: In questo argomento viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale.
+description: In questo articolo viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale.
 author: kweekley
 ms.date: 12/06/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 247c3286124da946937c8afd248a275e5a745044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883215"
 ---
 # <a name="year-end-close"></a>Chiusura di fine anno
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale.
+In questo articolo viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale.
 
 Alla fine di un anno fiscale,è necessario eseguire il processo di chiusura di fine anno per trasferire i saldi iniziali al nuovo anno. La maggior parte delle organizzazioni eseguirà il processo di chiusura di fine anno più volte. La prima esecuzione sposta i saldi nel nuovo anno fiscale. Il processo può quindi essere nuovamente eseguito, il numero di volte necessario, per spostare i saldi dalle voci di rettifica nel nuovo anno fiscale.
 

@@ -1,6 +1,6 @@
 ---
 title: Elaborazione fattura
-description: In questo argomento vengono fornite informazioni sull'elaborazione delle fatture per l'Europa orientale.
+description: In questo articolo vengono fornite informazioni sull'elaborazione delle fatture per l'Europa orientale.
 author: EvgenyPopovMBS
 ms.date: 02/02/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: epopov
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9eb4f3ace8c6295e82ba9ab44ef49baa0d10e96b
-ms.sourcegitcommit: 2aca3a95d42403c7f5d80dcd5e3ee958dca5c894
+ms.openlocfilehash: edb50ddebeca18653a318596e9c291a3f3df6d9c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "8087817"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848446"
 ---
 # <a name="invoice-processing"></a>Elaborazione fattura
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive brevemente alcuni scenari specifici del paese, come l'imposta sul valore aggiunto (IVA) intracomunitaria e l'imposta differita. I requisiti legali per alcuni paesi europei influenzano il processo di fatturazione. Questo argomento fornisce anche informazioni su come vengono elaborate le fatture dei clienti e dei fornitori per questi paesi. 
+Questo articolo descrive brevemente alcuni scenari specifici del paese, come l'imposta sul valore aggiunto (IVA) intracomunitaria e l'imposta differita. I requisiti legali per alcuni paesi europei influenzano il processo di fatturazione. Questo articolo fornisce anche informazioni su come vengono elaborate le fatture dei clienti e dei fornitori per questi paesi. 
 <table>
 <thead>
 <tr>

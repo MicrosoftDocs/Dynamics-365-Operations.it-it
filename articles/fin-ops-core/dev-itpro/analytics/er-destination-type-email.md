@@ -1,6 +1,6 @@
 ---
 title: Tipo di destinazione posta elettronica ER
-description: Questo argomento spiega come configurare una destinazione e-mail per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
+description: Questo articolo spiega come configurare una destinazione e-mail per ogni componente FOLDER o FILE di un formato di creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 08/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2248b8a35b076eb778a50bbbc67d083380ceee62
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 08d64b0f21e4957727de1e8f5f13f9067c0fbc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845659"
 ---
 # <a name="email-er-destination-type"></a>Tipo di destinazione posta elettronica ER
 
@@ -120,7 +120,7 @@ Nella pagina **Designer formula**, nel campo **Formula** immettere un riferiment
 
 ![Configurazione di un account di origine di posta elettronica.](./media/er_destinations-emaildefineaddresssource.gif)
 
-Se i numeri conto del ruolo configurato sono univoci per l'intera istanza di Microsoft Dynamics 365 Finance, il campo **Società dell'origine posta elettronica** nella finestra di dialogo **Destinatario messaggio di posta elettronica** può rimanere vuota.
+Se i numeri conto del ruolo configurato sono univoci per l'intera istanza di Microsoft Dynamics 365 Finance, il campo **Società dell'origine posta elettronica** nella finestra di dialogo **Destinatario messaggio di posta elettronica** può rimanere vuoto.
 
 In alternativa, potrebbe verificarsi una situazione in cui diverse parti nella [Rubrica globale](../../fin-ops/organization-administration/overview-global-address-book.md) sono state registrate in diverse società ([persone giuridiche](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)) in modo che utilizzino tutti lo stesso numero di conto per ricoprire il ruolo configurato. In questo caso, i numeri di conto per il ruolo configurato non sono univoci per l'intera istanza di Finance. Pertanto, per selezionare esplicitamente una parte, non è possibile specificare solo un numero di conto. È inoltre necessario specificare l'azienda per la quale la parte è stata registrata nell'ambito di per ricoprire il ruolo configurato. Selezionare il pulsante **Associa** (simbolo della catena) accanto al campo **Conto di origine posta elettronica** nella finestra di dialogo **Destinatario messaggio di posta elettronica** per aprire la pagina [Designer formula](general-electronic-reporting-formula-designer.md). È quindi possibile utilizzare questa pagina per configurare una formula che restituisca, in fase di esecuzione, il codice dell'azienda di cui deve essere trovata la fonte desiderata nell'ambito di applicazione.
 
@@ -162,7 +162,7 @@ La seguente illustrazione mostra la struttura di un formato ER configurato per p
 
 [![Struttura di un formto ER che genera documenti in uscita.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
-La seguente illustrazione mostra il processo, come descritto in questo argomento, di raggruppamento di singoli componenti e abilitazione di **Destinazione posta elettronica** per il nuovo gruppo, in modo che una nota di lettera di sollecito venga inviata insieme alle fatture del cliente appropriate come allegati di posta elettronica.
+La seguente illustrazione mostra il processo, come descritto in questo articolo, di raggruppamento di singoli componenti e abilitazione di **Destinazione posta elettronica** per il nuovo gruppo, in modo che una nota di lettera di sollecito venga inviata insieme alle fatture del cliente appropriate come allegati di posta elettronica.
 
 [![Raggruppamento di singoli componenti e attivazione della destinazione posta elettronica.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 

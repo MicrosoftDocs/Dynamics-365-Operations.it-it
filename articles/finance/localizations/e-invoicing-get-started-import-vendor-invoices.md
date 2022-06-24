@@ -1,6 +1,6 @@
 ---
-title: Utilizzare il servizio Fatturazione elettronica per importare fatture fornitore
-description: Questo argomento fornisce informazioni su come importare fatture fornitore utilizzando il servizio Fatturazione elettronica.
+title: Usare il servizio di fatturazione elettronica per importare le fatture fornitore
+description: Questo articolo fornisce informazioni su come importare fatture fornitore utilizzando il servizio Fatturazione elettronica.
 author: gionoder
 ms.date: 09/03/2021
 ms.topic: article
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c28adbfe532e77a52cab7625b9539d1e8e528bea
-ms.sourcegitcommit: 19f0e69a131e9e4ff680eac13efa51b04ad55a38
+ms.openlocfilehash: 2d239bbafad9292ba6cef5534e778a2824a9cc5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "7983825"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865586"
 ---
-# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Utilizzare il servizio Fatturazione elettronica per importare fatture fornitore
+# <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Usare il servizio di fatturazione elettronica per importare le fatture fornitore
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-Questo argomento fornisce informazioni introduttive sull'importazione di fatture fornitore mediante il servizio Fatturazione elettronica. L'argomento descrive i passaggi di configurazione in Regulatory Configuration Services (RCS), Dynamics 365 Finance e Dynamics 365 Supply Chain Management che devi seguire per ricevere fatture fornitore elettroniche dai fornitori.
+Questo articolo fornisce informazioni introduttive sull'importazione di fatture fornitore mediante il servizio Fatturazione elettronica. L'argomento descrive i passaggi di configurazione in Regulatory Configuration Services (RCS), Dynamics 365 Finance, e Dynamics 365 Supply Chain Management che devi seguire per ricevere fatture fornitore elettroniche dai fornitori.
 
 ## <a name="set-up-vendor-invoice-import-in-rcs"></a>Configurare l'importazione di fatture fornitore in RCS
 Per configurare l'importazione di fatture fornitore in RCS, procedi come segue:

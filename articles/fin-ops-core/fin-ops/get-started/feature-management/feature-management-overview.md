@@ -1,6 +1,6 @@
 ---
 title: Panoramica della gestione funzionalità
-description: In questo argomento viene descritta la caratteristica Gestione funzionalità e come è possibile utilizzarla.
+description: In questo articolo viene descritta la caratteristica Gestione funzionalità e come è possibile utilizzarla.
 author: Peakerbl
 ms.date: 01/10/2022
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: c98bdbd64ee5488da20de3f5b23ae18ebce8c23f
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 0691bc34ac8b57d20cfbeb58b6a2e2a03a57d067
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8068011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850062"
 ---
 # <a name="feature-management-overview"></a>Panoramica della gestione funzionalità
 
@@ -41,7 +41,7 @@ L'elenco delle funzionalità include le seguenti informazioni:
 - **Stato** - Un simbolo indica se una funzionalità è abilitata (segno di spunta), disabilitata (vuoto), programmata per essere abilitata (orologio), obbligatoria (lucchetto), richiede attenzione prima di essere abilitata (simbolo di avviso) o non può essere abilitata (X). L'impostazione mostrata viene utilizzata per tutte le persone giuridiche. Tenere presente che anche quando una funzione è stata abilitata, è comunque controllata dalla sicurezza. Di conseguenza, la funzionalità sarà disponibile solo per gli utenti che vi hanno accesso, in base al ruolo di sicurezza. Inoltre è disponibile solo nelle persone giuridiche a cui l'utente può accedere.
 - **Data abilitazione** - La data in cui la funzionalità è stata o verrà abilitata.
 - **Funzionalità aggiunta** - La data in cui la funzionalità è stata aggiunta all'ambiente. Questa data viene immessa automaticamente quando si aggiorna l'ambiente durante i cicli mensili di rilascio.
-- **Stato funzionalità** – Lo stato del ciclo di vita corrente della funzionalità: **Anteprima**, **Rilasciata** (mostrata come vuota), **Abilitata per impostazione predefinita** e **Obbligatoria**. Gli stati sono descritti più avanti in questo argomento. 
+- **Stato funzionalità** – Lo stato del ciclo di vita corrente della funzionalità: **Anteprima**, **Rilasciata** (mostrata come vuota), **Abilitata per impostazione predefinita** e **Obbligatoria**. Gli stati sono descritti più avanti in questo articolo. 
 - **Modulo** - Il modulo interessato dalla nuova funzionalità.
 
 > [!NOTE]
@@ -72,7 +72,7 @@ La colonna **Stato funzionalità** di queste funzionalità è vuota. Le funziona
 
 ### <a name="on-by-default-features-optional"></a>Funzionalità abilitate per impostazione predefinita (opzionale)
 
-Le funzionalità aggiornate allo stato **Abilitata per impostazione predefinita** sono abilitate per impostazione predefinita, ma possono essere disabilitate. Dopo essere rimaste almeno sei mesi nello stato **Rilasciata**, le funzionalità che possono essere disabilitate dovrebbero passare a questo stato nella versione principale successiva. Le funzionalità che passano allo stato **Abilitata per impostazione predefinita** dovrebbero essere indicate nell'argomento [Novità](../whats-new-changed.md) per il rilascio. L'aggiornamento viene avviato dal team prodotto proprietario.
+Le funzionalità aggiornate allo stato **Abilitata per impostazione predefinita** sono abilitate per impostazione predefinita, ma possono essere disabilitate. Dopo essere rimaste almeno sei mesi nello stato **Rilasciata**, le funzionalità che possono essere disabilitate dovrebbero passare a questo stato nella versione principale successiva. Le funzionalità che passano allo stato **Abilitata per impostazione predefinita** dovrebbero essere indicate nell'articolo [Novità](../whats-new-changed.md) per il rilascio. L'aggiornamento viene avviato dal team prodotto proprietario.
 
 > [!NOTE]
 > Poiché queste funzionalità verranno abilitate automaticamente, è importante determinare se l'organizzazione è pronta a utilizzarle o se è necessario più tempo. Se è necessario più tempo, potrebbe essere necessario disabilitare temporaneamente queste funzionalità. Nota che la transizione di una funzionalità allo stato **Abilitata per impostazione predefinita** viene in genere eseguita nella versione principale prima che la funzionalità diventi **Obbligatoria**. A quel punto, non avrai la possibilità di disabilitare la funzionalità. 

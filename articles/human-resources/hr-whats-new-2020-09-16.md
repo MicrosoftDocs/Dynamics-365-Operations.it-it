@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (16 settembre 2020)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 16 settembre 2020.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 16 settembre 2020.
 author: jcart1106
 ms.date: 09/16/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-09-16
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 591a6f3f4aabdb164e4fde5e80259fb6872167d9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca98f4b3a1e702ed5f02bc6e09675a5861ec902a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694454"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862832"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-16-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (16 settembre 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8694454"
 
 
 
-Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Human Resources. Le modifiche si applicano alla build 8.1.3557. I numeri tra parentesi accanto ad alcune funzionalità si riferiscono ai numeri del supporto in Lifecycle Services (LCS) per riferimento.
+Questo articolo descrive le funzionalità nuove o modificate in Dynamics 365 Human Resources. Le modifiche si applicano alla build 8.1.3557. I numeri tra parentesi accanto ad alcune funzionalità si riferiscono ai numeri del supporto in Lifecycle Services (LCS) per riferimento.
 
 ## <a name="included-in-this-release"></a>Incluse in questa versione
 

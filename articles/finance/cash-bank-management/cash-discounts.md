@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37698133a959792338abcc2abd75b6fa654177f6
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: b684cf16b172432fc3bdb485be98a5c3476c8ed0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710672"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846957"
 ---
 # <a name="cash-discounts"></a>Sconti di cassa
 
@@ -30,7 +30,7 @@ Gli sconti di cassa vengono impostati e condivisi per la contabilità fornitori 
 
 ## <a name="cash-discounts"></a>Sconti di cassa
 
-Gli sconti di cassa per entrambi i clienti o fornitori possono essere creati nella pagina di sconti di cassa. Utilizzando il campo Codice sconto successivo è inoltre possibile definire una serie di sconti di cassa che si succedono via via che gli sconti di cassa precedenti scadono. Per ulteriori informazioni, vedere "Esempio: Serie di sconti di cassa" più avanti in questo argomento. Se la fattura, la transazione in Avere (un pagamento oppure una nota di accredito) o entrambe sono immesse una valuta diversa da quella di contabilizzazione della persona giuridica, lo sconto di cassa è calcolato usando il tasso di cambio alla data del pagamento o della nota di accredito. Se la fattura e il documento di credito vengono inseriti in persone giuridiche diverse, e se le valute di contabilizzazione per le persone giuridiche differiscono, il tasso di cambio viene preso dalla persona giuridica della fattura, alla data del documento di credito. Per ulteriori informazioni, vedere "Esempio: Tassi di cambio per sconti di cassa" più avanti in questo argomento.
+Gli sconti di cassa per entrambi i clienti o fornitori possono essere creati nella pagina di sconti di cassa. Utilizzando il campo Codice sconto successivo è inoltre possibile definire una serie di sconti di cassa che si succedono via via che gli sconti di cassa precedenti scadono. Per ulteriori informazioni, vedi "Esempio: Serie di sconti di cassa" più avanti in questo articolo. Se la fattura, la transazione in Avere (un pagamento oppure una nota di accredito) o entrambe sono immesse una valuta diversa da quella di contabilizzazione della persona giuridica, lo sconto di cassa è calcolato usando il tasso di cambio alla data del pagamento o della nota di accredito. Se la fattura e il documento di credito vengono inseriti in persone giuridiche diverse, e se le valute di contabilizzazione per le persone giuridiche differiscono, il tasso di cambio viene preso dalla persona giuridica della fattura, alla data del documento di credito. Per ulteriori informazioni, vedi "Esempio: Tassi di cambio per sconti di cassa" più avanti in questo articolo.
 
 ## <a name="defaulting-order-of-cash-discount-main-account"></a>Ordine predefinito del conto principale dello sconto di cassa
 

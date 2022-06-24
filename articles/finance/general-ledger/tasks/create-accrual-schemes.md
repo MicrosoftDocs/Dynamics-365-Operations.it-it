@@ -1,6 +1,6 @@
 ---
-title: Creare schemi di attribuzione per competenza
-description: In questo argomento viene descritto come creare uno schema di attribuzione per competenza.
+title: Creare schemi di attribuzione
+description: In questo articolo viene descritto come creare uno schema di attribuzione per competenza.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 495c72a6ae19faac0cf2dff155c2073852cb1cbd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 8974eed40a60aeee5a32932ac070a870289ec20a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722182"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858427"
 ---
-# <a name="create-accrual-schemes"></a>Creare schemi di attribuzione per competenza
+# <a name="create-accrual-schemes"></a>Creare schemi di attribuzione
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come creare uno schema di attribuzione per competenza. In questa attività viene utilizzata la società dimostrativa USMF.
+In questo articolo viene descritto come creare uno schema di attribuzione per competenza. In questa attività viene utilizzata la società dimostrativa USMF.
 
 1. Andare a **Pannello di navigazione > Moduli > Contabilità generale > Impostazione giornale di registrazione > Schemi di attribuzione per competenza**.
 2. Selezionare **Nuovo**.

@@ -1,6 +1,6 @@
 ---
 title: Dichiarazione IVA per l'Egitto
-description: In questo argomento viene descritto come configurare e generare il modulo di dichiarazione IVA per l'Egitto.
+description: In questo articolo viene descritto come configurare e generare il modulo di dichiarazione IVA per l'Egitto.
 author: sndray
 ms.date: 06/03/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a67c6e00b94d49b3eb279416407f603923e53b2e
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 1d5788b2328a49f4725a6c689e29a7e784032fae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870037"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Dichiarazione IVA per l'Egitto (EG-00002)
 
@@ -26,7 +26,7 @@ ms.locfileid: "7403950"
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene descritto come configurare e generare il modulo di dichiarazione IVA e i libri vendite e acquisti per persone giuridiche in Egitto.
+In questo articolo viene descritto come configurare e generare il modulo di dichiarazione IVA e i libri vendite e acquisti per persone giuridiche in Egitto.
 
 Il modulo di dichiarazione IVA per l'Egitto è il documento ufficiale che riepiloga l'importo totale dell'IVA a debito dovuto, l'importo totale dell'IVA a credito recuperabile e la relativa passività dell'importo IVA. Il modulo viene utilizzato per tutti i tipi di contribuenti e deve essere compilato manualmente nel portale dell'ufficio tributario. Il modulo di dichiarazione IVA è comunemente noto come presentazione della dichiarazione IVA.
 

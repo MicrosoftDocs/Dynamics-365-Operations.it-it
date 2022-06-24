@@ -1,8 +1,8 @@
 ---
 title: Personalizzare l'esperienza utente
-description: In questo argomento viene illustrato come personalizzare l'app.
+description: In questo articolo viene illustrato come personalizzare l'app.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 06/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b922d68fcf3e83be57140cf8c54c4bacd2b75f56
-ms.sourcegitcommit: edc887e0526c415466e9691e642028ecd97cdbe7
+ms.openlocfilehash: c326e51dc127d8b82ccef28146ec223ca5169c5e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8602992"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845444"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizzare l'esperienza utente
 
@@ -28,7 +28,7 @@ ms.locfileid: "8602992"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Questo argomento spiega come personalizzare l'app e tratta i seguenti argomenti: 
+Questo articolo spiega come personalizzare l'app e tratta i seguenti argomenti: 
 
 - **Opzioni a livello di sistema:** queste opzioni di personalizzazione sono realizzate in una pagina di configurazione e sono disponibili per tutti gli utenti. Alcuni esempi sono rappresentati dal tema del colore e dal fuso orario. 
 - **Accesso alla personalizzazione limitato**: a questo livello di accesso, le azioni dell'utente associate all'utilizzo tipico della pagina vengono automaticamente salvate dall'app e ripristinate alla successiva visita della pagina. Ad esempio, l'app memorizza la larghezza delle colonne della griglia se le si regola e dello stato espanso o compresso delle Schede dettaglio. 
@@ -58,7 +58,7 @@ Ecco un elenco delle azioni che rientrano nel normale utilizzo della pagina e so
 
 - **Larghezza colonne griglia** - È possibile regolare la larghezza di una colonna in una griglia selezionando la barra di ridimensionamento a sinistra o a destra dell'intestazione di colonna e facendola scorrere verso sinistra o verso destra fino a raggiungere la larghezza desiderata. L'app memorizza la larghezza che si imposta per una colonna. Quindi, alla successiva apertura della pagina, la colonna verrà ridimensionata a quella larghezza.
 - **Totali colonne e piè di pagina griglia**: *(disponibile solo con il nuovo controllo griglia attivato)* È possibile decidere se visualizzare o meno un totale nella parte inferiore di qualsiasi colonna numerica in una griglia e se il piè di pagina della griglia dovrebbe essere visibile. L'app memorizza queste preferenze e le applica alla successiva apertura della pagina. Per ulteriori informazioni, vedere [Funzionalità di griglia](grid-capabilities.md). 
-- **Schede dettaglio** - Alcune pagine hanno sezioni espandibili denominate *Schede dettaglio*. L'app memorizza le informazioni sulle Schede dettaglio che sono state espanse o compresse. La volta successiva che si apre la pagina, le stesse Schede dettaglio saranno compresse o espanse, a seconda dell'ultima interazione con la pagina. In alcuni casi, comprimere una scheda dettaglio può migliorare le prestazioni del sistema poiché l'app non dovrà recuperare le informazioni relative alle Schede dettaglio finché non vengono espanse. Come descritto più avanti in questo argomento, è possibile modificare anche l'ordine delle Schede dettaglio in una pagina.
+- **Schede dettaglio** - Alcune pagine hanno sezioni espandibili denominate *Schede dettaglio*. L'app memorizza le informazioni sulle Schede dettaglio che sono state espanse o compresse. La volta successiva che si apre la pagina, le stesse Schede dettaglio saranno compresse o espanse, a seconda dell'ultima interazione con la pagina. In alcuni casi, comprimere una scheda dettaglio può migliorare le prestazioni del sistema poiché l'app non dovrà recuperare le informazioni relative alle Schede dettaglio finché non vengono espanse. Come descritto più avanti in questo articolo, è possibile modificare anche l'ordine delle Schede dettaglio in una pagina.
 - **Riquadri dettagli** – Alcune pagine includono un riquadro **Informazioni correlate** che mostra informazioni di sola lettura correlate all'argomento corrente della pagina. Ciascuna sezione del riquadro **Informazioni correlate** è chiamata *Riquadro dettagli*. È possibile espandere o comprimere il riquadro **Informazioni correlate** ed è possibile espandere o comprimere i singoli riquadri dettagli. L'app memorizza queste preferenze. La volta successiva che si apre la pagina, il riquadro **Informazioni correlate** e i singoli riquadri dettagli saranno espansi o compressi, in base all'ultima interazione con la pagina. In alcuni casi, comprimere un riquadro dettaglio o il riquadro **Informazioni correlate** può migliorare le prestazioni del sistema poiché l'app non dovrà recuperare le informazioni relative ai riquadri dettaglio finché non vengono espansi.
 - **Riquadri azioni** - Un *riquadro azioni* appare accanto alla parte superiore della maggior parte delle pagine. Il riquadro azioni contiene pulsanti per molte delle azioni che è possibile eseguire nella pagina corrente. Questi pulsanti sono spesso organizzati in schede. È possibile *aggiungere* l'intero riquadro azioni aperto oppure fare in modo che venga compresso per impostazione predefinita. La volta successiva che si apre la pagina, il riquadro azioni saranno aperto o compresso, a seconda dell'ultima interazione con la pagina. Se è stato aggiunto il riquadro azioni aperto, verrà visualizzata l'ultima scheda utilizzata.
 - **QuickFilter** - Un *QuickFilter* viene visualizzato sopra molte griglie. Il QuickFilter consente di filtrare la griglia, in base alla singola colonna che si seleziona. L'app memorizza la colonna su cui è stato basato il filtro. Quindi, la volta successiva che si apre la pagina la griglia utilizzerà la stessa colonna per filtrare. Tuttavia, è possibile comunque filtrare la griglia selezionando una colonna diversa.
@@ -173,14 +173,14 @@ A partire dalla versione 10.0.26, la funzionalità **Consenti agli utenti di sel
 
 ### <a name="personalizing-your-dashboard"></a>Personalizzazione del dashboard
 
-Il dashboard è spesso la prima pagina che si visualizza quando si apre l'app. Può essere personalizzato come qualsiasi altra pagina del sistema, utilizzando gli stessi meccanismi descritti in precedenza in questo argomento. 
+Il dashboard è spesso la prima pagina che si visualizza quando si apre l'app. Può essere personalizzato come qualsiasi altra pagina del sistema, utilizzando gli stessi meccanismi descritti in precedenza in questo articolo. 
 
 > [!WARNING]
 > Attualmente, quando nascondi il contenuto nella dashboard, è importante scegliere come target direttamente un riquadro, non lo spazio circostante. Se si nasconde il gruppo attorno a un riquadro, potrebbero verificarsi risultati imprevisti se vengono aggiunti più riquadri in un secondo momento o se il sistema passa a un'altra lingua.
 
 Una funzionalità di personalizzazione unica disponibile nella dashboard è la possibilità di aggiungere riquadri. 
 
-- Se la funzionalità **App a tutta pagina** è disattivata, aggiungi un nuovo riquadro facendo clic con il pulsante destro del mouse su un elemento nella dashboard e selezionando **Aggiungi un'area di lavoro**. Il nuovo riquadro dell'area di lavoro viene creato nella parte inferiore del dashboard. È possibile rinominare questo nuovo riquadro dell'area di lavoro come si preferisce. È inoltre possibile aggiungere elenchi, riquadri e collegamenti nell'area di lavoro come descritto nella sezione [Aggiunta di riquadri, elenchi e collegamenti a un'area di lavoro](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) di questo argomento.
+- Se la funzionalità **App a tutta pagina** è disattivata, aggiungi un nuovo riquadro facendo clic con il pulsante destro del mouse su un elemento nella dashboard e selezionando **Aggiungi un'area di lavoro**. Il nuovo riquadro dell'area di lavoro viene creato nella parte inferiore del dashboard. È possibile rinominare questo nuovo riquadro dell'area di lavoro come si preferisce. È inoltre possibile aggiungere elenchi, riquadri e collegamenti nell'area di lavoro come descritto nella sezione [Aggiunta di riquadri, elenchi e collegamenti a un'area di lavoro](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) di questo articolo.
 - Se la funzionalità **App a tutta pagina** è attivata, aggiungi un nuovo riquadro facendo clic con il pulsante destro del mouse su un elemento nella dashboard e selezionando **Aggiungi un'app**. Nella finestra di dialogo, selezionare se si desidera aggiungere un riquadro per una nuova area di lavoro o un riquadro con contenuto da Power Apps o un sito Web. Quindi seguire i passaggi per configurare l'opzione selezionata. Un nuovo riquadro viene creato nella parte inferiore del dashboard. Per ulteriori informazioni su come aggiungere, modificare, eliminare e condividere queste applicazioni incorporate, vedi [Incorporare le applicazioni canvas da Power Apps](embed-power-apps.md) e [Incorporare le applicazioni di terze parti](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Condividere le personalizzazioni
@@ -236,7 +236,7 @@ Un altro modo per condividere le personalizzazioni è tramite esportazione e imp
 
 #### <a name="export"></a>Esporta
 
-In generale, puoi esportare una delle tue visualizzazioni o personalizzazioni aprendo la pagina appropriata, aprendo la barra degli strumenti **Personalizzazione**, quindi selezionando **Esporta**. Per ulteriori informazioni sulla barra degli strumenti, vedere la sezione [Barra degli strumenti di personalizzazione](#personalization-toolbar) precedente in questo argomento. In alternativa, se le [visualizzazioni salvate](saved-views.md) sono abilitate, puoi andare a **Impostazioni \> Opzioni utente \> Personalizzazione** per visualizzare un elenco di tutte le tue personalizzazioni nel sistema. Da lì è possibile selezionare le visualizzazioni o le personalizzazioni da esportare, quindi selezionare **Esporta**.
+In generale, puoi esportare una delle tue visualizzazioni o personalizzazioni aprendo la pagina appropriata, aprendo la barra degli strumenti **Personalizzazione**, quindi selezionando **Esporta**. Per ulteriori informazioni sulla barra degli strumenti, vedere la sezione [Barra degli strumenti di personalizzazione](#personalization-toolbar) precedente in questo articolo. In alternativa, se le [visualizzazioni salvate](saved-views.md) sono abilitate, puoi andare a **Impostazioni \> Opzioni utente \> Personalizzazione** per visualizzare un elenco di tutte le tue personalizzazioni nel sistema. Da lì è possibile selezionare le visualizzazioni o le personalizzazioni da esportare, quindi selezionare **Esporta**.
 
 Inoltre, gli amministratori possono esportare le personalizzazioni di altri utenti seguendo questi passaggi.
 
@@ -277,7 +277,7 @@ Se le visualizzazioni salvate non sono abilitate, segui questi passaggi.
 
 La pagina **Personalizzazione** è l'hub centrale per la gestione delle personalizzazioni a livello organizzativo. Il contenuto e le funzionalità in questa pagina dipendono dall'abilitazione o meno della funzionalità **Visualizzazioni salvate**.
 
-Per i clienti che hanno attivato la funzionalità **Visualizzazioni salvate** vedere la sezione "Gestione delle visualizzazioni a livello globale" nell'argomento [Visualizzazioni salvate](saved-views.md).
+Per i clienti che hanno attivato la funzionalità **Visualizzazioni salvate** vedere la sezione "Gestione delle visualizzazioni a livello globale" nell'articolo [Visualizzazioni salvate](saved-views.md).
 
 Per i clienti che non hanno ancora attivato la funzionalità [Visualizzazioni salvate](saved-views.md), questa pagina include quattro schede:
 
@@ -285,6 +285,9 @@ Per i clienti che non hanno ancora attivato la funzionalità [Visualizzazioni sa
 - **Cancella** - È possibile cancellare tutte le personalizzazioni di una pagina o un'area di lavoro per uno o più utenti. Selezionare prima di tutto una pagina o un'area di lavoro per vedere l'elenco degli utenti che l'hanno personalizzata. Selezionare quindi gli utenti per i quali occorre cancellare le personalizzazioni della pagina o dell'area di lavoro e selezionare **Cancella**. Tutte le personalizzazione che gli utenti selezionati hanno applicato alla pagina o all'area di lavoro selezionata vengono cancellate. Non è possibile annullare questa azione. Se tuttavia una personalizzazione della pagina o dell'area di lavoro viene salvata, tale personalizzazione può essere reimportata.
 - **Utenti** - Selezionare un utente per visualizzare l'elenco delle pagine che l'utente ha personalizzato. È quindi possibile attivare o disattivare la capacità dell'utente selezionato di utilizzare la personalizzazione di pagine specifiche o dell'intero sistema. È inoltre possibile importare, esportare o cancellare una personalizzazione per l'utente. Inoltre, è possibile reimpostare i callout delle funzionalità per l'utente. In questo caso, se l'utente ha precedentemente ignorato una finestra popup che introduce nuove funzionalità, questa viene di nuovo visualizzata la volta successiva che l'utente rileva tali funzionalità.
 - **Sistema** - È possibile disattivare temporaneamente la personalizzazione per tutti gli utenti nel sistema. In questo caso, tutte le personalizzazione vengono eliminate per tutti gli utenti e tutte le pagine vengono reimpostate allo stato predefinito. Se si attivano nuovamente le personalizzazioni in un secondo momento, queste vengono applicate nuovamente. È inoltre possibile eliminare in modo permanente tutte le personalizzazioni per tutti gli utenti nel sistema. Le personalizzazioni che sono state eliminate non possono essere recuperate. Pertanto, prima di eseguire questa attività, assicurarsi di esportare tutte le personalizzazioni che si desidera importare successivamente.
+
+### <a name="service-updates-and-personalization"></a>Aggiornamenti e personalizzazione del servizio
+Non è necessario cancellare o reimpostare i dati di personalizzazione quando si passa a una nuova versione del prodotto. I dati delle personalizzazioni e delle viste salvate continueranno a funzionare negli aggiornamenti. Le eccezioni includono le modifiche al modulo che invalidano una personalizzazione (come un controllo rimosso) o le modifiche alla query di base del modulo che modifica la sua struttura secondaria dell'origine dati in modo da non corrispondere più alla struttura secondaria dell'origine dati associata alla query di visualizzazione.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalizzazione delle dimensioni inventariali
 

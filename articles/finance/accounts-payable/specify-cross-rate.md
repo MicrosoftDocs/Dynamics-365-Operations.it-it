@@ -1,6 +1,6 @@
 ---
 title: Specificare il tasso di cambio incrociato
-description: Questo argomento include informazioni sui tassi di cambio incrociato in Microsoft Dynamics 365 Finance.
+description: Questo articolo include informazioni sui tassi di cambio incrociato in Microsoft Dynamics 365 Finance.
 author: abruer
 ms.date: 05/16/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1db707cf6aed7c9def76ebbbdef7032b8776b6
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: efb01948af2bcba9ca740e8bd0e12584cf021fce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889963"
 ---
 # <a name="specify-the-cross-rate"></a>Specificare il tasso di cambio incrociato
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato lo scopo di un tasso di cambio incrociato e come specificare il tasso di cambio incrociato quando viene liquidato un pagamento con una fattura. Utilizzare un tasso di cambio incrociato quando sono applicabili i criteri seguenti: 
+In questo articolo viene illustrato lo scopo di un tasso di cambio incrociato e come specificare il tasso di cambio incrociato quando viene liquidato un pagamento con una fattura. Utilizzare un tasso di cambio incrociato quando sono applicabili i criteri seguenti: 
 -   Si liquida un pagamento con una fattura. 
 -   La riga di pagamento e la riga fattura utilizzano valute diverse. 
 -   Nessuna valuta è quella di contabilizzazione. 
