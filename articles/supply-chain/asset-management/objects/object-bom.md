@@ -1,6 +1,6 @@
 ---
 title: DBA cespiti
-description: In questo argomento vengono descritte le distinte base (DBA) dei cespiti in Gestione cespiti
+description: In questo articolo vengono descritte le distinte base (DBA) dei cespiti in Gestione cespiti
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0430891607ac4558c91b86318aee318d0076007daf59a32eda65cb411d274b3a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882781"
 ---
 # <a name="asset-boms"></a>DBA cespiti
 
@@ -28,7 +28,7 @@ ms.locfileid: "6751987"
 
  
 
-In questo argomento vengono descritte le distinte base (DBA) dei cespiti in Gestione cespiti La **DBA cespiti** mostra un elenco di tutti gli articoli (pezzi di ricambio e altri articoli) utilizzati in un cespite durante la sua intera vita. Quando si crea un nuovo cespite, è necessario valutare la possibilità di configurare una DBA per il cespite come parte della procedura di impostazione. In questo modo, è possibile tenere traccia dello storico degli articoli per il cespite dalla data di creazione.
+In questo articolo vengono descritte le distinte base (DBA) dei cespiti in Gestione cespiti La **DBA cespiti** mostra un elenco di tutti gli articoli (pezzi di ricambio e altri articoli) utilizzati in un cespite durante la sua intera vita. Quando si crea un nuovo cespite, è necessario valutare la possibilità di configurare una DBA per il cespite come parte della procedura di impostazione. In questo modo, è possibile tenere traccia dello storico degli articoli per il cespite dalla data di creazione.
 
 Dopo aver completato un processo di manutenzione e aver registrato il consumo di articoli in un ordine di lavoro, è possibile tenere traccia del consumo di pezzi di ricambio e altri articoli utilizzati nel cespite. Questa funzionalità consente di gestire un record di consumo articoli completo per tutti i cespiti. Ad esempio, è possibile utilizzare il record per monitorare se un pezzo di ricambio specifico viene sostituito spesso, o per tenere traccia dei pezzi di ricambio o altri articoli attualmente utilizzati in un cespite.
 

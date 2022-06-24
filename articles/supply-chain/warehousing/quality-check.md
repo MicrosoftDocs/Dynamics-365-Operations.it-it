@@ -1,6 +1,6 @@
 ---
 title: Controllo qualità
-description: In questo argomento vengono fornite informazioni sulla funzionalità di controllo di qualità. Questa funzionalità consente ai magazzinieri di effettuare rapidi controlli a campione sulla qualità mentre ricevono articoli nell'area della banchina di entrata.
+description: In questo articolo vengono fornite informazioni sulla funzionalità di controllo di qualità. Questa funzionalità consente ai magazzinieri di effettuare rapidi controlli a campione sulla qualità mentre ricevono articoli nell'area della banchina di entrata.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: c5a4b380529ca8cb9c3474b363c7f9ba4220ff2b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: ceb01205edc269690fda306bc90f465dbccc563b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855059"
 ---
 # <a name="quality-check"></a>Controllo qualità
 
@@ -41,11 +41,11 @@ Questo processo può anche essere configurato in modo tale che tutte le targhe a
 
 ## <a name="turn-the-quality-check-feature-on-or-off"></a>Attivare o disattivare la funzionalità Controllo qualità
 
-Per utilizzare le funzionalità descritte in questo argomento, è necessario attivare la funzionalità *Controllo qualità* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Controllo qualità* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare le funzionalità descritte in questo articolo, è necessario attivare la funzionalità *Controllo qualità* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Controllo qualità* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurare la funzionalità per lo scenario di esempio
 
-Questa sezione fornisce linee guida e un esempio che mostra come configurare la funzionalità *Controllo qualità* e preparare i dati di esempio per lo scenario di esempio illustrato più avanti in questo argomento.
+Questa sezione fornisce linee guida e un esempio che mostra come configurare la funzionalità *Controllo qualità* e preparare i dati di esempio per lo scenario di esempio illustrato più avanti in questo articolo.
 
 ### <a name="make-sample-data-available"></a>Rendi disponibili i dati di esempio
 
@@ -270,7 +270,7 @@ Configurare una voce di menu in modo che i dispositivi mobili possano eseguire l
 
 ## <a name="example-scenario"></a><a name="example-scenario"></a>Scenario di esempio
 
-Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e averli configurati, è possibile utilizzare questo scenario per provare la funzionalità *Controllo qualità*. I valori mostrati in questo scenario presuppongono che si stia lavorando con i dati dimostrativi standard, che sia stata selezionata la persona giuridica **USMF** e che sono stati preparati i record di esempio descritti in precedenza in questo argomento. Questo scenario serve anche come esempio che mostra come la funzionalità può essere utilizzata in uno scenario di produzione.
+Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e averli configurati, è possibile utilizzare questo scenario per provare la funzionalità *Controllo qualità*. I valori mostrati in questo scenario presuppongono che si stia lavorando con i dati dimostrativi standard, che sia stata selezionata la persona giuridica **USMF** e che sono stati preparati i record di esempio descritti in precedenza in questo articolo. Questo scenario serve anche come esempio che mostra come la funzionalità può essere utilizzata in uno scenario di produzione.
 
 ### <a name="create-a-purchase-order"></a>Creare un ordine fornitore
 
@@ -357,7 +357,7 @@ Per questo scenario, il pallet 2 verrà rifiutato.
 
 Le operazioni di controllo di qualità e creazione di un ordine di controllo qualità per il pallet rifiutato sono state completate. Per visualizzare l'ordine di controllo qualità creato, andare a **Gestione inventario \> Attività periodiche \> Gestione della qualità \> Ordini di controllo qualità**.
 
-Ora è possibile elaborare il test dell'ordine di controllo qualità. Il test di qualità non viene illustrato in questo argomento.
+Ora è possibile elaborare il test dell'ordine di controllo qualità. Il test di qualità non viene illustrato in questo articolo.
 
 Per ulteriori informazioni sulla gestione della qualità, vedere [Panoramica della gestione della qualità](../inventory/enable-quality-management.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Annullare il lavoro di magazzino per la gestione delle eccezioni
-description: In questo argomento viene descritta la funzionalità di annullamento del lavoro che consente ai supervisori del magazzino di gestire il lavoro bloccato.
+description: In questo articolo viene descritta la funzionalità di annullamento del lavoro che consente ai supervisori del magazzino di gestire il lavoro bloccato.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af0c147eefbfe22cb6b6d531f514e6f293d66689
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 9a5c0cc988141b102cf3659ab4599e025f8f4640
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907176"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Annullare il lavoro di magazzino per la gestione delle eccezioni
 

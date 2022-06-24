@@ -1,6 +1,6 @@
 ---
 title: Esempio di integrazione del servizio di registrazione fiscale per la Germania
-description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per la Germania in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Germania in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-5-29
-ms.openlocfilehash: 16079ba5ca830625c4f18df9fe6b5b307217183d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: a218989263580ea08947d3366b79e3b19b506375
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867760"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Esempio di integrazione del servizio di registrazione fiscale per la Germania
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per la Germania in Microsoft Dynamics 365 Commerce.
+In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Germania in Microsoft Dynamics 365 Commerce.
 
 Per soddisfare i requisiti fiscali locali per i registratori di cassa in Germania, la funzionalità Microsoft Dynamics 365 Commerce per la Germania include un esempio di integrazione del point of sale (POS) con un servizio di registrazione fiscale esterno. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Si basa sulla soluzione [EFR (Registro Fiscale Elettronico)](https://www.efsta.eu/de/fiskalloesungen/deutschland) di [EFSTA](https://www.efsta.eu/de/) e consente la comunicazione con il servizio EFR tramite il protocollo HTTPS. Il servizio EFR deve essere ospitato sulla stazione hardware Retail o su un computer separato a cui è possibile connettersi dalla stazione hardware. L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
 

@@ -1,6 +1,6 @@
 ---
-title: Valutazione delle condizioni
-description: In questo argomento viene descritto come creare un modello e una registrazione di valutazione delle condizioni di un cespite in Gestione cespiti.
+title: Valutazione della condizione
+description: In questo articolo viene descritto come creare un modello e una registrazione di valutazione delle condizioni di un cespite in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cced322dd2f213d8e6025d853edc8472618989b61de7139b28ba1c6bffd3ad2a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736066"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872096"
 ---
-# <a name="condition-assessment"></a>Valutazione delle condizioni
+# <a name="condition-assessment"></a>Valutazione della condizione
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-In questo argomento viene descritto come creare un modello e una registrazione di valutazione delle condizioni di un cespite in Gestione cespiti. La valutazione delle condizioni viene eseguita a intervalli regolari e l'obiettivo principale è di creare e gestire i dati di condizione sui cespiti. Visto da una prospettiva di manutenzione preventiva, è importante monitorare le informazioni come la condizione attuale e la durata rimanente. Inoltre, se si effettua la valutazione delle condizioni a intervalli regolari, sarà possibile monitorare e confrontare le condizioni dei macchinari nella fabbrica.
+In questo articolo viene descritto come creare un modello e una registrazione di valutazione delle condizioni di un cespite in Gestione cespiti. La valutazione delle condizioni viene eseguita a intervalli regolari e l'obiettivo principale è di creare e gestire i dati di condizione sui cespiti. Visto da una prospettiva di manutenzione preventiva, è importante monitorare le informazioni come la condizione attuale e la durata rimanente. Inoltre, se si effettua la valutazione delle condizioni a intervalli regolari, sarà possibile monitorare e confrontare le condizioni dei macchinari nella fabbrica.
 
 Valutazione delle condizioni può essere utilizzata per misurare e monitorare molte condizioni nelle attrezzature. Esempio: È possibile misurare le vibrazioni del macchinario. Dopo la registrazione delle misure delle vibrazioni in Gestione cespiti dei vari tipi di attrezzature, è possibile eseguire la ricerca dell'ultima valutazione registrata e visualizzare le misure delle vibrazioni.
 

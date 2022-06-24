@@ -1,6 +1,6 @@
 ---
 title: Rifornimento superiore alla capacità dell'ubicazione
-description: Questo argomento fornisce informazioni sulla funzionalità di rifornimento superiore alla capacità dell'ubicazione. Questa funzionalità consente a tutto il lavoro di rifornimento da eseguire obbligatoriamente durante la giornata di essere creato e gestisce la disponibilità di tale lavoro di rifornimento per garantire che l'ubicazione di prelievo non esaurisca le scorte né superi la capacità.
+description: Questo articolo fornisce informazioni sulla funzionalità di rifornimento superiore alla capacità dell'ubicazione. Questa funzionalità consente a tutto il lavoro di rifornimento da eseguire obbligatoriamente durante la giornata di essere creato e gestisce la disponibilità di tale lavoro di rifornimento per garantire che l'ubicazione di prelievo non esaurisca le scorte né superi la capacità.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 0c3dedc47558e98f63fb5883e4731bf021b9602b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 72cda7608d55414ee62bc7dcc1e02e28f6212aff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677928"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899239"
 ---
 # <a name="replenishment-over-location-capacity"></a>Rifornimento superiore alla capacità dell'ubicazione
 
@@ -37,7 +37,7 @@ Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalit�
 
 ## <a name="set-up-the-feature-for-the-example-scenario"></a>Configurare la funzionalità per lo scenario di esempio
 
-Questa sezione fornisce linee guida e un esempio che mostra come configurare questa funzionalità e preparare i dati di esempio per lo scenario di esempio illustrato più avanti in questo argomento.
+Questa sezione fornisce linee guida e un esempio che mostra come configurare questa funzionalità e preparare i dati di esempio per lo scenario di esempio illustrato più avanti in questo articolo.
 
 ### <a name="enable-sample-data"></a>Abilitare dati di esempio
 
@@ -145,7 +145,7 @@ I modelli rifornimento rappresentano un set di regole che controlla quando e com
 
 ## <a name="example-scenario"></a>Scenario di esempio
 
-Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e averli configurati, è possibile utilizzare questo scenario per provare la funzionalità *Rifornimento superiore alla capacità dell'ubicazione*. I valori mostrati in questo scenario presuppongono che si stia lavorando con i dati dimostrativi standard, che sia stata selezionata la persona giuridica **USMF** e che sono stati preparati i record di esempio descritti in precedenza in questo argomento. Questo scenario serve anche come esempio che mostra come la funzionalità può essere utilizzata in uno scenario di produzione.
+Dopo aver reso disponibili tutti i dati di esempio precedentemente descritti e averli configurati, è possibile utilizzare questo scenario per provare la funzionalità *Rifornimento superiore alla capacità dell'ubicazione*. I valori mostrati in questo scenario presuppongono che si stia lavorando con i dati dimostrativi standard, che sia stata selezionata la persona giuridica **USMF** e che sono stati preparati i record di esempio descritti in precedenza in questo articolo. Questo scenario serve anche come esempio che mostra come la funzionalità può essere utilizzata in uno scenario di produzione.
 
 ### <a name="create-replenishment-work"></a>Crea lavoro di rifornimento
 

@@ -1,6 +1,6 @@
 ---
 title: Ordini di controllo qualità
-description: In questo argomento viene descritto come creare manualmente o automaticamente gli ordini di controllo qualità e come utilizzarli per eseguire ispezioni e registrare i risultati dei test in Microsoft Dynamics 365 Supply Chain Management.
+description: In questo articolo viene descritto come creare manualmente o automaticamente gli ordini di controllo qualità e come utilizzarli per eseguire ispezioni e registrare i risultati dei test in Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69a4a61a599f1279ec7ad68ebb20c7b4b0f37005
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eb7ab1de0fb4d93ed18f1862630c1af7af7f3095
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571859"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857781"
 ---
 # <a name="quality-orders"></a>Ordini di controllo qualità
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come creare manualmente o automaticamente gli ordini di controllo qualità e come utilizzarli per eseguire ispezioni e registrare i risultati dei test in Microsoft Dynamics 365 Supply Chain Management.
+In questo articolo viene descritto come creare manualmente o automaticamente gli ordini di controllo qualità e come utilizzarli per eseguire ispezioni e registrare i risultati dei test in Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="automatically-created-quality-orders"></a>Creazione automatica degli ordini di controllo qualità
 
@@ -39,7 +39,7 @@ Per creare un ordine di controllo qualità manualmente, attieniti alla procedura
 
 1. Andare a **Gestione inventario \> Attività periodiche \> Gestione qualità \> Ordini di controllo qualità**.
 1. Selezionare **Nuovo**.
-1. Nella finestra di dialogo **Ordini di controllo qualità**, nel campo **Tipo di riferimento** selezionare il riferimento inventario a cui sarà correlato l'ordine di controllo qualità. Per una descrizione dei tipi di riferimento disponibili per la selezione, vedere la sezione [Tipi di riferimento dell'ordine di controllo qualità](#ref-types) più avanti in questo argomento.
+1. Nella finestra di dialogo **Ordini di controllo qualità**, nel campo **Tipo di riferimento** selezionare il riferimento inventario a cui sarà correlato l'ordine di controllo qualità. Per una descrizione dei tipi di riferimento disponibili per la selezione, vedi la sezione [Tipi di riferimento dell'ordine di controllo qualità](#ref-types) più avanti in questo articolo.
 
     > [!NOTE]
     > L'inventario correlato al riferimento selezionato deve essere disponibile. Se non è disponibile alcun inventario per la combinazione del tipo di riferimento, della quantità e delle dimensioni inventariali selezionate, verrà visualizzato un messaggio di errore.
@@ -88,7 +88,7 @@ Gli ordini di controllo qualità possono essere creati manualmente. In alternati
 
 ### <a name="from-the-quality-orders-page"></a>Dalla pagina Ordini di controllo qualità
 
-Per creare manualmente ordini di controllo qualità e visualizzare tutti gli ordini di controllo qualità esistenti, andare a **Gestione inventario \> Attività periodiche \> Gestione qualità \> Ordini di controllo qualità**. Le sezioni rimanenti di questo argomento forniscono ulteriori informazioni su come lavorare con la pagina **Ordini di controllo qualità**.
+Per creare manualmente ordini di controllo qualità e visualizzare tutti gli ordini di controllo qualità esistenti, andare a **Gestione inventario \> Attività periodiche \> Gestione qualità \> Ordini di controllo qualità**. Le sezioni rimanenti di questo articolo forniscono ulteriori informazioni su come lavorare con la pagina **Ordini di controllo qualità**.
 
 ### <a name="from-sales-orders"></a>Da ordini cliente
 

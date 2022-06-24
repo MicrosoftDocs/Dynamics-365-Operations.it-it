@@ -1,6 +1,6 @@
 ---
 title: Modulo funzionalità interattiva
-description: Questo argomento descrive i moduli funzionalità e la procedura per aggiungerli alle pagine di siti Web in Microsoft Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive i moduli funzionalità e la procedura per aggiungerli alle pagine di siti Web in Microsoft Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3ab325189812289390740e31fd673ee9892f9759
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: deee7c35cfc4293480fda74665429121b71bbfab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780741"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898521"
 ---
 # <a name="interactive-feature-module"></a>Modulo funzionalità interattiva
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive i moduli funzionalità e la procedura per aggiungerli alle pagine di siti Web in Microsoft Microsoft Dynamics 365 Commerce.
+Questo articolo descrive i moduli funzionalità e la procedura per aggiungerli alle pagine di siti Web in Microsoft Microsoft Dynamics 365 Commerce.
 
 I moduli funzionalità interattiva sono moduli a mosaico che possono essere utilizzati per commercializzare più categorie di prodotti o marchi di prodotti utilizzando una combinazione di immagini e testo. Ad esempio, un rivenditore può aggiungere un modulo funzionalità interattiva alla home page di un sito di e-commerce per promuovere le categorie più vendute. Il modulo funzionalità interattiva è simile al modulo elenco riquadri, ma ha un layout diverso e una diversa funzionalità di interazione.
 

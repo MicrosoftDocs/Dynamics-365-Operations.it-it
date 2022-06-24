@@ -1,6 +1,6 @@
 ---
 title: Gestire unità di misura
-description: Questo argomento descrive come definire un'unità di misura, come fornire conversioni per l'unità e la relativa descrizione e come definire le regole di conversione per le unità correlate.
+description: Questo articolo descrive come definire un'unità di misura, come fornire conversioni per l'unità e la relativa descrizione e come definire le regole di conversione per le unità correlate.
 author: t-benebo
 ms.date: 04/09/2021
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e13897396810507bb4b2cbb415b873eb3dd7f4e8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8e2c21756b270ef7d914dc74a0cf61727953206a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863913"
 ---
 # <a name="manage-units-of-measure"></a>Gestire unità di misura
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come definire un'unità di misura, come fornire conversioni per l'unità e la relativa descrizione e come definire le regole di conversione per le unità correlate.
+Questo articolo descrive come definire un'unità di misura, come fornire conversioni per l'unità e la relativa descrizione e come definire le regole di conversione per le unità correlate.
 
 ## <a name="open-the-units-page"></a>Aprire la pagina Unità
 
 Per creare e lavorare con le unità di misura disponibili nel tuo sistema, vai a **Amministrazione organizzazione \> Impostazioni \> Unità \> Unità**.
 
-Le sezioni rimanenti di questo argomento descrivono cosa è possibile fare nella pagina **Unità**.
+Le sezioni rimanenti di questo articolo descrivono cosa è possibile fare nella pagina **Unità**.
 
 ## <a name="create-standard-units-and-conversions"></a>Creare unità e conversioni standard
 

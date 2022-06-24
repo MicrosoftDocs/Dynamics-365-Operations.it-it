@@ -1,6 +1,6 @@
 ---
 title: Panoramica della pagina di creazione
-description: Questo argomento fornisce una panoramica della page di creazione in Microsoft Dynamics 365 Commerce.
+description: Questo articolo fornisce una panoramica della page di creazione in Microsoft Dynamics 365 Commerce.
 author: brendans
 ms.date: 10/31/2019
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 68487c899edccaeff9c339d746d21b1d27b498aa
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: bc8cdbc0a521f3aa444a3af0d0230f8567729694
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984623"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855006"
 ---
 # <a name="authoring-page-overview"></a>Panoramica della pagina di creazione
 
   
  [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica della page di creazione in Microsoft Dynamics 365 Commerce.
+Questo articolo fornisce una panoramica della page di creazione in Microsoft Dynamics 365 Commerce.
 
 I siti Web possono essere creati per supportare varie esigenze aziendali. Possono rappresentare un'intera azienda, offrire un singolo canale commerciale, essere destinati a un determinato pubblico o segmento di pubblico. Ad esempio, un produttore di abbigliamento potrebbe avere un sito Web che visualizza tutti i marchi di cui è proprietario. Lo stesso produttore di capi di abbigliamento potrebbe quindi avere un sito Web distinto per ognuno di quei marchi e anche un gruppo di siti Web per alta moda, indumenti sportivi e abbigliamento per bambini.
 

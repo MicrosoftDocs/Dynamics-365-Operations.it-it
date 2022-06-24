@@ -1,6 +1,6 @@
 ---
 title: Elaborare, rivedere e registrare gli sconti
-description: In questo argomento viene descritto come elaborare le transazioni di gestione degli sconti, calcolare gli sconti, rivedere le transazioni generate, registrare le transazioni e rivedere le registrazioni.
+description: In questo articolo viene descritto come elaborare le transazioni di gestione degli sconti, calcolare gli sconti, rivedere le transazioni generate, registrare le transazioni e rivedere le registrazioni.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 524aec8025378391057275f77e31191f88e4a98b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: e63f02e5e93ec2ce8c321a20c2a0c5886edcbe42
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901939"
 ---
 # <a name="process-review-and-post-rebates"></a>Elaborare, rivedere e registrare gli sconti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come elaborare le transazioni di gestione degli sconti, calcolare gli sconti, rivedere le transazioni generate, registrare le transazioni e rivedere le registrazioni.
+In questo articolo viene descritto come elaborare le transazioni di gestione degli sconti, calcolare gli sconti, rivedere le transazioni generate, registrare le transazioni e rivedere le registrazioni.
 
 ## <a name="change-the-status-of-a-deal"></a>Modificare lo stato di una transazione
 
@@ -45,7 +45,7 @@ Vai a **Gestione degli sconti \> Attività periodiche \> Calcola il prezzo di ac
 
 È possibile creare gli ordini cliente o gli ordini fornitore con transazioni di origine prima o dopo aver creato un contratto di gestione sconti applicabile.
 
-Puoi impostare ogni riga della transazione in modo che crei automaticamente un accantonamento di sconto registrando la consegna o la fattura per un ordine cliente o un ordine fornitore. Imposta il campo **Tipo di transazione** per la riga della transazione *Consegna* o *Fattura*, e imposta l'opzione **Elabora alla registrazione** su *Sì*. Se il campo **Tipo di transazione** è impostato su *Ordine*, l'elaborazione al momento della registrazione è disabilitata. Per le transazioni di origine create dopo l'attivazione di una transazione, è comunque possibile elaborare l'accantonamento come descritto nella sezione [Elaborare le transazioni della gestione degli sconti](#process-deals) più avanti in questo argomento.
+Puoi impostare ogni riga della transazione in modo che crei automaticamente un accantonamento di sconto registrando la consegna o la fattura per un ordine cliente o un ordine fornitore. Imposta il campo **Tipo di transazione** per la riga della transazione *Consegna* o *Fattura*, e imposta l'opzione **Elabora alla registrazione** su *Sì*. Se il campo **Tipo di transazione** è impostato su *Ordine*, l'elaborazione al momento della registrazione è disabilitata. Per le transazioni di origine create dopo l'attivazione di una transazione, è comunque possibile elaborare l'accantonamento come descritto nella sezione [Elaborare le transazioni della gestione degli sconti](#process-deals) più avanti in questo articolo.
 
 ### <a name="enable-price-details"></a>Abilita dettagli prezzo
 

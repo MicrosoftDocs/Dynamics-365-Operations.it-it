@@ -1,6 +1,6 @@
 ---
 title: Gestire attributi e gruppi di attributi
-description: In questo argomento viene illustrato come utilizzare gli attributi per fornire un modo per descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
+description: In questo articolo viene illustrato come utilizzare gli attributi per fornire un modo per descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
 author: ashishmsft
 ms.date: 04/28/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876666"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gestire attributi e gruppi di attributi
 
@@ -85,7 +85,7 @@ Gli attributi si basano sui *tipi di attributo*. Il tipo di attributo identifica
 
 *Metadati di attributi* consente di selezionare le opzioni per specificare come gli attributi per ogni prodotto devono comportarsi. Ad esempio, è possibile specificare se gli attributi sono obbligatori, se possono essere utilizzati per le ricerche e come filtro.
 
-Per i prodotti, le impostazioni dei metadati di attributi possono essere sostituite a livello di canale. Questa funzionalità verrà descritta più avanti in questo argomento.
+Per i prodotti, le impostazioni dei metadati di attributi possono essere sostituite a livello di canale. Questa funzionalità verrà descritta più avanti in questo articolo.
 
 Come è possibile notare, la pagina **Attributi** include opzioni correlate ai metadati di attributi. In **Metadati di attributi per POS**, un'opzione denominata **Ridefinizione possibile** influisce sul comportamento dei valori di attributo nel POS o sul modo in cui il sistema gestisce tali valori di attributo. Solo gli attributi per cui è possibile impostare l'opzione **Ridefinizione possibile** su **Sì** verranno visualizzati per la ridefinizione o il filtro dei prodotti nel POS.
 

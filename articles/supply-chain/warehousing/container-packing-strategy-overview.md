@@ -1,6 +1,6 @@
 ---
 title: Strategie di imballaggio dei contenitori
-description: Questo argomento descrive le differenze tra le strategie di imballaggio dei contenitori e fornisce esempi.
+description: Questo articolo descrive le differenze tra le strategie di imballaggio dei contenitori e fornisce esempi.
 author: GalynaFedorova
 ms.date: 06/11/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ab34cee7fd495ec26f6b20da2aa43895f49f677c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676385"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862368"
 ---
 # <a name="container-packing-strategies"></a>Strategie di imballaggio dei contenitori
 
 [!include [banner](../includes/banner.md)]
 
-Una *strategia di imballaggio del contenitore* è una strategia che è possibile utilizzare per definire le allocazioni di articoli tra i contenitori. Questo argomento spiega le differenze tra le strategie *Imballa in tutti i contenitori aperti* e *Imballa solo nel contenitore corrente*.
+Una *strategia di imballaggio del contenitore* è una strategia che è possibile utilizzare per definire le allocazioni di articoli tra i contenitori. Questo articolo spiega le differenze tra le strategie *Imballa in tutti i contenitori aperti* e *Imballa solo nel contenitore corrente*.
 
 - **Imballa in tutti i contenitori aperti** – Il sistema deve controllare tutti i contenitori aperti che sono già stati creati durante il ciclo di containerizzazione, per assicurarsi che l'articolo rientri in uno di essi. Durante l'imballaggio, il sistema controlla ogni articolo per determinare se entrerà in uno dei contenitori creati in precedenza. Se l'articolo non entra in un contenitore esistente, il sistema crea un nuovo contenitore e continua fino a quando non ha finito di imballare l'intero ordine.
 

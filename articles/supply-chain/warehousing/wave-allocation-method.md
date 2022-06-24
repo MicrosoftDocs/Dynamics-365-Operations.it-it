@@ -1,6 +1,6 @@
 ---
 title: Allocazione ciclo
-description: Questo argomento descrive come impostare la fase di allocazione del ciclo, incluso come abilitare l'elaborazione parallela.
+description: Questo articolo descrive come impostare la fase di allocazione del ciclo, incluso come abilitare l'elaborazione parallela.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 08781b26a4e066a026d4efa14670f073b04ec185
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c6b89364afd57b9c4b4413d0319b86e725433594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695537"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906953"
 ---
 # <a name="wave-allocation"></a>Allocazione ciclo
 
@@ -25,7 +25,7 @@ ms.locfileid: "8695537"
 
 L'elaborazione del ciclo può richiedere molto tempo e la maggior parte del tempo viene impiegata nella fase di allocazione e nella fase di creazione del lavoro.
 
-È ora possibile eseguire ciascuna di queste fasi in parallelo, il che può migliorare le prestazioni dell'elaborazione del ciclo e consentire una maggiore produttività dei cicli nello stesso magazzino. Questo argomento spiega come impostare il metodo di allocazione del ciclo per l'esecuzione in parallelo. Per ulteriori informazioni su come impostare la creazione del lavoro per l'esecuzione in parallelo, vedi [Programmare la creazione del lavoro durante il ciclo](configure-wave-schedule-work-creation.md).
+È ora possibile eseguire ciascuna di queste fasi in parallelo, il che può migliorare le prestazioni dell'elaborazione del ciclo e consentire una maggiore produttività dei cicli nello stesso magazzino. Questo articolo spiega come impostare il metodo di allocazione del ciclo per l'esecuzione in parallelo. Per ulteriori informazioni su come impostare la creazione del lavoro per l'esecuzione in parallelo, vedi [Programmare la creazione del lavoro durante il ciclo](configure-wave-schedule-work-creation.md).
 
 In precedenza era possibile allocare solo un ciclo alla volta in un magazzino. Questo vincolo è stato rimosso e sostituito da un nuovo vincolo che blocca solo l'elemento e le dimensioni che si trovano al di sopra dell'ubicazione nella gerarchia di prenotazione. Le dimensioni sopra l'ubicazione includono sempre le dimensioni del prodotto. Ad esempio, se un elemento è configurato utilizzando *Colore*, quindi le varianti per *Rosso*, *Blu*, e *Giallo* potrebbero essere elaborate in parallelo.
 

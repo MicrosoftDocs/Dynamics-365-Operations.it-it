@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e35a6b7da4ead8ab6f007ef8800ed8a05b1c513
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 09a808c91ece25a9a40f662e0aca2c504246fc0a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675349"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854502"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Categorie costi utilizzate in Controllo produzione e Gestione progetti e contabilità
 
@@ -31,7 +31,7 @@ Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del t
 
 Alcuni tipi di lavori di produzione possono essere utilizzati per le stime del tempo di progetto e per la relativa dichiarazione. In questo caso è necessaria una categoria di costi per gli scopi di produzione e progetto. Quando una categoria costi viene utilizzata nella produzione e nei progetti, è necessario definire ulteriori informazioni correlate al progetto. I costi orario associati ai progetti, ad esempio, possono differire dai costi orario associati alla produzione. È possibile utilizzare la pagina **Categorie costi** per definire una categoria di costi utilizzata nella contabilità di controllo produzione e gestione progetti. 
 
-**Nota:** la contabilità industriale contiene una pagina **Categorie di progetto**, ma questa pagina non ha alcuna relazione con la funzionalità descritta in questo argomento. Quando si utilizza una categoria di costi nei progetti, la pagina **Categorie costi** contiene schede aggiuntive che indicano le informazioni aggiuntive correlate al progetto. Tali informazioni includono il gruppo di categorie, una proprietà riga e i conti CoGe assegnati alla categoria di costi.
+**Nota:** la contabilità industriale contiene una pagina **Categorie di progetto**, ma questa pagina non ha alcuna relazione con la funzionalità descritta in questo articolo. Quando si utilizza una categoria di costi nei progetti, la pagina **Categorie costi** contiene schede aggiuntive che indicano le informazioni aggiuntive correlate al progetto. Tali informazioni includono il gruppo di categorie, una proprietà riga e i conti CoGe assegnati alla categoria di costi.
 
 -   La categoria di costi deve essere assegnata a un gruppo di categorie che supporta un tipo di transazione **Ore**.
 -   La proprietà di riga indica informazioni predefinite su come l'ora dichiarata possa essere addebitata a un progetto.

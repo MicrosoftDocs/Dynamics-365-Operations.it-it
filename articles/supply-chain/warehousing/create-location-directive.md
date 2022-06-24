@@ -1,6 +1,6 @@
 ---
 title: Utilizzare le direttive di ubicazione
-description: Questo argomento descrive come utilizzare le direttive di ubicazione. Le direttive ubicazione sono regole definite dall'utente che aiutano a identificare le ubicazioni di prelievo e stoccaggio per il movimento scorte.
+description: Questo articolo descrive come utilizzare le direttive di ubicazione. Le direttive ubicazione sono regole definite dall'utente che aiutano a identificare le ubicazioni di prelievo e stoccaggio per il movimento scorte.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 84ff0a466c037db05aecaff14aa2e17990ce8799
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903697"
 ---
 # <a name="work-with-location-directives"></a>Utilizzare le direttive di ubicazione
 
@@ -27,7 +27,7 @@ ms.locfileid: "8103140"
 Le direttive ubicazione sono regole che aiutano a identificare le ubicazioni di prelievo e stoccaggio per il movimento scorte. Ad esempio, in una transazione dell'ordine cliente, la direttiva ubicazione determina il punto di prelievo e il punto di stoccaggio degli articoli. Le direttive di ubicazione sono costituite da un'intestazione e dalle righe associate. Vengono create per *tipi di ordini di lavoro* specifici.
 
 > [!NOTE]
-> Questo argomento si applica alle funzionalità nel modulo **Gestione magazzino**. Non viene applicato alle funzionalità nel modulo [Gestione inventario](../inventory/inventory-home-page.md).
+> Questo articolo si applica alle funzionalità nel modulo **Gestione magazzino**. Non viene applicato alle funzionalità nel modulo [Gestione inventario](../inventory/inventory-home-page.md).
 
 È possibile utilizzare le direttive ubicazione per effettuare le seguenti attività:
 
@@ -109,7 +109,7 @@ La tabella seguente elenca i campi specifici per i tipi di ordine di lavoro part
 
 Per aprire la pagina **Direttive ubicazione** andare a **Gestione magazzino \> Imposta \> Direttive ubicazione**.
 
-In questo punto è possibile visualizzare, creare e modificare le direttive di ubicazione utilizzando i comandi nel riquadro azioni. Vedere le sezioni rimanenti di questo argomento per informazioni su come utilizzare tutti i campi disponibili nella pagina.
+In questo punto è possibile visualizzare, creare e modificare le direttive di ubicazione utilizzando i comandi nel riquadro azioni. Vedi le sezioni rimanenti di questo articolo per informazioni su come utilizzare tutti i campi disponibili nella pagina.
 
 ## <a name="action-pane"></a>Riquadro azioni
 
@@ -162,7 +162,7 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
 - **Codice smaltimento applicabile** - Specificare se il codice smaltimento della direttiva di ubicazione deve corrispondere al codice smaltimento che si applica all'articolo in ricevimento o se la direttiva di ubicazione può essere selezionata in base a qualsiasi codice smaltimento. Se si seleziona *Corrispondenza esatta* e il campo **Codice smaltimento** è vuoto, solo i codici smaltimento vuoti verranno presi in considerazione per la direttiva di ubicazione.
 
     > [!NOTE]
-    > Questo campo è disponibile solo per i tipi di ordine di lavoro selezionati in cui è consentito il rifornimento. Per un elenco completo, vedere la sezione [Campi specifici per i tipi di ordine di lavoro](#fields-specific-types) precedente in questo argomento.
+    > Questo campo è disponibile solo per i tipi di ordine di lavoro selezionati in cui è consentito il rifornimento. Per un elenco completo, vedi la sezione [Campi specifici per i tipi di ordine di lavoro](#fields-specific-types) precedente in questo articolo.
 
 - **Trova per** - Specificare se la quantità di stoccaggio deve essere l'intera quantità sulla targa o se deve essere considerata articolo per articolo. Utilizzare questo campo per assicurarsi che tutti i contenuti di una targa siano stoccati in un'unica ubicazione e che il sistema non suggerisca di dividere i contenuti in più ubicazioni per i processi di ricevimento **ASN** (ricevimento targa), **Ricevimento targa mista** e **Cluster**. Il processo di ricevimento **Cluster** processo di ricezione richiede che l'opzione [Funzione stoccaggio cluster](putaway-clusters.md) sia attivata. Il comportamento della query della direttiva di ubicazione, le righe e le azioni della direttiva di ubicazione variano a seconda del valore selezionato. La Scheda dettaglio **Righe** viene utilizzata solo quando l'opzione **Trova per** è impostato su *Articolo*.
 
@@ -254,7 +254,7 @@ Una volta create le direttive ubicazione, è possibile associare ciascun codice 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 - Video: [Approfondimento sulla configurazione della gestione magazzino](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
-- Argomento della Guida: [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](control-warehouse-location-directives.md)
+- Articolo della Guida: [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](control-warehouse-location-directives.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

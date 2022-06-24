@@ -1,6 +1,6 @@
 ---
 title: Intervalli assistenza
-description: In questo argomento viene fornita una panoramica di come utilizzare gli intervalli di assistenza. L'intervallo del contratto di assistenza indica la frequenza con cui vengono create righe di ordine di assistenza per le righe di contratto di assistenza nel caso di creazione automatica degli ordini di assistenza.
+description: In questo articolo viene fornita una panoramica di come utilizzare gli intervalli di assistenza. L'intervallo del contratto di assistenza indica la frequenza con cui vengono create righe di ordine di assistenza per le righe di contratto di assistenza nel caso di creazione automatica degli ordini di assistenza.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df15340a82bf36f67baa7195e2e318a4216d2c56
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 62708258ac3dca9ac03b44efdc96e3bfd643a255
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675629"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887227"
 ---
 # <a name="service-intervals"></a>Intervalli assistenza
 
@@ -87,7 +87,7 @@ Poiché non è presente un raggruppamento nell'ordine di assistenza, definito da
 
 Sono state create tre righe di ordine di assistenza nell'intervallo di tempo specificato nella finestra di dialogo **Crea ordini di assistenza**. È possibile visualizzare le righe di assistenza nella pagina **Contratti di assistenza** (**riquadro azioni** \> scheda **Fornisci** \>pulsante **Visualizza**).
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Impostare gli intervalli di assistenza](set-up-service-intervals.md)  
 

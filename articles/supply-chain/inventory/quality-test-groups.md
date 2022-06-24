@@ -1,6 +1,6 @@
 ---
-title: Gruppi di test di gestione qualità
-description: Questo argomento descrive come creare gruppi di test, in modo che più test possano essere utilizzati con gli ordini di controllo qualità in Microsoft Dynamics 365 Supply Chain Management.
+title: Gruppi di test per la gestione della qualità
+description: Questo articolo descrive come creare gruppi di test, in modo che più test possano essere utilizzati con gli ordini di controllo qualità in Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5619be4a0724556bf0c51dcaa3adcc3725f10706
-ms.sourcegitcommit: 220101d2511a3164572226294ef090a43a1e6cdd
+ms.openlocfilehash: e7722bc92d8c2bf52d6a798a93f07af44037d4e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "8789270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857708"
 ---
-# <a name="quality-management-test-groups"></a>Gruppi di test di gestione qualità
+# <a name="quality-management-test-groups"></a>Gruppi di test per la gestione della qualità
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come creare gruppi di test, in modo che più test possano essere utilizzati con gli ordini di controllo qualità in Microsoft Dynamics 365 Supply Chain Management.
+Questo articolo descrive come creare gruppi di test, in modo che più test possano essere utilizzati con gli ordini di controllo qualità in Microsoft Dynamics 365 Supply Chain Management.
 
 Utilizzare la pagina **Gruppi di test** per impostare, modificare e visualizzare gruppi di test e i singoli test assegnati ai gruppi. Nella parte superiore della pagina sono visualizzati i gruppi di test, mentre nella parte inferiore sono visualizzati i test assegnati a un gruppo di test selezionato.
 

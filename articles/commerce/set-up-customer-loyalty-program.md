@@ -1,6 +1,6 @@
 ---
 title: Panoramica fedeltà
-description: In questo argomento vengono descritte le funzionalità del programma fedeltà di Dynamics 365 Commerce e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
+description: In questo articolo vengono descritte le funzionalità del programma fedeltà di Dynamics 365 Commerce e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 author: scott-tucker
 ms.date: 07/21/2020
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 57512bbd735e26ba31e00518ca8179f2d9b14bc4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 667c30e52bae34f8ddfdc7b74f271d08612ac594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985164"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883905"
 ---
 # <a name="loyalty-overview"></a>Panoramica fedeltà
 
 [!include [banner](includes/banner.md)]
 
-I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti premiandoli per le loro interazioni con il brand del rivenditore. In Dynamics 365 Commerce è possibile impostare programmi fedeltà semplici o complessi applicabili tra le persone giuridiche in qualsiasi canale di commercio. In questo argomento vengono descritte le funzionalità del programma fedeltà di Commerce e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
+I programmi fedeltà possono contribuire ad aumentare la fedeltà dei clienti premiandoli per le loro interazioni con il brand del rivenditore. In Dynamics 365 Commerce è possibile impostare programmi fedeltà semplici o complessi applicabili tra le persone giuridiche in qualsiasi canale di commercio. In questo articolo vengono descritte le funzionalità del programma fedeltà di Commerce e i passaggi di impostazione corrispondenti che aiutano il rivenditore a iniziare facilmente i propri programmi fedeltà.
 
 È possibile impostare il programma fedeltà in modo che comprenda le seguenti opzioni.
 

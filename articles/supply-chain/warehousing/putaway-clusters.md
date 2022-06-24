@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d5aa579394a0e3bd4c27cd44c9ff98951b3bfe1c
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 559ca80976955d6328cb4d6b2020d5662460cef9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863652"
 ---
 # <a name="putaway-clusters"></a>Cluster di stoccaggio
 
@@ -27,7 +27,7 @@ I cluster di stoccaggio offrono un modo per prelevare più targhe contemporaneam
 
 ## <a name="turn-the-cluster-putaway-feature-on-or-off"></a>Attivare o disattivare la funzionalità Stoccaggio cluster
 
-Per utilizzare la funzionalità descritta in questo argomento, è necessario attivare la funzionalità *Stoccaggio cluster* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Stoccaggio cluster* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare la funzionalità descritta in questo articolo, è necessario attivare la funzionalità *Stoccaggio cluster* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Stoccaggio cluster* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup-for-the-example-scenario"></a>Configurazione per lo scenario di esempio
 

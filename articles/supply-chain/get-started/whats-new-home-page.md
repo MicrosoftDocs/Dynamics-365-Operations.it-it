@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Supply Chain Management
-description: Questo argomento indica gli argomenti che descrivono le funzionalità nuove e modificate in ogni versione di Dynamics 365 Supply Chain Management.
+description: Questo articolo indica gli articoli che descrivono le funzionalità nuove e modificate in ogni versione di Dynamics 365 Supply Chain Management.
 author: kamaybac
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 6c1cfcd7ccc39f2742fd237278f97b4d3d0ad4fd
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: b767f8ff8e9c9ef7ea1b4dee777f9e0c96f93aef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8812974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893441"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Novità o modifiche in Dynamics 365 Supply Chain Management
 
@@ -27,7 +27,7 @@ ms.locfileid: "8812974"
 
 ## <a name="releases-of-dynamics-365-supply-chain-management"></a>Versioni di Dynamics 365 Supply Chain Management
 
-Per visualizzare novità o modifiche in ogni versione di Dynamics 365 Supply Chain Management, vedere i seguenti argomenti.
+Per visualizzare novità o modifiche in ogni versione di Dynamics 365 Supply Chain Management, vedi i seguenti articoli.
 
 | Versione | Numero build | Disponibilità degli aggiornamenti automatici | Ulteriori informazioni |
 |---|---|---|---|
@@ -57,7 +57,7 @@ Per visualizzare novità o modifiche in ogni versione di Dynamics 365 Supply Cha
 
 ## <a name="releases-before-november-2019"></a>Rilasci prima di novembre 2019
 
-Per visualizzare novità o modifiche nei rilasci prima di novembre 2019, vedere i seguenti argomenti.
+Per visualizzare novità o modifiche nei rilasci prima di novembre 2019, vedi i seguenti articoli.
 
 | Rilascia | Versione | Numero build | Disponibilità | Ulteriori informazioni |
 |---|---|---|---|---|

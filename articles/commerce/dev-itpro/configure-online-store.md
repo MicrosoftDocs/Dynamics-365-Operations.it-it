@@ -1,6 +1,6 @@
 ---
 title: Configura punti vendita online
-description: L'articolo include collegamenti ad argomenti che spiegano come configurare e gestire centralmente un punto vendita online.
+description: L'articolo include collegamenti ad articoli che spiegano come configurare e gestire centralmente un punto vendita online.
 author: kfend
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87607e2c42ee67d62a7ce2e87744e9d9143dcf81
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: c8a5b13189eb93d4df81a427a932b81ab8d830be
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861881"
 ---
 # <a name="configure-online-stores"></a>Configura punti vendita online
 
 [!include [banner](../includes/banner.md)]
 
-L'articolo include collegamenti ad argomenti che spiegano come configurare e gestire centralmente un punto vendita online.
+L'articolo include collegamenti ad articoli che spiegano come configurare e gestire centralmente un punto vendita online.
 
-Gli argomenti elencati nella tabella consentono di configurare i componenti di Commerce e il punto vendita online nel client.
+Gli articoli elencati nella tabella consentono di configurare i componenti di Commerce e il punto vendita online nel client.
 
 ## <a name="configure-an-online-store"></a>Configura un punto vendita online
 
-| Compito                                                | Dettagli                                                                                                                                                                                                                                                                                                                                                   | Argomenti                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Compito                                                | Dettagli                                                                                                                                                                                                                                                                                                                                                   | Articoli                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurare i componenti.                        | Impostare e gestire le informazioni per le operazioni di commercio. Queste informazioni includono i punti vendita, le imposte, i prodotti, le gift card, le promozioni e gli sconti.                                                                                                                                                                                                          | [Impostazione e gestione della vendita al dettaglio](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-retail) (contenuto TechNet per Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
 | Configurare una gerarchia di navigazione nei canali.    | Creare una gerarchia di categorie di navigazione nei canali per impostare una struttura della categoria per i prodotti offerti tramite un negozio online. È possibile definire la gerarchia di categorie e assegnare i prodotti, i gruppi di attributi del prodotto e i valori degli attributi alle categorie. Quindi assegnare la gerarchia di categorie a un negozio online.                            | [Impostare una gerarchia punti vendita al dettaglio](/dynamicsax-2012/appuser-itpro/set-up-a-retail-hierarchy)</br> (contenuto TechNet per AX 2012)</br> [Impostare attributi e tipi di attributo](/dynamicsax-2012/appuser-itpro/set-up-attributes-and-attribute-types) (contenuto TechNet per AX 2012)</br> [Impostare i gruppi di attributi al dettaglio](/dynamicsax-2012/appuser-itpro/set-up-retail-attribute-groups) (contenuto TechNet per AX 2012) |
@@ -41,7 +41,7 @@ Gli argomenti elencati nella tabella consentono di configurare i componenti di C
 
 ## <a name="configure-online-store-products"></a>Configurare i prodotti del negozio online
 
-| Compito                                 | Dettagli                                                                                                                                           | Argomenti                                                                                                                                                                                                                                                                            |
+| Compito                                 | Dettagli                                                                                                                                           | Articoli                                                                                                                                                                                                                                                                            |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Aggiungere gli assortimenti al negozio online. | Aggiungere gli assortimenti che includono i prodotti offerti in un negozio online.                                                                  | [Impostare un negozio online](/dynamicsax-2012/appuser-itpro/set-up-an-online-store) (contenuto TechNet per AX 2012)                                                                                                                                              |
 | Gestire i cataloghi.                     | Utilizzare i cataloghi di prodotti per identificare i prodotti che si desidera offrire nei propri negozi.                                                              | [Attività chiave: creare cataloghi di prodotti al dettaglio](/dynamicsax-2012/appuser-itpro/key-tasks-create-retail-product-catalogs) (contenuto TechNet per AX 2012)                                                                                                                           |
@@ -52,7 +52,7 @@ Gli argomenti elencati nella tabella consentono di configurare i componenti di C
 
 ## <a name="set-up-data-exchange-between-commerce-and-the-online-store"></a>Impostare lo scambio di dati tra Commerce e il punto vendita online
 
-| Compito                                 | Dettagli                                                                                                                               | Argomenti                                                                                                                                                                                                                                                                                  |
+| Compito                                 | Dettagli                                                                                                                               | Articoli                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Impostare i profili di integrazione del canale. | I profili permettono la comunicazione reciproca tra i componenti. Impostare i profili prima di configurare le impostazioni di scambio dei dati. | [Impostare un profilo Real-time Service](/dynamicsax-2012/appuser-itpro/set-up-a-real-time-service-profile) (contenuto TechNet per AX 2012)</br> [Impostare un profilo canale](/dynamicsax-2012/appuser-itpro/set-up-a-channel-profile) (contenuto TechNet per AX 2012) |
 

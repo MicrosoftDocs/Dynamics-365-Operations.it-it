@@ -1,6 +1,6 @@
 ---
 title: Creare un URL di pagina
-description: In questo argomento vengono descritti le procedure e i concetti di base per la creazione di un URL di pagina nel sito.
+description: In questo articolo vengono descritti le procedure e i concetti di base per la creazione di un URL di pagina nel sito.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 923723ce6e3f92c5186cd8a562a6e3fee3fdf70dfe8db29c86192cb1db515b1a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1798c4812b535ef007cbd5ff310b534e64a2f11e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892306"
 ---
 # <a name="create-a-page-url"></a>Creare un URL di pagina
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti le procedure e i concetti di base per la creazione di un URL di pagina nel sito.
+In questo articolo vengono descritti le procedure e i concetti di base per la creazione di un URL di pagina nel sito.
 
 L'URL completo, o assoluto, che punta a una pagina nel sito è costituito da più parti distinte. Ad esempio, l'URL `https://www.contoso.com/en-us/contactus` include le seguenti parti:
 

@@ -1,6 +1,6 @@
 ---
 title: Pianificazione generale con accordi commerciali di acquisto
-description: Questo argomento descrive come utilizzare l'ttimizzazione della pianificazione per trovare il fornitore e/o il lead time per un ordine pianificato, in base al prezzo o al lead time migliore presente negli accordi commerciali di acquisto.
+description: Questo articolo descrive come utilizzare l'ttimizzazione della pianificazione per trovare il fornitore e/o il lead time per un ordine pianificato, in base al prezzo o al lead time migliore presente negli accordi commerciali di acquisto.
 author: t-benebo
 ms.date: 06/29/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: cb790836042506ed6676ee7edbd8bba58191519b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873755"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Pianificazione generale con accordi commerciali di acquisto
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come utilizzare l'ottimizzazione della pianificazione per trovare il fornitore e/o il lead time per un ordine pianificato, in base al prezzo o lead time migliore presente negli accordi commerciali di acquisto specificati per un determinato prodotto.
+Questo articolo descrive come utilizzare l'ottimizzazione della pianificazione per trovare il fornitore e/o il lead time per un ordine pianificato, in base al prezzo o lead time migliore presente negli accordi commerciali di acquisto specificati per un determinato prodotto.
 
 ## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Attivare la funzionalità Accordi commerciali di acquisto per ottimizzazione pianificazione
 

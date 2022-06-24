@@ -1,6 +1,6 @@
 ---
 title: Classi di carico inferiore a quello del camion (LTL)
-description: Questo argomento spiega cosa sono le classi di carico inferiori a quello del camion (LTL) e descrive come configurarle in Microsoft Dynamics 365 Supply Chain Management.
+description: Questo articolo spiega cosa sono le classi di carico inferiori a quello del camion (LTL) e descrive come configurarle in Microsoft Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 04/05/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-05
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a6e05ea7534ee081778a899d5956e6ca7cd104cb
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9ab05e1bc5d0ae2c8b5d98dda32660d2436676e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678068"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857201"
 ---
 # <a name="less-than-truckload-ltl-classes"></a>Classi di carico inferiore a quello del camion (LTL)
 
@@ -33,7 +33,7 @@ Questa funzionalità consente di usare il sistema per svolgere le attività segu
 - Determinare i requisiti di imballaggio per ciascuna classe LTL controllando gli standard internazionali LTL. In questo modo, ti assicuri che i tuoi prodotti saranno ben protetti e spediti in sicurezza.
 - Ottieni stime di spedizione accurate, in base alla classe di trasporto LTL per ogni prodotto.
 
-In questo argomento viene descritto come creare classi LTL in Microsoft Dynamics 365 Supply Chain Management.
+In questo articolo viene descritto come creare classi LTL in Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="create-an-ltl-class"></a>Creare una classe LTL
 

@@ -1,6 +1,6 @@
 ---
 title: Creazione ed elaborazione dei cicli
-description: In questo argomento viene descritto come creare, elaborare e rilasciare un'ondata per creare il lavoro di prelievo per un carico, una spedizione, un ordine di produzione o un ordine kanban.
+description: In questo articolo viene descritto come creare, elaborare e rilasciare un'ondata per creare il lavoro di prelievo per un carico, una spedizione, un ordine di produzione o un ordine kanban.
 author: Mirzaab
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 349285f089ecab00c4c1c0a0315c4223314e3e79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3347db6395b7da396c42f84881060f476346d2e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687506"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851277"
 ---
 # <a name="wave-creation-and-processing"></a>Creazione ed elaborazione dei cicli
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come creare, elaborare e rilasciare un'ondata per creare il lavoro di prelievo per un carico, una spedizione, un ordine di produzione o un ordine kanban. È possibile creare cicli per i seguenti tipi di ordini:
+In questo articolo viene descritto come creare, elaborare e rilasciare un'ondata per creare il lavoro di prelievo per un carico, una spedizione, un ordine di produzione o un ordine kanban. È possibile creare cicli per i seguenti tipi di ordini:
 
 - **Ordini cliente**: utilizza i cicli di spedizione per includere le righe da ordini cliente. Quando un ordine cliente viene rilasciato al magazzino, le righe ordine cliente possono essere incluse nel ciclo.
 - **Ordini di produzione**: utilizza i cicli di produzione per includere le righe dalla distinta base (DBA) per il prodotto.

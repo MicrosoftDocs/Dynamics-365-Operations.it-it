@@ -1,6 +1,6 @@
 ---
 title: Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto
-description: In questo argomento viene illustrato mostra come impostare una voce di menu Dispositivo mobile.
+description: In questo articolo viene illustrato mostra come impostare una voce di menu Dispositivo mobile.
 author: Mirzaab
 ms.date: 08/02/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d18b0ab1057dbccdd45a52a58f80ef9346e4459f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 09286e8e482780523b61006081205868be487755
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565179"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882288"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Impostare una voce di menu del dispositivo mobile per ultimare i lavori di tipo ordine acquisto
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene illustrato mostra come impostare una voce di menu Dispositivo mobile. In questo esempio, la voce di menu è utilizzata per eseguire lavori di tipo ordine fornitore. Il lavoro valido è determinato dalla classe di lavoro associata alla voce di menu. È possibile utilizzare questa guida nella società di dati dimostrativi USMF. In genere, questa procedura viene eseguita da un responsabile del magazzino.
+In questo articolo viene illustrato mostra come impostare una voce di menu Dispositivo mobile. In questo esempio, la voce di menu è utilizzata per eseguire lavori di tipo ordine fornitore. Il lavoro valido è determinato dalla classe di lavoro associata alla voce di menu. È possibile utilizzare questa guida nella società di dati dimostrativi USMF. In genere, questa procedura viene eseguita da un responsabile del magazzino.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Creare una voce di menu per dispositivo mobile

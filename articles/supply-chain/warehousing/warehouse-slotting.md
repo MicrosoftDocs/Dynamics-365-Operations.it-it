@@ -1,6 +1,6 @@
 ---
 title: Assegnazione magazzino
-description: Questo argomento fornisce informazioni sull'assegnazione magazzino. L'assegnazione magazzino consente di consolidare la domanda per articolo e unità di misura dagli ordini con stato Ordinato, Prenotato o Rilasciato. Aiuta i responsabili del magazzino a pianificare in modo intelligente le ubicazioni di prelievo prima di rilasciare ordini al magazzino e creare attività di prelievo.
+description: Questo articolo fornisce informazioni sull'assegnazione magazzino. L'assegnazione magazzino consente di consolidare la domanda per articolo e unità di misura dagli ordini con stato Ordinato, Prenotato o Rilasciato. Aiuta i responsabili del magazzino a pianificare in modo intelligente le ubicazioni di prelievo prima di rilasciare ordini al magazzino e creare attività di prelievo.
 author: Mirzaab
 ms.date: 11/13/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e057992b15f0a1fa76a78ef78ea9aeea3c088be9
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: a5ce900d7698c7d8211ce1e8b7d529ab79a28915
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676301"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897257"
 ---
 # <a name="warehouse-slotting"></a>Assegnazione magazzino
 
@@ -156,7 +156,7 @@ Per ogni modello di ordine cliente creato, attenersi alla seguente procedura per
 
     - **Livello unità di misura:** _EaBoxPl_
 
-        Questo campo definisce le unità di misura della domanda valide per la riga. Per ulteriori informazioni, vedi la sezione [Impostare livelli di unità di misura per l'assegnazione](#unit-tiers) descritta in precedenza in questo argomento.
+        Questo campo definisce le unità di misura della domanda valide per la riga. Per ulteriori informazioni, vedi la sezione [Impostare livelli di unità di misura per l'assegnazione](#unit-tiers) descritta in precedenza in questo articolo.
 
     - **Criteri assegnazione fascia:** _Consider qtà_
 

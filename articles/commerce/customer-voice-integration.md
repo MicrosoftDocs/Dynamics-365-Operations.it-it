@@ -1,6 +1,6 @@
 ---
 title: Integrare Customer Voice nelle pagine del sito di e-commerce
-description: Questo argomento descrive come integrare Microsoft Dynamics 365 Customer Voice nelle pagine di un sito di e-commerce Dynamics 365 Commerce.
+description: Questo articolo descrive come integrare Microsoft Dynamics 365 Customer Voice nelle pagine di un sito di e-commerce Dynamics 365 Commerce.
 author: samjarawan
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 272ec1a59ed45b2d2336dcfea16051d27011360f
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: c8c67ecf4950c92fc91c8d119e06e5e8afff0ddf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850332"
 ---
 # <a name="integrate-customer-voice-into-e-commerce-site-pages"></a>Integrare Customer Voice nelle pagine del sito di e-commerce
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come integrare Microsoft Dynamics 365 Customer Voice nelle pagine di un sito di e-commerce Dynamics 365 Commerce.
+Questo articolo descrive come integrare Microsoft Dynamics 365 Customer Voice nelle pagine di un sito di e-commerce Dynamics 365 Commerce.
 
 Puoi integrare [Customer Voice](https://dynamics.microsoft.com/customer-voice/overview/) nel tuo sito di e-commerce per raccogliere, analizzare e tenere traccia dei feedback dei clienti in tempo reale. Per iniziare l'integrazione, devi creare un account e selezionare un modello di progetto Customer Voice per il tipo di feedback che desideri raccogliere.
 
@@ -37,7 +37,7 @@ Per selezionare un modello di progetto di Customer Voice, attieniti alla seguent
 1. Seleziona il modello di progetto per il tipo di feedback che desideri raccogliere, quindi seleziona **Avanti**.
 1. Sulla scheda **Invia** sotto **Scegli un formato di incorporamento**, seleziona un formato di incorporamento. Il campo **Codice incorporamento** mostra il codice che deve essere incorporato in Creazione di siti di Commerce.
 
-Gli esempi in questo argomento usano il modello di progetto **Sondaggio periodico dei clienti** e il formato di incorporamento **Pulsante**.
+Gli esempi in questo articolo usano il modello di progetto **Sondaggio periodico dei clienti** e il formato di incorporamento **Pulsante**.
 
 L'illustrazione di esempio seguente mostra la pagina del modello di progetto **Sondaggio periodico dei clienti**, dove l'opzione per il formato di incorporamento **Pulsante** è selezionata e il codice di incorporamento per tale opzione viene visualizzato nel campo **Codice incorporamento**. Sono necessarie tre azioni separate per incorporare il codice fornito nelle pagine del tuo sito, come descritto nelle sezioni seguenti.
 

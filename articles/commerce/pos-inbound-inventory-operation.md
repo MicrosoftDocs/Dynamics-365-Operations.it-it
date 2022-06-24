@@ -1,6 +1,6 @@
 ---
 title: Operazione di magazzino in ingresso in POS
-description: Questo argomento descrive le funzionalità dell'operazione di magazzino in entrata del punto vendita (POS).
+description: Questo articolo descrive le funzionalità dell'operazione di magazzino in entrata del punto vendita (POS).
 author: hhaines
 ms.date: 09/17/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbabcaafee74b4d0a1ca8ef79de94376a7764aa3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741784"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858884"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operazione di magazzino in ingresso in POS
 
@@ -215,7 +215,7 @@ Quando il documento in bozza viene correttamente inviato a Commerce Headquarters
 
 Quando il documento è nello stato **Richiesto**, è visibile nella scheda **Attivi**. Tuttavia, non può ancora essere ricevuto dal negozio o dal magazzino in entrata. Dopo che il magazzino in uscita ha spedito completamente o parzialmente l'ordine di trasferimento, il negozio o il magazzino in entrata possono registrare le entrate nel POS. Quando il lato in uscita elabora i documenti ordine di trasferimento, lo stato viene aggiornato da **Richiesto** a **Spedito** o **Parzialmente spedito**. Dopo che i documenti sono nello stato **Spedito** o **Parzialmente spedito**, il negozio o il magazzino in entrata possono registrare le entrate utilizzando il processo di ricezione dell'operazione in entrata.
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Operazione di magazzino in uscita in POS](pos-outbound-inventory-operation.md)
 

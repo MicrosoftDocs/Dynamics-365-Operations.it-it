@@ -1,6 +1,6 @@
 ---
 title: Introduzione alla Contabilità inventario globale
-description: Questo argomento descrive come iniziare a usare la Contabilità inventario globale.
+description: Questo articolo descrive come iniziare a usare la Contabilità inventario globale.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 17d4816fc5fcad0b0665640a8347b1f4ea032dd7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 493e0be8ab56abc2a3253876107b7f4fefabf4ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679445"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891091"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introduzione alla Contabilità inventario globale
 
@@ -38,12 +38,18 @@ Contabilità inventario globale è un componente aggiuntivo. Per rendere disponi
 
 Contabilità inventario globale attualmente non supporta tutte le funzionalità di gestione dei costi integrate in Supply Chain Management. Pertanto, è importante valutare se il set di funzionalità attualmente disponibile soddisfa i requisiti.
 
-## <a name="how-to-get-the-global-inventory-accounting-public-preview"></a><a name="sign-up"></a>Come ottenere l'anteprima pubblica di Contabilità inventario globale
+## <a name="how-to-get-the-global-inventory-accounting-add-in"></a><a name="sign-up"></a>Come ottenere il componente aggiuntivo Contabilità inventario globale
 
 > [!IMPORTANT]
 > Per utilizzare Contabilità inventario globale, è necessario disporre di un ambiente ad alta disponibilità abilitato per LCS (non un ambiente OneBox). Inoltre, è necessario eseguire Supply Chain Management versione 10.0.19 o successiva.
 
-Per iscriverti all'anteprima pubblica di Contabilità inventario globale, invia il tuo ID ambiente LCS via e-mail al [Team di Contabilità inventario globale](mailto:GlobalInvAccount@microsoft.com). Dopo che sei stato approvato per il programma, il team ti invierà un'e-mail di follow-up che contiene una chiave beta di Contabilità inventario globale e gli endpoint del servizio. Dopo aver ricevuto la chiave beta, puoi [installare il componente aggiuntivo](#install).
+### <a name="supply-chain-management-version-10019-to-10026"></a>Supply Chain Management versione da 10.0.19 a 10.0.26
+
+Per installare Contabilità inventario globale per Supply Chain Management dalla versione 10.0.19 alla 10.0.26, inizia [installando il componente aggiuntivo](#install). Quindi invia l'ID dell'ambiente LCS e il nome dell'azienda tramite e-mail al [Team di contabilità inventario globale](mailto:GlobalInvAccount@microsoft.com). Il team ti invierà un'e-mail di completamento che contiene gli endpoint del servizio di contabilità inventario globale.
+
+### <a name="supply-chain-management-version-10027-and-later"></a>Supply Chain Management versione 10.0.27 e successive
+
+Per installare Contabilità inventario globale per Supply Chain Management dalla versione 10.0.27 e successive, [installa il componente aggiuntivo](#install). Per queste versioni di Supply Chain Management, gli endpoint del servizio Contabilità inventario globale verranno impostati automaticamente, quindi non è necessario trovarli manualmente. In caso di problemi durante la configurazione del componente aggiuntivo, contatta il [Team di contabilità inventario globale](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Licenze
 
@@ -84,7 +90,7 @@ Quindi, crea gli utenti dell'applicazione per Contabilità inventario globale in
 1. Selezionare **Impostazioni avanzate \> Sistema \> Sicurezza \> Utenti** e creare un utente applicazione. Utilizza il campo **Visualizza** per cambiare la visualizzazione della pagina in *Utenti applicazione*.
 1. Selezionare **Nuovo**.
 1. Impostare il campo **ID applicazione** su *7a1dd80f-c961-4a67-a2f5-d6a5d2f52cf9*.
-1. Selezionare **Assegna ruolo** e quindi selezionare *Amministratore di sistema*. Se è presente un ruolo denominato *Utente Common Data Service*, selezionarlo.
+1. Selezionare **Assegna ruolo** e quindi selezionare *Amministratore di sistema*. Se è presente un ruolo denominato *Utente Common Data Service*, selezionalo.
 1. Ripeti i passaggi precedenti, ma imposta il campo **ID applicazione** su *5f58fc56-0202-49a8-ac9e-0946b049718b*.
 
 Per ulteriori informazioni, vedere [Creare un utente applicazione](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
@@ -98,12 +104,7 @@ Se la lingua predefinita dell'installazione di Dataverse non è inglese, segui q
 
 Segui questi passaggi per installare il componente aggiuntivo in modo da poter utilizzare Contabilità inventario globale.
 
-1. [Iscriviti](#sign-up) per l'anteprima pubblica di Contabilità inventario globale.
 1. Accedere a [LCS](https://lcs.dynamics.com/Logon/Index).
-1. Accedere a **Gestione funzionalità di anteprima**.
-1. Selezionare il segno più (**+**).
-1. Nel campo **Codice**, inserisci la chiave beta del componente aggiuntivo Contabilità inventario globale. Dovresti aver ricevuto la tua chiave beta via e-mail quando ti sei registrato.
-1. Selezionare **Sblocca**.
 1. Aprire l'ambiente LCS in cui si desidera aggiungere il servizio.
 1. Andare a **Dettagli completi**.
 1. Vai a **Integrazione di Power Platform** e seleziona **Impostazioni**.
@@ -124,6 +125,8 @@ Segui questi passaggi per impostare l'integrazione tra Contabilità inventario g
 1. Nella scheda **Tutti** cerca la funzione denominata *(Anteprima) Contabilità inventario globale*.
 1. Selezionare **Abilita ora**.
 1. Vai a **Contabilità inventario globale \> Impostazioni \> Parametri contabilità inventario globale \> Parametri integrazione**.
-1. Nei campi **Endpoint servizio dati** e **Endpoint contabilità inventario globale** inserisci gli URL dall'e-mail che il team di contabilità inventario globale ha inviato quando ti sei registrato per l'anteprima.
+1. A seconda della versione di Supply Chain Management in esecuzione, esegui una delle seguenti operazioni:
+    - **Supply Chain Management dalla versione 10.0.19 a 10.0.26**: Nei campi **Endpoint del servizio dati** ed **Endpoint di contabilità inventario globale**, inserisci gli URL che ti sono stati inviati via e-mail dal team Contabilità inventario globale (vedi anche [Come ottenere il componente aggiuntivo Contabilità inventario globale](#sign-up)).
+    - **Supply Chain Management versione 10.0.27 e successive**: non è necessario inserire gli endpoint, quindi puoi saltare questo passaggio.
 
 Contabilità inventario globale è ora pronto per l'uso.

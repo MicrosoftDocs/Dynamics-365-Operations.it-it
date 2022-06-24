@@ -1,6 +1,6 @@
 ---
-title: Configura scheda processo per dispositivi
-description: Questo argomento descrive le varie opzioni per la configurazione del dispositivo scheda processo.
+title: Configurare la scheda processo per dispositivi
+description: Questo articolo descrive le varie opzioni per la configurazione del dispositivo scheda processo.
 author: johanhoffmann
 ms.date: 05/29/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4c7a9585d96a1e08790e0f3c972e704971f27dc0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860727"
 ---
 # <a name="configure-job-card-for-devices"></a>Configura scheda processo per dispositivi
 
 [!include [banner](../includes/banner.md)]
 
-Il dispositivo scheda processo viene utilizzato dai lavoratori del reparto produzione per registrare il loro lavoro quotidiano, ad esempio ora di inizio dei lavori, feedback sui lavori, registrazione delle attività indirette e segnalazione delle assenze. Queste registrazioni sono la base per monitorare l'avanzamento e il costo degli ordini di produzione e per calcolare la base per la retribuzione dei lavoratori. Questo argomento descrive le varie opzioni per la configurazione dei dispositivi scheda processo.
+Il dispositivo scheda processo viene utilizzato dai lavoratori del reparto produzione per registrare il loro lavoro quotidiano, ad esempio ora di inizio dei lavori, feedback sui lavori, registrazione delle attività indirette e segnalazione delle assenze. Queste registrazioni sono la base per monitorare l'avanzamento e il costo degli ordini di produzione e per calcolare la base per la retribuzione dei lavoratori. Questo articolo descrive le varie opzioni per la configurazione dei dispositivi scheda processo.
 
 ## <a name="enable-new-features-in-feature-management"></a>Abilitare nuove funzionalità nella gestione delle funzionalità
 
-Alcune delle impostazioni descritte in questo argomento devono essere abilitate nel sistema affinché siano disponibili. Utilizzare la pagina [Gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare una o tutte le seguenti funzionalità come richiesto.
+Alcune delle impostazioni descritte in questo articolo devono essere abilitate nel sistema affinché siano disponibili. Utilizzare la pagina [Gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare una o tutte le seguenti funzionalità come richiesto.
 
 ### <a name="generate-license-plate"></a>Genera targa
 

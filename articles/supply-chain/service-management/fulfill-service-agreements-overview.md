@@ -1,6 +1,6 @@
 ---
-title: Panoramica sulla gestione dei contratti di assistenza
-description: In questo argomento viene fornita una panoramica delle attività per l'adempimento dei contratti di assistenza.
+title: Panoramica adempimento dei contratti di assistenza
+description: In questo articolo viene fornita una panoramica delle attività per l'adempimento dei contratti di assistenza.
 author: sorenva
 ms.date: 05/03/2018
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c0331477a815c7404faa9bde43275415c3994fd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 920ac245c94d87ac692b173012e88dc8c1352f8f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677200"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852101"
 ---
-# <a name="fulfill-service-agreements-overview"></a>Panoramica sulla gestione dei contratti di assistenza
+# <a name="fulfill-service-agreements-overview"></a>Panoramica adempimento dei contratti di assistenza
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica delle attività per l'adempimento dei contratti di assistenza. Vengono inoltre elencati i moduli associati a ciascun componente del processo aziendale e vengono illustrate le attività associate a ciascuno dei componenti.
+In questo articolo viene fornita una panoramica delle attività per l'adempimento dei contratti di assistenza. In questo articolo vengono inoltre elencati i moduli associati a ciascun componente del processo aziendale e vengono illustrate le attività associate a ciascuno dei componenti.
 
 ## <a name="forms-for-the-fulfill-service-contracts-business-process-components"></a>Moduli dei componenti del processo aziendale relativo alla gestione dei contratti di assistenza
 

@@ -1,6 +1,6 @@
 ---
 title: Esempio di integrazione del servizio di registrazione fiscale per l'Austria
-description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Austria in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per l'Austria in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 826c1cb0fba7025b16dadbfa6157683392945103
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 099c3630d035ea673342d8345cd8f65dbd6db6a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873360"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Esempio di integrazione del servizio di registrazione fiscale per l'Austria
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Austria in Microsoft Dynamics 365 Commerce.
+In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per l'Austria in Microsoft Dynamics 365 Commerce.
 
 Per soddisfare i requisiti fiscali locali per i registratori di cassa in Austria, la funzionalità Dynamics 365 Retail per l'Austria include un esempio di integrazione del point of sale (POS) con un servizio di registrazione fiscale esterno. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Si basa sulla soluzione [EFR (Registro Fiscale Elettronico)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) di [EFSTA](https://www.efsta.eu/at/) e consente la comunicazione con il servizio EFR tramite il protocollo HTTPS. Il servizio EFR deve essere ospitato sulla stazione hardware Retail o su una macchina separata a cui è possibile connettersi dalla stazione hardware. L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
 

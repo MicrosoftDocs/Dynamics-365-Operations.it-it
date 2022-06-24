@@ -1,6 +1,6 @@
 ---
 title: Richieste di informazioni e report sui materiali pericolosi
-description: Questo argomento spiega come lavorare con i vari report relativi ai materiali pericolosi. Molti di questi report sono necessari per mantenere la conformità con le varie normative sui materiali pericolosi durante la spedizione e lo stoccaggio.
+description: Questo articolo spiega come lavorare con i vari report relativi ai materiali pericolosi. Molti di questi report sono necessari per mantenere la conformità con le varie normative sui materiali pericolosi durante la spedizione e lo stoccaggio.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568545"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846042"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Richieste di informazioni e report sui materiali pericolosi
 
@@ -63,7 +63,7 @@ Per visualizzare questo report andare a **Gestione informazioni sul prodotto \> 
 
 Per ulteriori informazioni su come impostare i limiti delle scorte per un prodotto rilasciato, vedere [Impostare i limiti delle scorte per prodotti pericolosi](hazmat-items.md#stock-limits).
 
-La normativa utilizzata per i limiti delle scorte è definita nella pagina **Parametri di gestione magazzino**. Andare a **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino** e quindi nella scheda **Report**, in **Limite delle scorte di materiali pericolosi**, specificare un codice normativa. Per ulteriori informazioni, vedere la sezione [Impostare la creazione di report sui materiali pericolosi](#set-up) più indietro in questo argomento.
+La normativa utilizzata per i limiti delle scorte è definita nella pagina **Parametri di gestione magazzino**. Andare a **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino** e quindi nella scheda **Report**, in **Limite delle scorte di materiali pericolosi**, specificare un codice normativa. Per ulteriori informazioni, vedi la sezione [Impostare la creazione di report sui materiali pericolosi](#set-up) più indietro in questo articolo.
 
 ## <a name="verified-gross-mass-report"></a>Report sulla massa lorda verificata
 

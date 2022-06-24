@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: f3e94cc79f0daac9107f9876ac8414d2c4cff366
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e3ec1f59e0b1d202d5591bfc1525c9034f4d8f45
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893122"
 ---
 # <a name="zone-threshold-replenishment"></a>Rifornimento soglia di zona
 
@@ -45,7 +45,7 @@ Prima di poter utilizzare la funzionalità *Rifornimento soglia di zona*, deve e
 
 ## <a name="set-up-zone-based-replenishment"></a><a name="setup"></a>Impostare il rifornimento basato su zone
 
-Per impostare un rifornimento basato sulla zona, è necessario configurare diverse parti del sistema. Questa sezione introduce le varie impostazioni e fornisce valori di dati dimostrativi che puoi immettere se desideri analizzare lo scenario alla fine di questo argomento.
+Per impostare un rifornimento basato sulla zona, è necessario configurare diverse parti del sistema. Questa sezione introduce le varie impostazioni e fornisce valori di dati dimostrativi che puoi immettere se desideri analizzare lo scenario alla fine di questo articolo.
 
 ### <a name="set-up-directive-codes"></a>Impostare i codici direttiva
 
@@ -57,7 +57,7 @@ Per visualizzare o modificare i codici direttiva, vai a **Gestione magazzino \> 
 
 #### <a name="prepare-demo-data-directive-codes"></a>Preparare i codici direttiva per i dati dimostrativi
 
-Questo esempio mostra come preparare un codice direttiva. Se prevedi di analizzare lo scenario alla fine di questo argomento, utilizza i valori dei dati dimostrativi forniti qui. Altrimenti, usa i tuoi valori.
+Questo esempio mostra come preparare un codice direttiva. Se prevedi di analizzare lo scenario alla fine di questo articolo, utilizza i valori dei dati dimostrativi forniti qui. Altrimenti, usa i tuoi valori.
 
 1. Seleziona la persona giuridica **USMF** che deve utilizzare i dati dimostrativi.
 1. Vai a **Gestione magazzino \> Impostazioni \> Codici di direttiva**.
@@ -79,7 +79,7 @@ Un modello di rifornimento è un set di regole che controlla quando e come effet
 
 #### <a name="prepare-a-demo-data-replenishment-template"></a>Preparare un modello di rifornimento dei dati dimostrativi
 
-Questo esempio mostra come preparare un modello di rifornimento. Se prevedi di analizzare lo scenario alla fine di questo argomento, utilizza i valori dei dati dimostrativi forniti qui. Altrimenti, usa i tuoi valori.
+Questo esempio mostra come preparare un modello di rifornimento. Se prevedi di analizzare lo scenario alla fine di questo articolo, utilizza i valori dei dati dimostrativi forniti qui. Altrimenti, usa i tuoi valori.
 
 1. Seleziona la persona giuridica **USMF** che deve utilizzare i dati dimostrativi.
 1. Vai a **Gestione magazzino \> Impostazione \> Rifornimento \> Modelli di rifornimento**.
@@ -144,7 +144,7 @@ Per esempi che mostrano come utilizzare le impostazioni per creare le direttive 
 
 #### <a name="prepare-demo-data-location-directives"></a>Preparare le direttive sull'ubicazione per i dati dimostrativi
 
-Per preparare i dati dimostrativi in modo che possano essere utilizzati nello scenario alla fine di questo argomento, è necessario creare due direttive di ubicazione: una per il prelievo e una per lo stoccaggio.
+Per preparare i dati dimostrativi in modo che possano essere utilizzati nello scenario alla fine di questo articolo, è necessario creare due direttive di ubicazione: una per il prelievo e una per lo stoccaggio.
 
 ##### <a name="create-a-replenishment-pick-directive"></a>Creare una direttiva di prelievo di rifornimento
 
@@ -258,7 +258,7 @@ Questa sezione fornisce uno scenario di esempio che mostra come utilizzare la fu
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-sample-scenario"></a>Preparare i dati di esempio richiesti per lo scenario di esempio
 
-Prima di iniziare ad analizzare lo scenario, devi attivare i dati di esempio e impostare la funzionalità come descritto in questa sezione e nelle sezioni precedenti di questo argomento.
+Prima di iniziare ad analizzare lo scenario, devi attivare i dati di esempio e impostare la funzionalità come descritto in questa sezione e nelle sezioni precedenti di questo articolo.
 
 #### <a name="use-the-usmf-legal-entity"></a>Utilizzare la persona giuridica USMF
 
@@ -266,7 +266,7 @@ Per elaborare lo scenario utilizzando i record e i valori di esempio specificati
 
 #### <a name="prepare-additional-sample-data"></a>Preparare altri dati di esempio
 
-Dopo aver selezionato la persona giuridica **USMF**, aggiungi i dati di esempio aggiuntivi richiesti, come descritto nella sezione [Impostare il rifornimento basato su zone](#setup) precedente in questo argomento.
+Dopo aver selezionato la persona giuridica **USMF**, aggiungi i dati di esempio aggiuntivi richiesti, come descritto nella sezione [Impostare il rifornimento basato su zone](#setup) precedente in questo articolo.
 
 #### <a name="check-your-on-hand-inventory"></a>Controllare le scorte disponibili
 

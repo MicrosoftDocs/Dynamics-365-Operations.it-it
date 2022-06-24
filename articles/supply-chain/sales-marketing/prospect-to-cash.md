@@ -1,6 +1,6 @@
 ---
-title: Prospect to cash
-description: Questo argomento offre una panoramica della soluzione Prospect to cash tra Dynamics 365 Supply Chain Management e Dynamics 365 Sales.
+title: Prospect per uno scenario di liquidazione
+description: Questo articolo offre una panoramica della soluzione Prospect to cash tra Dynamics 365 Supply Chain Management e Dynamics 365 Sales.
 author: Henrikan
 ms.date: 04/25/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b96f22d711ce5b34c2f8de5a86caf5f89dd3f337
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578994"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857230"
 ---
 # <a name="prospect-to-cash"></a>Prospect per uno scenario di liquidazione
 

@@ -1,6 +1,6 @@
 ---
-title: Documenti cespiti
-description: In questo argomento vengono descritti i documenti di cespiti in Gestione cespiti.
+title: Documenti del cespite
+description: In questo articolo vengono descritti i documenti di cespiti in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77b7265b1ba56dbd1cd955f5d90afea02f589ce2eebdd05a2fef3a7ddebc0ee1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2e8d72dc938c43e266c6b7c39329f827c56607a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899471"
 ---
-# <a name="asset-documents"></a>Documenti cespiti
+# <a name="asset-documents"></a>Documenti del cespite
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-In questo argomento vengono descritti i documenti di cespiti in Gestione cespiti.
+In questo articolo vengono descritti i documenti di cespiti in Gestione cespiti.
 
 In Gestione cespiti, è possibile impostare documenti in modo da correlarli automaticamente ai tipi di processo, ai produttori cespite, tipi del cespite, o ai cespiti, ad esempio. Questa funzionalità è utile quando versioni aggiornate dei documenti vengono rilasciate. In questo caso, è sufficiente mettere il documento aggiornato nell'ubicazione standard utilizzata per i documenti Supply Chain Management e collegare il documento al record documenti cespiti creato. Il documento aggiornato potrà quindi essere accessibile tramite **Tutti i cespiti**, **Cespiti attivi**, **Cespiti attivi personali**, **Tutti gli ordini di lavoro** e **Processi ordini di lavoro attivi**. Il processo per collegare documenti a un record documenti cespiti utilizza il sistema di gestione documenti standard.
 

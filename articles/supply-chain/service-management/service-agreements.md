@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 559f4571a60ea8ec048b291e3b6a0a93e8bc9d44
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: cf28619e66fa5d3e86bdbb3838dc7f711916bcec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677704"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905604"
 ---
 # <a name="develop-and-establish-service-agreements-overview"></a>Panoramica dello sviluppo e della definizione dei contratti di assistenza
 
@@ -72,7 +72,7 @@ In ogni riga del contratto di assistenza viene descritto dettagliatamente il con
 -  Eventuale sospensione della riga. Non è possibile creare ordini di assistenza per una riga sospesa.
 -  Impostazioni del progetto, ad esempio categoria e proprietà riga.
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Creare contratti di assistenza](create-service-agreements.md)
 

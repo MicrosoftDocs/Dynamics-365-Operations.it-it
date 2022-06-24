@@ -1,6 +1,6 @@
 ---
 title: Creare relazioni di oggetti assistenza
-description: In questo argomento viene descritto come creare relazioni di oggetti assistenza per un contratto di assistenza e un ordine di assistenza.
+description: In questo articolo viene descritto come creare relazioni di oggetti assistenza per un contratto di assistenza e un ordine di assistenza.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4178132b03cd146aacbcbb8bf8e1e774a161726c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677228"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890656"
 ---
 # <a name="create-service-object-relations"></a>Creare relazioni di oggetti assistenza 
 
 [!include [banner](../includes/banner.md)]
 
 
-In questo argomento viene descritto come creare relazioni di oggetti assistenza per un contratto di assistenza e un ordine di assistenza. Per creare una relazione dell'oggetto di assistenza, associare l'oggetto assistenza a un contratto o all'ordine di assistenza. Quando un cliente richiede il servizio per un articolo che è un oggetto assistenza, è possibile selezionare l'oggetto assistenza dall'elenco delle relazioni di oggetti assistenza.
+In questo articolo viene descritto come creare relazioni di oggetti assistenza per un contratto di assistenza e un ordine di assistenza. Per creare una relazione dell'oggetto di assistenza, associare l'oggetto assistenza a un contratto o all'ordine di assistenza. Quando un cliente richiede il servizio per un articolo che è un oggetto assistenza, è possibile selezionare l'oggetto assistenza dall'elenco delle relazioni di oggetti assistenza.
 
 ## <a name="create-a-service-object-relation-for-a-service-agreement"></a>Creare una relazione dell'oggetto di assistenza per un contratto di assistenza
 

@@ -1,6 +1,6 @@
 ---
-title: Codici motivo conteggio scorte
-description: In questo argomento viene descritto come impostare e applicare i codici motivo ai fini delle attività di conteggio
+title: Codici motivo per il conteggio inventario
+description: In questo articolo viene descritto come impostare e applicare i codici motivo ai fini delle attività di conteggio
 author: perlynne
 ms.date: 08/02/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 7d182f1d979543eeec700924d2bd180ee06be8ce
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500592"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857114"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Codici motivo conteggio scorte
 
@@ -42,7 +42,7 @@ Prima di impostare il sistema, si consiglia di definire una strategia per la ges
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Attivare le funzionalità del codice motivo nel sistema
 
-Se non vedi tutte le funzionalità descritte in questo argomento nel tuo sistema, probabilmente devi attivare la funzionalità *Registrare le rettifiche delle scorte disponibili utilizzando codici motivo configurabili collegati ai conti di contropartita*. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Se non vedi tutte le funzionalità descritte in questo articolo nel tuo sistema, probabilmente devi attivare la funzionalità *Registrare le rettifiche delle scorte disponibili utilizzando codici motivo configurabili collegati ai conti di contropartita*. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Registrare le rettifiche delle scorte disponibili utilizzando codici motivo configurabili collegati ai conti di contropartita*
@@ -111,7 +111,7 @@ Per impostare i codici motivo di conteggio, procedi come descritto di seguito.
 
 ### <a name="set-up-counting-reason-code-groups"></a><a name="reason-groups"></a>Impostare gruppi di codici motivo di conteggio
 
-*Gruppi di codici motivo di conteggio* può essere utilizzato come parte delle voci di menu *Rettifica in entrata* e *Rettifica in uscita* nell'app per dispositivi mobili Warehouse Management per limitare l'elenco dei codici motivo di conteggio. (Per ulteriori informazioni sui gruppi di codici motivo di conteggio, vedi la sezione [Impostare le voci di menu del dispositivo mobile per la rettifica in entrata e in uscita](#setup-adjustment-in-out) più avanti in questo argomento.)
+*Gruppi di codici motivo di conteggio* può essere utilizzato come parte delle voci di menu *Rettifica in entrata* e *Rettifica in uscita* nell'app per dispositivi mobili Warehouse Management per limitare l'elenco dei codici motivo di conteggio. (Per ulteriori informazioni sui gruppi di codici motivo di conteggio, vedi la sezione [Impostare le voci di menu del dispositivo mobile per la rettifica in entrata e in uscita](#setup-adjustment-in-out) più avanti in questo articolo.)
 
 1. Vai a **Gestione inventario** \> **Impostazioni** \> **Inventario** \> **Gruppi di codici motivo di conteggio**.
 1. Nel riquadro azioni selezionare **Nuovo** per aggiungere un gruppo.
@@ -174,7 +174,7 @@ Per configurare una voce di menu del dispositivo mobile per la rettifica in entr
         - *Nascondi* – Non mostrare il codice motivo.
 
     - **Modifica codice motivo conteggio** - Imposta questa opzione su *Sì* per consentire al lavoratore di modificare il codice motivo quando viene visualizzato sul dispositivo mobile durante il conteggio. Impostalo su *No* per impedire al lavoratore di modificare il codice.
-    - **Gruppo codici motivo conteggio** – Seleziona un gruppo di codici motivo se vuoi limitare l'elenco di opzioni presentato ai lavoratori. Per informazioni su come impostare i gruppi di codici motivo, vedi la sezione [Impostare gruppi di codici motivo di conteggio](#reason-groups) precedente in questo argomento. 
+    - **Gruppo codici motivo conteggio** – Seleziona un gruppo di codici motivo se vuoi limitare l'elenco di opzioni presentato ai lavoratori. Per informazioni su come impostare i gruppi di codici motivo, vedi la sezione [Impostare gruppi di codici motivo di conteggio](#reason-groups) precedente in questo articolo. 
 
 > [!NOTE]
 > Quando assegni un gruppo di codici motivo di conteggio alle voci di menu *Rettifica in entrata* e *Rettifica in uscita* in cui l'opzione **Usa guida processo** è impostata su *Sì*, puoi ottenere un elenco limitato dei codici motivo di conteggio come parte dell'elaborazione nell'app per dispositivi mobili Warehouse Management.

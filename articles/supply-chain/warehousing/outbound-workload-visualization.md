@@ -1,6 +1,6 @@
 ---
 title: Visualizzazione del carico di lavoro in uscita
-description: Questo argomento fornisce informazioni sulla visualizzazione del carico di lavoro. Questa funzionalità consente ai responsabili del magazzino e ai supervisori di creare grafici del carico di lavoro personalizzati che possono essere utilizzati per monitorare lo stato di avanzamento del lavoro corrente e la quantità rimanente. I responsabili del magazzino possono creare più visualizzazioni e impostare l'aggiornamento automatico come richiesto.
+description: Questo articolo fornisce informazioni sulla visualizzazione del carico di lavoro. Questa funzionalità consente ai responsabili del magazzino e ai supervisori di creare grafici del carico di lavoro personalizzati che possono essere utilizzati per monitorare lo stato di avanzamento del lavoro corrente e la quantità rimanente. I responsabili del magazzino possono creare più visualizzazioni e impostare l'aggiornamento automatico come richiesto.
 author: Mirzaab
 ms.date: 08/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db6ceb40279e53e9c4751a7ceb3db895e889a7c0
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 0e5a2cd2aa458217ff212d45c0dd13c9d0623bd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851335"
 ---
 # <a name="outbound-workload-visualization"></a>Visualizzazione del carico di lavoro in uscita
 

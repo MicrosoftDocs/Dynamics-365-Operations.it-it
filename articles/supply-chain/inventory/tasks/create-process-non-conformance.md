@@ -1,6 +1,6 @@
 ---
 title: Creare ed elaborare non conformità
-description: In questo argomento viene descritto come eseguire la gestione di non conformità, in base a un ordine di controllo qualità esistente.
+description: In questo articolo viene descritto come eseguire la gestione di non conformità, in base a un ordine di controllo qualità esistente.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032f5b712c2be5312524129cd25e655e778f5f44
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dd8a10e88ab4d1be24a11739dddd7619b3fa6bbc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901968"
 ---
 # <a name="create-and-process-nonconformances"></a>Creare ed elaborare non conformità
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come eseguire la gestione di non conformità, in base a un ordine di controllo qualità esistente. In genere, la gestione della non conformità viene eseguita da un addetto alla qualità. Come prerequisito, è necessario disporre di un ordine di controllo qualità. (Per informazioni su come creare un ordine di controllo qualità, vedere [Verificare la qualità delle merci](inspect-quality-goods.md).)
+In questo articolo viene descritto come eseguire la gestione di non conformità, in base a un ordine di controllo qualità esistente. In genere, la gestione della non conformità viene eseguita da un addetto alla qualità. Come prerequisito, è necessario disporre di un ordine di controllo qualità. (Per informazioni su come creare un ordine di controllo qualità, vedere [Verificare la qualità delle merci](inspect-quality-goods.md).)
 
 Prima che un utente possa elaborare l'approvazione di una non conformità, è necessario che gli venga assegnato un lavoratore nel campo **Persona** della pagina **Utenti**. Inoltre, prima che l'utente possa utilizzare le note del documento, l'opzione **Attiva gestione documenti** deve essere impostata su *Sì* nelle relative opzioni utente.
 

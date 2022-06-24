@@ -1,6 +1,6 @@
 ---
 title: Ubicazione uscita produzione
-description: Questo argomento descrive la gerarchia utilizzata per identificare l'ubicazione uscita produzione.
+description: Questo articolo descrive la gerarchia utilizzata per identificare l'ubicazione uscita produzione.
 author: johanhoffmann
 ms.date: 04/04/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f4c8086e9179ff51f62ce77620af96360c6123060372dfd1c0e06dad79998b75
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893296"
 ---
 # <a name="production-output-location"></a>Ubicazione uscita produzione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la gerarchia utilizzata per identificare l'ubicazione uscita produzione.
+Questo articolo descrive la gerarchia utilizzata per identificare l'ubicazione uscita produzione.
 
 L'ubicazione uscita produzione è l'ubicazione in cui un prodotto viene immagazzinato dopo la produzione. In genere l'ubicazione si trova vicino al processo di produzione che realizza il prodotto finito. L'ubicazione uscita produzione viene utilizzata come magazzino intermedio per il materiale prima che venga spostato nell'area di spedizione, un'ubicazione di immagazzinamento, un'ubicazione entrata produzione per un processo di produzione a valle e così via. 
 

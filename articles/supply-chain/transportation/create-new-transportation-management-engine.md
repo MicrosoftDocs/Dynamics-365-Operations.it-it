@@ -1,6 +1,6 @@
 ---
 title: Creare un nuovo motore di gestione del trasporto
-description: Questo argomento descrive come creare un nuovo motore di gestione del trasporto in Dynamics 365 Supply Chain Management.
+description: Questo articolo descrive come creare un nuovo motore di gestione del trasporto in Dynamics 365 Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be52c6afb66e88b36f3b2cdf5af14e17b3d3005f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 627972ef6afb7551bb57821ded24183f8f335e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678124"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857259"
 ---
 # <a name="create-a-new-transportation-management-engine"></a>Creare un nuovo motore di gestione del trasporto
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come creare un nuovo motore di gestione del trasporto in Dynamics 365 Supply Chain Management. 
+Questo articolo descrive come creare un nuovo motore di gestione del trasporto in Dynamics 365 Supply Chain Management. 
 
 I motori di gestione del trasporto (TMS) definiscono la logica utilizzata per generare ed elaborare le tariffe di trasporto in Gestione trasporto. Supply Chain Management fornisce diversi tipi di motore che calcolano parametri diversi, come tariffe, tempi di transito e il numero di zone che verranno attraversate durante il transito. Questo articolo spiega come utilizzare l'ambiente di sviluppo Microsoft Visual Studio insieme agli strumenti di sviluppo di Supply Chain Management per creare e distribuire un nuovo motore TMS e quindi come configurare il motore in Operations. Per ulteriori informazioni sui motori, vedi [Motori di gestione dei trasporti](transportation-management-engines.md).
 

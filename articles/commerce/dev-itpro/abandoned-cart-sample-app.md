@@ -1,6 +1,6 @@
 ---
 title: Rilevare i carrelli abbandonati e inviare notifiche ai clienti
-description: Questo argomento descrive come personalizzare l'app di esempio del connettore per i carrelli abbandonati di Microsoft Dynamics 365 Commerce per rilevare i carrelli abbandonati e inviare notifiche e-mail di promemoria ai clienti.
+description: Questo articolo descrive come personalizzare l'app di esempio del connettore per i carrelli abbandonati di Microsoft Dynamics 365 Commerce per rilevare i carrelli abbandonati e inviare notifiche e-mail di promemoria ai clienti.
 author: bicyclingfool
 ms.date: 02/25/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1db4e988653aa55db2b18fb201edeafc4d16a1bc
-ms.sourcegitcommit: ab690bc897699ff8a4c489e749251fe0367050ca
+ms.openlocfilehash: 707640ca211e997533d0f5a0b4e6d52cb5be9db4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "8489032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899212"
 ---
 # <a name="detect-abandoned-carts-and-send-notifications-to-customers"></a>Rilevare i carrelli abbandonati e inviare notifiche ai clienti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come personalizzare l'app di esempio del connettore per i carrelli abbandonati di Microsoft Dynamics 365 Commerce per rilevare i carrelli abbandonati e inviare notifiche e-mail di promemoria ai clienti.
+Questo articolo descrive come personalizzare l'app di esempio del connettore per i carrelli abbandonati di Microsoft Dynamics 365 Commerce per rilevare i carrelli abbandonati e inviare notifiche e-mail di promemoria ai clienti.
 
 La possibilità di recuperare i ricavi entrate e fidelizzare i clienti attraverso le notifiche del carrello abbandonato è una funzionalità importante che Dynamics 365 Commerce supporta. Personalizzando l'app di esempio del connettore del carrello abbandonato di Commerce, i rivenditori possono accedere ai carrelli degli acquisti su Retail Server che non sono stati modificati durante un intervallo di tempo definito dai rivenditori. Tali carrelli possono quindi essere recuperati, ampliati con dati sui prodotti e sui clienti e trasmessi a un provider di e-mail marketing di terze parti in grado di generare notifiche e-mail e inviare loro clienti.
 

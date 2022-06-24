@@ -1,6 +1,6 @@
 ---
 title: Prezzi di vendita basati su attributi per la configurazione prodotto basata su vincoli
-description: In questo argomento viene descritto come creare modelli di prezzo di vendita con prezzi di vendita basati su componenti e attributi anziché sulla distinta base fisica e sul ciclo di produzione.
+description: In questo articolo viene descritto come creare modelli di prezzo di vendita con prezzi di vendita basati su componenti e attributi anziché sulla distinta base fisica e sul ciclo di produzione.
 author: t-benebo
 ms.date: 10/2/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e50b2d1e9ccf03a58e0ddf6d4ecfb34c6c504161
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 456c7399f981e41ea452f1a6a8e30e9e12e0be54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577458"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857463"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Prezzi di vendita basati su attributi per la configurazione prodotto basata su vincoli
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come creare modelli di prezzo di vendita con prezzi di vendita basati su componenti e attributi anziché sulla distinta base fisica e sul ciclo di produzione. Puoi creare diversi modelli di prezzo di vendita per ogni modello di configurazione prodotto.
+In questo articolo viene descritto come creare modelli di prezzo di vendita con prezzi di vendita basati su componenti e attributi anziché sulla distinta base fisica e sul ciclo di produzione. Puoi creare diversi modelli di prezzo di vendita per ogni modello di configurazione prodotto.
 
 ## <a name="set-relevant-product-information-management-parameters"></a>Impostare parametri di gestione informazioni sul prodotto pertinenti
 

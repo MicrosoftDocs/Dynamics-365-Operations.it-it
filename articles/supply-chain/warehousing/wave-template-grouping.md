@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b265c0d5cb43e151386fe90e3a3dea414ec0aca6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5eb18ce29cbd1434b2a766c2ba5d78ed1be4e72b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851248"
 ---
 # <a name="wave-template-grouping"></a>Gruppi del modello di ondata
 
@@ -41,7 +41,7 @@ Prima di poter utilizzare la funzionalità *Raggruppamento modello ondata*, deve
 Per rendere disponibile il raggruppamento modello ondata, attieniti alla seguente procedura per configurare il [modello di ondata](tasks/configure-wave-processing.md).
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Ondate \> Modelli ondata**.
-1. Nel riquadro sinistro, seleziona il modello di ondata da configurare. Se ti stai preparando a lavorare sullo scenario più avanti in questo argomento usando i dati demo, seleziona il modello **62 Spedizione predefinita**.
+1. Nel riquadro sinistro, seleziona il modello di ondata da configurare. Se ti stai preparando a lavorare sullo scenario più avanti in questo articolo usando i dati demo, seleziona il modello **62 Spedizione predefinita**.
 1. Seleziona **Modifica** per mettere la pagina in modalità modifica.
 1. Nella Scheda dettaglio **Generale**, imposta i seguenti valori:
 
@@ -84,7 +84,7 @@ Per elaborare lo scenario utilizzando i record e i valori di esempio specificati
 
 Questo scenario mostra come utilizzare il raggruppamento dei modelli di ondata per creare automaticamente più ondate, in base a criteri di raggruppamento definiti in un modello di ondata. In questo scenario, il modello di ondata è impostato nel sistema per creare un'ondata per servizio di trasporto.
 
-Prima di iniziare, prepara il modello di ondata come descritto in precedenza nella sezione [Impostare un modello di ondata per utilizzare il raggruppamento modello ondata](#set-up-template) in questo argomento. Se lavorerai con i dati dimostrativi per questo scenario, assicurati di usare i valori dei dati dimostrativi suggeriti in quella procedura. Questa configurazione raggrupperà le ondate in base al servizio di trasporto impostato per ciascun ordine cliente.
+Prima di iniziare, prepara il modello di ondata come descritto in precedenza nella sezione [Impostare un modello di ondata per utilizzare il raggruppamento modello ondata](#set-up-template) in questo articolo. Se lavorerai con i dati dimostrativi per questo scenario, assicurati di usare i valori dei dati dimostrativi suggeriti in quella procedura. Questa configurazione raggrupperà le ondate in base al servizio di trasporto impostato per ciascun ordine cliente.
 
 #### <a name="create-sales-order-1"></a>Creare l'ordine cliente 1
 

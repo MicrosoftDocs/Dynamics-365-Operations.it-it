@@ -1,6 +1,6 @@
 ---
-title: Installare e connettere l'app del magazzino
-description: Questo argomento spiega come installare l'app del magazzino su ciascuno dei tuoi dispositivi mobili e come configurarla affinché si connetta all'ambiente Microsoft Dynamics 365 Supply Chain Management. Puoi configurare manualmente ciascun dispositivo oppure importare le impostazioni di connessione tramite un file o scansionando un codice QR.
+title: Installare e connettere l'app di magazzino
+description: Questo articolo spiega come installare l'app del magazzino su ciascuno dei tuoi dispositivi mobili e come configurarla affinché si connetta all'ambiente Microsoft Dynamics 365 Supply Chain Management. Puoi configurare manualmente ciascun dispositivo oppure importare le impostazioni di connessione tramite un file o scansionando un codice QR.
 author: Mirzaab
 ms.date: 05/25/2020
 ms.topic: article
@@ -16,26 +16,26 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9f123f217aabcc7500832fafb15199043048b5e5
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: 8ed770e45aa7f9909b98a92b493dd2931c6a3981
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885756"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Installare e connettere l'app di magazzino
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Questo argomento descrive come configurare la vecchia app di magazzino (che ora è deprecata). Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino, vedere [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
+> Questo articolo descrive come configurare la vecchia app di magazzino (che ora è deprecata). Se stai cercando informazioni su come configurare la nuova app per dispositivi mobili Gestione magazzino, vedere [Installare e connettere l'app per dispositivi mobili Gestione magazzino](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> In questo argomento viene descritto come configurare l'app di magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare l'app di magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> In questo articolo viene descritto come configurare l'app di magazzino per le distribuzioni cloud. Se stai cercando informazioni su come configurare l'app di magazzino per distribuzioni locali, vedi [Magazzino per distribuzioni locali](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 L'app del magazzino è disponibile da Google Play Store e Microsoft Store. Viene fornito come componente autonomo. Pertanto, devi scaricarla su ciascun dispositivo e configurarla per connettersi all'ambiente Microsoft Dynamics 365 Supply Chain Management.
 
-Questo argomento spiega come installare l'app del magazzino su ciascuno dei tuoi dispositivi mobili e come configurarla affinché si connetta all'ambiente Supply Chain Management. Puoi configurare manualmente ciascun dispositivo oppure importare le impostazioni di connessione tramite un file o scansionando un codice QR.
+Questo articolo spiega come installare l'app del magazzino su ciascuno dei tuoi dispositivi mobili e come configurarla affinché si connetta all'ambiente Supply Chain Management. Puoi configurare manualmente ciascun dispositivo oppure importare le impostazioni di connessione tramite un file o scansionando un codice QR.
 
 ## <a name="system-requirements"></a>Requisiti di sistema
 
@@ -76,11 +76,11 @@ Per abilitare l'app del magazzino per interagire con un server Supply Chain Mana
 
     ![Procedura Registra un'applicazione.](media/app-connect-azure-register-wizard.png "Procedura Registra un'applicazione")
 
-1. La nuova registrazione dell'app viene aperta. Annota il valore nel campo **ID applicazione (client)**, poiché sarà necessario in seguito. In seguito in questo argomento si farà riferimento a questo ID come *ID client*.
+1. La nuova registrazione dell'app viene aperta. Annota il valore nel campo **ID applicazione (client)**, poiché sarà necessario in seguito. In seguito in questo articolo si farà riferimento a questo ID come *ID client*.
 
     ![ID applicazione (client).](media/app-connect-azure-app-id.png "ID applicazione (client)")
 
-1. Nell'elenco **Gestisci**, seleziona **Certificato e segreti**. Quindi seleziona uno dei seguenti pulsanti, a seconda di come desideri configurare l'app per l'autenticazione. Per ulteriori informazioni, consulta la sezione [Autentica utilizzando un certificato o un segreto client](#authenticate) più avanti in questo argomento.
+1. Nell'elenco **Gestisci**, seleziona **Certificato e segreti**. Quindi seleziona uno dei seguenti pulsanti, a seconda di come desideri configurare l'app per l'autenticazione. Per ulteriori informazioni, consulta la sezione [Autentica utilizzando un certificato o un segreto client](#authenticate) più avanti in questo articolo.
 
     - **Carica certificato**: carica un certificato da utilizzare come segreto. Consigliamo questo approccio, perché è più sicuro e può anche essere automatizzato in modo più completo. Se stai eseguendo l'app del magazzino su dispositivi Windows, prendi nota del valore **Identificazione personale** visualizzato dopo aver caricato il certificato. Questo valore sarà necessario quando configuri il certificato su dispositivi Windows.
     - **Nuovo segreto client**: crea una chiave inserendo una descrizione della chiave e una durata nella sezione **Password**, quindi seleziona **Aggiungi**. Crea una copia della chiave e conservala in modo sicuro.
@@ -90,7 +90,7 @@ Per abilitare l'app del magazzino per interagire con un server Supply Chain Mana
 Per ulteriori informazioni su come impostare le applicazioni dei servizi Web in Azure AD, vedi le seguenti risorse:
 
 - Per istruzioni che mostrano come utilizzare Windows PowerShell per configurare le applicazioni del servizio Web in Azure AD, vedi [Procedure: Usare Azure PowerShell per creare un'entità servizio con un certificato](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
-- Per i dettagli completi su come creare manualmente un'applicazione di servizio Web in Azure AD, vedi i seguenti argomenti:
+- Per i dettagli completi su come creare manualmente un'applicazione di servizio Web in Azure AD, vedi i seguenti articoli:
 
     - [Guida introduttiva: Registrare un'applicazione con Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app)
     - [Procedure: Usare il portale per creare un'applicazione Azure AD e un'entità servizio che possano accedere alle risorse](/azure/active-directory/develop/howto-create-service-principal-portal)
@@ -117,7 +117,7 @@ Per consentire a Supply Chain Management di utilizzare la tua applicazione Azure
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticazione utilizzando un certificato o un segreto client
 
-L'autenticazione con Azure AD fornisce un modo sicuro per connettere un dispositivo mobile a Supply Chain Management. Puoi eseguire l'autenticazione utilizzando un segreto client o un certificato. Se importerai le impostazioni di connessione, ti consigliamo di utilizzare un certificato anziché un segreto client. Poiché il segreto client deve essere sempre archiviato in modo sicuro, non è possibile importarlo da un file delle impostazioni di connessione o da un codice QR, come descritto più avanti in questo argomento.
+L'autenticazione con Azure AD fornisce un modo sicuro per connettere un dispositivo mobile a Supply Chain Management. Puoi eseguire l'autenticazione utilizzando un segreto client o un certificato. Se importerai le impostazioni di connessione, ti consigliamo di utilizzare un certificato anziché un segreto client. Poiché il segreto client deve essere sempre archiviato in modo sicuro, non è possibile importarlo da un file delle impostazioni di connessione o da un codice QR, come descritto più avanti in questo articolo.
 
 I certificati possono essere utilizzati come segreti per dimostrare l'identità dell'applicazione quando viene richiesto un token. La parte pubblica del certificato viene caricata nella registrazione dell'app nel portale di Azure, mentre il certificato completo deve essere distribuito su ogni dispositivo in cui è installata l'app del magazzino. La tua organizzazione è responsabile della gestione del certificato in termini di rotazione e così via. Puoi utilizzare certificati autofirmati, ma è sempre necessario utilizzare certificati non esportabili.
 

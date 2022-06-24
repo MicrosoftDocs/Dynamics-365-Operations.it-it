@@ -1,6 +1,6 @@
 ---
 title: Impostare e gestire la collaborazione fornitore
-description: In questo argomento viene spiegato come impostare la collaborazione fornitore in Dynamics 365 Supply Chain Management. Spiega inoltre come eseguire il provisioning di nuovi utenti di collaborazione fornitore e gestire i ruoli di sicurezza per tali utenti.
+description: In questo articolo viene spiegato come impostare la collaborazione fornitore in Dynamics 365 Supply Chain Management. Spiega inoltre come eseguire il provisioning di nuovi utenti di collaborazione fornitore e gestire i ruoli di sicurezza per tali utenti.
 author: GalynaFedorova
 ms.date: 12/03/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4b59513d86426d3c1bfd759b9aabc331e58d5423
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677564"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890830"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Impostare e gestire la collaborazione fornitore
 
@@ -28,7 +28,7 @@ ms.locfileid: "8677564"
 
 L'interfaccia di collaborazione fornitore mostra un set limitato di informazioni sugli ordini fornitore, fatture e scorte di spedizione agli utenti fornitori esterni. Da questa interfaccia, un fornitore può anche rispondere alle richieste di offerta (RdO) e visualizzare e modificare le informazioni aziendali di base.
 
-In questo argomento viene spiegato come impostare la collaborazione fornitore in Dynamics 365 Supply Chain Management. Spiega inoltre come impostare un flusso di lavoro per eseguire il provisioning di nuovi utenti di collaborazione fornitore e come gestire i ruoli di sicurezza per tali utenti.
+In questo articolo viene spiegato come impostare la collaborazione fornitore in Dynamics 365 Supply Chain Management. Spiega inoltre come impostare un flusso di lavoro per eseguire il provisioning di nuovi utenti di collaborazione fornitore e come gestire i ruoli di sicurezza per tali utenti.
 
 > [!NOTE]
 > Le informazioni sull'impostazione dei ruoli di sicurezza per la collaborazione fornitore si applicano solo alla versione corrente di Finance and Operations. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sulle autorizzazioni utente per il portale fornitori in Microsoft Dynamics AX, vedi [Sicurezza degli utenti del portale per fornitori](configure-security-vendor-portal-users.md).
@@ -77,7 +77,7 @@ Il **Ruolo fornitore (esterno)** può essere utilizzato per fornitori esterni ch
 
 ## <a name="set-up-security-roles-that-are-used-when-prospective-vendors-are-onboarded"></a>Imposta i ruoli di sicurezza che vengono utilizzati quando i potenziali fornitori sono inseriti
 
-Per eseguire l'onboarding di fornitori avviati tramite una richiesta di registrazione fornitore potenziale, è necessario configurare un ruolo di sicurezza esterno. Questo ruolo verrà assegnato ai nuovi utenti durante il processo di provisioning controllato dal flusso di lavoro di tipo **Flusso di lavoro richiesta utente (piattaforma)**. Per ulteriori informazioni, vedi la sezione [Imposta flussi di lavoro per elaborare le richieste utente di collaborazione fornitore](#set-up-workflows-to-process-vendor-collaboration-user-requests) più avanti in questo argomento.
+Per eseguire l'onboarding di fornitori avviati tramite una richiesta di registrazione fornitore potenziale, è necessario configurare un ruolo di sicurezza esterno. Questo ruolo verrà assegnato ai nuovi utenti durante il processo di provisioning controllato dal flusso di lavoro di tipo **Flusso di lavoro richiesta utente (piattaforma)**. Per ulteriori informazioni, vedi la sezione [Imposta flussi di lavoro per elaborare le richieste utente di collaborazione fornitore](#set-up-workflows-to-process-vendor-collaboration-user-requests) più avanti in questo articolo.
 
 Per informazioni su come integrare fornitori potenziali, vedi [Eseguire l'onboarding di fornitori](vendor-onboarding.md).
 

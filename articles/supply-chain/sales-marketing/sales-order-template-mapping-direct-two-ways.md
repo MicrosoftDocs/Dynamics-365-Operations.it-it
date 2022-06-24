@@ -1,6 +1,6 @@
 ---
 title: Sincronizzazione degli ordini cliente direttamente tra Sales e Supply Chain Management
-description: L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Dynamics 365 Sales e Dynamics 365 Supply Chain Management.
+description: L'articolo descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Dynamics 365 Sales e Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 05/09/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: eb41a21395a5d115b779e6b1ef71e9eb1176e28e
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 63a9be9bedabe1f15ad8db583151aa7fa480473b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854154"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronizzazione degli ordini cliente direttamente tra Sales e Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061520"
 
 
 
-L'argomento descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Dynamics 365 Sales e Dynamics 365 Supply Chain Management.
+L'articolo descrive i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini cliente direttamente tra Dynamics 365 Sales e Dynamics 365 Supply Chain Management.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Flusso di dati in Prospect to cash
 
@@ -203,7 +203,7 @@ Nelle figure seguenti viene illustrato un esempio di mapping di modelli in Integ
 
 [![Mapping dei modelli in Integrazione dei dati, Ordini cliente (da Sales a Supply Chain Management) - Diretto: OrderLine.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Prospect per uno scenario di liquidazione](prospect-to-cash.md)
 

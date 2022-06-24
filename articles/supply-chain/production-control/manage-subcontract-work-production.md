@@ -1,6 +1,6 @@
 ---
 title: Gestire il lavoro in conto lavoro in produzione
-description: In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Dynamics 365 Supply Chain Management. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
+description: In questo articolo viene descritto come le operazioni in conto lavoro vengono gestite in Dynamics 365 Supply Chain Management. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e80efc751ccf9243163d23ed48fd17923326f89
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a0021d409f9f4a9b36effbd80a99766812572d5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579381"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863797"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gestire il lavoro in conto lavoro in produzione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come le operazioni in conto lavoro vengono gestite in Dynamics 365 Supply Chain Management. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
+In questo articolo viene descritto come le operazioni in conto lavoro vengono gestite in Dynamics 365 Supply Chain Management. Ovvero viene illustrato come le operazioni di produzione alllocate a una risorsa vengono gestite da un fornitore.
 
 Nei [processi di produzione](production-process-overview.md), il lavoro può essere eseguito da risorse di proprietà o amministrate dai fornitori. In genere, le risorse fornitore vengono utilizzate per l'eccesso periodico di domanda che supera la capacità disponibile delle risorse proprie di una società. Il fornitore può inoltre essere in grado di offrire specifiche [capacità risorsa](resource-capabilities.md) o risorse a un prezzo più basso.  
 
@@ -63,7 +63,7 @@ Se questa configurazione viene utilizzata, viene creato un ordine fornitore per 
 Un ordine di produzione può includere molte operazioni e ciascuna operazione può essere assegnata a un fornitore diverso. Di conseguenza, un ordine di produzione completo potrebbe attivare più ordini fornitore.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Assegnazione in conto lavoro di attività del flusso di produzione
-La soluzione [lean manufacturing](lean-manufacturing-overview.md) modella il lavoro in conto lavoro come servizio correlato a un'attività di un [flusso di produzione](tasks/create-production-flow-version.md) (argomento della guida attività). Di conseguenza, questo tipo di conto lavoro è noto anche come [conto lavoro basato sull'attività.](activity-based-subcontracting.md) Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno parte della DBA dei prodotti finiti. Quando si utilizza il lean manufacturing, tutte le attività vengono definite da kanban che possono essere correlati a una o più attività del flusso di produzione. Finora, la descrizione suona analoga a una spiegazione degli ordini di produzione. Tuttavia, mentre gli ordini di produzione devono terminare sempre con un prodotto finito, è possibile creare kanban per fornire un prodotto semilavorato. Non è necessario immettere un nuovo prodotto e un livello DBA.  
+La soluzione [lean manufacturing](lean-manufacturing-overview.md) modella il lavoro in conto lavoro come servizio correlato a un'attività di un [flusso di produzione](tasks/create-production-flow-version.md) (articolo della guida attività). Di conseguenza, questo tipo di conto lavoro è noto anche come [conto lavoro basato sull'attività.](activity-based-subcontracting.md) Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno parte della DBA dei prodotti finiti. Quando si utilizza il lean manufacturing, tutte le attività vengono definite da kanban che possono essere correlati a una o più attività del flusso di produzione. Finora, la descrizione suona analoga a una spiegazione degli ordini di produzione. Tuttavia, mentre gli ordini di produzione devono terminare sempre con un prodotto finito, è possibile creare kanban per fornire un prodotto semilavorato. Non è necessario immettere un nuovo prodotto e un livello DBA.  
 
 Poiché le regole kanban possono essere molto dinamiche, è possibile definire varianti diverse di rifornimento per lo stesso prodotto in un flusso di produzione. Quando si utilizza il conto lavoro snello, il flusso di materiale e il flusso finanziario sono separati rigorosamente. Tutto il flusso di materiale è rappresentato da attività kanban. Gli ordini fornitore per i prodotti di tipo servizio e le registrazioni di entrata di tali servizi possono essere automatici, in base allo stato dei processi kanban nel flusso di produzione. I processi kanban possono essere avviati e completati anche prima che gli ordini fornitore vengono creati. I documenti di conto lavoro (ordine fornitore e ricevimento degli acquisti del servizio) possono essere aggregati per periodo e servizio. Di conseguenza, il numero di documenti e righe di acquisto può essere tenuto basso, anche in operazioni molto ripetitive in cui i fornitori forniscono i servizi in conto lavoro in un flusso a singolo componente.
 

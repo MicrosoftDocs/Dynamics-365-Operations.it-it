@@ -1,6 +1,6 @@
 ---
 title: Dettagli sulle operazioni di magazzino
-description: Questo argomento fornisce una panoramica della pagina Dettagli transazioni che mostra i dettagli di un'operazione di magazzino selezionata.
+description: Questo articolo fornisce una panoramica della pagina Dettagli transazioni che mostra i dettagli di un'operazione di magazzino selezionata.
 author: rachel-profitt
 ms.date: 04/25/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-04-25
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: fd1416f21ce15dc832dd41ea4110c93bf5bb41a2
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 55e29d5804f57cd86fb5ddac5d6c5576b7ea5f61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735914"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859389"
 ---
 # <a name="inventory-transaction-details"></a>Dettagli sulle operazioni di magazzino
 
@@ -36,8 +36,8 @@ La pagina **Dettagli transazioni** è suddivisa in più Schede dettaglio. Nella 
 
 | Scheda dettaglio | Description |
 |---|---|
-| Generali | Questa Scheda dettaglio mostra le informazioni di base sull'operazione di magazzino selezionata. Oltre ai campi visualizzati nella pagina **Operazioni di magazzino**, sono inclusi i campi aggiuntivi descritti più avanti in questo argomento. |
-| Aggiornamenti | Questa Scheda dettaglio mostra le informazioni relative agli aspetti fisici, finanziari e di liquidazione dell'operazione di magazzino selezionata. A seconda dello stato corrente della transazione, alcuni campi potrebbero essere vuoti. Tuttavia, questi campi verranno impostati automaticamente al momento della registrazione delle transazioni. Oltre ai campi visualizzati nella pagina **Operazioni di magazzino**, questa Scheda dettaglio include i campi aggiuntivi descritti più avanti in questo argomento. |
+| Generali | Questa Scheda dettaglio mostra le informazioni di base sull'operazione di magazzino selezionata. Oltre ai campi visualizzati nella pagina **Operazioni di magazzino**, sono inclusi i campi aggiuntivi descritti più avanti in questo articolo. |
+| Aggiornamenti | Questa Scheda dettaglio mostra le informazioni relative agli aspetti fisici, finanziari e di liquidazione dell'operazione di magazzino selezionata. A seconda dello stato corrente della transazione, alcuni campi potrebbero essere vuoti. Tuttavia, questi campi verranno impostati automaticamente al momento della registrazione delle transazioni. Oltre ai campi visualizzati nella pagina **Operazioni di magazzino**, questa Scheda dettaglio include i campi aggiuntivi descritti più avanti in questo articolo. |
 | Registrazioni contabilità generale | Questa Scheda dettaglio mostra il tipo di registrazione e il conto CoGe utilizzati per l'aggiornamento fisico, l'aggiornamento finanziario, i ricavi fisici, gli oneri fisici, i ricavi finanziari e gli oneri finanziari correlati all'operazione di magazzino selezionata. |
 | Riferimenti | Questa Scheda dettaglio mostra informazioni aggiuntive sulla transazione di origine che ha creato l'operazione di magazzino selezionata. Ad esempio, queste informazioni potrebbero includere i dettagli dell'ordine fornitore o dell'ordine cliente. |
 | Informazioni correlate | Questa Scheda dettaglio mostra informazioni aggiuntive sull'operazione di magazzino selezionata. Questi campi potrebbero non essere impostati se non si utilizzano alcune funzionalità, come categorie di approvvigionamento o progetti. |

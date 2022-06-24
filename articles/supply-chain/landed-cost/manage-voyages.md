@@ -1,6 +1,6 @@
 ---
 title: Gestire i viaggi
-description: In questo argomento viene descritto come utilizzare i viaggi. Un viaggio rappresenta in genere un'imbarcazione. Tuttavia, a seconda delle pratiche e delle procedure, può rappresentare un fornitore, un ordine fornitore o qualche altro elemento che abbia senso per l'organizzazione.
+description: In questo articolo viene descritto come utilizzare i viaggi. Un viaggio rappresenta in genere un'imbarcazione. Tuttavia, a seconda delle pratiche e delle procedure, può rappresentare un fornitore, un ordine fornitore o qualche altro elemento che abbia senso per l'organizzazione.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7d85ef86351f5d6ac662bb72c88d464fba82f561
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696168"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905865"
 ---
 # <a name="manage-voyages"></a>Gestire i viaggi
 
@@ -96,7 +96,7 @@ Per aprire la visualizzazione **Righe**, aprire un viaggio, quindi selezionare l
 
 ### <a name="information-on-the-voyage-header-fasttab"></a>Informazioni sulla Scheda dettaglio Intestazione viaggio
 
-La Scheda dettaglio **Intestazione viaggio** nella visualizzazione **Righe** contiene le informazioni di base che descrivono il viaggio. Molti dei campi visualizzati in questa Scheda dettaglio compaiono anche nella visualizzazione **Intestazione**, come descritto più avanti in questo argomento.
+La Scheda dettaglio **Intestazione viaggio** nella visualizzazione **Righe** contiene le informazioni di base che descrivono il viaggio. Molti dei campi visualizzati in questa Scheda dettaglio compaiono anche nella visualizzazione **Intestazione**, come descritto più avanti in questo articolo.
 
 ### <a name="information-on-the-voyage-lines-fasttab"></a>Informazioni sulla Scheda dettaglio Righe viaggio
 

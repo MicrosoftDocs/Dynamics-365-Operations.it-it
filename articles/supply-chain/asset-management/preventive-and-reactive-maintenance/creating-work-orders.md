@@ -1,6 +1,6 @@
 ---
 title: Creazione di ordini di lavoro
-description: Nell'argomento viene descritto come creare ordini di lavoro in Gestione cespiti.
+description: Nell'articolo viene descritto come creare ordini di lavoro in Gestione cespiti.
 author: johanhoffmann
 ms.date: 02/01/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b1b8b3d8d83bdad2efe49bd4e878793cca6c49f4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891207"
 ---
 # <a name="creating-work-orders"></a>Creazione di ordini di lavoro
 
@@ -60,7 +60,7 @@ Per creare ordini di lavoro basati sul programma di manutenzione, segui questi p
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Raggruppare le righe ordine di lavoro che vengono create automaticamente durante l'esecuzione di un piano di manutenzione
 
-Questa funzionalità consente di definire le regole per raggruppare le righe dell'ordine di lavoro in un unico ordine di lavoro quando il sistema è configurato per generare automaticamente gli ordini di lavoro, in base a un piano di manutenzione. In precedenza, gli ordini di lavoro generati automaticamente potevano contenere solo una riga. Tuttavia, ora puoi raggruppare gli ordini di lavoro per, ad esempio, cespite, tipo di cespite o unità funzionale. Gli ordini di lavoro generati manualmente potrebbero già essere raggruppati in questo modo, come descritto nella sezione precedente di questo argomento.
+Questa funzionalità consente di definire le regole per raggruppare le righe dell'ordine di lavoro in un unico ordine di lavoro quando il sistema è configurato per generare automaticamente gli ordini di lavoro, in base a un piano di manutenzione. In precedenza, gli ordini di lavoro generati automaticamente potevano contenere solo una riga. Tuttavia, ora puoi raggruppare gli ordini di lavoro per, ad esempio, cespite, tipo di cespite o unità funzionale. Gli ordini di lavoro generati manualmente potrebbero già essere raggruppati in questo modo, come descritto nella sezione precedente di questo articolo.
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Abilitare il raggruppamento per gli ordini di lavoro generati automaticamente
 

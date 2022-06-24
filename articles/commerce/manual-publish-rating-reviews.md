@@ -1,6 +1,6 @@
 ---
 title: Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore
-description: Questo argomento descrive come abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore in Microsoft Dynamics 365 Commerce e come pubblicare manualmente valutazioni e recensioni.
+description: Questo articolo descrive come abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore in Microsoft Dynamics 365 Commerce e come pubblicare manualmente valutazioni e recensioni.
 author: gvrmohanreddy
 manager: annbe
 ms.date: 09/03/2021
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0709173b8c3dfb7018d0bd9a712554112722a1f3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7d90cbbdc1ac0368c6ccfbeef7ff8db9b65679a7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693284"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892625"
 ---
 # <a name="enable-manual-publishing-of-ratings-and-reviews-by-a-moderator"></a>Abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore in Microsoft Dynamics 365 Commerce e come pubblicare manualmente valutazioni e recensioni.
+Questo articolo descrive come abilitare la pubblicazione manuale di valutazioni e recensioni da parte di un moderatore in Microsoft Dynamics 365 Commerce e come pubblicare manualmente valutazioni e recensioni.
 
 La soluzione per valutazioni e recensioni di Dynamics 365 Commerce usa Azure Cognitive Services per oscurare automaticamente le volgarità nei titoli e nei contenuti delle recensioni e per pubblicare valutazioni e recensioni. Pertanto, non è necessario l'intervento manuale per rivedere e pubblicare valutazioni e recensioni sul sito di e-commerce.
 

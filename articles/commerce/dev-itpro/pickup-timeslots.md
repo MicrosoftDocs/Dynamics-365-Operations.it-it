@@ -1,6 +1,6 @@
 ---
 title: Creare e aggiornare le fasce orarie per il ritiro del cliente
-description: In questo argomento viene descritto come creare, configurare e aggiornare le fasce orarie per il ritiro del cliente in Commerce headquarters.
+description: In questo articolo viene descritto come creare, configurare e aggiornare le fasce orarie per il ritiro del cliente in Commerce headquarters.
 author: anupamar-ms
 ms.date: 01/05/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a135f592225e4b388b5c9fdaa5fe23e60baf0185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6713423"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882235"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Creare e aggiornare le fasce orarie per il ritiro del cliente
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come creare, configurare e aggiornare le fasce orarie per il ritiro del cliente in Commerce headquarters.
+In questo articolo viene descritto come creare, configurare e aggiornare le fasce orarie per il ritiro del cliente in Commerce headquarters.
 
 La funzione fascia oraria offre ai rivenditori un modo per definire una fascia oraria per gli articoli per cui è attivata la modalità di consegna ritiro del cliente. Le fasce orarie consentono ai rivenditori di definire i giorni e gli orari in cui gli ordini possono essere ritirati in un negozio. I rivenditori possono anche definire il numero di ordini che possono essere ritirati durante un determinato periodo. In questo modo, i rivenditori possono limitare il numero di ordini che possono essere ritirati in un determinato giorno e in un determinato momento. Il risultato è un'esperienza di migliore qualità per i clienti.
 

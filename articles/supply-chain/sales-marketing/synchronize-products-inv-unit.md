@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare i prodotti con l'unità di magazzino da Supply Chain Management a Field Service
-description: Questo argomento descrive i modelli e l'attività sottostante utilizzati per sincronizzare prodotti con unità di magazzino da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
+description: Questo articolo descrive i modelli e l'attività sottostante utilizzati per sincronizzare prodotti con unità di magazzino da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 03/13/2019
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6ac346d735bc44e9f9660c60b23a73057e4b7306
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f7658eacd20aa69a64d6288e9d29e53b6ccb002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566337"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887256"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a>Sincronizzare i prodotti con l'unità di magazzino da Supply Chain Management a Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento descrive i modelli e l'attività sottostante utilizzati per sincronizzare prodotti con unità di magazzino da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
+Questo articolo descrive i modelli e l'attività sottostante utilizzati per sincronizzare prodotti con unità di magazzino da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 
 [![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service.](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
 Il modello **Prodotti Field Service con unità di magazzino (da Supply Chain Management a Field Service)** utilizzato è basato sul modello **Prodotti Field Service (da Supply Chain Management a Field Service)**. Per ulteriori informazioni, vedere [Sincronizzare prodotti in Supply Chain Management con prodotti in Field Service](field-service-product.md).
 
-In questo argomento vengono descritte le differenze tra i due modelli: 
+In questo articolo vengono descritte le differenze tra i due modelli: 
 - **Prodotti Field Service con l'unità di magazzino (Supply Chain Management a Sales)**
 - **Prodotti Field Service (da Supply Chain Management a Field Service)** 
 

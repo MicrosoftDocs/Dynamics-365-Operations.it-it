@@ -1,6 +1,6 @@
 ---
 title: Elaborare il framework della guida
-description: Questo argomento fornisce informazioni sul framework della guida per gli sviluppatori che estendono i nostri processi per dispositivi mobili di magazzino in X++.
+description: Questo articolo fornisce informazioni sul framework della guida per gli sviluppatori che estendono i nostri processi per dispositivi mobili di magazzino in X++.
 author: Mirzaab
 ms.date: 11/01/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 6882c979ad9b37eb4f95a04259b6ac0f0a0edcdc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: e88f32e0347a808d03615cf85e50b1592d691670
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902048"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860437"
 ---
 # <a name="process-guide-framework"></a>Elaborare il framework della guida
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sul framework della guida per gli sviluppatori che estendono i processi per dispositivi mobili di magazzino in X++. I processi per dispositivi mobili di magazzino sono estensibili in quanto i processi vengono suddivisi in piccoli passaggi. La creazione della logica di business e dell'interfaccia utente di ogni passaggio è stata estratta in singole classi, il che consente l'estensibilità.
+Questo articolo fornisce informazioni sul framework della guida per gli sviluppatori che estendono i processi per dispositivi mobili di magazzino in X++. I processi per dispositivi mobili di magazzino sono estensibili in quanto i processi vengono suddivisi in piccoli passaggi. La creazione della logica di business e dell'interfaccia utente di ogni passaggio è stata estratta in singole classi, il che consente l'estensibilità.
 
 ## <a name="overview-of-the-existing-design"></a>Panoramica della progettazione esistente
 
@@ -321,7 +321,7 @@ public class ProdProcessGuideConfirmProductionOrderPageBuilder extends ProcessGu
 ```
 
 > [!NOTE]
-> Puoi trovare lo stesso codice sorgente per i metodi X++ in questo argomento utilizzando Application Explorer. Filtra per il nome della classe, quindi fai clic con il pulsante destro del mouse sul nome della classe e seleziona **Visualizza codice**.
+> Puoi trovare lo stesso codice sorgente per i metodi X++ in questo articolo utilizzando Application Explorer. Filtra per il nome della classe, quindi fai clic con il pulsante destro del mouse sul nome della classe e seleziona **Visualizza codice**.
 
 ### <a name="step-3-start-the-production-order"></a>Passaggio 3: avvia l'ordine di produzione
 
@@ -421,7 +421,7 @@ In tal modo, chiede al passaggio di creare una classe di azione per il nome pass
 
 ### <a name="summary"></a>Riepilogo
 
-Per riassumere tutto ciò che è stato spiegato in questo argomento, ecco un riepilogo completo del codice necessario per il processo:
+Per riassumere tutto ciò che è stato spiegato in questo articolo, ecco un riepilogo completo del codice necessario per il processo:
 
 1.  **ProdProcessGuideProductionStartController**
 
@@ -570,7 +570,7 @@ Per riassumere tutto ciò che è stato spiegato in questo argomento, ecco un rie
         ```
 
         > [!NOTE]
-        > Il metodo **generateItemInfoForProdId()** utilizzato per generare le etichette delle informazioni sull'articolo è escluso da questo argomento. Questo metodo interroga alcune tabelle per ottenere l'ID articolo, la descrizione e le dimensioni. Per una migliore comprensione di **generateItemInfoForProdId()**, guarda il codice sorgente.
+        > Il metodo **generateItemInfoForProdId()** utilizzato per generare le etichette delle informazioni sull'articolo è escluso da questo articolo. Questo metodo interroga alcune tabelle per ottenere l'ID articolo, la descrizione e le dimensioni. Per una migliore comprensione di **generateItemInfoForProdId()**, guarda il codice sorgente.
 
 4.  **ProdProcessGuideStartProductionOrderStep**
 
@@ -605,7 +605,7 @@ Per riassumere tutto ciò che è stato spiegato in questo argomento, ecco un rie
 
 ### <a name="extending-a-business-process"></a>Estensione di un processo aziendale
 
-Finora, questo argomento ha evidenziato come costruire un nuovo processo utilizzando il framework **ProcessGuide**. In questa sezione finale troverai alcuni esempi di come questo processo aziendale può essere esteso.
+Finora, questo articolo ha evidenziato come costruire un nuovo processo utilizzando il framework **ProcessGuide**. In questa sezione finale troverai alcuni esempi di come questo processo aziendale può essere esteso.
 
 ### <a name="add-a-step-in-a-flow-using-processguidenavigationagentdefault"></a>Aggiungere un passaggio in un flusso (usando ProcessGuideNavigationAgentDefault)
 

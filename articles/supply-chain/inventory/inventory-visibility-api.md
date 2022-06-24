@@ -1,6 +1,6 @@
 ---
 title: API pubbliche di visibilità dell'inventario
-description: Questo argomento descrive le API pubbliche fornite da Visibilità inventario.
+description: Questo articolo descrive le API pubbliche fornite da Visibilità inventario.
 author: yufeihuang
 ms.date: 12/09/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: cb02e8d10a5c673734727682436ba1b3fc996935
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902026"
 ---
 # <a name="inventory-visibility-public-apis"></a>API pubbliche di visibilità dell'inventario
 
 [!include [banner](../includes/banner.md)]
 
 
-Questo argomento descrive le API pubbliche fornite da Visibilità inventario.
+Questo articolo descrive le API pubbliche fornite da Visibilità inventario.
 
 L'API REST pubblica del componente aggiuntivo Visibilità magazzino presenta diversi endpoint specifici per l'integrazione. Supporta quattro tipi principali di interazione:
 
@@ -160,7 +160,7 @@ Per ottenere un token di servizio di sicurezza, seguite questi passi.
    ```
 
 > [!IMPORTANT]
-> Quando si utilizza la raccolta di richieste di *Postman* per chiamare le API pubbliche di Visibilità inventario, è necessario aggiungere un token di connessione per ogni richiesta. Per trovare il token di connessione, selezionare la scheda **Autorizzazione** nell'URL della richiesta, selezionare il tipo **Token di connessione** e copiare il token di connessione recuperato nell'ultimo passaggio. Nelle sezioni successive di questo argomento, si utilizzerà `$access_token` per rappresentare il token che è stato recuperato nell'ultimo passo.
+> Quando si utilizza la raccolta di richieste di *Postman* per chiamare le API pubbliche di Visibilità inventario, è necessario aggiungere un token di connessione per ogni richiesta. Per trovare il token di connessione, selezionare la scheda **Autorizzazione** nell'URL della richiesta, selezionare il tipo **Token di connessione** e copiare il token di connessione recuperato nell'ultimo passaggio. Nelle sezioni successive di questo articolo, si utilizzerà `$access_token` per rappresentare il token che è stato recuperato nell'ultimo passo.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Creare eventi di cambiamento a portata di mano
 
@@ -359,7 +359,7 @@ Body:
     ]
 ```
 
-L'esempio seguente mostra un esempio di contenuto del corpo. Il comportamento di questa API differisce da quello delle API che sono descritte nella sezione [Creare eventi di modifica on-hand in](#create-onhand-change-event) precedenza in questo argomento. In questo esempio, la quantità del prodotto *T-shirt* sarà impostata a 1.
+L'esempio seguente mostra un esempio di contenuto del corpo. Il comportamento di questa API differisce da quello delle API che sono descritte nella sezione [Creare eventi di modifica on-hand in](#create-onhand-change-event) precedenza in questo articolo. In questo esempio, la quantità del prodotto *T-shirt* sarà impostata a 1.
 
 ```json
 [

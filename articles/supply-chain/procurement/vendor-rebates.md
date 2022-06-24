@@ -1,6 +1,6 @@
 ---
 title: Sconti fornitore
-description: Questo argomento fornisce una panoramica della maggior parte delle attività comuni che si potrebbero eseguire quando si utilizzano gli sconti fornitore. Gli sconti fornitore consentono alle società di gestire meglio i relativi programmi sconti fornitore automatizzando le attività necessarie per amministrare, tenere traccia e riscuotere gli sconti ottenuti.
+description: Questo articolo fornisce una panoramica della maggior parte delle attività comuni che si potrebbero eseguire quando si utilizzano gli sconti fornitore. Gli sconti fornitore consentono alle società di gestire meglio i relativi programmi sconti fornitore automatizzando le attività necessarie per amministrare, tenere traccia e riscuotere gli sconti ottenuti.
 author: GalynaFedorova
 ms.date: 06/20/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: ed41fe18048050ecb80a93e929d66ebc3a2e2441
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 789a58af40595cbb72d55d598510c43315aead2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672964"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890801"
 ---
 # <a name="vendor-rebates"></a>Sconti fornitore
 
@@ -26,7 +26,7 @@ ms.locfileid: "8672964"
 
 Gli sconti fornitore consentono alle società di gestire meglio i relativi programmi sconti fornitore automatizzando le attività necessarie per amministrare, tenere traccia e riscuotere gli sconti ottenuti.
 
-Questo argomento fornisce una panoramica della maggior parte delle attività comuni che si potrebbero eseguire quando si utilizzano gli sconti fornitore. La panoramica descrive le seguenti attività:
+Questo articolo fornisce una panoramica della maggior parte delle attività comuni che si potrebbero eseguire quando si utilizzano gli sconti fornitore. La panoramica descrive le seguenti attività:
 
 - Esaminare i dettagli di un accordo sugli sconti.
 - Identificare gli ordini che beneficiano degli sconti e generare attestazioni di sconto.
@@ -34,7 +34,7 @@ Questo argomento fornisce una panoramica della maggior parte delle attività com
 
 ## <a name="audience-and-purpose"></a>Destinatari e scopo
 
-Le informazioni contenute in questo argomento sono destinate ai decisori aziendali, ad esempio responsabili degli acquisti, responsabili finanziari e direttori amministrativi con le seguenti responsabilità:
+Le informazioni contenute in questo articolo sono destinate ai decisori aziendali, ad esempio responsabili degli acquisti, responsabili finanziari e direttori amministrativi con le seguenti responsabilità:
 
 - Negoziare accordi su prezzi, riduzioni e sconti fornitore.
 - Gestire il personale che elabora le attestazioni di sconto e riscuote i pagamenti.

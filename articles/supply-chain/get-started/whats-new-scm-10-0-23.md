@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.23 (gennaio 2022)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.23.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.23.
 author: kamaybac
 ms.date: 10/15/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 86e33296fd8631082e47bf6814d8e5e716d9fa1b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: acffe97cf1844f16a70c716a7f2078b1e9a072d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691472"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849476"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.23 (gennaio 2022)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione 10.0.23. Questa versione ha il numero di build 10.0.1037 ed è disponibile come segue:
+Questo articolo elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione 10.0.23. Questa versione ha il numero di build 10.0.1037 ed è disponibile come segue:
 
 - **Anteprima della versione:** ottobre 2021
 - **Disponibilità generale della versione (aggiornamento automatico):** dicembre 2021
@@ -29,7 +29,7 @@ Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamic
 
 ## <a name="features-included-in-this-release"></a>Funzionalità incluse in questa versione
 
-Questa tabella elenca le funzionalità incluse in questa versione. La colonna *Funzionalità* fornisce collegamenti al [piano di rilascio](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), dove puoi vedere le date di rilascio ufficiali per ciascuna funzionalità. La colonna *Ulteriori informazioni* fornisce altri dettagli e/o collegamenti alla documentazione correlata. Per determinare come attivare una funzione, vedere la colonna *Abilitato da*. Per ulteriori informazioni su come utilizzare gestione delle funzionalità, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Potremmo aggiornare questo argomento per includere le funzionalità che sono state inserite nella build dopo che questo argomento è stato inizialmente pubblicato.
+Questa tabella elenca le funzionalità incluse in questa versione. La colonna *Funzionalità* fornisce collegamenti al [piano di rilascio](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features), dove puoi vedere le date di rilascio ufficiali per ciascuna funzionalità. La colonna *Ulteriori informazioni* fornisce altri dettagli e/o collegamenti alla documentazione correlata. Per determinare come attivare una funzione, vedere la colonna *Abilitato da*. Per ulteriori informazioni su come utilizzare gestione delle funzionalità, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Potremmo aggiornare questo articolo per includere le funzionalità che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
 | Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da |
 |---|---|---|---|
@@ -63,9 +63,9 @@ Se vuoi attivare o disattivare una di queste funzioni, devi farlo in [gestione f
 
 ## <a name="new-and-updated-documentation-resources"></a>Risorse della documentazione nuove e aggiornate
 
-Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argomenti della guida. Questi argomenti non sono necessariamente correlati alle nuove funzionalità aggiunte per questa versione, come elencato nella sezione precedente. Tuttavia, potrebbero aiutarti a ottenere di più dalle funzionalità esistenti.
+Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti articoli della guida. Questi articoli non sono necessariamente correlati alle nuove funzionalità aggiunte per questa versione, come elencato nella sezione precedente. Tuttavia, potrebbero aiutarti a ottenere di più dalle funzionalità esistenti.
 
-| Area funzionale | Argomenti nuovi o aggiornati |
+| Area funzionale | Articoli nuovi o aggiornati |
 |---|---|
 | Gestione modifiche di progettazione | Per informazioni su come funzionano gli attributi di progettazione, vedi [Attributi di progettazione e ricerca di attributi di progettazione](../engineering-change-management/engineering-attributes-and-search.md). |
 | Pianificazione generale | Per maggiori informazioni su come lavorare con le chiavi di riduzione, vedi [Pianificazione generale con previsioni della domanda](../master-planning/planning-optimization/demand-forecast.md) e [Chiavi di riduzione previsioni](../master-planning/reduction-keys.md). |
@@ -74,9 +74,9 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti argo
 | Pianificazione generale | [Programmazione fornitura](../master-planning/supply-schedule.md) |
 | Warehouse Management | [Parametri globali del dispositivo mobile](../warehousing/mobile-device-parameters.md) |
 | Warehouse Management | [Ancoraggio](../warehousing/anchoring.md) |
-| Vendite e marketing | Il commercio interaziendale è ora descritto in dettaglio in [Impostare il commercio interaziendale](../sales-marketing/intercompany-trade-set-up.md) e argomenti correlati. |
+| Vendite e marketing | Il commercio interaziendale è ora descritto in dettaglio in [Impostare il commercio interaziendale](../sales-marketing/intercompany-trade-set-up.md) e articoli correlati. |
 | Vendite e marketing | [Miglioramenti delle prestazioni di pulizia della cronologia delle vendite](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) |
-| Gestione inventario | La documentazione sulla visibilità inventario è stata ampliata e aggiornata, in [Panoramica del componente aggiuntivo Visibilità inventario](../inventory/inventory-visibility.md) e argomenti correlati. |
+| Gestione inventario | La documentazione sulla visibilità inventario è stata ampliata e aggiornata, in [Panoramica del componente aggiuntivo Visibilità inventario](../inventory/inventory-visibility.md) e articoli correlati. |
 | Warehouse Management | [Account utente dispositivo mobile](../warehousing/mobile-device-work-users.md) |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
@@ -97,12 +97,12 @@ Leggi [Dynamics 365 e cloud di settore: piano del secondo ciclo di rilascio del 
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Funzionalità di Supply Chain Management rimosse e deprecate
 
-L'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descrive le funzionalità che sono state o sono pianificate per essere rimosse o deprecate per Supply Chain Management.
+L'articolo [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descrive le funzionalità che sono state o sono pianificate per essere rimosse o deprecate per Supply Chain Management.
 
 - Una funzionalità *rimossa* non è più disponibile nel prodotto.
 - Una funzionalità *deprecata* non si trova nella fase attiva di sviluppo e potrebbe essere rimossa in un aggiornamento futuro.
 
-Prima che qualsiasi funzionalità venga rimossa dal prodotto, l'avviso di deprecazione verrà annunciato nell'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mesi prima della rimozione.
+Prima che qualsiasi funzionalità venga rimossa dal prodotto, l'avviso di deprecazione verrà annunciato nell'articolo [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mesi prima della rimozione.
 
 Per le modifiche significative che influiscono solo sui tempi di compilazione, ma che sono binari compatibili con sandbox e ambienti di produzione, il tempo di deprecazione sarà inferiore a 12 mesi. In genere, si tratta di aggiornamenti funzionali che è necessario apportare al compilatore.
 

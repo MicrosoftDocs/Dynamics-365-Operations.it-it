@@ -1,6 +1,6 @@
 ---
 title: Impostare un modello di lavoro per gli ordini fornitore
-description: In questo argomento viene descritto come impostare un modello di lavoro semplice da utilizzare quando si stoccano gli articoli ricevuti.
+description: In questo articolo viene descritto come impostare un modello di lavoro semplice da utilizzare quando si stoccano gli articoli ricevuti.
 author: Mirzaab
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32dbdd8243c6b37cfe0c42d2e7b06adfa32a947a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ee6bc896a979c326001e1596e4a463753005fabf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877365"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Impostare un modello di lavoro per gli ordini fornitore
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come impostare un modello di lavoro semplice da utilizzare quando si stoccano gli articoli ricevuti. I modelli di lavoro determinano il set di istruzioni presentate all'addetto del magazzino in un dispositivo mobile quando si spostano gli articoli dall'area di ricevimento. È possibile utilizzare questa procedura con i dati indicati nella società di dati dimostrativi USMF. Prima di iniziare questa guida, creare un ID pool di lavoro. In questo esempio, viene utilizzato un ID pool di lavoro denominato Inbound. Questa procedura è destinata al responsabile del magazzino.
+In questo articolo viene descritto come impostare un modello di lavoro semplice da utilizzare quando si stoccano gli articoli ricevuti. I modelli di lavoro determinano il set di istruzioni presentate all'addetto del magazzino in un dispositivo mobile quando si spostano gli articoli dall'area di ricevimento. È possibile utilizzare questa procedura con i dati indicati nella società di dati dimostrativi USMF. Prima di iniziare questa guida, creare un ID pool di lavoro. In questo esempio, viene utilizzato un ID pool di lavoro denominato Inbound. Questa procedura è destinata al responsabile del magazzino.
 
 1. Nel pannello di navigazione andare a **Moduli > Gestione magazzino > Impostazioni > Lavoro > Modelli di lavoro**.
 2. Nel campo **Tipo ordine di lavoro** selezionare **Ordini fornitori**.

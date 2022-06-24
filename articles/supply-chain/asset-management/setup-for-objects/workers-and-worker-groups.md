@@ -1,6 +1,6 @@
 ---
 title: Addetti alla manutenzione e gruppi di lavoratori
-description: In questo argomento vengono illustrati gli addetti alla manutenzione e i gruppi di lavoratori in Gestione cespiti.
+description: In questo articolo vengono illustrati gli addetti alla manutenzione e i gruppi di lavoratori in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e976a28349a4bc7a371d23eb4df724e0ffd36a0553aec2deeb2ff07d0a63579
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3a24c880ee76af1490824aef07976b998d9225d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750126"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860901"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Addetti alla manutenzione e gruppi di lavoratori
 
@@ -28,7 +28,7 @@ ms.locfileid: "6750126"
 
  
 
-In questo argomento vengono illustrati gli addetti alla manutenzione e i gruppi di lavoratori in Gestione cespiti. In Gestione cespiti è possibile collegare gli addetti alla manutenzione alle unità funzionali. Per ulteriori informazioni sulle unità funzionali, vedere [Creare unità funzionali](../functional-locations/create-functional-locations.md). Questa funzionalità può risultare utile se, ad esempio, si programma un processo di manutenzione per una macchina situata nell'unità funzionale 01 e si desidera assegnare addetti alla manutenzione della stessa ubicazione per eseguire il processo.
+In questo articolo vengono illustrati gli addetti alla manutenzione e i gruppi di lavoratori in Gestione cespiti. In Gestione cespiti è possibile collegare gli addetti alla manutenzione alle unità funzionali. Per ulteriori informazioni sulle unità funzionali, vedere [Creare unità funzionali](../functional-locations/create-functional-locations.md). Questa funzionalità può risultare utile se, ad esempio, si programma un processo di manutenzione per una macchina situata nell'unità funzionale 01 e si desidera assegnare addetti alla manutenzione della stessa ubicazione per eseguire il processo.
 
 È inoltre possibile creare gruppi di addetti alla manutenzione e associarvi gli addetti. Questa funzionalità è utile quando si esegue la programmazione semplice degli ordini di lavoro e si desidera programmare un gruppo di addetti alla manutenzione in un ordine di lavoro. È possibile utilizzare gli addetti alla manutenzione e i gruppi di addetti alla manutenzione per impostare addetti alla manutenzione preferiti e addetti alla manutenzione responsabili. 
 

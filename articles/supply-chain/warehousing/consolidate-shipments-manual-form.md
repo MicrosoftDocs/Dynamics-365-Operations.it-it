@@ -1,6 +1,6 @@
 ---
 title: Consolidare le spedizioni manualmente utilizzando la pagina Consolida spedizioni
-description: Questo argomento presenta uno scenario in cui più ordini vengono rilasciati al magazzino e consolidati successivamente utilizzando la pagina Consolida spedizioni.
+description: Questo articolo presenta uno scenario in cui più ordini vengono rilasciati al magazzino e consolidati successivamente utilizzando la pagina Consolida spedizioni.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 5a2f4a9ed05460f9beedf8653ec80b01c84a7b26
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d24542a126d64621525f62e694bbc7174b474810
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677480"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897344"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Consolidare le spedizioni manualmente utilizzando la pagina Consolida spedizioni
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento presenta uno scenario in cui più ordini vengono rilasciati al magazzino e consolidati successivamente utilizzando la pagina **Consolida spedizioni**.
+Questo articolo presenta uno scenario in cui più ordini vengono rilasciati al magazzino e consolidati successivamente utilizzando la pagina **Consolida spedizioni**.
 
 ## <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
-Lo scenario in questo argomento fa riferimento a valori e record inclusi nei dati demo standard forniti per Microsoft Dynamics 365 Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica su **USMF** prima di iniziare.
+Lo scenario in questo articolo fa riferimento a valori e record inclusi nei dati demo standard forniti per Microsoft Dynamics 365 Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica su **USMF** prima di iniziare.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Impostare i criteri di consolidamento delle spedizioni e i filtri per i prodotti
 

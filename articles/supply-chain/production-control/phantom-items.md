@@ -1,6 +1,6 @@
 ---
 title: Articoli fittizi
-description: Questo argomento descrive in che modo è possibile usare il tipo di riga Fittizio per le righe di una distinta base (DBA) e una formula in Dynamics 365 Supply Chain Management.
+description: Questo articolo descrive in che modo è possibile usare il tipo di riga Fittizio per le righe di una distinta base (DBA) e una formula in Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 05/05/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-05-05
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 5c9768381d35709611e4bec3d2b7793a4d896b34
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 64139873216decd8ecb2fcaf1f284e726c53c332
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893325"
 ---
 # <a name="phantom-items"></a>Articoli fittizi
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive in dettaglio in che modo è possibile usare il tipo di riga Fittizio per le righe di una distinta base (DBA) e una formula.
+Questo articolo descrive in dettaglio in che modo è possibile usare il tipo di riga Fittizio per le righe di una distinta base (DBA) e una formula.
 
 Nella figura 1 (a) è la DBA per il prodotto H e le parti F e G e (b) è la scheda cicli di lavorazione per i prodotti H e la parte F.
 

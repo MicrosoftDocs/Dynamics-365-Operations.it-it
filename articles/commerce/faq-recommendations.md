@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti sui suggerimenti sul prodotto
-description: In questo argomento vengono fornite informazioni sui processi e sugli strumenti che è possibile utilizzare per risolvere i problemi che riguardano i suggerimenti sul prodotto o i relativi risultati.
+description: In questo articolo vengono fornite informazioni sui processi e sugli strumenti che è possibile utilizzare per risolvere i problemi che riguardano i suggerimenti sul prodotto o i relativi risultati.
 author: bebeale
 ms.date: 05/26/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 88ad0efd8f678c3082c31b1c3162b8288e14fc9edb69e8756f1641461b808e07
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77a5532ab1ae3b630bb335aa7cff6dc747184994
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900449"
 ---
 # <a name="product-recommendations-faq"></a>Domande frequenti sui suggerimenti sul prodotto
 
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sui processi e sugli strumenti che è possibile utilizzare per risolvere i problemi che riguardano i [suggerimenti sul prodotto](product-recommendations.md) o i relativi risultati.
+In questo articolo vengono fornite informazioni sui processi e sugli strumenti che è possibile utilizzare per risolvere i problemi che riguardano i [suggerimenti sul prodotto](product-recommendations.md) o i relativi risultati.
 
 ## <a name="best-practices"></a>Procedure consigliate
 È molto importante utilizzare il concetto delle rappresentazioni generali prodotto e delle varianti. Il raggruppamento di varianti per una rappresentazione generale prodotto padre consente agli algoritmi degli elenchi e al servizio di creare modelli migliori. Inoltre, il servizio può servire una sola istanza di un prodotto anziché inserire tutte le varianti strettamente correlate in un elenco. Quando tutte le varianti strettamente correlate sono inserite in un elenco, è possibile avere risultati duplicati o errati.

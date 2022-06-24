@@ -1,6 +1,6 @@
 ---
 title: Creare un ordine fornitore
-description: In questo argomento viene descritto come creare un ordine fornitore manualmente.
+description: In questo articolo viene descritto come creare un ordine fornitore manualmente.
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2fd627b9874b3e3f7aad71fb2970ddcc333a608
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a04a9f4a512a307efecb19703cd3df638ba5ff5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677396"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856079"
 ---
 # <a name="create-a-purchase-order"></a>Creare un ordine fornitore
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come creare un ordine fornitore manualmente. È più normale che gli ordini fornitori vengano creati automaticamente come risultato di una pianificazione generale, della consegna diretta e di altri processi. Gli ordini acquisti sono in genere creati da un addetto agli acquisti. L'esempio riportato in questo campo può essere utilizzato nella società di dati dimostrativi USMF usando i valori che verranno suggeriti nelle note per i vari passaggi.
+In questo articolo viene descritto come creare un ordine fornitore manualmente. È più normale che gli ordini fornitori vengano creati automaticamente come risultato di una pianificazione generale, della consegna diretta e di altri processi. Gli ordini acquisti sono in genere creati da un addetto agli acquisti. L'esempio riportato in questo campo può essere utilizzato nella società di dati dimostrativi USMF usando i valori che verranno suggeriti nelle note per i vari passaggi.
 
 
 ## <a name="create-the-purchase-order-header"></a>Creare l'intestazione ordine fornitore

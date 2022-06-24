@@ -1,6 +1,6 @@
 ---
 title: Creare un ordine fornitore con una programmazione consegna
-description: Questa argomento dimostra come creare una programmazione consegna per un ordine fornitore.
+description: Questa articolo dimostra come creare una programmazione consegna per un ordine fornitore.
 author: GalynaFedorova
 ms.date: 08/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1475115b5c1a475f9a56f0f3eb8bb47267d2b91
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e13103f374be838a5ea0fb5e08c449b419905cab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677452"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875248"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Creare un ordine fornitore con una programmazione consegna
 
 [!include [banner](../../includes/banner.md)]
 
-Questa argomento dimostra come creare una programmazione consegna per un ordine fornitore. Una programmazione consegna viene utilizzata quando si richiede che una quantità di un ordine o su un giornale di registrazione venga consegnata in più spedizioni. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF. Questa procedura viene in genere eseguita da un addetto agli acquisti.
+Questa articolo dimostra come creare una programmazione consegna per un ordine fornitore. Una programmazione consegna viene utilizzata quando si richiede che una quantità di un ordine o su un giornale di registrazione venga consegnata in più spedizioni. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF. Questa procedura viene in genere eseguita da un addetto agli acquisti.
 
 ## <a name="create-a-delivery-schedule"></a>Creare una programmazione consegna
 1. Passare ad **pannello di navigazione > Moduli > Approvvigionamento > Ordini fornitore > Tutti gli ordini fornitore**.

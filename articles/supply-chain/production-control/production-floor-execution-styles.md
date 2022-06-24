@@ -1,6 +1,6 @@
 ---
-title: Progettare l'interfaccia di esecuzione dell'area di produzione
-description: L'argomento spiega come configurare i controlli del modulo in modo che vengano applicati gli stili di esecuzione del piano di produzione predefiniti.
+title: Creare lo stile per l'interfaccia di esecuzione dell'area di produzione
+description: L'articolo spiega come configurare i controlli del modulo in modo che vengano applicati gli stili di esecuzione del piano di produzione predefiniti.
 author: johanhoffmann
 ms.date: 11/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ef39dc6414f0afdadd4a4b5a41e1fb1fe60e4974
-ms.sourcegitcommit: bc9e75c38e192664cde226ed3a94df5a0b304369
+ms.openlocfilehash: ad6ecd591353fe8ddc1a5b9049d65491fb58e98a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7790892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859142"
 ---
-# <a name="style-the-production-floor-execution-interface"></a>Progettare l'interfaccia di esecuzione dell'area di produzione
+# <a name="style-the-production-floor-execution-interface"></a>Creare lo stile per l'interfaccia di esecuzione dell'area di produzione
 
 [!include [banner](../includes/banner.md)]
 
-L'argomento spiega come configurare i controlli del modulo in modo che vengano applicati gli stili di esecuzione del piano di produzione predefiniti.
+L'articolo spiega come configurare i controlli del modulo in modo che vengano applicati gli stili di esecuzione del piano di produzione predefiniti.
 
 ## <a name="forms-and-dialogs"></a>Moduli e finestre di dialogo
 
@@ -31,7 +31,7 @@ Gli stili possono essere applicati a un modulo o a una finestra di dialogo solo 
 - Se il modulo deve assomigliare al modulo di avanzamento del report esistente, il nome del modulo o della finestra di dialogo deve iniziare con `JmgProductionFloorExecutionCustomInputDialog`.
 - Il modulo o la finestra di dialogo può contenere una parte del modulo di dettaglio. Per applicare gli stili, il nome della parte del modulo di dettaglio deve iniziare con `JmgProductionFloorExecutionCustomDetailsDialog`.
 - Se il modulo o la finestra di dialogo deve avere una vista semplice, il nome della vista semplice deve iniziare con `JmgProductionFloorExecutionCustomDialog`. Esempi di moduli che hanno una visualizzazione semplice includono il modulo di inizio e il modulo dell'attività indiretta.
-- Tutti i controlli nella finestra di dialogo devono essere configurati come descritto in questo argomento.
+- Tutti i controlli nella finestra di dialogo devono essere configurati come descritto in questo articolo.
 
 > [!IMPORTANT]
 > Le funzionalità menzionate nei primi due punti di questo elenco richiedono Supply Chain Management versione 10.0.19 o successiva.

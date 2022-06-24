@@ -1,6 +1,6 @@
 ---
 title: Panoramica delle richieste di offerta (RdO)
-description: In questo argomento è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori.
+description: In questo articolo è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori.
 author: GalynaFedorova
 ms.date: 10/05/2020
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3de48c03ac73ee164dea0c329b2595db21c841cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 89abf82879ab08f2341ce5b14e6af1d5c42140b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671956"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895585"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Panoramica delle richieste di offerta (RdO)
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori. In una richiesta di offerta viene richiesto ai fornitori di fornire i prezzi e i tempi di consegna per le quantità di articoli specificati.
+In questo articolo è riportata una panoramica relativa alle richieste di offerta (RdO). Le organizzazioni emettono una richiesta di offerta quando devono acquistare articoli o servizi e desiderano ricevere offerte competitive da diversi fornitori. In una richiesta di offerta viene richiesto ai fornitori di fornire i prezzi e i tempi di consegna per le quantità di articoli specificati.
 È inoltre possibile chiedere ai fornitori di specificare se esistono eventuali spese accessorie, ad esempio i costi di spedizione o se il fornitore offre sconti per grandi ordini o per il pagamento anticipato della fattura fornitore.
 
 Il processo RdO comporta le seguenti attività:
@@ -45,7 +45,7 @@ Nell'illustrazione riportata di seguito viene mostrata una panoramica del proces
 
 Dopo che si prepara il caso RdO e aggiungere i fornitori, selezionare **Invia** (**Invia e pubblica** per il settore pubblico) nel caso RdO. Un giornale di registrazione RdO viene generato per ciascun fornitore a cui viene inviata una RdO. È possibile configurare le opzioni di stampa per l'azione Invia così da stampare un report per ogni fornitore in un archivio o per inviare un report all'indirizzo di posta elettronica di ogni fornitore. Inoltre, il giornale di registrazione di RdO per ciascun fornitore può essere utilizzato per generare un report da inviare o inviare successivamente a un fornitore. È inoltre possibile configurare l'azione Invio per generare automaticamente un foglio di risposta che il fornitore può completare.
 
-In questo argomento vengono illustrati il processo di gestione delle richieste di offerta quando la collaborazione fornitore non viene utilizzata. Se il sistema è impostato per la collaborazione fornitori, i fornitori possono immettere le offerte direttamente in Supply Chain Management. Per ulteriori informazioni, vedere [Collaborazione fornitore con i clienti](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
+In questo articolo vengono illustrati il processo di gestione delle richieste di offerta quando la collaborazione fornitore non viene utilizzata. Se il sistema è impostato per la collaborazione fornitori, i fornitori possono immettere le offerte direttamente in Supply Chain Management. Per ulteriori informazioni, vedere [Collaborazione fornitore con i clienti](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) e [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
 
 Se è necessario modificare una RdO dopo averla inviata, è possibile inviare la RdO ai fornitori al termine utilizzando le due azioni di modifica: Crea e Finalizza.
 
@@ -59,7 +59,7 @@ Dopo aver scelto un'offerta o una serie di righe in un'offerta, è possibile acc
 
 Un caso RdO ha due stati: minimo e massimo che è possibile visualizzare nella pagina elenco per **Tutte le richieste di offerta**. Lo stato minimo corrisponde allo stato meno avanzato del caso RdO, mentre stato massimo è lo stato più avanzato di qualsiasi riga del caso RdO. Ad esempio, si supponga che un caso di RdO con tre righe venga inviato a due fornitori, quindi ci saranno due RdO ciascuna con tre righe. Tutte le righe hanno stato **Inviata**. Ora viene immessa un'offerta da uno dei fornitori e le righe RdO ottengono lo stato **Ricevuta**. Ciò significa che delle tre righe del caso RdO hanno tutte stato **Inviata** per una RdO e stato **Ricevuta** per un'altra RdO. Lo stato minimo sarà quindi **Inviata** e lo stato massimo **Ricevuta**.
 
-Questi stati verranno descritti in modo più dettagliato nelle sezioni successive dell'argomento.
+Questi stati verranno descritti in modo più dettagliato nelle sezioni successive dell'articolo.
 
 ## <a name="setting-up-rfq-functionality"></a>Impostare la funzionalità della richiesta di offerta
 

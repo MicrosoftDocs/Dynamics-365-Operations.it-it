@@ -1,6 +1,6 @@
 ---
-title: Panoramica sulla gestione trasporto
-description: In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Supply Chain Management.
+title: Panoramica gestione trasporto
+description: In questo articolo viene fornita una panoramica della funzionalità di gestione del trasporto in Supply Chain Management.
 author: Weijiesa
 ms.date: 06/20/2017
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6181d63c9ab447c4892948fe1f3ee41d2680b78d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 12f870c95f28e752c3c3b3dd4161d82815b9954a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897460"
 ---
 # <a name="transportation-management-overview"></a>Panoramica gestione trasporto
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica della funzionalità di gestione del trasporto in Supply Chain Management.
+In questo articolo viene fornita una panoramica della funzionalità di gestione del trasporto in Supply Chain Management.
 
 Gestione trasporto consente di utilizzare il trasporto della società e di identificare soluzioni fornitori e percorsi di trasferimento per gli ordini in ingresso e in uscita. Ad esempio, è possibile identificare il ciclo di lavorazione più veloce o la tariffa più economica per una spedizione. Nella tabella seguente vengono descritti gli scenari principali per l'uso di Gestione trasporto.
 

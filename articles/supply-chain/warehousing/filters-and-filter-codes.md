@@ -1,6 +1,6 @@
 ---
 title: Configurare i filtri di prodotto per le transazioni di magazzino
-description: In questo argomento viene descritto come configurare i filtri prodotto e i codici filtro per classificare gli articoli di magazzino in un magazzino. È inoltre possibile utilizzare i filtri per specificare quali clienti possono richiedere un determinato articolo e per specificare gli articoli che possono essere acquistati da un fornitore specifico.
+description: In questo articolo viene descritto come configurare i filtri prodotto e i codici filtro per classificare gli articoli di magazzino in un magazzino. È inoltre possibile utilizzare i filtri per specificare quali clienti possono richiedere un determinato articolo e per specificare gli articoli che possono essere acquistati da un fornitore specifico.
 author: Mirzaab
 ms.date: 01/04/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 021ce940a4ea6d59719d1c6bc79532832cc2f3ff
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850440"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurare i filtri di prodotto per le transazioni di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come configurare i filtri prodotto e i codici filtro per classificare gli articoli di magazzino in un magazzino. È inoltre possibile utilizzare i filtri per specificare quali clienti possono richiedere un determinato articolo e per specificare gli articoli che possono essere acquistati da un fornitore specifico.
+In questo articolo viene descritto come configurare i filtri prodotto e i codici filtro per classificare gli articoli di magazzino in un magazzino. È inoltre possibile utilizzare i filtri per specificare quali clienti possono richiedere un determinato articolo e per specificare gli articoli che possono essere acquistati da un fornitore specifico.
 
 Inoltre, è possibile impostare e utilizzare i filtri di prodotto per organizzare automaticamente gli articoli di magazzino in un magazzino e per combinare gli articoli filtrati in gruppi di filtro. I filtri possono essere utilizzati per inserire gli articoli in categorie per i processi di gestione, acquisto e vendita. È consigliabile raggruppare gli articoli o separarli gli uni dagli altri quando il modo in cui vengono gestiti è basato sul peso o sulle restrizioni di manipolazione. Puoi anche specificare da quali clienti o fornitori è possibile acquistare o vendere un articolo.
 
@@ -48,7 +48,7 @@ I filtri di prodotto offrono fino a 10 caratteristiche **Titolo del filtro** che
 
     ![Configurazione di un filtro di prodotto.](media/Product_Filters10.png "Configurazione di un filtro di prodotto")
 
-1. Nel campo **Descrizione** immetti un nome per il codice. Per esempio, *Codice 2* potrebbe rappresentare i fornitori. È quindi possibile creare un filtro di prodotto per un fornitore o un gruppo di fornitori specifico. Per ulteriori informazioni, vedere la sezione [Configurare i codici di filtro fornitore](#vendor-product-filters) più avanti in questo argomento.
+1. Nel campo **Descrizione** immetti un nome per il codice. Per esempio, *Codice 2* potrebbe rappresentare i fornitori. È quindi possibile creare un filtro di prodotto per un fornitore o un gruppo di fornitori specifico. Per ulteriori informazioni, vedi la sezione [Configurare i codici di filtro fornitore](#vendor-product-filters) più avanti in questo articolo.
 
     ![Set di filtri di prodotto.](media/Product_Filters.png "Set di filtri di prodotto")
 

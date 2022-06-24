@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti sui calcoli per i modelli di configurazione prodotto
-description: In questo argomento vengono descritti i calcoli per i modelli di configurazione prodotto e viene spiegato come utilizzare i calcoli insieme ai vincoli.
+description: In questo articolo vengono descritti i calcoli per i modelli di configurazione prodotto e viene spiegato come utilizzare i calcoli insieme ai vincoli.
 author: t-benebo
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9463fac363f6bb25c1bd2afebe5737e47aa8b3cf
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570803"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890946"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Domande frequenti sui calcoli per i modelli di configurazione prodotto
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i calcoli per i modelli di configurazione prodotto e viene spiegato come utilizzare i calcoli insieme ai vincoli.
+In questo articolo vengono descritti i calcoli per i modelli di configurazione prodotto e viene spiegato come utilizzare i calcoli insieme ai vincoli.
 
 I calcoli possono essere utilizzati per le operazioni aritmetiche o logiche e sono complementari ai vincoli di espressione nei modelli di configurazione prodotto. È possibile definire i calcoli nella pagina **Dettagli modello di configurazione prodotto basato su vincoli**, quindi sviluppare espressioni per i calcoli nell'editor espressioni. Per ulteriori informazioni sul calcolo, vedere Creazione di calcoli.
 

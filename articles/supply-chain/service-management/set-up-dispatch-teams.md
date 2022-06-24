@@ -1,6 +1,6 @@
 ---
 title: Imposta il team di intervento
-description: Viene descritta la procedura per creare un team di intervento.
+description: In questo articolo viene descritta la procedura per creare un team di intervento.
 author: sorenva
 ms.date: 05/01/2018
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 742cb79076662e9595b98bb7acf91ffed5e0ac82
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2051ccdbe5786a347c1eba5bd36a0d6c77ad72a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847848"
 ---
 # <a name="set-up-dispatch-teams"></a>Imposta il team di intervento 
 
 [!include [banner](../includes/banner.md)]
 
 
-Viene descritta la procedura per creare un team di intervento. Dopo aver creato un team di intervento, è possibile assegnare i lavoratori a un team. Quando si crea un ordine di assistenza, è quindi possibile correlare un membro del team di intervento a un'attività nell'ordine di assistenza.
+In questo articolo viene descritta la procedura per creare un team di intervento. Dopo aver creato un team di intervento, è possibile assegnare i lavoratori a un team. Quando si crea un ordine di assistenza, è quindi possibile correlare un membro del team di intervento a un'attività nell'ordine di assistenza.
 
 1.  Fare clic su **Gestione assistenza** \> **Impostazione** \> **Team di intervento**.
 

@@ -1,6 +1,6 @@
 ---
 title: Importare gli ASN in entrata tramite l'entità di dati V3
-description: Questo argomento spiega come gestire l'importazione degli Advanced Shipping Notice (ASN) in entrata tramite l'entità di dati ASN in entrata.
+description: Questo articolo spiega come gestire l'importazione degli Advanced Shipping Notice (ASN) in entrata tramite l'entità di dati ASN in entrata.
 author: GalynaFedorova
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-04
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 44ec0230236451a413d483b3e9f3ddc58b49a0b0
-ms.sourcegitcommit: 90ffd763d18f97654b9dbc9e3f71c998e6094c6b
+ms.openlocfilehash: 0ac45e070d0473547c48da1380377de3d4bf60bd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740137"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907118"
 ---
 # <a name="import-inbound-asns-through-the-v3-data-entity"></a>Importare gli ASN in entrata tramite l'entità di dati V3
 
@@ -26,7 +26,7 @@ Gli gli Advanced Shipping Notice (ASN) ti informano sulle consegne dei fornitori
 
 Gli ASN possono aiutare i magazzinieri a sapere cosa sta arrivando e quando. Pertanto, possono prepararsi. Inoltre, gli addetti al magazzino possono utilizzare gli ASN per abbinare i dettagli di una spedizione all'ordine fornitore correlato creato in precedenza.
 
-Questo argomento presenta una raccolta di scenari che mostrano, attraverso esempi, come utilizzare i file ASN.
+Questo articolo presenta una raccolta di scenari che mostrano, attraverso esempi, come utilizzare i file ASN.
 
 > [!IMPORTANT]
 > L'importazione di *ASN in entrata* si applica solo agli articoli abilitati per la gestione avanzata del magazzino (WMS). Prima di ricevere un ASN, è necessario registrare nel sistema un ordine relativo al fornitore che invia tale ASN.

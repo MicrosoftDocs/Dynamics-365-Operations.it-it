@@ -1,6 +1,6 @@
 ---
 title: Configurare l'autenticazione da servizio a servizio
-description: Questo argomento descrive come configurare l'autenticazione da servizio a servizio in Microsoft Dynamics 365 Commerce per chiamare in modo sicuro le API di servizio per valutazioni e recensioni.
+description: Questo articolo descrive come configurare l'autenticazione da servizio a servizio in Microsoft Dynamics 365 Commerce per chiamare in modo sicuro le API di servizio per valutazioni e recensioni.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: da780de5f15d72bdac85a261eae809125c830260
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: acb3a6220d146d32bbeb5bd8169033bc897ec3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871609"
 ---
 # <a name="configure-service-to-service-authentication"></a>Configurare l'autenticazione da servizio a servizio
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come configurare l'autenticazione da servizio a servizio (S2S) in Microsoft Dynamics 365 Commerce per chiamare in modo sicuro le API di servizio per valutazioni e recensioni.
+Questo articolo descrive come configurare l'autenticazione da servizio a servizio (S2S) in Microsoft Dynamics 365 Commerce per chiamare in modo sicuro le API di servizio per valutazioni e recensioni.
 
-Dynamics 365 Commerce offre [valutazioni e recensioni](ratings-reviews-overview.md) come soluzione multicanale. Questa soluzione consente l'accesso alle API di servizio dall'esterno di Commerce, in modo che possano essere eseguite varie attività. Queste attività includono l'importazione di valutazioni e recensioni dal tuo sistema esterno in Commerce e l'esportazione di valutazioni e recensioni da Commerce. Per consentire a Commerce di chiamare in modo sicuro le API del servizio di valutazione e recensione, devi prima configurare l'autenticazione S2S completando le procedure in questo argomento.
+Dynamics 365 Commerce offre [valutazioni e recensioni](ratings-reviews-overview.md) come soluzione multicanale. Questa soluzione consente l'accesso alle API di servizio dall'esterno di Commerce, in modo che possano essere eseguite varie attività. Queste attività includono l'importazione di valutazioni e recensioni dal tuo sistema esterno in Commerce e l'esportazione di valutazioni e recensioni da Commerce. Per consentire a Commerce di chiamare in modo sicuro le API del servizio di valutazione e recensione, devi prima configurare l'autenticazione S2S completando le procedure in questo articolo.
 
 ## <a name="add-a-new-app-registration"></a>Aggiungere una nuova registrazione app
 

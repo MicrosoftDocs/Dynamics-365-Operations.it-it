@@ -1,6 +1,6 @@
 ---
 title: Spese per operazioni di non conformità
-description: Questo argomento descrive come spese di gestione qualità che possano essere utilizzate con le operazioni per una non conformità.
+description: Questo articolo descrive come spese di gestione qualità che possano essere utilizzate con le operazioni per una non conformità.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac3306f3f9215ab03f408b8026f335dcf496515a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 29520afca07adee49846d1be987685a1ece8283c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850730"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Spese per operazioni di non conformità
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come spese di gestione qualità che possano essere utilizzate con le operazioni per una non conformità.
+Questo articolo descrive come spese di gestione qualità che possano essere utilizzate con le operazioni per una non conformità.
 
 Puoi Utilizzare la pagina **Spese gesione qualità** per definire i tipi di spese che è possibile aggiungere alle operazioni per una non conformità. Le spese ti consentono di tenere traccia dei dettagli sulle commissioni o sugli addebiti che devi a un cliente per prodotti non conformi o che un fornitore ti deve per prodotti non conformi che hai ricevuto. È inoltre possibile utilizzare gli addebiti per tenere traccia dei costi necessari ai fornitori o ai servizi esterni per eseguire un'operazione.
 

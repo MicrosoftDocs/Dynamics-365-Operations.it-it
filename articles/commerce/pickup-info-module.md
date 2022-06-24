@@ -1,6 +1,6 @@
 ---
 title: Modulo di informazioni sul ritiro
-description: In questo argomento viene descritto il modulo di informazioni sul ritiro e la procedura per aggiungerlo alle pagine del checkout in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto il modulo di informazioni sul ritiro e la procedura per aggiungerlo alle pagine del checkout in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 11/06/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 52015fb973642bfc6f45901e7c1a265f0ccfc415b1324bc62ef77a5fc72550bb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad877a0c018093fe97f0aa8ac213357c0520a1c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764563"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892599"
 ---
 # <a name="pickup-information-module"></a>Modulo di informazioni sul ritiro
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto il modulo di informazioni sul ritiro e la procedura per aggiungerlo alle pagine del checkout in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto il modulo di informazioni sul ritiro e la procedura per aggiungerlo alle pagine del checkout in Microsoft Dynamics 365 Commerce.
 
 Il modulo di informazioni sul ritiro può essere utilizzato in un modulo checkout per mostrare le informazioni sul ritiro dell'ordine. I clienti possono visualizzare le date di ritiro e le fasce orarie disponibili, quindi selezionare un orario adatto per ritirare l'ordine. Ad esempio, un cliente può scegliere di ritirare un ordine alle 15.00 del 21 marzo dal negozio di San Francisco.
 

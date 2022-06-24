@@ -1,6 +1,6 @@
 ---
 title: Designer formula
-description: In questo argomento viene descritto come utilizzare Designer formula per analizzare e gestire le formule in una visualizzazione struttura.
+description: In questo articolo viene descritto come utilizzare Designer formula per analizzare e gestire le formule in una visualizzazione struttura.
 author: johanhoffmann
 ms.date: 06/01/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf45fdf44e6d060ee16edf1a6628c5ffd9920dcb
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 247f41b43030d392df67275e6e7db1bea5df1847
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566836"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849273"
 ---
 # <a name="formula-designer"></a>Designer formula
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare Designer formula per analizzare e gestire le formule in una visualizzazione struttura.
+In questo articolo viene descritto come utilizzare Designer formula per analizzare e gestire le formule in una visualizzazione struttura.
 
 Quando si apre la pagina **Designer formula** dalla pagina **Prodotti rilasciati**, la struttura nel riquadro a sinistra mostra l'elenco dei co-prodotti e la gerarchia degli ingredienti del prodotto rilasciato. La struttura deriva dalla gerarchia delle formule attive e approvate per l'articolo selezionato e i relativi ingredienti, il sito di ordine predefinito dell'articolo e la data di validità.
 

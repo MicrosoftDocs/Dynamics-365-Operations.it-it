@@ -1,6 +1,6 @@
 ---
 title: Stimare e gestire i costi sbarcati
-description: Il sistema utilizza la configurazione dei costi automatici per determinare una stima del costo sbarcato. In questo argomento viene descritto come definire vari scenari per fornire una stima più accurata.
+description: Il sistema utilizza la configurazione dei costi automatici per determinare una stima del costo sbarcato. In questo articolo viene descritto come definire vari scenari per fornire una stima più accurata.
 author: Weijiesa
 ms.date: 01/26/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 630fb9dc8e7954fcbc4f54941d81de1caa657676
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2e7cdd7c7439a24ec75a59bcee1e8f42f37bb2cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696209"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854443"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Stimare e gestire i costi sbarcati
 
@@ -50,7 +50,7 @@ Nella seguente tabella vengono descritti i campi disponibili per ogni modello.
 
 Usare la finestra di dialogo **Stima dei costi** per generare una nuova stima dei costi basata su un modello di costo selezionato, un insieme di articoli selezionato e altri dettagli di un percorso. Queste impostazioni vengono quindi utilizzate per determinare i costi sbarcati stimati delle merci. Queste stime dei costi vengono utilizzate principalmente con voci di costo standard. Aggiungendo i costi sbarcati stimati al costo standard delle merci in inventario, si dovrebbero avere transazioni con uno scostamento minore quando le merci vengono aggiunte a un viaggio, poiché il costo standard rifletterà le stime di tali costi sbarcati.
 
-Per aprire la finestra di dialogo **Stima dei costi**, selezionare **Costo sbarcato \> Attività periodiche \> Stima dei costi**. Quindi impostare i campi descritti nelle sottosezioni seguenti. Infine, selezionare **OK** per creare la stima. Viene quindi visualizzata la pagina **Stima dei costi** (**Costo sbarcato \> Informazioni \> Stima dei costi**) in cui appare la nuova stima, come descritto più avanti in questo argomento.
+Per aprire la finestra di dialogo **Stima dei costi**, selezionare **Costo sbarcato \> Attività periodiche \> Stima dei costi**. Quindi impostare i campi descritti nelle sottosezioni seguenti. Infine, selezionare **OK** per creare la stima. Viene quindi visualizzata la pagina **Stima dei costi** (**Costo sbarcato \> Informazioni \> Stima dei costi**) in cui appare la nuova stima, come descritto più avanti in questo articolo.
 
 ### <a name="settings-on-the-parameters-tab"></a>Impostazioni nella scheda Parametri
 
@@ -91,7 +91,7 @@ Per visualizzare o modificare i dettagli del volume e/o del peso di un articolo,
 
 ## <a name="manage-estimated-costs"></a>Gestire i costi stimati
 
-Per visualizzare e modificare le stime dei costi create, selezionare **Costo sbarcato \> Informazioni \> Stime dei costi**. Nella pagina **Stime dei costi**, il riquadro elenco a sinistra mostra tutte le stime dei costi correnti. È possibile utilizzare i pulsanti del riquadro Azioni con una stima selezionata. Notare che non è possibile creare una nuova stima dei costi nella pagina **Stima dei costi**. Utilizzare invece la finestra di dialogo **Stima dei costi** (**Costo sbarcato \> Attività periodiche \> Stima dei costi**), come descritto in precedenza in questo argomento.
+Per visualizzare e modificare le stime dei costi create, selezionare **Costo sbarcato \> Informazioni \> Stime dei costi**. Nella pagina **Stime dei costi**, il riquadro elenco a sinistra mostra tutte le stime dei costi correnti. È possibile utilizzare i pulsanti del riquadro Azioni con una stima selezionata. Notare che non è possibile creare una nuova stima dei costi nella pagina **Stima dei costi**. Utilizza invece la finestra di dialogo **Stima dei costi** (**Costo sbarcato \> Attività periodiche \> Stima dei costi**), come descritto in precedenza in questo articolo.
 
 La pagina **Stime dei costi** mostra come è stato derivato ciascun costo stimato. Mostra anche il costo sbarcato stimato per ogni articolo. È possibile modificare una stima dei costi cambiando il prezzo di costo e/o la valuta associata alle varie merci. È inoltre possibile modificare i costi di viaggio associati sia a livello di viaggio che a livello di contenitore. Quando si utilizza questa pagina per modificare i costi, viene richiesto di ricalcolare i costi stimati per gli articoli nella stima dei costi. Quando si è pronti, è possibile utilizzare le stime per aggiornare il prezzo di costo degli articoli nel modello di costo.
 

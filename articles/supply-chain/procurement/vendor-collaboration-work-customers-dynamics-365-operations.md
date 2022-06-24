@@ -1,6 +1,6 @@
 ---
 title: Collaborazione fornitore con i clienti
-description: In questo argomento viene descritto come utilizzare la collaborazione fornitore per gestire gli ordini fornitore e monitorare l'inventario spedizione.
+description: In questo articolo viene descritto come utilizzare la collaborazione fornitore per gestire gli ordini fornitore e monitorare l'inventario spedizione.
 author: GalynaFedorova
 ms.date: 09/15/2020
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 5690630d4dde947798c925af66c73122c2efad3d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4e5748f2368376ee03f280f1487d1de65250d3a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673776"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859171"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Collaborazione fornitore con i clienti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare la collaborazione fornitore per lavorare con i clienti in Microsoft Dynamics 365 Supply Chain Management. I fornitori possono eseguire una serie di processi aziendali dalle seguenti aree di lavoro:
+In questo articolo viene descritto come utilizzare la collaborazione fornitore per lavorare con i clienti in Microsoft Dynamics 365 Supply Chain Management. I fornitori possono eseguire una serie di processi aziendali dalle seguenti aree di lavoro:
 
 - **Conferma ordine fornitore** - Controllare e rispondere agli ordini fornitore.
 - **Offerta fornitore** - Visualizzare richieste di offerta (RdO) e rispondere immettendo le offerte.
 - **Informazioni fornitore** - Visualizzare e aggiornare dati master del fornitore.
-- **Fatturazione** - Utilizzare le fatture. In questo argomento non viene trattata l'area di lavoro **Fatturazione**. Per ulteriori informazioni su questa area di lavoro, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Fatturazione** - Utilizzare le fatture. In questo articolo non viene trattata l'area di lavoro **Fatturazione**. Per ulteriori informazioni su questa area di lavoro, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 I fornitori possono inoltre controllare le informazioni sull'inventario spedizione.
 
@@ -47,9 +47,9 @@ Sono disponibili tre elenchi  nell'area di lavoro **Conferma ordine fornitore**:
 
 È possibile utilizzare le seguenti pagine per lavorare con gli ordini fornitore:
 
-- **Ordini fornitore per la revisione** - La pagina contiene le stesse informazioni in un elenco **Ordini fornitore per la revisione** nell'area di lavoro. Vedere le descrizioni in precedenza nell'argomento.
+- **Ordini fornitore per la revisione** - La pagina contiene le stesse informazioni in un elenco **Ordini fornitore per la revisione** nell'area di lavoro. Vedi le descrizioni in precedenza nell'articolo.
 - **Storico conferme fornitore per l'ordine fornitore** – Questa pagina contiene tutti gli ordini fornitore e tutte le versioni di ordini fornitore inviati al fornitore. Sono incluse inoltre tutte le risposte restituite dal fornitore.
-- **Apri ordini fornitore confermati** - La pagina contiene le stesse informazioni dell'elenco **Apri ordini fornitore confermati** nell'area di lavoro. Vedere le descrizioni in precedenza nell'argomento.
+- **Apri ordini fornitore confermati** - La pagina contiene le stesse informazioni dell'elenco **Apri ordini fornitore confermati** nell'area di lavoro. Vedi le descrizioni in precedenza nell'articolo.
 - **Tutti gli ordini fornitore confermati** - La pagina contiene tutti gli ordini fornitore che sono stati confermati. Gli ordini fornitore mostrati in questa pagina includono gli ordini fornitore di prodotti o servizi ricevuti. È possibile utilizzare l'elenco per controllare per quali ordini fornitore inviare le fatture.
 
 ### <a name="responding-to-pos"></a>Rispondere a un ordine fornitore

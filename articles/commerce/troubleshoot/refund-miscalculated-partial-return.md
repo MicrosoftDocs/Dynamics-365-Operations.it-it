@@ -1,6 +1,6 @@
 ---
 title: Le spese rimborsabili sono calcolate erroneamente in base alla quantità restituita
-description: Questo argomento fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando i cassieri vedono addebiti rimborsabili errati nel punto vendita (POS) per la quantità di articoli restituiti.
+description: Questo articolo fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando i cassieri vedono addebiti rimborsabili errati nel punto vendita (POS) per la quantità di articoli restituiti.
 author: gvrmohanreddy
 ms.date: 03/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c8ecaa0cb73d06ac66b57cce815264e841a2259b
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 7a84207f587a826b9acdfd818c64220c5327bde1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8490215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890245"
 ---
 # <a name="refundable-charges-are-miscalculated-based-on-the-quantity-returned"></a>Le spese rimborsabili sono calcolate erroneamente in base alla quantità restituita
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando i cassieri vedono addebiti rimborsabili errati nel punto vendita (POS) per la quantità di articoli restituiti.
+Questo articolo fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando i cassieri vedono addebiti rimborsabili errati nel punto vendita (POS) per la quantità di articoli restituiti.
 
 ## <a name="description"></a>Description
 

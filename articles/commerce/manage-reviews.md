@@ -1,6 +1,6 @@
 ---
 title: Gestire valutazioni e revisioni
-description: In questo argomento viene descritto come gestire valutazioni e recensioni in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come gestire valutazioni e recensioni in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 10/09/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1aefa6eb93ef251778a48ba972d87e0cd5930bf0
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 79738030d4e33ceaad105a404b8188384d5a320c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881325"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gestire valutazioni e revisioni
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come gestire valutazioni e recensioni in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come gestire valutazioni e recensioni in Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce utilizza il servizio cognitivo di Microsoft Azure per moderare automaticamente il testo delle recensioni censurando le parole volgari. Inoltre, i moderatori possono Creazione di siti Web di Dynamics 365 Commerce per implementare le seguenti attività manuali:
 

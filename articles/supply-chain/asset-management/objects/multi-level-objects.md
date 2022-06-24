@@ -1,6 +1,6 @@
 ---
 title: Cespiti multilivello
-description: In questo argomento viene descritto come creare ed eliminare i cespiti multilivello.
+description: In questo articolo viene descritto come creare ed eliminare i cespiti multilivello.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f43c7c97f8b05a1bf76b2f2c869e6868689f388d06337064f04af839f2403357
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769613"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908774"
 ---
 # <a name="multi-level-assets"></a>Cespiti multilivello
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769613"
 
  
 
-In questo argomento viene descritto come creare ed eliminare i cespiti multilivello. È possibile creare i cespiti e cespiti secondari correlati in una struttura gerarchica. In questo modo, è possibile visualizzare le relazioni e le dipendenze tra i cespiti. I processi di manutenzione possono essere correlati a tutti i livelli della struttura. Possono inoltre essere create statistiche per un singolo livello o come somma di tutti i livelli dei cespiti secondari.
+In questo articolo viene descritto come creare ed eliminare i cespiti multilivello. È possibile creare i cespiti e cespiti secondari correlati in una struttura gerarchica. In questo modo, è possibile visualizzare le relazioni e le dipendenze tra i cespiti. I processi di manutenzione possono essere correlati a tutti i livelli della struttura. Possono inoltre essere create statistiche per un singolo livello o come somma di tutti i livelli dei cespiti secondari.
 
 Nella pagina elenco **Tutti i cespiti** (**Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti**), la colonna **Cespite** elenca i cespiti nell'ordine gerarchico. Nella colonna **Padre** viene visualizzato il padre correlato. Inoltre, se i cespiti e i cespiti secondari sono già stati creati, la sezione **Struttura cespiti** nel riquadro **Informazioni correlate** mostra i cespiti in una struttura.
 

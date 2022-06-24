@@ -1,6 +1,6 @@
 ---
 title: Documenti aziendali supportati da Contabilità inventario globale
-description: Questo argomento elenca i documenti commerciali supportati da Contabilità inventario globale. Fornisce inoltre un esempio dettagliato per i documenti dell'ordine fornitore.
+description: Questo articolo elenca i documenti commerciali supportati da Contabilità inventario globale. Fornisce inoltre un esempio dettagliato per i documenti dell'ordine fornitore.
 author: JennySong-SH
 ms.date: 06/18/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 44081be35c6737aa0d16b6e11a5fc8f94b41e872
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: dc88d095c039b22ac347db949f6b61d5a89dc4b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674451"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875425"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Documenti aziendali supportati da Contabilità inventario globale
 
@@ -32,7 +32,7 @@ Sono disponibili due tipi di documenti aziendali:
 - **Documenti che hanno un giornale di registrazione** – Questi documenti includono la ricevuta del prodotto, la fattura di acquisto, la distinta di imballaggio e la fattura di vendita.
 - **Documenti che non hanno un giornale di registrazione** – Questi documenti includono conteggio, movimento e rettifica dell'inventario.
 
-Più avanti in questo argomento, gli ordini fornitore verranno utilizzati come esempio per illustrare il processo.
+Più avanti in questo articolo, gli ordini fornitore verranno utilizzati come esempio per illustrare il processo.
 
 La tabella seguente elenca i documenti supportati dalla versione corrente.
 

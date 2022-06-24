@@ -1,6 +1,6 @@
 ---
 title: Configurazioni visive dell'interfaccia utente POS
-description: Di seguito vengono fornite informazioni sui layout dello schermo per le esperienze di Dynamics 365 Commerce POS.
+description: In questo articolo vengono fornite informazioni sui layout dello schermo per le esperienze di Dynamics 365 Commerce POS.
 author: boycezhu
 ms.date: 09/22/2020
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 17379dc97c7a8b22912482a7aeebd0d8ac08dc496fa7b1661952bca10a21c75b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22a35d69780a48415076dd70c21c33b1024c217d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871635"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurazioni visive dell'interfaccia utente POS
 
 [!include [banner](includes/banner.md)]
 
 
-L'interfaccia utente (UI) del punto vendita (POS) di Microsoft Dynamics 365 Commerce può essere configurata utilizzando una combinazione di profili visivi e di layout dello schermo assegnati a negozi, registratori di cassa e/o utenti. Questo argomento fornisce informazioni su tali opzioni di configurazione.
+L'interfaccia utente (UI) del punto vendita (POS) di Microsoft Dynamics 365 Commerce può essere configurata utilizzando una combinazione di profili visivi e di layout dello schermo assegnati a negozi, registratori di cassa e/o utenti. Questo articolo fornisce informazioni sulle opzioni di configurazione.
 
 La figura di seguito mostra le relazioni tra le varie entità che costituiscono gli aspetti configurabili dell'interfaccia utente POS.
 

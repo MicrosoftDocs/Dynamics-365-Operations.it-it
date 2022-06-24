@@ -1,6 +1,6 @@
 ---
 title: Consolidamento degli articoli e utilizzo delle ubicazioni
-description: Questo argomento fornisce informazioni sulle funzionalità che semplificano la visualizzazione e il filtraggio dell'utilizzo volumetrico delle ubicazioni nel magazzino per i responsabili del magazzino. I responsabili possono selezionare le ubicazioni e creare attività di movimentazione delle scorte direttamente dalla pagina Consolidamento articoli per consolidare gli articoli e quindi sfruttare meglio lo spazio del magazzino.
+description: Questo articolo fornisce informazioni sulle funzionalità che semplificano la visualizzazione e il filtraggio dell'utilizzo volumetrico delle ubicazioni nel magazzino per i responsabili del magazzino. I responsabili possono selezionare le ubicazioni e creare attività di movimentazione delle scorte direttamente dalla pagina Consolidamento articoli per consolidare gli articoli e quindi sfruttare meglio lo spazio del magazzino.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,22 +13,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f858eae57b8b354076f5ed026a4b84ed680866b0
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7578610"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849186"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidamento degli articoli e utilizzo delle ubicazioni
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sulle funzionalità che semplificano la visualizzazione e il filtraggio dell'utilizzo volumetrico delle ubicazioni nel magazzino per i responsabili del magazzino. I responsabili possono selezionare le ubicazioni e creare attività di movimentazione delle scorte direttamente dalla pagina **Consolidamento articoli** per consolidare gli articoli e quindi sfruttare meglio lo spazio del magazzino.
+Questo articolo fornisce informazioni sulle funzionalità che semplificano la visualizzazione e il filtraggio dell'utilizzo volumetrico delle ubicazioni nel magazzino per i responsabili del magazzino. I responsabili possono selezionare le ubicazioni e creare attività di movimentazione delle scorte direttamente dalla pagina **Consolidamento articoli** per consolidare gli articoli e quindi sfruttare meglio lo spazio del magazzino.
 
 ## <a name="turn-on-the-features"></a>Attivare le funzionalità
 
-Prima di poter utilizzare le funzionalità descritte in questo argomento, è necessario attivarle nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzionalità e attivarle se sono necessarie. Attivare entrambe le funzionalità seguenti, nell'ordine indicato (entrambe le funzionalità sono per il modulo **Gestione magazzino**).
+Prima di poter utilizzare le funzionalità descritte in questo articolo, è necessario attivarle nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzionalità e attivarle se sono necessarie. Attivare entrambe le funzionalità seguenti, nell'ordine indicato (entrambe le funzionalità sono per il modulo **Gestione magazzino**).
 
 1. Stato ubicazione magazzino
 2. Utilizzo ubicazione consolidamento articolo
@@ -51,7 +51,7 @@ Questi campi consentono ai responsabili del magazzino di ottenere una migliore p
 
 ## <a name="set-up-item-consolidation-and-location-utilization"></a>Configurare il consolidamento degli articoli e l'utilizzo delle ubicazioni
 
-Questa sezione descrive come preparare il sistema all'uso del consolidamento degli articoli e dell'utilizzo delle ubicazioni. Le procedure utilizzano valori campione dei dati demo standard. Se si prevede di utilizzare lo scenario di esempio fornito più avanti in questo argomento, selezionare la persona giuridica **USMF** (che contiene i dati demo standard) e creare ogni record descritto in questa sezione. Se non si prevede di utilizzare lo scenario di esempio, i valori forniti qui possono essere considerati esempi dei tipi di configurazione che è necessario completare per utilizzare le funzionalità.
+Questa sezione descrive come preparare il sistema all'uso del consolidamento degli articoli e dell'utilizzo delle ubicazioni. Le procedure utilizzano valori campione dei dati demo standard. Se si prevede di utilizzare lo scenario di esempio fornito più avanti in questo articolo, seleziona la persona giuridica **USMF** (che contiene i dati demo standard) e crea ogni record descritto in questa sezione. Se non si prevede di utilizzare lo scenario di esempio, i valori forniti qui possono essere considerati esempi dei tipi di configurazione che è necessario completare per utilizzare le funzionalità.
 
 ### <a name="released-product"></a>Prodotto rilasciato
 

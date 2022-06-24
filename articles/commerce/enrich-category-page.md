@@ -1,6 +1,6 @@
 ---
 title: Migliorare una pagina di destinazione di categoria
-description: In questo argomento viene descritto come migliorare le pagine categoria in Dynamics 365 Commerce.
+description: In questo articolo viene descritto come migliorare le pagine categoria in Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 04/14/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bb28c3b5fbb1133d32219b9c47dd1477ae2ac982ee035321dafd77c53dc910b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bfee3b09768fa19ab95c880d7f7cbf330a8c58d7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771009"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856966"
 ---
 # <a name="enrich-a-category-landing-page"></a>Migliorare una pagina di destinazione di categoria
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come migliorare le pagine categoria in Dynamics 365 Commerce.
+In questo articolo viene descritto come migliorare le pagine categoria in Dynamics 365 Commerce.
 
 Commerce fornisce una pagina di destinazione predefinita per le categorie che viene utilizzata quando i dati di categoria sono visualizzati. Una pagina categoria predefinita contiene gli elementi necessari, ad esempio criteri di raffinamento, posizionamento dei prodotti categorizzati, opzioni,di ordinamento, un riepilogo delle scelte e controlli di impaginazione. 
 

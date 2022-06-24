@@ -1,6 +1,6 @@
 ---
 title: Panoramica delle pagine dei dettagli del prodotto
-description: Questo argomento fornisce una panoramica delle pagine dettagli prodotto in Microsoft Dynamics 365 Commerce.
+description: Questo articolo fornisce una panoramica delle pagine dettagli prodotto in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 01/23/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 48b4e5d66b86e0b1198bd6ff7ce1e7de33f8fde0
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7b7630a15f98da4a1454f7c9b0d3501d4f035649
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986203"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884287"
 ---
 # <a name="product-details-pages-overview"></a>Panoramica delle pagine dei dettagli del prodotto
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica delle pagine dettagli prodotto in Microsoft Dynamics 365 Commerce.
+Questo articolo fornisce una panoramica delle pagine dettagli prodotto in Microsoft Dynamics 365 Commerce.
 
 Una pagina dettagli prodotto (PDP) fornisce informazioni dettagliate su un prodotto e consente ai clienti di selezionare le opzioni relative al prodotto come dimensione, stile e colore. Una pagina dettagli prodotto include tutte le informazioni sul prodotto che un cliente necessita per decidere se effettuare l'acquisto.
 
@@ -35,9 +35,9 @@ Nella figura seguente viene illustrato un esempio di pagina dettagli prodotto.
 
 ## <a name="header-and-footer-modules"></a>Moduli intestazione e piè di pagina
 
-La parte superiore di una pagina dettagli prodotto include un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il rivenditore vuole siano visitate dai clienti. La parte inferiore della pagina include un piè di pagina che contiene collegamenti rapidi a vari argomenti che possono interessare i clienti.
+La parte superiore di una pagina dettagli prodotto include un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il rivenditore vuole siano visitate dai clienti. La parte inferiore della pagina include un piè di pagina che contiene collegamenti rapidi a vari articoli che possono interessare i clienti.
 
-## <a name="buy-box-module"></a>Modulo Casella acquisti
+## <a name="buy-box-module"></a>Modulo casella acquisti
 
 Il modulo più importante in una pagina dettagli prodotto è il modulo Casella acquisti visualizzato come primo elemento nella sezione principale della pagina. Un modulo Casella acquisti mostra importanti informazioni sul prodotto, come il nome del prodotto, la descrizione del prodotto, il prezzo del prodotto, le immagini del prodotto e le valutazioni del prodotto.
 

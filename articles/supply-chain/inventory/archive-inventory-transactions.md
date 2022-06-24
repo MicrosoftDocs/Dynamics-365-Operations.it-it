@@ -1,6 +1,6 @@
 ---
 title: Archiviare le transazioni di magazzino
-description: In questo argomento viene descritto come archiviare i dati delle transazioni di magazzino per migliorare le prestazioni del sistema.
+description: In questo articolo viene descritto come archiviare i dati delle transazioni di magazzino per migliorare le prestazioni del sistema.
 author: yufeihuang
 ms.date: 05/10/2022
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b766d306f31fc531f33aa29e1f96048bbd90085
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: c63cdee862e2e22649a3eb58ae37597741770e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736063"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874103"
 ---
 # <a name="archive-inventory-transactions"></a>Archiviare le transazioni di magazzino
 
 [!include [banner](../../includes/banner.md)]
 
-Nel tempo, la tabella delle transazioni di magazzino (`InventTrans`) continuerà a crescere e a utilizzare più spazio nel database. Pertanto, le query eseguite sulla tabella diventeranno gradualmente più lente. In questo argomento viene descritto come utilizzare la funzionalità *Archivio transazioni di magazzino* per archiviare i dati relativi alle transazioni di magazzino e migliorare le prestazioni del sistema.
+Nel tempo, la tabella delle transazioni di magazzino (`InventTrans`) continuerà a crescere e a utilizzare più spazio nel database. Pertanto, le query eseguite sulla tabella diventeranno gradualmente più lente. In questo articolo viene descritto come utilizzare la funzionalità *Archivio transazioni di magazzino* per archiviare i dati relativi alle transazioni di magazzino e migliorare le prestazioni del sistema.
 
 > [!NOTE]
 > Solo le transazioni di magazzino aggiornate finanziariamente possono essere archiviate in un periodo contabile chiuso selezionato. Per essere archiviate, le transazioni di magazzino in uscita aggiornate finanziariamente devono avere lo stato *Venduto* e le transazioni di magazzino in entrata devono avere lo stato *Acquistato*.
@@ -35,7 +35,7 @@ Se una combinazione di `itemId` e `inventDimId` contiene solo una transazione in
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Attiva la funzionalità nel tuo sistema
 
-Se il sistema in uso non include già le funzionalità descritte in questo argomento, vedere [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Archivio transazioni di magazzino*. Da notare che questa funzionalità non può essere disabilitata una volta abilitata.
+Se il sistema in uso non include già le funzionalità descritte in questo articolo, vedi [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Archivio transazioni di magazzino*. Da notare che questa funzionalità non può essere disabilitata una volta abilitata.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Aspetti da considerare prima di archiviare le transazioni di magazzino
 

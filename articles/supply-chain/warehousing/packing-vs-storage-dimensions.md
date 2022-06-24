@@ -1,6 +1,6 @@
 ---
 title: Impostare dimensioni diverse per l'imballaggio e l'immagazzinamento
-description: In questo argomento viene illustrato come specificare il processo (imballaggio, immagazzinamento o imballaggio nidificato) per cui viene utilizzata ciascuna dimensione specificata.
+description: In questo articolo viene illustrato come specificare il processo (imballaggio, immagazzinamento o imballaggio nidificato) per cui viene utilizzata ciascuna dimensione specificata.
 author: Mirzaab
 ms.date: 01/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 090a6f653b50d8f22a2f34354172f129624813f1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 85e40a0768174dcdc5d0fa2647b24cddccf01bdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905488"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Impostare dimensioni diverse per l'imballaggio e l'immagazzinamento
 
@@ -33,7 +33,7 @@ Alcuni articoli sono imballati o sotccati in modo tale che potrebbe essere neces
 Le dimensioni *Immagazzinamento* sono supportate anche quando la funzionalità *Dimensioni prodotto di immagazzinamento* non è abilitata. Puoi configurarle utilizzando la pagina **Dimensione fisica** in Supply Chain Management. Queste dimensioni vengono utilizzate da tutti i processi in cui le dimensioni di imballaggio e imballaggio nidificato non sono specificate.
 
 Le dimensioni di *imballaggio* e *imballaggio annidato* vengono configurate utilizzando la pagina **Dimensioni fisiche del prodotto**, che viene aggiunta quando abiliti la funzionalità *Dimensioni prodotto di immagazzinamento*.
-Questo argomento fornisce uno scenario che illustra come utilizzare questa funzionalità.
+Questo articolo fornisce uno scenario che illustra come utilizzare questa funzionalità.
 
 ## <a name="turn-on-the-packaging-product-dimensions-feature"></a>Attivare la funzionalità delle dimensioni del prodotto di imballaggio
 

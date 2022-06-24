@@ -1,6 +1,6 @@
 ---
-title: Allestimento del carico avanzato durante un'ondata
-description: Questo argomento fornisce informazioni sull'allestimento del carico avanzato durante un'ondata, che assegna automaticamente le spedizioni alle ondate esistenti durante l'esecuzione dell'ondata. Pertanto, è possibile creare carichi significativi che rappresentano i camion senza dover utilizzare il workbench di pianificazione del carico.
+title: Allestimento del carico avanzato durante un ciclo
+description: Questo articolo fornisce informazioni sull'allestimento del carico avanzato durante un'ondata, che assegna automaticamente le spedizioni alle ondate esistenti durante l'esecuzione dell'ondata. Pertanto, è possibile creare carichi significativi che rappresentano i camion senza dover utilizzare il workbench di pianificazione del carico.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0dafac981bcdec307de6dc202f557e7b8837ae2e
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3a630a7f388e0bbb6fee96e4de753b2380d305c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670519"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863768"
 ---
 # <a name="advanced-load-building-during-wave"></a>Allestimento del carico avanzato durante un'ondata
 
@@ -220,7 +220,7 @@ Se stai lavorando con dati dimostrativi **USMF**, ora hai terminato questa confi
 
 ## <a name="scenario"></a>Scenario
 
-Questo scenario mostra in che modo le impostazioni descritte in precedenza in questo argomento influiscono sulle operazioni di magazzino durante l'elaborazione di un ordine cliente. Questo scenario utilizza i dati dimostrativi **USMF** insieme ad altri valori dimostrativi forniti in tali istruzioni di installazione.
+Questo scenario mostra in che modo le impostazioni descritte in precedenza in questo articolo influiscono sulle operazioni di magazzino durante l'elaborazione di un ordine cliente. Questo scenario utilizza i dati dimostrativi **USMF** insieme ad altri valori dimostrativi forniti in tali istruzioni di installazione.
 
 ### <a name="create-sales-orders"></a>Creare ordini cliente
 

@@ -1,6 +1,6 @@
 ---
 title: Terminali di pagamento dedicati e prompt per una stampante e un cassetto di cassa
-description: Questo argomento fornisce informazioni sulla possibilità di disporre di un terminale di pagamento dedicato e di richiedere all'utente di selezionare un cassetto di cassa e una stampante di ricevute.
+description: Questo articolo fornisce informazioni sulla possibilità di disporre di un terminale di pagamento dedicato e di richiedere all'utente di selezionare un cassetto di cassa e una stampante di ricevute.
 author: BrianShook
 ms.date: 05/20/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: b955e55271471ac43ff4c2b217c6448b30536e06
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 7c010448e43bbfb1f949508ce1b62bd07f3107e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874923"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminali di pagamento dedicati e prompt per una stampante e un cassetto di cassa
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce informazioni sulla possibilità di disporre di un terminale di pagamento dedicato e di richiedere all'utente di selezionare un cassetto di cassa e una stampante di ricevute.
+Questo articolo fornisce informazioni sulla possibilità di disporre di un terminale di pagamento dedicato e di richiedere all'utente di selezionare un cassetto di cassa e una stampante di ricevute.
 
 ## <a name="overview"></a>Panoramica
 
@@ -46,7 +46,7 @@ Microsoft Dynamics 365 Commerce supporta queste tendenze mediante uno scenario i
 
 ## <a name="supported-pos-clients-and-devices"></a>Client e dispositivi POS supportati
 
-La funzionalità descritta in questo argomento è supportata da Modern POS per Windows e dal Modern POS per Client POS Android.
+La funzionalità descritta in questo articolo è supportata da Modern POS per Windows e dal Modern POS per Client POS Android.
 
 Questa funzionalità supporta terminali di pagamento e stampanti di ricevute utilizzabili in rete. È possibile fornire supporto per cassetti di cassa collegando il cassetti di cassa alla stampante di ricevute utilizzabile in rete tramite la porta d/k.
 

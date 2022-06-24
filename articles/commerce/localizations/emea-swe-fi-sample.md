@@ -1,6 +1,6 @@
 ---
 title: Esempio di integrazione di un'unità di controllo per la Svezia
-description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per la Svezia in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Svezia in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: ace1bd5b1a06317b6753a34779ecfa96e519a63e
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 11ce0b146f2e64092b0d03dc7416660d76380cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885404"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Esempio di integrazione di un'unità di controllo per la Svezia
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per la Svezia in Microsoft Dynamics 365 Commerce.
+In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Svezia in Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Questa funzionalità di integrazione fiscale di esempio sostituisce il precedente [esempio di integrazione POS con unità di controllo per la Svezia](retail-sdk-control-unit-sample.md). L'esempio precedente non sfrutta il [framework di integrazione fiscale](./fiscal-integration-for-retail-channel.md) e diventerà obsoleto negli aggiornamenti successivi. Per informazioni su come migrare dall'esempio precedente all'esempio che corrisponde a Dynamics 365 Commerce versione **10.0.22 e versioni precedenti**, vedi [Migrazione dal precedente esempio di integrazione](emea-swe-fi-sample-sdk.md#migrating-from-the-earlier-integration-sample).
@@ -83,7 +83,7 @@ Nella pagina **Campi personalizzati**, aggiungi i record seguenti per i campi pe
 
 Per tutti i formati di ricevuta richiesti, modifica il valore del campo **Comportamento stampa** su **Stampa sempre**.
 
-Nella progettazione formato ricevuta, aggiungi i seguenti campi personalizzati alla sezione **piè di pagina**. Tieni presente che i nomi dei campi corrispondono ai testi in lingua definiti nella sezione precedente di questo argomento.
+Nella progettazione formato ricevuta, aggiungi i seguenti campi personalizzati alla sezione **piè di pagina**. Tieni presente che i nomi dei campi corrispondono ai testi in lingua definiti nella sezione precedente di questo articolo.
 
 - **Codice di controllo registro** – Questo campo stampa il codice di controllo.
 - **Dispositivo registro** – In questo campo viene stampato il numero di produzione dell'unità di controllo.

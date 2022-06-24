@@ -1,6 +1,6 @@
 ---
 title: Introduzione ai cespiti
-description: Questo argomento fornisce una panoramica sui cespiti in Gestione cespiti.
+description: Questo articolo fornisce una panoramica sui cespiti in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43a5646bc4a1301922781d8b083dfa709befe3dca0fad1074b5433c6e02f5c66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767510"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874190"
 ---
 # <a name="introduction-to-assets"></a>Introduzione ai cespiti
 
@@ -30,9 +30,9 @@ ms.locfileid: "6767510"
 
  
 
-Questo argomento fornisce una panoramica sui cespiti in Gestione cespiti. Un *cespite* è qualsiasi tipo di attrezzatura, ad esempio una macchina o una sua parte, che richiede la manutenzione, assistenza o riparazione.
+Questo articolo fornisce una panoramica sui cespiti in Gestione cespiti. Un *cespite* è qualsiasi tipo di attrezzatura, ad esempio una macchina o una sua parte, che richiede la manutenzione, assistenza o riparazione.
 
-Un cespite viene aggiornato automaticamente con informazioni correlate. Ad esempio, queste informazioni correlate potrebbero riguardare ordini di lavoro nuovi o aggiornati. È possibile creare i cespiti utilizzando la voce di menu **Tutti i cespiti** oppure la voce di menu **Cespiti in sospeso**. In questo argomento viene descritto come creare i cespiti utilizzando la voce di menu **Tutti i cespiti**. Per informazioni sulla creazione dei cespiti utilizzando la voce di menu **Cespiti in sospeso**, vedere [Creare cespiti in base agli ordini fornitore](../objects/create-objects-based-on-purchase-orders.md).
+Un cespite viene aggiornato automaticamente con informazioni correlate. Ad esempio, queste informazioni correlate potrebbero riguardare ordini di lavoro nuovi o aggiornati. È possibile creare i cespiti utilizzando la voce di menu **Tutti i cespiti** oppure la voce di menu **Cespiti in sospeso**. In questo articolo viene descritto come creare i cespiti utilizzando la voce di menu **Tutti i cespiti**. Per informazioni sulla creazione dei cespiti utilizzando la voce di menu **Cespiti in sospeso**, vedere [Creare cespiti in base agli ordini fornitore](../objects/create-objects-based-on-purchase-orders.md).
 
 ## <a name="all-assets"></a>Tutti i cespiti
 

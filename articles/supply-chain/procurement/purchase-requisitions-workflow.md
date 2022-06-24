@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3381c752e4f1f723162ad314c29ab477caf635a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6934c1147de79c24eb66127d2e08ae8b627bc744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675937"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849360"
 ---
 # <a name="purchase-requisition-workflow"></a>flusso di lavoro delle richieste di acquisto
 
@@ -89,7 +89,7 @@ In questo esempio il processo del flusso di lavoro per le righe della richiesta 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Configurazione di un flusso di lavoro per le richieste di acquisto
 Per inviare una richiesta di acquisto per la revisione, è necessario configurare i processi del flusso di lavoro della richiesta di acquisto. Il processo del flusso di lavoro definito consente di controllare l'interazione tra l'utente che ha richiesto gli articoli (il richiedente) e il revisore e l'approvatore nel flusso di lavoro. L'invio della richiesta di acquisto dipende dalle condizioni specificate nella configurazione del flusso di lavoro. Ad esempio, queste condizioni determinano il momento in cui la richiesta di acquisto deve essere inviata, l'utente o il ruolo a cui deve essere indirizzata e le azioni che gli utenti possono eseguire.  
 
-Negli esempi inclusi in questo argomento viene illustrato come è possibile inviare una richiesta di acquisto tramite un flusso di lavoro come documento singolo o come singole righe della richiesta di acquisto. È inoltre possibile configurare un flusso di lavoro per le richieste di acquisto che rifletta il processo di revisione per i controlli interni delle richieste di acquisto definito nell'organizzazione.  
+Negli esempi inclusi in questo articolo viene illustrato come è possibile inviare una richiesta di acquisto tramite un flusso di lavoro come documento singolo o come singole righe della richiesta di acquisto. È inoltre possibile configurare un flusso di lavoro per le richieste di acquisto che rifletta il processo di revisione per i controlli interni delle richieste di acquisto definito nell'organizzazione.  
 
 I partecipanti o i revisori cui è assegnata un'attività in un flusso di lavoro possono essere membri di un gruppo specifico di utenti, di utenti con un ruolo di sicurezza specifico, di utenti associati all'autore dell'invio in una gerarchia direttiva, di utenti denominati o di utenti che dispongono di responsabilità specifiche di spesa.
 

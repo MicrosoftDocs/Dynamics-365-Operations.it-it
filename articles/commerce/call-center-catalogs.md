@@ -1,6 +1,6 @@
 ---
 title: Cataloghi del servizio clienti
-description: Questo argomento descrive le funzionalità specifiche del servizio clienti per i cataloghi in Dynamics 365 Commerce.
+description: Questo articolo descrive le funzionalità specifiche del servizio clienti per i cataloghi in Dynamics 365 Commerce.
 author: josaw1
 ms.date: 05/15/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 6fae877b04fdbd84e1c2508f91bbf53b5412b350c5d2c8978aafb2d7f49783f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 11af3c889e7e40e13f4aa8b3db97f544fbd20229
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884058"
 ---
 # <a name="call-center-catalogs"></a>Cataloghi del servizio clienti
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità specifiche del servizio clienti collegate alle funzionalità di catalogo in Dynamics 365 Commerce.
+Questo articolo descrive le funzionalità specifiche del servizio clienti collegate alle funzionalità di catalogo in Dynamics 365 Commerce.
 
 Le funzionalità del catalogo disponibili in Commerce possono essere utilizzate per più scopi. Inizialmente le funzionalità del catalogo sono state create per supportare le integrazioni di e-commerce di terze parti. L'impostazione di un catalogo ha consentito alle società di creare un raggruppamento di prodotti e attributi che potessero essere pubblicati esternamente a uso e consumo di una soluzione di e-commerce di terze parti.
 

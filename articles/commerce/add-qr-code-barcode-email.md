@@ -1,6 +1,6 @@
 ---
 title: Aggiungere un codice a matrice o un codice a barre ai messaggi di posta elettronica transazionali e di ricevuta
-description: In questo argomento viene descritto come inserire codici a matrice e codici a barre che rappresentano ID ordine nei messaggi di posta elettronica transazionali e di ricevuta in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come inserire codici a matrice e codici a barre che rappresentano ID ordine nei messaggi di posta elettronica transazionali e di ricevuta in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 03/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5f7b349700a4b3b43f818b30bb479e630048e8b8
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ffa0009c55b5322b209b19692952c2e0704f65c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688967"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872886"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>Aggiungere un codice a matrice o un codice a barre ai messaggi di posta elettronica transazionali e di ricevuta
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come inserire codici a matrice e codici a barre che rappresentano ID ordine nei messaggi di posta elettronica transazionali e di ricevuta in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come inserire codici a matrice e codici a barre che rappresentano ID ordine nei messaggi di posta elettronica transazionali e di ricevuta in Microsoft Dynamics 365 Commerce.
 
 È possibile includere facilmente codici a matrice e codici a barre nei messaggi di posta elettronica transazionali per accelerare il processo di ricerca di ordini in un ambiente di vendita al dettaglio. Per inserire codici a matrice e codici a barre nei messaggi di posta elettronica, utilizzare un tag **\<img\>** HTML che richiede un'immagine del codice a matrice o del codice a barre di un servizio di generazione e rendering. Microsoft non fornisce questo servizio. Tuttavia, esistono molti servizi gratuiti o poco costosi che possono fornire codici a matrice o codici a barre generati dinamicamente in base a un valore passato in una stringa di query.
 

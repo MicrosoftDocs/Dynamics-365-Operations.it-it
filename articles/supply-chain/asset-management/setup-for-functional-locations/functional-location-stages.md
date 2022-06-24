@@ -1,6 +1,6 @@
 ---
-title: Stati del ciclo di vita delle unità funzionali
-description: In questo argomento viene descritto come impostare gli stati delle unità funzionali e i modelli del ciclo di vita Gestione cespiti.
+title: Stati del ciclo di vita dell'unità funzionale
+description: In questo articolo viene descritto come impostare gli stati delle unità funzionali e i modelli del ciclo di vita Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9893ad497bbe442d74f5212153fa466d2c85eb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ae56c2b734339343b134be95abe0ce40b70c8a0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360972"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934662"
 ---
-# <a name="functional-location-lifecycle-states"></a>Stati del ciclo di vita delle unità funzionali
+# <a name="functional-location-lifecycle-states"></a>Stati del ciclo di vita dell'unità funzionale
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-In questo argomento viene descritto come impostare gli stati del ciclo di vita delle unità funzionali e i modelli del ciclo di vita Gestione cespiti. Gli stati funzionali del ciclo di vita delle unità funzionali definiscono gli stati che può avere una unità funzionale, ad esempio, creata, attiva e terminata. È possibile visualizzare tutte le unità funzionali, indipendentemente dallo stato del ciclo di vita, nella pagina elenco **Tutte le unità funzionali**. È possibile modificare lo stato di una unità funzionale selezionandola nella pagina elenco **Tutte le unità funzionali** e **Aggiorna stato dell'unità funzionale**.
+In questo articolo viene descritto come impostare gli stati del ciclo di vita delle unità funzionali e i modelli del ciclo di vita Gestione cespiti. Gli stati funzionali del ciclo di vita delle unità funzionali definiscono gli stati che può avere una unità funzionale, ad esempio, creata, attiva e terminata. È possibile visualizzare tutte le unità funzionali, indipendentemente dallo stato del ciclo di vita, nella pagina elenco **Tutte le unità funzionali**. È possibile modificare lo stato di una unità funzionale selezionandola nella pagina elenco **Tutte le unità funzionali** e **Aggiorna stato dell'unità funzionale**.
 
 ## <a name="set-up-functional-location-lifecycle-states"></a>Imposta gli stati del ciclo di vita dell'unità funzionale
 
@@ -39,6 +39,7 @@ In questo argomento viene descritto come impostare gli stati del ciclo di vita d
 5. Selezionare "Sì" sull'interruttore **Crea cespiti** se deve essere possibile creare automaticamente un cespite con lo stesso nome dell'unità funzionale e installarlo nell'unità funzionale a questo stato.  
 >[!NOTE]
 >Questo interruttore si riferisce al campo **Tipo di cespite** nella Scheda dettaglio **Generale** del modulo **Tipi di unità funzionali** (**Gestione cespiti** > **Impostazione** > **Unità funzionali** > **Tipi di unità funzionali**).
+
 6. Selezionare "Sì" sull'interruttore **Rinomina ubicazione** se deve essere possibile modificare il nome dell'unità funzionale a questo stato.
 7. Selezionare "Sì" sull'interruttore **Nuove ubicazioni secondarie** se deve essere possibile aggiungere nuove ubicazioi secondarie all'unità funzionale a questo stato.
 8. Selezionare "Sì" sull'interruttore **Installa cespiti** se deve essere possibile installare cespiti nell'unità funzionale a questo stato.

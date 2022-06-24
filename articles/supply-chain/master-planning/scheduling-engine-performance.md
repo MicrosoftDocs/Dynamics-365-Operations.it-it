@@ -1,6 +1,6 @@
 ---
 title: Migliorare le prestazioni del motore di pianificazione
-description: In questo argomento vengono fornite informazioni sul motore di pianificazione e su come migliorarne le prestazioni.
+description: In questo articolo vengono fornite informazioni sul motore di pianificazione e su come migliorarne le prestazioni.
 author: t-benebo
 ms.date: 09/03/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 972e566153b7423398b2ad4a4e70b264f02c40cd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854299"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Migliorare le prestazioni del motore di pianificazione
 
@@ -29,7 +29,7 @@ ms.locfileid: "8469008"
 
 Il motore di pianificazione delle risorse viene utilizzato quando si pianificano cicli di lavorazione per ordini di produzione pianificati e rilasciati. Il motore è stato originariamente rilasciato come parte di Dynamics AX 2012 e ha subito diversi miglioramenti da allora.
 
-Il [problema di pianificazione in officina](https://en.wikipedia.org/wiki/Job_shop_scheduling) è un problema combinatorio estremamente complesso in cui il tempo di soluzione cresce esponenzialmente con il numero di variabili decisionali. Spesso, i clienti impostano cicli di produzione e dati correlati in modo tale da creare un problema di pianificazione che non può essere risolto in tempi ragionevoli anche con l'hardware più moderno. Questo argomento ti aiuterà a comprendere il motore di pianificazione e il modo in cui una configurazione specifica può influire sulle prestazioni.
+Il [problema di pianificazione in officina](https://en.wikipedia.org/wiki/Job_shop_scheduling) è un problema combinatorio estremamente complesso in cui il tempo di soluzione cresce esponenzialmente con il numero di variabili decisionali. Spesso, i clienti impostano cicli di produzione e dati correlati in modo tale da creare un problema di pianificazione che non può essere risolto in tempi ragionevoli anche con l'hardware più moderno. Questo articolo ti aiuterà a comprendere il motore di pianificazione e il modo in cui una configurazione specifica può influire sulle prestazioni.
 
 Quando si tratta di migliorare le prestazioni della pianificazione, le linee guida generali raccomandano di ridurre la complessità del problema che il motore deve risolvere. Alcuni dei principali fattori che possono influire sulle prestazioni sono:
 

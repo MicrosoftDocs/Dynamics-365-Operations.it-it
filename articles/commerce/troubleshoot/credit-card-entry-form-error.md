@@ -1,6 +1,6 @@
 ---
 title: La pagina di immissione della carta di credito visualizza un errore al momento del pagamento
-description: Questo argomento fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando la sezione Metodo di pagamento non viene caricata e viene visualizzato un messaggio di errore.
+description: Questo articolo fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando la sezione Metodo di pagamento non viene caricata e viene visualizzato un messaggio di errore.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 613eb2af626ca315a8bacb89fb348a5b14bd17b1717a90c99bcede66baef9040
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d1f7ba2d1a63430431af94ed4bed3222c85f14d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752389"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910445"
 ---
 # <a name="credit-card-entry-page-shows-an-error-at-checkout"></a>La pagina di immissione della carta di credito visualizza un errore al momento del pagamento
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando la sezione **Metodo di pagamento** non viene caricata e viene visualizzato un messaggio di errore.
+Questo articolo fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando la sezione **Metodo di pagamento** non viene caricata e viene visualizzato un messaggio di errore.
 
 ## <a name="description"></a>Descrizione
 

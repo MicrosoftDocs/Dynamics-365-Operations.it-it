@@ -1,6 +1,6 @@
 ---
 title: Registrare il consumo
-description: In questo argomento viene illustrato come registrare il consumo in Gestione cespiti.
+description: In questo articolo viene illustrato come registrare il consumo in Gestione cespiti.
 author: johanhoffmann
 ms.date: 08/21/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 619da584ea37e80b1803ae5983e52e8ee4053f3751a8df75a8f5bc1ddf7e65d6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886046"
 ---
 # <a name="register-consumption"></a>Registrare il consumo
 
@@ -90,7 +90,7 @@ Quando si eseguono registrazioni del consumo, le dimensioni finanziarie relative
 - *Registrazioni articoli:* innanzi tutto, vengono aggiunte le eventuali dimensioni finanziarie dall'intestazione del giornale di registrazione. Vengono quindi aggiunte le dimensioni finanziarie dal progetto di ordine di lavoro correlato. Successivamente, vengono aggiunte le dimensioni finanziarie dal sito. Infine, vengono aggiunte le dimensioni finanziarie dall'articolo.
 
 >[!NOTE]
->Per tutti e tre i tipi di registrazione, viene convalidata la combinazione di dimensioni finanziarie e le combinazioni non valide vengono lasciate vuote. Questa è la configurazione standard con altre app Finance and Operations.
+>Per tutti e tre i tipi di registrazione, viene convalidata la combinazione di dimensioni finanziarie e le combinazioni non valide vengono lasciate vuote. Questa è una configurazione standard con altre app Finance and Operations.
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Controllo dello stato per periferiche e servizi POS
-description: Questo argomento offre una panoramica dell'operazione di controllo dello stato nel punto vendita (POS).
+description: Questo articolo offre una panoramica dell'operazione di controllo dello stato nel punto vendita (POS).
 author: BrianShook
 ms.date: 03/06/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cd4e97b8dbfc4faf336d4ea927342fd4fa3cc7cd
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 44fd4b6246d3d7947527416c2b8b447bd64f179f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863323"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Controllo dello stato per periferiche e servizi POS
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive l'operazione di controllo dello stato nel punto vendita (POS).
+Questo articolo descrive l'operazione di controllo dello stato nel punto vendita (POS).
 
 ## <a name="overview"></a>Panoramica
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 Commerce versione 10.0.10 e successive includono un'opera
 | Termine | Descrizione |
 |---|---|
 | Periferica | Qualsiasi dispositivo utilizzato dall'applicazione POS per facilitare le transazioni e altre operazioni nel negozio. Gli esempi includono registratori di cassa, scanner di codici a barre e terminali di pagamento. |
-| Gestione assistenza | In questo argomento, un servizio è un'applicazione accessoria dalla quale l'applicazione POS dipende per eseguire transazioni e operazioni quotidiane. Gli esempi includono app che aiutano con i calcoli delle imposte o di spedizione. |
+| Assistenza | In questo articolo, un servizio è un'applicazione accessoria dalla quale l'applicazione POS dipende per eseguire transazioni e operazioni quotidiane. Gli esempi includono app che aiutano con i calcoli delle imposte o di spedizione. |
 
 ## <a name="health-check-operation"></a>Operazione di controllo dello stato
 

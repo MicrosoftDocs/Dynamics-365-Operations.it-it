@@ -1,6 +1,6 @@
 ---
 title: Creare budget di manutenzione
-description: In questo argomento viene illustrato come creare un budget di manutenzione in Gestione cespiti.
+description: In questo articolo viene illustrato come creare un budget di manutenzione in Gestione cespiti.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a375eb7c208479615b2d5e7cf78168ffd7ac8b16c52c85a7ef5a41aa69c947d5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1fa5e4c76621634930206c1d89fd8e8f4f541fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776946"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858042"
 ---
 # <a name="create-maintenance-budgets"></a>Creare budget di manutenzione
 

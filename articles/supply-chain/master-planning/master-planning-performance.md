@@ -1,7 +1,7 @@
 ---
 title: Migliorare le prestazioni di pianificazione generale
-description: In questo argomento vengono illustrate le varie opzioni che consentono di migliorare le prestazioni di pianificazione generale o risolvere i problemi.
-author: ChristianRytt
+description: In questo articolo vengono illustrate le varie opzioni che consentono di migliorare le prestazioni di pianificazione generale o risolvere i problemi.
+author: t-benebo
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fcbc732fce4120268acd774cc4d42193ba95787d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b2c4b7e2197d312d22f9851121a9e6d4d4d03ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897605"
 ---
 # <a name="improve-master-planning-performance"></a>Migliorare le prestazioni di pianificazione generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono illustrate le varie opzioni che consentono di migliorare le prestazioni di pianificazione generale o risolvere i problemi. Sono incluse informazioni su parametri e impostazioni, nonché su configurazioni e azioni consigliate. Inoltre è incluso un riepilogo di tutti i parametri importanti che è opportuno considerare in caso di processi di pianificazione generale a esecuzione prolungata.
+In questo articolo vengono illustrate le varie opzioni che consentono di migliorare le prestazioni di pianificazione generale o risolvere i problemi. Sono incluse informazioni su parametri e impostazioni, nonché su configurazioni e azioni consigliate. Inoltre è incluso un riepilogo di tutti i parametri importanti che è opportuno considerare in caso di processi di pianificazione generale a esecuzione prolungata.
 
-Questo argomento è destinato agli amministratori di sistema o agli utenti IT che dispongono dei privilegi per risolvere i problemi. È inoltre destinato ai responsabili pianificazione forniture o produzione poiché include informazioni sui parametri correlati ai requisiti di pianificazione aziendale. 
+Questo articolo è destinato agli amministratori di sistema o agli utenti IT che dispongono dei privilegi per risolvere i problemi. È inoltre destinato ai responsabili pianificazione forniture o produzione poiché include informazioni sui parametri correlati ai requisiti di pianificazione aziendale. 
 
 ## <a name="parameters-related-to-master-planning-performance"></a>Parametri relativi alle prestazioni di pianificazione generale
 
@@ -151,9 +151,9 @@ Prima dell'inizio della fase di copertura, è presente una fase di pre-copertura
 ## <a name="performance-checklist-summary"></a>Riepilogo dell'elenco di controllo delle prestazioni
 
 - **Numero di thread** - Impostare un valore maggiore di **0** (zero).
-- **Numero di attività nell'aggregazione helper** - Impostare un valore maggiore di **0** (zero) (utilizzare le formule fornite in precedenza in questo argomento).
+- **Numero di attività nell'aggregazione helper** - Impostare un valore maggiore di **0** (zero) (utilizza le formule fornite in precedenza in questo articolo).
 - **Uso della cache** - Impostare su **Massimo** a meno che la memoria del sistema non sia quasi esaurita.
-- **Numero di ordini nell'aggregazione di stabilizzazione** - Impostare su un valore maggiore di **0** (zero) (utilizzare la formula fornita in precedenza in questo argomento).
+- **Numero di ordini nell'aggregazione di stabilizzazione** - Impostare su un valore maggiore di **0** (zero) (utilizza la formula fornita in precedenza in questo articolo).
 - **Intervalli temporali** - Regolare in base alle esigenze aziendali.
 - **Azioni e ritardo** - Disabilitare le azioni e il ritardo se non vengono utilizzati.
 - **Una routine pesante alla volta** - Non eseguire la pianificazione generale insieme a qualsiasi altra routine pesante.

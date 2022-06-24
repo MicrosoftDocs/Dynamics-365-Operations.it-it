@@ -1,6 +1,6 @@
 ---
 title: Previsioni di magazzino
-description: Questo argomento descrive la funzionalità di previsione della domanda e dell'offerta che può essere utilizzata per creare previsioni di magazzino in Microsoft Dynamics 365 Supply Chain Management.
+description: Questo articolo descrive la funzionalità di previsione della domanda e dell'offerta che può essere utilizzata per creare previsioni di magazzino in Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1446928c2f5fe606d1d0732764a2a4460643afcf
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 10e3b6ad079dbcbc3cce429a4d9d838e584b9c54
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548169"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844527"
 ---
 # <a name="inventory-forecasts"></a>Previsioni di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come visualizzare e creare previsioni di magazzino. Puoi creare e visualizzare righe di previsione della domanda e dell'offerta per articoli, gruppi di articoli, chiavi di allocazione articolo, account cliente, gruppi di clienti, account fornitore e gruppi di fornitori.
+Questo articolo descrive come visualizzare e creare previsioni di magazzino. Puoi creare e visualizzare righe di previsione della domanda e dell'offerta per articoli, gruppi di articoli, chiavi di allocazione articolo, account cliente, gruppi di clienti, account fornitore e gruppi di fornitori.
 
 Per ogni riga di previsione puoi selezionare il modello di previsione utilizzato. Puoi quindi specificare l'articolo o il gruppo di articoli, più la quantità o l'importo della transazione. Puoi anche impostare una programmazione temporale per la quantità prevista.
 
@@ -60,7 +60,7 @@ Come mostra la tabella al passaggio 1, esistono diversi modi per accedere alle p
     A seconda della selezione, viene visualizzata la pagina **Previsione della domanda** o **Previsione dell'offerta**. Mostra tutte le righe di previsione esistenti per il record selezionato prima di aprire la pagina.
 
 1. Nel riquadro delle azioni, seleziona **Nuovo** per aggiungere una riga di previsione alla griglia nella parte superiore della pagina.
-1. Sulla nuova riga, nel campo **Modello**, seleziona il modello di previsione da utilizzare. Immetti quindi gli altri dettagli in base alle tue esigenze, ad esempio l'articolo, il gruppo di articoli, l'account o il gruppo di clienti o fornitori, la quantità dell'articolo o l'importo totale della transazione. Per i dettagli completi sui campi disponibili nelle pagine **Previsione dell'offerta** e **Previsione della domanda**, vedi le sezioni successive in questo argomento.
+1. Sulla nuova riga, nel campo **Modello**, seleziona il modello di previsione da utilizzare. Immetti quindi gli altri dettagli in base alle tue esigenze, ad esempio l'articolo, il gruppo di articoli, l'account o il gruppo di clienti o fornitori, la quantità dell'articolo o l'importo totale della transazione. Per i dettagli completi sui campi disponibili nelle pagine **Previsione dell'offerta** e **Previsione della domanda**, vedi le sezioni successive in questo articolo.
 1. Per distribuire la previsione nel periodo, nella scheda **Panoramica** seleziona **Alloca previsioni** sulla barra degli strumenti.
 1. Nella griglia **Allocazione**, rivedi l'orizzonte e gli intervalli temporali usati per distribuire le quantità previste.
 
@@ -68,7 +68,7 @@ Come mostra la tabella al passaggio 1, esistono diversi modi per accedere alle p
 
 La previsione dell'offerta consente di creare un piano per gli articoli che devono essere acquistati. Indica agli addetti all'approvvigionamento cosa devono ordinare.
 
-Puoi immettere una previsione dell'offerta per articolo, gruppo di articoli, chiave di allocazione articolo, fornitore e gruppo di fornitori. Per informazioni sulle varie modalità di apertura della pagina **Previsione dell'offerta** per le varie entità e record, vedi la sezione [Visualizzare e immettere manualmente righe di previsione](#manual-entry) in questo argomento.
+Puoi immettere una previsione dell'offerta per articolo, gruppo di articoli, chiave di allocazione articolo, fornitore e gruppo di fornitori. Per informazioni sulle varie modalità di apertura della pagina **Previsione dell'offerta** per le varie entità e record, vedi la sezione [Visualizzare e immettere manualmente righe di previsione](#manual-entry) in questo articolo.
 
 Nella parte superiore della pagina **Previsione dell'offerta** è disponibile una griglia di righe della previsione dell'offerta e una serie di tabelle che possono essere usate per visualizzare e impostare altre informazioni sulla riga della previsione selezionata. La parte inferiore della pagina fornisce una griglia **Allocazione**.
 
@@ -94,9 +94,9 @@ Nella seguente tabella sono descritti i comandi disponibili nella barra degli st
 
 | Comandi | descrizione |
 |---|---|
-| Alloca previsioni | Se stai utilizzando un metodo di allocazione, genera le singole righe di pianificazione per la transazione previsionale. La quantità della riga viene quindi distribuita per data (in base agli intervalli di tempo selezionati), alla quantità e all'importo per l'intero orizzonte temporale. (Vedere la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo argomento.) |
-| Aggiornamento in blocco | Apri la pagina **Modifica transazioni previsionali**. (Vedi la sezione [Aggiornamento in blocco delle transazioni previsionali](#bulk-update) in questo argomento.) |
-| Previsione di magazzino | Apri una vita della pagina **Previsione di magazzino** filtrata per la combinazione di articolo/modello selezionata. (Vedi la sezione [Previsione di magazzino](#inventory-forecast) in questo argomento.) |
+| Alloca previsioni | Se stai utilizzando un metodo di allocazione, genera le singole righe di pianificazione per la transazione previsionale. La quantità della riga viene quindi distribuita per data (in base agli intervalli di tempo selezionati), alla quantità e all'importo per l'intero orizzonte temporale. (Vedi la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo articolo.) |
+| Aggiornamento in blocco | Apri la pagina **Modifica transazioni previsionali**. (Vedi la sezione [Aggiornamento in blocco delle transazioni previsionali](#bulk-update) in questo articolo.) |
+| Previsione di magazzino | Apri una vita della pagina **Previsione di magazzino** filtrata per la combinazione di articolo/modello selezionata. (Vedi la sezione [Previsione di magazzino](#inventory-forecast) in questo articolo.) |
 | Crea richiesta articolo | Apri una finestra di dialogo in cui creare richieste di articoli e righe di ordini cliente o del giornale di registrazione degli articoli per le transazioni previsionali relative al progetto. Sebbene questo comando sia disponibile sia per le righe di previsione dell'offerta che per le righe di previsione della domanda, non può essere usato nella pagina **Previsione dell'offerta**. |
 
 ### <a name="the-overview-tab-on-the-supply-forecast-page"></a>La scheda Panoramica nella pagina Previsione dell'offerta
@@ -173,7 +173,7 @@ Se stai utilizzando una chiave di allocazione articolo o se hai inserito una pre
 
 La previsione della domanda consente di immettere o generare la domanda per un cliente. Aiuta gli addetti alle vendite e al marketing a informare gli addetti alla pianificazione generale in merito alla domanda prevista durante il prossimo periodo di previsione.
 
-Puoi immettere una previsione della domanda per articolo, gruppo di articoli, chiave di allocazione articolo, cliente e gruppo di cliente. Per informazioni sulle varie modalità di apertura della pagina **Previsione della domanda** per le varie entità e record, vedi la sezione [Visualizzare e immettere manualmente righe di previsione](#manual-entry) in questo argomento.
+Puoi immettere una previsione della domanda per articolo, gruppo di articoli, chiave di allocazione articolo, cliente e gruppo di cliente. Per informazioni sulle varie modalità di apertura della pagina **Previsione della domanda** per le varie entità e record, vedi la sezione [Visualizzare e immettere manualmente righe di previsione](#manual-entry) in questo articolo.
 
 Nella parte superiore della pagina **Previsione della domanda** è disponibile una griglia di righe della previsione della domanda e una serie di tabelle che possono essere usate per visualizzare e impostare altre informazioni sulla riga della previsione selezionata. La parte inferiore della pagina fornisce una griglia **Allocazione**.
 
@@ -201,9 +201,9 @@ Nella seguente tabella sono descritti i comandi disponibili nella barra degli st
 
 | Comandi | descrizione |
 |---|---|
-| Alloca previsioni | Se stai utilizzando un metodo di allocazione, genera le singole righe di pianificazione per la transazione previsionale. La quantità della riga viene quindi distribuita per data (in base agli intervalli di tempo selezionati), alla quantità e all'importo per l'intero orizzonte temporale. (Vedere la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo argomento.)|
-| Aggiornamento in blocco | Apri la pagina **Modifica transazioni previsionali**. (Vedi la sezione [Aggiornamento in blocco delle transazioni previsionali](#bulk-update) in questo argomento.) |
-| Previsione di magazzino | Apri una vita della pagina **Previsione di magazzino** filtrata per la combinazione di articolo/modello selezionata. (Vedi la sezione [Previsione di magazzino](#inventory-forecast) in questo argomento.) |
+| Alloca previsioni | Se stai utilizzando un metodo di allocazione, genera le singole righe di pianificazione per la transazione previsionale. La quantità della riga viene quindi distribuita per data (in base agli intervalli di tempo selezionati), alla quantità e all'importo per l'intero orizzonte temporale. (Vedi la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo articolo.)|
+| Aggiornamento in blocco | Apri la pagina **Modifica transazioni previsionali**. (Vedi la sezione [Aggiornamento in blocco delle transazioni previsionali](#bulk-update) in questo articolo.) |
+| Previsione di magazzino | Apri una vita della pagina **Previsione di magazzino** filtrata per la combinazione di articolo/modello selezionata. (Vedi la sezione [Previsione di magazzino](#inventory-forecast) in questo articolo.) |
 | Crea richiesta articolo | Apri una finestra di dialogo in cui creare richieste di articoli e righe di ordini cliente o del giornale di registrazione degli articoli per le transazioni previsionali relative al progetto. |
 
 ### <a name="the-overview-tab-on-the-demand-forecast-page"></a>La scheda Panoramica nella pagina Previsione della domanda
@@ -296,7 +296,7 @@ La scheda **Dimensioni inventariali** mostra tutti i valori della dimensione inv
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>La griglia Allocazione nella pagina Previsione della domanda
 
-Se stai utilizzando una chiave di allocazione articolo o se hai inserito una previsione dell'articolo per uno o più periodi futuri, puoi allocare la previsione selezionando **Assegna previsione** sulla barra degli strumenti nella scheda **Panoramica**. La quantità viene quindi distribuita secondo le modalità indicate dalle righe nella griglia **Allocazione**. (Vedere la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo argomento.)
+Se stai utilizzando una chiave di allocazione articolo o se hai inserito una previsione dell'articolo per uno o più periodi futuri, puoi allocare la previsione selezionando **Assegna previsione** sulla barra degli strumenti nella scheda **Panoramica**. La quantità viene quindi distribuita secondo le modalità indicate dalle righe nella griglia **Allocazione**. (Vedi la sezione [Alloca previsioni](#allocate-forecast) di seguito in questo articolo.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Previsione di magazzino
 

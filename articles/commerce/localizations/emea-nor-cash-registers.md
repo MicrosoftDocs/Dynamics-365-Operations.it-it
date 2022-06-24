@@ -1,6 +1,6 @@
 ---
 title: Funzionalità registratore di cassa per la Norvegia
-description: Questo argomento fornisce una panoramica della funzionalità del registratore di cassa disponibile per la Norvegia in Microsoft Dynamics 365 Commerce e fornisce le linee guida per l'impostazione della funzionalità.
+description: Questo articolo fornisce una panoramica della funzionalità del registratore di cassa disponibile per la Norvegia in Microsoft Dynamics 365 Commerce e fornisce le linee guida per l'impostazione della funzionalità.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-10-31
-ms.openlocfilehash: bb87b3a7405ef3d8435748813fa66db74b8f0971
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 778a947f03866518219e9c0fa44660d66f19f53a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906701"
 ---
 # <a name="cash-register-functionality-for-norway"></a>Funzionalità registratore di cassa per la Norvegia
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento fornisce una panoramica della funzionalità del registratore di cassa disponibile per la Norvegia in Dynamics 365 Commerce. Fornisce inoltre le linee guida per l'impostazione della funzionalità. La funzionalità è composta dalle seguenti parti:
+Questo articolo fornisce una panoramica della funzionalità del registratore di cassa disponibile per la Norvegia in Dynamics 365 Commerce. Fornisce inoltre le linee guida per l'impostazione della funzionalità. La funzionalità è composta dalle seguenti parti:
 
 - Funzionalità POS (point-of-sale) comuni disponibili per i clienti in tutti i paesi o aree geografiche. Gli esempi includono un'opzione che consente di impedire che una copia di una ricevuta venga stampata più di una volta.
 - Funzionalità specifiche per la Norvegia, come le firme digitali per le transazioni di vendita.

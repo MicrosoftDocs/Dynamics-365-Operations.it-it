@@ -1,6 +1,6 @@
 ---
 title: Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
-description: In questo argomento vengono descritti i criteri di prenotazione di inventario che consentono alle aziende che vendono prodotti tracciati in batch ed eseguono la propria logistica come operazioni abilitate WMS di prenotare batch specifici per gli ordini cliente, anche se la gerarchia di prenotazioni associata ai prodotti impedisce la prenotazione di specifici batch.
+description: In questo articolo vengono descritti i criteri di prenotazione di inventario che consentono alle aziende che vendono prodotti tracciati in batch ed eseguono la propria logistica come operazioni abilitate WMS di prenotare batch specifici per gli ordini cliente, anche se la gerarchia di prenotazioni associata ai prodotti impedisce la prenotazione di specifici batch.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: fb42d4ccd2d8797a34f6351caf7dedbc1e957fd5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474942"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885814"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -28,7 +28,7 @@ Quando una gerarchia di prenotazioni di inventario di tipo *Batch-below\[locatio
 
 Allo stesso modo, le targhe specifiche non possono essere prenotate per i prodotti negli ordini cliente quando tali prodotti sono associati alla gerarchia di prenotazione predefinita.
 
-Questo argomento descrive i criteri di prenotazione delle scorte che consentono a queste aziende di prenotare specifici batch o targhe, anche quando i prodotti sono associati ad una gerarchia di prenotazioni *Batch-below\[location\]*.
+Questo articolo descrive i criteri di prenotazione delle scorte che consentono a queste aziende di prenotare specifici batch o targhe, anche quando i prodotti sono associati ad una gerarchia di prenotazioni *Batch-below\[location\]*.
 
 ## <a name="inventory-reservation-hierarchy"></a>Gerarchia di prenotazioni di inventario
 

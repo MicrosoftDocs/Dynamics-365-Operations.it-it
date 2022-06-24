@@ -1,6 +1,6 @@
 ---
-title: Modalità di aggiungere contenuti
-description: In questo argomento viene fornita una panoramica e collegamenti alla documentazione per la gestione di contenuti mediante il set di strumenti Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+title: Modalità di aggiunta contenuti
+description: In questo articolo viene fornita una panoramica e collegamenti alla documentazione per la gestione di contenuti mediante il set di strumenti Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,24 +14,24 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8a2dbb7bc7659e2e23b0ba6e2b5645dbe508ef9c9bda10df3bad8d04a6cfb32
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f01de31e4eca1266066b4fcf1c92b429bfc71c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727680"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871756"
 ---
-# <a name="ways-to-add-content"></a>Modalità di aggiungere contenuti
+# <a name="ways-to-add-content"></a>Modalità di aggiunta contenuti
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene fornita una panoramica e collegamenti alla documentazione per la gestione di contenuti mediante il set di strumenti Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+In questo articolo viene fornita una panoramica e collegamenti alla documentazione per la gestione di contenuti mediante il set di strumenti Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 
 Esistono vari modi per modificare l'aspetto e i contenuti del sito. A seconda del livello di personalizzazione richiesto, molte di queste modifiche possono essere implementate da non sviluppatori in Creazione di siti Web, ovvero il set di strumenti incluso con Dynamics 365 Commerce. Creazione di siti Web ti consente di creare modelli, selezionare temi e selezionare e configurare moduli senza scrivere codice. Per contro, per creare un nuovo tema o modulo, sono necessarie competenze di sviluppo in quanto è necessario utilizzare il kit di sviluppo di software (SDK) di e-Commerce e il flusso di lavoro di distribuzione di Microsoft Dynamics Lifecycle Services.
 
-I seguenti argomenti sono utili per iniziare a capire come aggiungere e gestire contenuti di siti Web. La maggior parte degli argomenti elencati è incentrata su aree del sito per le quali non è necessario uno sviluppatore. Alcuni riguardano la modifica di contenuti di base, mentre altri forniscono informazioni sulle attività dell'amministratore del sito. Ognuno di questi argomenti denoterà attività specifiche che potrebbero richiedere l'utilizzo del kit SDK. Ogni argomento presuppone che sia già stato eseguito il provisioning di un sito e che si disponga già dell'accesso al set di strumenti Creazione di siti Web per il proprio sito.
+I seguenti articoli sono utili per iniziare a capire come aggiungere e gestire contenuti di siti Web. La maggior parte degli articoli elencati è incentrata su aree del sito per le quali non è necessario uno sviluppatore. Alcuni riguardano la modifica di contenuti di base, mentre altri forniscono informazioni sulle attività dell'amministratore del sito. Ognuno di questi articoli denoterà attività specifiche che potrebbero richiedere l'utilizzo del kit SDK. Ogni articolo presuppone che sia già stato eseguito il provisioning di un sito e che si disponga già dell'accesso al set di strumenti Creazione di siti Web per il proprio sito.
 
-Selezionare uno dei seguenti argomenti per iniziare.
+Selezionare uno dei seguenti articoli per iniziare.
 
 - Per acquisire familiarità con la terminologia di gestione dei contenuti utilizzata in Creazione di siti Web e in questa documentazione, consultare [Glossario del modello di pagina](page-elements-overview.md).
 - Per capire come funzionano i moduli nei flussi di lavoro di gestione dei contenuti, vedere [Utilizzare i moduli](work-with-modules.md).

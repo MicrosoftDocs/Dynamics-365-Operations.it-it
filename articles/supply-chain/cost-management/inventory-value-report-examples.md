@@ -1,6 +1,6 @@
 ---
 title: Esempi e logica di report sul valore di magazzino
-description: Questo argomento fornisce alcuni esempi di risultati presentati su ogni tipo di report sul valore di magazzino. I report sul valore di magazzino forniscono dettagli sulle quantità e sugli importi fisici e finanziari del magazzino.
+description: Questo articolo fornisce alcuni esempi di risultati presentati su ogni tipo di report sul valore di magazzino. I report sul valore di magazzino forniscono dettagli sulle quantità e sugli importi fisici e finanziari del magazzino.
 author: JennySong-SH
 ms.date: 10/19/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 0d594fc18a104c434a334a5b6d1d249330a6be9a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6c6387be5204fde6ebc7a4983567801900974af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675321"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877655"
 ---
 # <a name="inventory-value-report-examples-and-logic"></a>Esempi e logica di report sul valore di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-I report sul valore di magazzino forniscono dettagli sulle quantità e sugli importi fisici e finanziari del magazzino. Questo argomento fornisce alcuni esempi di risultati presentati su ogni tipo di report sul valore di magazzino.
+I report sul valore di magazzino forniscono dettagli sulle quantità e sugli importi fisici e finanziari del magazzino. Questo articolo fornisce alcuni esempi di risultati presentati su ogni tipo di report sul valore di magazzino.
 
 Per altre informazioni su come generare e utilizzare ciascun tipo di report sul valore di magazzino, vedi [Report sul valore di magazzino](inventory-value-report-storage.md).
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Dati di esempio utilizzati in questi esempi
 
-Gli esempi in questo argomento si basano sui dati di transazione delle scorte di esempio descritti in questa sezione.
+Gli esempi in questo articolo si basano sui dati di transazione delle scorte di esempio descritti in questa sezione.
 
 ### <a name="storage-dimension-setup"></a>Configurazione delle dimensioni di immagazzinamento
 
@@ -70,7 +70,7 @@ Il sistema di esempio include una configurazione di report sul valore di magazzi
 
 ## <a name="inventory-value-report-example-1"></a>Esempio 1 di archiviazione report valori di magazzino
 
-La tabella e le illustrazioni seguenti mostrano i risultati quando si utilizzano i dati di esempio e la configurazione del report descritti in precedenza in questo argomento.
+La tabella e le illustrazioni seguenti mostrano i risultati quando si utilizzano i dati di esempio e la configurazione del report descritti in precedenza in questo articolo.
 
 | Tipo di risorsa | Risorsa | Sito | Riferimento | Inventario: quantità finanziaria | Inventario: importo finanziario | Inventario: quantità fisica registrata | Inventario: importo fisico registrato | Inventario: quantità | Inventario: importo | Costo unitario medio |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -91,7 +91,7 @@ La seguente illustrazione mostra il report **Archiviazione report valori di maga
 
 ## <a name="inventory-value-report-example-2"></a>Esempio 2 di archiviazione report valori di magazzino
 
-La tabella e le illustrazioni seguenti mostrano i risultati quando si utilizzano i dati di esempio descritti in precedenza in questo argomento, ma si modifica il valore del campo **Livello** su *Transazioni* nella configurazione del report e si imposta il campo **Da data** campo su *15 marzo* quando esegui il report.
+La tabella e le illustrazioni seguenti mostrano i risultati quando si utilizzano i dati di esempio descritti in precedenza in questo articolo, ma si modifica il valore del campo **Livello** su *Transazioni* nella configurazione del report e si imposta il campo **Da data** campo su *15 marzo* quando esegui il report.
 
 | Tipo di risorsa | Risorsa | Sito | Data | Numero | Riferimento | Inventario: quantità finanziaria | Inventario: importo finanziario | Inventario: quantità fisica registrata | Inventario: importo fisico registrato | Inventario: quantità | Inventario: importo |
 |---|---|---|---|---|---|---|---|---|---|---|---|
@@ -127,7 +127,7 @@ Le seguenti sottosezioni mostrano i report sul valore di magazzino generati dopo
 
 ### <a name="example-3-when-the-totals-level-is-used"></a>Esempio 3 quando viene utilizzato il livello Totali
 
-La tabella seguente mostra i risultati quando si utilizzano i dati di esempio e la configurazione del report descritti in precedenza in questo argomento. (In quella configurazione di report, il campo **Livello** è impostato su *Totali*.)
+La tabella seguente mostra i risultati quando si utilizzano i dati di esempio e la configurazione del report descritti in precedenza in questo articolo. (In quella configurazione di report, il campo **Livello** è impostato su *Totali*.)
 
 | Tipo di risorsa | Risorsa | Sito | Riferimento | Inventario: quantità finanziaria | Inventario: importo finanziario | Inventario: quantità fisica registrata | Inventario: importo fisico registrato | Inventario: quantità | Inventario: importo | Costo unitario medio |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ La tabella seguente mostra i risultati quando si utilizzano i dati di esempio e 
 
 ### <a name="example-3-when-the-transactions-level-is-used"></a>Esempio 3 quando viene utilizzato il livello Transazioni
 
-La tabella seguente mostra i risultati quando si utilizzano i dati di esempio descritti in precedenza in questo argomento, ma si modifica il valore del campo **Livello** su *Transazioni* nella configurazione del report.
+La tabella seguente mostra i risultati quando si utilizzano i dati di esempio descritti in precedenza in questo articolo, ma si modifica il valore del campo **Livello** su *Transazioni* nella configurazione del report.
 
 | Tipo di risorsa | Risorsa | Sito | Data | Numero | Riferimento | Inventario: quantità finanziaria | Inventario: importo finanziario | Inventario: quantità fisica registrata | Inventario: importo fisico registrato | Inventario: quantità | Inventario: importo |
 |---|---|---|---|---|---|---|---|---|---|---|---|

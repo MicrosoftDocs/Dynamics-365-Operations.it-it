@@ -1,6 +1,6 @@
 ---
-title: Estendere le entità di dati delle scorte disponibili
-description: Questo argomento fornisce un esempio che mostra come aggiungere campi estesi alle viste INVENTORSITEONHANDENTITY e INVENTWAREHOUSEONHANDENTITY, in modo che le funzionalità delle entità di dati disponibili dell'inventario possano funzionare con le estensioni.
+title: Estendere le entità di dati dell'inventario disponibile
+description: Questo articolo fornisce un esempio che mostra come aggiungere campi estesi alle viste INVENTORSITEONHANDENTITY e INVENTWAREHOUSEONHANDENTITY, in modo che le funzionalità delle entità di dati disponibili dell'inventario possano funzionare con le estensioni.
 author: yufeihuang
 ms.date: 07/27/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8161d951c3296b63476c4e7b527efca163a4f4b3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 352b466a185bcd0778ea17e598129864c1547987
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577698"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906039"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Estendere le entità di dati delle scorte disponibili
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management fornisce funzionalità di [estendibilità](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) che consentono di [aggiungere campi alle tabelle tramite le estensioni](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Questo argomento fornisce un esempio che mostra come aggiungere campi estesi alle viste `INVENTORSITEONHANDENTITY` e `INVENTWAREHOUSEONHANDENTITY`, in modo che le funzionalità delle entità di dati disponibili dell'inventario possano funzionare con le estensioni. Per ulteriori informazioni sulle entità dei dati, vedere [Panoramica sulla gestione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
+Microsoft Dynamics 365 Supply Chain Management fornisce funzionalità di [estendibilità](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) che consentono di [aggiungere campi alle tabelle tramite le estensioni](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). Questo articolo fornisce un esempio che mostra come aggiungere campi estesi alle viste `INVENTORSITEONHANDENTITY` e `INVENTWAREHOUSEONHANDENTITY`, in modo che le funzionalità delle entità di dati disponibili dell'inventario possano funzionare con le estensioni. Per ulteriori informazioni sulle entità dei dati, vedere [Panoramica sulla gestione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 > [!NOTE]
 > Ecco un elenco di alcune delle entità di dati disponibili nell'inventario:

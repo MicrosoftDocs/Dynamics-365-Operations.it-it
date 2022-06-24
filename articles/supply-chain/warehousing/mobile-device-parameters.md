@@ -1,6 +1,6 @@
 ---
 title: Parametri globali del dispositivo mobile
-description: Questo argomento spiega come configurare le impostazioni del dispositivo mobile nella pagina dei parametri di gestione del magazzino.
+description: Questo articolo spiega come configurare le impostazioni del dispositivo mobile nella pagina dei parametri di gestione del magazzino.
 author: Mirzaab
 ms.date: 08/13/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ae04c86ff1eafb649fcef7c34ace66bdc3e5cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e6e03414edd9243fcc4156195928455b30a7cee9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679167"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847761"
 ---
 # <a name="global-mobile-device-parameters"></a>Parametri globali del dispositivo mobile
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come impostare i parametri di gestione del magazzino globali che influiscono sul modo in cui il sistema interagisce con i dispositivi mobili.
+Questo articolo spiega come impostare i parametri di gestione del magazzino globali che influiscono sul modo in cui il sistema interagisce con i dispositivi mobili.
 
 Per ulteriori informazioni su come impostare gli addetti magazzino, vedi [Gestire l'addetto magazzino](manage-warehouse-workers.md). Per altre informazioni relative alla gestione della targa nei dispositivi mobili, vedi [Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino](warehousing-mobile-device-app-license-plate-receiving.md). Per ulteriori informazioni sui processi di conteggio dei cicli, vedi [Conteggio del ciclo](cycle-counting.md) e [Scenari di esempio di conteggio del ciclo](cycle-counting-scenarios.md).
 
 ## <a name="open-the-warehouse-management-parameters-page"></a>Aprire la pagina Parametri di gestione magazzino
 
-Per aprire la pagina **Parametri di gestione magazzino** vai a **Gestione magazzino \> Impostazioni \> Parametri di gestione magazzino**. Puoi quindi impostare i campi correlati al funzionamento dei dispositivi mobili, come descritto nella sezione successiva di questo argomento.
+Per aprire la pagina **Parametri di gestione magazzino** vai a **Gestione magazzino \> Impostazioni \> Parametri di gestione magazzino**. Puoi quindi impostare i campi correlati al funzionamento dei dispositivi mobili, come descritto nella sezione successiva di questo articolo.
 
 ## <a name="mobile-device-fasttab-on-the-general-tab"></a>Scheda dettaglio Dispositivo mobile nella scheda Generale
 

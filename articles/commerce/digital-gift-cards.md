@@ -1,6 +1,6 @@
 ---
 title: Gift card digitali per l'e-commerce
-description: Questo argomento descrive il funzionamento delle gift card digitali nell'implementazione dell'e-commerce di Microsoft Dynamics 365 Commerce. Fornisce inoltre una panoramica di importanti passaggi di configurazione.
+description: Questo articolo descrive il funzionamento delle gift card digitali nell'implementazione dell'e-commerce di Microsoft Dynamics 365 Commerce. Fornisce inoltre una panoramica di importanti passaggi di configurazione.
 author: anupamar-ms
 ms.date: 05/27/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: de8811b3265bc582a055aaad1f3dea32def552f4
-ms.sourcegitcommit: d38d2fe85dc2497211ba5731617f590029d07145
+ms.openlocfilehash: 60de6988f14a0dcbbb881e84a9e4d8a45ca1289a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884906"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Gift card digitali per l'e-commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive il funzionamento delle gift card digitali nell'implementazione dell'e-commerce di Microsoft Dynamics 365 Commerce. Fornisce inoltre una panoramica di importanti passaggi di configurazione.
+Questo articolo descrive il funzionamento delle gift card digitali nell'implementazione dell'e-commerce di Microsoft Dynamics 365 Commerce. Fornisce inoltre una panoramica di importanti passaggi di configurazione.
 
 In Dynamics 365 Commerce, l'acquisto di gift card digitali segue lo stesso flusso dell'acquisto di altri prodotti nel sistema. Non è necessario configurare moduli aggiuntivi. Se al carrello vengono aggiunte più gift card, le voci gift card non vengono aggregate in una singola riga di vendita. Questo comportamento è necessario perché ogni riga di vendita viene fatturata utilizzando un numero di gift card separato.
 

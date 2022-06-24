@@ -1,6 +1,6 @@
 ---
 title: Configurare le modalità e le spese di consegna del servizio clienti
-description: In questo argomento viene descritto come impostare le modalità di consegna e le spese per un ordine del servizio clienti in Dynamics 365 Commerce.
+description: In questo articolo viene descritto come impostare le modalità di consegna e le spese per un ordine del servizio clienti in Dynamics 365 Commerce.
 author: josaw1
 ms.date: 04/26/2018
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f445e9dabd0210951609170369eae63bcc30ce6b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888300"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurare le modalità e le spese di consegna del servizio clienti
 
@@ -35,7 +35,7 @@ Commerce include funzionalità che consentono agli utenti di limitare le modalit
 
 Prima di specificare quali modalità di consegna possono essere utilizzate per gli ordini del servizio clienti e prima di definire le regole e le spese associate, è necessario definire le modalità di consegna. Passare a **Vendite e marketing \> Impostazioni \> Distribuzione \> Modi di consegna**. Selezionare **Nuovo** per creare un nuovo modo di consegna. In alternativa, selezionare un modo di consegna esistente nell'elenco e quindi selezionare **Modifica** per apportare modifiche.
 
-Nel campo **Modo di consegna**, è possibile immettere qualsiasi combinazione di caratteri alfanumerici, in base ai requisiti dell'azienda. È quindi possibile utilizzare il campo **Descrizione** per fornire altro contesto. I campi **Gruppi di spese** e **Urgente** sono facoltativi e verranno descritti più in dettaglio più avanti in questo argomento.
+Nel campo **Modo di consegna**, è possibile immettere qualsiasi combinazione di caratteri alfanumerici, in base ai requisiti dell'azienda. È quindi possibile utilizzare il campo **Descrizione** per fornire altro contesto. I campi **Gruppi di spese** e **Urgente** sono facoltativi e verranno descritti più in dettaglio più avanti in questo articolo.
 
 Nella Scheda dettaglio **Canali di commercio**, aggiungere qualsiasi canale che deve poter utilizzare il modo di consegna quando vengono create transazioni di vendita in quel canale.
 

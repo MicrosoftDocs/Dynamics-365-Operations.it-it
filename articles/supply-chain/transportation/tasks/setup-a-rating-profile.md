@@ -1,6 +1,6 @@
 ---
 title: Profili valutazione
-description: In questo argomento viene descritto come impostare i profili valutazione.
+description: In questo articolo viene descritto come impostare i profili valutazione.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2512b79c87a4640a2b31b7699e85d743b451a14c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1f7408574187ddb099181bd2566c46c52307f603
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850475"
 ---
 # <a name="rating-profiles"></a>Profili valutazione
 
@@ -56,7 +56,7 @@ Nella pagina **Profili valutazione** è possibile rivedere tutti i profili di va
 1. Vai a **Gestione trasporto \> Impostazioni \> Vettori \> Vettori spedizione**.
 1. Selezionare un vettore di spedizione nell'elenco.
 1. Nella Scheda dettaglio **Profili valutazione** selezionare **Nuovo** per creare un profilo di valutazione.
-1. Impostare i campi per il nuovo profilo di valutazione. Questi campi corrispondono ai campi nella pagina **Profili di valutazione**, come descritto nella sezione precedente di questo argomento.
+1. Impostare i campi per il nuovo profilo di valutazione. Questi campi corrispondono ai campi nella pagina **Profili di valutazione**, come descritto nella sezione precedente di questo articolo.
 
 > [!NOTE]
 > I profili creati nella pagina **Vettori di spedizione** vengono visualizzati anche nella pagina **Profili di valutazione**.

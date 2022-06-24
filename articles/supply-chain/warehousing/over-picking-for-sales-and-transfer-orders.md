@@ -1,6 +1,6 @@
 ---
 title: Prelievo in eccesso per ordini cliente e di trasferimento
-description: Questo argomento spiega come abilitare il prelievo in eccesso per gli ordini cliente e gli ordini di trasferimento.
+description: Questo articolo spiega come abilitare il prelievo in eccesso per gli ordini cliente e gli ordini di trasferimento.
 author: GalynaFedorova
 ms.date: 07/06/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-06
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 52a4225efa88a7b9303dd611d5652f59da1612a4
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8bbc7d532f910edfb442831d6c906f253dee06c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678410"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897286"
 ---
 # <a name="over-picking-for-sales-orders-and-transfer-orders"></a>Prelievo in eccesso per ordini cliente e di trasferimento
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento presenta uno scenario che mostra come consentire a un lavoratore specifico o a tutti i lavoratori di effettuare un prelievo in eccesso. Il processo di prelievo in eccesso consente un prelievo in eccesso controllato durante il lavoro di prelievo.
+Questo articolo presenta uno scenario che mostra come consentire a un lavoratore specifico o a tutti i lavoratori di effettuare un prelievo in eccesso. Il processo di prelievo in eccesso consente un prelievo in eccesso controllato durante il lavoro di prelievo.
 
 Il prelievo in eccesso in magazzino è un concetto semplice. Il sistema consente ai lavoratori di prelevare più articoli di quelli specificati per un ordine. Tuttavia, considera ancora il limite di consegna in eccesso impostato a livello di riga per l'ordine di trasferimento o l'ordine cliente. Se tale limite viene superato, l'app Warehouse Management avvisa i lavoratori che stanno superando il limite di consegna in eccesso.
 
@@ -41,11 +41,11 @@ La funzione di prelievo in eccesso può aiutare i lavoratori a risparmiare tempo
 > [!IMPORTANT]
 > La funzione di prelievo in eccesso si applica solo al prelievo e all'elaborazione dell'ordine cliente e dell'ordine di trasferimento. Il rifornimento non supporta il prelievo in eccesso. Quando viene eseguito il lavoro di rifornimento, il sistema non consentirà agli utenti di effettuare un prelievo in eccesso.
 
-Lo scenario in questo argomento mostra come impostare e utilizzare la funzionalità di prelievo in eccesso.
+Lo scenario in questo articolo mostra come impostare e utilizzare la funzionalità di prelievo in eccesso.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Prerequisito dello scenario: rendere disponibili i dati demo
 
-Lo scenario in questo argomento fa riferimento a valori e record inclusi nei dati demo standard forniti per Microsoft Dynamics 365 Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica su *USMF* prima di iniziare.
+Lo scenario in questo articolo fa riferimento a valori e record inclusi nei dati demo standard forniti per Microsoft Dynamics 365 Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica su *USMF* prima di iniziare.
 
 ## <a name="scenario-setup"></a>Impostazione dello scenario
 

@@ -1,6 +1,6 @@
 ---
 title: Creare e gestire un blocco scorte
-description: Questo argomento descrive come usare un blocco scorte per impedire che scorte fisiche disponibili vengano prenotate da altri documenti di origine in uscita.
+description: Questo articolo descrive come usare un blocco scorte per impedire che scorte fisiche disponibili vengano prenotate da altri documenti di origine in uscita.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bad7d4e5794dc543bd750912ef0d3e4460e611b1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ba95b689bedfc76598dfa81548a074f4fb7c833a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859345"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Creare e gestire un blocco scorte
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come usare un blocco scorte per impedire che scorte fisiche disponibili vengano prenotate da altri documenti di origine in uscita. Prima di iniziare le procedure in questo argomento, è necessario disporre di un articolo con scorte fisiche disponibili.
+Questo articolo descrive come usare un blocco scorte per impedire che scorte fisiche disponibili vengano prenotate da altri documenti di origine in uscita. Prima di iniziare le procedure in questo articolo, è necessario disporre di un articolo con scorte fisiche disponibili.
 
 ## <a name="block-inventory"></a>Blocca scorte
 

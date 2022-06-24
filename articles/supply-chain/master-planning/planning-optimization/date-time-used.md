@@ -1,6 +1,6 @@
 ---
 title: Parametri di data e ora utilizzati da Ottimizzazione pianificazione
-description: Questo argomento fornisce informazioni sui parametri di data e ora utilizzati da Ottimizzazione pianificazione durante il suo funzionamento.
+description: Questo articolo fornisce informazioni sui parametri di data e ora utilizzati da Ottimizzazione pianificazione durante il suo funzionamento.
 author: t-benebo
 ms.date: 09/21/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0708404f286253449e0400fc65680e903f6d1e9b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468834"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885901"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Parametri di data e ora utilizzati da Ottimizzazione pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento fornisce informazioni sui parametri di data e ora utilizzati da Ottimizzazione pianificazione durante il suo funzionamento.
+Questo articolo fornisce informazioni sui parametri di data e ora utilizzati da Ottimizzazione pianificazione durante il suo funzionamento.
 
 Mentre il motore di pianificazione principale integrato utilizza le date delle transazioni in tutti i calcoli, Ottimizzazione pianificazione funziona con i valori di data e ora che vengono convertiti in date. Questa differenza di comportamento può portare a situazioni in cui, ad esempio, le transazioni di previsione create a mezzanotte del giorno in cui viene eseguita la pianificazione generale non vengono incluse perché Ottimizzazione pianificazione ritiene che siano state create prima della data corrente.
 

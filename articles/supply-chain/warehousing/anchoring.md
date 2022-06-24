@@ -1,6 +1,6 @@
 ---
 title: Ancoraggio
-description: Questo argomento spiega come abilitare e utilizzare l'ancoraggio.
+description: Questo articolo spiega come abilitare e utilizzare l'ancoraggio.
 author: GalynaFedorova
 ms.date: 07/29/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-07-29
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 26a7bf60912ff1e8a23305e9331d520fe8d65727
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8a0fa849f07f0cc0a41a663fc97b5aba927700b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676497"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903813"
 ---
 # <a name="anchoring"></a>Ancoraggio
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce dettagli sul processo di ancoraggio. Descrive la configurazione richiesta e la logica che viene eseguita quando un lavoratore di magazzino modifica l'ubicazione di gestione temporanea o l'ubicazione di carico.
+Questo articolo fornisce dettagli sul processo di ancoraggio. Descrive la configurazione richiesta e la logica che viene eseguita quando un lavoratore di magazzino modifica l'ubicazione di gestione temporanea o l'ubicazione di carico.
 
 La funzione di ancoraggio consente di ignorare la posizione di gestione temporanea o carico. Tutti gli stoccaggi aperti verranno quindi indirizzati alla nuova posizione di gestione temporanea o carico specificata.
 
@@ -36,11 +36,11 @@ Configura l'ancoraggio per le voci di menu del dispositivo mobile utilizzando l'
 > [!IMPORTANT]
 > La posizione per i successivi stoccaggi aperti verrà modificata solo sulle righe di lavoro generate dalla stessa riga del modello di lavoro. In altre parole il sistema ancorerà le righe di stoccaggio che hanno origine dalla stessa riga del modello di lavoro.
 
-Questo argomento fornisce uno scenario che mostra come funziona l'ancoraggio. Durante lo scenario, creerai una serie di ordini cliente e rilascerai ogni serie nel magazzino. Quindi sovrascriverai la posizione di gestione temporanea suggerita e verificherai che tutto il lavoro di stoccaggio rimanente sia diretto alla nuova posizione.
+Questo articolo fornisce uno scenario che mostra come funziona l'ancoraggio. Durante lo scenario, creerai una serie di ordini cliente e rilascerai ogni serie nel magazzino. Quindi sovrascriverai la posizione di gestione temporanea suggerita e verificherai che tutto il lavoro di stoccaggio rimanente sia diretto alla nuova posizione.
 
 ## <a name="scenario-prerequisite-make-demo-data-available"></a>Prerequisito dello scenario: rendere disponibili i dati demo
 
-Lo scenario in questo argomento fa riferimento a valori e record inclusi nei dati demo standard forniti per Microsoft Dynamics 365 Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica su *USMF* prima di iniziare.
+Lo scenario in questo articolo fa riferimento a valori e record inclusi nei dati demo standard forniti per Microsoft Dynamics 365 Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica su *USMF* prima di iniziare.
 
 ## <a name="scenario-setup"></a>Impostazione dello scenario
 

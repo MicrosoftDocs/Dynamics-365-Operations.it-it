@@ -1,6 +1,6 @@
 ---
 title: Creare un catalogo di approvvigionamento
-description: In questo argomento viene illustrato come creare un catalogo di approvvigionamento.
+description: In questo articolo viene illustrato come creare un catalogo di approvvigionamento.
 author: GalynaFedorova
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e94f2ef23a3c4020f46138a10fcdf84552451515
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8e35e8c5b5c93fa9aac914f04e7ea658748cb052
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673868"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869548"
 ---
 # <a name="create-a-procurement-catalog"></a>Creare un catalogo di approvvigionamento
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene illustrato come creare un catalogo di approvvigionamento. Questa attività in genere viene svolta da un responsabile degli approvvigionamenti. Inoltre imparerete come i dipendenti possono usare il catalogo quando creano una richiesta. Prima che possiate creare un catalogo, ci deve essere una gerarchia di categorie di approvvigionamento nel vostro sistema. La gerarchia è ereditata dal nuovo catalogo, con tutti i prodotti che sono nella gerarchia. Potete utilizzare questa guida nella società di dati dimostrativi USMF in cui la gerarchia di categorie di approvvigionamento è disponibile, come pure gli esempi utilizzati nei passaggi della procedura.
+In questo articolo viene illustrato come creare un catalogo di approvvigionamento. Questa attività in genere viene svolta da un responsabile degli approvvigionamenti. Inoltre imparerete come i dipendenti possono usare il catalogo quando creano una richiesta. Prima che possiate creare un catalogo, ci deve essere una gerarchia di categorie di approvvigionamento nel vostro sistema. La gerarchia è ereditata dal nuovo catalogo, con tutti i prodotti che sono nella gerarchia. Potete utilizzare questa guida nella società di dati dimostrativi USMF in cui la gerarchia di categorie di approvvigionamento è disponibile, come pure gli esempi utilizzati nei passaggi della procedura.
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Assicurarsi che una gerarchia di categorie di approvvigionamento esista

@@ -1,6 +1,6 @@
 ---
 title: Configurare l'interfaccia di esecuzione dell'area di produzione
-description: Questo argomento descrive come creare una o più configurazioni per l'interfaccia di esecuzione dell'area di produzione. Quando si apre l'interfaccia di esecuzione dell'area di produzione, viene automaticamente caricata una configurazione selezionata e un filtro di processo specifici per il browser e il dispositivo. Nella configurazione si impostano i criteri che devono essere applicabili per un utilizzo specifico.
+description: Questo articolo descrive come creare una o più configurazioni per l'interfaccia di esecuzione dell'area di produzione. Quando si apre l'interfaccia di esecuzione dell'area di produzione, viene automaticamente caricata una configurazione selezionata e un filtro di processo specifici per il browser e il dispositivo. Nella configurazione si impostano i criteri che devono essere applicabili per un utilizzo specifico.
 author: johanhoffmann
 ms.date: 10/05/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 083f5a30323cdc813116af7462563c3b8dd5e4f5
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644346"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899413"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -31,15 +31,15 @@ Quando si apre l'interfaccia di esecuzione dell'area di produzione, viene automa
 - Con un dispositivo all'ingresso della società i dipendenti timbrano quando entrano in ufficio e quando escono.
 - Con un dispositivo in officina, gli operatori della macchina registrano quando iniziano e completano i lavori. Registrano anche le pause e le attività indirette.
 
-Questo argomento descrive le varie opzioni per la configurazione di un'interfaccia di esecuzione dell'area di produzione per ogni dispositivo in uso nel sito.
+Questo articolo descrive le varie opzioni per la configurazione di un'interfaccia di esecuzione dell'area di produzione per ogni dispositivo in uso nel sito.
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Attivare l'interfaccia di esecuzione dell'area di produzione e le relative funzionalità opzionali
 
-L'interfaccia di esecuzione dell'area di produzione stessa, più molte delle impostazioni opzionali descritte in questo argomento, devono essere attivate nel sistema prima di poterle utilizzare. Utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare una o tutte le funzionalità descritte nelle sottosezioni seguenti secondo le necessità.
+L'interfaccia di esecuzione dell'area di produzione stessa, più molte delle impostazioni opzionali descritte in questo articolo, devono essere attivate nel sistema prima di poterle utilizzare. Utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare una o tutte le funzionalità descritte nelle sottosezioni seguenti secondo le necessità.
 
 ### <a name="the-production-floor-execution-interface"></a>Interfaccia di esecuzione dell'area di produzione
 
-Questa è la funzionalità principale descritta in questo argomento ed è un prerequisito per tutte le altre funzionalità menzionate in questa sezione. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Esecuzione area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Questa è la funzionalità principale descritta in questo articolo ed è un prerequisito per tutte le altre funzionalità menzionate in questa sezione. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Esecuzione area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="generate-license-plates"></a>Generare le targhe
 
@@ -146,7 +146,7 @@ Questa funzione aggiunge le impostazioni per la seguente funzionalità alla pagi
 - Abilita le rettifiche al consumo di materiale dalla finestra di dialogo **Segnala stato**. (Questa funzionalità richiede anche la funzionalità *Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (non WMS)*.)
 - Abilita le ricerche per ID progetto.
 
-Le informazioni su come utilizzare le impostazioni sono fornite più avanti in questo argomento.
+Le informazioni su come utilizzare le impostazioni sono fornite più avanti in questo articolo.
 
 Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 

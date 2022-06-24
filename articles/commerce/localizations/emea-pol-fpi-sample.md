@@ -1,6 +1,6 @@
 ---
 title: Esempio di integrazione di stampante fiscale per la Polonia
-description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per la Polonia in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Polonia in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-2-1
-ms.openlocfilehash: 43d9a54334d97a65a1f9a356daf54154f6c069b3
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: e71d7b342789e4cf2e7644a46bc847087063fc78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076838"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876951"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Esempio di integrazione di stampante fiscale per la Polonia
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per la Polonia in Microsoft Dynamics 365 Commerce.
+In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Polonia in Microsoft Dynamics 365 Commerce.
 
 La funzionalità di Dynamics 365 Commerce per la Polonia include un'integrazione di esempio del POS con una stampante fiscale. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e supporta il protocollo POSNET THERMAL HD 2.02 per stampanti fiscali da [Posnet Polska SA](https://www.posnet.com.pl) L'esempio consente la comunicazione con una stampante fiscale collegata tramite porta COM utilizzando un driver software nativo. È stato implementato e testato utilizzando un emulatore software fornito da Posnet per la stampante fiscale Posnet Thermal HD FV EJ. L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
 

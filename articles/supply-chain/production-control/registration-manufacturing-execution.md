@@ -1,6 +1,6 @@
 ---
 title: Registrazione per Esecuzione produzione
-description: In questo argomento vengono descritti i concetti e termini importanti con cui sarà necessario acquisire familiarità per configurare e utilizzare la funzionalità di esecuzione produzione.
+description: In questo articolo vengono descritti i concetti e termini importanti con cui sarà necessario acquisire familiarità per configurare e utilizzare la funzionalità di esecuzione produzione.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c843bc87c7b9c0676211c8f3363ec3e05ee97d20b3eedc940b9ffaee2d3211fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c43a9d847045f2c029f232d6317268d91ee0129a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907205"
 ---
 # <a name="registration-for-manufacturing-execution"></a>Registrazione per Esecuzione produzione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i concetti e termini importanti con cui sarà necessario acquisire familiarità per configurare e utilizzare la funzionalità di esecuzione produzione. 
+In questo articolo vengono descritti i concetti e termini importanti con cui sarà necessario acquisire familiarità per configurare e utilizzare la funzionalità di esecuzione produzione. 
 
 Esecuzione produzione è destinato principalmente all'utilizzo da parte di società di produzione. I lavoratori possono registrare il consumo per ore e per articoli nei processi di produzione per cui viene utilizzando il modulo **Registrazione processi**. Tutte le registrazioni vengono approvate e successivamente trasferite ai moduli appropriati. L'approvazione e il trasferimento continuativi delle registrazioni consentono ai responsabili di tenere facilmente traccia dei costi effettivi degli ordini di produzione.
 

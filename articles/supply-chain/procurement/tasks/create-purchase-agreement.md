@@ -1,6 +1,6 @@
 ---
 title: Creare un contratto di acquisto
-description: In questo argomento viene descritta la creazione di un contratto di acquisto
+description: In questo articolo viene descritta la creazione di un contratto di acquisto
 author: GalynaFedorova
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3456e1c6e2ec65329e0f2e984f99ced0994c240b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 108c3a47132b262ebe2e15f00d26191b75469959
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670134"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877568"
 ---
 # <a name="create-a-purchase-agreement"></a>Creare un contratto di acquisto
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritta la creazione di un contratto di acquisto e viene in genere effettuata da un responsabile acquisti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. È necessario impostare le classificazioni del contratto di acquisto prima di iniziare. Una volta creato un contratto, è possibile utilizzarlo quando si crea un ordine fornitore. In questo modo le condizioni del contratto di acquisto verranno copiate nell'intestazione e in tutte le righe nell'ordine in cui sono interessate dal contratto.
+In questo articolo viene descritta la creazione di un contratto di acquisto e viene in genere effettuata da un responsabile acquisti. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. È necessario impostare le classificazioni del contratto di acquisto prima di iniziare. Una volta creato un contratto, è possibile utilizzarlo quando si crea un ordine fornitore. In questo modo le condizioni del contratto di acquisto verranno copiate nell'intestazione e in tutte le righe nell'ordine in cui sono interessate dal contratto.
 
 
 ## <a name="create-a-new-purchase-agreement"></a>Creare un nuovo contratto di acquisto

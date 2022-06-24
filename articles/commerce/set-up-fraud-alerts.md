@@ -1,6 +1,6 @@
 ---
 title: Impostazione e utilizzo degli avvisi di frode del servizio clienti
-description: In questo argomento viene illustrato come impostare le regole per avvisare i rappresentanti dell'assistenza clienti di informazioni potenzialmente fraudolente quando gli ordini vengono elaborati. È possibile definire codici specifici da utilizzare per mettere automaticamente o manualmente gli ordini sospetti in attesa.
+description: In questo articolo viene illustrato come impostare le regole per avvisare i rappresentanti dell'assistenza clienti di informazioni potenzialmente fraudolente quando gli ordini vengono elaborati. È possibile definire codici specifici da utilizzare per mettere automaticamente o manualmente gli ordini sospetti in attesa.
 author: josaw1
 ms.date: 05/14/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e692d43b8c2648a424ff3b4fdc9d0cf16d0e03702d6a237f71caaf49646c5ec3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 212afd594453d3594fdaef9442a7809e4cafbd07
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885350"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Impostazione e utilizzo degli avvisi di frode del servizio clienti
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come impostare criteri e regole per sospendere ordini cliente potenzialmente fraudolenti da verificare ulteriormente. La funzionalità di verifica frodi viene utilizzata per determinare la validità delle informazioni in un ordine cliente. Se le informazioni nell'ordine cliente vengono considerate sospette in base a criteri e regole antifrode di un'organizzazione, l'ordine può essere sospeso per un'ulteriore verifica. In questo caso, l'ordine non può essere rilasciato al magazzino per continuare elaborazione fino a quando la sospensione non viene cancellata.
+In questo articolo viene descritto come impostare criteri e regole per sospendere ordini cliente potenzialmente fraudolenti da verificare ulteriormente. La funzionalità di verifica frodi viene utilizzata per determinare la validità delle informazioni in un ordine cliente. Se le informazioni nell'ordine cliente vengono considerate sospette in base a criteri e regole antifrode di un'organizzazione, l'ordine può essere sospeso per un'ulteriore verifica. In questo caso, l'ordine non può essere rilasciato al magazzino per continuare elaborazione fino a quando la sospensione non viene cancellata.
 
 > [!NOTE]
 > Questa funzionalità può essere utilizzata solo con l'elaborazione di ordini cliente per il canale servizio clienti di Commerce.

@@ -1,6 +1,6 @@
 ---
 title: Rilascio delle righe di formula e DBA nel magazzino
-description: In questo argomento viene descritto il processo per il rilascio di materie prime per righe DBA e righe formula nel magazzino.
+description: In questo articolo viene descritto il processo per il rilascio di materie prime per righe DBA e righe formula nel magazzino.
 author: johanhoffmann
 ms.date: 10/30/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c9956290ce8f90f04bc144d710ad35b5a0243e3898a8f3e75692b1a9da506149
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53e3a943dbd6cf982101f42ed8f94b7e0f46597c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731225"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860611"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Rilascio delle righe di formula e DBA nel magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto il processo per il rilascio di materie prime per righe distinta base (DBA) e righe formula nel magazzino. Quando si rilascia una DBA o una riga formula nel magazzino, il sistema determina innanzitutto se il materiale è già disponibile nell'ubicazione di input di produzione nello shop floor in cui il materiale verrà consumato per il processo di produzione.
+In questo articolo viene descritto il processo per il rilascio di materie prime per righe distinta base (DBA) e righe formula nel magazzino. Quando si rilascia una DBA o una riga formula nel magazzino, il sistema determina innanzitutto se il materiale è già disponibile nell'ubicazione di input di produzione nello shop floor in cui il materiale verrà consumato per il processo di produzione.
 
 - Se il materiale è disponibile nell'ubicazione di produzione, viene prelevato da quell'ubicazione immediatamente dopo il segnale per il rilascio del materiale nel magazzino.
 - Se il materiale non è disponibile nell'ubicazione di produzione, il rilascio del materiale indica che il materiale deve essere spostato dalle ubicazioni nel magazzino all'ubicazione di input di produzione. Il materiale viene spostato tramite il lavoro magazzino per il prelievo di materie prime. Di conseguenza, i processi di magazzino per il prelievo di materie prime devono essere configurati. Per ulteriori informazioni, vedere [Panoramica del rifornimento](../warehousing/replenishment.md) e [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](../warehousing/control-warehouse-location-directives.md).

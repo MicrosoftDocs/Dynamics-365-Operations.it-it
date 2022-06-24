@@ -1,6 +1,6 @@
 ---
 title: Domini in Dynamics 365 Commerce
-description: In questo argomento viene descritto come vengono gestiti i domini in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come vengono gestiti i domini in Microsoft Dynamics 365 Commerce.
 author: BrShoo
 ms.date: 05/10/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: aab5e983b42aea7d8eb4f198f033634d4663f278
-ms.sourcegitcommit: 7181a022739d6107a75d84546c3379c23f722034
+ms.openlocfilehash: c48c8bd57d90a8c7d47bfa4263cd9ab38002629b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8737348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848956"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domini in Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come vengono gestiti i domini in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come vengono gestiti i domini in Microsoft Dynamics 365 Commerce.
 
-I domini sono indirizzi Web utilizzati per accedere ai siti Dynamics 365 Commerce in un browser Web. È possibile controllare la gestione del dominio con un provider DNS (Domain Name Server) scelto. Si fa riferimento ai domini ovunque tramite la Creazione di siti Web di Dynamics 365 Commerce per coordinare le modalità di accesso a un sito una volta pubblicato. Questo argomento esamina il modo in cui i domini vengono gestiti e referenziati durante tutto il ciclo di vita dello sviluppo e del lancio del sito di Commerce.
+I domini sono indirizzi Web utilizzati per accedere ai siti Dynamics 365 Commerce in un browser Web. È possibile controllare la gestione del dominio con un provider DNS (Domain Name Server) scelto. Si fa riferimento ai domini ovunque tramite la Creazione di siti Web di Dynamics 365 Commerce per coordinare le modalità di accesso a un sito una volta pubblicato. Questo articolo esamina il modo in cui i domini vengono gestiti e referenziati durante tutto il ciclo di vita dello sviluppo e del lancio del sito di Commerce.
 
 > [!NOTE]
 > A partire dal 6 maggio 2022, per tutti gli ambienti creati in Dynamics 365 Commerce verrà eseguito il provisioning del dominio `.dynamics365commerce.ms`, sostituendo il modello precedente di `.commerce.dynamics.com`. Gli ambienti esistenti per cui è stato eseguito il provisioning del dominio `.commerce.dynamics.com` continueranno a funzionare.

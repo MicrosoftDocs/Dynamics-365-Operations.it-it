@@ -1,6 +1,6 @@
 ---
 title: Gestione dei clienti nei punti vendita
-description: In questo argomento viene descritto come i rivenditori possono abilitare le funzionalità di gestione dei clienti presso il POS in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come i rivenditori possono abilitare le funzionalità di gestione dei clienti presso il POS in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5a352ba479ca5e635ef521b99f31bd26d5d837ac
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 805d0b5894b18e2fc34f481bdc32ada7a4b1aee0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863489"
 ---
 # <a name="customer-management-in-stores"></a>Gestione dei clienti nei punti vendita
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come i rivenditori possono abilitare le funzionalità di gestione dei clienti presso il POS in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come i rivenditori possono abilitare le funzionalità di gestione dei clienti presso il POS in Microsoft Dynamics 365 Commerce.
 
 È importante che i dipendenti del punto vendita possano creare e modificare i record cliente nel POS. In tal modo, possono acquisire eventuali aggiornamenti delle informazioni sui clienti come indirizzo e-mail, numero di telefono e indirizzo. Queste informazioni sono utili nei sistemi a valle come il marketing, perché l'efficacia di tali sistemi dipende dall'accuratezza dei dati dei loro clienti.
 

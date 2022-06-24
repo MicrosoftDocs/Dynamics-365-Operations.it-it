@@ -1,6 +1,6 @@
 ---
 title: Gestione magazzino dei carichi in entrata per gli ordini fornitore
-description: Questo argomento descrive il processo di gestione del magazzino per i carichi in entrata per gli ordini fornitore.
+description: Questo articolo descrive il processo di gestione del magazzino per i carichi in entrata per gli ordini fornitore.
 author: Mirzaab
 ms.date: 03/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 464d49f4e096fdd4fe47f73efc253c97200f4de3
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778061"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855934"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive il processo di gestione del magazzino per i carichi in entrata per gli ordini fornitore.
+Questo articolo descrive il processo di gestione del magazzino per i carichi in entrata per gli ordini fornitore.
 
 Per ciascun carico in entrata, il sistema deve già includere un ordine cliente correlato e può contenere anche una specifica del carico e/o un piano di trasporto correlati. Per ulteriori informazioni su come creare e gestire i carichi in entrata, vedere [Processo aziendale: pianificazione del trasporto per carichi in entrata](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
@@ -209,7 +209,7 @@ Nella tabella seguente sono riepilogati gli effetti dell'impostazione **Consenti
 | Sì | Nessun aggiornamento | _Ricevuto_, se la quantità di carico totale registrata è uguale o superiore alla quantità di carico | |
 | Sì | Nessun aggiornamento | _Spedito_ o _In corso_, se la quantità di carico totale registrata è minore della quantità di carico | |
 
-Una volta che il campo **Stato del carico** è impostato su _Ricevuto_, non è più possibile effettuare registrazioni di entrate del prodotto per quel carico. Tuttavia, il lavoratore può registrare la quantità di ordine rimanente rispetto al carico ricevuto nelle seguenti condizioni. (Per ulteriori informazioni, vedere la sezione [Ricezione del carico in eccesso](#load-over-receiving) descritta precedentemente in questo argomento.)
+Una volta che il campo **Stato del carico** è impostato su _Ricevuto_, non è più possibile effettuare registrazioni di entrate del prodotto per quel carico. Tuttavia, il lavoratore può registrare la quantità di ordine rimanente rispetto al carico ricevuto nelle seguenti condizioni. (Per ulteriori informazioni, vedi la sezione [Ricezione del carico in eccesso](#load-over-receiving) descritta precedentemente in questo articolo.)
 
 - La versione di Supply Chain Management è precedente alla versione 10.0.11.
 - La funzione _Entrata eccessiva delle quantità di carico_ è attivata e il campo **Entrata eccessiva quantità riga di carico** sulla voce di menu del dispositivo mobile per l'azione di ricezione articoli di carico è impostato su _Consenti_.

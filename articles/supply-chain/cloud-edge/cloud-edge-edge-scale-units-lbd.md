@@ -1,6 +1,6 @@
 ---
 title: Distribuire unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD
-description: Questo argomento spiega come eseguire il provisioning di unità di scala edge locali utilizzando hardware personalizzato e distribuzione basata su dati aziendali locali (LBD).
+description: Questo articolo spiega come eseguire il provisioning di unità di scala edge locali utilizzando hardware personalizzato e distribuzione basata su dati aziendali locali (LBD).
 author: Mirzaab
 ms.date: 01/24/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 540ac1f6d69d869256f49b8501e18966575903fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 794de8c0d77949789e4046418ac2b55dba1bee02
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674088"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882752"
 ---
 # <a name="deploy-edge-scale-units-on-custom-hardware-using-lbd"></a>Distribuire unità di scala nella rete perimetrale su hardware personalizzato utilizzando LBD
 
@@ -27,7 +27,7 @@ Le unità di scala edge svolgono un ruolo importante nella topologia ibrida dist
 
 Le unità di scala edge possono essere implementate creando dati aziendali locale(LBD) [ambiente locale](../../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md) e quindi configurandolo per operare come un'unità di scala nella topologia ibrida distribuita per la gestione della supply chain. Ciò si ottiene associando l'ambiente LBD locale con un ambiente Supply Chain Management nel cloud, che è stato configurato per funzionare come hub.  
 
-Questo argomento descrive come configurare un ambiente LBD locale come unità di scala edge e quindi associarlo a un hub.
+Questo articolo descrive come configurare un ambiente LBD locale come unità di scala edge e quindi associarlo a un hub.
 
 ## <a name="infrastructure-considerations"></a>Considerazioni sull'infrastruttura
 
@@ -44,21 +44,21 @@ Ecco una panoramica del processo di distribuzione.
 
 1. **Configura e distribuisci un ambiente LBD con un database *vuoto*.**
 
-    Usa LCS per distribuire l'ambiente LBD con la topologia più recente e un database vuoto. Per ulteriori informazioni, vedi la sezione [Configura e distribuisci un ambiente LBD con database vuoto](#set-up-deploy) più avanti in questo argomento. È necessario utilizzare Supply Chain Management versione 10.0.21 o successive nell'hub e negli ambienti di unità di scala.
+    Usa LCS per distribuire l'ambiente LBD con la topologia più recente e un database vuoto. Per ulteriori informazioni, vedi la sezione [Configura e distribuisci un ambiente LBD con database vuoto](#set-up-deploy) più avanti in questo articolo. È necessario utilizzare Supply Chain Management versione 10.0.21 o successive nell'hub e negli ambienti di unità di scala.
 
 1. **Carica i pacchetti di destinazione nelle risorse del progetto LBD in LCS.**
 
-    Preparare pacchetti di applicazioni, piattaforme e personalizzazione da utilizzare nell'hub e nell'unità di scala edge. Per ulteriori informazioni, vedi la sezione [Carica i pacchetti di destinazione nelle risorse del progetto LBD in LCS](#upload-packages) più avanti in questo argomento.
+    Preparare pacchetti di applicazioni, piattaforme e personalizzazione da utilizzare nell'hub e nell'unità di scala edge. Per ulteriori informazioni, vedi la sezione [Carica i pacchetti di destinazione nelle risorse del progetto LBD in LCS](#upload-packages) più avanti in questo articolo.
 
 1. **Assistenza nell'ambiente LBD con i pacchetti di destinazione.**
 
-    Questo passaggio garantisce che la stessa build e le stesse personalizzazioni vengano distribuite nell'hub e nello spoke. Per ulteriori informazioni, vedi la sezione [Assistenza nell'ambiente LBD con i pacchetti di destinazione](#service-target-packages) più avanti in questo argomento.
+    Questo passaggio garantisce che la stessa build e le stesse personalizzazioni vengano distribuite nell'hub e nello spoke. Per ulteriori informazioni, vedi la sezione [Assistenza nell'ambiente LBD con i pacchetti di destinazione](#service-target-packages) più avanti in questo articolo.
 
 1. **Completa la configurazione dell'unità di scala e l'assegnazione del carico di lavoro.**
 
-    Per ulteriori informazioni, vedi la sezione [Assegna la tua unità di scala edge LBD a un hub](#assign-edge-to-hub) più avanti in questo argomento.
+    Per ulteriori informazioni, vedi la sezione [Assegna la tua unità di scala edge LBD a un hub](#assign-edge-to-hub) più avanti in questo articolo.
 
-Le altre sezioni di questo argomento forniscono ulteriori dettagli su come completare questi passaggi.
+Le altre sezioni di questo articolo forniscono ulteriori dettagli su come completare questi passaggi.
 
 ## <a name="set-up-and-deploy-an-lbd-environment-with-an-empty-database"></a><a name="set-up-deploy"></a>Configura e distribuisci un ambiente LBD con un database vuoto
 
@@ -67,7 +67,7 @@ Questo passaggio crea un ambiente LBD funzionale. Tuttavia, l'ambiente non ha ne
 1. Segui le istruzioni in [Impostare e distribuire gli ambienti locali (Platform update 41 e successivi)](../../fin-ops-core/dev-itpro/deployment/setup-deploy-on-premises-pu41.md). È necessario utilizzare Supply Chain Management versione 10.0.21 o successive nell'hub e negli ambienti di unità di scala. Inoltre, è necessario utilizzare la versione 2.12.0 o successiva degli script di infrastruttura. 
 
     > [!IMPORTANT]
-    > Leggi il resto di questa sezione **prima** di completare i passaggi in quell'argomento.
+    > Leggi il resto di questa sezione **prima** di completare i passaggi in quell'articolo.
 
 1. Prima di descrivere la configurazione nell'infrastruttura\\File ConfigTemplate.xml, esegui il seguente script:
 

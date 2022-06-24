@@ -1,6 +1,6 @@
 ---
 title: Collaborazione fornitore con i fornitori esterni
-description: In questo argomento viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l'inventario spedizione.
+description: In questo articolo viene illustrato come gli addetti agli acquisti possono collaborare con i fornitori esterni per scambiare informazioni sugli ordini fornitore e l'inventario spedizione.
 author: GalynaFedorova
 ms.date: 11/02/2017
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05a2ecc82306c013912b3ee824d63d7d39c4258f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907292"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
 [!include [banner](../includes/banner.md)]
 
-Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 Supply Chain Management. Consente ai fornitori di utilizzare ordini fornitore, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo argomento viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
+Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 Supply Chain Management. Consente ai fornitori di utilizzare ordini fornitore, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo articolo viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
 
 Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
 > [!NOTE]
-> Le informazioni in questo argomento relative alla collaborazione con i fornitori sono applicabili solo alla versione corrente di Supply Chain Management. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sul modulo **Portale fornitori**, vedere [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md).
+> Le informazioni in questo articolo relative alla collaborazione con i fornitori sono applicabili solo alla versione corrente di Supply Chain Management. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sul modulo **Portale fornitori**, vedere [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md).
 
 Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
 
@@ -112,7 +112,7 @@ L'ordine fornitore che è stato inviato al fornitore e con stato <strong>In revi
 <li>Sostituire un articolo.</li>
 </ul>
 Le informazioni relative ai prezzi e alle spese non possono essere modificate dal fornitore. Tuttavia, il fornitore può suggerire queste modifiche tramite le note.</td>
-<td>La risposta del fornitore viene registrata come <strong>Accettata con modifiche</strong> e lo stato dell'ordine fornitore rimane impostato su <strong>In revisione esterna</strong>. Gli stati indicano i tipi di modifiche che ha suggerito il fornitore. Per informazioni sul consumo automatico delle modifiche, vedere la sezione di seguito &quot;Aggiornare l'ordine fornitore quando un fornitore suggerisce modifiche&quot;. </td>
+<td>La risposta del fornitore viene registrata come <strong>Accettata con modifiche</strong> e lo stato dell'ordine fornitore rimane impostato su <strong>In revisione esterna</strong>. Gli stati indicano i tipi di modifiche che ha suggerito il fornitore. Per informazioni sul consumo automatico delle modifiche, vedi la sezione di seguito &quot;Aggiornare l'ordine fornitore quando un fornitore suggerisce modifiche&quot;. </td>
 </tr>
 </tbody>
 </table>

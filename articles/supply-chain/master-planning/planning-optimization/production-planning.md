@@ -1,6 +1,6 @@
 ---
 title: Pianificazione della produzione
-description: Questo argomento descrive la pianificazione della produzione e spiega come modificare gli ordini di produzione pianificati utilizzando Ottimizzazione pianificazione.
+description: Questo articolo descrive la pianificazione della produzione e spiega come modificare gli ordini di produzione pianificati utilizzando Ottimizzazione pianificazione.
 author: t-benebo
 ms.date: 06/01/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 8f23cb62512dfd718fe199867a4b21aaa0eca3fd
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 151aa3688c570ea6ec282c297ed18288dd886131
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873784"
 ---
 # <a name="production-planning"></a>Pianificazione della produzione
 
@@ -24,11 +24,11 @@ ms.locfileid: "8469060"
 
 Ottimizzazione pianificazione supporta diversi scenari di produzione. Se si esegue la migrazione dal motore di pianificazione generale integrato esistente, è importante essere a conoscenza di alcuni comportamenti modificati.
 
-Il video seguente offre una breve introduzione ad alcuni dei concetti discussi in questo argomento:[Dynamics 365 Supply Chain Management: miglioramenti di Ottimizzazione pianificazione](https://youtu.be/u1pcmZuZBTw).
+Il video seguente offre una breve introduzione ad alcuni dei concetti discussi in questo articolo: [Dynamics 365 Supply Chain Management: miglioramenti di Ottimizzazione pianificazione](https://youtu.be/u1pcmZuZBTw).
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Attivare questa funzionalità per il sistema
 
-Se il sistema in uso non include già le funzionalità descritte in questo argomento, vedere [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Ordini di produzione pianificati per Ottimizzazione pianificazione*.
+Se il sistema in uso non include già le funzionalità descritte in questo articolo, vedi [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Ordini di produzione pianificati per Ottimizzazione pianificazione*.
 
 ## <a name="planned-production-orders"></a>Ordini di produzione pianificati
 
@@ -65,7 +65,7 @@ Se desideri modificare le informazioni su un ordine pianificato e vedere l'impat
 2. Approva l'ordine pianificato.
 3. Esegui la pianificazione generale.
 
-Quando si esegue la pianificazione generale, non è consigliabile utilizzare filtri se sono inclusi gli ordini di produzione pianificati. Per ulteriori informazioni, vedi la sezione [Filgtri](#filters) più avanti in questo argomento.
+Quando si esegue la pianificazione generale, non è consigliabile utilizzare filtri se sono inclusi gli ordini di produzione pianificati. Per ulteriori informazioni, vedi la sezione [Filgtri](#filters) più avanti in questo articolo.
 
 > [!NOTE]
 > Se la data di consegna dell'ordine pianificato viene modificata in una data successiva, la domanda potrebbe essere ancorata a un nuovo ordine pianificato. Questo comportamento si verifica quando la nuova data di fornitura causa un ritardo per la domanda con pegging ma, in base alle impostazioni del lead time, è possibile evitare il ritardo.

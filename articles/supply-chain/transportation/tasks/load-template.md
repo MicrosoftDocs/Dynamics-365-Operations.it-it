@@ -1,6 +1,6 @@
 ---
 title: Modelli di carico
-description: In questo argomento viene descritto come impostare i modelli di carico e come associare un modello di carico a un nuovo carico.
+description: In questo articolo viene descritto come impostare i modelli di carico e come associare un modello di carico a un nuovo carico.
 author: Weijiesa
 ms.date: 10/30/2020
 ms.topic: business-process
@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d33e4c71680947316b540d2aef7a7220305f2054
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 47b4925c528b64b835ce3e88659ee6ab0572eb2b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674647"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844182"
 ---
 # <a name="load-templates"></a>Modelli di carico
 
@@ -27,7 +27,7 @@ ms.locfileid: "8674647"
 
 Quando si crea un nuovo carico, è possibile assegnare un modello di carico. Il modello di carico contiene informazioni sull'attrezzatura e sulle misure quali altezza, larghezza, profondità e volume del carico.
 
-In questo argomento viene descritto come impostare i modelli di carico e come associare un modello di carico a un nuovo carico.
+In questo articolo viene descritto come impostare i modelli di carico e come associare un modello di carico a un nuovo carico.
 
 ## <a name="set-up-a-load-template"></a>Impostare un modello di carico
 

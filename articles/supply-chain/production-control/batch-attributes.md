@@ -1,6 +1,6 @@
 ---
 title: Attributi batch
-description: Questo argomento fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'argomento illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
+description: Questo articolo fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'articolo illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb971e7468245297f2359317533b123a3a4f83a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e5f5a03df63cf4fa90b5e9e67082a0d60eef9afc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899384"
 ---
 # <a name="batch-attributes"></a>Attributi batch
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'argomento illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
+Questo articolo fornisce informazioni sugli attributi batch. Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. L'articolo illustra inoltre come assegnare gli attributi batch e come cercarli quando si prenotano i batch.
 
 Gli attributi batch sono caratteristiche delle materie prime e dei prodotti finiti che costituiscono i lotti di magazzino. Gli attributi lotto possono variare in base a diversi fattori, ad esempio le condizioni ambientali o la qualità delle materie prime utilizzate per produrre il lotto. Il numero e i tipi degli attributi batch utilizzati possono variare notevolmente da un settore a un altro. Di seguito vengono riportati due esempi di utilizzo degli attributi batch:
 

@@ -1,6 +1,6 @@
 ---
-title: Impatto sull'estendibilità dei cataloghi di Commerce per le personalizzazioni B2B
-description: Questo argomento descrive l'impatto sull'estendibilità della funzionalità Cataloghi di Commerce per B2B in Microsoft Dynamics 365 Commerce.
+title: Impatto sull'estendibilità dei cataloghi Commerce per le personalizzazioni B2B
+description: Questo articolo descrive l'impatto sull'estendibilità della funzionalità Cataloghi di Commerce per B2B in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: aff333bfe8003233dd5d8181aa8c5dd7eaeffcd0
-ms.sourcegitcommit: 0abc777986112ea2332f5bf0e815b303b952356c
+ms.openlocfilehash: f21d3375db69dd412325d00261bfc18e26d0c257
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656850"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849017"
 ---
-# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Impatto sull'estendibilità dei cataloghi di Commerce per le personalizzazioni B2B
+# <a name="extensibility-impact-of-commerce-catalogs-for-b2b-customizations"></a>Impatto sull'estendibilità dei cataloghi Commerce per le personalizzazioni B2B
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Questo argomento descrive l'impatto sull'estendibilità della la funzionalità **Cataloghi di Commerce per B2B** in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive l'impatto sull'estendibilità della funzionalità **Cataloghi di Commerce per B2B** in Microsoft Dynamics 365 Commerce.
 
 Se sei interessato ad estendere il contesto del catalogo a scenari personalizzati, le tue personalizzazioni potrebbero dover essere aggiornate. Questo aggiornamento segue la procedura standard che i clienti devono seguire, poiché le loro personalizzazioni potrebbero non supportare automaticamente le funzionalità più recenti dopo che gli aggiornamenti sono stati eseguiti. Se le tue personalizzazioni includono nuove funzionalità o correzioni di bug nelle loro esperienze, ti consigliamo di aggiornare il codice di personalizzazione di conseguenza. Questo aggiornamento assomiglia alle modifiche che Microsoft potrebbe aver apportato al codice principale.
 

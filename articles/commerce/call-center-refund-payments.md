@@ -1,6 +1,6 @@
 ---
 title: Elaborazione di pagamento per il rimborso nei servizi clienti
-description: Questo argomento spiega come vengono generati i rimborsi dei pagamenti tramite i servizi clienti quando vengono creati i resi o quando gli ordini o le righe ordine vengono annullati.
+description: Questo articolo spiega come vengono generati i rimborsi dei pagamenti tramite i servizi clienti quando vengono creati i resi o quando gli ordini o le righe ordine vengono annullati.
 author: hhainesms
 ms.date: 01/05/2020
 ms.topic: article
@@ -12,16 +12,16 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8d5bcf3a0d36e323ee96c1f37829a95b60f529bc
-ms.sourcegitcommit: 0d2de52e12fdb9928556d37a4813a67b303695dc
+ms.openlocfilehash: 330674a31dc59e99ffedb82d0896c64214562eb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7944715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880116"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Elaborazione di pagamento per il rimborso nei servizi clienti
 
-Questo argomento spiega come vengono generati i rimborsi dei pagamenti tramite i servizi clienti quando vengono creati i resi o quando gli ordini o le righe ordine vengono annullati.
+Questo articolo spiega come vengono generati i rimborsi dei pagamenti tramite i servizi clienti quando vengono creati i resi o quando gli ordini o le righe ordine vengono annullati.
 
 Un utente che crea un ordine di reso per un cliente come utente del servizio clienti in Microsoft Dynamics 365 Commerce headquarters utilizza la pagina **Ordine di reso** per creare l'autorizzazione per la restituzione dei materiali iniziale (NAR). L'autorizzazione per la restituzione dei materiali definisce i prodotti che il cliente desidera restituire o sostituire e crea un ordine cliente di reso collegato che ha un tipo di ordine di **Ordine di reso**. Questo ordine di reso collegato viene utilizzato per tenere traccia della registrazione delle scorte restituite e di eventuali note di credito o rimborsi di pagamento registrati.
 
@@ -92,7 +92,7 @@ L'impostazione **Sì** per l'opzione **Applica credito** è applicabile solo qua
 
 ## <a name="payment-overrides-for-call-center-returns"></a>Sostituzioni pagamenti per i resi del servizio clienti
 
-Sebbene la logica del servizio clienti determini sistematicamente il metodo di pagamento del rimborso nel modo descritto in precedenza in questo argomento, gli utenti a volte potrebbero voler sostituire tali pagamenti. Ad esempio, un utente potrebbe modificare o rimuovere righe di pagamento di rimborso esistenti e applicare nuove righe di pagamento. I pagamenti dei rimborsi calcolati dal sistema possono essere modificati solo dagli utenti che dispongono delle autorizzazioni di sostituzione corrette. Queste autorizzazioni possono essere configurate nella pagina **Autorizzazioni di sostituzione** in Retail e Commerce. Per eseguire una sostituzione del pagamento con rimborso, l'utente deve essere collegato a un ruolo di sicurezza in cui l'opzione **Consenti pagamento alternativo** è impostata su **Sì** nella pagina **Autorizzazioni di sostituzione**.
+Sebbene la logica del servizio clienti determini sistematicamente il metodo di pagamento del rimborso nel modo descritto in precedenza in questo articolo, gli utenti a volte potrebbero voler sostituire tali pagamenti. Ad esempio, un utente potrebbe modificare o rimuovere righe di pagamento di rimborso esistenti e applicare nuove righe di pagamento. I pagamenti dei rimborsi calcolati dal sistema possono essere modificati solo dagli utenti che dispongono delle autorizzazioni di sostituzione corrette. Queste autorizzazioni possono essere configurate nella pagina **Autorizzazioni di sostituzione** in Retail e Commerce. Per eseguire una sostituzione del pagamento con rimborso, l'utente deve essere collegato a un ruolo di sicurezza in cui l'opzione **Consenti pagamento alternativo** è impostata su **Sì** nella pagina **Autorizzazioni di sostituzione**.
 
 ![Consenti opzione di pagamento alternativo nella pagina Autorizzazioni di sostituzione.](media/overridepermissions.png)
 

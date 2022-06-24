@@ -1,6 +1,6 @@
 ---
 title: Restituire prodotti controllati dal numero di serie in POS
-description: Questo argomento descrive le funzionalità per la convalida degli articoli con numero di serie come parte del processo di reso nell'applicazione POS di Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive le funzionalità per la convalida degli articoli con numero di serie come parte del processo di reso nell'applicazione POS di Microsoft Dynamics 365 Commerce.
 author: hhainesms
 ms.date: 06/01/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b2af301180dc2284400b887ce36357660bdd86fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860323"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Restituire prodotti controllati dal numero di serie in POS
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive le funzionalità per la convalida degli articoli con numero di serie come parte del processo di reso nell'applicazione POS di Microsoft Dynamics 365 Commerce.
+Questo articolo descrive le funzionalità per la convalida degli articoli con numero di serie come parte del processo di reso nell'applicazione POS di Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Nella versione di Commerce 10.0.20 e successive, è disponibile una nuova funzionalità denominata **Esperienza di elaborazione dei resi unificata in POS**. Per utilizzare la convalida del numero di serie durante l'elaborazione degli ordini di reso in POS, è necessario attivare questa funzione. Per informazioni su altre funzionalità fornite da questa funzione quando è attivata, vedere [Creare resi in POS)](POS-returns.md).

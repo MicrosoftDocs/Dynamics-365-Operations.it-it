@@ -1,6 +1,6 @@
 ---
 title: Connettere periferiche al POS
-description: Questo argomento illustra come connettere periferiche a Retail POS.
+description: Questo articolo illustra come connettere periferiche a Retail POS.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1c53c7215d3a5a182f345d5e040274ae06f9b12
-ms.sourcegitcommit: 116898def829c0f78bda8a117242aa308793465d
+ms.openlocfilehash: ffee75e1713c7c9d31b1d023cd055c2f1a3fc43d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370953"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897110"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Connettere periferiche al POS
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento illustra come connettere periferiche a Retail POS.
+Questo articolo illustra come connettere periferiche a Retail POS.
 
 > [!NOTE]
 > Per istruzioni di installazione specifiche, vedere [Configurare e installare Retail Hardware Station](retail-hardware-station-configuration-installation.md) e [Configurare, installare e attivare Modern POS (MPOS)](retail-modern-pos-device-activation.md).
@@ -157,7 +157,7 @@ I profili ricevuta vengono assegnati alle stampanti nel profilo hardware. Vengon
 
 #### <a name="hardware-profiles"></a>Profili hardware
 
-I profili hardware sono descritti come componenti dell'impostazione client in precedenza in questo argomento. I profili hardware vengono assegnati direttamente al registratore di cassa del punto vendita o a una stazione hardware condivisa e vengono utilizzati per specificare i tipi di dispositivi utilizzati da uno specifico registratore di cassa del punto vendita o stazione hardware. I profili hardware vengono utilizzati anche per specificare le impostazioni EFT utilizzate per comunicare con l'SDK per il pagamento.
+I profili hardware sono descritti come componenti dell'impostazione client in precedenza in questo articolo. I profili hardware vengono assegnati direttamente al registratore di cassa del punto vendita o a una stazione hardware condivisa e vengono utilizzati per specificare i tipi di dispositivi utilizzati da uno specifico registratore di cassa del punto vendita o stazione hardware. I profili hardware vengono utilizzati anche per specificare le impostazioni EFT utilizzate per comunicare con l'SDK per il pagamento.
 
 #### <a name="visual-profiles"></a>Profili visivi
 

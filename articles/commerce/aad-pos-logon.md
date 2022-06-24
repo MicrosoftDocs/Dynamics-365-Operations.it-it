@@ -1,6 +1,6 @@
 ---
 title: Configurare l'autenticazione Azure Active Directory per l'accesso al POS
-description: Questo argomento spiega come configurare Azure Active Directory come metodo di autenticazione nel POS di Microsoft Dynamics 365 Commerce.
+description: Questo articolo spiega come configurare Azure Active Directory come metodo di autenticazione nel POS di Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 04/23/2021
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 9dfb0389b0ca4b2cf75ccc70f35824674e618055
-ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
+ms.openlocfilehash: 47da2c78cef2bbee324fbc2202898fbabd927c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "7402153"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853930"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Configurare l'autenticazione Azure Active Directory per l'accesso al POS
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento spiega come configurare Azure Active Directory (Azure AD)come metodo di autenticazione nel POS di Microsoft Dynamics 365 Commerce.
+Questo articolo spiega come configurare Azure Active Directory (Azure AD)come metodo di autenticazione nel POS di Microsoft Dynamics 365 Commerce.
 
-Rivenditori che utilizzano Dynamics 365 Commerce insieme ad altri servizi cloud Microsoft come Microsoft Azure, Microsoft 365 e Microsoft Teams in genere desiderano utilizzare Azure AD per la gestione centralizzata delle credenziali utente per un'esperienza di accesso sicura e senza problemi per tutte le applicazioni. Per usare l'autenticazione Azure AD per il POS di Commerce, è necessario prima configurare Azure AD come metodo di autenticazione in Commerce Headquarters.
+I rivenditori che utilizzano Dynamics 365 Commerce  insieme ad altri servizi cloud Microsoft come Microsoft Azure, Microsoft 365, e Microsoft Teams in genere desiderano utilizzare Azure AD per la gestione centralizzata delle credenziali utente per un'esperienza di accesso sicura e senza problemi per tutte le applicazioni. Per usare l'autenticazione Azure AD per il POS di Commerce, è necessario prima configurare Azure AD come metodo di autenticazione in Commerce Headquarters.
 
 ## <a name="configure-pos-authentication-method"></a>Configurare il metodo di autenticazione POS
 

@@ -1,6 +1,6 @@
 ---
-title: Operazione di magazzino in uscita in POS
-description: Questo argomento descrive le funzionalità dell'operazione di magazzino in uscita del punto vendita (POS).
+title: Operazione di inventario in uscita in POS
+description: Questo articolo descrive le funzionalità dell'operazione di magazzino in uscita del punto vendita (POS).
 author: hhaines
 ms.date: 07/30/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
-ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
+ms.openlocfilehash: dd2c124660643628ca4c19dc3a49366b67f29ad3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7581139"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850225"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operazione di magazzino in uscita in POS
 
@@ -187,7 +187,7 @@ Quando il documento è nello stato **Richiesto** è pronto per l'elaborazione de
 
 Gli ordini di trasferimento spediti in modo completo vengono spostati nella scheda **Completati** dell'elenco documenti **Operazione in uscita**. In questa scheda rimangono visibili agli utenti del negozio o del magazzino in uscita, in modalità di sola lettura, per sette giorni.
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Operazione di magazzino in ingresso in POS](pos-inbound-inventory-operation.md)
 

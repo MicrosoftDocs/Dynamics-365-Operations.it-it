@@ -1,6 +1,6 @@
 ---
 title: Periferiche
-description: In questo argomento vengono descritti i concetti correlati alle periferiche di Commerce.
+description: In questo articolo vengono descritti i concetti correlati alle periferiche di Commerce.
 author: BrianShook
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 76ce17777a2d13b46e5faed96dbde5e0d93782eb
-ms.sourcegitcommit: c0f7ee7f8837fec881e97b2a3f12e7f63cf96882
+ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8462243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880083"
 ---
 # <a name="peripherals"></a>Periferiche
 
 [!include[banner](includes/banner.md)]
 
-In questo argomento vengono descritti i concetti correlati alle periferiche dei punti vendita. Sono descritti i vari modi che le periferiche possono essere collegate al POS e i componenti responsabili della gestione della connessione al POS.
+In questo articolo vengono descritti i concetti correlati alle periferiche dei punti vendita. Sono descritti i vari modi che le periferiche possono essere collegate al POS e i componenti responsabili della gestione della connessione al POS.
 
 ## <a name="concepts"></a>Concetti
 
@@ -55,7 +55,7 @@ Modern POS per Android è una versione basata su Android del programma Modern PO
 
 ### <a name="pos-peripherals"></a>Periferiche POS
 
-Le periferiche POS sono dispositivi supportati in modo esplicito per le funzioni POS. Queste periferiche vengono suddivise in genere in classi specifiche. Per ulteriori informazioni sulle classi, vedere la sezione "Classi di dispositivi" in questo argomento.
+Le periferiche POS sono dispositivi supportati in modo esplicito per le funzioni POS. Queste periferiche vengono suddivise in genere in classi specifiche. Per ulteriori informazioni sulle classi, vedi la sezione "Classi di dispositivi" in questo articolo.
 
 ### <a name="hardware-station"></a>Stazione hardware
 

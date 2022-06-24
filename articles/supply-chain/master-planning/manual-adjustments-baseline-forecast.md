@@ -1,6 +1,6 @@
 ---
 title: Implementare correzioni manuali nella previsione di base
-description: Questo argomento illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione.
+description: Questo articolo illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione.
 author: t-benebo
 ms.date: 01/07/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 19b6bf742bb395de41bfbf1e50ca9df68f416367
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: e602e6d46f928fd5376a6a6d4f94bb4a726d92b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470235"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844969"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Implementare correzioni manuali nella previsione di base
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione. 
+Questo articolo illustra come apportare correzioni manuali a una previsione di base e visualizzare i dettagli della previsione. 
 
 Prima di apportare correzioni manuali, è importante comprendere alcuni concetti relativi alle varie pagine.
 

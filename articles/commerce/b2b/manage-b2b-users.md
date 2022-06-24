@@ -1,6 +1,6 @@
 ---
 title: Gestire utenti partner commerciali nei siti di e-commerce B2B
-description: Questo argomento descrive come aggiungere, modificare ed eliminare gli utenti partner commerciali nei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce e in Commerce headquarters.
+description: Questo articolo descrive come aggiungere, modificare ed eliminare gli utenti partner commerciali nei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce e in Commerce headquarters.
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ef8ae583f18048fc6a36adf38ee7be0fb5b02fcd
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4a3d1c7bf7e7ea545590315d9e185fa525b5d5e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860297"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gestire utenti partner commerciali nei siti di e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come aggiungere, modificare ed eliminare gli utenti partner commerciali nei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce e in Commerce headquarters.
+Questo articolo descrive come aggiungere, modificare ed eliminare gli utenti partner commerciali nei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce e in Commerce headquarters.
 
 > [!NOTE]
-> - L'argomento [Gestire partner commerciali B2B utilizzando gerarchie dei clienti](partners-customer-hierarchies.md) è un prerequisito per questo documento.
+> - L'articolo [Gestire partner commerciali B2B utilizzando gerarchie dei clienti](partners-customer-hierarchies.md) è un prerequisito per questo documento.
 > - Assicurati di inizializzare l'entità dei tipi di documento nella sede centrale di Commerce aprendo il modulo **Tipi di documenti** in **Amministrazione organizzazione \> Gestione documenti \> Tipi di documenti**.
 
 I siti Web di e-commerce B2B richiedono che le organizzazioni si registrino per diventare partner commerciali. Dopo che un'organizzazione ha inviato i dettagli della registrazione a un sito Web di e-commerce B2B, la richiesta di registrazione passa attraverso un processo di qualifica. Se l'organizzazione è qualificata con successo, viene inserita come partner commerciale.
@@ -121,7 +121,7 @@ Per eseguire l'onboarding di partner commerciali e degli utenti in Commerce Head
 
 ## <a name="additional-information"></a>Informazioni aggiuntive
 
-- Tutti i processi menzionati in questo argomento possono essere configurati per essere eseguiti su una programmazione in un formato batch. L'aspettativa è che i partner commerciali configurino i lavori batch come richiesto.
+- Tutti i processi menzionati in questo articolo possono essere configurati per essere eseguiti su una programmazione in un formato batch. L'aspettativa è che i partner commerciali configurino i lavori batch come richiesto.
 - Attualmente, solo un record utente/cliente può essere designato come utente amministratore e tale ruolo può essere modificato solo in Commerce Headquarters. Non è disponibile alcun supporto per le funzionalità self-service che consentono ai partner commerciali di designare più amministratori o modificare gli amministratori dai siti Web di e-commerce B2B.
 - Sebbene i limiti di spesa possano essere definiti per gli utenti, l'applicazione dei limiti di spesa durante il processo di immissione degli ordini non è stata ancora implementata.
 - Tutta la logica aziendale e la convalida per l'esperienza di un utente su un sito Web di e-commerce B2B si basano sulla configurazione del record del cliente che viene mappato all'utente in Commerce Headquarters.

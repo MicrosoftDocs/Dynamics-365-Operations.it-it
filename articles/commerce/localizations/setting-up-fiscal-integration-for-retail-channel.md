@@ -1,6 +1,6 @@
 ---
 title: Impostare l'integrazione fiscale per canali di commercio
-description: In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio.
+description: In questo articolo vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio.
 author: EvgenyPopovMBS
 ms.date: 04/28/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 51a75ce03b0ae6b744ec56df35bd3fdb1f40cf3a
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 13bdbcc2d52846b8b5d04773c986cd3a4a59e7b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661751"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889401"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Impostare l'integrazione fiscale per canali di commercio
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-In questo argomento vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio. Per ulteriori informazioni sull'integrazione fiscale, vedere [Panoramica dell'integrazione fiscale per i canali di commercio](fiscal-integration-for-retail-channel.md).
+In questo articolo vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio. Per ulteriori informazioni sull'integrazione fiscale, vedere [Panoramica dell'integrazione fiscale per i canali di commercio](fiscal-integration-for-retail-channel.md).
 
 ## <a name="enable-features-in-commerce-headquarters"></a>Abilitare le funzionalità in Commerce headquarters
 

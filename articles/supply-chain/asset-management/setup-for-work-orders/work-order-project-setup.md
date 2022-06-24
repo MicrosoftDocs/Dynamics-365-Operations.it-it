@@ -1,6 +1,6 @@
 ---
-title: Impostazione del progetto di ordine di lavoro
-description: In questo argomento viene descritta l'impostazione del progetto di ordine di lavoro in Gestione cespiti.
+title: Impostazione del progetto dell'ordine di lavoro
+description: In questo articolo viene descritta l'impostazione del progetto di ordine di lavoro in Gestione cespiti.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb897ca0a7e9c45ee55244189bb1b487fbddf0714ad3ea0cac26eb7bac36a07f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 31d8f42eb5753ea2656d502d2670a6cf7683c0f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874132"
 ---
-# <a name="work-order-project-setup"></a>Impostazione del progetto di ordine di lavoro
+# <a name="work-order-project-setup"></a>Impostazione del progetto dell'ordine di lavoro
 
 [!include [banner](../../includes/banner.md)]
 
@@ -80,7 +80,7 @@ L'impostazione consente l'integrazione completa con il modulo **Gestione progett
 ![Pagina Impostazione del progetto dell'ordine di lavoro, Aggiungi ordine di lavoro.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
-> Ogni volta che si crea una riga di ordine di lavoro, Gestione cespiti ricerca un gruppo di progetti che deve essere correlato al progetto di processo di ordine di lavoro. La ricerca è basata sull'impostazione descritta in questo argomento. Ogni gruppo di progetti presenta un tipo di progetto correlato. I gruppi di progetti con il tipo di progetto **Tempistica e materiali** o **A prezzi fissi** sono validi solo per i cespiti associati a un conto cliente.
+> Ogni volta che si crea una riga di ordine di lavoro, Gestione cespiti ricerca un gruppo di progetti che deve essere correlato al progetto di processo di ordine di lavoro. La ricerca è basata sull'impostazione descritta in questo articolo. Ogni gruppo di progetti presenta un tipo di progetto correlato. I gruppi di progetti con il tipo di progetto **Tempistica e materiali** o **A prezzi fissi** sono validi solo per i cespiti associati a un conto cliente.
 >
 > Per i progetti principali e i gruppi di progetti, quando il sistema seleziona il progetto di ordine di lavoro o il gruppo di progetti disponibile, la selezione è basata sui record creati utilizzando la procedura precedente. Gestione cespiti controlla i record associati al progetto di ordine di lavoro per determinare se esiste una corrispondenza possibile. Controlla sempre la combinazione più specifica per prima. In altre parole, per il progetto di ordine di lavoro principale, Gestione cespiti cerca una possibile corrispondenza per il campo **Cespite**. Se non trova alcuna corrispondenza, ne cerca una per il campo **Tipo di cespite**. Se non trova alcuna corrispondenza anche in questo caso, ne cerca una per il campo **Unità funzionale** e così via. Come si vede nel layout della pagina **Impostazione del progetto di ordine di lavoro**, questo comportamento indica che, per individuare la combinazione più specifica, Gestione cespiti controlla ogni record da destra a-sinistra per una corrispondenza. Se non viene trovata alcuna corrispondenza, viene utilizzato il record predefinito dove solo un ID di progetto è selezionato. Il processo per l'individuazione del gruppo di progetti correlato è simile. Gestione cespiti cerca dapprima una possibile corrispondenza per il campo **Cespite**, quindi per il campo **Tipo di cespite** e infine per campo **Tipo di ordine di lavoro**. Se non viene trovata alcuna corrispondenza, viene utilizzato il record predefinito dove solo un gruppo di progetti è selezionato.
 

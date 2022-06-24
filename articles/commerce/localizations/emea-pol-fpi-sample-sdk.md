@@ -1,6 +1,6 @@
 ---
 title: Linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per la Polonia (legacy)
-description: Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per la Polonia da Microsoft Dynamics 365 Commerce Retail software development kit (SDK).
+description: Questo articolo fornisce le linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per la Polonia da Microsoft Dynamics 365 Commerce Retail software development kit (SDK).
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 45cae498df8157b9561c54e9859daadcaedd7823
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 3de7559838a8d8caf64993a468f06ba2d50fff46
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851159"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per la Polonia (legacy)
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per la Polonia da Microsoft Dynamics 365 Commerce Retail software development kit (SDK) in una macchina virtuale per lo sviluppo (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per maggiori informazioni sull'esempio di integrazione fiscale, vedi [Esempio di integrazione della stampante fiscale per la Polonia](emea-pol-fpi-sample.md). 
+Questo articolo fornisce le linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per la Polonia da Microsoft Dynamics 365 Commerce Retail software development kit (SDK) in una macchina virtuale per lo sviluppo (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per maggiori informazioni sull'esempio di integrazione fiscale, vedi [Esempio di integrazione della stampante fiscale per la Polonia](emea-pol-fpi-sample.md). 
 
-L'esempio di integrazione fiscale per la Polonia fa parte di Retail SDK. Per informazioni su come installare e utilizzare SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md). Questo esempio è costituito da estensioni per Commerce Runtime (CRT) e stazione hardware. Per eseguire questo esempio, è necessario modificare e creare progetti CRT e stazione hardware. Si consiglia di utilizzare un SDK Retail non modificato per apportare le modifiche descritte in questo argomento. Si consiglia inoltre di utilizzare un sistema di controllo del codice sorgente, come Azure DevOps dove nessun file è stato ancora modificato.
+L'esempio di integrazione fiscale per la Polonia fa parte di Retail SDK. Per informazioni su come installare e utilizzare SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md). Questo esempio è costituito da estensioni per Commerce Runtime (CRT) e stazione hardware. Per eseguire questo esempio, è necessario modificare e creare progetti CRT e stazione hardware. Ti consigliamo di utilizzare un SDK Retail non modificato per apportare le modifiche descritte in questo articolo. Si consiglia inoltre di utilizzare un sistema di controllo del codice sorgente, come Azure DevOps dove nessun file è stato ancora modificato.
 
 ## <a name="development-environment"></a>Ambiente di sviluppo
 

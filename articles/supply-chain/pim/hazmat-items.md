@@ -1,6 +1,6 @@
 ---
 title: Materiali pericolosi in prodotti, ordini, spedizioni e carichi
-description: In questo argomento viene illustrato come impostare le proprietà dei materiali pericolosi per i prodotti rilasciati, come stabilire limiti delle scorte per gli articoli pericolosi e come includere i materiali pericolosi in un ordine cliente, spedizione o carico.
+description: In questo articolo viene illustrato come impostare le proprietà dei materiali pericolosi per i prodotti rilasciati, come stabilire limiti delle scorte per gli articoli pericolosi e come includere i materiali pericolosi in un ordine cliente, spedizione o carico.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 64d31cd86045ff28aa007666a3877271eecf0106
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: eaae3ce4916465cd57da65eaa217c40f9c3ea88a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7570707"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860698"
 ---
 # <a name="hazardous-materials-in-products-orders-shipments-and-loads"></a>Materiali pericolosi in prodotti, ordini, spedizioni e carichi
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare le proprietà dei materiali pericolosi per i prodotti rilasciati, come stabilire limiti delle scorte per gli articoli pericolosi e come includere i materiali pericolosi in un ordine cliente, spedizione o carico.
+In questo articolo viene illustrato come impostare le proprietà dei materiali pericolosi per i prodotti rilasciati, come stabilire limiti delle scorte per gli articoli pericolosi e come includere i materiali pericolosi in un ordine cliente, spedizione o carico.
 
 ## <a name="set-hazardous-material-specifications-for-products"></a>Impostare le specifiche dei materiali pericolosi per i prodotti
 
@@ -109,11 +109,11 @@ Ecco la chiave per la formula:
 - *&lt;UnitConversion&gt;* è un fattore di conversione per la conversione tra l'unità utilizzata per la quantità della riga di carico e l'unità specificata per un prodotto nel campo **Unità** nella scheda dettaglio **Gestione materiali**.
 - *&lt;Moltiplicatore&gt;* è il moltiplicatore specificato per un prodotto nel campo **Moltiplicatore** nella scheda dettaglio **Gestione materiali**.
 
-Questo punteggio viene riportato per ogni riga di carico che contiene un prodotto in cui sono specificati questi valori. Per ulteriori informazioni, vedere le sezioni [Spedizioni che includono materiali pericolosi](#hazmat-shipments) e [Carichi che includono materiali pericolosi](#hazmat-loads) più avanti in questo argomento.
+Questo punteggio viene riportato per ogni riga di carico che contiene un prodotto in cui sono specificati questi valori. Per ulteriori informazioni, vedi le sezioni [Spedizioni che includono materiali pericolosi](#hazmat-shipments) e [Carichi che includono materiali pericolosi](#hazmat-loads) più avanti in questo articolo.
 
 #### <a name="how-the-hazardous-material-weight-is-calculated"></a>Come viene calcolato il peso relativo ai materiali pericolosi
 
-Carichi e righe di carico che contengono prodotti in cui l'opzione **Quantità limitata** nella scheda dettaglio **Gestione materiali** è impostata su **Sì** mostrano il peso totale del materiale pericoloso, come descritto nelle sezioni [Spedizioni che includono materiali pericolosi](#hazmat-shipments) e [Carichi che includono materiali pericolosi](#hazmat-loads) più avanti in questo argomento. Il peso relativo al materiale pericoloso viene calcolato utilizzando la seguente formula:
+Carichi e righe di carico che contengono prodotti in cui l'opzione **Quantità limitata** nella scheda dettaglio **Gestione materiali** è impostata su **Sì** mostrano il peso totale del materiale pericoloso, come descritto nelle sezioni [Spedizioni che includono materiali pericolosi](#hazmat-shipments) e [Carichi che includono materiali pericolosi](#hazmat-loads) più avanti in questo articolo. Il peso relativo al materiale pericoloso viene calcolato utilizzando la seguente formula:
 
 Peso materiale pericoloso = *&lt;LineQty&gt;* × *&lt;ProductWeight&gt;* × *&lt;UnitConversion&gt;*
 

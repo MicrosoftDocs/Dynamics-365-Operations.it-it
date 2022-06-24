@@ -1,6 +1,6 @@
 ---
-title: Transazioni della gestione degli sconti
-description: In questo argomento viene descritto come creare le transazioni di gestione degli sconti. Le transazioni vengono utilizzate per controllare diversi metodi e basi per il calcolo di sconti e royalty. Includono regole per inclusioni ed esclusioni.
+title: Transazioni per la gestione degli sconti
+description: In questo articolo viene descritto come creare le transazioni di gestione degli sconti. Le transazioni vengono utilizzate per controllare diversi metodi e basi per il calcolo di sconti e royalty. Includono regole per inclusioni ed esclusioni.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 76cdbf21cfbc0db7b363d0fbf60a1ecd0046efc1
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 28cfff69ab4e528c146ccbf6a34548a819c99522
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851596"
 ---
 # <a name="rebate-management-deals"></a>Transazioni della gestione degli sconti
 
 [!include [banner](../includes/banner.md)]
 
-Le transazioni di gestione degli sconti vengono utilizzate per controllare diversi metodi e basi per il calcolo di sconti e royalty. Includono regole per inclusioni ed esclusioni. Esistono tre tipi di transazioni di gestione degli sconti: sconti per i clienti, royalty per i clienti e sconti per i fornitori. Tutti e tre i tipi utilizzano impostazioni simili. Questo argomento evidenzia le differenze dove presenti.
+Le transazioni di gestione degli sconti vengono utilizzate per controllare diversi metodi e basi per il calcolo di sconti e royalty. Includono regole per inclusioni ed esclusioni. Esistono tre tipi di transazioni di gestione degli sconti: sconti per i clienti, royalty per i clienti e sconti per i fornitori. Tutti e tre i tipi utilizzano impostazioni simili. Questo articolo evidenzia le differenze dove presenti.
 
 ## <a name="create-a-deal"></a>Creare una transazione
 
@@ -118,7 +118,7 @@ La scheda **Generale** della scheda dettaglio **Dettagli gestione degli sconti**
 
 | Campo | descrizione |
 |---|---|
-| Metodo di calcolo | Seleziona il metodo da utilizzare quando la riga di transazione selezionata è combinata con altre righe di transazione (*Graduale*, *Cumulativo*, *Rolling*, o *Totale*). Il valore di questo campo può influire notevolmente sul risultato dei calcoli degli sconti. Per una descrizione completa di ogni metodo e degli esempi che mostrano come influisce sul calcolo degli sconti vedi [Metodi di calcolo per le righe di transazione](#calc-methods) più avanti in questo argomento. |
+| Metodo di calcolo | Seleziona il metodo da utilizzare quando la riga di transazione selezionata è combinata con altre righe di transazione (*Graduale*, *Cumulativo*, *Rolling*, o *Totale*). Il valore di questo campo può influire notevolmente sul risultato dei calcoli degli sconti. Per una descrizione completa di ogni metodo e degli esempi che mostrano come influisce sul calcolo degli sconti vedi [Metodi di calcolo per le righe di transazione](#calc-methods) più avanti in questo articolo. |
 | Base | Seleziona se lo sconto viene applicato in base alla quantità (ovvero il numero totale di unità acquistate o vendute) o al valore (ovvero, il prezzo totale delle merci acquistate o vendute). |
 | Tipo di transazione | <p>Seleziona il punto del processo in cui deve avvenire il calcolo:</p><ul><li>*Ordine* - Utilizza la quantità o il valore ordinato come base per il calcolo.</li><li>*Consegnato* - Utilizza la quantità o il valore consegnato come base per il calcolo.</li><li>*Fattura* - Utilizza la quantità o il valore fatturato come base per il calcolo.</li></ul> |
 | Unità | Se hai selezionato *Quantità* nel campo **Base** seleziona l'unità in cui deve essere specificata la quantità. |

@@ -1,6 +1,6 @@
 ---
 title: Imposta prelievo del cluster
-description: In questo argomento viene descritto come impostare il prelievo cluster e l'utilizzo della conferma dell'articolo con prelievo cluster.
+description: In questo articolo viene descritto come impostare il prelievo cluster e l'utilizzo della conferma dell'articolo con prelievo cluster.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 859dc7e98a3236d2220ac43f9de426bd73679f0756da0aaa14669e563d5bf609
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862310"
 ---
 # <a name="set-up-cluster-picking"></a>Imposta prelievo del cluster
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene descritto come abilitare i lavoratori a utilizzare i propri dispositivi mobili per raggruppare il lavoro di prelievo nei cluster, in modo che possano prelevare gli articoli da un unica ubicazione per più ordini di lavoro contemporaneamente. Questo tipo di azione viene denominato *prelievo del cluster*.
+In questo articolo viene descritto come abilitare i lavoratori a utilizzare i propri dispositivi mobili per raggruppare il lavoro di prelievo nei cluster, in modo che possano prelevare gli articoli da un unica ubicazione per più ordini di lavoro contemporaneamente. Questo tipo di azione viene denominato *prelievo del cluster*.
 
 ## <a name="about-cluster-picking"></a>Informazioni sul prelievo del cluster
 

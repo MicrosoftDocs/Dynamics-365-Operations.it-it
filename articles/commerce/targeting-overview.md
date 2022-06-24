@@ -1,6 +1,6 @@
 ---
 title: Targeting per dispositivo, mercato e georilevazione
-description: Questo argomento descrive come creare, modificare e gestire audience e target in Generatore siti di Microsoft Dynamics 365 Commerce utilizzando informazioni relativi a dispositivi, mercati e georilevazione.
+description: Questo articolo descrive come creare, modificare e gestire audience e target in Generatore siti di Microsoft Dynamics 365 Commerce utilizzando informazioni relativi a dispositivi, mercati e georilevazione.
 author: sushma-rao
 ms.date: 02/03/2022
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2021-07-31
 ms.dyn365.ops.version: AX 10.0.21
-ms.openlocfilehash: 0c8ceb5e59c801e0d3dbc3a57e54c40fa8d967ac
-ms.sourcegitcommit: 1eef00796f7c5511f432b01800cdf8920992d7d5
+ms.openlocfilehash: 90772fd942db30bbf4f65a87b1dca4b2aaacee1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/04/2022
-ms.locfileid: "8090696"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881659"
 ---
 # <a name="device-market-and-geolocation-targeting"></a>Targeting per dispositivo, mercato e georilevazione
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come creare, modificare e gestire audience e target in Generatore siti di Microsoft Dynamics 365 Commerce utilizzando informazioni relativi a dispositivi, mercati e georilevazione.
+Questo articolo descrive come creare, modificare e gestire audience e target in Generatore siti di Microsoft Dynamics 365 Commerce utilizzando informazioni relativi a dispositivi, mercati e georilevazione.
 
 Dynamics 365 Commerce ti consente di personalizzare le variazioni del contenuto della tua pagina (note come *target*) per specifici gruppi di clienti (noti come *audience*) per aumentare l'engagement e la soddisfazione degli utenti. Puoi creare dapprima un audience o un target. Tuttavia, un'esperienza di targeting di successo richiede entrambi questi componenti.
 

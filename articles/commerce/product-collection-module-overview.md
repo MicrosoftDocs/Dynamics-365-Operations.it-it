@@ -1,6 +1,6 @@
 ---
-title: Moduli Raccolta prodotti
-description: Questo argomento fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
+title: Moduli raccolta prodotti
+description: Questo articolo fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 ms.date: 05/18/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4ff891eef79835fb4a65535ce8152e5b17023b9c
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 02a3d6314729f51d6c1dced5037f78d12355c09a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871661"
 ---
 # <a name="product-collection-modules"></a>Moduli raccolta prodotti
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
+Questo articolo fornisce una panoramica dei moduli Raccolta prodotti in Microsoft Dynamics 365 Commerce.
 
 L'individuazione di prodotti è uno strumento principale che i rivenditori utilizzano per interagire con i propri clienti in un sito Web di e-Commerce. I moduli Raccolta prodotti consentono ai rivenditori di creare esperienze di acquisto convincenti fornendo un'interfaccia visiva intuitiva che può essere utilizzata per generare rapidamente raccolte di prodotti.
 

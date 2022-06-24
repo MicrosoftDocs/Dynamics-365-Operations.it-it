@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd8ba10441c1300c913827122c09741c58a42973
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: af1e443078b6a7832388b38f2b99a438af461ba3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844353"
 ---
 # <a name="work-with-customer-service-overview"></a>Panoramica dell'utilizzo del servizio clienti
 
@@ -41,7 +41,7 @@ Il componente Assistenza clienti offre le seguenti funzionalità:
 
   - Contratti di servizio per il supporto di una base clienti differenziata
 
-Negli argomenti inclusi in questa sezione viene fornita una panoramica del processo aziendale Assistenza clienti e di ciascuno dei relativi componenti. Vengono inoltre elencati i moduli associati a ciascun componente del processo aziendale e vengono illustrate le attività associate a ciascuno dei componenti.
+Negli articoli inclusi in questa sezione viene fornita una panoramica del processo aziendale Assistenza clienti e di ciascuno dei relativi componenti. Vengono inoltre elencati i moduli associati a ciascun componente del processo aziendale e vengono illustrate le attività associate a ciascuno dei componenti.
 
 
 

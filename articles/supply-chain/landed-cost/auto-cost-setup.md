@@ -1,6 +1,6 @@
 ---
 title: Impostazione automatica dei costi
-description: In questo argomento viene descritto come impostare le regole relative ai costi per vari livelli di viaggio in entrata. Sulla base di queste regole, il sistema calcola i costi e li aggiunge automaticamente. Pertanto, gli utenti non devono aggiungere manualmente i costi.
+description: In questo articolo viene descritto come impostare le regole relative ai costi per vari livelli di viaggio in entrata. Sulla base di queste regole, il sistema calcola i costi e li aggiunge automaticamente. Pertanto, gli utenti non devono aggiungere manualmente i costi.
 author: Weijiesa
 ms.date: 01/21/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea788ea8d21c4cb6511188e937166bc3df3cd45a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 02c78789fc7531c267cee936fa30a395e6d0b62f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852391"
 ---
 # <a name="auto-costs-setup"></a>Impostazione automatica dei costi
 
@@ -26,7 +26,7 @@ ms.locfileid: "8695334"
 
 È possibile utilizzare la pagina **Costi automatici** per impostare le regole relative ai costi per varie aree di costo (come viaggi, contenitori di spedizione, registrazioni, ordini fornitore, articoli o righe di ordine di trasferimento). In base alle regole e ai campi selezionati dagli utenti quando creano record per una delle aree di costo, il sistema calcola i costi e li aggiunge automaticamente. Pertanto, gli utenti non devono aggiungere manualmente i costi.
 
-Per utilizzare i costi automatici, selezionare **Costo sbarcato \> Configurazione dei costi \> Costi automatici**. Quindi impostare le regole dei costi automatici come descritto di seguito.
+Per utilizzare i costi automatici, selezionare **Costo sbarcato \> Configurazione dei costi \> Costi automatici**. Quindi imposta le regole dei costi automatici come descritto di seguito nell'articolo.
 
 ## <a name="work-with-cost-areas"></a>Utilizzare le aree di costo
 

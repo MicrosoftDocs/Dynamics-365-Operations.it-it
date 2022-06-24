@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: dca0aba081321dff5ae061ebe4bddcae0e42bc54
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 106da56ed1de7d9e555cfdd63f19687d7e17599a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102765"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862571"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Impostazioni ordine predefinite per dimensioni e varianti prodotto
 
@@ -38,7 +38,7 @@ Per definire le impostazioni dell'ordine predefinite per un prodotto, seguire qu
     - Nella scheda **Piano**, nel gruppo **Impostazioni ordine**, selezionare **Impostazioni ordine predefinite**.
     - Nella scheda **Gestione articoli**, nel gruppo **Impostazioni ordine**, selezionare **Impostazioni ordine predefinite**.
 
-1. Configurare le impostazioni come descritto nel resto di questo argomento.
+1. Configura le impostazioni come descritto nel resto di questo articolo.
 
 ## <a name="default-order-settings"></a>Impostazioni ordine predefinite
 

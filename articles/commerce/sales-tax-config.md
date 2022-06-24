@@ -1,6 +1,6 @@
 ---
 title: Configurare l'IVA per gli ordini online
-description: Questo argomento fornisce una panoramica della selezione della fascia IVA per diversi tipi di ordine online in Dynamics 365 Commerce.
+description: Questo articolo fornisce una panoramica della selezione della fascia IVA per diversi tipi di ordine online in Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 04/02/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: gmohanv
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 5801bbfb5b5850cb4c9ae06140bff5adca9b368febdc06d69c538fc49f9ee40a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac9fefe68663d76b3461d3209530976f66b113ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772963"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906888"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Configurare l'IVA per gli ordini online
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica della selezione della fascia IVA per diversi tipi di ordine online utilizzando le impostazioni fiscali basate sulla destinazione o sull'account cliente. 
+Questo articolo fornisce una panoramica della selezione della fascia IVA per diversi tipi di ordine online utilizzando le impostazioni fiscali basate sulla destinazione o sull'account cliente. 
 
 Un canale di e-commerce può supportare opzioni come la consegna o il ritiro degli ordini online. L'applicabilità dell'IVA si basa sull'opzione selezionata dai clienti online. 
 

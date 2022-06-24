@@ -1,6 +1,6 @@
 ---
 title: Resi su vendite
-description: In questo argomento vengono fornite informazioni sul processo per gli ordini di reso. Sono riportate informazioni sui resi dei clienti e sul relativo effetto sulle quantità di scorte disponibili e di determinazione costi.
+description: In questo articolo vengono fornite informazioni sul processo per gli ordini di reso. Sono riportate informazioni sui resi dei clienti e sul relativo effetto sulle quantità di scorte disponibili e di determinazione costi.
 author: Mirzaab
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672f24a720f48c420916c197722eb2d9599744fa
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9e8045ec39b9caf9bf0dc2b2d331419efb54e6d6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860408"
 ---
 # <a name="sales-returns"></a>Resi su vendite
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sul processo per gli ordini di reso. Sono riportate informazioni sui resi dei clienti e sul relativo effetto sulle quantità di scorte disponibili e di determinazione costi.
+In questo articolo vengono fornite informazioni sul processo per gli ordini di reso. Sono riportate informazioni sui resi dei clienti e sul relativo effetto sulle quantità di scorte disponibili e di determinazione costi.
 
 I clienti possono rendere gli articoli per diversi motivi. Ad esempio, un articolo potrebbe essere difettoso o potrebbe non soddisfare le aspettative del cliente. Il processo di reso inizia quando un cliente genera una richiesta per restituire un articolo. Dopo che la richiesta del cliente viene ricevuta, viene creato un ordine di reso.
 
@@ -84,7 +84,7 @@ Dopo aver completato l'intestazione di reso, è possibile creare righe di reso u
 -   Creare una riga di reso utilizzando la funzione **Trova ordine cliente**. Si consiglia di utilizzare questa funzione quando si crea un ordine di reso. La funzione **Trova ordine cliente** stabilisce un riferimento dalla riga di reso alla riga dell'ordine cliente fatturata e recupera dettagli riga, quali il numero di articolo, la quantità, il prezzo, lo sconto e i valori di costo dalla riga di vendita. Il riferimento consente di garantire che, quando il prodotto viene restituito alla società, sia valutato allo stesso costo unitario di vendita. Il riferimento conferma inoltre che gli ordini di reso non sono creati per una quantità superiore a quella venduta indicata in fattura.
 
 >[!NOTE] 
->Le righe di reso con un riferimento a un ordine cliente vengono gestite come rettifiche o storni della vendita. Per ulteriori informazioni, vedere la sezione relativa alla registrazione nella contabilità generale più avanti in questo argomento.
+>Le righe di reso con un riferimento a un ordine cliente vengono gestite come rettifiche o storni della vendita. Per ulteriori informazioni, vedi la sezione relativa alla registrazione nella contabilità generale più avanti in questo articolo.
 
 ### <a name="charges"></a>Spese
 
@@ -179,7 +179,7 @@ Prima di poter ricevere fisicamente gli articoli resi in magazzino tramite la re
 
 [![Processo di arrivo.](./media/salesreturn03.png)](./media/salesreturn03.png)  
 
-Il processo presenta numerose altre differenze, che non vengono descritte in questo argomento. Di seguito ne sono riportate alcune:
+Il processo presenta numerose altre differenze, che non vengono descritte in questo articolo. Di seguito ne sono riportate alcune:
 
 -   Non utilizzare l'elenco **Panoramica arrivi** per creare un giornale arrivi. Creare invece manualmente il giornale di registrazione arrivi. Gli ordini di reso avranno **Ordine cliente** come riferimento.
 -   Se si utilizza la gestione magazzino, generare i trasporti pallet. La riga di reso avrà lo stato di **Arrivata** durante il trasporto pallet.

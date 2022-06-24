@@ -1,6 +1,6 @@
 ---
 title: Caricare i video
-description: In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 06/09/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f481e5d3f323b0c86d637b67c119d13b956d5714dc0d990004834e2be05b370e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a48c6cbdd5898a2156f60dada40e94cd402df9c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735632"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890543"
 ---
 # <a name="upload-videos"></a>Caricare i video
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come caricare i video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 
 La libreria multimediale Creazione di siti Web Commerce consente di caricare i video. È sempre necessario caricare la versione di un video con il bitrate e la risoluzione più alti, perché il video verrà automaticamente convertito per essere adatto a diversi riquadri di visualizzazione e ai punti di interruzione.
 

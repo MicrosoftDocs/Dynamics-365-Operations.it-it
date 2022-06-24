@@ -1,6 +1,6 @@
 ---
 title: Registrazione attività e Guida per Retail Modern POS (MPOS) e Cloud POS
-description: In questo argomento viene descritto come usare Registrazione attività in Retail Modern POS e Cloud POS.
+description: In questo articolo viene descritto come usare Registrazione attività in Retail Modern POS e Cloud POS.
 author: mugunthanm
 ms.date: 06/19/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f9f3e17a6c67dc1cc1d4ba423ce258f2ed1d1ec0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730757"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847602"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Registrazione attività e Guida per Retail Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come usare Registrazione attività in Retail Modern POS e Cloud POS.
+In questo articolo viene descritto come usare Registrazione attività in Retail Modern POS e Cloud POS.
 
 ## <a name="overview"></a>Panoramica
 
@@ -139,7 +139,7 @@ Per visualizzare i file di Registrazione attività personalizzati nel riquadro d
 
 [![Pulsante ?.](./media/help.jpg)](./media/help.jpg)
 
-Quando si fa clic su una Guida attività nei risultati della ricerca, è possibile visualizzare i passaggi come argomento della Guida o esportare i passaggi in un documento Word.
+Quando fai clic su una Guida attività nei risultati della ricerca, puoi visualizzare i passaggi come articolo della Guida o esportare i passaggi in un documento Word.
 
 > [!NOTE]
 > La Guida in Retail Modern POS e Cloud POS non visualizza guide attività a seconda del modulo attivo o dell'operazione che si sta eseguendo. È necessario immettere il nome del processo della casella di ricerca e fare clic su **Cerca**.

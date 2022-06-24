@@ -13,18 +13,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b98c37ad7695e81dbbd9558217287c868e052d08415d6d5c5d6055b5f9755eac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: caf27d3a5dddae0be7029834dce692f1fbc2fee7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769345"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889344"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Creare dimensioni finanziarie per i canali di vendita al dettaglio e configurare i valori di dimensione nei punti vendita
 
 [!include [banner](../includes/banner.md)]
 
-In questa procedura vengono descritti i passaggi per creare una dimensione finanziaria del canale di commercio con i valori di dimensione e i passaggi per configurare i valori di dimensione finanziaria nei punti vendita. In questo argomento non sono inclusi altri passaggi correlati, ad esempio per creare i set di dimensioni e le strutture dei conti. Questa procedura utilizza i dati dimostrativi della società USRT.
+In questa procedura vengono descritti i passaggi per creare una dimensione finanziaria del canale di commercio con i valori di dimensione e i passaggi per configurare i valori di dimensione finanziaria nei punti vendita. In questo articolo non sono inclusi altri passaggi correlati, ad esempio per creare i set di dimensioni e le strutture dei conti. Questa procedura utilizza i dati dimostrativi della società USRT.
 
 1. Passare a Contabilità generale > Piano dei conti > Dimensioni > Dimensioni finanziarie.
 2. Fare clic su Nuovo.

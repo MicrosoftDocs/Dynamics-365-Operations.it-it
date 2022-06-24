@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti sulla determinazione costi inventario
-description: Questo argomento risponde ad alcune domande frequenti sulla determinazione costi inventario in Microsoft Dynamics 365 Supply Chain Management.
+description: Questo articolo risponde ad alcune domande frequenti sulla determinazione costi inventario in Microsoft Dynamics 365 Supply Chain Management.
 author: rachel-profitt
 ms.date: 05/03/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 45f65bd4a5cfb9bd0c4eb03ceb56eca452f6ec95
-ms.sourcegitcommit: cbe9493d479f96f271d94599ec1b85131b26169f
+ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8809288"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850846"
 ---
 # <a name="inventory-costing-faq"></a>Domande frequenti sulla determinazione costi inventario
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento risponde ad alcune domande frequenti sulla determinazione costi inventario in Microsoft Dynamics 365 Supply Chain Management.
+Questo articolo risponde ad alcune domande frequenti sulla determinazione costi inventario in Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="inventory-close-adjustments-and-recalculation"></a>Chiusura, rettifica e ricalcolo inventario
 
@@ -359,7 +359,7 @@ Ti consigliamo di monitorare e correggere frequentemente l'inventario negativo q
 
 ### <a name="do-i-have-to-create-a-new-item-if-my-inventory-has-gone-negative-and-i-use-moving-average"></a>Devo creare un nuovo articolo se il mio inventario è negativo e utilizzo la media mobile?
 
-N. Se la tua organizzazione consente all'inventario di diventare fisicamente negativo e stai utilizzando la media mobile come modello di inventario, il sistema utilizzerà la sequenza dei costi di fallback assegnata nella pagina **Parametri di gestione articoli e magazzino** per determinare come verrà assegnato il costo alle uscite. In generale, ti consigliamo di evitare che il tuo inventario diventi fisicamente negativo. Per ulteriori informazioni, vedi altre domande nella sezione [Inventario negativo](#negative-inventory) di questo argomento.
+N. Se la tua organizzazione consente all'inventario di diventare fisicamente negativo e stai utilizzando la media mobile come modello di inventario, il sistema utilizzerà la sequenza dei costi di fallback assegnata nella pagina **Parametri di gestione articoli e magazzino** per determinare come verrà assegnato il costo alle uscite. In generale, ti consigliamo di evitare che il tuo inventario diventi fisicamente negativo. Per ulteriori informazioni, vedi altre domande nella sezione [Inventario negativo](#negative-inventory) di questo articolo.
 
 ## <a name="not-stocked-products"></a>Prodotti non stoccati
 
@@ -433,7 +433,7 @@ Quando c'è una differenza di prezzo tra la registrazione di un aggiornamento fi
 
 ### <a name="when-i-use-moving-average-what-happens-if-there-is-an-issue-before-the-receipt"></a>Quando utilizzo la media mobile, cosa succede se si verifica un'uscita prima dell'entrata?
 
-In genere, potrebbe verificarsi un'uscita prima dell'entrata perché si autorizzano scorte fisiche negative per il gruppo di modelli di articoli o perché l'uscita è retrodatata. Per ulteriori informazioni, vedi la sezione [Inventario negativo](#negative-inventory) descritta in questo argomento.
+In genere, potrebbe verificarsi un'uscita prima dell'entrata perché si autorizzano scorte fisiche negative per il gruppo di modelli di articoli o perché l'uscita è retrodatata. Per ulteriori informazioni, vedi la sezione [Inventario negativo](#negative-inventory) descritta in questo articolo.
 
 Se stai retrodatando le transazioni, ti consigliamo di considerare attentamente il processo e le operazioni aziendali per determinare se esiste un modo per evitare questo scenario. Se si retrodata una transazione per un articolo che utilizza la media mobile, il sistema assegnerà la media mobile corrente alla transazione. Le uscite successive non vengono rettificate. Per ulteriori informazioni sulla media mobile con transazioni retrodatate, vedi [Media mobile](moving-average.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Creare una richiesta per il consumo
-description: In questo argomento viene descritto il processo per creare una richiesta.
+description: In questo articolo viene descritto il processo per creare una richiesta.
 author: GalynaFedorova
 ms.date: 07/09/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5881e8a415ad37ff4bdb61b1043901c0b87ef743
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b4fc4a9f0dbd5c413300d27640512df69df30122
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671128"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888472"
 ---
 # <a name="create-a-requisition-for-consumption"></a>Creare una richiesta per il consumo
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto il processo per creare una richiesta. Vengono visualizzati i diversi modi di individuare i prodotti nel catalogo di approvvigionamento e come aggiungere un prodotto non in catalogo. Prima di iniziare questa procedura, è necessario disporre di criteri di acquisto configurati con Consumo come tipo predefinito di richiesta. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. La procedura può essere eseguita solo da un profilo utente impostato come lavoratore. Questa attività in genere sarà svolta da un dipendente. Il **Dipendente** impiega il ruolo di sicurezza che permetterà di svolgere le attività, o se si utilizza USMF, è possibile aprire la sessione come **Alicia**.
+In questo articolo viene descritto il processo per creare una richiesta. Vengono visualizzati i diversi modi di individuare i prodotti nel catalogo di approvvigionamento e come aggiungere un prodotto non in catalogo. Prima di iniziare questa procedura, è necessario disporre di criteri di acquisto configurati con Consumo come tipo predefinito di richiesta. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure utilizzando i propri dati. La procedura può essere eseguita solo da un profilo utente impostato come lavoratore. Questa attività in genere sarà svolta da un dipendente. Il **Dipendente** impiega il ruolo di sicurezza che permetterà di svolgere le attività, o se si utilizza USMF, è possibile aprire la sessione come **Alicia**.
 
 
 ## <a name="create-a-new-requisition"></a>Crea una nuova richiesta

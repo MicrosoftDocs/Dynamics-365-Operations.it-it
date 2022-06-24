@@ -1,6 +1,6 @@
 ---
-title: Ristampare e annullare etichette ondata
-description: Questo argomento spiega come annullare e ristampare le etichette ondata esistenti.
+title: Ristampare e annullare le etichette dei cicli
+description: Questo articolo spiega come annullare e ristampare le etichette ondata esistenti.
 author: perlynne
 ms.date: 07/09/2020
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 052c6632d1c6c6b1f357d4066ca8b419698cae62
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f9f057d9985fb8431ec7c9ced23f2cd3c476570d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572339"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871835"
 ---
-# <a name="reprint-and-void-wave-labels"></a>Ristampare e annullare etichette ondata
+# <a name="reprint-and-void-wave-labels"></a>Ristampare e annullare le etichette dei cicli
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come gestire le etichette generate dall'elaborazione di ondate (per una descrizione dettagliata e le istruzioni di configurazione, vedere [Configurare la stampa di etichette ondata](../warehousing/configure-wave-label-printing.md)).
+Questo articolo spiega come gestire le etichette generate dall'elaborazione di ondate (per una descrizione dettagliata e le istruzioni di configurazione, vedere [Configurare la stampa di etichette ondata](../warehousing/configure-wave-label-printing.md)).
 
 È possibile ristampare le etichette ondata in qualsiasi momento. Ad esempio, potrebbe essere necessario stampare una singola etichetta se un'etichetta esistente è stata persa o risulta danneggiata. In alternativa, un addetto al magazzino o un supervisore potrebbe dover ristampare un intero rotolo di etichette se il numero e/o la composizione di un'intera serie di etichette ondata è cambiata (ad esempio, a causa della carenza di scorte o per altri motivi). Spesso, anche se è cambiato solo il numero di cartoni, l'intero rotolo deve essere ristampato per mantenere accurato il numero totale nella sezione "Cartone X di Y" di ciascuna etichetta.
 
@@ -32,10 +32,10 @@ La funzionalità di ristampa di etichette ondata include:
 - Annullare e ristampare contemporaneamente le etichette (la possibilità di annullare le etichette è ad esempio incorporata negli scenari di prelievo in difetto).
 - Pulire lo storico delle etichette ondata.
 
-Questo argomento presenta una raccolta di scenari che mostrano, attraverso esempi, come utilizzare le funzionalità di ristampa di etichette ondata.
+Questo articolo presenta una raccolta di scenari che mostrano, attraverso esempi, come utilizzare le funzionalità di ristampa di etichette ondata.
 
 > [!IMPORTANT]
-> Per utilizzare gli scenari presentati in questo argomento, è necessario innanzitutto attivare e configurare le funzionalità di stampa di etichette ondata pertinenti, come descritto in [Configurare la stampa di etichette ondata](../warehousing/configure-wave-label-printing.md). Vari scenari in questo argomento richiedono inoltre l'esecuzione degli scenrari in quell'argomento per generare dati di esempio dei prerequisiti.
+> Per utilizzare gli scenari presentati in questo articolo, è necessario innanzitutto attivare e configurare le funzionalità di stampa di etichette ondata pertinenti, come descritto in [Configurare la stampa di etichette ondata](../warehousing/configure-wave-label-printing.md). Vari scenari in questo articolo richiedono inoltre l'esecuzione degli scenrari in quell'articolo per generare dati di esempio dei prerequisiti.
 
 ## <a name="scenario-1-reprint-labels-from-the-web-client"></a>Scenario 1: ristampare le etichette dal client Web
 

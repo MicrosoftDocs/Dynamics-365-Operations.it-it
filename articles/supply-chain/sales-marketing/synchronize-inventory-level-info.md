@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare le informazioni sul livello di scorte da Supply Chain Management a Field Service
-description: Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
+description: Questo articolo descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 author: Henrikan
 ms.date: 05/07/2019
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8dfba2d2dc2fdd4af136e3cb20061d794369011f
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fc14fc63bc1a69a57b10f39b2cb9fb8014e6f70b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060947"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844795"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Sincronizzare le informazioni sul livello di scorte da Supply Chain Management a Field Service 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8060947"
 
 
 
-Questo argomento descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
+Questo articolo descrive i modelli e le attività sottostanti utilizzati per sincronizzare le informazioni sul livello di scorte da Dynamics 365 Supply Chain Management in Dynamics 365 Field Service.
 
 [![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service.](./media/FSOnHandOW.png)](./media/FSOnHandOW.png)
 

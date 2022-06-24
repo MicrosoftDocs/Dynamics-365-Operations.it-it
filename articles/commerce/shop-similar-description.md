@@ -1,6 +1,6 @@
 ---
-title: Abilita gli elementi consigliati "acquista descrizioni simili"
-description: Questo argomento descrive come abilitare i consigli sui prodotti "acquista descrizioni simili" in Microsoft Dynamics 365 Commerce.
+title: Abilitare gli elementi consigliati "acquista prodotti simili"
+description: Questo articolo descrive come abilitare i consigli sui prodotti "acquista descrizioni simili" in Microsoft Dynamics 365 Commerce.
 author: bsokolov
 ms.date: 01/13/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 733b21870f9dd7ffa42fce3bccf669a59d633b14
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b935731b24f96753c814e3b496ffeeb7a92d9cc1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691005"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852010"
 ---
 # <a name="enable-shop-similar-description-recommendations"></a>Abilitare gli elementi consigliati "acquista prodotti simili"
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come abilitare i consigli sui prodotti "acquista descrizioni simili" in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come abilitare i consigli sui prodotti "acquista descrizioni simili" in Microsoft Dynamics 365 Commerce.
 
 La funzionalità relativa ai consigli "acquista descrizioni simili" in Dynamics 365 Commerce utilizza l'intelligenza artificiale e l'apprendimento automatico (IA-ML) per fornire ai clienti consigli per prodotti le cui descrizioni sono simili a ciò che ha cercato il cliente. Rendendo disponibili i consigli "acquista descrizioni simili" per tutti i canali di vendita al dettaglio in Commerce, i rivenditori possono aiutare i clienti a trovare facilmente ciò che desiderano.
 

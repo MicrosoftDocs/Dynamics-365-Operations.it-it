@@ -1,6 +1,6 @@
 ---
 title: Approvare e confermare gli ordini fornitore
-description: Questo argomento descrive gli stati di un ordine fornitore dopo che è stato creato e l'effetto dell'abilitazione della gestione delle modifiche sul POS.
+description: Questo articolo descrive gli stati di un ordine fornitore dopo che è stato creato e l'effetto dell'abilitazione della gestione delle modifiche sul POS.
 author: GalynaFedorova
 ms.date: 04/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d38a486c604dc761dcaf12b839d8b9b89b5e0414
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677004"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907379"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Approvare e confermare gli ordini fornitore
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti gli stati che attraversa un ordine fornitore (PO) dopo che è stato creato e l'effetto dell'attivazione di gestione delle modifiche sui PO.
+In questo articolo vengono descritti gli stati che attraversa un ordine fornitore (PO) dopo che è stato creato e l'effetto dell'attivazione di gestione delle modifiche sui PO.
 
 Dopo aver creato un ordine fornitore (PO), potrebbe essere necessario passare attraverso un processo di approvazione. Dopo che il fornitore ha accettato l'ordine, il PO è impostata su uno stato di **Confermato**.
 

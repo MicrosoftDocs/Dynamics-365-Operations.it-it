@@ -1,6 +1,6 @@
 ---
 title: Dettagli riga di lavoro
-description: Questo argomento fornisce informazioni sulla pagina Dettagli riga di lavoro, che mostra un elenco completo, ordinabile e filtrabile delle singole righe di lavoro nel sistema.
+description: Questo articolo fornisce informazioni sulla pagina Dettagli riga di lavoro, che mostra un elenco completo, ordinabile e filtrabile delle singole righe di lavoro nel sistema.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 4d7c6991c0171b0e09752b3305e0fa11a25b7833
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3dd9f4930303b1e3506e613d5437613138944430
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877307"
 ---
 # <a name="work-line-details"></a>Dettagli riga di lavoro
 

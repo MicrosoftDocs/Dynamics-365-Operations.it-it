@@ -1,6 +1,6 @@
 ---
 title: Applicare le impostazioni Aggiungi prodotto a carrello
-description: In questo argomento vengono descritte le impostazioni "Aggiungi prodotto a carrello" e la procedura per applicarle in Microsoft Dynamics 365 Commerce.
+description: In questo articolo vengono descritte le impostazioni "Aggiungi prodotto a carrello" e la procedura per applicarle in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 07/08/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6299a1c815978ab9f748b6110980e673e1fbae927ed08a5e2e080f89ef063115
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 336bea289b22e4f6f98077f915d7d35f2a48682d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866032"
 ---
 # <a name="apply-add-product-to-cart-settings"></a>Applicare le impostazioni Aggiungi prodotto a carrello
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritte le impostazioni **Aggiungi prodotto a carrello** e la procedura per applicarle in Microsoft Dynamics 365 Commerce.
+In questo articolo vengono descritte le impostazioni **Aggiungi prodotto a carrello** e la procedura per applicarle in Microsoft Dynamics 365 Commerce.
 
 Sono supportati diversi flussi di lavoro quando un prodotto viene aggiunto al carrello su un sito di e-commerce di Dynamics 365 Commerce. Ad esempio, l'utente del sito potrebbe essere indirizzato alla pagina del carrello. In alternativa, l'utente potrebbe rimanere sulla pagina corrente, ma ricevere una notifica che conferma che il prodotto è stato aggiunto al carrello.
 

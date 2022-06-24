@@ -1,6 +1,6 @@
 ---
 title: Modifica pool di lavoro nel lavoro
-description: Questo argomento spiega come utilizzare il pulsante Modifica pool di lavoro per gli elementi di lavoro per modificare il pool di lavoro del lavoro esistente.
+description: Questo articolo spiega come utilizzare il pulsante Modifica pool di lavoro per gli elementi di lavoro per modificare il pool di lavoro del lavoro esistente.
 author: Mirzaab
 ms.date: 07/16/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: dc210de420705062ba52c674f3ddb8eb7944715a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 817b45e8f5af957801a0af04e50acf20ba16c26d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669854"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900624"
 ---
 # <a name="change-work-pool-on-work"></a>Modifica pool di lavoro nel lavoro
 
@@ -34,14 +34,14 @@ A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalit�
 
 ## <a name="set-up-the-change-work-pool-on-work-feature"></a>Configurare la funzionalità Modifica pool di lavoro nel lavoro
 
-Per utilizzare questa funzionalità, è necessario configurare alcuni pool di lavoro. Si potrebbe inoltre configurare i modelli di lavoro in modo che assegnino automaticamente un pool. Se vuoi analizzare lo scenario di esempio fornito più avanti in questo argomento, configura il sistema come descritto in questa sezione.
+Per utilizzare questa funzionalità, è necessario configurare alcuni pool di lavoro. Si potrebbe inoltre configurare i modelli di lavoro in modo che assegnino automaticamente un pool. Se vuoi analizzare lo scenario di esempio fornito più avanti in questo articolo, configura il sistema come descritto in questa sezione.
 
 ### <a name="set-up-work-pools"></a>Configurare pool di lavoro
 
 I pool di lavoro consentono di organizzare gli elementi di lavoro per tipo. Per utilizzare la funzionalità *Modifica pool di lavoro nel lavoro*, è necessario disporre di almeno due pool di lavoro disponibili. Per visualizzare e aggiungere pool di lavoro, effettuare le operazioni indicate di seguito.
 
 1. Andare a **Gestione magazzino \> Impostazioni \> Lavoro \> Pool di lavoro**.
-1. Se si utilizzano dati dimostrativi della società **USMF** e lo scenario di esempio più avanti in questo argomento, aggiungere due pool di lavoro con le seguenti impostazioni:
+1. Se usi idati dimostrativi della società **USMF** e lo scenario di esempio più avanti in questo articolo, aggiungi due pool di lavoro con le seguenti impostazioni:
 
     - Pool di lavoro 1:
 
@@ -57,9 +57,9 @@ I pool di lavoro consentono di organizzare gli elementi di lavoro per tipo. Per 
 
 ### <a name="set-up-work-templates"></a>Imposta modelli di lavoro
 
-Per ciascuno dei modelli di lavoro, è possibile impostare un pool di lavoro predefinito, come richiesto. Per ogni modello pertinente, si assegna un pool di lavoro nella colonna **ID pool di lavoro**. In questo caso, tutti gli elementi di lavoro generati utilizzando un determinato modello ereditano automaticamente il pool di lavoro assegnato. Se si utilizzano dati dimostrativi della società **USMF** e lo scenario di esempio più avanti in questo argomento, procedere come segue.
+Per ciascuno dei modelli di lavoro, è possibile impostare un pool di lavoro predefinito, come richiesto. Per ogni modello pertinente, si assegna un pool di lavoro nella colonna **ID pool di lavoro**. In questo caso, tutti gli elementi di lavoro generati utilizzando un determinato modello ereditano automaticamente il pool di lavoro assegnato. Se usi i dati dimostrativi della società **USMF** e lo scenario di esempio più avanti in questo articolo, procedi come segue.
 
-1. Accedere a **Gestione magazzino \> Impostazione \> Lavoro \> Modelli di lavoro**.
+1. Accedi a **Gestione magazzino \> Impostazione \> Lavoro \> Modelli di lavoro**.
 1. Nel riquadro azioni seleziona **Modifica** per mettere la pagina in modalità modifica.
 1. Modificare il modello impostando i seguenti valori:
 
@@ -70,7 +70,7 @@ Per ciascuno dei modelli di lavoro, è possibile impostare un pool di lavoro pre
 
 ## <a name="example-scenario"></a>Scenario di esempio
 
-Questo scenario mostra come modificare il flusso di elaborazione per un elemento di lavoro esistente modificandone il pool di lavoro. Utilizza i dati demo della società **USMF** e le impostazioni suggerite in precedenza in questo argomento.
+Questo scenario mostra come modificare il flusso di elaborazione per un elemento di lavoro esistente modificandone il pool di lavoro. Utilizza i dati demo della società **USMF** e le impostazioni suggerite in precedenza in questo articolo.
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Creare un ordine cliente e rilasciarlo nel magazzino
 

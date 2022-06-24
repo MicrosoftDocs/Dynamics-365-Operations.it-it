@@ -1,6 +1,6 @@
 ---
 title: Elaborazione merci in transito
-description: In questo argomento viene descritto come utilizzare gli ordini merci in transito. Quando un ordine o un viaggio viene configurato per utilizzare l'elaborazione merci in transito, le merci possono essere fatturate prima di essere ricevute nel magazzino per l'utilizzo.
+description: In questo articolo viene descritto come utilizzare gli ordini merci in transito. Quando un ordine o un viaggio viene configurato per utilizzare l'elaborazione merci in transito, le merci possono essere fatturate prima di essere ricevute nel magazzino per l'utilizzo.
 author: Weijiesa
 ms.date: 01/13/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8df07c7c94cf64b0e4cf1def794270e176241b5f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47e5ef2ef99fcf23af73cfdb6ec57b92ad62f18c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694657"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854386"
 ---
 # <a name="goods-in-transit-processing"></a>Elaborazione merci in transito
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare gli ordini merci in transito. Questo tipo di ordine viene utilizzato solo nel modulo **Costo sbarcato**. Quando un ordine o un viaggio viene configurato per utilizzare l'elaborazione merci in transito, non è necessario attendere il ricevimento delle merci per fatturarle. Le merci vengono invece fatturate quando lasciano il magazzino o il porto di origine del fornitore e i costi finanziari vengono riconosciuti quando ha inizio il viaggio. Questa funzionalità consente di assumere correttamente la proprietà delle merci in quanto queste spesso diventano di proprietà della propria organizzazione quando lasciano il porto di spedizione.
+In questo articolo viene descritto come utilizzare gli ordini merci in transito. Questo tipo di ordine viene utilizzato solo nel modulo **Costo sbarcato**. Quando un ordine o un viaggio viene configurato per utilizzare l'elaborazione merci in transito, non è necessario attendere il ricevimento delle merci per fatturarle. Le merci vengono invece fatturate quando lasciano il magazzino o il porto di origine del fornitore e i costi finanziari vengono riconosciuti quando ha inizio il viaggio. Questa funzionalità consente di assumere correttamente la proprietà delle merci in quanto queste spesso diventano di proprietà della propria organizzazione quando lasciano il porto di spedizione.
 
 Quando vengono utilizzati ordini merci in transito, gli articoli aggiornati finanziariamente vengono ricevuti in un magazzino provvisorio noto come magazzino merci in transito. Le merci rimangono quindi in questo magazzino fino a quando non possono essere ricevute nel magazzino di destinazione finale (ovvero il magazzino definito nella riga di acquisto). Non possono essere rimosse manualmente.
 

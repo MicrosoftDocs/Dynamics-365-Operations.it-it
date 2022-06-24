@@ -1,6 +1,6 @@
 ---
 title: Panoramica della gestione attività
-description: Questo argomento fornisce una panoramica della gestione delle attività per responsabili e addetti in Microsoft Dynamics 365 Commerce.
+description: Questo articolo fornisce una panoramica della gestione delle attività per responsabili e addetti in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7cdcc0ba6a9f5a3d9dd4ea781adc9e81c45e3d02
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 1a814b76985b9bb7ee47ee287967acbf41ddd0e6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900336"
 ---
 # <a name="task-management-overview"></a>Panoramica della gestione attività
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica della gestione delle attività per responsabili e addetti in Microsoft Dynamics 365 Commerce.
+Questo articolo fornisce una panoramica della gestione delle attività per responsabili e addetti in Microsoft Dynamics 365 Commerce.
 
 In un ambiente di vendita al dettaglio, è sempre difficile essere certi che le attività vengano eseguite dalla persona giusta al momento giusto. I rivenditori devono essere in grado di informare gli addetti sulle attività imminenti e fornire il contesto aziendale correlato, in modo che le attività possano essere completate correttamente e in tempo.
 

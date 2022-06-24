@@ -1,6 +1,6 @@
 ---
 title: Tipi di problemi per non conformità
-description: Questo argomento descrive come creare e utilizzare i tipi di problemi per le non conformità.
+description: Questo articolo descrive come creare e utilizzare i tipi di problemi per le non conformità.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26705dd12f478f4ca6046c7265d4ae3cb1d08c69
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a73e692257c2a27085d60e75e028445811ee778a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568809"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857752"
 ---
 # <a name="problem-types-for-nonconformances"></a>Tipi di problemi per non conformità
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come creare e utilizzare i tipi di problemi per le non conformità.
+Questo articolo descrive come creare e utilizzare i tipi di problemi per le non conformità.
 
 Utilizzare la pagina **Tipi di problemi** per definire una classificazione dei problemi relativi alla qualità che possono verificarsi per i vari tipi di non conformità. Per ogni tipo di problema creato, è necessario specificare i tipi di non conformità con cui può essere utilizzato il tipo di problema. È possibile impostare i seguenti tipi di non conformità:
 

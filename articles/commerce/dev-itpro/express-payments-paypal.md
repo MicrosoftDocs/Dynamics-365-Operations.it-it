@@ -1,6 +1,6 @@
 ---
 title: Configurare i pagamenti rapidi per PayPal
-description: Questo argomento descrive come configurare i pagamenti rapidi per PayPal per abilitare funzionalità di check out più rapide in Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive come configurare i pagamenti rapidi per PayPal per abilitare funzionalità di check out più rapide in Microsoft Dynamics 365 Commerce.
 author: BrianShook
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 5fff17959e7ed9299df169c68b2ed07f6b7c7d2c
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: b69b7384992fb86370ff6881824a7d2c9a77d2c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905284"
 ---
 # <a name="configure-express-payments-for-paypal"></a>Configurare i pagamenti rapidi per PayPal
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come configurare i pagamenti rapidi per PayPal per abilitare funzionalità di check out più rapide in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come configurare i pagamenti rapidi per PayPal per abilitare funzionalità di check out più rapide in Microsoft Dynamics 365 Commerce.
 
 ## <a name="key-terms"></a>Termini importanti
 
@@ -28,7 +28,7 @@ Questo argomento descrive come configurare i pagamenti rapidi per PayPal per abi
 |---|---|
 | Portafoglio PayPal | L'integrazione e l'esperienza del cliente supportate dal connettore PayPal. È anche noto come il pulsante PayPal. |
 | Portafoglio | Un tipo di pagamento che non include le caratteristiche di pagamento tradizionali, come l'intervallo BIN (Bank Identification Number, numero di identificazione della banca) e la data di scadenza, utilizzate per differenziare i tipi di carta di credito e di debito. |
-| Pagamento rapido | Un modulo Commerce che supporta un comportamento di check out più rapido quando vengono utilizzati i metodi di pagamento supportati. Questo argomento tratta l'uso del modulo di pagamento rapido con PayPal. |
+| Pagamento rapido | Un modulo Commerce che supporta un comportamento di check out più rapido quando vengono utilizzati i metodi di pagamento supportati. Questo articolo tratta l'uso del modulo di pagamento rapido con PayPal. |
 
 Dynamics 365 Commerce offre un'integrazione predefinita per Portafoglio PayPal. Quando è configurato Dynamics 365 Payment Connector per PayPal, il pulsante PayPal viene visualizzato come metodo di pagamento selezionabile durante il check out dell'ordine online. Quando gli utenti selezionano PayPal, vengono indirizzati a completare il pagamento direttamente tramite PayPal e vengono quindi riportati al negozio online per completare l'ordine. Il check out del carrello PayPal consente ai clienti di utilizzare le informazioni del proprio conto di pagamento per precompilare il modulo di check out, in modo che possano completare il processo di check out più rapidamente.
 

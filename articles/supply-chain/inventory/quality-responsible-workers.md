@@ -1,6 +1,6 @@
 ---
 title: Lavoratori responsabili dell'approvazione delle non conformità
-description: Questo argomento descrive come configurare i lavoratori responsabili dell'approvazione delle non conformità.
+description: Questo articolo descrive come configurare i lavoratori responsabili dell'approvazione delle non conformità.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5fd1c7c86ac8627bd332bc578e98b4d7f091cdc8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a108fc1f8954e32719c93656a64d1d27fda03fb6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907408"
 ---
 # <a name="workers-responsible-for-approving-nonconformances"></a>Lavoratori responsabili dell'approvazione delle non conformità
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come configurare i lavoratori responsabili dell'approvazione delle non conformità.
+Questo articolo descrive come configurare i lavoratori responsabili dell'approvazione delle non conformità.
 
 Le non conformità devono essere approvate prima che gli utenti possano iniziare a inserire dettagli come correzioni o operazioni. Prima che gli utenti possano approvare o respingere le non conformità, il loro ID utente (record utente) deve essere collegato a un record lavoratore. Facoltativamente, puoi configurare i lavoratori responsabili della qualità e quindi consentire a un lavoratore di approvare il lavoro per conto di un altro lavoratore.
 

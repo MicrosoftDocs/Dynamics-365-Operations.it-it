@@ -1,6 +1,6 @@
 ---
 title: Creare elenchi di attività e aggiungere attività
-description: Questo argomento descrive come creare elenchi di attività e aggiungervi le attività in Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive come creare elenchi di attività e aggiungervi le attività in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a299be239d911e4605ed26625a313c93bd3020b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881633"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Creare elenchi di attività e aggiungere attività
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come creare elenchi di attività e aggiungervi le attività in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come creare elenchi di attività e aggiungervi le attività in Microsoft Dynamics 365 Commerce.
 
 Un'*attività* definisce un lavoro specifico o un'azione che qualcuno deve completare entro una data di scadenza specificata. In Dynamics 365 Commerce, un'attività può includere istruzioni dettagliate e informazioni su una persona di contatto. Può anche includere i collegamenti a operazioni di back-office, operazioni di punti vendita (POS) o pagine del sito, per contribuire a migliorare la produttività e fornire il contesto richiesto dal proprietario dell'attività per completare l'attività in modo efficiente.
 

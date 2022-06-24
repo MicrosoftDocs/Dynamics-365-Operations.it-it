@@ -1,6 +1,6 @@
 ---
 title: Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito
-description: In questo argomento vengono descritte le considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito dallo sviluppo alla produzione.
+description: In questo articolo vengono descritte le considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito dallo sviluppo alla produzione.
 author: psimolin
 ms.date: 05/25/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
-ms.openlocfilehash: 2f90581766dba3d3a671df52ec08339a1a0fd7dc
-ms.sourcegitcommit: 9dd2d32fc303023a509d58ec7b5935f89d1e9c6d
+ms.openlocfilehash: 6747df3c56fb05248210f78ebf2176a56ce78329
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/26/2022
-ms.locfileid: "8806407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896903"
 ---
 # <a name="search-engine-optimization-seo-considerations-for-your-site"></a>Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito
 
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritte le considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito dallo sviluppo alla produzione.
+In questo articolo vengono descritte le considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito dallo sviluppo alla produzione.
 
 ## <a name="a-site-that-is-under-development"></a>Sito in fase di sviluppo
 

@@ -1,6 +1,6 @@
 ---
-title: Layout della distribuzione del documento per le etichette della targa
-description: Questo argomento descrive come utilizzare i metodi di formattazione per stampare i valori sulle etichette.
+title: Layout di distribuzione del documento per le etichette della targa
+description: Questo articolo descrive come utilizzare i metodi di formattazione per stampare i valori sulle etichette.
 author: perlynne
 ms.date: 04/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9055e4c6e35099b7769faa6fc83f71523f2e64fd
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847877"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout della distribuzione del documento per le etichette della targa
 
@@ -53,7 +53,7 @@ Diversi strumenti di generazione di etichette ampiamente disponibili possono aiu
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Attivare questa funzionalità per il sistema
 
-Se il sistema non include già le funzionalità descritte in questo argomento, andare a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attivare la funzionalità *Layout etichette targa migliorati*. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata.
+Se il sistema non include già le funzionalità descritte in questo articolo, vai a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Layout etichette targa migliorati*. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata.
 
 ## <a name="custom-number-formats"></a>Formati numerici personalizzati
 
@@ -129,7 +129,7 @@ Some City, Some State
 $DisplayMethod()$
 ```
 
-È possibile combinare questo formato con altri tipi descritti in precedenza in questo argomento. Ad esempio, è disponibile un metodo di visualizzazione chiamato `DisplayListOfItemsNumbers()` e si desidera stampare il primo numero di articolo di questo metodo. In questo caso, è possibile utilizzare il seguente codice.
+È possibile combinare questo formato con altri tipi descritti in precedenza in questo articolo. Ad esempio, è disponibile un metodo di visualizzazione chiamato `DisplayListOfItemsNumbers()` e si desidera stampare il primo numero di articolo di questo metodo. In questo caso, è possibile utilizzare il seguente codice.
 
 ```dos
 $DisplayListOfItemsNumbers()[1]$

@@ -1,6 +1,6 @@
 ---
 title: Bilanciamento del batch
-description: In questo argomento viene illustrato il processo di bilanciamento del batch.
+description: In questo articolo viene illustrato il processo di bilanciamento del batch.
 author: johanhoffmann
 ms.date: 01/04/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780078"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856050"
 ---
 # <a name="batch-balancing"></a>Bilanciamento del batch
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrata la modalità con cui il processo di bilanciamento del batch è supportato.
+In questo articolo viene illustrata la modalità con cui il processo di bilanciamento del batch è supportato.
 
 Per ulteriori informazioni, guardare il [video sul bilanciamento del batch](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 
@@ -149,7 +149,7 @@ La quantità bilanciata del riempitivo viene calcolata come la differenza tra la
 Il processo di bilanciamento del batch viene eseguito dalla pagina **Bilanciamento del batch**.
 Selezionare **Gestione costi \> Ordini batch**, quindi nella scheda **Processo** selezionare **Bilanciamento del batch**. Il bilanciamento del batch è disponibile per gli ordini batch con stato **Iniziato**.
 
-In genere, il bilanciamento del batch può essere applicato agli ordini batch se la formula dispone di almeno una riga della formula in cui il **tipo di ingrediente** è *Attivo*. Per l'eccezione a questa regola, vedere la sezione "Ordini batch non applicabili al bilanciamento del batch" più avanti in questo argomento.
+In genere, il bilanciamento del batch può essere applicato agli ordini batch se la formula dispone di almeno una riga della formula in cui il **tipo di ingrediente** è *Attivo*. Per l'eccezione a questa regola, vedere la sezione "Ordini batch non applicabili al bilanciamento del batch" più avanti in questo articolo.
 
 Il processo di bilanciamento del batch può essere diviso in due processi secondari:
 

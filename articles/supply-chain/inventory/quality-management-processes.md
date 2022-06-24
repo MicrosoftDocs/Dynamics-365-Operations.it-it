@@ -1,6 +1,6 @@
 ---
-title: Panoramica sulla gestione della qualità e della non conformità.
-description: Questo argomento introduce le funzionalità di gestione della qualità e della non conformità in Microsoft Dynamics 365 Supply Chain Management e spiega come possono aiutare a migliorare la qualità del prodotto nella supply chain
+title: Panoramica sulla gestione di qualità e non conformità
+description: Questo articolo introduce le funzionalità di gestione della qualità e della non conformità in Microsoft Dynamics 365 Supply Chain Management e spiega come possono aiutare a migliorare la qualità del prodotto nella supply chain
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bb4bcb7f554c22b4e1ab1b41867bd2d3dcca4d4
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510dee78f6fed02e6511aedad00fcb1b15195470
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985522"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907495"
 ---
-# <a name="quality-and-nonconformance-management-overview"></a>Panoramica sulla gestione della qualità e della non conformità.
+# <a name="quality-and-nonconformance-management-overview"></a>Panoramica sulla gestione di qualità e non conformità
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento introduce le funzionalità di gestione della qualità e della non conformità in Microsoft Dynamics 365 Supply Chain Management e spiega come possono aiutare a migliorare la qualità del prodotto nella supply chain
+Questo articolo introduce le funzionalità di gestione della qualità e della non conformità in Microsoft Dynamics 365 Supply Chain Management e spiega come possono aiutare a migliorare la qualità del prodotto nella supply chain
 
 Il controllo qualità prevede l'esecuzione di test sui prodotti e la gestione di materiali non conformi. I processi di gestione della qualità consentono di garantire un alto livello di qualità del prodotto nella supply chain. Questi processi consentono inoltre di ottimizzare i processi della supply chain e aumentare la soddisfazione dei clienti. La gestione della qualità può favorire la gestione dei tempi di completamento quando ci si occupa di prodotti non conformi, indipendentemente dal punto di origine dei prodotti. È possibile collegare i risultati di diagnostica alle attività di correzione. È possibile programmare le attività per correggere i problemi e quindi impedire le ricorrenze di tali problemi in futuro. La gestione della qualità consente inoltre di tenere traccia dei problemi (inclusi i problemi interni) in base al tipo di problema e consente di identificare le soluzioni relative a breve o a lungo termine. Le statistiche relative agli indicatori di prestazioni chiave (KPI) forniscono un'analisi dei problemi di non conformità che si sono precedentemente verificati e le soluzioni applicate per correggerli. È possibile utilizzare i dati storici per analizzare l'efficienza delle misure di qualità che sono state adottate in precedenza e determinare le misure appropriate in futuro.
 

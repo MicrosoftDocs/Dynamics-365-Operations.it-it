@@ -1,6 +1,6 @@
 ---
 title: Parametri di gestione degli sconti
-description: In questo argomento viene descritta la pagina dei parametri di gestione degli sconti. Questa pagina contiene impostazioni che influenzano la registrazione, gli aggiornamenti di stato, le sequenze di numeri e altri comportamenti.
+description: In questo articolo viene descritta la pagina dei parametri di gestione degli sconti. Questa pagina contiene impostazioni che influenzano la registrazione, gli aggiornamenti di stato, le sequenze di numeri e altri comportamenti.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8f5c9734b2480329eed246bcbbfe3bd6e9991e0b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 218c54d97f3ac204e8613f5efdda0cc9d713ee04
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895527"
 ---
 # <a name="rebate-management-parameters"></a>Parametri di gestione degli sconti
 
@@ -45,11 +45,11 @@ La tabella seguente descrive i campi disponibili nella scheda **Gestione degli s
 
 ## <a name="number-sequences-tab"></a>Scheda Sequenze numeriche
 
-Utilizza la scheda **Sequenze numeriche** della pagina **Parametri di gestione degli sconti** per assegnare codici di sequenza numerica alle diverse sequenze numeriche utilizzate dalla gestione degli sconti. La tabella seguente descrive lo scopo di ciascuna di queste sequenze numeriche. Per ulteriori informazioni sulle sequenze numeriche, vedi [Panoramica delle sequenze numeriche](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) e argomenti correlati.
+Utilizza la scheda **Sequenze numeriche** della pagina **Parametri di gestione degli sconti** per assegnare codici di sequenza numerica alle diverse sequenze numeriche utilizzate dalla gestione degli sconti. La tabella seguente descrive lo scopo di ciascuna di queste sequenze numeriche. Per ulteriori informazioni sulle sequenze numeriche, vedi [Panoramica delle sequenze numeriche](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) e articoli correlati.
 
-| Riferimento | descrizione |
+| Riferimento | Description |
 |---|---|
-| Transazione di gestione degli sconti | La sequenza numerica assegna un valore chiave univoco a ciascuna transazione di sconti. Questa chiave viene utilizzata quando vengono create le transazioni. |
+| Transazione per la gestione degli sconti | La sequenza numerica assegna un valore chiave univoco a ciascuna transazione di sconti. Questa chiave viene utilizzata quando vengono create le transazioni. |
 | Numero di gestione degli sconti | La sequenza numerica assegna un valore chiave univoco a ciascuno sconto. Questa chiave viene utilizzata per identificare le relazioni di sconto. |
 | Numero di transazione sconto | La sequenza numerica assegna un valore chiave univoco a ciascuna transazione di sconto. Questa chiave viene utilizzata per identificare le transazioni di sconto. |
 | Fattura fiscale | La sequenza numerica assegna un valore chiave univoco a ciascuna fattura di sconti. Questa chiave viene utilizzata quando i giornali di registrazione degli sconti vengono registrati automaticamente. |

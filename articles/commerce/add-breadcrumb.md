@@ -1,6 +1,6 @@
 ---
-title: Modulo Percorso di navigazione
-description: In questo argomento vengono descritti i moduli Percorso di navigazione e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+title: Modulo percorso di navigazione
+description: In questo articolo vengono descritti i moduli Percorso di navigazione e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aa7f6e2f2b15c3e5d89cd645b3f1cc4c83c5b8d9
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 5f28fa563398773fb714576c3a80d65aec91cee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862283"
 ---
 # <a name="breadcrumb-module"></a>Modulo percorso di navigazione
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli Percorso di navigazione e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+In questo articolo vengono descritti i moduli Percorso di navigazione e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
 I moduli Percorso di navigazione sono utilizzati per fornire una navigazione secondaria nelle pagine di sito. In genere sono visualizzati nella parte superiore di una pagina, sotto l'intestazione. Sebbene i moduli Percorso di navigazione possano essere aggiunti a qualsiasi pagina, vengono spesso utilizzati nelle pagine dettagli prodotto (PDP), per mostrare la gerarchia di categorie di prodotti e fornire un modo rapido di navigare in un sito. Un modulo Percorso di navigazione può anche essere usato per mostrare un collegamento "Torna ai risultati" quando gli utenti aprono una PDP da una pagina di ricerca o elenco. In questo modo, gli utenti possono tornare rapidamente alla loro pagina elenco filtrata per continuare a fare acquisti.
 

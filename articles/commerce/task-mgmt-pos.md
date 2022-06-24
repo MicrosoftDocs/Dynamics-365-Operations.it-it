@@ -1,6 +1,6 @@
 ---
 title: Gestione delle attività in POS
-description: Questo argomento descrive la gestione delle attività nelle applicazioni POS di Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive la gestione delle attività nelle applicazioni POS di Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/10/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 3fb7d584b634b0a1e43ef6a02a9edcadc0927b36bd2a814fdfe947fb0e2e1917
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e61456b7ae79a2c82c96b5b669e95ad1818f71d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878433"
 ---
 # <a name="task-management-in-pos"></a>Gestione delle attività in POS
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive la gestione delle attività nelle applicazioni POS di Microsoft Dynamics 365 Commerce.
+Questo articolo descrive la gestione delle attività nelle applicazioni POS di Microsoft Dynamics 365 Commerce.
 
 L'applicazione POS di Dynamics 365 Commerce ha funzionalità di gestione delle attività che consente ai responsabili e ai dipendenti del negozio di gestire le attività e aggiornarne lo stato. Gli addetti al negozio possono accedere alle attività selezionando il riquadro **Attività** sulla home page del POS o selezionando le notifiche delle attività. Per impostazione predefinita, gli addetti al negozio vengono indirizzati alla scheda **Attività personali** dove possono visualizzare le attività loro assegnate. Tuttavia, possono facilmente passare alle schede **Attività scadute**, **Attività aperte** e **Elenchi di attività**.
 

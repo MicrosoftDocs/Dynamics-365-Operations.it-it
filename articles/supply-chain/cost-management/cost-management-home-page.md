@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0c5d7e8f9561ba81e0be93220df9afcd493179f
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: e9ba69f637087298bf6a93dbb049d78dff739aaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672488"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891149"
 ---
 # <a name="cost-management-home-page"></a>Home page della gestione costi
 
@@ -53,7 +53,7 @@ Passare alla [roadmap di Microsoft Dynamics 365](https://roadmap.dynamics.com/) 
 
 #### <a name="white-paper"></a>White paper
 
-Nel white paper [Calcolo DBA tramite uno schema di determinazione dei costi](https://www.microsoft.com/download/details.aspx?id=101937) viene descritto come impostare una scheda di determinazione costi contenente il materiale e la produzione e come l'impostazione influisce sui risultati del calcolo DBA. Per spiegare meglio gli argomenti, vengono forniti scenari concreti e dati che dimostrano l'effetto delle varie impostazioni e configurazioni.
+Nel white paper [Calcolo DBA tramite uno schema di determinazione dei costi](https://www.microsoft.com/download/details.aspx?id=101937) viene descritto come impostare una scheda di determinazione costi contenente il materiale e la produzione e come l'impostazione influisce sui risultati del calcolo DBA. Per spiegare meglio gli articoli, vengono forniti scenari concreti e dati che dimostrano l'effetto delle varie impostazioni e configurazioni.
 
 #### <a name="blogs"></a>Blog
 

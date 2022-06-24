@@ -1,6 +1,6 @@
 ---
 title: Conferma e trasferimento
-description: Questo argomento spiega come utilizzare la funzione di conferma e trasferimento, che consente agli utenti di spedire carichi dal magazzino prima di completare tutto il lavoro associato a tali carichi.
+description: Questo articolo spiega come utilizzare la funzione di conferma e trasferimento, che consente agli utenti di spedire carichi dal magazzino prima di completare tutto il lavoro associato a tali carichi.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d34dd1b33467aa1ea3a723e1baaf7f06285c3fa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 9257d8f9e6ed62ac0b19b0cdc8fd858e8b2f97a3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675489"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900566"
 ---
 # <a name="confirm-and-transfer"></a>Conferma e trasferimento
 
@@ -55,11 +55,11 @@ Quando le quantità rimanenti vengono annullate, tutte le quantità della riga d
 
 ## <a name="turn-the-confirm-and-transfer-feature-on-or-off"></a>Attivare o disattivare la funzionalità Conferma e trasferimento
 
-Per utilizzare le funzionalità descritte in questo argomento, è necessario attivare la funzionalità *Conferma e trasferimento* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Conferma e trasferimento* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare le funzionalità descritte in questo articolo, è necessario attivare la funzionalità *Conferma e trasferimento* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Conferma e trasferimento* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-confirm-and-transfer"></a>Configurare Conferma e trasferisci
 
-Per utilizzare la funzionalità *Conferma e trasferisci*, è necessario attivarla in ogni relativo modello di carico. Inoltre, a seconda delle esigenze, è consigliabile preparare i tuoi modelli di lavoro per supportare la funzionalità. Se vuoi analizzare lo scenario di esempio fornito più avanti in questo argomento, configura il sistema come descritto in questa sezione. Tale scenario è basato su dati dimostrativi **USMF**.
+Per utilizzare la funzionalità *Conferma e trasferisci*, è necessario attivarla in ogni relativo modello di carico. Inoltre, a seconda delle esigenze, è consigliabile preparare i tuoi modelli di lavoro per supportare la funzionalità. Se vuoi analizzare lo scenario di esempio fornito più avanti in questo articolo, configura il sistema come descritto in questa sezione. Tale scenario è basato su dati dimostrativi **USMF**.
 
 ### <a name="prepare-your-load-templates"></a>Preparare i modelli di carico
 
@@ -69,9 +69,9 @@ Per utilizzare la funzionalità *Conferma e trasferisci*, è necessario attivarl
 
 ### <a name="prepare-your-work-templates"></a>Preparare i modelli di lavoro
 
-Questa configurazione non è richiesta in tutte le situazioni. L'esempio che viene mostrato qui garantisce che il lavoro possa essere suddiviso dalla spedizione per supportare lo scenario di esempio fornito più avanti in questo argomento. Esistono anche altri modi per ottenere questo risultato.
+Questa configurazione non è richiesta in tutte le situazioni. L'esempio che viene mostrato qui garantisce che il lavoro possa essere suddiviso dalla spedizione per supportare lo scenario di esempio fornito più avanti in questo articolo. Esistono anche altri modi per ottenere questo risultato.
 
-1. Accedere a **Gestione magazzino \> Impostazione \> Lavoro \> Modelli di lavoro**.
+1. Accedi a **Gestione magazzino \> Impostazione \> Lavoro \> Modelli di lavoro**.
 1. Nella griglia nella parte superiore della pagina, seleziona un modello di lavoro esistente in cui vuoi configurare la funzionalità *Conferma e trasferisci*. Se stai lavorando con dati dimostrativi **USMF**, seleziona il modello di lavoro **51 prelievi da approntare**. In alternativa, crea un nuovo modello di lavoro.
 1. Nel riquadro azioni, seleziona **Modifica query** per aprire la finestra di dialogo **Vendite**.
 1. Nella finestra di dialogo **Vendite**, nella scheda **Ordinamento**, seleziona **Aggiungi** per aggiungere una riga alla griglia.

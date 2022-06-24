@@ -1,6 +1,6 @@
 ---
-title: Elenco scorte disponibili
-description: Questo argomento descrive come utilizzare la pagina Elenco scorte disponibili per esaminare i relativi dettagli. La pagina mostra come le varie opzioni di filtro e ordinamento interagiscono tra loro e in che modo tali opzioni possano talvolta produrre risultati imprevisti quando vengono combinate.
+title: Elenco inventario disponibile
+description: Questo articolo descrive come utilizzare la pagina Elenco scorte disponibili per esaminare i relativi dettagli. La pagina mostra come le varie opzioni di filtro e ordinamento interagiscono tra loro e in che modo tali opzioni possano talvolta produrre risultati imprevisti quando vengono combinate.
 author: yufeihuang
 ms.date: 07/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 9464240123ec2248e1b66f32dd3c9a2f974512b6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5747ae985e1791de8ddd93b678c2449a4a1802da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879050"
 ---
-# <a name="inventory-on-hand-list"></a>Elenco scorte disponibili
+# <a name="inventory-on-hand-list"></a>Elenco inventario disponibile
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come utilizzare la pagina **Elenco scorte disponibili** per esaminare i relativi dettagli. La pagina mostra come le varie opzioni di filtro e ordinamento interagiscono tra loro e in che modo tali opzioni possano talvolta produrre risultati imprevisti quando vengono combinate.
+Questo articolo descrive come utilizzare la pagina **Elenco scorte disponibili** per esaminare i relativi dettagli. La pagina mostra come le varie opzioni di filtro e ordinamento interagiscono tra loro e in che modo tali opzioni possano talvolta produrre risultati imprevisti quando vengono combinate.
 
 ## <a name="query-your-on-hand-inventory"></a>Eseguire query sulle scorte disponibili
 
@@ -35,9 +35,9 @@ La pagina **Elenco scorte disponibili** viene automaticamente aggiornata quando 
 Utilizzare i seguenti strumenti per trovare il set di prodotti che si sta cercando:
 
 - Nel riquadro azioni selezionare [**Dimensioni**](#dimensions) per aprire una finestra di dialogo in cui è possibile aggiungere o rimuovere le colonne mostrate nella griglia **Disponibilità**.
-- Nel [riquadro **Filtri**](#filters-pane), immettere i valori per i campi specifici per mostrare solo i record che corrispondono a tali valori. Tenere presente che i filtri qui definiti si applicano alle tabelle di origine che potrebbero essere aggregate in un secondo momento, in base alle dimensioni selezionate per la visualizzazione. Per informazioni su come questo comportamento può influire sui risultati, consultare gli [esempi](#examples) più avanti in questo argomento.
+- Nel [riquadro **Filtri**](#filters-pane), immettere i valori per i campi specifici per mostrare solo i record che corrispondono a tali valori. Tenere presente che i filtri qui definiti si applicano alle tabelle di origine che potrebbero essere aggregate in un secondo momento, in base alle dimensioni selezionate per la visualizzazione. Per informazioni su come questo comportamento può influire sui risultati, consulta gli [esempi](#examples) più avanti in questo articolo.
 - Nel riquadro **Filtri**, selezionare **Applica** per generare l'elenco di scorte disponibili corrispondente nella griglia **Disponibilità**.
-- Nella griglia **Disponibilità**, selezionare un'intestazione di colonna per ordinare o filtrare i valori in quella colonna. Un filtro rapido nella parte superiore della griglia offre opzioni di filtro aggiuntive. Questi filtri si applicano ai risultati, non alle tabelle di origine. Per informazioni su come questo comportamento può influire sui risultati, consultare gli [esempi](#examples) più avanti in questo argomento.
+- Nella griglia **Disponibilità**, selezionare un'intestazione di colonna per ordinare o filtrare i valori in quella colonna. Un filtro rapido nella parte superiore della griglia offre opzioni di filtro aggiuntive. Questi filtri si applicano ai risultati, non alle tabelle di origine. Per informazioni su come questo comportamento può influire sui risultati, consulta gli [esempi](#examples) più avanti in questo articolo.
 
 Per ogni elemento corrispondente, la griglia **Disponibilità** fornisce le seguenti colonne di informazioni sulle scorte.
 
@@ -64,7 +64,7 @@ Utilizzare il riquadro **Filtri** per filtrare l'elenco di scorte disponibili in
 > [!IMPORTANT]
 > La pagina **Elenco scorte disponibili** è assemblata da una tabella dettagliata di scorte disponibili che include tutte le dimensioni disponibili. Tuttavia, l'elenco in questa pagina è un riepilogo. Pertanto, potrebbe combinare le righe dalla tabella di origine aggregando i valori in base alle dimensioni visualizzate.
 >
-> I filtri definiti nel riquadro **Filtri** si applicano alla tabella di origine, non all'elenco aggregato. Questo comportamento a volte può produrre risultati imprevisti. Per informazioni su come questo comportamento può influire sui risultati, consultare gli [esempi](#examples) più avanti in questo argomento.
+> I filtri definiti nel riquadro **Filtri** si applicano alla tabella di origine, non all'elenco aggregato. Questo comportamento a volte può produrre risultati imprevisti. Per informazioni su come questo comportamento può influire sui risultati, consulta gli [esempi](#examples) più avanti in questo articolo.
 > 
 > Comunque, i [filtri forniti nella griglia](#grid-filters) *si applicano* all'elenco aggregato. Questi filtri includono sia un filtro rapido nella parte superiore della griglia sia il filtro per ciascuna intestazione di colonna.
 
@@ -75,7 +75,7 @@ Utilizzare il riquadro **Filtri** per filtrare l'elenco di scorte disponibili in
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Selezionare le dimensioni da mostrare
 
-Le dimensioni forniscono ulteriori informazioni su ciascun articolo nell'elenco di scorte disponibili e offrono altri modi per ordinare e filtrare l'elenco. Le dimensioni selezionate per la visualizzazione influiscono anche sul modo in cui le righe vengono aggregate nella pagina **Elenco scorte disponibili**. Questa aggregazione, a sua volta, può influire sul modo in cui le righe delle tabelle di origine vengono combinate nei risultati visualizzati. Per informazioni su come questo comportamento può influire sui risultati, consultare gli [esempi](#examples) più avanti in questo argomento.
+Le dimensioni forniscono ulteriori informazioni su ciascun articolo nell'elenco di scorte disponibili e offrono altri modi per ordinare e filtrare l'elenco. Le dimensioni selezionate per la visualizzazione influiscono anche sul modo in cui le righe vengono aggregate nella pagina **Elenco scorte disponibili**. Questa aggregazione, a sua volta, può influire sul modo in cui le righe delle tabelle di origine vengono combinate nei risultati visualizzati. Per informazioni su come questo comportamento può influire sui risultati, consulta gli [esempi](#examples) più avanti in questo articolo.
 
 Per personalizzare la selezione delle dimensioni inventariali visualizzata, attenersi alla seguente procedura.
 
@@ -89,7 +89,7 @@ Per personalizzare la selezione delle dimensioni inventariali visualizzata, atte
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtro sull'output dell'elenco scorte disponibili
 
-È possibile selezionare qualsiasi intestazione di colonna nella griglia **Disponibilità** per ordinare o filtrare i valori in quella colonna. Un filtro rapido nella parte superiore della griglia offre opzioni di filtro aggiuntive. Questi filtri si applicano ai risultati, non alle tabelle di origine. Per informazioni su come questo comportamento può influire sui risultati, consultare gli [esempi](#examples) più avanti in questo argomento.
+È possibile selezionare qualsiasi intestazione di colonna nella griglia **Disponibilità** per ordinare o filtrare i valori in quella colonna. Un filtro rapido nella parte superiore della griglia offre opzioni di filtro aggiuntive. Questi filtri si applicano ai risultati, non alle tabelle di origine. Per informazioni su come questo comportamento può influire sui risultati, consulta gli [esempi](#examples) più avanti in questo articolo.
 
 > [!NOTE]
 > Non è possibile filtrare e ordinare in tutte le colonne. La maggior parte delle colonne di quantità non include i controlli di ordinamento e filtro, poiché sono campi calcolati. La colonna **In ordinazione** è un'eccezione.

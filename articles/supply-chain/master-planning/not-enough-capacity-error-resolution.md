@@ -1,6 +1,6 @@
 ---
 title: Risolvere l'errore del motore di pianificazione "Impossibile trovare capacità sufficiente" e capcità limitata
-description: Questo argomento fornisce informazioni sui motivi e sulle soluzioni per l'errore del motore di pianificazione "Impossibile programmare l'ordine di produzione %1. Impossibile trovare capacità sufficiente".
+description: Questo articolo fornisce informazioni sui motivi e sulle soluzioni per l'errore del motore di pianificazione "Impossibile programmare l'ordine di produzione %1. Impossibile trovare capacità sufficiente".
 author: t-benebo
 ms.date: 7/29/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a3c08dc72c7133a2ebb148a2f88f83fee282717b
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469843"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891033"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Risolvere l'errore del motore di pianificazione "Impossibile trovare capacità sufficiente"
 
@@ -26,7 +26,7 @@ Quando si esegue la programmazione, è possibile che venga visualizzato il segue
 
 > Impossibile programmare l'ordine di produzione %1. Impossibile trovare capacità sufficiente.
 
-Esistono diversi motivi per cui il motore di pianificazione potrebbe non essere eseguito e per cui viene visualizzato di conseguenza un messaggio di errore. Questo argomento fornisce linee guida che consentiranno di trovare la causa principale dell'errore e di risolverla.
+Esistono diversi motivi per cui il motore di pianificazione potrebbe non essere eseguito e per cui viene visualizzato di conseguenza un messaggio di errore. Questo articolo fornisce linee guida che consentiranno di trovare la causa principale dell'errore e di risolverla.
 
 ## <a name="review-the-applicable-resources"></a>Esaminare le risorse applicabili
 

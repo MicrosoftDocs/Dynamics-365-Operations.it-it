@@ -1,6 +1,6 @@
 ---
 title: Configurare e utilizzare la funzionalità di accesso esteso
-description: In questo argomento viene descritto come configurare e utilizzare la funzionalità di accesso esteso dell'applicazione punto vendita (POS) di Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come configurare e utilizzare la funzionalità di accesso esteso dell'applicazione punto vendita (POS) di Microsoft Dynamics 365 Commerce.
 author: boycez
 ms.date: 03/18/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d211ecfe1550f6093e1d35e7c2b37c036b50dd4a
-ms.sourcegitcommit: 5aebb181004eb63210503fb566dcda5c55032bee
+ms.openlocfilehash: e27e8d94adccc46559089928b0481442306567ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/29/2022
-ms.locfileid: "8491441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884313"
 ---
 # <a name="set-up-and-use-the-extended-logon-capability"></a>Configurare e utilizzare la funzionalità di accesso esteso
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come configurare e utilizzare la funzionalità di accesso esteso dell'applicazione punto vendita (POS) di Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come configurare e utilizzare la funzionalità di accesso esteso dell'applicazione punto vendita (POS) di Microsoft Dynamics 365 Commerce.
 
 Cloud POS (CPOS) e Modern POS (MPOS) forniscono una funzionalità di accesso esteso che consente agli operatori dei punti vendita al dettaglio di accedere all'applicazione POS scansionando un codice a barre o strisciando una carta utilizzando un lettore di strisce magnetiche (MSR).
 

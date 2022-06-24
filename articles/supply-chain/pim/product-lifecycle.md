@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: f71ce701adbe60b69b25e41810dda7adeec1d390
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5d1ea1517c75393b1c8d7c95c8aa2405042b4532
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850643"
 ---
 # <a name="product-lifecycle-state-overview"></a>Panoramica dello stato del ciclo di vita del prodotto
 
@@ -74,7 +74,7 @@ Gli stati del ciclo di vita del prodotto sono supportati da entità di dati e lo
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Trovare prodotti e varianti prodotto obsoleti
 
-È possibile eseguire un'analisi di simulazione per individuare i prodotti o le varianti prodotto rilasciati obsoleti quindi aggiornare lo stato del ciclo di vita del prodotto. Per trovare i prodotti obsoleti, vedere [Trovare i prodotti o le varianti prodotto obsoleti in base alla richiesta e associare uno stato del ciclo di vita](tasks/obsolete-product-variants.md). Questo argomento mostra come trovare prodotti o varianti di prodotto obsoleti e come associare uno stato del ciclo di vita del prodotto ai prodotti obsoleti. Inoltre mostra come visualizzare i risultati della simulazione e valutare quanti prodotti e varianti di prodotto saranno associati a un nuovo stato del ciclo di vita del prodotto quando si esegue l'aggiornamento senza simulazione.  
+È possibile eseguire un'analisi di simulazione per individuare i prodotti o le varianti prodotto rilasciati obsoleti quindi aggiornare lo stato del ciclo di vita del prodotto. Per trovare i prodotti obsoleti, vedere [Trovare i prodotti o le varianti prodotto obsoleti in base alla richiesta e associare uno stato del ciclo di vita](tasks/obsolete-product-variants.md). Questo articolo mostra come trovare prodotti o varianti di prodotto obsoleti e come associare uno stato del ciclo di vita del prodotto ai prodotti obsoleti. Inoltre mostra come visualizzare i risultati della simulazione e valutare quanti prodotti e varianti di prodotto saranno associati a un nuovo stato del ciclo di vita del prodotto quando si esegue l'aggiornamento senza simulazione.  
 
 Tramite l'esecuzione dell'analisi in una modalità di simulazione, prodotti e varianti prodotto identificati come obsoleti vengono visualizzati in un modulo specifico, in cui possono essere esaminati facilmente. L'analisi effettua la ricerca di transazioni e dati master specifici per identificare i prodotti privi di richiesta durante un periodo variabile e senza dati master che possono determinare la domanda. I nuovi prodotti rilasciati durante un periodo variabile possono essere esclusi dall'analisi. Quando la simulazione di analisi restituisce il risultato previsto, l'utente può eseguire l'analisi e impostare un nuovo stato del ciclo di vita di prodotti per tutti i prodotti identificati come obsoleti dall'analisi.  
 
@@ -97,7 +97,7 @@ Usare i seguenti criteri per selezionare e aggiornare i prodotti o le varianti d
 - Nessun vendita o contratto di acquisto attive o future righe per il prodotto o la variante prodotto.
 - Il prodotto o la variante prodotto non sono utilizzati in una DBA associata a una versione DBA approvata non scaduta per un prodotto o una variante attiva per la pianificazione.
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 - [Creare un nuovo stato del ciclo di vita del prodotto](tasks/new-product-lifecycle-state.md)
 - [Creare uno stato predefinito del ciclo di vita del prodotto](tasks/default-product-lifecycle-state.md)

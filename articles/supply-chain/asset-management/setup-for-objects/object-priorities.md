@@ -1,6 +1,6 @@
 ---
-title: Livelli di servizio cespiti
-description: In questo argomento vengono descritti i livelli di servizio cespiti in Gestione cespiti.
+title: Livelli del servizio per i cespiti
+description: In questo articolo vengono descritti i livelli di servizio cespiti in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e4f7daa10931ce406a5d2bdbbc1dced067e3de5065cdb61cce369d617709d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1f7429b30253f540925e67ff9239667a0a404f26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908687"
 ---
-# <a name="asset-service-levels"></a>Livelli di servizio cespiti
+# <a name="asset-service-levels"></a>Livelli del servizio per i cespiti
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-In questo argomento vengono descritti i livelli di servizio cespiti in Gestione cespiti. I livelli di servizio cespiti sono correlati ai cespiti e trasferiti alle richieste di intervento di manutenzione e ordini di lavoro. Vengono utilizzati per calcolare la priorità degli ordini di lavoro durante la programmazione degli ordini di lavoro. I livelli di servizio cespiti possono essere modificati, se le modifiche sono necessarie.
+In questo articolo vengono descritti i livelli di servizio cespiti in Gestione cespiti. I livelli di servizio cespiti sono correlati ai cespiti e trasferiti alle richieste di intervento di manutenzione e ordini di lavoro. Vengono utilizzati per calcolare la priorità degli ordini di lavoro durante la programmazione degli ordini di lavoro. I livelli di servizio cespiti possono essere modificati, se le modifiche sono necessarie.
 
 Per ulteriori informazioni sull'impostazione relativa al calcolo dei punteggi di valutazione per la programmazione degli ordini di lavoro, vedere [Parametri di Gestione cespiti](../setup-for-objects/enterprise-asset-management-parameters.md). È necessario impostare almeno un record predefinito per il livello di servizio cespiti. Questo record predefinito viene utilizzato se non sono presenti altre corrispondenze durante la programmazione degli ordini di lavoro.
 

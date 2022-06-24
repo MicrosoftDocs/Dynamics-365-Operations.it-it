@@ -1,6 +1,6 @@
 ---
 title: Panoramica della libreria moduli
-description: Questo argomento fornisce una panoramica della libreria di moduli di Microsoft Dynamics 365 Commerce.
+description: Questo articolo fornisce una panoramica della libreria di moduli di Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94ff18fc34fbfbaee434db12f0d0bc8bb7042c2f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: dbf3754136de62b72938742b7cd4cb3d56532f8b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985761"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882172"
 ---
 # <a name="module-library-overview"></a>Panoramica della libreria moduli
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica della libreria di moduli di Microsoft Dynamics 365 Commerce.
+Questo articolo fornisce una panoramica della libreria di moduli di Microsoft Dynamics 365 Commerce.
 
 La libreria di moduli di Dynamics 365 Commerce è una raccolta di moduli che possono essere utilizzati per creare un sito Web di e-Commerce. I moduli hanno aspetti di interfaccia utente e di comportamento funzionale.
 

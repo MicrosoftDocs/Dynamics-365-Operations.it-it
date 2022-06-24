@@ -1,6 +1,6 @@
 ---
 title: Interfaccia attrezzatura movimentazione materiali (MHAX)
-description: In questo argomento viene descritto come impostare l'interfaccia attrezzatura movimentazione materiali (MHAX) di modo che sia possibile connettersi a sistemi di movimentazione materiali (MH) fisici esterni.
+description: In questo articolo viene descritto come impostare l'interfaccia attrezzatura movimentazione materiali (MHAX) di modo che sia possibile connettersi a sistemi di movimentazione materiali (MH) fisici esterni.
 author: Mirzaab
 ms.date: 03/04/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4c04b8a9574bb6f34b56b4a7462882f1885f1178
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907089"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interfaccia attrezzatura movimentazione materiali (MHAX)
 
@@ -88,7 +88,7 @@ Per creare una sottoscrizione, selezionare **Interfaccia attrezzatura movimentaz
 
 Una query può essere associata a ciascuna sottoscrizione. Questa query filtra le intestazioni e le righe di lavoro per limitare ulteriormente il lavoro che utilizzerà la sottoscrizione per generare eventi. Per aggiungere una query a una sottoscrizione, selezionare la casella di controllo **Esegui query** per la sottoscrizione pertinente nella pagina **Sottoscrizioni**, quindi selezionare **Modifica query** nel riquadro Azioni. Viene visualizzato l'editor di query standard di Supply Chain Management.
 
-Inoltre, la sottoscrizione include una *mappa di sottoscrizioni* che mappa i campi dell'intestazione di lavoro o della riga di lavoro ad alcuni o tutti i 10 campi dati liberi dell'evento in uscita, come necessario. Per restituire le informazioni al servizio MHAX, in genere si includerà l'ID record della riga di lavoro o l'*ID coppia di righe di lavoro* (l'ID coppia di righe di lavoro è una nuova proprietà che consente al sistema di utilizzare un singolo comando di ritorno per elaborare le righe di prelievo e stoccaggio). I campi rimanenti dipendono dal caso d'uso. Alcuni esempi sono forniti più avanti in questo argomento.
+Inoltre, la sottoscrizione include una *mappa di sottoscrizioni* che mappa i campi dell'intestazione di lavoro o della riga di lavoro ad alcuni o tutti i 10 campi dati liberi dell'evento in uscita, come necessario. Per restituire le informazioni al servizio MHAX, in genere si includerà l'ID record della riga di lavoro o l'*ID coppia di righe di lavoro* (l'ID coppia di righe di lavoro è una nuova proprietà che consente al sistema di utilizzare un singolo comando di ritorno per elaborare le righe di prelievo e stoccaggio). I campi rimanenti dipendono dal caso d'uso. Alcuni esempi sono forniti più avanti in questo articolo.
 
 Per impostare una mappa di sottoscrizioni, selezionare la sottoscrizione pertinente nella pagina **Sottoscrizioni**, quindi selezionare **Mappa di sottoscrizioni** nel riquadro Azioni. Nella finestra di dialogo **Mappa di sottoscrizioni** visualizzata, è possibile assegnare una tabella e un campo per ogni campo dati disponibile come necessario.
 
@@ -161,7 +161,7 @@ Se viene fornito l'ID coppia di righe di lavoro, tutte le righe di lavoro di pre
 
 Le righe di prelievo delle ubicazioni controllate dalla targa richiedono che **data03** specifichi la targa da cui prelevare, indipendentemente dal fatto che le righe siano contrassegnate dall'ID record riga di lavoro o dall'ID coppia di righe di lavoro. Il campo **data04** deve specificare la targa di destinazione dell'intestazione del lavoro per il prelievo.
 
-Le righe di stoccaggio non accettano ulteriori informazioni. Vengono eseguite solo in base alla posizione della linea di lavoro corrente e alla targa di destinazione del lavoro. Se lo stoccaggio deve essere eseguito in un'ubicazione diversa, modificare l'ubicazione della riga di lavoro come descritto nella sezione [Eventi di sostituzione](#override-events) più avanti in questo argomento.
+Le righe di stoccaggio non accettano ulteriori informazioni. Vengono eseguite solo in base alla posizione della linea di lavoro corrente e alla targa di destinazione del lavoro. Se lo stoccaggio deve essere eseguito in un'ubicazione diversa, modifica l'ubicazione della riga di lavoro come descritto nella sezione [Eventi di sostituzione](#override-events) più avanti in questo articolo.
 
 Le righe di lavoro personalizzate non richiedono, o non supportano, alcuna informazione aggiuntiva nell'evento in entrata.
 
@@ -220,7 +220,7 @@ A un certo punto, la coda in entrata inizierà a riempirsi di elementi della cod
 
 ## <a name="get-a-quick-overview-by-using-the-queue-manager"></a>Ottenere una rapida panoramica utilizzando il gestore code
 
-Per ottenere una rapida panoramica di tutte le attività correlate alle code in entrata e in uscita, selezionare **Interfaccia attrezzatura movimentazione materiali\> Aree di lavoro \> Gestore code**. La pagina **Gestore code** fornisce una serie di schede e riquadri che è possibile utilizzare per monitorare ed esplorare le code. Fornisce inoltre collegamenti utili alla maggior parte delle altre pagine menzionate in questo argomento.
+Per ottenere una rapida panoramica di tutte le attività correlate alle code in entrata e in uscita, selezionare **Interfaccia attrezzatura movimentazione materiali\> Aree di lavoro \> Gestore code**. La pagina **Gestore code** fornisce una serie di schede e riquadri che è possibile utilizzare per monitorare ed esplorare le code. Fornisce inoltre collegamenti utili alla maggior parte delle altre pagine menzionate in questo articolo.
 
 ## <a name="connect-to-the-mhax-service"></a>Eseguire la connessione al servizio MHAX
 

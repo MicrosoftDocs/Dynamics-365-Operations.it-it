@@ -1,6 +1,6 @@
 ---
 title: Associazioni di controllo qualità
-description: In questo argomento viene descritto come utilizzare le associazioni di controllo qualità in Microsoft Dynamics 365 Supply Chain Management per generare automaticamente ordini di controllo qualità relativi ai processi di vendita, acquisto e produzione.
+description: In questo articolo viene descritto come utilizzare le associazioni di controllo qualità in Microsoft Dynamics 365 Supply Chain Management per generare automaticamente ordini di controllo qualità relativi ai processi di vendita, acquisto e produzione.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28984730e5660414eec1ba087eb5de1eba4cbbb8
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 4e96f301d8dec255e57f0f0fbfa9c8e1a5922ae9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887517"
 ---
 # <a name="quality-associations"></a>Associazioni di controllo qualità
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare le associazioni di controllo qualità in Microsoft Dynamics 365 Supply Chain Management per generare automaticamente ordini di controllo qualità relativi ai processi di vendita, acquisto e produzione.
+In questo articolo viene descritto come utilizzare le associazioni di controllo qualità in Microsoft Dynamics 365 Supply Chain Management per generare automaticamente ordini di controllo qualità relativi ai processi di vendita, acquisto e produzione.
 
 Un'associazione di controllo qualità definisce le seguenti informazioni per un ordine di controllo qualità generato:
 

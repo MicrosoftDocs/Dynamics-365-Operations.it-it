@@ -1,6 +1,6 @@
 ---
 title: Home page di approvvigionamento
-description: Sono elencati gli argomenti della Guida e altre risorse disponibili per l'approvvigionamento.
+description: Questo articolo fornisce l'elenco degli articoli della Guida e altre risorse disponibili per l'approvvigionamento.
 author: GalynaFedorova
 ms.date: 09/27/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdf56084147edcdf8951d4a267611c10dc7eb6dd
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 68409b15a3f4874d05a43931136ce91097c4f904
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673020"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885872"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Home page di approvvigionamento
 
 [!include [banner](../includes/banner.md)]
 
-Sono elencati gli argomenti della Guida e altre risorse disponibili per l'approvvigionamento.
+Questo articolo fornisce l'elenco degli articoli della Guida e altre risorse disponibili per l'approvvigionamento.
 
 L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica della necessità di prodotti e servizi, all'approvvigionamento vero e proprio del prodotto, la ricezione, la fatturazione e l'elaborazione dei pagamenti ai fornitori. I processi di approvvigionamento possono essere configurati in base a esigenze specifiche definendo i criteri di acquisto e i flussi di lavoro. Per informazioni generali, vedere [Panoramica dell'approvvigionamento](procurement-sourcing-overview.md). Le altre risorse sono elencate di seguito.
 

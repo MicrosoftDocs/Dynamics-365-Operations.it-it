@@ -1,6 +1,6 @@
 ---
 title: Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti
-description: Questo argomento descrive l'impostazione di una voce di menu per dispositivo mobile.
+description: Questo articolo descrive l'impostazione di una voce di menu per dispositivo mobile.
 author: Mirzaab
 ms.date: 08/16/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 410a70294e5a417950ed5332ec5fdd7da321a31d
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b59a78ef98215bec7610fe17ed56e6fc287004c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882317"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Impostare una voce di menu del dispositivo mobile per registrare gli articoli ricevuti
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive l'impostazione di una voce di menu per dispositivo mobile. Questa voce di menu viene utilizzata per la registrazione dell'entrata di articoli ordinati tramite gli ordini fornitore. 
+Questo articolo descrive l'impostazione di una voce di menu per dispositivo mobile. Questa voce di menu viene utilizzata per la registrazione dell'entrata di articoli ordinati tramite gli ordini fornitore. 
 
 È possibile utilizzare questa guida nella società di dati dimostrativi USMF. Questa procedura è destinata al responsabile del magazzino.
 

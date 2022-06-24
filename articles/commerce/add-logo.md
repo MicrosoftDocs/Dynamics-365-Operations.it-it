@@ -1,6 +1,6 @@
 ---
 title: Aggiungere un logo
-description: In questo argomento viene descritto come aggiungere un logo al sito in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come aggiungere un logo al sito in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 583462755838e51b4c988b8da057dbeeee773e0b
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 624cd6f7000f5038b9996eb94caf79719d07f99f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871782"
 ---
 # <a name="add-a-logo"></a>Aggiungere un logo
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come aggiungere un logo al sito in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come aggiungere un logo al sito in Microsoft Dynamics 365 Commerce.
 
 Quando crei il sito, una delle prime cose che probabilmente farai è aggiungere il logo della tua azienda o del tuo marchio all'intestazione del sito. La libreria dei moduli online di Dynamics 365 Commerce fornisce un modulo che semplifica questa attività.
 
-È possibile aggiungere un logo direttamente a un modello, layout o pagina. In questo modo, puoi facilmente modificare il logo che appare su pagine specifiche o gruppi specifici di pagine. Tuttavia, questo argomento tratta lo scenario più frequente, in cui aggiungi il logo a un frammento di intestazione che può essere riutilizzato in tutte le pagine del tuo sito.
+È possibile aggiungere un logo direttamente a un modello, layout o pagina. In questo modo, puoi facilmente modificare il logo che appare su pagine specifiche o gruppi specifici di pagine. Tuttavia, questo articolo tratta lo scenario più frequente, in cui aggiungi il logo a un frammento di intestazione che può essere riutilizzato in tutte le pagine del tuo sito.
 
 ## <a name="prerequisites"></a>Prerequisiti
 

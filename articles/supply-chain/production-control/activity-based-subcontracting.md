@@ -1,6 +1,6 @@
 ---
 title: Conto lavoro basato su attività
-description: In questo argomento viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing.
+description: In questo articolo viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c2e1efceb800930d9f9e19a109da80d8cfebe2e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: e53da46a27fd573ae7f7450fcf34ffd8ef43e3fe
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566794"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890743"
 ---
 # <a name="activity-based-subcontracting"></a>Conto lavoro basato su attività
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing.
+In questo articolo viene descritto in dettaglio come utilizzare le attività in conto lavoro in un flusso di produzione per il lean manufacturing.
 
 In Microsoft Dynamics 365 Supply Chain Management sono presenti due approcci per il conto lavoro: ordini di produzione e lean manufacturing. Nell'approccio lean manufacturing, il lavoro in conto lavoro è modellizzato come servizio correlato a un'attività del flusso di produzione. Un tipo speciale di tipo di gruppo di costi denominato **Esternalizzazione diretta** è stato introdotto e i servizi in conto lavoro non fanno più parte di una distinta base (DBA). La contabilità industriale di lavoro in conto lavoro è completamente integrata nella soluzione di determinazione costi per il lean manufacturing.
 

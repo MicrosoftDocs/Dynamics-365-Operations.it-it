@@ -1,6 +1,6 @@
 ---
 title: "Pianificazione in modalità mista: combinazione dell'approvvigionamento, discreto, di processo e snello"
-description: Questo argomento fornisce informazioni sulla pianificazione in modalità mista.
+description: Questo articolo fornisce informazioni sulla pianificazione in modalità mista.
 author: johanhoffmann
 ms.date: 11/03/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a199d5ac7633aba894ffbc17db015100ae93d895
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7566769"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857433"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Pianificazione in modalità mista: combinazione dell'approvvigionamento, discreto, di processo e snello
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sulla pianificazione in modalità mista. Nella pianificazione in modalità mista, è possibile modellare la supply chain in base al flusso di materiale. Dynamics 365 Supply Chain Management garantisce che il flusso di materiale segua i modelli, indipendentemente dai criteri di rifornimento selezionati (kanban, ordini di produzione, ordini fornitore, ordini batch o ordini di trasferimento). 
+Questo articolo fornisce informazioni sulla pianificazione in modalità mista. Nella pianificazione in modalità mista, è possibile modellare la supply chain in base al flusso di materiale. Dynamics 365 Supply Chain Management garantisce che il flusso di materiale segua i modelli, indipendentemente dai criteri di rifornimento selezionati (kanban, ordini di produzione, ordini fornitore, ordini batch o ordini di trasferimento). 
 
 È possibile selezionare una strategia complessiva per la fornitura di un prodotto, indipendentemente dalla struttura di prodotto.  
 

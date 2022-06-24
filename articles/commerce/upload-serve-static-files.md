@@ -1,6 +1,6 @@
 ---
 title: Caricare e utilizzare file statici
-description: Questo argomento descrive come caricare un file statico nel generatore di siti di Microsoft Dynamics 365 Commerce e come creare un URL e un nome file personalizzati che possono essere utilizzati per richiedere quel file.
+description: Questo articolo descrive come caricare un file statico nel generatore di siti di Microsoft Dynamics 365 Commerce e come creare un URL e un nome file personalizzati che possono essere utilizzati per richiedere quel file.
 author: StuHarg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a1b14feba1466c3a5efc3b0ea66f20e9e818a8a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714685"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885324"
 ---
 # <a name="upload-and-serve-static-files"></a>Caricare e utilizzare file statici
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come caricare un file statico nel generatore di siti di Microsoft Dynamics 365 Commerce e come creare un URL e un nome file personalizzati che possono essere utilizzati per richiedere quel file.
+Questo articolo descrive come caricare un file statico nel generatore di siti di Microsoft Dynamics 365 Commerce e come creare un URL e un nome file personalizzati che possono essere utilizzati per richiedere quel file.
 
-Alcuni connettori di terze parti richiedono che un file sia ospitato e servito dal sito di e-commerce. Questi connettori prevedono che il file venga restituito dalle richieste in un percorso URL di callback e un nome file specifici. Pertanto, questo argomento spiega come caricare e servire un file statico con un URL e un nome file definibili dall'utente in un sito di e-commerce di Dynamics 365 Commerce.
+Alcuni connettori di terze parti richiedono che un file sia ospitato e servito dal sito di e-commerce. Questi connettori prevedono che il file venga restituito dalle richieste in un percorso URL di callback e un nome file specifici. Pertanto, questo articolo spiega come caricare e servire un file statico con un URL e un nome file definibili dall'utente in un sito di e-commerce di Dynamics 365 Commerce.
 
 ## <a name="create-a-site-url-that-returns-a-static-file"></a>Crea un URL del sito che restituisca un file statico
 
@@ -86,7 +86,7 @@ Dopo aver creato un URL, il suo percorso non può essere modificato. Se è neces
 
 Per modificare il percorso dell'URL, eseguire le operazioni indicate di seguito.
 
-1. Per creare un nuovo URL e mapparlo al file esistente o a un'altra risorsa, seguire le istruzioni nella precedente sezione [Creare un URL del sito che restituisca un file statico](#create-a-site-url-that-returns-a-static-file) in questo argomento.
+1. Per creare un nuovo URL e mapparlo al file esistente o a un'altra risorsa, segui le istruzioni nella precedente sezione [Creare un URL del sito che restituisca un file statico](#create-a-site-url-that-returns-a-static-file) in questo articolo.
 1. Selezionare il nuovo URL e selezionare **Pubblica** sulla barra dei comandi. Il nuovo URL viene pubblicato.
 1. Per annullare la pubblicazione del vecchio URL, selezionalo, quindi selezionare **Annulla pubblicazione** sulla barra dei comandi. È possibile ora eliminare il vecchio URL se si desidera.
 

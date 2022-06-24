@@ -1,7 +1,7 @@
 ---
 title: Calendari e pianificazione generale
-description: In questo argomento viene fornita una panoramica dei calendari della supply chain e della relativa influenza sulla pianificazione generale.
-author: ChristianRytt
+description: In questo articolo viene fornita una panoramica dei calendari della supply chain e della relativa influenza sulla pianificazione generale.
+author: t-benebo
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f424a2a050f917be2f0823c35ee2a47b4dd5cd0a
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 182c22a77e73573b4e27a81f80debf67242b95c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568617"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890975"
 ---
 # <a name="calendars-and-master-planning"></a>Calendari e pianificazione generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dei calendari della supply chain e della relativa influenza sulla pianificazione generale.  Vengono descritti i differenti calendari utilizzati nel motore di pianificazione generale, incluso il modo in cui influiscono le date di spedizione e ricevimento negli ordini pianificati. Vengono inoltre forniti suggerimenti relativi all'assegnazione, all'utilizzo e all'aggiornamento dei calendari.
+In questo articolo viene fornita una panoramica dei calendari della supply chain e della relativa influenza sulla pianificazione generale.  Vengono descritti i differenti calendari utilizzati nel motore di pianificazione generale, incluso il modo in cui influiscono le date di spedizione e ricevimento negli ordini pianificati. Vengono inoltre forniti suggerimenti relativi all'assegnazione, all'utilizzo e all'aggiornamento dei calendari.
 
 ## <a name="definition-of-a-calendar"></a>Definizione di un calendario
 

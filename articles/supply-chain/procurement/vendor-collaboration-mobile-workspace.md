@@ -1,6 +1,6 @@
 ---
 title: Area di lavoro mobile di collaborazione fornitore
-description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Collaborazione fornitore. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
+description: In questo articolo vengono fornite informazioni sull'area di lavoro mobile Collaborazione fornitore. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: gfedorova
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 97352ca89cef77b9320f17af5a1dbe6a00df2dd6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 591d4269a1188ed8f098a342729ba49b9772f42d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851654"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Area di lavoro mobile di collaborazione fornitore
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Collaborazione fornitore**. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
+In questo articolo vengono fornite informazioni sull'area di lavoro mobile **Collaborazione fornitore**. Questa area di lavoro consente ai fornitori di restare aggiornati sugli ordini fornitore che sono stati inviati loro per l'approvazione. Possono inoltre visualizzare informazioni su ordini fornitore e contatti nuovi e aggiornati.
 
 Questa area di lavoro mobile può essere utilizzata con l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365).
 
@@ -97,7 +97,7 @@ Se nell'organizzazione è stato distribuito Microsoft Dynamics 365 for Operation
 </tr>
 <tr class="even">
 <td>L'utente fornitore deve avere accesso all'interfaccia Web per la collaborazione fornitore nel client Web e deve impostare un utente di collaborazione fornitore.</td><td>Professionisti degli acquisti e amministratore di sistema</td>
-<td>Completare i passaggi descritti negli argomenti seguenti per impostare e utilizzare l'interfaccia Web per la collaborazione fornitore.
+<td>Completa i passaggi descritti negli articoli seguenti per impostare e utilizza l'interfaccia Web per la collaborazione fornitore.
 <ul>
 <li><a href="vendor-collaboration-work-external-vendors.md">Utilizzare la collaborazione fornitore per gestire i fornitori esterni</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gestire gli utenti di collaborazione fornitore</a></li>

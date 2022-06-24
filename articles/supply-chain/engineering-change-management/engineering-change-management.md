@@ -1,6 +1,6 @@
 ---
 title: Gestire le modifiche ai prodotti di progettazione
-description: Vengono fornite le informazioni sulla gestione delle modifiche ai prodotti di progettazione. La gestione delle modifiche di progettazione fornisce processi strutturati per la gestione delle modifiche ai prodotti di progettazione, dalla proposta, richiesta e apporto di modifiche, alla revisione e approvazione delle modifiche, alla valutazione del loro impatto sulle transazioni esistenti e alle attività di follow-up.
+description: In questo articolo vengono fornite le informazioni sulla gestione delle modifiche ai prodotti di progettazione. La gestione delle modifiche di progettazione fornisce processi strutturati per la gestione delle modifiche ai prodotti di progettazione, dalla proposta, richiesta e apporto di modifiche, alla revisione e approvazione delle modifiche, alla valutazione del loro impatto sulle transazioni esistenti e alle attività di follow-up.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9af5184da4f9507e3c06464a223f0debaea4430e
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384670"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849592"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 

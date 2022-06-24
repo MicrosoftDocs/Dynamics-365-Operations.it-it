@@ -1,6 +1,6 @@
 ---
 title: Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
-description: Questo argomento spiega come integrare il modulo Gestione cespiti in Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides per trarre vantaggio dalle guide alla realtà mista nei flussi di lavoro quotidiani di assistenza e manutenzione.
+description: Questo articolo spiega come integrare il modulo Gestione cespiti in Microsoft Dynamics 365 Supply Chain Management con Dynamics 365 Guides per trarre vantaggio dalle guide alla realtà mista nei flussi di lavoro quotidiani di assistenza e manutenzione.
 author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d06978bcbd6205111384f5c7cefdf34fdbdbfbf5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875686"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrare Dynamics 365 Supply Chain Management (gestione cespiti) con Dynamics 365 Guides
 
@@ -47,7 +47,7 @@ Per associare una guida, utilizzare una riga dell'elenco di controllo di manuten
 
 Per associare una guida a un modello di elenco di controllo di manutenzione, attenersi alla seguente procedura.
 
-1. Creare una guida usando le app per PC Dynamics 365 Guides e HoloLens. Per informazioni sulla creazione di una guida, vedere gli argomenti seguenti:
+1. Creare una guida usando le app per PC Dynamics 365 Guides e HoloLens. Per informazioni sulla creazione di una guida, vedere gli articoli seguenti:
 
     - [Utilizzare l'app per PC per creare una guida](/dynamics365/mixed-reality/guides/pc-app-overview)
     - [Utilizzare l'app HoloLens per posizionare gli ologrammi](/dynamics365/mixed-reality/guides/hololens-app-overview)

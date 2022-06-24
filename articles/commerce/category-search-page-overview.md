@@ -1,6 +1,6 @@
 ---
 title: Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
-description: In questo argomento viene fornita una panoramica della pagina di destinazione di categoria predefinita e della pagina dei risultati della ricerca in Dynamics 365 Commerce.
+description: In questo articolo viene fornita una panoramica della pagina di destinazione di categoria predefinita e della pagina dei risultati della ricerca in Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 06/30/2020
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6f61ee8ec212185e195e2cf1a9d6d25c31e4f672
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982436"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881854"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene fornita una panoramica della pagina di destinazione di categoria predefinita e della pagina dei risultati della ricerca in Microsoft Dynamics 365 Commerce e-Commerce.
+In questo articolo viene fornita una panoramica della pagina di destinazione di categoria predefinita e della pagina dei risultati della ricerca in Microsoft Dynamics 365 Commerce e-Commerce.
 
 ## <a name="default-category-landing-page"></a>Pagina di destinazione di categoria predefinita
 
@@ -32,7 +32,7 @@ La pagina di destinazione di categoria predefinita è la pagina che viene in gen
 
 ![Pagina di destinazione di categoria predefinita.](./media/SimpleCategoryLandingDressCategory.png)
 
-La parte superiore della pagina è un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il responsabile merchandising ha categorizzato. La configurazione viene effettuata durante quella della gerarchia di navigazione del canale. La parte inferiore della pagina è un piè di pagina che include collegamenti rapidi a vari argomenti a cui un acquirente potrebbe essere interessato.
+La parte superiore della pagina è un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il responsabile merchandising ha categorizzato. La configurazione viene effettuata durante quella della gerarchia di navigazione del canale. La parte inferiore della pagina è un piè di pagina che include collegamenti rapidi a vari articoli a cui un acquirente potrebbe essere interessato.
 
 I seguenti componenti sono essenziali per una categoria:
 

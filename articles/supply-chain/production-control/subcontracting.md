@@ -1,6 +1,6 @@
 ---
 title: Conto lavoro
-description: In questo argomento vengono fornite le informazioni dettagliate per creare un conto lavoro nella produzione in Dynamics 365 Supply Chain Management.
+description: In questo articolo vengono fornite le informazioni dettagliate per creare un conto lavoro nella produzione in Dynamics 365 Supply Chain Management.
 author: johanhoffmann
 ms.date: 09/28/2018
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4c4ef554406c727cc410f8dca5f41264be01060b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ef8f30e934ece4a148c6f5259d74f8f67799999d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854179"
 ---
 # <a name="subcontracting"></a>Conto lavoro
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite le informazioni dettagliate per creare un conto lavoro nella produzione in Microsoft Dynamics 365 Supply Chain Management. La prima parte di questo argomento descrive l'impostazione dei dati. La seconda parte descrive la procedura.
+In questo articolo vengono fornite le informazioni dettagliate per creare un conto lavoro nella produzione in Microsoft Dynamics 365 Supply Chain Management. La prima parte di questo articolo descrive l'impostazione dei dati. La seconda parte descrive la procedura.
 
 ## <a name="target-audience"></a>Destinatari
 
-Questo argomento descrive come impostare il conto lavoro nella produzione. Verranno usati i dati esistenti nella persona giuridica HQUS per eseguire l'impostazione di base di un flusso di attività conto lavoro. I dati dimostrativi nella persona giuridica HQUS includono i parametri di impostazione che sono stati prestabiliti per supportare i passaggi della procedura. Anche se la procedura risolve i punti critici e le sfide per vari ruoli, può essere completata dall'amministratore di sistema.
+Questo articolo descrive come impostare il conto lavoro nella produzione. Verranno usati i dati esistenti nella persona giuridica HQUS per eseguire l'impostazione di base di un flusso di attività conto lavoro. I dati dimostrativi nella persona giuridica HQUS includono i parametri di impostazione che sono stati prestabiliti per supportare i passaggi della procedura. Anche se la procedura risolve i punti critici e le sfide per vari ruoli, può essere completata dall'amministratore di sistema.
 
 ## <a name="demo-scenario"></a>Scenario dimostrativo
 

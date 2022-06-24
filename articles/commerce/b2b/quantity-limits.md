@@ -1,6 +1,6 @@
 ---
 title: Impostare limiti di quantità di prodotti per i siti di e-commerce B2B
-description: Questo argomento descrive come impostare i limiti di quantità dei prodotti per i siti di e-commerce business-to-business (B2B).
+description: Questo articolo descrive come impostare i limiti di quantità dei prodotti per i siti di e-commerce business-to-business (B2B).
 author: josaw1
 ms.date: 01/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 18dc138693dc9fb0e8cf8727de77b5f8584cde79
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 034441f8f712c676dbcc89f0009361d0a4a65721
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690198"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877007"
 ---
 # <a name="set-product-quantity-limits-for-b2b-e-commerce-sites"></a>Impostare limiti di quantità di prodotti per i siti di e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come impostare i limiti di quantità dei prodotti per i siti di e-commerce business-to-business (B2B).
+Questo articolo descrive come impostare i limiti di quantità dei prodotti per i siti di e-commerce business-to-business (B2B).
 
 La maggior parte dei prodotti ha un'unità di misura che ne definisce il raggruppamento. Il raggruppamento influisce sul modo in cui i prodotti possono essere venduti. Alcuni prodotti potrebbero avere un raggruppamento aggiuntivo per le quantità. Questo raggruppamento determina se i prodotti possono essere venduti come unità singole o multiple e se esiste un limite di quantità di ordine minimo o massimo che deve essere rispettato.
 

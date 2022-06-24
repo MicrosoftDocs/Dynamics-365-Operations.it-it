@@ -1,6 +1,6 @@
 ---
 title: Differenze tra la pianificazione generale integrata e l'ottimizzazione della pianificazione
-description: Questo argomento elenca le caratteristiche che Planning Optimization non supporta ancora e che non sono elencate nella pagina di analisi dell'adattamento di Planning Optimization.
+description: Questo articolo elenca le caratteristiche che Planning Optimization non supporta ancora e che non sono elencate nella pagina di analisi dell'adattamento di Planning Optimization.
 author: t-benebo
 ms.date: 07/30/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c73587015d6714c409819ab19ad68685aaa71cf7
-ms.sourcegitcommit: 70289a33b0a6ff3f9418d91a928db452cfd815bd
+ms.openlocfilehash: cf39166dce860dbd796cb4749175628252ed96ea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "8618262"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897576"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Differenze tra la pianificazione generale integrata e l'ottimizzazione della pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
-I risultati di Planning Optimization potrebbero differire dai risultati del motore di pianificazione principale incorporato. Le differenze possono essere causate da caratteristiche pendenti. Questo argomento elenca le caratteristiche che Planning Optimization non supporta ancora e che non sono elencate nella **[Analisi dell'adattamento di Planning Optimization](planning-optimization-fit-analysis.md)** pagina].
+I risultati di Planning Optimization potrebbero differire dai risultati del motore di pianificazione principale incorporato. Le differenze possono essere causate da caratteristiche pendenti. Questo articolo elenca le caratteristiche che Planning Optimization non supporta ancora e che non sono elencate nella **[Analisi dell'adattamento di Planning Optimization](planning-optimization-fit-analysis.md)** pagina].
 
 | Funzionalità | Comportamento attuale nell'ottimizzazione della pianificazione |
 |---|---|

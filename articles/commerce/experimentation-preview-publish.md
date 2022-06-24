@@ -1,30 +1,24 @@
 ---
 title: Visualizzare un esperimento in anteprima e pubblicarlo
-description: In questo argomento viene descritto come visualizzare in anteprima e pubblicare un esperimento in Dynamics 365 Commerce.
+description: In questo articolo viene descritto come visualizzare in anteprima e pubblicare un esperimento in Dynamics 365 Commerce.
 author: sushma-rao
-ms.date: 10/21/2020
+ms.date: 06/08/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
-ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 41957befe109102aaa7d3a5783b54f96824dfe76a25ab787f94afc778c08fca5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5da7a4e3c17057278d02ebd45702d1de404f0dc6
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740385"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946135"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Visualizzare un esperimento in anteprima e pubblicarlo
 
-Questo argomento descrive come visualizzare in anteprima e pubblicare un esperimento in Dynamics 365 Commerce dopo che hai [collegato l'esperimento e modificato le varianti](experimentation-connect-edit.md). Il diagramma seguente mostra tutti i passaggi relativi alla configurazione e all'esecuzione di un esperimento su un sito Web di e-commerce in Dynamics 365 Commerce. I passaggi aggiuntivi sono esposti in argomenti separati.
+Questo articolo descrive come visualizzare in anteprima e pubblicare un esperimento in Dynamics 365 Commerce dopo che hai [collegato l'esperimento e modificato le varianti](experimentation-connect-edit.md). Il diagramma seguente mostra tutti i passaggi relativi alla configurazione e all'esecuzione di un esperimento su un sito Web di e-commerce in Dynamics 365 Commerce. I passaggi aggiuntivi sono esposti in articoli separati.
 
 [ ![Percorso utente sperimentazione - Anteprima e pubblicazione.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
@@ -52,8 +46,12 @@ Quando si utilizzano gruppi di pubblicazione con esperimenti, è necessario tene
 - Quando pubblichi o pianifichi un gruppo di pubblicazione, tutto il contenuto nel gruppo di pubblicazione viene pubblicato, indipendentemente dal fatto che esista un esperimento associato al gruppo di pubblicazione.
 - Poiché un gruppo di pubblicazione continua a persistere dopo essere stato pubblicato su un sito live, verranno mantenuti anche gli esperimenti nel gruppo di pubblicazione. Pertanto, non potrai associare altri esperimenti alla stessa pagina o frammento. Per evitare questa limitazione, elimina tutti i gruppi di pubblicazione con esperimenti persistenti. Allo stesso modo, se desideri eliminare un esperimento in un sito live che esiste anche in un gruppo di pubblicazione, eliminalo prima dal gruppo di pubblicazione.
 
+### <a name="force-variations-for-testing"></a>Forzare varianti per il test
+
+Una volta che l'esperimento è attivo, puoi aggiungere l'ID esperimento e l'ID variante all'URL della pagina predefinita per forzare una variante a scopo di test o automazione. Ad esempio, se l'URL della pagina predefinita è `https://fabrikam.com/modern/homepage`, puoi forzare una variante con un URL come `https://fabrikam.com/modern/homepage?exp=18012910471|18024360464`. Puoi ottenere l'ID esperimento e l'ID variante per la tua variante dell'esperimento dall'URL di anteprima nell'esperienza **Anteprima** spiegata sopra.
+
 ## <a name="previous-step"></a>Passaggio precedente
-[Collegare e modificare un esperimento](experimentation-connect-edit.md)
+[Connettere e modificare un esperimento](experimentation-connect-edit.md)
 
 ## <a name="next-step"></a>Passaggio successivo
 [Eseguire e monitorare un esperimento](experimentation-run-monitor.md)

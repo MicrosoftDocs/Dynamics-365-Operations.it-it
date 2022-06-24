@@ -1,6 +1,6 @@
 ---
 title: Impostare intervalli di servizio
-description: In questo argomento viene descritto come impostare gli intervalli di assistenza. L'intervallo di assistenza indica la frequenza con cui vengono create righe di ordine di assistenza per le righe di contratto di assistenza in caso di creazione degli ordini di assistenza.
+description: In questo articolo viene descritto come impostare gli intervalli di assistenza. L'intervallo di assistenza indica la frequenza con cui vengono create righe di ordine di assistenza per le righe di contratto di assistenza in caso di creazione degli ordini di assistenza.
 author: sorenva
 ms.date: 02/20/2018
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 943ed0b8f329b45225b61247998e15a1d82356aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 56b8a31af061b90aeddfb460f6e86c2c5636b280
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673440"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845955"
 ---
 # <a name="set-up-service-intervals"></a>Impostare gli intervalli di assistenza  
 
@@ -48,7 +48,7 @@ Si desidera creare un intervallo di assistenza della durata di 10 giorni.
 5. Nel campo **Frequenza** digitare 10.
 6. Premere **Alt+S** per salvare l'intervallo di assistenza.
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Intervalli assistenza](service-intervals.md)  
 

@@ -1,6 +1,6 @@
 ---
 title: Spese varie della gestione dei trasporti
-description: Questo argomento spiega come le spese generate dal trasporto devono essere associate a un codice spese.
+description: Questo articolo spiega come le spese generate dal trasporto devono essere associate a un codice spese.
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e54c94baeba487ccd8fe26e58d3e891e5e3a1088
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8cc4c595d8b61cb9b6c81af4bf7f03faa1a12960
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849215"
 ---
 # <a name="transportation-management-miscellaneous-charges"></a>Spese varie della gestione dei trasporti
 

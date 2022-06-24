@@ -1,6 +1,6 @@
 ---
 title: Definire gli sconti specifici del canale
-description: I rivenditori fissano spesso sconti diversi in canali diversi. In questo argomento vengono esaminati i concetti che è necessario conoscere per creare uno sconto per un canale specifico.
+description: I rivenditori fissano spesso sconti diversi in canali diversi. In questo articolo vengono esaminati i concetti che è necessario conoscere per creare uno sconto per un canale specifico.
 author: scott-tucker
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 14b6f8f4a7d344111718fad94418bc3dbb5c9b1e113c0fd613350c49a2511d4f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9ceb5c8e47288e7ffdd3808cd8d60112f81ce314
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873412"
 ---
 # <a name="define-channel-specific-discounts"></a>Definire gli sconti specifici del canale
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono esaminati i concetti che è necessario conoscere per creare uno sconto per un canale specifico.
+In questo articolo vengono esaminati i concetti che è necessario conoscere per creare uno sconto per un canale specifico.
 
 ## <a name="channel-specific-discounts"></a>Sconti specifici del canale
 

@@ -1,6 +1,6 @@
 ---
-title: Abilitare e utilizzare la condivisione multicanale
-description: In questo argomento viene descritto come abilitare e utilizzare la funzionalità di condivisione multicanale di Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+title: Abilitare e utilizzare la condivisione su più canali
+description: In questo articolo viene descritto come abilitare e utilizzare la funzionalità di condivisione multicanale di Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 10/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 637149c088cb87301018868e680537eb58b17852
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866006"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Abilitare e utilizzare la condivisione su più canali
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come abilitare e utilizzare la funzionalità di condivisione multicanale di Creazione di siti Web di Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come abilitare e utilizzare la funzionalità di condivisione multicanale di Creazione di siti Web di Microsoft Dynamics 365 Commerce.
 
 La condivisione multicanale consente ai rivenditori di riutilizzare e condividere contenuto tra più canali di un sito. Questa funzionalità è utile quando i canali del sito hanno una lingua di base compatibile o numerosi elementi di contenuto in comune.
 

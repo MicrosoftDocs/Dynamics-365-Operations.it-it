@@ -1,6 +1,6 @@
 ---
 title: Moduli Costo sbarcato e Gestione trasporto
-description: Microsoft Dynamics 365 Supply Chain Management fornisce due diversi moduli per il trasporto, Gestione trasporto (TMS) e Costo sbarcato. Questo argomento riassume le funzionalità che i due moduli hanno in comune e ne evidenzia le differenze.
+description: Microsoft Dynamics 365 Supply Chain Management fornisce due diversi moduli per il trasporto, Gestione trasporto (TMS) e Costo sbarcato. Questo articolo riassume le funzionalità che i due moduli hanno in comune e ne evidenzia le differenze.
 author: Weijiesa
 ms.date: 12/04/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8c59d7d1887986d308cb591ece077cff9f4648a5
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 40489ff8d8683d19a5f726546cc4c43cc3e7a05d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690388"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905923"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Moduli Costo sbarcato e Gestione trasporto
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management fornisce due diversi moduli per il trasporto: **Gestione trasporto** (TMS) e **Costo sbarcato**. Questo argomento riassume le funzionalità che i due moduli hanno in comune e ne evidenzia le differenze. È possibile utilizzare queste informazioni per decidere quale modulo è più appropriato per le proprie pratiche aziendali. In effetti, alcune pratiche aziendali funzionano meglio con TMS, mentre altre funzionano meglio con Costo sbarcato. Quindi, a seconda dei requisiti aziendali, potresti scegliere di utilizzare esclusivamente un modulo oppure combinare i due moduli.
+Microsoft Dynamics 365 Supply Chain Management fornisce due diversi moduli per il trasporto: **Gestione trasporto** (TMS) e **Costo sbarcato**. Questo articolo riassume le funzionalità che i due moduli hanno in comune e ne evidenzia le differenze. È possibile utilizzare queste informazioni per decidere quale modulo è più appropriato per le proprie pratiche aziendali. In effetti, alcune pratiche aziendali funzionano meglio con TMS, mentre altre funzionano meglio con Costo sbarcato. Quindi, a seconda dei requisiti aziendali, potresti scegliere di utilizzare esclusivamente un modulo oppure combinare i due moduli.
 
-Questo argomento non fornisce una recensione completa di tutte le funzionalità di entrambi i moduli. Evidenzia soltanto le funzionalità disponibili relative al trasporto di merci da un fornitore al magazzino della tua azienda, dove possono essere utilizzate.
+Questo articolo non fornisce una recensione completa di tutte le funzionalità di entrambi i moduli. Evidenzia soltanto le funzionalità disponibili relative al trasporto di merci da un fornitore al magazzino della tua azienda, dove possono essere utilizzate.
 
 ## <a name="terminology-reference-data-and-reporting-differences"></a>Differenze relative a terminologia, dati di riferimento e report
 

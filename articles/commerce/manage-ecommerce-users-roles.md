@@ -1,6 +1,6 @@
 ---
 title: Gestire utenti e ruoli di e-Commerce
-description: In questo argomento viene descritto come concedere agli utenti l'accesso all'ambiente di creazione del sito di Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come concedere agli utenti l'accesso all'ambiente di creazione del sito di Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 10/01/2019
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ff0d3e607eb905eb9264bbb9ba151fbd527a81a2c72252252f2a45edc201e1b4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ac4342e4439db229997d9d4a0ad32f3664a795b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715408"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868963"
 ---
 # <a name="manage-e-commerce-users-and-roles"></a>Gestire utenti e ruoli di e-Commerce
 
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come concedere agli utenti l'accesso all'ambiente di creazione del sito di Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come concedere agli utenti l'accesso all'ambiente di creazione del sito di Microsoft Dynamics 365 Commerce.
 
 Per consentire il controllo dell'accesso utente e concedere agli utenti l'autorizzazione di eseguire specifiche attività, l'ambiente di creazione di siti utilizza gruppi di sicurezza creati in Microsoft Azure Active Directory (Azure AD). Innanzitutto si assegna un gruppo di sicurezza nuovo o esistente da Azure AD a ogni ruolo nell'ambiente di creazione. Quindi si concedono o si revocano le autorizzazioni per singoli utenti aggiungendo quegli utenti a un gruppo di sicurezza appropriato o rimuovendoli da un gruppo di sicurezza.
 
@@ -50,7 +50,7 @@ Quando si esegue il provisioning di Dynamics 365 Commerce nell'ambiente di Micro
 
 ## <a name="administrator-role"></a>Ruolo Amministratore
 
-Quando si crea un nuovo sito in Commerce, viene richiesto di fornire un gruppo di sicurezza per il ruolo **Amministratore**. Vedere la tabella precedente in questo argomento per una panoramica delle autorizzazioni concesse da questo ruolo.
+Quando si crea un nuovo sito in Commerce, viene richiesto di fornire un gruppo di sicurezza per il ruolo **Amministratore**. Vedi la tabella precedente in questo articolo per una panoramica delle autorizzazioni concesse da questo ruolo.
 
 ## <a name="add-or-update-security-groups"></a>Aggiungere o aggiornare gruppi di sicurezza
 

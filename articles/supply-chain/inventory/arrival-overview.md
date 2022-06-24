@@ -1,6 +1,6 @@
 ---
 title: Panoramica arrivi
-description: In questo argomento vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo.
+description: In questo articolo vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo.
 author: yufeihuang
 ms.date: 11/02/2017
 ms.topic: article
@@ -18,20 +18,20 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 1248156ba9081fe4afbffd480b45cf9326d14a6c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8118db9469c01c43b23c64ee383ac1d383a0ba7a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567441"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874074"
 ---
 # <a name="arrival-overview"></a>Panoramica arrivi
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo.
+In questo articolo vengono fornite informazioni sulle funzionalità della panoramica arrivi. La pagina della panoramica arrivi è parte di questa funzionalità e fornisce una panoramica di tutti gli articoli con arrivo previsto come articoli in arrivo.
 
-La pagina **Panoramica arrivi** offre una panoramica di tutti gli articoli in arrivo previsti. La pagina mostra inoltre gli arrivi che possono essere inizializzati in base alla panoramica. Questo argomento riguarda il processo di ricezione.
+La pagina **Panoramica arrivi** offre una panoramica di tutti gli articoli in arrivo previsti. La pagina mostra inoltre gli arrivi che possono essere inizializzati in base alla panoramica. Questo articolo riguarda il processo di ricezione.
 
 ## <a name="business-scenario"></a>Scenario aziendale
 Si prenda in considerazione il seguente scenario nei processi in entrata.

@@ -1,6 +1,6 @@
 ---
-title: Impostare l'analisi Recency, di frequenza e monetaria (RFM)
-description: In questo argomento viene illustrato come impostare un'analisi Recency, Frequency and Monetary (RFM) dei clienti.
+title: Impostare l'analisi Recency, frequenza e valore monetario (RFM)
+description: In questo articolo viene illustrato come impostare un'analisi Recency, Frequency and Monetary (RFM) dei clienti.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 153759ac6b70235b79c080e934819536c2861371
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850173"
 ---
-# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Impostare l'analisi Recency, di frequenza e monetaria (RFM)
+# <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Impostare l'analisi Recency, frequenza e valore monetario (RFM)
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene illustrato come impostare un'analisi Recency, Frequency and Monetary (RFM) dei clienti.
+In questo articolo viene illustrato come impostare un'analisi Recency, Frequency and Monetary (RFM) dei clienti.
 
 L'analisi di recency, di frequenza e monetaria (RFM) è uno strumento di marketing che l'organizzazione può utilizzare per valutare i dati generati dagli acquisti dei clienti. Dopo aver impostato l'analisi RFM, ai clienti viene assegnato un punteggio calcolato RFM mentre eseguono gli acquisti. Il punteggio RFM può essere una valutazione a tre cifre o un numero di aggregazione a seconda del modo in cui l'organizzazione ha configurato l'analisi RFM. Di seguito viene illustrata la determinazione prezzo se l'organizzazione utilizza una valutazione di tre cifre per il punteggio:
 

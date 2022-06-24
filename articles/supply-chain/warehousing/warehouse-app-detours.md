@@ -1,6 +1,6 @@
 ---
 title: Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
-description: Questo argomento descrive come configurare le deviazioni per le voci di menu in modo che i lavoratori possano sospendere l'attività corrente, eseguire un'altra attività e quindi tornare all'attività originale senza perdere alcuna informazione.
+description: Questo articolo descrive come configurare le deviazioni per le voci di menu in modo che i lavoratori possano sospendere l'attività corrente, eseguire un'altra attività e quindi tornare all'attività originale senza perdere alcuna informazione.
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 874abbdf7c0938a7ad4cc66e23dd01d901a1f0d3
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920350"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863594"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> Le caratteristiche che sono descritte in questo argomento si applicano solo alla nuova applicazione mobile Warehouse Management. Non riguardano la vecchia app del magazzino, che ora è deprecata.
+> Le caratteristiche che sono descritte in questo articolo si applicano solo alla nuova applicazione mobile Warehouse Management. Non riguardano la vecchia app del magazzino, che ora è deprecata.
 
-Questo argomento descrive come configurare le deviazioni per le voci di menu in modo che i lavoratori possano sospendere l'attività corrente, eseguire un'altra attività e quindi tornare all'attività originale senza perdere alcuna informazione.
+Questo articolo descrive come configurare le deviazioni per le voci di menu in modo che i lavoratori possano "sospendere" l'attività corrente, eseguire un'altra attività e quindi tornare all'attività originale senza perdere alcuna informazione.
 
 Una deviazione è una voce di menu separata che può essere aperta da un passaggio in un'attività principale. Al termine della deviazione, il lavoratore torna nel luogo in cui ha lasciato l'attività principale. Durante la configurazione, specifichi la voce di menu che deve fungere da deviazione. Puoi anche selezionare quali valori di campo dell'attività principale devono essere automaticamente inoltrati (copiati) alla deviazione e inseriti. Pertanto, è necessario comprendere in quale punto del flusso di attività vuoi che la deviazione sia disponibile per i lavoratori. È inoltre necessario assicurarsi che le informazioni da copiare nella deviazione siano disponibili per quel passaggio del flusso di attività.
 
@@ -46,7 +46,7 @@ Prima di poter configurare le deviazioni per i passaggi nelle voci di menu del d
     - **Modulo:** *Gestione Magazzino*
     - **Nome funzione:** *Deviazioni dell'app Warehouse Management*
 
-    Questa è la funzionalità descritta in questo argomento.
+    Questa è la funzionalità descritta in questo articolo.
 
 1. Aggiorna i nomi dei campi nell'app per dispositivi mobili Warehouse Management andando in **Warehouse Management \> Impostazioni \> Dispositivo mobile \> Nomi dei campi dell'app di magazzino** e selezionando **Crea impostazione predefinita**. Per ulteriori informazioni, vedi [Configurare i campi per l'app per dispositivi mobili Gestione magazzino](configure-app-field-names-priorities-warehouse.md).
 1. Ripeti il passaggio precedente per ogni persona giuridica (società) in cui si utilizza l'app per dispositivi mobili Warehouse Management.
@@ -57,7 +57,7 @@ Utilizza la procedura seguente per impostare una deviazione da un override speci
 
 1. Crea un override specifico del menu per il menu pertinente e procedi come descritto in [Personalizzare i titoli dei passaggi e le istruzioni per l'app per dispositivi mobili Warehouse Management](mobile-app-titles-instructions.md).
 1. Trova la combinazione di valori **ID passo** e **Nome voce di menu** che vuoi modificare e quindi seleziona il valore nella colonna **ID passo** .
-1. Nella pagina che appare, nella scheda dettaglio **Deviazioni disponibili (voci di menu)** puoi specificare la voce di menu che deve fungere da deviazione. Puoi anche selezionare quali valori di campo dell'attività principale devono essere automaticamente inoltrati alla e dalla deviazione. Per esempi che mostrano come usare queste impostazioni, vedi gli scenari più avanti in questo argomento.
+1. Nella pagina che appare, nella scheda dettaglio **Deviazioni disponibili (voci di menu)** puoi specificare la voce di menu che deve fungere da deviazione. Puoi anche selezionare quali valori di campo dell'attività principale devono essere automaticamente inoltrati alla e dalla deviazione. Per esempi che mostrano come usare queste impostazioni, vedi gli scenari più avanti in questo articolo.
 
 ## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Scenario di esempio 1: prelievo vendite in cui una richiesta di posizione funge da deviazione
 

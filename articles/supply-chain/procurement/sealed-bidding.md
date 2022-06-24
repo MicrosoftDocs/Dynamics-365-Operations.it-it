@@ -1,6 +1,6 @@
 ---
 title: Offerta nascosta per RdO
-description: Questo argomento descrive come impostare un'offerta nascosta per mantenere segrete le risposte all'offerta del fornitore fino a quando non vengono sbloccate dal personale addetto agli acquisti.
+description: Questo articolo descrive come impostare un'offerta nascosta per mantenere segrete le risposte all'offerta del fornitore fino a quando non vengono sbloccate dal personale addetto agli acquisti.
 author: GalynaFedorova
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dfc19646d6724627c8a25bcfc8a6b2a70a73c261
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40f1735d7efa5131b1462963758b6b48eec78fea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890888"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Offerta nascosta per RdO
 
@@ -148,7 +148,7 @@ Il processo di creazione di un caso RdO per le offerte nascoste è quasi lo stes
 I casi RdO per le offerte nascoste devono avere un valore **Tipo di offerta** di *Nascosto*. Esistono tre modi per assegnare questo valore a un caso di richiesta di offerta:
 
 - Imposta il valore direttamente nel caso di richiesta di offerta dopo averlo creato.
-- Definisci l'offerta nascosta come tipo di offerta predefinito per tutti i casi di richiesta di offerta in Parametri di approvvigionamento. (Vedi la sezione [Impostare il tipo di offerta predefinito](#set-default-bid-type) precedente in questo argomento.)
+- Definisci l'offerta nascosta come tipo di offerta predefinito per tutti i casi di richiesta di offerta in Parametri di approvvigionamento. (Vedi la sezione [Impostare il tipo di offerta predefinito](#set-default-bid-type) precedente in questo articolo.)
 - Quando crei un nuovo caso di richiesta di offerta, seleziona un tipo di sollecito impostato per l'offerta nascosta. (Vedi la sezione [Impostare il tipo di offerta predefinito](#set-default-bid-type).)
 
 Per le offerte nascoste, i valore **Data e ora di scadenza** del caso RdO stabilisce quando le offerte presentate possono essere aperte. Il valore **Data e ora di scadenza** su ogni riga corrisponderà al valore sull'intestazione.

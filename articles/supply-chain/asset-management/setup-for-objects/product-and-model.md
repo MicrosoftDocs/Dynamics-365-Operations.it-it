@@ -1,6 +1,6 @@
 ---
 title: Produttori e modelli di cespiti
-description: In questo argomento viene descritto come impostare i produttori di cespiti e i relativi modelli in Gestione cespiti.
+description: In questo articolo viene descritto come impostare i produttori di cespiti e i relativi modelli in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80fcb493d96209d78f842414c198a8275e4818ba365759466034faf5f3405540
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 95d0998bbacef7a4350d0fd0a58259ec35759d28
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739900"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868103"
 ---
 # <a name="asset-manufacturers-and-models"></a>Produttori e modelli di cespiti
 
@@ -28,7 +28,7 @@ ms.locfileid: "6739900"
 
  
 
-In questo argomento viene descritto come impostare i produttori di cespiti e i relativi modelli in Gestione cespiti. I modelli possono essere correlati ai tipi di cespite.
+In questo articolo viene descritto come impostare i produttori di cespiti e i relativi modelli in Gestione cespiti. I modelli possono essere correlati ai tipi di cespite.
 
 ## <a name="set-up-product-model-relations"></a>Impostare le relazioni prodotto-modello
 

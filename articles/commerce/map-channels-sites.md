@@ -1,6 +1,6 @@
 ---
 title: Mappare i canali ai siti di e-commerce
-description: Questo argomento descrive alcuni degli scenari di mapping dei canali più comuni in Microsoft Dynamics 365 Commerce che possono essere estrapolati per la maggior parte degli altri requisiti aziendali.
+description: Questo articolo descrive alcuni degli scenari di mapping dei canali più comuni in Microsoft Dynamics 365 Commerce che possono essere estrapolati per la maggior parte degli altri requisiti aziendali.
 author: samjarawan
 ms.date: 05/11/2022
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8ce272d63b4a37f99661333a02434708205ea19a
-ms.sourcegitcommit: e4cc43b06ef3f0f562849e2c960025cb244d6017
+ms.openlocfilehash: 94c43df26e8d6e55a5b6d459b65066d5873e1063
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902765"
 ---
 # <a name="map-channels-to-e-commerce-sites"></a>Mappare i canali ai siti di e-commerce
 
-Questo argomento descrive alcuni degli scenari di mapping dei canali più comuni in Microsoft Dynamics 365 Commerce che possono essere estrapolati per la maggior parte degli altri requisiti aziendali.
+Questo articolo descrive alcuni degli scenari di mapping dei canali più comuni in Microsoft Dynamics 365 Commerce che possono essere estrapolati per la maggior parte degli altri requisiti aziendali.
 
 Dynamics 365 Commerce supporta molti scenari aziendali per il mapping dei [canali online](#channels) che hanno un set configurato di prodotti, prezzi e sconti alle esperienze del [sito di e-commerce](#e-commerce-sites) per i clienti.
 
-Questo argomento copre i seguenti scenari:
+Questo articolo copre i seguenti scenari:
 
 - **Un canale in un'unica lingua con un'unica esperienza del sito di e-commerce.** Ad esempio, questo scenario potrebbe coinvolgere un sito con marchio singolo configurato per il mercato inglese statunitense.
 - **Un canale in più lingue con un'unica esperienza del sito localizzata.** Ad esempio, questo scenario potrebbe coinvolgere un sito con marchio singolo configurato per il Canada con supporto per le lingue inglese e francese. In questo scenario, gli utenti che selezionano lingue diverse hanno la stessa esperienza del sito, ma è localizzata nella lingua selezionata di ogni utente.
@@ -63,7 +63,7 @@ Nell'illustrazione di esempio seguente viene mostrata la configurazione di un ca
 
 ![Valori della persona giuridica, della valuta e della lingua per il negozio online Adventure Works evidenziati in Commerce headquarters.](media/channel-mapping-3.png)
 
-Il singolo canale online può essere mappato su un singolo sito di e-commerce in Site Builder. Per informazioni su come creare un nuovo sito e mapparlo su un canale, vedi la sezione [Mappare un canale a un sito in Site Builder](#map-a-channel-to-a-site-in-site-builder) di questo argomento.
+Il singolo canale online può essere mappato su un singolo sito di e-commerce in Site Builder. Per informazioni su come creare un nuovo sito e mapparlo su un canale, vedi la sezione [Mappare un canale a un sito in Site Builder](#map-a-channel-to-a-site-in-site-builder) di questo articolo.
 
 ### <a name="multi-language-channel-that-has-a-single-localized-site-experience"></a>Un canale in più lingue con un'unica esperienza del sito localizzata
 
@@ -73,7 +73,7 @@ Il limite di questo scenario è che un singolo canale può essere configurato co
 
 Ciascuna lingua in un canale può essere configurata con il proprio nome di dominio. Ad esempio, il dominio `www.adventure-works.ca` può essere configurato per la versione inglese canadese e il dominio `www.adventure-works-fr.ca` può essere configurato per la versione francese canadese. In alternativa, è possibile configurare lingue diverse in un canale in un unico dominio, quindi è possibile utilizzare un percorso diverso per ciascuna lingua. Ad esempio, il dominio `www.adventure-works.ca` può essere configurato per la versione inglese canadese e quindi il percorso `www.adventure-works.ca/fr` può essere utilizzato per la versione francese canadese. Il [rilevamento geografico](geo-detection-redirection.md) può anche essere abilitato per reindirizzare automaticamente un utente al sito corretto, in base alla posizione dell'utente.
 
-Per informazioni su come consentire ai clienti di passare manualmente da una lingua all'altra, vedere la sezione [Aggiungere e configurare il modulo di selezione del sito](#add-and-configure-the-site-picker-module) di questo argomento. Per informazioni su come personalizzare pagine e frammenti localizzati, vedere la sezione [Gestire il contenuto del sito con più canali e lingue](#manage-site-content-that-has-multiple-channels-and-languages).
+Per informazioni su come consentire ai clienti di passare manualmente da una lingua all'altra, vedi la sezione [Aggiungere e configurare il modulo di selezione del sito](#add-and-configure-the-site-picker-module) di questo articolo. Per informazioni su come personalizzare pagine e frammenti localizzati, vedere la sezione [Gestire il contenuto del sito con più canali e lingue](#manage-site-content-that-has-multiple-channels-and-languages).
 
 ### <a name="multi-language-channel-that-has-a-different-site-experience-per-language"></a>Un canale in più lingue con un'esperienza del sito diversa per lingua
 
@@ -87,7 +87,7 @@ Un sito con marchio potrebbe richiedere più canali online per area geografica p
 
 In questo scenario, ogni mercato può essere configurata con i propri nomi di dominio. Ad esempio, il dominio `www.adventure-works.com` può essere configurato per il mercato statunitense e il dominio `www.adventure-works.de` può essere configurato per il mercato tedesco. In alternativa, ogni mercato può essere configurato per utilizzare un percorso diverso. Ad esempio, il dominio `www.adventure-works.com` può essere configurato per il mercato statunitense e il percorso `www.adventure-works.com/de` può essere utilizzato per il mercato tedesco. Il [rilevamento geografico](geo-detection-redirection.md) può anche essere abilitato per reindirizzare automaticamente gli utenti al sito corretto, in base alla loro area geografica.
 
-Potresti anche volere che il tuo sito fornisca un elenco a discesa che consenta agli utenti di passare manualmente a un mercato specifico. Per ulteriori informazioni, vedere la sezione [Aggiungere e configurare il modulo di selezione del sito](#add-and-configure-the-site-picker-module) di questo argomento.
+Potresti anche volere che il tuo sito fornisca un elenco a discesa che consenta agli utenti di passare manualmente a un mercato specifico. Per ulteriori informazioni, vedi la sezione [Aggiungere e configurare il modulo di selezione del sito](#add-and-configure-the-site-picker-module) di questo articolo.
 
 Per informazioni su come configurare più canali in un unico sito, vedere la sezione [Configurare più canali su un sito di e-commerce](#configure-multiple-channels-on-an-e-commerce-site).
 
@@ -180,7 +180,7 @@ Invece di creare manualmente ogni pagina e ogni frammento, puoi esportare ogni p
 
 Un sito con più canali e/o lingue memorizza una variante univoca di ogni pagina e frammento per ogni combinazione di canale e lingua. Questo comportamento consente alle varianti di pagina di contenere dati localizzati, ma offre anche la flessibilità di modificare l'aspetto di una pagina per una variante specifica.
 
-Per informazioni su come lavorare con le varianti di pagina, vedi la sezione [Implementare varianti di pagina per ciascuna lingua](#implement-page-variants-for-each-language) di questo argomento.
+Per informazioni su come lavorare con le varianti di pagina, vedi la sezione [Implementare varianti di pagina per ciascuna lingua](#implement-page-variants-for-each-language) di questo articolo.
 
 ## <a name="configure-multiple-channels-on-an-e-commerce-site"></a>Configurare più canali su un sito di e-commerce
 
