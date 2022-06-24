@@ -1,6 +1,6 @@
 ---
-title: Mantenere la certificazione fornitore
-description: In questo argomento vengono descritti i passaggi che i fornitori possono utilizzare per mantenere le proprie certificazioni utilizzando l'area di lavoro Collaborazione fornitore.
+title: Mantenere la certificazione del fornitore
+description: In questo articolo vengono descritti i passaggi che i fornitori possono utilizzare per mantenere le proprie certificazioni utilizzando l'area di lavoro Collaborazione fornitore.
 author: v-kiarnd
 ms.date: 04/27/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b1b2cdd4389afd8997b60fe8e7a9b6851cbde199
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 37990292748c363f44d306bda0263dd117808eb1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891439"
 ---
-# <a name="maintain-vendor-certification"></a>Mantenere la certificazione fornitore
+# <a name="maintain-vendor-certification"></a>Mantenere la certificazione del fornitore
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i passaggi che i fornitori possono utilizzare per mantenere le proprie certificazioni utilizzando l'**area di lavoro Collaborazione fornitore**. Esempi di certificazioni potrebbero includere Woman Business Enterprise (WBE) o LEED (Leadership in Energy and Environment Design). I fornitori dovranno inserire le informazioni sulla certificazione nell'area di lavoro **Informazioni fornitore**. Da lì, i fornitori selezioneranno **Più dettagli** e quindi **Certificazioni**.
+In questo articolo vengono descritti i passaggi che i fornitori possono utilizzare per mantenere le proprie certificazioni utilizzando l'**area di lavoro Collaborazione fornitore**. Esempi di certificazioni potrebbero includere Woman Business Enterprise (WBE) o LEED (Leadership in Energy and Environment Design). I fornitori dovranno inserire le informazioni sulla certificazione nell'area di lavoro **Informazioni fornitore**. Da lì, i fornitori selezioneranno **Più dettagli** e quindi **Certificazioni**.
 
 ## <a name="turn-on-the-vendor-certification-feature"></a>Attivare la funzionalità di certificazione del fornitore
 

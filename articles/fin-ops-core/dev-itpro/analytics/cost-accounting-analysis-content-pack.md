@@ -1,6 +1,6 @@
 ---
-title: Contenuti Power BI di analisi contabilità industriale
-description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Analisi della contabilità industriale.
+title: Analisi della contabilità industriale contenuto Power BI
+description: In questo articolo viene descritto cosa è incluso nel contenuto Power BI Analisi della contabilità industriale.
 author: AndersGirke
 ms.date: 10/02/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d3b8832e5a5612fd0311811f43454689d5b274c36404b4fb92b710411d45e573
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d5e595c910e237481b8124cb2a0333697344b9ad
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876894"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Analisi della contabilità industriale contenuto Power BI
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto **Analisi della contabilità industriale** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo articolo viene descritto cosa è incluso nel contenuto Microsoft Power BI **Analisi della contabilità industriale**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 

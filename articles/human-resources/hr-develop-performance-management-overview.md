@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c1ef722eabc3c3bc740f9ff5d959cfa005862a9b
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 28caacaafa5ef20a3d8e1ce93851c48bd4af89a0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735725"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848196"
 ---
 # <a name="performance-management"></a>Gestione delle prestazioni
 
@@ -79,9 +79,9 @@ Il giornale di registrazione prestazioni descriverà<!--note from editor: Sugges
 
 Se si desidera allegare un documento all'obiettivo, ad esempio un certificato di completamento, è possibile associarlo nella sezione **Allegati** della pagina **Obiettivi prestazioni**. Un visualizzatore documenti viene fornito per consentire di visualizzare rapidamente il contenuto del documento allegato. 
 
-È possibile creare un modello da un obiettivo e quindi utilizzarlo per creare nuovi obiettivi basati sul modello. Quando si crea un modello da un obiettivo, la descrizione, gli argomenti e le misure di destinazione vengono salvati. Tuttavia, tutte le misure, le date di completamento e i commenti di argomento effettivi verranno rimossi.
+È possibile creare un modello da un obiettivo e quindi utilizzarlo per creare nuovi obiettivi basati sul modello. Quando si crea un modello da un obiettivo, la descrizione, gli argomenti e le misure di destinazione vengono salvati. Tuttavia, tutte le misure, le date di completamento e i commenti di articolo effettivi verranno rimossi.
 
-## <a name="performance-reviews"></a>Revisioni delle prestazioni
+## <a name="performance-reviews"></a>Revisioni prestazioni
 
 Le revisioni delle prestazioni sono più formalmente note come discussioni. Ora sono sufficientemente flessibili da supportare il riscontro continuo, i piani di sviluppo e altre revisioni formali. È possibile creare rapidamente piccole riunioni per due persone<!--note from editor: I think "one-on-one meeting" is implied by "two people."--> oppure creare una revisione più complessa che corrisponda al processo di revisione dell'azienda. 
 

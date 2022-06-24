@@ -1,6 +1,6 @@
 ---
 title: Contabilità generale integrata
-description: In questo argomento viene descritta l'integrazione dei dati di contabilità generale tra Finanza e operazioni e altre applicazioni Dynamics 365 tramite Dataverse.
+description: In questo articolo viene descritta l'integrazione dei dati di contabilità generale tra Finanza e operazioni e altre applicazioni Dynamics 365 tramite Dataverse.
 author: tonyafehr
 ms.date: 09/06/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: tfehr
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 0deb4198acb59b90bf06e4050889d028df2223e3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e83d66f3f8c8927b9baaf99838a4e242e7e011dc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063649"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847191"
 ---
 # <a name="integrated-ledger"></a>Contabilità integrata
 
@@ -22,7 +22,7 @@ ms.locfileid: "8063649"
 
 
 
-In un'applicazione aziendale, i dati della contabilità generale definiscono il core impostato per il modo in cui un'azienda fa affari. Ad esempio, i dati della contabilità generale descrivono l'anno fiscale dell'azienda, le valute in cui opera e i conti utilizzati. In questo argomento viene descritta l'integrazione dei dati finanziari di base.
+In un'applicazione aziendale, i dati della contabilità generale definiscono il core impostato per il modo in cui un'azienda fa affari. Ad esempio, i dati della contabilità generale descrivono l'anno fiscale dell'azienda, le valute in cui opera e i conti utilizzati. In questo articolo viene descritta l'integrazione dei dati finanziari di base.
 
 ## <a name="templates"></a>Modelli
 

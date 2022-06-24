@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources 2 dicembre 2020
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 2 dicembre 2020.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 2 dicembre 2020.
 author: marcelbf
 ms.date: 12/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6e02586ad3e6b4428f2ba826851db6ebc3172bdf1760b483032f5159e7864a81
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cecef6d2e73b42126b1be100dca52ebd8d9270fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848109"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Novità o modifiche in Dynamics 365 Human Resources 2 dicembre 2020
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -52,9 +52,9 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Uscita | Descrizione |
+| Numero problema | Problema | Description |
 | --- | --- | --- |
 | 514087 | BenefitEligibilityProcessResult deve includere il datetime utilizzato nell'elaborazione. | Il risultato dell'elaborazione di BenefitEligibity ora include il datetimestamp dell'ultima elaborazione che mancava in precedenza. |
 | 526903 | La registrazione ai benefit non riesce per i piani con dipendenti quando **Seleziona automaticamente i beneficiari designati** è attivato in **Parametri condivisi delle risorse umane**. | Risolto il problema a causa del quale la registrazione ai benefit non riusciva per i dipendenti quando l'opzione **Seleziona automaticamente i beneficiari designati** è attivata per i beneficiari predefiniti. |

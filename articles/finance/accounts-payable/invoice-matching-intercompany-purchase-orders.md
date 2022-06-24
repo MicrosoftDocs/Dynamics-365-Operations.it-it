@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e884e96e1275f9162b642bbe48c2d891c6434002
-ms.sourcegitcommit: 3105642fca2392edef574b60b4748a82cda0a386
+ms.openlocfilehash: d4be32a7158561bdf00a996831dca7395ce6f331
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8109970"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879742"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Abbinamento fatture e sugli ordini fornitore interaziendali
 
@@ -28,7 +28,7 @@ ms.locfileid: "8109970"
 
 La persona giuridica acquirente coinvolta in una transazione di commercio interaziendale può essere impostata per l'utilizzo dell'abbinamento fatture contabilità fornitori. Quando il campo **Registra fatture con discrepanze** della pagina **Parametri contabilità fornitori** è impostato su **Richiedi approvazione**, la convalida di abbinamento fatture verrà eseguita. In questo caso, affinché vengano registrate le fatture relative agli ordini fornitore interaziendali, devono essere soddisfatti i requisiti di registrazione sia per il commercio interaziendale sia per l'abbinamento fatture contabilità fornitori.
 
-Negli esempi riportati in questo argomento vengono utilizzate le seguenti impostazioni per il commercio interaziendale:
+Negli esempi riportati in questo articolo vengono utilizzate le seguenti impostazioni per il commercio interaziendale:
 -   Fabrikam Purchase è la persona giuridica acquirente.
 -   Fabrikam Sales è la persona giuridica venditrice.
 -   Il cliente 4020 è presente in Fabrikam Sales.

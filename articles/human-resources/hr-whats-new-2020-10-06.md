@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (6 ottobre 2020)
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 6 ottobre 2020.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 6 ottobre 2020.
 author: jcart1106
 ms.date: 10/06/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ac64218e48d2713b91af1541f94083aef3f815a2
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 4eb3e893c3243d3b2c169cb5a47001d4e0771a20
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887720"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Novità o modifiche in Dynamics 365 Human Resources (6 ottobre 2020)
 
@@ -27,7 +27,7 @@ ms.locfileid: "8062981"
 
 
 
-Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
+Questo articolo descrive le funzionalità nuove, modificate o future di Dynamics 365 Human Resources. Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
 Per ulteriori informazioni sulle nuove funzionalità e sulle date di disponibilità generale previste, vedere [Panoramica del secondo ciclo di rilascio del 2020 di Dynamics 365 Human Resources](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
@@ -48,9 +48,9 @@ La seguente funzione è generalmente disponibile con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 >[!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potrebbero esserci aggiornamenti a questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potrebbero esserci aggiornamenti a questo articolo per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo articolo.
 
-| Numero problema | Uscita | Descrizione |
+| Numero problema | Problema | Description |
 | --- | --- | --- |
 | 448806 | **Tipo di identificazione predefinito** viene esportato come **RecID** nei parametri HCM | Questa modifica all'entità dei parametri di Human Resources aggiunge una colonna che visualizza il **Tipo di identificazione predefinito**. |
 | 492923 | Le registrazioni delle attività non vengono salvate in Lifecycle Services (LCS) | Le registrazioni attività ora possono essere salvate in LCS. |

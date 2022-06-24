@@ -1,6 +1,6 @@
 ---
 title: Intrastat italiano
-description: Questo argomento contiene informazioni sulla creazione di report Intrastat in Italia.
+description: Questo articolo contiene informazioni sulla creazione di report Intrastat in Italia.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 3b676ba754cded03fdc6d566ffbfbb35c204b03a
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: a4531baf29759607c877c815b849067f718851b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874365"
 ---
 # <a name="italian-intrastat"></a>Intrastat italiano
 
@@ -631,7 +631,7 @@ Segui questi passaggi per impostare le opzioni specifiche per l'italiano in modo
 
     Per ulteriori informazioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
-2. In Dynamics 365 Finance, vai a **Imposta** > **Impostazioni** > **Parametri per il commercio estero**.
+2. In Dynamics 365 Finance, vai a **Imposta** > **Impostazione** > **Parametri per il commercio estero**.
 3. Nella scheda **Intrastat** nella scheda dettaglio **Generale** imposta i seguenti campi:
 
     - **Provincia di origine/destinazione**: Seleziona la provincia della tua azienda. Questa provincia verrà utilizzata per le spedizioni.
@@ -650,7 +650,7 @@ Segui questi passaggi per impostare le opzioni specifiche per l'italiano in modo
 6. Nella scheda dettaglio **Valore statistico** imposta l'opzione **Stampa ed esporta dati statistici** su **sì** se necessario. Questa impostazione attiva il trasferimento della sezione statistica. La sezione statistica è costituita da dati su pesi, unità aggiuntive, valori statistici, termini di consegna, orari di consegna, modalità di trasporto e aree geografiche di origine.
 
     > [!NOTE]
-    > Per una dichiarazione trimestrale, il report Intrastat non includerà la sezione statistica, né le informazioni sui termini di consegna e le modalità di trasporto. Per ulteriori informazioni, vedi la tabella nella sezione [Panoramica](#overview) in questo argomento.
+    > Per una dichiarazione trimestrale, il report Intrastat non includerà la sezione statistica, né le informazioni sui termini di consegna e le modalità di trasporto. Per ulteriori informazioni, vedi la tabella nella sezione [Panoramica](#overview) in questo articolo.
 
 7. Nella scheda **Proprietà paese/area geografica** elenca tutti i paesi o le aree geografiche con cui la tua organizzazione fa affari. Per ciascun paese o area geografica imposta i seguenti campi:
 

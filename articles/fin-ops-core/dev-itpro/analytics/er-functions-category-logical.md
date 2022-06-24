@@ -1,6 +1,6 @@
 ---
 title: Elenco delle funzioni ER nella categoria logica
-description: Questo argomento fornisce informazioni sulle funzioni logiche supportate nella creazione di report elettronici (ER).
+description: Questo articolo fornisce informazioni sulle funzioni logiche supportate nella creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 02/11/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43cbecf80ff70dac058977932c3a0bb03662cd98a88c68407051bdc584609d84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2361fa0df3fe60813e75c772134299ad948f3582
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8888193"
 ---
 # <a name="list-of-er-functions-in-the-logical-category"></a>Elenco delle funzioni ER nella categoria logica
 
 [!include [banner](../includes/banner.md)]
 
-Le funzioni logiche della creazione di report elettronici (ER) possono essere utilizzate per utilizzare i valori logici per eseguire più di un confronto in una singola espressione o testare più condizioni. Questo argomento fornisce un riepilogo di queste funzioni.
+Le funzioni logiche della creazione di report elettronici (ER) possono essere utilizzate per utilizzare i valori logici per eseguire più di un confronto in una singola espressione o testare più condizioni. Questo articolo fornisce un riepilogo di queste funzioni.
 
 ## <a name="list-of-supported-functions"></a>Elenco delle funzioni supportate
 

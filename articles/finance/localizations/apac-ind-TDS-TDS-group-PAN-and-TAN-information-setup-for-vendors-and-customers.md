@@ -1,6 +1,6 @@
 ---
 title: Impostare informazioni su gruppo TDS, PAN e TAN per clienti e fornitori
-description: In questo argomento viene illustrato come impostare le informazioni sul gruppo TDS (Tax Deducted at Source, imposta dedotta all'origine), PAN (Permanent Account Number, numero di conto permanente) e TAN (Tax Account Number, numero di conto imposta) per fornitori e clienti.
+description: In questo articolo viene illustrato come impostare le informazioni sul gruppo TDS (Tax Deducted at Source, imposta dedotta all'origine), PAN (Permanent Account Number, numero di conto permanente) e TAN (Tax Account Number, numero di conto imposta) per fornitori e clienti.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 83ec532e95bde553c3a339e2ca103ebaacdb52ae
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 1a29f59e380360b6f828dcddbe84cad229b42d17
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859768"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Impostazione delle informazioni su gruppo TDS, PAN e TAN per clienti e fornitori
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare le informazioni sul gruppo TDS (Tax Deducted at Source, imposta dedotta all'origine), PAN (Permanent Account Number, numero di conto permanente) e TAN (Tax Account Number, numero di conto imposta) per fornitori e clienti.
+In questo articolo viene illustrato come impostare le informazioni sul gruppo TDS (Tax Deducted at Source, imposta dedotta all'origine), PAN (Permanent Account Number, numero di conto permanente) e TAN (Tax Account Number, numero di conto imposta) per fornitori e clienti.
 
 1. Andare a **Contabilità fornitori \> Fornitori \> Tutti i fornitori** o **Contabilità clienti \> Clienti \> Tutti i clienti**.
 

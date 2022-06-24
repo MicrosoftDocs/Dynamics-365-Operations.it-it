@@ -1,6 +1,6 @@
 ---
-title: Domande frequenti sui flussi di lavoro
-description: In questo argomento vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
+title: Domande frequenti sul flusso di lavoro
+description: In questo articolo vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
 author: ChrisGarty
 ms.date: 03/01/2022
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e9e2000684081035f35ea55e1c773a4f6976d74
-ms.sourcegitcommit: 967b93bb42413b5b38b817f924015468312a93a0
+ms.openlocfilehash: a72fd141bb1178a3a83385c512d1a655064d5b00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8370882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896581"
 ---
 # <a name="workflow-faq"></a>Domande frequenti sul flusso di lavoro
 
@@ -26,7 +26,7 @@ ms.locfileid: "8370882"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In questo argomento vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
+In questo articolo vengono fornite le risposte alle domande frequenti relative al sistema del flusso di lavoro.
 
 ## <a name="why-are-multiple-notifications-received-when-a-work-item-is-rejected"></a>Perché si ricevono molteplici notifiche quando un elemento di lavoro viene rifiutato?
 Quando un elemento di lavoro viene rifiutato, questo viene completato come rifiutato. Un altro elemento di lavoro viene creato e assegnato all'iniziatore. Ciò significa che non si ha una notifica all'iniziatore per l'elemento di lavoro rifiutato e una notifica distinta all'utente assegnato al nuovo elemento di lavoro "modifica richiesta". 

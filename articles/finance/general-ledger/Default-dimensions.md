@@ -1,6 +1,6 @@
 ---
 title: Dimensioni finanziarie e registrazione
-description: Quando si pianifica e si imposta il piano dei conti, è necessario considerare il modo in cui i vari componenti interagiscono durante la registrazione di un documento o un giornale di registrazione. Questi componenti includono strutture dei conti, regole avanzate nonché dimensioni fisse e di bilanciamento. In questo argomento vengono descritti i componenti e il modo in cui interagiscono.
+description: Quando si pianifica e si imposta il piano dei conti, è necessario considerare il modo in cui i vari componenti interagiscono durante la registrazione di un documento o un giornale di registrazione. Questi componenti includono strutture dei conti, regole avanzate nonché dimensioni fisse e di bilanciamento. In questo articolo vengono descritti i componenti e il modo in cui interagiscono.
 author: aprilolson
 ms.date: 08/04/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a612f3b703349e1cffe300b75afd44e72ae63b2c
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: a165c4084a9f2075a54c99a7e4913a4e3c3dfe55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722801"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910115"
 ---
 # <a name="financial-dimensions-and-posting"></a>Dimensioni finanziarie e registrazione 
 
 [!include [banner](../includes/banner.md)]
 
-Quando si pianifica e si imposta il piano dei conti, è necessario considerare il modo in cui i vari componenti interagiscono durante la registrazione di un documento o un giornale di registrazione. Questi componenti includono strutture dei conti, regole avanzate nonché dimensioni fisse e di bilanciamento. In questo argomento vengono descritti i componenti e il modo in cui interagiscono.
+Quando si pianifica e si imposta il piano dei conti, è necessario considerare il modo in cui i vari componenti interagiscono durante la registrazione di un documento o un giornale di registrazione. Questi componenti includono strutture dei conti, regole avanzate nonché dimensioni fisse e di bilanciamento. In questo articolo vengono descritti i componenti e il modo in cui interagiscono.
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Componenti di dimensioni finanziarie e piano dei conti
 
@@ -46,7 +46,7 @@ Le regole avanzate sono un componente facoltativo nell'impostazione del piano de
 
 ### <a name="defaultfixed-financial-dimensions-on-the-main-account"></a>Dimensioni finanziarie predefinite/fisse nel conto principale
 
-Le dimensioni predefinite provengono da varie posizioni, come record di dati master (ad esempio, record cliente o fornitore), intestazioni di documento e conto principale. In questo argomento vengono descritte le dimensioni predefinite nel conto principale in base alla persona giuridica. È possibile definire se un conto principale ha un valore **Non fissa** o **Fisso** per ogni dimensione finanziaria utilizzata in tutte le strutture dei conti per la contabilità generale. Se una dimensione finanziaria è **Non fissa**, viene utilizzato un valore predefinito, ma tale valore può comunque essere sovrascritto. Questo comportamento si applica a tutti i valori predefiniti nel sistema, anche a quelli che provengono dai record di dati master. Se il valore di una dimensione finanziaria è **Fisso**, tale valore viene sempre applicato, indipendentemente dal fatto che sia un valore predefinito o immesso dall'utente.
+Le dimensioni predefinite provengono da varie posizioni, come record di dati master (ad esempio, record cliente o fornitore), intestazioni di documento e conto principale. In questo articolo vengono descritte le dimensioni predefinite nel conto principale in base alla persona giuridica. È possibile definire se un conto principale ha un valore **Non fissa** o **Fisso** per ogni dimensione finanziaria utilizzata in tutte le strutture dei conti per la contabilità generale. Se una dimensione finanziaria è **Non fissa**, viene utilizzato un valore predefinito, ma tale valore può comunque essere sovrascritto. Questo comportamento si applica a tutti i valori predefiniti nel sistema, anche a quelli che provengono dai record di dati master. Se il valore di una dimensione finanziaria è **Fisso**, tale valore viene sempre applicato, indipendentemente dal fatto che sia un valore predefinito o immesso dall'utente.
 
 ## <a name="order-in-which-default-dimensions-are-applied-during-posting"></a>Ordine in cui le dimensioni predefinite sono applicate durante la registrazione
 

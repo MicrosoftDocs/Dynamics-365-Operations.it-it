@@ -1,6 +1,6 @@
 ---
 title: Generare i rendiconti finanziari consolidati
-description: In questo argomento vengono descritti vari scenari in cui è possibile generare rendiconti finanziari consolidati.
+description: In questo articolo vengono descritti vari scenari in cui è possibile generare rendiconti finanziari consolidati.
 author: aprilolson
 ms.date: 07/09/2018
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 092123d6f5f74d2ff160f2ebffdc2c049ccc3f65
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: c6a132b742414a3dab635634c7bb5ba0dbea527d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846801"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Generare i rendiconti finanziari consolidati
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti vari scenari in cui è possibile generare rendiconti finanziari consolidati.
+In questo articolo vengono descritti vari scenari in cui è possibile generare rendiconti finanziari consolidati.
 
 ## <a name="single-level-and-multilevel-consolidations-across-legal-entities"></a>Consolidamenti a singolo livello e multilivello tra persone giuridiche
 Il metodo più semplice per il consolidamento tramite la creazione di report finanziari consiste nell'utilizzare gli alberi gerarchici per aggregare i dati di più società con lo stesso piano dei conti e gli stessi periodi fiscali. Di seguito vengono riportati i passaggi di alto livello per eseguire il consolidamento tramite un albero gerarchico.
@@ -153,7 +153,7 @@ La figura seguente mostra le opzioni nella definizione di report che consentono 
 ![Numero di periodo nelle opzioni della definizione di report.](./media/options-report-definition-period-number.png "Numero di periodo nelle opzioni della definizione di report")
 
 ## <a name="business-unit-consolidations"></a>Consolidamenti di Business Unit
-Questo argomento è incentrato sull'utilizzo delle definizioni e sulle gerarchie organizzative dell'albero gerarchico nella creazione di report finanziari per scopi di consolidamento. È inoltre possibile utilizzare l'albero gerarchico per creare il consolidamento di Business Unit, ad esempio i report relativi alle vendite o alle operazioni mondiali. Questi report sono un requisito comune. Per crearli, selezionare una società e una dimensione per ogni unità che si vuole utilizzare nel consolidamento. Nella figura seguente ad esempio il rollup della Business Unit viene ottenuto ripetendo ogni società nella colonna **Società** (colonna A) e identificando un gruppo di valori di dimensioni di reparto per società nella colonna **Dimensioni** (colonna D).
+Questo articolo è incentrato sull'utilizzo delle definizioni e sulle gerarchie organizzative dell'albero gerarchico nella creazione di report finanziari per scopi di consolidamento. È inoltre possibile utilizzare l'albero gerarchico per creare il consolidamento di Business Unit, ad esempio i report relativi alle vendite o alle operazioni mondiali. Questi report sono un requisito comune. Per crearli, selezionare una società e una dimensione per ogni unità che si vuole utilizzare nel consolidamento. Nella figura seguente ad esempio il rollup della Business Unit viene ottenuto ripetendo ogni società nella colonna **Società** (colonna A) e identificando un gruppo di valori di dimensioni di reparto per società nella colonna **Dimensioni** (colonna D).
 
 ![Report di consolidamento di Business Unit.](./media/business-unit-consolidation-reports.png "Report di consolidamento di Business Unit")
 
@@ -218,7 +218,7 @@ Per ottenere la conversione corretta degli importi quando si utilizzano le valut
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedere l'argomento padre di questo argomento [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](./financial-consolidations-currency-translation.md).
+Per ulteriori informazioni sul consolidamento e sulle conversioni di valuta, vedi l'articolo padre di questo articolo [Panoramica dei consolidamenti finanziari e delle conversioni di valuta](./financial-consolidations-currency-translation.md).
 
 Per ulteriori informazioni su come immettere i dettagli dei consolidamenti online, vedere [Consolidamenti finanziari online](./consolidate-online.md).
 

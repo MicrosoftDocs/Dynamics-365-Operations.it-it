@@ -1,6 +1,6 @@
 ---
 title: Utilizzare le origini dati JOIN nei mapping del modello ER per ottenere i dati da più tabelle dell'applicazione
-description: In questo argomento viene descritto come utilizzare le origini dati di tipo JOIN nella creazione di report elettronici (ER).
+description: In questo articolo viene descritto come utilizzare le origini dati di tipo JOIN nella creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 04/26/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: c9a06c048e98676e30a6652cad6634c2e13531d4ebc6d35f325f4c7153cd82ae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0994c19ad79a3e73dc787ef8d82716db637f9ab0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845543"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Utilizzare le origini dati JOIN per ottenere i dati da più tabelle dell'applicazione nei mapping del modello di report elettronici (ER)
 
@@ -40,15 +40,15 @@ Nell'origine dati configurata **Join**, quando tutte le origini dati sono di tip
 > [!NOTE]
 > L'utilizzo della funzione **VALUEIN** nelle espressioni ER che specificano le condizioni per il join dei record delle origini dati di tipo Join non è ancora supportato. Consultare la pagina [Designer formula nella creazione di report elettronici](general-electronic-reporting-formula-designer.md) per altri dettagli su questa funzione.
 
-Per ulteriori informazioni su questa funzionalità, completare l'esempio in questo argomento.
+Per ulteriori informazioni su questa funzionalità, completa l'esempio in questo articolo.
 
 ## <a name="example-use-join-data-sources-in-er-model-mappings"></a>Esempio: Utilizzare le origini dati JOIN in mapping del modello ER
 
-I seguenti passaggi spiegano come l'amministratore di sistema o lo sviluppatore di report elettronici può configurare un mapping del modello di report elettronici (ER) per ottenere dati da più tabelle di applicazioni contemporaneamente utilizzando origini dati di tipo **Join** per migliorare le prestazioni di accesso ai dati. Queste operazione possono essere eseguite per qualsiasi società di Dynamics 365 Finance o Regulatory Configuration Service (RCS).
+I seguenti passaggi spiegano come l'amministratore di sistema o lo sviluppatore di report elettronici può configurare un mapping del modello di report elettronici (ER) per ottenere dati da più tabelle di applicazioni contemporaneamente utilizzando origini dati di tipo **Join** per migliorare le prestazioni di accesso ai dati. Queste operazione possono essere eseguite in qualsiasi società di Dynamics 365 Finance o Regulatory Configuration Services (RCS).
 
 ### <a name="prerequisites"></a>Prerequisiti
 
-Per completare gli esempi in questo argomento, è necessario avere accesso a una delle seguenti opzioni a seconda del servizio utilizzato per completare questi passaggi:
+Per completare gli esempi in questo articolo, è necessario avere accesso a una delle seguenti opzioni a seconda del servizio utilizzato per completare questi passaggi:
 
 **Accesso a Finance per uno dei seguenti ruoli:**
 
@@ -257,7 +257,7 @@ Esaminare le impostazioni del componente di mapping del modello ER. Il component
 
 ## <a name="limitations"></a>Limiti
 
-Come illustrato nell'esempio di questo argomento, l'origine dati **JOIN** può essere creata da diverse origini dati che descrivono i singoli set di dati dei record che devono essere uniti. È possibile configurare tali origini dati utilizzando la funzione [FILTER](er-functions-list-filter.md) ER integrata. Quando si configura l'origine dati in modo che venga chiamata all'esterno dell'origine dati **JOIN**, è possibile utilizzare intervalli di società come parte della condizione per la selezione dei dati. L'implementazione iniziale dell'origine dati **JOIN** non supporta origini dati di questo tipo. Ad esempio, quando si chiama un'origine dati basata su [FILTER](er-functions-list-filter.md) nell'ambito di esecuzione di un'origine dati **JOIN**, se l'origine dati chiamata contiene intervalli di società come parte della condizione per la selezione dati, si verifica un'eccezione.
+Come illustrato nell'esempio di questo articolo, l'origine dati **JOIN** può essere creata da diverse origini dati che descrivono i singoli set di dati dei record che devono essere uniti. È possibile configurare tali origini dati utilizzando la funzione [FILTER](er-functions-list-filter.md) ER integrata. Quando si configura l'origine dati in modo che venga chiamata all'esterno dell'origine dati **JOIN**, è possibile utilizzare intervalli di società come parte della condizione per la selezione dei dati. L'implementazione iniziale dell'origine dati **JOIN** non supporta origini dati di questo tipo. Ad esempio, quando si chiama un'origine dati basata su [FILTER](er-functions-list-filter.md) nell'ambito di esecuzione di un'origine dati **JOIN**, se l'origine dati chiamata contiene intervalli di società come parte della condizione per la selezione dati, si verifica un'eccezione.
 
 In Microsoft Dynamics 365 Finance versione 10.0.12 (agosto 2020) è possibile utilizzare gli intervalli di società come parte della condizione per la selezione dei dati nelle origini dati basate su [FILTER](er-functions-list-filter.md) chiamate nell'ambito di esecuzione di un'origine dati **JOIN**. A causa delle limitazioni del configuratore di [query](../dev-ref/xpp-library-objects.md#query-object-model) dell'applicazione, gli intervalli di società sono supportati solo per la prima origine dati di un'origine dati **JOIN**.
 

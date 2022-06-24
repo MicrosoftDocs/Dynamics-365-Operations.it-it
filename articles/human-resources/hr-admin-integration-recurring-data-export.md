@@ -1,6 +1,6 @@
 ---
 title: Creare un'app di esportazione dati ricorrente
-description: Questo argomento descrive come creare un'applicazione logica Microsoft Azure che esporta i dati da Microsoft Dynamics 365 Human Resources su una pianificazione ricorrente.
+description: Questo articolo descrive come creare un'applicazione logica Microsoft Azure che esporta i dati da Microsoft Dynamics 365 Human Resources su una pianificazione ricorrente.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c53adc56c19acae05904edcf4109a134566d30b7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 9c840dbf4f717da3359640ee5c8231ccd129ebb2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875831"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Creare un'app di esportazione dati ricorrente
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688773"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive come creare un'applicazione logica Microsoft Azure che esporta i dati da Microsoft Dynamics 365 Human Resources su una pianificazione ricorrente. Il tutorial utilizza l'API REST del pacchetto DMF di Human Resources per esportare i dati. Dopo che i dati sono stati esportati, l'app di logica salva il pacchetto dati esportato in una cartella di Microsoft OneDrive for Business.
+Questo articolo descrive come creare un'applicazione logica Microsoft Azure che esporta i dati da Microsoft Dynamics 365 Human Resources su una pianificazione ricorrente. Il tutorial utilizza l'API REST del pacchetto DMF di Human Resources per esportare i dati. Dopo che i dati sono stati esportati, l'app di logica salva il pacchetto dati esportato in una cartella di Microsoft OneDrive for Business.
 
 ## <a name="business-scenario"></a>Scenario aziendale
 

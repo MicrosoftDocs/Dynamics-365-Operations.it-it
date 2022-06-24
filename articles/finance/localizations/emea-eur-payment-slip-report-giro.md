@@ -1,6 +1,6 @@
 ---
 title: Report della distinta di pagamento per l'Europa
-description: Di seguito vengono descritti i report della distinta di pagamento per l'Europa.
+description: In questo articolo vengono descritti i report della distinta di pagamento per l'Europa.
 author: EvgenyPopovMBS
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 114d872ea939999afb6d3652f8cd6db34d0d99e1c303d6770d8613647a04f0c2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9225e946fc3dd61eb0347a8f50561180f94ae589
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712143"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889804"
 ---
 # <a name="payment-slip-report-for-europe"></a>Report della distinta di pagamento per l'Europa
 
 [!include [banner](../includes/banner.md)]
 
-Di seguito vengono descritti i report della distinta di pagamento per l'Europa.
+In questo articolo vengono descritti i report della distinta di pagamento per l'Europa.
 
 La funzionalità per i report della distinta di pagamento è disponibile per le persone giuridiche il cui indirizzo principale si trova in Danimarca, Belgio, Norvegia, Svizzera o Finlandia. Le aziende spesso allegano le distinte di pagamento stampate alle fatture per fornire un riferimento di pagamento per la registrazione e la liquidazione. La distinta di pagamento può essere utilizzata per fatture di progetti o servizi, lettere di sollecito, note d'interesse ed estratti conto, oltre che per fatture di vendita e fatture a testo libero.
 

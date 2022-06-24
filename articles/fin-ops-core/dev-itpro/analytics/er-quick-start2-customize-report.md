@@ -1,6 +1,6 @@
 ---
 title: Modificare un formato ER per generare un documento elettronico personalizzato
-description: Questo argomento spiega come modificare un formato di report elettronico (ER) fornito da Microsoft in modo che generi un documento elettronico personalizzato.
+description: Questo articolo spiega come modificare un formato di report elettronico (ER) fornito da Microsoft in modo che generi un documento elettronico personalizzato.
 author: NickSelin
 ms.date: 06/22/2020
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14976aab474b6571c2a25907f04fd4d7ae053e74
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323819"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886793"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Modificare un formato ER per generare un documento elettronico personalizzato
 
 [!include[banner](../includes/banner.md)]
 
-Le procedure in questo argomento spiegano come un utente con il ruolo Amministratore di sistema o Consulente funzionale per la creazione di report elettronici può eseguire queste attività:
+Le procedure in questo articolo spiegano come un utente con il ruolo Amministratore di sistema o Consulente funzionale per la creazione di report elettronici può eseguire queste attività:
 
 - Configura i parametri per il [framework di report elettronico](general-electronic-reporting.md).
 - Importa le configurazioni di report elettronico fornite da Microsoft e utilizzate per generare un file di pagamento mentre un [pagamento del fornitore](../../../finance/cash-bank-management/tasks/vendor-payment-overview.md) è in fase di elaborazione.
@@ -135,7 +135,7 @@ Per ulteriori informazioni sui provider di configurazione ER, vedi [Creare provi
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat1"></a>Importare le configurazioni ER standard
 
-Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft Dynamics 365 Finance, è necessario importarle dall'[archivio](general-electronic-reporting.md#Repository) ER che era configurato per quell'istanza.
+Per aggiungere le configurazioni ER standard all'istanza corrente di Microsoft Dynamics 365 Finance, è necessario importarle dal [repository](general-electronic-reporting.md#Repository) ER che era configurato per quell'istanza.
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, seleziona il riquadro **Microsoft**, quindi seleziona **Archivi** per visualizzare l'elenco dei repository per il provider Microsoft.

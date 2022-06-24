@@ -1,6 +1,6 @@
 ---
 title: Calcolo generale
-description: In questo argomento vengono descritti i processi tipici per il calcolo e l'assegnazione dei costi generali.
+description: In questo articolo vengono descritti i processi tipici per il calcolo e l'assegnazione dei costi generali.
 author: AndersGirke
 ms.date: 10/04/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 9d704268f481fdf377033740f727e5d581a8c510
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9322fb5237afdbf73147bb549eb3f70929c46ce2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733936"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881993"
 ---
 # <a name="overhead-calculation"></a>Calcolo generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i processi tipici per il calcolo e l'assegnazione dei costi generali.
+In questo articolo vengono descritti i processi tipici per il calcolo e l'assegnazione dei costi generali.
 
 ## <a name="term-definition"></a>Definizione del termine
 
@@ -1333,10 +1333,10 @@ Elemento di costo | Oggetto di costo<br>CC099 | Oggetto di costo<br>CC001 | Ogge
 10001 Elettricità | 0,00 | 0,00 | 0,00 | 0,00 |  | 30.00 | 10.00 | 7,770.57 | 2,189.43 | 10,000.00 |
 Non classificato | 0,00 |  |  |  |  |  |  |  |  |  |
 Costo fisso | 0,00 | 0,00 | 0,00 | 0,00 | 0,00 |  |  | 776.36 | 223.64 | 1,000.00 |
-Costo variabile | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30,00 | 10,00 | 6,994.21 | 1,965.79 | 9,000.00 |
+Costo variabile | 000 | 0,00 | 0,00 | 0,00 | 0,00 | 30.00 | 10.00 | 6,994.21 | 1,965.79 | 9,000.00 |
 
 > [!NOTE]
-> In questo argomento viene illustrato come una voce di costo principale, 10001 Elettricità, viene trasferita tra gli oggetti di costo. Di conseguenza, questo costo generale viene allocato al livello più basso dell'organizzazione. In altre parole, gli oggetti costo al livello più basso sostengono il costo. Se si richiede un flusso visivo del costo tra gli oggetti costo, è possibile utilizzare le regole dei criteri di rollup del costo per visualizzare il flusso del costo. Per ulteriori informazioni, vedere [Criteri rollup costi e calcolo dei costi generali](cost-rollup.md).
+> In questo articolo viene illustrato come una voce di costo principale, 10001 Elettricità, viene trasferita tra gli oggetti di costo. Di conseguenza, questo costo generale viene allocato al livello più basso dell'organizzazione. In altre parole, gli oggetti costo al livello più basso sostengono il costo. Se si richiede un flusso visivo del costo tra gli oggetti costo, è possibile utilizzare le regole dei criteri di rollup del costo per visualizzare il flusso del costo. Per ulteriori informazioni, vedere [Criteri rollup costi e calcolo dei costi generali](cost-rollup.md).
 
 
 

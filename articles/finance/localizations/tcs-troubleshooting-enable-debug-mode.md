@@ -1,6 +1,6 @@
 ---
-title: Abilitare la modalità di debug nel servizio di calcolo delle imposte
-description: Questo argomento spiega come abilitare la modalità di debug nel servizio di calcolo delle imposte per analizzare i problemi.
+title: Abilitare la modalità di debug nel servizio di calcolo imposte
+description: Questo articolo spiega come abilitare la modalità di debug nel servizio di calcolo delle imposte per analizzare i problemi.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2f526a2341c7ef682209ed979fe686e31ad62a37
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887784"
 ---
-# <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Abilitare la modalità di debug nel servizio di calcolo delle imposte
+# <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Abilitare la modalità di debug nel servizio di calcolo imposte
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come abilitare la modalità di debug nel servizio di calcolo delle imposte per analizzare i problemi.
+Questo articolo spiega come abilitare la modalità di debug nel servizio di calcolo delle imposte per analizzare i problemi.
 
 1. Aggiungi **&debug=vs%2CconfirmExit&** all'URL di Application Object Server (AOS), quindi aggiorna la pagina.
 2. Quando selezioni **IVA** per calcolare l'IVA, un file di testo denominato **TaxServiceTroubleshootingLog.txt** viene aperto. Il file **TaxServiceTroubleshootingLog.txt** contiene **TaxableDocument** e il parametro di calcolo. Questi risultati vengono restituiti dal servizio fiscale e dalle informazioni sulle eccezioni per la risoluzione dei problemi.

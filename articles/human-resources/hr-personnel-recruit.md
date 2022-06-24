@@ -1,6 +1,6 @@
 ---
 title: Selezione dei candidati per la posizione
-description: Questo argomento descrive come selezionare i candidati in Dynamics 365 Human Resources.
+description: Questo articolo descrive come selezionare i candidati in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ef2f2c82708fd48055faa7546e7e0c4da51e7b6c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 743c78d3526db2707630229d4cf21531f9641dd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879252"
 ---
 # <a name="recruit-job-candidates"></a>Selezione dei candidati per la posizione
 
@@ -47,11 +47,12 @@ Se si desidera inviare richieste di selezione nella selezione HR, è necessario 
 
 Una volta attivate, selezionare la funzionalità con i seguenti passaggi: 
 1. Andare a **Risorse umane** > **Impostazione** > **Parametri Risorse umane**.
-2. Nella scheda  **Selezione** , impostare il campo **Selezione disabilitata** su **No**.
-3. Nel menu a discesa **Esperienza di selezione**, selezionare **Selezione HR**.   
+2. Nella scheda  **Selezione** , imposta il campo **Selezione abilitata** su **Sì**.
+3. Nel menu a discesa **Esperienza di selezione**, selezionare **Selezione HR**.  
+4. Fare clic su **Salva**. 
 
 > [!Note] 
-> Una volta selezionato **Selezione HR**, **Progetti di selezione** (legacy) sarà in sola lettura. 
+> Una volta selezionato **Selezione HR**, **Progetti di selezione** (legacy) non sarà disponibile. 
 
 
 ## <a name="add-a-recruiting-request-location"></a>Aggiungere una posizione per la richiesta di selezione

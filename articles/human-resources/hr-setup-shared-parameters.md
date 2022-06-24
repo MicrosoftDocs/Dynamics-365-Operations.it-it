@@ -1,6 +1,6 @@
 ---
 title: Configurare parametri condivisi
-description: In questo argomento viene spiegato come impostare i parametri di Human Resources tra persone giuridiche.
+description: In questo articolo viene spiegato come impostare i parametri di Human Resources tra persone giuridiche.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e59745e01905be50e6908fb9587b8afc17604382
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c0d8dbca302d90cc402feb4715a6fcc2b935d8b1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906184"
 ---
 # <a name="configure-shared-parameters"></a>Configurare parametri condivisi
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-È necessario impostare parametri condivisi per i record condivisi tra società, ad esempio **Record posizione**. In questo argomento viene spiegato come impostare i parametri di Human Resources tra persone giuridiche.
+È necessario impostare parametri condivisi per i record condivisi tra società, ad esempio **Record posizione**. In questo articolo viene spiegato come impostare i parametri di Human Resources tra persone giuridiche.
 
 Alcuni tipi di record, ad esempio i record **Posizione**, sono condivisi tra le società. Per questi record, è necessario configurare dei parametri condivisi. Ad esempio, è possibile utilizzare la pagina **Parametri condivisi Risorse umane** per configurare i parametri HR in tutte le persone giuridiche. 
 

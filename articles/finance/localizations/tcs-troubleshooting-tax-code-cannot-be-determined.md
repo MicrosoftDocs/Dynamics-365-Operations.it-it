@@ -1,6 +1,6 @@
 ---
-title: Non è possibile determinare il codice imposta
-description: Questo argomento spiega come risolvere l'errore "Impossibile determinare il codice imposta" nel servizio di calcolo delle imposte.
+title: Impossibile determinare il codice fiscale
+description: Questo articolo spiega come risolvere l'errore "Impossibile determinare il codice imposta" nel servizio di calcolo delle imposte.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 3c0914f0013ad2de61cd5a59e3092fef149742e4
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 6a74724de38cf362900277ab9addc8e6894f7689
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877861"
 ---
-# <a name="tax-code-cannot-be-determined"></a>Non è possibile determinare il codice imposta
+# <a name="tax-code-cannot-be-determined"></a>Impossibile determinare il codice fiscale
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra i passaggi per la risoluzione dei problemi che puoi eseguire se viene visualizzato un errore "Impossibile determinare il codice imposta" nel servizio di calcolo delle imposte.
+Questo articolo illustra i passaggi per la risoluzione dei problemi che puoi eseguire se viene visualizzato un errore "Impossibile determinare il codice imposta" nel servizio di calcolo delle imposte.
 
 ## <a name="symptom"></a>Sintomo
 
@@ -121,7 +121,7 @@ Per risolvere il problema, procedi come segue.
 
 ## <a name="mitigation"></a>Attenuazione
 
-1. Esegui ogni passaggio della sezione [Risoluzione dei problemi](#troubleshoot) di questo argomento e correggi l'installazione come richiesto. Se il gruppo di imposte e il gruppo di imposte articolo non sono stati determinati correttamente, vedi [Impossibile trovare risultati corrispondenti](tcs-troubleshooting-no-matching-result.md).
+1. Esegui ogni passaggio della sezione [Risoluzione dei problemi](#troubleshoot) di questo articolo e correggi l'installazione come richiesto. Se il gruppo di imposte e il gruppo di imposte articolo non sono stati determinati correttamente, vedi [Impossibile trovare risultati corrispondenti](tcs-troubleshooting-no-matching-result.md).
 2. Se non esiste un'intersezione tra il gruppo di imposte e il gruppo di imposte articolo, crea una nuova versione della funzionalità in RCS e correggi l'impostazione.
 
     - Vai a **Funzionalità fiscali** \> **Codici imposta e gruppi** > **Gruppo di imposte articolo**.

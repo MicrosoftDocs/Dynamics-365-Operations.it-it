@@ -1,6 +1,6 @@
 ---
 title: Configurare l'esperienza della Guida per le app per finanza e operazioni
-description: Questo argomento fornisce informazioni sui componenti del sistema della Guida per alcune app Microsoft Dynamics 365.
+description: Questo articolo fornisce informazioni sui componenti del sistema della Guida per alcune app Microsoft Dynamics 365.
 author: margoc
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac06e258a96bb50bb6de7957e3e5ed07e966127
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b002b374e5da619460c496b8f0d7a70b7194afd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071010"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900131"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurare l'esperienza della Guida per le app per finanza e operazioni
 
@@ -29,7 +29,7 @@ ms.locfileid: "8071010"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In questo argomento, troverai una panoramica dei componenti del sistema della Guida per le app per finanza e operazioni, come Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources. L'argomento spiega inoltre come collegare tali componenti e fornisce un riepilogo del processo per la creazione di una Guida personalizzata.
+In questo articolo, troverai una panoramica dei componenti del sistema della Guida per le app per finanza e operazioni, come Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce e Dynamics 365 Human Resources. L'articolo spiega inoltre come collegare tali componenti e fornisce un riepilogo del processo per la creazione di una Guida personalizzata.
 
 ## <a name="help-architecture"></a>Architettura della Guida
 

@@ -1,6 +1,6 @@
 ---
 title: Importare dati delle società affiliate da file
-description: Questo argomento spiega come preparare i dati da sistemi esterni in modo che possano essere importati in Microsoft Dynamics 365 Finance.
+description: Questo articolo spiega come preparare i dati da sistemi esterni in modo che possano essere importati in Microsoft Dynamics 365 Finance.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 045ecd6dfb95ccf38773293d44834531668ac1ff
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733821"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846772"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importare dati delle società affiliate da file
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come preparare i dati da sistemi esterni in modo che possano essere importati in Microsoft Dynamics 365 Finance. Usa la pagina **Consolida con importazione** (**Consolidamenti \> Consolida con importazione**) per preparare il trasferimento dei dati delle società affiliate da sistemi esterni.
+Questo articolo spiega come preparare i dati da sistemi esterni in modo che possano essere importati in Microsoft Dynamics 365 Finance. Usa la pagina **Consolida con importazione** (**Consolidamenti \> Consolida con importazione**) per preparare il trasferimento dei dati delle società affiliate da sistemi esterni.
 
 1. Crea una persona giuridica affiliata per il consolidamento. Per ulteriori informazioni su come creare persone giuridiche, vedi [Creare una persona giuridica](../../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md). Per ulteriori informazioni, vedi [Preparare una persona giuridica da utilizzare nel processo di consolidamento](prepare-company-for-consolidation.md) e [Impostare una persona giuridica affiliata per il consolidamento](set-up-subsidiary-company-for-consolidation.md).
 

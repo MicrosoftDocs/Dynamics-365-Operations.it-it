@@ -1,6 +1,6 @@
 ---
 title: Incorporare app di terze parti
-description: In questo argomento viene spiegato come incorporare app di terze parti per aumentare la funzionalità del prodotto.
+description: In questo articolo viene spiegato come incorporare app di terze parti per aumentare la funzionalità del prodotto.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 89f101bcf33080f6a73664fe7c3fe6719de04a4e
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 3c07befc7150ff0a121fd3aaa0b5233df9f431e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488236"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868610"
 ---
 # <a name="embed-third-party-apps"></a>Incorporare app di terze parti
 
 [!include [banner](../includes/banner.md)]
 
-Molti clienti utilizzano una vasta gamma di applicazioni per gestire la propria attività. Alcune di queste applicazioni sono app Web di terze parti che funzionano insieme alle app Finance and Operations. Per fornire un'esperienza utente più integrata, puoi utilizzare la funzionalità **App a tutta pagina** per incorporare quelle app di terze parti direttamente nelle app Finance and Operations (a condizione che le app di terze parti consentano di essere incorporate). In questo modo, gli utenti possono accedere ai siti Web e alle app di cui hanno bisogno senza dover cambiare scheda o finestra.
+Molti clienti utilizzano una vasta gamma di applicazioni per gestire la propria attività. Alcune di queste applicazioni sono app Web di terze parti che funzionano insieme alle app per la finanza e le operazioni. Per fornire un'esperienza utente più integrata, puoi utilizzare la funzionalità **App a tutta pagina** per incorporare quelle app di terze parti direttamente nelle app per la finanza e le operazioni (a condizione che le app di terze parti consentano di essere incorporate). In questo modo, gli utenti possono accedere ai siti Web e alle app di cui hanno bisogno senza dover cambiare scheda o finestra.
 
-Prima di poter incorporare app di terze parti nel prodotto, è necessario attivare la funzionalità **App a tutta pagina** in Gestione funzionalità. È quindi possibile utilizzare uno dei seguenti metodi per incorporare un'app o un sito Web di terze parti. Questi metodi sono analoghi ai metodi utilizzati per incorporare app canvas da Microsoft Power Apps in app Finance and Operations.
+Prima di poter incorporare app di terze parti nel prodotto, è necessario attivare la funzionalità **App a tutta pagina** in Gestione funzionalità. È quindi possibile utilizzare uno dei seguenti metodi per incorporare un'app o un sito Web di terze parti. Questi metodi sono analoghi ai metodi utilizzati per incorporare app canvas da Microsoft Power Apps in app per la finanza e le operazioni.
 
 - Incorpora l'app o il sito Web in una pagina esistente come nuova scheda (scheda pivot, scheda dettaglio, pannello o sezione dell'area di lavoro).
 - Crea una nuova esperienza a tutta pagina per l'app o il sito Web dal dashboard.
@@ -53,14 +53,14 @@ Utilizzare questa procedura se si desidera integrare una pagina esistente nel si
     > - L'app o il sito Web devono essere configurati per consentire a se stessi di essere incorporati.
 
 6. Selezionare **Salva** per incorporare l'app nella pagina. L'app viene aggiunta come ultima scheda o sezione nel gruppo.
-7. Verifica che l'app venga visualizzata come previsto. Se non viene eseguito il rendering dell'app, vedere la sezione [Risoluzione dei problemi](#troubleshooting) più avanti in questo argomento.
+7. Verifica che l'app venga visualizzata come previsto. Se non viene eseguito il rendering dell'app, vedi la sezione [Risoluzione dei problemi](#troubleshooting) più avanti in questo articolo.
 8. Apri il selettore di visualizzazione e seleziona **Salva** (se l'app deve essere associata alla visualizzazione corrente) o **Salva con nome** (per salvare l'app in una visualizzazione diversa).
 
     Se la pagina non dispone di un selettore di visualizzazioni (ad esempio, se la pagina è una finestra di dialogo o un'area di lavoro), puoi saltare questo passaggio.
 
 ## <a name="embed-a-website-as-a-full-page-experience-from-the-dashboard"></a>Incorporare un sito Web come esperienza a tutta pagina dal dashboard
 
-Utilizzare questa procedura se l'app che si desidera incorporare non è correlata a una pagina esistente o se si desidera solo un'esperienza a tutta pagina per l'app all'interno dell'app Finance and Operations.
+Utilizzare questa procedura se l'app che si desidera incorporare non è correlata a una pagina esistente o se si desidera solo un'esperienza a tutta pagina per l'app all'interno dell'app per la finanza e le operazioni.
 
 1. Aprire il dashboard.
 2. Seleziona e tieni premuto (o fai clic con il pulsante destro del mouse) sulla dashboard, seleziona **Personalizza** e quindi seleziona **Aggiungi una pagina**.
@@ -75,7 +75,7 @@ Utilizzare questa procedura se l'app che si desidera incorporare non è correlat
     > - L'app o il sito Web devono essere configurati per consentire a se stessi di essere incorporati.
 
 5. Selezionare **Salva** per aggiungere l'app al dashboard come nuovo riquadro.
-6. Seleziona il nuovo riquadro nella dashboard e conferma che l'app viene visualizzata come previsto. Se non viene eseguito il rendering dell'app, vedi la sezione [Risoluzione dei problemi](#troubleshooting) più avanti in questo argomento.
+6. Seleziona il nuovo riquadro nella dashboard e conferma che l'app viene visualizzata come previsto. Se non viene eseguito il rendering dell'app, vedi la sezione [Risoluzione dei problemi](#troubleshooting) più avanti in questo articolo.
 
 ## <a name="sharing-embedded-apps"></a>Condivisione di app incorporate
 
@@ -89,7 +89,7 @@ Dopo aver incorporato un'app utilizzando uno dei metodi descritti nelle sezioni 
 
 ## <a name="viewing-embedded-apps"></a>Visualizzazione di app incorporate
 
-Per visualizzare un'app incorporata in una pagina nelle app Finance and Operations, apri la pagina che include l'app incorporata. Ricorda che in alcune pagine è possibile accedere alle app utilizzando il pulsante **Power Apps** nel riquadro azioni standard. In alternativa, possono apparire direttamente in una pagina come nuova scheda, Scheda dettaglio o sezione in un'area di lavoro.
+Per visualizzare un'app incorporata in una pagina nelle app per la finanza e le operazioni, apri la pagina che include l'app incorporata. Ricorda che in alcune pagine è possibile accedere alle app utilizzando il pulsante **Power Apps** nel riquadro azioni standard. In alternativa, possono apparire direttamente in una pagina come nuova scheda, Scheda dettaglio o sezione in un'area di lavoro.
 
 ## <a name="editing-or-removing-embedded-apps"></a>Modifica o rimozione di app incorporate
 
@@ -126,6 +126,6 @@ Se il rendering di un sito Web non viene eseguito correttamente dopo essere stat
 
 ### <a name="developer-modeling-a-website-on-a-form"></a>[Sviluppatore] Modellazione di un sito Web su un modulo
 
-Sebbene questo argomento sia incentrato sull'incorporamento di app o siti Web di terze parti tramite la personalizzazione, gli sviluppatori possono anche incorporarli in un modulo utilizzando l' esperienza di sviluppo di Visual Studio. Basta aggiungere un controllo **WebsiteHostControl** al modulo. Le proprietà dei metadati disponibili per il controllo forniscono le stesse funzionalità dell'esperienza di personalizzazione.
+Sebbene questo articolo sia incentrato sull'incorporamento di app o siti Web di terze parti tramite la personalizzazione, gli sviluppatori possono anche incorporarli in un modulo utilizzando l' esperienza di sviluppo di Visual Studio. Basta aggiungere un controllo **WebsiteHostControl** al modulo. Le proprietà dei metadati disponibili per il controllo forniscono le stesse funzionalità dell'esperienza di personalizzazione.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

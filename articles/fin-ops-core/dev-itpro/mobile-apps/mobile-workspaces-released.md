@@ -1,6 +1,6 @@
 ---
 title: Aree di lavoro mobili disponibili
-description: In questo argomento sono elencate le aree di lavoro mobili disponibili.
+description: In questo articolo sono elencate le aree di lavoro mobili disponibili.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4398bd8cf944ef11a0463d937aeaa3b5cc109142
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 79abd22bab9ec88358fa039060a67006fc53cb5d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811006"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868642"
 ---
 # <a name="available-mobile-workspaces"></a>Aree di lavoro mobili disponibili
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-In questo argomento sono elencate le aree di lavoro mobili disponibili con l'app per la finanza e le operazioni (Dynamics 365) per dispositivi mobili. La tabella seguente indica il piano di ritiro per ciascuna di queste aree di lavoro mobili in termini di pianificazione o meno di un'esperienza sostitutiva.  
+In questo articolo sono elencate le aree di lavoro mobili disponibili con l'app per la finanza e le operazioni (Dynamics 365) per dispositivi mobili. La tabella seguente indica il piano di ritiro per ciascuna di queste aree di lavoro mobili in termini di pianificazione o meno di un'esperienza sostitutiva.  
 
 
 | Area di lavoro mobile     | Description   | Piano di deprecazione   |

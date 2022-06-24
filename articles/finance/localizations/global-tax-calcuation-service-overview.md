@@ -1,6 +1,6 @@
 ---
 title: Panoramica calcolo delle imposte
-description: In questo argomento vengono illustrati l'ambito e le funzionalità generali di Calcolo imposte.
+description: In questo articolo vengono illustrati l'ambito e le funzionalità generali di Calcolo imposte.
 author: wangchen
 ms.date: 03/02/2022
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c6d0952b98334dc0c0a2e780a7c6f54a7811185
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: c9511643806a2201b3379dec9bbca01a8ccbcdc3
+ms.sourcegitcommit: 58af7348be9ce60a86a111ede42a7fc5b2b77708
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811744"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "8941732"
 ---
 # <a name="tax-calculation-overview"></a>Panoramica calcolo delle imposte
 
@@ -163,11 +163,12 @@ I seguenti paesi/aree geografiche per l'indirizzo primario di una persona giurid
 - Germania
 - Ungheria
 - Islanda
+- Irlanda
 - Italia
 - Lettonia
 - Lituania
 - Paesi Bassi
-- Norvegia
+- Regno di Norvegia
 - Polonia
 - Svezia
 - Svizzera

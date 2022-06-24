@@ -1,6 +1,6 @@
 ---
 title: Configurare l'integrazione con Dayforce
-description: Questo argomento descrive i passi di configurazione necessari per l'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce.
+description: Questo articolo descrive i passi di configurazione necessari per l'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce.
 author: twheeloc
 ms.date: 08/19/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4e95a78364fcee2c03614e110f9b5983abfde37
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5a5d296dd4c1b09065fc47673dd540d8c122c482
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691334"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896136"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurare l'integrazione con Dayforce
 
@@ -28,7 +28,7 @@ ms.locfileid: "8691334"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo argomento. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
+L'integrazione tra Microsoft Dynamics 365 Human Resources e Ceridian Dayforce si basa su vari passaggi di configurazione descritti in questo articolo. È necessario configurare l'integrazione sia in Human Resources che in Dayforce prima di poter elaborare un ciclo di pagamenti.
 
 Quando si utilizza un servizio, ad esempio Dayforce, per completare i cicli di pagamenti, è necessario abilitare l'integrazione in Human Resources. L'integrazione richiede dati specifici da Human Resources. Di conseguenza, è necessario verificare che i dati che vengono mappati a Dayforce siano configurati in Human Resources in modo che supporti l'integrazione. L'integrazione utilizza le seguenti categorie generiche di dati:
 
@@ -37,7 +37,7 @@ Quando si utilizza un servizio, ad esempio Dayforce, per completare i cicli di p
 - Data di retribuzione, ad esempio i cicli di pagamenti, i periodi retributivi e i codici reddito
 - Dati del lavoratore
 
-Questo argomento descrive i passi da seguire per abilitare l'integrazione e spiega i tipi di dati e i dettagli di configurazione che l'integrazione richiede.
+Questo articolo descrive i passi da seguire per abilitare l'integrazione e spiega i tipi di dati e i dettagli di configurazione che l'integrazione richiede.
 
 ## <a name="enable-the-integration"></a>Abilitare l'integrazione
 

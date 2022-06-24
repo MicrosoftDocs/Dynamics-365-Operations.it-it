@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources 20 settembre 2021
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 20 settembre 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 20 settembre 2021.
 author: marcelbf
 ms.date: 09/20/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a3fd8705c7735cb3c0945f71651fafa767a7addf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 47a46b7210b718aea7ec737971cb826eb5d0652d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858100"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-20-2021"></a>Novità o modifiche in Dynamics 365 Human Resources 20 settembre 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le caratteristiche che sono nuove, cambiate o in arrivo in Microsoft Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Microsoft Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -49,9 +49,9 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo argomento per includere le correzioni di bug che sono state inserite nella build dopo che questo argomento è stato inizialmente pubblicato.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Problema | Descrizione |
+| Numero problema | Problema | Description |
 |---|---|---|
 | 619774 | La modifica della descrizione dell'indirizzo non viene sincronizzata in Dataverse in tempo reale. | Quando si modifica la descrizione per l'indirizzo di un lavoratore, la descrizione aggiornata non viene sincronizzata in tempo reale in Dataverse. La sottoscrizione nella tabella **Posizione logistica** è stata aggiornata per l'invio di un aggiornamento. |
 | 614603| Errore nella pagina **Lavoratore** quando il parametro **Azioni personale lavoratori** non è selezionato. | Quando si assume un nuovo lavoratore o si passa alla pagina **Lavoratore**, viene visualizzato il seguente errore: "Il campo **Tipo di azione personale** deve essere compilato", anche se le **Azioni personale** sono disattivate. |

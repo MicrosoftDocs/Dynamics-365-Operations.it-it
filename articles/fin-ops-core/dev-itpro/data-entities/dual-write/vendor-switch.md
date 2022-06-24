@@ -1,6 +1,6 @@
 ---
 title: Passa tra strutture fornitore
-description: In questo argomento viene descritto come passare tra l'integrazione dei dati dei fornitori tra le app per finanza e operazioni e Dataverse.
+description: In questo articolo viene descritto come passare tra l'integrazione dei dati dei fornitori tra le app per finanza e operazioni e Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 09/20/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 80de21b5e46e4f274626fa311f16e81312a2f5ab
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 88be9a4c6e2a860e8ac496e9a135ecabd8474c97
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901566"
 ---
 # <a name="switch-between-vendor-designs"></a>Passa tra strutture fornitore
 

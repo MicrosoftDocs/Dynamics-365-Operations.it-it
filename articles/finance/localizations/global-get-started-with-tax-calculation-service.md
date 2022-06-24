@@ -1,6 +1,6 @@
 ---
-title: Introduzione a Calcolo imposte
-description: In questo argomento viene illustrato come configurare Calcolo imposte.
+title: Introduzione al calcolo delle imposte
+description: In questo articolo viene illustrato come configurare Calcolo imposte.
 author: wangchen
 ms.date: 03/25/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0ab9c0cf974114c4fa9b673e5601e138acef534d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: c2293102057ac055f0958c1c6b1de2a19cb331d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685913"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855285"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introduzione al calcolo delle imposte
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni su come iniziare a usare Calcolo imposte. Le sezioni in questo argomenti ti guidano attraverso i passaggi di progettazione di alto livello e configurazione in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance, e Dynamics 365 Supply Chain Management. 
+Questo articolo fornisce informazioni su come iniziare a usare Calcolo imposte. Le sezioni in questo articolo ti guidano attraverso i passaggi di progettazione di alto livello e configurazione in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance, e Dynamics 365 Supply Chain Management. 
 
 La configurazione consiste in tre passaggi principali.
 
@@ -77,11 +77,11 @@ Dopo aver completato questi passaggi, le impostazioni seguenti vengono sincroniz
 - Fasce IVA
 - Fasce IVA articoli
 
-Le altre sezioni di questo argomento forniscono ulteriori dettagli sui passaggi di configurazione.
+Le altre sezioni di questo articolo forniscono ulteriori dettagli sui passaggi di configurazione.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di poter completare le procedure restanti in questo argomento, è necessario soddisfare i seguenti prerequisiti:<!--TO HERE-->
+Prima di poter completare le procedure restanti in questo articolo, è necessario soddisfare i seguenti prerequisiti:<!--TO HERE-->
 
 - Devi avere accesso al tuo account LCS e devi avere un progetto LCS distribuito che ha un ambiente Tier 2 o superiore che esegue Dynamics 365 versione 10.0.21 o successiva.
 - Devi creare un ambiente RCS per la tua organizzazione e devi avere accesso al tuo account. Per maggiori informazioni su come creare un ambiente RCS, vedere [Panoramica di Regulatory Configuration Service](rcs-overview.md).
@@ -212,7 +212,7 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
     | Vendite            | BEL       | FRA     | BEL_EU       |
     
     > [!NOTE]
-    > Se la fascia IVA predefinita nelle righe del documento imponibile è corretta, lascia vuota questa matrice. Per ulteriori informazioni, vedi la sezione [Progettazione runtime](#runtime) in questo argomento.
+    > Se la fascia IVA predefinita nelle righe del documento imponibile è corretta, lascia vuota questa matrice. Per ulteriori informazioni, vedi la sezione [Progettazione runtime](#runtime) in questo articolo.
 
 22. Nella scheda **Applicabilità del gruppo d'imposta dell'articolo** , seleziona le colonne che sono necessarie per determinare il codice d'imposta corretto e poi seleziona **Aggiungi**. Immetti o seleziona i valori per ciascuna colonna. Il campo del **gruppo fiscale dell'articolo** sarà l'output di questa matrice. Se questa scheda non è configurata, verrà utilizzato il gruppo di imposte sulle vendite dell'articolo sulla linea della transazione.
 
@@ -224,7 +224,7 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
     | D0003     | Ridotta        |
 
     > [!NOTE]
-    > Se la fascia IVA articolo predefinita nelle righe del documento imponibile è corretta, lascia vuota questa matrice. Per ulteriori informazioni, vedi la sezione [Progettazione runtime](#runtime) in questo argomento.
+    > Se la fascia IVA articolo predefinita nelle righe del documento imponibile è corretta, lascia vuota questa matrice. Per ulteriori informazioni, vedi la sezione [Progettazione runtime](#runtime) in questo articolo.
 
     Per maggiori informazioni su come i codici fiscali sono determinati in Calcolo imposta, vedi [Logica di determinazione dei gruppi di imposte sulle vendite e dei gruppi di imposte sulle vendite degli articoli](global-sales-tax-group-determination.md).
 
@@ -243,7 +243,7 @@ La configurazione in questa sezione viene eseguita dalla persona giuridica. Devi
 2. Nella scheda **Generale**, impostare i seguenti campi:
 
     - **Abilita il servizio di calcolo delle tasse** - Seleziona questa casella di controllo per abilitare il calcolo delle tasse per la persona giuridica. Se non è abilitato per la persona giuridica corrente, la persona giuridica continuerà a utilizzare il motore fiscale esistente per determinare e calcolare le imposte.
-    - **Configurazione funzionalità** - Seleziona una configurazione e una versione della funzione fiscale pubblicata per la persona giuridica. Per ulteriori informazioni su come configurare e completare una funzione fiscale pubblicata, vedi la sezione precedente di questo argomento.
+    - **Configurazione funzionalità** - Seleziona una configurazione e una versione della funzione fiscale pubblicata per la persona giuridica. Per ulteriori informazioni su come configurare e completare una funzione fiscale pubblicata, vedi la sezione precedente di questo articolo.
     - **Processo aziendale** - Seleziona i processi aziendali da abilitare.
 
 3. Nella scheda **Calcolo** definisci la regola di arrotondamento prevista per la persona giuridica. Per maggiori informazioni sulla logica di arrotondamento, vedere [Regole di arrotondamento del calcolo delle tasse](https://go.microsoft.com/fwlink/?linkid=2166988).

@@ -1,6 +1,6 @@
 ---
 title: Risultati dei modelli di Machine Learning
-description: Questo argomento illustra le matrici di confusione, i problemi di classificazione e l'accuratezza nei modelli di apprendimento automatico. Lo scopo è migliorare la tua comprensione dell'accuratezza nei risultati della previsione ML.
+description: Questo articolo illustra le matrici di confusione, i problemi di classificazione e l'accuratezza nei modelli di apprendimento automatico. Lo scopo è migliorare la tua comprensione dell'accuratezza nei risultati della previsione ML.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c57a023995e0bb58d4fba0a4fd2f147d07e51348
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 23df5979231fbd6908b6f1e7c3aca5dd3e0e733d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725962"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910173"
 ---
 # <a name="results-of-machine-learning-models"></a>Risultati dei modelli di Machine Learning
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra le matrici di confusione, i problemi di classificazione e l'accuratezza nei modelli di apprendimento automatico. Lo scopo è migliorare la tua comprensione dell'accuratezza nei risultati della previsione ML. Il gruppo di destinatari di destinazione comprende tecnici, analisti e responsabili che desiderano sviluppare le proprie conoscenze e competenze nella data science.
+Questo articolo illustra le matrici di confusione, i problemi di classificazione e l'accuratezza nei modelli di apprendimento automatico. Lo scopo è migliorare la tua comprensione dell'accuratezza nei risultati della previsione ML. Il gruppo di destinatari di destinazione comprende tecnici, analisti e responsabili che desiderano sviluppare le proprie conoscenze e competenze nella data science.
 
 ## <a name="confusion-matrix"></a>Matrice di confusione
 Dopo il training di un problema ML supervisionato su una serie di dati storici, viene testato utilizzando i dati che vengono conservati dal processo di training. In questo modo, puoi confrontare le previsioni del modello di training con i valori effettivi. La matrice di confusione fornisce un mezzo per valutare il successo di un problema di classificazione e dove vengono commessi errori (cioè, dove diventa "confuso").
@@ -73,16 +73,16 @@ La precisione è uno strumento importante per comunicare con esperti di dominio 
 
 Per lo scenario di previsione dei pagamenti, è possibile impostare un obiettivo per il modello ML che includa fattori in diversi comportamenti di pagamento. L'obiettivo è che il modello dovrebbe migliorare su un'ipotesi ingenua riducendo il numero di risposte errate di almeno il 50 percento. In altre parole, vuoi una precisione dell'obiettivo che divida la differenza tra l'accuratezza di un'ipotesi ingenua e il 100 percento.
 
-La tabella seguente riassume questo principio per le matrici di confusione in questo argomento.
+La tabella seguente riassume questo principio per le matrici di confusione in questo articolo.
 
-| Modello   | Ipotesi ingenua | Destinatari | Accuratezza del modello | L'obiettivo è stato raggiunto?                                          |
+| Modello   | Ipotesi ingenua | Destinazione | Accuratezza del modello | L'obiettivo è stato raggiunto?                                          |
 |---------|-------------|--------|----------------|-----------------------------------------------------------|
 | Modello 1 | 0.50        | 0.75   | 0.73           | Quasi. Questo modello migliora notevolmente l'ipotesi. |
 | Modello 2 | 0.80        | 0.90   | 0.83           | N. È necessario un miglioramento.                              |
 
 ## <a name="classification-f1-accuracy"></a>Accuratezza F1 della classificazione
 
-L'ultima considerazione in questo argomento è una misura più avanzata delle prestazioni di classificazione ML nota come precisione F1.
+L'ultima considerazione in questo articolo è una misura più avanzata delle prestazioni di classificazione ML nota come precisione F1.
 
 Prima di poter definire l'accuratezza F1, è necessario introdurre due metriche aggiuntive: precisione e richiamo. La precisione indica quante del numero totale di previsioni specificate come positive sono state assegnate correttamente. Questa metrica è nota anche come valore predittivo positivo. Il richiamo è il numero totale di casi positivi effettivi previsti correttamente. Questa metrica è nota anche come sensibilità.
 
@@ -97,7 +97,7 @@ La misura F1 combina precisione e richiamo. Il risultato è la media armonica de
 
 - F1 = 2 × (Precisione × Richiamo) ÷ (Precisione + Richiamo)
 
-Vediamo un esempio concreto. In precedenza in questo argomento, abbiamo utilizzato un esempio di un modello che prevedeva se un animale era un cane o un gatto. L'illustrazione è ripetuta qui.
+Vediamo un esempio concreto. In precedenza in questo articolo, abbiamo utilizzato un esempio di un modello che prevedeva se un animale era un cane o un gatto. L'illustrazione è ripetuta qui.
 
 [![Esempio di previsione delle specie (ripetuto).](./media/species-prediction-matrix.png)](./media/species-prediction-matrix.png)
 
@@ -111,7 +111,7 @@ Come puoi vedere, il valore F1 è compreso tra i valori di precisione e richiamo
 
 Sebbene l'accuratezza F1 non sia così facile da capire, aggiunge sfumature al numero di accuratezza di base. Può anche aiutare con set di dati non bilanciati, come mostrerà la discussione seguente.
 
-La sezione [Accuratezza del modello](#model-accuracy) di questo argomento ha confrontato le seguenti due matrici di confusione. Anche se il primo modello aveva un'accuratezza inferiore, è stato ritenuto un modello più utile perché mostrava un miglioramento maggiore rispetto all'ipotesi predefinita di un pagamento puntuale.
+La sezione [Accuratezza del modello](#model-accuracy) di questo articolo ha confrontato le seguenti due matrici di confusione. Anche se il primo modello aveva un'accuratezza inferiore, è stato ritenuto un modello più utile perché mostrava un miglioramento maggiore rispetto all'ipotesi predefinita di un pagamento puntuale.
 
 ![Esempio di previsione di pagamento rispetto ai valori effettivi.](media/payment-prediction-matrix.png)
 

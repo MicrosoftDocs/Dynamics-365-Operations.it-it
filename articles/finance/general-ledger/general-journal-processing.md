@@ -1,6 +1,6 @@
 ---
 title: Elaborazione giornale di registrazione generale
-description: Questo argomento descrive le funzionalità di Microsoft Dynamics 365 Finance che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e che il controllo interno non sia compromesso.
+description: Questo articolo descrive le funzionalità di Microsoft Dynamics 365 Finance che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e che il controllo interno non sia compromesso.
 author: kweekley
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cfe4af0c666fb2accb6737edb2de6e0b6e7cdf1
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 2055c028f7bfe8edc9faec8f791fff2fbfe08bfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896378"
 ---
 # <a name="general-journal-processing"></a>Elaborazione giornale di registrazione generale
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive le funzionalità che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e che il controllo interno non sia compromesso.  
+Questo articolo descrive le funzionalità che possono contribuire a rendere l'elaborazione del giornale di registrazione generale più semplice e che possono inoltre garantire che i dati corretti siano acquisiti e che il controllo interno non sia compromesso.  
 
 ## <a name="journal-names"></a>Nomi giornale di registrazione
 

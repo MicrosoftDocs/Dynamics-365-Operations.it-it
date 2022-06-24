@@ -1,6 +1,6 @@
 ---
 title: Aggiornare i numeri e le date dei certificati per transazioni TDS
-description: In questo argomento viene illustrato come aggiornare i numeri e le date dei certificati recuperabili registrati per i conti fornitore, cliente e CoGe per l'imposta dedotta all'origine (TDS).
+description: In questo articolo viene illustrato come aggiornare i numeri e le date dei certificati recuperabili registrati per i conti fornitore, cliente e CoGe per l'imposta dedotta all'origine (TDS).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7f8b5713e8ce3f9e9c89b8b3bc6ea84fe1f0fa54
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 147a27261a4a282550f0bacede78c9edd38b4fe6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724813"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904443"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Aggiornare i numeri e le date dei certificati per transazioni TDS
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come aggiornare i numeri e le date dei certificati recuperabili registrati per i conti fornitore, cliente e CoGe per l'imposta dedotta all'origine (TDS). Puoi visualizzare i certificati per le transazioni TDS nella pagina **Certificati recuperabili**. Puoi aggiornare i certificati utilizzando la pagina **Aggiorna certificati**.
+In questo articolo viene illustrato come aggiornare i numeri e le date dei certificati recuperabili registrati per i conti fornitore, cliente e CoGe per l'imposta dedotta all'origine (TDS). Puoi visualizzare i certificati per le transazioni TDS nella pagina **Certificati recuperabili**. Puoi aggiornare i certificati utilizzando la pagina **Aggiorna certificati**.
 
 Segui questi passaggi per aggiornare i numeri e le date dei certificati per transazioni TDS.
 

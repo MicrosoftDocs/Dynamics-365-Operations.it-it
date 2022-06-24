@@ -1,6 +1,6 @@
 ---
 title: Supporto della funzione fiscale per ordini di trasferimento
-description: In questo argomento viene illustrato il nuovo supporto della funzione fiscale per gli ordini di trasferimento utilizzando il servizio di calcolo delle imposte.
+description: In questo articolo viene illustrato il nuovo supporto della funzione fiscale per gli ordini di trasferimento utilizzando il servizio di calcolo delle imposte.
 author: Kai-Cloud
 ms.date: 10/13/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d95ea6795dc5777bfd37f8fbb3ebc47f2db337a0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689216"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869983"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Supporto della funzione fiscale per ordini di trasferimento
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sul calcolo delle imposte e sull'integrazione della registrazione negli ordini di trasferimento. Questa funzionalità consente di impostare il calcolo delle imposte e la registrazione negli ordini di trasferimento per i trasferimenti di scorte. Ai sensi della normativa sull'imposta sul valore aggiunto (IVA) dell'Unione europea (UE), i trasferimenti di scorte sono considerati fornitura intracomunitaria e acquisizioni intracomunitarie.
+In questo articolo vengono fornite informazioni sul calcolo delle imposte e sull'integrazione della registrazione negli ordini di trasferimento. Questa funzionalità consente di impostare il calcolo delle imposte e la registrazione negli ordini di trasferimento per i trasferimenti di scorte. Ai sensi della normativa sull'imposta sul valore aggiunto (IVA) dell'Unione europea (UE), i trasferimenti di scorte sono considerati fornitura intracomunitaria e acquisizioni intracomunitarie.
 
 Per configurare e utilizzare questa funzionalità, è necessario completare tre passaggi principali:
 

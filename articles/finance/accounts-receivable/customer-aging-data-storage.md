@@ -1,6 +1,6 @@
 ---
 title: Archiviazione dati di aging cliente
-description: Questo argomento descrive il processo di utilizzo dell'archiviazione esterna per i dati di aging dei clienti. È possibile eseguire il processo di archiviazione dei dati di aging del cliente per rendere disponibile l'output per l'esportazione in un sistema esterno.
+description: Questo articolo descrive il processo di utilizzo dell'archiviazione esterna per i dati di aging dei clienti. È possibile eseguire il processo di archiviazione dei dati di aging del cliente per rendere disponibile l'output per l'esportazione in un sistema esterno.
 author: JodiChristiansen
 ms.date: 10/27/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1af4b4cbf503369565ee64ad8889ee9e59a92b3f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d7a66485cc9a538f5c3999009b6dbe295d7a5b9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735523"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894144"
 ---
 # <a name="customer-aging-data-storage"></a>Archiviazione dati di aging cliente
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive il processo di utilizzo dell'archiviazione esterna per i dati di aging dei clienti. In Microsoft Dynamics 365 Finance è possibile eseguire il processo **Archiviazione dati di aging cliente** per rendere disponibile l'output per l'esportazione in un sistema esterno. Quando si esegue il processo, le stesse opzioni di report di aging disponibili nel sistema sono disponibili per i sistemi esterni. I dettagli sono sempre inclusi nei dati esportati.
+Questo articolo descrive il processo di utilizzo dell'archiviazione esterna per i dati di aging dei clienti. In Microsoft Dynamics 365 Finance è possibile eseguire il processo **Archiviazione dati di aging cliente** per rendere disponibile l'output per l'esportazione in un sistema esterno. Quando si esegue il processo, le stesse opzioni di report di aging disponibili nel sistema sono disponibili per i sistemi esterni. I dettagli sono sempre inclusi nei dati esportati.
 
 Può essere utile rendere disponibili i dati di aging dei clienti a un sistema esterno per l'archiviazione nei casi in cui l'output contenga molti clienti e/o molte transazioni. Se l'esistente report **Aging del cliente** esegue un timeout perché ha troppi dati da stampare, questa funzione fornisce un modo alternativo per ottenere gli stessi dati.
 

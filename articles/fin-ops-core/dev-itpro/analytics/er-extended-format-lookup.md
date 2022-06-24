@@ -1,6 +1,6 @@
 ---
 title: Ricerca estesa di formati di report elettronici (ER)
-description: Questo argomento descrive come impostare un riferimento al formato ER nella ricerca di formati ER quando il formato richiesto si trova nel repository globale.
+description: Questo articolo descrive come impostare un riferimento al formato ER nella ricerca di formati ER quando il formato richiesto si trova nel repository globale.
 author: NickSelin
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 2b69ba1b3b27f447b58cf98b1140a481b01b735a
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: ae544b8ed4e280ffcaf58d893056a4bf5169e379
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901650"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Consentire agli utenti di impostare un riferimento al formato ER richiedendo un formato presente nel repository globale
 

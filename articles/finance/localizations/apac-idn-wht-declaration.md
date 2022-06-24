@@ -1,6 +1,6 @@
 ---
 title: Report di ritenuta d'acconto per l'Indonesia
-description: In questo argomento viene descritto come configurare e generare i report di ritenuta d'acconto per l'Indonesia.
+description: In questo articolo viene descritto come configurare e generare i report di ritenuta d'acconto per l'Indonesia.
 author: sndray
 ms.date: 12/15/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2021-12-02
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6cf2f9240ea747054578c52343af34b15c250f38
-ms.sourcegitcommit: f51e74ee9162fe2b63c6ce236e514840795acfe1
+ms.openlocfilehash: 8acd9442ff4f0b7c19e3b4fcf211acce002e43d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943660"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883183"
 ---
 # <a name="withholding-tax-report-for-indonesia-id-00005"></a>Report di ritenuta d'acconto per l'Indonesia (ID-00005)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come impostare e generare il file della ritenuta d'acconto PPH che le persone giuridiche in Indonesia utilizzano per segnalare le transazioni di ritenuta nell'applicazione e-Bupot.
+Questo articolo spiega come impostare e generare il file della ritenuta d'acconto PPH che le persone giuridiche in Indonesia utilizzano per segnalare le transazioni di ritenuta nell'applicazione e-Bupot.
 
 L'autorità fiscale indonesiana (DGT) stabilisce che gli imprenditori tassabili (PKP) che sono registrati presso KPP Pratama come detentori di ritentuta d'acconto/esattore di imposta sul reddito (PPh) Articolo 23 e/o articolo 26 devono dichiarare elettronicamente gli articoli 23 e 26 della dichiarazione dei redditi utilizzando l'applicazione e-Bupot. 
 

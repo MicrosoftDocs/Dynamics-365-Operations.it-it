@@ -1,6 +1,6 @@
 ---
 title: Modificare i formati per la creazione di report elettronici riapplicando modelli di Excel
-description: Questo argomento descrive come modificare il formato di creazione di report elettronici (ER) utilizzato per generare documenti aziendali riapplicando un modello di Excel modificato.
+description: Questo articolo descrive come modificare il formato di creazione di report elettronici (ER) utilizzato per generare documenti aziendali riapplicando un modello di Excel modificato.
 author: NickSelin
 ms.date: 05/18/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 626450b05789c93f63675a55e050649c862c86f6
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 50b115448bc89bba7e9abeb8062d03d31a163b64
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906733"
 ---
 # <a name="modify-electronic-reporting-formats-by-reapplying-excel-templates"></a>Modificare i formati per la creazione di report elettronici riapplicando i modelli di Excel
 

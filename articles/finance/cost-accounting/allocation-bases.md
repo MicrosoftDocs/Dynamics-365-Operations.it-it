@@ -1,6 +1,6 @@
 ---
 title: Basi di allocazione
-description: Vengono fornite le informazioni sulle basi di allocazione. Le basi di allocazione sono componenti chiave della contabilità industriale che vengono utilizzati principalmente per allocare i costi generali.
+description: In questo articolo vengono fornite le informazioni sulle basi di allocazione. Le basi di allocazione sono componenti chiave della contabilità industriale che vengono utilizzati principalmente per allocare i costi generali.
 author: AndersGirke
 ms.date: 05/24/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bb50fe7d258bdd56529bc5d0ef55dae309d3edec
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 138a1a101610fc0f18ef3d8d2d3d336e5a48a1da
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8733793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894086"
 ---
 # <a name="allocation-bases"></a>Basi di allocazione 
 
@@ -174,11 +174,11 @@ La contabilità industriale supporta una raccolta di misure statistiche utilizza
 - Strumento di esportazione/importazione della gestione dati 
 - Misure statistiche
 
-Per recuperare le misure statistiche dal sistema, è necessario un modello provider misure statistiche. Per altre informazioni vedere Modello provider misure statistiche. (Si aggiungerà il collegamento quando l'argomento è stato scritto).
+Per recuperare le misure statistiche dal sistema, è necessario un modello provider misure statistiche. Per altre informazioni vedere Modello provider misure statistiche. (Si aggiungerà il collegamento quando l'articolo viene scritto).
 
 **Modelli provider misure statistiche**
 
-| Nome  | Funzione | Tabella di origine  | Campo somma      | Campo data     |
+| Name  | Funzione | Tabella di origine  | Campo somma      | Campo data     |
 |-------|----------|---------------|----------------|----------------|
 | FTE | Conteggio    | HcmEmployment | Non applicabile | Non applicabile |
 

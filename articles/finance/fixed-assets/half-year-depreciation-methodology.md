@@ -1,6 +1,6 @@
 ---
 title: Metodologia della convenzione di ammortamento semestrale
-description: In questo argomento viene descritto il metodo utilizzato dai cespiti per calcolare l'ammortamento utilizzando la convenzione semestrale, che calcola sei mesi di ammortamento durante il primo e l'ultimo anno di utilizzo di un cespite.
+description: In questo articolo viene descritto il metodo utilizzato dai cespiti per calcolare l'ammortamento utilizzando la convenzione semestrale, che calcola sei mesi di ammortamento durante il primo e l'ultimo anno di utilizzo di un cespite.
 author: moaamer
 ms.date: 08/17/2019
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: fb15a293bb8cec1b4faba7bcbd29eb4df7916786
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: fac20f7a31eca7922ed079f9554437f28448620d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879597"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Metodologia della convenzione di ammortamento semestrale
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In questo argomento viene descritto il metodo utilizzato nei cespiti per calcolare l'ammortamento utilizzando la convenzione semestrale. La convenzione semestrale calcola sei mesi di ammortamento durante il primo e l'ultimo anno di utilizzo di un cespite. Per ulteriori informazioni sulle convenzioni di ammortamento, vedere [Metodi e convenzioni di ammortamento](Fixed-asset-depreciation-conventions.md). 
+In questo articolo viene descritto il metodo utilizzato nei cespiti per calcolare l'ammortamento utilizzando la convenzione semestrale. La convenzione semestrale calcola sei mesi di ammortamento durante il primo e l'ultimo anno di utilizzo di un cespite. Per ulteriori informazioni sulle convenzioni di ammortamento, vedere [Metodi e convenzioni di ammortamento](Fixed-asset-depreciation-conventions.md). 
 
 Quando si utilizza la convenzione di ammortamento semestrale, il sistema utilizza l'anno di acquisizione o l'anno in cui il cespite è stato messo in uso, quindi calcola cinque anni di ammortamento da quell'anno e aggiunge sei mesi. Per illustrare questo processo, si consideri un cespite che è stato acquistato al prezzo di 50.000 e messo in uso nell'aprile 2020. Si supponga inoltre che il cespite abbia una durata di utilizzo di cinque anni.
 

@@ -1,6 +1,6 @@
 ---
 title: Impostare i parametri di un formato ER per la persona giuridica
-description: In questo argomento viene descritto come impostare i parametri di un formato per la creazione di report elettronici (ER) per la persona giuridica.
+description: In questo articolo viene descritto come impostare i parametri di un formato per la creazione di report elettronici (ER) per la persona giuridica.
 author: NickSelin
 ms.date: 03/25/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: f72ce72e9cbd268efc6ab09dbec7009794d69613
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: dbcf968dde432da182b5bd2d6a7bcb9f83dad6fa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644501"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890214"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Impostare i parametri di un formato ER per la persona giuridica
 
@@ -30,7 +30,7 @@ ms.locfileid: "8644501"
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi descritti in [Configurare i formati ER per utilizzare i parametri specificati per la persona giuridica](er-app-specific-parameters-configure-format.md).
 
-Per completare gli esempi in questo argomento, è necessario disporre dell'accesso a Microsoft Dynamics 365 Finance per uno dei seguenti ruoli:
+Per completare gli esempi in questo articolo, è necessario disporre dell'accesso a Microsoft Dynamics 365 Finance per uno dei seguenti ruoli:
 
 - Sviluppatore per la creazione di report elettronici
 - Consulente funzionale per la creazione di report elettronici
@@ -221,7 +221,7 @@ I parametri specifici dell'applicazione di un formato di ER sono dipendenti dall
 
 È inoltre possibile utilizzare questo approccio di esportazione/importazione per trasferire i parametri specifici di un'applicazione relativi al formato ER originariamente configurati in un'istanza di Finance in un'altra istanza di Finance.
 
-Se si configurano parametri specifici dell'applicazione per una versione di un formato ER e quindi si importa una versione successiva dello stesso formato nell'istanza Finance corrente, i parametri specifici dell'applicazione esistenti non verranno applicati alla versione importata a meno che non si utilizzi la funzionalità **Utilizza parametri specifici dell'applicazione delle versioni precedenti dei formati ER**. Per ulteriori informazioni, vedi la sezione [Riutilizza parametri esistenti](#reuse-existing-parameters) più avanti in questo argomento.
+Se si configurano parametri specifici dell'applicazione per una versione di un formato ER e quindi si importa una versione successiva dello stesso formato nell'istanza Finance corrente, i parametri specifici dell'applicazione esistenti non verranno applicati alla versione importata a meno che non si utilizzi la funzionalità **Utilizza parametri specifici dell'applicazione delle versioni precedenti dei formati ER**. Per ulteriori informazioni, vedi la sezione [Riutilizza parametri esistenti](#reuse-existing-parameters) più avanti in questo articolo.
 
 Quando si seleziona un file per l'importazione, la struttura dei parametri specifici dell'applicazione in quel file viene confrontata con la struttura delle origini dati corrispondente del tipo **Ricerca** nel formato ER selezionato per l'importazione. Per impostazione predefinita, l'importazione viene eseguita solo quando la struttura di ciascun parametro specifico dell'applicazione corrisponde alla struttura dell'origine dati corrispondente nel formato ER selezionato per l'importazione. Se le strutture non corrispondono, viene visualizzato un messaggio di avviso che informa che non è possibile completare l'importazione. Se si forza l'importazione, i parametri specifici dell'applicazione esistenti per il formato ER selezionato verranno cancellati e sarà necessario configurarli dall'inizio.
 

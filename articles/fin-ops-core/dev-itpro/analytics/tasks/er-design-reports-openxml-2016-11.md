@@ -1,6 +1,6 @@
 ---
 title: ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)
-description: Questo argomento descrive come creare una nuova configurazione di reporting elettronico che contiene un modello per la generazione di documenti elettronici in formato OPENXML.
+description: Questo articolo descrive come creare una nuova configurazione di reporting elettronico che contiene un modello per la generazione di documenti elettronici in formato OPENXML.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b2325a5389e0bfe1efff17e5cd117ad8dbcd65d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908415"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Progettare una configurazione per la creazione di report nel formato OPENXML (novembre 2016)
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici (ER) che contiene un modello per la generazione di documenti elettronici in formato OPENXML. La configurazione verrà utilizzata per elaborare i pagamenti fornitore.
+In questo articolo viene descritto come un utente assegnato al ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici (ER) che contiene un modello per la generazione di documenti elettronici in formato OPENXML. La configurazione verrà utilizzata per elaborare i pagamenti fornitore.
 
 In questo esempio verrà creata una configurazione per la società di esempio Litware, Inc. Queste operazioni possono essere eseguite nella società GBSI.
 

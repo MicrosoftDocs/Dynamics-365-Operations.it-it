@@ -1,6 +1,6 @@
 ---
 title: Panoramica dei ratei
-description: Questo argomento descrive i ratei e fornisce informazioni su come impostarli e su come creare le transazioni.
+description: Questo articolo descrive i ratei e fornisce informazioni su come impostarli e su come creare le transazioni.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62b56e698d3d9eeec08824eb799d74a8c6792ea7
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 2e10842929ba58b845a1df949ecb7c776ae077e8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735234"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904703"
 ---
 # <a name="accruals-overview"></a>Panoramica dei ratei
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive i ratei e fornisce informazioni su come impostarli e su come creare le transazioni.
+Questo articolo descrive i ratei e fornisce informazioni su come impostarli e su come creare le transazioni.
 
 I ratei vengono utilizzati nella contabilità per competenza per tenere traccia dei ricavi riconosciuti nel periodo in cui vengono incassati, non quando il pagamento viene ricevuto, e per tenere traccia delle spese (costi) riconosciute quando si verificano, non quando viene effettuato il pagamento.
 

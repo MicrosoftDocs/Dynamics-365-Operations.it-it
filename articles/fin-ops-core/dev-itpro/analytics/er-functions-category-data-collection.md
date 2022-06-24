@@ -1,6 +1,6 @@
 ---
 title: Elenco delle funzioni ER nella categoria raccolta dati
-description: Questo argomento fornisce informazioni sulle funzioni di raccolta dati supportate nella creazione di report elettronici (ER).
+description: Questo articolo fornisce informazioni sulle funzioni di raccolta dati supportate nella creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 12/04/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2046931732f2d1c1ca040c1c84d4b182c2214f2f44a5a90fceda49298445b743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8d4f5068bedcf1f15ae5257e29004a4773ef84c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908563"
 ---
 # <a name="list-of-er-functions-in-the-data-collection-category"></a>Elenco delle funzioni ER nella categoria raccolta dati
 
 [!include [banner](../includes/banner.md)]
 
-Le funzioni di raccolta dati della creazione di report elettronici (ER) vengono utilizzate per eseguire il conteggio e la somma in un formato ER in esecuzione, in base ai dati dell'output già generati in formato **Testo** o **Xml**. Questo approccio viene utilizzato per migliorare le prestazioni di un formato ER in esecuzione, per immettere valori di totali in esecuzione nei documenti generati e per altri scopi. Questo argomento fornisce un riepilogo di queste funzioni.
+Le funzioni di raccolta dati della creazione di report elettronici (ER) vengono utilizzate per eseguire il conteggio e la somma in un formato ER in esecuzione, in base ai dati dell'output già generati in formato **Testo** o **Xml**. Questo approccio viene utilizzato per migliorare le prestazioni di un formato ER in esecuzione, per immettere valori di totali in esecuzione nei documenti generati e per altri scopi. Questo articolo fornisce un riepilogo di queste funzioni.
 
 ## <a name="list-of-supported-functions"></a>Elenco delle funzioni supportate
 

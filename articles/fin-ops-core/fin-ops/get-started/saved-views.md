@@ -1,6 +1,6 @@
 ---
 title: Visualizzazioni salvate
-description: In questo argomento viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
+description: In questo articolo viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
 author: jasongre
 ms.date: 04/25/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: e10137ff5d11ed06c32613e601e2fa7423e270ac
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644789"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845415"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -196,7 +196,7 @@ Per l'elenco di tutte le visualizzazioni pubblicate per la pagina, si ha a dispo
 
 ## <a name="managing-views-globally"></a>Gestire globalmente le visualizzazioni
 
-Sebbene alcune funzionalità di gestione siano presenti in ogni pagina, come indicato in questo argomento, gli **amministratori di sistema** e gli **amministratori di visualizzazioni salvate** possono gestire le visualizzazioni in modo più olistico per il sistema tramite la pagina **Personalizzazione**. In particolare, questa pagina presenta le seguenti sezioni e funzionalità: 
+Sebbene alcune funzionalità di gestione siano presenti in ogni pagina, come indicato in questo articolo, gli **amministratori di sistema** e gli **amministratori di visualizzazioni salvate** possono gestire le visualizzazioni in modo più olistico per il sistema tramite la pagina **Personalizzazione**. In particolare, questa pagina presenta le seguenti sezioni e funzionalità: 
 
 - **Visualizzazioni pubblicate** - Questa sezione elenca tutte le visualizzazioni che sono state pubblicate per l'organizzazione. Da qui, è possibile ripubblicare una visualizzazione dopo aver modificato i ruoli di sicurezza o le persone giuridiche a cui è destinata la visualizzazione. È possibile anche esportare, eliminare o annullare la pubblicazione di queste visualizzazioni. È possibile utilizzare l'azione **Salva come personale** per creare una copia personale della visualizzazione, in modo da poter aggiornare la visualizzazione o ottenere una migliore comprensione del relativo contenuto. 
 - **Visualizzazioni non pubblicate**: questa sezione elenca tutte le visualizzazioni dell'organizzazione nel tuo sistema che non sono attualmente pubblicate. Queste visualizzazioni vengono spesso inserite nel sistema tramite la funzionalità di importazione. È possibile pubblicare, esportare o eliminare queste visualizzazioni. L'azione **Pubblicazione rapida** aggiunta nella versione 10.0.12 consente di pubblicare più visualizzazioni da questa sezione in un'unica azione, utilizzando il ruolo di sicurezza esistente e le configurazioni della persona giuridica. È possibile utilizzare l'azione **Salva come personale** per creare copie personali di queste visualizzazioni, in modo da ottenere una migliore comprensione del relativo contenuto.

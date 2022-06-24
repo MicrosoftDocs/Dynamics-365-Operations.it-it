@@ -1,6 +1,6 @@
 ---
 title: Designer formula per calcoli TDS
-description: Questo argomento fornisce un esempio di come viene calcolata l'imposta dedotta all'origine (TDS) in base alla formula definita per ogni codice imposta TDS nel gruppo TDS associato alla transazione.
+description: Questo articolo fornisce un esempio di come viene calcolata l'imposta dedotta all'origine (TDS) in base alla formula definita per ogni codice imposta TDS nel gruppo TDS associato alla transazione.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e60db55fd3bbcfb8dc34670b3bbbd39336b04efb
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1196f7258c898a55f3f29ddce7457e6f527185d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889863"
 ---
 # <a name="formula-designer-for-tds-calculations"></a>Designer formula per calcoli TDS
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce un esempio di come viene calcolata l'imposta dedotta all'origine (TDS) in base alla formula definita per ogni codice imposta TDS. I codici imposta TDS sono definiti nel gruppo TDS associato alla transazione. Prima di progettare le formule TDS, completa la configurazione di base necessaria per TDS come descritto nei passaggi seguenti. 
+Questo articolo fornisce un esempio di come viene calcolata l'imposta dedotta all'origine (TDS) in base alla formula definita per ogni codice imposta TDS. I codici imposta TDS sono definiti nel gruppo TDS associato alla transazione. Prima di progettare le formule TDS, completa la configurazione di base necessaria per TDS come descritto nei passaggi seguenti. 
 
 - Configura i gruppi di componenti TDS utilizzando la pagina **Gruppi componenti ritenuta d'acconto**. 
 - Imposta i componenti TDS e associa il gruppo di componenti TDS ai componenti TDS utilizzando la pagina **Componenti ritenuta d'acconto**. 

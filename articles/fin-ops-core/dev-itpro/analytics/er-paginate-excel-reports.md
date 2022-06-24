@@ -1,6 +1,6 @@
 ---
 title: Progettare un formato ER per impaginare i documenti generati in Excel
-description: In questo argomento viene illustrato come progettare un formato di report elettronico (ER) per impaginare un documento generato in Microsoft Excel.
+description: In questo articolo viene illustrato come progettare un formato di report elettronico (ER) per impaginare un documento generato in Microsoft Excel.
 author: NickSelin
 ms.date: 09/14/2021
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: ce29225c4bce24adc2abefc3d3d6f20774852af4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488341"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909280"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Progettare un formato ER per impaginare i documenti generati in Excel
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come un utente con il ruolo di Amministratore di sistema o Consulente funzionale per la creazione di report elettronici può configurare un formato per la [creazione di report elettronici (ER)](general-electronic-reporting.md) per generare documenti in uscita in Microsoft Excel e gestire l'impaginazione dei documenti.
+Questo articolo spiega come un utente con il ruolo di Amministratore di sistema o Consulente funzionale per la creazione di report elettronici può configurare un formato per la [creazione di report elettronici (ER)](general-electronic-reporting.md) per generare documenti in uscita in Microsoft Excel e gestire l'impaginazione dei documenti.
 
 In questo esempio, modificherai il formato ER fornito da Microsoft utilizzato per stampare il report di controllo quando la dichiarazione Intrastat è [generata](../../../finance/localizations/tasks/eur-00002-eu-intrastat-declaration.md). Questo report consente di osservare le transazioni Intrastat dichiarate. Le modifiche ti permetteranno di gestire l'impaginazione dei report di controllo che vengono generati.
 
-Le procedure in questo argomento possono essere completate nella società **DEMF**. Non è richiesta alcuna codifica. Prima di inziare scarica e salva i file seguenti.
+Le procedure in questo articolo possono essere completate nella società **DEMF**. Non è richiesta alcuna codifica. Prima di inziare scarica e salva i file seguenti.
 
 | descrizione       | Nome file |
 |-------------------|-----------| 
@@ -165,7 +165,7 @@ Utilizza quindi il formato ER personalizzato per generare il report di controllo
 
 ### <a name="repeat-the-replacement-of-the-current-excel-template-in-the-custom-er-format"></a>Ripetere la sostituzione del modello di Excel corrente nel formato ER personalizzato
 
-1. Segui i passaggi nella sezione [Sostituire il modello di Excel corrente nel formato ER personalizzato](#replace-template) di questo argomento. Tuttavia, al passaggio 7, seleziona il file **ERIIntrastatReportDemo2.xlsx**.
+1. Segui i passaggi nella sezione [Sostituire il modello di Excel corrente nel formato ER personalizzato](#replace-template) di questo articolo. Tuttavia, al passaggio 7, seleziona il file **ERIIntrastatReportDemo2.xlsx**.
 2. Nella pagina **Progettazione formati**, espandi **Intrastat**.
 3. Denomina i componenti del formato [intervallo](er-fillable-excel.md#range-component) che sono stati aggiunti al formato ER modificabile per sincronizzare la struttura con la struttura del modello Excel applicato:
 
@@ -406,7 +406,7 @@ Per modificare la visibilità, aggiorna la proprietà **Abilitato** dei componen
 
 ## <a name="generate-an-intrastat-declaration-control-report-updated"></a>Generare un report di controllo dichiarazione Intrastat (aggiornamento)
 
-1. Assicurati di disporre di 24 transazioni nella pagina **Intrastat**. Ripeti i passaggi nella sezione [Generare un report di controllo dichiarazione Intrastat](#generate-intrastat-control-report) di questo argomento per generare e rivedere il report di controllo.
+1. Assicurati di disporre di 24 transazioni nella pagina **Intrastat**. Ripeti i passaggi nella sezione [Generare un report di controllo dichiarazione Intrastat](#generate-intrastat-control-report) di questo articolo per generare e rivedere il report di controllo.
 
     Tutte le transazioni sono presentate nella prima pagina. I totali e i contatori della pagina corrispondono ai totali e ai contatori del report. L'intervallo dell'intestazione della pagina è nascosto nella prima pagina, perché l'intestazione del report contiene già i titoli delle colonne. L'intestazione e il piè di pagina sono nascosti nella seconda pagina perché quella pagina non contiene transazioni.
 

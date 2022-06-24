@@ -1,6 +1,6 @@
 ---
 title: Supporto a doppia valuta per le imposte
-description: Questo argomento spiega come estendere la funzionalità di contabilità a doppia valuta nel dominio fiscale e l'impatto sul calcolo e sulla registrazione delle imposte
+description: Questo articolo spiega come estendere la funzionalità di contabilità a doppia valuta nel dominio fiscale e l'impatto sul calcolo e sulla registrazione delle imposte
 author: EricWang
 ms.date: 12/11/2020
 ms.topic: article
@@ -15,17 +15,17 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fcd5a3afb442d9c85aba12b7782cf09f88f0e51a
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 13d70d964a83c2efba090244d549bdb38ad25af2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713046"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909042"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Supporto a doppia valuta per l'IVA
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come estendere la contabilità a doppia valuta per l'IVA e l'impatto sul calcolo, sulla registrazione e sulla liquidazione dell'IVA.
+Questo articolo spiega come estendere la contabilità a doppia valuta per l'IVA e l'impatto sul calcolo, sulla registrazione e sulla liquidazione dell'IVA.
 
 La funzione di doppia valuta per Dynamics 365 Finance è stata introdotta nella versione 8.1 (ottobre 2018). Cambia il modo in cui vengono calcolate le voci contabili nella valuta di dichiarazione.
 
@@ -89,7 +89,7 @@ Questa funzione si applica solo alle nuove transazioni. Per le transazioni impos
 
 Per evitare lo scenario precedente, si consiglia di modificare questo valore di parametro in un nuovo periodo di liquidazione delle imposte (pulito) che non contenga alcuna transazione fiscale non liquidata. Per modificare questo valore nel mezzo di un periodo di dichiarazione fiscale, eseguire il programma "Liquida e registra IVA" per il periodo di liquidazione imposte corrente prima di modificare questo valore di parametro.
 
-Questa funzionalità aggiungerà voci contabili che chiariscono i guadagni e le perdite dagli scambi di valuta. Le registrazioni verranno effettuate nei conti profitti e perdite di rettifica della valuta quando la rivalutazione viene effettuata durante la liquidazione dell'imposta sulle vendite. Per ulteriori informazioni, vedi la sezione [Saldo automatico della liquidazione imposte nella valuta di dichiarazione](#tax-settlement-auto-balance-in-reporting-currency) più avanti in questo argomento.
+Questa funzionalità aggiungerà voci contabili che chiariscono i guadagni e le perdite dagli scambi di valuta. Le registrazioni verranno effettuate nei conti profitti e perdite di rettifica della valuta quando la rivalutazione viene effettuata durante la liquidazione dell'imposta sulle vendite. Per ulteriori informazioni, vedi la sezione [Saldo automatico della liquidazione imposte nella valuta di dichiarazione](#tax-settlement-auto-balance-in-reporting-currency) più avanti in questo articolo.
 
 > [!NOTE]
 > Durante la liquidazione, le informazioni per le dimensioni finanziarie vengono prese dai conti IVA, che sono conti di stato patrimoniale, e inserite nei conti profitti e perdite di rettifica valutaria, che sono conti di conto profitti e perdite. Poiché le restrizioni sul valore delle dimensioni finanziarie differiscono tra i conti dello stato patrimoniale e i conti del conto profitti e perdite, può verificarsi un errore durante il processo di liquidazione e post IVA. Per evitare di dover modificare le strutture dei conti, è possibile attivare la funzione "Compila dimensioni finanziarie nei conti profitti/perdite di rettifica valutaria realizzati per la liquidazione delle imposte sulle vendite". Questa funzionalità costringerà la derivazione delle dimensioni finanziarie ai conti profitti/perdite di aggiustamento valutario. 

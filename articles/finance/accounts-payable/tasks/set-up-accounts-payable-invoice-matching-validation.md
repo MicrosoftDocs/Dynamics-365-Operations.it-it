@@ -1,6 +1,6 @@
 ---
-title: Impostare la convalida dell'abbinamento fatture Contabilità fornitori
-description: In questo argomento vengono fornite informazioni su come impostare la convalida dell'abbinamento fatture Contabilità fornitori.
+title: Impostare la convalida dell'abbinamento fatture della contabilità fornitori
+description: In questo articolo vengono fornite informazioni su come impostare la convalida dell'abbinamento fatture Contabilità fornitori.
 author: abruer
 ms.date: 02/14/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 602666df4cf015791398939a3067a2cae85a12eb
-ms.sourcegitcommit: 6102f70d4595d01b90afe5b23dfd8ec2ea030653
+ms.openlocfilehash: 86cc5cf688e3b66cf976fc7f507bd8f8df757612
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8182557"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904961"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Impostare la convalida dell'abbinamento fatture Contabilità fornitori
 
@@ -44,7 +44,7 @@ Sono disponibili quattro diversi tipi di convalida dell'abbinamento.
 5. Selezionare o deselezionare la casella di controllo **Abbina totali fatture** per abbinare i totali fatture effettivi con i totali previsti.
     * Specificare se visualizzare un'icona nel caso in cui una discrepanza di abbinamento fatture superi la tolleranza. È possibile specificare di visualizzare l'icona se una discrepanza positiva supera la tolleranza oppure se una discrepanza positiva o negativa supera la tolleranza.  
     * Ad esempio, la tolleranza è del 5% e l'importo fattura totale dell'ordine fornitore è 100,00. Di conseguenza, se l'importo totale della fattura supera 105,00 verrà visualizzata un'icona di abbinamento prezzo. Se si seleziona **Se il valore è maggiore o minore della tolleranza**, verrà visualizzata l'icona anche nel caso in cui l'importo della fattura sia inferiore a 95,00.  
-6. Nel campo **Percentuale di tolleranza totali fatture**, immettere lo scostamento percentuale accettabile. Questo valore è il valore predefinito per la società. Questo valore può essere sostituito per specifici fornitori, utilizzando la pagina **Tolleranze totali fatture**. Per informazioni su come sostituire la percentuale di tolleranza dei totali fattura per uno specifico fornitore, vedere la sezione "Impostare la tolleranza di abbinamento dei totali fattura per i fornitori" più avanti in questo argomento.
+6. Nel campo **Percentuale di tolleranza totali fatture**, immettere lo scostamento percentuale accettabile. Questo valore è il valore predefinito per la società. Questo valore può essere sostituito per specifici fornitori, utilizzando la pagina **Tolleranze totali fatture**. Per informazioni su come sostituire la percentuale di tolleranza dei totali fattura per uno specifico fornitore, vedi la sezione "Impostare la tolleranza di abbinamento dei totali fattura per i fornitori" più avanti in questo articolo.
 7. Impostare **Abbinamento prezzo e quantità**.
 8. Nel campo **Criteri di abbinamento riga** selezionare un valore da utilizzare come criterio predefinito per la persona giuridica che si sta utilizzando. **Non obbligatorio** significa non è necessaria alcuna verifica dei prezzi delle singole righe della fattura rispetto al prezzo dell'ordine fornitore alle quantità della fattura o del documento di trasporto. **Abbinamento a due elementi** indica che la verifica delle righe fattura è richiesta ma solo l'ordine fornitore e i documenti relativi alla fattura fornitore sono compresi nella verifica. L'entrata prodotti non viene considerata nelle convalide di abbinamento. **Abbinamento a tre elementi** indica che il prezzo unitario netto verrà confrontato con il prezzo unitario netto dell'ordine fornitore e la quantità dell'entrata prodotti corrispondente verrà confrontata con la quantità della fattura.
 9. Per consentire un livello di abbinamento diverso da applicare per un articolo, un fornitore, una combinazione di articolo e fornitore o una riga ordine fornitore, selezionare un valore nel campo **Consenti di ignorare i criteri di abbinamento**. I criteri di abbinamento riga della persona giuridica possono essere ignorati per un fornitore, un articolo o una combinazione di articolo e fornitore specifici nella pagina **Criteri di abbinamento**.

@@ -1,6 +1,6 @@
 ---
-title: Impostare i codici di ritenuta d'acconto
-description: In questo argomento viene illustrato come impostare la ritenuta d'acconto.
+title: Impostare la ritenuta d'acconto
+description: In questo articolo viene illustrato come impostare la ritenuta d'acconto.
 author: twheeloc
 ms.date: 07/11/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3c4992c7ab02793db3650df5624143d0ec090d0
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 0cc080df587904568796a9d6794987326be3ad26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8565586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907953"
 ---
-# <a name="set-up-withholding-tax"></a>Impostare i codici di ritenuta d'acconto
+# <a name="set-up-withholding-tax"></a>Impostare la ritenuta d'acconto
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare la ritenuta d'acconto. La *ritenuta d'acconto* è un'imposta sui fornitori che non dà origine a transazioni IVA. La ritenuta d'acconto calcolata sui pagamenti fornitore è considerata una passività e può pertanto essere registrata solo nei conti dello stato patrimoniale o nei conti passivi. Questa guida attività dimostra l'impostazione della ritenuta d'acconto.
+In questo articolo viene illustrato come impostare la ritenuta d'acconto. La *ritenuta d'acconto* è un'imposta sui fornitori che non dà origine a transazioni IVA. La ritenuta d'acconto calcolata sui pagamenti fornitore è considerata una passività e può pertanto essere registrata solo nei conti dello stato patrimoniale o nei conti passivi. Questa guida attività dimostra l'impostazione della ritenuta d'acconto.
 
 1. Andare a **Pannello di navigazione > Moduli > Imposta > Imposte indirette > Ritenuta d'acconto > Codici ritenuta d'acconto**.
 2. Selezionare **Nuovo**.

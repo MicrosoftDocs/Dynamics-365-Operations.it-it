@@ -1,6 +1,6 @@
 ---
 title: Definire il piano dei conti locale
-description: Questo argomento fornisce informazioni che ti aiuteranno a pianificare il piano dei conti quando hai requisiti per i requisiti legali/locali per la tua organizzazione.
+description: Questo articolo fornisce informazioni che ti aiuteranno a pianificare il piano dei conti quando hai requisiti per i requisiti legali/locali per la tua organizzazione.
 author: VeselinaE
 ms.date: 10/07/2021
 ms.topic: article
@@ -10,7 +10,7 @@ ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts, Ledge
 ROBOTS: ''
 audience: Application User
 ms.devlang: ''
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.tgt_pltfrm: ''
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: veneva
 ms.search.validFrom: 10/07/2021
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e224a2e24b4ba293c953c6c883307038128e2f04
-ms.sourcegitcommit: ba10ba2cd4fb4267afb5aacae4f6a52aa2456e7e
+ms.openlocfilehash: 78379fd51cf24985fce83e2b6aa9a475af7df363
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798298"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946247"
 ---
 # <a name="plan-your-local-chart-of-accounts"></a>Definire il piano dei conti locale
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni che consentono di pianificare il piano dei conti quando l'organizzazione include persone giuridiche che devono soddisfare i requisiti per località specifiche in cui operano. Questo argomento utilizza i seguenti termini per descrivere i piani dei conti:
+Questo articolo fornisce informazioni che consentono di pianificare il piano dei conti quando l'organizzazione include persone giuridiche che devono soddisfare i requisiti per località specifiche in cui operano. Questo articolo utilizza i seguenti termini per descrivere i piani dei conti:
 
 - **Globale**: il piano dei conti che l'organizzazione utilizza a livello globale. Nella maggior parte dei casi, rientrerai in questo piano dei conti.
 - **Locale**: un piano dei conti utilizzato dalle persone giuridiche di un paese o di una regione specifici.

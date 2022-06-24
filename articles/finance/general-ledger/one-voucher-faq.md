@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti sui giustificativi
-description: In questo argomento vengono fornite le risposte alle domande frequenti relative alla funzionalità Giustificativo. Un giustificativo per giornali di registrazione finanziari (giornale di registrazione generale, giornale di registrazione cespiti, giornali di registrazione pagamenti fornitore e così via) consente di immettere più transazioni di giornali di registrazione secondari nel contesto di un singolo giustificativo.
+description: In questo articolo vengono fornite le risposte alle domande frequenti relative alla funzionalità Giustificativo. Un giustificativo per giornali di registrazione finanziari (giornale di registrazione generale, giornale di registrazione cespiti, giornali di registrazione pagamenti fornitore e così via) consente di immettere più transazioni di giornali di registrazione secondari nel contesto di un singolo giustificativo.
 author: kweekley
 ms.date: 11/05/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: beab87ad569a6009fb4a42fd19681b64dcb0bb1e
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: e7eedfd4b2914000e8fd85d977b071f44545a058
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723108"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859800"
 ---
 # <a name="one-voucher-faq"></a>Domande frequenti sui giustificativi
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite le risposte alle domande frequenti relative alla funzionalità Giustificativo. Un giustificativo per i giornali di registrazione consente di inserire più transazioni nel giornale di registrazione secondario nel contesto di un singolo giustificativo. I giornali di registrazione che è possibile includere in quel giustificativo possono essere giornali di registrazione generali, giornali di registrazione cespiti e giornali di registrazione pagamenti fornitore, tra gli altri.
+In questo articolo vengono fornite le risposte alle domande frequenti relative alla funzionalità Giustificativo. Un giustificativo per i giornali di registrazione consente di inserire più transazioni nel giornale di registrazione secondario nel contesto di un singolo giustificativo. I giornali di registrazione che è possibile includere in quel giustificativo possono essere giornali di registrazione generali, giornali di registrazione cespiti e giornali di registrazione pagamenti fornitore, tra gli altri.
 
 ## <a name="when-will-the-one-voucher-functionality-be-deprecated"></a>Quando verrà ritirata la funzionalità Un giustificativo?
 

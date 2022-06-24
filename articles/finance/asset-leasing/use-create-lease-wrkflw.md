@@ -1,6 +1,6 @@
 ---
 title: Utilizzare flussi di lavoro di approvazione del leasing
-description: In questo argomento viene illustrato come utilizzare i flussi di lavoro per approvare i leasing di cespite e come tenere traccia dello stato e della cronologia dei flussi di lavoro.
+description: In questo articolo viene illustrato come utilizzare i flussi di lavoro per approvare i leasing di cespite e come tenere traccia dello stato e della cronologia dei flussi di lavoro.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0b35dfa599895cb39cdd6a0a95fdcdcc54c45044
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 4205b83919f0b3c30a4b5d8e3290af230f538f39
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906444"
 ---
 # <a name="use-lease-approval-workflows"></a>Utilizzare flussi di lavoro di approvazione del leasing
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come utilizzare i flussi di lavoro per approvare i leasing di cespite e come tenere traccia dello stato e della cronologia dei flussi di lavoro. I flussi di lavoro aiutano a portare coerenza nella gestione delle approvazioni di leasing fornendo una serie standard di passaggi di approvazione e assegnando utenti specifici che approvano ogni passaggio del processo. Un approvatore può approvare un leasing, rifiutarlo, richiederne una modifica o assegnarlo a un altro utente per l'approvazione. I flussi di lavoro possono anche offrire maggiore visibilità al processo di approvazione consentendo di tenere traccia del loro stato e della cronologia. Inoltre, è possibile visualizzare un elenco di lavoro centralizzato che elenca le attività e le approvazioni assegnate a specifici approvatori.
+In questo articolo viene illustrato come utilizzare i flussi di lavoro per approvare i leasing di cespite e come tenere traccia dello stato e della cronologia dei flussi di lavoro. I flussi di lavoro aiutano a portare coerenza nella gestione delle approvazioni di leasing fornendo una serie standard di passaggi di approvazione e assegnando utenti specifici che approvano ogni passaggio del processo. Un approvatore può approvare un leasing, rifiutarlo, richiederne una modifica o assegnarlo a un altro utente per l'approvazione. I flussi di lavoro possono anche offrire maggiore visibilità al processo di approvazione consentendo di tenere traccia del loro stato e della cronologia. Inoltre, è possibile visualizzare un elenco di lavoro centralizzato che elenca le attività e le approvazioni assegnate a specifici approvatori.
 
 Prima di utilizzare questa procedura, assicurati che sia stato creato almeno il flusso di lavoro di approvazione del leasing. Se non esiste alcun flusso di lavoro, creane uno. Per informazioni su come configurare un flusso di lavoro, vedi [Configurare flussi di lavoro di approvazione del leasing](set-up-lease-wrkflw.md).
 

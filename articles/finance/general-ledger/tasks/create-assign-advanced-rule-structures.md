@@ -1,6 +1,6 @@
 ---
 title: Creare e assegnare strutture di regole avanzate
-description: In questo argomento viene descritto come creare e assegnare una struttura di regole avanzate a una struttura dei conti.
+description: In questo articolo viene descritto come creare e assegnare una struttura di regole avanzate a una struttura dei conti.
 author: aprilolson
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea0a31eeac9593051916d44113459f4b6ad70a92
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 72688642936f9428c96aebb34bf9f240dd48b46b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896321"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Creare e assegnare strutture di regole avanzate
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come creare e assegnare una struttura di regole avanzate a una struttura dei conti. Questa guida utilizza la società dimostrativa USMF.
+In questo articolo viene descritto come creare e assegnare una struttura di regole avanzate a una struttura dei conti. Questa guida utilizza la società dimostrativa USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>Crea una struttura di regole avanzate
 1. Passare a **Pannello di navigazione > Moduli > Contabilità generale > Piano dei conti > Strutture > Strutture regole avanzate**.

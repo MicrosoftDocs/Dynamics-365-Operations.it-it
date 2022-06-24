@@ -1,6 +1,6 @@
 ---
-title: Gestione e reporting IVA per data di effettuazione dell'operazione (data del libro IVA)
-description: In questo argomento vengono fornite informazioni sulle modifiche alla gestione dell'Imposta sul Valore Aggiunto (IVA) in Italia.
+title: Gestione e dichiarazione IVA per data di effettuazione dell'operazione (data del registro IVA)
+description: In questo articolo vengono fornite informazioni sulle modifiche alla gestione dell'Imposta sul Valore Aggiunto (IVA) in Italia.
 author: liza-golub
 ms.date: 09/15/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Italy
 ms.author: elgolu
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a53e3153c6f94e7969bed5f433a6e87931d40e1
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 48249ee840b915fcc44f3134e448b25ae5d735d0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903019"
 ---
 # <a name="vat-management-and-reporting-by-tax-point-date-date-of-vat-register"></a>Gestione e reporting IVA per data di effettuazione dell'operazione (data del libro IVA)
 

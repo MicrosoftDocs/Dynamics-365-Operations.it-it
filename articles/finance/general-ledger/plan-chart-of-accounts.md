@@ -1,6 +1,6 @@
 ---
 title: Definire il piano dei conti
-description: Questo argomento fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
+description: Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
 author: aprilolson
 ms.date: 04/02/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734276a736cfdb91ec3a129c83dae1c0a6d3955
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853350"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Definire il piano dei conti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
+Questo articolo fornisce le informazioni che consentono di pianificare il piano dei conti per l'organizzazione.
 
 Per tenere traccia e gestire le informazioni finanziarie in un'organizzazione, è possibile impostare un piano dei conti. Un piano dei conti è un insieme di conti che definiscono una struttura finanziaria. Per tenere ulteriormente traccia delle transazioni in tali conti, è possibile aggiungere segmenti. Questi segmenti sono noti con il nome di dimensioni finanziarie. Ad esempio, un conto spese potrebbe includere dimensioni finanziarie denominate Reparto, Centro di costo e Scopo. Le regole definite dall'utente determinano le modalità di collegamento delle dimensioni finanziarie ai conti principali e ad altre dimensioni finanziarie, nonché quelle di immissione delle transazioni. Queste regole definite dall'utente sono note come strutture dei conti e regole avanzate.
 

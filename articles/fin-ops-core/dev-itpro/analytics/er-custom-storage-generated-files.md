@@ -1,6 +1,6 @@
 ---
 title: Specificare percorsi di archiviazione personalizzati per i documenti generati
-description: In questo argomento viene descritto come estendere l'elenco di percorsi di archiviazione per documenti generati con i formati per la creazione di report elettronici.
+description: In questo articolo viene descritto come estendere l'elenco di percorsi di archiviazione per documenti generati con i formati per la creazione di report elettronici.
 author: NickSelin
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 103a7e51fc6042e19b1db3b3d6b00436df15fd89
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594911"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898858"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Specificare percorsi di archiviazione personalizzati per i documenti generati
 
 [!include[banner](../includes/banner.md)]
 
-L'API del framework per la creazione di report elettronici (ER) consente di estendere l'elenco di percorsi di archiviazione per i documenti generati con i formati ER. Questo argomento spiega come aggiungere una posizione di archiviazione personalizzata per i documenti generati delegando l'attività di creazione di destinazioni ER alla factory di destinazione predefinita e quindi implementando una classe personalizzata che ha la propria logica di destinazione.
+L'API del framework per la creazione di report elettronici (ER) consente di estendere l'elenco di percorsi di archiviazione per i documenti generati con i formati ER. Questo articolo spiega come aggiungere una posizione di archiviazione personalizzata per i documenti generati delegando l'attività di creazione di destinazioni ER alla factory di destinazione predefinita e quindi implementando una classe personalizzata che ha la propria logica di destinazione.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -35,7 +35,7 @@ Distribuire una topologia che supporta la compilazione continua. Per ulteriori i
 
 È inoltre necessario avere accesso all'ambiente di sviluppo per questa topologia.
 
-argomentoTutte le attività in questo argomento possono essere completate nella società **USMF**.
+Tutte le attività in questo articolo possono essere completate nella società **USMF**.
 
 ## <a name="import-the-fixed-asset-roll-forward-er-format"></a>Importare il formato ER roll forward dei cespiti
 

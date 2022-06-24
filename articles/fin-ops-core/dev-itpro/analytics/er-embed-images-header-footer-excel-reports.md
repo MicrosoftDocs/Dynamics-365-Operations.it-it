@@ -1,6 +1,6 @@
 ---
 title: Progettare un formato ER per generare un report in formato Excel con immagini incorporate nelle intestazioni o piè di pagina
-description: Questo argomento spiega come usare Electronic reporting (ER) per generare documenti aziendali che hanno immagini e forme incorporate nelle intestazioni o nei piè di pagina.
+description: Questo articolo spiega come usare Electronic reporting (ER) per generare documenti aziendali che hanno immagini e forme incorporate nelle intestazioni o nei piè di pagina.
 author: NickSelin
 ms.date: 08/11/2021
 ms.topic: article
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f3f77a9e6104a31995c9ee398504982fe43ac9e
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854845"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Progettare un formato ER per generare un report in formato Excel con immagini incorporate nelle intestazioni o piè di pagina
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento spiega come un utente con ruolo Amministratore di sistema o Consulente funzionale per Creazione di report elettronici può eseguire queste attività:
+Questo articolo spiega come un utente con ruolo Amministratore di sistema o Consulente funzionale per Creazione di report elettronici può eseguire queste attività:
 
 - Configurare parametri per il framework [Creazione di report elettronici (ER)](general-electronic-reporting.md).
 - Importare [configurazioni](general-electronic-reporting.md#Configuration) ER [fornite](general-electronic-reporting.md#Provider) da Microsoft e utilizzate per generare [fatture a testo libero](../../../finance/accounts-receivable/create-free-text-invoice-new.md), in base a un [modello](er-fillable-excel.md#excel-file-component) in formato Microsoft Excel.
 - Creare una versione [personalizzata (derivata)](general-electronic-reporting.md#building-a-format-selecting-another-format-as-a-base-customization) di una configurazione in formato ER standard fornita da Microsoft.
 - Modificare la configurazione in formato ER personalizzato in modo che generi un report fattura a testo libero con un'immagine del logo dell'azienda nel piè di pagina.
 
-Le procedure in questo argomento possono essere completate nella società **USMF**. Non è richiesta alcuna codifica. Prima di iniziare, scaricare e salvare il seguente file.
+Le procedure in questo articolo possono essere completate nella società **USMF**. Non è richiesta alcuna codifica. Prima di iniziare, scaricare e salvare il seguente file.
 
 | descrizione        | Nome file |
 |--------------------|-----------|
@@ -132,7 +132,7 @@ Per ulteriori informazioni sui provider di configurazione ER, vedi [Creare provi
 
 ### <a name="import-the-standard-er-configurations"></a><a id="ImportERFormat"></a>Importare le configurazioni ER standard
 
-Per aggiungere le configurazioni ER standard all'istanza corrente di Dynamics 365 Finance, è necessario importarle dall'[archivio](general-electronic-reporting.md#Repository) ER che è stato configurato per quell'istanza.
+Per aggiungere le configurazioni ER standard all'istanza corrente di Dynamics 365 Finance, è necessario importarle dal [repository](general-electronic-reporting.md#Repository) ER che era configurato per quell'istanza.
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, selezionare il riquadro **Microsoft**, quindi selezionare **Archivi** per visualizzare l'elenco di repository per il provider **Microsoft**.

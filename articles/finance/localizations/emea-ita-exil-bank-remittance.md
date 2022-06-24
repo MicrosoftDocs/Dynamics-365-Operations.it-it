@@ -1,6 +1,6 @@
 ---
 title: Profili registrazione configurabili per banche e tipi di rimessa
-description: Questo argomento fornisce informazioni su come configurare i profili di registrazione per banche e tipi di rimesse.
+description: Questo articolo fornisce informazioni su come configurare i profili di registrazione per banche e tipi di rimesse.
 author: ilkond
 ms.date: 03/09/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 9ac7b9bb02784b0ece28dacdeda45a9e7e487d14cbadb5f97cd6d298052dc2cf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2fb218f6ea3e6f7e56e6b255daff7111108c4bdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856560"
 ---
 # <a name="configurable-posting-profiles-for-banks-and-remittance-types"></a>Profili registrazione configurabili per banche e tipi di rimessa
 

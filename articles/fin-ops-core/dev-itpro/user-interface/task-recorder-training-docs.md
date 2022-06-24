@@ -1,6 +1,6 @@
 ---
 title: Creare la documentazione o la formazione con Registrazione attività
-description: In questo argomento vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft e includerle nella Guida.
+description: In questo articolo vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft e includerle nella Guida.
 author: josaw1
 ms.date: 03/24/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 448c2b302136e595852c423d53e49adfcc40d12d
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b556003edf2fe186f6b095e538f142fcf5a0bba5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891816"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Creare la documentazione o la formazione con Registrazione attività
 
@@ -29,7 +29,7 @@ ms.locfileid: "8070528"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In questo argomento vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft e includerle nella Guida.
+In questo articolo vengono illustrate la funzionalità Registrazione attività e le guide attività, viene descritto come creare file di Registrazione attività e come personalizzare le guide attività di Microsoft e includerle nella Guida.
 
 > [!IMPORTANT]
 > È possibile registrare le proprie guide attività per Dynamics 365 Human Resources ma non sarà possibile salvarle in una libreria del Modellatore di processi aziendali o aprirle dal riquadro della Guida in questo momento. È possibile salvarle in locale o in un percorso di rete, quindi aprirle e riprodurle utilizzando Registrazione attività. 

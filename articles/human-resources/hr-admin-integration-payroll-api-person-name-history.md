@@ -1,6 +1,6 @@
 ---
 title: Storico nome della persona
-description: Questo argomento fornisce dettagli e una query di esempio per l'entità Storico nomi della persona in Dynamics 365 Human Resources.
+description: Questo articolo fornisce dettagli e una query di esempio per l'entità Storico nomi della persona in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 09/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-09-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: db22a602c782cef15b6e5769b9c0726dff158160
-ms.sourcegitcommit: d67f7edaf1a50077c2a7dd105e774f86fc586495
+ms.openlocfilehash: e34b0d7bebd1c4037347161087ff3a4485a58878
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/02/2022
-ms.locfileid: "8533600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875773"
 ---
 # <a name="person-name-history"></a>Storico nome della persona
 
@@ -27,7 +27,7 @@ ms.locfileid: "8533600"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive l'entità Storico nomi della persona in Dynamics 365 Human Resources.
+Questo articolo descrive l'entità Storico nomi della persona in Dynamics 365 Human Resources.
 
 Nome fisico: mshr_dirpersonnamehistoricalentity.
 

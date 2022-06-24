@@ -1,6 +1,6 @@
 ---
 title: Impostare e generare file di pagamento sicuri utilizzando la creazione di report elettronici
-description: In questo argomento viene descritto come impostare un pagamento sicuro usando la creazione di report elettronici.
+description: In questo articoloviene descritto come impostare un pagamento sicuro usando la creazione di report elettronici.
 author: panolte
 ms.date: 03/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc2f17d62b429b599d5ac5f2a521819275d36b64
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 491048c7274ba6bb52e0a4b7a6ea5cd0f5ff4741
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770249"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878220"
 ---
 # <a name="set-up-positive-pay-files-by-using-electronic-reporting"></a>Impostare file di pagamento sicuri utilizzando la creazione di report elettronici
 
-In questo argomento viene descritto come impostare un pagamento sicuro e generare file pagamenti sicuri usando la creazione di report elettronici.
+In questo articolo viene descritto come impostare un pagamento sicuro e generare file pagamenti sicuri usando la creazione di report elettronici.
 
 > [!NOTE] 
 > Prima di utilizzare la funzione **Genera file di pagamento sicuro della banca** dovrai prima aggiornare l'elenco di entità.

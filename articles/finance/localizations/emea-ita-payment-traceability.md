@@ -1,6 +1,6 @@
 ---
 title: Localizzazione italiana - Tracciabilità dei pagamenti
-description: Questo argomento spiega come controllare l'identificazione della procedura di gara e i codici CIPE durante l'elaborazione end-to-end dalla fattura originale al pagamento.
+description: Questo articolo spiega come controllare l'identificazione della procedura di gara e i codici CIPE durante l'elaborazione end-to-end dalla fattura originale al pagamento.
 author: anasyash
 ms.date: 02/01/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9d2297a17dce810caf0c78a3d08547657de2663a
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 92d3199e9f4b15796694a1ee52818aa6faa4cfae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879506"
 ---
 # <a name="italian-localization---payment-traceability"></a>Localizzazione italiana - Tracciabilità dei pagamenti
 

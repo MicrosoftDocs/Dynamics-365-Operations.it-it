@@ -1,6 +1,6 @@
 ---
-title: Gestire processi di selezione
-description: In questo argomenti viene descritto un concetto che i selezionatori possono utilizzare per tenere traccia dei passaggi in un processo di selezione.
+title: Gestire i processi di selezione
+description: In questo articolo viene descritto un concetto che i selezionatori possono utilizzare per tenere traccia dei passaggi in un processo di selezione.
 author: twheeloc
 ms.date: 01/10/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb7cc1db906ba0cd07caaa1d82a12182f78b19ba
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 1ada6dfc9b227c7ae4ca873e8354d1fcc11ecbaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910321"
 ---
 # <a name="manage-recruiting-processes"></a>Gestire processi di selezione
 
 > [!IMPORTANT]
-> La funzionalità di selezione in questo argomento sarà denominata Progetti di selezione e si concentra su candidati, domande di lavoro e progetti di selezione. 
+> La funzionalità di selezione in questo articolo sarà denominata Progetti di selezione e si concentra su candidati, domande di lavoro e progetti di selezione. 
 
 
-In questo argomento viene descritto un concetto che i reclutatori possono utilizzare per tenere traccia dei passaggi del processo di selezione, incluse le operazioni per annunciare le posizioni aperte e selezionare i candidati, per tenere traccia delle informazioni su candidati e domande di lavoro, per effettuare i colloqui con i candidati e per selezionare uno o più candidati per occupare le posizioni aperte nell'organizzazione.
+In questo articolo viene descritto un concetto che i reclutatori possono utilizzare per tenere traccia dei passaggi del processo di selezione, incluse le operazioni per annunciare le posizioni aperte e selezionare i candidati, per tenere traccia delle informazioni su candidati e domande di lavoro, per effettuare i colloqui con i candidati e per selezionare uno o più candidati per occupare le posizioni aperte nell'organizzazione.
 
 ## <a name="overview"></a>Panoramica
 

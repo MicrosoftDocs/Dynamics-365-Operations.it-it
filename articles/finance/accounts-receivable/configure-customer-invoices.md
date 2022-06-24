@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 069ada071fe6a7d3e22ad6aa45e3c2f06a9f4b31
-ms.sourcegitcommit: 5a4b8ce4a7ae82c0ef22d2223c11c6b55f048cdd
+ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/14/2022
-ms.locfileid: "8756965"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876327"
 ---
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
@@ -32,13 +32,10 @@ Una **fattura a testo libero** non è correlata a un ordine cliente. Contiene ri
 
 Per ulteriori informazioni, vedere:
 
-[Crea fatture a testo libero](../accounts-receivable/create-free-text-invoice-new.md)
-
-[Creare un modello di fattura a testo libero](../accounts-receivable/create-free-text-invoice-template-new.md)
-
-[Assegnare al cliente un modello di fattura a testo libero](tasks/assign-free-text-invoice-template-customer.md)
-
-[Generare e registrare fatture a testo libero ricorrenti](tasks/post-recurring-free-text-invoices.md)
+[Creatr fatture a testo libero](../accounts-receivable/create-free-text-invoice-new.md)
+[Creatr un modello di fattura a testo libero](../accounts-receivable/create-free-text-invoice-template-new.md)
+[Assegnatr un modello di fattura a testo libero a un cliente](tasks/assign-free-text-invoice-template-customer.md)
+[Generatr e registratr fatture a testo libero ricorrenti](tasks/post-recurring-free-text-invoices.md)
 
 
 Una **fattura proforma** è una fattura preparata come stima degli importi effettivi prima della registrazione della fattura vera e propria. È possibile stampare una **fattura proforma** sia per una fattura cliente basata su un ordine cliente che per una fattura a testo libero. 
@@ -91,8 +88,8 @@ Utilizzare questo processo quando uno o più ordini cliente sono pronti per la f
  - Selezionare l'opzione **Dividi in base al sito fattura** per creare una singola fattura per ogni sito durante la registrazione. 
  - Selezionare l'opzione **Dividi in base alle informazioni di consegna** per creare una singola fattura per ogni indirizzo di consegna delle righe dell'ordine cliente durante la registrazione. 
 
-## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price"></a>Registra su account Ricavi per le righe di ordine senza prezzo
-Sarà disponibile l'opzione per aggiornare l'account **Ricavi** in **Contabilità generale** per le righe di ordini cliente senza prezzo. Per configurare o visualizzare queste informazioni, vai al parametro **Registra su account Ricavi per le righe di fatture di ordini di vendite con prezzo** nella scheda **Contabilità generale e IVA** della pagina **Parametri contabilità clienti**. (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per aggiornare l'account **Ricavi** per le righe delle fatture degli ordini di vendita senza prezzo. Un account ricavi viene definito nella pagina dei parametri **Registrazione magazzino**, nella scheda di definizione dell'account **Ordine cliente**. Se questa opzione non viene selezionata, le righe che non hanno informazioni sul prezzo non registreranno l'account **Ricavi**.
+## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Registratr su account Ricavi per le righe di ordine senza prezzo e costo
+Sarà disponibile l'opzione per aggiornare l'account **Ricavi** in **Contabilità generale** per le righe di ordini cliente senza prezzo e costo. Per configurare o visualizzare queste informazioni, vai al parametro **Registra in conto ricavi per righe fattura ordine cliente a prezzo e costo zero** nella scheda **Contabilità generale e IVA** della pagina **Parametri contabilità clienti**. (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per aggiornare l'account **Ricavi** per le righe delle fatture degli ordini di vendita senza prezzo e costo. Se questa opzione è selezionata, il giustificativo conterrà 0,00 voci per i tipi di registrazione **Saldo cliente** e **Ricavi**. Un account ricavi viene definito nella pagina dei parametri **Registrazione magazzino**, nella scheda di definizione dell'account **Ordine cliente**. Se questa opzione non viene selezionata, le righe che non hanno informazioni sul prezzo o sul costo non registreranno l'account **Ricavi**. Il giustificativo conterrà invece una voce 0,00 per il tipo di registrazione **Saldo cliente**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Impostazioni aggiuntive che modificano il comportamento di registrazione
 I seguenti campi modificano il comportamento del processo di registrazione.

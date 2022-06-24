@@ -1,6 +1,6 @@
 ---
 title: Nuove guide attività (febbraio 2016)
-description: In questo argomento sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.
+description: In questo articolo sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1947ec2ef0ef061323f904c739d49a5a2594b9d0e730f19e4d4da322148e473
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb74ce407bd98dbd650804ed337e48986d58911d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6725102"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861736"
 ---
 # <a name="new-task-guides-february-2016"></a>Nuove guide attività (febbraio 2016)
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016. Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics AX e la libreria di introduzione (febbraio 2016).
+In questo articolo sono elencate le guide attività rilasciate nelle librerie di Microsoft BPM al febbraio 2016. Le librerie che sono state pubblicate includono la libreria unificata APQC (febbraio 2016) per Microsoft Dynamics AX e la libreria di introduzione (febbraio 2016).
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guide attività nella libreria unificata APQC (febbraio 2016) per Microsoft Dynamics AX
 

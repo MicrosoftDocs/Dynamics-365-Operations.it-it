@@ -1,6 +1,6 @@
 ---
 title: Rettificare leasing
-description: L'argomento spiega come rettificare un leasing. Potrebbe essere necessario una rettifica se i termini del leasing vengono modificati, il leasing viene prolungato o altre circostanze cambiano.
+description: L'articolo spiega come rettificare un leasing. Potrebbe essere necessario una rettifica se i termini del leasing vengono modificati, il leasing viene prolungato o altre circostanze cambiano.
 author: moaamer
 ms.date: 03/18/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 89ec876c9bd967107635eb2955209a4dcb95cde5
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 48d1a261a43d6e3a68dfc0aae6f06c0d7d6b82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898329"
 ---
 # <a name="adjust-leases"></a>Rettificare leasing
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-L'argomento spiega come rettificare un leasing. Potrebbe essere necessario una rettifica se i termini del leasing vengono modificati, il leasing viene prolungato o altre circostanze cambiano. Il leasing di cespiti è conforme alle linee guida fornite dagli standard Accounting Standards Codification Topic 842 (ASC 842) e International Financial Reporting Standard 16 (IFRS 16) sulle modifiche del leasing. ASC 842-20-15-1 definisce una modifica del leasing come qualsiasi modifica ai termini e alle condizioni di un contratto che causa una modifica dell'ambito o nella considerazione di un leasing. Il paragrafo 39 dell'IFRS 16 stabilisce che un conduttore deve rivalutare l'obbligazione sul leasingin modo che rifletta le modifiche ai canoni di leasing.
+L'articolo spiega come rettificare un leasing. Potrebbe essere necessario una rettifica se i termini del leasing vengono modificati, il leasing viene prolungato o altre circostanze cambiano. Il leasing di cespiti è conforme alle linee guida fornite dagli standard Accounting Standards Codification Topic 842 (ASC 842) e International Financial Reporting Standard 16 (IFRS 16) sulle modifiche del leasing. ASC 842-20-15-1 definisce una modifica del leasing come qualsiasi modifica ai termini e alle condizioni di un contratto che causa una modifica dell'ambito o nella considerazione di un leasing. Il paragrafo 39 dell'IFRS 16 stabilisce che un conduttore deve rivalutare l'obbligazione sul leasingin modo che rifletta le modifiche ai canoni di leasing.
 
 Per le organizzazioni che aderiscono ad ASC 842 o IFRS 16, un leasing viene rimisurato per riflettere una variazione del valore attuale dei canoni minimi futuri del leasing (PVFMLP). Se il PVFMLP aumenta, la scrittura contabile creata sarà un addebito sul conto Asset Right of use e un accredito sul conto obbligazione sul leasing per la differenza tra il nuovo PVFMLP e il PVFMLP precedente. Se il PVFMLP diminuisce, la scrittura contabile sarà un addebito sul conto obbligazione sul leasing e un accredito sul conto Asset ROU per la differenza.
 

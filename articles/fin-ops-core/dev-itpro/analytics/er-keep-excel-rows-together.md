@@ -1,6 +1,6 @@
 ---
 title: Progettare un formato ER per tenere insieme le righe sulla stessa pagina di Excel
-description: In questo argomento viene illustrato come progettare un formato di report elettronico (ER) che mantenga le righe insieme nella stessa pagina di Microsoft Excel.
+description: In questo articolo viene illustrato come progettare un formato di report elettronico (ER) che mantenga le righe insieme nella stessa pagina di Microsoft Excel.
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-03-01
 ms.dyn365.ops.version: Version 10.0.26
-ms.openlocfilehash: 06782a4933fb5c3e86ad436b853f207fd3d5cddb
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 98e6dd4f926908f65239f3e4f3608f9c9408f9d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612371"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854671"
 ---
 # <a name="design-an-er-format-to-keep-rows-together-on-the-same-excel-page"></a>Progettare un formato ER per tenere insieme le righe sulla stessa pagina di Excel
 
 [!include [banner](../includes/banner.md)]
 
 
-Questo argomento spiega come un utente con il ruolo di Amministratore di sistema o Consulente funzionale per la [creazione di report elettronici](general-electronic-reporting.md) può configurare un [formato](er-overview-components.md#format-component) che genera documenti in uscita in Microsoft Excel e gestisce l'impaginazione dei documenti in modo che le righe create vengano mantenute nella stessa pagina.
+Questo articolo spiega come un utente con il ruolo di Amministratore di sistema o Consulente funzionale per la [creazione di report elettronici](general-electronic-reporting.md) può configurare un [formato](er-overview-components.md#format-component) che genera documenti in uscita in Microsoft Excel e gestisce l'impaginazione dei documenti in modo che le righe create vengano mantenute nella stessa pagina.
 
 In questo esempio, modificherai il formato ER fornito da Microsoft utilizzato per stampare fatture a testo libero in Excel. Le tue modifiche ti permetteranno di gestire l'impaginazione di un report di fattura a testo libero generato in modo che tutte le righe di una singola riga di fattura vengano mantenute sulla stessa pagina quando possibile.
 
-Le procedure in questo argomento possono essere completate nella società **USMF**. Non è richiesta alcuna codifica.
+Le procedure in questo articolo possono essere completate nella società **USMF**. Non è richiesta alcuna codifica.
 
 In questo esempio verranno create le [configurazioni](general-electronic-reporting.md#Configuration) ER necessarie per la società di esempio **Litware, Inc**. Verifica che il provider di configurazione per la società di esempio **Litware, Inc.** (`http://www.litware.com`) sia elencato per il framework ER e sia contrassegnato come **Attivo**. Se questo provider di configurazione non è elencato o non è contrassegnato come **Attivo**, completare i passaggi in [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
@@ -73,7 +73,7 @@ Segui i passaggi in [Configurare una destinazione di formato per l'anteprima su 
 
     ![Revisione dell'impaginazione della fattura a testo libero generata nell'applicazione desktop Excel.](./media/er-keep-excel-rows-together-invoice1.gif)
 
-Le restanti procedure in questo argomento mostrano come ottimizzare il formato ER standard per migliorare l'aspetto e la leggibilità del report fattura mantenendo tutto il contenuto di una singola riga di fattura nella stessa pagina.
+Le restanti procedure in questo articolo mostrano come ottimizzare il formato ER standard per migliorare l'aspetto e la leggibilità del report fattura mantenendo tutto il contenuto di una singola riga di fattura nella stessa pagina.
 
 ## <a name="create-a-custom-format"></a>Creare un formato personalizzato
 

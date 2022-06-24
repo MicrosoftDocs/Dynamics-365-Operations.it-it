@@ -1,6 +1,6 @@
 ---
 title: Importazione dei giustificativi utilizzando l'entità registrazione COGE
-description: In questo argomento vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.
+description: In questo articolo vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.
 author: rcarlson
 ms.date: 04/20/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42bc804393d050e5ff722c46c9ce50ece54c5a0b
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 056bb860e3133bb8389410e29d20f32447799399
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065072"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867613"
 ---
 # <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importazione dei giustificativi utilizzando l'entità registrazione COGE
 
@@ -28,7 +28,7 @@ ms.locfileid: "8065072"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In questo argomento vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.
+In questo articolo vengono forniti suggerimenti per l'importazione dei dati nel giornale di registrazione generale tramite l'entità giornale di registrazione generale.
 
 È possibile utilizzare l'entità journal generale per importare buoni con un account o un tipo di conto offset di **Contabilità generale**, **Cliente**, **Fornitore**, or **Banca**. Il giustificativo può essere immesso come riga unica, usando sia il campo **Conto** che il campo **Conto di contropartita** , o come giustificativo con più righe. In questo caso viene utilizzato solo il campo **Conto** e il campo **Conto di contropartita** viene lasciato vuoto su ogni riga. L'entità giornale di registrazione generale non supporta tutti i tipi di conto. Invece, altre entità esistono per gli scenari in cui sono necessarie diverse combinazioni di tipi di conto. Ad esempio, per importare una transazione di progetto, utilizzare l'entità giornale di registrazione spese di progetto. Ogni entità è progettata per supportare scenari specifici. Ciò significa che potrebbero essere disponibili campi aggiuntivi nelle entità per tali scenari. Tuttavia, i campi aggiuntivi potrebbero non essere disponibili nelle entità per diversi scenari.
 

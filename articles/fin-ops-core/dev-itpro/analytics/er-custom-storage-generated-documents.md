@@ -1,6 +1,6 @@
 ---
 title: Specificare un percorso di archiviazione personalizzato per i documenti generati
-description: In questo argomento viene descritto come estendere l'elenco di percorsi di archiviazione per documenti generati con i formati per la creazione di report elettronici.
+description: In questo articolo viene descritto come estendere l'elenco di percorsi di archiviazione per documenti generati con i formati per la creazione di report elettronici.
 author: NickSelin
 ms.date: 02/22/2019
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 70d9ccfac18b4cdf1ea19b3def87fc10ba9ddcb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718503"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864748"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Specificare un percorso di archiviazione personalizzato per i documenti generati
 
 [!include[banner](../includes/banner.md)]
 
-L'API del framework per la creazione di report elettronici (ER) consente di estendere l'elenco di percorsi di archiviazione per i documenti generati con i formati ER. In questo argomento viene fornita una panoramica delle operazioni principali da completare per aggiungere un percorso di archiviazione personalizzato.
+L'API del framework per la creazione di report elettronici (ER) consente di estendere l'elenco di percorsi di archiviazione per i documenti generati con i formati ER. In questo articolo viene fornita una panoramica delle operazioni principali da completare per aggiungere un percorso di archiviazione personalizzato.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -118,7 +118,7 @@ L'evento **AttachingFile ()** viene generato quando le seguenti destinazioni ER 
 ## <a name="configure-an-er-destination"></a>Configurare una destinazione ER
 
 1. Configurare la destinazione archiviata per uno degli elementi menzionati in precedenza (file, cartella, merger o allegato) del formato ER creato o importato. Per informazioni, vedere [Configurare destinazioni ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
-2. Utilizzare il tipo di documento aggiunto in precedenza per la destinazione configurata. Ad esempio in questo argomento, il tipo di documento è **FileX**.
+2. Utilizzare il tipo di documento aggiunto in precedenza per la destinazione configurata. Ad esempio in questo articolo, il tipo di documento è **FileX**.
 
 ![Finestra di dialogo Impostazioni destinazione.](media/er-extend-file-storages-destination.png)
 

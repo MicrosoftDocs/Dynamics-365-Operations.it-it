@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74430aadc661a49e330960135ce7b0912079f79b
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8644461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860166"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -29,7 +29,7 @@ ms.locfileid: "8644461"
 Per creare e gestire processi di importazione ed esportazione di dati si utilizza l'area di lavoro **Gestione dati**. Per impostazione predefinita, il processo di importazione ed esportazione crea una tabella di gestione temporanea per ciascuna entità nel database di destinazione. Le tabelle di gestione temporanea consentono di verificare, pulire o convertire i dati prima di spostarli.
 
 > [!NOTE]
-> In questo argomento si presuppone di aver acquisito dimestichezza con l'argomento [entità di dati](data-entities.md).
+> In questo articolo si presuppone di aver acquisito dimestichezza con l'argomento [entità di dati](data-entities.md).
 
 ## <a name="data-importexport-process"></a>Processo di importazione/esportazione di dati
 Di seguito vengono riportati i passaggi per l'importazione o l'esportazione di dati.
@@ -48,7 +48,7 @@ Di seguito vengono riportati i passaggi per l'importazione o l'esportazione di d
 5. Verificare che il processo sia stato eseguito come previsto esaminando lo storico processi.
 6. Pulire le tabelle di gestione temporanea.
 
-Le altre sezioni di questo argomento forniscono ulteriori dettagli su ogni fase del processo.
+Le altre sezioni di questo articolo forniscono ulteriori dettagli su ogni fase del processo.
 
 > [!NOTE]
 > Per aggiornare il modulo di importazione/esportazione dei dati per visualizzare i progressi più recenti, utilizzare l'icona di aggiornamento dei moduli. L'aggiornamento a livello del browser non è consigliato perché interromperebbe qualsiasi lavoro di importazione/esportazione che non viene eseguito in batch.

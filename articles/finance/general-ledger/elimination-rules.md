@@ -1,6 +1,6 @@
 ---
 title: Regole di eliminazione
-description: Questo argomento fornisce informazioni sulle regole di eliminazione e sulle varie opzioni per i report sulle eliminazioni.
+description: Questo articolo fornisce informazioni sulle regole di eliminazione e sulle varie opzioni per i report sulle eliminazioni.
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e062e7541871d77803cbed475d715621b19537f1
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3eb3ea117959dbc51eb5666aad60299210ff3ac5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722635"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864312"
 ---
 # <a name="elimination-rules"></a>Regole di eliminazione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sulle regole di eliminazione e sulle varie opzioni per i report sulle eliminazioni.
+Questo articolo fornisce informazioni sulle regole di eliminazione e sulle varie opzioni per i report sulle eliminazioni.
 
 Le transazioni di eliminazione sono necessarie quando una persona giuridica padre intrattiene rapporti commerciali con una o più persone giuridiche affiliate e utilizza report finanziari consolidati. I rendiconti finanziari consolidati devono includere solo le transazioni che si verificano tra l'organizzazione consolidata e altre entità all'esterno di tali organizzazioni. Di conseguenza, le transazioni tra le persone giuridiche che appartengono alla stessa organizzazione devono essere rimosse, o eliminate, dalla contabilità generale in modo che non compaiano nei report finanziari. Sono disponibili più modi per eseguire report sulle eliminazioni:
 
@@ -34,7 +34,7 @@ Le transazioni di eliminazione sono necessarie quando una persona giuridica padr
 -   I report finanziari possono essere utilizzati per visualizzare i conti e le dimensioni delle eliminazioni in una riga o in una colonna specifica.
 -   Una persona giuridica separata può essere utilizzata per registrare le voci delle transazioni manuali per tenere traccia delle eliminazioni.
 
-Questo argomento riguarda le regole di eliminazione che vengono elaborate in una società di eliminazione o di consolidamento. È possibile impostare regole di eliminazione per creare transazioni di eliminazione in una persona giuridica specificata come persona giuridica di destinazione per le eliminazioni. La persona giuridica di destinazione è conosciuta come persona giuridica di eliminazione. I giornali di registrazione eliminazioni possono essere generati durante il processo di consolidamento o tramite un'apposita proposta. Prima di impostare le regole di eliminazione, è consigliabile acquisire familiarità con i seguenti termini:
+Questo articolo riguarda le regole di eliminazione che vengono elaborate in una società di eliminazione o di consolidamento. È possibile impostare regole di eliminazione per creare transazioni di eliminazione in una persona giuridica specificata come persona giuridica di destinazione per le eliminazioni. La persona giuridica di destinazione è conosciuta come persona giuridica di eliminazione. I giornali di registrazione eliminazioni possono essere generati durante il processo di consolidamento o tramite un'apposita proposta. Prima di impostare le regole di eliminazione, è consigliabile acquisire familiarità con i seguenti termini:
 
 -   **Persona giuridica di origine**: la persona giuridica in cui sono stati registrati gli importi in fase di eliminazione.
 -   **Persona giuridica di destinazione**: la persona giuridica in cui vengono registrate le regole di eliminazione.

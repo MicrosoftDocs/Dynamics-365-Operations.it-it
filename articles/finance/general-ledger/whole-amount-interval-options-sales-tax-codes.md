@@ -1,6 +1,6 @@
 ---
-title: Opzioni importo totale e intervallo per i codici IVA
-description: Questo argomento illustra le opzioni del campo Metodo di calcolo sui codici IVA e come si calcola l'IVA per intervalli e interi importi.
+title: Opzioni Importo totale e Intervallo per i codici IVA
+description: Questo articolo illustra le opzioni del campo Metodo di calcolo sui codici IVA e come si calcola l'IVA per intervalli e interi importi.
 author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f06c92f2151f54a7d9b684b9687b786d1e4cd7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 5b02a0ced8b556cfc5a984d24ceaf982629fd69c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874463"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opzioni importo totale e intervallo per i codici IVA
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opzioni Importo totale e Intervallo per i codici IVA
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra le opzioni del campo **Metodo di calcolo** sui codici IVA e come si calcola l'IVA per intervalli e interi importi.
+Questo articolo illustra le opzioni del campo **Metodo di calcolo** sui codici IVA e come si calcola l'IVA per intervalli e interi importi.
 
 È possibile impostare un codice IVA da calcolare in base a un importo totale o a un importo di intervallo. Nella pagina **Codici IVA** utilizza il campo **Metodo di calcolo** nella Scheda dettaglio **Calcolo** per selezionare il metodo di calcolo di un codice IVA.
 - Importo totale - L'aliquota IVA si applica all'intero importo tassabile.

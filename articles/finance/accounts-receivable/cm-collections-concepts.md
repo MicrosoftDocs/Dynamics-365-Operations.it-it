@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 508723752ec7ae5f48e52c728b6ef526ec49e4e2
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: f1e6932740c33ae418ac633623680eda6af7a592
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858526"
 ---
 # <a name="collections-management-key-concepts"></a>Concetti chiave della gestione delle riscossioni
 
@@ -34,7 +34,7 @@ Prima di iniziare a impostare o a utilizzare le riscossioni, è necessario compr
 - È possibile creare transazioni di annullamento in un unico passaggio.
 - È possibile elaborare pagamenti NSF (Non Sufficient Funds, senza copertura) in un unico passaggio.
 
-Questo argomento descrive ogni concetto.
+Questo articolo descrive ogni concetto.
 
 ## <a name="customer-aging-snapshots"></a>Snapshot di aging cliente
 
@@ -86,7 +86,7 @@ Il riquadro azioni contiene i pulsanti che consentono di visualizzare le informa
 
 È possibile rinunciare all'addebito di note d'interesse complete o di commissioni e interessi sulle transazioni che fanno parte di una nota d'interesse, stornarle o ripristinarle. Nella scheda **Raccogli** nel riquadro azioni della pagina elenco **Tutti i clienti** selezionare **Nota d'interesse**, **Interessi transazione** o **Commissioni**.
 
-Tali rettifiche hanno effetto solo sulle note d'interesse e sugli interessi e le commissioni in esse inclusi. Per informazioni su come annullare tutte le spese dovute da un cliente, consultare la sezione [Creare transazioni di annullamento](#creating-write-off-transactions) di questo argomento.
+Tali rettifiche hanno effetto solo sulle note d'interesse e sugli interessi e le commissioni in esse inclusi. Per informazioni su come annullare tutte le spese dovute da un cliente, consulta la sezione [Creare transazioni di annullamento](#creating-write-off-transactions) di questo articolo.
 
 Per ulteriori informazioni, vedere Creare un codice interessi con un intervallo e Elaborare interessi.
 

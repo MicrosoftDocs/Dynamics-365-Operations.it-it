@@ -1,6 +1,6 @@
 ---
 title: Novità e modifiche in Dynamics 365 Human Resources 26 luglio 2021
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 26 luglio 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 26 luglio 2021.
 author: marcelbf
 ms.date: 07/12/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-26
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e124655ca96e34e53723ea2608227661034d58b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6c7211135733f45a9841ae5a80607b01999d7c69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694713"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870931"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-26-2021"></a>Novità e modifiche in Dynamics 365 Human Resources 26 luglio 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Problema |  descrizione |
+| Numero problema | Problema |  Description |
 | --- | --- | --- |
 | 600422 | La convalida dell'indirizzo retribuzione non riesce per Pronto per il pagamento. | La convalida è stata aggiornata per richiedere un solo indirizzo di tipo "Luogo di residenza retribuzioni" e un solo indirizzo di tipo "Luogo di lavoro retribuzioni". |
 | 601226 | Problema di integrazione dei dati: Esportazione integrazione delle retribuzioni non presenta l'opzione per un push completo | L'integrazione delle retribuzioni in Ceridian DayForce generava un push incrementale anziché un push completo. Ceridian richiede sempre un aggiornamento completo. Questo problema è stato risolto; le entità nel progetto di esportazione dei dati non passeranno più al push incrementale. |

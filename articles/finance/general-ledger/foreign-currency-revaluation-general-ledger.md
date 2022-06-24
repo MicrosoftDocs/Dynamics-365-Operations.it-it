@@ -1,6 +1,6 @@
 ---
 title: Rivalutazione valuta estera per contabilità generale
-description: 'In questo argomento viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario.'
+description: 'In questo articolo viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario.'
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4a138a26a23c804f5fd358d335b04aee3897dce
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720340"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904530"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Rivalutazione valuta estera per contabilità generale
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario. 
+In questo articolo viene fornita una panoramica delle seguenti operazioni relative al processo di rivalutazione valuta estera della contabilità generale: impostazione, esecuzione del processo, calcolo per il processo e lo storno di transazioni di rivalutazione, se necessario. 
 
 Nell'ambito di una fine periodo le convenzioni di contabilità richiedono che i saldi dei conti di registrazione contabile in valuta estera vengano rivalutati utilizzando diversi tipi di tassi di cambio (corrente, storico, medio e così via). Ad esempio, una convenzione contabile richiede che le attività e le passività vengano rivalutate al tasso di cambio corrente, i cespiti al tasso di cambio storico e i conti profitti e perdite alla media mensile. La rivalutazione valuta estera della contabilità generale può essere utilizzata per rivalutare lo stato patrimoniale e i conti profitti e perdite. 
 

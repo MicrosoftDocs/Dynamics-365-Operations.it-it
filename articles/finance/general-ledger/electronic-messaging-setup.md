@@ -1,6 +1,6 @@
 ---
 title: Impostare i messaggi elettronici
-description: Questo argomento fornisce informazioni su come impostare la funzionalità dei messaggi elettronici (EM).
+description: Questo articolo fornisce informazioni su come impostare la funzionalità dei messaggi elettronici (EM).
 author: liza-golub
 ms.date: 11/18/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 652d8684473d1c1505a80eb1d860c57a214b9488
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6ac6e4fbc37165a3126de3b1f937a43c980410b4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874553"
 ---
 # <a name="set-up-electronic-messages"></a>Impostare i messaggi elettronici
 
@@ -66,7 +66,7 @@ Nella tabella seguente sono descritti i campi della pagina **Stati del messaggio
 |---------------------|-------------|
 | Stato messaggio      | Immettere un nome univoco per lo stato del messaggio. Gli stati dei messaggi sono utilizzati per caratterizzare lo stato di un messaggio elettronico in qualsiasi momento. Il nome immesso viene visualizzato nella pagina **Messaggi elettronici** e in un registro correlato ai messaggi elettronici. |
 | Descrizione         | Immettere una descrizione dello stato del messaggio. |
-| Tipo di risposta       | Selezionare il tipo di risposta per lo stato del messaggio. Alcune azioni in un elaborazione possono generare più tipi di risposta. Ad esempio, un'azione di tipo **Servizio Web** può generare risposte di tipo **Eseguito correttamente** o **Errore tecnico** a seconda del risultato della relativa esecuzione. In questo caso definire gli stati del messaggio per entrambi i tipi di risposta. Per ulteriori informazioni sui tipi di azioni e i tipi di risposta ad essi correlati, vedere la sezione [Tipi di azioni di elaborazione messaggi](#action-types) più avanti in questo argomento. |
+| Tipo di risposta       | Selezionare il tipo di risposta per lo stato del messaggio. Alcune azioni in un elaborazione possono generare più tipi di risposta. Ad esempio, un'azione di tipo **Servizio Web** può generare risposte di tipo **Eseguito correttamente** o **Errore tecnico** a seconda del risultato della relativa esecuzione. In questo caso definire gli stati del messaggio per entrambi i tipi di risposta. Per ulteriori informazioni sui tipi di azioni e i tipi di risposta ad essi correlati, vedi la sezione [Tipi di azioni di elaborazione messaggi](#action-types) più avanti in questo articolo. |
 | Stato elemento del messaggio | A volte, lo stato di un messaggio elettronico deve influenzare lo stato degli elementi del messaggio correlati. Selezionare lo stato di un articolo di messaggio in questo campo per associarlo allo stato del messaggio. |
 | Consenti eliminazione        | Selezionare questa casella di controllo se gli utenti devono poter eliminare i messaggi elettronici con questo stato nella pagina **Messaggi elettronici**. |
 
@@ -240,7 +240,7 @@ Nelle tabelle seguenti vengono descritti i campi della pagina **Azioni di elabor
 
 | Campo                                     | Descrizione |
 |-------------------------------------------|-------------|
-| Tipo di azione                               | Selezionare il tipo di azione. Per informazioni sulle opzioni disponibili, vedere la sezione [Tipi di azioni di elaborazione messaggi](#action-types) più avanti in questo argomento. |
+| Tipo di azione                               | Selezionare il tipo di azione. Per informazioni sulle opzioni disponibili, vedi la sezione [Tipi di azioni di elaborazione messaggi](#action-types) più avanti in questo articolo. |
 | Mapping formato                            | Selezionare il formato ER che deve essere chiamato per l'azione. Questo campo è disponibile solo per le azioni **Esportazione creazione di report elettronici**, **Importazione creazione di report elettronici** e **Messaggio esportazione creazione di report elettronici**. |
 | Mapping formato per percorso URL               | Selezionare il formato ER che deve essere chiamato per l'azione. Questo formato viene utilizzato per comporre il percorso dell'indirizzo URL che verrà aggiunto all'indirizzo Internet di base specificato per il server Web selezionato. Questo campo è disponibile solo per le azioni di tipo **Servizio Web**. |
 | Tipo di elemento del messaggio                         | Selezionare il tipo di record per il quale l'azione deve essere valutata. Questo campo è disponibile per le azioni di tipo **Livello di esecuzione dell'elemento del messaggio**, **Esportazione creazione di report elettronici**, **Importazione creazione di report elettronici**, **Servizio Web** e altri tipi. Se si lascia vuoto questo campo, vengono valutati tutti i tipi di elementi del messaggio definiti per l'elaborazione del messaggio. |

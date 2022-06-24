@@ -1,6 +1,6 @@
 ---
 title: Funzionalità di divisione delle fatture
-description: Questo argomento descrive la configurazione della funzionalità per la divisione delle fatture in base all'indirizzo di consegna e al numero di conto imposta (TAN).
+description: Questo articolo descrive la configurazione della funzionalità per la divisione delle fatture in base all'indirizzo di consegna e al numero di conto imposta (TAN).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1dac8d51c24009dcf0c4acbc49f06f32abf0dec
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 7bbeb94429c2c69b7b8ea3089390db676a021b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874434"
 ---
 # <a name="split-invoice-functionality"></a>Funzionalità di divisione delle fatture
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la configurazione della funzionalità per la divisione delle fatture in base all'indirizzo di consegna e al numero di conto imposta (TAN).
+Questo articolo descrive la configurazione della funzionalità per la divisione delle fatture in base all'indirizzo di consegna e al numero di conto imposta (TAN).
 
 Nella pagina **Parametri contabilità fornitori**, nella scheda **Generale**, seleziona la casella di controllo **Entrata prodotti** o **Fattura** per registrare e dividere un'entrata prodotti o una fattura con indirizzi di consegna e TAN diversi nella pagina **Ordine fornitore**. La fattura registrata verrà quindi divisa in base all'indirizzo di consegna e al TAN.
 

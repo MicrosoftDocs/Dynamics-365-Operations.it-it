@@ -1,6 +1,6 @@
 ---
 title: Registrare numeri di certificati recuperabili TDS
-description: In questo argomento viene illustrato come utilizzare la pagina Certificati recuperabili per registrare i numeri e le date dei certificati dell'imposta dedotta all'origine (TDS) ricevuti per uno specifico conto fornitore, cliente e CoGe.
+description: In questo articolo viene illustrato come utilizzare la pagina Certificati recuperabili per registrare i numeri e le date dei certificati dell'imposta dedotta all'origine (TDS) ricevuti per uno specifico conto fornitore, cliente e CoGe.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5d62f560fe58a5fb7bd158bed9bcb111d75c7f00
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 513412e292167795fad9d80b68e6e5e14dbd13c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726492"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853258"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Registrare numeri di certificati recuperabili TDS
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come utilizzare la pagina **Certificati recuperabili** per registrare i numeri e le date dei certificati dell'imposta dedotta all'origine (TDS) ricevuti per uno specifico conto fornitore, cliente e CoGe. Per aggiornare i numeri e le date dei certificati TDS registrati per le transazioni TDS in questa pagina, utilizza la pagina **Aggiorna certificato** (**Contabilità generale \> Periodico \> Ritenuta d'acconto \> Aggiorna certificato**). Dopo aver terminato l'aggiornamento dei numeri di certificato TDS, chiudili.
+In questo articolo viene illustrato come utilizzare la pagina **Certificati recuperabili** per registrare i numeri e le date dei certificati dell'imposta dedotta all'origine (TDS) ricevuti per uno specifico conto fornitore, cliente e CoGe. Per aggiornare i numeri e le date dei certificati TDS registrati per le transazioni TDS in questa pagina, utilizza la pagina **Aggiorna certificato** (**Contabilità generale \> Periodico \> Ritenuta d'acconto \> Aggiorna certificato**). Dopo aver terminato l'aggiornamento dei numeri di certificato TDS, chiudili.
 
 Segui questi passaggi per registrare i numeri e le date dei certificati TDS.
 

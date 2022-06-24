@@ -1,6 +1,6 @@
 ---
 title: Numero di libri per giornale di registrazione
-description: Questo argomento descrive la relazione tra giornali e libri cespiti quando si crea un'acquisizione di cespiti o una proposta di ammortamento tramite un processo batch. Puoi definire il numero massimo di libri inclusi per ciascuna acquisizione e per l'ammortamento.
+description: Questo articolo descrive la relazione tra giornali e libri cespiti quando si crea un'acquisizione di cespiti o una proposta di ammortamento tramite un processo batch. Puoi definire il numero massimo di libri inclusi per ciascuna acquisizione e per l'ammortamento.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1e37d40c30d784eea5ba097447f2b2e69920830a
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 2dbd50963cf13f00e09b82e884cd8ebc0b67d424
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722382"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883331"
 ---
 # <a name="number-of-books-per-journal"></a>Numero di libri per giornale di registrazione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la relazione tra giornali e libri cespiti quando si crea un'acquisizione di cespiti o una proposta di ammortamento tramite un processo batch. Puoi definire il numero massimo di libri inclusi per ciascuna acquisizione e per l'ammortamento utilizzando i campi nella sezione **Numero di libri per giornale di registrazione** nella scheda **Generale** della pagina **Parametri dei cespiti** (**Cespiti \> Imposta \> Parametri dei cespiti**). Questi campi consentono di distribuire il numero di libri cespiti per giornale di registrazione acquisti e giornale di registrazione ammortamenti.
+Questo articolo descrive la relazione tra giornali e libri cespiti quando si crea un'acquisizione di cespiti o una proposta di ammortamento tramite un processo batch. Puoi definire il numero massimo di libri inclusi per ciascuna acquisizione e per l'ammortamento utilizzando i campi nella sezione **Numero di libri per giornale di registrazione** nella scheda **Generale** della pagina **Parametri dei cespiti** (**Cespiti \> Imposta \> Parametri dei cespiti**). Questi campi consentono di distribuire il numero di libri cespiti per giornale di registrazione acquisti e giornale di registrazione ammortamenti.
 
 Per una proposta di acquisizione, il valore predefinito è di almeno 10.000 libri. Per una proposta di ammortamento, il valore predefinito è di almeno 2.000 libri.
 

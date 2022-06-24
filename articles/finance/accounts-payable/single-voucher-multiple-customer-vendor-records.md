@@ -1,6 +1,6 @@
 ---
 title: Giustificativo singolo con più record cliente o fornitore
-description: In questo argomento viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future di Microsoft Dynamics 365 Finance e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione.
+description: In questo articolo viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future di Microsoft Dynamics 365 Finance e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8677eba2c38c6273555e1189c0153272a8ff9e005655f3846c0d7605b872ff94
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb94d582020484d8f37eb139c037fb108894c9ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889093"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Giustificativo singolo con più record cliente o fornitore
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione. 
+In questo articolo viene fornita una panoramica di cosa succede se si registra un singolo giustificativo con più record cliente o fornitore. Questa funzionalità verrà dismessa nelle versioni future e pertanto non è consigliabile utilizzare questo metodo di registrazione a causa dell'impatto della contabilità sull'elaborazione della liquidazione. 
 
 Alcuni esempi comuni in cui un giustificativo viene utilizzato per più clienti o fornitori includono i trasferimenti del saldo tra clienti e la compensazione dei saldi tra clienti e fornitori nella stessa organizzazione. 
 
@@ -35,7 +35,7 @@ Alcuni esempi comuni in cui un giustificativo viene utilizzato per più clienti 
 -   Tramite un giustificativo con più righe senza conto CoGe di contropartita con più di un cliente o fornitore.
 -   Immettendo un giustificativo con il conto e il conto di contropartita da fornitore/fornitore, cliente/cliente, fornitore/cliente o cliente/fornitore.
 
-In questo argomento viene illustrato come viene elaborata la liquidazione quando viene registrato un giustificativo con più record cliente o fornitore. Inoltre, in questo argomento vengono fornite le soluzioni alternative per capire come si evita l'uso di un giustificativo con più clienti o fornitori. In particolare, sono esempi in cui vengono illustrati due scenari comuni di liquidazione interessati dall'utilizzo di un giustificativo con più clienti o fornitori:
+In questo articolo viene illustrato come viene elaborata la liquidazione quando viene registrato un giustificativo con più record cliente o fornitore. Inoltre, in questo articolo vengono fornite le soluzioni alternative per capire come si evita l'uso di un giustificativo con più clienti o fornitori. In particolare, sono esempi in cui vengono illustrati due scenari comuni di liquidazione interessati dall'utilizzo di un giustificativo con più clienti o fornitori:
 
 -   Contabilità sconto di cassa
 -   Contabilità rivalutazione

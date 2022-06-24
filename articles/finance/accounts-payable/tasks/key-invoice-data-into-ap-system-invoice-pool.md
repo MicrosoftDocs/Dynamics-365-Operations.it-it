@@ -1,6 +1,6 @@
 ---
 title: Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture
-description: In questo argomento viene descritto come utilizzare il registro fatture per creare fatture.
+description: In questo articolo viene descritto come utilizzare il registro fatture per creare fatture.
 author: abruer
 ms.date: 07/31/2019
 ms.topic: business-process
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf781089469f87dc0a98279003c94fd1e8bf9dbe
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: fc3f1107a9564120aae77a75e6232879bf3c51af
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717336"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858442"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Inserire dati fattura nel sistema di contabilità fornitore tramite un pool di fatture
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare il registro fatture per creare fatture. Utilizzare quindi il pool di fatture per abbinare la fattura a un ordine fornitore e per finalizzare la spesa nella pagina della fattura fornitore.
+In questo articolo viene descritto come utilizzare il registro fatture per creare fatture. Utilizzare quindi il pool di fatture per abbinare la fattura a un ordine fornitore e per finalizzare la spesa nella pagina della fattura fornitore.
 
 
 ## <a name="create-a-purchase-order"></a>Creare un ordine fornitore

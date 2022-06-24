@@ -1,6 +1,6 @@
 ---
-title: 'Assegni fornitore di esempio per la creazione di report elettronici '
-description: In questo argomento sono riportate le informazioni generali sull'utilizzo dei formati di assegni di esempio per la creazione di report elettronici.
+title: Creazione di report elettronici per assegni fornitore di esempio
+description: In questo articolo sono riportate le informazioni generali sull'utilizzo dei formati di assegni di esempio per la creazione di report elettronici.
 author: sunfzam
 ms.date: 06/14/2017
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 38a037903a994f6212f4ccce10e10c795eb7364d
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d2b26a083540924d2368a298632aea90ecf95e9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734546"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908185"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Assegni fornitore di esempio per la creazione di report elettronici 
 
@@ -28,7 +28,7 @@ ms.locfileid: "8734546"
 
 ## <a name="what-check-formats-are-currently-supported"></a>Quali formati di assegni sono attualmente supportati?
 
-È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco corrente di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'argomento che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.
+È necessario passare alla libreria Risorsa condivisa in Microsoft Dynamics Lifecycle Services (LCS) e visualizzare l'elenco corrente di file disponibili con tipo di risorsa **Configurazione GER**. La sezione successiva, "Cosa devo impostare?", fornisce un collegamento all'articolo che illustra come creare un archivio LCS per esaminare le configurazioni disponibili e importare quelle selezionate.
 
 Microsoft Dynamics 365 Finance include un formato di esempio in cui l'assegno è in alto, seguito da due sezioni di rimessa. Include anche un formato di esempio in cui l'assegno è in mezzo, tra due sezioni di rimessa. Questi formati di esempio corrispondono ai formati di assegni aziendali di tipo deluxe.
 

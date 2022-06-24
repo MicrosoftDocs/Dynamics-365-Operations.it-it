@@ -1,8 +1,8 @@
 ---
 title: Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
-description: In questo argomento vengono fornite informazioni su come utilizzare il tipo Campo calcolato per le origini dati ER.
+description: In questo articolo vengono fornite informazioni su come utilizzare il tipo Campo calcolato per le origini dati ER.
 author: NickSelin
-ms.date: 08/06/2020
+ms.date: 01/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349162"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934704"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come progettare un'origine dati ER utilizzando il tipo **Campo calcolato**. Questa origine dati può contenere un'espressione ER che, quando eseguita, può essere controllata con i valori degli argomenti dei parametri configurati in un'associazione che chiama questa origine dati. Mediante la configurazione delle chiamate parametrizzate di un'origine dati simile, è possibile riutilizzare una singola origine dati in molte associazioni, riducendo quindi il numero totale di origini dati che devono essere configurate nei mapping di modello ER o nei formati ER. Semplifica inoltre il componente ER configurato, riducendo di conseguenza i costi di manutenzione e il costo di utilizzo da parte di altri clienti.
+In questo articolo viene descritto come progettare un'origine dati ER utilizzando il tipo **Campo calcolato**. Questa origine dati può contenere un'espressione ER che, quando eseguita, può essere controllata con i valori degli argomenti dei parametri configurati in un'associazione che chiama questa origine dati. Mediante la configurazione delle chiamate parametrizzate di un'origine dati simile, è possibile riutilizzare una singola origine dati in molte associazioni, riducendo quindi il numero totale di origini dati che devono essere configurate nei mapping di modello ER o nei formati ER. Semplifica inoltre il componente ER configurato, riducendo di conseguenza i costi di manutenzione e il costo di utilizzo da parte di altri clienti.
 
 ## <a name="prerequisites"></a>Prerequisiti
-Per completare gli esempi in questo argomento, è necessario disporre del seguente accesso:
+Per completare gli esempi in questo articolo, è necessario disporre del seguente accesso:
 
 - Accesso a uno di questi ruoli:
 
@@ -36,7 +36,7 @@ Per completare gli esempi in questo argomento, è necessario disporre del seguen
     - Consulente funzionale per la creazione di report elettronici
     - Amministratore di sistema
 
-- Accesso ai servizi RCS (Regulatory Configuration Services) di cui è stato eseguito il provisioning per lo stesso tenant di Finance and Operations per uno dei seguenti ruoli:
+- Accesso ai servizi RCS (Regulatory Configuration Service) di cui è stato eseguito il provisioning per lo stesso tenant di Finance and Operations per uno dei seguenti ruoli:
 
     - Sviluppatore per la creazione di report elettronici
     - Consulente funzionale per la creazione di report elettronici
@@ -46,10 +46,10 @@ Per completare gli esempi in questo argomento, è necessario disporre del seguen
 
 | **Contenuto**                           | **Nome file**                                        |
 |---------------------------------------|------------------------------------------------------|
-| Configurazione del modello di dati ER di esempio    | [Model to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
-| Configurazione dei metadati ER di esempio      | [Metadata to learn parameterized calls.version.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
-| Configurazione del mapping di modello ER di esempio | [Mapping to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configurazione di formato ER di esempio        | [Format to learn parameterized calls.version.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| Configurazione del modello di dati ER di esempio    | [Model to learn parameterized calls.version.1.xml](https://download.microsoft.com/download/e/5/c/e5c0d3f9-1818-47c7-ae75-46efcbb1314f/Modeltolearnparameterizedcallsversion.1.xml)     |
+| Configurazione dei metadati ER di esempio      | [Metadata to learn parameterized calls.version.1.xml](https://download.microsoft.com/download/8/3/a/83a910a5-bf65-4509-bec4-6737a81ecc45/Metadatatolearnparameterizedcalls.version.1.xml)  |
+| Configurazione del mapping di modello ER di esempio | [Mapping to learn parameterized calls.version.1.1.xml](https://download.microsoft.com/download/b/f/d/bfd8cbd8-0370-44d1-a1b1-66d021c580ca/Mappingtolearnparameterizedcalls.version.1.1.xml) |
+| Configurazione di formato ER di esempio        | [Format to learn parameterized calls.version.1.1.xml](https://download.microsoft.com/download/8/1/d/81deb6d8-a768-4fcf-bbbe-8f84d2dac3eb/Formattolearnparameterizedcalls.version.1.1.xml)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Accedere all'istanza RCS
 In questo esempio si creerà una configurazione per la società di esempio Litware, Inc. Innanzitutto, in RCS, completare i passaggi nella procedura [Creare fornitori di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
@@ -306,7 +306,7 @@ Quando un campo calcolato parametrizzato restituisce un record, è necessario su
 È possibile eseguire formati ER iniziali e migliorati per assicurarsi che i campi calcolati parametrizzati configurati funzionino correttamente.
 
 ### <a name="import-er-configurations"></a>Importare configurazioni ER
-È possibile importare le configurazioni esaminate da RCS utilizzando il repository ER del tipo **RCS**. Se si è già letta la procedura nell'argomento [Importare configurazioni di creazione di report elettronici da Regulatory Configuration Services](rcs-download-configurations.md), utilizzare il repository ER configurato per importare le configurazioni descritte in precedenza in questo argomento nel proprio ambiente. In caso contrario, procedere come segue:
+È possibile importare le configurazioni esaminate da RCS utilizzando il repository ER del tipo **RCS**. Se hai già letto la procedura nell'articolo [Importare configurazioni di creazione di report elettronici da Regulatory Configuration Services](rcs-download-configurations.md), utilizza il repository ER configurato per importare le configurazioni descritte in precedenza in questo articolo nel tuo ambiente. In caso contrario, procedere come segue:
 
 1. Selezionare la società **DEMF** e nel dashboard predefinito selezionare **Creazione di report elettronici**.
 2. Selezionare **Configurazioni report**.

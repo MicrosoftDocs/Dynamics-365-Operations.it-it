@@ -1,6 +1,6 @@
 ---
-title: Utilizzare previsioni di pagamento del cliente
-description: In questo argomento vengono illustrati i prerequisiti e i passaggi generali necessari per utilizzare una versione di valutazione di Informazioni dettagliate finanziarie.
+title: Usare previsioni di pagamento del cliente
+description: In questo articolo vengono illustrati i prerequisiti e i passaggi generali necessari per utilizzare una versione di valutazione di Finance Insights.
 author: ShivamPandey-msft
 ms.date: 11/03/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: ecc864485dfc106df22b48e92a85f2c73d58e0e8
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: 330642624b55a6772ef149b70873021401a6bd83
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740626"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901404"
 ---
-# <a name="use-customer-payment-predictions"></a>Utilizzare previsioni di pagamento del cliente
+# <a name="use-customer-payment-predictions"></a>Usare previsioni di pagamento del cliente
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come utilizzare le previsioni di pagamento del cliente. Prima di utilizzare questa funzionalità, assicurati di aver completato la procedura di configurazione. Per ulteriori informazioni, vedi [Abilitare le previsioni di pagamento cliente](enable-cust-paymnt-prediction.md).
+Questo articolo spiega come utilizzare le previsioni di pagamento del cliente. Prima di utilizzare questa funzionalità, assicurati di aver completato la procedura di configurazione. Per ulteriori informazioni, vedi [Abilitare le previsioni di pagamento cliente](enable-cust-paymnt-prediction.md).
 
 Puoi visualizzare le previsioni di pagamento del cliente nell'area di lavoro **Gestisci crediti e riscossioni cliente** e su due nuove pagine elenco, **Previsione pagamento per transazione** e **Previsione pagamento per cliente**.
 

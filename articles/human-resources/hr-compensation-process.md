@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e4aa910d92c2905d54d96f656e1d3d1c36388636
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 228c891e8c29cf4309856b90139d0b88805a9812
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886162"
 ---
 # <a name="process-compensation"></a>Processo retributivo
 
@@ -27,7 +27,7 @@ ms.locfileid: "8693866"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Il processo retributivo consente di calcolare i nuovi importi relativi alla retribuzione di base per i dipendenti in base a rettifiche di capitale netto, obiettivi di incentivo per merito e prestazioni. Questo argomento descrive il flusso di base dell'elaborazione delle retribuzioni per i piani di retribuzione fissa senza factoring delle prestazioni di un dipendente.
+Il processo retributivo consente di calcolare i nuovi importi relativi alla retribuzione di base per i dipendenti in base a rettifiche di capitale netto, obiettivi di incentivo per merito e prestazioni. Questo articolo descrive il flusso di base dell'elaborazione delle retribuzioni per i piani di retribuzione fissa senza factoring delle prestazioni di un dipendente.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Pianificare i nuovi budget e importi retributivi
 Per concedere ai dipendenti un incentivo per merito, è necessario impostare un budget per incentivi fissi per ciascun reparto: **Gestione retribuzioni** > **Collegamenti** > **Obiettivi incentivo per merito**. In alternativa, puoi aprire questa pagina dal reparto: **Organizzazione** > **Reparti**. In questo campo puoi specificare ulteriormente se i dipendenti in un determinato sindacato o una determinata ubicazione devono ottenere una percentuale di incentivo diversa. I campi **Budget** e **Valuta** sono informativi e possono essere utilizzati per prendere nota un importo in valuta per il budget.
@@ -41,7 +41,7 @@ La data di **temporizzazione** dell'evento processo viene utilizzata solo per el
 
 Una volta che i parametri dell'evento processo sono stati salvati, fai clic sul pulsante **Imposta** per indicare i piani da includere nell'esecuzione del processo e le azioni di retribuzione fissa da intraprendere per ciascun piano.
 
-Fai clic sul pulsante **Aggiunti** nella scheda **Piani** per aggiungere un piano di retribuzione all'evento processo. Le colonne **Usa altro fattore**, **Fattore** e **Descrizione fattore** vengono utilizzate solo per i piani di retribuzione variabile e non vengono descritte in questo argomento.
+Fai clic sul pulsante **Aggiunti** nella scheda **Piani** per aggiungere un piano di retribuzione all'evento processo. Le colonne **Usa altro fattore**, **Fattore** e **Descrizione fattore** vengono utilizzate solo per i piani di retribuzione variabile e non vengono descritte in questo articolo.
 
 Salva il record, quindi fai clic sul pulsante **Aggiungi** nella scheda **Azioni** per aggiungere le azioni di retribuzione fissa per il piano selezionato. Utilizzare l'opzione **Abilita suggerimento** se si desidera immettere un importo diverso dall'incentivo produttività calcolato per l'azione. Per calcolare un'azione basata sul risultato dell'azione precedente per collegare più azioni di compensazione, seleziona l'opzione **Usa il risultato precedente**. Le azioni di retribuzione fissa sono tipi di logica retributiva a cui è possibile assegnare nomi descrittivi. Per i piani **Scala** e **Fascia**, è possibile aggiungere solo le azioni di retribuzione fissa dei seguenti tipi:
 

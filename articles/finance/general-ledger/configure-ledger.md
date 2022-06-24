@@ -1,6 +1,6 @@
 ---
 title: Configurare i libri contabili
-description: Questo argomento fornisce informazioni su come configurare i libri contabili per ogni persona giuridica. Include informazioni su come selezionare le valute, i calendari fiscali, il piano dei conti e le strutture dei conti da utilizzare con ciascuna persona giuridica.
+description: Questo articolo fornisce informazioni su come configurare i libri contabili per ogni persona giuridica. Include informazioni su come selezionare le valute, i calendari fiscali, il piano dei conti e le strutture dei conti da utilizzare con ciascuna persona giuridica.
 author: kweekley
 ms.date: 09/24/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 38c4364c47915cc0019cb6b3d471d3e60d413bf0
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711550"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864341"
 ---
 # <a name="configure-ledgers"></a>Configurare i libri contabili
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni su come configurare i libri contabili per ogni persona giuridica. Include informazioni su come selezionare le valute, i calendari fiscali, il piano dei conti e le strutture dei conti da utilizzare con ciascuna persona giuridica.
+Questo articolo fornisce informazioni su come configurare i libri contabili per ogni persona giuridica. Include informazioni su come selezionare le valute, i calendari fiscali, il piano dei conti e le strutture dei conti da utilizzare con ciascuna persona giuridica.
 
 ## <a name="selecting-the-chart-of-accounts"></a>Selezione del piano dei conti
 

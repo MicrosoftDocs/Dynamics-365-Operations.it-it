@@ -1,6 +1,6 @@
 ---
 title: Ammortamento manuale dei cespiti per l'Italia
-description: In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.
+description: In questo articolo vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.
 author: ShylaThompson
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Italy
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7edbb4ca1176cc2c3fd231a9102b758fe5602f8e890dac19d011f77b086dd61c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a443dd1f427dae9fd7e03ad0a49b2176043603e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872368"
 ---
 # <a name="manual-depreciation-of-fixed-assets-for-italy"></a>Ammortamento manuale dei cespiti per l'Italia
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia. 
+In questo articolo vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia. 
 
 Per le persone giuridiche in Italia, il metodo di ammortamento manuale ha una funzionalità aggiuntiva che include i seguenti campi:
 

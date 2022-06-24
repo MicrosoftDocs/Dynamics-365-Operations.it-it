@@ -1,6 +1,6 @@
 ---
 title: Visualizzare e gestire le modifiche agli indirizzi
-description: Questo argomento spiega come visualizzare e gestire le modifiche agli indirizzi in Dynamics 365 Human Resources.
+description: Questo articolo spiega come visualizzare e gestire le modifiche agli indirizzi in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 819f22c58da485980c38d35dcc6dda6aebacf423
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 744ab532fcc663f25ce376817779924bbef15432
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695846"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899587"
 ---
 # <a name="view-and-manage-address-changes"></a>Visualizzare e gestire le modifiche agli indirizzi
 
@@ -27,7 +27,7 @@ ms.locfileid: "8695846"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento spiega come visualizzare e gestire le modifiche degli indirizzi nella pagina **Modifica dettagli personali** (che puoi aprire dall'area di lavoro **Self-service dipendenti**) o nella pagina dei dettagli del **Lavoratore** in Dynamics 365 Human Resources.
+Questo articolo spiega come visualizzare e gestire le modifiche degli indirizzi nella pagina **Modifica dettagli personali** (che puoi aprire dall'area di lavoro **Self-service dipendenti**) o nella pagina dei dettagli del **Lavoratore** in Dynamics 365 Human Resources.
 
 Molte organizzazioni desiderano che i dipendenti gestiscano i propri dati personali attraverso un'esperienza self-service. È possibile consentire agli utenti di aggiornare il proprio indirizzo nell'area di lavoro **Dipendente self-service**. È quindi possibile monitorare queste modifiche nell'area di lavoro **Gestione personale**. Per utilizzare questa funzione, è necessario specificare il numero di giorni in cui si desidera visualizzare le modifiche nella pagina **Parametri Human Resources**.
 

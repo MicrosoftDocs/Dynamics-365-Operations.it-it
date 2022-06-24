@@ -1,6 +1,6 @@
 ---
 title: Termini di allocazione
-description: Questo argomento fornisce informazioni sull'utilizzo dei termini di allocazione su un conto principale.
+description: Questo articolo fornisce informazioni sull'utilizzo dei termini di allocazione su un conto principale.
 author: rachel-profitt
 ms.date: 06/15/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab3f797505e2c3d7521d3af5c231f5985e6efaa5
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d62c0cc79c9d61e0ebb1c2c62a345ad47412d0d2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734897"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859829"
 ---
 # <a name="allocation-terms"></a>Termini di allocazione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sull'utilizzo dei termini di allocazione su un conto principale. I termini di allocazione vengono utilizzati per distribuire importi tra più combinazioni di conti CoGe. Consentono di garantire che le spese o i ricavi vengano contabilizzate in relazione all'oggetto corretto.
+Questo articolo fornisce informazioni sull'utilizzo dei termini di allocazione su un conto principale. I termini di allocazione vengono utilizzati per distribuire importi tra più combinazioni di conti CoGe. Consentono di garantire che le spese o i ricavi vengano contabilizzate in relazione all'oggetto corretto.
 
 Ogni termine di allocazione creato su un conto principale definisce la percentuale di un giustificativo da allocare da un conto principale a origine singola e una combinazione di dimensioni finanziarie. Inoltre, si definiscono il conto principale di destinazione e le dimensioni finanziarie in cui verrà allocato l'importo. 
 

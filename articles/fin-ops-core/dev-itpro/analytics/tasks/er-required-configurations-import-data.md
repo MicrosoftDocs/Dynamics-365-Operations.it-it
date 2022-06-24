@@ -1,6 +1,6 @@
 ---
 title: ER Creare le configurazioni richieste per importare dati da un file esterno
-description: Questo argomento descrive come progettare le configurazioni di creazione di report elettronici per importare i dati nell'app Microsoft Dynamics 365 Finance da un file esterno in formato CSV.
+description: Questo articolo descrive come progettare le configurazioni di creazione di report elettronici per importare i dati nell'app Microsoft Dynamics 365 Finance da un file esterno in formato CSV.
 author: NickSelin
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: aa1dc55e8cdee7d61e5ababe92e8a9234788664f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865895"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Creare le configurazioni richieste per importare dati da un file esterno
 
@@ -241,7 +241,7 @@ Eseguire questo mapping di formato a scopo di verifica. Utilizzare il file 1099e
 19. Chiudere la pagina.
 20. Fare clic su Modifica.
 
-    Se è stato installato l'aggiornamento rapido "KB 4012871 Supporto dei mapping di modello GER in configurazioni separate con la possibilità di specificare diversi tipi di prerequisiti per la distribuzione in diverse versioni di Dynamics 365 Finance" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), eseguire il passaggio successivo "Attivare il flag Impostazione predefinita per mapping di modello" per la configurazione di formato immessa. In caso contrario ignorare il passaggio successivo.  
+    Se hai installato l'hotfix "KB 4012871 Supporto dei mapping di modello GER in configurazioni separate con la possibilità di specificare diversi tipi di prerequisiti per la distribuzione in diverse versioni di Dynamics 365 Finance" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), esegui il passaggio successivo "Attivare il flag Impostazione predefinita per mapping di modello" per la configurazione di formato immessa. In caso contrario ignorare il passaggio successivo.  
 
 21. Selezionare Sì nel campo Impostazione predefinita per mapping di modello.
 22. Nella struttura selezionare '1099 Modello pagamenti'.

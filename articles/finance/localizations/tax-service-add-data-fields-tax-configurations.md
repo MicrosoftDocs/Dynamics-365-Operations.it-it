@@ -1,6 +1,6 @@
 ---
 title: Aggiungere campi dati nelle configurazioni imposte
-description: Questo argomento spiega come personalizzare le configurazioni imposte aggiungendo campi dati.
+description: Questo articolo spiega come personalizzare le configurazioni imposte aggiungendo campi dati.
 author: Kai-Cloud
 ms.date: 10/21/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: deb19c8ddf20b416864ed8c3f816f92e43309f71
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 894c42f444d27b807288b84c7b9c620ad0121fa9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872328"
 ---
 # <a name="add-data-fields-in-tax-configurations"></a>Aggiungere campi dati nelle configurazioni imposte
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come personalizzare le configurazioni imposte utilizzando i [campi di dati aggiunti nell'integrazione fiscale](tax-service-add-data-fields-tax-integration-by-extension.md).
+Questo articolo spiega come personalizzare le configurazioni imposte utilizzando i [campi di dati aggiunti nell'integrazione fiscale](tax-service-add-data-fields-tax-integration-by-extension.md).
 
 ## <a name="customize-the-tax-data-model"></a>Personalizzare il modello di dati fiscali
 

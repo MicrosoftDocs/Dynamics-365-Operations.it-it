@@ -1,6 +1,6 @@
 ---
 title: Ammortamento basato sulla vita utile rimanente a quote costanti
-description: Questo argomento offre una panoramica del metodo di ammortamento basato sulla vita utile rimanente a quote costanti.
+description: Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile rimanente a quote costanti.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92941bc679835d38ba47464452315498a70ce2ee
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 185e1c101ffb6dfbd47348952d6dfc47ab137ffa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726699"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853440"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Ammortamento basato sulla vita utile rimanente a quote costanti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento offre una panoramica del metodo di ammortamento basato sulla vita utile rimanente a quote costanti.
+Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile rimanente a quote costanti.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Vita utile rimanente a quote costanti** nel campo **Metodo** della pagina **Profili di ammortamento**, l'ammortamento dei cespiti assegnati al profilo di ammortamento verrà basato sulla vita utile rimanente del cespite. In genere è lo stesso importo in ciascun periodo di ammortamento. Per impostare l'ammortamento a quote costanti basato sulla vita utile rimanente, è inoltre necessario selezionare le opzioni presenti nel campo **Anno di ammortamento** e nel campo **Frequenza periodo** della pagina **Profili di ammortamento**. Le opzioni disponibili nel campo **Frequenza periodo** variano a seconda del valore selezionato in **Anno di ammortamento**.
 
@@ -35,7 +35,7 @@ Quando si imposta un profilo di ammortamento cespiti e si seleziona **Vita utile
 
 ### <a name="calendar"></a>Calendario
 
-Se selezioni **Calendario** nel campo **_Anno di ammortamento_*_, si presume un anno compreso tra il 1 gennaio e il 31 dicembre, anche se il calendario fiscale è stato definito in modo diverso. L'opzione _* Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, la base di ammortamento corrisponde al valore contabile netto meno il valore di realizzo. Nell'esempio illustrato più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
+Se selezioni **Calendario** nel campo **_Anno di ammortamento_*_, si presume un anno compreso tra il 1 gennaio e il 31 dicembre, anche se il calendario fiscale è stato definito in modo diverso. L'opzione _* Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, la base di ammortamento corrisponde al valore contabile netto meno il valore di realizzo. Nell'esempio illustrato più avanti in questo articolo, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 
 - **Annuale**: viene registrato un importo il 31 dicembre.
 - **Mensile**: viene registrato un importo mensile alla fine di ciascun mese di calendario.

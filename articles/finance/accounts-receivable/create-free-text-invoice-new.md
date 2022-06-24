@@ -1,6 +1,6 @@
 ---
-title: Creare una fattura a testo libero
-description: In questo argomento viene illustrato come creare le fatture a testo libero.
+title: Crea una fattura a testo libero
+description: In questo articolo viene illustrato come creare le fatture a testo libero.
 author: abruer
 ms.date: 02/15/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e9578d9b2d61f241ab5e92fc9740b88b80969f6
-ms.sourcegitcommit: 411874545d7c326fc4aa877948a059371f0ccb3c
+ms.openlocfilehash: 87dc6334baa83ace23b77d94da4d1e464cb0b574
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "8392887"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878162"
 ---
-# <a name="create-a-free-text-invoice"></a>Creare una fattura a testo libero
+# <a name="create-a-free-text-invoice"></a>Crea una fattura a testo libero
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come creare le fatture a testo libero. Per questa procedura viene utilizzata la società dimostrativa **USMF**.
+In questo articolo viene illustrato come creare le fatture a testo libero. Per questa procedura viene utilizzata la società dimostrativa **USMF**.
 
 ## <a name="create-a-free-text-invoice"></a>Crea una fattura a testo libero
 
@@ -37,7 +37,7 @@ In questo argomento viene illustrato come creare le fatture a testo libero. Per 
     * Se si utilizzano i mandati SEPA (Single Euro Payments Area), il mandato per addebito diretto verrà automaticamente immesso quando si seleziona il conto cliente.
 
 4. Nel campo **Descrizione** immettere un valore.
-5. Nel campo **Conto principale** specificare il numero di conto che non ha dimensioni. Le dimensioni verranno immesse più avanti in questo argomento.
+5. Nel campo **Conto principale** specificare il numero di conto che non ha dimensioni. Le dimensioni verranno immesse più avanti in questo articolo.
 
     È anche possibile immettere uno o più caratteri per il conto principale e utilizzare la ricerca per trovare il conto.
 

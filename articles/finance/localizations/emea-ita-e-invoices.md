@@ -1,6 +1,6 @@
 ---
 title: Fatture elettroniche dei clienti
-description: Questo argomento fornisce informazioni sulla gestione delle fatture elettroniche dei clienti per l'Italia.
+description: Questo articolo fornisce informazioni sulla gestione delle fatture elettroniche dei clienti per l'Italia.
 author: v-oloski
 ms.date: 05/06/2021
 ms.topic: article
@@ -10,18 +10,18 @@ audience: Application User
 ms.reviewer: ''
 ms.search.region: Italy
 ms.author: v-oloski
-ms.openlocfilehash: 437fe9a2d6d4430778a6aea7d29817a52004f26f97fe006ebee261109b7da80f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5e49944923f6f83731ef4e0c8d53ede6959d8005
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748933"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858354"
 ---
 # <a name="customer-electronic-invoices"></a>Fatture elettroniche dei clienti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come configurare e utilizzare le funzionalità per la creazione e l'invio di fatture di vendita e progetto in un formato elettronico (FatturaPA).
+Questo articolo descrive come configurare e utilizzare le funzionalità per la creazione e l'invio di fatture di vendita e progetto in un formato elettronico (FatturaPA).
 
 A partire dalla versione 1.2 del formato FatturaPA, le fatture elettroniche possono essere utilizzate per tutti i tipi di aziende. Tali tipi comprendono le amministrazioni pubbliche, le imprese private e i professionisti.
 
@@ -29,7 +29,7 @@ A partire dalla versione 1.2 del formato FatturaPA, le fatture elettroniche poss
 
 L'indirizzo principale della persona giuridica deve essere in Italia.
 
-In questo argomento sono incluse le seguenti informazioni:
+In questo articolo sono incluse le seguenti informazioni:
 
 - [Informazioni di impostazione](#setup)
 - [Gestione dei documenti di base correlati](#relateddoc)
@@ -151,11 +151,11 @@ In entrambi i casi, il sistema immette il valore di questo campo nel tag **Codic
 
 ![Campo Ufficio di controllo nella Scheda dettaglio Dati demografici vendite di un record cliente.](media/emea-ita-electronic-invocies-customer-authority-office.png)
 
-Se il campo **Ufficio di controllo** è vuoto, il sistema considera il cliente come un'impresa privata o un professionista (il formato di trasmissione è uguale a **FPR12**) e immette **0000000** nel tag **CodiceDestinatario** nel file XML. In questo caso, deve essere configurato un indirizzo e-mail certificato (PEC). Per ulteriori informazioni, consultare la tabella nella sezione [Proprietà dei documenti elettronici](#edproperties) vista precedentemente in questo argomento.
+Se il campo **Ufficio di controllo** è vuoto, il sistema considera il cliente come un'impresa privata o un professionista (il formato di trasmissione è uguale a **FPR12**) e immette **0000000** nel tag **CodiceDestinatario** nel file XML. In questo caso, deve essere configurato un indirizzo e-mail certificato (PEC). Per ulteriori informazioni, consulta la tabella nella sezione [Proprietà dei documenti elettronici](#edproperties) vista precedentemente in questo articolo.
 
 #### <a name="activate-automatic-creation-of-electronic-invoices"></a>Attivare la creazione automatica di fatture elettroniche
 
-Andare a **Contabilità clienti** \> **Clienti** \> **Tutti i clienti** e aprire un record cliente in modalità di **Modifica**. Quindi nella Scheda dettaglio **Fattura e consegna**, nella sezione **Fattura elettronica**, trovare l'opzione **Registro eInvoice**. Se questa opzione è impostata su **Sì**, il sistema crea automaticamente il record nella pagina elenco **Fatture elettroniche clienti**. Per ulteriori informazioni, vedere la sezione [Registro delle fatture elettroniche](#einvoiceregister) più avanti in questo argomento.
+Andare a **Contabilità clienti** \> **Clienti** \> **Tutti i clienti** e aprire un record cliente in modalità di **Modifica**. Quindi nella Scheda dettaglio **Fattura e consegna**, nella sezione **Fattura elettronica**, trovare l'opzione **Registro eInvoice**. Se questa opzione è impostata su **Sì**, il sistema crea automaticamente il record nella pagina elenco **Fatture elettroniche clienti**. Per ulteriori informazioni, vedi la sezione [Registro delle fatture elettroniche](#einvoiceregister) più avanti in questo articolo.
 
 ![Sezione Fattura elettronica nella Scheda dettaglio Fattura e consegna di un record cliente.](media/emea-ita-electronic-invocies-customer-e-invoice.png)
 
@@ -203,7 +203,7 @@ Per definire specifici gruppi reverse charge per specifici prodotti o categorie,
 
 Inoltre, è necessario impostare parametri specifici dell'applicazione che utilizzano questi gruppi reverse charge.
 
-Per ulteriori informazioni su questa funzionalità, vedere la sezione "Configurazione di reverse charge" in [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
+Per ulteriori informazioni su questa funzionalità, vedi la sezione "Configurazione di reverse charge" in [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
 
 ### <a name="automatically-assigned-natura-codes"></a>Codici Natura assegnati automaticamente
 
@@ -245,7 +245,7 @@ Se un tipo di documento richiesto non è elencato, è possibile modificare manua
 - Definizione di proprietà di documenti elettronici
 - Registrazione del tipo di documento fattura
 
-Per ulteriori informazioni, vedere la sezione "Configurazione dei tipi di fatture" in [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
+Per ulteriori informazioni, vedi la sezione "Configurazione dei tipi di fatture" in [Hotfix specifico del paese per supportare le modifiche nel formato "FatturaPA" delle fatture elettroniche italiane in Microsoft Dynamics 365 Finance](https://support.microsoft.com/help/4569342/a-country-specific-hotfix-to-support-changes-in-fatturapa-format-of-it).
 
 ### <a name="digital-certificates"></a><a id="digitalcert"></a>Certificati digitali
 

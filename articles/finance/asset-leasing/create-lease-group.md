@@ -1,6 +1,6 @@
 ---
 title: Creare un gruppo di leasing
-description: In questo argomento viene spiegato come configurare i gruppi di leasing. I gruppi di leasing sono obbligatori per creare nuovi leasing.
+description: In questo articolo viene spiegato come configurare i gruppi di leasing. I gruppi di leasing sono obbligatori per creare nuovi leasing.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 49a905e9f27f01898628e88c7af781aed1f25ec7
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: cd1a6f61346233bf205657917c65fccd82167f7f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714147"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895024"
 ---
 # <a name="create-a-lease-group"></a>Creare un gruppo di leasing
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene spiegato come configurare i gruppi di leasing. I gruppi di leasing sono obbligatori per creare nuovi leasing. I libri di leasing sono associati a ogni gruppo di leasing. I libri di leasing determinano i libri predefiniti che devono essere creati per ogni leasing. Puoi assegnare account specifici a un gruppo di leasing nella pagina **Parametri di registrazione del leasing**.
+In questo articolo viene spiegato come configurare i gruppi di leasing. I gruppi di leasing sono obbligatori per creare nuovi leasing. I libri di leasing sono associati a ogni gruppo di leasing. I libri di leasing determinano i libri predefiniti che devono essere creati per ogni leasing. Puoi assegnare account specifici a un gruppo di leasing nella pagina **Parametri di registrazione del leasing**.
 
 ## <a name="create-a-lease-book-and-add-a-lease-group"></a>Crea un libro di leasing e aggiungi un gruppo di leasing
 

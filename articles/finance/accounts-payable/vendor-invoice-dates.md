@@ -1,6 +1,6 @@
 ---
 title: Date della fattura fornitore
-description: Questo argomento descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come impostare il sistema in modo che rettifichi automaticamente la data di registrazione.
+description: Questo articolo descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come impostare il sistema in modo che rettifichi automaticamente la data di registrazione.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 064a125d448ebb3511db2d9b1f4228380805dc44
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105466"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876414"
 ---
 # <a name="vendor-invoice-dates"></a>Date della fattura fornitore
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come impostare il sistema in modo che rettifichi automaticamente la data di registrazione.
+Questo articolo descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come impostare il sistema in modo che rettifichi automaticamente la data di registrazione.
 
 Nella pagina **Fattura fornitore dettagliata in attesa**, l'intestazione della fattura mostra quattro date: la data di ricezione della fattura, la data della fattura, la data di registrazione e la data di scadenza. Quando viene creata una fattura fornitore, per impostazione predefinita vengono immesse le seguenti date:
 
@@ -37,7 +37,7 @@ Nella pagina **Fattura fornitore dettagliata in attesa**, l'intestazione della f
 
 A volte, una fattura fornitore potrebbe rimanere in sospeso per molto tempo dopo la chiusura del periodo. Quando è pronta per la registrazione, viene ancora utilizzata la vecchia data di registrazione del periodo di registrazione passato. Tuttavia, quel periodo è ora chiuso. Pertanto, un addetto alla contabilità fornitori deve modificare manualmente tutte le date di registrazione nel nuovo periodo di registrazione per tutte le fatture in sospeso create in precedenza.
 
-La funzionalità descritta in questo argomento consente di impostare il sistema in modo che rettifichi automaticamente la data di registrazione in base ai requisiti aziendali.
+La funzionalità descritta in questo articolo ti consente di impostare il sistema in modo che rettifichi automaticamente la data di registrazione in base ai requisiti aziendali.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parametro per la rettifica automatica della data di registrazione della fattura fornitore
 

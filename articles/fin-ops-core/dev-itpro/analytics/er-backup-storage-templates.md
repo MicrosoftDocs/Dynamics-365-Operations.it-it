@@ -1,6 +1,6 @@
 ---
 title: Archiviazione di backup di modelli ER
-description: In questo argomento viene descritto come utilizzare l'archiviazione di backup ER per il recupero di modelli.
+description: In questo articolo viene descritto come utilizzare l'archiviazione di backup ER per il recupero di modelli.
 author: NickSelin
 ms.date: 04/29/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b5de8b9dc06cf10bda1932d5f4ee4484cdae591564fdcd5dd28c5036b82abc66
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767879"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880395"
 ---
 # <a name="backup-storage-of-er-templates"></a>Archiviazione di backup di modelli ER
 
@@ -58,7 +58,7 @@ Se un modello di un formato di ER è necessario per la generazione di documenti 
 
 Per configurare il parametro **Esegui automaticamente procedura di ripristino di modelli danneggiati in batch**, completare i passaggi seguenti:
 
-1. In Finance and Operations aprire la pagina **Amministrazione organizzazione \> Creazione di report elettronici \> Configurazioni**.
+1. In Finance and Operations, aprire la pagina **Amministrazione organizzazione \> Creazione di report elettronici \> pagina Configurazioni**.
 2. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
 3. Nella finestra di dialogo **Parametri utente**, impostare il valore necessario per il parametro **Esegui automaticamente procedura di ripristino di modelli danneggiati in batch**.
 
@@ -83,7 +83,7 @@ Per impostazione predefinita, il processo di creazione automatica di copie di ba
 
 Se si imposta **Interrompi creazione di copie di backup del modello** su **Sì** e non si desidera mantenere le copie di backup dei modelli create in precedenza, selezionare **Pulisci archiviazione di backup** nella pagina **Parametri per la creazione di report elettronici**.
 
-Se l'ambiente è stato aggiornato a Finance and Operations versione 10.0.5 (ottobre 2019) e si desidera eseguire la migrazione a un nuovo ambiente che include configurazioni di formato ER eseguibili, selezionare **Completa archiviazione di backup** nella pagina **Parametri per la creazione di report elettronici** prima di eseguire la migrazione. Questo pulsante avvia il processo di creazione di copie di backup di tutti i modelli disponibili, di modo che possano essere archiviati nel percorso di archiviazione di backup ER per modelli.
+Se l'ambiente è stato aggiornato alla versione 10.0.5 di Finance and Operations (ottobre 2019) e si desidera eseguire la migrazione a un nuovo ambiente che include configurazioni di formato ER eseguibili, selezionare **Completa archiviazione di backup** nella pagina **Parametri per la creazione di report elettronici** prima di eseguire la migrazione. Questo pulsante avvia il processo di creazione di copie di backup di tutti i modelli disponibili, di modo che possano essere archiviati nel percorso di archiviazione di backup ER per modelli.
 
 ![Pagina Parametri per la creazione di report elettronici.](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici
 
 ## <a name="supported-deployments"></a>Distribuzioni supportate
 
-In Finance and Operations versione 10.0.5 la funzionalità di archiviazione di backup di modelli ER è disponibile solo nelle distribuzioni cloud.
+In Finance and Operations versione 10.0.5, la funzionalità di archiviazione di backup di modelli ER è disponibile solo nelle distribuzioni cloud.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

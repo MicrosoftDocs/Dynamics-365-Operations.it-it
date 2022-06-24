@@ -1,6 +1,6 @@
 ---
 title: Cosa c'è di nuovo o cambiato in Dynamics 365 Human Resources 9 agosto 2021
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 9 agosto 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 9 agosto 2021.
 author: marcelbf
 ms.date: 08/09/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-08-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c43ed654a07834ce31a1425762f29c53aa2a020
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ad1397084dd3eb210065fe6d8c20c5b8253cd206
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689272"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882868"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-9-2021"></a>Cosa c'è di nuovo o cambiato in Dynamics 365 Human Resources 9 agosto 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le caratteristiche che sono nuove, cambiate o in arrivo in Microsoft Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Microsoft Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -40,9 +40,9 @@ Questa versione include le seguenti nuove funzionalità e correzioni di bug. Le 
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo argomento per includere le correzioni di bug che sono state inserite nella build dopo che questo argomento è stato inizialmente pubblicato.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Problema | descrizione |
+| Numero problema | Problema | Description |
 | --- | --- | --- |
 | 558385 | Il destinatario predefinito non viene selezionato quando l'opzione **Selezione automatica dei destinatari** è attivata per i destinatari predefiniti. | Questo problema è ora risolto. Più destinatari predefiniti vengono selezionati automaticamente nei piani idonei quando l'opzione **Seleziona automaticamente i destinatari** nella pagina dei **parametri condivisi delle Risorse umane** è attivata. |
 | 589617 | Nella pagina **Permesso** , i saldi **Disponibili per l'acquisto** e **Disponibili per la vendita** sono vuoti quando l'accesso è limitato a una specifica azienda. | Questo problema è ora risolto. La pagina **Permesso** mostra i saldi corretti di **Disponibili per l'acquisto** e **Disponibili per la vendita** quando l'utente è limitato a una specifica azienda. |

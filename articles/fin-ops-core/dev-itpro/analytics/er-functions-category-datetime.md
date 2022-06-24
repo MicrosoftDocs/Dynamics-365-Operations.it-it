@@ -1,6 +1,6 @@
 ---
 title: Elenco delle funzioni ER nella categoria data e ora
-description: Questo argomento fornisce informazioni sulle funzioni di data e ora supportate nella creazione di report elettronici (ER).
+description: Questo articolo fornisce informazioni sulle funzioni di data e ora supportate nella creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 09/09/2021
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a0322e5490474e21ad91076ecc486f38a776e32
-ms.sourcegitcommit: c85eac17fbfbd311288b50664f9e2bae101c1fe6
+ms.openlocfilehash: e6e15d143bad016883f03ecf0125ce9429215a71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7890779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880246"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Elenco delle funzioni ER nella categoria data e ora
 
 [!include [banner](../includes/banner.md)]
 
-Le funzioni di data e ora della creazione di report elettronici (ER) possono essere utilizzate per estrarre informazioni dai valori di data e ora e per eseguire operazioni su di essi. Questo argomento fornisce un riepilogo di queste funzioni.
+Le funzioni di data e ora della creazione di report elettronici (ER) possono essere utilizzate per estrarre informazioni dai valori di data e ora e per eseguire operazioni su di essi. Questo articolo fornisce un riepilogo di queste funzioni.
 
 ## <a name="list-of-supported-functions"></a>Elenco delle funzioni supportate
 

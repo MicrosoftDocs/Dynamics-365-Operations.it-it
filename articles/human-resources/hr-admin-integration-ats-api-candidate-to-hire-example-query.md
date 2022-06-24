@@ -1,6 +1,6 @@
 ---
 title: Query di esempio per il candidato da assumere
-description: Questo argomento fornisce una query di esempio per l'entità Candidato da assumere in Dynamics 365 Human Resources.
+description: Questo articolo fornisce una query di esempio per l'entità Candidato da assumere in Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: edb8687b9dae0afc1bc15a3a5c197e14e7e8cf1e
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 2dd744665d4f0b6c64f4ee45a01c237081018514
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848344"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Query di esempio per il candidato da assumere
 
@@ -27,9 +27,9 @@ ms.locfileid: "8069223"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento fornisce una query di esempio per l'entità Candidato da assumere in Dynamics 365 Human Resources.
+Questo articolo fornisce una query di esempio per l'entità Candidato da assumere in Dynamics 365 Human Resources.
 
-Questo argomento fornisce un esempio che dimostra come utilizzare *inserti profondi* per creare tutti i dettagli di un nuovo record candidato in una singola operazione API. Per ulteriori informazioni sugli inserti profondi, vedi [Crea record di entità correlate in un'unica operazione ](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+Questo articolo fornisce un esempio che dimostra come utilizzare *inserti profondi* per creare tutti i dettagli di un nuovo record candidato in una singola operazione API. Per ulteriori informazioni sugli inserti profondi, vedi [Crea record di entità correlate in un'unica operazione ](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 L'entità **mshr_hcmcandidatetohireentity** è unica a causa della sua relazione con l'entità **mshr_dirpersonentity**. Molte delle proprietà su **mshr_hcmcandidatetohireentity** (ad esempio,**mshr_firstname**, **mshr_lastname** e **mshr_birthdate**) sono derivati dal record **mshr_dirpersonentity**. Se pubblichi un nuovo record candidato in **mshr_hcmcandidatetohireentity** senza utilizzare inserti profondi, puoi definire i valori per queste proprietà direttamente nel record **mshr_hcmcandidatetohireentity**. Il record associato **mshr_dirpersonentity** viene creato implicitamente con i valori definiti per le proprietà. Puoi quindi creare qualsiasi altro record di entità correlato (ad esempio competenze o istruzione) come chiamate API separate.
 

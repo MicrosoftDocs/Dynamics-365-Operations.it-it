@@ -1,6 +1,6 @@
 ---
 title: Funzione ER FA_SUM
-description: In questo argomento sono riportate le informazioni sull'utilizzo della funzione FA_SUM della creazione di report elettronici (ER).
+description: In questo articolo sono riportate le informazioni sull'utilizzo della funzione FA_SUM della creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 12/17/2019
 ms.prod: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96b579cff1a61b8e1131317917ededb3b26963677e99da0e294501817cda26d1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1c15c8d76536ac27fc687541f9396bbb750a2de2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740313"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869288"
 ---
 # <a name="fa_sum-er-function"></a>Funzione ER FA_SUM
 

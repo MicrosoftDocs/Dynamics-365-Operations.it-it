@@ -1,6 +1,6 @@
 ---
 title: Eseguire il debug delle origini dati di un formato ER eseguito per analizzare il flusso e la trasformazione dei dati
-description: Questo argomento spiega come eseguire il debug delle origini dati di un formato ER eseguito per comprendere meglio il flusso e la trasformazione dei dati configurati.
+description: Questo articolo spiega come eseguire il debug delle origini dati di un formato ER eseguito per comprendere meglio il flusso e la trasformazione dei dati configurati.
 author: NickSelin
 ms.date: 04/22/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 02aee8c6ec3b2720c2fcbb17f15791d88d688a34
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 6fca177093caf42ad27b58eaa97e3f6997289eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323763"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884230"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Eseguire il debug delle origini dati di un formato ER eseguito per analizzare il flusso e la trasformazione dei dati
 
@@ -34,7 +34,7 @@ In alcuni casi, i dati dell'output generato hanno un aspetto diverso dagli stess
 
 Per attivare la funzionalità di debug dell'origine dati, impostare l'opzione **Abilita debug dei dati all'esecuzione del formato** su **Sì** nei parametri utente ER. È quindi possibile avviare il debug dell'origine dati mentre si esegue un formato ER per generare documenti in uscita. Puoi anche usare l'opzione **Avvia debug** per avviare il debug dell'origine dati per un formato ER configurato nella [progettazione dell'operazione ER](./tasks/er-format-configuration-2016-11.md#design-the-format-of-an-electronic-document).
 
-Questo argomento fornisce linee guida per l'avvio del debug dell'origine dati per i formati ER eseguiti. Spiega come le informazioni possono aiutarti a comprendere il flusso e le trasformazioni dei dati. Gli esempi in questo argomento utilizzano il processo aziendale per l'elaborazione dei pagamenti del fornitore.
+Questo articolo fornisce linee guida per l'avvio del debug dell'origine dati per i formati ER eseguiti. Spiega come le informazioni possono aiutarti a comprendere il flusso e le trasformazioni dei dati. Gli esempi in questo articolo utilizzano il processo aziendale per l'elaborazione dei pagamenti del fornitore.
 
 ## <a name="limitations"></a>Limiti
 
@@ -49,7 +49,7 @@ Le seguenti impostazioni dei formati ER non sono attualmente accessibili per il 
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-- Per completare gli esempi in questo argomento, è necessario disporre dell'accesso ai seguenti [ruoli](../sysadmin/tasks/assign-users-security-roles.md):
+- Per completare gli esempi in questo articolo, è necessario disporre dell'accesso ai seguenti [ruoli](../sysadmin/tasks/assign-users-security-roles.md):
 
     - Sviluppatore per la creazione di report elettronici
     - Consulente funzionale per la creazione di report elettronici
@@ -57,12 +57,12 @@ Le seguenti impostazioni dei formati ER non sono attualmente accessibili per il 
 
 - La società deve essere impostata su **DEMF**.
 
-- Seguire i passaggi nell'[Appendice 1](#appendix1) di questo argomento per scaricare i componenti della soluzione Microsoft ER richiesti per elaborare i pagamenti del fornitore.
-- Seguire i passaggi nell'[Appendice 2](#appendix2) di questo argomento per preparare la contabilità fornitori per l'elaborazione dei pagamenti dei fornitori utilizzando la soluzione ER che verrà scaricata.
+- Seguire i passaggi nell'[Appendice 1](#appendix1) di questo articolo per scaricare i componenti della soluzione Microsoft ER richiesti per elaborare i pagamenti del fornitore.
+- Seguire i passaggi nell'[Appendice 2](#appendix2) di questo articolo per preparare la contabilità fornitori per l'elaborazione dei pagamenti dei fornitori utilizzando la soluzione ER che verrà scaricata.
 
 ## <a name="process-a-vendor-payment-to-get-a-payment-file"></a>Elaborare un pagamento fornitore per ottenere un file di pagamento
 
-1. Seguire i passaggi nell'[Appendice 3](#appendix3) di questo argomento per elaborare i pagamenti fornitore.
+1. Seguire i passaggi nell'[Appendice 3](#appendix3) di questo articolo per elaborare i pagamenti fornitore.
 
     ![Elaborazione pagamento fornitore in corso.](./media/er-data-debugger-process-payment.png)
 
@@ -89,7 +89,7 @@ Le seguenti impostazioni dei formati ER non sono attualmente accessibili per il 
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Elaborare un pagamento fornitore per il debug
 
-1. Seguire i passaggi nell'[Appendice 3](#appendix3) di questo argomento per elaborare i pagamenti fornitore.
+1. Seguire i passaggi nell'[Appendice 3](#appendix3) di questo articolo per elaborare i pagamenti fornitore.
 2. Nella finestra di messaggio selezionare **Sì** per confermare che si desidera interrompere l'elaborazione dei pagamenti del fornitore e avviare invece il debug dell'origine dati nella pagina **Debug origini dati**.
 
     ![Finestra di messaggio di conferma.](./media/er-data-debugger-start-debugging.png)

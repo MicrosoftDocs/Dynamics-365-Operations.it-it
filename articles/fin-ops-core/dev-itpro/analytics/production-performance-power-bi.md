@@ -1,6 +1,6 @@
 ---
 title: Contenuto Prestazioni di produttività di Power BI
-description: In questo argomento viene descritto cosa è incluso nel contenuto Prestazioni di produttività di Power BI.
+description: In questo articolo viene descritto cosa è incluso nel contenuto Prestazioni di produttività di Power BI.
 author: AndersGirke
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 940e49b43ec1dba0917c67ad6ef4562351d175bcb1c0be7f98d00e73371e5346
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf0d2bdc37efb66f7aee40f237413a2ef5d9f9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761418"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881463"
 ---
 # <a name="production-performance-power-bi-content"></a>Contenuto Prestazioni di produttività di Power BI
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto **Prestazioni di produttività** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo articolo viene descritto cosa è incluso nel contenuto **Prestazioni di produttività** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 
@@ -63,7 +63,7 @@ I seguenti dati vengono utilizzati per compilare le pagine di report nel contenu
 
 La tabella seguente mostra le misure di aggregazione chiave utilizzate come base del contenuto Power BI.
 
-| Entità                   | Misure di aggregazione chiave  | Origine dati per le app Finance and Operations | Campo              |
+| Entità                   | Misure di aggregazione chiave  | Origine dati per app Finance and Operations | Campo              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

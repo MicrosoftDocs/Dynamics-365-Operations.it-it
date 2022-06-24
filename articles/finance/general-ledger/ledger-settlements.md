@@ -1,6 +1,6 @@
 ---
 title: Compensazioni dei saldi contabili
-description: In questo argomento viene illustrato come utilizzare la pagina delle compensazioni dei saldi contabili per liquidare le transazioni contabili e stornare le liquidazioni.
+description: In questo articolo viene illustrato come utilizzare la pagina delle compensazioni dei saldi contabili per liquidare le transazioni contabili e stornare le liquidazioni.
 author: kweekley
 ms.date: 01/31/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: e98b012210338e7f18cb874eefbc8a023aa4428b
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8075326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902489"
 ---
 # <a name="ledger-settlements"></a>Compensazioni dei saldi contabili
 

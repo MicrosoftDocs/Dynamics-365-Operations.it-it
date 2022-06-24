@@ -12,12 +12,12 @@ ms.reviewer: tfehr
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: fef3130f06cbb1d8afdbae93bdc55b47be3480b3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 626b3bbaf88f905bd167ad9eea4683ed1855eb92
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8070829"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860041"
 ---
 # <a name="data-validation-checklist-workspace"></a>Area di lavoro elenco di controllo convalida dati
 
@@ -26,7 +26,7 @@ ms.locfileid: "8070829"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Questo argomento fornisce una panoramica dell'area di lavoro **Elenco di controllo di convalida dati** e della configurazione collegata.
+Questo articolo fornisce una panoramica dell'area di lavoro **Elenco di controllo di convalida dati** e della configurazione collegata.
 
 L'area di lavoro **Elenco di controllo di convalida dati** consente di tenere traccia dei processi di convalida dei dati tra società, aree e persone. L'elenco di controllo può essere utilizzato durante una nuova implementazione, dopo un aggiornamento o dopo una migrazione. A seconda della visualizzazione dell'area di lavoro **Elenco di controllo di convalida dati**, vedrete tutte le attività e stati di un progetto di convalida dati o solo le attività assegnate all'utente.
 

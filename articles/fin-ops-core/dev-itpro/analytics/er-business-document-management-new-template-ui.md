@@ -1,6 +1,6 @@
 ---
 title: Interfaccia utente di tipo Microsoft Office in Gestione documenti aziendali (video)
-description: Questo argomento descrive come utilizzare la nuova interfaccia utente nella funzionalità Gestione documenti aziendali del framework Creazione di report elettronici.
+description: Questo articolo descrive come utilizzare la nuova interfaccia utente nella funzionalità Gestione documenti aziendali del framework Creazione di report elettronici.
 author: v-anamir
 ms.date: 01/05/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e33830e2147d92ad5ee53ad11da55a50613b8ef9
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: bcc464a17e27393c5904c59b8439de6ca000d57a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074743"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892227"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Interfaccia utente di tipo Microsoft Office in Gestione documenti aziendali
 
@@ -28,11 +28,11 @@ ms.locfileid: "8074743"
 
 La funzionalità Gestione documenti aziendali consente agli utenti aziendali di modificare i modelli di documenti aziendali tramite un servizio Microsoft Office 365 o l'applicazione desktop Microsoft Office appropriata. Le modifiche potrebbero includere modifiche alla progettazione o nuove distribuzioni oppure gli utenti potrebbero aggiungere segnaposto per includere dati aggiuntivi senza dover modificare il codice sorgente. Per ulteriori informazioni su come utilizzare Gestione documenti aziendali, vedere [Panoramica di Gestione documenti aziendali](er-business-document-management.md).
 
-La nuova interfaccia utente è più chiara e più facile da utilizzare. L'area **Documento aziendale** mostra solo i modelli che sono di proprietà del [provider](tasks/er-configuration-provider-mark-it-active-2016-11.md)[ attivo](general-electronic-reporting.md#Provider) corrente e che si trova nell'istanza corrente di Dynamics 365 Finance. Nell'interfaccia utente precedente, la scheda **Modello** elencava tutti i modelli disponibili per qualsiasi provider. Mostrava anche tutti i modelli creati e modificati da qualsiasi utente con lo stesso ruolo.
+La nuova interfaccia utente è più chiara e più facile da utilizzare. L'area **Documento aziendale** mostra solo i modelli che sono di proprietà del [provider](general-electronic-reporting.md#Provider) [attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md) corrente e che si trova nell'istanza corrente di Dynamics 365 Finance. Nell'interfaccia utente precedente, la scheda **Modello** elencava tutti i modelli disponibili per qualsiasi provider. Mostrava anche tutti i modelli creati e modificati da qualsiasi utente con lo stesso ruolo.
 
 Puoi utilizzare il pulsante **Nuovo documento** nell'area di lavoro **Gestione documenti aziendali** per creare e modificare un modello in una [configurazione](general-electronic-reporting.md#Configuration) del formato [Creazione di report elettronici (ER)](general-electronic-reporting.md) fornito da un altro provider e che si trova nell'istanza di Finance corrente o per caricare un nuovo modello da una cartella di lavoro di Excel. Inoltre, nella versione 10.0.25 e successive, puoi utilizzare il pulsante **Nuovo documento** per creare e modificare un modello in una configurazione in formato ER archiviata nel [repository globale](general-electronic-reporting.md#Repository).
 
-Negli esempi in questo argomento, il provider attivo è Contoso e lo utilizzi per creare un modello basato su un modello fornito da Microsoft. In alternativa, è possibile creare un modello caricando il modello in formato Excel.
+Negli esempi in questo articolo, il provider attivo è Contoso e lo utilizzi per creare un modello basato su un modello fornito da Microsoft. In alternativa, è possibile creare un modello caricando il modello in formato Excel.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWAVQg]
 

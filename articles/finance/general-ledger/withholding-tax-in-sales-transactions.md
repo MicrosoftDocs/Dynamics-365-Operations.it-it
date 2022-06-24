@@ -1,6 +1,6 @@
 ---
 title: Ritenuta d'acconto in transazioni di vendita
-description: Questo argomento elenca i passaggi per evitare il calcolo della ritenuta d'acconto per i clienti selezionati. Per i clienti che specificano la ritenuta d'acconto nei loro pagamenti, è possibile assegnare il gruppo di ritenuta d'acconto predefinito.
+description: Questo articolo elenca i passaggi per evitare il calcolo della ritenuta d'acconto per i clienti selezionati. Per i clienti che specificano la ritenuta d'acconto nei loro pagamenti, è possibile assegnare il gruppo di ritenuta d'acconto predefinito.
 author: kailiang
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 72d659004a1f61b63d6a782ba6b45bb99030bae9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 75a7fc62c1d493007f3aa88a723465828c557df7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727428"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910086"
 ---
 # <a name="withholding-tax-in-sales-transactions"></a>Ritenuta d'acconto in transazioni di vendita
 
-Questo argomento elenca i passaggi per evitare il calcolo della ritenuta d'acconto per i clienti selezionati. Per i clienti che specificano la ritenuta d'acconto nei loro pagamenti, è possibile assegnare il **gruppo di ritenuta d'acconto** predefinito nella pagina **Clienti**. 
+Questo articolo elenca i passaggi per evitare il calcolo della ritenuta d'acconto per i clienti selezionati. Per i clienti che specificano la ritenuta d'acconto nei loro pagamenti, è possibile assegnare il **gruppo di ritenuta d'acconto** predefinito nella pagina **Clienti**. 
 
 1. Vai a **Pannello di navigazione > Moduli > Contabilità clienti > Clienti > Tutti i clienti**.
 

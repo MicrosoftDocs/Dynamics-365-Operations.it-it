@@ -1,6 +1,6 @@
 ---
 title: Siti e magazzini integrati
-description: In questo argomento viene descritta l'integrazione dei dati di siti e magazzini tra Finanza e operazioni e Dataverse.
+description: In questo articolo viene descritta l'integrazione dei dati di siti e magazzini tra Finance and Operations e Dataverse.
 author: t-benebo
 ms.date: 10/09/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: benebotg
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: 66c5962933387831bbc3f17b9f29128ceaaf750b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: cd1293094f670c43eb46bc14b8bfe0f2afe43047
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063214"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852600"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Siti e magazzini integrati
 
@@ -22,7 +22,7 @@ ms.locfileid: "8063214"
 
 
 
-In questo argomento viene descritta l'integrazione dei dati di siti e magazzini tra Finanza e operazioni e Dataverse. I siti e magazzini operativi sono concetti comuni in un'applicazione di Supply Chain Management. Questi vengono utilizzati per modellare la catena di approvvigionamento della società.
+In questo articolo viene descritta l'integrazione dei dati di siti e magazzini tra Finance and Operations e Dataverse. I siti e magazzini operativi sono concetti comuni in un'applicazione di Supply Chain Management. Questi vengono utilizzati per modellare la catena di approvvigionamento della società.
 
 ## <a name="templates"></a>Modelli
 

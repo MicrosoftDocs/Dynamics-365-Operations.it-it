@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources (22 febbraio 2021)
-description: In questo argomento vengono descritte le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 22 febbraio 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 22 febbraio 2021.
 author: marcelbf
 ms.date: 02/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c0f854908f4c4bb76604665701c97724351b0120
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d07e73ccd922e9d52a9de9260577087a50ef1da4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686885"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897837"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Novità o modifiche in Dynamics 365 Human Resources (22 febbraio 2021)
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le funzionalità nuove, modificate o presto disponibili in Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -48,9 +48,9 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. È possibile aggiornare questo argomento per includere correzioni di bug che sono state introdotte nella build dopo la pubblicazione iniziale di questo argomento.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Uscita |  Descrizione |
+| Numero problema | Problema |  Description |
 | --- | --- | --- |
 | 529994 | La modifica del campo **Nome noto** nel modulo **Lavoratore** non attivava un aggiornamento di Dataverse | Risolto un problema in cui Dataverse non veniva aggiornato quando il campo **Nome noto** veniva aggiornato nel modulo **Lavoratore**. |
 | 532651 | Il report PBI dell'analisi retributiva non utilizzava la conversione della valuta durante il calcolo delle metriche per tutte le società | Risolto un problema in cui il report PBI dell'analisi retributiva non eseguiva correttamente le conversioni di valuta. |

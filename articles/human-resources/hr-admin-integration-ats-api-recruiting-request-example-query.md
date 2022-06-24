@@ -1,6 +1,6 @@
 ---
 title: Query di esempio per la richiesta di selezione
-description: Questo argomento fornisce una query di esempio per l'entità Richiesta di selezione in Dynamics 365 Human Resources.
+description: Questo articolo fornisce una query di esempio per l'entità Richiesta di selezione in Dynamics 365 Human Resources.
 author: jaredha
 ms.date: 02/05/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1cc7389403f0362cc005be1df320e63824a3ec3
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 55dae805cf9bd1fc641cf6d0e8eb2cc4b6af5d00
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066245"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858216"
 ---
 # <a name="example-query-for-recruiting-request"></a>Query di esempio per la richiesta di selezione
 
@@ -27,7 +27,7 @@ ms.locfileid: "8066245"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento fornisce una query di esempio per l'entità Richiesta di selezione in Dynamics 365 Human Resources.
+Questo articolo fornisce una query di esempio per l'entità Richiesta di selezione in Dynamics 365 Human Resources.
 
 La query seguente mostra come utilizzare l'opzione della query $expand in un'operazione GET per recuperare un record di richiesta di selezione specificato e tutte le posizioni associate, le competenze richieste e i requisiti educativi per la richiesta specificata. La risposta di esempio mostra una richiesta di selezione per due posizioni e le competenze e l'istruzione richieste per le posizioni richieste.
 

@@ -1,6 +1,6 @@
 ---
 title: Riferimenti a fatture originali nelle note di credito
-description: Questo argomento spiega come impostare e stampare i numeri di fattura originali nelle note di credito correlate.
+description: Questo articolo spiega come impostare e stampare i numeri di fattura originali nelle note di credito correlate.
 author: ilkond
 ms.date: 10/26/2021
 ms.topic: article
@@ -13,26 +13,26 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c1362bf41416202631dc4b966338e8166b26a67f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ebfeb43aaf137ef336b460f340fbda50f5918d08
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861533"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Riferimenti a fatture originali nelle note di credito
 
 [!include [banner](../includes/banner.md)]
 
 
-In alcuni paesi e regioni, esiste un requisito legale per cui le note di credito stampate devono includere i riferimenti alle fatture originali. Questo argomento spiega come impostare e stampare i numeri di fattura originali nelle note di credito correlate.
+In alcuni paesi e regioni, esiste un requisito legale per cui le note di credito stampate devono includere i riferimenti alle fatture originali. Questo articolo spiega come impostare e stampare i numeri di fattura originali nelle note di credito correlate.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
 - Nell'area di lavoro **Gestione funzionalità**, attiva la funzionalità **Layout fatturazione crediti per report fatture di vendita e progetto** caratteristica. Per ulteriori informazioni, vedere [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - I formati stampabili dei documenti richiesti devono essere configurati in Gestione stampa.
 
-La funzionalità descritta in questo argomento si applica ai seguenti documenti:
+La funzionalità descritta in questo articolo si applica ai seguenti documenti:
 
 **Contabilità clienti**
 

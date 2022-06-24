@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 98add33413f38db52b70b9c39c4ebd004ab3dd57
-ms.sourcegitcommit: 1819a11ae22019f1de6991d233c1c51e9950d7a3
+ms.openlocfilehash: 2430e75897a8ddc78a6b1b9288b23458aa44108a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "8457400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908229"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Home page novità o modifiche nelle app per finanza e operazioni
 
@@ -41,18 +41,18 @@ Per visualizzare novità o modifiche in ogni versione di un'app per finanza e op
 
 ## <a name="stand-alone-applications"></a>Applicazioni autonome
 
-Per visualizzare le novità o le modifiche nell'app Dynamics 365 Human Resources autonoma, vedere il seguente argomento:
+Per visualizzare le novità o le modifiche nell'app Dynamics 365 Human Resources autonoma, vedi il seguente articolo:
 
 - **Human Resources:** [Novità o modifiche in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Update della piattaforma
 
-Per vedere novità o modifiche negli update della piattaforma per le app per finanza e operazioni, vedere il seguente argomento:
+Per vedere novità o modifiche negli update della piattaforma per le app per finanza e operazioni, vedi il seguente articolo:
 
 - [Novità o modifiche negli aggiornamenti della piattaforma](../../dev-itpro/get-started/whats-new-home-page.md)
 
 ## <a name="lifecycle-services-releases"></a>Rilasci Lifecycle Services
-Per visualizzare le novità o le modifiche in Lifecycle Services, vedere il seguente argomento:
+Per visualizzare le novità o le modifiche in Lifecycle Services, vedi il seguente articolo:
 
 - [Novità o modifiche in Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 

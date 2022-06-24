@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi di prestazioni nelle configurazioni di ER
-description: Questo argomento spiega come trovare e risolvere i problemi di prestazioni nelle configurazioni di Creazione di report elettronici (ER).
+description: Questo articolo spiega come trovare e risolvere i problemi di prestazioni nelle configurazioni di Creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 05/12/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: e727e06c73ff445bf4219ac5a9eee7bec25740d9
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 28ff68309bad7a6c1b6009ba03ef4b20aceb5194
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811682"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847342"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Risoluzione dei problemi di prestazioni nelle configurazioni di ER
 
-Questo argomento spiega come trovare e risolvere i problemi di prestazioni nelle [configurazioni](general-electronic-reporting.md#Configuration) [di Creazione di report elettronici](general-electronic-reporting.md) (ER).
+Questo articolo spiega come trovare e risolvere i problemi di prestazioni nelle [configurazioni](general-electronic-reporting.md#Configuration) [di Creazione di report elettronici](general-electronic-reporting.md) (ER).
 
 In genere, l'analisi delle prestazioni consiste in diversi passaggi.
 

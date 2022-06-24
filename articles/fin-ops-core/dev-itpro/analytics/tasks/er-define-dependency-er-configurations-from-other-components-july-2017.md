@@ -1,6 +1,6 @@
 ---
 title: Definire la dipendenza delle configurazioni ER in altri componenti
-description: Questo argomento descrive come progettare una configurazione di creazione di report elettronici (ER) e specificarne la dipendenza da altri componenti software.
+description: Questo articolo descrive come progettare una configurazione di creazione di report elettronici (ER) e specificarne la dipendenza da altri componenti software.
 author: NickSelin
 ms.date: 07/23/2021
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717596"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883570"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definire la dipendenza delle configurazioni ER in altri componenti
 
@@ -136,7 +136,7 @@ Le configurazioni create dal sistema verranno eliminate e scaricate nuovamente d
 25. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
 26. Nella struttura espandere "Sample data model".
     * Si noti che la configurazione di mapping "Mapping di esempio" del modello è stata scaricata con la configurazione del modello dati selezionato. I due file verranno scaricati insieme perché il mapping di esempio è stato definito come implementazione del modello dati selezionato e perché è applicabile per l'applicazione. La configurazione "Mapping di esempio (alternativo)" non è stata scaricata perché la condizione per versione dell'applicazione non è soddisfatta.   
-    * Se si accede a Finance and Operations, si registra lo stesso provider, si accede allo stesso progetto LCS e si scarica la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  
+    * Se accedi a Finance and Operations, registri lo stesso provider, accedi allo stesso progetto LCS e scarichi la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

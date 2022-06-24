@@ -1,6 +1,6 @@
 ---
 title: Visualizzare inserimenti nel giornale di registrazione e transazioni
-description: Questo argomento illustrate le varie modalità in cui è possibile visualizzare gli inserimenti nel giornale di registrazione e le transazioni.
+description: Questo articolo illustrate le varie modalità in cui è possibile visualizzare gli inserimenti nel giornale di registrazione e le transazioni.
 author: aprilolson
 ms.date: 08/01/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4e33b1516e780c55f753b32ac5ddd50b6f9560c
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8549df3fcf65769768e3f7dd41c4d7275a1911b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717560"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907865"
 ---
 # <a name="view-journal-entries-and-transactions"></a>Visualizzare inserimenti nel giornale di registrazione e transazioni
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustrate le varie modalità in cui è possibile visualizzare gli inserimenti nel giornale di registrazione e le transazioni. 
+Questo articolo illustrate le varie modalità in cui è possibile visualizzare gli inserimenti nel giornale di registrazione e le transazioni. 
 
 Gli utenti che desiderano visualizzare giornali di registrazione e transazioni possono utilizzare diversi modi per accedere ai dati. È possibile sfruttare le pagine di richiesta di informazioni che consentono di eseguire il drill-down o utilizzare le varie opzioni di report nella contabilità generale.
 

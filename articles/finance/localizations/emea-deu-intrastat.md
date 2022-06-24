@@ -1,6 +1,6 @@
 ---
 title: Intrastat tedesca
-description: Questo argomento contiene informazioni sulla dichiarazione Intrastat in Germania.
+description: Questo articolo contiene informazioni sulla dichiarazione Intrastat in Germania.
 author: anasyash
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 9516a4516488282820659da141fe3ad33fbe3a9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7487927"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848466"
 ---
 # <a name="german-intrastat"></a>Intrastat tedesca
 
@@ -68,7 +68,7 @@ La tabella seguente mostra i campi inclusi nella dichiarazione Intrastat tedesca
 
 3. Imposta i parametri per il commercio estero:
 
-    1. In Dynamics 365 Finance, vai a **Imposta** > **Impostazioni** > **Parametri per il commercio estero**.
+    1. In Dynamics 365 Finance, vai a **Imposta** > **Impostazione** > **Parametri per il commercio estero**.
     2. Nella scheda **Intrastat** nella Scheda dettaglio **Creazione di report elettronici**, nel campo **Mapping di formato file**, seleziona **XLM Intrastat (DE)**.
     3. Nel campo **Mapping di formato report** seleziona **Report Intrastat**.
     4. Nella scheda dettaglio **Gerarchia di codici di voce doganale**, nel campo **Gerarchia di categorie** seleziona **Intrastat**.

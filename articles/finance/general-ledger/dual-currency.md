@@ -1,6 +1,6 @@
 ---
 title: Doppia valuta
-description: In questo argomento vengono fornite informazioni sulla doppia valuta, dove la valuta di dichiarazione viene utilizzata come seconda valuta di contabilizzazione per Microsoft Dynamics 365 Finance.
+description: In questo articolo vengono fornite informazioni sulla doppia valuta, dove la valuta di dichiarazione viene utilizzata come seconda valuta di contabilizzazione per Microsoft Dynamics 365 Finance.
 author: kweekley
 ms.date: 04/17/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 04738d2fe88fef5c0e96a39febfec86fab3bee7d
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 8db8faefaec4afe208344492ec91375531cb9cd0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906357"
 ---
 # <a name="dual-currency"></a>Doppia valuta
 
@@ -36,7 +36,7 @@ Inoltre, vari moduli sono stati aggiornati a scopo di traccia, report e utilizzo
 - Cespiti 
 - Consolidamenti
 
-Dopo un aggiornamento, è necessario completare passaggi specifici per Gestione cassa e banche e Cespiti. Di conseguenza, assicurarsi di leggere e comprendere le sezioni pertinenti di questo argomento.
+Dopo un aggiornamento, è necessario completare passaggi specifici per Gestione cassa e banche e Cespiti. Di conseguenza, assicurati di leggere e comprendere le sezioni pertinenti di questo articolo.
 
 ## <a name="posting-process"></a>Processo di registrazione
 
@@ -93,7 +93,7 @@ Le seguenti modifiche aggiuntive sono state effettuate nel modulo **Contabilità
 - Un tipo di tasso di cambio separato per la valuta di dichiarazione può essere definito nella contabilità generale. Se un'organizzazione non desidera utilizzare un altro tipo di tasso di cambio, è possibile lasciare vuoto il campo per il tipo di tasso di cambio della valuta di dichiarazione. In alternativa, è possibile selezionare lo stesso tipo di tasso di cambio utilizzato per la valuta di contabilizzazione. Se si lascia il campo vuoto, verrà utilizzato il tipo di tasso di cambio per la valuta di contabilizzazione.
 - Un nuovo giornale di registrazione, il giornale di registrazione rettifiche valuta di dichiarazione, consente di registrare rettifiche nei conti CoGe solo nella valuta di dichiarazione. Questo giornale di registrazione consente la registrazione solo nei conti CoGe. Non supporta la registrazione interaziendalw e la valuta deve essere la valuta di dichiarazione della persona giuridica in cui viene registrato il giornale. Quando il giornale viene registrato, gli importi in valuta della transazione e valuta di contabilizzazione sono 0 (zero) e l'importo della valuta di dichiarazione viene registrato con l'importo immesso nella transazione. Poiché il modo in cui la valuta di dichiarazione viene utilizzata nei moduli **Contabilità fornitori**, **Contabilità clienti** e **Cespiti** è cambiato, questo giornale di registrazione può essere utilizzato per le rettifiche dopo un aggiornamento. Per alcuni esempi relativi a come il giornale di registrazione può essere utilizzato, vedere le sezioni di questi moduli.
 - Il processo per l'allocazione per periodo è stato aggiornato in modo da allocare gli importi nelle valute di transazione, contabilizzazione e dichiarazione. In precedenza, gli importi erano allocati nelle valute di transazione e contabilizzazione e quindi l'importo nella valuta di contabilizzazione veniva convertito nella valuta di dichiarazione. Questo comportamento poteva determinare che un saldo rimanesse nel conto CoGe nella valuta di dichiarazione. Ora, quando gli importi vengono calcolati e utilizzati nella voce contabile, non viene eseguita alcuna conversione.
-- Il processo per la rivalutazione valuta estera già ha rivalutato gli importi nella valuta di dichiarazione. Tuttavia, l'importo della valuta di dichiarazione viene ora calcolato tramite l'importo in valuta della transazione, come descritto nella sezione [Processo di registrazione](#posting-process) in precedenza in questo argomento.
+- Il processo per la rivalutazione valuta estera già ha rivalutato gli importi nella valuta di dichiarazione. Tuttavia, l'importo della valuta di dichiarazione viene ora calcolato tramite l'importo in valuta della transazione, come descritto nella sezione [Processo di registrazione](#posting-process) in precedenza in questo articolo.
 - Molti report e richieste di informazioni nella contabilità generale già avevano la valuta di dichiarazione, ma alcuni no. Un esempio è la pagina elenco **Bilancio di verifica**. Questa pagina elenco ora include le colonne sia per la valuta di contabilizzazione sia per la valuta di dichiarazione. Tenere presente che le colonne per la valuta di dichiarazione vengono nascoste se la valuta di contabilizzazione e la valuta di dichiarazione sono uguali, o se la valuta di dichiarazione non è stata definita nella contabilità generale.
 
 ### <a name="financial-reporting"></a>Creazione di report finanziari

@@ -1,20 +1,20 @@
 ---
 title: Codici di errore per il controllo dello stato della mappa della tabella
-description: Questo argomento descrive i codici di errore per il controllo dello stato della mappa della tabella.
-author: nhelgren
-ms.date: 10/04/2021
+description: Questo articolo descrive i codici di errore per il controllo dello stato della mappa della tabella.
+author: RamaKrishnamoorthy
+ms.date: 05/31/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: tfehr
 ms.search.region: global
-ms.author: nhelgren
+ms.author: ramasri
 ms.search.validFrom: 2021-10-04
-ms.openlocfilehash: 916f3cfca3bae7a073ce4e956a12080ee01c8d31
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3ae78077fc716311c38620b14665af3983a44c2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061280"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884085"
 ---
 # <a name="errors-codes-for-the-table-map-health-check"></a>Codici di errore per il controllo dello stato della mappa della tabella
 
@@ -22,7 +22,7 @@ ms.locfileid: "8061280"
 
 
 
-Questo argomento descrive i codici di errore per il controllo dello stato della mappa della tabella.
+Questo articolo descrive i codici di errore per il controllo dello stato della mappa della tabella.
 
 ## <a name="error-100"></a>Errore 100
 
@@ -79,5 +79,20 @@ select * from <EntityName> where <filter criteria for the records> on SQL.
 Il messaggio di errore è "La tabella: \{datasourceTable.Key.subscribedTableName\} per entità \{datasourceTable.Key.entityName\} è tracciata per entità \{origTableToEntityMaps.EntityName\}. Le stesse tabelle tracciate per più entità possono influire sulle prestazioni del sistema per le transazioni di sincronizzazione in tempo reale."
 
 Se la stessa tabella viene tracciata da più entità, qualsiasi modifica alla tabella attiverà la valutazione a doppia scrittura per le entità collegate. Sebbene le clausole di filtro inviino solo i record validi, la valutazione potrebbe causare un problema di prestazioni se sono presenti query di lunga durata o piani di query non ottimizzati. Questo problema potrebbe non essere evitabile dal punto di vista aziendale. Tuttavia, se sono presenti molte tabelle che si intersecano in più entità, dovresti prendere in considerazione la semplificazione delle entità o il controllo delle ottimizzazioni per le query di entità.
+
+## <a name="error-1800"></a>Errore 1800
+Il messaggio di errore è "Origine dati: {} per l'entità CustCustomerV3Entity include un valore di intervallo. Gli aggiornamenti dei record in entrata da Dataverse a Finance and Operations possono essere influenzati dai valori di intervallo sull'entità. Testa gli aggiornamenti dei record da Dataverse a Finance and Operations con record che non corrispondono ai criteri di filtro per convalidare le impostazioni."
+
+Se è presente un intervallo specificato nell'entità nelle app per la finanza e le operazioni, la sincronizzazione in entrata da Dataverse alle app per la finanza e le operazioni devono essere testate per il comportamento di aggiornamento sui record che non soddisfano i criteri di questo intervallo. Qualsiasi record che non corrisponde all'intervallo viene trattato come un'operazione di inserimento dall'entità. Se è presente un record nella tabella sottostante, l'inserimento avrà esito negativo. Ti consigliamo di testare questo caso d'uso per tutti gli scenari prima della distribuzione in produzione.
+
+## <a name="error-1900"></a>Errore 1900
+Il messaggio di errore è "Entità: ha {} origini dati che non vengono tracciate per la doppia scrittura in uscita. Ciò può influire sulle prestazioni delle query di sincronizzazione in tempo reale. Rimodella l'entità in Finance and Operations per rimuovere le origini dati e le tabelle inutilizzate o implementare getEntityRecordIdsImpactedByTableChange per ottimizzare le query di runtime."
+
+Se sono presenti molte origini dati che non vengono utilizzate per il monitoraggio nella sincronizzazione in tempo reale effettiva dalle app per la finanza e le operazioni, è possibile che le prestazioni delle entità possano influire sulla sincronizzazione in tempo reale. Per ottimizzare le tabelle tracciate, utilizza il metodo getEntityRecordIdsImpactedByTableChange.
+
+## <a name="error-5000"></a>Errore 5000
+Il messaggio di errore è "I plug-in di sincronizzazione sono registrati per gli eventi di gestione dei dati per gli account di entità. Questi possono influire sulla sincronizzazione iniziale e sulle prestazioni di importazione della sincronizzazione in tempo reale in Dataverse. Per prestazioni ottimali, modifica i plug-in per l'elaborazione asincrona. Elenco dei plug-in registrati {}."
+
+I plug-in sincroni su un'entità Dataverse possono influire sulla sincronizzazione in tempo reale e sulle prestazioni della sincronizzazione iniziale in quanto si aggiunge al carico della transazione. L'approccio consigliato è disattivare i plug-in o rendere questi plug-in asincroni se si verificano tempi di caricamento lenti nella sincronizzazione iniziale o nella sincronizzazione in tempo reale per una particolare entità.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Informazioni dettagliate pagamenti cliente (anteprima)
-description: Questo argomento descrive la funzionalità di informazioni dettagliate sui pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di singoli clienti. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli.
+description: Questo articolo descrive la funzionalità di informazioni dettagliate sui pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di singoli clienti. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli.
 author: ShivamPandey-msft
 ms.date: 11/06/2019
 ms.topic: overview
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 59613e41eed95c248595be006f13fb2f32854728
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 54655d2b1cfb4b11f32842d4c3cff2f4d8e97ef5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856801"
 ---
 # <a name="customer-payment-insights-preview"></a>Informazioni dettagliate pagamenti cliente (anteprima)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento descrive la funzionalità di informazioni dettagliate sui pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di singoli clienti. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli. 
+Questo articolo descrive la funzionalità di informazioni dettagliate sui pagamenti che può aiutarti a comprendere meglio le procedure di pagamento tipiche di singoli clienti. Questa funzionalità può contribuire anche a identificare le circostanze che dovrebbero indurti ad avviare i processi di riscossione prima di quanto potresti altrimenti avviarli. 
 
 ## <a name="overview"></a>Panoramica
 

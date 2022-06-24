@@ -1,6 +1,6 @@
 ---
 title: Configurare le opzioni di idoneità del contatto personale
-description: Questo argomento spiega come configurare le opzioni di idoneità per i contatti personali in Microsoft Dynamics 365 Human Resources.
+description: Questo articolo spiega come configurare le opzioni di idoneità per i contatti personali in Microsoft Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e145acf6a6ba3333acfcc6e66dadd1f7d5deac65
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 82bb7c037b4e0ab9950ce4c314c03a0f2d713bbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692312"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895933"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Configurare le opzioni di idoneità del contatto personale
 
@@ -28,7 +28,7 @@ ms.locfileid: "8692312"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo argomento viene illustrato come configurare i tipi di contatti personali da utilizzare nei benefit in Microsoft Dynamics 365 Human Resources. I contatti personali sono le persone che saranno coperte dai tuoi piani (persone a carico) o che beneficeranno dei tuoi piani (beneficiari). Le persone a carico sono in genere coniugi o figli. I beneficiari possono essere coniugi, figli, trust o genitori.
+In questo articolo viene illustrato come configurare i tipi di contatti personali da utilizzare nei benefit in Microsoft Dynamics 365 Human Resources. I contatti personali sono le persone che saranno coperte dai tuoi piani (persone a carico) o che beneficeranno dei tuoi piani (beneficiari). Le persone a carico sono in genere coniugi o figli. I beneficiari possono essere coniugi, figli, trust o genitori.
 
 1. Nell'area di lavoro **Gestione benefit**, sotto **Impostazione**, selezionare **Opzioni di idoneità per contatti personali**.
 

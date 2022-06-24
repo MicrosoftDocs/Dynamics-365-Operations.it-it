@@ -1,6 +1,6 @@
 ---
 title: Editor di formule avanzato per report elettronici
-description: In questo argomento viene descritto come utilizzare l'editor di formule avanzato per configurare espressioni nei componenti di formato e nel mapping di modelli per report elettronici (ER).
+description: In questo articolo viene descritto come utilizzare l'editor di formule avanzato per configurare espressioni nei componenti di formato e nel mapping di modelli per report elettronici (ER).
 author: NickSelin
 ms.date: 06/17/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f54ab248e38d87b0a9fb7a73143f56fa704a3f67
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714661"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869101"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Editor di formule avanzato per report elettronici
 
 [!include [banner](../includes/banner.md)]
 
-Oltre all'[editor di formule](general-electronic-reporting-formula-designer.md) per [report elettronici](general-electronic-reporting.md) è possibile utilizzare l'editor di formule per report elettronici avanzato per migliorare l'esperienza di configurazione delle espressioni ER. L'editor avanzato è basato su browser e utilizza l'[editor Monaco](https://microsoft.github.io/monaco-editor). Le funzionalità dell'editor avanzato più comunemente utilizzate sono descritte in questo argomento:
+Oltre all'[editor di formule](general-electronic-reporting-formula-designer.md) per [report elettronici](general-electronic-reporting.md) è possibile utilizzare l'editor di formule per report elettronici avanzato per migliorare l'esperienza di configurazione delle espressioni ER. L'editor avanzato è basato su browser e utilizza l'[editor Monaco](https://microsoft.github.io/monaco-editor). Le funzionalità dell'editor avanzato più comunemente utilizzate sono descritte in questo articolo:
 
 - [Formattazione automatica del codice](#Autoformatting)
 - [IntelliSense](#IntelliSense)
@@ -39,7 +39,7 @@ Oltre all'[editor di formule](general-electronic-reporting-formula-designer.md) 
 
 ## <a name=""></a><a name="ActivateAdvEditor">Attivare l'editor di formule avanzato</a>
 
-Completare i seguenti passaggi per iniziare a utilizzare l'editor di formule avanzato nell'istanza di Microsoft Dynamics 365 Finance.
+Completa i seguenti passaggi per iniziare a utilizzare l'editor di formule avanzato nell'istanza di Microsoft Dynamics 365 Finance.
 
 1.  Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici** \> **Configurazioni**.
 2.  Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.

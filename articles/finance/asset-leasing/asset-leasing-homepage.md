@@ -1,6 +1,6 @@
 ---
 title: Home page del leasing cespite
-description: Questo argomento fornisce una panoramica della documentazione del leasing di cespite e collegamenti ad argomenti specifici.
+description: Questo articolo fornisce una panoramica della documentazione del leasing di cespite e collegamenti ad argomenti specifici.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c82c54b08a7d4c603d1246c598abacc51eb88839
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 014c34791f280ca1d3d9154cd0870a73cc43d26b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710387"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889151"
 ---
 # <a name="asset-leasing-home-page"></a>Home page del leasing cespite
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca gli argomenti della guida disponibili per il leasing cespite e include collegamenti ad argomenti specifici. 
+Questo articolo elenca gli argomenti della guida disponibili per il leasing cespite e include collegamenti ad argomenti specifici. 
 
 Leasing di cespiti è una funzionalità avanzata per la gestione, il monitoraggio e l'automazione di transazioni finanziarie per cespiti in leasing in Microsoft Dynamics 365 Finance. Leasing di cespiti è conforme agli standard contabili internazionali (IFRS 16) e agli standard GAAP statunitensi (ASC 842). Leasing di cespiti acquisisce ed elabora informazioni sui leasing e consente la generazione di scritture contabili durante il ciclo di vita del leasing, dalla rilevazione iniziale alle scritture contabili mensili fino alla riduzione del valore e alla risoluzione del leasing.
 
 Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro **Gestione funzionalità** per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro **Gestione delle funzionalità** trova e seleziona la funzione denominata **Leasing cespite** quindi fare clic su **Abilita ora**.
 
 ## <a name="asset-leasing-topics"></a>Argomenti del leasing cespite
-Il seguente argomento è disponibile per assistere nella configurazione ed utilizzo del leasing cespite. 
+Il seguente articolo è disponibile per assistere nella configurazione ed utilizzo del leasing cespite. 
 
- - [Attività iniziali del leasing cespite](asset-leasing-quick-start.md) - Questo argomento descrive le funzionalità generali del leasing cespite ed elenca e definisce i termini utilizzati nel software e nella documentazione.
+ - [Attività iniziali del leasing cespite](asset-leasing-quick-start.md) - Questo articolo descrive le funzionalità generali del leasing cespite ed elenca e definisce i termini utilizzati nel software e nella documentazione.
  
  ### <a name="set-up-asset-leasing"></a>Configurare il leasing cespite
  Questo gruppo di argomenti può aiutarti a configurare il leasing cespite in modo ottimale per la situazione aziendale della tua organizzazione.  
@@ -77,7 +77,7 @@ Questo gruppo di argomenti descrive il processo per l'aggiunta di leasing, la cr
  - [Gestire i leasing tramite il framework di importazione dei leasing](manage-leases-thru-imprt-framewrk.md)
  
 ### <a name="asset-leasing-reporting"></a>Report dei leasing cespite
-Questo argomento descrive i report disponibili per i leasing cespite. 
+Questo articolo descrive i report disponibili per i leasing cespite. 
 
  - [Report dei leasing cespite](asset-leasing-rprts.md)
  

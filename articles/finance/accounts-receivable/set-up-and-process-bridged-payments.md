@@ -1,6 +1,6 @@
 ---
 title: Impostazione ed elaborazione dei pagamenti provvisori
-description: Questo argomento descrive come impostare ed elaborare i pagamenti provvisori del cliente. Un pagamento provvisorio è un pagamento che viene registrato nella contabilità generale in due passaggi.
+description: Questo articolo descrive come impostare ed elaborare i pagamenti provvisori del cliente. Un pagamento provvisorio è un pagamento che viene registrato nella contabilità generale in due passaggi.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca93d99ce04e607b137a2755d507022a33ab1be8
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734193"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887979"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Impostazione ed elaborazione dei pagamenti provvisori
 
@@ -28,7 +28,7 @@ ms.locfileid: "8734193"
 
 Un pagamento provvisorio è un pagamento che viene registrato nella contabilità generale in due passaggi. In genere, questo approccio viene utilizzato quando il metodo di pagamento è impostato su **Banca** e devi registrare le transazioni sul conto bancario solo quando la transazione ha autorizzato la banca. Tuttavia, puoi anche usarlo per un conto CoGe. In questo caso, il sistema sposta l'importo da un conto principale a un altro conto principale durante l'elaborazione della registrazione provvisoria.
 
-È possibile creare pagamenti provvisori da Contabilità fornitori o Contabilità clienti. Sebbene questo argomento spieghi come configurare la registrazione provvisoria per la contabilità fornitori, i passaggi per le transazioni di contabilità fornitori sono simili.
+È possibile creare pagamenti provvisori da Contabilità fornitori o Contabilità clienti. Sebbene questo articolo spieghi come configurare la registrazione provvisoria per la contabilità fornitori, i passaggi per le transazioni di contabilità fornitori sono simili.
 
 ## <a name="set-up-bridging-posting"></a>Impostare la registrazione provvisoria
 

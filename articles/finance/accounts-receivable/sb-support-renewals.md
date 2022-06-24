@@ -1,6 +1,6 @@
 ---
 title: Supporto e rinnovi
-description: Questo argomento spiega come impostare e utilizzare il processo di supporto e rinnovo per gli ordini cliente per creare un programma di fatturazione per gli articoli di rinnovo.
+description: Questo articolo spiega come impostare e utilizzare il processo di supporto e rinnovo per gli ordini cliente per creare un programma di fatturazione per gli articoli di rinnovo.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 7de74f2b12e8e7201663ba78d936131b301b1ff9
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: b40e0136883d909755480a3ce101627297bd9ffb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685772"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896523"
 ---
 # <a name="support-and-renewals"></a>Supporto e rinnovi 
 
-Questo argomento spiega come immettere articoli di supporto o articoli di rinnovo negli ordini cliente. Questi articoli vengono utilizzati per calcolare l'importo dell'addebito per il contratto di supporto originale e/o l'importo del rinnovo utilizzato quando viene creato un programma di fatturazione nella fatturazione abbonamento. Ad esempio, la tua azienda vende un server a un cliente e tu offri un abbonamento per il backup dei dati per il primo anno e la possibilità di rinnovare tale abbonamento ogni anno. L'*articolo di supporto* è l'abbonamento per il primo anno, e l'*articolo di rinnovo* è il rinnovo per ogni anno successivo.
+Questo articolo spiega come immettere articoli di supporto o articoli di rinnovo negli ordini cliente. Questi articoli vengono utilizzati per calcolare l'importo dell'addebito per il contratto di supporto originale e/o l'importo del rinnovo utilizzato quando viene creato un programma di fatturazione nella fatturazione abbonamento. Ad esempio, la tua azienda vende un server a un cliente e tu offri un abbonamento per il backup dei dati per il primo anno e la possibilità di rinnovare tale abbonamento ogni anno. L'*articolo di supporto* è l'abbonamento per il primo anno, e l'*articolo di rinnovo* è il rinnovo per ogni anno successivo.
 
 Puoi inserire le informazioni per il contratto di supporto, il contratto di rinnovo o entrambi. Quando immetti le informazioni sul contratto di supporto, solo l'articolo di supporto viene aggiunto all'ordine cliente. Quando immetti le informazioni sul contratto di rinnovo, l'articolo di rinnovo viene utilizzato per creare un programma di fatturazione.
 

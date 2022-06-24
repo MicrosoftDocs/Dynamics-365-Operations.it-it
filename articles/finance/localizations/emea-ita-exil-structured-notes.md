@@ -1,6 +1,6 @@
 ---
 title: Gestione note avanzate
-description: Questo argomento spiega come impostare e stampare note predefinite per clienti, fornitori e prodotti.
+description: Questo articolo spiega come impostare e stampare note predefinite per clienti, fornitori e prodotti.
 author: ilkond
 ms.date: 10/15/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 21b9b49c64f24c2839afd9dd9f832fab349bc93e
-ms.sourcegitcommit: 2949636d2fd6aea8507e102379cf9b1a188e4529
+ms.openlocfilehash: ac180773bff3286d9c5d7e87ecce66efcd4df708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7650940"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901232"
 ---
 # <a name="advanced-notes-management"></a>Gestione note avanzate
 

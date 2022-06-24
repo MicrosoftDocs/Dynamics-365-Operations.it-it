@@ -1,6 +1,6 @@
 ---
 title: Panoramica della pianificazione del budget
-description: Questo argomento descrive la pianificazione del budget. Sono contenute informazioni che possono semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
+description: Questo articolo descrive la pianificazione del budget. Sono contenute informazioni che possono semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
 author: panolte
 ms.date: 01/11/2018
 ms.topic: overview
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d69d3d1620616bd7a136645d6f28f638e8bcf199
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 1f1ecf830953362636c8b0369586d8b76499ebb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711745"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853556"
 ---
 # <a name="budget-planning-overview"></a>Panoramica della pianificazione del budget
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la pianificazione del budget. Sono contenute informazioni che possono semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
+Questo articolo descrive la pianificazione del budget. Sono contenute informazioni che possono semplificare la configurazione della pianificazione del budget e l'impostazione dei processi di pianificazione del budget.
 
 ## <a name="overview-of-budget-planning"></a>Panoramica della pianificazione del budget
 
@@ -91,7 +91,7 @@ Un flusso di lavoro di pianificazione del budget è costituito da un insieme ord
 
 Creare un flusso di lavoro di pianificazione del budget nella sezione **Fasi del flusso di lavoro** della pagina **Configurazione pianificazione del budget**. Sarà possibile selezionare le fasi e il flusso di lavoro impostazione budget che verranno utilizzati e si potranno configurare impostazioni aggiuntive.
 
-La procedura consigliata consiste nel creare un flusso di lavoro di pianificazione del budget per ciascun livello della gerarchia di impostazione budget. Assegnare un flusso di lavoro impostazione budget che contiene gli elementi che corrispondono alle fasi del flusso di lavoro di pianificazione del budget. Nello schema di esempio visualizzato in precedenza in questo argomento, un flusso di lavoro di pianificazione del budget viene creato per i reparti vendite e un altro viene creato per la sede centrale. Un flusso di lavoro impostazione budget sposta i piani di budget tra le fasi.
+La procedura consigliata consiste nel creare un flusso di lavoro di pianificazione del budget per ciascun livello della gerarchia di impostazione budget. Assegnare un flusso di lavoro impostazione budget che contiene gli elementi che corrispondono alle fasi del flusso di lavoro di pianificazione del budget. Nello schema di esempio visualizzato in precedenza in questo articolo, un flusso di lavoro di pianificazione del budget viene creato per i reparti vendite e un altro viene creato per la sede centrale. Un flusso di lavoro impostazione budget sposta i piani di budget tra le fasi.
 
 Creare il flusso di lavoro impostazione budget per la pianificazione del budget nella pagina **Flussi di lavoro impostazione budget**. Il processo è analogo a quello per creare altri flussi di lavoro. Nella figura seguente viene illustrato un esempio di un flusso di lavoro della sede centrale.
 
@@ -141,7 +141,7 @@ Le allocazioni di fase vengono utilizzate per allocare automaticamente le righe 
 
 Quando si imposta un'allocazione di fase, associare il flusso di lavoro e la fase di pianificazione del budget alla pianificazione di allocazione. Il flusso di lavoro di pianificazione del budget deve essere associato a un flusso di lavoro di impostazione del budget che utilizza l'attività del flusso di lavoro automatizzata **Allocazione di fasi di pianificazione del budget**. Quando il flusso di lavoro raggiunge la fase specificata, l'allocazione avviene automaticamente. Questa attività automatica può essere utilizzata per creare le righe del piano di budget in un nuovo scenario.
 
-Nello schema di esempio mostrato in precedenza in questo argomento, un'allocazione viene eseguita per trasferire gli importi da un piano di budget e dagli scenari della fase "di base" della sede centrale a un altro piano di budget e agli scenari della fase "di stima" dei reparti vendite. La figura seguente mostra la sezione dello schema di esempio.
+Nello schema di esempio mostrato in precedenza in questo articolo, un'allocazione viene eseguita per trasferire gli importi da un piano di budget e dagli scenari della fase "di base" della sede centrale a un altro piano di budget e agli scenari della fase "di stima" dei reparti vendite. La figura seguente mostra la sezione dello schema di esempio.
 
 [![Allocazioni di fasi.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 

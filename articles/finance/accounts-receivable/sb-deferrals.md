@@ -1,6 +1,6 @@
 ---
 title: Differimenti di ricavi e spese nella fatturazione abbonamento
-description: Questo argomento spiega come impostare i differimenti di ricavi e spese nella fatturazione abbonamento.
+description: Questo articolo spiega come impostare i differimenti di ricavi e spese nella fatturazione abbonamento.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9a12cf52d904db0396aa9914b8e324060289710f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 209afd08c0c7e3cbd63ed95613b1d1dec94856f5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690950"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908098"
 ---
 # <a name="revenue-and-expense-deferrals-in-subscription-billing"></a>Differimenti di ricavi e spese nella fatturazione abbonamento
 
-Questo argomento spiega come impostare e usare i differimenti di ricavi e spese nella fatturazione abbonamento. I programmi di differimento sono sempre basati e dipendono da un documento di origine sottostante o da un programma di fatturazione. Poiché vengono creati in base ai valori predefiniti, non possono essere inseriti o creati separatamente.
+Questo articolo spiega come impostare e usare i differimenti di ricavi e spese nella fatturazione abbonamento. I programmi di differimento sono sempre basati e dipendono da un documento di origine sottostante o da un programma di fatturazione. Poiché vengono creati in base ai valori predefiniti, non possono essere inseriti o creati separatamente.
 
 Il processo di impostazione e utilizzo dei differimenti di riicavi e spese avviene in più pagine:
 

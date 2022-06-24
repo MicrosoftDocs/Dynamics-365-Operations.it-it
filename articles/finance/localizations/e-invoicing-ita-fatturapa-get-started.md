@@ -1,6 +1,6 @@
 ---
 title: Configurare l'integrazione diretta di FatturaPA italiana con SDI
-description: Questo argomento fornisce informazioni che ti aiuteranno a iniziare con la fatturazione elettronica per l'Italia e impostare l'integrazione diretta di FatturaPA italiana con il sistema di Exchange (SDI).
+description: Questo articolo fornisce informazioni che ti aiuteranno a iniziare con la fatturazione elettronica per l'Italia e impostare l'integrazione diretta di FatturaPA italiana con il sistema di Exchange (SDI).
 author: abaryshnikov
 ms.date: 01/15/2022
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 73cb08c880d7b3459201acfc7aeaa8d0dee1674f
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984805"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853194"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Configurare l'integrazione diretta di FatturaPA italiana con SDI
 
@@ -24,23 +24,23 @@ ms.locfileid: "7984805"
 > [!IMPORTANT]
 > La fatturazione elettronica per l'Italia potrebbe attualmente non supportare tutte le funzioni disponibili per le fatture elettroniche in Microsoft Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
 
-Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per l'Italia in Finance e Supply Chain Management. Ti guida attraverso i passaggi di configurazione che dipendono dal paese/area geografica in Regulatory Configuration Services (RCS). Questi passaggi completano i passaggi descritti in [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
+Questo articolo fornisce informazioni introduttive sulla fatturazione elettronica per l'Italia in Finance e Supply Chain Management. Ti guida attraverso i passaggi di configurazione che dipendono dal paese/area geografica in Regulatory Configuration Services (RCS). Questi passaggi completano i passaggi descritti in [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di completare i passaggi in questo argomento, è necessario soddisfare i seguenti requisiti:
+Prima di completare i passaggi in questo articolo, è necessario soddisfare i seguenti requisiti:
 
 - Completa i passaggi in [Introduzione all'amministrazione dei servizi per la fatturazione elettronica](e-invoicing-get-started.md).
-- Importa la funzionalità di fatturazione elettronica **FatturaPA italiana (IT)** in RCS dal repository Globale. Per ulteriori informazioni, vedi la sezione [Importare una funzionalità di fatturazione elettronica dal provider di configurazione Microsoft](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) dell'argomento "Introduzione alla fatturazione elettronica" precedentemente menzionato.
-- Aggiungi i collegamenti dai certificati richiesti all'ambiente del servizio. I certificati richiesti includono il certificato di firma digitale, il certificato dell'autorità di certificazione (CA) e il certificato dei client. Per ulteriori informazioni, vedi la sezione [Creare un segreto del certificato digitale](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) dell'argomento "Introduzione all'amministrazione dei servizi per la fatturazione elettronica".
+- Importa la funzionalità di fatturazione elettronica **FatturaPA italiana (IT)** in RCS dal repository Globale. Per ulteriori informazioni, vedi la sezione [Importare una funzionalità di fatturazione elettronica dal provider di configurazione Microsoft](e-invoicing-get-started.md#import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider) dell'articolo "Introduzione alla fatturazione elettronica" precedentemente menzionato.
+- Aggiungi i collegamenti dai certificati richiesti all'ambiente del servizio. I certificati richiesti includono il certificato di firma digitale, il certificato dell'autorità di certificazione (CA) e il certificato dei client. Per ulteriori informazioni, vedi la sezione [Creare un segreto del certificato digitale](e-invoicing-get-started-service-administration.md#create-a-digital-certificate-secret) dell'articolo "Introduzione all'amministrazione dei servizi per la fatturazione elettronica".
 
 ## <a name="country-specific-configuration-for-the-italian-fatturapa-it-electronic-invoicing-feature"></a>Configurazione specifica del paese per la funzionalità di fatturazione elettronica FatturaPA italiana (IT)
 
 Completa le seguenti procedure prima di distribuire la configurazione dell'applicazione all'app Finance o Supply Chain Management connessa.
 
-Questa sezione è a complemento della sezione [Configurazione specifica del paese dell'impostazione dell'applicazione](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) nell'argomento "Introduzione alla fatturazione elettronica".
+Questa sezione è a complemento della sezione [Configurazione specifica del paese dell'impostazione dell'applicazione](e-invoicing-get-started.md#country-specific-configuration-of-application-setup) nell'articolo "Introduzione alla fatturazione elettronica".
 
-### <a name="create-a-new-feature"></a>Creare una nuova funzionalità
+### <a name="create-a-new-feature"></a>Crea una nuova funzionalità
 
 1. Accedere a RCS.
 2. Nell'area di lavoro **Creazione di report elettronici** nella sezione **Provider di configurazione**, contrassegna il provider di configurazione della tua azienda come attivo.
@@ -87,8 +87,8 @@ Questa sezione è a complemento della sezione [Configurazione specifica del paes
 
 ### <a name="deploy-the-feature"></a>Distribuire la funzionalità
 
-1. Completa, pubblica e distribuisci la funzionalità nell'ambiente del servizio. Per ulteriori informazioni, vedi la sezione [Distribuire la funzionalità di fatturazione elettronica nell'ambiente del servizio](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) dell'argomento "Introduzione alla fatturazione elettronica" precedentemente menzionato.
-2. Distribuisci la funzionalità nell'applicazione connessa. Per ulteriori informazioni, vedi la sezione [Distribuire la funzionalità di fatturazione elettronica nell'applicazione connessa](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) dell'argomento "Introduzione alla fatturazione elettronica" precedentemente menzionato.
+1. Completa, pubblica e distribuisci la funzionalità nell'ambiente del servizio. Per ulteriori informazioni, vedi la sezione [Distribuire la funzionalità di fatturazione elettronica nell'ambiente del servizio](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-service-environment) dell'articolo "Introduzione alla fatturazione elettronica" precedentemente menzionato.
+2. Distribuisci la funzionalità nell'applicazione connessa. Per ulteriori informazioni, vedi la sezione [Distribuire la funzionalità di fatturazione elettronica nell'applicazione connessa](e-invoicing-get-started.md#deploy-the-electronic-invoicing-feature-to-connected-application) dell'articolo "Introduzione alla fatturazione elettronica" precedentemente menzionato.
 
 ### <a name="set-up-finance"></a>Impostare Finance
 

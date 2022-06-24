@@ -1,6 +1,6 @@
 ---
 title: Creare un modello di record per facilitare l'immissione dei dati
-description: In questo argomento viene descritto come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record.
+description: In questo articolo viene descritto come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record.
 author: margoc
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43bbc790d0e3145ffc9d7cb9dda7b8b3f7048e23
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767727"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880198"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Creare un modello di record per facilitare l'immissione dei dati
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record. In questa procedura, verrà creato un nuovo record per i nuovi computer portatili che devono essere aggiunti ai cespiti. Questa procedura utilizza la società di esempio USMF.
+In questo articolo viene descritto come creare un modello di record in modo che non sia necessario inserire in modo esplicito i valori dei campi che vengono utilizzati spesso per ogni nuovo record. In questa procedura, verrà creato un nuovo record per i nuovi computer portatili che devono essere aggiunti ai cespiti. Questa procedura utilizza la società di esempio USMF.
 
 1. Nel pannello di navigazione, passare a **Moduli > Cespiti > Cespiti > Cespiti**.
 2. Selezionare **Nuovo**.

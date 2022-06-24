@@ -1,6 +1,6 @@
 ---
 title: Impossibile trovare risultati corrispondenti
-description: Questo argomento spiega come risolvere l'errore "Impossibile trovare risultati corrispondenti" nel servizio di calcolo delle imposte.
+description: Questo articolo spiega come risolvere l'errore "Impossibile trovare risultati corrispondenti" nel servizio di calcolo delle imposte.
 author: hangwan
 ms.date: 03/25/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: c1a343b0b74645d40b0a2582749968cc0a56afd7
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: d3bbc76741fdd018d1b2987538b8de7f6d92ee53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645415"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845146"
 ---
 # <a name="no-matching-result-could-be-found"></a>Impossibile trovare risultati corrispondenti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra i passaggi per la risoluzione dei problemi che puoi eseguire se viene visualizzato un errore "Impossibile trovare risultati corrispondenti" nel servizio di calcolo delle imposte.
+Questo articolo illustra i passaggi per la risoluzione dei problemi che puoi eseguire se viene visualizzato un errore "Impossibile trovare risultati corrispondenti" nel servizio di calcolo delle imposte.
 
 ## <a name="symptom"></a>Sintomo
 

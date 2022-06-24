@@ -1,42 +1,42 @@
 ---
 title: Approvazioni fatture per dispositivi mobili
-description: Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili utilizzando l'approvazione delle fatture fornitore come caso d'uso.
+description: Questo articolo è destinato a fornire un approccio pratico alla progettazione di scenari mobili utilizzando l'approvazione delle fatture fornitore come caso d'uso.
 author: abruer
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: roschlom
+ms.reviewer: twheeloc
 ms.custom: 262034
 ms.assetid: 9db38b3f-26b3-436e-8449-7ff243568a18
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 83d95ef6d9fcff060ac992b11ab5773af075fea5409e43430b4826dc097570c7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f635891e3d92fbd5978e10fe01eb67c0a28542c5
+ms.sourcegitcommit: 427fe14824a9d937661ae21b9e9574be2bc9360b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737357"
+ms.lasthandoff: 06/09/2022
+ms.locfileid: "8946276"
 ---
 # <a name="mobile-invoice-approvals"></a>Approvazioni fatture per dispositivi mobili
 
 [!include [banner](../includes/banner.md)]
 
-Le funzionalità mobili consentono agli utenti aziendali di progettare esperienze mobili. Per gli scenari avanzati, la piattaforma anche consente agli sviluppatori di estendere le funzionalità nel modo desiderato. Il modo più efficace di apprendere alcuni dei nuovi concetti sulle funzionalità mobili è di esaminare il processo di progettazione di alcuni scenari. Questo argomento è destinato a fornire un approccio pratico alla progettazione di scenari mobili utilizzando l'approvazione delle fatture fornitore come caso d'uso. Questo argomento dovrebbe aiutare nella progettazione di altre variazioni degli scenari e può essere applicato anche ad altri scenari non correlati alle fatture fornitore.
+Le funzionalità mobili consentono agli utenti aziendali di progettare esperienze mobili. Per gli scenari avanzati, la piattaforma anche consente agli sviluppatori di estendere le funzionalità nel modo desiderato. Il modo più efficace di apprendere alcuni dei nuovi concetti sulle funzionalità mobili è di esaminare il processo di progettazione di alcuni scenari. Questo articolo è destinato a fornire un approccio pratico alla progettazione di scenari mobili utilizzando l'approvazione delle fatture fornitore come caso d'uso. Questo articolo dovrebbe aiutare nella progettazione di altre variazioni degli scenari e può essere applicato anche ad altri scenari non correlati alle fatture fornitore.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-| Prerequisito                                                                                            | Descrizione                                                                                                                                                          |
-|---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Prerequisito                                                                                            | Description                       |
+|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Lettura preventiva del manuale sulle funzionalità mobili                                                                                |[Piattaforma mobile](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Un ambiente con versione 1611 e aggiornamento 3 della piattaforma (novembre 2016)                   |
 | Installare l'aggiornamento rapido KB 3204341.                                                                              | Registrazione attività può registrare per errore due comandi di chiusura per le finestre di dialogo a discesa. Incluso nell'aggiornamento 3 della piattaforma (aggiornamento di novembre 2016) |
 | Installare l'aggiornamento rapido KB 3207800.                                                                              | Questo aggiornamento rapido consente agli allegati di essere visualizzati sul client mobile. Incluso nell'aggiornamento 3 della piattaforma (aggiornamento di novembre 2016).           |
 | Installare l'aggiornamento rapido KB 3208224.                                                                              | Codice dell'applicazione mobile di approvazione fatture fornitore. Incluso nella versione 7.0.1 (maggio 2016).                          |
-| Un dispositivo Android o iOS o Windows su cui è installata l'applicazione mobile. | Cercare l'app nell'app store appropriato.                                                                                                                     |
+| Un dispositivo Android o iOS o Windows su cui è installata l'applicazione mobile. | Cercare l'app nell'app store appropriato.                            |
 
 ## <a name="introduction"></a>Introduzione
 Le approvazioni mobili per le fatture fornitore richiedono i tre aggiornamenti rapidi indicati nella sezione "Prerequisiti". Questi aggiornamenti rapidi non forniscono un'area di lavoro per le approvazioni fatture. Per informazioni su cos'è un'area di lavoro nel contesto delle funzionalità mobili, leggere il relativo manuale indicato nella sezione "Prerequisiti". L'area di lavoro di approvazione fatture deve essere progettata. 
@@ -51,15 +51,15 @@ Ogni organizzazione orchestra e definisce il proprio processo aziendale per le f
     -   Le fatture hanno distribuzioni contabili anche nell'intestazione? In tal caso, queste distribuzioni contabili devono essere disponibili sul dispositivo?
 
     > [!NOTE]
-    > In questo argomento non viene illustrato come modificare le distribuzioni contabili, poiché questa funzionalità non è attualmente supportata per scenari mobili.
+    > In questo articolo non viene illustrato come modificare le distribuzioni contabili, poiché questa funzionalità non è attualmente supportata per scenari mobili.
 
 -   Gli utenti vorranno visualizzare gli allegati della fattura sul dispositivo?
 
-La progettazione dell'esperienza mobile per le approvazioni fatture varierà in base alle risposte a queste domande. L'obiettivo è di ottimizzare l'esperienza utente del processo aziendale sui dispositivi mobili di un'organizzazione. Nel resto di questo argomento, esamineremo due variazioni allo scenario basate sulle diverse risposte alle domande precedenti. 
+La progettazione dell'esperienza mobile per le approvazioni fatture varierà in base alle risposte a queste domande. L'obiettivo è di ottimizzare l'esperienza utente del processo aziendale sui dispositivi mobili di un'organizzazione. Nel resto di questo articolo, esamineremo due variazioni allo scenario basate sulle diverse risposte alle domande precedenti. 
 
 In generale quando si lavora con lo strumento di progettazione mobile, assicurarsi di "pubblicare" le modifiche per evitare la perdita degli aggiornamenti.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Progettazione di uno scenario di approvazione fatture semplice per Contoso
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Progettazione di uno scenario semplice di approvazione fatture per Contoso
 <table>
 <colgroup>
 <col width="50%" />

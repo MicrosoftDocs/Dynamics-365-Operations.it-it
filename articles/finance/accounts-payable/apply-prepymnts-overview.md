@@ -1,6 +1,6 @@
 ---
 title: Applica automaticamente i pagamenti anticipati per le fatture fornitore
-description: Questo argomento descrive la capacità di applicare automaticamente i pagamenti anticipati alle fatture fornitore.
+description: Questo articolo descrive la capacità di applicare automaticamente i pagamenti anticipati alle fatture fornitore.
 author: sunfzam
 ms.date: 10/19/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8583962c41a7ac5e27463f325ddc2ccd367331cc
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: 547573d187460a900df7f4927ac062bd9d456729
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358221"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900073"
 ---
 # <a name="automatically-apply-to-vendor-invoices"></a>Applica automaticamente alle fatture fornitore
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la capacità di applicare automaticamente i pagamenti anticipati alle fatture fornitore. È possibile creare un pagamento anticipato per un ordine fornitore come parte di un contratto di acquisto. Dopo aver ricevuto una fattura fornitore, il pagamento anticipato può essere utilizzato per liquidare la contabilità fornitori dalla fattura fornitore. La nuova funzionalità consente al sistema di utilizzare automaticamente i numeri dell'ordine fornitore su una fattura fornitore per cercare i pagamenti anticipati corrispondenti quando viene importata la fattura fornitore.
+Questo articolo descrive la capacità di applicare automaticamente i pagamenti anticipati alle fatture fornitore. È possibile creare un pagamento anticipato per un ordine fornitore come parte di un contratto di acquisto. Dopo aver ricevuto una fattura fornitore, il pagamento anticipato può essere utilizzato per liquidare la contabilità fornitori dalla fattura fornitore. La nuova funzionalità consente al sistema di utilizzare automaticamente i numeri dell'ordine fornitore su una fattura fornitore per cercare i pagamenti anticipati corrispondenti quando viene importata la fattura fornitore.
 
 Se i pagamenti anticipati vengono trovati e possono essere applicati, le righe vengono aggiunte alle righe fattura esistenti per applicare i pagamenti anticipati. Le righe di pagamento anticipato non vengono mai considerate durante il processo di abbinamento fatture.
 

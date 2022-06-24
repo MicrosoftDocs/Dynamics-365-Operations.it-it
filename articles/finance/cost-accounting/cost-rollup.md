@@ -1,6 +1,6 @@
 ---
 title: Criteri rollup costi e calcolo dei costi generali
-description: In questo argomento vengono fornite informazioni sulla determinazione del livello corretto degli elementi di costo secondari e creare le regole di rollup dei costi adatte al reporting dell'organizzazione e alla tracciabilità dei costi.
+description: In questo articolo vengono fornite informazioni sulla determinazione del livello corretto degli elementi di costo secondari e creare le regole di rollup dei costi adatte al reporting dell'organizzazione e alla tracciabilità dei costi.
 author: AndersGirke
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c9c36587294ff157266e354e06d107000f198061
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: f35bf3e900b8dd9c1864be8668f7ff7296924c4d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874611"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Criteri rollup costi e calcolo dei costi generali 
 
@@ -33,7 +33,7 @@ La contabilità industriale consente di ottenere i dettagli di come il flusso de
 -   Il volume delle voci di costo generate dal calcolo dei costi generali può essere molto elevato.
 -   Non è possibile tenere traccia del flusso dei costi tra gli oggetti di costo.
 
-Per evitare queste implicazioni, la contabilità industriale consente di configurare l'allocazione dei costi adatta ai requisiti di reporting direttivi dell'organizzazione. In questo argomento viene descritto come determinare il livello corretto degli elementi di costo secondari e creare le regole di rollup dei costi adatte al reporting dell'organizzazione e alla tracciabilità dei costi.
+Per evitare queste implicazioni, la contabilità industriale consente di configurare l'allocazione dei costi adatta ai requisiti di reporting direttivi dell'organizzazione. In questo articolo viene descritto come determinare il livello corretto degli elementi di costo secondari e creare le regole di rollup dei costi adatte al reporting dell'organizzazione e alla tracciabilità dei costi.
 
 > [!NOTE]
 > È possibile modificare le configurazioni se cambiano i requisiti di reporting.

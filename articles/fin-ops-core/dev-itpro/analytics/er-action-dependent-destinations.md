@@ -1,6 +1,6 @@
 ---
 title: Configurare destinazioni ER dipendenti dall'azione
-description: Questo argomento spiega come configurare destinazioni dipendenti dall'azione per un formato di Creazione di report elettronici (ER) configurato per generare documenti in uscita.
+description: Questo articolo spiega come configurare destinazioni dipendenti dall'azione per un formato di Creazione di report elettronici (ER) configurato per generare documenti in uscita.
 author: NickSelin
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e0c836d4a0be47b753d74dc9d6d40ea7d9197176
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: b7dfd92fd9e256298c13dcbde4b6da3f07d250d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876836"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurare destinazioni ER dipendenti dall'azione
 
@@ -28,7 +28,7 @@ ms.locfileid: "8323981"
 
 È possibile configurare [destinazioni](electronic-reporting-destinations.md) per ogni componente di output (cartella o file) di una [configurazione](general-electronic-reporting.md#Configuration) di formato di [Creazione di report elettronici (ER)](general-electronic-reporting.md) utilizzata per generare un documento in uscita. Gli utenti che eseguono un formato ER di questo tipo e che dispongono dei diritti di accesso appropriati possono anche modificare le impostazioni di destinazione configurate in fase di esecuzione.
 
-In Microsoft Dynamics 365 Finance **versione 10.0.17 e successive**, un formato ER può essere eseguito mediante il [provisioning](er-apis-app10-0-17.md) di un codice azione che l'utente mediante quel formato ER. Ad esempio, nel modulo **Contabilità clienti**, nelle impostazioni di gestione della stampa, è possibile selezionare un formato ER che generi un documento aziendale specifico, come una fattura a testo libero. È quindi possibile selezionare **Visualizza** per visualizzare in anteprima la fattura o **Stampa** per inviarla a una stampante. Se un'azione utente viene trasmessa per il formato ER in esecuzione in fase di esecuzione, è possibile configurare diverse destinazioni ER per diverse azioni utente. Questo argomento spiega come configurare le destinazioni ER per questo tipo di formato ER.
+In Microsoft Dynamics 365 Finance **versione 10.0.17 e successive**, un formato ER può essere eseguito mediante il [provisioning](er-apis-app10-0-17.md) di un codice azione che l'utente mediante quel formato ER. Ad esempio, nel modulo **Contabilità clienti**, nelle impostazioni di gestione della stampa, è possibile selezionare un formato ER che generi un documento aziendale specifico, come una fattura a testo libero. È quindi possibile selezionare **Visualizza** per visualizzare in anteprima la fattura o **Stampa** per inviarla a una stampante. Se un'azione utente viene trasmessa per il formato ER in esecuzione in fase di esecuzione, è possibile configurare diverse destinazioni ER per diverse azioni utente. Questo articolo spiega come configurare le destinazioni ER per questo tipo di formato ER.
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Rendere disponibili destinazioni ER dipendenti dall'azione
 
@@ -82,7 +82,7 @@ La figura seguente mostra come ottenere la stessa configurazione delle destinazi
 
 Quando viene eseguito un formato ER, se le azioni dell'utente sono state fornite da utenti che dispongono delle [autorizzazioni](electronic-reporting-destinations.md#security-considerations) appropriate per modificare le impostazioni di destinazione configurate in fase di esecuzione, viene visualizzata una finestra di dialogo che offre la possibilità di modificare le impostazioni di destinazione configurate. Questa finestra di dialogo è facoltativa e il suo aspetto dipende da come è stata implementata la chiamata effettuata dal framework ER per eseguire un formato ER. Se viene visualizzata questa finestra di dialogo, le destinazioni ER in essa contenute verranno abilitate in base all'azione dell'utente fornita.
 
-La figura seguente mostra un esempio di finestra di dialogo **Destinazione del formato per la creazione di report elettronici** che appare quando una fattura a testo libero viene [registrata](../../../finance/accounts-receivable/create-free-text-invoice-new.md) e il formato ER **Fattura a testo libero (Excel)** viene eseguito per generare questo documento, se è stato eseguito il provisioning dell'azione **Stampante** e le destinazioni ER sono state configurate per questo formato, come mostrato in precedenza in questo argomento.
+La figura seguente mostra un esempio di finestra di dialogo **Destinazione del formato per la creazione di report elettronici** che appare quando una fattura a testo libero viene [registrata](../../../finance/accounts-receivable/create-free-text-invoice-new.md) e il formato ER **Fattura a testo libero (Excel)** viene eseguito per generare questo documento, se è stato eseguito il provisioning dell'azione **Stampante** e le destinazioni ER sono state configurate per questo formato, come mostrato in precedenza in questo articolo.
 
 ![Finestra di dialogo che offre la possibilità di modificare le destinazioni ER configurate inizialmente per il formato ER in esecuzione.](./media/er-destination-action-dependent-02.gif)
 

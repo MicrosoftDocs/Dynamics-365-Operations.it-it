@@ -1,6 +1,6 @@
 ---
 title: Utilizzare il Dynamics 365 Commerce motore di determinazione dei prezzi con Dynamics 365 Sales
-description: Questo argomento descrive come utilizzare il motore di determinazione dei prezzi Microsoft Dynamics 365 Commerce per creare le offerte di vendita in Dynamics 365 Sales.
+description: Questo articolo descrive come utilizzare il motore di determinazione dei prezzi Microsoft Dynamics 365 Commerce per creare le offerte di vendita in Dynamics 365 Sales.
 author: ShalabhjainMSFT
 ms.date: 11/19/2020
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: global
 ms.author: shajain
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c3f1527e5f37bebba57661ca86b1a3aae7e62da0
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 11a164ec15c8b7a69172a153b961011a8b324712
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416757"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881396"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Utilizzare il Dynamics 365 Commerce motore di determinazione dei prezzi con Dynamics 365 Sales
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come utilizzare il motore di determinazione dei prezzi Microsoft Dynamics 365 Commerce per creare le offerte di vendita in Dynamics 365 Sales.
+Questo articolo descrive come utilizzare il motore di determinazione dei prezzi Microsoft Dynamics 365 Commerce per creare le offerte di vendita in Dynamics 365 Sales.
 
 Il Dynamics 365 Commerce Il motore di determinazione dei prezzi supporta la maggior parte degli scenari di prezzo business-to-consumer (B2C), come i prezzi a livello di negozio, i prezzi basati sull'affiliazione e sulla fedeltà, gli sconti combinati, gli sconti sulla quantità e gli sconti soglia. Il motore di determinazione del prezzo utilizza regole complesse per determinare il prezzo migliore per un determinato preventivo od ordine.
 

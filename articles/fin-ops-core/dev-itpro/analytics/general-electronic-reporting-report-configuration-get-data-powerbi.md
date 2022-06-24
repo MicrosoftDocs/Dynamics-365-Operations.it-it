@@ -1,6 +1,6 @@
 ---
 title: Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI
-description: In questo argomento viene descritto come utilizzare la configurazione Creazione di report elettronici (ER) per definire il trasferimento di dati dalla propria istanza ai servizi Power BI.
+description: In questo articolo viene descritto come utilizzare la configurazione Creazione di report elettronici (ER) per definire il trasferimento di dati dalla propria istanza ai servizi Power BI.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aa9a47c9ee7c76322fd2d9bfcf5fc61a50bf421321891b3c78a782be6a9f8e6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6903513dec4da20dbc4463fbae6a406fc06e1a6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896736"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurare la creazione di report elettronici (ER) per eseguire il pull dei dati in Power BI
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare la configurazione Creazione di report elettronici (ER) per definire il trasferimento di dati dalla propria istanza ai servizi Power BI. Come esempio, in questo argomento vengono utilizzate le transazioni Intrastat come dati aziendali che devono essere trasferiti. La visualizzazione della mappa di Power BI utilizza questi dati transazione Intrastat per presentare una visualizzazione per l'analisi delle attività di importazione o esportazione della società nel report di Power BI.
+In questo articolo viene descritto come utilizzare la configurazione Creazione di report elettronici (ER) per definire il trasferimento di dati dalla propria istanza ai servizi Power BI. Come esempio, in questo articolo vengono utilizzate le transazioni Intrastat come dati aziendali che devono essere trasferiti. La visualizzazione della mappa di Power BI utilizza questi dati transazione Intrastat per presentare una visualizzazione per l'analisi delle attività di importazione o esportazione della società nel report di Power BI.
 
 ## <a name="overview"></a>Panoramica
 
-Microsoft Power BI è una raccolta di servizi software, app e connettori che lavorano insieme per convertire le origini esterne dei dati in informazioni coerenti, visivamente immersive e interattive. La creazione report elettronici (ER) consente agli utenti di configurare facilmente le origini dati e di disporre il trasferimento dei dati dall'applicazione a Power BI. I dati vengono trasferiti come file nel formato di foglio di lavoro OpenXML (file di cartella di lavoro di Microsoft Excel). I file trasferiti sono archiviati in un server Microsoft SharePoint configurato per questo scopo. I file archiviati vengono utilizzati in Power BI per creare report contenenti visualizzazioni (tabelle, grafici, mappe e così via). I report di Power BI vengono condivisi con gli utenti di Power BI e vengono utilizzati nei dashboard di Power BI e nelle pagine dell'applicazione. In questo argomento sono spiegate le seguenti attività:
+Microsoft Power BI è una raccolta di servizi software, app e connettori che lavorano insieme per convertire le origini esterne dei dati in informazioni coerenti, visivamente immersive e interattive. La creazione report elettronici (ER) consente agli utenti di configurare facilmente le origini dati e di disporre il trasferimento dei dati dall'applicazione a Power BI. I dati vengono trasferiti come file nel formato di foglio di lavoro OpenXML (file di cartella di lavoro di Microsoft Excel). I file trasferiti sono archiviati in un server Microsoft SharePoint configurato per questo scopo. I file archiviati vengono utilizzati in Power BI per creare report contenenti visualizzazioni (tabelle, grafici, mappe e così via). I report di Power BI vengono condivisi con gli utenti di Power BI e vengono utilizzati nei dashboard di Power BI e nelle pagine dell'applicazione. In questo articolo sono spiegate le seguenti attività:
 
 - Configurare Microsoft Dynamics 365 Finance.
 - Preparare la configurazione del formato ER per ottenere dati dall'applicazione Finance.
@@ -38,7 +38,7 @@ Microsoft Power BI è una raccolta di servizi software, app e connettori che lav
 - Rendere il report di Power BI accessibile in Finance.
 
 ## <a name="prerequisites"></a>Prerequisiti
-Per completare l'esempio riportato in questo argomento, è necessario disporre del seguente accesso:
+Per completare l'esempio in questo articolo, è necessario disporre del seguente accesso:
 
 - Accesso per uno dei seguenti ruoli:
 

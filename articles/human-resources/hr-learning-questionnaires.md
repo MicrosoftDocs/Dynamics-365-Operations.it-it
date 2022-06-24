@@ -1,6 +1,6 @@
 ---
 title: Questionari
-description: In questo argomento vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate.
+description: In questo articolo vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: efe0ac953e5c1cb04044256e799ecfc07cf3eebe
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: de38bcbfc89479d6b643ca5ee256c38c88fa7f69
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690752"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897895"
 ---
 # <a name="questionnaires"></a>Questionari
 
@@ -28,7 +28,7 @@ ms.locfileid: "8690752"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo argomento vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati. 
+In questo articolo vengono fornite informazioni generali sui questionari e collegamenti a informazioni più dettagliate. Un questionario è un insieme di domande utilizzate per raccogliere informazioni per vari di scopi. È possibile progettare, creare, distribuire e completare i questionari e quindi analizzarne i risultati. 
 
 È possibile personalizzare un questionario per soddisfare esigenze specifiche utilizzando diverse funzionalità disponibili in Microsoft Microsoft Dynamics 365 Finance. Di seguito sono riportati alcuni esempi di utilizzo dei questionari:
 
@@ -40,11 +40,11 @@ In questo argomento vengono fornite informazioni generali sui questionari e coll
 
 Nella seguente tabella vengono forniti i collegamenti alle informazioni sulle attività principali del questionario. Fare clic sui collegamenti per ulteriori informazioni.
 
-| Argomento| Description|
+| Articolo | Description|
 |------|------------|
-| [Progettare un questionario](hr-learning-design-questionnaires.md) | In questo argomento sono riportate informazioni su cine progettare un questionario. Il processo di progettazione include impostare i prerequisiti, le risposte e le domande quindi combinare questi elementi in un questionario. |
-| [Distribuire e programmare questionari](hr-learning-distribute-questionnaires.md) | In questo argomento sono presenti informazioni su come distribuire un questionario agli intervistati e come completare i questionari. |
-| [Visualizzare e valutare i risultati di un questionario](hr-learning-evaluate-questionnaire-results.md) | In questo argomento vengono riportate informazioni sulla visualizzazione e la valutazione dei risultati generati dai questionari completati. |
+| [Progettare un questionario](hr-learning-design-questionnaires.md) | In questo articolo sono riportate informazioni su cine progettare un questionario. Il processo di progettazione include impostare i prerequisiti, le risposte e le domande quindi combinare questi elementi in un questionario. |
+| [Distribuire e programmare questionari](hr-learning-distribute-questionnaires.md) | In questo articolo sono presenti informazioni su come distribuire un questionario agli intervistati e come completare i questionari. |
+| [Visualizzare e valutare i risultati di un questionario](hr-learning-evaluate-questionnaire-results.md) | In questo articolo vengono riportate informazioni sulla visualizzazione e la valutazione dei risultati generati dai questionari completati. |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

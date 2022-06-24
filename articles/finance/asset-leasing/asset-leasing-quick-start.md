@@ -1,6 +1,6 @@
 ---
-title: Attività iniziali per il leasing di cespiti
-description: Questo argomento descrive la funzionalità Leasing di cespiti, illustra i passaggi per la creazione di un leasing di cespiti e visualizza le informazioni per tali leasing.
+title: Introduzione al leasing di cespiti
+description: Questo articolo descrive la funzionalità Leasing di cespiti, illustra i passaggi per la creazione di un leasing di cespiti e visualizza le informazioni per tali leasing.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 991685f50a00e60026331bf573561be904c7f9ab
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: df4343031b3b116318f798f31adb4d1f6bed1db9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710331"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895140"
 ---
-# <a name="asset-leasing-get-started"></a>Attività iniziali per il leasing di cespiti
+# <a name="asset-leasing-get-started"></a>Introduzione al leasing di cespiti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive la funzionalità Leasing di cespiti, illustra i passaggi per la creazione di un leasing di cespiti e visualizza le informazioni per tali leasing. Definisce anche la terminologia utilizzata nell'interfaccia utente e nella documentazione. Leasing di cespiti è una funzionalità avanzata per la gestione, il monitoraggio e l'automazione di transazioni finanziarie per cespiti in leasing in Microsoft Dynamics 365 Finance. Leasing di cespiti è conforme agli standard contabili internazionali (IFRS 16) e agli standard GAAP statunitensi (ASC 842). Leasing di cespiti acquisisce ed elabora informazioni sui leasing e consente la generazione di scritture contabili durante il ciclo di vita del leasing, dalla rilevazione iniziale alle scritture contabili mensili fino alla riduzione del valore e alla risoluzione del leasing. Leasing di cespiti si integra perfettamente con altri componenti di Dynamics 365 Finance, tra cui Cespiti, Contabilità fornitori e Contabilità generale.
+Questo articolo descrive la funzionalità Leasing di cespiti, illustra i passaggi per la creazione di un leasing di cespiti e visualizza le informazioni per tali leasing. Definisce anche la terminologia utilizzata nell'interfaccia utente e nella documentazione. Leasing di cespiti è una funzionalità avanzata per la gestione, il monitoraggio e l'automazione di transazioni finanziarie per cespiti in leasing in Microsoft Dynamics 365 Finance. Leasing di cespiti è conforme agli standard contabili internazionali (IFRS 16) e agli standard GAAP statunitensi (ASC 842). Leasing di cespiti acquisisce ed elabora informazioni sui leasing e consente la generazione di scritture contabili durante il ciclo di vita del leasing, dalla rilevazione iniziale alle scritture contabili mensili fino alla riduzione del valore e alla risoluzione del leasing. Leasing di cespiti si integra perfettamente con altri componenti di Dynamics 365 Finance, tra cui Cespiti, Contabilità fornitori e Contabilità generale.
 
 Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro **Gestione funzionalità** per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro **Gestione delle funzionalità** trova e seleziona la funzione denominata **Leasing cespite** quindi fare clic su **Abilita ora**.
 

@@ -1,6 +1,6 @@
 ---
 title: Criteri di idoneità benefit
-description: Questo argomento fornisce informazioni sulle politiche di idoneità ai benefici, che definiscono chi ha diritto a specifici benefici.
+description: Questo articolo fornisce informazioni sulle politiche di idoneità ai benefici, che definiscono chi ha diritto a specifici benefici.
 author: twheeloc
 ms.date: 08/23/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e36235e089fef70bc0d33815cd855628836f58db
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f0b373679690715ddbc518e4df79b81dbb000059
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689552"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877776"
 ---
 # <a name="benefit-eligibility-policies"></a>Criteri di idoneità benefit
 
@@ -28,7 +28,7 @@ ms.locfileid: "8689552"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento fornisce informazioni sulle politiche di idoneità ai benefici, che definiscono chi ha diritto a specifici benefici.
+Questo articolo fornisce informazioni sulle politiche di idoneità ai benefici, che definiscono chi ha diritto a specifici benefici.
 
 Quando si creano benefit, si decide quali benefit saranno disponibili per determinati dipendenti. Nella seguente tabella vengono visualizzati gli esempi di benefit che è possibile rendere disponibili per dipendenti specifici.
 

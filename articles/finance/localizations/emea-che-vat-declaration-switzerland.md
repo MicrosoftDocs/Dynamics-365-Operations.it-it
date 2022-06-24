@@ -1,6 +1,6 @@
 ---
 title: Dichiarazione IVA (Svizzera)
-description: In questo argomento vengono fornite informazioni su come impostare e generare una dichiarazione di imposta sul valore aggiunto per la Svizzera.
+description: In questo articolo vengono fornite informazioni su come impostare e generare una dichiarazione di imposta sul valore aggiunto per la Svizzera.
 author: anasyash
 ms.date: 09/15/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e0734ee6f20949c788cc33761bf45e7effb412ff
-ms.sourcegitcommit: 94ebdaae6dc996b205ac78ed546e38f91f4f46ed
+ms.openlocfilehash: 4d2cd47fe59aad9c54dd5d519defa604037b566f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/28/2022
-ms.locfileid: "8489606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8865511"
 ---
 # <a name="vat-declaration-switzerland"></a>Dichiarazione IVA (Svizzera)
 
@@ -27,11 +27,11 @@ ms.locfileid: "8489606"
 
 ## <a name="overview"></a>Panoramica
 
-Questo argomento descrive come impostare e generare una dichiarazione di imposta sul valore aggiunto (IVA) per la Svizzera nel formato XML ufficiale (standard eCH-0217 eMWST). Descrive inoltre come visualizzare in anteprima la dichiarazione IVA in Microsoft Excel.
+Questo articolo descrive come impostare e generare una dichiarazione di imposta sul valore aggiunto (IVA) per la Svizzera nel formato XML ufficiale (standard eCH-0217 eMWST). Descrive inoltre come visualizzare in anteprima la dichiarazione IVA in Microsoft Excel.
 
 Per generare automaticamente il report, è necessario innanzitutto creare codici IVA sufficienti per mantenere una contabilità IVA separata per ogni casella della dichiarazione IVA. Inoltre, nei parametri specifici dell'applicazione del formato di Creazione di report elettronici per la dichiarazione IVA, è necessario associare i codici IVA al risultato delle ricerche per le caselle nella dichiarazione IVA.
 
-Per la Svizzera, è necessario configurare tre ricerche: **Ricerca fatturato**, **Ricerca campi report** e **Ricerca altri flussi di cassa**. Per ulteriori informazioni su come impostare i parametri specifici dell'applicazione, vedere la sezione [Impostare i parametri specifici dell'applicazione per i campi della dichiarazione IVA](#set-up-application-specific-parameters-for-vat-declaration-fields) più avanti in questo argomento.
+Per la Svizzera, è necessario configurare tre ricerche: **Ricerca fatturato**, **Ricerca campi report** e **Ricerca altri flussi di cassa**. Per ulteriori informazioni su come impostare i parametri specifici dell'applicazione, vedi la sezione [Impostare i parametri specifici dell'applicazione per i campi della dichiarazione IVA](#set-up-application-specific-parameters-for-vat-declaration-fields) più avanti in questo articolo.
 
 Nella tabella seguente, la colonna "Risultato ricerca" mostra il risultato della ricerca preconfigurato per una riga specifica della dichiarazione IVA nel formato della dichiarazione IVA. Utilizza queste informazioni per associare correttamente i codici IVA al risultato della ricerca e quindi alla riga della dichiarazione IVA.
 
@@ -154,7 +154,7 @@ Segui questi passaggi per definire quali codici IVA generano quali caselle nella
 
    | Campo                  | descrizione                                                                                                                                                                                                                                                                                                         |
    |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | Risultato della ricerca          | Seleziona il valore del fatturato. Per ulteriori informazioni sui valori del fatturato e sulla loro assegnazione alle righe della dichiarazione IVA, vedi la sezione [Panoramica sulla dichiarazione IVA](#vat-declaration-overview) precedente in questo argomento.                                                                                         |
+   | Risultato della ricerca          | Seleziona il valore del fatturato. Per ulteriori informazioni sui valori del fatturato e sulla loro assegnazione alle righe della dichiarazione IVA, vedi la sezione [Panoramica sulla dichiarazione IVA](#vat-declaration-overview) precedente in questo articolo.                                                                                         |
    | Codice imposta               | Seleziona il codice IVA da associare all'operazione. Le transazioni IVA registrate che utilizzano il codice IVA selezionato verranno raccolte nella casella appropriata della dichiarazione. Si consiglia di separare i codici IVA in modo tale che un codice IVA generi importi in una sola casella della dichiarazione.   |
    | Classificatore di transazioni | Se sono stati creati codici IVA sufficienti per determinare una casella della dichiarazione, seleziona **\*Non vuoto\***. Se non hai creato un numero sufficiente di codici IVA in modo che un codice IVA generi importi in una sola casella della dichiarazione, puoi impostare un classificatore di transazioni. Sono disponibili i seguenti classificatori di transazioni: <br>- **Acquisti**<br>- **PurchaseExempt** (acquisto esente da tasse) <br>- **PurchaseReverseCharge** (imposta a credito da reverse charge su acquisti) <br>- **Vendite** <br>- **SalesExempt** (vendita esente da tasse) <br>- **SalesReverseCharge** (imposta a debito da reverse charge su acquisti o reverse charge su vendite) <br>- **IVA intracomunitaria** <br> Per ogni classificatore di transazioni è disponibile anche un classificatore per la nota di accredito. Ad esempio, uno di questi classificatori è **PurchaseCreditNote** (nota di accredito di acquisto).|
 
@@ -263,14 +263,14 @@ Il pacchetto dati contiene le impostazioni per i messaggi elettronici che vengon
 
 1. Vai a **Imposta** > **Richieste di informazioni e report** > **Richieste di informazioni su IVA** > **Pagamenti IVA** e seleziona una riga di pagamento IVA.
 2. Seleziona **Stampa report**.
-3. Nella finestra di dialogo **Parametri per la creazione di report elettronici**, imposta i campi come spiegato in precedenza in questo argomento. Quindi esamina il file Excel generato per la riga di pagamento IVA selezionata.
+3. Nella finestra di dialogo **Parametri per la creazione di report elettronici**, imposta i campi come spiegato in precedenza in questo articolo. Quindi esamina il file Excel generato per la riga di pagamento IVA selezionata.
 
    > [!NOTE]
    > Il report viene generato solo per la riga selezionata del pagamento IVA. Se è necessario generare, ad esempio, una dichiarazione correttiva che contenga tutte le correzioni per il periodo o una dichiarazione sostitutiva che contenga i dati originali e tutte le correzioni, utilizza l'attività periodica **Report IVA per periodo liquidazione**.
 
 ## <a name="generate-a-vat-declaration-from-electronic-messages"></a>Generare una dichiarazione IVA dai messaggi elettronici
 
-Quando si utilizzano messaggi elettronici per generare il report, è possibile raccogliere dati fiscali da più persone giuridiche. Per ulteriori informazioni, vedi la sezione [Eseguire una dichiarazione IVA per più persone giuridiche](#run-a-vat-declaration-for-multiple-legal-entities) più avanti in questo argomento.
+Quando si utilizzano messaggi elettronici per generare il report, è possibile raccogliere dati fiscali da più persone giuridiche. Per ulteriori informazioni, vedi la sezione [Eseguire una dichiarazione IVA per più persone giuridiche](#run-a-vat-declaration-for-multiple-legal-entities) più avanti in questo articolo.
 
 La procedura seguente si applica all'elaborazione di messaggi elettronici di esempio importata in precedenza dalla raccolta di risorse condivise LCS.
 
@@ -282,7 +282,7 @@ La procedura seguente si applica all'elaborazione di messaggi elettronici di ese
    > [!NOTE]
    >  I passaggi da 5 a 7 sono facoltativi.
 
-5. Facoltativo: nella Scheda dettaglio **Messaggi**, seleziona **Raccogli dati**, quindi seleziona **OK**. I pagamenti IVA generati in precedenza vengono aggiunti al messaggio. Per ulteriori informazioni, vedi la sezione [Liquida e registra IVA](#settle-and-post-sales-tax) descritta precedentemente in questo argomento. Se salti questo passaggio, puoi comunque generare una dichiarazione IVA utilizzando il campo **Versione dichiarazione fiscale** nella finestra di dialogo **Dichiarazione**.
+5. Facoltativo: nella Scheda dettaglio **Messaggi**, seleziona **Raccogli dati**, quindi seleziona **OK**. I pagamenti IVA generati in precedenza vengono aggiunti al messaggio. Per ulteriori informazioni, vedi la sezione [Liquida e registra IVA](#settle-and-post-sales-tax) descritta precedentemente in questo articolo. Se salti questo passaggio, puoi comunque generare una dichiarazione IVA utilizzando il campo **Versione dichiarazione fiscale** nella finestra di dialogo **Dichiarazione**.
 6. Facoltativo: nella Scheda dettaglio **Elementi del messaggio**, rivedi i pagamenti IVA trasferiti per l'elaborazione. Per impostazione predefinita, sono inclusi tutti i pagamenti IVA del periodo selezionato che non sono stati inclusi in nessun altro messaggio della stessa elaborazione.
 7. Facoltativo: seleziona **Documento originale** per rivedere i pagamenti IVA o seleziona **Elimina** per escludere i pagamenti IVA dall'elaborazione. Se salti questo passaggio, puoi comunque generare una dichiarazione IVA utilizzando il campo **Versione dichiarazione fiscale** nella finestra di dialogo **Dichiarazione**.
 8. Nella Scheda dettaglio **Messaggi**, seleziona **Aggiorna stato**. Nella finestra di dialogo **Aggiorna stato**, seleziona **Pronto a generare**, quindi seleziona **OK**. Verifica che lo stato del messaggio sia cambiato in **Pronto a generare**.

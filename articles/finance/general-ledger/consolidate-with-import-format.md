@@ -1,6 +1,6 @@
 ---
 title: Importare un formato per il consolidamento
-description: In questo argomento vengono fornite informazioni dettagliate sul formato di importazione utilizzato quando si consolidano i dati finanziari di più persone giuridiche.
+description: In questo articolo vengono fornite informazioni dettagliate sul formato di importazione utilizzato quando si consolidano i dati finanziari di più persone giuridiche.
 author: jinniew
 ms.date: 10/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 5bea69d72ac93d29ae67dd6d762e1376d9a282f0
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 0aee830f8fbfa384c86dc16465b202be36f07b73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871306"
 ---
 # <a name="import-format-for-consolidation"></a>Importare un formato per il consolidamento
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni dettagliate sul formato di importazione utilizzato quando si consolidano i dati finanziari di più persone giuridiche. Il formato di importazione deve essere salvato come file di testo (.txt).
+In questo articolo vengono fornite informazioni dettagliate sul formato di importazione utilizzato quando si consolidano i dati finanziari di più persone giuridiche. Il formato di importazione deve essere salvato come file di testo (.txt).
 
 ## <a name="import-format"></a>Formato di importazione
 

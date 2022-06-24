@@ -1,6 +1,6 @@
 ---
 title: Impostare l'importazione avanzata delle riconciliazioni bancarie utilizzando la Creazione di report elettronici
-description: Questo argomento spiega come utilizzare la Creazione di report elettronici per impostare il processo avanzato di importazione delle riconciliazioni bancarie.
+description: Questo articolo spiega come utilizzare la Creazione di report elettronici per impostare il processo avanzato di importazione delle riconciliazioni bancarie.
 author: panolte
 ms.date: 03/30/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: 30530a9870ba2ff0546237d2698d1675afa78104
-ms.sourcegitcommit: 2b4ee1fe05792332904396b5f495d74f2a217250
+ms.openlocfilehash: 2ac8811a5c10490d90f782472d3c198474c7edc0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8770196"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889122"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Impostare l'importazione avanzata delle riconciliazioni bancarie utilizzando la Creazione di report elettronici
 
 [!include [banner](../includes/banner.md)]
 
-La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 Finance. In questo argomento viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari. L'impostazione dell'importazione dei rendiconti bancari varia a seconda del formato del rendiconto bancario elettronico. Microsoft Dynamics 365 Finance supporta tre formati di rendiconto bancario: ISO20022, MT940 e BAI2. 
+La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 Finance. In questo articolo viene spiegato come impostare le funzionalità di importazione dei rendiconti bancari. L'impostazione dell'importazione dei rendiconti bancari varia a seconda del formato del rendiconto bancario elettronico. Microsoft Dynamics 365 Finance supporta tre formati di rendiconto bancario: ISO20022, MT940 e BAI2. 
 
 ## <a name="set-up-the-electronic-reporting-configuration"></a>Impostare la creazione di report elettronici
 

@@ -1,6 +1,6 @@
 ---
 title: Limite di soglia e limite di soglia di eccezione
-description: In questo argomento vengono descritti i limiti di soglia e di eccezione per l'imposta dedotta all'origine (TDS, Tax Deducted at Source).
+description: In questo articolo vengono descritti i limiti di soglia e di eccezione per l'imposta dedotta all'origine (TDS, Tax Deducted at Source).
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 7fa7d871fdf25f29b003a68cacd9fc0d487dce5b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: aceebad08b5454b64059e7ef374b9634bad35c37
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726018"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877938"
 ---
 # <a name="threshold-limit-and-exception-threshold-limit"></a>Limite di soglia e limite di soglia di eccezione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i limiti di soglia e di eccezione per l'imposta dedotta all'origine (TDS, Tax Deducted at Source). La TDS su fatture e pagamenti è sempre calcolata considerando il limite di soglia e il limite di soglia di eccezione definiti per i componenti fiscali TDS nella pagina **Componenti ritenuta d'acconto**. I componenti fiscali TDS sono associati ai codici imposta TDS, inclusi nei gruppi di imposte TDS. I gruppi di imposte TDS sono associati a fornitori e clienti per calcolare la TDS a livello di fattura o di pagamento.
+In questo articolo vengono descritti i limiti di soglia e di eccezione per l'imposta dedotta all'origine (TDS, Tax Deducted at Source). La TDS su fatture e pagamenti è sempre calcolata considerando il limite di soglia e il limite di soglia di eccezione definiti per i componenti fiscali TDS nella pagina **Componenti ritenuta d'acconto**. I componenti fiscali TDS sono associati ai codici imposta TDS, inclusi nei gruppi di imposte TDS. I gruppi di imposte TDS sono associati a fornitori e clienti per calcolare la TDS a livello di fattura o di pagamento.
 
 La TDS viene calcolata se l'importo di una transazione o le transazioni cumulative registrate con uno specifico gruppo TDS per un fornitore supera il limite di soglia specificato nella pagina **Componenti ritenuta d'acconto**. La TDS non verrà calcolata fino a quando l'importo cumulativo della transazione non supera il limite di soglia specificato.
 

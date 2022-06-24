@@ -1,6 +1,6 @@
 ---
 title: Meccanismo di reverse charge per schema IVA/GST
-description: In questo argomento viene descritto come configurare l'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei, l'Arabia Saudita e Singapore.
+description: In questo articolo viene descritto come configurare l'imposta sul valore aggiunto (IVA) in reverse charge per i paesi europei, l'Arabia Saudita e Singapore.
 author: epodkolz
 ms.date: 10/05/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 4176f8e853b7d7c2acc1044cab33371202f10c4a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7594720"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861263"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Meccanismo di reverse charge per schema IVA/GST
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive un approccio generico per l'impostazione della funzionalità di reverse charge per paesi/aree geografiche che adottano gli schemi IVA o GST.
+Questo articolo descrive un approccio generico per l'impostazione della funzionalità di reverse charge per paesi/aree geografiche che adottano gli schemi IVA o GST.
                                                                                  
 La disponibilità della funzionalità nel paese/area geografica è gestita dalle seguenti funzionalità nell'area di lavoro **Gestione funzionalità**.
 
@@ -33,7 +33,7 @@ La disponibilità della funzionalità nel paese/area geografica è gestita dalle
 | Reverse charge per altri paesi            | Bahrein  </br>Kuwait  </br>Oman  </br>Qatar                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Abilitare il meccanismo di reverse charge per schema IVA/GST | Tutti gli altri paesi/aree geografiche tranne:  </br>Brasile  </br>India  </br>Russia                                                                                                                                                                                                                                                                                                                                                                                         |
  
- Per ulteriori informazioni, vedere la sezione [Abilitare il meccanismo di reverse charge per la funzionalità schema IVA/GST](#enable-reverse-charge) più avanti in questo argomento.
+ Per ulteriori informazioni, vedi la sezione [Abilitare il meccanismo di reverse charge per la funzionalità schema IVA/GST](#enable-reverse-charge) più avanti in questo articolo.
 
 Reverse charge è uno schema di imposta che sposta la responsabilità per la contabilità e la dichiarazione dell'IVA dal venditore all'acquirente delle merci e/o dei servizi. Di conseguenza, i destinatari delle merci e/o dei servizi dichiarano sia l'IVA in uscita (nel ruolo del venditore) che l'IVA in entrata (nel ruolo dell'acquirente) nella dichiarazione IVA.
 

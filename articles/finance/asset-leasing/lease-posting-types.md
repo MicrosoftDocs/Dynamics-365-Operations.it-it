@@ -1,6 +1,6 @@
 ---
 title: Tipi di registrazione di leasing
-description: In questo argomento vengono descritti i tipi di registrazione utilizzati per le transazioni di leasing di cespiti.
+description: In questo articolo vengono descritti i tipi di registrazione utilizzati per le transazioni di leasing di cespiti.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6c06f68aebe7ed1ccc944793591202a9a221c42b
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: 26917ed0017e43c2be5ee53e472ad57d12db0978
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8720141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889064"
 ---
 # <a name="lease-posting-types"></a>Tipi di registrazione di leasing
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i tipi di registrazione utilizzati per le transazioni di leasing di cespiti.
+In questo articolo vengono descritti i tipi di registrazione utilizzati per le transazioni di leasing di cespiti.
 
 ## <a name="lease-asset"></a>Cespite di leasing
 

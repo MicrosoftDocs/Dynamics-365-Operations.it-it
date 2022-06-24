@@ -1,6 +1,6 @@
 ---
 title: Generare moduli FTI stampabili
-description: In questo argomento viene descritto come utilizzare il framework di creazione di report elettronici (ER) per generare moduli stampabili (FTI) di fattura a testo libero come documenti di Microsoft Office.
+description: In questo articolo viene descritto come utilizzare il framework di creazione di report elettronici (ER) per generare moduli stampabili (FTI) di fattura a testo libero come documenti di Microsoft Office.
 author: NickSelin
 ms.date: 07/24/2018
 ms.topic: article
@@ -14,25 +14,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be5e3ef0f6ecb3d8f911b5be5f8bc9102d201fd299425e847a2df233d9b4edf4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d4efbb46bbba2b139bbcf9b07c480a7e8669fd7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6758218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868831"
 ---
 # <a name="generate-printable-fti-forms"></a>Generare moduli FTI stampabili
 
 [!include[banner](../includes/banner.md)]
 
-Il framework di creazione di report elettronici (ER) consente di generare moduli stampabili (FTI) di fattura a testo libero come documenti di Microsoft Office. In questo argomento vengono fornite le informazioni su come creare configurazioni personali nonché i dettagli dei modelli di configurazione disponibili.
+Il framework di creazione di report elettronici (ER) consente di generare moduli stampabili (FTI) di fattura a testo libero come documenti di Microsoft Office. In questo articolo vengono fornite le informazioni su come creare configurazioni personali nonché i dettagli dei modelli di configurazione disponibili.
 
 ## <a name="overview"></a>Panoramica
 
 Oltre alla possibilità esistente di generare i moduli stampabili FTI utilizzando Microsoft SQL Server Reporting Services (SSRS), è ora possibile utilizzare il framework di ER. È possibile gestire i moduli FTI stampabili in Microsoft Office Excel e Word. È inoltre possibile modificare il layout, il flusso di dati e la formattazione per soddisfare i requisiti specifici senza apportare modifiche al codice.
 
 > [!NOTE]
-> Se si desidera iniziare con una panoramica delle configurazioni di ER esistenti per questo esempio di soluzione per i moduli FTI stampabili, è possibile passare direttamente alla sezione **Scaricare le configurazioni di ER di esempio per generare moduli FTI stampabili** più avanti in questo argomento.
+> Se vuoi iniziare con una panoramica delle configurazioni di ER esistenti per questo esempio di soluzione per i moduli FTI stampabili, puoi passare direttamente alla sezione **Scaricare le configurazioni di ER di esempio per generare moduli FTI stampabili** più avanti in questo articolo.
 
 ## <a name="create-customized-configurations-for-fti-printable-forms"></a>Creare configurazioni personalizzate per i moduli FTI stampabili
 Come parte della soluzione personalizzata per i moduli FTI stampabili, è necessario creare un gruppo di configurazioni di ER.

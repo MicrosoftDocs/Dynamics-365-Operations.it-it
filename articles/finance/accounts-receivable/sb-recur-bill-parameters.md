@@ -1,6 +1,6 @@
 ---
 title: Parametri di fatturazione contratto ricorrente
-description: Questo argomento spiega come impostare i valori predefiniti per i programmi di fatturazione creati in Fatturazione contratto ricorrente. Spiega inoltre come creare i gruppi di programmi di fatturazione.
+description: Questo articolo spiega come impostare i valori predefiniti per i programmi di fatturazione creati in Fatturazione contratto ricorrente. Spiega inoltre come creare i gruppi di programmi di fatturazione.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 19fe77ade0523aa7fd6382266457fd739df46d75
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903336"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Parametri di fatturazione contratto ricorrente
 
@@ -27,7 +27,7 @@ Usa la pagina **Parametri di fatturazione contratto ricorrente** per impostare i
 
 ## <a name="general-tab"></a>Scheda Generale
 
-1. Nella pagina **Parametri di fatturazione contratto ricorrente** sulla scheda **Generale** nel campo **Gruppo di programmi di fatturazione** seleziona un gruppo di programmi di fatturazione. Per informazioni su come impostare i gruppi di programmi di fatturazione, vedi la sezione [Impostare gruppi di programmi di fatturazione](#set-up-billing-schedule-groups) più avanti in questo argomento.
+1. Nella pagina **Parametri di fatturazione contratto ricorrente** sulla scheda **Generale** nel campo **Gruppo di programmi di fatturazione** seleziona un gruppo di programmi di fatturazione. Per informazioni su come impostare i gruppi di programmi di fatturazione, vedi la sezione [Impostare gruppi di programmi di fatturazione](#set-up-billing-schedule-groups) più avanti in questo articolo.
 2. Nel campo **Tipo di terminazione**, seleziona come viene calcolata la fattura finale al termine di un programma di fatturazione:
 
     - **Regola il programma** – Interrompi il programma di fatturazione alla data di scadenza, modifica lo stato del programma su **Ultima fatturazione**, e rettifica la relativa programmazione di differimento stornando l'importo che non deve più essere riconosciuto. Se la data di inizio della fatturazione è successiva alla data di terminazione, i periodi di fatturazione rimanenti vengono rimossi.

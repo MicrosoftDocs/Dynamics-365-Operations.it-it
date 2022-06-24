@@ -1,6 +1,6 @@
 ---
 title: Regulatory Configuration Service (RCS) - Deprecazione dell'archiviazione di Lifecycle Services (LCS)
-description: Questo argomento fornisce informazioni sulla deprecazione dell'archiviazione di Microsoft Dynamics Lifecycle Services (LCS) pianificata come parte dell'implementazione del repository globale di Regulatory Configuration Service (RCS).
+description: Questo articolo fornisce informazioni sulla deprecazione dell'archiviazione di Microsoft Dynamics Lifecycle Services (LCS) pianificata come parte dell'implementazione del repository globale di Regulatory Configuration Service (RCS).
 author: JaneA07
 ms.date: 10/27/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 8862f42f3ceaed7e1413c49cf9b91f0449fab67b
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: 4a35941d1521d26f95bacf29213fee42daeb42ab
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8547984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849733"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Regulatory Configuration Service (RCS) – Deprecazione dell'archiviazione di Lifecycle Services (LCS)
 
@@ -85,7 +85,7 @@ RCS utilizza il concetto di *applicazione connessa*. Un'applicazione connessa st
 
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Ci sono esempi che mostrano la configurazione e la gestione?
 
-Non ci sono esempi, ma puoi completare i passaggi precedenti in questo argomento per migrare le tue configurazioni al repository globale RCS.
+Non ci sono esempi, ma puoi completare i passaggi precedenti in questo articolo per migrare le tue configurazioni al repository globale RCS.
 
 ### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>RCS è un prerequisito per configurare la Creazione di report elettronici?
 

@@ -1,6 +1,6 @@
 ---
 title: Riutilizzare le configurazioni ER con i modelli Escel per generare report nel formato Word
-description: In questo argomento viene descritto come i formati di report progettati per generare report come cartelle di lavoro di Excel possono essere configurati per generare report come documenti Word.
+description: In questo articolo viene descritto come i formati di report progettati per generare report come cartelle di lavoro di Excel possono essere configurati per generare report come documenti Word.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de8286c7612cd588b28cf4667340374906962dde
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 1e0fe9ba55be435fb214c9d0885dd4ef942f5081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8324064"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910388"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Riutilizzare le configurazioni ER con i modelli Escel per generare report nel formato Word
 
@@ -43,7 +43,7 @@ Queste procedure riguardano una funzionalità aggiunta in Dynamics 365 for Opera
 
 ## <a name="select-the-existing-er-report-configuration"></a>Selezionare la configurazione esistente del report ER
 
-1. In Dynamics 365 Finance, passare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
+1. In Dynamics 365 Finance, vai ad **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Assicurarsi che il provider di configurazione **Litware, Inc.** sia selezionato come **attivo**. In caso contrario, segui i passaggi nella guida attività [Creare fornitori di configurazioni e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md).
 3. Selezionare **Configurazioni report**. Verrà riutilizzata la configurazione ER esistente progettata per generare l'output del report in formato OPENXML.
 4. Nella pagina **Configurazioni**, nella struttura delle configurazioni del riquadro sinistro, espandi **Modello di pagamento**, quindi seleziona **Report foglio di lavoro di esempio**.

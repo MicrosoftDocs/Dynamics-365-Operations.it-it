@@ -1,6 +1,6 @@
 ---
-title: Gestione delle informazioni del cliente per l'Italia
-description: In questo argomento viene descritto come gestire le informazioni relative al cliente nel POS per l'Italia.
+title: Gestione delle informazioni cliente per l'Italia
+description: In questo articolo viene descritto come gestire le informazioni relative al cliente nel POS per l'Italia.
 author: sepism
 ms.date: 09/21/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2019-10-08
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 240276c0f7a85f2b277b7317d0b3c4c1932df98e
-ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
+ms.openlocfilehash: f77cc231e5318de13714c401cf7c76e8185dcb09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7512599"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892997"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 
@@ -28,7 +28,7 @@ ms.locfileid: "7512599"
 
 ## <a name="introduction"></a>Introduzione
 
-In questo argomento viene descritto come è possibile gestire le informazioni relative al cliente, ad esempio il codice lotteria del cliente, nel POS di Commerce per l'Italia.
+In questo articolo viene descritto come è possibile gestire le informazioni relative al cliente, ad esempio il codice lotteria del cliente, nel POS di Commerce per l'Italia.
 
 È possibile specificare informazioni sul cliente, come il codice fiscale o il codice lotteria, quando si crea o si modifica un record di dati master del cliente nel POS. È inoltre possibile specificare il codice lotteria per una transazione di vendita copiandolo dal cliente della transazione o immettendolo manualmente. Il codice lotteria può quindi essere stampato sia sulle ricevute fiscali e su quelle normali ed essere utilizzato per la lotteria nazionale. I codici fiscali personali possono inoltre essere utilizzati per individuare un cliente in POS.
 
@@ -96,7 +96,7 @@ Nella pagina **Parametri di commercio**, nella scheda **Criteri di ricerca POS**
 
 ### <a name="configure-channel-components"></a>Configurare i componenti del canale
 
-Per rendere disponibile la funzionalità specifica dell'Italia, è necessario configurare le estensioni per i componenti del canale di commercio. Per ulteriori informazioni, vedere la sezione [Linee guida per la distribuzione](#deployment-guidelines) più avanti in questo argomento.
+Per rendere disponibile la funzionalità specifica dell'Italia, è necessario configurare le estensioni per i componenti del canale di commercio. Per ulteriori informazioni, vedi la sezione [Linee guida per la distribuzione](#deployment-guidelines) più avanti in questo articolo.
 
 ## <a name="example-scenarios"></a>Scenari di esempio
 

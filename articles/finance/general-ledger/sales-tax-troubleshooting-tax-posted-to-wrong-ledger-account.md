@@ -1,6 +1,6 @@
 ---
-title: L'imposta è registrata nel conto CoGe sbagliato nel giustificativo
-description: Questo argomento fornisce informazioni sulla risoluzione dei problemi che possono essere utili quando l'imposta viene registrata nel conto CoGe errato nel giustificativo.
+title: L'imposta viene registrata nel conto CoGe sbagliato nel giustificativo
+description: Questo articolo fornisce informazioni sulla risoluzione dei problemi che possono essere utili quando l'imposta viene registrata nel conto CoGe errato nel giustificativo.
 author: qire
 ms.date: 04/12/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 9c9f3fc63374b185a795977566cf73c8c29ee5d3
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 5eb0f7d0196ac52a87d61cba6b9cd438708eff73
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846743"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>L'imposta è registrata nel conto CoGe sbagliato nel giustificativo
 
 [!include [banner](../includes/banner.md)]
 
-Durante la registrazione, l'importa potrebbe essere registrata nel conto CoGe sbagliato nel giustificativo. Per risolvere questo problema, seguire i passaggi nelle sezioni seguenti come richiesto. Gli esempi in questo argomento utilizzano un ordine cliente come documento aziendale.
+Durante la registrazione, l'importa potrebbe essere registrata nel conto CoGe sbagliato nel giustificativo. Per risolvere questo problema, seguire i passaggi nelle sezioni seguenti come richiesto. Gli esempi in questo articolo utilizzano un ordine cliente come documento aziendale.
 
 ## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a>Trovare il codice imposta della transazione fiscale registrata in modo errato
 

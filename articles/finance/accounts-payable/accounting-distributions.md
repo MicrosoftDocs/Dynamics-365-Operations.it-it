@@ -1,6 +1,6 @@
 ---
 title: Distribuzioni contabili
-description: Questo argomento fornisce informazioni sulle distribuzioni contabili e descrive le opzioni disponibili per l'elaborazione.
+description: Questo articolo fornisce informazioni sulle distribuzioni contabili e descrive le opzioni disponibili per l'elaborazione.
 author: sunfzam
 ms.date: 09/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8178836318600fd6e702d097062d30b91e6c1a
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 6aa3dce4bfda7f3c9243387cd398f08e7b990b2f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735579"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894202"
 ---
 # <a name="accounting-distributions"></a>Distribuzioni contabili
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sulle distribuzioni contabili e descrive le opzioni disponibili per elaborarle. Le distribuzioni contabili vengono utilizzate per allocare gli importi monetari per un documento di origine in conti CoGe specifici. 
+Questo articolo fornisce informazioni sulle distribuzioni contabili e descrive le opzioni disponibili per elaborarle. Le distribuzioni contabili vengono utilizzate per allocare gli importi monetari per un documento di origine in conti CoGe specifici. 
 
 Le distribuzioni contabili sono una funzionalità per tutto il programma che viene utilizzata ed estesa da ciascun documento di origine, ad esempio un ordine fornitore, una fattura fornitore, una nota spese e una fattura a testo libero. Per impostazione predefinita, una distribuzione contabile viene generata per ogni riga e importo monetario del documento di origine ed è condizionatamente abilitata per la modifica. 
 

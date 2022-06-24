@@ -1,6 +1,6 @@
 ---
 title: Funzionalità della piattaforma rimosse o deprecate
-description: In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
+description: In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
 author: sericks007
 ms.date: 05/24/2022
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3de9b9ea0bd20d1346a7cdfd2f919f50374b164c
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
+ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811248"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945806"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
+In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
 
 - Una funzionalità *rimossa* non è più disponibile nel prodotto.
 - Una funzionalità *deprecata* non si trova nella fase attiva di sviluppo e potrebbe essere rimossa in un aggiornamento futuro.
@@ -40,7 +40,7 @@ Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono d
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | Stiamo deprecando l'applicazione per la finanza e le operazioni (Dynamics 365) per dispositivi mobili e la piattaforma per dispositivi mobili per consolidarla in un'unica piattaforma mobile, che è Power Apps. |
-| **Sostituita da un'altra funzionalità?**   | Sì, è possibile creare esperienze mobili tramite i dati dell'app per la finanza e le operazioni con l'integrazione Power Platform. Vedi [Creare esperienze mobili](../power-platform/build-mobile-experiences.md) per ulteriori dettagli. |
+| **Sostituita da un'altra funzionalità?**   | Sì, è possibile creare esperienze mobili tramite i dati dell'app per la finanza e le operazioni con l'integrazione Power Platform. Vedi il [posto di blog](https://cloudblogs.microsoft.com/dynamics365/it/2022/06/03/finance-and-operations-dynamics-365-mobile-app-to-be-deprecated/) e [Creare esperienze mobili](../power-platform/build-mobile-experiences.md) per ulteriori dettagli. |
 | **Aree del prodotto interessate**         | App Finanza e operazioni |
 | **Opzione di distribuzione**              | Tutti |
 | **Status**                         | Deprecato. La data di fine del supporto è prevista per ottobre 2024. |

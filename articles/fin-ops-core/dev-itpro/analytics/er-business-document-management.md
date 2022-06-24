@@ -1,6 +1,6 @@
 ---
-title: Panoramica di Gestione documenti aziendali
-description: In questo argomento vengono fornite informazioni sull'utilizzo della funzionalità Gestione documenti aziendali del framework ER.
+title: Panoramica di gestione dei documenti aziendali
+description: In questo articolo vengono fornite informazioni sull'utilizzo della funzionalità Gestione documenti aziendali del framework ER.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faea9d4d9b3fc8f3f1474b6bb2a8dc31cdc22511
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9147a2e81329d5bf9103b6bfe067d166c1471835
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986253"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903619"
 ---
 # <a name="business-document-management-overview"></a>Panoramica di Gestione documenti aziendali
 
@@ -50,7 +50,7 @@ Per un elenco completo di tutti i report pianificati per la versione di ottobre 
 
 Altri report saranno disponibili nelle versioni future. Notifiche speciali sui report aggiuntivi saranno inviate separatamente. Per scoprire come rivedere l'elenco dei report attualmente disponibili, vedere la sezione [Elenco delle configurazioni di report elettronici che sono state rilasciate in Finance per supportare i documenti aziendali configurabili](#list-of-configurations-cbd) sotto.
 
-Per ulteriori informazioni su questa funzionalità, completare l'esempio in questo argomento.
+Per ulteriori informazioni su questa funzionalità, completa l'esempio in questo articolo.
 
 ## <a name="configure-er-parameters"></a>Configurare i parametri ER
 
@@ -231,7 +231,7 @@ Gli utenti aziendali possono accedere ai modelli di documenti aziendali per la m
 - Utenti assegnati al ruolo **Amministratore di sistema**.
 - Utenti assegnati a qualsiasi ruolo configurato per eseguire l'operazione, **Gestire i modelli di documenti aziendali** (nome AOT **ERBDManageTemplates**).
 
-Utilizzare la seguente procedura per modificare modelli di fattura a testo libero nell'area di lavoro di Gestione documenti aziendali. Prima di completare la procedura, è necessario aver completato tutte le procedure precedenti in questo argomento.
+Utilizzare la seguente procedura per modificare modelli di fattura a testo libero nell'area di lavoro di Gestione documenti aziendali. Prima di completare la procedura, è necessario aver completato tutte le procedure precedenti in questo articolo.
 
 1. Accedere come utente con accesso all'area di lavoro di Gestione documenti aziendali.
 2. Aprire l'area di lavoro di Gestione documenti aziendali

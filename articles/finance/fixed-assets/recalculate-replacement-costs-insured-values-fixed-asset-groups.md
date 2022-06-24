@@ -1,6 +1,6 @@
 ---
-title: Ricalcolare i costi di sostituzione e i valori assicurati per gruppi cespite
-description: Questo argomento illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
+title: Ricalcolare i costi di sostituzione e i valori assicurati per i gruppi di cespiti
+description: Questo articolo illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
 author: moaamer
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e01e0241117dc69cafb67aeb3f1d10249fe143a0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3b461438ca3fef36e69100379e84f4c0d402e53e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726783"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853469"
 ---
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Ricalcolare i costi di sostituzione e i valori assicurati per gruppi cespite
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Ricalcolare i costi di sostituzione e i valori assicurati per i gruppi di cespiti
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
+Questo articolo illustra il processo per aggiornare i costi di sostituzione e i valori assicurati per i cespiti.
 
 È possibile che periodicamente si riceva una notifica relativa al cambiamento del costo di sostituzione o assicurazione di cespiti specifici. È ad esempio possibile che il proprio superiore richieda di aumentare del 3% il costo di sostituzione di tutti i cespiti a causa dell'inflazione del 3% registrata l'anno precedente. 
 

@@ -1,6 +1,6 @@
 ---
 title: Genera righe fattura quando importi fatture fornitore
-description: Questo argomento descrive la funzionalità per la generazione automatica delle righe fattura sulle fatture fornitore quando le fatture vengono importate.
+description: Questo articolo descrive la funzionalità per la generazione automatica delle righe fattura sulle fatture fornitore quando le fatture vengono importate.
 author: sunfzam
 ms.date: 09/10/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e452bda02c814b78c4bb48140b07f0113ab4a571
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358316"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903509"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Genera righe fattura quando importi fatture fornitore
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento descrive la funzionalità per la generazione automatica delle righe fattura sulle fatture fornitore quando le fatture vengono importate.
+Questo articolo descrive la funzionalità per la generazione automatica delle righe fattura sulle fatture fornitore quando le fatture vengono importate.
 
 A volte, le fatture fornitore contengono informazioni limitate, come le informazioni sul destinatario e i subtotali. Tuttavia, non contengono informazioni per le voci. Quando si importano le fatture, le righe fattura vengono automaticamente generate, in base alle informazioni sull'ordine d'acquisto corrispondente.
 
@@ -42,7 +42,7 @@ Per abilitare la creazione automatica di righe fattura, segui questi passaggi.
 
 ## <a name="data-entity-changes"></a>Modifiche all'entità di dati
 
-Per supportare la funzionalità descritta in questo argomento, l'entità di dati **Intestazione fattura fornitore** è stata migliorata. Sono stati aggiunti tre campi:
+Per supportare la funzionalità descritta in questo articolo, l'entità di dati **Intestazione fattura fornitore** è stata migliorata. Sono stati aggiunti tre campi:
 
 - **HeaderOnlyImport**: questo campo deve essere impostato su **Sì** per generare righe per le intestazioni delle fatture.
 - **PurchIdRange**: l'elenco dei numeri dell'ordine fornitore. I numeri di fattura possono essere un intervallo, ad esempio **INV0001..INV0009** (dove due punti separano l'inizio e la fine dell'intervallo) o valori discreti, come **INV0001, INV0003, INV0006**. Tutti gli ordini fornitore devono appartenere allo stesso conto fornitore nell'intestazione della fattura. In caso contrario, riceverai il seguente messaggio di errore: "Impossibile generare righe fattura. Gli ordini fornitore hanno account fornitore diversi".

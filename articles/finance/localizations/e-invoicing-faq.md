@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti sulla fatturazione elettronica
-description: In questo argomento vengono fornite informazioni sulle domande frequenti sulla fatturazione elettronica.
+description: In questo articolo vengono fornite informazioni sulle domande frequenti sulla fatturazione elettronica.
 author: gionoder
 ms.date: 04/21/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2d4e7c79c83b9d60469c2b87a7b9120e0d4c13a695badfb2254a85cee629c933
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fbb43438a9da567460eb744afb64dae5274f04a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770514"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904356"
 ---
 # <a name="electronic-invoicing-faq"></a>Domande frequenti sulla fatturazione elettronica
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite le risposte alle domande frequenti sul servizio di fatturazione elettronica. La fatturazione elettronica estende le funzionalità di fatturazione elettronica esistenti in Dynamics 365 Finance, Dynamics 365 Supply Chain Management, e Dynamics 365 Project Operations. 
+In questo articolo vengono fornite le risposte alle domande frequenti sul servizio di fatturazione elettronica. La fatturazione elettronica estende le funzionalità di fatturazione elettronica esistenti in Dynamics 365 Finance, Dynamics 365 Supply Chain Management, e Dynamics 365 Project Operations. 
 
 ## <a name="what-is-important-about-electronic-invoicing-and-why-should-it-matter-to-my-organization"></a>Che cosa è importante per la fatturazione elettronica e perché dovrebbe essere importante per la mia organizzazione?
 

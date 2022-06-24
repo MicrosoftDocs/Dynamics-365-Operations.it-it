@@ -1,6 +1,6 @@
 ---
 title: Elementi dell'interfaccia utente
-description: In questo argomento sono descritti gli elementi dell'interfaccia utente utilizzati nell'app.
+description: In questo articolo sono descritti gli elementi dell'interfaccia utente utilizzati nell'app.
 author: tlefor
 ms.date: 08/09/2019
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 60e85841ec940ed65d73dc052848168be70301d6
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 60f5abfe009b45adc5ae5f064f1b5c367f2844f3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8069325"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906502"
 ---
 # <a name="user-interface-elements"></a>Elementi dell'interfaccia utente
 
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In questo argomento sono descritti gli elementi dell'interfaccia utente utilizzati nell'app. Prima di utilizzare l'interfaccia, è importante conoscere i nomi e le funzioni degli elementi che la compongono.
+In questo articolo sono descritti gli elementi dell'interfaccia utente utilizzati nell'app. Prima di utilizzare l'interfaccia, è importante conoscere i nomi e le funzioni degli elementi che la compongono.
 
 ## <a name="overview"></a>Panoramica
 

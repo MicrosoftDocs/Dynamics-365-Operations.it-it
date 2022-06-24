@@ -1,6 +1,6 @@
 ---
-title: Importare tassi di cambio valutari
-description: In questo argomento vengono fornite informazioni sui requisiti per l'importazione di tassi di cambio estero di riferimento pubblicati dai fornitori di tassi di cambio.
+title: Importare tassi di cambio valuta
+description: In questo articolo vengono fornite informazioni sui requisiti per l'importazione di tassi di cambio estero di riferimento pubblicati dai fornitori di tassi di cambio.
 author: EvgenyPopovMBS
 ms.date: 03/17/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f96622132be3c8a404f3f4e9c34f3ac5085a4fdc007ecb627d06a95d7c80932b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 27f9b06646d9ce948a6b4528c38c5df9784b24b2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727326"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894937"
 ---
 # <a name="import-currency-exchange-rates"></a>Importare tassi di cambio valutari
 
 [!include [banner](../includes/banner.md)]
 
-Se una persona giuridica ha ricevuto fatture in valuta estera, la valuta estera deve essere convertita in quella locale. Ciò significa che è necessario conoscere i tassi di cambio aggiornati per le diverse valute. In questo argomento viene fornita una panoramica delle impostazioni e dell'elaborazione richieste per importare tassi di cambio estero pubblicati dai provider di tassi di cambio, ad esempio la Banca Centrale Europea e la Banca Centrale di Russia.
+Se una persona giuridica ha ricevuto fatture in valuta estera, la valuta estera deve essere convertita in quella locale. Ciò significa che è necessario conoscere i tassi di cambio aggiornati per le diverse valute. In questo articolo viene fornita una panoramica delle impostazioni e dell'elaborazione richieste per importare tassi di cambio estero pubblicati dai provider di tassi di cambio, ad esempio la Banca Centrale Europea e la Banca Centrale di Russia.
 
 Nelle sezioni seguenti viene descritto il flusso di informazioni utilizzato per impostare ed elaborare l'importazione dei tassi di cambio estero.
 

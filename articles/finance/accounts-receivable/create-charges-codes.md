@@ -1,6 +1,6 @@
 ---
 title: Creare codici di spese
-description: Questo argomento spiega come configurare i codici di spese per Contabilità fornitori e Contabilità clienti.
+description: Questo articolo spiega come configurare i codici di spese per Contabilità fornitori e Contabilità clienti.
 author: rachel-profitt
 ms.date: 12/03/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8526fa0f3c6e3d1b545703f6e6ef72f558b57bd
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d65952cb989672e4eac2dd6101ee9c7c9424daed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735029"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866085"
 ---
 # <a name="create-charges-codes"></a>Creare codici di spese
 
-Questo argomento spiega come configurare i codici di spese per Contabilità fornitori e Contabilità clienti. Se l'organizzazione richiede che gli importi di vendita o di acquisto vengano monitorati oltre alle voci di un ordine cliente o di un ordine fornitore, è possibile utilizzare i codici di spese a questo scopo. Ad esempio, è possibile pagare il trasporto e l'assicurazione su un ordine fornitore e tali importi vengono dettagliati separatamente nell'ordine fornitore. In questo caso, puoi specificare se gli importi devono essere registrati nei conti spese o aggiunti al costo degli articoli.
+Questo articolo spiega come configurare i codici di spese per Contabilità fornitori e Contabilità clienti. Se l'organizzazione richiede che gli importi di vendita o di acquisto vengano monitorati oltre alle voci di un ordine cliente o di un ordine fornitore, è possibile utilizzare i codici di spese a questo scopo. Ad esempio, è possibile pagare il trasporto e l'assicurazione su un ordine fornitore e tali importi vengono dettagliati separatamente nell'ordine fornitore. In questo caso, puoi specificare se gli importi devono essere registrati nei conti spese o aggiunti al costo degli articoli.
 
 ## <a name="set-up-charges-codes-for-accounts-receivable"></a>Impostare codici spese per la contabilità clienti
 

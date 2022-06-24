@@ -1,6 +1,6 @@
 ---
 title: Riduzione del 200% dell'ammortamento del saldo
-description: Questo argomento illustra una panoramica del metodo di ammortamento a saldi decrescenti del 200%.
+description: Questo articolo illustra una panoramica del metodo di ammortamento a saldi decrescenti del 200%.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 831a99246f0a2d5f223e3624aace1c218c3c4ff4
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 7abcf26f3e658e8a6f451f26240890d183547982
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710948"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870164"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Riduzione del 200% dell'ammortamento del saldo
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra una panoramica del metodo di ammortamento a saldi decrescenti del 200%.
+Questo articolo illustra una panoramica del metodo di ammortamento a saldi decrescenti del 200%.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona **Saldo decrescente 200%** nel campo **Metodo** della pagina **Profili di ammortamento**, ai cespiti che sono assegnati al profilo di ammortamento verrà applicata la stessa percentuale di ammortamento in ciascun periodo di ammortamento. Questa percentuale viene calcolata in base alla vita utile del cespite. Ad esempio, se un cespite ha una vita utile di cinque anni, la percentuale viene calcolata come 40% (200% ÷ 5). 
 
@@ -43,7 +43,7 @@ La selezione determina le opzioni disponibili nel campo **Frequenza periodo**. I
 
 È possibile scegliere di mantenere il valore predefinito nel campo **Anno di ammortamento**, **Calendario**. 
 
-L'opzione **Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, l'ammortamento corrisponde al valore contabile netto meno il valore di recupero. Negli esempi illustrati più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. 
+L'opzione **Calendario** aggiorna la base di ammortamento il 1° gennaio di ogni anno. In genere, l'ammortamento corrisponde al valore contabile netto meno il valore di recupero. Negli esempi illustrati più avanti in questo articolo, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. 
 
 Se si seleziona **Calendario** come anno di ammortamento, nel campo **Frequenza periodo** sono disponibili le opzioni seguenti:
 

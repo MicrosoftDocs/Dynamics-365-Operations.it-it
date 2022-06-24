@@ -1,6 +1,6 @@
 ---
 title: Configurare i tipi di spesa
-description: Nell'argomento viene descritto come configurare i tipi di spesa in Leasing cespite.
+description: Nell'articolo viene descritto come configurare i tipi di spesa in Leasing cespite.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 349ba0f5fa040b7c9a957defe1140c4016d6fded
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9978041059437d5d3556236c7ac02c00db93f933
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727681"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908040"
 ---
 # <a name="set-up-expense-types"></a>Configurare i tipi di spesa
 
 [!include [banner](../includes/banner.md)]
 
-Nell'argomento viene descritto come configurare i tipi di spesa in Leasing cespite. I costi che non sono rappresentati dallo scadenziario dei pagamenti sono noti come *costi di spesa*. Esempi di questi costi includono le tasse sulla proprietà, i costi di manutenzione delle aree comuni e le spese di assicurazione.
+Nell'articolo viene descritto come configurare i tipi di spesa in Leasing cespite. I costi che non sono rappresentati dallo scadenziario dei pagamenti sono noti come *costi di spesa*. Esempi di questi costi includono le tasse sulla proprietà, i costi di manutenzione delle aree comuni e le spese di assicurazione.
 
 ## <a name="add-an-administrative-expense-type"></a>Aggiungere un tipo di spesa amministrativa
 

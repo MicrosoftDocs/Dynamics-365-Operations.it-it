@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d81d20045c7b06de01a023d1a34ee653dd696ff1
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e92e6aeab949567e65a13ebdd92f0e5b306ccd30
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711322"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861707"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)
 
@@ -320,7 +320,7 @@ Questa funzionalità opera indipendentemente dai metodi di determinazione costi 
 <td>Accesso alla guida procedurale (guide di attività) e agli argomenti concettuali facendo clic su <strong>Guida</strong>.</td>
 <td>La guida di AX 2012 punta agli argomenti HTML che vengono archiviati in un web server locale. I clienti e i partner possono creare la relativa specifica guida.</td>
 <td>Nella Guida della versione corrente di attività di Dynamics AX sono visualizzate guide di attività archiviate in Microsoft Dynamics Lifecycle Services (LCS) BPM. Nella Guida sono inoltre visualizzati gli argomenti inclusi nel sito documenti di Microsoft. Per ulteriori informazioni, vedere <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Guida</a> e <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nuove guide attività (febbraio 2016)</a>.</td>
-<td>La guida attività fornisce un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o un processo aziendale. È possibile scaricare e personalizzare le guide attività fornite da Microsoft. L'argomento illustra un modo più rapido e flessibile per creare, distribuire e aggiornare la documentazione del prodotto. Di conseguenza, aiuta a garantire l'accesso alle ultime informazioni tecniche.</td>
+<td>La guida attività fornisce un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o un processo aziendale. È possibile scaricare e personalizzare le guide attività fornite da Microsoft. L'articolo illustra un modo più rapido e flessibile per creare, distribuire e aggiornare la documentazione del prodotto. Di conseguenza, aiuta a garantire l'accesso alle ultime informazioni tecniche.</td>
 </tr>
 </tbody>
 </table>

@@ -1,6 +1,6 @@
 ---
 title: Visualizzare pagamenti e le transazioni TDS registrati per un periodo di liquidazione TDS
-description: In questo argomento viene illustrato come visualizzare i pagamenti e le transazioni dell'imposta dedotta all'origine (TDS) registrati per un periodo di liquidazione.
+description: In questo articolo viene illustrato come visualizzare i pagamenti e le transazioni dell'imposta dedotta all'origine (TDS) registrati per un periodo di liquidazione.
 author: kailiang
 ms.date: 03/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6f8c97d1f42af6c073e45c88237d59699a32fc7a
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: c441b6f26636ef1f18e3910a201d02feb4350f33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726895"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898061"
 ---
 # <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>Visualizzare pagamenti e le transazioni TDS registrati per un periodo di liquidazione TDS
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come visualizzare i pagamenti e le transazioni dell'imposta dedotta all'origine (TDS) registrati per un periodo di liquidazione.
+In questo articolo viene illustrato come visualizzare i pagamenti e le transazioni dell'imposta dedotta all'origine (TDS) registrati per un periodo di liquidazione.
 
 1. Vai a **Imposta \> Imposte indirette \> Ritenuta d'acconto \> Periodi liquidazione ritenuta d'acconto**.
 

@@ -1,6 +1,6 @@
 ---
 title: Guide attività nuove o aggiornate (dicembre 2017)
-description: In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (dicembre 2016 - tutte le lingue) per Microsoft Dynamics 365 for Operations. Nessuna nuova libreria introduttiva è stata rilasciata.
+description: In questo articolo vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (dicembre 2016 - tutte le lingue) per Microsoft Dynamics 365 for Operations. Nessuna nuova libreria introduttiva è stata rilasciata.
 author: josaw1
 ms.date: 06/20/2017
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 42bf8e4a1264b67ff11dad7417d16b6273e6feb36294596014faf562a4a0ef3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b111b686bc7fd06508878261e959a8dad92aacc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855551"
 ---
 # <a name="new-or-updated-task-guides-december-2017"></a>Guide attività nuove o aggiornate (dicembre 2017)
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (dicembre 2016 - tutte le lingue) per Microsoft Dynamics 365 for Operations.
+In questo articolo vengono elencate le guide attività nuove o aggiornate che sono state rilasciate nella libreria unificata APQC Microsoft (dicembre 2016 - tutte le lingue) per Microsoft Dynamics 365 for Operations.
 
 ## <a name="new-task-guides"></a>Nuove guide attività
 

@@ -1,6 +1,6 @@
 ---
-title: Impostare i periodi di liquidazione IVA
-description: In questo argomento viene illustrato come impostare i periodi di liquidazione IVA in Dynamics 365 Finance.
+title: Imposta i periodi di liquidazione IVA
+description: In questo articolo viene illustrato come impostare i periodi di liquidazione IVA in Dynamics 365 Finance.
 author: twheeloc
 ms.date: 08/05/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 197b85fb88f966b0a13fc061e2e780dd84e74acb
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3f8514494b5d3534fc236def817df0d58fe80d70
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846685"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Imposta i periodi di liquidazione IVA
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare periodi di liquidazione IVA. I periodi di liquidazione IVA contengono informazioni sugli intervalli periodici in cui l'IVA deve essere dichiarata e pagata. Un processo di liquidazione può essere eseguito per un periodo di liquidazione per un intervallo di date specifico. Tutti i codici IVA associati al periodo di liquidazione verranno liquidati. A seconda dell'impostazione dell'ufficio IVA correlato, la soggettività tributaria viene registrata in un conto fornitore o CoGe.
+In questo articolo viene illustrato come impostare periodi di liquidazione IVA. I periodi di liquidazione IVA contengono informazioni sugli intervalli periodici in cui l'IVA deve essere dichiarata e pagata. Un processo di liquidazione può essere eseguito per un periodo di liquidazione per un intervallo di date specifico. Tutti i codici IVA associati al periodo di liquidazione verranno liquidati. A seconda dell'impostazione dell'ufficio IVA correlato, la soggettività tributaria viene registrata in un conto fornitore o CoGe.
 
 In questa attività viene utilizzata la società dimostrativa USMF.
 

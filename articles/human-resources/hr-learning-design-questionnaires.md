@@ -1,6 +1,6 @@
 ---
 title: Creazione di questionari
-description: In questo argomento viene descritto il processo per creare un questionario.
+description: In questo articolo viene descritto il processo per creare un questionario.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7b2e1316768dc6207c82f08cef4c268ae70648ad
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ef14dfe35e6cffc5ae2351045141d99b2fb53c16
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694853"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899645"
 ---
 # <a name="create-questionnaires"></a>Creazione di questionari
 
@@ -28,7 +28,7 @@ ms.locfileid: "8694853"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo argomento viene descritto il processo per creare un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte. 
+In questo articolo viene descritto il processo per creare un questionario. Il primo passaggio consiste nel progettare il questionario. Quando si progetta un questionario, non si scrivono solo le domande e le risposte, ma si crea anche la struttura che consente di registrare e tabulare le risposte. 
 
 Un'attenta progettazione del questionario consente di migliorare la qualità dei dati raccolti. Mediante un'attenta progettazione, è possibile aggiornare selezionare le opzioni appropriate al momento opportuno per un questionario. I seguenti passaggi possono risultare utili per pianificare un questionario efficace:
 

@@ -1,6 +1,6 @@
 ---
 title: Incorporare app canvas da Power Apps
-description: In questo argomento viene spiegato come incorporare app canvas da Microsoft Power Apps nel client per aumentare la funzionalità del prodotto.
+description: In questo articolo viene spiegato come incorporare app canvas da Microsoft Power Apps nel client per aumentare la funzionalità del prodotto.
 author: jasongre
 ms.date: 09/13/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: c2f7b660d364be6e62d484e67908201027190a8a
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8065121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898400"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Incorporare app canvas da Power Apps
 
@@ -33,7 +33,7 @@ Per ulteriori informazioni sull'incorporamento di app canvas, guardare il breve 
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Aggiunta di un'app canvas da Power Apps a una pagina
 
-Prima di incorporare un'app canvas da Power Apps nel client, è necessario dapprima trovare o creare un'app con gli oggetti visivi e/o le funzionalità desiderati. Questo argomento non include una descrizione dettagliata del processo per la creazione di app. Se non conosci Power Apps, vedi la [documentazione di Power Apps](/powerapps/).
+Prima di incorporare un'app canvas da Power Apps nel client, è necessario dapprima trovare o creare un'app con gli oggetti visivi e/o le funzionalità desiderati. Questo articolo non include una descrizione dettagliata del processo per la creazione di app. Se non conosci Power Apps, vedi la [documentazione di Power Apps](/powerapps/).
 
 Esistono tre modi per incorporare un'app canvas in un'app per finanza e operazioni. Puoi utilizzare l'approccio che meglio si adatta al tuo scenario. 
 
@@ -60,7 +60,7 @@ La procedura seguente mostra come incorporare un'app canvas in una pagina esiste
 
     - Se si accederà all'app utilizzando il pulsante di menu **Power Apps**, puoi selezionare il pulsante di menu **Power Apps** nel riquadro Azioni standard e quindi seleziona **Aggiungi un'app**.
 
-3. Configura l'app incorporata. Per ulteriori informazioni, vedi la sezione [Configurazione di un'app canvas](#configuring-a-canvas-app) più avanti in questo argomento.
+3. Configura l'app incorporata. Per ulteriori informazioni, vedi la sezione [Configurazione di un'app canvas](#configuring-a-canvas-app) più avanti in questo articolo.
 4. Dopo aver confermato che la configurazione è corretta, seleziona **Inserisci**.
 
     - Se la funzionalità **Visualizzazioni salvate** è disattivata, ti viene chiesto di aggiornare il browser per vedere l'app incorporata.
@@ -76,7 +76,7 @@ Puoi incorporare un'app canvas dalla dashboard se l'app non è correlata a una p
 1. Aprire il dashboard.
 2. Seleziona e tieni premuta la pagina (o fai clic con il pulsante destro del mouse), seleziona **Personalizza** e quindi seleziona **Aggiungi una pagina**.
 3. Nel riquadro **Aggiungi una pagina** seleziona **Power Apps**.
-4. Configura l'app incorporata. Per ulteriori informazioni, vedi la sezione [Configurazione di un'app canvas](#configuring-a-canvas-app) più avanti in questo argomento.
+4. Configura l'app incorporata. Per ulteriori informazioni, vedi la sezione [Configurazione di un'app canvas](#configuring-a-canvas-app) più avanti in questo articolo.
 5. Selezionare **Salva** per aggiungere l'app al dashboard come nuovo riquadro.
 6. Seleziona il nuovo riquadro nella dashboard e conferma che l'app canvas viene visualizzata come previsto.
 
@@ -86,7 +86,7 @@ Quando incorpori un'app canvas, devi impostare i seguenti parametri:
 
 - **Nome**: immetti il testo da visualizzare per il pulsante o la scheda che conterrà l'app incorporata. È spesso possibile che si intenda ripetere il nome dell'app in questo campo.
 - **ID app**: specifica l'identificatore univoco globale (GUID) per l'app canvas che desideri incorporare. Per ripristinare questo valore, trovare l'app in [make.powerapps.com](https://make.powerapps.com) e quindi individua il campo **ID app** sotto **Dettagli**.
-- **Contesto di input per l'app**: puoi scegliere di selezionare il campo che contiene i dati da passare all'app come input. Per informazioni sul modo in cui l'app può accedere ai dati inviati dalle app per finanza e operazioni, vedi la sezione [Creazione di una Power App che sfrutta i dati inviati dalle app per finanza e operazioni](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) più avanti in questo argomento.
+- **Contesto di input per l'app**: puoi scegliere di selezionare il campo che contiene i dati da passare all'app come input. Per informazioni sul modo in cui l'app può accedere ai dati inviati dalle app per finanza e operazioni, vedi la sezione [Creazione di una Power App che sfrutta i dati inviati dalle app per finanza e operazioni](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) più avanti in questo articolo.
 
     A partire dalla versione 10.0.19, anche la persona giuridica corrente viene passata all'app canvas come contesto tramite il parametro URL **cmp**. Questo comportamento non avrà effetto sull'app canvas di destinazione finché l'app utilizza tali informazioni.
 
@@ -145,7 +145,7 @@ Per modificare la configurazione di un'app incorporata, seguire questi passaggi:
 
 Dopo che un'app è stata incorporata in una pagina, esistono diversi modi per rimuoverla se necessario:
 
-- Passare al riquadro **Modifica un'app** attenendosi alle istruzioni indicate nella precedente sezione [Modifica di un'app incorporata](#editing-an-embedded-app) in questo argomento. Verificare che il riquadro visualizzi le informazioni per l'app incorporata che si desidera rimuovere, quindi fare clic sul pulsante **Elimina**.
+- Passa al riquadro **Modifica un'app** attenendoti alle istruzioni indicate nella precedente sezione [Modifica di un'app incorporata](#editing-an-embedded-app) in questo articolo. Verificare che il riquadro visualizzi le informazioni per l'app incorporata che si desidera rimuovere, quindi fare clic sul pulsante **Elimina**.
 - Se l'app incorporata è stata aggiunta dalla dashboard, apri la dashboard, seleziona e tieni premuto (o fai clic con il pulsante destro del mouse) il riquadro associato all'app canvas, seleziona **Personalizza**, quindi seleziona **Rimuovi pagina**. 
 - Poiché l'app incorporata viene salvata come dati di personalizzazione, la cancellazione della personalizzazione della pagina determinerà anche la rimozione di tutte le app incorporate nella pagina. Tenere presente che la cancellazione della personalizzazione della pagina è permanente e non può essere annullata. Per rimuovere le personalizzazioni in una pagina, selezionare **Opzioni** e fare clic su **Personalizza questa pagina**, infine fare clic sul pulsante **Cancella**. Dopo avere aggiornato la pagina del browser, tutte le precedenti personalizzazioni della pagina saranno rimosse. Per ulteriori informazioni su come ottimizzare le pagine utilizzando la personalizzazione, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 
@@ -153,7 +153,7 @@ Dopo che un'app è stata incorporata in una pagina, esistono diversi modi per ri
 
 ### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Sviluppatore] Modellazione di un'app canvas su un modulo
 
-Sebbene questo argomento si concentri sull'incorporamento di app canvas tramite la personalizzazione, gli sviluppatori hanno anche la possibilità di aggiungere un'app canvas a un modulo utilizzando l'esperienza di sviluppo di Visual Studio. Per fare ciò, aggiungi semplicemente un PowerAppsHostControl al modulo. Le proprietà dei metadati disponibili nel controllo forniscono le stesse funzionalità dell'esperienza di personalizzazione.
+Sebbene questo articolo si concentri sull'incorporamento di app canvas tramite la personalizzazione, gli sviluppatori hanno anche la possibilità di aggiungere un'app canvas a un modulo utilizzando l'esperienza di sviluppo di Visual Studio. Per fare ciò, aggiungi semplicemente un PowerAppsHostControl al modulo. Le proprietà dei metadati disponibili nel controllo forniscono le stesse funzionalità dell'esperienza di personalizzazione.
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Sviluppatore] Specifica dove può essere incorporata un'app
 

@@ -1,6 +1,6 @@
 ---
 title: Progettare espressioni di ER per chiamare i metodi delle classi dell'applicazione
-description: Questo argomento descrive come riutilizzare la logica dell'applicazione esistente nelle configurazioni dei report elettronici chiamando i metodi richiesti delle classi dell'applicazione.
+description: Questo articolo descrive come riutilizzare la logica dell'applicazione esistente nelle configurazioni dei report elettronici chiamando i metodi richiesti delle classi dell'applicazione.
 author: NickSelin
 ms.date: 11/02/2021
 ms.topic: business-process
@@ -12,30 +12,30 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 81fae8d3603677afd7dd4b09b9073805f73582b4
-ms.sourcegitcommit: e6b4844a71fbb9faa826852196197c65c5a0396f
+ms.openlocfilehash: 0fb0a9725d882fdc330d7adbb49bd3dcadf7805f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7751708"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883627"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Progettare espressioni di ER per chiamare i metodi delle classi dell'applicazione
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento illustra come riutilizzare la logica dell'applicazione esistente nelle configurazioni di [Creazione di report elettronici](../general-electronic-reporting.md) chiamando i metodi richiesti delle classi dell'applicazione nelle espressioni ER. I valori degli argomenti per le classi chiamanti possono essere definiti dinamicamente in fase di esecuzione. Ad esempio, i valori possono essere basati sulle informazioni nel documento di analisi, per assicurarne la correttezza.
+Questo articolo illustra come riutilizzare la logica dell'applicazione esistente nelle configurazioni di [Creazione di report elettronici](../general-electronic-reporting.md) chiamando i metodi richiesti delle classi dell'applicazione nelle espressioni ER. I valori degli argomenti per le classi chiamanti possono essere definiti dinamicamente in fase di esecuzione. Ad esempio, i valori possono essere basati sulle informazioni nel documento di analisi, per assicurarne la correttezza.
 
-Ad esempio, in questo argomento dovrai progettare un processo per l'analisi dei rendiconti bancari in entrata per un aggiornamento dei dati dell'applicazione. Riceverai gli estratti conto in entrata come file di testo (.txt) che contengono i codici IBAN (International Bank Account Number). Durante il processo di importazione dei rendiconti bancari, è necessario convalidare la correttezza del codice IBAN utilizzando la logica già disponibile.
+Ad esempio, in questo articolo dovrai progettare un processo per l'analisi dei rendiconti bancari in entrata per un aggiornamento dei dati dell'applicazione. Riceverai gli estratti conto in entrata come file di testo (.txt) che contengono i codici IBAN (International Bank Account Number). Durante il processo di importazione dei rendiconti bancari, è necessario convalidare la correttezza del codice IBAN utilizzando la logica già disponibile.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Le procedure in questo argomento sono intese per utenti a cui è stato assegnato il ruolo di **amministratore di sistema** o di **sviluppatore per la creazione di report elettronici**.
+Le procedure in questo articolo sono intese per utenti a cui è stato assegnato il ruolo di **amministratore di sistema** o di **sviluppatore per la creazione di report elettronici**.
 
 Le procedure possono essere completate utilizzando qualsiasi set di dati.
 
 Per completare, devi scaricare e salvare il file seguente: [SampleIncomingMessage.txt](https://download.microsoft.com/download/8/0/a/80adbc89-f23c-46d9-9241-e0f19125c04b/SampleIncomingMessage.txt).
 
-In questo argomento verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Pertanto, prima di completare le procedure in questo argomento, è necessario seguire i seguenti passaggi.
+In questo articolo verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. Pertanto, prima di completare le procedure in questo articolo, è necessario seguire i seguenti passaggi.
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Nella pagina **Configurazioni localizzazione**, verifica che il provider di configurazione per la società di esempio **Litware, Inc.** sia disponibile e contrassegnato come Attivo. Se il provider di configurazione non viene visualizzato, è necessario innanzitutto completare i passaggi in [Creare provider di configurazione e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md).

@@ -1,6 +1,6 @@
 ---
 title: Dimensioni finanziarie
-description: Questo argomento illustra i vari tipi di dimensioni finanziarie e come impostarle.
+description: Questo articolo illustra i vari tipi di dimensioni finanziarie e come impostarle.
 author: aprilolson
 ms.date: 03/07/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1360139a06909c1df922570f6e577d1d310b1c48
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 3ad92e006351adbf2494a1b32325d2d4a83b76a4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849991"
 ---
 # <a name="financial-dimensions"></a>Dimensioni finanziarie
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega i vari tipi di dimensioni finanziarie e come impostarle.
+Questo articolo spiega i vari tipi di dimensioni finanziarie e come impostarle.
 
 Utilizzare la pagina **Dimensioni finanziarie** per creare le dimensioni finanziarie che è possibile utilizzare come segmenti di conto per i piani dei conti. Sono disponibili due tipi di dimensioni finanziarie: dimensioni personalizzate e dimensioni supportate da un'entità. Le dimensioni personalizzate sono condivise tra le persone giuridiche e i valori sono immessi e gestiti dagli utenti. Per le dimensioni supportate da un'entità, i valori sono definiti in altre aree del sistema, ad esempio nelle entità Clienti o Punti vendita. Alcune dimensioni supportate da entità sono condivise tra le persone giuridiche, mentre alcune sono specifiche della società.
 

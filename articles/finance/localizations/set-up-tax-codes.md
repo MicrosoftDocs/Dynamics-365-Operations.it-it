@@ -1,6 +1,6 @@
 ---
 title: Impostare i codici di imposta
-description: Questo argomento spiega come impostare i codici imposta nel servizio Calcolo imposte.
+description: Questo articolo spiega come impostare i codici imposta nel servizio Calcolo imposte.
 author: wangchen
 ms.date: 11/30/2021
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 8bdb194e7d8b704d1e58d3c25bf2e1f6bff1ba00
-ms.sourcegitcommit: 62ca651c94e61aaa69cfa59e861f263f89d01c4a
+ms.openlocfilehash: 1bc250716763ce9d8e25c8850c8a3676bf65fb0c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7883864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862930"
 ---
 # <a name="set-up-tax-codes"></a>Impostare i codici di imposta
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come impostare i codici imposta nel servizio Calcolo imposte. Include l'impostazione di uno scenario semplice per usare il codice imposta e informazioni su alcune funzionalità avanzate del codice imposta per scenari complessi.
+Questo articolo spiega come impostare i codici imposta nel servizio Calcolo imposte. Include l'impostazione di uno scenario semplice per usare il codice imposta e informazioni su alcune funzionalità avanzate del codice imposta per scenari complessi.
 
 > [!IMPORTANT]
 > L'impostazione dei codici imposta nel servizio Calcolo imposte è indipendente dalla persona giuridica. È possibile completare questa configurazione in Regulatory Configuration Service (RCS) solo una volta. I codici imposta vengono sincronizzati automaticamente con Microsoft Dynamics 365 Finance quando abiliti il servizio Calcolo imposte per una persona giuridica selezionata in Finance.

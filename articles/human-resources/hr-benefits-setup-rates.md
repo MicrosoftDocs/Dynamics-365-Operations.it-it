@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2deb20646a532509c9e3a3e7a39f646bced2a3fb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 039b4aa3f044cda29944bcd4f5c42fc35818c58b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8693117"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868161"
 ---
 # <a name="configure-rates"></a>Configurare le tariffe
 
@@ -47,7 +47,7 @@ Utilizzare i tassi per determinare la quantità di dipendenti e datori di lavoro
    | **Valido** | Data in cui la tariffa diventa valida. Il valore predefinito è la data di sistema corrente. Questa data deve essere uguale o precedente al periodo di benefit. Ti consigliamo di impostare questa data sulla data del piano dei benefit. |
    | **Scadenza** | La data di fine del tasso. 31/12/2154 (che rappresenta mai) è il valore predefinito. |
    | **Usa livelli** |  Utilizza questo campo se hai una logica che deve essere utilizzata per determinare una tariffa. Ad esempio, se una tariffa deve aumentare in base all'età, seleziona un valore qui. Seleziona **Livello singolo** per un tasso di benefit a un livello o **Doppio livello** per un tasso di benefit a due livelli. Un esempio di doppio livello è un livello basato su sesso e età. Dopo aver selezionato un valore, seleziona **Azioni**, quindi seleziona **Tassi a livelli**. Se hai una tariffa fissa che non cambia, lascia vuoto questo campo. |
-   | **Frequenza pagamenti** | Specifica la frequenza con cui deve essere corrisposto il tasso di premio benefit al fornitore di benefit. Le tariffe che inserisci nella pagina descritta più avanti in questo argomento si baseranno sulla frequenza di pagamento specificata qui. Ad esempio, se inserisci **Mensile** in questo campo e inserisci una tariffa dipendente di **$100**, si presume che il benefit costerà al dipendente $100 al mese. Tuttavia, un dipendente potrebbe essere pagato due volte al mese, in base alla frequenza di pagamento del benefit impostata nel record del dipendente. In questo caso, quando il dipendente accede al **Self-service dipendenti**, l'importo che paga sarà $50, perché la tariffa mostrata dal **Self-service dipendenti** si basa sulla frequenza di pagamento del dipendente. |
+   | **Frequenza pagamenti** | Specifica la frequenza con cui deve essere corrisposto il tasso di premio benefit al fornitore di benefit. Le tariffe che inserisci nella pagina descritta più avanti in questo articolo si baseranno sulla frequenza di pagamento specificata qui. Ad esempio, se inserisci **Mensile** in questo campo e inserisci una tariffa dipendente di **$100**, si presume che il benefit costerà al dipendente $100 al mese. Tuttavia, un dipendente potrebbe essere pagato due volte al mese, in base alla frequenza di pagamento del benefit impostata nel record del dipendente. In questo caso, quando il dipendente accede al **Self-service dipendenti**, l'importo che paga sarà $50, perché la tariffa mostrata dal **Self-service dipendenti** si basa sulla frequenza di pagamento del dipendente. |
    | **Arrotondamento tasso di frequenza pagamenti** | I metodi per arrotondare il tasso sono: Standard, Troncato, Normale, Per difetto e Per eccesso. </br></br><ul><li>**Standard** - Arrotonda sempre. Ad esempio, 10,611 verrà arrotondato a 10,62. -10,231 verrà arrotondato a -10,23. </li><li>**Troncato** - Arrotonda sempre per difetto. Ad esempio, 10,619 verrà arrotondato a 10,61. -10,231 verrà arrotondato a -10,24. </li><li>**Normale** - I valori decimali che terminano con 5 o più di 5 verranno arrotondati per difetto. I valori decimali che terminano con 4 o meno di 4 verranno arrotondati allo zero. Ad esempio, 10,615 verrà arrotondato a 10,62. -10,235 verrà arrotondato a -10,24. 10,614 verrà arrotondato a 10,61. -10,234 verrà arrotondato a -10,23. </li><li>**Per difetto** - Arrotonda per difetto. Ad esempio, 10,619 verrà arrotondato a 10,61. -10,231 verrà arrotondato a -10,23. </li><li>**Per eccesso** - Arrotonda in eccesso. Ad esempio, 10,619 verrà arrotondato a 10,62. -10,231 verrà arrotondato a -10,24. |
    | **Importo dipendente non fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |
    | **Importo datore di lavoro non fumatore** | L'importo addebitato dal fornitore del benefit per un dipendente non fumatore. È l'importo che il datore di lavoro paga al fornitore del benefit e deve essere basato sulla frequenza di pagamento per l'impostazione del tasso. |

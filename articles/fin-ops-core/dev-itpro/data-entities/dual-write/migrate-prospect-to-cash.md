@@ -1,6 +1,6 @@
 ---
 title: Eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura
-description: Questo argomento illustra come eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura.
+description: Questo articolo illustra come eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura.
 author: RamaKrishnamoorthy
 ms.date: 02/01/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 82bfb768b0ecac04184f4b806527346d39584d64
-ms.sourcegitcommit: 7893ffb081c36838f110fadf29a183f9bdb72dd3
+ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "8087270"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894268"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura
 
 [!include [banner](../../includes/banner.md)]
 
-La soluzione Prospect to cash disponibile per Data Integrator non è compatibile con la doppia scrittura. Il motivo è l'indice msdynce_AccountNumber nella tabella dei conti che fa parte della soluzione Prospect to cash. Se questo indice esiste, non è possibile creare lo stesso numero di conto cliente in due persone giuridiche diverse. Puoi scegliere di ricominciare da capo con la doppia scrittura migrando i dati Prospect to cash da Data Integrator alla doppia scrittura oppure puoi installare l'ultima versione "dormiente" della soluzione Prospect to cash. In questo argomento vengono descritti entrambi gli approcci.
+La soluzione Prospect to cash disponibile per Data Integrator non è compatibile con la doppia scrittura. Il motivo è l'indice msdynce_AccountNumber nella tabella dei conti che fa parte della soluzione Prospect to cash. Se questo indice esiste, non è possibile creare lo stesso numero di conto cliente in due persone giuridiche diverse. Puoi scegliere di ricominciare da capo con la doppia scrittura migrando i dati Prospect to cash da Data Integrator alla doppia scrittura oppure puoi installare l'ultima versione "dormiente" della soluzione Prospect to cash. In questo articolo vengono descritti entrambi gli approcci.
 
 ## <a name="install-the-last-dorman-version-of-the-data-integrator-prospect-to-cash-solution"></a>Installare l'ultima versione "dormiente" della soluzione Prospect to cash di Data Integrator
 
@@ -50,7 +50,7 @@ Per eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a 
 5. Creare una connessione a doppia scrittura tra l'app per finanza e operazioni e l'app di interazione con i clienti per una o più persone giuridiche.
 6. Abilitare i mapping di tabelle a doppia scrittura ed eseguire la sincronizzazione iniziale per i dati di riferimento obbligatori. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md). Esempi di dati obbligatori includono gruppi di clienti, termini di pagamento e programmi di pagamento. Non abilitare i mapping a doppia scrittura per le tabelle che richiedono l'inizializzazione, come le tabelle account, offerta, riga preventivo, ordine e riga ordine.
 7. Nell'app di interazione con i clienti, passare a **Impostazioni avanzate \> Impostazioni di sistema \> Gestione dati \> Regole di rilevamento duplicati** e disabilitare tutte le regole.
-8. Inizializzare le tabelle elencate nel passaggio 2. Per istruzioni, vedere le sezioni rimanenti di questo argomento.
+8. Inizializzare le tabelle elencate nel passaggio 2. Per istruzioni, vedi le sezioni rimanenti di questo articolo.
 9. Aprire l'app per finanza e operazioni e abilitare i mapping di tabella, come i mapping account, offerta, riga di offerta, ordine e riga ordine. Quindi eseguire la sincronizzazione iniziale. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md). Questo processo sincronizzerà ulteriori informazioni dall'app per finanza e operazioni, come stato di elaborazione, indirizzi di spedizione e fatturazione, siti e magazzini.
 
 ## <a name="account-table"></a>Tabella account
@@ -98,7 +98,7 @@ Perché i dati della tabella **Prodotti** sono progetti per un flusso unidirezio
 
 ## <a name="quote-and-quote-product-tables"></a>Tabelle di offerta e prodotti offerta
 
-Per la tabella **Offerta**, seguire le istruzioni nella sezione [Tabella degli ordini](#order-table) precedente in questo argomento. Per la tabella **Prodotto offerta**, seguire le istruzioni nella sezione [Tabella dei prodotti ordini](#order-products-table) precedente in questo argomento.
+Per la tabella **Offerta**, segui le istruzioni nella sezione [Tabella degli ordini](#order-table) precedente in questo articolo. Per la tabella **Prodotto offerta**, seguire le istruzioni nella sezione [Tabella dei prodotti ordini](#order-products-table) precedente in questo argomento.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

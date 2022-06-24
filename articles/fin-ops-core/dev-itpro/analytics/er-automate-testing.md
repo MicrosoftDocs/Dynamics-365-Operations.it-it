@@ -1,6 +1,6 @@
 ---
-title: Automatizzare i test con la creazione di report elettronici
-description: In questo argomento viene descritto come utilizzare la funzionalità di base del framework di creazione di report elettronici (ER) per automatizzare i test di alcune funzionalità.
+title: Automatizzare il test con la creazione di report elettronici
+description: In questo articolo viene descritto come utilizzare la funzionalità di base del framework di creazione di report elettronici (ER) per automatizzare i test di alcune funzionalità.
 author: NickSelin
 ms.date: 07/02/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749802"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892771"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizzare il test con la creazione di report elettronici
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare il framework di creazione di report elettronici (ER) per automatizzare i test di alcune funzionalità. L'esempio in questo argomento illustra come automatizzare i test dell'elaborazione dei pagamenti fornitore.
+In questo articolo viene descritto come utilizzare il framework di creazione di report elettronici (ER) per automatizzare i test di alcune funzionalità. L'esempio in questo articolo illustra come automatizzare i test dell'elaborazione dei pagamenti fornitore.
 
 L'applicazione utilizza il framework ER per generare file di pagamento e documenti corrispondenti durante l'elaborazione dei pagamenti fornitore. Il framework ER comporta un modello di dati, mapping di modello e componenti di formato che supportano l'elaborazione dei pagamenti per diversi tipi di pagamenti e la generazione di documenti in formati differenti. Questi componenti possono essere scaricati da Microsoft Dynamics Lifecycle Services (LCS) e importati nell'istanza.
 
@@ -54,7 +54,7 @@ I power user funzionali possono eseguire test di accettazione e integrazione ute
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di poter completare le attività in questo argomento, è necessario soddisfare i seguenti prerequisiti:
+Prima di poter completare le attività in questo articolo, è necessario soddisfare i seguenti prerequisiti:
 
 - Distribuire una topologia che supporta l'automazione dei test. È necessario avere accesso all'istanza di questa topologia per il ruolo **Amministratore di sistema**. Questa topologia deve contenere i dati dimostrativi che verranno utilizzati in questo esempio. Per ulteriori informazioni, vedere [Distribuire ambienti che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md).
 - Per eseguire automaticamente i test di accettazione e integrazione utente, è necessario installare RSAT nella topologia in uso e configurarlo nel modo appropriato. Per informazioni su come installare e configurare RSAT per l'uso con le app Finance and Operations e Azure DevOps, vedere [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prestare attenzione ai prerequisiti per l'utilizzo dello strumento. Di seguito viene illustrato un esempio delle impostazioni RSAT. Il rettangolo blu racchiude i parametri che specificano l'accesso a Azure DevOps. Il rettangolo verde racchiude i parametri che specificano l'accesso all'istanza.
@@ -62,7 +62,7 @@ Prima di poter completare le attività in questo argomento, è necessario soddis
     ![Impostazioni RSAT.](media/GER-Configure.png "Schermata della finestra di dialogo Impostazioni RSAT")
 
 - Per organizzare i test case nei gruppi e garantire la sequenza di esecuzione corretta, di modo che sia possibile raccogliere i registri delle esecuzioni dei test per ulteriori report e analisi, è necessario avere accesso a Azure DevOps dalla topologia distribuita.
-- Per completare l'esempio in questo argomento, si consiglia di scaricare [Utilizzo di ER per test RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Questo file zip contiene le seguenti guide attività:
+- Per completare l'esempio in questo articolo, ti consigliamo di scaricare [Utilizzo di ER per test RSAT](https://go.microsoft.com/fwlink/?linkid=874684). Questo file zip contiene le seguenti guide attività:
 
     | Contenuto                                           | Nome e posizione dei file |
     |---------------------------------------------------|------------------------|

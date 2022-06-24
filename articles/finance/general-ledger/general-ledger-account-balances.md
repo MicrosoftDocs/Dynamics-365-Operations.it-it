@@ -1,6 +1,6 @@
 ---
-title: Saldi dei conti CoGe
-description: 'Questo argomento illustra due modi per visualizzare i saldi dei conti CoGe: la pagina elenco Bilancio di verifica e i report finanziari.'
+title: Saldi dei conti della contabilità generale
+description: 'Questo articolo illustra due modi per visualizzare i saldi dei conti CoGe: la pagina elenco Bilancio di verifica e i report finanziari.'
 author: aprilolson
 ms.date: 01/11/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8470929b6805ddf9b85bd03e3043c2953d5fcfd1
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: f00f221765e757d8d4c82e1a0e4b8721e33dc321
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716439"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874495"
 ---
 # <a name="general-ledger-account-balances"></a>Saldi dei conti CoGe
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento illustra due modi per visualizzare i saldi dei conti CoGe: la pagina elenco Bilancio di verifica e i report finanziari. Viene inoltre discusso come aggiornare i saldi del set di dimensioni.
+Questo articolo illustra due modi per visualizzare i saldi dei conti CoGe: la pagina elenco Bilancio di verifica e i report finanziari. Viene inoltre discusso come aggiornare i saldi del set di dimensioni.
 
 Sono disponibili varie modalità in cui gli utenti possono visualizzare i saldi nella contabilità generale. Alcune opzioni più comuni sono:
 

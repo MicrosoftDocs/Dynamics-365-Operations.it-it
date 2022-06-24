@@ -1,6 +1,6 @@
 ---
 title: Elenco delle funzioni ER nella categoria conversione del tipo
-description: Questo argomento fornisce informazioni sulle funzioni di conversione supportate nella creazione di report elettronici (ER).
+description: Questo articolo fornisce informazioni sulle funzioni di conversione supportate nella creazione di report elettronici (ER).
 author: NickSelin
 ms.date: 12/05/2019
 ms.prod: ''
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6d678c2a38039285bd835abcbbaf13ec00298c0660c62e7496a5d7405db8f61
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37516ced402e0204ebd09d5b175ff56b040b9043
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766411"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889316"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Elenco delle funzioni ER nella categoria conversione del tipo
 
 [!include [banner](../includes/banner.md)]
 
-Le funzioni di conversione del tipo creazione di report elettronici (ER) possono essere utilizzate per convertire valori tra tipi. Questo argomento fornisce un riepilogo di queste funzioni.
+Le funzioni di conversione del tipo creazione di report elettronici (ER) possono essere utilizzate per convertire valori tra tipi. Questo articolo fornisce un riepilogo di queste funzioni.
 
 ## <a name="type-conversion-functions"></a>Funzioni di conversione di tipo
 

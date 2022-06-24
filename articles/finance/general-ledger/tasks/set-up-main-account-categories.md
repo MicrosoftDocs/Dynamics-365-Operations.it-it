@@ -1,6 +1,6 @@
 ---
 title: Impostare le categorie di conti principali
-description: In questo argomento viene illustrato come impostare le categorie di conti principali in Dynamics 365 Finance.
+description: In questo articolo viene illustrato come impostare le categorie di conti principali in Dynamics 365 Finance.
 author: aprilolson
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb41f1b7200363f8846c406d5c20338f6ea242bd
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: c48011c9988bdca694851476540db574efef7909
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8721984"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879565"
 ---
 # <a name="set-up-main-account-categories"></a>Impostare le categorie di conti principali
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare le categorie di conti principali. Le categorie di conti principali sono utilizzate per i report predefiniti nei report finanziari e in Power BI. Le categorie di conti principali create per impostazione predefinita possono essere rinominate ma non eliminate. Categorie di conti aggiuntive possono essere create e utilizzate a fini di report e analisi. In questo argomento viene utilizzata la società dimostrativa USMF.
+In questo articolo viene illustrato come impostare le categorie di conti principali. Le categorie di conti principali sono utilizzate per i report predefiniti nei report finanziari e in Power BI. Le categorie di conti principali create per impostazione predefinita possono essere rinominate ma non eliminate. Categorie di conti aggiuntive possono essere create e utilizzate a fini di report e analisi. Questo articolo utilizza la società dimostrativa USMF.
 
 ## <a name="create-a-main-account-category"></a>Creare una categoria di conti principali
 1. Nel pannello di navigazione andare a **Moduli > Contabilità generale > Piano dei conti > Conti > Categorie di conti principali**.

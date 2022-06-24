@@ -1,6 +1,6 @@
 ---
 title: Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
-description: In questo argomento viene illustrato come importare un report di Power BI nella scheda Analisi di un'area di lavoro.
+description: In questo articolo viene illustrato come importare un report di Power BI nella scheda Analisi di un'area di lavoro.
 author: RichdiMSFT
 ms.date: 06/21/2017
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ed562dca621acea24efa3f157f695257cb919cdda577cf9ae6dd0b0c942e1b70
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fba78f091a9e1ba209489b0e324027c4885a198d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884551"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Aggiungere analisi alle aree di lavoro tramite Power BI Embedded
 
@@ -27,7 +27,7 @@ ms.locfileid: "6760154"
 > Questa funzionalità è supportata in Finance and Operations (versione 7.2 e successiva).
 
 ## <a name="introduction"></a>Introduzione
-In questo argomento viene illustrato come incorporare un report di Microsoft Power BI nella scheda **Analisi** di un'area di lavoro. Per l'esempio fornito qui, verrà estesa l'area di lavoro **Gestione prenotazione** nell'applicazione di gestione flotta per includere un'area di lavoro di analisi in una scheda **Analisi**.
+In questo articolo viene illustrato come importare un report di Microsoft Power BI nella scheda **Analisi** di un'area di lavoro. Per l'esempio fornito qui, verrà estesa l'area di lavoro **Gestione prenotazione** nell'applicazione di gestione flotta per includere un'area di lavoro di analisi in una scheda **Analisi**.
 
 ## <a name="prerequisites"></a>Prerequisiti
 + Accedere a un ambiente di sviluppo in cui è in esecuzione l'aggiornamento 8 della piattaforma o una versione successiva.

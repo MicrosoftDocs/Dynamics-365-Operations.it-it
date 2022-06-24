@@ -1,6 +1,6 @@
 ---
 title: Aggiungere nuovi campi a un modello di documento aziendale in Microsoft Excel
-description: In questo argomento vengono fornite informazioni sull'aggiunta di nuovi campi a un modello di documento aziendale in Microsoft Excel utilizzando la funzionalità di gestione dei documenti aziendali.
+description: In questo articolo vengono fornite informazioni sull'aggiunta di nuovi campi a un modello di documento aziendale in Microsoft Excel utilizzando la funzionalità di gestione dei documenti aziendali.
 author: NickSelin
 ms.date: 11/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8395a87e88ebbd1942c87da0cecebe6d25bdf625
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869404"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Aggiungere nuovi campi a un modello di documento aziendale in Microsoft Excel
 
@@ -28,14 +28,14 @@ ms.locfileid: "6767244"
 
 È possibile aggiungere nuovi campi a un modello utilizzato per generare i documenti aziendali nel formato Microsoft Excel. Questi campi possono essere aggiunti come segnaposto che vengono utilizzati per completare i documenti generati con le informazioni richieste dall'applicazione. Per ogni campo aggiunto, è possibile anche specificare un'associazione alle origini dati, per specificare quali dati dell'applicazione verranno inseriti nel campo quando il modello viene utilizzato per generare documenti aziendali.
 
-Per ulteriori informazioni su questa funzionalità, completare l'esempio in questo argomento. Questo esempio mostra come aggiornare un modello per compilare i campi nei moduli di fattura a testo libero generati.
+Per ulteriori informazioni su questa funzionalità, completa l'esempio in questo articolo. Questo esempio mostra come aggiornare un modello per compilare i campi nei moduli di fattura a testo libero generati.
 
 ## <a name="configure-business-document-management-to-edit-templates"></a>Configurare Gestione documenti aziendali per modificare i modelli
 
 Poiché la gestione dei documenti aziendali (BDM) si basa sul framework della [panoramica del reporting elettronico (ER)](general-electronic-reporting.md), è necessario configurare i parametri ER e BDM richiesti prima di poter iniziare a lavorare con BDM.
 
-1.  Accedere all'istanza di Microsoft Dynamics 365 Finance come amministratore di sistema.
-2.  Completare i seguenti passaggi dell'esempio nell'argomento [Panoramica di gestione dei documenti aziendali](er-business-document-management.md) :
+1.  Accedi all'istanza di Microsoft Dynamics 365 Finance come amministratore di sistema.
+2.  Completa i seguenti passaggi dell'esempio nell'articolo [Panoramica di gestione dei documenti aziendali](er-business-document-management.md):
 
     1.  Configurare i parametri ER.
     2.  Attivare il BDM.
@@ -61,7 +61,7 @@ Per ulteriori informazioni su come importare le configurazioni ER, vedere [Gesti
 
 3.  Nella griglia, selezionare il modello **Fattura a testo libero (Excel)**.
 4.  Nel riquadro a destra, selezionare **Nuovo modello** per creare un nuovo modello basato sul modello selezionato.
-5.  Nel campo **Titolo** immettere **Fattura a testo libero (Excel) Contoso** come titolo del nuovo modello.
+5.  Nel campo **Titolo**, immettere **Fattura a testo libero (Excel) Contoso** come titolo del nuovo modello.
 6.  Selezionare **OK** per confermare l'avvio del processo di modifica.
 
 Viene visualizzata la pagina dell'editor di modelli BDM. È possibile utilizzare Microsoft 365 per modificare il modello selezionato online nel controllo incorporato.

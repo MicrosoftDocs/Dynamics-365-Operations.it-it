@@ -1,6 +1,6 @@
 ---
 title: Rivalutazione valuta per la contabilità fornitori e la contabilità clienti
-description: Questo argomento fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti.
+description: Questo articolo fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti.
 author: kweekley
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf32a31df1d56740d803b97d65829b1b1d31eb17
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 33750e7bb2f1fc4158a5f2faba5eeae5a356db7c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713926"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906386"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Rivalutazione valuta per la contabilità fornitori e la contabilità clienti
 
 [!include [banner](../includes/banner.md)]
 
-Le fluttuazioni nei tassi di cambio causano la variazione nel tempo del valore teorico (contabile) delle transazioni aperte in valuta estera. Questo argomento fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti. 
+Le fluttuazioni nei tassi di cambio causano la variazione nel tempo del valore teorico (contabile) delle transazioni aperte in valuta estera. Questo articolo fornisce informazioni sul processo di rivalutazione valuta estera eseguito per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti. 
 
 Il valore teorico o contabile delle transazioni aperte in valuta estera varia nel tempo a causa delle fluttuazioni dei tassi di cambio. Per aggiornare il valore delle transazioni aperte in contabilità fornitori e contabilità clienti, eseguire il processo di rivalutazione valuta estera. La rivalutazione della valuta estera può essere eseguita sia per la contabilità fornitori che per la contabilità clienti. Il processo utilizza un nuovo tasso di cambio per rivalutare gli importi aperti, o non liquidati, in una data specificata. Le differenze tra gli importi registrati originali e gli importi rivalutati determinerà un profitto non realizzato o una perdita non realizzata per ogni transazione aperta. I giornali di registrazione secondari Contabilità fornitori e Contabilità clienti vengono quindi aggiornati in modo da riflettere il profitto non realizzato o la perdita non realizzata e nella contabilità generale viene registrata una voce contabile.
 

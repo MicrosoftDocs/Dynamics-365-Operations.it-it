@@ -1,6 +1,6 @@
 ---
 title: Panoramica dei processi di fatturazione automatizzati dei fornitori
-description: In questo argomento viene descritta l'automatizzazione dell'elaborazione delle fatture fornitore e i vantaggi inerenti all'utilizzo di un processo automatizzato.
+description: In questo articolo viene descritta l'automatizzazione dell'elaborazione delle fatture fornitore e i vantaggi inerenti all'utilizzo di un processo automatizzato.
 author: abruer
 ms.date: 02/12/2021
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f21b76bb0d30370e4ea4fdd718999d537e9ce925
-ms.sourcegitcommit: 9cbff8a2cdeaf606488fb0044b3de4ab4409c9dc
+ms.openlocfilehash: d2c629ed2d064a3350ec8ffe53940098d12ab0b5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "8358432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883447"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Panoramica dei processi di fatturazione automatizzati dei fornitori
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritta l'automatizzazione dell'elaborazione delle fatture fornitore e i vantaggi inerenti all'utilizzo di un processo automatizzato. Questa soluzione è costituita da funzionalità attivate in Gestione funzionalità. Tali funzionalità si applicano solo alle fatture fornitore, non alle fatture elaborate tramite la pagina **Giornale di registrazione fatture** o **Giornale di registrazione del registro fatture**.
+In questo articolo viene descritta l'automatizzazione dell'elaborazione delle fatture fornitore e i vantaggi inerenti all'utilizzo di un processo automatizzato. Questa soluzione è costituita da funzionalità attivate in Gestione funzionalità. Tali funzionalità si applicano solo alle fatture fornitore, non alle fatture elaborate tramite la pagina **Giornale di registrazione fatture** o **Giornale di registrazione del registro fatture**.
 
 In molti casi, le organizzazioni si avvalgono di terzi parti per elaborare fatture cartacee utilizzando un provider di servizi OCR di terze parti. Il fornitore di servizi restituisce metadati di fatture leggibili da una macchina. Per facilitare l'automazione, le funzionalità di automazione della contabilità fornitori ti consentono di utilizzare questi artefatti in Contabilità fornitori.
 

@@ -1,6 +1,6 @@
 ---
-title: Certificazione unica
-description: Questo argomento fornisce informazioni sulla certificazione unica per le società in Italia.
+title: Certificazione Unica
+description: Questo articolo fornisce informazioni sulla certificazione unica per le società in Italia.
 author: ilkond
 ms.date: 03/22/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0c97c96ac89458dbf48ef423efc2029475a2c3d7
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 11659daba364882f2168486a0c96a9c1ad35b3cb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464894"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846506"
 ---
 # <a name="unique-certification"></a>Certificazione unica
 

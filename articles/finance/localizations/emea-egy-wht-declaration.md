@@ -1,6 +1,6 @@
 ---
 title: Dichiarazione della ritenuta d'acconto per l'Egitto
-description: In questo argomento viene descritto come configurare e generare le dichiarazioni della ritenuta d'acconto per l'Egitto.
+description: In questo articolo viene descritto come configurare e generare le dichiarazioni della ritenuta d'acconto per l'Egitto.
 author: sndray
 ms.date: 03/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: 505eb8a907ec8cc74b897695ddd90eee3abb0ed6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7403893"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907689"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Dichiarazione della ritenuta d'acconto per l'Egitto (EG-00005)
 
@@ -26,7 +26,7 @@ ms.locfileid: "7403893"
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Panoramica
-In questo argomento viene illustrato come impostare e generare la dichiarazione della ritenuta d'acconto e i moduli 41 e 11 della dichiarazione della ritenuta d'acconto per le persone giuridiche in Egitto 
+In questo articolo viene illustrato come impostare e generare la dichiarazione della ritenuta d'acconto e i moduli 41 e 11 della dichiarazione della ritenuta d'acconto per le persone giuridiche in Egitto 
 
 Tutte le entità egiziane devono preparare il modulo 41 che riassume tutte le imposte trattenute dei fornitori locali e dei fornitori di servizi. Oltre al modulo 41, deve essere generato il modulo 11 per dettagliare tutte le trattenute dei fornitori esteri. 
 
@@ -58,7 +58,7 @@ Per ulteriori informazioni su come importare le configurazioni per la creazione 
 
 L'implementazione dei moduli di dichiarazione RIT per l'Egitto si basa sulle configurazioni per la creazione di report elettronici (ER). Per ulteriori informazioni sulle funzionalità e sui concetti di creazione di report configurabili, vedere [Creazione di report elettronici](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
-Per gli ambienti di produzione e test di accettazione dell'utente (UAT), seguire le istruzioni nell'argomento [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Per gli ambienti di produzione e test di accettazione dell'utente (UAT), segui le istruzioni nell'articolo [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 Per generare le dichiarazioni della ritenuta d'acconto in una persona giuridica egiziana, è necessario caricare le seguenti configurazioni:
 

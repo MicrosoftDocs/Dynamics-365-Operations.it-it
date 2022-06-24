@@ -1,6 +1,6 @@
 ---
 title: Preparare i metadati dell'applicazione da utilizzare in RCS
-description: In questo argomento viene descritto come creare una nuova configurazione di creazione report che contiene i metadati dell'applicazione.
+description: In questo articolo viene descritto come creare una nuova configurazione di creazione report che contiene i metadati dell'applicazione.
 author: NickSelin
 ms.date: 06/28/2019
 ms.topic: business-process
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 71a33a69796b31c456bfcc5abbb3b18bcb1064be65c1c58b36656a9cebfbf47d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b5e7f69653381e16b4a8a8def56845a41bb14b0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750576"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868799"
 ---
 # <a name="prepare-application-metadata-to-be-used-in-rcs"></a>Preparare i metadati dell'applicazione da utilizzare in RCS
 [!include [banner](../../includes/banner.md)]
 
-I passaggi seguenti illustrano come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici (ER) che contiene i metadati dell'applicazione per la progettazione di configurazioni del mapping di modello ER in Regulatory Configuration Service (RCS). Questa configurazione verrà utilizzata per la progettazione di una configurazione del mapping di modello ER di esempio per accedere alle transazioni del commercio estero. In questo esempio si creerà una configurazione per la società di esempio Litware, Inc. Questi passaggi possono essere eseguiti in qualsiasi società. Per completare questi passaggi, è necessario dapprima completare i passaggi nell'argomento [Creare provider di configurazione e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md).
+I passaggi seguenti illustrano come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può creare una nuova configurazione per la creazione di report elettronici (ER) che contiene i metadati dell'applicazione per la progettazione di configurazioni del mapping di modello ER in Regulatory Configuration Service (RCS). Questa configurazione verrà utilizzata per la progettazione di una configurazione del mapping di modello ER di esempio per accedere alle transazioni del commercio estero. In questo esempio si creerà una configurazione per la società di esempio Litware, Inc. Questi passaggi possono essere eseguiti in qualsiasi società. Per completare questi passaggi, è necessario dapprima completare i passaggi nell'articolo [Creare provider di configurazione e contrassegnarli come attivi](er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="prerequisites"></a>Prerequisiti
 1.    Andare a **Amministrazione organizzazione** > **Aree di lavoro** > **Creazione di report elettronici**. 

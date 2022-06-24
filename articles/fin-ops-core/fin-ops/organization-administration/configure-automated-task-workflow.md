@@ -1,6 +1,6 @@
 ---
 title: Configurare le attività automatiche in un flusso di lavoro
-description: In questo argomento viene descritto come configurare le proprietà per un'attività automatica.
+description: In questo articolo viene descritto come configurare le proprietà per un'attività automatica.
 author: ChrisGarty
 ms.date: 06/20/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7346649108824eb4e7209a2476456a469affa1c
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: b482338c436ea9226d31f74c823ee1dc141b24cd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8066520"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891755"
 ---
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurare le attività automatiche in un flusso di lavoro
 
@@ -28,7 +28,7 @@ ms.locfileid: "8066520"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In questo argomento viene descritto come configurare le proprietà per un'attività automatica.
+In questo articolo viene descritto come configurare le proprietà per un'attività automatica.
 
 Per configurare un'attività automatica, nell'editor flusso di lavoro fare clic con il pulsante destro del mouse sull'attività e scegliere **Proprietà** per aprire la pagina **Proprietà**. Per configurare le proprietà dell'attività automatica, attenersi alle procedure indicate di seguito.
 

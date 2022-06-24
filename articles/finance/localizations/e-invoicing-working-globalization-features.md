@@ -1,6 +1,6 @@
 ---
 title: Componenti della funzionalità di globalizzazione
-description: In questo argomento viene fornita una panoramica dei componenti della funzionalità di globalizzazione.
+description: In questo articolo viene fornita una panoramica dei componenti della funzionalità di globalizzazione.
 author: dkalyuzh
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 87d7dd231b9ccda7761c91f129659c18039f3299
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 5525332fe3f1a3ea96da630dc34bab82e4117f99
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371702"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891490"
 ---
 # <a name="globalization-feature-components"></a>Componenti della funzionalità di globalizzazione
 

@@ -1,6 +1,6 @@
 ---
 title: Creare piani di retribuzione variabile
-description: Questo argomento descrive i componenti che devono essere impostati per utilizzare una retribuzione variabile e per iscrivere un dipendente in un piano di retribuzione variabile.
+description: Questo articolo descrive i componenti che devono essere impostati per utilizzare una retribuzione variabile e per iscrivere un dipendente in un piano di compensazione variabile.
 author: twheeloc
 ms.date: 08/24/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 589990c48d115266b57589f905de20572e76a040
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688659"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853076"
 ---
 # <a name="create-variable-compensation-plans"></a>Creare piani di retribuzione variabile
 
@@ -28,7 +28,7 @@ ms.locfileid: "8688659"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-La retribuzione variabile rappresenta una retribuzione non regolare del dipendente, ad esempio premio o premi in azioni. Questo argomento spiega come configurare i componenti necessari per una retribuzione variabile e per iscrivere un dipendente in un piano di retribuzione variabile.
+La retribuzione variabile rappresenta una retribuzione non regolare del dipendente, ad esempio premio o premi in azioni. Questo articolo spiega come configurare i componenti necessari per una retribuzione variabile e per iscrivere un dipendente in un piano di retribuzione variabile.
 
 Il calcolo degli importi di retribuzione variabile per i dipendenti può basarsi su diversi fattori, ad esempio le prestazioni del dipendente, il livello retributivo del dipendente e le prestazioni del reparto.
 

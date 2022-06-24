@@ -1,6 +1,6 @@
 ---
 title: Modello di dati per il calcolo delle tasse
-description: Questo argomento fornisce informazioni sul modello di dati delle tasse e su come i valori dei campi di ogni modello di dati sono determinati dal contesto delle transazioni di calcolo delle tasse.
+description: Questo articolo fornisce informazioni sul modello di dati delle tasse e su come i valori dei campi di ogni modello di dati sono determinati dal contesto delle transazioni di calcolo delle tasse.
 author: kailiang
 ms.date: 10/15/2021
 ms.topic: overview
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 759803767111c27cba76b68430e09a0d9dd6110f
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694258"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859697"
 ---
 # <a name="tax-calculation-data-model"></a>Modello di dati per il calcolo delle tasse
 
-Questo argomento fornisce informazioni su come i valori dei campi nel modello di dati delle tasse sono determinati nelle transazioni di calcolo delle tasse.
+Questo articolo fornisce informazioni su come i valori dei campi nel modello di dati delle tasse sono determinati nelle transazioni di calcolo delle tasse.
 
 Il *modello di dati fiscali* è costituito dai campi necessari per il calcolo delle imposte. Microsoft fornisce il *modello di dati per il calcolo delle imposte*, che include i campi di intestazione e i campi di riga dei documenti di transazione nelle app Finance and Operations. I campi definiti nel modello dati di calcolo delle imposte sono le colonne disponibili delle tabelle delle regole di applicabilità nella configurazione della configurazione della funzione di calcolo delle imposte.
 
@@ -99,7 +99,7 @@ Trentadue modelli di dati possono essere inclusi come campi nell'intestazione di
 | Spedisci a provincia/stato          | <ul><li>**Ordine cliente:**<ol><li>Intestazione &gt; Indirizzo di consegna &gt; Stato</li></ol></li><li>**Ordine fornitore:**<ol><li>Intestazione &gt; Indirizzo di consegna &gt; Stato</li></ol></li><li>**Ordine di trasferimento - Spedizione**<ol><li>Intestazione &gt; Al magazzino &gt; Indirizzo primario &gt; Stato</li><li>Intestazione &gt; Al sito &gt; Indirizzo primario &gt; Stato</li></ol></li><li>**Ordine di trasferimento - Ricezione**<ol><li>Intestazione &gt; Al magazzino &gt; Indirizzo primario &gt; Stato</li><li>Intestazione &gt; Al sito &gt; Indirizzo primario &gt; Stato</li></ol></li><li>**Richiesta di offerta:**<ol><li>Intestazione &gt; Indirizzo di consegna &gt; Stato</li></ol></li><li>**Offerta di vendita:**<ol><li>Intestazione &gt; Indirizzo di consegna &gt; stato</li></ol></li><li>**Fattura a testo libero:**<ol><li>Intestazione &gt; Conto cliente &gt; Indirizzo di consegna predefinito &gt; Stato</li><li>Intestazione &gt; Conto cliente &gt; Indirizzo primario &gt; Stato</li></ol></li><li>**Diario (cliente):**<ol><li>Conto cliente &gt; Indirizzo di consegna predefinito &gt; Stato</li><li>Conto cliente &gt; Indirizzo principale &gt; Stato</li></ol></li><li>**Diario (fornitore):**<ol><li>Persona giuridica &gt; Indirizzo di consegna predefinito &gt; Stato</li><li>Persona giuridica &gt; Indirizzo primario &gt; Stato</li></ol></li></ul> |
 | Spedisci a CAP                 | <ul><li>**Ordine cliente:**<ol><li>Intestazione &gt; Indirizzo di consegna &gt; CAP</li></ol></li><li>**Ordine fornitore:**<ol><li>Intestazione &gt; Indirizzo di consegna &gt; CAP</li></ol></li><li>**Ordine di trasferimento - Spedizione**<ol><li>Intestazione &gt; Al magazzino &gt; Indirizzo primario &gt; CAP</li><li>Intestazione &gt; Al sito &gt; Indirizzo primario &gt; CAP</li></ol></li><li>**Ordine di trasferimento - Ricezione**<ol><li>Intestazione &gt; Al magazzino &gt; Indirizzo primario &gt; CAP</li><li>Intestazione &gt; Al sito &gt; Indirizzo primario &gt; CAP</li></ol></li><li>**Richiesta di offerta:**<ol><li>Intestazione &gt; Indirizzo di consegna &gt; CAP</li></ol></li><li>**Offerta di vendita:**<ol><li>Intestazione &gt; Indirizzo di consegna &gt; CAP</li></ol></li><li>**Fattura a testo libero:**<ol><li>Intestazione &gt; Conto cliente &gt; Indirizzo di consegna predefinito &gt; CAP</li><li>Intestazione &gt; Conto cliente &gt; Indirizzo primario &gt; CAP</li></ol></li><li>**Diario (cliente):**<ol><li>Conto cliente &gt; Indirizzo di consegna predefinito &gt; CAP</li><li>Conto cliente &gt; Indirizzo principale &gt; CAP</li></ol></li><li>**Diario (fornitore):**<ol><li>Persona giuridica &gt; Indirizzo di consegna predefinito &gt; CAP</li><li>Persona giuridica &gt; Indirizzo primario &gt; CAP</li></ol></li></ul> |
 | Sito                             | <ul><li>**Ordine cliente:** Sito</li><li>**Ordine fornitore:** Sito</li><li>**Ordine di trasferimento - Spedisci:** Sito del magazzino origine</li><li>**Ordine di trasferimento - Ricevi:** Sito del magazzino destinazione</li><li>**Richiesta di offerta:** Sito</li><li>**Offerta di vendita :** Sito</li></ul> |
-| Direzione imposta                    | <ul><li>**Ordine cliente:** Output</li><li>**Ordine fornitore:** Input</li><li>**Ordine di trasferimento - Spedisci:** Output</li><li>**Ordine di trasferimento - Ricevi:** Input</li><li>**Richiesta di acquisto:** Input</li><li>**Richiesta di offerta:** Input</li><li>**Offerta di vendita :** Output</li><li>**Fattura a testo libero:** Output</li></ul> |
+| Direzione imposta                    | <ul><li>**Ordine cliente:** Output</li><li>**Ordine fornitore:** Input</li><li>**Ordine di trasferimento - Spedisci:** Output</li><li>**Ordine di trasferimento - Ricevi:** Input</li><li>**Richiesta di acquisto:** Input</li><li>**Richiesta di offerta:** Input</li><li>**Offerta di vendita :** Output</li><li>**Fattura a testo libero:** Output</li><li>**Giornale di registrazione:** Output</li></ul> |
 | Account fornitore                   | <ul><li>**Ordine fornitore:** Conto fornitore</li><li>**Diario (fornitore):** account fornitore</li></ul> |
 | Conto fatture fornitore           | <ul><li>**Ordine fornitore:** Conto fattura</li><li>**Diario (fornitore):**<ol><li>Master fornitore &gt; account fattura</li><li>Account fornitore</li></ol></li></ul> |
 | Magazzino                        | <ul><li>**Ordine cliente:** Magazzino</li><li>**Ordine fornitore:** Magazzino</li><li>**Ordine di trasferimento - Spedisci:** Dal magazzino</li><li>**Ordine di trasferimento - Ricevi:** Al magazzino</li><li>**Richiesta di offerta:** Magazzino</li><li>**Offerta di vendita:** Magazzino</li></ul> |

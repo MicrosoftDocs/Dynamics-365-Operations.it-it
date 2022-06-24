@@ -1,6 +1,6 @@
 ---
 title: 'ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)'
-description: In questo argomento viene descritto come configurare un modello di Creazione di report elettronici (ER) per utilizzare le dimensioni finanziarie come origine dati per i report ER. (Parte 2)
+description: In questo articolo viene descritto come configurare un modello di Creazione di report elettronici (ER) per utilizzare le dimensioni finanziarie come origine dati per i report ER. (Parte 2)
 author: NickSelin
 ms.date: 05/27/2020
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc7c6bc299dd0af83db3b09b06276a210ecfada5
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: d228ee9d393cab1c5c1592ca6570cdc91992c38c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605407"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878344"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Utilizzare le dimensioni finanziarie come origine dati (Parte 2: mapping del modello)
 
@@ -94,7 +94,7 @@ Per effettuare questi passaggi, è innanzitutto necessario completare i passaggi
 25. Nella struttura selezionare 'LedgerJournal\<Relazioni\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Conto principale e dimensioni'.
 26. Nella struttura selezionare 'Giornale di registrazione\Transazione\Dati dimensioni'.
 27. Fare clic su Associa.
-!Pagina di progettazione mapping modello, scheda Mapping, albero origini dati.](../media/er-financial-dimensions-guides-model-mapping3.png)
+!Pagina Progettazione mapping modello, scheda Mapping. albero delle origini dati.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Nella struttura selezionare 'LedgerJournal\<Relazioni\LedgerJournalTrans\Dare(AmountCurDebit)'.
 29. Nella struttura selezionare 'Giornale di registrazione\Transazione\Dare'.
 30. Fare clic su Associa.

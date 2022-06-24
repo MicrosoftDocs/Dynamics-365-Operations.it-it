@@ -1,6 +1,6 @@
 ---
 title: Numerazione cronologica di documenti e giustificativi
-description: Questo argomento spiega come impostare e utilizzare i numeri cronologici per i documenti applicabili e i relativi giustificativi.
+description: Questo articolo spiega come impostare e utilizzare i numeri cronologici per i documenti applicabili e i relativi giustificativi.
 author: ikond
 ms.date: 02/01/2021
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0ce1afdbd31a78611e6b51dd93f7159d684c97cb
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 6baf307406982e8f72acc0d02f047dbc7c63a5ed
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692675"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876385"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numerazione cronologica di documenti e giustificativi
 
 [!include [banner](../includes/banner.md)]
 
 
-In alcuni paesi, esiste l'obbligo legale di numerare i documenti e i relativi giustificativi in ordine cronologico. La cronologia deve essere supportata in base a periodi. Tutti i numeri che appartengono a periodi precedenti devono essere inferiori ai numeri che appartengono a periodi successivi. Per soddisfare questo requisito, è stata implementata la funzionalità di numerazione cronologica. Questo argomento spiega come configurare e utilizzare i numeri cronologici per i documenti applicabili e i relativi giustificativi.
+In alcuni paesi, esiste l'obbligo legale di numerare i documenti e i relativi giustificativi in ordine cronologico. La cronologia deve essere supportata in base a periodi. Tutti i numeri che appartengono a periodi precedenti devono essere inferiori ai numeri che appartengono a periodi successivi. Per soddisfare questo requisito, è stata implementata la funzionalità di numerazione cronologica. Questo articolo spiega come configurare e utilizzare i numeri cronologici per i documenti applicabili e i relativi giustificativi.
 
 ## <a name="prerequisites"></a>Prerequisiti
 

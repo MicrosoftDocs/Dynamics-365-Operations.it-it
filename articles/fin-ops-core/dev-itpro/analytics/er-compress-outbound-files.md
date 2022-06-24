@@ -1,6 +1,6 @@
 ---
 title: Comprimere documenti di grandi dimensioni generati nei rapporti elettronici
-description: In questo argomento viene illustrato come comprimere documenti di grandi dimensioni generati da un formato di report elettronico (ER).
+description: In questo articolo viene illustrato come comprimere documenti di grandi dimensioni generati da un formato di report elettronico (ER).
 author: NickSelin
 ms.date: 09/11/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a4995879717e715f8ebadb6a80e00949df7545c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718601"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864809"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Comprimere documenti di grandi dimensioni generati nei rapporti elettronici 
 
@@ -33,7 +33,7 @@ Quando si configura una soluzione, è possibile modificare il formato ER nella f
 > [!NOTE]
 > La compressione dei file richiede un'ulteriore percentuale di utilizzo della CPU.
 
-Per ulteriori informazioni su questo approccio, completa gli esempi in questo argomento.
+Per ulteriori informazioni su questo approccio, completa gli esempi in questo articolo.
 
 ## <a name="example-compress-an-outbound-document"></a>Esempio: comprimere un documento in uscita
 
@@ -41,7 +41,7 @@ Questo esempio mostra come un utente con il ruolo **Amministratore di sistema** 
 
 ### <a name="prerequisites"></a>Prerequisiti
 
-Prima di completare le procedure in questo argomento, è necessario completare i seguenti passaggi:
+Prima di completare le procedure in questo articolo, è necessario completare i seguenti passaggi:
 
 1. [Attivare un provider di configurazioni](er-defer-xml-element.md#activate-a-configuration-provider).
 2. [Importare le configurazioni ER di esempio](er-defer-xml-element.md#import-the-sample-er-configurations).

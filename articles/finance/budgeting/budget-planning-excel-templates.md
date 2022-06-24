@@ -1,6 +1,6 @@
 ---
 title: Modelli di pianificazione del budget per Excel
-description: In questo argomento viene descritto come creare modelli di Microsoft Excel che possono essere utilizzati con i piani di budget.
+description: In questo articolo viene descritto come creare modelli di Microsoft Excel che possono essere utilizzati con i piani di budget.
 author: panolte
 ms.date: 01/12/2018
 ms.topic: article
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 90691aec0ffad8d33a19a09e7bc521cd6d6a09a9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 6bc190a48d0212e24c5bd72255ed6b6b3caf942c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711978"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872501"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelli di pianificazione del budget per Excel
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come creare modelli di Microsoft Excel che possono essere utilizzati con i piani di budget.
+In questo articolo viene descritto come creare modelli di Microsoft Excel che possono essere utilizzati con i piani di budget.
 
-In questo argomento viene illustrato come creare modelli di Excel che verranno utilizzati con i piani di budget con il set di dati dimostrativi standard e l'accesso utente Admin. Per ulteriori informazioni sulla pianificazione del budget, vedere [Panoramica sulla pianificazione del budget](budget-planning-overview-configuration.md). È inoltre possibile seguire l'esercitazione [Pianificazione del budget](budget-plan.md) per apprendere i principi di base sulla configurazione e l'uso del modulo.
+In questo articolo viene illustrato come creare modelli di Excel che verranno utilizzati con i piani di budget con il set di dati dimostrativi standard e l'accesso utente Admin. Per ulteriori informazioni sulla pianificazione del budget, vedere [Panoramica sulla pianificazione del budget](budget-planning-overview-configuration.md). È inoltre possibile seguire l'esercitazione [Pianificazione del budget](budget-plan.md) per apprendere i principi di base sulla configurazione e l'uso del modulo.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Generare un foglio di lavoro usando il layout dei documenti del piano di budget
 
-I documenti del piano di budget possono essere visualizzati e modificati utilizzando uno o più layout. Ogni layout può avere un modello di documento di piano di budget associato per visualizzare e modificare i dati del piano di budget in un foglio di lavoro di Excel. In questo argomento, un modello di documento del piano di budget verrà generato utilizzando una configurazione di layout esistente. 
+I documenti del piano di budget possono essere visualizzati e modificati utilizzando uno o più layout. Ogni layout può avere un modello di documento di piano di budget associato per visualizzare e modificare i dati del piano di budget in un foglio di lavoro di Excel. In questo articolo, un modello di documento del piano di budget verrà generato utilizzando una configurazione di layout esistente. 
 
 1. Aprire l'**elenco dei piani di budget** (**Impostazione budget** &gt; **Piani di budget**). 
 2. Fare clic su **Nuovo** per creare un nuovo documento di piano di budget. 

@@ -1,6 +1,6 @@
 ---
 title: Differire l'esecuzione di elementi di sequenza in formati ER
-description: Questo argomento spiega come differire l'esecuzione di un elemento di sequenza in un formato ER.
+description: Questo articolo spiega come differire l'esecuzione di un elemento di sequenza in un formato ER.
 author: NickSelin
 ms.date: 04/23/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 19d1cf0aa6e9b40a0e72a3a74acda6e2579d6ee2
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: 5d4c5395c87c7bdc874f277a691e84081f68742d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880241"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Differire l'esecuzione di elementi di sequenza in formati ER
 
@@ -32,7 +32,7 @@ ms.locfileid: "8323692"
 
 Attivando l'opzione <a name="DeferredSequenceExecution"></a>**Esecuzione differita** per un elemento di formato sequenza nel formato configurato, è possibile differire (posticipare) l'esecuzione di quell'elemento. In questo caso, l'elemento non viene eseguito finché non vengono eseguiti tutti gli altri elementi dell'elemento padre.
 
-Per ulteriori informazioni su questa funzionalità, completare l'esempio in questo argomento.
+Per ulteriori informazioni su questa funzionalità, completa l'esempio in questo articolo.
 
 ## <a name="limitations"></a>Limiti
 
@@ -53,7 +53,7 @@ Per completare l'esempio in questo argomento, è necessario avere accesso alla s
 - Consulente funzionale per la creazione di report elettronici
 - Amministratore di sistema
 
-Se l'esempio nell'argomento [Differire l'esecuzione di elementi XML in formati ER](er-defer-xml-element.md#Example) non è ancora stato completato, scaricare le seguenti [configurazioni](general-electronic-reporting.md#Configuration) della soluzione ER di esempio.
+Se l'esempio nell'articolo [Differire l'esecuzione di elementi XML in formati ER](er-defer-xml-element.md#Example) non è ancora stato completato, scarica le seguenti [configurazioni](general-electronic-reporting.md#Configuration) della soluzione ER di esempio.
 
 | Descrizione contenuto            | Nome file |
 |--------------------------------|-----------|
@@ -93,7 +93,7 @@ Prima di iniziare, è inoltre necessario scaricare e salvare la seguente configu
 ### <a name="activate-a-configurations-provider"></a>Attivare un provider di configurazioni
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, verificare che il [provider di configurazione](general-electronic-reporting.md#Provider) per la società di esempio Litware, Inc. (`http://www.litware.com`) sia elencato e contrassegnato come attivo. Se questo provider di configurazione non è elencato o non è contrassegnato come attivo, completare i passaggi dell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Nella pagina **Configurazioni localizzazione**, nella sezione **Provider di configurazione**, verificare che il [provider di configurazione](general-electronic-reporting.md#Provider) per la società di esempio Litware, Inc. (`http://www.litware.com`) sia elencato e contrassegnato come attivo. Se questo provider di configurazione non è elencato o non è contrassegnato come attivo, completa i passaggi dell'articolo [Creare un provider di configurazione e contrassegnarlo come attivo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![La società di esempio Litware, Inc. nella pagina Configurazioni localizzazione.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
 

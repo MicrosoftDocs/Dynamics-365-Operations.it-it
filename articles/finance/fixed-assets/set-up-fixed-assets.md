@@ -1,6 +1,6 @@
 ---
 title: Impostare i cespiti
-description: In questo argomento viene fornita una panoramica dell'impostazione del modulo Cespiti.
+description: In questo articolo viene fornita una panoramica dell'impostazione del modulo Cespiti.
 author: moaamer
 ms.date: 06/08/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 164f19d4b346a51d4f5d43064cb33bf0c01378dd
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 3baa842dadddd0f763f803528d322b9561b3141e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726240"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910144"
 ---
 # <a name="set-up-fixed-assets"></a>Impostare i cespiti
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dell'impostazione del modulo **Cespiti**. 
+In questo articolo viene fornita una panoramica dell'impostazione del modulo **Cespiti**. 
 
 I parametri controllare il comportamento generale dei cespiti. I gruppi cespite consentono di raggruppare i cespiti e specificare gli attributi predefiniti per ciascun cespite assegnato a un gruppo. I libri sono assegnati a gruppi cespite. I libri tengono traccia del valore finanziario di un cespite nel tempo utilizzando la configurazione di ammortamento definita nel profilo di ammortamento.
 

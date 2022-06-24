@@ -1,6 +1,6 @@
 ---
 title: Eliminare un cespite utilizzando una fattura a testo libero
-description: In questo argomento viene descritto come acquisire un cespite utilizzando la proposta di acquisizione nel giornale di registrazione cespiti.
+description: In questo articolo viene descritto come acquisire un cespite utilizzando la proposta di acquisizione nel giornale di registrazione cespiti.
 author: moaamer
 ms.date: 08/19/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 711ab4b4798127ca54d7138b0aae02d71fe8bec3
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: bb930bd35aa86c6bc3b2e7a5577ff16e3feb151a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713568"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896436"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Eliminare un cespite utilizzando una fattura a testo libero
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come eliminare un cespite utilizzando la fattura a testo libero.
+In questo articolo viene descritto come eliminare un cespite utilizzando la fattura a testo libero.
 
 1. Nel pannello di navigazione andare a **Contabilità clienti > Fatture > Tutte le fatture a testo libero**.
 2. Selezionare **Nuovo**.

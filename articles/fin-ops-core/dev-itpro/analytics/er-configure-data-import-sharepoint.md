@@ -1,6 +1,6 @@
 ---
 title: Configurare l'importazione di dati da SharePoint
-description: In questo argomento viene descritto come importare i dati da Microsoft SharePoint.
+description: In questo articolo viene descritto come importare i dati da Microsoft SharePoint.
 author: NickSelin
 ms.date: 01/05/2022
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9ac328e660c7a8a3b4a4f34a650062a0fa974771
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: 0163ece2f61735073567b32a45d3dc6df8be1864
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864780"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurare l'importazione di dati da SharePoint
 
 [!include[banner](../includes/banner.md)]
 
-Per importare dati da un file ricevuto utilizzando il framework di creazione di report elettronici (ER, electronic reporting), è necessario configurare un formato di ER che supporti l'importazione e quindi eseguire il mapping di modello del tipo **A destinazione** che utilizza quel formato come origine dati. Per importare i dati, è necessario passare al file da importare. Il file ricevuto può essere selezionato manualmente dall'utente. Con la nuova funzionalità di ER per supportare l'importazione dei dati da Microsoft SharePoint, questo processo può essere configurato come automatico. È possibile utilizzare le configurazioni di ER per eseguire l'importazione di dati dai file che sono archiviati in cartelle di Microsoft SharePoint. In questo argomento viene descritto come completare l'importazione da SharePoint. Gli esempi utilizzano transazioni fornitore come dati aziendali.
+Per importare dati da un file ricevuto utilizzando il framework di creazione di report elettronici (ER, electronic reporting), è necessario configurare un formato di ER che supporti l'importazione e quindi eseguire il mapping di modello del tipo **A destinazione** che utilizza quel formato come origine dati. Per importare i dati, è necessario passare al file da importare. Il file ricevuto può essere selezionato manualmente dall'utente. Con la nuova funzionalità di ER per supportare l'importazione dei dati da Microsoft SharePoint, questo processo può essere configurato come automatico. È possibile utilizzare le configurazioni di ER per eseguire l'importazione di dati dai file che sono archiviati in cartelle di Microsoft SharePoint. In questo articolo viene descritto come completare l'importazione da SharePoint. Gli esempi utilizzano transazioni fornitore come dati aziendali.
 
 ## <a name="prerequisites"></a>Prerequisiti
-Per completare gli esempi in questo argomento, è necessario disporre del seguente accesso:
+Per completare gli esempi in questo articolo, è necessario disporre del seguente accesso:
 
 - Accesso a uno dei seguenti ruoli:
 

@@ -1,6 +1,6 @@
 ---
 title: Fatture QR per la Svizzera
-description: Questo argomento fornisce informazioni su come generare fatture QR (QR-slip) ed elaborare fatture QR in entrata.
+description: Questo articolo fornisce informazioni su come generare fatture QR (QR-slip) ed elaborare fatture QR in entrata.
 author: anasyash
 ms.date: 03/25/2020
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Switzerland
 ms.author: anasyash
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7fa109dbdd70fc60742c99cb8045d6a85c0c59cf
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 5c968146b2d60ba3f21ff93dca6aa6b5f0dea319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592645"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906269"
 ---
 # <a name="swiss-qr-bills"></a>Fatture QR per la Svizzera
 
 [!include [banner](../includes/banner.md)]
 
 
-A partire da luglio 2020, oltre alle fatture dovranno essere elaborate ed emesse fatture QR (QR-slips). Questo argomento spiega come generare fatture QR ed elaborare fatture QR in entrata in Microsoft Dynamics 365 Finance.
+A partire da luglio 2020, oltre alle fatture dovranno essere elaborate ed emesse fatture QR (QR-slips). Questo articolo spiega come generare fatture QR ed elaborare fatture QR in entrata in Microsoft Dynamics 365 Finance.
 
 Per rendere disponibile la funzionalità di fatturazione QR, è necessario attivare le seguenti funzionalità nel modulo **Gestione delle funzionalità**:
 

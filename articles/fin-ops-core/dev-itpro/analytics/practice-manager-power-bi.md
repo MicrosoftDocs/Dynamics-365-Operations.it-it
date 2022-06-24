@@ -1,6 +1,6 @@
 ---
 title: Contenuto di Power BI per responsabile procedura
-description: In questo argomento viene descritto cosa è incluso nel contenuto Power BI Responsabile procedura.
+description: In questo articolo viene descritto cosa è incluso nel contenuto Power BI Responsabile procedura.
 author: kfend
 ms.date: 12/18/2017
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4acef3c595f25fa0be16945a9f41611832cfcea9
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 31ca2841983d972194b55d91a6789fd84d62d890
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500223"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898989"
 ---
 # <a name="practice-manager-power-bi-content"></a>Contenuto di Power BI per responsabile procedura
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto cosa è incluso nel contenuto **Responsabile procedura** di Microsoft Power BI. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+In questo articolo viene descritto cosa è incluso nel contenuto Microsoft Power BI **Responsabile procedura**. Descrive come accedere ai report di Power BI e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="overview"></a>Panoramica
 

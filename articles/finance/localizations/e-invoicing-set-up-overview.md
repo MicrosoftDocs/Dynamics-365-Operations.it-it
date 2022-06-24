@@ -1,6 +1,6 @@
 ---
 title: Configurazione della fatturazione elettronica
-description: In questo argomento viene fornita una panoramica del processo di impostazione e configurazione della fatturazione elettronica.
+description: In questo articolo viene fornita una panoramica del processo di impostazione e configurazione della fatturazione elettronica.
 author: dkalyuzh
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: dkalyuzh
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 42e617e26e7658fae9ee54cb8a4dee45314fddaa
-ms.sourcegitcommit: 5f7177b9ab192b5a6554bfc2f285f7cf0b046264
+ms.openlocfilehash: 8e2aa89119530a0ba00a8561d94006285d67a71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661694"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883121"
 ---
 # <a name="electronic-invoicing-setup"></a>Configurazione della fatturazione elettronica
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento viene fornita una panoramica del processo di impostazione e configurazione della fatturazione elettronica. È necessario completare i passaggi di configurazione nell'ordine specificato qui. Se un passaggio è obbligatorio, ma lo salti, la funzionalità non funzionerà correttamente e si verificheranno più errori durante i passaggi successivi o quando utilizzi la funzionalità. 
+In questo articolo viene fornita una panoramica del processo di impostazione e configurazione della fatturazione elettronica. È necessario completare i passaggi di configurazione nell'ordine specificato qui. Se un passaggio è obbligatorio, ma lo salti, la funzionalità non funzionerà correttamente e si verificheranno più errori durante i passaggi successivi o quando utilizzi la funzionalità. 
 
 Prima di iniziare, assicurati che tutti i componenti principali siano configurati correttamente, di esserti registrato a Regulatory Configuration Service (RCS) e di disporre di un'istanza di RCS e che il componente aggiuntivo di fatturazione elettronica sia installato per il tuo ambiente Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management. Per altre informazioni, vedi [Registrarsi e installare la fatturazione elettronica](e-invoicing-install-add-in-microservices-lcs.md).
 

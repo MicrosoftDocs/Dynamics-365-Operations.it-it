@@ -1,6 +1,6 @@
 ---
 title: Panoramica Italia
-description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Italia.
+description: In questo articolo vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Italia.
 author: kfend
 ms.date: 12/01/2021
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: Italy
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 69e51c05327bd424e939c99f1d1ab2d58cfd9c20
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 100fccbcf87e0b33867fef7cd1626b232d6a3e09
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7985587"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880625"
 ---
 # <a name="italy-overview"></a>Panoramica Italia
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono forniti i collegamenti alle risorse della documentazione per l'Italia. 
+In questo articolo vengono forniti i collegamenti alle risorse della documentazione per l'Italia. 
 
 - [Libri IVA](emea-ita-fiscal-books.md)
 - [Dettagli delle dichiarazioni IVA](emea-ita-vat-statements-details.md)

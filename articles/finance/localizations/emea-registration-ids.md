@@ -1,6 +1,6 @@
 ---
 title: ID registrazione
-description: Questo argomento fornisce informazioni sull'impostazione e l'uso degli ID registrazione.
+description: Questo articolo fornisce informazioni sull'impostazione e l'uso degli ID registrazione.
 author: ShylaThompson
 ms.date: 11/08/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 544e994a18811995afc64c052a3f97e622529162b8a14b17206c370026b78ac4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 379cf78ece388f738fad8121d5b0adb4434d7905
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883077"
 ---
 # <a name="registration-ids"></a>ID registrazione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sull'impostazione e l'uso degli ID registrazione.
+Questo articolo fornisce informazioni sull'impostazione e l'uso degli ID registrazione.
 
-Molti paesi e regioni prevedono normative e requisiti diversi per la registrazione delle partite IVA o ID registrazione. In questo argomento viene fornita una panoramica delle impostazioni e dell'elaborazione dei tipi di registrazione supportati per le parti in diversi paesi europei. Tutti i paesi hanno propri requisiti per supportare varie funzionalità specifiche di paese correlati ai numeri di registrazione forniti dai diversi uffici di stato. Esempi di numeri di registrazione includono il Social Security Number (SSN), numero identificativo delle imposte (TIN) e la partita IVA europea (ID IVA UE). Questa funzionalità offre un framework unificato per tutti i paesi in tutte le regioni prendendo in considerazione i requisiti specifici di paese di alcuni paesi europei. Nelle sezioni seguenti viene descritto il flusso generale di informazioni utilizzato per impostare ed elaborare gli ID registrazione.
+Molti paesi e regioni prevedono normative e requisiti diversi per la registrazione delle partite IVA o ID registrazione. In questo articolo viene fornita una panoramica delle impostazioni e dell'elaborazione dei tipi di registrazione supportati per le parti in diversi paesi europei. Tutti i paesi hanno propri requisiti per supportare varie funzionalità specifiche di paese correlati ai numeri di registrazione forniti dai diversi uffici di stato. Esempi di numeri di registrazione includono il Social Security Number (SSN), numero identificativo delle imposte (TIN) e la partita IVA europea (ID IVA UE). Questa funzionalità offre un framework unificato per tutti i paesi in tutte le regioni prendendo in considerazione i requisiti specifici di paese di alcuni paesi europei. Nelle sezioni seguenti viene descritto il flusso generale di informazioni utilizzato per impostare ed elaborare gli ID registrazione.
 
 ## <a name="registration-type-creation"></a>Creazioen del tipo di registrazione
 Prima di immettere l'ID registrazione, è necessario impostare i tipi di registrazione per i diversi tipi di numeri di registrazione a cui ogni parte è soggetta. Andare a **Amministrazione organizzazione** &gt; **Rubrica globale** &gt; **Tipi di registrazione** &gt; pagina **Tipi di registrazione** per creare e gestire i tipi di registrazione per fornitori, clienti, lavoratori e persone giuridiche situate in paesi diversi.
@@ -51,7 +51,7 @@ La categoria di registrazione è l'identificatore di registrazione del paese/reg
 |-----------------------|----------------|
 | Tipo di registrazione     | Il tipo di registrazione in un particolare paese/regione.|
 | Limitato a         | Tipo di restrizione applicabile al tipo di registrazione fiscale: Nessuno, Persona, Organizzazione.|
-| Categoria di registrazione | Identificatore univoco di registrazione approvato per l'uso nel paese. L'elenco completo delle categorie supportate è riportato più avanti in questo argomento. |
+| Categoria di registrazione | Identificatore univoco di registrazione approvato per l'uso nel paese. L'elenco completo delle categorie supportate è riportato più avanti in questo articolo. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Immettere gli ID di registrazione per i record della Rubrica globale
 
@@ -76,7 +76,7 @@ La Rubrica globale contiene informazioni consolidate sugli indirizzi di clienti,
 La ricerca di record di parti in base a un ID registrazione è disponibile nei moduli correlati alla parte, persona giuridica, il fornitore, cliente e lavoratore. Fare clic su **Ricerca ID registrazione**  per aprire la pagina **Criteri di ricerca ID registrazione**. Specificare i criteri di ricerca e fare clic su **Trova**. Nel sistema vengono visualizzati i record selezionati dalla rubrica globale e i tipi associati del record della parte.
 
 ## <a name="supported-registration-categories"></a>Categorie di registrazione supportate
-Nella tabella seguente sono elencati i tipi di registrazione supportati. Se si ha dimestichezza con i campi di Microsoft Dynamics AX 2012 per gli ID registrazione, questa tabella mappa anche quei campi alle categorie di registrazione di Dynamics 365 Finance.
+Nella tabella seguente sono elencati i tipi di registrazione supportati. Se hai dimestichezza con i campi di Microsoft Dynamics AX 2012 per gli ID registrazione, questa tabella mappa anche quei campi alle categorie di registrazione di Dynamics 365 Finance.
 
 | Categoria di registrazione di Finance         |Paese  | Termine/campo di Dynamics AX 2012|
 |---------------------------------------------------------------|---------------------|---------------------------------|

@@ -1,6 +1,6 @@
 ---
 title: Elenco di funzionalità fiscali vuoto nei parametri di calcolo delle imposte
-description: Questo argomento spiega come risolvere un problema in cui l'elenco delle funzioni fiscali nella pagina Parametri di calcolo delle imposte è vuoto.
+description: Questo articolo spiega come risolvere un problema in cui l'elenco delle funzioni fiscali nella pagina Parametri di calcolo delle imposte è vuoto.
 author: wangchen
 ms.date: 03/04/2022
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-10-26
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: ef8158c2ada18e7d132eebbedef559b3f80ab19f
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: 0d9286ec313a270da86181ff80ddfd690a757c9b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612291"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869954"
 ---
 # <a name="empty-tax-feature-list-in-tax-calculation-parameters"></a>Elenco di funzionalità fiscali vuoto nei parametri di calcolo delle imposte
 
@@ -46,7 +46,7 @@ Per trovare l'ID tenant per il tuo ambiente Finance, segui gli stessi passaggi c
 
 ## <a name="resolution"></a>Risoluzione
 
-Se i due ID tenant differiscono, si verifica il problema descritto in questo argomento. Se sono uguali, stai riscontrando un problema non correlato. In questo caso, ti consigliamo di contattare il supporto tecnico Microsoft.
+Se i due ID tenant differiscono, si verifica il problema descritto in questo articolo. Se sono uguali, stai riscontrando un problema non correlato. In questo caso, ti consigliamo di contattare il supporto tecnico Microsoft.
 
 ### <a name="solution-1"></a>Soluzione 1
 

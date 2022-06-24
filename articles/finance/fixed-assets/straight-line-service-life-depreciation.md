@@ -1,6 +1,6 @@
 ---
 title: Ammortamento a quote costanti basato sulla vita utile
-description: Questo argomento offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
+description: Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
 author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d39bfea3f222d83d3b3d47e4ba931521b8e1aed0
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 8766d38958ccb17142132fb78d04368f1b73af71
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726671"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896465"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Ammortamento a quote costanti basato sulla vita utile
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
+Questo articolo offre una panoramica del metodo di ammortamento basato sulla vita utile a quote costanti.
 
 Quando si imposta un profilo di ammortamento cespiti e si seleziona Vita utile a quote costanti nel campo Metodo della pagina Profili di ammortamento, i cespiti cui è assegnato questo profilo vengono ammortizzati in base all'intera vita utile del cespite. In genere è lo stesso importo in ciascun periodo di ammortamento. 
 
@@ -41,7 +41,7 @@ Per impostare l'ammortamento a quote costanti basato sulla vita utile, è inoltr
 
 Se si seleziona Calendario, si presuppone che l'anno inizi il 1° gennaio e termini il 31 dicembre, anche se il calendario fiscale è stato definito in modo diverso. 
 
-Se si seleziona l'opzione Calendario, la base di ammortamento, che in genere corrisponde alla differenza tra il valore contabile netto e il valore di realizzo, verrà aggiornata al 1° gennaio di ogni anno. Negli esempi illustrati più avanti in questo argomento, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. 
+Se si seleziona l'opzione Calendario, la base di ammortamento, che in genere corrisponde alla differenza tra il valore contabile netto e il valore di realizzo, verrà aggiornata al 1° gennaio di ogni anno. Negli esempi illustrati più avanti in questo articolo, la base di ammortamento corrisponde al numeratore della prima espressione riportata nella colonna relativa ai calcoli. 
 
 Se si seleziona Calendario, nel campo Frequenza periodo, che consente di definire gli importi e le date di registrazione dei ratei di ammortamento per l'anno di calendario, saranno disponibili le seguenti opzioni:
 - Annuale: viene registrato un importo il 31 dicembre.

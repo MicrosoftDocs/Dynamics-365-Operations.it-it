@@ -1,6 +1,6 @@
 ---
 title: Scaricare configurazioni ER dall'archivio globale del servizio di configurazione
-description: In questo argomento viene descritto come scaricare le configurazioni per la creazione di report elettronici (ER) dall'archivio globale del servizio di configurazione.
+description: In questo articolo viene descritto come scaricare le configurazioni per la creazione di report elettronici (ER) dall'archivio globale del servizio di configurazione.
 author: NickSelin
 ms.date: 06/02/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 4386e8fdbb2856d14d5b47ee5ab416c8d58b8d63
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891906"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Scaricare configurazioni ER dall'archivio globale del servizio di configurazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come scaricare le [configurazioni per la creazione di report elettronici (ER)](general-electronic-reporting.md#Configuration) dall'archivio globale del servizio di configurazione. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, Servizio di configurazione](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+In questo articolo viene descritto come scaricare le [configurazioni per la creazione di report elettronici (ER)](general-electronic-reporting.md#Configuration) dall'archivio globale del servizio di configurazione. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, Servizio di configurazione](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="open-configurations-repository"></a>Aprire l'archivio delle configurazioni
 
-1. Accedere all'applicazione Dynamics 365 Finance utilizzando uno dei seguenti ruoli:
+1. Accedi all'applicazione Dynamics 365 Finance utilizzando uno dei seguenti ruoli:
 
     - Sviluppatore per la creazione di report elettronici
     - Consulente funzionale per la creazione di report elettronici
@@ -80,7 +80,7 @@ In questo argomento viene descritto come scaricare le [configurazioni per la cre
     ![Pagina archivio di configurazione, scheda dettaglio Versioni, pulsante Importa.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
-> A seconda delle impostazioni ER, le configurazioni vengono convalidate dopo l'importazione. È possibile ricevere una notifica per tutti i problemi di incoerenza rilevati. Prima di utilizzare la versione di configurazione importata, è necessario risolvere i problemi. Per ulteriori informazioni, vedere l'elenco delle risorse correlate per questo argomento.
+> A seconda delle impostazioni ER, le configurazioni vengono convalidate dopo l'importazione. È possibile ricevere una notifica per tutti i problemi di incoerenza rilevati. Prima di utilizzare la versione di configurazione importata, è necessario risolvere i problemi. Per ulteriori informazioni, vedi l'elenco delle risorse correlate per questo articolo.
 
 > [!NOTE]
 > Le configurazioni ER possono essere configurate come dipendenti da altre configurazioni. Pertanto, insieme a una configurazione selezionata, altre configurazioni potrebbero essere importate automaticamente. Per ulteriori informazioni sulle dipendenze delle configurazioni, vedere [Definire la dipendenza delle configurazioni ER in altri componenti](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md).

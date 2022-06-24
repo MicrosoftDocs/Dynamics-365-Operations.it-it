@@ -1,6 +1,6 @@
 ---
 title: Eseguire l'aggiornamento al modello di parte e di rubrica globale
-description: In questo argomento viene descritto come aggiornare i dati a doppia scrittura al modello di parte e rubrica globale.
+description: In questo articolo viene descritto come aggiornare i dati a doppia scrittura al modello di parte e rubrica globale.
 author: RamaKrishnamoorthy
 ms.date: 03/10/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 22b31b46b247ca5f2d6b8b93f58c090b03a2b38c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8688377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895278"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Eseguire l'aggiornamento al modello di parte e di rubrica globale
 
@@ -40,7 +40,7 @@ Alla fine del processo, vengono generati i seguenti file con valori separati da 
 | ImportFONewPostalAddress.csv | Questo file aiuta a creare nuovi record **Indirizzo postale** nell'app per finanza e operazioni. |
 | ImportFONewElectronicAddress.csv | Questo file aiuta a creare nuovi record **Indirizzo elettronico** nell'app per finanza e operazioni. |
 
-In questo argomento vengono fornite istruzioni per utilizzare i modelli Data Factory e aggiornare i dati. Se non disponi di personalizzazioni, puoi utilizzare i modelli così come sono. Tuttavia se hai personalizzazioni per i dati **Account**, **Contatto** e **Fornitore** devi modificare i modelli con le seguenti istruzioni.
+In questo articolo vengono fornite istruzioni per utilizzare i modelli Data Factory e aggiornare i dati. Se non disponi di personalizzazioni, puoi utilizzare i modelli così come sono. Tuttavia se hai personalizzazioni per i dati **Account**, **Contatto** e **Fornitore** devi modificare i modelli con le seguenti istruzioni.
 
 > [!IMPORTANT]
 > Ci sono istruzioni speciali per l'esecuzione dei modelli di indirizzo postale e indirizzo elettronico della parte. È necessario eseguire prima il modello parte, quindi il modello di indirizzo postale di parte e quindi il modello di indirizzo elettronico di parte. Ogni modello è progettato per l'importazione in un data factory separato.

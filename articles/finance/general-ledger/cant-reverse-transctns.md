@@ -1,6 +1,6 @@
 ---
 title: Perché non posso stornare questa transazione?
-description: Questo argomento descrive i vari motivi per cui le transazioni non possono essere stornate. Elenca anche le soluzioni per questo problema.
+description: Questo articolo descrive i vari motivi per cui le transazioni non possono essere stornate. Elenca anche le soluzioni per questo problema.
 author: kweekley
 ms.date: 07/21/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-07-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e18caf1dbdf8191713c17b1793f5da44cf2f182b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 9a8b26584b1a9b82440583db693cd14daa580e22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8724531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876184"
 ---
 # <a name="why-cant-i-reverse-this-transaction"></a>Perché non posso stornare questa transazione?
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive i vari motivi per cui le transazioni non possono essere stornate. Elenca anche le soluzioni per questo problema.
+Questo articolo descrive i vari motivi per cui le transazioni non possono essere stornate. Elenca anche le soluzioni per questo problema.
 
 ## <a name="symptom"></a>Sintomo
 
@@ -35,14 +35,14 @@ Le organizzazioni potrebbero incontrare situazioni in cui devono stornare una tr
 
 ## <a name="resolution"></a>Risoluzione
 
-Le transazioni devono soddisfare criteri specifici prima di poter essere stornate. Le altre sezioni di questo argomento forniscono la convalida di ogni modulo. Sebbene questo argomento descriva le transazioni in Microsoft Dynamics 365 Finance, alcuni dei concetti e la convalida possono essere applicati ad altre app, come Dynamics 365 Supply Chain Management.
+Le transazioni devono soddisfare criteri specifici prima di poter essere stornate. Le altre sezioni di questo articolo forniscono la convalida di ogni modulo. Sebbene questo articolo descriva le transazioni in Microsoft Dynamics 365 Finance, alcuni dei concetti e la convalida possono essere applicati ad altre app, come Dynamics 365 Supply Chain Management.
 
 Inoltre, la posizione in cui una transazione viene stornata potrebbe influire sulla possibilità di effettuare lo storno. Ad esempio, un pagamento fornitore registrato come assegno può essere stornato solo nella sezione **Assegni** della pagina delle transazioni per i conti bancari. Non può essere stornata nella pagina **Transazioni giustificativo** in Contabilità generale.
 
 Se la funzionalità **Storno di massa per più documenti** (nota anche come funzionalità Storno di massa) è attivata nell'area di lavoro **Gestione funzionalità** influisce sul numero di transazioni che possono essere stornate e sulla posizione in cui possono essere stornate. Questa funzionalità presenta due vantaggi quando è attivata:
 
 - Per alcuni tipi di transazioni, è possibile selezionare e stornare più di una transazione alla volta nel giornale di registrazione in cui sono state registrate o nella pagina **Transazioni giustificativo**. Tuttavia, le singole transazioni devono risultare stornabili prima dell'attivazione della funzionalità. Prima dell'introduzione di questa funzionalità, le transazioni dovevano essere stornate una alla volta.
-- *Alcune* transazioni del giornale di registrazione secondario possono essere stornate nel giornale di registrazione (giornale di registrazione generale) o nella pagina **Transazioni giustificativo**. Non devono essere stornate nella pagina del giornale di registrazione secondario. Ad esempio, un giornale di registrazione fatture fornitore in precedenza poteva essere stornato solo nella pagina **Transazioni giustificativo**. Ora può tuttavia essere stornato anche nella contabilità generale, nel giornale di registrazione o nella pagina **Transazioni giustificativo**. Ogni sezione di questo argomento illustra i tipi di transazioni a cui non si applica questo vantaggio.
+- *Alcune* transazioni del giornale di registrazione secondario possono essere stornate nel giornale di registrazione (giornale di registrazione generale) o nella pagina **Transazioni giustificativo**. Non devono essere stornate nella pagina del giornale di registrazione secondario. Ad esempio, un giornale di registrazione fatture fornitore in precedenza poteva essere stornato solo nella pagina **Transazioni giustificativo**. Ora può tuttavia essere stornato anche nella contabilità generale, nel giornale di registrazione o nella pagina **Transazioni giustificativo**. Ogni sezione di questo articolo illustra i tipi di transazioni a cui non si applica questo vantaggio.
 
 La funzionalità Storno di massa **non** abilita più tipi di transazioni da stornare. Se un tipo di transazione non poteva essere stornato in precedenza, non può ancora essere stornato dopo l'attivazione della funzionalità. Ad esempio, le fatture fornitore di ordini fornitore non possono essere stornate, indipendentemente dall'attivazione o meno della funzionalità Storno di massa.
 
@@ -189,7 +189,7 @@ Le transazioni dei seguenti tipi non possono essere stornate:
 
 Vari tipi di transazione aggiornano i giornali di registrazione secondari della contabilità clienti. Gli esempi includono fatture cliente di ordini cliente, fatture cliente immesse tramite il giornale di registrazione generale, fatture a testo libero, pagamenti cliente e annullamenti.
 
-Se la funzionalità Storno di massa è disattivata, le transazioni possono essere stornate individualmente nella pagina **Transazioni cliente** per le fatture o nella pagina **Conti bancari** per i depositi. Per informazioni su come stornare un pagamento, vedi la sezione [Gestione cassa e banche](cant-reverse-transctns.md#cash-and-bank-management) più avanti in questo argomento.
+Se la funzionalità Storno di massa è disattivata, le transazioni possono essere stornate individualmente nella pagina **Transazioni cliente** per le fatture o nella pagina **Conti bancari** per i depositi. Per informazioni su come stornare un pagamento, vedi la sezione [Gestione cassa e banche](cant-reverse-transctns.md#cash-and-bank-management) più avanti in questo articolo.
 
 Se la funzionalità Storno di massa è attivata, anche una o più transazioni di contabilità clienti possono essere stornate nella pagina **Transazioni giustificativo** e nel giornale di registrazione da cui sono state registrate. Tuttavia, i depositi possono ancora essere stornati solo dal conto bancario e le fatture a testo libero possono essere stornate solo nella pagina di origine (se la funzionalità che consente le correzioni è attivata). Inoltre, le transazioni cliente non possono ancora essere stornate nella pagina **Transazioni per \<main account\>** per la contabilità generale. Tuttavia, possono essere stornate nella pagina **Transazioni giustificativo**.
 

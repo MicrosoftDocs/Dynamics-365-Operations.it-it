@@ -1,6 +1,6 @@
 ---
 title: Abilitare le previsioni di pagamento del cliente
-description: Questo argomento spiega come attivare e configurare la funzionalità Previsioni di pagamento del cliente in Finance Insights.
+description: Questo articolo spiega come attivare e configurare la funzionalità Previsioni di pagamento del cliente in Finance Insights.
 author: ShivamPandey-msft
 ms.date: 02/11/2022
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a52d38e8fb842c7fbc8adf60a6daaef6cdc9d5ec
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: f04ee9db5efe3595dea30d641c5097d6b90c0d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898209"
 ---
 # <a name="enable-customer-payment-predictions"></a>Abilitare le previsioni di pagamento del cliente
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come attivare e configurare la funzionalità Previsioni di pagamento del cliente in Finance Insights. Puoi attivare la funzionalità nell'area di lavoro **Gestione funzionalità** e immettere le impostazioni di configurazione nella pagina **Configurazione di Finance Insights**. Questo argomento include anche informazioni che possono aiutarti a utilizzare efficacemente la funzionalità.
+Questo articolo spiega come attivare e configurare la funzionalità Previsioni di pagamento del cliente in Finance Insights. Puoi attivare la funzionalità nell'area di lavoro **Gestione funzionalità** e immettere le impostazioni di configurazione nella pagina **Configurazione di Finance Insights**. Questo articolo include anche informazioni che possono aiutarti a utilizzare efficacemente la funzionalità.
 
 > [!NOTE]
-> Prima di completare i passaggi seguenti, assicurati di completare i passaggi prerequisiti nell'argomento [Configurare Finance Insights](configure-for-fin-insites.md).
+> Prima di completare i passaggi seguenti, assicurati di completare i passaggi prerequisiti nell'articolo [Configurare Finance Insights](configure-for-fin-insites.md).
 
 1. Attiva la funzionalità Previsioni di pagamento del cliente:
 

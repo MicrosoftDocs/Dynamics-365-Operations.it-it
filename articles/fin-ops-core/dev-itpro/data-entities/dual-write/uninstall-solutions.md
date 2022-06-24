@@ -1,6 +1,6 @@
 ---
 title: Disinstallare le soluzioni di orchestrazione dell'applicazione a doppia scrittura
-description: Questo argomento descrive come disinstallare le soluzioni di orchestrazione dell'applicazione a doppia scrittura.
+description: Questo articolo descrive come disinstallare le soluzioni di orchestrazione dell'applicazione a doppia scrittura.
 author: RamaKrishnamoorthy
 ms.date: 03/16/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2022-01-21
-ms.openlocfilehash: 781b2cb19a563d5712fa65718c93bfdc242f0c4a
-ms.sourcegitcommit: abfaef124c8747827d6f297821f01f1f6fbca6b7
+ms.openlocfilehash: 676802ddabac69db4947cf806e9103f67cece3de
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/17/2022
-ms.locfileid: "8455323"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870376"
 ---
 # <a name="uninstall-dual-write-application-orchestration-solutions"></a>Disinstallare le soluzioni di orchestrazione dell'applicazione a doppia scrittura
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come disinstallare le soluzioni di orchestrazione dell'applicazione a doppia scrittura.
+Questo articolo descrive come disinstallare le soluzioni di orchestrazione dell'applicazione a doppia scrittura.
 
 Alcuni clienti installano involontariamente il pacchetto di orchestrazione dell'applicazione a doppia scrittura che installa più soluzioni nel loro ambiente Microsoft Dataverse. L'installazione di soluzioni estranee nel pacchetto possono causare problemi indesiderati o imprevisti.
 

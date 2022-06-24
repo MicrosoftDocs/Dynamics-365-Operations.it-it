@@ -1,6 +1,6 @@
 ---
 title: Report di leasing cespite
-description: Questo argomento elenca e descrive brevemente i report disponibili in Leasing cespite.
+description: Questo articolo elenca e descrive brevemente i report disponibili in Leasing cespite.
 author: moaamer
 ms.date: 04/05/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb1c994fee6efff82dd1cba1e71c6af49b384208
-ms.sourcegitcommit: 722854cb0d302d01ce3d9580ac80dc7c23d19bf5
+ms.openlocfilehash: a6e6eb851b9b2dce7259a5355326dd594a940b8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "8550041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856714"
 ---
 # <a name="asset-leasing-reports"></a>Report di leasing cespite
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca e descrive brevemente i report disponibili in Leasing cespite. La maggior parte dei rapporti viene visualizzata completando questi passaggi o passaggi molto simili, come indicato. 
+Questo articolo elenca e descrive brevemente i report disponibili in Leasing cespite. La maggior parte dei rapporti viene visualizzata completando questi passaggi o passaggi molto simili, come indicato. 
 
 - Per visualizzare la maggior parte dei report sui leasing di cespiti, vai a **Leasing cespiti > Richieste di informazioni e report > Report di leasing** e quindi seleziona un report da visualizzare. Per i report che richiedono un percorso di selezione diverso, i passaggi per aprire il report sono inclusi nella descrizione di quel report. 
 - Quando si seleziona un report da stampare, si apre una pagina dei parametri che consente di filtrare le informazioni incluse nel report. Immetti i criteri di filtro e quindi seleziona **OK** per generare il report. Il report generato mostrerà le informazioni che rientrano nei filtri specificati.

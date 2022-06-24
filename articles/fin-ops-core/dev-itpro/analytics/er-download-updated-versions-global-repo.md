@@ -1,6 +1,6 @@
 ---
 title: Importare versioni aggiornate delle configurazioni ER
-description: In questo argomento viene descritto come importare le versioni aggiornate delle configurazioni per la creazione di report elettronici (ER) dall'archivio globale del servizio di configurazione.
+description: In questo articolo viene descritto come importare le versioni aggiornate delle configurazioni per la creazione di report elettronici (ER) dall'archivio globale del servizio di configurazione.
 author: NickSelin
 ms.date: 06/09/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 69eaa3e2ecfbd1e92f23725d97d7fa9f0abe1cea
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847548"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importare versioni aggiornate delle configurazioni ER
 
@@ -28,7 +28,7 @@ ms.locfileid: "6734890"
 
 Gli [archivi](general-electronic-reporting.md#Repository) per la creazione di report elettronici sono usati per condividere le [configurazioni ER](general-electronic-reporting.md#Configuration). Puoi [importare](download-electronic-reporting-configuration-lcs.md) configurazioni ER da diversi archivi nell'istanza di Microsoft Dynamics 365 Finance. Quando importi le configurazioni ER, i [provider di configurazione](general-electronic-reporting.md#Provider) possono pubblicare nuove [versioni](general-electronic-reporting.md#component-versioning) di archivi in modo che possano essere condivisi.
 
-In questo argomento viene descritto come importare le versioni aggiornate delle configurazioni ER dall'archivio globale del servizio di configurazione. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, Servizio di configurazione](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
+In questo articolo viene descritto come importare le versioni aggiornate delle configurazioni ER dall'archivio globale del servizio di configurazione. Per ulteriori informazioni, vedere [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, Servizio di configurazione](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration).
 
 ## <a name="review-the-available-updated-versions"></a>Rivedere le versioni aggiornate disponibili
 

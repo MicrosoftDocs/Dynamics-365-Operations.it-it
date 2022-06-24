@@ -1,6 +1,6 @@
 ---
 title: Esperienza prodotto unificata
-description: In questo argomento viene descritta l'integrazione dei dati del prodotto tra le app per finanza e operazioni e Dataverse.
+description: In questo articolo viene descritta l'integrazione dei dati del prodotto tra le app per finanza e operazioni e Dataverse.
 author: t-benebo
 ms.date: 12/12/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1b3dc1d16fc34992df0c9478b8b4d163c310b67b
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: a8071887678f16a0b8ee075d2aa24a07e4df5319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8062600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885000"
 ---
 # <a name="unified-product-experience"></a>Esperienza prodotto unificata
 
@@ -126,7 +126,7 @@ App Finanza e operazioni | App di interazione con i clienti |
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Impostazioni ordine predefinite e impostazioni ordine predefinite specifiche del prodotto
 
-Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine. Queste informazioni sono disponibili in Dataverse mediante le impostazioni ordine predefinite e le impostazioni ordine predefinite specifiche del prodotto. Per ulteriori informazioni sulla funzionalità, vedere l'argomento [Impostazioni ordine predefinite](../../../../supply-chain/production-control/default-order-settings.md).
+Le impostazioni ordine predefinite definiscono il sito e il magazzino in cui gli articoli saranno prelevati o archiviati, le quantità minima, massima, multipla e standard che verrà utilizzata per il commercio o la gestione degli articoli, i lead time, il flag di interruzione e il metodo delle promesse ordine. Queste informazioni sono disponibili in Dataverse mediante le impostazioni ordine predefinite e le impostazioni ordine predefinite specifiche del prodotto. Per ulteriori informazioni sulla funzionalità, vedi l'articolo [Impostazioni ordine predefinite](../../../../supply-chain/production-control/default-order-settings.md).
 
 App Finanza e operazioni | App di interazione con i clienti |
 ---|---

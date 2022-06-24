@@ -1,6 +1,6 @@
 ---
 title: Impostare gli effetti attivi
-description: In questo argomento viene illustrata la procedura per l'impostazione degli effetti attivi.
+description: In questo articolo viene illustrata la procedura per l'impostazione degli effetti attivi.
 author: ShivamPandey-msft
 ms.date: 09/17/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6a9d04500ffe5b93c7a95c5cac9b4270e208dde9
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: 91821b10afe7cdbabd0a58b61219ce29d686c5c9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8726811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874727"
 ---
 # <a name="set-up-bills-of-exchange"></a>Impostare gli effetti attivi
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrata la procedura per l'impostazione degli effetti attivi.
+In questo articolo viene illustrata la procedura per l'impostazione degli effetti attivi.
 
 Un effetto attivo è un ordine scritto o elettronico di un cliente in cui è specificato che un'altra parte, in genere una banca, deve pagare un determinato importo alla società. Quando si utilizza un effetto attivo come pagamento per una fattura di ordine cliente o una fattura a testo libero, si esegue un accredito sul conto cliente. Tale accredito viene garantito dall'effetto attivo finché il cliente non paga l'effetto attivo alla banca. In genere, la fattura viene liquidata con l'effetto attivo alla data di scadenza. Quando si riceve la notifica dalla banca che il pagamento è stato effettuato, l'effetto attivo può essere chiuso. È possibile emettere un effetto attivo tramite la propria banca con la seguente tempistica:
 

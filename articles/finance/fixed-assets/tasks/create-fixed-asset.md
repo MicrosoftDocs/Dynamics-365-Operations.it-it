@@ -1,6 +1,6 @@
 ---
 title: Creare un cespite
-description: In questo argomento viene illustrato come creare un nuovo record di cespite dalla pagina elenco Cespite.
+description: In questo articolo viene illustrato come creare un nuovo record di cespite dalla pagina elenco Cespite.
 author: moaamer
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9394c0c7a5e2d9b417cbaee9f4e67f36ae124fb
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 00c72081d20015737aa027cee9474a54e498cef4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8714287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868491"
 ---
 # <a name="create-a-fixed-asset"></a>Creare un cespite
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene illustrato come creare un nuovo record di cespite dalla pagina elenco **Cespite**.
+In questo articolo viene illustrato come creare un nuovo record di cespite dalla pagina elenco **Cespite**.
 
 Il sistema assegna il numero di cespite, in base alla sequenza numerica assegnata al gruppo di cespiti. Se si utilizza il modello di cespite per importare cespiti tramite il componente aggiuntivo per Microsoft Excel o se si utilizza un altro processo di importazione, il sistema crea automaticamente record di cespiti e incrementa il numero di cespite.
 

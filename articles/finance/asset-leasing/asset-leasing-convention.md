@@ -1,6 +1,6 @@
 ---
 title: Convenzioni del leasing di cespiti
-description: In questo argomento vengono descritte le convenzioni per i cespiti in leasing.
+description: In questo articolo vengono descritte le convenzioni per i cespiti in leasing.
 author: moaamer
 ms.date: 04/12/2021
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5e0aabce46e47079b754b8ac674b205cf00b5e26
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f2f0e21b20a969c0847ce3a6eb167287c1d7ee3e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711032"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898271"
 ---
 # <a name="asset-leasing-conventions"></a>Convenzioni del leasing di cespiti
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In questo argomento vengono descritte le convenzioni per i cespiti in leasing. Le convenzioni di leasing sono utilizzate per determinare la data di inizio di un libro di leasing. Se la convenzione di leasing è impostata su **Nessuna**, la data di inizio è uguale alla data di inizio del leasing (ovvero, il valore del campo **Data di inizio leasing**). Se la convenzione di leasing è impostata su **Mese intero**, la data di inizio è il primo giorno del mese in cui cade la data di inizio del leasing.
+In questo articolo vengono descritte le convenzioni per i cespiti in leasing. Le convenzioni di leasing sono utilizzate per determinare la data di inizio di un libro di leasing. Se la convenzione di leasing è impostata su **Nessuna**, la data di inizio è uguale alla data di inizio del leasing (ovvero, il valore del campo **Data di inizio leasing**). Se la convenzione di leasing è impostata su **Mese intero**, la data di inizio è il primo giorno del mese in cui cade la data di inizio del leasing.
 
 La data di inizio determina la data di inizio del periodo per i piani di ammortamento delle passività e dei cespiti. Gli interessi passivi e le spese di ammortamento sono registrati alla data di fine periodo delle programmazioni corrispondenti. La rilevazione iniziale e la registrazione contabile di rettifica vengono registrate alla data di inizio.
 

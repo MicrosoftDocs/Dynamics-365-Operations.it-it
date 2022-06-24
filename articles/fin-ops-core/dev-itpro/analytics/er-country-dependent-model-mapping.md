@@ -1,6 +1,6 @@
 ---
 title: Configurare i mapping dei modelli ER dipendenti dal contesto del paese
-description: In questo argomento viene descritto come impostare i mapping di modelli ER in modo che dipendano dalle contesto del paese della persona giuridica che ne controlla l'utilizzo.
+description: In questo articolo viene descritto come impostare i mapping di modelli ER in modo che dipendano dalle contesto del paese della persona giuridica che ne controlla l'utilizzo.
 author: NickSelin
 ms.date: 11/11/2019
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
-ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
+ms.openlocfilehash: 771b14662638838ac1f39d85b19ac58a47352c79
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7605373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8883877"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurare i mapping dei modelli ER dipendenti dal contesto del paese
 
 [!include[banner](../includes/banner.md)]
 
-È possibile configurare i mapping dei modelli per la creazione di report elettronici in modo che implementino un modello di dati ER generico ma sia specifico per Dynamics 365 Finance. In questo argomento viene descritto come pianificare più mapping del modello ER affinché un modello di dati ER verifichi come vengono utilizzati i formati ER corrispondenti che vengono eseguiti dalle società che hanno diversi contesti di paese.
+È possibile configurare i mapping dei modelli per la creazione di report elettronici in modo che implementino un modello di dati ER generico ma sia specifico per Dynamics 365 Finance. In questo articolo viene descritto come pianificare più mapping del modello ER affinché un modello di dati ER verifichi come vengono utilizzati i formati ER corrispondenti che vengono eseguiti dalle società che hanno diversi contesti di paese.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Per completare gli esempi in questo argomento, è necessario disporre del seguente accesso:
+Per completare gli esempi in questo articolo, è necessario disporre del seguente accesso:
 
 - Accesso a Finance per uno dei seguenti ruoli:
     - Sviluppatore per la creazione di report elettronici
@@ -42,11 +42,11 @@ Per completare gli esempi in questo argomento, è necessario disporre del seguen
     - Consulente funzionale per la creazione di report elettronici
     - Amministratore di sistema
 
-Alcuni passaggi in questo argomento richiedono l'esecuzione di un formato ER. In alcuni casi, l'esecuzione di un formato ER è interessata dalle contesto del paese della società a cui si è attualmente collegati. È possibile eseguire un formato ER nell'istanza RCS corrente se la società con il contesto di paese richiesto è disponibile nel RCS. In caso contrario, è necessario caricare una versione completa del mapping del modello ER e delle configurazioni del formato ER che utilizzano il modello di dati ER nell'istanza di Finance, quindi eseguire il formato ER nell'istanza di Finance. Per informazioni sull'importazione delle configurazioni che risiedono nel RCS in un'istanza di Finance, vedere [Importare configurazioni da RCS](rcs-download-configurations.md).
+Alcuni passaggi in questo articolo richiedono l'esecuzione di un formato ER. In alcuni casi, l'esecuzione di un formato ER è interessata dalle contesto del paese della società a cui si è attualmente collegati. È possibile eseguire un formato ER nell'istanza RCS corrente se la società con il contesto di paese richiesto è disponibile nel RCS. In caso contrario, è necessario caricare una versione completa del mapping del modello ER e delle configurazioni del formato ER che utilizzano il modello di dati ER nell'istanza di Finance, quindi eseguire il formato ER nell'istanza di Finance. Per informazioni sull'importazione delle configurazioni che risiedono nel RCS in un'istanza di Finance, vedere [Importare configurazioni da RCS](rcs-download-configurations.md).
 
 ## <a name="single-model-mapping-case"></a>Caso di mapping di modello singolo
 
-Seguire i passaggi descritti nell'[Appendice 1](#appendix1) in questo argomento per pianificare i componenti ER necessari. È stata creata la configurazione del mapping di modello **Mapping (generale)** contenente il mapping di modello per la definizione **Punto di ingresso 1**.
+Segui i passaggi descritti nell'[Appendice 1](#appendix1) in questo articolo per pianificare i componenti ER necessari. È stata creata la configurazione del mapping di modello **Mapping (generale)** contenente il mapping di modello per la definizione **Punto di ingresso 1**.
 
 ![Pagina configurazioni ER, formato per apprendere la configurazione dei mapping.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
@@ -59,7 +59,7 @@ Si noti che il Web browser offre il download del file di testo generato dal form
 
 ## <a name="multiple-shared-model-mappings-case"></a>Caso di più mapping di modello condivisi
 
-Seguire i passaggi descritti nell'[Appendice 2](#appendix2) in questo argomento per pianificare i componenti ER necessari. Ora sono disponibili le configurazioni di mapping di modello **Mapping (generale)** e **Mapping (generale) personalizzato**, ognuna delle quali contiene il mapping di modello per la definizione **Punto di ingresso 1**.
+Segui i passaggi descritti nell'[Appendice 2](#appendix2) in questo articolo per pianificare i componenti ER necessari. Ora sono disponibili le configurazioni di mapping di modello **Mapping (generale)** e **Mapping (generale) personalizzato**, ognuna delle quali contiene il mapping di modello per la definizione **Punto di ingresso 1**.
 
 ![Pagina delle configurazioni ER, configurazione personalizzata generale di mapping.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
@@ -97,7 +97,7 @@ Si noti che l'esecuzione del formato ER selezionato ha esito positivo. Il Web br
 
 ## <a name="multiple-mixed-model-mappings-case"></a>Caso di più mapping di modello misti
 
-Seguire i passaggi descritti nell'[Appendice 3](#appendix3) in questo argomento per pianificare i componenti ER necessari. Ora sono disponibili le configurazioni di mapping di modello **Mapping (generale)**, **Mapping (generale) personalizzato** e **Mapping (FR)** contenenti il mapping di modello per la definizione **Punto di ingresso 1**.
+Segui i passaggi descritti nell'[Appendice 3](#appendix3) in questo articolo per pianificare i componenti ER necessari. Ora sono disponibili le configurazioni di mapping di modello **Mapping (generale)**, **Mapping (generale) personalizzato** e **Mapping (FR)** contenenti il mapping di modello per la definizione **Punto di ingresso 1**.
 
 Si noti che la versione 1 della configurazione di mapping di modello **Mapping (FR)** è configurata in modo che venga applicata solo ai formati ER del modello **Modello per ottenere i mapping** che vengono eseguiti nelle società Finance con il contesto del paese francese.
 
@@ -138,10 +138,10 @@ Si noti che l'esecuzione del formato ER selezionato ha esito positivo. Il Web br
 
 Come è stato illustrato, la selezione di un mapping di modello per l'esecuzione di un formato ER funziona nel modo seguente:
 
-- La definizione di mapping di modello utilizzata da un formato ER è specificata (**Punto di ingresso 1** negli esempi di questo argomento).
-- Tutte le configurazioni di mapping che contengono un mapping con la definizione specificata e che soddisfano eventuali restrizioni del contesto del paese configurate, possono essere potenzialmente utilizzate per eseguire il formato ER (**Mapping (generale)**, **Mapping (generale) personalizzato** e **Mapping (FR)** negli esempi di questo argomento).
-- Qualsiasi mapping di modello predefinito che ha restrizioni di contesto del paese ha la massima priorità per la selezione (**Mapping (FR)** negli esempi di questo argomento).
-- Qualsiasi mapping di modello predefinito che non ha restrizioni di contesto del paese ha la successiva massima priorità per la selezione (**Mapping (generale) personalizzato** negli esempi di questo argomento).
+- La definizione di mapping di modello utilizzata da un formato ER è specificata (**Punto di ingresso 1** negli esempi di questo articolo).
+- Tutte le configurazioni di mapping che contengono un mapping con la definizione specificata e che soddisfano eventuali restrizioni del contesto del paese configurate, possono essere potenzialmente utilizzate per eseguire il formato ER (**Mapping (generale)**, **Mapping (generale) personalizzato** e **Mapping (FR)** negli esempi di questo articolo).
+- Qualsiasi mapping di modello predefinito che ha restrizioni di contesto del paese ha la massima priorità per la selezione (**Mapping (FR)** negli esempi di questo articolo).
+- Qualsiasi mapping di modello predefinito che non ha restrizioni di contesto del paese ha la successiva massima priorità per la selezione (**Mapping (generale) personalizzato** negli esempi di questo articolo).
 - Qualsiasi mapping di modello che ha restrizioni del contesto del paese ha una priorità di selezione più elevata rispetto a un mapping di modello che non ha restrizioni di contesto del paese.
 
 La tabella seguente fornisce informazioni sui risultati della selezione del mapping di modello per tutti i possibili casi per le impostazioni del mapping di modello:

@@ -1,6 +1,6 @@
 ---
 title: Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)
-description: Questo argomento descrive come immettere le combinazioni di conto e di dimensioni o conti CoGe. All'esperienza di inserimento si fa spesso riferimento come controllo di voci segmentato.
+description: Questo articolo descrive come immettere le combinazioni di conto e dimensioni o conti CoGe. All'esperienza di inserimento si fa spesso riferimento come controllo di voci segmentato.
 author: aprilolson
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 779c455cb842fda941ce716eb644b9e3020f5e90
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 8bbe36bc42ca501cf3ff48aa4951a3959ea8056a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717504"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861360"
 ---
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Immettere le combinazioni di conto e dimensione (controllo di voci segmentato)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come immettere le combinazioni di conto e di dimensioni o conti CoGe. All'esperienza di inserimento si fa spesso riferimento come controllo di voci segmentato.
+Questo articolo descrive come immettere le combinazioni di conto e dimensioni o conti CoGe. All'esperienza di inserimento si fa spesso riferimento come controllo di voci segmentato.
 
 Gli utenti immettono le combinazioni di conto e dimensione su diverse pagine, ad esempio pagine per i giornali di registrazione generali, impostazione del budget e definizioni di registrazione. Le combinazioni di conto e dimensione valide dipendono dalle strutture dei conti assegnate alla contabilità generale e alle regole avanzate assegnate alle strutture dei conti. Quando gli utenti immettono una combinazione, possono digitare il valori manualmente o sfruttare un'esperienza di ricerca complessa. Quando si immette il campo, è possibile iniziare a digitare e verranno cercati il valore e la descrizione. Ad esempio, se si digita 180 verrà cercato qualsiasi valore che inizia con quella combinazione di numeri. Oppure è possibile digitare Contanti e verrà cercato qualsiasi valore con una descrizione che inizia con Contanti. È inoltre possibile utilizzare un jolly, ad esempio  \*Contanti o \*180  per cercare se il valore o la descrizione contiene i criteri di ricerca. 
 

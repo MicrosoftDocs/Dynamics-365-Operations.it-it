@@ -1,6 +1,6 @@
 ---
 title: Registrazione ordine fornitore
-description: Questo argomento descrive la scheda Ordine fornitore della pagina Profili di registrazione inventario.
+description: Questo articolo descrive la scheda Ordine fornitore della pagina Profili di registrazione inventario.
 author: rachelprofitt
 ms.date: 04/25/2022
 ms.topic: overview
@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 4b36ab9da22da7d4f3e62bd2d2aba2a2ec80e60f
-ms.sourcegitcommit: 5b55f2913e736d12e40c227bf3ce3a9abec815bd
+ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8803025"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849933"
 ---
 # <a name="purchase-order-posting"></a>Registrazione ordine fornitore
 
@@ -125,7 +125,7 @@ Le richieste d'acquisto e le conferme degli ordini fornitore possono essere conf
 
 ## <a name="procurement-category-posting"></a>Registrazione categoria di approvvigionamento
 
-In alternativa all'impostazione della registrazione dell'inventario per tutti gli articoli, un gruppo di articoli o un singolo articolo, è possibile impostare le categorie e controllare la registrazione contabile in base alle categorie di approvvigionamento. Per ulteriori informazioni sull'impostazione delle categorie e sull'assegnazione ai prodotti, vai a [Esempio di configurazione del profilo di registrazione](#sample-posting-profile-configuration) in precedenza in questo argomento.
+In alternativa all'impostazione della registrazione dell'inventario per tutti gli articoli, un gruppo di articoli o un singolo articolo, è possibile impostare le categorie e controllare la registrazione contabile in base alle categorie di approvvigionamento. Per ulteriori informazioni sull'impostazione delle categorie e sull'assegnazione ai prodotti, vai a [Esempio di configurazione del profilo di registrazione](#sample-posting-profile-configuration) in precedenza in questo articolo.
 
 Quando si utilizzano categorie con ordini fornitore o fatture fornitore, è necessario assegnare la gerarchia delle categorie al tipo **Gerarchia delle categorie di approvvigionamento** sulla pagina **Assegnazioni di ruolo della gerarchia di categorie**.
 

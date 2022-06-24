@@ -1,6 +1,6 @@
 ---
 title: Concetto di società in Dataverse
-description: In questo argomento viene descritta l'integrazione dei dati della società tra Finanza e operazioni e Dataverse.
+description: In questo articolo viene descritta l'integrazione dei dati della società tra Finance and Operations e Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 3657e41363ca6c1ce8eabfeaf3ba6da9b93f5e2a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873180"
 ---
 # <a name="company-concept-in-dataverse"></a>Concetto di società in Dataverse
 
@@ -49,7 +49,7 @@ Grazie a questa configurazione, qualsiasi riga correlata alla società USMF sar�
 
 Come mostra la figura precedente, questo mapping 1:1 tra Business Unit, società e team è solo un punto di partenza. In questo esempio, il nuovo Business Unit "Europe" è stata creata manualmente in Dataverse come padre sia per DEMF che ESMF. La nuova Business Unit principale non è correlata alla doppia scrittura. Tuttavia, è possibile utilizzarla per dare ai membri del team "EUR Sales" accesso ai dati dei conti sia in DEMF che in ESMF impostando la visibilità dei dati su **BU padre/figlio** nel ruolo di sicurezza associato.
 
-Argomento finale da discutere è come la doppia scrittura determina a quale team proprietario assegnare alle righe. Questo funzionamento dipende dalla colonna **Team proprietario predefinito** nella riga cdm\_Company. Quando una riga cdm\_Company è abilitata per la doppia scrittura, un plugin crea automaticamente la Business Unit e il team proprietario (se non esiste già) associati e imposta la colonna **Team proprietario predefinito**. Il amministratore può modificare questa colonna su un valore diverso. Tuttavia, l'amministratore non può cancellare la colonna finché la tabella è abilitata per la doppia scrittura.
+L'articolo finale da discutere è come la doppia scrittura determina a quale team proprietario assegnare alle righe. Questo funzionamento dipende dalla colonna **Team proprietario predefinito** nella riga cdm\_Company. Quando una riga cdm\_Company è abilitata per la doppia scrittura, un plugin crea automaticamente la Business Unit e il team proprietario (se non esiste già) associati e imposta la colonna **Team proprietario predefinito**. Il amministratore può modificare questa colonna su un valore diverso. Tuttavia, l'amministratore non può cancellare la colonna finché la tabella è abilitata per la doppia scrittura.
 
 > [!div class="mx-imgBorder"]
 ![Colonna Team proprietario predefinito.](media/dual-write-default-owning-team.jpg)

@@ -1,6 +1,6 @@
 ---
 title: Panoramica del sistema del flusso di lavoro
-description: Viene descritto il sistema flusso di lavoro.
+description: In questo articolo viene descritto il sistema flusso di lavoro.
 author: ChrisGarty
 ms.date: 07/25/2019
 ms.topic: overview
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70776ba0a0461998d2c1f62ba05b55cd4307a0f7
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: 13dd4335a8b939a44ea7176a90f660999c32a83a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8067935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863190"
 ---
 # <a name="workflow-system-overview"></a>Panoramica del sistema del flusso di lavoro
 
@@ -30,7 +30,7 @@ ms.locfileid: "8067935"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Viene descritto il sistema flusso di lavoro.
+In questo articolo viene descritto il sistema flusso di lavoro.
 
 ## <a name="what-is-workflow"></a>Flusso di lavoro e Workflow
 

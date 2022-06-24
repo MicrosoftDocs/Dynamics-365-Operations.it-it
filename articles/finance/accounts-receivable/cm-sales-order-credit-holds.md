@@ -1,6 +1,6 @@
 ---
 title: Sospensioni credito per ordini cliente
-description: Questo argomento descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito.
+description: Questo articolo descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito.
 author: JodiChristiansen
 ms.date: 07/20/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2d8966f993e7ca82b10a2ef5a023256a05682980
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 44560425056ee1726f21a4279f36c2e718956814
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734335"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856830"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Sospensioni credito per ordini cliente
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Questo argomento descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito. Le regole di blocco della gestione dei crediti possono essere applicate a un singolo cliente o a un gruppo di clienti. Le regole di blocco definiscono le risposte alle seguenti circostanze:
+Questo articolo descrive l'impostazione delle regole utilizzate per mettere un ordine cliente in attesa del credito. Le regole di blocco della gestione dei crediti possono essere applicate a un singolo cliente o a un gruppo di clienti. Le regole di blocco definiscono le risposte alle seguenti circostanze:
 
 1. Numero di giorni in ritardo
 2. Stato dei conti

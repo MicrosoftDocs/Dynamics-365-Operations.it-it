@@ -1,6 +1,6 @@
 ---
 title: Rivalutare i canoni di leasing collegati a un tasso di indicizzazione
-description: In questo argomento viene descritta la rettifica effettuata per l'obbligazione sul leasing per un asset Right of use quando i canoni di leasing variabili cambiano a causa di una variazione del tasso di indicizzazione.
+description: In questo articolo viene descritta la rettifica effettuata per l'obbligazione sul leasing per un asset Right of use quando i canoni di leasing variabili cambiano a causa di una variazione del tasso di indicizzazione.
 author: moaamer
 ms.date: 01/11/2022
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5abd1f5d265c6e8b53903e6df5c52a06b3468880
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 8dc2325e9f0651bea0d70d9f66e5d88b741009f8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968054"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903249"
 ---
 # <a name="revalue-lease-payments-that-are-linked-to-an-index-rate"></a>Rivalutare i canoni di leasing collegati a un tasso di indicizzazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritta la rettifica effettuata per l'obbligazione sul leasing per un asset Right of use quando i canoni di leasing variabili cambiano a causa di una variazione del tasso di indicizzazione. L'obbligazione sul leasing e l'asset Right of use saranno rettificati per contabilizzare i nuovi importi del pagamento. Ai sensi del principio Accounting Standards Codification Topic 842 (ASC 842), che è lo standard nei Principi contabili generalmente accettati negli Stati Uniti (US GAAP), solo i pagamenti variabili cambiano quando i pagamenti aumentano o diminuiscono a causa di una variazione del tasso di indicizzazione, a meno che non ci siano ulteriori modifiche ai flussi di cassa. Queste modifiche aggiuntive potrebbero includere una modifica dei termini del leasing correlata ai tassi di interesse. Per ulteriori informazioni, vedi ASC 842-10-55-225 e il paragrafo 42 (b) dell'International Financial Reporting Standard 16 (IFRS 16).
+In questo articolo viene descritta la rettifica effettuata per l'obbligazione sul leasing per un asset Right of use quando i canoni di leasing variabili cambiano a causa di una variazione del tasso di indicizzazione. L'obbligazione sul leasing e l'asset Right of use saranno rettificati per contabilizzare i nuovi importi del pagamento. Ai sensi del principio Accounting Standards Codification Topic 842 (ASC 842), che è lo standard nei Principi contabili generalmente accettati negli Stati Uniti (US GAAP), solo i pagamenti variabili cambiano quando i pagamenti aumentano o diminuiscono a causa di una variazione del tasso di indicizzazione, a meno che non ci siano ulteriori modifiche ai flussi di cassa. Queste modifiche aggiuntive potrebbero includere una modifica dei termini del leasing correlata ai tassi di interesse. Per ulteriori informazioni, vedi ASC 842-10-55-225 e il paragrafo 42 (b) dell'International Financial Reporting Standard 16 (IFRS 16).
 
 ## <a name="adjust-lease-payments"></a>Rettificare i canoni del leasing
 

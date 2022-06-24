@@ -1,6 +1,6 @@
 ---
 title: Utilizzare le origini dati del codice a barre per generare immagini di codici a barre
-description: Questo argomento spiega come utilizzare le origini dati del codice a barre per generare immagini di codici a barre.
+description: Questo articolo spiega come utilizzare le origini dati del codice a barre per generare immagini di codici a barre.
 author: NickSelin
 ms.date: 10/21/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: a5a396080d8b5dd4c2ed9a0eb15c1286e8799ebf
-ms.sourcegitcommit: d5d6b81bd8b08de20cc018c2251436065982489e
+ms.openlocfilehash: c8e755b664656a1a10672a990dc581969f6a7b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323954"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880314"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Utilizzare le origini dati del codice a barre per generare immagini di codici a barre
 
@@ -77,7 +77,7 @@ Quando si configura un'origine dati **Codice a barre**, è possibile definire sp
 >
 > Quando si associa un'origine dati **Codice a barre** a un elemento cella in un formato e l'elemento cella rappresenta un controllo del contenuto di Word o un'immagine di Excel, l'origine dati viene presentata in quell'associazione come una funzione che ha un singolo parametro di tipo **Stringa**. È necessario utilizzare questo parametro per specificare il testo che deve essere trasformato in un'immagine di codice a barre e letto quando viene scannerizzato un codice a barre generato.
 
-Per ulteriori informazioni su questa funzionalità, completare gli esempi in questo argomento.
+Per ulteriori informazioni su questa funzionalità, completa gli esempi in questo articolo.
 
 ## <a name="example-generate-a-payment-check-that-contains-a-bar-code-that-encodes-the-payable-amount"></a>Esempio: generare un assegno di pagamento che contiene un codice a barre che codifica l'importo da pagare
 
@@ -112,7 +112,7 @@ Per completare l'esempio in questo argomento, è necessario avere accesso alla s
 - Consulente funzionale per la creazione di report elettronici
 - Amministratore di sistema
 
-Se l'esempio nell'argomento [Incorporare immagini e forme nei documenti generati utilizzando ER](electronic-reporting-embed-images-shapes.md) non è ancora stato completato, scaricare le seguenti configurazioni della soluzione ER di esempio.
+Se l'esempio nell'articolo [Incorporare immagini e forme nei documenti generati utilizzando ER](electronic-reporting-embed-images-shapes.md) non è ancora stato completato, scarica le seguenti configurazioni della soluzione ER di esempio.
 
 | Descrizione contenuto         | Nome file                   |
 |-----------------------------|-----------------------------|
@@ -128,7 +128,7 @@ Inoltre, scaricare il seguente file Excel che contiene il modello modificato per
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Attivare un provider di configurazioni
 
 1. Andare a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
-2. Nella pagina **Configurazioni localizzazione** nella sezione **Provider di configurazione** verificare che il [provider di configurazione](general-electronic-reporting.md#Provider) per la società di esempio **Litware, Inc.** sia elencato e contrassegnato come attivo. Se non è elencato o non è contrassegnato come attivo, completare i passaggi dell'argomento [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Nella pagina **Configurazioni localizzazione** nella sezione **Provider di configurazione** verificare che il [provider di configurazione](general-electronic-reporting.md#Provider) per la società di esempio **Litware, Inc.** sia elencato e contrassegnato come attivo. Se non è elencato o non è contrassegnato come attivo, completa i passaggi dell'articolo [Creare un provider di configurazione e contrassegnarlo come attivo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Impostazione della società di esempio come attiva nella pagina Configurazioni localizzazione.](./media/er-barcode-data-source-active-provider.png)
 
@@ -284,7 +284,7 @@ La versione bozza del formato selezionato è contrassegnata come disponibile per
 
 ### <a name="convert-the-generated-check-to-a-pdf"></a><a name="ExampleConvertToPDF"></a>Convertire l'assegno generato in un PDF
 
-Come descritto nell'argomento [Generare moduli FTI stampabili](er-generate-printable-fti-forms.md#finland) è possibile utilizzare un carattere speciale per produrre codici a barre in un documento generato. In questo caso, ulteriori trasformazioni del documento generato potrebbero dipendere dalla disponibilità di quel carattere nell'ambiente di trasformazione. Ad esempio, se si tenta di convertire un documento in formato PDF o di visualizzarne l'anteprima in un ambiente in cui manca il carattere, i codici a barre non verranno visualizzati correttamente.
+Come descritto nell'articolo [Generare moduli FTI stampabili](er-generate-printable-fti-forms.md#finland) è possibile utilizzare un carattere speciale per produrre codici a barre in un documento generato. In questo caso, ulteriori trasformazioni del documento generato potrebbero dipendere dalla disponibilità di quel carattere nell'ambiente di trasformazione. Ad esempio, se si tenta di convertire un documento in formato PDF o di visualizzarne l'anteprima in un ambiente in cui manca il carattere, i codici a barre non verranno visualizzati correttamente.
 
 Tuttavia, quando si utilizza l'origine dati **Codice a barre** per produrre codici a barre, il rendering dei codici a barre non dipende da alcun carattere. Pertanto, è possibile convertire facilmente i documenti che contengono i codici a barre in formato PDF. La seguente illustrazione mostra l'anteprima di un assegno di pagamento generato che è stato [convertito](electronic-reporting-destinations.md#OutputConversionToPDF) in un PDF, in base all'impostazione della [destinazione ER](electronic-reporting-destinations.md) configurata.
 

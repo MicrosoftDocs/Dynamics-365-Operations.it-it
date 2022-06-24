@@ -1,6 +1,6 @@
 ---
-title: Rivalutazione valuta estera - Banca
-description: In questo argomento viene fornita una panoramica del processo di rivalutazione valuta estera della banca. Include informazioni su impostazione, esecuzione del processo, calcolo per il processo e storno delle transazioni di rivalutazione.
+title: Rivalutazione valuta estera banca
+description: In questo articolo viene fornita una panoramica del processo di rivalutazione valuta estera della banca. Include informazioni su impostazione, esecuzione del processo, calcolo per il processo e storno delle transazioni di rivalutazione.
 author: kweekley
 ms.date: 05/16/2019
 ms.topic: article
@@ -13,19 +13,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a8ce792fdc0c6b441deaead32db04ee0246becc9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: d68232af3e87cef2f86213211e6c87f7d654df33
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711205"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863103"
 ---
-# <a name="bank-foreign-currency-revaluation"></a>Rivalutazione valuta estera - Banca
+# <a name="bank-foreign-currency-revaluation"></a>Rivalutazione valuta estera banca
 
 [!include [banner](../includes/banner.md)]
 
 
-In questo argomento viene fornita una panoramica del processo di rivalutazione valuta estera della banca. Descrive come impostare ed eseguire il processo e fornisce informazioni sul calcolo per il processo nonché come stornare le transazioni di rivalutazione, se lo storno è obbligatorio.
+In questo articolo viene fornita una panoramica del processo di rivalutazione valuta estera della banca. Descrive come impostare ed eseguire il processo e fornisce informazioni sul calcolo per il processo nonché come stornare le transazioni di rivalutazione, se lo storno è obbligatorio.
 
 Nell'ambito di una fine periodo le convenzioni di contabilità richiedono che i saldi dei conti bancari in valuta estera vengano rivalutati utilizzando diversi tipi di tassi di cambio (corrente, storico, medio e così via). La funzionalità di rivalutazione valuta estera della banca può essere utilizzata per rivalutare uno o più conti bancari. La funzionalità è anche una funzionalità globale. Di conseguenza, da una singola pagina, è possibile rivalutare le banche per tutte le persone giuridiche a cui si ha accesso.
 

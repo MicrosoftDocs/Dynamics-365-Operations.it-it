@@ -1,6 +1,6 @@
 ---
 title: Configurare ed eseguire l'elaborazione per chiamare un formato ER di esportazione semplice con cui generare un report di Excel
-description: Questo argomento fornisce un esempio che mostra come impostare e utilizzare i messaggi elettronici.
+description: Questo articolo fornisce un esempio che mostra come impostare e utilizzare i messaggi elettronici.
 author: liza-golub
 ms.date: 07/06/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c2735df09ecf029503ae96a88a523ea40197da8f
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 9894aabde854189e6fc1b6bb62051747f190e3ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904588"
 ---
 # <a name="set-up-and-run-processing-to-call-a-simple-exporting-er-format-to-generate-an-excel-report"></a>Configurare ed eseguire l'elaborazione per chiamare un formato ER di esportazione semplice con cui generare un report di Excel
 

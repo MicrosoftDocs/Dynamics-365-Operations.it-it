@@ -1,6 +1,6 @@
 ---
 title: Introduzione alla fatturazione elettronica per il Messico
-description: Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per il Messico.
+description: Questo articolo fornisce informazioni introduttive sulla fatturazione elettronica per il Messico.
 author: gionoder
 ms.date: 12/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6fc8a9eaf6c6e4c82719e7c1ebccd4272548e73f
-ms.sourcegitcommit: 23588e66e25c05e989f3212ac519d7016820430a
+ms.openlocfilehash: 540b6e6f9b4b669957cc3310e473ad59b9210594
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "8566001"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855331"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Introduzione alla fatturazione elettronica per il Messico
 
@@ -31,11 +31,11 @@ ms.locfileid: "8566001"
 > [!IMPORTANT]
 > La fatturazione elettronica per il Messico potrebbe attualmente non supportare tutte le funzioni disponibili nel documento Comprobante Fiscal Digital por Internet (CFDI) e nella relativa integrazione incorporata in Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management.
 
-Questo argomento fornisce informazioni introduttive sulla fatturazione elettronica per il Messico. Ti guida attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e Finance. Inoltre, guida l'utente attraverso i passaggi da seguire in Finance per inviare fatture CFDI tramite il servizio e spiega come esaminare i risultati dell'elaborazione e lo stato delle fatture CFDI.
+Questo articolo fornisce informazioni introduttive sulla fatturazione elettronica per il Messico. Ti guida attraverso i passaggi di configurazione che dipendono dal paese in Regulatory Configuration Services (RCS) e Finance. Inoltre, guida l'utente attraverso i passaggi da seguire in Finance per inviare fatture CFDI tramite il servizio e spiega come esaminare i risultati dell'elaborazione e lo stato delle fatture CFDI.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Prima di completare i passaggi in questo argomento, è necessario completare i passaggi in [Introduzione all'amministrazione dei servizi per la fatturazione elettronica](e-invoicing-get-started-service-administration.md) e [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
+Prima di completare i passaggi in questo articolo, è necessario completare i passaggi in [Introduzione all'amministrazione dei servizi per la fatturazione elettronica](e-invoicing-get-started-service-administration.md) e [Introduzione alla fatturazione elettronica](e-invoicing-get-started.md).
 
 ## <a name="set-up-the-cadena-xslt"></a>Configurare Cadena XSLT
 

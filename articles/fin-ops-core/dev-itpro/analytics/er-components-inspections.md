@@ -1,6 +1,6 @@
 ---
 title: Ispezionare il componente ER configurato per evitare problemi di runtime
-description: Questo argomento spiega come ispezionare i componenti di creazione di report elettronici (ER) configurati per prevenire problemi di runtime che potrebbero verificarsi.
+description: Questo articolo spiega come ispezionare i componenti di creazione di report elettronici (ER) configurati per prevenire problemi di runtime che potrebbero verificarsi.
 author: NickSelin
 ms.date: 01/03/2022
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c63ffc6316d21d36bb2aad57194b8aa1c477607e
-ms.sourcegitcommit: 89655f832e722cefbf796a95db10c25784cc2e8e
+ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8074793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864838"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Ispezionare il componente ER configurato per evitare problemi di runtime
 
@@ -30,7 +30,7 @@ Ogni formato [Reporting elettronico (ER)](general-electronic-reporting.md) [conf
 
 Per impostazione predefinita, la convalida viene applicata automaticamente nei seguenti casi per una configurazione ER che contiene i componenti ER precedentemente menzionati:
 
-- [Importare](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) una nuova [versione](general-electronic-reporting.md#component-versioning) di una configurazione ER nell'istanza di Microsoft Dynamics 365 Finance.
+- [Importa](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) una nuova [versione](general-electronic-reporting.md#component-versioning) di una configurazione ER nell'istanza di Microsoft Dynamics 365 Finance.
 - Modificare lo [stato](general-electronic-reporting.md#component-versioning) della configurazione modificabile e personalizzata da **Bozza** a **Completato**.
 - [Risolvere](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) una configurazione ER modificabile applicando una nuova versione di base.
 
@@ -80,7 +80,7 @@ ER utilizza le seguenti categorie per raggruppare le ispezioni di controllo dell
 
 ## <a name="list-of-inspections"></a>Elenco delle ispezioni
 
-Nella seguente tabella viene fornita una panoramica delle ispezioni che ER offre. Per ulteriori informazioni su queste ispezioni, utilizzare i collegamenti nella prima colonna per accedere alle sezioni pertinenti di questo argomento. Queste sezioni spiegano i tipi di componenti per i quali ER fornisce ispezioni e come è possibile riconfigurare i componenti ER per aiutare a prevenire problemi.
+Nella seguente tabella viene fornita una panoramica delle ispezioni che ER offre. Per ulteriori informazioni su queste ispezioni, utilizza i collegamenti nella prima colonna per accedere alle sezioni pertinenti di questo articolo. Queste sezioni spiegano i tipi di componenti per i quali ER fornisce ispezioni e come è possibile riconfigurare i componenti ER per aiutare a prevenire problemi.
 
 <table>
 <thead>

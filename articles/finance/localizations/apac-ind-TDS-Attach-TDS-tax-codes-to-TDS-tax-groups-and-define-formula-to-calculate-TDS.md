@@ -1,6 +1,6 @@
 ---
 title: Associare codici imposta TDS a gruppi di imposte TDS e definire la formula per il calcolo della TDS
-description: In questo argomento viene illustrato come impostare gruppi di imposte TDS e associare codici imposta TDS a gruppi di imposte TDS. Per calcolare la TDS per un gruppo di imposte TDS, devi definire la formula per i codici imposta TDS ad essa associati.
+description: In questo articolo viene illustrato come impostare gruppi di imposte TDS e associare codici imposta TDS a gruppi di imposte TDS. Per calcolare la TDS per un gruppo di imposte TDS, devi definire la formula per i codici imposta TDS ad essa associati.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f1326f95c297887213ecfb572a2437867d964925
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 3607e44bdcf7a32b156e6b4639ef907aa923cadc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711238"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853316"
 ---
 # <a name="attach-tds-tax-codes-to-tds-tax-groups-and-define-the-formula-for-calculating-tds"></a>Associare codici imposta TDS a gruppi di imposte TDS e definire la formula per il calcolo della TDS
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare gruppi di imposte TDS e associare codici imposta TDS a gruppi di imposte TDS. Per calcolare la TDS per un gruppo di imposte TDS, devi definire la formula per i codici imposta TDS ad essa associati.
+In questo articolo viene illustrato come impostare gruppi di imposte TDS e associare codici imposta TDS a gruppi di imposte TDS. Per calcolare la TDS per un gruppo di imposte TDS, devi definire la formula per i codici imposta TDS ad essa associati.
 
 Attieniti alla seguente procedura per impostare un gruppo di imposte TDS, associarvi codici imposta TDS e definire la formula per il calcolo della TDS.
 

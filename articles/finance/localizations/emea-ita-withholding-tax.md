@@ -1,6 +1,6 @@
 ---
 title: Ritenuta d'acconto per l'Italia
-description: In questo argomento viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
+description: In questo articolo viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
 author: Anasyash
 ms.date: 04/10/2017
 ms.topic: article
@@ -14,20 +14,20 @@ ms.search.region: Italy
 ms.author: anasyash
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 074a889ed68621da6bb6050dbcb2eb9e453b28e21634c5384c82c9c3e4e4205b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b9cfbc2a3be5b40065920871cb2c102101773c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740867"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855300"
 ---
 # <a name="withholding-tax-for-italy"></a>Ritenuta d'acconto per l'Italia
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
+In questo articolo viene illustrato come configurare le impostazioni specifiche per l'Italia per la ritenuta d'acconto e i report italiani relativi alla ritenuta d'acconto.
 
-Per l'Italia, gli acquirenti devono soddisfare alcuni requisiti legali specifici del paese che comportano la trattenuta della ritenuta d'acconto per alcuni tipi di pagamenti fornitore, ad esempio per i pagamenti dei lavoratori autonomi. La società deve quindi versare questa imposta all'ufficio tributario. La ritenuta d'acconto è un'imposta trattenuta dall'importo del pagamento per le fatture fornitore. In questo argomento vengono descritte le impostazioni specifiche per Italia relative alla ritenuta d'acconto e i seguenti report italiani: **Ritenuta d'acconto - certificazione**, **Ritenuta d'acconto - mensile** e **Ritenuta d'acconto - annuale**. Impostare i codici della ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Codici ritenuta d'acconto**. Definire le impostazioni standard nelle Schede dettaglio **Generale** e **Calcolo**. Nella scheda dettaglio **Reporting italiano** definire le seguenti impostazioni.
+Per l'Italia, gli acquirenti devono soddisfare alcuni requisiti legali specifici del paese che comportano la trattenuta della ritenuta d'acconto per alcuni tipi di pagamenti fornitore, ad esempio per i pagamenti dei lavoratori autonomi. La società deve quindi versare questa imposta all'ufficio tributario. La ritenuta d'acconto è un'imposta trattenuta dall'importo del pagamento per le fatture fornitore. In questo articolo vengono descritte le impostazioni specifiche per Italia relative alla ritenuta d'acconto e i seguenti report italiani: **Ritenuta d'acconto - certificazione**, **Ritenuta d'acconto - mensile** e **Ritenuta d'acconto - annuale**. Impostare i codici della ritenuta d'acconto in **Imposta** &gt; **Imposte indirette** &gt; **Ritenuta d'acconto** &gt; **Codici ritenuta d'acconto**. Definire le impostazioni standard nelle Schede dettaglio **Generale** e **Calcolo**. Nella scheda dettaglio **Reporting italiano** definire le seguenti impostazioni.
 
 |Gruppo campi|Campo|Descrizione|
 |------------|----------------|----------------|

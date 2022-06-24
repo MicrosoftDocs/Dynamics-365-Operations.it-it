@@ -1,6 +1,6 @@
 ---
 title: Funzionalità di accessibilità
-description: In questo argomento vengono descritte le funzionalità progettate per aiutare gli utenti con varie disabilità.
+description: In questo articolo vengono descritte le funzionalità progettate per aiutare gli utenti con varie disabilità.
 author: TLeforMicrosoft
 ms.date: 12/02/2019
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 022c51f7050d11caf5ce67c5df8f9f9040a54b98
-ms.sourcegitcommit: 3a7f1fe72ac08e62dda1045e0fb97f7174b69a25
+ms.openlocfilehash: af17b7933aed2a40d81fbc4e7b79e4e716aaf59b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8071060"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881053"
 ---
 # <a name="accessibility-features"></a>Funzionalità di accessibilità
 
@@ -26,7 +26,7 @@ ms.locfileid: "8071060"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-In questo argomento vengono descritte le funzionalità progettate per consentire agli utenti con varie disabilità di utilizzare questa app. Ad esempio, sono disponibili funzionalità per le persone che utilizzano assistive technology per la vista come Microsoft Windows Narrator.
+In questo articolo vengono descritte le funzionalità progettate per consentire agli utenti con varie disabilità di utilizzare questa app. Ad esempio, sono disponibili funzionalità per le persone che utilizzano assistive technology per la vista come Microsoft Windows Narrator.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator e accesso solo tramite tastiera
 
@@ -49,7 +49,7 @@ Per ulteriori informazioni, vedere [Ricerca per navigazione](navigation-search.m
 
 ## <a name="action-search-for-keyboard-only-users-or-for-heads-down-data-entry"></a>Ricerca di azioni per utenti che utilizzano solo la tastiere o per immissione di un elevato numero di dati
 
-Ogni azione che viene fornita in una pagina è disponibile da una tastiera, tramite la sequenza di tabulazione. Informazioni sulla sequenza di tabulazione vengono fornite più avanti in questo argomento. Per eseguire le azioni più direttamente, è possibile utilizzare la funzionalità di ricerca di azione.
+Ogni azione che viene fornita in una pagina è disponibile da una tastiera, tramite la sequenza di tabulazione. Informazioni sulla sequenza di tabulazione vengono fornite più avanti in questo articolo. Per eseguire le azioni più direttamente, è possibile utilizzare la funzionalità di ricerca di azione.
 
 ### <a name="example"></a>Esempio
 

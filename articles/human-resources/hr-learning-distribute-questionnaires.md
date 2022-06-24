@@ -1,6 +1,6 @@
 ---
 title: Distribuire e programmare questionari
-description: In questo argomento viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili alla persona o al gruppo di persone che li dovranno completare.
+description: In questo articolo viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili per la persona o il gruppo di persone che li completeranno.
 author: twheeloc
 ms.date: 10/28/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a543d9b85edd493f9b5d5a0449302769c3592f7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 91b2c94c74fd51765a2545424504149fff1f4bfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8695902"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908863"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Distribuire e programmare questionari
 
@@ -28,7 +28,7 @@ ms.locfileid: "8695902"
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-In questo argomento viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili alla persona o al gruppo di persone che li dovranno completare. 
+In questo articolo viene illustrato come distribuire i questionari che si progettano, in modo che siano disponibili per la persona o il gruppo di persone che li completeranno. 
 
 Sono disponibili più metodi per distribuire un questionario:
 

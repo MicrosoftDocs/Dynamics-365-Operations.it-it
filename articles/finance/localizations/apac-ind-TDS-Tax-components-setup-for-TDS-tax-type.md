@@ -1,6 +1,6 @@
 ---
 title: Configurare componenti di imposta per il tipo di imposta TDS
-description: In questo argomento viene illustrato come impostare i componenti di ritenuta d'acconto per il tipo di imposta TDS. Descrive inoltre come definire il limite di soglia utilizzato per calcolare la TDS per ogni componente TDS.
+description: In questo articolo viene illustrato come impostare i componenti di ritenuta d'acconto per il tipo di imposta TDS. Descrive inoltre come definire il limite di soglia utilizzato per calcolare la TDS per ogni componente TDS.
 author: kailiang
 ms.date: 02/12/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9c86341f7528e2c85b813e4f825ae34f10680a9b
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: df2eb10ce9e372bb1e984f6ae1a2e889bbd90ad0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8727119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871159"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Configurare componenti di imposta per il tipo di imposta TDS
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare i componenti di ritenuta d'acconto per il tipo di imposta TDS. I componenti TDS sono TDS, supplemento, PE-Cess e SHE Cess. Questo argomento descrive inoltre come definire il limite utilizzato per calcolare la TDS per ogni componente TDS. Inoltre, è possibile definire una soglia di eccezione utilizzata per calcolare la TDS per ogni componente TDS.
+In questo articolo viene illustrato come impostare i componenti di ritenuta d'acconto per il tipo di imposta TDS. I componenti TDS sono TDS, supplemento, PE-Cess e SHE Cess. Questo articolo descrive inoltre come definire il limite utilizzato per calcolare la TDS per ogni componente TDS. Inoltre, è possibile definire una soglia di eccezione utilizzata per calcolare la TDS per ogni componente TDS.
 
 Per impostare i componenti TDS, procedi come segue:
 

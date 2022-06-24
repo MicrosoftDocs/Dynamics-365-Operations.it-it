@@ -1,6 +1,6 @@
 ---
 title: Contenuto Power BI per retribuzione
-description: Questo argomento descrive il contenuto Power BI Retribuzione. Spiega come accedere ai report e fornisce informazioni sul modello di dati utilizzato.
+description: Questo articolo descrive il contenuto Power BI Retribuzione. Spiega come accedere ai report e fornisce informazioni sul modello di dati utilizzato.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 549111dab1b6d3b66567801ae787a680a04b18e20e286e1a59d1ab388bf2a4f7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8bc9be91a7538c3d50163832d5d4957724cd8fb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897190"
 ---
 # <a name="compensation-power-bi-content"></a>Contenuto Power BI per retribuzione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive il contenuto **Retribuzione** di Microsoft Power BI. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
+Questo articolo descrive il contenuto Microsoft Power BI **Retribuzione**. Descrive come accedere ai report e fornisce informazioni sul modello dati e sulle entità utilizzati per costruire il contenuto.
 
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 Il contenuto **Retribuzione** di Power BI viene visualizzato nell'area di lavoro **Gestione retribuzioni** se si utilizza uno dei seguenti prodotti:
 
-- App di Finance and Operations
+- App Finance and Operations
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI
