@@ -1,6 +1,6 @@
 ---
 title: Visualizzazioni salvate standard per Supply Chain Management
-description: Questo argomento descrive le visualizzazioni salvate standard disponibili e spiega come abilitarle.
+description: Questo articolo descrive le visualizzazioni salvate standard disponibili e spiega come abilitarle.
 author: kamaybac
 ms.date: 02/03/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 0709574ea44fcf841321044da31781862fcf1420
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103690"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887575"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Visualizzazioni salvate standard per Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management include diverse visualizzazioni salvate che è possibile abilitare e utilizzare secondo necessità. Alcune di queste visualizzazioni salvate standard sono ottimizzate e denominate per un ruolo o un'attività specifica (ad esempio, "Controllo qualità" o "Ricezione"). Altre sono ottimizzate in modo da includere solo i campi e le impostazioni che le statistiche sull'utilizzo di Microsoft indicano essere più spesso utilizzate dai clienti. Queste visualizzazioni salvate sono generalmente indicate come visualizzazioni *semplificate*. Questo argomento descrive le visualizzazioni salvate standard disponibili e spiega come abilitarle e personalizzarle.
+Microsoft Dynamics 365 Supply Chain Management include diverse visualizzazioni salvate che è possibile abilitare e utilizzare secondo necessità. Alcune di queste visualizzazioni salvate standard sono ottimizzate e denominate per un ruolo o un'attività specifica (ad esempio, "Controllo qualità" o "Ricezione"). Altre sono ottimizzate in modo da includere solo i campi e le impostazioni che le statistiche sull'utilizzo di Microsoft indicano essere più spesso utilizzate dai clienti. Queste visualizzazioni salvate sono generalmente indicate come visualizzazioni *semplificate*. Questo articolo descrive le visualizzazioni salvate standard disponibili e spiega come abilitarle e personalizzarle.
 
 Per i dettagli completi su come lavorare con le visualizzazioni salvate, comprese le visualizzazioni salvate standard, dopo averle abilitate, vedere [Visualizzazioni salvate](../../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json).
 
@@ -39,7 +39,7 @@ Per ulteriori informazioni su come personalizzare e rinominare le visualizzazion
 
 Per utilizzare le visualizzazioni salvate, indipendentemente dal fatto che si utilizzino visualizzazioni salvate standard, è necessario attivare la funzionalità *Visualizzazioni salvate* in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (a partire dalla versione 10.0.21, questa funzionalità è abilitata per impostazione predefinita).
 
-Le sezioni rimanenti di questo argomento forniscono tabelle che descrivono le visualizzazioni salvate standard attualmente disponibili per ogni relativo modulo. Ogni tabella mostra il nome di ciascuna visualizzazione salvata, la pagina in cui è possibile trovarla e una descrizione di essa. Ogni tabella mostra anche il nome della funzionalità che include la visualizzazione salvata. Per vedere una visualizzazione salvata standard nel sistema, è necessario attivare la funzionalità specificata in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partire dalla versione 10.0.25, tutte le visualizzazioni elencate sono attivate per impostazione predefinita.
+Le sezioni rimanenti di questo articolo forniscono tabelle che descrivono le visualizzazioni salvate standard attualmente disponibili per ogni relativo modulo. Ogni tabella mostra il nome di ciascuna visualizzazione salvata, la pagina in cui è possibile trovarla e una descrizione di essa. Ogni tabella mostra anche il nome della funzionalità che include la visualizzazione salvata. Per vedere una visualizzazione salvata standard nel sistema, è necessario attivare la funzionalità specificata in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partire dalla versione 10.0.25, tutte le visualizzazioni elencate sono attivate per impostazione predefinita.
 
 ## <a name="saved-views-for-the-inventory-management-module"></a>Visualizzazioni salvate per il modulo Gestione inventario
 

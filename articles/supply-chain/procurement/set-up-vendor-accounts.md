@@ -1,6 +1,6 @@
 ---
 title: Impostare conti fornitore
-description: In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
+description: In questo articolo vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
 author: GalynaFedorova
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d524ff99cba733fdd607d9708abba440248d6cc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d1ddf126305f39a35f61b9a98da1c6bce29372cf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676976"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8875277"
 ---
 # <a name="set-up-vendor-accounts"></a>Impostare conti fornitore
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
+In questo articolo vengono descritti i tipi di informazioni che è necessario specificare quando si crea un nuovo conto fornitore.
 
 Quando si crea un conto fornitore, è necessario immettere le informazioni sul fornitore. Queste informazioni vengono utilizzate per immettere automaticamente i dati nei documenti e seguire l'attività che coinvolge il fornitore. Ad esempio, è possibile configurare le seguenti informazioni per un fornitore:
 

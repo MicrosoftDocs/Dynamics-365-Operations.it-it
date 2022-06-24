@@ -1,6 +1,6 @@
 ---
 title: Beni a duplice uso
-description: Questo argomento spiega come tenere traccia dei prodotti identificati come beni a duplice uso, memorizzare i numeri di certificato per ciascun prodotto e paese di destinazione e stampare numeri di certificato validi su fatture, documenti di trasporto e/o ordini cliente pertinenti.
+description: Questo articolo spiega come tenere traccia dei prodotti identificati come beni a duplice uso, memorizzare i numeri di certificato per ciascun prodotto e paese di destinazione e stampare numeri di certificato validi su fatture, documenti di trasporto e/o ordini cliente pertinenti.
 author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 787d0c4ebcf83d6bfec05943f2bb0ddc5961a93a
-ms.sourcegitcommit: e18ea2458ae042b7d83f5102ed40140d1067301a
+ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8736035"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878905"
 ---
 # <a name="dual-use-goods"></a>Beni a duplice uso
 
@@ -42,7 +42,7 @@ Prendiamo in considerazione lo scenario seguente:
 
 6. L'ordine include il prodotto X-100, il prodotto viene spedito in Francia ed esiste un certificato francese per il prodotto. Tuttavia, il certificato è scaduto. Pertanto, viene visualizzato il seguente messaggio di avviso: "I certificati per duplice uso per uno o più articoli a duplice uso in questo ordine cliente non sono validi. Procedere con la conferma?"
 
-Questo argomento spiega come configurare tutte le impostazioni necessarie per impostare beni a duplice uso e supportare questo scenario.
+Questo articolo spiega come configurare tutte le impostazioni necessarie per impostare beni a duplice uso e supportare questo scenario.
 
 ## <a name="define-dual-use-requirements-for-each-relevant-country"></a>Definire i requisiti di duplice uso per ciascun paese rilevante
 

@@ -1,6 +1,6 @@
 ---
 title: Creare ordini di lavoro delle richieste di intervento di manutenzione
-description: In questo argomento viene illustrato come creare un ordine di lavoro da una richiesta di intervento di manutenzione in Gestione cespiti.
+description: In questo articolo viene illustrato come creare un ordine di lavoro da una richiesta di intervento di manutenzione in Gestione cespiti.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c69ad91e931475dd4c8e5a126190e867bd193f881ad58525c1d2ac8997c972a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0c73f019951460dc7cb6395d616a0f0a22fd0b91
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909703"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Creare ordini di lavoro delle richieste di intervento di manutenzione
 
@@ -29,7 +29,7 @@ ms.locfileid: "6726923"
  
 
 
-Dopo aver creato le richieste di intervento di manutenzione, è possibile convertirli facilmente in ordini di lavoro. In questo argomento viene descritto il modo più veloce di lavorare con le richieste di intervento di manutenzione, aggiornare più richieste di intervento di manutenzione contemporaneamente e creare un ordine di lavoro per più richieste di intervento di manutenzione contemporaneamente. Nella pagina **Richieste di intervento di manutenzione attive** o **Richieste di intervento di manutenzione delle unità funzionali personali**, è possibile anche utilizzare una richiesta di intervento di manutenzione alla volta e convertire una richiesta di intervento di manutenzione in un ordine di lavoro.
+Dopo aver creato le richieste di intervento di manutenzione, è possibile convertirli facilmente in ordini di lavoro. In questo articolo viene descritto il modo più veloce di lavorare con le richieste di intervento di manutenzione, aggiornare più richieste di intervento di manutenzione contemporaneamente e creare un ordine di lavoro per più richieste di intervento di manutenzione contemporaneamente. Nella pagina **Richieste di intervento di manutenzione attive** o **Richieste di intervento di manutenzione delle unità funzionali personali**, è possibile anche utilizzare una richiesta di intervento di manutenzione alla volta e convertire una richiesta di intervento di manutenzione in un ordine di lavoro.
 
 > [!NOTE]
 > Ogni richiesta di intervento di manutenzione può essere correlata a un solo ordine di lavoro. Tuttavia, più richieste di intervento di manutenzione possono essere incluse in un ordine di lavoro, anche se le richieste di intervento di manutenzione hanno cespiti diversi.

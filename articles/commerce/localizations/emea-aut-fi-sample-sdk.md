@@ -1,6 +1,6 @@
 ---
 title: Linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria (legacy)
-description: Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione fiscale per l'Austria da Microsoft Dynamics 365 Commerce Retail software development kit (SDK).
+description: Questo articolo fornisce le linee guida per la distribuzione dell'esempio di integrazione fiscale per l'Austria da Microsoft Dynamics 365 Commerce Retail software development kit (SDK).
 author: EvgenyPopovMBS
 ms.date: 03/04/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: 7cb0e7b665add397b12e1a841b6a2e9565528d6d
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 94fe6817358ae18126a30794fd52fe5eb01a5265
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8613938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885439"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-registration-service-integration-sample-for-austria-legacy"></a>Linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria (legacy)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce le linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria da Microsoft Dynamics 365 Commerce Retail software development kit (SDK) in una macchina virtuale per lo sviluppo (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per maggiori informazioni sull'esempio di integrazione fiscale, vedi [Esempio di integrazione del servizio di registrazione fiscale per l'Austria](emea-aut-fi-sample.md). 
+Questo articolo fornisce le linee guida per la distribuzione dell'esempio di integrazione del servizio di registrazione fiscale per l'Austria da Microsoft Dynamics 365 Commerce Retail software development kit (SDK) in una macchina virtuale per lo sviluppo (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per maggiori informazioni sull'esempio di integrazione fiscale, vedi [Esempio di integrazione del servizio di registrazione fiscale per l'Austria](emea-aut-fi-sample.md). 
 
-L'esempio di integrazione fiscale per l'Austria fa parte di Retail SDK. Per informazioni su come installare e utilizzare SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md). L'esempio di integrazione fiscale è costituito da estensioni per Commerce runtime (CRT), stazione hardware e point of sale (POS). Per eseguire questo esempio, è necessario modificare e creare progetti CRT, stazione hardware e POS. Si consiglia di utilizzare un SDK Retail non modificato per apportare le modifiche descritte in questo argomento. Si consiglia inoltre di utilizzare un sistema di controllo del codice sorgente, come Azure DevOps dove nessun file è stato ancora modificato.
+L'esempio di integrazione fiscale per l'Austria fa parte di Retail SDK. Per informazioni su come installare e utilizzare SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md). L'esempio di integrazione fiscale è costituito da estensioni per Commerce runtime (CRT), stazione hardware e point of sale (POS). Per eseguire questo esempio, è necessario modificare e creare progetti CRT, stazione hardware e POS. Ti consigliamo di utilizzare un SDK Retail non modificato per apportare le modifiche descritte in questo articolo. Si consiglia inoltre di utilizzare un sistema di controllo del codice sorgente, come Azure DevOps dove nessun file è stato ancora modificato.
 
 ## <a name="development-environment"></a>Ambiente di sviluppo
 

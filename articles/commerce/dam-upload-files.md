@@ -1,6 +1,6 @@
 ---
 title: Caricare file diversi da immagini e video
-description: Questo argomento descrive come caricare file binari diversi da immagini e video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive come caricare file binari diversi da immagini e video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 03/03/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 50f9d793f0e7f34aa21d69c4049a3fe6bf16b58633f7bd555492506dc8d96790
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5952c44d066729d66d62c47249214221fe39ad9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863437"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Caricare file diversi da immagini e video
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come caricare file che non siano immagini e video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come caricare file che non siano immagini e video in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 
 La libreria multimediale Creazione di siti Web Commerce supporta il caricamento di risorse binarie diverse da immagini o video. Ad esempio, si potrebbe voler caricare file Microsoft Excel, Microsoft Word, Microsoft PowerPoint o PDF.
 

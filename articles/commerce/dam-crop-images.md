@@ -1,6 +1,6 @@
 ---
 title: Tagliare immagini
-description: In questo argomento viene descritto come tagliare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come tagliare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 04/14/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cb6049a1d98b7286658403b15a071f6f1389f725a9a7a146aab55d43796be60b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8618ef19593c362853fe8441c249dd4580d65737
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744512"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893063"
 ---
 # <a name="crop-images"></a>Tagliare immagini
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come tagliare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come tagliare immagini in Creazione di siti Web Microsoft Dynamics 365 Commerce.
 
 La libreria multimediale di Creazione di siti Web Commerce consente di ritagliare le immagini per ottimizzarle per diversi tipi di riquadri di visualizzazione e finestre.
 

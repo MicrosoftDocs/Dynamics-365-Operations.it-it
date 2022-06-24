@@ -1,6 +1,6 @@
 ---
 title: Unità di scala in una topologia ibrida distribuita
-description: Questo argomento fornisce informazioni sulle unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino.
+description: Questo articolo fornisce informazioni sulle unità di scala nel cloud e nella rete perimetrale per i carichi di lavoro di gestione della produzione e del magazzino.
 author: Mirzaab
 ms.date: 04/22/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 5ec846b294cd9ca62ff15a5306e012813c77e306
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6b53822238220ccfcf538d49285e051c49c57189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676330"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893673"
 ---
 # <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unità di scala in una topologia ibrida distribuita
 
@@ -25,7 +25,7 @@ ms.locfileid: "8676330"
 > [!IMPORTANT]
 > La funzionalità di unità di scala per Microsoft Dynamics 365 Supply Chain Management è disponibile in base ai termini che regolano l'utilizzo del servizio. Per ulteriori informazioni, vedere [Informazioni legali di Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927).
 >
-> Quando abiliti le unità di scala nel cloud e nella rete perimetrale, ti viene richiesto di dichiarare di comprendere che alcuni dati correlati alla configurazione e all'elaborazione di unità di scala nel cloud e nella rete perimetrale potrebbero essere archiviati in un data center situato negli Stati Uniti. Per ulteriori informazioni sull'elaborazione dei dati per le unità di scala nel cloud e nella rete perimetrale, vedere la sezione [Elaborazione dati durante la gestione di unità scala](#data-processing-management) in questo argomento.
+> Quando abiliti le unità di scala nel cloud e nella rete perimetrale, ti viene richiesto di dichiarare di comprendere che alcuni dati correlati alla configurazione e all'elaborazione di unità di scala nel cloud e nella rete perimetrale potrebbero essere archiviati in un data center situato negli Stati Uniti. Per ulteriori informazioni sull'elaborazione dei dati per le unità di scala nel cloud e nella rete perimetrale, vedi la sezione [Elaborazione dati durante la gestione di unità scala](#data-processing-management) in questo articolo.
 
 ## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Proposta di valori di base per una topologia ibrida distribuita
 
@@ -48,7 +48,7 @@ Le unità di scala forniscono resilienza, affidabilità e scalabilità per i car
 
 Un *carico di lavoro* è un insieme definito di funzionalità aziendali che può essere scomposto e delegato a un'unità di scala. Sebbene il carico di lavoro per la gestione del magazzino sia stato rilasciato, il carico di lavoro per l'esecuzione della produzione è ancora in anteprima.
 
-È possibile configurare l'ambiente hub utilizzato e le unità di scale nel cloud per carichi di lavoro selezionati utilizzando il [portale di gestione delle unità di scala](https://sum.dynamics.com). È anche possibile assegnare più carichi di lavoro per unità di scala. Per informazioni sui prerequisiti e sui limiti per le unità di scala nel cloud nella versione corrente, vedere la sezione [Prerequisiti e limitazioni per le unità di scala nel cloud](#cloud-scale-unit-prerequisites) più avanti in questo argomento.
+È possibile configurare l'ambiente hub utilizzato e le unità di scale nel cloud per carichi di lavoro selezionati utilizzando il [portale di gestione delle unità di scala](https://sum.dynamics.com). È anche possibile assegnare più carichi di lavoro per unità di scala. Per informazioni sui prerequisiti e sui limiti per le unità di scala nel cloud nella versione corrente, vedi la sezione [Prerequisiti e limitazioni per le unità di scala nel cloud](#cloud-scale-unit-prerequisites) più avanti in questo articolo.
 
 ### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Funzionalità di carico di lavoro di gestione del magazzino dedicate in un'unità di scala
 

@@ -1,6 +1,6 @@
 ---
 title: Gestire le categorie di prodotti e i prodotti
-description: In questo argomento viene descritto come i responsabili del merchandising possono utilizzare le categorie di prodotti per gestire le relazioni tra la gerarchia di prodotti di Commerce e i dettagli dei prodotti rilasciati.
+description: In questo articolo viene descritto come i responsabili del merchandising possono utilizzare le categorie di prodotti per gestire le relazioni tra la gerarchia di prodotti di Commerce e i dettagli dei prodotti rilasciati.
 author: ashishmsft
 ms.date: 10/23/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 101e03c053203fc92648b7024998202d782f46fb07a5b6d5647b8e2a6514ea17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0871475e0910e0a46544c56083b505ff647fd6a9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878572"
 ---
 # <a name="manage-product-categories-and-products"></a>Gestire le categorie di prodotti e i prodotti
 
 [!include [banner](./includes/banner.md)]
 
-In questo argomento viene descritta una modalità avanzata per gestire le categorie di prodotti e i prodotti in Dynamics 365 Commerce. I miglioramenti consentono ai responsabili del merchandising di visualizzare una struttura di proprietà dei prodotti condivisa tra la gerarchia di prodotti e i dettagli dei prodotti rilasciati.
+In questo articolo viene descritta una modalità avanzata per gestire le categorie di prodotti e i prodotti in Dynamics 365 Commerce. I miglioramenti consentono ai responsabili del merchandising di visualizzare una struttura di proprietà dei prodotti condivisa tra la gerarchia di prodotti e i dettagli dei prodotti rilasciati.
 
 Per ulteriori informazioni su come gestire le categorie di prodotti, nell'area di lavoro **Gestione categorie e prodotti** selezionare il riquadro **Gerarchia di prodotti di Commerce**.
 

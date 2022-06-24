@@ -1,6 +1,6 @@
 ---
 title: Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
-description: Questo argomento fornisce informazioni sulla funzionalità che consente alle unità di scala di eseguire processi selezionati dal carico di lavoro di gestione del magazzino dell'utente.
+description: Questo articolo fornisce informazioni sulla funzionalità che consente alle unità di scala di eseguire processi selezionati dal carico di lavoro di gestione del magazzino dell'utente.
 author: perlynne
 ms.date: 09/03/2021
 ms.topic: article
@@ -16,19 +16,19 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 67f78441b0914d18c2a7853bab54c6b8817be3ac
-ms.sourcegitcommit: 2e554371f5005ef26f8131ac27eb171f0bb57b4e
+ms.openlocfilehash: f9839ad9a18eb543734c2ba43a56b568460a64c3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384486"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893499"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Carichi di lavoro di gestione del magazzino per unità di scala nel cloud e nella rete perimetrale
 
 [!include [banner](../includes/banner.md)]
 
 > [!WARNING]
-> Non tutte le funzionalità aziendali di gestione del magazzino sono completamente supportate per i magazzini che eseguono un carico di lavoro su un'unità di scala. Verificare di utilizzare solo i processi che in questo argomento vengono descritti come supportati in modo esplicito.
+> Non tutte le funzionalità aziendali di gestione del magazzino sono completamente supportate per i magazzini che eseguono un carico di lavoro su un'unità di scala. Verifica di utilizzare solo i processi che in questo articolo vengono descritti come supportati in modo esplicito.
 
 ## <a name="warehouse-execution-on-scale-units"></a>Esecuzione nel magazzino su unità di scala
 
@@ -184,7 +184,7 @@ Nessun altro tipo di lavoro di magazzino o di elaborazione dei documenti di orig
 >
 > Sono necessari alcuni passaggi aggiuntivi per configurare l'app per dispositivi mobili Warehouse Management in modo che funzioni su un'unità di scala cloud o perimetrale. Per ulteriori informazioni, vedi [Configurare l'app per dispositivi mobili Warehouse mobile per le unità di scala nel cloud e nella rete perimetrale](cloud-edge-workload-setup-warehouse-app.md).
 >
-> Quando si esegue un carico di lavoro su un'unità di scala, non è possibile eseguire processi non supportati per il magazzino specifico nell'hub. Le tabelle fornite più avanti in questo argomento documentano le funzionalità supportate.
+> Quando si esegue un carico di lavoro su un'unità di scala, non è possibile eseguire processi non supportati per il magazzino specifico nell'hub. Le tabelle fornite più avanti in questo articolo documentano le funzionalità supportate.
 >
 > I tipi di lavoro di magazzino selezionati possono essere creati sia sull'hub che sulle unità di scala, ma possono essere gestiti solo dall'hub proprietario o dall'unità di scala (la distribuzione che ha creato i dati).
 >

@@ -1,6 +1,6 @@
 ---
 title: Pianifica la stampa dell'etichetta ciclo durante il ciclo
-description: Questo argomento descrive come impostare e utilizzare la funzionalità per la stampa di etichette ciclo basata su attività.
+description: Questo articolo descrive come impostare e utilizzare la funzionalità per la stampa di etichette ciclo basata su attività.
 author: perlynne
 ms.date: 06/09/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1323538765308ec3dd366456e31f5e08b08ce5ab
-ms.sourcegitcommit: 008779c530798f563fe216810d34b2d56f2c8d3c
+ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920151"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889459"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Pianifica la stampa dell'etichetta ciclo durante il ciclo
 
@@ -30,7 +30,7 @@ Quando usi la funzionalità *Stampa etichette ciclo basata su attività* il sist
 
 ## <a name="turn-on-the-task-based-wave-label-printing-feature-in-feature-management"></a>Attivare la funzione di stampa etichette ciclo basata su attività nella gestione delle funzionalità
 
-Per utilizzare le funzionalità descritte in questo argomento, è necessario attivarle per il sistema. Usa l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le funzionalità nel seguente ordine:
+Per utilizzare le funzionalità descritte in questo articolo, è necessario attivarle per il sistema. Usa l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le funzionalità nel seguente ordine:
 
 1. *Stampa etichette ciclo* – Questa funzione è necessaria per abilitare il metodo di processo ciclo per la stampa di etichette ciclo.
 1. *Blocco del lavoro a livello di organizzazione* - Questa funzione è necessaria per la configurazione sia manuale che automatica della creazione del lavoro programmato. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)

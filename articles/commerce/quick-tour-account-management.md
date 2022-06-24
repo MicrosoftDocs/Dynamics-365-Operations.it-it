@@ -1,6 +1,6 @@
 ---
-title: Panoramica delle pagine della gestione del conto
-description: Questo argomento fornisce una panoramica delle pagine di gestione account in Microsoft Dynamics 365 Commerce.
+title: Panoramica delle pagine di gestione del conto
+description: Questo articolo fornisce una panoramica delle pagine di gestione account in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b21ae257ce84034f05fa22a93a2c622ee14c0a2b
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9cc70f48371fb90f4e3529173d30baffd6fe4e14
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868885"
 ---
 # <a name="account-management-pages-overview"></a>Panoramica delle pagine di gestione del conto
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica delle pagine di gestione account in Microsoft Dynamics 365 Commerce.
+Questo articolo fornisce una panoramica delle pagine di gestione account in Microsoft Dynamics 365 Commerce.
 
 Le pagine di gestione account consentono ai clienti di visualizzare informazioni relative ai loro ordini e account. Le pagine di gestione account includono la pagina di destinazione di gestione account e le pagine relative a profilo, indirizzi, storico ordini, dettagli degli ordini, punti fedeltà ed elenco preferenze dell'utente.
 

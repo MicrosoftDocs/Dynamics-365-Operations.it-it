@@ -1,6 +1,6 @@
 ---
 title: Creare contratti di assistenza
-description: In questo argomento viene descritto come utilizzare le funzionalità dei moduli Gestione assistenza e Gestione progetti e contabilità per creare i contratti di assistenza.
+description: In questo articolo viene descritto come utilizzare le funzionalità dei moduli Gestione assistenza e Gestione progetti e contabilità per creare i contratti di assistenza.
 author: sorenva
 ms.date: 02/19/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a8a139d1a11cca036ace2540cba59bf2cace0db
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: d18d279cd437e98cad6495def953978cb78e723e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677256"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901765"
 ---
 # <a name="create-service-agreements"></a>Creare contratti di assistenza
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare le funzionalità dei moduli Gestione assistenza e Gestione progetti e contabilità per creare i contratti di assistenza.
+In questo articolo viene descritto come utilizzare le funzionalità dei moduli Gestione assistenza e Gestione progetti e contabilità per creare i contratti di assistenza.
 
 ## <a name="create-a-service-agreement-from-service-management"></a>Creare un contratto di assistenza da Gestione assistenza
 
@@ -51,10 +51,10 @@ In questo argomento viene descritto come utilizzare le funzionalità dei moduli 
 2. Selezionare **Tutti i progetti**.
 3. Selezionare il progetto dall'elenco.
 4. Nel **riquadro azioni**, selezionare **Gestisci**. Nel gruppo azioni **Nuovo**, selezionare **Assistenza** e **Contratto di assistenza**.
-5. Completare i passaggi della sezione **Creare un contratto di assistenza** descritta in precedenza in questo argomento, per inserire il riferimento del progetto.
+5. Completa i passaggi della sezione **Creare un contratto di assistenza** descritta in precedenza in questo articolo, per inserire il riferimento del progetto.
 
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Panoramica sviluppo e definizione dei contratti di assistenza](service-agreements.md)
 

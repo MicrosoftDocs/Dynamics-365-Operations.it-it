@@ -1,6 +1,6 @@
 ---
 title: Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima per gli articoli
-description: Questo argomento descrive come utilizzare le registrazioni delle scorte di sicurezza per aggiornare la quantità delle scorte di sicurezza per gli articoli calcolando le proposte di copertura minima in base alle transazioni storiche.
+description: Questo articolo descrive come utilizzare le registrazioni delle scorte di sicurezza per aggiornare la quantità delle scorte di sicurezza per gli articoli calcolando le proposte di copertura minima in base alle transazioni storiche.
 author: t-benebo
 ms.date: 10/28/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-28
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 391f741ee08eb0624e80f5c297009c527e50c14c
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 385144738b83fcf6873eae5204b4784d6ecd5b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468554"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851771"
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage-for-items"></a>Utilizzare il giornale di registrazione delle scorte di sicurezza per aggiornare la copertura minima per gli articoli
 
@@ -24,7 +24,7 @@ ms.locfileid: "8468554"
 
 Le scorte di sicurezza indicano una quantità aggiuntiva di un articolo contenuto nel magazzino al fine di ridurre il rischio che l'articolo si esaurisca. Le scorte di sicurezza vengono utilizzate come margine nel caso in cui gli ordini cliente arrivino e il fornitore non sia in grado di soddisfare la data di spedizione richiesta dal cliente.
 
-Questo argomento illustra come utilizzare il giornale di registrazione delle scorte di sicurezza per calcolare le proposte di copertura minima basate sulle transazioni storiche e poi aggiornare la copertura articoli con le proposte.
+Questo articolo illustra come utilizzare il giornale di registrazione delle scorte di sicurezza per calcolare le proposte di copertura minima basate sulle transazioni storiche e poi aggiornare la copertura articoli con le proposte.
 
 ## <a name="overview-of-minimum-coverage-usage"></a>Panoramica dell'utilizzo della copertura minima
 
@@ -43,7 +43,7 @@ Il valore **Minimo** può essere impostato in tre modi:
 
 I giornali di registrazione delle scorte di sicurezza vengono utilizzati per calcolare una quantità minima proposta in base all'utilizzo storico di un articolo, per scopi min/max o per scopi di piano delle scorte. L'utilizzo storico rappresenta tutte le transazioni in uscita durante un periodo specificato. Queste transazioni in uscita includono le transazioni degli ordini di vendita e le rettifiche di magazzino. I calcoli identificano anche l'impatto della quantità minima proposta sul valore delle scorte e la variazione del valore delle scorte rispetto alle quantità minime attuali.
 
-Ciascuna riga del giornale di registrazione delle scorte di sicurezza rappresenta un articolo e le relative dimensioni di copertura. Queste righe del giornale di registrazione vengono create e mostrate nella pagina **Righe del giornale di registrazione delle scorte di sicurezza** (**Pianificazione generale \> Pianificazione generale \> Esegui \> Calcolo delle scorte di sicurezza**). Il processo aziendale per l'utilizzo dei giornali di registrazione delle scorte di sicurezza per calcolare le quantità minime proposte è descritto più avanti in questo argomento.
+Ciascuna riga del giornale di registrazione delle scorte di sicurezza rappresenta un articolo e le relative dimensioni di copertura. Queste righe del giornale di registrazione vengono create e mostrate nella pagina **Righe del giornale di registrazione delle scorte di sicurezza** (**Pianificazione generale \> Pianificazione generale \> Esegui \> Calcolo delle scorte di sicurezza**). Il processo aziendale per l'utilizzo dei giornali di registrazione delle scorte di sicurezza per calcolare le quantità minime proposte è descritto più avanti in questo articolo.
 
 Il responsabile della pianificazione utilizza un giornale di registrazione delle scorte di sicurezza per calcolare le quantità minime proposte per gli articoli selezionati, in base all'utilizzo storico durante i periodi selezionati. I minimi proposti possono essere sovrascritti manualmente come richiesto ed è possibile esaminare il potenziale impatto dei minimi proposti sul valore dell'inventario. Quando il giornale di registrazione viene pubblicato, le quantità minime associate nella copertura articolo vengono aggiornate automaticamente.
 
@@ -89,7 +89,7 @@ Segui questi passaggi per generare automaticamente le righe del giornale di regi
 
     - **Da data** – Selezionare la data di inizio del periodo di cui includere le emissioni nel calcolo.
     - **A data** – Selezionare la data di fine del periodo di cui includere le emissioni nel calcolo. Devono trascorrere almeno due mesi tra la data di inizio e quella di fine.
-    - **Calcola deviazione standard** – Imposta questa opzione su *Aì* per calcolare la deviazione standard. Devi impostare questa opzione su *Sì* per utilizzare l'opzione **Usa livello di servizio** quando calcoli la proposta (come descritto più avanti in questo argomento).
+    - **Calcola deviazione standard** – Imposta questa opzione su *Aì* per calcolare la deviazione standard. Devi impostare questa opzione su *Sì* per utilizzare l'opzione **Usa livello di servizio** quando calcoli la proposta (come descritto più avanti in questo articolo).
 
 1. Sulla scheda dettaglio **Record da includere**, puoi impostare filtri e vincoli per definire quali articoli includere. (Ad esempio, puoi filtrare per il valore **Gruppo di copertura**). Seleziona **Filtra** per aprire una finestra di dialogo dell'editor di query standard, in cui è possibile definire criteri di selezione, criteri di ordinamento e join. I campi funzionano esattamente come per altri tipi di query in Microsoft Dynamics 365 Supply Chain Management.
 1. Nella scheda dettaglio **Esegui in background** scegli se eseguire il lavoro in modalità batch e/o impostare una programmazione ricorrente. I campi funzionano esattamente come funzionano per altri tipi di [processi in background](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) in Supply Chain Management.
@@ -110,7 +110,7 @@ Questo passaggio calcola un minimo proposto per ogni riga del giornale di regist
 I calcoli mostrati non influiranno sui valori effettivi della quantità minima per ciascun prodotto finché non si seleziona **Registra** nel riquadro azioni. In quel momento, i valori **Nuova quantità minima** verranno applicati a ciascun prodotto.
 
 1. Vai a **Pianificazione generale \> Pianificazione generale \> Esegui \> Calcolo scorte di sicurezza**.
-1. Apri il giornale di registrazione per cui calcolare una proposta. In alternativa, crea un nuovo giornale di registrazione come descritto in precedenza in questo argomento.
+1. Apri il giornale di registrazione per cui calcolare una proposta. In alternativa, crea un nuovo giornale di registrazione come descritto in precedenza in questo articolo.
 1. Nella Scheda dettaglio **Righe del giornale di registrazione** seleziona **Calcola proposta** sulla barra degli strumenti. Non è necessario selezionare alcuna riga.
 1. Nella finestra di dialogo **Calcola proposta per livello scorte minime**, imposta i seguenti campi:
 

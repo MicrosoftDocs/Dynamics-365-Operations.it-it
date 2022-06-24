@@ -1,8 +1,8 @@
 ---
 title: App Visibilità dell'inventario
-description: Questo argomento descrive come utilizzare l'applicazione Visibilità dell'inventario.
+description: Questo articolo descrive come utilizzare l'applicazione Visibilità dell'inventario.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 359f89f98ca6954a0bbafd63fffa1d505a43f0c8
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060974"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895759"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Utilizzare l'app Visibilità inventario
+# <a name="use-the-inventory-visibility-app"></a>Utilizzare l'app Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Questo argomento descrive come utilizzare l'applicazione Visibilità dell'inventario.
+Questo articolo descrive come utilizzare l'applicazione Visibilità dell'inventario.
 
 Visibilità inventario fornisce un'applicazione guidata dal modello per la visualizzazione. L'applicazione contiene tre pagine: **Configurazione**, **visibilità operativa** e **riepilogo dell'inventario**. Ha le seguenti caratteristiche:
 
@@ -70,7 +70,10 @@ Per pubblicare una richiesta di prenotazione, devi inserire un valore nel corpo 
 
 ## <a name="inventory-summary"></a><a name="inventory-summary"></a>Riassunto dell'inventario
 
-Il **riepilogo dell'inventario** è una vista personalizzata per l'entità *Somma inventario disponibile*. Fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. Prima di poter vedere i dati sulla scheda **Riepilogo inventario**, è necessario attivare la funzionalità *OnHandMostSpecificBackgroundService* sulla scheda **Gestione funzionalità**.
+Il **riepilogo dell'inventario** è una vista personalizzata per l'entità *Somma inventario disponibile*. Fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario vengono sincronizzati periodicamente da Visibilità inventario ogni 15 minuti. Prima di poter vedere i dati sulla scheda **Riepilogo inventario**, è necessario attivare la funzionalità *OnHandMostSpecificBackgroundService* sulla scheda **Gestione funzionalità** e selezionare **Aggiorna configurazione**.
+
+> [!NOTE]
+> La funzionalità *OnHandMostSpecificBackgroundService* tiene traccia solo delle modifiche delle scorte disponibili del prodotto che si sono verificate dopo l'attivazione della funzione. I dati per i prodotti che non sono cambiati da quando hai attivato la funzione non verranno sincronizzati dalla cache del servizio di inventario nell'ambiente Dataverse. Se la pagina **Riepilogo inventario** non mostra tutte le informazioni disponibili che ti aspetti, vai a **Gestione inventario > Attività periodiche > Integrazione visibilità inventario**, disabilita il processo batch e riattivalo. Questo eseguirà il push iniziale e tutti i dati verranno sincronizzati con l'entità *Somma scorte disponibili* nei prossimi 15 minuti. Se desideri utilizzare questa funzione, ti consigliamo di attivarla prima di creare eventuali modifiche alle scorte disponibili e di abilitare il processo batch **Integrazione visibilità inventario**.
 
 Utilizzando il **filtro avanzato** che Dataverse fornisce, è possibile creare una vista personale che mostra le righe importanti per l'utente. Le opzioni di filtro avanzate ti permettono di creare una vasta gamma di visualizzazioni, dalle più semplici alle più complesse. Permettono anche di aggiungere condizioni raggruppate e annidate ai filtri. Per ulteriori informazioni su come utilizzare il **filtro avanzato**, vedere [Modificare o creare viste personali usando i filtri avanzati della griglia](/powerapps/user/grid-filters-advanced).
 

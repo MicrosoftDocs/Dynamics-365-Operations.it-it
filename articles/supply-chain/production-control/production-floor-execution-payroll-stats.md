@@ -1,6 +1,6 @@
 ---
-title: Mostrare i saldi ferie nell'interfaccia di esecuzione dell'area di produzione
-description: Questo argomento fornisce uno scenario di esempio che mostra come configurare Microsoft Dynamics 365 Supply Chain Management in modo che utilizzi le statistiche sulle retribuzioni per fornire ai lavoratori una panoramica del saldo delle ferie per l'anno in corso.
+title: Mostrare i saldi di congedo nell'interfaccia di esecuzione dell'area di produzione
+description: Questo articolo fornisce uno scenario di esempio che mostra come configurare Microsoft Dynamics 365 Supply Chain Management in modo che utilizzi le statistiche sulle retribuzioni per fornire ai lavoratori una panoramica del saldo delle ferie per l'anno in corso.
 author: johanhoffmann
 ms.date: 04/22/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-04-22
 ms.dyn365.ops.version: 10.0.XX
-ms.openlocfilehash: a97858c72b0be50609cee552bd0635e2d68ea478
-ms.sourcegitcommit: d715e44b92b84b1703f5915d15d403ccf17c6606
+ms.openlocfilehash: 2a6b6f52bfa7539b7c9bb5841536b0d564d0274c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8645347"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852275"
 ---
-# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Mostrare i saldi ferie nell'interfaccia di esecuzione dell'area di produzione
+# <a name="show-vacation-balances-in-the-production-floor-execution-interface"></a>Mostrare i saldi di congedo nell'interfaccia di esecuzione dell'area di produzione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce uno scenario di esempio che mostra come configurare Microsoft Dynamics 365 Supply Chain Management in modo che utilizzi le statistiche sulle retribuzioni per fornire a ogni lavoratore una panoramica del saldo delle ferie per l'anno in corso. I lavoratori potranno vedere il loro saldo ferie nella finestra di dialogo **Registrazioni quotidiane** nell'interfaccia di esecuzione dell'area di produzione.
+Questo articolo fornisce uno scenario di esempio che mostra come configurare Microsoft Dynamics 365 Supply Chain Management in modo che utilizzi le statistiche sulle retribuzioni per fornire a ogni lavoratore una panoramica del saldo delle ferie per l'anno in corso. I lavoratori potranno vedere il loro saldo ferie nella finestra di dialogo **Registrazioni quotidiane** nell'interfaccia di esecuzione dell'area di produzione.
 
 Questo scenario utilizza la legge danese sulle ferie, in cui l'anno di ferie va dal 1 settembre al 31 agosto. In questo scenario, la tua azienda ha assunto un nuovo lavoratore e gli concederà un saldo di 10 giorni di ferie per il resto dell'anno di ferie corrente.
 

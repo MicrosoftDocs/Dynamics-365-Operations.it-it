@@ -1,6 +1,6 @@
 ---
 title: Entità di transazione costi
-description: Questo argomento fornisce informazioni sulle entità di transazione dei costi, che consentono di dividere il valore di un costo tra i contenuti di un'area di costo tramite la selezione di un metodo di ripartizione.
+description: Questo articolo fornisce informazioni sulle entità di transazione dei costi, che consentono di dividere il valore di un costo tra i contenuti di un'area di costo tramite la selezione di un metodo di ripartizione.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 41a9525cb766907b7de97f1e856a3b640d7718ac
-ms.sourcegitcommit: 611202adaa080250636efabb3b3b32b850d92d04
+ms.openlocfilehash: 3aabc1356eba27de797fa696dd928cb401d8501b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8813104"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860814"
 ---
 # <a name="cost-transaction-entities"></a>Entità di transazione costi
 

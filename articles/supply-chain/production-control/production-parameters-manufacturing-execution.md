@@ -1,6 +1,6 @@
 ---
 title: Parametri di produzione di Esecuzione produzione
-description: Questo argomento fornisce informazioni sulla configurazione dei parametri di produzione in Esecuzione produzione.
+description: Questo articolo fornisce informazioni sulla configurazione dei parametri di produzione in Esecuzione produzione.
 author: johanhoffmann
 ms.date: 06/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ce0dadd353df756a468384e3bf8e68c0ad2033a7042b4986fce41aa0764afdbc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752732"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873668"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parametri di produzione di Esecuzione produzione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sulla configurazione dei parametri di produzione in Esecuzione produzione.
+Questo articolo fornisce informazioni sulla configurazione dei parametri di produzione in Esecuzione produzione.
 
 Il modulo **Esecuzione produzione** è destinato principalmente all'utilizzo da parte di società di produzione. Il modulo può essere utilizzato per registrare il consumo per ore e per articoli nei processi o progetti di produzione. Prima di iniziare a utilizzare il modulo Esecuzione produzione per la registrazione di processi, è necessario impostare vari parametri di produzione che definiscano come e quando le registrazioni vengono inviate durante il processo di produzione. Le impostazioni dei parametri di produzione influiscono sulla gestione del magazzino e della produzione e sul calcolo dei costi.
 

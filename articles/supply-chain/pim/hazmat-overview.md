@@ -1,6 +1,6 @@
 ---
 title: Panoramica dei materiali pericolosi
-description: Questo argomento fornisce una panoramica delle funzionalità correlate alla gestione e alla documentazione dei materiali pericolosi per la gestione delle informazioni sul prodotto e la gestione del magazzino.
+description: Questo articolo fornisce una panoramica delle funzionalità correlate alla gestione e alla documentazione dei materiali pericolosi per la gestione delle informazioni sul prodotto e la gestione del magazzino.
 author: t-benebo
 ms.date: 06/10/2020
 ms.topic: overview
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: cfea2cd6a2699bdf2a14de72a8bdeb3e8cd32a17
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: c2cae4cb65dd163e9fbf1d24cff5a0a040e3ce3a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986278"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905807"
 ---
 # <a name="hazardous-materials-overview"></a>Panoramica dei materiali pericolosi
 
@@ -50,7 +50,7 @@ Quando questa funzionalità è stata sviluppata, sono state considerate le segue
 
 Ogni serie di normative fornisce elenchi standard di merci pericolose e codici di riferimento. Pertanto Supply Chain Management fornisce una tabella di riferimento per i codici comuni in tali elenchi. Ogni elenco include inoltre alcuni codici univoci che possono essere definiti.
 
-Per ulteriori informazioni su come impostare normative e valori per i materiali pericolosi e su come assegnare i valori ai prodotti pertinenti, vedere i seguenti argomenti:
+Per ulteriori informazioni su come impostare normative e valori per i materiali pericolosi e su come assegnare i valori ai prodotti pertinenti, vedi i seguenti articoli:
 
 - [Impostare i materiali pericolosi](hazmat-setup.md)
 - [Materiali pericolosi in prodotti, ordini, spedizioni e carichi](hazmat-items.md)

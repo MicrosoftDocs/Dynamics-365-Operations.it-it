@@ -1,6 +1,6 @@
 ---
 title: Modulo di ricerca ordini
-description: In questo argomento viene descritto il modulo di ricerca ordini e la procedura per configurarlo in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto il modulo di ricerca ordini e la procedura per configurarlo in Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 09/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
-ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
+ms.openlocfilehash: c83463d9a0ece9605b0d22bee2a1c76057c8ed05
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/23/2021
-ms.locfileid: "7675119"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869432"
 ---
 # <a name="order-lookup-module"></a>Modulo di ricerca ordini
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto il modulo di ricerca ordini e la procedura per configurarlo in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto il modulo di ricerca ordini e la procedura per configurarlo in Microsoft Dynamics 365 Commerce.
 
 Il modulo di ricerca ordini consente ai clienti di cercare gli ordini che hanno effettuato su un sito di e-commerce. Viene usato nell'ambito della funzionalità [Abilitare la ricerca di ordini per il checkout come guest](order-lookup-guest.md). Il modulo di ricerca degli ordini può essere utilizzato per cercare gli ordini inviati tramite un sito di e-commerce, il punto vendita al dettaglio (POS) o un servizio clienti. Il modulo può recuperare gli ordini inviati sia da utenti guest sia da utenti registrati.
 

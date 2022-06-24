@@ -1,6 +1,6 @@
 ---
 title: Registrare le provvigioni di vendita
-description: In questo argomento viene descritto come vengono calcolate e registrate le provvigioni di vendita.
+description: In questo articolo viene descritto come vengono calcolate e registrate le provvigioni di vendita.
 author: Henrikan
 ms.date: 08/06/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4aca37350938d54d4acf283093365bfcab64f70
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b15ca78da14068fd2f3275e7aff04852625db7ee
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862513"
 ---
 # <a name="register-sales-commissions"></a>Registrare le provvigioni di vendita
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come vengono calcolate e registrate le provvigioni di vendita. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. Prima di iniziare questa guida, eseguire la guida chiamata “Impostare regole per la provvigione vendite" per assicurarsi che tutto il necessario per il calcolo della provvigione sia impostato.
+In questo articolo viene descritto come vengono calcolate e registrate le provvigioni di vendita. È possibile eseguire questa procedura nella società di dati dimostrativi USMF oppure nei propri dati. Prima di iniziare questa guida, eseguire la guida chiamata “Impostare regole per la provvigione vendite" per assicurarsi che tutto il necessario per il calcolo della provvigione sia impostato.
 
 Prendere nota dei numeri cliente e articolo scelti per il processo di provvigione e usarli quando chiesto per creare un ordine cliente nella guida.
 

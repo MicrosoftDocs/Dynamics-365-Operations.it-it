@@ -1,6 +1,6 @@
 ---
 title: Utilizzo degli articoli serializzati
-description: In questo argomento viene descritto come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
+description: In questo articolo viene descritto come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
 author: Henrikan
 ms.date: 10/31/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62e53ec57a8d5c5c922f580219e4bde5338d0707
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b89e9ab547d13e68ead88d76f9922d14fde4beb3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571691"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901852"
 ---
 # <a name="working-with-serialized-items"></a>Utilizzo degli articoli serializzati
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
+In questo articolo viene descritto come registrare i numeri di serie sui documenti di trasporto o sulle fatture durante il processo di vendita. Si tratta di una funzionalità utile se una società desidera acquisire numeri di serie solo per scopi di garanzia e assistenza senza dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino.
 
 Molte società desiderano acquisire numeri di serie solo per scopi di garanzia e assistenza per non dover gestire i numeri di serie dall'entrata all'uscita delle merci in magazzino. In questi scenari, è possibile registrare i numeri di serie sui documenti di trasporto o sulle fatture quando i prodotti vengono venduti. Se in seguito i prodotti vengono resi, è quindi possibile tenere traccia di ogni prodotto in una fattura per determinare se è stato venduto e se gli obblighi di assistenza e garanzia sono validi.
 

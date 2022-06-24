@@ -1,6 +1,6 @@
 ---
 title: Panoramica del sito di e-commerce
-description: Questo argomento fornisce una panoramica del supporto per i siti di e-commerce in Microsoft Dynamics 365 Commerce.
+description: Questo articolo fornisce una panoramica del supporto per i siti di e-commerce in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 11/05/2020
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90f0f01115b00f231af8d4ae11be1d18d379399b
-ms.sourcegitcommit: 6f6ec4f4ff595bf81f0b8b83f66442d5456efa87
+ms.openlocfilehash: 9b7e4d09eaa4f91478d27cbca5eaea48af86e676
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8487770"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899123"
 ---
 # <a name="e-commerce-site-overview"></a>Panoramica del sito di e-commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica del supporto per i siti di e-commerce in Microsoft Dynamics 365 Commerce. Include informazioni su come vengono inizializzati e gestiti i punti vendita online di e-commerce in Dynamics 365 Commerce. Fornisce inoltre i collegamenti a ulteriori informazioni sui negozi online e informazioni su come impostare e configurare un sito di e-commerce. Sebbene questo argomento copra molti concetti di base, non tratta tutto ciò che è necessario per impostare un sito di e-commerce di produzione. Argomenti più avanzati possono essere trovati nella documentazione di Dynamics 365 Commerce.
+Questo articolo fornisce una panoramica del supporto per i siti di e-commerce in Microsoft Dynamics 365 Commerce. Include informazioni su come vengono inizializzati e gestiti i punti vendita online di e-commerce in Dynamics 365 Commerce. Fornisce inoltre i collegamenti a ulteriori informazioni sui negozi online e informazioni su come impostare e configurare un sito di e-commerce. Sebbene questo articolo copra molti concetti di base, non tratta tutto ciò che è necessario per impostare un sito di e-commerce di produzione. Articoli più avanzati possono essere trovati nella documentazione di Dynamics 365 Commerce.
 
 ## <a name="online-store-channel"></a>Canale punto vendita online
 
@@ -74,7 +74,7 @@ Dynamics 365 Commerce utilizza Azure Active Directory (Azure AD) business-to-con
 
 ## <a name="overview-of-the-default-site-pages"></a>Panoramica delle pagine del sito predefinite
 
-I siti **predefinito** e **fabrikam** includono modelli, frammenti e pagine preconfigurati per aiutare a iniziare. Per ulteriori informazioni, vedere gli argomenti seguenti:
+I siti **predefinito** e **fabrikam** includono modelli, frammenti e pagine preconfigurati per aiutare a iniziare. Per ulteriori informazioni, vedere gli articoli seguenti:
 
 - [Panoramica della home page](quick-tour-home-page.md)
 - [Panoramica della pagina dei dettagli del prodotto](quick-tour-pdp.md)
@@ -83,7 +83,7 @@ I siti **predefinito** e **fabrikam** includono modelli, frammenti e pagine prec
 
 ## <a name="manage-site-settings"></a>Gestire le impostazioni del sito
 
-Per ulteriori informazioni su come gestire le impostazioni del sito vedere gli argomenti elencati di seguito.
+Per ulteriori informazioni su come gestire le impostazioni del sito vedi gli articoli elencati di seguito:
 
 - [Gestire utenti e ruoli di e-commerce](manage-ecommerce-users-roles.md)
 - [Considerazioni SEO (ottimizzazione del motore di ricerca) per il proprio sito](search-engine-optimization-considerations.md)
@@ -92,7 +92,7 @@ Per ulteriori informazioni su come gestire le impostazioni del sito vedere gli a
 
 ## <a name="manage-site-content"></a>Gestire il contenuto del sito
 
-Per ulteriori informazioni su come gestire il contenuto del sito vedere gli argomenti elencati di seguito.
+Per ulteriori informazioni su come gestire il contenuto del sito vedi gli articoli elencati di seguito:
 
 - [Glossario del modello di pagina](page-elements-overview.md)
 - [Stato e ciclo di vita documento](document-states-overview.md)

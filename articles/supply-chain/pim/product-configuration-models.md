@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fddad1fffd61ef0cf78977721bdf2da51aa4c682
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9bee2d68a2ed2aa339ddf8232bba4541f4fe52b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871922"
 ---
 # <a name="product-configuration-models-overview"></a>Panoramica sui modelli di configurazione prodotto
 
@@ -75,7 +75,7 @@ Se il tipo di attributo è <strong>Boolean</strong>, <strong>Intero</strong> con
 <td>Vincoli</td>
 <td>I vincoli descrivono le restrizioni della configurazione del modello prodotto. I vincoli vengono utilizzati per garantire che solo i valori validi vengano selezionati quando il prodotto viene configurato. I vincoli possono essere sia vincoli di espressione che vincoli di tabella:
 <ul>
-<li>I vincoli di espressione possono essere utilizzati solo per il componente a cui sono correlati. I vincoli di espressione per un componente possono fare riferimento ad attributi di sottocomponenti del componente. Il solver di configurazione prodotto viene utilizzato per risolvere i vincoli ed è necessario utilizzare la sintassi del solver quando si scrivono i vincoli. Per ulteriori informazioni, vedere il collegamento dell'articolo sui vincoli di espressione e i vincoli di tabella.</li>
+<li>I vincoli di espressione possono essere utilizzati solo per il componente a cui sono correlati. I vincoli di espressione per un componente possono fare riferimento ad attributi di sottocomponenti del componente. Il solver di configurazione prodotto viene utilizzato per risolvere i vincoli ed è necessario utilizzare la sintassi del solver quando si scrivono i vincoli. Per ulteriori informazioni, vedi il collegamento dell'articolo sui vincoli di espressione e i vincoli di tabella.</li>
 <li>I vincoli di tabella devono essere definiti prima di poter essere applicati a un componente in un modello di configurazione prodotto. I vincoli di tabella possono essere definiti dall'utente o dal sistema. Un vincolo di tabella definito dall'utente è un tipo di matrice che può essere utilizzato per descrivere il set di combinazioni per i valori dell'attributo definiti dai tipi di attributo. Ad esempio, se vengono prodotti altoparlanti, la matrice per il vincolo di tabella definito dall'utente può presentare colonne per il rivestimento e la griglia dell'altoparlante.</li>
 </ul>
 <strong>Esempio</strong> Gli altoparlanti sono disponibili in quattro rivestimenti: nero, quercia, palissandro e bianco. La griglia frontale degli altoparlanti può essere nei seguenti colori: nero, metallo o bianco. La finitura in nero è disponibile per tutte le griglie, mentre le altre finiture sono limitate a griglie specifiche. Nella tabella indicata di seguito viene illustrato un esempio delle informazioni visualizzate nella scheda <strong>Combinazioni consentite</strong> nella pagina <strong>Modifica vincolo di tabella</strong>.

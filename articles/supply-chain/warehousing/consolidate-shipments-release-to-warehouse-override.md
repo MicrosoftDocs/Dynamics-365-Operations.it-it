@@ -1,6 +1,6 @@
 ---
 title: Consolidare le spedizioni quando il criterio di consolidamento delle spedizioni viene ignorato
-description: Questo argomento presenta uno scenario in cui una o più righe di vendita devono essere rilasciate manualmente al magazzino dalla pagina Rilascia in magazzino e i criteri di consolidamento della spedizione definiti dal sistema devono essere ignorati prima del rilascio.
+description: Questo articolo presenta uno scenario in cui una o più righe di vendita devono essere rilasciate manualmente al magazzino dalla pagina Rilascia in magazzino e i criteri di consolidamento della spedizione definiti dal sistema devono essere ignorati prima del rilascio.
 author: Mirzaab
 ms.date: 05/12/2020
 ms.topic: article
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 8b1c8ac41fe0941c9bbfce20ce593eafe5699ef1
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 680941adeba1fc1cd54a02fb366d3d5903938d77
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675461"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878702"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Consolidare le spedizioni quando il criterio di consolidamento delle spedizioni viene ignorato
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento presenta uno scenario in cui una o più righe di vendita devono essere rilasciate manualmente al magazzino dalla pagina **Rilascia in magazzino** e i criteri di consolidamento della spedizione definiti dal sistema devono essere ignorati prima del rilascio. Potrebbe essere necessario sostituire i criteri di consolidamento della spedizione se, ad esempio, un ordine che di solito non è consolidato con spedizioni aperte deve essere consolidato con spedizioni aperte.
+Questo articolo presenta uno scenario in cui una o più righe di vendita devono essere rilasciate manualmente al magazzino dalla pagina **Rilascia in magazzino** e i criteri di consolidamento della spedizione definiti dal sistema devono essere ignorati prima del rilascio. Potrebbe essere necessario sostituire i criteri di consolidamento della spedizione se, ad esempio, un ordine che di solito non è consolidato con spedizioni aperte deve essere consolidato con spedizioni aperte.
 
 Durante lo scenario, creerai un insieme di ordini cliente e quindi sovrascriverai i criteri di consolidamento della spedizione predefinita prima di rilasciare gli ordini al magazzino.
 
 ## <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
-Lo scenario in questo argomento fa riferimento a valori e record inclusi nei dati demo standard forniti per Microsoft Dynamics 365 Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica su **USMF** prima di iniziare.
+Lo scenario in questo articolo fa riferimento a valori e record inclusi nei dati demo standard forniti per Microsoft Dynamics 365 Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica su **USMF** prima di iniziare.
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Impostare i criteri di consolidamento delle spedizioni e i filtri per i prodotti
 

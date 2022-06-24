@@ -1,6 +1,6 @@
 ---
 title: Distribuzione di massa dei componenti self-service Commerce sigillati
-description: Questo argomento spiega come utilizzare il framework per i programmi di installazione dei componenti self-service per installare e gestire le distribuzioni in modo invisibile all'utente.
+description: Questo articolo spiega come utilizzare il framework per i programmi di installazione dei componenti self-service per installare e gestire le distribuzioni in modo invisibile all'utente.
 author: jashanno
 ms.date: 05/11/2022
 ms.topic: article
@@ -9,20 +9,20 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 5cb27fd0ea366d12c8bd6ee1cdb0c6d584375862
-ms.sourcegitcommit: d70f66a98eff0a2836e3033351b482466bd9c290
+ms.openlocfilehash: a679d78db3ad5bd9cccbd4ab6a7026bd07890f55
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8741559"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8898581"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Distribuzione di massa dei componenti self-service Commerce sigillati
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento si applica al framework sigillato, ai programmi di installazione dei componenti che vengono rilasciati ogni mese, a partire dalla versione 10.0.18, e che sono resi disponibili nella libreria di risorse condivise in Microsoft Dynamics Lifecycle Services (LCS). Si noti che le prime versioni di questi nuovi programmi di installazione sono designate come **(Anteprima)**. Tuttavia, l'unico scopo di questa designazione è differenziare i nuovi programmi di installazione mentre Microsoft determina se esistono requisiti funzionali aggiuntivi per utilizzarli. Non significa che i programmi di installazione non siano validi per la produzione. Sulla base del rilascio di questi nuovi programmi di installazione, Microsoft prevede di deprecare i vecchi programmi di installazione (legacy) a partire da ottobre 2023. 
+Questo articolo si applica al framework sigillato, ai programmi di installazione dei componenti che vengono rilasciati ogni mese, a partire dalla versione 10.0.18, e che sono resi disponibili nella libreria di risorse condivise in Microsoft Dynamics Lifecycle Services (LCS). Si noti che le prime versioni di questi nuovi programmi di installazione sono designate come **(Anteprima)**. Tuttavia, l'unico scopo di questa designazione è differenziare i nuovi programmi di installazione mentre Microsoft determina se esistono requisiti funzionali aggiuntivi per utilizzarli. Non significa che i programmi di installazione non siano validi per la produzione. Sulla base del rilascio di questi nuovi programmi di installazione, Microsoft prevede di deprecare i vecchi programmi di installazione (legacy) a partire da ottobre 2023. 
 
-Questo argomento spiega come utilizzare i nuovi programmi di installazione per eseguire in modo invisibile all'utente l'installazione e la manutenzione degli aggiornamenti tramite argomenti della riga di comando. Questi argomenti ti consentono di eseguire la distribuzione di massa in diversi modi.
+Questo articolo spiega come utilizzare i nuovi programmi di installazione per eseguire in modo invisibile all'utente l'installazione e la manutenzione degli aggiornamenti tramite argomenti della riga di comando. Questi argomenti ti consentono di eseguire la distribuzione di massa in diversi modi.
 
 > [!NOTE]
 > I nuovi programmi di installazione self-service sigillati non saranno resi disponibili in Headquarters e sono scaricabili solo tramite LCS.
@@ -108,7 +108,7 @@ La migrazione dai programmi di installazione dei componenti del vecchio framewor
 
 ### <a name="before-you-begin"></a>Prima di iniziare
 
-È fondamentale rimuovere il vecchio componente POS moderno self-service. Per ulteriori informazioni, vedere i passaggi per la migrazione descritti precedentemente in questo argomento.
+È fondamentale rimuovere il vecchio componente POS moderno self-service. Per ulteriori informazioni, vedi i passaggi per la migrazione descritti precedentemente in questo articolo.
 
 ### <a name="examples-of-silent-deployment"></a>Esempi di distribuzione invisibile all'utente
 
@@ -125,7 +125,7 @@ CommerceModernPOS.exe --help install
 ```
 
 > [!NOTE]
-> Non è richiesto un file di configurazione per POS moderno. Il programma di installazione dispone ora di parametri (illustrati in precedenza in questo argomento) per i vari valori utilizzati durante l'attivazione del dispositivo.
+> Non è richiesto un file di configurazione per POS moderno. Il programma di installazione dispone ora di parametri (illustrati in precedenza in questo articolo) per i vari valori utilizzati durante l'attivazione del dispositivo.
 
 Il comando seguente specifica tutti i parametri da utilizzare durante l'attivazione del dispositivo dopo l'installazione dell'applicazione POS moderno. Questo esempio usa il registro **Houston-3**, che è un valore comunemente usato nei dati dimostrativi di Dynamics 365 Commerce.
 
@@ -145,7 +145,7 @@ CommerceModernPOS.exe install --InstallOffline --SQLServerName "SQLExpress" --Co
 
 ### <a name="before-you-begin"></a>Prima di iniziare
 
-È fondamentale rimuovere il vecchio componente della stazione hardware self-service. Per ulteriori informazioni, vedere i passaggi per la migrazione descritti precedentemente in questo argomento. Non è più disponibile uno strumento di informazioni sul conto esercente. Le informazioni sul conto esercente vengono invece installate quando un terminale POS è associato alla stazione hardware. Quando si esegue il test di questo programma di installazione per la prima volta, si consiglia vivamente di eseguire il comando seguente:
+È fondamentale rimuovere il vecchio componente della stazione hardware self-service. Per ulteriori informazioni, vedi i passaggi per la migrazione descritti precedentemente in questo articolo. Non è più disponibile uno strumento di informazioni sul conto esercente. Le informazioni sul conto esercente vengono invece installate quando un terminale POS è associato alla stazione hardware. Quando si esegue il test di questo programma di installazione per la prima volta, si consiglia vivamente di eseguire il comando seguente:
 
 ```Console
 CommerceHardwareStation.exe --help install
@@ -166,7 +166,7 @@ HardwareStation.exe install --Port 443 --StoreSystemAOSURL "https://MyDynamics36
 ```
 
 > [!NOTE]
-> Non è richiesto un file di configurazione per la stazione hardware. Il programma di installazione dispone ora di parametri (illustrati in precedenza in questo argomento) per i vari valori richiesti.
+> Non è richiesto un file di configurazione per la stazione hardware. Il programma di installazione dispone ora di parametri (illustrati in precedenza in questo articolo) per i vari valori richiesti.
 
 Il comando seguente specifica tutti i parametri necessari per ignorare le verifiche dei prerequisiti durante un'installazione standard. 
 
@@ -189,7 +189,7 @@ CommerceStoreScaleUnitSetup.exe --help install
 
 ### <a name="before-you-begin"></a>Prima di iniziare
 
-È fondamentale rimuovere il vecchio componente CSU (indipendente) self-service. Per ulteriori informazioni, vedere i passaggi per la migrazione descritti precedentemente in questo argomento.
+È fondamentale rimuovere il vecchio componente CSU (indipendente) self-service. Per ulteriori informazioni, vedi i passaggi per la migrazione descritti precedentemente in questo articolo.
 
 ### <a name="examples-of-silent-deployment"></a>Esempi di distribuzione invisibile all'utente
 

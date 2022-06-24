@@ -1,6 +1,6 @@
 ---
 title: Tipi di criticità dei cespiti
-description: L'argomento descrive i tipi di criticità dei cespiti in Gestione cespiti.
+description: L'articolo descrive i tipi di criticità dei cespiti in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9edf55c22375a66fda04ae7ff76d7a0a191140e5ffb3a377b9ac1a7ba604a8d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfde9a9bc681c0d758491fc5c361b5b046e20d9d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776922"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899500"
 ---
 # <a name="asset-criticality-types"></a>Tipi di criticità dei cespiti
 
@@ -28,7 +28,7 @@ ms.locfileid: "6776922"
 
  
 
-L'argomento descrive i tipi di criticità dei cespiti in Gestione cespiti. La criticità dei cespiti è correlata ai cespiti e viene trasferita agli ordini di lavoro. Non può essere modificata in un ordine di lavoro. La criticità dei cespiti viene utilizzata per calcolare la criticità dell'ordine di lavoro durante la programmazione dell'ordine di lavoro. Ovvero, è utilizzata per calcolare la misura in cui un processo di manutenzione di un cespite influisce sulla programmazione di produzione e la produttività della società. Per ulteriori informazioni sull'impostazione relativa al calcolo dei punteggi di valutazione per la programmazione degli ordini di lavoro, vedere [Parametri di Gestione cespiti](../setup-for-objects/enterprise-asset-management-parameters.md).
+L'articolo descrive i tipi di criticità dei cespiti in Gestione cespiti. La criticità dei cespiti è correlata ai cespiti e viene trasferita agli ordini di lavoro. Non può essere modificata in un ordine di lavoro. La criticità dei cespiti viene utilizzata per calcolare la criticità dell'ordine di lavoro durante la programmazione dell'ordine di lavoro. Ovvero, è utilizzata per calcolare la misura in cui un processo di manutenzione di un cespite influisce sulla programmazione di produzione e la produttività della società. Per ulteriori informazioni sull'impostazione relativa al calcolo dei punteggi di valutazione per la programmazione degli ordini di lavoro, vedere [Parametri di Gestione cespiti](../setup-for-objects/enterprise-asset-management-parameters.md).
 
 Per impostare la criticità, è necessario innanzitutto creare i tipi di criticità che devono essere utilizzati nell'impostazione del cespite. Si imposteranno quindi le criticità dei cespiti.
 

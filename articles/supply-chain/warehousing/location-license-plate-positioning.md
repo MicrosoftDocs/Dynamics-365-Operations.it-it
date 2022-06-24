@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: f87723ebd6684efba8464a7d64c7e1ea99f194eb
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: e52b313e0a00c04edf9003aa6292146936f837d4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102791"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889430"
 ---
 # <a name="location-license-plate-positioning"></a>Posizionamento targa ubicazione
 
@@ -28,11 +28,11 @@ Il posizionamento della targa consente di vedere dove si trova una targa in un'u
 
 La funzionalità aggiunge un numero progressivo a ciascuna targa che viene inserita in un'ubicazione di stoccaggio. Questo numero di sequenza viene utilizzato per ordinare le targhe nell'ubicazione di stoccaggio. Pertanto, la funzionalità supporta in modo intelligente scenari in cui i clienti utilizzano un sistema di scaffalature a gravità e devono sapere, ai fini del prelievo, quale targa è rivolta verso la parte anteriore.
 
-Questo argomento presenta uno scenario che mostra come impostare e utilizzare la funzionalità.
+Questo articolo presenta uno scenario che mostra come impostare e utilizzare la funzionalità.
 
 ## <a name="turn-the-location-license-plate-positioning-feature-on-or-off"></a>Attivare o disattivare la funzionalità Posizionamento targa ubicazione
 
-Per utilizzare la funzionalità descritta in questo argomento, è necessario attivare la funzionalità *Posizionamento targa ubicazione* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Posizionamento targa ubicazione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare la funzionalità descritta in questo articolo, è necessario attivare la funzionalità *Posizionamento targa ubicazione* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Posizionamento targa ubicazione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="example-scenario"></a>Scenario di esempio
 
@@ -42,7 +42,7 @@ Per elaborare lo scenario utilizzando i valori suggeriti qui, devi utilizzare un
 
 ### <a name="set-up-the-feature-for-this-scenario"></a>Impostare la funzionalità per questo scenario
 
-Completa le seguenti procedure per impostare la funzionalità *Posizionamento della targa di ubicazione* per lo scenario presentato in questo argomento.
+Completa le seguenti procedure per impostare la funzionalità *Posizionamento della targa di ubicazione* per lo scenario presentato in questo articolo.
 
 #### <a name="location-profiles"></a>Profili ubicazione
 

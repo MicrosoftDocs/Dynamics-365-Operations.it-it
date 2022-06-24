@@ -1,6 +1,6 @@
 ---
 title: Creare una richiesta che usa una RdO
-description: In questo argomento viene descritto come aggiungere le informazioni su prezzo e fornitore ad una richiesta di acquisto da un processo di RdO.
+description: In questo articolo viene descritto come aggiungere le informazioni su prezzo e fornitore ad una richiesta di acquisto da un processo di RdO.
 author: GalynaFedorova
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78092205c1a1d149b4dc202e085871d1fe46c4ad
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5ecde250e3517464611b68fe3c960bfbfdf06319
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675123"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846013"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Creare una richiesta che usa una RdO
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come aggiungere le informazioni su prezzo e fornitore ad una richiesta di acquisto da un processo di RdO. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF e dovete essere collegati come Amministratore per completare tutti i passaggi. Le attività in questa guida sarebbero svolte tipicamente da professionisti dell'approvvigionamento.
+In questo articolo viene descritto come aggiungere le informazioni su prezzo e fornitore ad una richiesta di acquisto da un processo di RdO. L'esempio indicato in questa guida può essere utilizzato nella società di dati dimostrativi USMF e dovete essere collegati come Amministratore per completare tutti i passaggi. Le attività in questa guida sarebbero svolte tipicamente da professionisti dell'approvvigionamento.
 
 
 ## <a name="create-a-requisition"></a>Creare una richiesta

@@ -1,6 +1,6 @@
 ---
 title: Stampa di etichette ciclo
-description: Questo argomento descrive la stampa di etichette ondata e spiega come configurarla.
+description: Questo articolo descrive la stampa di etichette ondata e spiega come configurarla.
 author: perlynne
 ms.date: 05/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 59c4c100275917f3f9bf489c7d64b276275f1872
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: 18620602c5f3cf6a69a36ef7248f35e5509337b8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778085"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901823"
 ---
 # <a name="wave-label-printing"></a>Stampa di etichette ciclo
 
@@ -49,7 +49,7 @@ La stampa di etichette ondata offre i seguenti miglioramenti:
 Questi miglioramenti rendono più efficiente l'etichettatura dei cartoni prima della pallettizzazione. Sono particolarmente utili per le aziende che spediscono a grandi rivenditori che confermano automaticamente la ricezione degli ordini sottoponendo a scansione ciascun cartone separatamente.
 
 > [!NOTE]
-> È possibile implementare gli scenari di configurazione descritti in questo argomento separatamente o in combinazione, a seconda delle esigenze aziendali. È possibile progettare diversi modelli di etichette ondata che funzionano in sequenza (come illustrato nello scenario 3). Ad esempio, è possibile utilizzare lo scenario 1 per stampare etichette di cartoni e lo scenario 2 per stampare etichette di pallet (se i pallet in stock variano quanto a dimensioni e composizione).
+> È possibile implementare gli scenari di configurazione descritti in questo articolo separatamente o in combinazione, a seconda delle esigenze aziendali. È possibile progettare diversi modelli di etichette ondata che funzionano in sequenza (come illustrato nello scenario 3). Ad esempio, è possibile utilizzare lo scenario 1 per stampare etichette di cartoni e lo scenario 2 per stampare etichette di pallet (se i pallet in stock variano quanto a dimensioni e composizione).
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Attivare la funzionalità di stampa di etichette ondata
 

@@ -1,6 +1,6 @@
 ---
 title: Sequenza lavori gestiti dal sistema
-description: Questo argomento fornisce informazioni sulla sequenza di lavori gestiti dal sistema. Questa funzionalità consente di ordinare e filtrare gli ordini di lavoro che il sistema presenta agli utenti per l'esecuzione. È utile in scenari in cui sono richiesti criteri aggiuntivi per guidare il processo di prelievo di magazzino.
+description: Questo articolo fornisce informazioni sulla sequenza di lavori gestiti dal sistema. Questa funzionalità consente di ordinare e filtrare gli ordini di lavoro che il sistema presenta agli utenti per l'esecuzione. È utile in scenari in cui sono richiesti criteri aggiuntivi per guidare il processo di prelievo di magazzino.
 author: Mirzaab
 ms.date: 07/03/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: b433787f330de3634c59f7b1b2babfe07e3bdf09
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577818"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8849128"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenza lavori gestiti dal sistema
 
@@ -44,7 +44,7 @@ Prima di poter utilizzare la sequenza lavori gestita dal sistema, tale funzional
 
 ### <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
-Per elaborare lo scenario utilizzando i record e i valori di esempio presentati in questo argomento, devi utilizzare un sistema in cui sono installati i dati dimostrativi standard. Inoltre, è necessario selezionare la persona giuridica **USMF**. Lo scenario utilizza il magazzino *51* dai dati demo.
+Per elaborare lo scenario utilizzando i record e i valori di esempio presentati in questo articolo, devi utilizzare un sistema in cui sono installati i dati dimostrativi standard. Inoltre, è necessario selezionare la persona giuridica **USMF**. Lo scenario utilizza il magazzino *51* dai dati demo.
 
 > [!IMPORTANT]
 > Prima di rilasciare gli ordini al magazzino, devi assicurarti che le posizioni di prelievo dispongano di scorte sufficienti per tutti gli articoli degli ordini.

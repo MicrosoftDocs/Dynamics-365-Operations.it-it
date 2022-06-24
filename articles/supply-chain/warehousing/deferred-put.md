@@ -1,6 +1,6 @@
 ---
 title: Elaborazione differita di lavoro di magazzino
-description: In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio del lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
+description: In questo articolo vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio del lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 11/18/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f99e960ffe7ca383563cc49c2e0825592ef5de57
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: f4eeea0805c2cecedbd6b42926191ab02022df9f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899297"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Elaborazione differita di lavoro di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio per il lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
+In questo articolo vengono descritte le funzionalità che rendono l'elaborazione differita delle operazioni di stoccaggio per il lavoro di magazzino disponibili in Dynamics 365 Supply Chain Management.
 
 La funzionalità di elaborazione differita consente agli addetti al magazzino di continuare a fare altro lavoro mentre l'operazione di stoccaggio elaborata in background. L'Elaborazione differita è utile quando più righe di lavoro devono essere elaborate e il lavoratore può lasciare che il lavoro sia elaborato in modo asincrono. È inoltre utile quando il server può avere aumenti ad hoc o non pianificati nel tempo di elaborazione e il tempo di elaborazione aumentato può influire sulla produttività dell'utente.
 

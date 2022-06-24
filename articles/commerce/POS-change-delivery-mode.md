@@ -1,6 +1,6 @@
 ---
 title: Modifica modalità di consegna nel POS
-description: Questo argomento descrive come configurare e utilizzare la modalità di modifica dell'operazione di consegna nel POS.
+description: Questo articolo descrive come configurare e utilizzare la modalità di modifica dell'operazione di consegna nel POS.
 author: hhainesms
 ms.date: 03/01/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: ef778763b26954057b83df3e963e34008819fd208a55d55e07075853ffce8b35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 583f568164d0de70e22998bf5ded5f4616b00bd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714042"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855823"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Modifica modalità di consegna nel POS
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come impostare e utilizzare la funzionalità "modifica modalità di consegna" nell'ambiente del punto vendita (POS). 
+Questo articolo descrive come impostare e utilizzare la funzionalità "modifica modalità di consegna" nell'ambiente del punto vendita (POS). 
 
 In Dynamics 365 Commerce versione 10.0.10 e successive, l'operazione **Cambia modalità di consegna** (647) è disponibile per l'aggiunta ai layout dello schermo del POS.
 

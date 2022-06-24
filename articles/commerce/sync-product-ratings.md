@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare valutazioni sul prodotto in Dynamics 365 Commerce
-description: In questo argomento viene descritto come sincronizzare valutazioni di prodotti in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come sincronizzare valutazioni di prodotti in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/06/2020
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3ceac78e6dbc6f83ed4968f76672367e79bdd968
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: ac94a8b4505aba509f0a71ed36d32adac864aedf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7967952"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909337"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Sincronizzare valutazioni sul prodotto in Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come sincronizzare valutazioni di prodotti in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come sincronizzare valutazioni di prodotti in Microsoft Dynamics 365 Commerce.
 
 Per utilizzare valutazioni di prodotti nei multicanali, ad esempio nel POS e nei servizi clienti, le valutazioni di prodotti del servizio Valutazioni e recensioni devono essere importate nel database del canale di Commerce. Quando le valutazioni di prodotti diventano disponibili nei multicanali, possono aiutare indirettamente i clienti durante le interazioni con gli addetti alle vendite.
 
-In questo argomento vengono descritte le seguenti attività:
+In questo articolo vengono descritte le seguenti attività:
 
 1. Configurare **Processo di sincronizzazione valutazioni prodotti** come processo batch per sincronizzare le valutazioni sui prodotti dal **Servizio di valutazioni e recensioni**.
 1. Verificare che il processo batch per la sincronizzazione delle valutazioni di prodotti sia stato eseguito correttamente.

@@ -1,6 +1,6 @@
 ---
 title: Cespiti in entrata e in uscita
-description: Viene descritta la procedura per la registrazione dei cespiti in entrata e in uscita in Gestione cespiti.
+description: In questo articolo viene descritta la procedura per la registrazione dei cespiti in entrata e in uscita in Gestione cespiti.
 author: johanhoffmann
 ms.date: 10/01/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ee3917725a95d47e37b9c914580e8ce521b52695
-ms.sourcegitcommit: 4c8223c9540fbc1c1e554962938058d432e4c681
+ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "8548141"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8908716"
 ---
 # <a name="inbound-and-outbound-assets"></a>Cespiti in entrata e in uscita
 

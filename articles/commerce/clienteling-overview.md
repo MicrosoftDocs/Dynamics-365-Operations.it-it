@@ -1,6 +1,6 @@
 ---
 title: Panoramica della fidelizzazione dei clienti
-description: In questo argomento viene fornita una panoramica delle funzionalità di fidelizzazione dei clienti disponibili nell'applicazione del punto vendita.
+description: In questo articolo viene fornita una panoramica delle funzionalità di fidelizzazione dei clienti disponibili nell'applicazione del punto vendita.
 author: bebeale
 ms.date: 02/01/2021
 ms.topic: overview
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b1e1b7a67141ffec01d926b7f917ebd4e1f24741
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885613"
 ---
 # <a name="clienteling-overview"></a>Panoramica della fidelizzazione dei clienti
 
@@ -81,7 +81,7 @@ Per attivare la funzionalità di fidelizzazione dei clienti nel proprio ambiente
     - Impostare l'ordine di visualizzazione di questi attributi. Questo ordine di visualizzazione determina quali attributi devono essere mostrati sulla scheda cliente nel libro clienti. Un ordine di visualizzazione di 1 verrà considerato superiore a un ordine di visualizzazione di 2. Pertanto, l'attributo che ha un ordine di visualizzazione di 1 verrà mostrato prima dell'attributo che ha un ordine di visualizzazione di 2.
 
     > [!NOTE]
-    > È possibile rendere disponibile Customer Insights dalla stessa pagina. Tuttavia, è necessario creare un ID applicazione e un segreto di Azure, a fini dell'autenticazione. Per informazioni sui requisiti, vedere la sezione [Attivare l'integrazione di Customer Insights con Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) più avanti in questo argomento. Se Customer Insights è abilitato e si seleziona una o più misure che devono essere visualizzate nella scheda cliente, tali misure verranno visualizzate per prime. Successivamente, verranno visualizzati i gruppi di attributi del libro clienti, in base all'ordine di visualizzazione. Ad esempio, se si selezionano due misure da Customer Insights, queste due misure e un attributo del libro clienti verranno visualizzati sulla scheda cliente. L'attributo libro clienti visualizzato sarà l'attributo con l'ordine di visualizzazione più elevato.
+    > È possibile rendere disponibile Customer Insights dalla stessa pagina. Tuttavia, è necessario creare un ID applicazione e un segreto di Azure, a fini dell'autenticazione. Per informazioni sui requisiti, vedi la sezione [Attivare l'integrazione di Customer Insights con Commerce](#turn-on-the-integration-of-customer-insights-with-commerce) più avanti in questo articolo. Se Customer Insights è abilitato e si seleziona una o più misure che devono essere visualizzate nella scheda cliente, tali misure verranno visualizzate per prime. Successivamente, verranno visualizzati i gruppi di attributi del libro clienti, in base all'ordine di visualizzazione. Ad esempio, se si selezionano due misure da Customer Insights, queste due misure e un attributo del libro clienti verranno visualizzati sulla scheda cliente. L'attributo libro clienti visualizzato sarà l'attributo con l'ordine di visualizzazione più elevato.
 
 6. Nella pagina **Parametri di commercio**, nella scheda **Fidelizzazione dei clienti**, nel campo **Gruppo di attributi del libro clienti**, selezionare il gruppo di attributi appena creato.
 

@@ -1,6 +1,6 @@
 ---
 title: Panoramica dei prerequisiti per costi standard
-description: In questo argomento vengono descritti i passaggi di base per l'utilizzo dei costi standard.
+description: In questo articolo vengono descritti i passaggi di base per l'utilizzo dei costi standard.
 author: JennySong-SH
 ms.date: 07/25/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cf37ae8d2cfa2a3f372e37eb66c22711e76dd59
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: bf02653b1d1a2cf5ed45f0fc6bd9affe098e7396
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672320"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895788"
 ---
 # <a name="prerequisites-for-standard-costs-overview"></a>Panoramica dei prerequisiti per costi standard
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritti i passaggi di base per l'utilizzo dei costi standard. I passaggi successivi dipendono dalle operazioni svolte dalla società. Ad esempio, i passaggi variano a seconda che si operi in un ambiente non di produzione, in un ambiente di produzione che non utilizza cicli di lavorazione o in un ambiente di produzione che utilizza cicli di lavorazione. 
+In questo articolo vengono descritti i passaggi di base per l'utilizzo dei costi standard. I passaggi successivi dipendono dalle operazioni svolte dalla società. Ad esempio, i passaggi variano a seconda che si operi in un ambiente non di produzione, in un ambiente di produzione che non utilizza cicli di lavorazione o in un ambiente di produzione che utilizza cicli di lavorazione. 
 
 Per impostare i costi standard, effettuare le operazioni indicate di seguito.
 
@@ -65,13 +65,13 @@ Utilizzare la pagina **Impostazione versione di determinazione costi** per crear
 I clienti che desiderano cambiare gli articoli esistenti e impostare un modello inventariale Costo standard devono utilizzare la pagina **Conversioni costo standard**.
 
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Panoramica della conversione in costo standard](standard-cost-conversion-overview.md)
 
 ### <a name="blogs"></a>Blog
 
-#### <a name="community-blogs"></a>Blog della Community
+#### <a name="community-blogs"></a>Blog della community
 
 - [Come impostare i costi standard per i materiali diretti in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Costi di manodopera diretti standard in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)

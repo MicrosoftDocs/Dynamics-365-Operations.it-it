@@ -1,6 +1,6 @@
 ---
 title: Profili certificato definiti dall'utente per i punti vendita al dettaglio
-description: Questo argomento fornisce una panoramica su come vengono utilizzati i certificati nei punti vendita al dettaglio.
+description: Questo articolo fornisce una panoramica su come vengono utilizzati i certificati nei punti vendita al dettaglio.
 author: josaw
 ms.date: 10/09/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9cb82a6d6336bb69fe818fb33e04ad621382b383055b24a4e79eee5ddff217ac
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1b40c74efa56a6e18af907e000554b9ab269bb31
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719932"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873031"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Profili certificato definiti dall'utente per i punti vendita al dettaglio
 
@@ -28,7 +28,7 @@ ms.locfileid: "6719932"
 
 ## <a name="overview"></a>Panoramica
 
-In questo argomento viene fornita una panoramica dei profili certificato disponibili in Microsoft Dynamics 365 Commerce. Questa funzionalità estende la funzionalità [Gestire segreti per i canali di vendita al dettaglio](../dev-itpro/manage-secrets.md) aggiungendo supporto per i certificati locali.
+In questo articolo viene fornita una panoramica dei profili certificato disponibili in Microsoft Dynamics 365 Commerce. Questa funzionalità estende la funzionalità [Gestire segreti per i canali di vendita al dettaglio](../dev-itpro/manage-secrets.md) aggiungendo supporto per i certificati locali.
 
 Quando il POS viene eseguito in modalità offline, non può accedere ai certificati archiviati nell'insieme di credenziali delle chiavi. Al suo posto deve essere utilizzato il certificato locale. Sono supportate le seguenti operazioni:
 

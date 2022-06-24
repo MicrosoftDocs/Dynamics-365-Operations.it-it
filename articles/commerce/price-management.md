@@ -1,6 +1,6 @@
 ---
 title: Gestione dei prezzi di vendita al dettaglio in Retail
-description: Questo argomento descrive i concetti di creazione e gestione dei prezzi di vendita in Dynamics 365 Commerce.
+description: Questo articolo descrive i concetti di creazione e gestione dei prezzi di vendita in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
 ms.date: 07/28/2021
 ms.topic: article
@@ -14,29 +14,29 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f78a4f328d6962db373990ea60dc03cec35718dc719aa0b284b319db5bc059ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16c948e6e14309f4e340bf622fac42b14e6ee591
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887012"
 ---
-# <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita Retail
+# <a name="retail-sales-price-management"></a>Gestione dei prezzi di vendita al dettaglio in Retail
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce informazioni sul processo di creazione e gestione dei prezzi di vendita in Dynamics 365 Commerce. Si concentra sui concetti coinvolti in questo processo e sugli effetti delle varie opzioni di configurazione per i prezzi di vendita.
+Questo articolo fornisce informazioni sul processo di creazione e gestione dei prezzi di vendita in Dynamics 365 Commerce. Si concentra sui concetti coinvolti in questo processo e sugli effetti delle varie opzioni di configurazione per i prezzi di vendita.
 
 ## <a name="terminology"></a>Terminologia
 
-In questo argomento vengono utilizzati i seguenti termini:
+In questo articolo vengono utilizzati i seguenti termini.
 
 | Termine | Definizione, utilizzo e note |
 |---|---|
-| Prezzo | L'importo unitario in base a cui un prodotto viene venduto in un POS o in un ordine cliente. In questo argomento, il termine *prezzo* si riferisce sempre al prezzo di vendita, non al prezzo di magazzino o al prezzo di costo. |
+| Prezzo | L'importo unitario in base a cui un prodotto viene venduto in un POS o in un ordine cliente. In questo articolo, il termine *prezzo* si riferisce sempre al prezzo di vendita, non al prezzo di magazzino o al prezzo di costo. |
 | Prezzo di base | Il prezzo impostato nel campo **Prezzo** di un prodotto rilasciato. |
 | Prezzo accordo commerciale | Il prezzo di vendita impostato per un prodotto o una variante tramite un accordo commerciale con tipo **Prezzo (Vend.)**. |
-| Prezzo migliore | Quando è possibile applicare più di un prezzo o uno sconto a un prodotto, l'importo del prezzo inferiore e/o l'importo di sconto maggiore che produce l'importo netto più basso possibile che il cliente deve pagare. In questo argomento, il concetto di miglior prezzo viene sempre definito "il migliore prezzo". Questo prezzo migliore differisce e non deve essere confuso con il valore di enumerazione del prezzo migliore per la modalità di concorrenza di uno sconto **Prezzo migliore**. |
+| Prezzo migliore | Quando è possibile applicare più di un prezzo o uno sconto a un prodotto, l'importo del prezzo inferiore e/o l'importo di sconto maggiore che produce l'importo netto più basso possibile che il cliente deve pagare. In questo articolo, il concetto di miglior prezzo viene sempre definito "il migliore prezzo". Questo prezzo migliore differisce e non deve essere confuso con il valore di enumerazione del prezzo migliore per la modalità di concorrenza di uno sconto **Prezzo migliore**. |
 
 ## <a name="price-groups"></a>Gruppi prezzi
 
@@ -97,7 +97,7 @@ Per utilizzare la priorità di prezzo per i prezzi, è necessario assegnare una 
 
 La funzionalità di priorità dei prezzi è stata introdotta per supportare lo scenario in cui un rivenditore desidera applicare prezzi più elevati in uno specifico gruppo di punti vendita. Ad esempio, un rivenditore ha definito i prezzi regionali per la costa orientale degli Stati Uniti, ma desidera prezzi più elevati per alcuni prodotti nei punti vendita di New York, poiché il costo di vendita di alcuni prodotti è superiore in città e/o perché il mercato locale supporta un prezzo più alto.
 
-Come descritto nella sezione "Miglior prezzo" di questo argomento, il motore dei prezzi seleziona in genere valore minimo tra due prezzi. Di conseguenza, al rivenditore di solito viene impedito di utilizzare il prezzo più alto di due prezzi in un punto vendita che ha sia i gruppi di prezzi della costa orientale sia quelli di New York. Per risolvere questo problema, prima che fosse introdotta la funzionalità di priorità dei prezzi, il rivenditore doveva definire i prezzi per ogni prodotto due volte e non assegnare entrambi i gruppi di prezzi. In alternativa, il rivenditore ha dovuto creare gruppi di prezzi extra per isolare i prodotti che hanno prezzi più alti da quelli che hanno i prezzi abituali più bassi.
+Come descritto nella sezione "Miglior prezzo" di questo articolo, il motore dei prezzi seleziona in genere valore minimo tra due prezzi. Di conseguenza, al rivenditore di solito viene impedito di utilizzare il prezzo più alto di due prezzi in un punto vendita che ha sia i gruppi di prezzi della costa orientale sia quelli di New York. Per risolvere questo problema, prima che fosse introdotta la funzionalità di priorità dei prezzi, il rivenditore doveva definire i prezzi per ogni prodotto due volte e non assegnare entrambi i gruppi di prezzi. In alternativa, il rivenditore ha dovuto creare gruppi di prezzi extra per isolare i prodotti che hanno prezzi più alti da quelli che hanno i prezzi abituali più bassi.
 
 Tuttavia, la funzionalità di priorità dei prezzi consente al rivenditore di creare una priorità di prezzo per i prezzi dei punti vendita superiore alla priorità dei prezzi per i prezzi regionali. In alternativa, il rivenditore può creare una priorità di prezzo solo per i prezzi dei punti vendita e lasciare i prezzi regionali con la priorità di prezzo predefinita, che è 0 (zero). Entrambe le configurazioni consentono di garantire che i prezzi dei punti vendita vengano sempre utilizzati prima dei prezzi regionali.
 
@@ -151,7 +151,7 @@ Utilizzando il giornale di registrazione accordi commerciali, è possibile crear
 
 Un accordo commerciale sui prezzi di vendita **Tabella** è per un singolo cliente che viene impostato direttamente sull'accordo commerciale. Questo scenario non è uno scenario tipico business-to-consumer (B2C). Tuttavia, se si verifica, il motore dei prezzi utilizza gli accordi commerciali **Tabella** quando determina il prezzo.
 
-Un accordo commerciale sui prezzi di vendita **Gruppo** è il tipo più utilizzato. Al di fuori di Commerce, gli accordi commerciali sui prezzi di vendita **Gruppo** si riferiscono a un gruppo di clienti semplice. Tuttavia, in Commerce, il concetto di gruppo di clienti è stato esteso in modo tale che si tratti di un gruppo di prezzi più generico. Un gruppo di prezzi può essere collegato a un canale, un'affiliazione, un programma fedeltà o a un catalogo. Per informazioni dettagliate sui gruppi di prezzi, vedere la sezione "Gruppi di prezzi" in precedenza in questo argomento.
+Un accordo commerciale sui prezzi di vendita **Gruppo** è il tipo più utilizzato. Al di fuori di Commerce, gli accordi commerciali sui prezzi di vendita **Gruppo** si riferiscono a un gruppo di clienti semplice. Tuttavia, in Commerce, il concetto di gruppo di clienti è stato esteso in modo tale che si tratti di un gruppo di prezzi più generico. Un gruppo di prezzi può essere collegato a un canale, un'affiliazione, un programma fedeltà o a un catalogo. Per informazioni dettagliate sui gruppi di prezzi, vedi la sezione "Gruppi di prezzi" in precedenza in questo articolo.
 
 > [!NOTE]
 > Il prezzo dell'accordo commerciale viene sempre utilizzato prima del prezzo di base.

@@ -1,6 +1,6 @@
 ---
 title: Giorni negativi e giorni negativi dinamici
-description: In questo argomento vengono fornite informazioni sui giorni negativi e sui giorni negativi dinamici nonché su come utilizzarli per la propria azienda.
+description: In questo articolo vengono fornite informazioni sui giorni negativi e sui giorni negativi dinamici nonché su come utilizzarli per la propria azienda.
 author: t-benebo
 ms.date: 05/25/2021
 ms.topic: article
@@ -10,27 +10,27 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d88517c99a274911e8abd8de4bcd318139822a5
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: d83aab9b7d3d30d519e8b313a57f2802de3cfb72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469871"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846129"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Giorni negativi e giorni negativi dinamici
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sui giorni negativi e sui giorni negativi dinamici nonché su come utilizzarli per la propria azienda. L'*intervallo temporale dei giorni negativi* rappresenta il numero di giorni che si è disposti ad attendere prima di ordinare un nuovo rifornimento in caso di scorte negative.
+In questo articolo vengono fornite informazioni sui giorni negativi e sui giorni negativi dinamici nonché su come utilizzarli per la propria azienda. L'*intervallo temporale dei giorni negativi* rappresenta il numero di giorni che si è disposti ad attendere prima di ordinare un nuovo rifornimento in caso di scorte negative.
 
-In questo argomento viene descritto quanto segue:
+In questo articolo viene descritto quanto segue:
 
 - Il modo in cui gli ordini pianificati sono creati
 - La correlazione tra l'intervallo temporale dei giorni negativi e il lead time dell'articolo
 - Il modo in cui l'intervallo temporale dei giorni negativi dinamici viene calcolato e come il lead time dell'articolo viene preso in considerazione nel calcolo
 - Il modo in cui interpretare i [suggerimenti per il miglioramento del tempo di esecuzione per la pianificazione dei fabbisogni materiali (MRP) (pianificazione generale)](https://blogs.msdn.com/b/axmfg/archive/2015/01/02/checklist-for-improving-mrp-performance-part-2-how-to-setup-planning-parameters.aspx) sono correlati ai giorni negativi
 
-In questo argomento vengono utilizzati tre scenari ipotetici che consentono di comprendere tali informazioni. La differenza tra gli scenari è il punto in cui si riceve la richiesta: prima, durante o dopo il lead time dell'articolo.
+In questo articolo vengono utilizzati tre scenari ipotetici che consentono di comprendere tali informazioni. La differenza tra gli scenari è il punto in cui si riceve la richiesta: prima, durante o dopo il lead time dell'articolo.
 
 ## <a name="scenario-1-you-get-demand-before-the-items-lead-time-period"></a>Scenario 1: si riceve la richiesta prima del lead time dell'articolo
 
@@ -93,7 +93,7 @@ La figura seguente illustra una visualizzazione grafica di ciò che avviene in q
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Caso E: utilizzare i giorni negativi maggiori del lead time dell'articolo e l'intervallo temporale dei giorni negativi dinamici
 
-Se invece si impostano i giorni negativi su un numero maggiore del lead time dell'articolo e si utilizza anche l'intervallo temporale dei giorni negativi dinamici, l'intervallo temporale dei giorni negativi dinamici è 6 + 6 + 0 = 12 giorni. Questo approccio potrebbe produrre un intervallo temporale molto lungo in cui MRP deve cercare i risultati. Per informazioni su come il caso E è correlato a una situazione in cui invece si impostano i giorni negativi su un intervallo temporale lungo, vedere la sezione [Conclusione](#conclusion) di questo argomento.
+Se invece si impostano i giorni negativi su un numero maggiore del lead time dell'articolo e si utilizza anche l'intervallo temporale dei giorni negativi dinamici, l'intervallo temporale dei giorni negativi dinamici è 6 + 6 + 0 = 12 giorni. Questo approccio potrebbe produrre un intervallo temporale molto lungo in cui MRP deve cercare i risultati. Per informazioni su come il caso E è correlato a una situazione in cui invece si impostano i giorni negativi su un intervallo temporale lungo, vedi la sezione [Conclusione](#conclusion) di questo articolo.
 
 ## <a name="scenario-2-you-get-demand-during-the-items-lead-time-period"></a>Scenario 2: si riceve la richiesta durante il lead time dell'articolo
 
@@ -142,7 +142,7 @@ Se si impostano i giorni negativi su **0** (zero) e si utilizza solo l'intervall
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Caso E: utilizzare i giorni negativi maggiori del lead time dell'articolo e l'intervallo temporale dei giorni negativi dinamici
 
-Se si impostano i giorni negativi su un numero maggiore del lead time dell'articolo e si utilizza anche l'intervallo temporale dei giorni negativi dinamici, questo intervallo è pari a 6 + 6 - 4 = 8 giorni. Questo approccio potrebbe produrre un intervallo temporale molto lungo in cui MRP deve cercare i risultati. Per informazioni su come il caso E è correlato a una situazione in cui invece si impostano i giorni negativi su un intervallo temporale lungo, vedere la sezione [Conclusione](#conclusion) di questo argomento.
+Se si impostano i giorni negativi su un numero maggiore del lead time dell'articolo e si utilizza anche l'intervallo temporale dei giorni negativi dinamici, questo intervallo è pari a 6 + 6 - 4 = 8 giorni. Questo approccio potrebbe produrre un intervallo temporale molto lungo in cui MRP deve cercare i risultati. Per informazioni su come il caso E è correlato a una situazione in cui invece si impostano i giorni negativi su un intervallo temporale lungo, vedi la sezione [Conclusione](#conclusion) di questo articolo.
 
 ## <a name="scenario-3-you-get-demand-after-the-items-lead-time-period"></a>Scenario 3: si riceve la richiesta dopo il lead time dell'articolo
 
@@ -204,7 +204,7 @@ Questo caso è uguale al caso E per gli scenari 1 e 2. In pratica presenta gli s
 
 ## <a name="conclusion"></a>Conclusioni
 
-Come mostrano i tre scenari in questo argomento, è consigliabile impostare i giorni negativi su un numero maggiore del lead time degli articoli del gruppo di copertura. È inoltre consigliabile utilizzare solo i giorni negativi dinamici e impostare i giorni negativi sul numero di giorni che si è disposti ad attendere prima di ordinare un nuovo rifornimento in caso di scorte negative (in altre parole, il numero di giorni che si è disposti a ritardare ulteriormente la richiesta). Inoltre, gli articoli nello stesso gruppo di copertura deve avere lead time simili.
+Come mostrano i tre scenari in questo articolo, è consigliabile impostare i giorni negativi su un numero maggiore del lead time degli articoli del gruppo di copertura. È inoltre consigliabile utilizzare solo i giorni negativi dinamici e impostare i giorni negativi sul numero di giorni che si è disposti ad attendere prima di ordinare un nuovo rifornimento in caso di scorte negative (in altre parole, il numero di giorni che si è disposti a ritardare ulteriormente la richiesta). Inoltre, gli articoli nello stesso gruppo di copertura deve avere lead time simili.
 
 Se si impostano i giorni negativi su **0** (zero) e non si utilizzano i giorni negativi dinamici, MRP crea sempre un nuovo ordine pianificato per soddisfare la richiesta. In questa situazione, è importante utilizzare i messaggi d'azione per assicurarsi di non accumulare le scorte.
 

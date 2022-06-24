@@ -1,6 +1,6 @@
 ---
 title: Integrare la gestione cespiti con cespiti
-description: Questo argomento spiega come integrare i moduli Cespiti e Gestione cespiti, in modo da poter collegare i cespiti ai cespiti in manutenzione.
+description: Questo articolo spiega come integrare i moduli Cespiti e Gestione cespiti, in modo da poter collegare i cespiti ai cespiti in manutenzione.
 author: johanhoffmann
 ms.date: 04/17/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 40e4fdce50b335668a53d2efe53b7cf6c66f364f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d5dfaaf9e4cd989ad6b993e8d152f4713c0d3aa4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7567585"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8874219"
 ---
 # <a name="integrate-asset-management-with-fixed-assets"></a>Integrare la gestione cespiti con cespiti
 
@@ -26,7 +26,7 @@ ms.locfileid: "7567585"
 Integrando i moduli **Gestione cespiti** e **Cespiti** è possibile collegare i cespiti ai cespiti in manutenzione. Gli utenti di cespiti possono quindi creare un cespite in manutenzione da un cespite nuovo o esistente e gli utenti della gestione cespiti possono associare un cespite in manutenzione con un cespite esistente. Questa funzione consente inoltre agli utenti di cespiti di visualizzare facilmente i costi registrati dagli ordini di lavoro per i relativi cespiti in manutenzione.
 
 > [!NOTE]
-> In questo argomento, i *cespiti in manutenzione* si riferiscono ai cespiti del modulo **Gestione cespiti** e i *cespiti* si riferiscono ai cespiti del modulo **Cespiti**.
+> In questo articolo, i *cespiti in manutenzione* si riferiscono ai cespiti del modulo **Gestione cespiti** e i *cespiti* si riferiscono ai cespiti del modulo **Cespiti**.
 
 ## <a name="set-a-default-location-for-new-maintenance-assets-that-are-created-from-fixed-assets-optional"></a>Impostare un ubicazione predefinita per i nuovi cespiti in manutenzione creati dai cespiti (facoltativo)
 

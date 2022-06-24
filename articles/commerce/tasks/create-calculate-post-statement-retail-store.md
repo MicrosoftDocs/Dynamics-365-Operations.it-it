@@ -1,6 +1,6 @@
 ---
 title: Creare, calcolare e registrare rendiconti per un punto vendita al dettaglio
-description: In questa argomento vengono descritti i passaggi manuali per creare, calcolare e registrare il rendiconto di un punto vendita.
+description: In questa articolo vengono descritti i passaggi manuali per creare, calcolare e registrare il rendiconto di un punto vendita.
 author: jashanno
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a3d82daed16c1b37d10653f04c1dc473cd5c5abc3a6443972da6e8ecf9820f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 740857e6a902e21588855eef5e36cac68e560898
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719874"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873280"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Creare, calcolare e registrare rendiconti per un punto vendita al dettaglio
 
 [!include [banner](../includes/banner.md)]
 
-In questa argomento vengono descritti i passaggi manuali per creare, calcolare e registrare il rendiconto di un punto vendita. Sono disponibili altri processi batch che è possibile configurare per le stesse attività. I passaggi per la configurazione e l'esecuzione dei processi batch sono presenti in altri argomenti. Per completare questa procedura, è necessario disporre delle transazioni che sono state completate nel POS e sottoposte al pull in Dynamics 365 Commerce. Questa registrazione utilizza i dati dimostrativi della società USRT.
+In questa articolo vengono descritti i passaggi manuali per creare, calcolare e registrare il rendiconto di un punto vendita. Sono disponibili altri processi batch che è possibile configurare per le stesse attività. I passaggi per la configurazione e l'esecuzione dei processi batch sono presenti in altri articoli. Per completare questa procedura, è necessario disporre delle transazioni che sono state completate nel POS e sottoposte al pull in Dynamics 365 Commerce. Questa registrazione utilizza i dati dimostrativi della società USRT.
 
 1. Selezionare **Dati finanziari punto vendita** da home page.
 2. Selezionare **Nuovo rendiconto**.

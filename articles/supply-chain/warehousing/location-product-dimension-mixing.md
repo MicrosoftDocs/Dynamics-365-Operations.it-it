@@ -1,6 +1,6 @@
 ---
 title: Combinazione dimensioni prodotto ubicazione
-description: Questo argomento fornisce informazioni sulla combinazione di dimensioni del prodotti di ubicazione. Questa funzionalità del profilo di ubicazione consente di migliorare la gestione dell'ubicazione quando vengono utilizzate varianti di prodotto o prodotti con dimensioni, ad esempio nel settore della moda. Consente di decidere se configurazioni, colori, stili e dimensioni possono essere combinati per un profilo di ubicazione specifico o se solo una di queste dimensioni o una combinazione di esse può essere collocata nella stessa ubicazione.
+description: Questo articolo fornisce informazioni sulla combinazione di dimensioni del prodotti di ubicazione. Questa funzionalità del profilo di ubicazione consente di migliorare la gestione dell'ubicazione quando vengono utilizzate varianti di prodotto o prodotti con dimensioni, ad esempio nel settore della moda. Consente di decidere se configurazioni, colori, stili e dimensioni possono essere combinati per un profilo di ubicazione specifico o se solo una di queste dimensioni o una combinazione di esse può essere collocata nella stessa ubicazione.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 031b92f827979c01dbf0208ba21ae827fb13920b
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9daf6061d56ef004753114aaffa8eb580cea1186
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103490"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885727"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinazione dimensioni prodotto ubicazione
 
@@ -28,7 +28,7 @@ La combinazione delle dimensioni del prodotto di ubicazione è una funzionalità
 
 ## <a name="turn-the-location-product-dimension-mixing-feature-on-or-off"></a>Attivare o disattivare la funzionalità Combinazione dimensioni prodotto ubicazione
 
-Per utilizzare la funzionalità descritta in questo argomento, è necessario attivare la funzionalità *Combinazione dimensioni prodotto ubicazione* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Combinazione dimensioni prodotto ubicazione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare la funzionalità descritta in questo articolo, è necessario attivare la funzionalità *Combinazione dimensioni prodotto ubicazione* per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Combinazione dimensioni prodotto ubicazione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="setup"></a>Impostazione
 
@@ -44,7 +44,7 @@ Ogni ubicazione del magazzino deve disporre di un profilo che descrive le propri
     > [!NOTE]
     > È possibile impostare questa opzione su *Sì* solo se l'opzione **Consenti articoli combinati** è impostata su *No*.
 
-1. Nella Scheda dettaglio **Combinazione dimensioni prodotto consentita**, imposta l'opzione **Dimensione** su *Sì*. Nello scenario descritto in questo argomento, la combinazione può essere eseguita solo per prodotti che hanno valori diversi per **Dimensione**. Tuttavia, sono disponibili anche altre opzioni.
+1. Nella Scheda dettaglio **Combinazione dimensioni prodotto consentita**, imposta l'opzione **Dimensione** su *Sì*. Nello scenario descritto in questo articolo, la combinazione può essere eseguita solo per prodotti che hanno valori diversi per **Dimensione**. Tuttavia, sono disponibili anche altre opzioni.
 1. Selezionare **Salva**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Creare una nuova rappresentazione generale prodotto e varianti di prodotto

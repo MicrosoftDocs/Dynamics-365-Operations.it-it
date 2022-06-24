@@ -1,6 +1,6 @@
 ---
 title: Passare offline con semplicità per le operazioni gift card e nota credito
-description: Questo argomento offre una panoramica dei miglioramenti che forniscono un passaggio offline fluido per tipi di pagamento specifici.
+description: Questo articolo offre una panoramica dei miglioramenti che forniscono un passaggio offline fluido per tipi di pagamento specifici.
 author: BrianShook
 ms.date: 02/11/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 59f1a0b213bd22906ba8b2c3e7da38a9818f6d4f
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: e0416a61bd5fd3b875b427ad8a6313d0e9936f0d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869163"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Passare offline con semplicità per le operazioni gift card e nota credito
 
 [!include [banner](../includes/banner.md)]
 
-Se un dispositivo POS (punto vendita) perde la connessione al database del canale, la maggior parte delle operazioni e transazioni POS in corso può procedere dopo che il cassiere riceve un messaggio di avviso sulla perdita di connettività. Tuttavia, in alcuni casi, le transazioni hanno elementi che si basano sul servizio in tempo reale e tali elementi non sono supportati quando il POS è offline. Questo argomento descrive alcune funzionalità che aiutano a ridurre l'impatto della perdita di connettività in questi scenari.
+Se un dispositivo POS (punto vendita) perde la connessione al database del canale, la maggior parte delle operazioni e transazioni POS in corso può procedere dopo che il cassiere riceve un messaggio di avviso sulla perdita di connettività. Tuttavia, in alcuni casi, le transazioni hanno elementi che si basano sul servizio in tempo reale e tali elementi non sono supportati quando il POS è offline. Questo articolo descrive alcune funzionalità che aiutano a ridurre l'impatto della perdita di connettività in questi scenari.
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Completamento delle transazioni gift card in modalità offline
 
@@ -50,7 +50,7 @@ Per abilitare la funzionalità per concludere le transazioni con nota di credito
 
 I parametri di commercio sono generalmente memorizzati nella cache. Pertanto, dopo aver aggiornato l'impostazione di questo parametro e avviato la programmazione della distribuzione per sincronizzare la modifica nel canale, la modifica può richiedere fino a 24 ore per diventare effettiva. Per rendere immediatamente effettiva la modifica, reimpostare IIS.
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 - [Funzionalità POS offline](../pos-offline-functionality.md)
 - [Operazioni POS online e offline](../pos-operations.md)

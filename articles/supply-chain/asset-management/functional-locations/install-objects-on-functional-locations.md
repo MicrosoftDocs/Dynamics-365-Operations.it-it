@@ -1,6 +1,6 @@
 ---
 title: Installare cespiti nelle unità funzionali
-description: In questo argomento viene illustrato come installare cespiti nelle unità funzionali in Gestione cespiti.
+description: In questo articolo viene illustrato come installare cespiti nelle unità funzionali in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/25/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc278564b02335b44a0b35d6a3a981125e6f456b08893be2b5886f0a55396d52
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a35f2494c616c2e456f92409d012cc434a32bd8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894503"
 ---
 # <a name="install-assets-on-functional-locations"></a>Installare cespiti nelle unità funzionali
 
@@ -28,7 +28,7 @@ ms.locfileid: "6775749"
 
  
 
-Dopo aver creato le strutture di unità funzionali, sarà necessario installare i cespiti nelle unità funzionali pertinenti. In questo argomento viene illustrato come installare cespiti in tali unità funzionali in Gestione cespiti. Per informazioni sulla modalità di creazione dei cespiti, vedere [Introduzione ai cespiti](../objects/introduction-to-objects.md).
+Dopo aver creato le strutture di unità funzionali, sarà necessario installare i cespiti nelle unità funzionali pertinenti. In questo articolo viene illustrato come installare cespiti in tali unità funzionali in Gestione cespiti. Per informazioni sulla modalità di creazione dei cespiti, vedere [Introduzione ai cespiti](../objects/introduction-to-objects.md).
 
 Se è stata creata una struttura di cespiti, l'intera struttura di cespiti deve essere installata in un'unità funzionale. Di conseguenza, solo i cespiti padre (cespiti di primo livello che non hanno cespite padre) possono essere selezionati in un'unità funzionale. Tutti i cespiti correlati figlio (cespiti secondati) verranno anche installati nell'unità funzionale. Quando si installano i cespiti in un'unità funzionale, le dimensioni finanziarie dell'unità funzionale possono essere trasferite automaticamente a essi, in base alle impostazioni del tipo di unità funzionale selezionato per l'unità funzionale. Per ulteriori informazioni su come impostare i tipi di unità funzionale, vedere [Tipi di unità funzionali](../setup-for-functional-locations/functional-location-types.md).
 

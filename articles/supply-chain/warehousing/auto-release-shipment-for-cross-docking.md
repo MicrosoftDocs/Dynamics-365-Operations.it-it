@@ -1,6 +1,6 @@
 ---
 title: Rilascio automatico della spedizione della versione per cross-docking
-description: In questo argomento viene descritta una strategia di cross-docking che consente di rilasciare automaticamente un ordine di domanda nel magazzino quando l'ordine di produzione che fornisce la quantità della domanda viene dichiarato finito, in modo che la quantità viene spostata direttamente dall'ubicazione di uscita della produzione nell'ubicazione in uscita.
+description: In questo articolo viene descritta una strategia di cross-docking che consente di rilasciare automaticamente un ordine di domanda nel magazzino quando l'ordine di produzione che fornisce la quantità della domanda viene dichiarato finito, in modo che la quantità viene spostata direttamente dall'ubicazione di uscita della produzione nell'ubicazione in uscita.
 author: Mirzaab
 ms.date: 10/15/2019
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1315bda1fd284eb326d4f08bf36bfea59074fde3
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 34283422bafaeabef9ac454957b60db84eb5a9c7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577938"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903784"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Rilascio automatico della spedizione della versione per cross-docking
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritta una strategia di cross-docking che consente di rilasciare automaticamente un ordine di domanda nel magazzino quando l'ordine di produzione che fornisce la quantità della domanda viene dichiarato finito. In questo modo, la quantità necessaria per l'esecuzione dell'ordine di domanda viene spostata direttamente dall'ubicazione di uscita della produzione nell'ubicazione in uscita.
+In questo articolo viene descritta una strategia di cross-docking che consente di rilasciare automaticamente un ordine di domanda nel magazzino quando l'ordine di produzione che fornisce la quantità della domanda viene dichiarato finito. In questo modo, la quantità necessaria per l'esecuzione dell'ordine di domanda viene spostata direttamente dall'ubicazione di uscita della produzione nell'ubicazione in uscita.
 
 Il cross-docking è un magazzino che gestisce il flusso in cui la quantità necessaria per soddisfare un ordine in uscita viene eseguita nella banchina di uscita o nell'area di transito dell'ordine dall'ubicazione in cui l'ordine in entrata è stato ricevuto. L'ordine in entrata può essere un ordine fornitore, un ordine di trasferimento o di produzione. Benché che la funzionalità avanzata di cross-docking supporta tutti gli ordini di offerta e domanda e richiede che la domanda in uscita sia rilasciata prima che l'opportunità di cross-dock venga identificata, la funzionalità di rilascio automatico della spedizione ha le seguenti caratteristiche:
 

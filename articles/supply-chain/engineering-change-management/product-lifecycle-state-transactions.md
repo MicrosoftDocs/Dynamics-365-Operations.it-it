@@ -1,6 +1,6 @@
 ---
 title: Transazioni e stati del ciclo di vita del prodotto
-description: Questo argomento spiega come controllare quali transazioni sono consentite per ogni stato del ciclo di vita mentre un prodotto di progettazione attraversa il suo ciclo di vita.
+description: Questo articolo spiega come controllare quali transazioni sono consentite per ogni stato del ciclo di vita mentre un prodotto di progettazione attraversa il suo ciclo di vita.
 author: t-benebo
 ms.date: 02/17/2022
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1e9b8a9f25edfa654a57e0ab4071cd93c8033d85
-ms.sourcegitcommit: d375ef4138e898621416754c40770d8ccca4d271
+ms.openlocfilehash: dd9155f799c66e8297b93d8ffbeeced1acd14220
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867958"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Transazioni e stati del ciclo di vita del prodotto
 
@@ -37,7 +37,7 @@ Per lavorare con gli stati del ciclo di vita del prodotto, andare a **Gestione m
 - Per eliminare uno stato del ciclo di vita esistente, selezionarlo nel riquadro dell'elenco, quindi selezionare **Elimina** nel riquadro azioni.
 
 > [!NOTE]
-> I prodotti di progettazione utilizzano gli stessi stati del ciclo di vita del prodotto dei prodotti standard (non di progettazione). È anche possibile aprire la pagina **Stato del ciclo di vita del prodotto** descritta in questo argomento accedendo a **Gestione informazioni sul prodotto \> Impostazione \> Stato del ciclo di vita del prodotto**. Per ulteriori informazioni sugli stati del ciclo di vita del prodotto, sia per i prodotti di progettazione che per i prodotti standard, vedere [Panoramica dello stato del ciclo di vita del prodotto](../pim/product-lifecycle.md).
+> I prodotti di progettazione utilizzano gli stessi stati del ciclo di vita del prodotto dei prodotti standard (non di progettazione). È anche possibile aprire la pagina **Stato del ciclo di vita del prodotto** descritta in questo articolo accedendo a **Gestione informazioni sul prodotto \> Impostazione \> Stato del ciclo di vita del prodotto**. Per ulteriori informazioni sugli stati del ciclo di vita del prodotto, sia per i prodotti di progettazione che per i prodotti standard, vedere [Panoramica dello stato del ciclo di vita del prodotto](../pim/product-lifecycle.md).
 
 ### <a name="header"></a>Intestazione
 

@@ -1,6 +1,6 @@
 ---
 title: Scenari di esempio di conteggio ciclo
-description: Questo argomento fornisce una raccolta di scenari che spiegano le funzionalità di conteggio dei cicli di Microsoft Dynamics 365 Supply Chain Management.
+description: Questo articolo fornisce una raccolta di scenari che spiegano le funzionalità di conteggio dei cicli di Microsoft Dynamics 365 Supply Chain Management.
 author: GalynaFedorova
 ms.date: 06/08/2021
 ms.topic: article
@@ -11,24 +11,24 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 60be945035570634c572baaa37ae0d02e41dd0be
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674703"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899326"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Scenari di esempio di conteggio ciclo
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce una raccolta di scenari che spiegano le funzionalità di conteggio dei cicli di Microsoft Dynamics 365 Supply Chain Management. Descrive innanzitutto i requisiti per l'ambiente esistente di Supply Chain Management. Spiega quindi come configurare il conteggio ciclo e descrive tutte le fasi del conteggio ciclo. Quando hai finito, dovresti avere una buona conoscenza del conteggio dei cicli, incluso il conteggio dei cicli guidato, il conteggio dei cicli forzato, il conteggio dei cicli a campione, le soglie del conteggio dei cicli e i piani di conteggio dei cicli.
+Questo articolo fornisce una raccolta di scenari che spiegano le funzionalità di conteggio dei cicli di Microsoft Dynamics 365 Supply Chain Management. Descrive innanzitutto i requisiti per l'ambiente esistente di Supply Chain Management. Spiega quindi come configurare il conteggio ciclo e descrive tutte le fasi del conteggio ciclo. Quando hai finito, dovresti avere una buona conoscenza del conteggio dei cicli, incluso il conteggio dei cicli guidato, il conteggio dei cicli forzato, il conteggio dei cicli a campione, le soglie del conteggio dei cicli e i piani di conteggio dei cicli.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
 ### <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
-Ogni scenario di questo argomento fa riferimento a valori e record inclusi nei dati dimostrativi standard forniti per Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica (società) su **USMF** prima di iniziare.
+Ogni scenario di questo articolo fa riferimento a valori e record inclusi nei dati dimostrativi standard forniti per Supply Chain Management. Se desideri utilizzare i valori forniti qui durante l'esecuzione degli esercizi, assicurati di lavorare in un ambiente in cui sono installati i dati dimostrativi e imposta la persona giuridica (società) su **USMF** prima di iniziare.
 
 ### <a name="turn-on-support-for-the-warehouse-management-mobile-app"></a>Attivare il supporto per l'app per dispositivi mobili Warehouse Management
 
@@ -158,7 +158,7 @@ Segui questi passaggi per creare un lavoro di conteggio ciclo per la posizione d
 
 Una volta creato il lavoro di conteggio ciclo, è possibile eseguire il lavoro contando gli articoli in un'ubicazione magazzino e utilizzando un dispositivo mobile per inserire i risultati in Supply Chain Management. Segui questi passaggi per eseguire il conteggio ciclo nell'app per dispositivi mobili Warehouse Management.
 
-1. Accedi all'app per dispositivi mobili Warehouse Management come utente di lavoro che hai impostato nella sezione precedente [Preparare i dati demo per gli scenari](#prepare-demo-data) in questo argomento. Per l'esempio in questo argomento, l'utente è denominato *Julia Funderburk* ed è impostato per magazzino *61*. I dati demo USMF ti consentono di accedere come utente di lavoro inserendo *61* come ID utente e *1* come password.
+1. Accedi all'app per dispositivi mobili Warehouse Management come utente di lavoro che hai impostato nella sezione precedente [Preparare i dati demo per gli scenari](#prepare-demo-data) in questo articolo. Per l'esempio in questo articolo, l'utente è denominato *Julia Funderburk* ed è impostato per magazzino *61*. I dati demo USMF ti consentono di accedere come utente di lavoro inserendo *61* come ID utente e *1* come password.
 1. Nel menu principale, selezionare **Inventario**.
 1. Nel menu **Inventario** seleziona **Conteggio ciclo guidato**.
 1. Seleziona il campo **Qtà** inserisci *9* utilizzando il tastierino numerico, quindi seleziona **OK** (il pulsante del segno di spunta).
@@ -227,7 +227,7 @@ Prima di poter eseguire il conteggio ciclo forzato, è necessario creare un lavo
 
 Dopo aver creato il lavoro di conteggio ciclo, segui questi passaggi per eseguire il lavoro nell'app per dispositivi mobili Warehouse Management.
 
-1. Accedi all'app per dispositivi mobili Warehouse Management come utente di lavoro che hai impostato nella sezione precedente [Preparare i dati demo per gli scenari](#prepare-demo-data) in questo argomento. Per l'esempio in questo argomento, l'utente è denominato *Julia Funderburk* ed è impostato per magazzino *61*. I dati demo USMF ti consentono di accedere come utente di lavoro inserendo *61* come ID utente e *1* come password.
+1. Accedi all'app per dispositivi mobili Warehouse Management come utente di lavoro che hai impostato nella sezione precedente [Preparare i dati demo per gli scenari](#prepare-demo-data) in questo articolo. Per l'esempio in questo articolo, l'utente è denominato *Julia Funderburk* ed è impostato per magazzino *61*. I dati demo USMF ti consentono di accedere come utente di lavoro inserendo *61* come ID utente e *1* come password.
 1. Nel menu principale, selezionare **Inventario**.
 1. Nel menu **Inventario** seleziona **Conteggio ciclo forzato**.
 1. Seleziona il campo **ID zona** immetti *BULK06*, quindi seleziona **OK** (il pulsante con il segno di spunta).
@@ -259,7 +259,7 @@ Il record delle scorte indica che è presente una quantità di articolo disponib
 
 Segui questi passaggi per eseguire il conteggio ciclo nell'app per dispositivi mobili Warehouse Management.
 
-1. Accedi all'app per dispositivi mobili Warehouse Management come utente di lavoro che hai impostato nella sezione precedente [Preparare i dati demo per gli scenari](#prepare-demo-data) in questo argomento. Per l'esempio in questo argomento, l'utente è denominato *Julia Funderburk* ed è impostato per magazzino *61*. I dati demo USMF ti consentono di accedere come utente di lavoro inserendo *61* come ID utente e *1* come password.
+1. Accedi all'app per dispositivi mobili Warehouse Management come utente di lavoro che hai impostato nella sezione precedente [Preparare i dati demo per gli scenari](#prepare-demo-data) in questo articolo. Per l'esempio in questo articolo, l'utente è denominato *Julia Funderburk* ed è impostato per magazzino *61*. I dati demo USMF ti consentono di accedere come utente di lavoro inserendo *61* come ID utente e *1* come password.
 1. Nel menu principale, selezionare **Inventario**.
 1. Nel menu **Inventario** seleziona **Conteggio a campione**.
 1. Seleziona il campo **Ubicazione** immetti *01A02R2S1B*, quindi seleziona **OK** (il pulsante con il segno di spunta).

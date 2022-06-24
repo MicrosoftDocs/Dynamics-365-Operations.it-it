@@ -1,6 +1,6 @@
 ---
 title: Impostazione della previsione della domanda
-description: In questo argomento vengono descritte le attività di impostazione che è necessario eseguire per la preparazione delle previsioni della domanda.
+description: In questo articolo vengono descritte le attività di impostazione che è necessario eseguire per la preparazione delle previsioni della domanda.
 author: t-benebo
 ms.date: 11/23/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b52b970a8040dcba5a1fc59d297dc9ce1a3c53
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 10a211e0e20f22dfbfdb4923841808750b6ed71b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8470011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901004"
 ---
 # <a name="demand-forecasting-setup"></a>Impostazione della previsione della domanda
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come impostare la previsione della domanda.  
+In questo articolo viene descritto come impostare la previsione della domanda.  
 
 ## <a name="item-allocation-keys"></a>Chiavi di allocazione articoli
 
@@ -245,7 +245,7 @@ Per creare una nuova area di lavoro di Machine Learning, attieniti alla procedur
 1. Completa la procedura guidata seguendo le istruzioni sullo schermo. Tieni a mente i seguenti punti mentre lavori:
 
     - Utilizzare le impostazioni predefinite a meno che altri punti in questo elenco non suggeriscano impostazioni diverse.
-    - Assicurati di selezionare l'area geografica che corrisponde all'area in cui è distribuita la tua istanza di Supply Chain Management. In caso contrario, alcuni dei tuoi dati potrebbero attraversare i confini regionali. Per ulteriori informazioni, vedi la sezione [Informativa sulla privacy](#privacy) più avanti in questo argomento.
+    - Assicurati di selezionare l'area geografica che corrisponde all'area in cui è distribuita la tua istanza di Supply Chain Management. In caso contrario, alcuni dei tuoi dati potrebbero attraversare i confini regionali. Per ulteriori informazioni, vedi la sezione [Informativa sulla privacy](#privacy) più avanti in questo articolo.
     - Usa le risorse dedicate, ad esempio gruppi di risorse, account di archiviazione, registri contenitori, Azure Key Vault e risorse di rete.
     - Nella pagina **Configurare i parametri di connessione del servizio Azure Machine Learning** della procedura guidata, è necessario fornire un nome per l'account di archiviazione. Utilizza un account dedicato alla previsione della domanda. I dati di input e output della previsione della domanda verranno archiviati in questo account di archiviazione.
 

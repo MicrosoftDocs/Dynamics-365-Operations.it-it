@@ -1,6 +1,6 @@
 ---
 title: Contenitori di spedizione
-description: In questo argomento viene descritto come configurare contenitori di spedizione per il modulo Costo sbarcato.
+description: In questo articolo viene descritto come configurare contenitori di spedizione per il modulo Costo di spedizione.
 author: Weijiesa
 ms.date: 12/09/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 96710cf2b5a2e39f9492aadb0ba6f3241f0666f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 345f815a4f85db30db18aba3f8a4d41835c2e3f2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860844"
 ---
 # <a name="shipping-container-setup"></a>Configurazione dei contenitori di spedizione
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come configurare contenitori di spedizione per il modulo **Costo sbarcato**.
+In questo articolo viene descritto come configurare contenitori di spedizione per il modulo **Costo di spedizione**.
 
 ## <a name="set-up-shipping-container-types"></a><a id="shipping-container-types"></a>Configurare tipi di contenitore di spedizione
 
@@ -53,7 +53,7 @@ Selezionare **Costo sbarcato \> Configurazione contenitori \> Contenitori di spe
 | Campo | Descrizione |
 |---|---|
 | Contenitore di spedizione | Immettere un nome/numero di identificazione univoco per il contenitore di spedizione. |
-| Tipo di contenitore di spedizione | Selezionare il tipo di contenitore di spedizione. Per ulteriori informazioni, vedere la sezione [Configurare tipi di contenitori di spedizione](#shipping-container-types) descritta precedentemente in questo argomento. |
+| Tipo di contenitore di spedizione | Selezionare il tipo di contenitore di spedizione. Per ulteriori informazioni, vedi la sezione [Configurare tipi di contenitori di spedizione](#shipping-container-types) descritta precedentemente in questo articolo. |
 
 > [!NOTE]
 > - La configurazione dei contenitori di spedizione è facoltativa. In genere, la si utilizza solo se l'azienda possiede dei contenitori di spedizione o se riutilizza spesso gli stessi contenitori di spedizione.

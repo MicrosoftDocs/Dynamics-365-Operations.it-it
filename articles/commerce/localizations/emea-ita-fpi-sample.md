@@ -1,6 +1,6 @@
 ---
 title: Esempio di integrazione di stampante fiscale per l'Italia
-description: In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2018-11-1
-ms.openlocfilehash: 02226fd9f2c92db2518ca48baefb680a3d2f0ac1
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 2aa1851fe5fe447ba2dd4640be9881b37e54216e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8076905"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909392"
 ---
 # <a name="fiscal-printer-integration-sample-for-italy"></a>Esempio di integrazione di stampante fiscale per l'Italia
 
 [!include[banner](../includes/banner.md)]
 
-In questo argomento viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia in Microsoft Dynamics 365 Commerce.
+In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per l'Italia in Microsoft Dynamics 365 Commerce.
 
 La funzionalità di Commerce per l'Italia include un'integrazione di esempio del POS con una stampante fiscale. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) di modo che sia utilizzabile con le stampanti [Epson FP-90III Series](https://www.epson.it/products/sd/pos-printer/epson-fp-90iii-series) di Epson e abilita la comunicazione con una stampante fiscale in modalità server Web via il servizio Web EpsonFPMate utilizzando l'API Fiscal ePOS-Print. L'esempio supporta soltanto la modalità Registratore Telematico (RT). L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
 

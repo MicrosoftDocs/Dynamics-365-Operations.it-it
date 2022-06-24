@@ -1,6 +1,6 @@
 ---
 title: Rifiuto esplicito dei suggerimenti personalizzati
-description: Questo argomento descrive come è possibile consentire ai clienti di rifiutare esplicitamente i suggerimenti personalizzati in Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive come è possibile consentire ai clienti di rifiutare esplicitamente i suggerimenti personalizzati in Microsoft Dynamics 365 Commerce.
 author: bebeale
 ms.date: 09/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f634e39fe8ca7ffecfd1952933cb82e1bfe7d5a8eec28a61e1d78d21847f95f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47de876a6f304ed5cb35bf075eadaafa4bf0fc7d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772939"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896929"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Rifiuto esplicito dei suggerimenti personalizzati
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come è possibile consentire ai clienti di rifiutare esplicitamente i suggerimenti personalizzati in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come è possibile consentire ai clienti di rifiutare esplicitamente i suggerimenti personalizzati in Microsoft Dynamics 365 Commerce.
 
 Durante la creazione dell'account, la ricezione di suggerimenti personalizzati è impostata automaticamente per i nuovi clienti. Tuttavia, Dynamics 365 Commerce offre vari modi ai rivenditori per consentire agli utenti di rifiutare questi suggerimenti e limitare il trattamento dei loro dati personali. Per gli utenti autenticati che rinunciano a ricevere suggerimenti personalizzati, la visualizzazione degli elenchi personalizzati viene sospesa immediatamente. Inoltre, tutti i dati personali raccolti per la personalizzazione verranno rimossi dai modelli di suggerimenti personalizzati.
 

@@ -1,6 +1,6 @@
 ---
 title: Gestire contenitori di spedizione
-description: In questo argomento viene descritto come utilizzare i contenitori di spedizione. I contenitori di spedizione sono utilizzati per raggruppare le merci che sono raggruppate fisicamente. Sono utilizzati anche nei casi in cui i costi devono essere condivisi solo tra quelle merci, in genere perché sono raggruppate fisicamente.
+description: In questo articolo viene descritto come utilizzare i contenitori di spedizione. I contenitori di spedizione sono utilizzati per raggruppare le merci che sono raggruppate fisicamente. Sono utilizzati anche nei casi in cui i costi devono essere condivisi solo tra quelle merci, in genere perché sono raggruppate fisicamente.
 author: Weijiesa
 ms.date: 12/14/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac88f8e3b8cf305a5bd247e7ed6b14b23ad85499
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686771"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906155"
 ---
 # <a name="manage-shipping-containers"></a>Gestire contenitori di spedizione
 
@@ -142,7 +142,7 @@ Per aprire la visualizzazione **Righe**, aprire un contenitore di spedizione, qu
 
 ### <a name="information-on-the-shipping-container-fasttab"></a>Informazioni sulla Scheda dettaglio Contenitore di spedizione
 
-La Scheda dettaglio **Contenitore di spedizione** nella visualizzazione **Righe** mostra le informazioni sulla registrazione. La maggior parte di queste informazioni appare anche nella visualizzazione **Intestazione**, come descritto in precedenza in questo argomento.
+La Scheda dettaglio **Contenitore di spedizione** nella visualizzazione **Righe** mostra le informazioni sulla registrazione. La maggior parte di queste informazioni appare anche nella visualizzazione **Intestazione**, come descritto in precedenza in questo articolo.
 
 ### <a name="information-and-buttons-on-the-lines-fasttab"></a>Informazioni e pulsanti nella Scheda dettaglio Righe
 

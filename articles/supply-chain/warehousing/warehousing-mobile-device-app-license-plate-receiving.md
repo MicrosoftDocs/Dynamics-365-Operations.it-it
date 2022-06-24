@@ -1,6 +1,6 @@
 ---
-title: Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino
-description: Questo argomento spiega come configurare l'app per dispositivi mobili Gestione magazzino per supportare l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
+title: Ricezione della targa con l'app per dispositivi mobili Warehouse Management
+description: Questo articolo spiega come configurare l'app per dispositivi mobili Gestione magazzino per supportare l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 author: perlynne
 ms.date: 04/29/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6663188334c70035906f924c7850a0dc5002f306
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103065"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907002"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ricezione della targa con l'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come configurare l'app per dispositivi mobili Gestione magazzino in modo che supporti l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
+Questo articolo spiega come configurare l'app per dispositivi mobili Gestione magazzino in modo che supporti l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 
 È possibile utilizzare questa funzionalità per registrare rapidamente l'entrata di inventario in entrata correlata a un avviso di spedizione anticipata (ASN). Il sistema crea automaticamente un ASN quando i processi di gestione del magazzino vengono utilizzati per spedire un ordine di trasferimento. Per il processo dell'ordine fornitore, un ASN può essere registrato manualmente oppure può essere importato automaticamente utilizzando un processo dell'entità dati ASN in entrata.
 

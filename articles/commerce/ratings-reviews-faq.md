@@ -1,6 +1,6 @@
 ---
 title: Recensioni e valutazioni - Domande frequenti
-description: Questo argomento fornisce risposte alle domande frequenti sulle recensioni e sulle valutazioni di Microsoft Dynamics 365 Commerce.
+description: Questo articolo fornisce risposte alle domande frequenti sulle recensioni e sulle valutazioni di Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 09/02/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f8d79697aaf17e2860d2c47e7d1bf6b4352f0089
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 3aef1135aa03d221e403fe1b5f7dce08bc9885d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691057"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909530"
 ---
 # <a name="ratings-and-reviews-faq"></a>Recensioni e valutazioni - Domande frequenti
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce risposte alle domande frequenti sulle recensioni e sulle valutazioni di Microsoft Dynamics 365 Commerce.
+Questo articolo fornisce risposte alle domande frequenti sulle recensioni e sulle valutazioni di Microsoft Dynamics 365 Commerce.
 
 ### <a name="how-do-i-hide-the-ratings-refiner-that-appears-on-search-results-and-category-pages-if-my-e-commerce-site-doesnt-use-the-ratings-and-reviews-solution"></a>Come posso nascondere il perfezionatore di valutazioni che appare nei risultati di ricerca e nelle pagine delle categorie se il mio sito di e-commerce non utilizza la soluzione per valutazioni e recensioni?
 

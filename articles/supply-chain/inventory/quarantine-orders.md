@@ -1,6 +1,6 @@
 ---
 title: Ordini di quarantena
-description: In questo argomento viene descritto come usare gli ordini di quarantena per bloccare il magazzino.
+description: In questo articolo viene descritto come usare gli ordini di quarantena per bloccare il magazzino.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf0ec8f9f4d862724cb8ab72b48771ed68eaf39
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568785"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8869664"
 ---
 # <a name="quarantine-orders"></a>Ordini di quarantena
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come usare gli ordini di quarantena per bloccare il magazzino.
+In questo articolo viene descritto come usare gli ordini di quarantena per bloccare il magazzino.
 
 Gli ordini di quarantena ti consentono di bloccare il magazzino. Ad esempio, è possibile che si desideri mettere in quarantena gli articoli per motivi di controllo qualità. L'inventario messo in quarantena viene trasferito a un magazzino di quarantena.
 

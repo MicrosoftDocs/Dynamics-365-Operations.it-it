@@ -1,6 +1,6 @@
 ---
-title: Configurare buffer e livelli di scorte
-description: Questo argomento spiega come configurare i buffer e i livelli di scorte che determinano la messaggistica sulla disponibilità delle scorte nei siti Microsoft Dynamics 365 Commerce.
+title: Configurare buffer inventario e livelli di inventario
+description: Questo articolo spiega come configurare i buffer e i livelli di scorte che determinano la messaggistica sulla disponibilità delle scorte nei siti Microsoft Dynamics 365 Commerce.
 author: boycezhu
 ms.date: 06/01/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: acfe71f7fb55f1bc701297bb3949e91d6450d9e9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853795"
 ---
-# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurare buffer scorte e livelli scorte
+# <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurare buffer inventario e livelli di inventario
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento spiega come configurare i buffer e i livelli di scorte che determinano la messaggistica sulla disponibilità delle scorte nei siti Microsoft Dynamics 365 Commerce.
+Questo articolo spiega come configurare i buffer e i livelli di scorte che determinano la messaggistica sulla disponibilità delle scorte nei siti Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce Headquarters include dati sulle scorte e vari canali come applicazioni POS, vetrine di e-commerce e altre applicazioni integrate personalizzate che eseguono il pull e push delle scorte in modo asincrono. Pertanto, i valori sulle scorte disponibili ottenuti tramite la pagina delle scorte disponibili in Commerce Headquarters, l'interfaccia utente POS e le API di disponibilità delle scorte di e-Commerce non sono sempre accurate al 100% in tempo reale.
 

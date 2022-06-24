@@ -1,6 +1,6 @@
 ---
 title: Sincronizzare ordini di lavoro in Field Service con ordini cliente in Supply Chain Management
-description: In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Supply Chain Management.
+description: In questo articolo vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Supply Chain Management.
 author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: b7b311701aff12d58392fc036d0f1174678b7dc3
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: e64c9a954e8f5c4410f8ba370b40b7c6e76e8ae0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061311"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860524"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizzare ordini di lavoro in Field Service con ordini cliente in Supply Chain Management
 
@@ -29,7 +29,7 @@ ms.locfileid: "8061311"
 
 
 
-In questo argomento vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Dynamics 365 Field Service in Dynamics 365 Supply Chain Management.
+In questo articolo vengono descritti i modelli e le attività sottostanti che vengono utilizzati per sincronizzare gli ordini di lavoro in Dynamics 365 Field Service in Dynamics 365 Supply Chain Management.
 
 [![Sincronizzazione dei processi aziendali tra Supply Chain Management e Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
@@ -165,9 +165,9 @@ Per tenere traccia degli ordini cliente che hanno origine da ordini di lavoro, �
 
 Per impostazione predefinita, il mapping seleziona l'origine vendite per il tipo di origine vendite **Integrazione ordine di lavoro** per tutti gli ordini cliente creati da ordini di lavoro. Questo comportamento può risultare utile quando si lavora a un ordine cliente in Supply Chain Management. È necessario assicurarsi che gli ordini cliente che derivano da ordini di lavoro non vengano sincronizzati nuovamente in Field Service come ordini di lavoro.
 
-Per ulteriori informazioni su come impostare correttamente l'origine vendite in Supply Chain Management, vedere la sezione "Prerequisiti e impostazioni di mapping" in questo argomento.
+Per ulteriori informazioni su come impostare correttamente l'origine vendite in Supply Chain Management, vedi la sezione "Prerequisiti e impostazioni di mapping" in questo articolo.
 
-### <a name="status"></a>Stato
+### <a name="status"></a>Status
 
 Quando l'ordine cliente ha origine da un ordine di lavoro, il campo **Stato ordine di lavoro esterno** viene visualizzato nella scheda **Impostazioni** nell'intestazione dell'ordine cliente. Questo campo mostra lo stato di sistema dall'ordine di lavoro in Field Service, per aiutare a tenere traccia dello stato dell'ordine di lavoro sincronizzato degli ordini cliente in Supply Chain Management. Questo campo aiuta inoltre l'utente a determinare quando l'ordine cliente deve essere spedito o fatturato.
 

@@ -1,6 +1,6 @@
 ---
 title: Tipi di cespite
-description: Nell'argomento viene descritto come creare tipi di cespite in Gestione cespiti. Sono descritti inoltre gli elementi correlati ai tipi di cespite.
+description: Nell'articolo viene descritto come creare tipi di cespite in Gestione cespiti. Sono descritti inoltre gli elementi correlati ai tipi di cespite.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc1a8d98e9a8853e2e72bfcc7415ddb9a0a3b7758504621d6fccff00a08a36be
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3a51fdb55e9158e88e89549e3d0049e699c233e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887633"
 ---
 # <a name="asset-types"></a>Tipi di cespite
 
@@ -28,7 +28,7 @@ ms.locfileid: "6730373"
 
 
 
-In questo argomento viene illustrato come creare tipi di cespite. Sono descritti inoltre gli elementi correlati ai tipi di cespite. I tipi di cespite vengono utilizzati come categorie generali per i cespiti. Alcuni esempi sono rappresentati dalle macchine CNC, attrezzature di misura e camion. I tipi di cespite vengono utilizzati per gestire i tipi di processo di manutenzione (attività di manutenzione), gli stati del ciclo di vita del cespite, i contatori, gli attributi del cespite, i modelli di valutazione delle condizioni e i modelli di cespite che è possibile selezionare per un cespite. Quando si crea un cespite, è necessario specificare il tipo di cespite.
+In questo articolo viene illustrato come creare tipi di cespite. Sono descritti inoltre gli elementi correlati ai tipi di cespite. I tipi di cespite vengono utilizzati come categorie generali per i cespiti. Alcuni esempi sono rappresentati dalle macchine CNC, attrezzature di misura e camion. I tipi di cespite vengono utilizzati per gestire i tipi di processo di manutenzione (attività di manutenzione), gli stati del ciclo di vita del cespite, i contatori, gli attributi del cespite, i modelli di valutazione delle condizioni e i modelli di cespite che è possibile selezionare per un cespite. Quando si crea un cespite, è necessario specificare il tipo di cespite.
 
 Per ciascun tipo di cespite, variazioni di impostazione del tipo di cespite possono essere create. Ad esempio, se si dispone di un tipo di cespite **Camion**, è possibile creare le variazioni del tipo di cespite per diversi produttori e modelli del cespite. Per ciascuna impostazione di tipo di cespite, sarà possibile aggiungere i pezzi di ricambio e i piani di manutenzione necessari.
 

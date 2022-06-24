@@ -1,6 +1,6 @@
 ---
-title: Panoramica del processo di produzione
-description: Questo argomento fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell'ordine alla chiusura del periodo finanziario.
+title: Panoramica processo di produzione
+description: Questo articolo fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell'ordine alla chiusura del periodo finanziario.
 author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c9eac4d3f984b6fe511d7cc5ebab67e6c24c722
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: a8ebf0418a7d8b93e2ac58f90a686c63fd859355
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852217"
 ---
-# <a name="production-process-overview"></a>Panoramica del processo di produzione
+# <a name="production-process-overview"></a>Panoramica processo di produzione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell'ordine alla chiusura del periodo finanziario.
+Questo articolo fornisce una panoramica dei processi di produzione. Descrive le varie fasi degli ordini di produzione, degli ordini batch e dei kanban, dalla creazione dell'ordine alla chiusura del periodo finanziario.
 
 La produzione degli articoli, processo talvolta detto anche ciclo di vita della produzione, segue passaggi specifici necessari per completare la realizzazione di un articolo. Il ciclo di vita inizia alla creazione dell'ordine di produzione, di un ordine batch o di un processo kanban. Termina con un articolo completato che è pronto per un cliente o un'altra fase di produzione. Ogni fase del ciclo di vita richiede diversi tipi di informazioni per il completamento del processo. L'ordine di produzione, l'ordine batch o il processo kanban riflette il completamento di ogni passaggio, mostrando una modifica nello stato della produzione. I diversi tipi di prodotti richiedono processi di produzione diversi.
 

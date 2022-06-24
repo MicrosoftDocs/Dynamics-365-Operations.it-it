@@ -1,6 +1,6 @@
 ---
 title: Utilizzare articoli serializzati nel POS
-description: Questo argomento spiega come gestire gli articoli serializzati nell'applicazione POS (Point of Sale).
+description: Questo articolo spiega come gestire gli articoli serializzati nell'applicazione POS (Point of Sale).
 author: boycezhu
 ms.date: 01/08/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 5725943fd249e1b5d66b08b829c2eb58b6aad3ee24db9ca83bbde9be906bbf82
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a715a9d025f36656506daeb9e611bfacdafa102
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737580"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8880031"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Utilizzare articoli serializzati nel POS
 
 [!include [banner](includes/banner.md)]
 
-Molti rivenditori vendono prodotti che richiedono il controllo seriale. Questi prodotti sono indicati come *articoli serializzati*. È possibile che alcuni rivenditori desiderino voler mantenere i numeri di serie nelle scorte magazzino o punto vendita ai fini della tracciabilità. Altri rivenditori potrebbero voler acquisire i numeri di serie durante il processo di vendita, ai fini dell'assistenza e della garanzia. Questo argomento spiega come gestire gli articoli serializzati nell'applicazione POS (Point of Sale) Microsoft Dynamics 365 Commerce.
+Molti rivenditori vendono prodotti che richiedono il controllo seriale. Questi prodotti sono indicati come *articoli serializzati*. È possibile che alcuni rivenditori desiderino voler mantenere i numeri di serie nelle scorte magazzino o punto vendita ai fini della tracciabilità. Altri rivenditori potrebbero voler acquisire i numeri di serie durante il processo di vendita, ai fini dell'assistenza e della garanzia. Questo articolo spiega come gestire gli articoli serializzati nell'applicazione POS (Point of Sale) Microsoft Dynamics 365 Commerce.
 
 ## <a name="serial-number-configurations"></a>Configurazioni dei numeri di serie
 
@@ -124,7 +124,7 @@ Per gli articoli con numero di serie venduti per il ritiro o la spedizione futur
 
 ### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Applicare i numeri di serie durante l'evasione o il ritiro dell'ordine cliente
 
-Quando si evadono le righe ordine cliente per i prodotti con numero di serie utilizzando l'operazione **Evasione ordini** in POS, POS impone l'acquisizione del numero di serie prima dell'evasione finale. Pertanto, se un numero di serie non è stato fornito durante l'acquisizione dell'ordine iniziale, deve essere acquisito durante i processi di prelievo, imballaggio o spedizione nel POS. Ad ogni passaggio viene eseguita una convalida e all'utente verranno richiesti solo i dati del numero di serie se mancano o non sono più validi. Ad esempio, se un utente salta le fasi di prelievo o imballaggio e avvia immediatamente una spedizione e per la riga non è stato registrato un numero di serie, il POS richiederà l'inserimento del numero di serie prima del completamento della fase di fatturazione finale. Quando si impone l'acquisizione del numero di serie durante le operazioni di evasione degli ordini in POS, tutte le regole menzionate in precedenza in questo argomento vengono comunque applicate. Solo gli articoli con numero di serie configurati come **Attivo** passano attraverso una convalida dello stock di inventario del numero di serie. Gli articoli configurati come **Attivo nel processo di vendita** non verranno convalidati. Se **Inventario fisico negativo** è consentito i prodotti **attivi**, sarà accettato qualsiasi numero di serie, indipendentemente dalla disponibilità di magazzino. Per gli articoli **attivi** e **attivi nel processo di vendita**, se **Emissione in bianco consentita** è configurato, un utente può lasciare i numeri di serie vuoti se lo desidera durante le fasi di prelievo, imballaggio e spedizione.
+Quando si evadono le righe ordine cliente per i prodotti con numero di serie utilizzando l'operazione **Evasione ordini** in POS, POS impone l'acquisizione del numero di serie prima dell'evasione finale. Pertanto, se un numero di serie non è stato fornito durante l'acquisizione dell'ordine iniziale, deve essere acquisito durante i processi di prelievo, imballaggio o spedizione nel POS. Ad ogni passaggio viene eseguita una convalida e all'utente verranno richiesti solo i dati del numero di serie se mancano o non sono più validi. Ad esempio, se un utente salta le fasi di prelievo o imballaggio e avvia immediatamente una spedizione e per la riga non è stato registrato un numero di serie, il POS richiederà l'inserimento del numero di serie prima del completamento della fase di fatturazione finale. Quando si impone l'acquisizione del numero di serie durante le operazioni di evasione degli ordini in POS, tutte le regole menzionate in precedenza in questo articolo vengono comunque applicate. Solo gli articoli con numero di serie configurati come **Attivo** passano attraverso una convalida dello stock di inventario del numero di serie. Gli articoli configurati come **Attivo nel processo di vendita** non verranno convalidati. Se **Inventario fisico negativo** è consentito i prodotti **attivi**, sarà accettato qualsiasi numero di serie, indipendentemente dalla disponibilità di magazzino. Per gli articoli **attivi** e **attivi nel processo di vendita**, se **Emissione in bianco consentita** è configurato, un utente può lasciare i numeri di serie vuoti se lo desidera durante le fasi di prelievo, imballaggio e spedizione.
 
 Le convalide dei numeri di serie si verificheranno anche quando un utente esegue le operazioni di ritiro sugli ordini dei clienti nel POS. L'applicazione POS non consente di finalizzare un ritiro su un prodotto serializzato a meno che non superi le convalide come menzionato in precedenza. Le convalide sono sempre basate sulla dimensione di tracciabilità del prodotto e sulle configurazioni del magazzino di vendita. 
 

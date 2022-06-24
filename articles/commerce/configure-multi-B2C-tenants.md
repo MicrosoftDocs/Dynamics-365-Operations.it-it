@@ -1,6 +1,6 @@
 ---
 title: Configurare più tenant B2C in un ambiente Commerce
-description: Questo argomento descrive quando e come impostare più tenant per canale Microsoft Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione dell'utente in un ambiente Dynamics 365 Commerce dedicato.
+description: Questo articolo descrive quando e come impostare più tenant per canale Microsoft Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione dell'utente in un ambiente Dynamics 365 Commerce dedicato.
 author: BrianShook
 ms.date: 03/17/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a372561b8a6cdca8e1a3dc362009379884f1a3414330f3f056d4c3af7703a132
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 13504a612c388b4720ec3328aaf2db83da2aad8c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890571"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurare più tenant B2C in un ambiente Commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive quando e come impostare più tenant Microsoft Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione dell'utente in un ambiente Dynamics 365 Commerce dedicato.
+Questo articolo descrive quando e come impostare più tenant Microsoft Azure Active Directory (Azure AD) business-to-consumer (B2C) per l'autenticazione dell'utente in un ambiente Dynamics 365 Commerce dedicato.
 
 Dynamics 365 Commerce usa il servizio di identità cloud Azure AD B2C per supportare le credenziali dell'utente e i flussi di autenticazione. Gli utenti possono utilizzare i flussi di autenticazione per iscriversi, accedere e reimpostare la propria password. Azure AD B2C memorizza le informazioni di autenticazione sensibili di un utente, come il nome utente e la password. Il record utente è univoco per ciascun tenant B2C e utilizza le credenziali del nome utente (indirizzo e-mail) o del provider di identità social.
 

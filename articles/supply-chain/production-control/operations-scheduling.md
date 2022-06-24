@@ -1,6 +1,6 @@
 ---
 title: Programmazione operazioni
-description: In questo argomento sono riportate informazioni sulla programmazione delle operazioni. Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo.
+description: In questo articolo sono riportate informazioni sulla programmazione delle operazioni. Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo.
 author: johanhoffmann
 ms.date: 06/20/2019
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c380297b56f615a6b285ef7daf1ecbd7bb420f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7b9ae31b288831d2f3b85bf1996206221e0bdbbd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574571"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8871893"
 ---
 # <a name="operations-scheduling"></a>Programmazione operazioni
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento sono riportate informazioni sulla programmazione delle operazioni. Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo.
+In questo articolo sono riportate informazioni sulla programmazione delle operazioni. Questo tipo di programmazione può essere utilizzato per ottenere una stima generale del processo di produzione nel tempo.
 
 È possibile programmare la produzione il livello di operazione e di processo. A differenza della programmazione processi, la programmazione delle operazioni non esplode le operazioni per il ciclo di lavorazione produzione in processi. Se si desidera includere più dettagli nella programmazione, ad esempio informazioni sulla capacità corrente, è possibile eseguire la programmazione processi dopo la programmazione delle operazioni. È inoltre possibile eseguire solo la programmazione processi. La programmazione dei processi viene solitamente utilizzata per programmare singoli processi del reparto produzione e viene eseguita immediatamente o entro un breve intervallo di tempo.
 

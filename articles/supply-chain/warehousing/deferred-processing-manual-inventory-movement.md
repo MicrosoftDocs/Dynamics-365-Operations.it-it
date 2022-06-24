@@ -1,6 +1,6 @@
 ---
 title: Elaborazione differita del movimento manuale delle scorte
-description: In questo argomento viene descritto come utilizzare l'elaborazione differita del movimento manuale delle scorte in Microsoft Dynamics 365 Supply Chain Management.
+description: In questo articolo viene descritto come utilizzare l'elaborazione differita del movimento manuale delle scorte in Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/27/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c2e7296d77332b665e5d618d39804216f4347ca2
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 5e5d0a93a4c628d4867161d082b0f0e177ddb95c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670470"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863739"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Elaborazione differita del movimento manuale delle scorte
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare l'elaborazione differita del movimento manuale delle scorte in Microsoft Dynamics 365 Supply Chain Management.
+In questo articolo viene descritto come utilizzare l'elaborazione differita del movimento manuale delle scorte in Microsoft Dynamics 365 Supply Chain Management.
 
 La funzionalità di elaborazione differita consente agli addetti al magazzino di continuare a fare altro lavoro mentre l'operazione di stoccaggio viene elaborata in background. È utile quando il server può avere aumenti occasionali o non pianificati nel tempo di elaborazione e il tempo di elaborazione aumentato può influire sulla produttività dei lavoratori. Il tipo di lavoro *Movimento scorte* è stato ora aggiunto alla serie di tipi di lavoro supportati da questa funzione.
 

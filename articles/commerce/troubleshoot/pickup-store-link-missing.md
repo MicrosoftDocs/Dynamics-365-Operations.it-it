@@ -1,6 +1,6 @@
 ---
 title: L'opzione Ritira non appare nella pagina del carrello o nelle pagine dei dettagli del prodotto
-description: Questo argomento fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando l'opzione per il ritiro presso il punto vendita non viene visualizzata nella pagina del carrello o nelle pagine dei dettagli del prodotto.
+description: Questo articolo fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando l'opzione per il ritiro presso il punto vendita non viene visualizzata nella pagina del carrello o nelle pagine dei dettagli del prodotto.
 author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 836f767caae8e32c156a1c13d1e2864a4d3cdd92e7a11814a2585c9e907575dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 88367e13b4d079edb0816e301901828b65c437ae
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733823"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900310"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>L'opzione "Ritira" non appare nella pagina del carrello o in quelle dei dettagli del prodotto
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando l'opzione per il ritiro presso il punto vendita non viene visualizzata nella pagina del carrello o nelle pagine dei dettagli del prodotto.
+Questo articolo fornisce indicazioni per la risoluzione dei problemi che possono essere utili quando l'opzione per il ritiro presso il punto vendita non viene visualizzata nella pagina del carrello o nelle pagine dei dettagli del prodotto.
 
 ## <a name="description"></a>Descrizione
 

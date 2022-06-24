@@ -1,6 +1,6 @@
 ---
-title: Tipi di unità funzionali
-description: In questo argomento viene illustrato come creare tipi di unità funzionale in Gestione cespiti.
+title: Tipi di unità funzionale
+description: In questo articolo viene illustrato come creare tipi di unità funzionale in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/24/2019
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 301dc838ed204ebe488dd167df75fc84131f235f64285c6ae99c62ee1188362c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879223"
 ---
-# <a name="functional-location-types"></a>Tipi di unità funzionali
+# <a name="functional-location-types"></a>Tipi di unità funzionale
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-In questo argomento viene illustrato come creare tipi di unità funzionale in Gestione cespiti. I tipi di unità funzionali vengono utilizzati per gestire i requisiti per le unità funzionali, incluse le procedure per installare i cespiti in una unità funzionale. È possibile impostare i tipi di cespite, i piani di manutenzione, gli attributi di unità funzionali e i requisiti di attributi cespiti da utilizzare in una unitù funzionale che utilizza il tipo di unità funzionale specifico. Quando si crea una unità funzionale, il tipo di unità funzionale è obbligatorio.
+In questo articolo viene illustrato come creare tipi di unità funzionale in Gestione cespiti. I tipi di unità funzionali vengono utilizzati per gestire i requisiti per le unità funzionali, incluse le procedure per installare i cespiti in una unità funzionale. È possibile impostare i tipi di cespite, i piani di manutenzione, gli attributi di unità funzionali e i requisiti di attributi cespiti da utilizzare in una unitù funzionale che utilizza il tipo di unità funzionale specifico. Quando si crea una unità funzionale, il tipo di unità funzionale è obbligatorio.
 
 >[!NOTE] 
 >Per utilizzare le unità funzionali, è necessario creare una unità funzionale predefinito da utilizzare solo a scopo di creare nuovi cespiti. Per l'unità funzionale predefinito, è necessario creare un tipo di unità funzionale predefinito molto semplice che consente a più cespiti di essere installati sulla unità funzionale predefinita. Per ulteriori informazioni su come impostare le unità funzionali, vedere [Creare unità funzionali](../functional-locations/create-functional-locations.md).

@@ -1,6 +1,6 @@
 ---
-title: Panoramica della ricerca basata su cloud
-description: In questo argomento viene fornita una panoramica della ricerca basata su cloud in Microsoft Dynamics 365 Commerce.
+title: Panoramica ricerca basata su cloud
+description: In questo articolo viene fornita una panoramica della ricerca basata su cloud in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
 ms.date: 02/28/2022
 ms.topic: overview
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9116dd415d44a56fbe8c7852382c413b0a75872c
-ms.sourcegitcommit: ffdb6794746ffe5461f9dcf34ed8e64976d22d2d
+ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8371431"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850358"
 ---
-# <a name="cloud-powered-search-overview"></a>Panoramica della ricerca basata su cloud
+# <a name="cloud-powered-search-overview"></a>Panoramica ricerca basata su cloud
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene fornita una panoramica della ricerca basata su cloud in Microsoft Dynamics 365 Commerce.
+In questo articolo viene fornita una panoramica della ricerca basata su cloud in Microsoft Dynamics 365 Commerce.
 
 L'individuazione dei prodotti garantisce ai clienti di trovare in modo semplice e rapido i prodotti esplorando le categorie, eseguendo ricerche e applicando filtri. I rivenditori considerano l'individuazione del prodotto uno strumento primario per l'interazione con i clienti attraverso i canali basati su Cloud Scale Unit (CSU), come l'e-commerce e il punto vendita (POS).
 

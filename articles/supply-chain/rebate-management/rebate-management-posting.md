@@ -1,6 +1,6 @@
 ---
 title: Configurazione della registrazione della gestione degli sconti
-description: In questo argomento viene descritto come impostare i profili di registrazione. I profili di registrazione vengono utilizzati per determinare i movimenti di registrazione per le righe di calcolo della gestione degli sconti.
+description: In questo articolo viene descritto come impostare i profili di registrazione. I profili di registrazione vengono utilizzati per determinare i movimenti di registrazione per le righe di calcolo della gestione degli sconti.
 author: sherry-zheng
 ms.date: 02/19/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5ed28e99e36fafa4e1275421159420a3f3380c7c
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7a519b7153b307bf7d8cc9093572ca2711432970
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690248"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873581"
 ---
 # <a name="rebate-management-posting-setup"></a>Configurazione della registrazione della gestione degli sconti
 
@@ -30,7 +30,7 @@ Questa funzionalità funziona in tutte le società (persone giuridiche). Puoi sp
 
 Per impostare i profili di registrazione della gestione degli sconti per clienti e fornitori, vai a **Gestione degli sconti \> Impostazione registrazione gestione scnti \> Profili di registrazione gestione degli sconti**. La pagina **Profili di registrazione della gestione degli sconti** include un riquadro elenco che mostra tutti i profili esistenti. Puoi utilizzare i pulsanti nel riquadro Azioni per aggiungere o rimuovere i profili nell'elenco.
 
-Le sezioni rimanenti di questo argomento descrivono come utilizzare i campi disponibili quando crei o modifichi un profilo.
+Le sezioni rimanenti di questo articolo descrivono come utilizzare i campi disponibili quando crei o modifichi un profilo.
 
 ## <a name="posting-profile-header"></a>Intestazione profilo di registrazione
 

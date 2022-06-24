@@ -1,6 +1,6 @@
 ---
 title: Assegnare icone e titoli dei passaggi per l'app per dispositivi mobili Warehouse Management
-description: In questo argomento viene descritto come assegnare icone e titoli dei passaggi per flussi di attività nuovi o personalizzati per l'app per dispositivi mobili Warehouse Management.
+description: In questo articolo viene descritto come assegnare icone e titoli dei passaggi per flussi di attività nuovi o personalizzati per l'app per dispositivi mobili Warehouse Management.
 author: Mirzaab
 ms.date: 05/17/2021
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a687c26cacc0dbdaf0091b2d26277864553ca1bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 361ace454f7125ec86bd99cffefc7d268f81d37f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103315"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8890598"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Assegnare icone e titoli dei passaggi per l'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come assegnare icone e titoli dei passaggi per flussi di attività nuovi o personalizzati per l'app per dispositivi mobili Warehouse Management.
+In questo articolo viene descritto come assegnare icone e titoli dei passaggi per flussi di attività nuovi o personalizzati per l'app per dispositivi mobili Warehouse Management.
 
 Le seguenti illustrazioni mostrano come vengono visualizzati i titoli e le icone dei passaggi nell'app per dispositivi mobili Warehouse Management.
 
@@ -29,7 +29,7 @@ Le seguenti illustrazioni mostrano come vengono visualizzati i titoli e le icone
 
 ## <a name="turn-this-feature-on-or-off"></a>Attivare o disattivare questa funzionalità
 
-Per utilizzare la funzionalità,descritta in questo argomento, la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* deve essere attivata per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare la funzionalità,descritta in questo articolo, la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* deve essere attivata per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="standard-step-ids-classes-and-icons"></a>ID, classi e icone del passaggio standard
 
@@ -39,9 +39,9 @@ Ogni passaggio in un flusso di attività è identificato da un ID passaggio e og
 
 La tabella seguente elenca tutti gli ID passaggio attualmente disponibili e la classe di passaggio corrispondente. Il nome di controllo del campo di input principale viene utilizzato come ID passaggio.
 
-Per un esempio che mostra come vengono utilizzati questi ID e classi di passaggio, vedi l'implementazione del metodo `WHSMobileAppStepInfoBuilder.stepId()` nella sezione [ Esempio: assegnare icone e titoli dei passaggi per un flusso personalizzato](#example) più avanti in questo argomento.
+Per un esempio che mostra come vengono utilizzati questi ID e classi di passaggio, vedi l'implementazione del metodo `WHSMobileAppStepInfoBuilder.stepId()` nella sezione [ Esempio: assegnare icone e titoli dei passaggi per un flusso personalizzato](#example) più avanti in questo articolo.
 
-| ID fase | Classe di passaggio |
+| ID passaggio | Classe di passaggio |
 |-|-|
 | BatchDisposition | WHSMobileAppStepBatchDisposition |
 | Vettore | WHSMobileAppStepCarrier |
@@ -373,7 +373,7 @@ final internal class WHSMobileAppStepContainerId extends WHSMobileAppStep
 
 L'identificatore dell'icona del passaggio è archiviato nel membro della classe `defaultStepIcon` e il titolo del passaggio viene archiviato nel membro della classe `defaultStepTitle`.
 
-Per assegnare un'icona di passaggio, imposta `defaultStepIcon` su uno degli ID icona elencati nella sezione [Icone dei passaggi disponibili](#step-icons) precedente in questo argomento.
+Per assegnare un'icona di passaggio, imposta `defaultStepIcon` su uno degli ID icona elencati nella sezione [Icone dei passaggi disponibili](#step-icons) precedente in questo articolo.
 
 ### <a name="use-a-standard-or-custom-step-icon-and-title-for-the-weight-input"></a>Utilizzare un'icona di passaggio standard o personalizzata e un titolo per l'immissione del peso
 
@@ -405,7 +405,7 @@ public class WHSMobileAppStepInfoBuilderWeighContainer extends WHSMobileAppStepI
 }
 ```
 
-Quindi crei una classe di passaggi per il passaggio `NewWeight`. Il codice dovrebbe essere simile al codice per l'esempio `ContainerId` mostrato in precedenza in questo argomento.
+Quindi crei una classe di passaggi per il passaggio `NewWeight`. Il codice dovrebbe essere simile al codice per l'esempio `ContainerId` mostrato in precedenza in questo articolo.
 
 #### <a name="override-the-stepinfo-method"></a>Sostituire il metodo stepInfo()
 

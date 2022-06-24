@@ -1,6 +1,6 @@
 ---
 title: Gestione qualità per i processi di magazzino
-description: Questo argomento fornisce informazioni sulla funzionalità Gestione qualità per i processi di magazzino. Questa funzionalità estende le capacità di gestione della qualità e consente agli utenti di integrare i controlli di campionamento degli articoli nel processo di ricezione del magazzino utilizzando la gestione avanzata del magazzino.
+description: Questo articolo fornisce informazioni sulla funzionalità Gestione qualità per i processi di magazzino. Questa funzionalità estende le capacità di gestione della qualità e consente agli utenti di integrare i controlli di campionamento degli articoli nel processo di ricezione del magazzino utilizzando la gestione avanzata del magazzino.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: a8a7ac8266c14791137f9eda51b5abb5a59e5961
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8679053"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857839"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestione qualità per i processi di magazzino
 
@@ -69,7 +69,7 @@ Prima che il lavoro di magazzino possa essere generato automaticamente per spost
 1. Per ogni tipo di ordine di lavoro, impostare le direttive di ubicazione che applicano le posizioni di controllo qualità corrette in cui le scorte devono essere spostate. Una volta completato il controllo di qualità, la direttiva di ubicazione per il tipo di ordine di lavoro _Ordine di controllo qualità_ garantisce che verrà selezionata una nuova ubicazione di destinazione in modo che le scorte possano essere spostate dall'ubicazione di controllo qualità.
 1. Impostare le voci di menu del dispositivo mobile pertinenti per supportare lo spostamento delle scorte ricevute nell'ubicazione di controllo qualità e lo spostamento delle scorte che superano o non superano il controllo di qualità dall'ubicazione di controllo qualità a una nuova ubicazione.
 
-Per un esempio dettagliato che mostra come completare questa configurazione, vedere lo [scenario di esempio](#example-scenario) alla fine di questo argomento.
+Per un esempio dettagliato che mostra come completare questa configurazione, vedi lo [scenario di esempio](#example-scenario) alla fine di questo articolo.
 
 ## <a name="enable-a-warehouse-for-quality-management"></a>Abilitare un magazzino per la gestione della qualità
 
@@ -188,7 +188,7 @@ Il valore **Tipo di riferimento** per i seguenti esempi è _Acquisto_ e il valor
 | Caricamento | Targa completa | Sì _(bloccato/non modificabile)_ | <p>Ubicazione: Sì</p><p>Targa: Sì _(bloccato/non modificabile)_</p> | Sì | 3 | <p>**Due articoli:**</p><ul><li>**Quantità riga ordine per l'articolo A: 120 EA (4 pallet)**</li><li>**Quantità riga ordine per l'articolo B: 90 EA (3 pallet)**</li></ul><p>**Un carico, due righe di carico con ciascuna riga ordine**</p><ol><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo A, 30 EA, LP1<p>Lavoro di campionamento di articoli di qualità per 30 EA</p><p>Ordine di controllo qualità 1 per 30 EA</p></li><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo A, 30 EA, LP2<p>Ordine fornitore per 30 EA (stoccaggio)</p></li><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo A, 30 EA, LP3<p>Ordine fornitore per 30 EA (stoccaggio)</p></li><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo A, 30 EA, LP4<p>Lavoro di campionamento di articoli di qualità per 30 EA</p><p>Ordine di controllo qualità 1 per 30 EA</p></li><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo B, 30 EA, LP5<p>Lavoro di campionamento di articoli di qualità per 30 EA</p><p>Ordine di controllo qualità 1 per 30 EA</p></li><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo B, 30 EA, LP6<p>Ordine fornitore per 30 EA (stoccaggio)</p></li><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo A, 30 EA, LP7<p>Ordine fornitore per 30 EA (stoccaggio)</p></li></ol> |
 | Caricamento | Percentuale = 10 | Sì _(bloccato/non modificabile)_ | <p>Ubicazione: No</p><p>Targa: No</p> | No | Non applicabile | <p>**Quantità riga ordine: 100 EA**</p><p>**Nessun carico creato. Viene applicato l'ambito dell'ordine.**</p><ol><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo A, 50 EA, LP1<p>Lavoro di campionamento di articoli di qualità per 5 EA</p><p>Ordine di controllo qualità 1 per 5 EA</p><p>Ordine fornitore per 45 EA (stoccaggio)</p></li><li>Registrare la ricevuta nell'app per dispositivi mobili Gestione magazzino per l'articolo A, 50 EA, LP2<p>Lavoro di campionamento di articoli di qualità per 5 EA</p><p>Ordine di controllo qualità 1 per 5 EA</p><p>Ordine fornitore per 45 EA (stoccaggio)</p></li></ol> |
 
-Quando un lavoratore convalida uno degli ordini di controllo qualità indicati nella tabella precedente, il sistema genera automaticamente il lavoro dell'ordine di controllo qualità per spostare le scorte dall'ubicazione di controllo qualità alla posizione definita nella direttiva di ubicazione per il tipo di ordine di lavoro _Ordine di controllo qualità_. È possibile impostare qualsiasi posizione per questo scopo, ad esempio un'ubicazione di reso o magazzino, a seconda del risultato del test per l'ordine di controllo qualità. Per un esempio di questa configurazione, consultare lo [scenario di esempio](#example-scenario) alla fine di questo argomento.
+Quando un lavoratore convalida uno degli ordini di controllo qualità indicati nella tabella precedente, il sistema genera automaticamente il lavoro dell'ordine di controllo qualità per spostare le scorte dall'ubicazione di controllo qualità alla posizione definita nella direttiva di ubicazione per il tipo di ordine di lavoro _Ordine di controllo qualità_. È possibile impostare qualsiasi posizione per questo scopo, ad esempio un'ubicazione di reso o magazzino, a seconda del risultato del test per l'ordine di controllo qualità. Per un esempio di questa configurazione, consulta lo [scenario di esempio](#example-scenario) alla fine di questo articolo.
 
 È possibile riaprire un ordine di controllo qualità che è già stato convalidato, a condizione che il lavoro dell'ordine di controllo qualità correlato allo spostamento delle scorte dall'ubicazione di controllo di qualità non abbia il valore **Stato del lavoro** su *Chiuso* o *In corso*.
 

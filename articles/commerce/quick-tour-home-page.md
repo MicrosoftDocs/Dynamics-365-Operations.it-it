@@ -1,6 +1,6 @@
 ---
 title: Panoramica della home page
-description: Questo argomento fornisce una panoramica della home page in Microsoft Dynamics 365 Commerce.
+description: Questo articolo fornisce una panoramica della home page in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 09/15/2020
 ms.topic: overview
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4c65d040696a72a42c89934533bad6a69c5923f5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: ce94dce081957af620e3ab85e466877c0bcc5bd9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844674"
 ---
 # <a name="home-page-overview"></a>Panoramica della home page
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento fornisce una panoramica della home page in Microsoft Dynamics 365 Commerce.
+Questo articolo fornisce una panoramica della home page in Microsoft Dynamics 365 Commerce.
 
 La home page è la pagina predefinita a cui gli acquirenti accedono quando visitano un sito di e-Commerce. In genere, questa pagina mostra i prodotti e le promozioni utilizzando una combinazione di moduli Marketing. La home page deve avere immagini e testo per coinvolgere gli acquirenti.
 
@@ -33,7 +33,7 @@ Nella figura seguente è illustrato un esempio di home pagina creata utilizzando
 
 ![Esempio di home page.](./media/Homepage2.PNG)
 
-La parte superiore della home page include un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il rivenditore vuole siano visitate dai clienti. La parte inferiore della home page include un piè di pagina contenente collegamenti rapidi a vari argomenti che possono interessare i clienti.
+La parte superiore della home page include un'intestazione che mostra tutte le categorie di prodotti e altre pagine che il rivenditore vuole siano visitate dai clienti. La parte inferiore della home page include un piè di pagina contenente collegamenti rapidi a vari articoli che possono interessare i clienti.
 
 La sezione principale della home page può evidenziare prodotti, categorie o promozioni utilizzando vari moduli di Dynamics 365 Commerce:
 
@@ -49,8 +49,8 @@ La sezione principale della home page può evidenziare prodotti, categorie o pro
 
     ![Esempi di moduli Funzionalità.](./media/Feature.PNG)
 
-- **Riquadro** - Un layout Riquadro di un modulo blocco di contenuto è utilizzato per presentare più prodotti o categorie di prodotti utilizzando una combinazione di immagini e testo in un layout con più colonne. Nell'illustrazione di una home page vista in precedenza in questo argomento, un layout Riquadro è utilizzato per il rendering a tre colonne degli articoli **Donna**, **Uomo** e **Accessori**.
-- **Lettore video** - Un modulo Lettore video può essere utilizzato per visualizzare contenuto video nella home page. L'illustrazione di una home page vista in precedenza in questo argomento include un modulo Lettore video.
+- **Riquadro** - Un layout Riquadro di un modulo blocco di contenuto è utilizzato per presentare più prodotti o categorie di prodotti utilizzando una combinazione di immagini e testo in un layout con più colonne. Nell'illustrazione di una home page vista in precedenza in questo articolo, un layout Riquadro è utilizzato per il rendering a tre colonne degli articoli **Donna**, **Uomo** e **Accessori**.
+- **Lettore video** - Un modulo Lettore video può essere utilizzato per visualizzare contenuto video nella home page. L'illustrazione di una home page vista in precedenza in questo articolo include un modulo Lettore video.
 - **Blocco di testo** - Un modulo Blocco contenuto formattato può essere utilizzato per presentare testo nella home page in un layout a singola colonna o a più colonne.
 - **Suggerimenti sui prodotti** - I moduli Suggerimenti sui prodotti sono utilizzati per visualizzare elenchi come **Novità**, **Di tendenza** e **Più venduti** nella home page. Questi elenchi presentano i prodotti in base alle tendenze di acquisto e possono essere generati mediante algoritmi o essere curati manualmente. Consentono ai clienti di individuare rapidamente i prodotti migliori e quindi di continuare ad acquistare.
 

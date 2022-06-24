@@ -1,6 +1,6 @@
 ---
 title: Personalizzare e utilizzare il portale clienti
-description: In questo argomento viene descritto come personalizzare il portale clienti dopo che è stato aggiunto al sistema.
+description: In questo articolo viene descritto come personalizzare il portale clienti dopo che è stato aggiunto al sistema.
 author: Henrikan
 ms.date: 04/22/2020
 ms.topic: article
@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02ad0470b7886b2e9b259682a7f8c8150d656cfb
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 85ec4beda2efe62ff5076a5ed694efbc47c6d87f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063495"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878876"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizzare e utilizzare il portale clienti
 
 [!include [banner](../includes/banner.md)]
 
 
-In questo argomento vengono descritte diverse pagine predefinite del portale clienti. Viene inoltre spiegata la funzione delle pagine e come è possibile personalizzarle.
+In questo articolo vengono descritte diverse pagine predefinite del portale clienti. Viene inoltre spiegata la funzione delle pagine e come è possibile personalizzarle.
 
 Il portale clienti include alcune pagine Web e azioni predefinite. La seguente mappa del sito fornisce una panoramica di tali pagine Web e azioni e dei ruoli che possono svolgere le azioni.
 
@@ -32,16 +32,16 @@ Il portale clienti include alcune pagine Web e azioni predefinite. La seguente m
 
 ## <a name="typical-customizations"></a>Personalizzazioni tipiche
 
-Mediante i seguenti argomenti è possibile apprendere le nozioni di basi sui portali Power Apps e come personalizzare i portali:
+Mediante i seguenti articoli puoi apprendere le nozioni di basi sui portali Power Apps e come personalizzare i portali:
 
-- [Utilizzare i modelli](/powerapps/maker/portals/work-with-templates) - Questo argomento fornisce una panoramica generale del funzionamento dei portali Power Apps e spiega come eseguire semplici personalizzazioni dei portali.
-- [Gestire il contenuto del portale](/dynamics365/portals/manage-portal-content) - Questo argomento spiega come è possibile gestire e personalizzare il contenuto visibile nel portale.
-- [Modificare CSS](/powerapps/maker/portals/edit-css) - Questo argomento consente di eseguire personalizzazioni più complesse nell'interfaccia utente del portale.
-- [Creare un tema per il portale](/dynamics365/portals/create-theme) - Questo argomento consente di creare un tema dell'interfaccia utente per il portale.
-- [Creare ed esporre facilmente il contenuto del portale](/dynamics365/portals/create-expose-portal-content) - Questo argomento consente di gestire i dati e le tabelle sottostanti utilizzate per il portale.
-- [Configurare un contatto per l'uso in un portale](/powerapps/maker/portals/configure/configure-contacts) - Questo argomento spiega come creare e personalizzare i ruoli utente nonché la sicurezza e l'autenticazione nei portali Power Apps.
-- [Configurare note per i moduli tabella e i moduli Web nei portali ](/powerapps/maker/portals/configure-notes) - Questo argomento spiega come aggiungere documenti e spazio di archiviazione aggiuntivo al portale.
-- [Gestione degli errori per il sito Web del portale](/powerapps/maker/portals/admin/view-portal-error-log) - Questo argomento descrive come visualizzare i log degli errori del portale e memorizzarli nell'account dell'archiviazione BLOB di Microsoft Azure .
+- [Utilizzare i modelli](/powerapps/maker/portals/work-with-templates) - Questo articolo fornisce una panoramica generale del funzionamento dei portali Power Apps e spiega come eseguire semplici personalizzazioni dei portali.
+- [Gestire il contenuto del portale](/dynamics365/portals/manage-portal-content) - Questo articolo spiega come è possibile gestire e personalizzare il contenuto visibile nel portale.
+- [Modificare CSS](/powerapps/maker/portals/edit-css) - Questo articolo consente di eseguire personalizzazioni più complesse nell'interfaccia utente del portale.
+- [Creare un tema per il portale](/dynamics365/portals/create-theme) - Questo articolo consente di creare un tema dell'interfaccia utente per il portale.
+- [Creare ed esporre facilmente il contenuto del portale](/dynamics365/portals/create-expose-portal-content) - Questo articolo consente di gestire i dati e le tabelle sottostanti utilizzate per il portale.
+- [Configurare un contatto per l'uso in un portale](/powerapps/maker/portals/configure/configure-contacts) - Questo articolo spiega come creare e personalizzare i ruoli utente nonché la sicurezza e l'autenticazione nei portali Power Apps.
+- [Configurare note per i moduli tabella e i moduli Web nei portali](/powerapps/maker/portals/configure-notes) - Questo articolo spiega come aggiungere documenti e spazio di archiviazione aggiuntivo al portale.
+- [Gestione degli errori per il sito Web del portale](/powerapps/maker/portals/admin/view-portal-error-log) - Questo articolo descrive come visualizzare i log degli errori del portale e memorizzarli nell'account dell'archiviazione BLOB di Microsoft Azure .
 
 ## <a name="customize-the-order-creation-process"></a>Personalizzare il processo di creazione di ordini
 

@@ -1,6 +1,6 @@
 ---
 title: Linee guida per la distribuzione dei registratori di cassa per la Norvegia
-description: Questo argomento fornisce indicazioni su come abilitare la funzionalità del registratore di cassa per la localizzazione Microsoft Dynamics 365 Commerce per la Norvegia.
+description: Questo articolo fornisce indicazioni su come abilitare la funzionalità del registratore di cassa per la localizzazione Microsoft Dynamics 365 Commerce per la Norvegia.
 author: EvgenyPopovMBS
 ms.date: 12/20/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2019-3-1
-ms.openlocfilehash: f0744b18ed59c692ae336c92e488d339ae158368
-ms.sourcegitcommit: 5cefe7d2a71c6f220190afc3293e33e2b9119685
+ms.openlocfilehash: 1f2226432237662e28b9e26017020ab81bb6026b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "8077142"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8899069"
 ---
 # <a name="deployment-guidelines-for-cash-registers-for-norway"></a>Linee guida per la distribuzione dei registratori di cassa per la Norvegia
 
 [!include[banner](../includes/banner.md)]
 
-Questo argomento fornisce indicazioni su come abilitare la funzionalità del registratore di cassa per la localizzazione Microsoft Dynamics 365 Commerce per la Norvegia. La localizzazione è costituita da diverse estensioni dei componenti. Queste estensioni consentono di eseguire azioni come stampare campi personalizzati sulle ricevute, registrare ulteriori eventi di controllo, transazioni di vendita e transazioni di pagamento in Point of Sale (POS), firma digitale delle transazioni di vendita e stampa di report in formati locali. Per ulteriori informazioni sulla localizzazione per la Norvegia, vedi [Funzionalità del registratore di cassa per la Norvegia](./emea-nor-cash-registers.md). Per ulteriori informazioni su come configurare Commerce per la Norvegia, vedi [Configurare Commerce per la Norvegia](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
+Questo articolo fornisce indicazioni su come abilitare la funzionalità del registratore di cassa per la localizzazione Microsoft Dynamics 365 Commerce per la Norvegia. La localizzazione è costituita da diverse estensioni dei componenti. Queste estensioni consentono di eseguire azioni come stampare campi personalizzati sulle ricevute, registrare ulteriori eventi di controllo, transazioni di vendita e transazioni di pagamento in Point of Sale (POS), firma digitale delle transazioni di vendita e stampa di report in formati locali. Per ulteriori informazioni sulla localizzazione per la Norvegia, vedi [Funzionalità del registratore di cassa per la Norvegia](./emea-nor-cash-registers.md). Per ulteriori informazioni su come configurare Commerce per la Norvegia, vedi [Configurare Commerce per la Norvegia](./emea-nor-cash-registers.md#setting-up-commerce-for-norway).
 
 > [!WARNING]
 > A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questa funzionalità di localizzazione. È necessario utilizzare la versione dell'esempio di firma digitale per la Norvegia nella versione precedente del Retail Software Development Kit (SDK) su una macchina virtuale per sviluppatori (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni, vedi [Linee guida per la distribuzione dei registratori di cassa per la Norvegia (legacy)](./emea-nor-loc-deployment-guidelines.md).

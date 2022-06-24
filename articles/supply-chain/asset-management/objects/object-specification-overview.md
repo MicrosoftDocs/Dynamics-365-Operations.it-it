@@ -1,6 +1,6 @@
 ---
-title: Panoramica degli attributi dei cespiti
-description: Questo argomento fornisce una panoramica degli attributi dei cespiti in Gestione cespiti.
+title: Panoramica dell'attributo del cespite
+description: Questo articolo fornisce una panoramica degli attributi dei cespiti in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: overview
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98386b6ffe2a5f9c79c0ee1f18073ac13fc3a039
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: d1585f200e4baba519085685a41979c70a64fb1a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986462"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862745"
 ---
-# <a name="asset-attribute-overview"></a>Panoramica degli attributi dei cespiti
+# <a name="asset-attribute-overview"></a>Panoramica dell'attributo del cespite
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-Questo argomento fornisce una panoramica degli attributi dei cespiti in Gestione cespiti. Gli attributi dei cespiti sono proprietà correlate a un tipo di cespite o a un cespite. Se sono stati impostati [tipi di attributo](../setup-for-functional-locations/specification-types.md) e utilizzati per i cespiti, è possibile ottenere una panoramica dei valori degli attributi impostati per i cespiti. Questa panoramica viene visualizzata in due pagine in Gestione cespiti: **Panoramica attributi cespiti** e **Attributo cespite**.
+Questo articolo fornisce una panoramica degli attributi dei cespiti in Gestione cespiti. Gli attributi dei cespiti sono proprietà correlate a un tipo di cespite o a un cespite. Se sono stati impostati [tipi di attributo](../setup-for-functional-locations/specification-types.md) e utilizzati per i cespiti, è possibile ottenere una panoramica dei valori degli attributi impostati per i cespiti. Questa panoramica viene visualizzata in due pagine in Gestione cespiti: **Panoramica attributi cespiti** e **Attributo cespite**.
 
 La pagina **Panoramica attributi cespiti** mostra una riga separata per ciascun cespite. La riga mostra tutti i tipi di attributi correlati a tale cespite. Seguire questi passaggi per aprire e utilizzare la pagina **Panoramica attributi cespiti**.
 

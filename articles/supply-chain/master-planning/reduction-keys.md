@@ -1,6 +1,6 @@
 ---
-title: Chiavi di riduzione previsionali
-description: Questo argomento fornisce esempi che illustrano come impostare una chiave di riduzione. Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna. È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.
+title: Chiavi di riduzione previsioni
+description: Questo articolo fornisce esempi che illustrano come impostare una chiave di riduzione. Include informazioni sulle diverse impostazioni della chiave di riduzione e sui risultati di ciascuna. È possibile utilizzare una chiave di riduzione per definire il modo in cui ridurre i requisiti di previsione.
 author: t-benebo
 ms.date: 04/15/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 054eb28044e532ed2850cde21cb2f9fb5181ae02
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468980"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854270"
 ---
-# <a name="forecast-reduction-keys"></a>Chiavi di riduzione previsionali
+# <a name="forecast-reduction-keys"></a>Chiavi di riduzione previsioni
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sui differenti metodi utilizzati per ridurre i requisiti di previsione. Include esempi dei risultati di ogni metodo. Descrive inoltre come creare, impostare e utilizzare una chiave di riduzione previsionale. Alcuni metodi utilizzano una chiave di riduzione previsionale per ridurre requisiti di previsione.
+Questo articolo fornisce informazioni sui differenti metodi utilizzati per ridurre i requisiti di previsione. Include esempi dei risultati di ogni metodo. Descrive inoltre come creare, impostare e utilizzare una chiave di riduzione previsionale. Alcuni metodi utilizzano una chiave di riduzione previsionale per ridurre requisiti di previsione.
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Metodi utilizzati per ridurre i requisiti di previsione
 

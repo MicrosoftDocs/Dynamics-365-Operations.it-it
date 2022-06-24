@@ -1,6 +1,6 @@
 ---
 title: Distribuire un nuovo tenant di e-commerce
-description: In questo argomento viene descritto come distribuire un nuovo sito di e-commerce Dynamics 365 Commerce utilizzando Microsoft Dynamics Lifecycle Services.
+description: In questo articolo viene descritto come distribuire un nuovo sito di e-commerce Dynamics 365 Commerce utilizzando Microsoft Dynamics Lifecycle Services.
 author: psimolin
 ms.date: 07/02/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7aee33a6322ada6de142ecf5b70ba81213ffb085
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884006"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Distribuire un nuovo tenant di e-commerce
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come distribuire un nuovo sito di e-commerce Dynamics 365 Commerce utilizzando Microsoft Dynamics Lifecycle Services.
+In questo articolo viene descritto come distribuire un nuovo sito di e-commerce Dynamics 365 Commerce utilizzando Microsoft Dynamics Lifecycle Services.
 
 Microsoft Dynamics Lifecycle Services (LCS) è un'area di lavoro collaborativa basata su cloud che i partner e i clienti possono utilizzare per gestire progetti e ambienti, visualizzare le informazioni più recenti su prodotti e funzionalità di Microsoft Dynamics nonché per creare, tenere traccia ed esaminare richieste di supporto. Le funzionalità di gestione di e-commerce sono integrate in LCS.
 

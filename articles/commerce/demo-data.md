@@ -1,6 +1,6 @@
 ---
 title: Layout schermo con dati dimostrativi in Modern POS (MPOS) e Cloud POS
-description: Di seguito vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Dynamics 365 Commerce.
+description: In questo articolo vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Dynamics 365 Commerce.
 author: josaw1
 ms.date: 10/05/2017
 ms.topic: article
@@ -16,22 +16,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: c141325580d698cccc7d186496a0902913961d47764b93fa73c64c3eddf6e791
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb7a288b61e8b467dd8ad6a8f7dc42b7fca0d943
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761664"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8897227"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Layout schermo con dati dimostrativi in Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 
-Di seguito vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Dynamics 365 Commerce.
+In questo articolo vengono descritti i layout schermo inclusi con il set di dati dimostrativi per le esperienze POS in Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Panoramica
 
-I layout schermo di esempio inclusi con i dati dimostrativi di Commerce forniscono contenuto ottimizzato per vari segmenti di vendita al dettaglio, ruoli lavoratore punto vendita e dispositivi. Un singolo layout può contenere varie dimensioni di layout e combinazioni di griglie di pulsanti per assicurare la copertura quando i lavoratori di punti vendita vengono spostati tra dispositivi e stazioni. In questo argomento vengono evidenziate le differenze tra questi layout nonché le operazioni che forniscono e le esperienze globali che offrono.
+I layout schermo di esempio inclusi con i dati dimostrativi di Commerce forniscono contenuto ottimizzato per vari segmenti di vendita al dettaglio, ruoli lavoratore punto vendita e dispositivi. Un singolo layout può contenere varie dimensioni di layout e combinazioni di griglie di pulsanti per assicurare la copertura quando i lavoratori di punti vendita vengono spostati tra dispositivi e stazioni. In questo articolo vengono evidenziate le differenze tra questi layout nonché le operazioni che forniscono e le esperienze globali che offrono.
 
 ![Layout con dati dimostrativi per vari dispositivi.](../commerce/media/demo-screen-layouts-fig-1-1.png)
 
@@ -52,12 +52,12 @@ Gli ID layout schermo possono avere un massimo di 10 caratteri. L'ID è una stri
 | Lettera | Società         |
 |--------|-----------------|
 | A      | Adventure Works |
-| V      | Fabrikam        |
-| C      | Contoso         |
+| F      | Fabrikam        |
+| Z      | Contoso         |
 
 ### <a name="layout-version"></a>Versione layout
 
-| Numero versione | descrizione                                                                                |
+| Numero versione | Descrizione                                                                                |
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | La versione di base che supporta molteplici dimensioni di schermo per vari dispositivi e proporzioni |
 | 3.1            | La versione di base con un supporto aggiuntivo per il pannello **Prodotti consigliati**        |

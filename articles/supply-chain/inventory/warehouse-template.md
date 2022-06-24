@@ -1,6 +1,6 @@
 ---
 title: Impostare un magazzino utilizzando un modello di configurazione magazzino
-description: In questo argomento viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino.
+description: In questo articolo viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino.
 author: yufeihuang
 ms.date: 11/16/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 6698d615826a1555426824bb76db654fde539360
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571091"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856108"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Impostare un magazzino utilizzando un modello di configurazione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino. Esistono vari modelli di configurazione predefiniti da utilizzare. Per informazioni su come utilizzare tali modelli, vedere [Modelli di dati di configurazione](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
+In questo articolo viene illustrato come impostare un magazzino utilizzando un modello di configurazione magazzino. Esistono vari modelli di configurazione predefiniti da utilizzare. Per informazioni su come utilizzare tali modelli, vedere [Modelli di dati di configurazione](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Scenari in cui i modelli di configurazione possono essere utili
 
@@ -38,7 +38,7 @@ I modelli di configurazione possono essere utili in molti scenari. Di seguito so
 - Si desidera prepararsi rapidamente per una demo della funzionalità del magazzino.
 - Si desidera che gli articoli e i magazzini esistenti utilizzino la funzionalità In Gestione del magazzino anziché la funzionalità nella Gestione inventario.
 
-In questo argomento ci si concentra sul primo di questi scenari. Mostra come utilizzare un modello di configurazione per copiare una configurazione impostata da un ambiente di test a un ambiente di produzione.
+In questo articolo ci si concentra sul primo di questi scenari. Mostra come utilizzare un modello di configurazione per copiare una configurazione impostata da un ambiente di test a un ambiente di produzione.
 
 ## <a name="copy-a-configuration-setup-from-a-test-environment-to-a-production-environment"></a>Copiare una configurazione impostata da un ambiente di test a un ambiente di produzione
 
@@ -92,7 +92,7 @@ In **Visualizza registro di esecuzione** vengono fornite informazioni dettagliat
 
 Per ulteriori informazioni su come utilizzare il modello di magazzino per copiare la configurazione di un magazzino da una società a una nuova società all'interno della stessa istanza, guardare questo video di 3 minuti su YouTube su [come utilizzare il modello di magazzino per copiare la configurazione di Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
-## <a name="related-topic"></a>Argomento correlato
+## <a name="related-article"></a>Articolo correlato
 
 [Modelli di dati di configurazione](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 

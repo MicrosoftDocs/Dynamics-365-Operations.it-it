@@ -1,6 +1,6 @@
 ---
 title: Operazioni per non conformità
-description: Questo argomento descrive come creare e utilizzare le operazioni per le non conformità.
+description: Questo articolo descrive come creare e utilizzare le operazioni per le non conformità.
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 35619454af8b1cb1b7d383d393362f58d9dd0ea6
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: d2e63156dd2b230da7f1ea89e2c2006c1b4f3eeb
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573875"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847993"
 ---
 # <a name="operations-for-nonconformances"></a>Operazioni per non conformità
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come creare e utilizzare le operazioni per le non conformità.
+Questo articolo descrive come creare e utilizzare le operazioni per le non conformità.
 
 Puoi Utilizzare la pagina **Operazioni** per definire classificazioni del lavoro che è possibile eseguire per una non conformità approvata. Quando si assegna un'operazione correlata a una non conformità, è possibile fornire informazioni dettagliate, ad esempio sul materiale associato, sulle ore di manodopera e sulle spese varie, necessarie per l'esecuzione dell'operazione. Queste informazioni vengono utilizzate dal sistema per calcolare un costo stimato per l'operazione. Le informazioni dettagliate e i costi stimati vengono forniti a scopo di riferimento. Le operazioni correlate del controllo qualità sono diverse da quelle che è possibile definire per un ciclo di lavorazione produzione.
 

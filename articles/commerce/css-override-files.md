@@ -1,6 +1,6 @@
 ---
 title: Utilizzare i file di sostituzione CSS
-description: Questo argomento descrive perché, quando e come utilizzare i file di sostituzione CSS (Cascading Style Sheets) in Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive perché, quando e come utilizzare i file di sostituzione CSS (Cascading Style Sheets) in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 05/28/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6788481936a54bff32096dba1d0424fc52c669e4
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: eaeeee4c9de7293ba94cc836c4d7b62787eca81d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964606"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8892862"
 ---
 # <a name="work-with-css-override-files"></a>Utilizzare i file di sostituzione CSS
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive perché, quando e come utilizzare i file di sostituzione CSS (Cascading Style Sheets) in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive perché, quando e come utilizzare i file di sostituzione CSS (Cascading Style Sheets) in Microsoft Dynamics 365 Commerce.
 
 Gli stili permanenti del sito dovrebbero generalmente essere gestiti attraverso un tema del sito. I temi forniscono i CSS e le impostazioni di stile fondamentali per i moduli su qualsiasi pagina del tuo sito. I temi vengono creati utilizzando l'SDK online di Dynamics 365 Commerce vengono distribuiti ai siti Web tramite Lifecycle Services (LCS) di Microsoft Dynamics. Le funzionalità di debug dei temi e le configurazioni dell'interfaccia del modulo nell'SDK aiutano gli sviluppatori del sito a creare pacchetti di progettazione del sito personalizzabili e coerenti. Quando questi pacchetti di progettazione vengono distribuiti in un sito, gli autori del sito possono concentrarsi sulla creazione, la modifica e la pubblicazione di contenuti anziché sullo sviluppo del sito.
 

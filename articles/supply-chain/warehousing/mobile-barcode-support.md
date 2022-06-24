@@ -1,6 +1,6 @@
 ---
 title: Supporto codici a barre per dispositivi mobili
-description: In questo argomento viene descritto come gestire l'app di scansione Magazzino nei dispositivi Android.
+description: In questo articolo viene descritto come gestire l'app di scansione Magazzino nei dispositivi Android.
 author: Mirzaab
 ms.date: 05/26/2017
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97c6e9bf536568968e148cb92f78c226e1f45444
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 15db3912cb5bf1b191c51d8ba68665f2dbe0a3ec
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671508"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905546"
 ---
 # <a name="mobile-bar-code-support"></a>Supporto codici a barre per dispositivi mobili
 

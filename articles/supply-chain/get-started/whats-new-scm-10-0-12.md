@@ -1,6 +1,6 @@
 ---
 title: Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.12 (agosto 2020)
-description: Questo argomento descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.12.
+description: Questo articolo descrive le funzionalità nuove o modificate in Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
 ms.date: 05/29/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 89959095eb64c66e92c9d93d0a3f4caabe7d14bf7121683a7d35d3719a3e36ad
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44b56a59c3b6bb123151988c403382d7c57efd29
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845027"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.12 (agosto 2020)
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.12. Questa versione ha il numero di build 10.0.507 ed è disponibile come segue:
+Questo articolo elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.12. Questa versione ha il numero di build 10.0.507 ed è disponibile come segue:
 
 - **Versione di anteprima:** maggio 2020
 - **Disponibilità generale (aggiornamento automatico):** luglio 2020
@@ -47,7 +47,7 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 
 - [Miglioramenti alla ricezione della targa per l'app di magazzino (continua)](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Per ulteriori informazioni, vedi [Ricezione della targa con l'app per dispositivi mobili Gestione magazzino](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Distribuzione di massa dell'app di magazzino](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Per ulteriori informazioni, vedi [Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md).
+- [Distribuzione di massa per Warehouse mobile app](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Per ulteriori informazioni, vedi [Installare e connettere l'app per dispositivi mobili Gestione magazzino](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Tempo di esecuzione massimo per il processo di pulizia scorte disponibili di gestione magazzino](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Per ulteriori informazioni, vedere [Processo di pulizia delle voci disponibili per la gestione del magazzino](../warehousing/onhand-cleanup.md).
 
@@ -55,9 +55,9 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app Finance and Operations
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per app per finanza e operazioni
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.12 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.12 delle app Finance and Operations (agosto 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.12 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.12 delle app per finanza e operazioni (agosto 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 
@@ -71,12 +71,12 @@ Consultare il [piano di rilascio della prima ondata 2020 di Dynamics 365](/dynam
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Funzionalità di Supply Chain Management rimosse e deprecate
 
-L'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descrive le funzionalità che sono state o sono pianificate per essere rimosse o deprecate per Supply Chain Management.
+L'articolo [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) descrive le funzionalità che sono state o sono pianificate per essere rimosse o deprecate per Supply Chain Management.
 
 - Una funzionalità *rimossa* non è più disponibile nel prodotto.
 - Una funzionalità *deprecata* non si trova nella fase attiva di sviluppo e potrebbe essere rimossa in un aggiornamento futuro.
 
-Prima che qualsiasi funzionalità venga rimossa dal prodotto, l'avviso di deprecazione verrà annunciato nell'argomento [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mesi prima della rimozione.
+Prima che qualsiasi funzionalità venga rimossa dal prodotto, l'avviso di deprecazione verrà annunciato nell'articolo [Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 mesi prima della rimozione.
 
 Per le modifiche significative che influiscono solo sui tempi di compilazione, ma che sono binari compatibili con sandbox e ambienti di produzione, il tempo di deprecazione sarà inferiore a 12 mesi. In genere, si tratta di aggiornamenti funzionali che è necessario apportare al compilatore.
 

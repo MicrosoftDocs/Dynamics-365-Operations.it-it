@@ -1,6 +1,6 @@
 ---
 title: Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
-description: Questo argomento fornisce una procedura dettagliata completa per utilizzare le funzionalità di gestione delle modifiche di progettazione.
+description: Questo articolo fornisce una procedura dettagliata completa per utilizzare le funzionalità di gestione delle modifiche di progettazione.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 4c1c67559a8f2e9d0abb512f4231aea495d1957c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7573995"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8889637"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce una procedura dettagliata completa per utilizzare le funzionalità di gestione delle modifiche di progettazione. Viene descritto ciascuno degli scenari più importanti:
+Questo articolo fornisce una procedura dettagliata completa per utilizzare le funzionalità di gestione delle modifiche di progettazione. Viene descritto ciascuno degli scenari più importanti:
 
 - Configurazione delle funzioni di base
 - Come una società di progettazione crea un nuovo prodotto di progettazione
@@ -35,13 +35,13 @@ Questo argomento fornisce una procedura dettagliata completa per utilizzare le f
 - Come pianificare e implementare le modifiche richieste creando un ordine di modifica di progettazione
 - Come rilasciare un prodotto che è stato modificato
 
-Tutti gli esercizi in questo argomento utilizzano i dati di esempio standard forniti per Microsoft Dynamics 365 Supply Chain Management. Inoltre, ogni esercizio si basa sull'esercizio precedente. Pertanto, si consiglia di eseguire gli esercizi nell'ordine presentato, dall'inizio alla fine, soprattutto se in precedenza non sono state mai utilizzate funzionalità di gestione delle modifiche di progettazione. In questo modo, acquisirai una conoscenza completa della funzionalità.
+Tutti gli esercizi in questo articolo utilizzano i dati di esempio standard forniti per Microsoft Dynamics 365 Supply Chain Management. Inoltre, ogni esercizio si basa sull'esercizio precedente. Pertanto, si consiglia di eseguire gli esercizi nell'ordine presentato, dall'inizio alla fine, soprattutto se in precedenza non sono state mai utilizzate funzionalità di gestione delle modifiche di progettazione. In questo modo, acquisirai una conoscenza completa della funzionalità.
 
 ## <a name="set-up-for-the-sample-scenario"></a>Configurazione per lo scenario di esempio
 
-Per seguire lo scenario di esempio fornito in questo argomento, è necessario prima preparare la funzionalità rendendo disponibili i dati dimostrativi aggiungendo alcuni record personalizzati.
+Per seguire lo scenario di esempio fornito in questo articolo, è necessario prima preparare la funzionalità rendendo disponibili i dati dimostrativi aggiungendo alcuni record personalizzati.
 
-Prima di provare a eseguire uno degli esercizi nel resto di questo argomento, seguire le istruzioni in tutte le sottosezioni seguenti. Queste sottosezioni introducono anche diverse pagine di impostazioni importanti da utilizzare quando si configura la gestione delle modifiche di progettazione per la propria organizzazione.
+Prima di provare a eseguire uno degli esercizi nel resto di questo articolo, segui le istruzioni in tutte le sottosezioni seguenti. Queste sottosezioni introducono anche diverse pagine di impostazioni importanti da utilizzare quando si configura la gestione delle modifiche di progettazione per la propria organizzazione.
 
 ### <a name="make-standard-demo-data-available"></a>Rendere disponibili i dati dimostrativi standard
 

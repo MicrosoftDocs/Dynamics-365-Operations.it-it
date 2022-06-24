@@ -1,6 +1,6 @@
 ---
 title: Creare resi in POS
-description: Questo argomento descrive come inizializzare resi per transazioni cash-and-carry o ordini cliente nell'applicazione POS di Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive come inizializzare resi per transazioni cash-and-carry o ordini cliente nell'applicazione POS di Microsoft Dynamics 365 Commerce.
 author: hhainesms
 ms.date: 04/27/2022
 ms.topic: article
@@ -10,18 +10,18 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: c8e06c0d83e3bc2f5efea1e3a8124c700706aa2e
-ms.sourcegitcommit: 9e1129d30fc4491b82942a3243e6d580f3af0a29
+ms.openlocfilehash: a49e9abd0143d480cc1cafb05be5e995fb3cebdd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "8648990"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857000"
 ---
 # <a name="create-returns-in-pos"></a>Creare resi in POS
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come inizializzare resi per transazioni cash-and-carry o ordini cliente nell'app POS di Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come inizializzare resi per transazioni cash-and-carry o ordini cliente nell'app POS di Microsoft Dynamics 365 Commerce.
 
 > [!NOTE]
 > Nella versione di Commerce 10.0.20 e successive, è disponibile una nuova funzionalità denominata **Esperienza di elaborazione dei resi unificata in POS**. Questa funzione fornisce un processo di reso più coerente e unificato in POS, indipendentemente dal tipo di transazione (transazione cash-and-carry o ordine cliente) o dal canale originale in cui è stato creato l'ordine. Consigliamo a tutte le organizzazioni di attivare questa nuova funzionalità per migliorare l'affidabilità complessiva dell'elaborazione dei resi tramite POS.

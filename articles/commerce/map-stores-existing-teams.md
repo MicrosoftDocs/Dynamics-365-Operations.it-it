@@ -1,6 +1,6 @@
 ---
 title: Mappare negozi e team se ci sono team preesistenti in Microsoft Teams
-description: In questo argomento viene illustrato come mappare i negozi e i team corrispondenti in Dynamics 365 Commerce headquarters se la tua organizzazione ha già creato team in Microsoft Teams prima dell'integrazione di Commerce.
+description: In questo articolo viene illustrato come mappare i negozi e i team corrispondenti in Dynamics 365 Commerce headquarters se la tua organizzazione ha già creato team in Microsoft Teams prima dell'integrazione di Commerce.
 author: gvrmohanreddy
 ms.date: 03/31/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aafeaa1da3c3dab5d76a6bfcee06db34a6afba91
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 4cb18affd0df59dc986602a684a3fe3d418644fd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8691107"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902739"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Mappare negozi e team se ci sono team preesistenti in Microsoft Teams
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene illustrato come mappare i negozi e i team corrispondenti in Dynamics 365 Commerce headquarters se la tua organizzazione ha già creato team in Microsoft Teams prima dell'integrazione di Commerce.
+In questo articolo viene illustrato come mappare i negozi e i team corrispondenti in Dynamics 365 Commerce headquarters se la tua organizzazione ha già creato team in Microsoft Teams prima dell'integrazione di Commerce.
 
 La tua organizzazione potrebbe avere creato dei team per alcuni o tutti i tuoi negozi prima dell'integrazione di Dynamics 365 Commerce e Microsoft Teams. In questo caso, per stabilire la sincronizzazione delle attività tra Commerce POS e Microsoft Teams devi fornire la mappatura dei negozi e del team corrispondente in Commerce headquarters.
 

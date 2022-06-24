@@ -1,6 +1,6 @@
 ---
 title: Parametri non utilizzati da Ottimizzazione pianificazione
-description: Questo argomento elenca i parametri che Ottimizzazione pianificazione non considera durante il funzionamento.
+description: Questo articolo elenca i parametri che Ottimizzazione pianificazione non considera durante il funzionamento.
 author: t-benebo
 ms.date: 09/02/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-29
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 82bdd522b5b6ca1cf149f9fea508d8d6a96a1466
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 3791ac804b78a20d0051881a83cb075e56ec8639
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8907350"
 ---
 # <a name="parameters-not-used-by-planning-optimization"></a>Parametri non utilizzati da Ottimizzazione pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento elenca i parametri che Ottimizzazione pianificazione non considera durante il funzionamento. Il servizio di pianificazione potrebbe ignorare un parametro perché, ad esempio, la funzionalità correlata non è ancora supportata. In alternativa, il parametro potrebbe essere diventato obsoleto a causa di modifiche funzionali.
+Questo articolo elenca i parametri che Ottimizzazione pianificazione non considera durante il funzionamento. Il servizio di pianificazione potrebbe ignorare un parametro perché, ad esempio, la funzionalità correlata non è ancora supportata. In alternativa, il parametro potrebbe essere diventato obsoleto a causa di modifiche funzionali.
 
 Le sezioni seguenti elencano i parametri che Ottimizzazione pianificazione non utilizza in pagine specifiche. Spiegano anche perché ogni parametro non viene utilizzato.
 

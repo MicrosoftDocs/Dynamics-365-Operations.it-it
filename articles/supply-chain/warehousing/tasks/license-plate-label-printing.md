@@ -1,6 +1,6 @@
 ---
 title: Abilitare la stampa di etichette targa
-description: In questo argomento viene descritto come abilitare la stampa automatica di un'etichetta Serial Shipping Container Code (SSCC) dopo il prelievo dell'ultimo articolo dall'inventario in un processo del lavoro di prelievo vendite.
+description: In questo articolo viene descritto come abilitare la stampa automatica di un'etichetta Serial Shipping Container Code (SSCC) dopo il prelievo dell'ultimo articolo dall'inventario in un processo del lavoro di prelievo vendite.
 author: perlynne
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b3895961f1f682a3fd06800a83a497afaf2fa65
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: dec552cac505b3fdc24dd453dbf723fa1d009ced
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903668"
 ---
 # <a name="enable-license-plate-label-printing"></a>Abilitare la stampa di etichette targa
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come abilitare la stampa automatica di un'etichetta Serial Shipping Container Code (SSCC) dopo il prelievo dell'ultimo articolo dall'inventario in un processo del lavoro di prelievo vendite. È possibile eseguire questa procedura nella società di dati dimostrativi USMF. Se tale procedura è stata eseguita utilizzando i propri dati, è necessario disporre di una sequenza numerica impostata per le targhe. È necessario impostare una stampante di etichette prima di iniziare questa attività. Fare clic su Amministrazione organizzazione > Impostazioni > Stampanti di rete. Nel riquadro azioni, fai clic su Opzioni, quindi sul pulsante del programma di installazione dell'agente di distribuzione Scarica documento. Eseguire il programma di installazione e assicurarsi di disporre di una stampante di rete operativa impostata su Attiva prima di continuare con la procedura.
+In questo articolo viene descritto come abilitare la stampa automatica di un'etichetta Serial Shipping Container Code (SSCC) dopo il prelievo dell'ultimo articolo dall'inventario in un processo del lavoro di prelievo vendite. È possibile eseguire questa procedura nella società di dati dimostrativi USMF. Se tale procedura è stata eseguita utilizzando i propri dati, è necessario disporre di una sequenza numerica impostata per le targhe. È necessario impostare una stampante di etichette prima di iniziare questa attività. Fare clic su Amministrazione organizzazione > Impostazioni > Stampanti di rete. Nel riquadro azioni, fai clic su Opzioni, quindi sul pulsante del programma di installazione dell'agente di distribuzione Scarica documento. Eseguire il programma di installazione e assicurarsi di disporre di una stampante di rete operativa impostata su Attiva prima di continuare con la procedura.
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Imposta il prefisso della società GS1

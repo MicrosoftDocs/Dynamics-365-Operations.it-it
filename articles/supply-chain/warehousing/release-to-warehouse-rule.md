@@ -1,6 +1,6 @@
 ---
 title: Regola Rilascia in magazzino
-description: Questo argomento fornisce informazioni sulla funzionalità della regola Rilascia in magazzino, che offre flessibilità durante il rilascio al magazzino. Aggiunge un'opzione di configurazione che controlla se il sistema consente il rilascio di righe ordine parzialmente prenotate.
+description: Questo articolo fornisce informazioni sulla funzionalità della regola Rilascia in magazzino, che offre flessibilità durante il rilascio al magazzino. Aggiunge un'opzione di configurazione che controlla se il sistema consente il rilascio di righe ordine parzialmente prenotate.
 author: Mirzaab
 ms.date: 07/01/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5fef1d942f2e9d3467fb8a00c6d89cc5c018a5aa
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c011938438be32e8a3169d90561ab329da32e32a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674619"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895469"
 ---
 # <a name="release-to-warehouse-rule"></a>Regola Rilascia in magazzino
 
@@ -78,8 +78,8 @@ Per elaborare questi scenari utilizzando i record e i valori di esempio specific
 Questo scenario mostra come funziona la funzionalità per i magazzini impostati su **Richiedi prenotazione completa**.
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Magazzino \> Magazzini**.
-1. Per il magazzino _62_, imposta il campo **Requisito per la prenotazione di scorte** su **Richiedi prenotazione completa**, come descritto in precedenza nella sezione [Impostare la regola di rilascio in magazzino per ciascun magazzino](#set-option-warehouse) in questo argomento.
-1. Selezionare **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
+1. Per il magazzino _62_, imposta il campo **Requisito per la prenotazione di scorte** su **Richiedi prenotazione completa**, come descritto in precedenza nella sezione [Impostare la regola di rilascio in magazzino per ciascun magazzino](#set-option-warehouse) in questo articolo.
+1. Seleziona **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente**.
 1. Selezionare **Nuovo** per creare un ordine cliente.
 1. Nella finestra di dialogo **Crea ordine cliente**, imposta i seguenti valori:
 
@@ -112,7 +112,7 @@ Questo scenario mostra come funziona la funzionalità per i magazzini impostati 
 Questo scenario mostra come funziona la funzionalità per i magazzini impostati su **Consenti rilascio parziale**.
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Magazzino \> Magazzini**.
-1. Per il magazzino _62_, imposta il campo **Requisito per la prenotazione di scorte** su **Consenti prenotazione parziale**, come descritto in precedenza nella sezione [Impostare la regola di rilascio in magazzino per ciascun magazzino](#set-option-warehouse) in questo argomento.
+1. Per il magazzino _62_, imposta il campo **Requisito per la prenotazione di scorte** su **Consenti prenotazione parziale**, come descritto in precedenza nella sezione [Impostare la regola di rilascio in magazzino per ciascun magazzino](#set-option-warehouse) in questo articolo.
 1. Come hai fatto nello [scenario precedente](#scenario1), vai a **Vendite e marketing \> Ordini cliente \> Tutti gli ordini cliente** e creare un ordine cliente per l'account cliente _US-004_ dal magazzino _62_. Aggiungi le seguenti due righe ordine:
 
     - **Riga 1:** imposta il campo **Numero articolo** su _A0001_, il campo **Quantità** su _2_ e il campo **Unità** su _Pcs_.

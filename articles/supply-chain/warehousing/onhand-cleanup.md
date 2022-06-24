@@ -1,6 +1,6 @@
 ---
-title: Processo di pulizia delle voci disponibili per la gestione del magazzino
-description: Questo argomento descrive il processo di pulizia delle voci disponibili, che consente di migliorare le prestazioni del sistema identificando ed eliminando record correlati ma non necessari.
+title: Processo di pulizia delle voci disponibili per gestione magazzino
+description: Questo articolo descrive il processo di pulizia delle voci disponibili, che consente di migliorare le prestazioni del sistema identificando ed eliminando record correlati ma non necessari.
 author: perlynne
 ms.date: 04/23/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: b2bdfb7fa0c9c4d9e1f630a41357dc405f0082bc
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103865"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8900508"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Processo di pulizia delle voci disponibili per la gestione del magazzino
 
@@ -26,7 +26,7 @@ ms.locfileid: "8103865"
 
 Le prestazioni delle query utilizzate per calcolare le scorte disponibili sono influenzate dal numero di record nelle tabelle interessate. Un modo di migliorare le prestazioni è ridurre il numero di record che il database deve considerare.
 
-Questo argomento descrive il processo di pulizia delle voci disponibili, che elimina i record non necessari nelle tabelle InventSum e WHSInventReserve. Queste tabelle contengono informazioni sulla disponibilità per gli articoli abilitati per l'elaborazione della gestione del magazzino. (questi articoli sono definiti articoli Gestione magazzino). La cancellazione di questi record può migliorare significativamente le prestazioni dei calcoli sulle disponibilità.
+Questo articolo descrive il processo di pulizia delle voci disponibili, che elimina i record non necessari nelle tabelle InventSum e WHSInventReserve. Queste tabelle contengono informazioni sulla disponibilità per gli articoli abilitati per l'elaborazione della gestione del magazzino. (questi articoli sono definiti articoli Gestione magazzino). La cancellazione di questi record può migliorare significativamente le prestazioni dei calcoli sulle disponibilità.
 
 ## <a name="what-the-cleanup-job-does"></a>Funzione del lavoro di pulizia
 

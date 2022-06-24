@@ -1,6 +1,6 @@
 ---
 title: Gestire partner commerciali B2B utilizzando gerarchie di clienti
-description: Questo argomento descrive come utilizzare le gerarchie di clienti per gestire partner commerciali per i siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive come utilizzare le gerarchie di clienti per gestire partner commerciali per i siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce.
 author: josaw1
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 70acdf469be2fcddd9e2bf755e958c1b20ee2fcf
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ddd02045b5df3ce20160a4feaa23339475823d3d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686573"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8864983"
 ---
 # <a name="manage-b2b-business-partners-using-customer-hierarchies"></a>Gestire partner commerciali B2B utilizzando gerarchie di clienti
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come utilizzare le gerarchie di clienti per gestire partner commerciali per i siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come utilizzare le gerarchie di clienti per gestire partner commerciali per i siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce.
 
 In Commerce Headquarters, un'entità *gerarchie clienti* è utilizzata per rappresentare le organizzazioni partner commerciali che utilizzeranno il tuo sito di e-commerce B2B. Prima di poter iniziare a utilizzare le gerarchie dei clienti per gestire i partner commerciali, è necessario abilitare le funzionalità di e-commerce B2B in Commerce headquarters e quindi definire una sequenza numerica per la gerarchia clienti.
 

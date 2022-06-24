@@ -1,6 +1,6 @@
 ---
 title: Pianificazione con selezione delle risorse in base alla capacità
-description: Questo argomento descrive la selezione delle risorse durante la pianificazione della capacità infinita quando si specificano le capacità come requisiti di risorse per un'operazione.
+description: Questo articolo descrive la selezione delle risorse durante la pianificazione della capacità infinita quando si specificano le capacità come requisiti di risorse per un'operazione.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: d1ecdfdbdd605fca953e799ec3f6a82d244bc9f7
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 26b2b65a2d565052b188f4d70f0cc0a773cd7b43
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8469787"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847964"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Pianificazione con selezione delle risorse in base alla capacità
 
 [!include [banner](../../includes/banner.md)]
 
-Specificando i requisiti di risorse per un'operazione di un ciclo di produzione, si definisce cosa è necessario per eseguire tale operazione. Ad esempio, un'operazione potrebbe richiedere una risorsa specifica o un gruppo di risorse o una combinazione di competenze o capacità. Questo argomento descrive la selezione delle risorse durante la pianificazione della capacità infinita quando si specificano le capacità come requisiti di risorse per un'operazione.
+Specificando i requisiti di risorse per un'operazione di un ciclo di produzione, si definisce cosa è necessario per eseguire tale operazione. Ad esempio, un'operazione potrebbe richiedere una risorsa specifica o un gruppo di risorse o una combinazione di competenze o capacità. Questo articolo descrive la selezione delle risorse durante la pianificazione della capacità infinita quando si specificano le capacità come requisiti di risorse per un'operazione.
 
 ## <a name="turn-on-the-capability-based-scheduling-feature"></a>Attivare la funzionalità programmazione basata sulla capacità
 

@@ -1,6 +1,6 @@
 ---
 title: Gestione fatture per siti Web di e-commerce B2B
-description: Questo argomento descrive le funzionalità di gestione delle fatture dei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive le funzionalità di gestione delle fatture dei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce.
 author: shajain
 ms.date: 02/16/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 60cb0c8aaede4a0eaeed80cf5ebe41068da57836
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: fa6b81187481a6b7f47ea02291e5a581052d6c7b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686302"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8854928"
 ---
 # <a name="invoice-management-for-b2b-e-commerce-websites"></a>Gestione fatture per siti Web di e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive le funzionalità di gestione delle fatture dei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce.
+Questo articolo descrive le funzionalità di gestione delle fatture dei siti Web di e-commerce business-to-business (B2B) di Microsoft Dynamics 365 Commerce.
 
 È prassi comune per le aziende che gestiscono transazioni B2B accettare ordini con credito cliente e quindi inviare una fattura ai clienti dopo che hanno evaso l'ordine. I termini di pagamento sono definiti per i clienti e potrebbero esserci sconti per motivare i clienti a pagare in tempo o prima del tempo. Per aumentare la probabilità che i pagamenti vengano ricevuti in tempo, i siti di e-commerce B2B consentono ai clienti di visualizzare tutte le fatture. Il cliente può filtrare facilmente le fatture per visualizzare quelle pagate, non pagate e parzialmente pagate insieme alle date di scadenza.
 

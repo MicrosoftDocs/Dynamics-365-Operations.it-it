@@ -1,6 +1,6 @@
 ---
 title: Codici NMFC (National Motor Freight Classification)
-description: Questo argomento descrive come lavorare con i codici NMFC (National Motor Freight Classification) in Microsoft Dynamics 365 Supply Chain Management
+description: Questo articolo descrive come lavorare con i codici NMFC (National Motor Freight Classification) in Microsoft Dynamics 365 Supply Chain Management
 author: Weijiesa
 ms.date: 04/22/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 5127e132a8c06815e9ecd11338c729cd8bb87f18
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 522e4d4e26b04b5ca1dd317e433c5a20ff3cb12e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893267"
 ---
 # <a name="national-motor-freight-classification-nmfc-codes"></a>Codici NMFC (National Motor Freight Classification)
 
@@ -31,7 +31,7 @@ Questa funzionalità può aiutare i lavoratori a utilizzare i codici NMFC per cl
 - Questa classificazione potrebbe essere essenziale per la tua azienda perché viene utilizzata per determinare il costo di un determinato carico.
 - La tua azienda può identificare la redditività di una società di logistica e trasporto LTL.
 
-In questo argomento viene descritto come utilizzare i codici NMFC in Microsoft Dynamics 365 Supply Chain Management.
+In questo articolo viene descritto come utilizzare i codici NMFC in Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="prerequisites"></a>Prerequisiti
 

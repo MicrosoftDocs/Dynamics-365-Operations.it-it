@@ -1,6 +1,6 @@
 ---
 title: Criteri di lavoro
-description: In questo argomento viene spiegato come configurare i criteri di lavoro.
+description: In questo articolo viene spiegato come configurare i criteri di lavoro.
 author: perlynne
 ms.date: 07/31/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1d4ee3f1bffaf00c20758f6a3f399451d3122291
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 7637ef908ffa6e79f81e4ecfb8afac4e3e3fed26
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7571163"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855850"
 ---
 # <a name="work-policies"></a>Criteri di lavoro
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come configurare il sistema e l'app per dispositivi mobili Gestione magazzino in modo che supportino i criteri di lavoro. È possibile utilizzare questa funzionalità per registrare rapidamente l'inventario senza creare lavori di stoccaggio quando si ricevono ordini fornitore o di trasferimento o quando si completano i processi di produzione. In questo argomento vengono fornite informazioni generali. Per informazioni dettagliate relative alla ricezione della targa, vedere [Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino](warehousing-mobile-device-app-license-plate-receiving.md).
+Questo articolo spiega come configurare il sistema e l'app per dispositivi mobili Gestione magazzino in modo che supportino i criteri di lavoro. È possibile utilizzare questa funzionalità per registrare rapidamente l'inventario senza creare lavori di stoccaggio quando si ricevono ordini fornitore o di trasferimento o quando si completano i processi di produzione. Questo articolo fornisce informazioni generali. Per informazioni dettagliate relative alla ricezione della targa, vedere [Ricezione della targa tramite l'app per dispositivi mobili Gestione magazzino](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Un criterio di lavoro controlla se il lavoro di magazzino viene creato quando un articolo prodotto viene segnalato come finito o quando le merci vengono ricevute utilizzando l'app per dispositivi mobili Gestione magazzino. È possibile impostare ogni criterio di lavoro definendo le condizioni in cui si applica: i tipi e i processi dell'ordine di lavoro, l'ubicazione dell'inventario e (facoltativamente) i prodotti. Ad esempio, un ordine fornitore per il prodotto *A0001* deve essere ricevuto nell'ubicazione *RECV* del magazzino *24*. Successivamente, il prodotto viene utilizzato in un altro processo presso l'ubicazione *RECV*. In questo caso, è possibile configurare un criterio di lavoro per impedire la creazione di lavori di stoccaggio quando un lavoratore segnala un prodotto *A0001* come ricevuto nell'ubicazione *RECV*.
 
@@ -35,7 +35,7 @@ Un criterio di lavoro controlla se il lavoro di magazzino viene creato quando un
 
 ## <a name="activate-the-features-in-your-system"></a>Attivare le funzionalità nel sistema
 
-Per rendere disponibili nel sistema tutte le funzionalità descritte in questo argomento, attivare le seguenti due funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Per rendere disponibili nel sistema tutte le funzionalità descritte in questo articolo, attiva le seguenti due funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Miglioramenti ricevimento targa
 - Miglioramenti dei criteri di lavoro per il lavoro in entrata

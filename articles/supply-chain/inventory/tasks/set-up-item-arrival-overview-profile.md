@@ -1,6 +1,6 @@
 ---
 title: Impostare un profilo di panoramica arrivo articoli
-description: In questo argomento viene descritta l'impostazione del profilo della panoramica arrivi.
+description: In questo articolo viene descritta l'impostazione del profilo della panoramica arrivi.
 author: yufeihuang
 ms.date: 07/30/2019
 ms.topic: business-process
@@ -15,18 +15,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a98c84c0dcc86e58b74f53a9061c4a0518ecbf
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 8517710f5d0be1859f86449152712d950281769a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872009"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Impostare un profilo di panoramica arrivo articoli
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritta l'impostazione del profilo della panoramica arrivi. Il profilo della panoramica arrivi è una raccolta di regole da applicare alla pagina della panoramica arrivi viene aperta da un utente. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF. In genere questa procedura verrebbe eseguita da un addetto al ricevimento.
+In questo articolo viene descritta l'impostazione del profilo della panoramica arrivi. Il profilo della panoramica arrivi è una raccolta di regole da applicare alla pagina della panoramica arrivi viene aperta da un utente. È possibile utilizzare questa procedura nella società di dati dimostrativi USMF. In genere questa procedura verrebbe eseguita da un addetto al ricevimento.
 
 1. Nel pannello di navigazione andare a **Moduli > Gestione articoli > Impostazione > Distribuzione > Profili panoramica arrivi**.
 2. Selezionare **Nuovo**. Poiché verrà utilizzato quasi sempre lo stesso magazzino in cui vengono scaricati camion carichi, è necessario creare un profilo della panoramica arrivi per semplificare il processo di registrazione degli articoli ricevuti.  

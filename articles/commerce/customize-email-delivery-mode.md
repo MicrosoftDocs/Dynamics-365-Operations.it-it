@@ -1,6 +1,6 @@
 ---
 title: Personalizzare i messaggi di posta elettronica transazionali in base alla modalità di consegna
-description: In questo argomento viene descritto come impostare modelli di posta elettronica personalizzati per i tipi di notifica e le modalità di consegna specifici in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come impostare modelli di posta elettronica personalizzati per i tipi di notifica e le modalità di consegna specifici in Microsoft Dynamics 365 Commerce.
 author: stuharg
 ms.date: 11/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d15e7c5c7050ad373cb45da72de59416e85a5f2034f7a11b007d497b2e2b98bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f16bc23e3527f57bd61d73e92506946067c6eeb9
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850306"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personalizzare i messaggi di posta elettronica transazionali in base alla modalità di consegna
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come impostare modelli di posta elettronica personalizzati per i tipi di notifica e le modalità di consegna specifici in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come impostare modelli di posta elettronica personalizzati per i tipi di notifica e le modalità di consegna specifici in Microsoft Dynamics 365 Commerce.
 
 I messaggi di posta elettronica transazionali ora possono essere personalizzati per la combinazione di un tipo di notifica (ad esempio, **Ordine creato**, **Ordine imballato**, o **Ordine fatturato**) e una modalità di consegna (ad esempio, durante la notte, ritiro in negozio o ritiro piano strada). I messaggi di posta elettronica transazionali personalizzati consentono ai rivenditori di fornire ai propri clienti esperienze di evasione degli ordini personalizzate in base alla modalità di consegna dell'ordine. Ad esempio, l'evento "ordine imballato" può essere personalizzato in modo da fornire istruzioni per il ritiro dal piano strada per i clienti che scelgono questo ritiro. In alternativa, può fornire informazioni sul corriere e sulla consegna per i clienti che scelgono di spedire l'ordine.
 

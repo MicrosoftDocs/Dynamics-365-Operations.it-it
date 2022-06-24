@@ -1,6 +1,6 @@
 ---
-title: Prenotazioni di visibilità dell'inventario
-description: Questo argomento descrive come impostare la funzione di prenotazione per creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità dell'inventario.
+title: Prenotazioni di Inventory Visibility
+description: Questo articolo descrive come impostare la funzione di prenotazione per creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità dell'inventario.
 author: yufeihuang
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 5e6752539a6381e1f7271883102391374e04f3aa
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3b74907709ab97ddf4cc829dba324df213ca229f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8061706"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895730"
 ---
-# <a name="inventory-visibility-reservations"></a>Prenotazioni di visibilità dell'inventario
+# <a name="inventory-visibility-reservations"></a>Prenotazioni di Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Questo argomento descrive come impostare la funzione di prenotazione per creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità dell'inventario.
+Questo articolo descrive come impostare la funzione di prenotazione per creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità dell'inventario.
 
 Le prenotazioni segnano una quantità di inventario che sarà utilizzata in futuro. Quando crei una prenotazione, il sistema impedisce ad altri ordini di riservare o consumare la merce riservata fino a quando la prenotazione non viene consumata o non è più riservata. Le prenotazioni vengono create, consumate e cancellate utilizzando chiamate API al servizio Visibilità dell'inventario.
 

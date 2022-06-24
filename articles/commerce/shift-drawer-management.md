@@ -1,6 +1,6 @@
 ---
 title: Gestione turni e cassetto della cassa
-description: In questo argomento viene descritto come impostare e utilizzare i turni in Commerce POS (POS).
+description: In questo articolo viene descritto come impostare e utilizzare i turni in Commerce POS (POS).
 author: jblucher
 ms.date: 05/10/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2ac42c92d38299c20bfcb293ac062aa9e4b1c628
-ms.sourcegitcommit: f4823a97c856e9a9b4ae14116a43c87f9482dd90
+ms.openlocfilehash: 9c22f1fce99eaeca7b1081524230742e4709de5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7779746"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8877213"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gestione turni e cassetto della cassa
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come impostare e utilizzare i turni in Commerce POS (POS).
+In questo articolo viene descritto come impostare e utilizzare i turni in Commerce POS (POS).
 
 In Dynamics 365 Commerce, il termine *turno* descrive la raccolta di dati e attività transazionali di POS tra due unità temporali. Per ogni turno, la somma di denaro programmata è comparata con l'importo che è stato conteggiato e dichiarato.
 

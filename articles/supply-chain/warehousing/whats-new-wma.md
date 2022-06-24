@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche nell'app per dispositivi mobili Warehouse Management
-description: Questo argomento elenca le funzionalità nuove e modificate per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+description: Questo articolo elenca le funzionalità nuove e modificate per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
 ms.date: 04/25/2022
 ms.topic: article
@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: c79b18d24c8b9cb90a570496882fdfe91dc6ba51
-ms.sourcegitcommit: a4dc7d170f1504631127c3e92af0c6b03468d375
+ms.openlocfilehash: 34ac023bc5ee44987f6a36a1636cd343576e5d90
+ms.sourcegitcommit: b666289f5113d0a3fa2220fe337d5aacf07cbd92
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/02/2022
-ms.locfileid: "8661827"
+ms.lasthandoff: 06/08/2022
+ms.locfileid: "8945725"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+Questo articolo elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20240"></a>Versione 2.0.24.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Pagine dello scanner migliorate per abilitare l'opzione di scansione nelle pagine **Dettagli**.
+- Gesti migliorati, come il tocco dello schermo.
+- Problemi di prestazioni migliorati per Android.
+- Risolto il problema con il posizionamento di più intestazioni per consentire la visualizzazione di più schede nella pagina **Richiesta informazioni**.
+- Scorrimento migliorato in modo che sia abilitata una distanza inferiore per lo scorrimento dell'impaginazione.
+- Aggiunta pressione prolungata per visualizzare testo aggiuntivo nella pagina **Richiesta informazioni**.
+- Corrette le informazioni sull'ID dispositivo mancanti per Android.
+- Maggiore stabilità.
+- Ottimizzato il layout di accesso.
+- Aggiunto gesto di scorrimento a destra per chiudere le pagine a comparsa della finestra di dialogo sul tastierino numerico, pagina **Dettagli** e pagine di input.
 
 ## <a name="version-20220"></a>Versione 2.0.22.0
 

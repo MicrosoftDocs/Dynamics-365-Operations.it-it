@@ -1,6 +1,6 @@
 ---
-title: Creare e aggiornare una politica su resi e rimborsi per un canale
-description: Questo argomento spiega come impostare una politica su resi e rimborsi per un canale.
+title: Creare e aggiornare i criteri per resi e rimborsi di un canale
+description: Questo articolo spiega come impostare una politica su resi e rimborsi per un canale.
 author: ShalabhjainMSFT
 ms.date: 07/13/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
-ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
+ms.openlocfilehash: 54dd19134aea68f73de51086fbaa096961447b62
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7388935"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873306"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Creare e aggiornare i criteri per resi e rimborsi di un canale
 
@@ -27,7 +27,7 @@ ms.locfileid: "7388935"
 
 La politica sui resi in Dynamics 365 Commerce consente ai rivenditori di impostare le applicazioni per le quali le offerte di pagamento possono essere consentite per l'elaborazione di un reso su un dispositivo POS.  
 
-Questo argomento descrive i passaggi per impostare una politica su resi e rimborsi per un canale.
+Questo articolo descrive i passaggi per impostare una politica su resi e rimborsi per un canale.
 
 L'ambito della politica è attualmente limitato alla definizione delle offerte di pagamento che possono essere consentite per un canale. L'elenco "Consentite" si basa sui metodi di pagamento utilizzati per effettuare l'acquisto. Ad esempio:
 

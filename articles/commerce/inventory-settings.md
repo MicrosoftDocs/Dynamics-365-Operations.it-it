@@ -1,6 +1,6 @@
 ---
-title: Applicare impostazioni relative alle scorte
-description: In questo argomento vengono descritte le impostazioni relative alle scorte e il modo in cui applicarle in Microsoft Dynamics 365 Commerce.
+title: Applicare le impostazioni di inventario
+description: In questo articolo vengono descritte le impostazioni relative alle scorte e il modo in cui applicarle in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 10/15/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ba3e67cf9c72b9a9606528c02f9e57d19a74c1f
-ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
+ms.openlocfilehash: df1d1283a7692336906550169bc77104a9118779
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "7647586"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909559"
 ---
-# <a name="apply-inventory-settings"></a>Applicare le impostazioni delle scorte
+# <a name="apply-inventory-settings"></a>Applicare le impostazioni di inventario
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritte le impostazioni relative alle scorte e il modo in cui applicarle in Microsoft Dynamics 365 Commerce.
+In questo articolo vengono descritte le impostazioni relative alle scorte e il modo in cui applicarle in Microsoft Dynamics 365 Commerce.
 
 Le impostazioni relative alle scorte specificano se le scorte devono essere verificate prima di aggiungere prodotti al carrello. Definiscono inoltre messaggi di merchandising, come "In stock" e "Pochi rimasti". Queste impostazioni assicurano che un prodotto non possa essere acquistato se è esaurito.
 

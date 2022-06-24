@@ -1,6 +1,6 @@
 ---
 title: Entrata prodotti e ordini fornitore
-description: In questo argomento vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
+description: In questo articolo vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
 author: GalynaFedorova
 ms.date: 11/15/2018
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ea22357b4d966f50ef2021ba7534ae633859455
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 53925426b5df6000617b0d8cee757a551fb89c95
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674395"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904045"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Entrata prodotti e ordini fornitore
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
+In questo articolo vengono descritte le varie opzioni per la registrazione dei prodotti quando vengono ricevuti.
 
 L'entrata prodotti è il processo di registrazione che i prodotti ordinati sono stati ricevuti, in modo che le righe di ordine fornitore possono quindi essere elaborate per la fatturazione. In alcuni casi, i prodotti attraversano la preregistrazione, in cui informazioni aggiuntive da parte del fornitore vengono registrate prima del ricevimento dei prodotti. All'arrivo dei prodotti, sono prima contrassegnati come **Registrato**. I prodotti quindi prima possono attraversare processi aggiuntivi, quali la gestione della qualità, prima di essere contrassegnati come **Ricevuto**.
 

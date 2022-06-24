@@ -1,6 +1,6 @@
 ---
 title: Idoneità prodotto
-description: Questo argomento spiega come si possono usare i controlli di prontezza per assicurare che i dati master richiesti siano completati per un prodotto prima che sia usato nelle transazioni.
+description: In questo articolo viene illustrato come utilizzare i controlli di idoneità per garantire che i dati master richiesti siano stati completati per un prodotto prima che venga utilizzato nelle transazioni.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f7ab6165e85cd2b1165292b74cd036f1233b22b4
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: a8e76d5fc786b6f4cac7cd0430399ca3ad13a7bc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103015"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856224"
 ---
 # <a name="product-readiness"></a>Idoneità prodotto
 
@@ -61,7 +61,7 @@ Se viene creata una nuova *versione* di progettazione, il sistema verifica se ad
 - La versione di progettazione è impostata su inattiva per bloccare l'utilizzo del prodotto.
 
 > [!NOTE]
-> È inoltre possibile configurare criteri dei controlli di idoneità standard (non tecnici). Per ulteriori informazioni, vedi a sezione [Controlli di idoneità su prodotti standard](#standard-products) più avanti in questo argomento.
+> È inoltre possibile configurare criteri dei controlli di idoneità standard (non tecnici). Per ulteriori informazioni, vedi a sezione [Controlli di idoneità su prodotti standard](#standard-products) più avanti in questo articolo.
 
 ## <a name="view-readiness-checks"></a>Visualizzare i controlli di disponibilità
 
@@ -151,7 +151,7 @@ Per ogni riga che si aggiunge, impostare i seguenti campi.
 | Società | Se si imposta il campo **Esegui in** su *Singola società*, selezionare la società. |
 | Tipo di proprietario | Seleziona se i controlli di disponibilità generati dalla riga devono essere assegnati a una persona o a un team. |
 | Proprietario | Seleziona la persona o il team a cui devono essere assegnati i controlli di disponibilità generati dalla riga. |
-| Gestione questionari | Seleziona il questionario da utilizzare per l'elenco di controllo. L'elenco di controllo è un elenco di controllo locale nella società in cui viene effettuato il controllo di disponibilità. Il sistema deve essere in grado di valutare se l'elenco di controllo ha una risposta corretta. Pertanto, l'elenco di controllo deve essere impostato in modo che venga eseguita una valutazione basata su risposte corrette. Per ulteriori informazioni su come creare questionari, vedere [Utilizzo dei questionari](/dynamicsax-2012/appuser-itpro/using-questionnaires) e gli argomenti correlati. |
+| Gestione questionari | Seleziona il questionario da utilizzare per l'elenco di controllo. L'elenco di controllo è un elenco di controllo locale nella società in cui viene effettuato il controllo di disponibilità. Il sistema deve essere in grado di valutare se l'elenco di controllo ha una risposta corretta. Pertanto, l'elenco di controllo deve essere impostato in modo che venga eseguita una valutazione basata su risposte corrette. Per ulteriori informazioni su come creare questionari, vedi [Utilizzo dei questionari](/dynamicsax-2012/appuser-itpro/using-questionnaires) e gli articoli correlati. |
 | Approvazione automatica | I record del controllo di disponibilità includono una casella di controllo **Approvato** che indica lo stato di approvazione. Selezionare la casella di controllo **Approvazione automatica** per i controlli che devono essere impostati su approvato immediatamente dopo essere stati completati dall'utente assegnato. Deselezionare questa casella di controllo per richiedere l'approvazione esplicita come passaggio aggiuntivo. |
 | Obbligatorio | Selezionare questa casella di controllo per i controlli che devono essere completati dall'utente assegnato. I controlli obbligatori non possono essere ignorati. |
 
@@ -159,7 +159,7 @@ Per ogni riga che si aggiunge, impostare i seguenti campi.
 
 ## <a name="assign-readiness-policies-to-standard-and-engineering-products"></a>Assegnare criteri di disponibilità a prodotti standard e tecnici
 
-Quando crei un nuovo prodotto basato su una categoria tecnica, crei sia un *prodotto rilasciato* che un relativo *prodotto condiviso*. Il modo in cui i criteri di disponibilità vengono risolti per un prodotto rilasciato dipende dall'attivazione della funzionalità *Controlli di disponibilità prodotto* per il sistema (vedi la sezione [Controlli di disponibilità su prodotti standard](#standard-products) più avanti in questo argomento per dettagli su questa funzionalità e su come attivarla o disattivarla).
+Quando crei un nuovo prodotto basato su una categoria tecnica, crei sia un *prodotto rilasciato* che un relativo *prodotto condiviso*. Il modo in cui i criteri di disponibilità vengono risolti per un prodotto rilasciato dipende dall'attivazione della funzionalità *Controlli di disponibilità prodotto* per il sistema (vedi la sezione [Controlli di disponibilità su prodotti standard](#standard-products) più avanti in questo articolo per dettagli su questa funzionalità e su come attivarla o disattivarla).
 
 - Quando la funzionalità *Controlli di disponibilità del prodotto* viene *disattivata* sul tuo sistema, il criterio di disponibilità è impostato e mostrato solo sui record [categoria di ingegneria](engineering-versions-product-category.md). Per sapere quale criteri si applica a un prodotto rilasciato, il sistema controlla il campo **Criterio di disponibilità del prodotto** per la categoria di progettazione correlata. È possibile modificare il criterio di disponibilità per un prodotto esistente modificando la categoria di progettazione correlata (non il prodotto condiviso).
 - Quando la funzionalità *Controlli di disponibilità del prodotto* è *attivata*, aggiunge un campo **Criterio di disponibilità** alla pagina **Prodotto** (dove sono impostati i prodotti condivisi) e alla pagina **Prodotto rilasciato** (dove il valore è di sola lettura ed è preso dal prodotto condiviso correlato). Il sistema trova il criterio di disponibilità per un prodotto rilasciato controllando il prodotto condiviso correlato. Quando si utilizza una categoria di progettazione per creare un nuovo prodotto di progettazione, il sistema crea sia un prodotto condiviso che un prodotto rilasciato e copia qualsiasi impostazione **Criterio di disponibilità del prodotto** per la categoria di progettazione sul nuovo prodotto condiviso. È possibile modificare il criterio di disponibilità per un prodotto esistente modificando il relativo prodotto condiviso (non la categoria di progettazione rilasciata).
@@ -188,14 +188,14 @@ Questa funzionalità richiede che entrambe le funzionalità *Gestione modifiche 
 
 ### <a name="create-readiness-policies-for-standard-products"></a>Creare criteri di disponibilità per i prodotti standard
 
-Crei criteri di disponibilità per i prodotti standard proprio come fai per i prodotti di progettazione. Vedi le informazioni in precedenza nell'argomento.
+Crei criteri di disponibilità per i prodotti standard proprio come fai per i prodotti di progettazione. Vedi le informazioni in precedenza nell'articolo.
 
 ### <a name="assign-readiness-policies-to-standard-products"></a>Assegnare criteri di disponibilità ai prodotti standard
 
-Per assegnare un criterio di disponibilità a un prodotto standard, apri il prodotto condiviso correlato e imposta il campo **Criterio di disponibilità del prodotto** sul nome del criterio da applicare. Per ulteriori informazioni, vedi la sezione [Assegnare criteri di disponibilità a prodotti standard e tecnici](#assign-policy) precedente in questo argomento.
+Per assegnare un criterio di disponibilità a un prodotto standard, apri il prodotto condiviso correlato e imposta il campo **Criterio di disponibilità del prodotto** sul nome del criterio da applicare. Per ulteriori informazioni, vedi la sezione [Assegnare criteri di disponibilità a prodotti standard e tecnici](#assign-policy) precedente in questo articolo.
 
 ### <a name="view-and-process-readiness-checks-on-standard-products"></a>Visualizzare ed elaborare i controlli di disponibilità su prodotti standard
 
-Quando questa funzionalità è attiva, puoi visualizzare ed elaborare i controlli di disponibilità per i prodotti standard proprio come si fa per i prodotti di progettazione. Vedi le informazioni in precedenza nell'argomento.
+Quando questa funzionalità è attiva, puoi visualizzare ed elaborare i controlli di disponibilità per i prodotti standard proprio come si fa per i prodotti di progettazione. Vedi le informazioni in precedenza nell'articolo.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

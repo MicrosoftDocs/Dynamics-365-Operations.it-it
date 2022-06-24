@@ -1,6 +1,6 @@
 ---
-title: Crea modelli e-mail per eventi transazionali
-description: Questo argomento descrive come creare, caricare e configurare modelli e-mail per eventi transazionali in Microsoft Dynamics 365 Commerce.
+title: Creare modelli e-mail per eventi transazionali
+description: Questo articolo descrive come creare, caricare e configurare modelli e-mail per eventi transazionali in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 ms.date: 12/10/2021
 ms.topic: article
@@ -14,21 +14,21 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 08e247bac577dc0bb8a4635d61f0082793380da9
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722521"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910552"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Creare modelli e-mail per eventi transazionali
 
 [!include [banner](includes/banner.md)]
 
 
-Questo argomento descrive come creare, caricare e configurare modelli e-mail per eventi transazionali in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come creare, caricare e configurare modelli e-mail per eventi transazionali in Microsoft Dynamics 365 Commerce.
 
-Dynamics 365 Commerce fornisce una soluzione pronta all'uso per l'invio di e-mail che avvisano i clienti di eventi transazionali. Ad esempio, le e-mail possono essere inviate quando un ordine viene effettuato, è pronto per il ritiro o è stato spedito. Questo argomento descrive i passaggi per la creazione, il caricamento e la configurazione dei modelli e-mail utilizzati per inviare e-mail transazionali.
+Dynamics 365 Commerce fornisce una soluzione pronta all'uso per l'invio di e-mail che avvisano i clienti di eventi transazionali. Ad esempio, le e-mail possono essere inviate quando un ordine viene effettuato, è pronto per il ritiro o è stato spedito. Questo articolo descrive i passaggi per la creazione, il caricamento e la configurazione dei modelli e-mail utilizzati per inviare e-mail transazionali.
 
 ## <a name="notification-types"></a>Tipi di notifiche
 

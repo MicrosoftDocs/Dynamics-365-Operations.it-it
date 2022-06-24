@@ -1,6 +1,6 @@
 ---
-title: Esempi e logica dei report di aging delle scorte
-description: Questo argomento presenta alcuni esempi che mostrano come interpretare i risultati di un report di aging delle scorte.
+title: Esempi e logica di report di aging dell'inventario
+description: Questo articolo presenta alcuni esempi che mostrano come interpretare i risultati di un report di aging delle scorte.
 author: JennySong-SH
 ms.date: 5/29/2020
 ms.topic: article
@@ -16,24 +16,24 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4cfffa49f802c601da391617b123134c435fba92
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 40066431ddfb9644c059025eac55d1b36789882e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672348"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8848022"
 ---
-# <a name="inventory-aging-report-examples-and-logic"></a>Esempi e logica dei report di aging delle scorte
+# <a name="inventory-aging-report-examples-and-logic"></a>Esempi e logica di report di aging dell'inventario
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento presenta alcuni esempi che mostrano come interpretare i risultati di un report di **aging delle scorte**. Questo report classifica i valori delle quantità e delle scorte disponibili per un articolo o un gruppo di articoli selezionati in diversi gruppi di periodi. Questo argomento mostra anche la logica interna del report.
+Questo articolo presenta alcuni esempi che mostrano come interpretare i risultati di un report di **aging delle scorte**. Questo report classifica i valori delle quantità e delle scorte disponibili per un articolo o un gruppo di articoli selezionati in diversi gruppi di periodi. Questo articolo mostra anche la logica interna del report.
 
-Gli esempi in questo argomento mostrano i risultati presentati su un report **di aging delle scorte** standard. Tuttavia, in generale, si consiglia di utilizzare la versione [Archiviazione report di aging delle scorte](inventory-aging-report-storage.md) di questo report, soprattutto quando si hanno molti articoli e magazzini da elaborare. L'archiviazione report di aging delle scorte salva ogni report generato, mostra i risultati come una pagina interattiva e un grafico e consente di esportare qualsiasi rapporto salvato.
+Gli esempi in questo articolo mostrano i risultati presentati su un report **di aging delle scorte** standard. Tuttavia, in generale, si consiglia di utilizzare la versione [Archiviazione report di aging delle scorte](inventory-aging-report-storage.md) di questo report, soprattutto quando si hanno molti articoli e magazzini da elaborare. L'archiviazione report di aging delle scorte salva ogni report generato, mostra i risultati come una pagina interattiva e un grafico e consente di esportare qualsiasi rapporto salvato.
 
 ## <a name="sample-data-that-is-used-in-these-examples"></a>Dati di esempio utilizzati in questi esempi
 
-Gli esempi in questo argomento si basano sui dati di transazione delle scorte di esempio descritti in questa sezione.
+Gli esempi in questo articolo si basano sui dati di transazione delle scorte di esempio descritti in questa sezione.
 
 ### <a name="storage-dimension-setup"></a>Configurazione delle dimensioni di immagazzinamento
 

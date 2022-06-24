@@ -1,6 +1,6 @@
 ---
 title: Impostare vettori di spedizione
-description: In questo argomento viene descritto come impostare un vettore di spedizione e come definire dettagli quali servizio, modalità di spedizione, metodo di pagamento del trasporto, vincoli di trasporto e tariffa di trasporto.
+description: In questo articolo viene descritto come impostare un vettore di spedizione e come definire dettagli quali servizio, modalità di spedizione, metodo di pagamento del trasporto, vincoli di trasporto e tariffa di trasporto.
 author: Weijiesa
 ms.date: 07/19/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 876a3ffd94f554ef042da995311df0f8009eee12
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 48586a0ddaa7cd95a81380dadffef8f276076dd2
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672656"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858974"
 ---
 # <a name="set-up-shipping-carriers"></a>Impostare vettori di spedizione
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come impostare un vettore di spedizione e come definire dettagli quali servizio, modalità di spedizione, metodo di pagamento del trasporto, vincoli di trasporto e tariffa di trasporto. Un coordinatore dei trasporti può quindi assegnare un vettore di spedizione a un carico in entrata o in uscita.
+In questo articolo viene descritto come impostare un vettore di spedizione e come definire dettagli quali servizio, modalità di spedizione, metodo di pagamento del trasporto, vincoli di trasporto e tariffa di trasporto. Un coordinatore dei trasporti può quindi assegnare un vettore di spedizione a un carico in entrata o in uscita.
 
 ## <a name="create-a-new-shipping-carrier"></a>Creare un nuovo vettore di spedizione
 

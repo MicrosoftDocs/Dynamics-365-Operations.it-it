@@ -1,6 +1,6 @@
 ---
 title: Modulo dell'immagine attiva
-description: In questo argomento vengono descritti i moduli delle immagini attive e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+description: In questo articolo vengono descritti i moduli delle immagini attive e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 ms.date: 05/18/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 06b9162029de3f5f3fede9583fa8a4a96fefb2f3
-ms.sourcegitcommit: ccb39767bd3430c24f4653c26560bba2cd66553c
+ms.openlocfilehash: 3d532d21f847a80a16af814eeaf097a616605795
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/19/2022
-ms.locfileid: "8780287"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853852"
 ---
 # <a name="active-image-module"></a>Modulo dell'immagine attiva
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono descritti i moduli delle immagini attive e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
+In questo articolo vengono descritti i moduli delle immagini attive e la procedura per aggiungerli alle pagine di siti Web in Microsoft Dynamics 365 Commerce.
 
 Un modulo dell'immagine attiva può essere utilizzato per incorporare i tag del prodotto in un'immagine. Gli utenti del sito di e-commerce possono quindi passare con il mouse sui tag per visualizzare in anteprima i prodotti mostrati nell'immagine. Le anteprime vengono visualizzate in finestre popup. Selezionando una finestra popup di anteprima, gli utenti possono andare direttamente alla pagina dei dettagli del prodotto (PDP) per il prodotto corrispondente.
 

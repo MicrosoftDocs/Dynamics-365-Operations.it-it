@@ -1,6 +1,6 @@
 ---
 title: Impostare i dispositivi mobili per il lavoro di magazzino
-description: Viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
+description: In questo articolo viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 author: Mirzaab
 ms.date: 03/23/2020
 ms.topic: article
@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9e0f27839d9e6330cc8a11874a5cb1786daf8dc
-ms.sourcegitcommit: fd6270dc7f49f93a8155d2b827153b13edb7be8a
+ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7902181"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8905575"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
+In questo articolo viene descritto come si configurano le voci di menu che i lavoratori del magazzino utilizzano per svolgere il proprio lavoro su un dispositivo mobile.
 
 > [!NOTE]
-> Questo argomento si applica alle funzionalità in Gestione magazzino. e non viene applicato alle funzionalità in Gestione articoli. Le voci di menu visualizzate nei menu in un dispositivo mobile di magazzino vengono configurate nella pagina **Voci di menu del dispositivo mobile**. Poiché le voci di menu possono essere immesse in menu diversi, è semplice configurare le strutture di menu in modo da esporre solo tipi specifici di lavoro a utenti specifici. Le voci di menu possono essere configurate per eseguire le attività indicate di seguito.
+> Questo articolo si applica alle funzionalità in Gestione magazzino. e non viene applicato alle funzionalità in Gestione articoli. Le voci di menu visualizzate nei menu in un dispositivo mobile di magazzino vengono configurate nella pagina **Voci di menu del dispositivo mobile**. Poiché le voci di menu possono essere immesse in menu diversi, è semplice configurare le strutture di menu in modo da esporre solo tipi specifici di lavoro a utenti specifici. Le voci di menu possono essere configurate per eseguire le attività indicate di seguito.
 
 - Elaborare una richiesta di informazioni o eseguire un'attività, ad esempio stampare un'etichetta, generare numeri di identificazione, avviare un ordine di produzione o trovare rapidamente le informazioni sugli articoli in un'ubicazione.
 - Creare un lavoro che viene eseguito tramite un altro processo. Ad esempio, la ricezione di un articolo per un ordine fornitore può creare il lavoro di stoccaggio per un altro lavoratore.

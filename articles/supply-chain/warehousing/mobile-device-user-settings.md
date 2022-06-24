@@ -1,6 +1,6 @@
 ---
 title: Impostazioni utente dispositivo mobile
-description: In questo argomento viene descritto come gestire le impostazioni utente del dispositivo mobile per gli addetti al magazzino.
+description: In questo articolo viene descritto come gestire le impostazioni utente del dispositivo mobile per gli addetti al magazzino.
 author: Mirzaab
 ms.date: 02/09/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ea0fcfa7a165587567968f95549799859edaa60
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 15f9ce1768e1ed9dc6f7e84d245082b46a7f122c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103715"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8882346"
 ---
 # <a name="mobile-device-user-settings"></a>Impostazioni utente dispositivo mobile
 
@@ -41,7 +41,7 @@ Questa funzionalità può aiutare gli addetti a iniziare a utilizzare più rapid
 
 ## <a name="turn-the-mobile-device-user-settings-feature-on-or-off"></a>Attivare o disattivare la funzionalità Impostazioni utente dispositivo mobile
 
-Per utilizzare la funzionalità,descritta in questo argomento, la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* deve essere attivata per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare la funzionalità,descritta in questo articolo, la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* deve essere attivata per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-and-manage-user-settings"></a>Creare e gestire impostazioni utente
 

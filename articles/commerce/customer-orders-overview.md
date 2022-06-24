@@ -1,6 +1,6 @@
 ---
 title: Ordini cliente in POS
-description: In questo argomento vengono fornite informazioni sugli ordini cliente in POS. Gli ordini cliente sono anche noti come ordini speciali. Questo argomento include una discussione sui parametri e i flussi di transazioni correlati.
+description: In questo articolo vengono fornite informazioni sugli ordini cliente in POS. Gli ordini cliente sono anche noti come ordini speciali. Questo articolo include una discussione sui parametri e i flussi di transazioni correlati.
 author: josaw1
 ms.date: 08/02/2021
 ms.topic: overview
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9ebdad47d761f775cf26666dc3e2736818fb4832
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 6051e0a18823b354dd9940aac70a086a0f317002
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982820"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8850384"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordini cliente in POS
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono fornite informazioni su come creare e gestire ordini cliente nell'app POS. Gli ordini cliente possono essere utilizzati per acquisire le vendite in cui gli acquirenti desiderano ritirare i prodotti in un secondo momento, ritirare i prodotti in una posizione diversa o ricevere gli articoli spediti. 
+In questo articolo vengono fornite informazioni su come creare e gestire ordini cliente nell'app POS. Gli ordini cliente possono essere utilizzati per acquisire le vendite in cui gli acquirenti desiderano ritirare i prodotti in un secondo momento, ritirare i prodotti in una posizione diversa o ricevere gli articoli spediti. 
 
 In un mondo commerciale omni-canale, molti rivenditori offrono l'opzione degli ordini cliente, o ordini speciali, per soddisfare vari requisiti di prodotti ed evasione. Di seguito sono riportati alcuni scenari comuni:
 

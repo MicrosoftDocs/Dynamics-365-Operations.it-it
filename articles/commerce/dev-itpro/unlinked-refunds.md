@@ -1,6 +1,6 @@
 ---
 title: Elabora rimborsi non collegati al Connettore di pagamento Dynamics 365 Commerce per Adyen
-description: Questo argomento descrive come funzionano i rimborsi non collegati quando viene utilizzato il Connettore pagamenti di Microsoft Dynamics 365 per Adyen.
+description: Questo articolo descrive come funzionano i rimborsi non collegati quando viene utilizzato il Connettore pagamenti di Microsoft Dynamics 365 per Adyen.
 author: BrianShook
 ms.date: 10/07/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c137dcf7d35031a293c88d8c4f5dc1e5f3d9e2f9
-ms.sourcegitcommit: a21a664cd35b95c8600c5af0aac588a64e892902
+ms.openlocfilehash: 634b30de7adbfb0c316fe14456581ea8eb89d070
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623923"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885199"
 ---
 # <a name="process-unlinked-refunds-with-the-dynamics-365-commerce-payment-connector-for-adyen"></a>Elabora rimborsi non collegati al Connettore di pagamento Dynamics 365 Commerce per Adyen
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come funzionano i rimborsi non collegati quando viene utilizzato il [Connettore pagamenti di Microsoft Dynamics 365 per Adyen](adyen-connector.md). Esamina inoltre la capacità di elaborare un rimborso rispetto a un nuovo metodo di pagamento nel punto vendita (POS) o nel call center.
+Questo articolo descrive come funzionano i rimborsi non collegati quando viene utilizzato il [Connettore pagamenti di Microsoft Dynamics 365 per Adyen](adyen-connector.md). Esamina inoltre la capacità di elaborare un rimborso rispetto a un nuovo metodo di pagamento nel punto vendita (POS) o nel call center.
 
 Il connettore pagamenti di Dynamics 365 per Adyen supporta la possibilità di elaborare i rimborsi utilizzando un metodo di pagamento diverso da quello utilizzato per la transazione originale. Anche se ti consigliamo di utilizzare [rimborsi collegati](linked-refunds.md) per elaborare un rimborso rispetto al metodo di pagamento di origine fornito, in alcuni scenari sono necessari rimborsi con un metodo diverso. Ad esempio, la carta utilizzata per il pagamento originale potrebbe essere scaduta o persa oppure potrebbe essere stata annullata dall'utente.
 

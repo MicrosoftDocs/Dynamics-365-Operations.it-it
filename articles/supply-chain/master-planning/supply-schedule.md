@@ -1,6 +1,6 @@
 ---
 title: Programmazione fornitura
-description: In questo argomento vengono fornite informazioni sulla pagina Programmazione fornitura e le relative funzionalità.
+description: In questo articolo vengono fornite informazioni sulla pagina Programmazione fornitura e le relative funzionalità.
 author: t-benebo
 ms.date: 9/3/2021
 ms.topic: article
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 89b8ce96a5c34902187751cfa523ed99a94500b3
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 0e3937dd4cffc464f38b5770674364579bdb06d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468678"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851741"
 ---
 # <a name="supply-schedule"></a>Programmazione fornitura
 
@@ -28,7 +28,7 @@ La pagina **Programmazione fornitura** mostra una panoramica completa della doma
 
 Puoi aprire la pagina **Programmazione fornitura** in uno dei seguenti modi:
 
-- Vai a **Pianificazione generale \> Pianificazione generale \> Programmazione fornitura**. Nella finestra di dialogo **Modifica filtro** specifica il piano e il prodotto che stai cercando inserendo i valori del filtro nei campi forniti. (Nel resto di questo argomento, la raccolta di valori di filtro immessi viene denominata "il filtro" o "il filtro corrente".) Al termine, seleziona **OK**.
+- Vai a **Pianificazione generale \> Pianificazione generale \> Programmazione fornitura**. Nella finestra di dialogo **Modifica filtro** specifica il piano e il prodotto che stai cercando inserendo i valori del filtro nei campi forniti. (Nel resto di questo articolo, la raccolta di valori di filtro immessi viene denominata "il filtro" o "il filtro corrente".) Al termine, seleziona **OK**.
 - Fai clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**. Seleziona o apri un prodotto. Quindi, nel riquadro azioni, nella scheda **Piano**, nel gruppo **Visualizza**, seleziona **Programmazione fornitura**.
 - Vai a **Pianificazione generale \> Impostazioni \> Previsione della domanda \> Chiavi di allocazione articoli**. Seleziona una chiave di allocazione articolo utilizzata come famiglia di prodotti. Quindi nel riquadro azioni seleziona **Programmazione fornitura**.
 - Andare a **Pianificazione generale \> Pianificazione generale \> Ordini pianificati**. Selezionare o aprire un ordine pianificato. Quindi, nel riquadro azioni, nella scheda **Visualizza**, nel gruppo **Visualizza**, seleziona **Programmazione fornitura**.

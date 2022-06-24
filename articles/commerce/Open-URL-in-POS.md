@@ -1,6 +1,6 @@
 ---
 title: Aprire un URL nel POS
-description: Questo argomento fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Dynamics 365 Commerce.
+description: Questo articolo fornisce una panoramica dei miglioramenti apportati alla funzionalità di ricerca prodotti e clienti in Dynamics 365 Commerce.
 author: AamirAllaq
 ms.date: 01/28/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 0e02a08e5afd15fd9622495fd77f4dc01b85786bcffc222b5c979c82a59a6aab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 529908df866c71ea84d90bbb5d46b23311ed74d1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714116"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853964"
 ---
-# <a name="open-url-in-pos"></a>Aprire l'URL nel POS
+# <a name="open-url-in-pos"></a>Aprire un URL nel POS
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come configurare un pulsante in POS Dynamics 365 Commerce per aprire un URL. Questa funzionalità non richiede una personalizzazione del codice e può essere configurata da qualcuno cha ha un ruolo non sviluppatore. 
+In questo articolo viene descritto come configurare un pulsante in POS Dynamics 365 Commerce per aprire un URL. Questa funzionalità non richiede una personalizzazione del codice e può essere configurata da qualcuno cha ha un ruolo non sviluppatore. 
 
 Questa funzionalità consente la configurazione di un pulsante nel POS, utilizzando la finestra di progettazione della griglia dei pulsanti per aprire un URL. Attualmente, è supportata nelle seguenti configurazioni:
 

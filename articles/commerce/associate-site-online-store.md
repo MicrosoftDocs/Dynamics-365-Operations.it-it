@@ -1,6 +1,6 @@
 ---
 title: Associare un sito Dynamics 365 Commerce a un canale online
-description: In questo argomento viene descritto come associare il proprio sito di Microsoft Dynamics 365 Commerce a uno o più punti vendita online.
+description: In questo articolo viene descritto come associare il proprio sito di Microsoft Dynamics 365 Commerce a uno o più punti vendita online.
 author: bicyclingfool
 ms.date: 07/02/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 60ead45e6e2b7fea8f04371310ff4315205e11f6e0968e5f8bbc6a29c5f26e18
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 006c8b60791e0176c808762025f3bfdeaff9c48d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737655"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878675"
 ---
 # <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Associare un sito Dynamics 365 Commerce a un canale online
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come associare il proprio sito di Microsoft Dynamics 365 Commerce a uno o più punti vendita online. 
+In questo articolo viene descritto come associare il proprio sito di Microsoft Dynamics 365 Commerce a uno o più punti vendita online. 
 
 Dopo aver eseguito il provisioning dell'ambiente e-commerce Dynamics 365 Commerce tramite il portale Microsoft Dynamics Lifecycle Services (LCS), è possibile configurare il primo sito Web di e-commerce. Durante la creazione iniziale del sito, si associa il sito a un punto vendita online creato precedentemente. Questo passaggio associa il sito a un canale online e consente di visualizzare gerarchia di navigazione, prodotti, categorie, prezzi, opzioni di spedizione e tutto ciò che è stato definito nel punto vendita online nel sito.
 

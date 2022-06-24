@@ -1,6 +1,6 @@
 ---
 title: Spedizione pacchi di piccole dimensioni
-description: In questo argomento vengono fornite informazioni sulla funzionalità di spedizione di pacchi di piccole dimensioni. Questa funzionalità consente a Microsoft Dynamics 365 Supply Chain Management di inviare i dettagli su un contenitore imballato al vettore, quindi ricevere un'etichetta di spedizione, una tariffa di spedizione e un numero di riferimento da quel vettore.
+description: In questo articolo vengono fornite informazioni sulla funzionalità di spedizione di pacchi di piccole dimensioni. Questa funzionalità consente a Microsoft Dynamics 365 Supply Chain Management di inviare i dettagli su un contenitore imballato al vettore, quindi ricevere un'etichetta di spedizione, una tariffa di spedizione e un numero di riferimento da quel vettore.
 author: Mirzaab
 ms.date: 01/08/2021
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e8e2bda39b9de241d17fcf3cb9acce2b8015efd2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 7bafd4a5118de5ca6025c6bd74fe436aa6abd1c8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687618"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855905"
 ---
 # <a name="small-parcel-shipping"></a>Spedizione pacchi di piccole dimensioni
 
@@ -54,7 +54,7 @@ Seguire questi passaggi per scaricare il motore tariffe demo.
 
 #### <a name="create-and-deploy-functional-rate-engines"></a>Creare e distribuire motori tariffe funzionali
 
-Per informazioni su come creare e distribuire motori tariffe funzionali in modo che possano essere utilizzati in un ambiente di produzione o di test, vedere i seguenti argomenti:
+Per informazioni su come creare e distribuire motori tariffe funzionali in modo che possano essere utilizzati in un ambiente di produzione o di test, vedi i seguenti articoli:
 
 - [Creare un nuovo motore di gestione del trasporto](../transportation/create-new-transportation-management-engine.md)
 - [Impostare i motori di gestione del trasporto](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
@@ -77,7 +77,7 @@ Dopo aver creato e distribuito un motore tariffe per spedizione di pacchi di pic
 
 ## <a name="example-scenario"></a>Scenario di esempio
 
-Questo scenario di esempio mostra come configurare e utilizzare la spedizione di pacchi di piccole dimensioni dopo aver preparato il sistema come descritto in precedenza in questo argomento. Questo scenario utilizza il motore tariffe demo citato in precedenza.
+Questo scenario di esempio mostra come configurare e utilizzare la spedizione di pacchi di piccole dimensioni dopo aver preparato il sistema come descritto in precedenza in questo articolo. Questo scenario utilizza il motore tariffe demo citato in precedenza.
 
 ### <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
@@ -147,7 +147,7 @@ Seguire questi passaggi per configurare un account di servizio vettore.
 
 Per configurare i criteri di imballaggio del contenitore, seguire questi passaggi.
 
-1. Se non hai già configurato una definizione di stampante ZPL, utilizza l'applicazione dell'agente di distribuzione documenti per configurarla. Per ulteriori informazioni, vedere [Panoramica sulla stampa dei documenti](../../fin-ops-core/dev-itpro/analytics/print-documents.md) e argomenti correlati.
+1. Se non hai già configurato una definizione di stampante ZPL, utilizza l'applicazione dell'agente di distribuzione documenti per configurarla. Per ulteriori informazioni, vedi [Panoramica sulla stampa dei documenti](../../fin-ops-core/dev-itpro/analytics/print-documents.md) e articoli correlati.
 1. Passare a **Gestione magazzino \> Impostazioni \> Contenitori \> Criteri imballaggio contenitore**.
 1. Nel riquadro azioni selezionare **Nuovo** per aggiungere un criteri di imballaggio dei contenitori.
 1. Nell'intestazione dei nuovi criteri, impostare i seguenti valori:

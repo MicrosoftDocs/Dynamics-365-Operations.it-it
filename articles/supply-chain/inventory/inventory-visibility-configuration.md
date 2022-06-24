@@ -1,8 +1,8 @@
 ---
-title: Configurare Visibilità inventario
-description: Questo argomento descrive come configurare la visibilità dell'inventario.
+title: Configurare Inventory Visibility
+description: Questo articolo descrive come configurare la visibilità dell'inventario.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 05/27/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 7e42c0b49a4083edd0e64551f4840bd74d412fc1
-ms.sourcegitcommit: 1877696fa05d66b6f51996412cf19e3a6b2e18c6
+ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/20/2022
-ms.locfileid: "8786840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895817"
 ---
-# <a name="configure-inventory-visibility"></a>Configurare Visibilità inventario
+# <a name="configure-inventory-visibility"></a>Configurare Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
 
 
-Questo argomento descrive come configurare Visibilità inventario utilizzando l'app Visibilità inventario in Power Apps.
+Questo articolo descrive come configurare Visibilità inventario utilizzando l'app Visibilità inventario in Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Introduzione
 
-Prima di iniziare a lavorare con la Visibilità dell'inventario, è necessario completare la seguente configurazione come descritto in questo argomento:
+Prima di iniziare a lavorare con la Visibilità dell'inventario, è necessario completare la seguente configurazione come descritto in questo articolo:
 
 - [Configurazione dell'origine dati](#data-source-configuration)
 - [Configurazione della partizione](#partition-configuration)
@@ -41,7 +41,7 @@ Prima di iniziare, installare e configurare il componente aggiuntivo Visibilità
 
 ## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>Pagina Configurazione dell'app Visibilità inventario
 
-In Power Apps, la pagina **Configurazione** dell'[app Visibilità inventario](inventory-visibility-power-platform.md) aiuta a impostare la configurazione delle scorte disponibili e la configurazione delle prenotazioni preliminari. Dopo l'installazione dell'add-in, la configurazione predefinita include il valore di Microsoft Dynamics 365 Supply Chain Management (l'origine dati `fno` ). È possibile rivedere le impostazioni predefinite. Inoltre, in base alle esigenze aziendali e ai requisiti di registrazione dell'inventario del sistema esterno, è possibile modificare la configurazione per standardizzare il modo in cui le modifiche all'inventario possono essere registrate, organizzate e interrogate su più sistemi. Le restanti sezioni di questo argomento spiegano come utilizzare ogni parte della pagina **Configurazione**.
+In Power Apps, la pagina **Configurazione** dell'[app Visibilità inventario](inventory-visibility-power-platform.md) aiuta a impostare la configurazione delle scorte disponibili e la configurazione delle prenotazioni preliminari. Dopo l'installazione dell'add-in, la configurazione predefinita include il valore di Microsoft Dynamics 365 Supply Chain Management (l'origine dati `fno` ). È possibile rivedere le impostazioni predefinite. Inoltre, in base alle esigenze aziendali e ai requisiti di registrazione dell'inventario del sistema esterno, è possibile modificare la configurazione per standardizzare il modo in cui le modifiche all'inventario possono essere registrate, organizzate e interrogate su più sistemi. Le restanti sezioni di questo articolo spiegano come utilizzare ogni parte della pagina **Configurazione**.
 
 Dopo che la configurazione è stata completata, assicurarsi di selezionare **Aggiorna configurazione** nell'app.
 
@@ -54,6 +54,7 @@ Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzional
 | *OnHandReservation* | Questa funzione ti consente di creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità inventario. Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Questa funzionalità fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. Per ulteriori informazioni, vedere [Riepilogo inventario](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | La funzione facoltativa abilita la programmazione delle modifiche scorte disponibili e le funzionalità ATP. Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md). |
+| *Allocazione* | Questa funzione facoltativa consente a Visibilità inventario di avere la capacità di protezione dell'inventario (ringfencing) e controllo delle vendite eccessive. Per ulteriori informazioni, vedi [Allocazione dell'inventario di Visibilità inventario](inventory-visibility-allocation.md). |
 | *Abilita articoli di magazzino in Visibilità inventario* | Questa funzione opzionale consente a Visibilità inventario di supportare gli articoli abilitati per i processi di magazzino avanzati (articoli WHS). Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WHS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Trovare l'endpoint del servizio
@@ -318,7 +319,14 @@ Per impostare il tuo indice di gerarchia dei prodotti, segui questi passi.
 1. Per impostazione predefinita, viene fornita una lista di indici. Per modificare un indice esistente, seleziona **Modifica** o **Aggiungi** nella sezione per il relativo indice. Per creare un nuovo set di indici, selezionare **Nuovo set di indici**. Per ogni riga di ogni set di indici, nel campo **Dimensione** , selezionate dall'elenco delle dimensioni di base. I valori per i seguenti campi sono generati automaticamente:
 
     - **Numero di set** - Le dimensioni che appartengono allo stesso gruppo (indice) saranno raggruppate insieme, e lo stesso numero di set sarà assegnato loro.
-    - **Gerarchia** - La gerarchia è usata per definire le combinazioni di dimensioni supportate che possono essere interrogate in un gruppo di dimensioni (indice). Per esempio, se impostate un gruppo di dimensioni che ha una sequenza gerarchica di *Stile*, *Colore* e *Dimensione*, il sistema supporta il risultato di tre gruppi di query. Il primo gruppo è solo stile. Il secondo gruppo è una combinazione di stile e colore. E il terzo gruppo è una combinazione di stile, colore e dimensioni. Le altre combinazioni non sono supportate.
+    - **Gerarchia** - La gerarchia è usata per definire le combinazioni di dimensioni supportate che possono essere interrogate in un gruppo di dimensioni (indice). Per esempio, se imposti un gruppo di dimensioni che ha una sequenza gerarchica di *Stile*, *Colore* e *Dimensione*, il sistema supporta il risultato di tre gruppi di query. Il primo gruppo è solo stile. Il secondo gruppo è una combinazione di stile e colore. E il terzo gruppo è una combinazione di stile, colore e dimensioni. Le altre combinazioni non sono supportate.
+
+> [!TIP]
+> Ecco alcuni suggerimenti da tenere a mente quando si imposta la gerarchia dell'indice:
+>
+> - Le dimensioni di base che sono definite nella configurazione della partizione non dovrebbero essere definite nelle configurazioni degli indici. Se una dimensione di base viene definita di nuovo nella configurazione dell'indice, non sarà possibile eseguire le query in base a questo indice.
+> - Se è necessario interrogare solo l'inventario aggregato da tutte le combinazioni di dimensioni, è possibile configurare un unico indice che contenga la dimensione di base `Empty`.
+> - Devi avere almeno una gerarchia di indici (ad esempio, contenente la dimensione di base `Empty`), altrimenti le query non riusciranno con l'errore "Nessuna gerarchia di indici è stata impostata".
 
 ### <a name="example"></a>Esempio
 
@@ -372,11 +380,6 @@ L'indice permette di interrogare l'inventario in mano nei seguenti modi:
     - Maglietta, rosso, piccolo, regolare, 6
     - Maglietta, rosso, grande, regolare, 7
 
-> [!NOTE]
-> Le dimensioni di base che sono definite nella configurazione della partizione non dovrebbero essere definite nelle configurazioni degli indici.
-> 
-> Se è necessario interrogare solo l'inventario aggregato da tutte le combinazioni di dimensioni, è possibile configurare un unico indice che contenga la dimensione di base `Empty`.
-
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configurazione della prenotazione (opzionale)
 
 La configurazione della prenotazione è necessaria se si vuole usare la funzione di prenotazione soft. La configurazione consiste in due parti fondamentali:
@@ -390,7 +393,7 @@ Quando fate una prenotazione, potreste voler sapere se l'inventario disponibile 
 
 Impostando la mappatura dalla misura fisica alla misura calcolata, si abilita il servizio Visibilità inventario a convalidare automaticamente la disponibilità delle prenotazioni, in base alla misura fisica.
 
-Prima di impostare questa mappatura, le misure fisiche, le misure calcolate e le loro fonti di dati devono essere definite nelle schede **Origine dati** e **Misura calcolata** della pagina **Configurazione** in Power Apps (come descritto precedentemente in questo argomento).
+Prima di impostare questa mappatura, le misure fisiche, le misure calcolate e le loro fonti di dati devono essere definite nelle schede **Origine dati** e **Misura calcolata** della pagina **Configurazione** in Power Apps (come descritto precedentemente in questo articolo).
 
 Per definire la mappatura delle soft reservation, seguite questi passi.
 
@@ -508,7 +511,7 @@ Durante la sua fase di inizializzazione, Visibilità inventario imposta una conf
 
 Questa sezione descrive la configurazione dell'origine dati `iv` .
 
-##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Misure fisiche configurate per l'origine dati iv
+##### <a name="physical-measures-configured-for-the-iv-data-source"></a>Misure fisiche configurate per l'origine dati "iv"
 
 Le seguenti misure fisiche sono configurate per l'origine dati `iv` :
 
@@ -651,11 +654,11 @@ La misura calcolata `InventoryDemand` è configurata per l'origine dati `iv` com
 | Aggiunta | `iv` | `ReservPhysical` |
 | Aggiunta | `iv` | `ReservOrdered` |
 
-#### <a name="configuration-of-the-fno-data-source"></a>Configurazione dell'origine dati fno
+#### <a name="configuration-of-the-fno-data-source"></a>Configurazione dell'origine dati "fno"
 
 Questa sezione descrive la configurazione dell'origine dati `fno` .
 
-##### <a name="dimension-mappings-for-the-fno-data-source"></a>Mappature delle dimensioni per l'origine dati fno
+##### <a name="dimension-mappings-for-the-fno-data-source"></a>Mappature delle dimensioni per l'origine dati "fno"
 
 Le mappature delle dimensioni elencate nella seguente tabella sono configurate per l'origine dati `fno` .
 
@@ -687,7 +690,7 @@ Le mappature delle dimensioni elencate nella seguente tabella sono configurate p
 | `InventDimension11` | `CustomDimension11` |
 | `InventDimension12` | `CustomDimension12` |
 
-##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Misure fisiche configurate per l'origine dati fno
+##### <a name="physical-measures-configured-for-the-fno-data-source"></a>Misure fisiche configurate per l'origine dati "fno"
 
 Le seguenti misure fisiche sono configurate per l'origine dati `fno` :
 
@@ -699,11 +702,11 @@ Le seguenti misure fisiche sono configurate per l'origine dati `fno` :
 - `ReservOrdered`
 - `OnOrder`
 
-#### <a name="configuration-of-the-pos-data-source"></a>Configurazione dell'origine dati pos
+#### <a name="configuration-of-the-pos-data-source"></a>Configurazione dell'origine dati "pos"
 
 Questa sezione descrive la configurazione dell'origine dati `pos` .
 
-##### <a name="physical-measures-for-the-pos-data-source"></a>Misure fisiche per la fonte di dati pos
+##### <a name="physical-measures-for-the-pos-data-source"></a>Misure fisiche per la fonte di dati "pos"
 
 Le seguenti misure fisiche sono configurate per l'origine dati `pos` :
 
@@ -720,14 +723,14 @@ La misura calcolata `AvailQuantity` è configurata per l'origine dati `pos` come
 | Aggiunta | `pos` | `PosInbound` |
 | Sottrazione | `pos` | `PosOutbound` |
 
-#### <a name="configuration-of-the-iom-data-source"></a>Configurazione dell'origine dati iom
+#### <a name="configuration-of-the-iom-data-source"></a>Configurazione dell'origine dati "iom"
 
 Le seguenti misure fisiche sono configurate per la fonte di dati `iom` (gestione intelligente degli ordini):
 
 - `OnOrder`
 - `OnHand`
 
-#### <a name="configuration-of-the-erp-data-source"></a>Configurazione dell'origine dati erp
+#### <a name="configuration-of-the-erp-data-source"></a>Configurazione dell'origine dati "erp"
 
 Le seguenti misure fisiche sono configurate per l'origine dati `erp` (enterprise resource planning):
 

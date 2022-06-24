@@ -1,6 +1,6 @@
 ---
 title: Panoramica sulla conformità
-description: Questo argomento è una panoramica delle linee guida sulla conformità fornite con Microsoft Dynamics 365 Commerce per aiutarti a rendere conformi i siti della tua azienda.
+description: Questo articolo è una panoramica delle linee guida sulla conformità fornite con Microsoft Dynamics 365 Commerce per aiutarti a rendere conformi i siti della tua azienda.
 author: BrianShook
 ms.date: 01/08/2020
 ms.topic: overview
@@ -13,23 +13,23 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3d90bbce5949468966d995710cdad69484aa90c9
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 2ed56da83d7207132b761c12f7ce639b225aae5b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983294"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8887064"
 ---
 # <a name="compliance-overview"></a>Panoramica sulla conformità
 
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento è una panoramica delle linee guida sulla conformità fornite con Microsoft Dynamics 365 Commerce per aiutarti a rendere conformi i siti della tua azienda. La conformità è un fattore importante per tutte le aziende, poiché aiuta la base di utenti a connettersi con i contenuti del sito. Mantenere la conformità può anche aiutare a proteggere l'azienda da costose azioni legali o considerevoli multe.
+Questo articolo è una panoramica delle linee guida sulla conformità fornite con Microsoft Dynamics 365 Commerce per aiutarti a rendere conformi i siti della tua azienda. La conformità è un fattore importante per tutte le aziende, poiché aiuta la base di utenti a connettersi con i contenuti del sito. Mantenere la conformità può anche aiutare a proteggere l'azienda da costose azioni legali o considerevoli multe.
 
 La documentazione di conformità include l'esame delle aree da considerare quando si utilizza Dynamics 365 Commerce, per aiutarti a soddisfare i requisiti di conformità della tua azienda.
 
-Sei responsabile della revisione dei requisiti di conformità della tua azienda e della creazione di siti che soddisfano gli standard di tali requisiti. I seguenti argomenti forniscono esempi che mostrano come tenere conto della conformità quando si utilizzano gli strumenti di creazione di Commerce.
+Sei responsabile della revisione dei requisiti di conformità della tua azienda e della creazione di siti che soddisfano gli standard di tali requisiti. I seguenti articoli forniscono esempi che mostrano come tenere conto della conformità quando si utilizzano gli strumenti di creazione di Commerce.
 
 Per ulteriori informazioni sui principi di base utilizzati da Microsoft, visitare il [Centro di protezione di Microsoft ](https://www.microsoft.com/trust-center). Su questo sito, puoi anche ottenere ulteriori informazioni sulle aree di conformità.
 

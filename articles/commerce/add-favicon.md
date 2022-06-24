@@ -1,6 +1,6 @@
 ---
 title: Aggiungere una favicon
-description: In questo argomento viene descritto come aggiungere un favicon al sito.
+description: In questo articolo viene descritto come aggiungere un favicon al sito.
 author: bicyclingfool
 ms.date: 08/31/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 080ef4da7313bd6b9d91e616f576b3ff774509d9
-ms.sourcegitcommit: 27475081f3d2d96cf655b6afdc97be9fb719c04d
+ms.openlocfilehash: 2047a0c30c9e723c717657475a111181299aaa8d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "7964734"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855797"
 ---
 # <a name="add-a-favicon"></a>Aggiungere una favicon
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come aggiungere un favicon al sito.
+In questo articolo viene descritto come aggiungere un favicon al sito.
 
 Un favicon è un piccolo file di grafica che viene visualizzato, tra l'altro, in una scheda del browser Web, nella barra degli indirizzi, nella cronologia delle esplorazioni e in segnalibri o preferiti. È consigliabile aggiungere un favicon al sito, poiché rappresenta e rinforza il marchio e consente di differenziare il proprio sito da altri siti visitati dai clienti.
 
-Sebbene sia possibile aggiungere più favicon di varie dimensioni e tipi di file al sito, in questo argomento viene descritto coma aggiungere un singolo favicon. Tuttavia, lo stesso processo e la stessa posizione sono utilizzati per aggiungere più favicon.
+Sebbene sia possibile aggiungere più favicon di varie dimensioni e tipi di file al sito, in questo articolo viene descritto coma aggiungere un singolo favicon. Tuttavia, lo stesso processo e la stessa posizione sono utilizzati per aggiungere più favicon.
 
 ## <a name="upload-a-favicon-to-your-sites-asset-collection"></a>Caricare un favicon nella raccolta di asset del sito
 

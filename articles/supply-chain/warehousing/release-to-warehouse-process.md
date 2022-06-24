@@ -1,6 +1,6 @@
 ---
-title: Rilascia in magazzino
-description: Questo argomento fornisce dettagli sul processo di rilascio in magazzino. Descrive le entità che vengono create quando si rilascia un ordine in magazzino e le opzioni che è possibile utilizzare per avviare il processo.
+title: Rilascio in magazzino
+description: Questo articolo fornisce dettagli sul processo di rilascio in magazzino. Descrive le entità che vengono create quando si rilascia un ordine in magazzino e le opzioni che è possibile utilizzare per avviare il processo.
 author: Mirzaab
 ms.date: 8/13/2021
 ms.topic: article
@@ -11,22 +11,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 8624db42e9d0f3d08ed3b582224ed7937d52f85d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678353"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893180"
 ---
-# <a name="release-to-warehouse"></a>Rilascia in magazzino
+# <a name="release-to-warehouse"></a>Rilascio in magazzino
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento fornisce dettagli sul processo di rilascio in magazzino. Descrive le entità che vengono create quando si rilascia un ordine in magazzino e le opzioni che è possibile utilizzare per avviare il processo.
+Questo articolo fornisce dettagli sul processo di rilascio in magazzino. Descrive le entità che vengono create quando si rilascia un ordine in magazzino e le opzioni che è possibile utilizzare per avviare il processo.
 
 ## <a name="release-to-warehouse-overview"></a>Panoramica del rilascio in magazzino
 
-Il rilascio in magazzino è il processo di preparazione dell'inventario per l'elaborazione della spedizione. Quando si rilascia un ordine in magazzino, il sistema crea righe di carico e spedizioni. Se è impostata l'elaborazione automatica dei cicli, vengono creati anche i carichi e il lavoro richiesto. La configurazione delle entità coinvolte dipende dalle impostazioni di sistema. Questa sezione dell'argomento esamina le entità create durante il processo di rilascio in magazzino e le impostazioni di sistema che le definiscono.
+Il rilascio in magazzino è il processo di preparazione dell'inventario per l'elaborazione della spedizione. Quando si rilascia un ordine in magazzino, il sistema crea righe di carico e spedizioni. Se è impostata l'elaborazione automatica dei cicli, vengono creati anche i carichi e il lavoro richiesto. La configurazione delle entità coinvolte dipende dalle impostazioni di sistema. Questa sezione dell'articolo esamina le entità create durante il processo di rilascio in magazzino e le impostazioni di sistema che le definiscono.
 
 Una *spedizione* è un gruppo di righe di ordini cliente o di ordini di trasferimento per lo stesso cliente o lo stesso indirizzo di consegna.
 
@@ -67,7 +67,7 @@ In conclusione, quando un ordine viene rilasciato al magazzino, il flusso più a
 
 A seconda dei modelli di ciclo, dei modelli di lavoro e delle impostazioni delle direttive di ubicazione, alcuni passaggi in questo flusso potrebbero diventare manuali. Tuttavia, il flusso complessivo rimane lo stesso.
 
-Sono disponibili diverse opzioni per il rilascio di un ordine in magazzino. È possibile eseguire l'operazione manualmente oppure configurare un lavoro batch. Le restanti sezioni di questo argomento esaminano in dettaglio i vari modi in cui è possibile eseguire un'operazione di rilascio in magazzino.
+Sono disponibili diverse opzioni per il rilascio di un ordine in magazzino. È possibile eseguire l'operazione manualmente oppure configurare un lavoro batch. Le restanti sezioni di questo articolo esaminano in dettaglio i vari modi in cui è possibile eseguire un'operazione di rilascio in magazzino.
 
 ## <a name="manual-release-to-the-warehouse-from-the-sales-orders-and-transfer-orders-pages"></a>Rilascio manuale in magazzino dalle pagine Ordini cliente e Ordini di trasferimento
 

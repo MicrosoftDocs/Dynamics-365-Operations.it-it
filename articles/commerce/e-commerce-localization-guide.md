@@ -1,6 +1,6 @@
 ---
 title: Guida alla localizzazione e-commerce di Dynamics 365 Commerce
-description: Questo argomento descrive come localizzare un sito di e-commerce Microsoft Dynamics 365 Commerce in lingue aggiuntive e configurare il sito per supportare più canali.
+description: Questo articolo descrive come localizzare un sito di e-commerce Microsoft Dynamics 365 Commerce in lingue aggiuntive e configurare il sito per supportare più canali.
 author: bicyclingfool
 ms.date: 04/29/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 1e9d91036ceeb9161dc8ee903532b2cf3ca435e2
-ms.sourcegitcommit: 26c726bd0b00935e3d2c31fdc5a3b2ae03a8a2b0
+ms.openlocfilehash: 955a85340f6d35f1e203d74920d07b5dc6ff8654
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/30/2022
-ms.locfileid: "8661527"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873386"
 ---
 # <a name="dynamics-365-commerce-e-commerce-localization-guide"></a>Guida alla localizzazione e-commerce di Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come localizzare un sito di e-commerce Microsoft Dynamics 365 Commerce in lingue aggiuntive e configurare il sito per supportare più canali, e copre anche i concetti e la terminologia relativi al processo.
+Questo articolo descrive come localizzare un sito di e-commerce Microsoft Dynamics 365 Commerce in lingue aggiuntive e configurare il sito per supportare più canali, e copre anche i concetti e la terminologia relativi al processo.
 
 Le funzionalità di e-commerce in Dynamics 365 Commerce sono state progettate per consentire esperienze online che possono essere adattate a paesi e lingue specifici, ma allo stesso tempo consentono il massimo riutilizzo di modelli, pagine, contenuti e media. Puoi anche creare un sito di base e poi espanderti in nuovi mercati aggiungendo il supporto per paesi e lingue aggiuntivi nel tempo.
 
@@ -79,7 +79,7 @@ In questa configurazione, i clienti e i partner in genere sviluppano tutte le ri
 ![Sito di e-commerce Dynamics 365 Commerce predefinito](media/loc-guide-1.png)
 
 > [!NOTE]
-> È possibile configurare il sito demo Fabrikam per una lingua aggiuntiva in modo che lo sviluppo del contenuto possa essere eseguito in tale lingua. Per informazioni su come aggiungere una nuova lingua a un sito e un canale, vedi la sezione [Configurare una lingua aggiuntiva per il sito](#configure-an-additional-language-for-your-site) più avanti in questo argomento.
+> È possibile configurare il sito demo Fabrikam per una lingua aggiuntiva in modo che lo sviluppo del contenuto possa essere eseguito in tale lingua. Per informazioni su come aggiungere una nuova lingua a un sito e un canale, vedi la sezione [Configurare una lingua aggiuntiva per il sito](#configure-an-additional-language-for-your-site) più avanti in questo articolo.
 
 Tuttavia, il sistema di gestione dei contenuti (CMS) e il modello di pagina per i siti di e-commerce Dynamics 365 Commerce sono stati progettati per consentire l'espansione in nuovi mercati e impostazioni locali. Pertanto, attraverso un unico sito e-commerce, puoi gestire gli asset per un negozio online che abbraccia più mercati e lingue.
 
@@ -117,7 +117,7 @@ Per aggiungere una lingua a un canale nel generatore di siti, attieniti alla seg
 
 Quando torni alla visualizzazione **Pagine** nel generatore di siti di Commerce, la nuova lingua sarà disponibile nel canale e nel selettore delle impostazioni locali in alto a destra. Ora puoi creare versioni localizzate delle pagine nella tua lingua di base.
 
-Il processo per localizzare il contenuto delle tue pagine e frammenti è trattato nella sezione [Localizzare il contenuto del sito di e-commerce](#localize-e-commerce-site-content) più avanti in questo argomento.
+Il processo per localizzare il contenuto delle tue pagine e frammenti è trattato nella sezione [Localizzare il contenuto del sito di e-commerce](#localize-e-commerce-site-content) più avanti in questo articolo.
 
 ### <a name="configure-a-new-channel-for-your-site"></a>Configurare un nuovo canale per il sito
 
@@ -156,7 +156,7 @@ I seguenti asset del sito di e-commerce possono essere localizzati nel generator
 
 Tutte le nuove pagine, frammenti e risorse multimediali vengono creati nel contesto del canale e della lingua attualmente selezionati nel selettore canale e impostazioni locali. Questa lingua è solitamente la tua "lingua di base", a condizione che tu non abbia configurato lingue o canali aggiuntivi. Nei siti in cui sono configurati più canali e lingue, la "lingua di base" è definita dal canale e dalle impostazioni locali che hai impostato come predefinite nella pagina **Canali** nelle impostazioni del sito.
 
-I passaggi per la localizzazione del contenuto per pagine, frammenti e risorse multimediali sono simili. Eccezioni e differenze verranno evidenziate nei paragrafi che seguono. Tuttavia, i passaggi per la localizzazione del contenuto del modulo differiscono. Per ulteriori informazioni, vedi la sezione [Localizzare i moduli](#localize-modules) più avanti in questo argomento.
+I passaggi per la localizzazione del contenuto per pagine, frammenti e risorse multimediali sono simili. Eccezioni e differenze verranno evidenziate nei paragrafi che seguono. Tuttavia, i passaggi per la localizzazione del contenuto del modulo differiscono. Per ulteriori informazioni, vedi la sezione [Localizzare i moduli](#localize-modules) più avanti in questo articolo.
 
 #### <a name="step-1-export-an-xliff-file"></a>Passaggio 1: esporta un file XLIFF
 

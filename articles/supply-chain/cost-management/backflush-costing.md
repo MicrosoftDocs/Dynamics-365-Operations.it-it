@@ -1,6 +1,6 @@
 ---
 title: Determinazione costi di tipo backflush
-description: In questo argomento viene presentato il concetto di determinazione costi di tipo backflush utilizzato per la produzione snella o lean manufacturing.
+description: In questo articolo viene presentato il concetto di determinazione costi di tipo backflush utilizzato per la produzione snella o lean manufacturing.
 author: JennySong-SH
 ms.date: 04/10/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a5b0ac26a1f6b209be7c9d52aaad9bb689a8a656
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 33cb7bf70d8867ccd067144e661c3bdf1c0b778d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906097"
 ---
 # <a name="backflush-costing"></a>Determinazione costi di tipo backflush
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene presentato il concetto di determinazione costi di tipo backflush utilizzato per la produzione snella o lean manufacturing. 
+In questo articolo viene presentato il concetto di determinazione costi di tipo backflush utilizzato per la produzione snella o lean manufacturing. 
 
 La determinazione costi per la produzione lean manufacturing consente al flusso di produzione di utilizzare il metodo di accumulo dei costi noto come determinazione costi di tipo backflush. Nel metodo di determinazione costi di tipo backflush, i materiali diretti consumati vengono accumulati nel conto costi (WIP) semilavorati del flusso di produzione. Viene utilizzato un gruppo di modelli inventariali per costi standard. I prodotti ricevuti dal flusso di produzione vengono detratti dal WIP al costo standard. La differenza principale tra la determinazione costi di tipo backflush e il costo standard consiste nel fatto che per la determinazione costi di tipo backflush, gli scostamenti non vengono calcolati per kanban o prodotto finito. Gli scostamenti vengono invece calcolati per flusso di produzione in un determinato periodo. Questo metodo introduce un concetto di produzione snella effettiva per i report di consumo materiali. Le quantità prelevate dedicate di materiale non vengono dichiarate in un kanban o un ordine di produzione. In questo caso, i batch o le unità movimentazione completi vengono approntati nel flusso di produzione. Dopo che i batch o le unità movimentazione sono stati registrati come vuoti, vengono dichiarati come consumati. È possibile utilizzare il consumo avanzato, in base alla [configurazione del flusso di produzione](../production-control/lean-manufacturing-modeling-lean-organization.md). Prima di poter utilizzare il consumo avanzato, le organizzazioni devono consentire l'eliminazione del materiale nel WIP del flusso di produzione. La determinazione costi di tipo backflush periodica determina il valore WIP effettivo fino alla fine del periodo. Questa determinazione si basa sulle unità movimentazione kanban e sullo stato del processo kanban. Gli scostamenti da tra i valori effettivi e i valori effettivi WIP per gruppo di costi e articoli vengono contabilizzati e mostrati come scostamenti.
 

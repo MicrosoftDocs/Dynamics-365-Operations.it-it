@@ -1,6 +1,6 @@
 ---
-title: Il contrassegno scorte con l'ottimizzazione della pianificazione
-description: Questo argomento fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati quando si utilizza l'ottimizzazione della pianificazione.
+title: Contrassegno inventario con Ottimizzazione pianificazione
+description: Questo articolo fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati quando si utilizza l'ottimizzazione della pianificazione.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8d06527d125837b056729574517ca5ed6738fcff
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8844469"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Il contrassegno scorte con l'ottimizzazione della pianificazione
+# <a name="inventory-marking-with-planning-optimization"></a>Contrassegno inventario con Ottimizzazione pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati quando si utilizza l'ottimizzazione della pianificazione.
+Questo articolo fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati quando si utilizza l'ottimizzazione della pianificazione.
 
 *Contrassegno* viene utilizzato per collegare domanda e offerta. Assomiglia al *pegging*, che indica come la pianificazione generale prevede di coprire la domanda. Da un punto di vista della pianificazione, la differenza principale è che il contrassegno è più permanente del pegging.
 

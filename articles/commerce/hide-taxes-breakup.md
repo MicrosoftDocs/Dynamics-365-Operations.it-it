@@ -1,6 +1,6 @@
 ---
-title: Nascondere le informazioni di dettaglio imposte nei riepiloghi degli ordini
-description: Questo argomento descrive come nascondere le informazioni di dettaglio imposte nei riepiloghi degli ordini nelle pagine del carrello, del pagamento, della conferma dell'ordine e dei dettagli dell'ordine in Microsoft Dynamics 365 Commerce.
+title: Nascondere i dettagli imposte nei riepiloghi degli ordini
+description: Questo articolo descrive come nascondere le informazioni di dettaglio imposte nei riepiloghi degli ordini nelle pagine del carrello, del pagamento, della conferma dell'ordine e dei dettagli dell'ordine in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 05/17/2022
 ms.topic: article
@@ -9,19 +9,19 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-03-28
-ms.openlocfilehash: 9a0bff7afaa10e49ec05f18e2b0fae7a19b5e8af
-ms.sourcegitcommit: 48d094d083c1bd45c3d72f8b666926b48ec7ae35
+ms.openlocfilehash: fe1f6c5875444f4f91ee1dfb01b3fdaa527c52e5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8767816"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8881792"
 ---
-# <a name="hide-tax-breakup-information-in-order-summaries"></a>Nascondere le informazioni di dettaglio imposte nei riepiloghi degli ordini
+# <a name="hide-tax-breakup-information-in-order-summaries"></a>Nascondere i dettagli imposte nei riepiloghi degli ordini
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Questo argomento descrive come nascondere le informazioni di dettaglio imposte nei riepiloghi degli ordini nelle pagine del carrello, del pagamento, della conferma dell'ordine e dei dettagli dell'ordine in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come nascondere le informazioni di dettaglio imposte nei riepiloghi degli ordini nelle pagine del carrello, del pagamento, della conferma dell'ordine e dei dettagli dell'ordine in Microsoft Dynamics 365 Commerce.
 
 Per impostazione predefinita Dynamics 365 Commerce mostra le informazioni di dettaglio imposte nei riepiloghi degli ordini nelle pagine del carrello, del pagamento, della conferma dell'ordine e dei dettagli dell'ordine. A partire dalla versione 10.0.27 di Commerce, il generatore di siti di Commerce include un'opzione che consente di nascondere le informazioni dei dettagli imposte nei riepiloghi degli ordini.
 

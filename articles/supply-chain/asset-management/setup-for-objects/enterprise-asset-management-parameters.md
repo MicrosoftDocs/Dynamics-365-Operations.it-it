@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1659fd3b4c173ffe09f245631309d329bba5b1bd
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105491"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870813"
 ---
 # <a name="asset-management-parameters"></a>Parametri di Gestione cespiti
 
 [!include [banner](../../includes/banner.md)]
 
-In Gestione cespiti, i parametri generali relativi ai cespiti, gli ordini di lavoro e la programmazione degli ordini di lavoro devono essere impostati. In questo argomento viene illustrato come impostarli. Selezionare **Gestione cespiti** > **Impostazione** > **Parametri di gestione cespiti** per aprire la pagina.
+In Gestione cespiti, i parametri generali relativi ai cespiti, gli ordini di lavoro e la programmazione degli ordini di lavoro devono essere impostati. In questo articolo viene illustrato come impostarli. Selezionare **Gestione cespiti** > **Impostazione** > **Parametri di gestione cespiti** per aprire la pagina.
 
 > [!NOTE]
 > Per configurare un sistema che includa dati dimostrativi per il test delle funzionalità di Gestione risorse, consultare [Distribuire un ambiente demo](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) per le istruzioni.

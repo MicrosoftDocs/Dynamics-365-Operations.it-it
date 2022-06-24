@@ -1,6 +1,6 @@
 ---
 title: Flussi di lavoro di approvazione del giornale di registrazione magazzino
-description: In questo argomento viene descritto come configurare e usare i flussi di approvazione del giornale di registrazione magazzino per i diversi tipi di transazioni dell'inventario fisico. I flussi di lavoro del giornale di registrazione magazzino aiutano a garantire che solo i giornali di registrazione magazzino approvati possano essere registrati nelle transazioni.
+description: In questo articolo viene descritto come configurare e usare i flussi di approvazione del giornale di registrazione magazzino per i diversi tipi di transazioni dell'inventario fisico. I flussi di lavoro del giornale di registrazione magazzino aiutano a garantire che solo i giornali di registrazione magazzino approvati possano essere registrati nelle transazioni.
 author: yufeihuang
 ms.date: 07/21/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fd73c515c653de9160301e069fb25d995db40741
-ms.sourcegitcommit: 8cb031501a2b2505443599aabffcfece50e01263
+ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2021
-ms.locfileid: "7778307"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873987"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flussi di lavoro di approvazione del giornale di registrazione magazzino
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come configurare e usare i flussi di approvazione del giornale di registrazione magazzino per i diversi tipi di transazioni dell'inventario fisico, ad esempio le uscite ed entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. I flussi di lavoro del giornale di registrazione magazzino aiutano a garantire che solo i giornali di registrazione magazzino approvati possano essere registrati nelle transazioni.
+In questo articolo viene descritto come configurare e usare i flussi di approvazione del giornale di registrazione magazzino per i diversi tipi di transazioni dell'inventario fisico, ad esempio le uscite ed entrate, i movimenti inventario, la creazione delle distinte base (DBA) e la riconciliazione dell'inventario fisico. I flussi di lavoro del giornale di registrazione magazzino aiutano a garantire che solo i giornali di registrazione magazzino approvati possano essere registrati nelle transazioni.
 
 > [!NOTE]
 > I flussi di lavoro di approvazione del giornale di registrazione magazzino si applicano solo alle transazioni registrate utilizzando il modulo Gestione articoli. Non funzionano con i giornali di registrazione magazzino attivati dal modulo Gestione magazzino.

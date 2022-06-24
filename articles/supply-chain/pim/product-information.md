@@ -1,6 +1,6 @@
 ---
 title: Panoramica delle informazioni sul prodotto
-description: Vengono fornite le informazioni sulla gestione delle informazioni sul prodotto. Gestione informazioni sul prodotto utilizza definizione di prodotto, categorizzazione e identificatori condivisi per tutte le persone giuridiche e le configurazioni specifiche di un prodotto, per integrarsi nei processi aziendali.
+description: Questo articolo fornisce informazioni sulla gestione delle informazioni sul prodotto. Gestione informazioni sul prodotto utilizza definizione di prodotto, categorizzazione e identificatori condivisi per tutte le persone giuridiche e le configurazioni specifiche di un prodotto, per integrarsi nei processi aziendali.
 author: t-benebo
 ms.date: 06/01/2017
 ms.topic: overview
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c8aabeed66f864d1d1060a6452a3b554611c295
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: fa06e718d2acc44cfced7db842814c48fb210d1e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063318"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867871"
 ---
 # <a name="product-information-overview"></a>Panoramica delle informazioni sul prodotto
 
@@ -28,7 +28,7 @@ ms.locfileid: "8063318"
 
 
 
-Vengono fornite le informazioni sulla gestione delle informazioni sul prodotto. Gestione informazioni sul prodotto utilizza definizione di prodotto, categorizzazione e identificatori condivisi per tutte le persone giuridiche e le configurazioni specifiche di un prodotto, per integrarsi nei processi aziendali. 
+Questo articolo fornisce informazioni sulla gestione delle informazioni sul prodotto. Gestione informazioni sul prodotto utilizza definizione di prodotto, categorizzazione e identificatori condivisi per tutte le persone giuridiche e le configurazioni specifiche di un prodotto, per integrarsi nei processi aziendali. 
 
 Le informazioni sul prodotto rappresentano la struttura di base della supply chain e delle applicazioni di commercio per tutti i settori. Fa riferimento ai processi e alle tecnologie incentrati sulla gestione centralizzata delle informazioni sui prodotti (ad esempio, nelle supply chain). È essenziale che le definizioni dei prodotti, la documentazione, gli attributi e gli identificatori comuni vengano utilizzati. Nei vari moduli di una soluzione aziendali, le informazioni specifiche del prodotto e la configurazione sono necessarie per gestire i processi aziendali correlati a prodotti, famiglie di prodotti o categorie di prodotti specifici.
 

@@ -1,6 +1,6 @@
 ---
 title: Attributi di progettazione e ricerca di attributi di progettazione
-description: Questo argomento spiega come utilizzare gli attributi di progettazione per specificare tutte le caratteristiche non standard al fine di garantire che tutti i dati di rappresentazione generale prodotto possano essere registrati nel sistema. Spiega inoltre come utilizzare la ricerca per attributi di progettazione per trovare facilmente i prodotti in base a tale caratteristiche registrate.
+description: Questo articolo spiega come utilizzare gli attributi di progettazione per specificare tutte le caratteristiche non standard al fine di garantire che tutti i dati di rappresentazione generale prodotto possano essere registrati nel sistema. Spiega inoltre come utilizzare la ricerca per attributi di progettazione per trovare facilmente i prodotti in base a tale caratteristiche registrate.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 59710f0366418e240a4109e7cf8fcf84073110bf
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 4b25ab0bfda08b7aa091de8c6833007c586b9c87
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852565"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Attributi di progettazione e ricerca di attributi di progettazione
 

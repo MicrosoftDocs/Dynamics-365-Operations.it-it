@@ -1,6 +1,6 @@
 ---
 title: Importare ed esportare valutazioni e recensioni
-description: Questo argomento descrive come importare ed esportare valutazioni e recensioni dei prodotti in Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive come importare ed esportare valutazioni e recensioni dei prodotti in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 01/12/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 3ae85f21f7a78d56621aed60527207badcee9c75
-ms.sourcegitcommit: 7adf9ad53b4e6d1c4d5d612ce0977b76c61ec173
+ms.openlocfilehash: 97407f62d462c0ae370e9ea0d2799d3f30ecacfa
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "7968531"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863403"
 ---
 # <a name="import-and-export-ratings-and-reviews"></a>Importare ed esportare valutazioni e recensioni
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come importare ed esportare valutazioni e recensioni dei prodotti in Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come importare ed esportare valutazioni e recensioni dei prodotti in Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce offre [valutazioni e recensioni](ratings-reviews-overview.md) come soluzione multicanale. Quando passi alla soluzione di valutazioni e recensioni di Dynamics 365 Commerce, potresti voler spostare i dati di valutazioni e recensioni esistenti sulla piattaforma Commerce. Potresti anche voler esportare i dati di valutazioni e recensioni da Commerce, in base ai tuoi requisiti aziendali. Un connettore Power Automate ti consente di importare valutazioni e recensioni in Commerce ed esportarle da Commerce.
 

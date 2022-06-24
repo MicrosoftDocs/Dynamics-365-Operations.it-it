@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f88dd1c23153d325709e28b056f902b555f05376
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675377"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8846215"
 ---
 # <a name="compare-item-prices-storage-report"></a>Report per confrontare i prezzi degli articoli in magazzino
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come eseguire a report per **confrontare i prezzi degli articoli in magazzino** e rendere disponibile l'output in formato digitale, sia come pagina interattiva in Dynamics 365 Supply Chain Management o come documento esportato in uno dei diversi formati.
+Questo articolo spiega come eseguire a report per **confrontare i prezzi degli articoli in magazzino** e rendere disponibile l'output in formato digitale, sia come pagina interattiva in Dynamics 365 Supply Chain Management o come documento esportato in uno dei diversi formati.
 
 Quando si visualizza il report in un browser, le colonne e i saldi aggregati vengono modificati in modo dinamico, a seconda del layout configurato. È possibile ordinare i risultati, filtrarli, approfondire i dati e altro ancora.
 

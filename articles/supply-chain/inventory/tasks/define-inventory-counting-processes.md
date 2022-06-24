@@ -1,6 +1,6 @@
 ---
-title: Definire i processi di conteggio scorte
-description: In questo argomento viene descritta la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio.
+title: Definire i processi di conteggio inventario
+description: In questo articolo viene descritta la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio.
 author: yufeihuang
 ms.date: 07/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: bb86c99e74dc8251ed48c0b749c0b0ef1ce75e34
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580842"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8879021"
 ---
-# <a name="define-inventory-counting-processes"></a>Definire i processi di conteggio scorte
+# <a name="define-inventory-counting-processes"></a>Definire i processi di conteggio inventario
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritta la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio. Viene inoltre illustrato come abilitare i criteri di conteggio a livello di articolo e di magazzino. Queste attività verranno in genere eseguite da un supervisore del magazzino. È un prerequisito per avere alcuni prodotti rilasciati e magazzini esistenti. Se si utilizza una società di dati dimostrativi, è possibile eseguire questa procedura nella società USMF con un articolo stoccato.
+In questo articolo viene descritta la configurazione dei processi di conteggio scorte di base mediante la creazione di un gruppo di conteggio e di un giornale di registrazione di conteggio. Viene inoltre illustrato come abilitare i criteri di conteggio a livello di articolo e di magazzino. Queste attività verranno in genere eseguite da un supervisore del magazzino. È un prerequisito per avere alcuni prodotti rilasciati e magazzini esistenti. Se si utilizza una società di dati dimostrativi, è possibile eseguire questa procedura nella società USMF con un articolo stoccato.
 
 
 ## <a name="create-a-counting-group"></a>Creare un gruppo di conteggio.

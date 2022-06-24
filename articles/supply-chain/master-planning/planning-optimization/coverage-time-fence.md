@@ -1,6 +1,6 @@
 ---
 title: Intervalli temporali di copertura
-description: Questo argomento descrive come configurare gli intervalli temporali di copertura quando si utilizza Ottimizzazione pianificazione. Un intervallo temporale di copertura indica l'orizzonte e il limite di pianificazione.
+description: Questo articolo descrive come configurare gli intervalli temporali di copertura quando si utilizza Ottimizzazione pianificazione. Un intervallo temporale di copertura indica l'orizzonte e il limite di pianificazione.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 12deca22fd6ff3cb4556e0525ab831e1aea0ee33
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468918"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847935"
 ---
 # <a name="coverage-time-fences"></a>Intervalli temporali di copertura
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come configurare gli *intervalli temporali di copertura* quando si utilizza Ottimizzazione pianificazione. I responsabili della pianificazione possono definire l'orizzonte di pianificazione (l'intervallo temporale di copertura in giorni) ed escludere la domanda e l'offerta che superano tale orizzonte. Pertanto, gli intervalli temporali di copertura aiutano a prevenire i "disturbi" causati da suggerimenti di domanda a cui non è necessario reagire per mesi. Gli esempi includono la previsione del prossimo anno e gli ordini dei clienti che vengono effettuati ben oltre il normale lead time.
+Questo articolo descrive come configurare gli *intervalli temporali di copertura* quando si utilizza Ottimizzazione pianificazione. I responsabili della pianificazione possono definire l'orizzonte di pianificazione (l'intervallo temporale di copertura in giorni) ed escludere la domanda e l'offerta che superano tale orizzonte. Pertanto, gli intervalli temporali di copertura aiutano a prevenire i "disturbi" causati da suggerimenti di domanda a cui non è necessario reagire per mesi. Gli esempi includono la previsione del prossimo anno e gli ordini dei clienti che vengono effettuati ben oltre il normale lead time.
 
 Un intervallo temporale di copertura è il numero di giorni dopo la data odierna (o, più precisamente, la data in cui si esegue la pianificazione) in cui la domanda e l'offerta sono escluse. Per evitare ritardi, è necessario assicurarsi che l'intervallo temporale di copertura sia più lungo del lead time totale. Il valore di sistema predefinito è 100 giorni.
 

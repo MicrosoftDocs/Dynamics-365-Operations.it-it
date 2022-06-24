@@ -1,6 +1,6 @@
 ---
 title: Stati del ciclo di vita del cespite
-description: In questo argomento vengono descritti gli stati del ciclo di vita del cespite e i modelli del ciclo di vita in Gestione cespiti.
+description: In questo articolo vengono descritti gli stati del ciclo di vita del cespite e i modelli del ciclo di vita in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55139c6458e569b15518f0f11f1c12c3a26cae2f26c6a2046a7ebdc1277cb144
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43b1ff9438437e6c1ff33bab9a7ba0361029cb6d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722465"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901062"
 ---
 # <a name="asset-lifecycle-states"></a>Stati del ciclo di vita del cespite
 
@@ -28,7 +28,7 @@ ms.locfileid: "6722465"
 
  
 
-In questo argomento vengono descritti gli stati del ciclo di vita del cespite e i modelli del ciclo di vita in Gestione cespiti. Gli stati del ciclo di vita del cespite vengono utilizzato per definire se un cespite è attivo o inattivo. Ad esempio, è possibile impostare stati del ciclo di vita del cespite come **Creato**, **Attivo** e **Terminato**.
+In questo articolo vengono descritti gli stati del ciclo di vita del cespite e i modelli del ciclo di vita in Gestione cespiti. Gli stati del ciclo di vita del cespite vengono utilizzato per definire se un cespite è attivo o inattivo. Ad esempio, è possibile impostare stati del ciclo di vita del cespite come **Creato**, **Attivo** e **Terminato**.
 
 > [!NOTE]
 > - Gli stati del ciclo di vita delle richieste sono collegati agli stati del ciclo di vita del cespite. Pertanto, quando una richiesta viene modificato in un nuovo stato del ciclo di vita, il cespite collegato alla richiesta viene modificato in un nuovo stato del ciclo di vita del cespite. Ad esempio, se lo stato del ciclo di vita di una richiesta viene cambiato in **In entrata**, lo stato del ciclo di vita del cespite collegato viene modificato nello stato del ciclo di vita selezionato nel campo **Stato del ciclo di vita in entrata** della scheda dettaglio **Stati del ciclo di vita del cespite** della pagina **Modelli di stato del ciclo di vita del cespite**. 

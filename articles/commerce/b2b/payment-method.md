@@ -1,6 +1,6 @@
 ---
 title: Configurare il metodo di pagamento del conto cliente per i siti Web di e-commerce B2B
-description: Questo argomento descrive come configurare il metodo di pagamento del conto cliente in Microsoft Dynamics 365 Commerce. Descrive inoltre in che modo i limiti di credito influiscono sull'acquisizione del pagamento in acconto nei siti di e-commerce business-to-business (B2B).
+description: Questo articolo descrive come configurare il metodo di pagamento del conto cliente in Microsoft Dynamics 365 Commerce. Descrive inoltre in che modo i limiti di credito influiscono sull'acquisizione del pagamento in acconto nei siti di e-commerce business-to-business (B2B).
 author: josaw1
 ms.date: 04/19/2022
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a55a5d4c9dbf7909af5219843fc4310b6cdd4ed7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 20af517b9a69f4fb490d4d93ada8bc4063e895dd
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689639"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878649"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurare il metodo di pagamento del conto cliente per i siti Web di e-commerce B2B
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento descrive come configurare il metodo di pagamento del conto cliente in Microsoft Dynamics 365 Commerce. Descrive inoltre in che modo i limiti di credito influiscono sull'acquisizione del pagamento in acconto nei siti di e-commerce business-to-business (B2B).
+Questo articolo descrive come configurare il metodo di pagamento del conto cliente in Microsoft Dynamics 365 Commerce. Descrive inoltre in che modo i limiti di credito influiscono sull'acquisizione del pagamento in acconto nei siti di e-commerce business-to-business (B2B).
 
 I rivenditori possono accettare diversi tipi di pagamento per i prodotti venduti e i servizi forniti in un canale di e-commerce. Ogni tipo di pagamento accettato da un rivenditore deve essere configurato in Dynamics 365 Commerce quando si imposta il sistema. Il metodo di pagamento del conto cliente (o "in acconto") deve essere supportato sui siti di e-commerce B2B. 
 

@@ -1,6 +1,6 @@
 ---
 title: Strategie di rifornimento
-description: Questo argomento fornisce informazioni sulle strategie di rifornimento e spiega come utilizzare il campo Strategia di rifornimento nelle righe del modello di rifornimento della domanda ciclo per selezionare la modalità di rifornimento.
+description: Questo articolo fornisce informazioni sulle strategie di rifornimento e spiega come utilizzare il campo Strategia di rifornimento nelle righe del modello di rifornimento della domanda ciclo per selezionare la modalità di rifornimento.
 author: Mirzaab
 ms.date: 10/29/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 1aa48f231c5d98a22fa989fb6e6996b972be9089
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893151"
 ---
 # <a name="replenishment-strategies"></a>Strategie di rifornimento
 

@@ -1,6 +1,6 @@
 ---
-title: Stabilizza ordini pianificati
-description: Questo argomento spiega come stabilizzare gli ordini pianificati. Quando gli ordini pianificati vengono stabilizzati, diventano ordini fornitore, di trasferimento o di produzione effettivi.
+title: Stabilizzare ordini pianificati
+description: Questo articolo spiega come stabilizzare gli ordini pianificati. Quando gli ordini pianificati vengono stabilizzati, diventano ordini fornitore, di trasferimento o di produzione effettivi.
 author: t-benebo
 ms.date: 04/22/2021
 ms.search.form: ReqTransPo, ReqTransFirmLog
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30f3ee656b97e0337b6e3e78f0acb2300d7d85dc
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8857520"
 ---
 # <a name="firm-planned-orders"></a>Stabilizza ordini pianificati
 
@@ -29,11 +29,11 @@ Esistono tre metodi per stabilizzare gli ordini pianificati:
 - **Stabilizzazione automatica** - Definire un intervallo temporale di stabilizzazione predefinito per gruppi di copertura, singoli articoli e combinazioni di articoli e piani generali. Quindi, durante le esecuzioni della pianificazione generale, gli ordini pianificati verranno automaticamente stabilizzati se la data dell'ordine rientra nell'intervallo di tempo specificato per la stabilizzazione.
 - **Stabilizzazione basata su query** - Definire una query per selezionare gli ordini pianificati in base alle loro proprietà. È possibile impostare un processo batch per eseguire la query e stabilizzare gli ordini corrispondenti in base a una pianificazione regolare.
 
-Questo argomento descrive ogni metodo in dettaglio.
+Questo articolo descrive ogni metodo in dettaglio.
 
-## <a name="enable-the-features-that-are-described-in-this-topic"></a><a name="enable-features"></a>Abilita le funzionalità descritte in questo argomento
+## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Abilita le funzionalità descritte in questo articolo
 
-La maggior parte delle funzionalità degli ordini pianificati sono disponibili in tutte le installazioni standard di Microsoft Dynamics 365 Supply Chain Management che utilizzano l'ottimizzazione della pianificazione. Tuttavia, alcune delle funzionalità descritte in questo argomento devono essere attivate in Gestione funzionalità prima di poterle utilizzare.
+La maggior parte delle funzionalità degli ordini pianificati sono disponibili in tutte le installazioni standard di Microsoft Dynamics 365 Supply Chain Management che utilizzano l'ottimizzazione della pianificazione. Tuttavia, alcune delle funzionalità descritte in questo articolo devono essere attivate in Gestione funzionalità prima di poterle utilizzare.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Attivare o disattivare la stabilizzazione parallela degli ordini pianificati
 
@@ -97,7 +97,7 @@ La stabilizzazione automatica consente di stabilizzare gli ordini pianificati ne
 > Gli ordini derivati (cioè ordini fornitore in conto lavoro) che sono stabilizzati mostreranno uno stato di *In revisione* quando è abilitato il rilevamento delle modifiche.
 
 > [!IMPORTANT]
-> Prima che la funzionalità descritta in questa sezione possa essere utilizzata con l'ottimizzazione della pianificazione, la [funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*](#enable-features) deve essere attivato nel sistema, come descritto all'inizio di questo argomento. La stabilizzazione automatica può sempre essere utilizzato con il motore di pianificazione generale integrato.
+> Prima che la funzionalità descritta in questa sezione possa essere utilizzata con l'ottimizzazione della pianificazione, la [funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*](#enable-features) deve essere attivato nel sistema, come descritto all'inizio di questo articolo. La stabilizzazione automatica può sempre essere utilizzato con il motore di pianificazione generale integrato.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Stabilizzazione automatica con l'ottimizzazione della pianificazione e motore di pianificazione integrato
 
@@ -130,7 +130,7 @@ La stabilizzazione basata su query consente di pianificare la stabilizzazione in
 Puoi combinare la stabilizzazione automatica con ia stabilizzazione basata su query. Ad esempio, un processo di stabilizzazione basato su query ha un intervallo temporale in avanti più lungo di quello di una configurazione di copertura di stabilizzazione automatica corrispondente. Pertanto, il processo di stabilizzazione basato su query elaborerà gli ordini pianificati prima che venga attivata la stabilizzazione automatica. È possibile sfruttare questo comportamento per pianificare gli ordini per fornitori specifici in modo diverso rispetto agli ordini per prodotti simili di altri fornitori.
 
 > [!IMPORTANT]
-> Prima che la funzionalità descritta in questa sezione possa essere utilizzata, la [funzionalità *Stabilizzazione degli ordini pianificati con il filtraggio*](#enable-features) deve essere attivato nel sistema, come descritto all'inizio di questo argomento.
+> Prima che la funzionalità descritta in questa sezione possa essere utilizzata, la [funzionalità *Stabilizzazione degli ordini pianificati con il filtraggio*](#enable-features) deve essere attivato nel sistema, come descritto all'inizio di questo articolo.
 
 Per stabilizzare un ordine pianificato utilizzando il processo di stabilizzazione basato su query, attenersi alla seguente procedura.
 

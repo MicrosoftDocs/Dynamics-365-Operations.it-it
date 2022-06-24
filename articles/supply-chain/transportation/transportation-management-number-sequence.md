@@ -1,6 +1,6 @@
 ---
 title: Sequenza numerica della gestione trasporto
-description: Questo argomento descrive come impostare le sequenze numeriche per la gestione del trasporto.
+description: Questo articolo descrive come impostare le sequenze numeriche per la gestione del trasporto.
 author: Weijiesa
 ms.date: 10/16/2020
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 64b029cc6164bf1ee597441bcda5addff32e5023
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 2a1d3e1a36164215b70d88b10beb35748be2e23b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8673356"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8847819"
 ---
 # <a name="transportation-management-number-sequence"></a>Sequenza numerica della gestione trasporto
 

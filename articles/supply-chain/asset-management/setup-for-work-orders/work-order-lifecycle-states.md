@@ -1,6 +1,6 @@
 ---
 title: Stati del ciclo di vita di ordine di lavoro
-description: In questo argomento vengono descritti gli stati del ciclo di vita di ordine di lavoro.
+description: In questo articolo vengono descritti gli stati del ciclo di vita di ordine di lavoro.
 author: johanhoffmann
 ms.date: 08/13/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa0980438ec629ef7ae6bf711d5ae87efca131e6ab86dfcaa1f17d953725147a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 67f857e4bfb828250e632e3ba46af9930cd908a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768668"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860872"
 ---
 # <a name="work-order-lifecycle-states"></a>Stati del ciclo di vita di ordine di lavoro
 
@@ -69,7 +69,7 @@ La tabella seguente descrive le opzioni nelle sezione **Ordine di lavoro** e **P
 
     Nella Scheda dettaglio **Dettagli** il campo **Modelli del ciclo di vita** visualizza il numero di modelli del ciclo di vita di ordine di lavoro che utilizzano questo stato del ciclo di vita.
 
-8. Nella Scheda dettaglio **Generale**, nella sezione **Ordine di lavoro**, selezionare le funzioni che devono essere disponibili per questo stato del ciclo di vita impostando le opzioni appropriate su **Sì**. Per le descrizioni delle opzioni, vedere la tabella vista precedentemente in questo argomento.
+8. Nella Scheda dettaglio **Generale**, nella sezione **Ordine di lavoro**, selezionare le funzioni che devono essere disponibili per questo stato del ciclo di vita impostando le opzioni appropriate su **Sì**. Per le descrizioni delle opzioni, vedi la tabella vista precedentemente in questo articolo.
 9. Nella sezione **Progetto**, nel campo **Fase**, selezionare la fase di progetto che deve essere associata a questo stato del ciclo di vita.
 10. Nella sezione **Progetto**, impostare l'opzione **Chiudi attività** su **Sì** se le attività di progetto associate a ciascun processo di ordine di lavoro devono essere chiuse automaticamente quando l'ordine di lavoro è in questo stato del ciclo di vita.
 
@@ -77,7 +77,7 @@ La tabella seguente descrive le opzioni nelle sezione **Ordine di lavoro** e **P
     > Per trovare il numero dell'attività di progetto associata a un processo di ordine di lavoro, selezionare **Gestione cespiti** \> **Comune** \> **Ordini di lavoro** \>, **Tutti gli ordini di lavoro**, **Ordini di lavoro attivi** o **Ordini di lavoro personali attivi**. Aprire l'ordine di lavoro e quindi selezionare il processo relativo all'ordine di lavoro. Il numero di attività è visualizzato nel campo **Numero attività** della sezione **Progetto** nella scheda **Generale** della Scheda dettaglio **Dettagli riga**.
 
 11. Nella sezione **Previsione**, impostare l'opzione **Copia previsione ore**, **Copia previsione articoli** e/o **Copia previsione spese** su **Sì** se le previsioni del progetto di ordine di lavoro vengono automaticamente copiate nei giornali di registrazione di ordine di lavoro quando l'ordine di lavoro è in questo stato del ciclo di vita.
-12. Nella sezione **Programma**, impostare una delle opzioni su **Sì** se lo stato di programmazione dei processi di ordine di lavoro viene aggiornato quando l'ordine di lavoro è in questo stato del ciclo di vita. Per le descrizioni delle opzioni **Pronto**, **Inizio**, **Fine** e **Elimina righe di programmazione**, vedere la tabella esposta in precedenza in questo argomento.
+12. Nella sezione **Programma**, impostare una delle opzioni su **Sì** se lo stato di programmazione dei processi di ordine di lavoro viene aggiornato quando l'ordine di lavoro è in questo stato del ciclo di vita. Per le descrizioni delle opzioni **Pronto**, **Inizio**, **Fine** e **Elimina righe di programmazione**, vedi la tabella esposta in precedenza in questo articolo.
 
     > [!NOTE]
     > Per visualizzare le righe di programmazione associate ai processi di ordine di lavoro, selezionare **Gestione cespiti** \> **Comune** \> **Ordini di lavoro** \>, **Tutti gli ordini di lavoro**, **Ordini di lavoro attivi** o **Ordini di lavoro personali attivi**. Aprire l'ordine di lavoro, selezionare il processo relativo all'ordine di lavoro nella Scheda dettaglio **Processi di ordine di lavoro** e visualizzare le informazioni correlate nella Scheda dettaglio **Dettagli riga**. Nel campo **Stato** della scheda **Programma** è visualizzato lo stato del processo di ordine di lavoro. Il campo **Stato** può avere i seguenti valori: **Programmato**, **Pronto**, **Iniziato**, **Interrotto** e **Finito**.

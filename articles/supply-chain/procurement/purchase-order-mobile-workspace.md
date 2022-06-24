@@ -1,6 +1,6 @@
 ---
 title: Area di lavoro Approvazione ordine fornitore
-description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Approvazione ordine fornitore, in cui è possibile visualizzare gli ordini fornitore ed effettuare le relative operazioni. Ad esempio, è possibile approvare o rifiutare un ordine fornitore.
+description: In questo articolo vengono fornite informazioni sull'area di lavoro mobile Approvazione ordine fornitore, in cui è possibile visualizzare gli ordini fornitore ed effettuare le relative operazioni. Ad esempio, è possibile approvare o rifiutare un ordine fornitore.
 author: GalynaFedorova
 ms.date: 05/24/2022
 ms.topic: article
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b0bdcb2f6db95ae061e786365d22cdf74643d09e
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: 224d3ce5c9163e95de817a3446a57f07c85df757
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811814"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863855"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Area di lavoro Approvazione ordine fornitore
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Approvazione ordine fornitore**. Questa area di lavoro consente di visualizzare gli ordini fornitore ed effettuare le relative operazioni. Ad esempio, è possibile approvare o rifiutare un ordine fornitore.
+In questo articolo vengono fornite informazioni sull'area di lavoro mobile **Approvazione ordine fornitore**. Questa area di lavoro consente di visualizzare gli ordini fornitore ed effettuare le relative operazioni. Ad esempio, è possibile approvare o rifiutare un ordine fornitore.
  
 ## <a name="overview"></a>Panoramica 
 Gli ordini fornitore che richiedono l'approvazione devono passare attraverso un flusso di lavoro di approvazione. Il flusso di lavoro può includere vari passaggi che richiedono l'esecuzione di operazioni da parte di una o più persone. Ad esempio, una persona potrebbe dover completare un'attività o approvare l'ordine fornitore. 

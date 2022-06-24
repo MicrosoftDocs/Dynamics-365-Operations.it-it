@@ -1,6 +1,6 @@
 ---
 title: Creare cespiti in base agli ordini fornitore
-description: In questo argomento viene descritto come è possibile creare un elenco degli articoli cespite che è possibile utilizzare come base per creare i cespiti per i processi di gestione in Gestione cespiti.
+description: In questo articolo viene descritto come è possibile creare un elenco degli articoli cespite che è possibile utilizzare come base per creare i cespiti per i processi di gestione in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5068712a7ea1e0d940d4a05a411fb3e1b6f6d9bb9be924d5375b16676561ea1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6754109"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893702"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Creare cespiti in base agli ordini fornitore
 
@@ -28,7 +28,7 @@ ms.locfileid: "6754109"
 
  
 
-In questo argomento viene descritto come è possibile creare un elenco degli articoli cespite che è possibile utilizzare come base per creare i cespiti per i processi di gestione in Gestione cespiti. A seconda degli articoli cespite, è possibile visualizzare un elenco di righe ordine fornitore create per tali articoli. Lo scopo di questa funzionalità è creare facilmente un cespite in Gestione cespiti in base a un ordine fornitore.
+In questo articolo viene descritto come è possibile creare un elenco degli articoli cespite che è possibile utilizzare come base per creare i cespiti per i processi di gestione in Gestione cespiti. A seconda degli articoli cespite, è possibile visualizzare un elenco di righe ordine fornitore create per tali articoli. Lo scopo di questa funzionalità è creare facilmente un cespite in Gestione cespiti in base a un ordine fornitore.
 
 Innanzitutto, vengono impostati gli articoli da utilizzare per creare i cespiti da un ordine fornitore in **Articoli cespite**. Dopo la creazione di una riga ordine fornitore, creare i cespiti in **Cespiti in sospeso**. È possibile decidere a quale fase dell'ordine fornitore il cespite deve essere creata.
 

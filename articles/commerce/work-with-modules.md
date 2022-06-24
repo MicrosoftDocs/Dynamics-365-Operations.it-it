@@ -1,6 +1,6 @@
 ---
 title: Utilizzare i moduli
-description: In questo argomento viene descritto come e quando utilizzare moduli in Microsoft Dynamics 365 Commerce.
+description: In questo articolo viene descritto come e quando utilizzare moduli in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
 ms.date: 09/15/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ce16aa98a37cd5dec60bcdbf86f59f74810da9755a6d3514bdd3e38a21afb748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c393f1e619647795a5ae8da3a78500c1678da9f6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728266"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860194"
 ---
 # <a name="work-with-modules"></a>Utilizzare i moduli
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento viene descritto come e quando utilizzare moduli in Microsoft Dynamics 365 Commerce.
+In questo articolo viene descritto come e quando utilizzare moduli in Microsoft Dynamics 365 Commerce.
 
 I moduli sono blocchi predefiniti logici che costituiscono la struttura della pagina e hanno scopi e finalità. Alcuni moduli sono contenitori di alto livello e il loro solo scopo è di contenere e organizzare altri moduli (moduli figlio). Altri moduli, ad esempio un modulo Posizionamento immagine semplice, hanno uno scopo molto specifico. Altri moduli, come il modulo Sequenza, non rientrano in nessuna di queste due categorie.
 
@@ -151,7 +151,7 @@ Per configurare un modulo contenitore in una pagina, effettuare le seguenti oper
 
 1. Selezionare un modulo contenitore nella pagina (ad esempio un modulo contenitore fluido o Sequenza).
 1. Nel riquadro delle proprietà a destra, espandere i controlli nidificati selezionando le intestazioni e impostare tutti i valori di controllo necessari.
-1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione accanto al nome del contenitore o di qualsiasi slot nel contenitore e quindi selezionare **Aggiungi modulo**. Aggiungere quindi i moduli figlio al contenitore selezionato. Per ulteriori informazioni, vedere la sezione [Utilizzare i moduli](#add-a-module) descritta precedentemente in questo argomento.
+1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione accanto al nome del contenitore o di qualsiasi slot nel contenitore e quindi selezionare **Aggiungi modulo**. Aggiungere quindi i moduli figlio al contenitore selezionato. Per ulteriori informazioni, vedi la sezione [Utilizzare i moduli](#add-a-module) descritta precedentemente in questo articolo.
 1. Se molteplici moduli figlio esistono come elementi di pari livello in un contenitore padre, è possibile modificarne l'ordine di visualizzazione nel contenitore padre. Selezionare il pulsante con i puntini di sospensione per un modulo e quindi utilizzare i tasti freccia GIÙ o SU.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

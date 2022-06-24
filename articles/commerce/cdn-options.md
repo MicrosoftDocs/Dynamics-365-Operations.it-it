@@ -1,6 +1,6 @@
 ---
 title: Opzioni di implementazione della rete per la distribuzione di contenuti
-description: In questo argomento vengono esaminate le diverse opzioni per l'implementazione della rete per la distribuzione di contenuti (CDN) che possono essere utilizzate con gli ambienti Microsoft Dynamics 365 Commerce. Queste opzioni includono istanze native fornite da Commerce di Azure Front Door e istanze di proprietà del cliente di Azure Front Door.
+description: In questo articolo vengono esaminate le diverse opzioni per l'implementazione della rete per la distribuzione di contenuti (CDN) che possono essere utilizzate con gli ambienti Microsoft Dynamics 365 Commerce. Queste opzioni includono istanze native fornite da Commerce di Azure Front Door e istanze di proprietà del cliente di Azure Front Door.
 author: BrianShook
 ms.date: 07/22/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 944123f3afe1c869c262da3997a73d8c60bbc366
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: a63751d42ab98610904191f1c09794b2311b0189
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692727"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8884419"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Opzioni di implementazione della rete per la distribuzione di contenuti
 
 [!include [banner](includes/banner.md)]
 
-In questo argomento vengono esaminate le diverse opzioni per l'implementazione della rete per la distribuzione di contenuti (CDN) che possono essere utilizzate con gli ambienti Microsoft Dynamics 365 Commerce. Queste opzioni includono istanze native fornite da Commerce di Azure Front Door e istanze di proprietà del cliente di Azure Front Door.
+In questo articolo vengono esaminate le diverse opzioni per l'implementazione della rete per la distribuzione di contenuti (CDN) che possono essere utilizzate con gli ambienti Microsoft Dynamics 365 Commerce. Queste opzioni includono istanze native fornite da Commerce di Azure Front Door e istanze di proprietà del cliente di Azure Front Door.
 
 I clienti di Commerce hanno diverse opzioni quando valutano il servizio CDN da utilizzare con il loro ambiente Commerce. Commerce viene rilasciato con il supporto di base di Azure Front Door che copre i requisiti di dominio personalizzato e hosting di base. Per le aziende che desiderano un maggiore controllo e funzionalità di sicurezza più specifiche, come un web application firewall (WAF), l'opzione migliore potrebbe essere quella di utilizzare un'istanza di Azure Front Door di proprietà del cliente o un servizio CDN esterno.
 

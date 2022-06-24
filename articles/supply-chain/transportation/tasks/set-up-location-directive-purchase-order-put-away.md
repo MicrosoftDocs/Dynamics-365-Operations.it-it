@@ -1,6 +1,6 @@
 ---
 title: Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
-description: In questo argomento viene illustrato come impostare una direttiva di ubicazione semplice.
+description: In questo articolo viene illustrato come impostare una direttiva di ubicazione semplice.
 author: Weijiesa
 ms.date: 08/08/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2275b2fd70e246955054930b13f29a6c0b287363
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8674140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873494"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene illustrato come impostare una direttiva di ubicazione semplice. L'esempio visualizzato crea una direttiva ubicazione da utilizzare per determinare dove inserire gli articoli ricevuti per un ordine fornitore. È possibile riprodurre questa guida attività con i dati indicati usando la società di dati dimostrativi USMF. Precondizioni: è necessario creare un codice smaltimento. In questa procedura viene utilizzato un codice smaltimento denominato Nuova etichetta. Se si crea una direttiva ubicazione i propri dati, è necessario impostare gestione avanzata di magazzino per il magazzino e gli articoli. Questa procedura è destinata al responsabile del magazzino.
+In questo articolo viene illustrato come impostare una direttiva di ubicazione semplice. L'esempio visualizzato crea una direttiva ubicazione da utilizzare per determinare dove inserire gli articoli ricevuti per un ordine fornitore. È possibile riprodurre questa guida attività con i dati indicati usando la società di dati dimostrativi USMF. Precondizioni: è necessario creare un codice smaltimento. In questa procedura viene utilizzato un codice smaltimento denominato Nuova etichetta. Se si crea una direttiva ubicazione i propri dati, è necessario impostare gestione avanzata di magazzino per il magazzino e gli articoli. Questa procedura è destinata al responsabile del magazzino.
 
 1. Nel pannello di navigazione andare a **Moduli > Gestione magazzino > Impostazioni > Magazzino > Direttive ubicazione**.
 2. Nel campo **Tipo ordine di lavoro** selezionare **Ordini fornitori**.

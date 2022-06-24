@@ -1,6 +1,6 @@
 ---
 title: Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise
-description: In questo argomento viene descritto come pianificare le modifiche future delle scorte disponibili e calcolare le quantità available-to-promise (ATP).
+description: In questo articolo viene descritto come pianificare le modifiche future delle scorte disponibili e calcolare le quantità available-to-promise (ATP).
 author: yufeihuang
 ms.date: 05/11/2022
 ms.topic: article
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 7456f87bede7bd0073223fa4762f96f919799e06
-ms.sourcegitcommit: 38d97efafb66de298c3f504b83a5c9b822f5a62a
+ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "8763255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856195"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive come impostare la funzionalità *Programmazione delle modifiche scorte disponibili* per programmare le modifiche future delle scorte disponibili e calcolare le quantità available-to-promise (ATP). ATP è la quantità di un articolo disponibile e che può essere promessa a un cliente nel prossimo periodo. L'uso di questo calcolo può aumentare notevolmente la capacità di evasione degli ordini.
+Questo articolo descrive come impostare la funzionalità *Programmazione delle modifiche scorte disponibili* per programmare le modifiche future delle scorte disponibili e calcolare le quantità available-to-promise (ATP). ATP è la quantità di un articolo disponibile e che può essere promessa a un cliente nel prossimo periodo. L'uso di questo calcolo può aumentare notevolmente la capacità di evasione degli ordini.
 
 Per molti produttori, rivenditori o venditori, non è sufficiente solo sapere cosa è attualmente disponibile. Devono avere piena visibilità sulla disponibilità futura. Questa disponibilità futura deve considerare l'offerta futura, la domanda futura e l'ATP.
 

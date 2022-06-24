@@ -1,6 +1,6 @@
 ---
 title: Gestire le detrazioni usando il workbench detrazioni
-description: In questo argomento viene descritto come utilizzare il workbench detrazioni per elaborare i pagamenti cliente che includano le detrazioni.
+description: In questo articolo viene descritto come utilizzare il workbench detrazioni per elaborare i pagamenti cliente che includano le detrazioni.
 author: sherry-zheng
 ms.date: 08/02/2021
 ms.topic: article
@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 607ad528b56d1f0c9a78e113f67c920cdae6e620
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873610"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Gestire le detrazioni usando il workbench detrazioni
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come utilizzare il workbench detrazioni per elaborare i pagamenti cliente che includano le detrazioni.
+In questo articolo viene descritto come utilizzare il workbench detrazioni per elaborare i pagamenti cliente che includano le detrazioni.
 
 A un cliente a cui è dovuto uno sconto può decidere di non aspettare un pagamento dello sconto. Invece, il cliente può inviare un pagamento che include una detrazione per l'importo dello sconto. Per gestire questo tipo di transazione, è possibile utilizzare il workbench detrazioni per far corrispondere le detrazioni alle transazioni di credito aperte, per suddividere, negare e ammortizzate le detrazioni.
 
 > [!NOTE]
-> Il workbench detrazioni ha fatto parte delle funzionalità di vendita e marketing in Microsoft Dynamics 365 Supply Chain Management per molto tempo. Tuttavia, ora è stato migliorato in modo che funzioni anche con il più recente modulo **Gestione degli sconti**. Questo argomento descrive come utilizzare sia le funzioni precedenti che le funzioni di gestione degli sconti del workbench detrazioni. Tuttavia, se non hai [attivato il modulo **Gestione degli sconti** per il tuo sistema](rebate-management-enable.md), alcune delle funzionalità descritte qui non saranno disponibili.
+> Il workbench detrazioni ha fatto parte delle funzionalità di vendita e marketing in Microsoft Dynamics 365 Supply Chain Management per molto tempo. Tuttavia, ora è stato migliorato in modo che funzioni anche con il più recente modulo **Gestione degli sconti**. Questo articolo descrive come utilizzare sia le funzioni precedenti che le funzioni di gestione degli sconti del workbench detrazioni. Tuttavia, se non hai [attivato il modulo **Gestione degli sconti** per il tuo sistema](rebate-management-enable.md), alcune delle funzionalità descritte qui non saranno disponibili.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -159,11 +159,11 @@ Per creare una nuova detrazione nel workbench detrazioni, effettua le operazioni
         - *Basato sulla quantità* – Verrà creato un ordine cliente negativo o un ordine di reso.
 
     - **Data attestazione** – Seleziona la data dell'attestazione. Il valore predefinito è la data corrente.
-    - **Motivo attestazione** – Seleziona il codice motivo che si applica alla detrazione corrente. La base di attestazione selezionata influisce sulle opzioni applicabili. Per ulteriori informazioni su come creare e configurare i motivi dell'attestazione disponibili per la selezione qui, vedi la sezione [Creare motivi di detrazione](#deduction-reasons) precedente in questo argomento.
+    - **Motivo attestazione** – Seleziona il codice motivo che si applica alla detrazione corrente. La base di attestazione selezionata influisce sulle opzioni applicabili. Per ulteriori informazioni su come creare e configurare i motivi dell'attestazione disponibili per la selezione qui, vedi la sezione [Creare motivi di detrazione](#deduction-reasons) precedente in questo articolo.
     - **Note** – Aggiungi eventuali note applicabili. Quando l'attestazione viene approvata, l'approvatore è in grado di modificare o aggiungere note.
     - **Crea un giornale di registrazione attestazioni** – Imposta questa opzione per specificare se creare il giornale di registrazione attestazioni al momento della creazione dell'attestazione o della detrazione:
 
-        - *Sì* – Il sistema creerà e registrerà un giornale di registrazione generale utilizzando il giornale di registrazione attestazioni impostato nella pagina **Parametri contabilità clienti**. Per ulteriori informazioni, vedi la sezione [Configurare la contabilità clienti e le detrazioni](#accounts-receivable-deductions) precedente in questo argomento. Quando una fattura è allegata all'attestazione, il giornale di registrazione viene utilizzato per ridurre il saldo della fattura applicabile. Se l'attestazione viene successivamente respinta, il giornale di registrazione e le liquidazioni (se è stata allegata una fattura) verranno stornati.
+        - *Sì* – Il sistema creerà e registrerà un giornale di registrazione generale utilizzando il giornale di registrazione attestazioni impostato nella pagina **Parametri contabilità clienti**. Per ulteriori informazioni, vedi la sezione [Configurare la contabilità clienti e le detrazioni](#accounts-receivable-deductions) precedente in questo articolo. Quando una fattura è allegata all'attestazione, il giornale di registrazione viene utilizzato per ridurre il saldo della fattura applicabile. Se l'attestazione viene successivamente respinta, il giornale di registrazione e le liquidazioni (se è stata allegata una fattura) verranno stornati.
         - *No* – Al momento non viene creato alcun giornale di registrazione attestazioni. Verrà creato quando l'attestazione sarà approvata. È ancora possibile allegare una fattura alla nuova attestazione, anche se non è stato creato un giornale di registrazione. Tuttavia, la liquidazione non può essere effettuata senza il giornale di registrazione attestazioni.
 
 1. Selezionare **OK**.
@@ -197,11 +197,11 @@ Il processo di creazione di una detrazione da una liquidazione cliente è simile
         - *Basato sulla quantità* – Verrà creato un ordine cliente negativo o un ordine di reso.
 
     - **Data attestazione** – Seleziona la data dell'attestazione. Il valore predefinito è la data corrente.
-    - **Motivo attestazione** – Seleziona il codice motivo che si applica alla detrazione corrente. La base di attestazione selezionata influisce sulle opzioni applicabili. Per ulteriori informazioni su come creare e configurare i motivi dell'attestazione disponibili per la selezione qui, vedi la sezione [Creare motivi di detrazione](#deduction-reasons) precedente in questo argomento.
+    - **Motivo attestazione** – Seleziona il codice motivo che si applica alla detrazione corrente. La base di attestazione selezionata influisce sulle opzioni applicabili. Per ulteriori informazioni su come creare e configurare i motivi dell'attestazione disponibili per la selezione qui, vedi la sezione [Creare motivi di detrazione](#deduction-reasons) precedente in questo articolo.
     - **Note** – Aggiungi eventuali note applicabili. Quando l'attestazione viene approvata, l'approvatore è in grado di modificare o aggiungere note.
     - **Crea un giornale di registrazione attestazioni** – Imposta questa opzione per specificare se creare il giornale di registrazione attestazioni al momento della creazione dell'attestazione o della detrazione:
 
-        - *Sì* – Il sistema creerà e registrerà un giornale di registrazione generale utilizzando il giornale di registrazione attestazioni impostato nella pagina **Parametri contabilità clienti**. Per ulteriori informazioni, vedi la sezione [Configurare la contabilità clienti e le detrazioni](#accounts-receivable-deductions) precedente in questo argomento. Quando una fattura è allegata all'attestazione, il giornale di registrazione viene utilizzato per ridurre il saldo della fattura applicabile. Se l'attestazione viene successivamente respinta, il giornale di registrazione e le liquidazioni (se è stata allegata una fattura) verranno stornati.
+        - *Sì* – Il sistema creerà e registrerà un giornale di registrazione generale utilizzando il giornale di registrazione attestazioni impostato nella pagina **Parametri contabilità clienti**. Per ulteriori informazioni, vedi la sezione [Configurare la contabilità clienti e le detrazioni](#accounts-receivable-deductions) precedente in questo articolo. Quando una fattura è allegata all'attestazione, il giornale di registrazione viene utilizzato per ridurre il saldo della fattura applicabile. Se l'attestazione viene successivamente respinta, il giornale di registrazione e le liquidazioni (se è stata allegata una fattura) verranno stornati.
         - *No* – Al momento non viene creato alcun giornale di registrazione attestazioni. Verrà creato quando l'attestazione sarà approvata. È ancora possibile allegare una fattura alla nuova attestazione, anche se non è stato creato un giornale di registrazione. Tuttavia, la liquidazione non può essere effettuata senza il giornale di registrazione attestazioni.
 
 1. Selezionare **OK**.
@@ -235,11 +235,11 @@ Il processo di creazione di una detrazione da una pagina cliente è simile al pr
         - *Basato sulla quantità* – Verrà creato un ordine cliente negativo o un ordine di reso.
 
     - **Data attestazione** – Seleziona la data dell'attestazione. Il valore predefinito è la data corrente.
-    - **Motivo attestazione** – Seleziona il codice motivo che si applica alla detrazione corrente. La base di attestazione selezionata influisce sulle opzioni applicabili. Per ulteriori informazioni su come creare e configurare i motivi dell'attestazione disponibili per la selezione qui, vedi la sezione [Creare motivi di detrazione](#deduction-reasons) precedente in questo argomento.
+    - **Motivo attestazione** – Seleziona il codice motivo che si applica alla detrazione corrente. La base di attestazione selezionata influisce sulle opzioni applicabili. Per ulteriori informazioni su come creare e configurare i motivi dell'attestazione disponibili per la selezione qui, vedi la sezione [Creare motivi di detrazione](#deduction-reasons) precedente in questo articolo.
     - **Note** – Aggiungi eventuali note applicabili. Quando l'attestazione viene approvata, l'approvatore è in grado di modificare o aggiungere note.
     - **Crea un giornale di registrazione attestazioni** – Imposta questa opzione per specificare se creare il giornale di registrazione attestazioni al momento della creazione dell'attestazione o della detrazione:
 
-        - *Sì* – Il sistema creerà e registrerà un giornale di registrazione generale utilizzando il giornale di registrazione attestazioni impostato nella pagina **Parametri contabilità clienti**. Per ulteriori informazioni, vedi la sezione [Configurare la contabilità clienti e le detrazioni](#accounts-receivable-deductions) precedente in questo argomento. Quando una fattura è allegata all'attestazione, il giornale di registrazione viene utilizzato per ridurre il saldo della fattura applicabile. Se l'attestazione viene successivamente respinta, il giornale di registrazione e le liquidazioni (se è stata allegata una fattura) verranno stornati.
+        - *Sì* – Il sistema creerà e registrerà un giornale di registrazione generale utilizzando il giornale di registrazione attestazioni impostato nella pagina **Parametri contabilità clienti**. Per ulteriori informazioni, vedi la sezione [Configurare la contabilità clienti e le detrazioni](#accounts-receivable-deductions) precedente in questo articolo. Quando una fattura è allegata all'attestazione, il giornale di registrazione viene utilizzato per ridurre il saldo della fattura applicabile. Se l'attestazione viene successivamente respinta, il giornale di registrazione e le liquidazioni (se è stata allegata una fattura) verranno stornati.
         - *No* – Al momento non viene creato alcun giornale di registrazione attestazioni. Verrà creato quando l'attestazione sarà approvata. È ancora possibile allegare una fattura alla nuova attestazione, anche se non è stato creato un giornale di registrazione. Tuttavia, la liquidazione non può essere effettuata senza il giornale di registrazione attestazioni.
 
 1. Selezionare **OK**.
@@ -280,7 +280,7 @@ Per abbinare una detrazione a un credito, segui questi passaggi.
 1. Nel riquadro azioni seleziona **Gestisci \> Corrispondenza**. Il sistema fa corrispondere la detrazione al credito. Se rimane un saldo nella detrazione, viene mostrato nel campo **Importo residuo** della scheda **Detrazioni**.
 
     > [!NOTE]
-    > Per le detrazioni create utilizzando il comando **Nuova detrazione** nel workbench detrazioni, nella liquidazione cliente o nella pagina cliente, il comando **Gestisci \> Corrispondenza** è disponibile solo se il campo **Stato attestazione** è impostato su *Accettato*. Questo comando può essere utilizzato per abbinare manualmente la transazione basata sul prezzo o sulla quantità al credito associato nella sezione **Transazioni aperte**. Questo credito viene creato sia quando viene approvata la detrazione (utilizzando il comando **Gestisci \> Approva detrazione**), o quando è allegato a un credito esistente come descritto nella sezione [Crediti creati al di fuori del processo di approvazione detrazione](#credits-outside-approval) più avanti in questo argomento. L'attività periodica *Liquida detrazioni approvate* (**Vendite e marketing \> Attività periodiche \> Liquida detrazioni approvate**) può essere utilizzata anche per abbinare automaticamente detrazioni e crediti che hanno **ID detrazione** e importi corrispondenti.
+    > Per le detrazioni create utilizzando il comando **Nuova detrazione** nel workbench detrazioni, nella liquidazione cliente o nella pagina cliente, il comando **Gestisci \> Corrispondenza** è disponibile solo se il campo **Stato attestazione** è impostato su *Accettato*. Questo comando può essere utilizzato per abbinare manualmente la transazione basata sul prezzo o sulla quantità al credito associato nella sezione **Transazioni aperte**. Questo credito viene creato sia quando viene approvata la detrazione (utilizzando il comando **Gestisci \> Approva detrazione**), o quando è allegato a un credito esistente come descritto nella sezione [Crediti creati al di fuori del processo di approvazione detrazione](#credits-outside-approval) più avanti in questo articolo. L'attività periodica *Liquida detrazioni approvate* (**Vendite e marketing \> Attività periodiche \> Liquida detrazioni approvate**) può essere utilizzata anche per abbinare automaticamente detrazioni e crediti che hanno **ID detrazione** e importi corrispondenti.
 
 ### <a name="split-a-deduction"></a>Dividere una detrazione
 

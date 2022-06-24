@@ -1,6 +1,6 @@
 ---
 title: Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi
-description: Questo argomento presenta uno scenario che mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione avanzata di magazzino.
+description: Questo articolo presenta uno scenario che mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione avanzata di magazzino.
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,22 +14,22 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e753897d1e21ffebbcbfac48abab4b0549c3553f
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7565257"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863623"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi
 
 [!include [banner](../../includes/banner.md)]
 
-Questo argomento presenta uno scenario che mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione avanzata di magazzino. Questa operazione viene generalmente effettuata da un addetto al ricevimento.
+Questo articolo presenta uno scenario che mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione avanzata di magazzino. Questa operazione viene generalmente effettuata da un addetto al ricevimento.
 
 ## <a name="enable-sample-data"></a>Abilitare dati di esempio
 
-Per gestire questo scenario utilizzando i record e i valori di esempio specificati in questo argomento, è necessario utilizzare un sistema in cui sono installati i dati demo standard ed è necessario selezionare la persona giuridica *USMF* prima di iniziare.
+Per gestire questo scenario utilizzando i record e i valori di esempio specificati in questo articolo, è necessario utilizzare un sistema in cui sono installati i dati demo standard ed è necessario selezionare la persona giuridica *USMF* prima di iniziare.
 
 Puoi invece elaborare questo scenario sostituendo i valori dei tuoi dati a condizione che tu abbia i seguenti dati disponibili:
 

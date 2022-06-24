@@ -1,6 +1,6 @@
 ---
 title: Identificatori di prodotto
-description: Questo argomento fornisce informazioni sui vari tipi di identificatori di prodotto e descrive come è possibile aggiungere identificatori di prodotto nei dati del prodotto.
+description: Questo articolo fornisce informazioni sui vari tipi di identificatori di prodotto e descrive come è possibile aggiungere identificatori di prodotto nei dati del prodotto.
 author: t-benebo
 ms.date: 03/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 638b5c3b0c83f67f3d99331b6456efd1b8f5225a
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 3fc2d5c01209f15a9cb680e3bb569087f08c08d3
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8851712"
 ---
 # <a name="product-identifiers"></a>Identificatori di prodotto
 
@@ -29,7 +29,7 @@ ms.locfileid: "8063343"
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento fornisce informazioni sui vari tipi di identificatori di prodotto e descrive come è possibile aggiungere identificatori di prodotto nei dati del prodotto.
+Questo articolo fornisce informazioni sui vari tipi di identificatori di prodotto e descrive come è possibile aggiungere identificatori di prodotto nei dati del prodotto.
 
 Quando si utilizzano prodotti nello shop floor o in un magazzino in Microsoft Dynamics ERP oppure in Microsoft Dynamics CRM, è necessario disporre di una strategia idonea per l'identificazione di questi prodotti e delle varianti prodotto.
 
@@ -125,7 +125,7 @@ Purtroppo, non esiste alcuna funzionalità standard che consente di cercare prod
 | Prodotti V2 | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto | A seconda delle impostazioni dell'entità e della sequenza numerica del numero prodotto, il numero prodotto può essere creato automaticamente al momento dell'importazione. |
 | Varianti prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto | A seconda del modello di nomenclatura di prodotto, il numero prodotto può essere creato automaticamente al momento dell'importazione. È tuttavia possibile importare qualsiasi numero prodotto univoco e tale numero prodotto non deve necessariamente seguire la struttura dei modelli di nomenclatura di prodotto. |
 | Traduzioni prodotto | Nome di prodotto, Descrizione prodotto | Nome di prodotto, Descrizione prodotto | Questa entità sovrascrive qualsiasi lingua. Quando il nome o la descrizione della lingua madre di una persona giuridica viene sovrascritto, il nome e la descrizione del prodotto vengono modificati. |
-| Creazione prodotti rilasciati V2 | Numero di articolo, numero di prodotto, nome di ricerca articolo| Numero di articolo, numero di prodotto, nome di ricerca articolo, nome di ricerca prodotto, nome di prodotto | L'uso di questa entità può essere problematico quando le sequenze numeriche sono utilizzate durante la creazione di nuovi prodotti rilasciati. Sia la sequenza numerica **Numero articolo** che la sequenza numerica **Numero prodotto** hanno un impatto. Tuttavia, la sequenza numerica **Numero articolo** è per persona giuridica, mentre la sequenza numerica **Numero prodotto** è globale. Pertanto, non si consiglia di utilizzare la sequenza numerica **Numero articolo** nella distribuzione di nuovi prodotti rilasciati. Ovviamente, quando l'entità è utilizzata per rilasciare un prodotto esistente, il numero di prodotto deve essere indicato nell'entità. Per ulteriori informazioni, vedere la sezione relativa alle sequenze numeriche dell'articolo e del prodotto in questo argomento. |
+| Creazione prodotti rilasciati V2 | Numero di articolo, numero di prodotto, nome di ricerca articolo| Numero di articolo, numero di prodotto, nome di ricerca articolo, nome di ricerca prodotto, nome di prodotto | L'uso di questa entità può essere problematico quando le sequenze numeriche sono utilizzate durante la creazione di nuovi prodotti rilasciati. Sia la sequenza numerica **Numero articolo** che la sequenza numerica **Numero prodotto** hanno un impatto. Tuttavia, la sequenza numerica **Numero articolo** è per persona giuridica, mentre la sequenza numerica **Numero prodotto** è globale. Pertanto, non si consiglia di utilizzare la sequenza numerica **Numero articolo** nella distribuzione di nuovi prodotti rilasciati. Ovviamente, quando l'entità è utilizzata per rilasciare un prodotto esistente, il numero di prodotto deve essere indicato nell'entità. Per ulteriori informazioni, vedi la sezione relativa alle sequenze numeriche dell'articolo e del prodotto in questo articolo. |
 | Varianti prodotti rilasciati | Numero di articolo, dimensioni prodotto, numero di prodotto | Numero di prodotto, nome di ricerca prodotto, nome di prodotto, Descrizione prodotto, dimensioni prodotto | Come l'entità **Varianti prodotto**, questa entità può essere utilizzata per creare nuovi prodotti che seguono il modello di nomenclatura dei prodotti o utilizzano i propri numeri di prodotto per la variante. |
 | Descrizione esterna dell'articolo per i clienti | Numero articolo cliente, nome articolo cliente, Descrizione cliente, conto cliente | Numero articolo cliente, nome articolo cliente, Descrizione cliente, conto cliente | È possibile aggregare un gruppo di clienti (ad esempio un'associazione di acquirenti) in un unico gruppo utilizzando l'entità **Gruppo di clienti per le descrizioni esterne dell'articolo**. |
 | Descrizione esterna dell'articolo per i fornitori | Numero di articolo del fornitore, nome di articolo del fornitore, Descrizione fornitore, conto fornitore | Numero di articolo del fornitore, nome di articolo del fornitore, Descrizione fornitore, conto fornitore | È possibile aggregare un gruppo di fornitori (ad esempio un'associazione di vendita o un'organizzazione di settore) in un unico gruppo utilizzando l'entità **Gruppi di fornitori per le descrizioni esterne dell'articolo**. |
@@ -184,7 +184,7 @@ Per configurare l'ambiente, attenersi a questa procedura.
 
 È ora possibile utilizzare le entità di dati **Entità dell'identificatore Common Data Service dell'entità prodotto**, **Codici identificatori entità prodotto** e **Ambito identificatore entità prodotto** per esportare gli identificatori per qualsiasi sistema di destinazione.
 
-## <a name="related-topic"></a>Argomento correlato
+## <a name="related-article"></a>Articolo correlato
 
 [Ricerca di prodotti e varianti prodotto durante la registrazione ordine](search-products-product-variants.md)
 

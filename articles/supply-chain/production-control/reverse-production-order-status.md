@@ -1,6 +1,6 @@
 ---
 title: Invertire lo stato degli ordini di produzione
-description: In questo argomento viene descritto come invertire lo stato degli ordini di produzione.
+description: In questo articolo viene descritto come invertire lo stato degli ordini di produzione.
 author: johanhoffmann
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dd17bc48bfb6c78e1baca4faf78d6bc5b3ce426c5f0530174eccd95536a5859
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1d50cbcb4031d5c9f2c814883afd1fb38777d2ba
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760420"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903958"
 ---
 # <a name="reverse-the-production-order-status"></a>Invertire lo stato degli ordini di produzione
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come invertire lo stato degli ordini di produzione. 
+In questo articolo viene descritto come invertire lo stato degli ordini di produzione. 
 
 L'inversione dello stato di un ordine di produzione consiste nel riportare l'ordine e tutte le operazioni associate ai cicli di lavorazione a una fase precedente del ciclo di vita di produzione. Ad esempio, un ordine di produzione ha stato **Programmato** e si riporta lo stato a **Creato**. In questo caso, il sistema deve prima modificare lo stato in **Stimato**, che è lo stato che precede immediatamente **Programmato**. Può quindi modificare lo stato nello stato desiderato, **Creato**. **Nota:** Se l'ordine ha raggiunto lo stato **Dichiarato finito**, è possibile comunque riportarlo a uno stato precedente. Tuttavia, è necessario rieseguire la stima e la programmazione di operazioni o processi, oppure entrambe, per aggiornare le informazioni sull'ordine. Questo passaggio è necessario per reimpostare anche le prenotazioni relative al consumo rimanente di articoli e di risorse operative. Nel resto di questo articolo viene descritto cosa accade quando si inverte lo stato di un ordine di produzione nei modi seguenti:
 

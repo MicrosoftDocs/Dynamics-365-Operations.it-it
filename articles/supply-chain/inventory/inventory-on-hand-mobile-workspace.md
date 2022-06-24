@@ -1,6 +1,6 @@
 ---
-title: Area di lavoro mobile per scorte disponibili
-description: In questo argomento vengono fornite informazioni sull'area di lavoro mobile Scorte disponibili. Questa area di lavoro mobile consente di ottenere informazioni su dispositivo mobile relative alle scorte disponibili e prenotate in qualsiasi momento e ovunque.
+title: Area di lavoro mobile per inventario disponibile
+description: In questo articolo vengono fornite informazioni sull'area di lavoro mobile Scorte disponibili. Questa area di lavoro mobile consente di ottenere informazioni su dispositivo mobile relative alle scorte disponibili e prenotate in qualsiasi momento e ovunque.
 author: yufeihuang
 ms.date: 05/24/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Manufacturing
 ms.author: yufeihuang
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b380da99b02fe9b7cd834eabac3498ee3b8e54a4
-ms.sourcegitcommit: 336a0ad772fb55d52b4dcf2fafaa853632373820
+ms.openlocfilehash: d493164b754b86a9df9ce4dcf9df8b20eeb55c5c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/28/2022
-ms.locfileid: "8811468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8859432"
 ---
-# <a name="inventory-on-hand-mobile-workspace"></a>Area di lavoro mobile per scorte disponibili
+# <a name="inventory-on-hand-mobile-workspace"></a>Area di lavoro mobile per inventario disponibile
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../../fin-ops-core/dev-itpro/includes/mobile-app-deprecation-banner.md)]
 
-In questo argomento vengono fornite informazioni sull'area di lavoro mobile **Scorte disponibili**. Questa area di lavoro consente di ottenere informazioni su dispositivo mobile relative alle scorte disponibili e prenotate in qualsiasi momento e ovunque.
+In questo articolo vengono fornite informazioni sull'area di lavoro mobile **Scorte disponibili**. Questa area di lavoro consente di ottenere informazioni su dispositivo mobile relative alle scorte disponibili e prenotate in qualsiasi momento e ovunque.
 
 Questa area di lavoro mobile può essere utilizzata con l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365).
 

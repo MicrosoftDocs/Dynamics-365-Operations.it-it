@@ -1,6 +1,6 @@
 ---
 title: Ritardare il calcolo del prezzo esatto e dello sconto per prestazioni migliori
-description: Questo argomento descrive la capacità di calcolo differito del prezzo disponibile in Microsoft Dynamics 365 Commerce POS e servizio clienti.
+description: Questo articolo descrive la capacità di calcolo differito del prezzo disponibile in Microsoft Dynamics 365 Commerce POS e servizio clienti.
 author: boycezhu
 ms.date: 09/09/2021
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: boycez
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 8c4264c3a4c71e6aab0e1ef8d7d8cfffad065a46
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: 6926c288a91dbe66b6ffc2e6c06f866d3ebd7652
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488365"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845899"
 ---
 # <a name="delay-exact-price-and-discount-calculation-for-improved-performance"></a>Ritardare il calcolo del prezzo esatto e dello sconto per prestazioni migliori
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive la capacità di calcolo differito del prezzo disponibile in Microsoft Dynamics 365 Commerce POS e servizio clienti.
+Questo articolo descrive la capacità di calcolo differito del prezzo disponibile in Microsoft Dynamics 365 Commerce POS e servizio clienti.
 
 Dynamics 365 Commerce supporta la creazione di sconti multiriga che vengono applicati quando vengono combinate più righe di vendita di un ordine cliente o di un'offerta di vendita. Questi sconti includono sconti combinati, soglia e quantità.
 

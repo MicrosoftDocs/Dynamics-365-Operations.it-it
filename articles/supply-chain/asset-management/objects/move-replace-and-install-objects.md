@@ -1,6 +1,6 @@
 ---
 title: Spostare, sostituire e installare cespiti
-description: Viene descritto come spostare, sostituire e installare cespiti in Gestione cespiti.
+description: In questo articolo viene descritto come spostare, sostituire e installare cespiti in Gestione cespiti.
 author: johanhoffmann
 ms.date: 06/26/2019
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aad94f17d6efadf7c520c021354963e7135d6d4da1426774925ce877f705e01a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769637"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872126"
 ---
 # <a name="move-replace-and-install-assets"></a>Spostare, sostituire e installare cespiti
 
@@ -28,7 +28,7 @@ ms.locfileid: "6769637"
 
  
 
-Viene descritto come spostare, sostituire e installare cespiti in Gestione cespiti. È possibile creare singoli cespiti che non hanno relazioni ad altri cespiti, oppure creare una struttura di cespiti che include un cespite padre (cespite di primo livello) e cespiti figlio correlati (cespiti secondari). In Gestione cespiti, sono disponibili tre metodi per spostare e di cambiare l'ubicazione di un cespite:
+In questo articolo viene descritto come spostare, sostituire e installare cespiti in Gestione cespiti. È possibile creare singoli cespiti che non hanno relazioni ad altri cespiti, oppure creare una struttura di cespiti che include un cespite padre (cespite di primo livello) e cespiti figlio correlati (cespiti secondari). In Gestione cespiti, sono disponibili tre metodi per spostare e di cambiare l'ubicazione di un cespite:
 
 - **Spostamento**- sposta il cespite in un'altra struttura di cespiti o in un'altra ubicazione nella stessa struttura di cespiti.
 - **Sostituzione** - Rimuove temporaneamente un cespite da una struttura di cespiti perché possa essere riparato o rinnovato, quindi aggiunge il cespite rinnovato alla stessa struttura di cespiti in un secondo momento. In alternativa, sostituisce definitivamente un cespite con un nuovo cespite.
@@ -42,7 +42,7 @@ Viene descritto come spostare, sostituire e installare cespiti in Gestione cespi
 Usare la funzione **Sposta cespite** per spostare il cespite in un'altra struttura di cespiti o in un'altra ubicazione nella stessa struttura di cespiti. È inoltre possibile spostare un cespite da una struttura dei cespiti in modo che si trasformi in un cespite autonomo che non ha relazioni di struttura.
 
 > [!NOTE]
-> Non utilizzare questa funzione se i cespiti sono in riparazione o vengono temporaneamente sostituiti. Invece, utilizzare la funzionalità **Sostituisci cespite** che viene descritta più avanti in questo argomento.
+> Non utilizzare questa funzione se i cespiti sono in riparazione o vengono temporaneamente sostituiti. Invece, utilizza la funzionalità **Sostituisci cespite** che viene descritta più avanti in questo articolo.
 
 1. Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
 2. Selezionare il cespite da spostare nell'elenco. Se il cespite ha cespiti figlio, si spostano anche quelli.

@@ -1,6 +1,6 @@
 ---
 title: Visualizzare le notifiche degli ordini nel POS
-description: In questo argomento viene descritto come abilitare le notifiche degli ordini nel POS e nel framework di notifica.
+description: In questo articolo viene descritto come abilitare le notifiche degli ordini nel POS e nel framework di notifica.
 author: ShalabhjainMSFT
 ms.date: 03/12/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a9e646d6bf48461e78dc75c8a154f2fbf1443393
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714140"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853982"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Visualizzare le notifiche degli ordini nel POS
 
@@ -65,10 +65,10 @@ Per le notifiche relative all'evasione degli ordini e al richiamo degli ordini, 
 
 ## <a name="enable-live-content-on-pos-buttons"></a>Abilitare contenuto in diretta su pulsanti POS
 
-I pulsanti POS possono ora riportare un conteggio per consentire ai lavoratori di determinare in modo semplice quali attività richiedono la loro attenzione immediata. Per visualizzare questo numero su un pulsante POS, è necessario completare l'impostazione di notifica descritta in precedenza in questo argomento, ovvero è necessario attivare le notifiche per un'operazione, impostare un intervallo di notifica e aggiornare il gruppo di autorizzazioni POS per il lavoratore. Inoltre, è necessario aprire la finestra di progettazione della griglia dei pulsanti, visualizzare le proprietà del pulsante e selezionare la casella di controllo **Abilita contenuto in diretta**. Nel campo **Allineamento contenuto**, è possibile selezionare se il conteggio viene visualizzato nell'angolo superiore destro del pulsante (**Destra in alto**) o al centro (**Centro**).
+I pulsanti POS possono ora riportare un conteggio per consentire ai lavoratori di determinare in modo semplice quali attività richiedono la loro attenzione immediata. Per visualizzare questo numero su un pulsante POS, è necessario completare l'impostazione di notifica descritta in precedenza in questo articolo, ovvero è necessario attivare le notifiche per un'operazione, impostare un intervallo di notifica e aggiornare il gruppo di autorizzazioni POS per il lavoratore. Inoltre, è necessario aprire la finestra di progettazione della griglia dei pulsanti, visualizzare le proprietà del pulsante e selezionare la casella di controllo **Abilita contenuto in diretta**. Nel campo **Allineamento contenuto**, è possibile selezionare se il conteggio viene visualizzato nell'angolo superiore destro del pulsante (**Destra in alto**) o al centro (**Centro**).
 
 > [!NOTE]
-> Il contenuto in diretta può essere abilitato per le operazioni solo se la relativa casella di controllo **Abilita notifiche** è stata selezionata nella pagina **Operazioni POS**, come descritto in precedenza in questo argomento.
+> Il contenuto in diretta può essere abilitato per le operazioni solo se la relativa casella di controllo **Abilita notifiche** è stata selezionata nella pagina **Operazioni POS**, come descritto in precedenza in questo articolo.
 
 La seguente illustrazione mostra le impostazioni del contenuto in diretta nella finestra di progettazione della griglia dei pulsanti.
 

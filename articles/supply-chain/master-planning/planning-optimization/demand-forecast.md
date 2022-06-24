@@ -1,6 +1,6 @@
 ---
 title: Pianificazione generale con previsioni della domanda
-description: Questo argomento spiega come includere previsioni della domanda durante la pianificazione generale con l'ottimizzazione della pianificazione.
+description: Questo articolo spiega come includere previsioni della domanda durante la pianificazione generale con l'ottimizzazione della pianificazione.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ec5150186e190e67913409b9cac107ff2bd55001
-ms.sourcegitcommit: ad1afc6893a8dc32d1363395666b0fe1d50e983a
+ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "8468443"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8878992"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pianificazione generale con previsioni della domanda
 
@@ -42,7 +42,7 @@ Per configurare un piano generale in modo che includa una previsione della doman
 
     - **Modello previsionale** - Selezionare il modello previsionale da applicare. Questo modello verrà preso in considerazione quando viene generato un suggerimento di fornitura per il piano generale corrente.
     - **Includi previsione della domanda** - Impostare questa opzione su *Sì* per includere la previsione della domanda nel piano generale corrente. Se si imposta questa opzione su *No*, le transazioni di previsione della domanda non verranno incluse nel piano generale.
-    - **Metodo utilizzato per ridurre i requisiti di previsione** - Selezionare il metodo da utilizzare per ridurre i requisiti di previsione. Per ulteriori informazioni, vedere la sezione [Chiavi di riduzione previsionali](#reduction-keys) più avanti in questo argomento.
+    - **Metodo utilizzato per ridurre i requisiti di previsione** - Selezionare il metodo da utilizzare per ridurre i requisiti di previsione. Per ulteriori informazioni, vedi la sezione [Chiavi di riduzione previsionali](#reduction-keys) più avanti in questo articolo.
 
 1. Nella Scheda dettaglio **Intervallo temporale in giorni**, è possibile impostare i seguenti campi per specificare il periodo durante il quale la previsione della domanda è inclusa:
 
@@ -61,7 +61,7 @@ Per configurare un gruppo di copertura in modo che includa una previsione della 
 1. Nella Scheda dettaglio **Altro**, impostare i seguenti campi:
 
     - **Intervallo temporale di piano previsionale** - Immettere il numero di giorni (dalla data odierna) per i quali deve essere applicata la previsione della domanda. Questo valore può essere sostituito utilizzando l'opzione **Piano previsionale** nel piano generale, come descritto nella sezione precedente.
-    - **Chiave di riduzione** - Selezionare la chiave di riduzione da applicare. Per ulteriori informazioni, vedere le sezioni [Creare e impostare una chiave di riduzione previsionale](#create-reduction-key) e [Utilizzare una chiave di riduzione](#use-reduction-key) più avanti in questo argomento.
+    - **Chiave di riduzione** - Selezionare la chiave di riduzione da applicare. Per ulteriori informazioni, vedi le sezioni [Creare e impostare una chiave di riduzione previsionale](#create-reduction-key) e [Utilizzare una chiave di riduzione](#use-reduction-key) più avanti in questo articolo.
     - **Riduci previsione per** - Per i piani generali in cui il campo **Metodo utilizzato per ridurre i requisiti di previsione** è impostato su *Transazioni - chiave di riduzione* o *Transazioni - periodo dinamico*, specificare quali transazioni devono ridurre la previsione. Selezionare uno dei seguenti valori:
 
         - **Tutte le transazioni** - Tutte le transazioni devono ridurre la previsione.

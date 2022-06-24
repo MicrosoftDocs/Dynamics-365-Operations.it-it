@@ -1,6 +1,6 @@
 ---
 title: Misure dei cespiti
-description: Nell'argomento viene descritto come creare tipi di misure dei cespiti in Gestione cespiti.
+description: Nell'articolo viene descritto come creare tipi di misure dei cespiti in Gestione cespiti.
 author: johanhoffmann
 ms.date: 10/15/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc515615afaa172e1832508d79e202b166f134a9171a0a35ea4f372f9d19b7e2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1bcef89265697c1898b7d61a0b0ae6331ce1c851
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8909674"
 ---
 # <a name="counters"></a>Contatori
 
 [!include [banner](../../includes/banner.md)]
 
-Nell'argomento viene descritto come creare tipi di contatore in Gestione cespiti. I tipi di contatore vengono utilizzati per effettuare le registrazioni di contatore, ad esempio, in relazione al numero di ore di produzione, oppure della quantità prodotta nei cespiti. I tipi di cespiti sono correlati ai tipi di contatore. Questo significa che un contatore può essere utilizzato per un cespite solo se è impostato per il tipo utilizzato per il cespite.
+Nell'articolo viene descritto come creare tipi di contatore in Gestione cespiti. I tipi di contatore vengono utilizzati per effettuare le registrazioni di contatore, ad esempio, in relazione al numero di ore di produzione, oppure della quantità prodotta nei cespiti. I tipi di cespiti sono correlati ai tipi di contatore. Questo significa che un contatore può essere utilizzato per un cespite solo se è impostato per il tipo utilizzato per il cespite.
 
 Prima di effettuare le registrazioni di contatore, creare innanzitutto i tipi di contatore da utilizzare in **Contatori**. A questo punto, è possibile creare le registrazioni di contatore in **Contatori**. 
 

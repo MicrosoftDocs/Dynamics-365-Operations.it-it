@@ -1,6 +1,6 @@
 ---
 title: Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
-description: Questo argomento spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
+description: Questo articolo spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
 author: psimolin
 ms.date: 07/16/2020
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6728293"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861916"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
+Questo articolo spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
@@ -108,7 +108,7 @@ Potresti voler personalizzare i modelli di messaggio di posta elettronica in mod
     - Modello Ordine di imballaggio
     - Modello Preleva ordine
 
-1. Personalizzare i modelli utilizzando un editor di testo o HTML. Vedere l'elenco dei [token supportati](#supported-tokens-in-the-email-template) più avanti in questo argomento.
+1. Personalizzare i modelli utilizzando un editor di testo o HTML. Vedi l'elenco dei [token supportati](#supported-tokens-in-the-email-template) più avanti in questo articolo.
 1. Accedere a Commerce.
 1. Utilizzare il menu a sinistra per selezionare **Moduli \> Amministrazione organizzazione \> Impostazione \> Modelli di posta elettronica a livello di organizzazione**.
 1. Espandere l'elenco a sinistra per visualizzare tutti i modelli.

@@ -1,6 +1,6 @@
 ---
 title: Panoramica oggetti di servizio
-description: In questo argomento viene fornita una panoramica di come utilizzare gli oggetti assistenza.
+description: In questo articolo viene fornita una panoramica di come utilizzare gli oggetti assistenza.
 author: sorenva
 ms.date: 07/25/2019
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cef4cf1222c4c66991069da72e3e6f5a7040153
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8150a94677fe38f4caa6f3e0b5fb5d1be5972eaf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677676"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8862413"
 ---
 # <a name="service-objects-overview"></a>Panoramica oggetti di servizio
 
@@ -39,7 +39,7 @@ Gli oggetti assistenza sono i cespiti cliente e i prodotti per i quali è possib
 
 La società A gestisce i record finanziari per diverse piccole imprese. Uno dei clienti della società A è la squadra di football locale, per cui la società A esegue la contabilità settimanale e il controllo annuale dei conti della società. I conti della società vengono impostati nel modulo Oggetti assistenza e vengono specificati come oggetto nel contratto di assistenza. Sono disponibili due righe del contratto di assistenza per l'oggetto. La riga 1 è la contabilità settimanale con un intervallo settimanale assegnato alla riga, e la riga 2 è il controllo annuale con un intervallo annuale assegnato.
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Creare oggetti assistenza](create-service-objects.md)
 

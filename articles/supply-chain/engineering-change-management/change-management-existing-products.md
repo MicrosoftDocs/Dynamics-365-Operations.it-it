@@ -1,6 +1,6 @@
 ---
-title: Abilitare la gestione delle modifiche in prodotti esistenti
-description: In questo argomento viene descritto come abilitare la gestione delle modifiche per i prodotti esistenti. Descrive anche i casi in cui la tua capacità di abilitare la gestione delle modifiche è limitata.
+title: Abilita gestione modifiche su prodotti esistenti
+description: In questo articolo viene descritto come abilitare la gestione delle modifiche per i prodotti esistenti. Descrive anche i casi in cui la tua capacità di abilitare la gestione delle modifiche è limitata.
 author: t-benebo
 ms.date: 02/05/2021
 ms.topic: article
@@ -12,24 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e356ef8339f8f71965bf9313e14fed3d0810152d
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 9f99529abebdf5490f158c6f0a7be4519449e9f0
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103615"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8893470"
 ---
-# <a name="enable-change-management-on-existing-products"></a>Abilitare la gestione delle modifiche in prodotti esistenti
+# <a name="enable-change-management-on-existing-products"></a>Abilita gestione modifiche su prodotti esistenti
 
 [!include [banner](../../includes/banner.md)]
 
-In questo argomento viene descritto come abilitare la gestione delle modifiche per i prodotti esistenti. Descrive anche i casi in cui la tua capacità di abilitare la gestione delle modifiche è limitata.
+In questo articolo viene descritto come abilitare la gestione delle modifiche per i prodotti esistenti. Descrive anche i casi in cui la tua capacità di abilitare la gestione delle modifiche è limitata.
 
 Quando si abilita la gestione delle modifiche per un prodotto esistente, è possibile creare versioni di quel prodotto e tenere traccia delle modifiche apportate allo stesso nel corso dell'intero ciclo di vita. Pertanto, è possibile tenere traccia di tali modifiche utilizzando ordini di modifica. Per abilitare la gestione delle modifiche, è necessario convertire i prodotti pertinenti in *articoli di progettazione* (noti anche come prodotti di progettazione). I prodotti di progettazione sono prodotti con versione e gestiti tramite la gestione delle modifiche. Viene fornita una procedura guidata relativa al processo di conversione.
 
 ## <a name="turn-this-feature-on-or-off"></a>Attivare o disattivare questa funzionalità
 
-La funzionalità descritta in questo argomento richiede che entrambe le funzionalità *Gestione modifiche di progettazione* e *Abilitare la gestione delle modifiche in prodotti esistenti* siano attivate per il sistema. Per dettagli su come attivare o disattivare queste funzionalità, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
+La funzionalità descritta in questo articolo richiede che entrambe le funzionalità *Gestione modifiche di progettazione* e *Abilitare la gestione delle modifiche in prodotti esistenti* siano attivate per il sistema. Per dettagli su come attivare o disattivare queste funzionalità, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
 
 ## <a name="restrictions-and-limitations"></a>Restrizioni e limitazioni
 
@@ -38,7 +38,7 @@ Non tutti i tipi di prodotto possono essere convertiti in tutti gli altri tipi. 
 - Quando si converte un prodotto in un prodotto di progettazione, rimane un *prodotto*. Non diventa una *rappresentazione generale prodotto*.
 - Quando si converte una rappresentazione generale prodotto che ha un insieme specifico di dimensioni, tali dimensioni vengono mantenute dopo la modifica. Ad esempio, se si converte una rappresentazione generale prodotto che ha la dimensione di tipo dimensione, manterrà questa dimensione.
 
-Pertanto, se si dispone di un prodotto specifico, è possibile modificarlo solo in un prodotto di progettazione che non tiene traccia della dimensione del prodotto nelle transazioni (ovvero, la dimensione della versione non viene utilizzata). Per ulteriori informazioni su questi problemi, vedere le altre sezioni in questo argomento.
+Pertanto, se si dispone di un prodotto specifico, è possibile modificarlo solo in un prodotto di progettazione che non tiene traccia della dimensione del prodotto nelle transazioni (ovvero, la dimensione della versione non viene utilizzata). Per ulteriori informazioni su questi problemi, vedi le altre sezioni in questo articolo.
 
 ## <a name="prepare-for-conversion-by-creating-all-required-engineering-product-categories"></a>Preparare la conversione creando tutte le categorie di prodotti di progettazione necessarie
 
@@ -81,7 +81,7 @@ Attenersi ai passaggi seguenti per eseguire la procedura guidata **Convertire in
 
     - **Numero prodotto** - Il numero di prodotto.
     - **Nome prodotto** - Il nome del prodotto.
-    - **Categoria di progettazione** - Selezionare la categoria di prodotti di progettazione a cui il prodotto deve appartenere dopo la conversione. Per ogni prodotto deve già esistere una categoria appropriata, come descritto nella sezione precedente di questo argomento. È necessario assegnare una categoria a ogni prodotto.
+    - **Categoria di progettazione** - Selezionare la categoria di prodotti di progettazione a cui il prodotto deve appartenere dopo la conversione. Per ogni prodotto deve già esistere una categoria appropriata, come descritto nella sezione precedente di questo articolo. È necessario assegnare una categoria a ogni prodotto.
     - **Versione** - Immettere la versione del prodotto da assegnare al prodotto dopo la conversione. Ad esempio, si potrebbe selezionare un numero che rientra nella sequenza numerica già utilizzata dalla categoria. Ogni versione di progettazione memorizza i dati rilevanti per la progettazione specifici per quella versione. Per ulteriori informazioni, vedere [Versioni di progettazione e categorie di prodotti di progettazione](engineering-versions-product-category.md).
     - **Stato del ciclo di vita del prodotto** - Selezionare lo stato del ciclo di vita del prodotto in cui deve trovarsi il prodotto dopo la conversione. Lo stato del ciclo di vita del prodotto consente di determinare quali transazioni sono consentite per una data versione di progettazione. Per ulteriori informazioni, vedere [Stati e transazioni del ciclo di vita del prodotto](product-lifecycle-state-transactions.md).
     - **Con distinta base** - Una casella di controllo selezionata indica che il prodotto ha una distinta base. L'impostazione di questa casella di controllo può aiutare a decidere come impostare la casella di controllo **La distinta base corrente sarà parte del prodotto di progettazione**.

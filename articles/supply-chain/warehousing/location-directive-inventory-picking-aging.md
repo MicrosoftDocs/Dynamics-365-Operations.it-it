@@ -1,6 +1,6 @@
 ---
-title: Aging prelievo scorte per direttiva ubicazione
-description: Questo argomento spiega come utilizzare le strategie della direttiva di ubicazione first in, first out (FIFO) e last in, first out (LIFO) durante il prelievo.
+title: Periodo di aging prelievo inventario per direttiva ubicazione
+description: Questo articolo spiega come utilizzare le strategie della direttiva di ubicazione first in, first out (FIFO) e last in, first out (LIFO) durante il prelievo.
 author: Mirzaab
 ms.date: 07/15/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 229dd0033e3eae4bdd33acca6736b7a9feec8c9b
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 34ce119ca70596f0e40797c4b44a8fba4d5b7e0e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8676273"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885698"
 ---
-# <a name="location-directive-inventory-picking-aging"></a>Aging prelievo scorte per direttiva ubicazione
+# <a name="location-directive-inventory-picking-aging"></a>Periodo di aging prelievo inventario per direttiva ubicazione
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come utilizzare le strategie della direttiva di ubicazione first in, first out (FIFO) e last in, first out (LIFO) durante il prelievo. Queste strategie funzionano in combinazione con le date di aging registrate per le ubicazioni da tracciare quando le scorte sono entrate per la prima volta nel magazzino. La funzionalità *Aging prelievo scorte per direttiva ubicazione* utilizza la data sull'ubicazione per determinare l'aging. La funzionalità *Stato ubicazione magazzino* aggiorna la data sull'ubicazione, in base alla data della targa.
+Questo articolo spiega come utilizzare le strategie della direttiva di ubicazione first in, first out (FIFO) e last in, first out (LIFO) durante il prelievo. Queste strategie funzionano in combinazione con le date di aging registrate per le ubicazioni da tracciare quando le scorte sono entrate per la prima volta nel magazzino. La funzionalità *Aging prelievo scorte per direttiva ubicazione* utilizza la data sull'ubicazione per determinare l'aging. La funzionalità *Stato ubicazione magazzino* aggiorna la data sull'ubicazione, in base alla data della targa.
 
 È possibile utilizzare le strategie FIFO e LIFO per spedire sia articoli di cui viene tenuta traccia in batch tracciati in batch che di articoli di cui non viene tenuta traccia in batch, in base alla data in cui le scorte sono entrate in magazzino. Questa funzionalità può essere particolarmente utile per le scorte di cui non viene tenuta traccia in batch, dove una data di scadenza non è disponibile per l'ordinamento.
 

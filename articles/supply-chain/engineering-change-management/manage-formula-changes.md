@@ -1,6 +1,6 @@
 ---
 title: Gestisci le modifiche nelle formule e nei loro ingredienti
-description: Questo argomento descrive come eseguire la gestione delle formule e gestire le modifiche per elaborare i dati anagrafici di produzione.
+description: Questo articolo descrive come eseguire la gestione delle formule e gestire le modifiche per elaborare i dati anagrafici di produzione.
 author: t-benebo
 ms.date: 05/19/2021
 ms.topic: article
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 31953fd29c471e52bd63dbb02c20f5f224c3cae2
-ms.sourcegitcommit: fcb8a3419e3597fe855cae9eb21333698518c2c7
+ms.openlocfilehash: 8105ebc7f3698a6baaa04b6548dac18a7bf81a47
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8103041"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8904074"
 ---
 # <a name="manage-changes-in-formulas-and-their-ingredients"></a>Gestisci le modifiche nelle formule e nei loro ingredienti
 
@@ -29,7 +29,7 @@ Se stai utilizzando le funzionalità di produzione dei processi di Microsoft Dyn
 
 ## <a name="turn-this-feature-on-or-off"></a>Attivare o disattivare questa funzionalità
 
-La funzionalità descritta in questo argomento richiede che entrambe le funzionalità *Gestione modifiche di progettazione* e *Gestisci modifiche a formule e relativi ingredienti* siano attivate per il sistema. Per dettagli su come attivare o disattivare queste funzionalità, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
+La funzionalità descritta in questo articolo richiede che entrambe le funzionalità *Gestione modifiche di progettazione* e *Gestisci modifiche a formule e relativi ingredienti* siano attivate per il sistema. Per dettagli su come attivare o disattivare queste funzionalità, vedere [Panoramica della gestione delle modifiche di progettazione](product-engineering-overview.md).
 
 ## <a name="feature-naming-conventions"></a>Convenzioni di denominazione delle funzioni
 
@@ -46,7 +46,7 @@ Il seguente elenco riepiloga il modo in cui le funzionalità di gestione delle m
 - **Controllo della disponibilità**: utilizza i controlli di sistema e la guida dell'utente (questionari e liste di controllo) per garantire che tutti i dati di prodotto richiesti siano stati inseriti completamente prima che il prodotto venga rilasciato. Per ulteriori informazioni, vedere [Preparazione del prodotto](product-readiness.md).
 - **Funzionalità di rilascio del prodotto migliorate**: rilascia le versioni completamente definite di un prodotto e la sua formula da un'organizzazione (persona giuridica) ad altre persone giuridiche. Puoi persino decidere se le informazioni sul prodotto devono essere riviste o modificate prima del rilascio. Per ulteriori informazioni, vedere [Strutture di rilascio prodotti](release-product-structure.md).
 
-Si noti che la maggior parte degli argomenti a cui sono collegati nell'elenco precedente forniscono esempi basati su distinte base (BOM). Tuttavia, le formule funzionano in modo simile. Di seguito sono riportati alcuni concetti aggiuntivi utili da conoscere quando si utilizza la gestione delle modifiche (o solo la gestione delle modifiche delle formule) per gestire formule e distinte materiali:
+Tieni presente che la maggior parte degli articoli a cui sono collegati nell'elenco precedente forniscono esempi basati su distinte base (BOM). Tuttavia, le formule funzionano in modo simile. Di seguito sono riportati alcuni concetti aggiuntivi utili da conoscere quando si utilizza la gestione delle modifiche (o solo la gestione delle modifiche delle formule) per gestire formule e distinte materiali:
 
 - Per ogni [categoria di progettazione del prodotto](engineering-versions-product-category.md), è possibile specificare il tipo di produzione (DBA, formula o articolo di pianificazione). Puoi inoltre specificare se il supporto del peso variabile è richiesto per i prodotti che utilizzano quella categoria.
 - Co-prodotti e sottoprodotti non sono prodotti di progettazione. Pertanto, non ne viene eseguito il controllo delle versioni. Se devi modificarli, crea semplicemente un nuovo prodotto. Questo approccio semplifica la manutenzione.

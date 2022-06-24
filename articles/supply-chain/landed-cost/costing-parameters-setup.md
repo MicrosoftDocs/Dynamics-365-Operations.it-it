@@ -1,6 +1,6 @@
 ---
 title: Impostazione dei valori dei parametri di determinazione dei costi
-description: Quando si imposta il modulo Costo sbarcato, è possibile definire diversi set di valori comuni che saranno disponibili quando si selezionano tipi specifici di valori dei parametri di determinazione dei costi in altre parti dell'app. In questo argomento viene descritto come impostare questi set di valori.
+description: Quando si imposta il modulo Costo sbarcato, è possibile definire diversi set di valori comuni che saranno disponibili quando si selezionano tipi specifici di valori dei parametri di determinazione dei costi in altre parti dell'app. In questo articolo viene descritto come impostare questi set di valori.
 author: Weijiesa
 ms.date: 12/07/2020
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ed20181201a2f3f84c3dc08549f4f107d46a50a2
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: ca3633cd8a3fb053bda597b968003685aa2326ef
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8689749"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8852333"
 ---
 # <a name="costing-parameter-values-setup"></a>Impostazione dei valori dei parametri di determinazione dei costi
 
 [!include [banner](../../includes/banner.md)]
 
-Quando si imposta il modulo **Costo sbarcato**, è possibile definire diversi set di valori comuni e impostazioni correlate per valore. Questi valori saranno quindi disponibili quando si selezionano tipi specifici di valori dei parametri di determinazione dei costi in altre parti dell'app. In questo argomento viene descritto come impostare questi set di valori.
+Quando si imposta il modulo **Costo sbarcato**, è possibile definire diversi set di valori comuni e impostazioni correlate per valore. Questi valori saranno quindi disponibili quando si selezionano tipi specifici di valori dei parametri di determinazione dei costi in altre parti dell'app. In questo articolo viene descritto come impostare questi set di valori.
 
 ## <a name="set-up-cost-type-codes"></a>Impostare codici di tipo di costo
 

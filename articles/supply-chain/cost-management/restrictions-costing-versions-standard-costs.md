@@ -1,6 +1,6 @@
 ---
 title: Restrizioni per le versioni di determinazione costi per i costi standard
-description: In questo argomento vengono elencate le restrizioni che sia applicano a una versione di determinazione costi per i costi standard.
+description: In questo articolo vengono elencate le restrizioni che sia applicano a una versione di determinazione costi per i costi standard.
 author: JennySong-SH
 ms.date: 01/17/2018
 ms.topic: article
@@ -16,18 +16,18 @@ ms.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11bf14b2926fd4ff053697bef8b7dad781948a2c
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 8c5c00ae8952e2c80d97d039271a6f5c63e9a72f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672208"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8867987"
 ---
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restrizioni per le versioni di determinazione costi per i costi standard
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono elencate le restrizioni che sia applicano a una versione di determinazione costi per i costi standard. 
+In questo articolo vengono elencate le restrizioni che sia applicano a una versione di determinazione costi per i costi standard. 
 
 Le restrizioni seguenti aiutano a garantire la conformità ai principi di determinazione costi standard:
 
@@ -37,9 +37,9 @@ Le restrizioni seguenti aiutano a garantire la conformità ai principi di determ
 
 -  I calcoli DBA devono essere eseguiti nella modalità di esplosione a livello singolo.
 
-I dati relativi al costo dell'articolo per i costi standard possono essere copiati in un'altra versione di determinazione costi contenente costi standard o pianificati. Tali dati per i costi pianificati tuttavia non potranno essere copiati in una versione di determinazione costi contenente costi standard, in quanto le restrizioni indicate in precedenza in questo argomento non sono applicabili ai costi pianificati.
+I dati relativi al costo dell'articolo per i costi standard possono essere copiati in un'altra versione di determinazione costi contenente costi standard o pianificati. Tali dati per i costi pianificati tuttavia non potranno essere copiati in una versione di determinazione costi contenente costi standard, in quanto le restrizioni indicate in precedenza in questo articolo non sono applicabili ai costi pianificati.
 
-## <a name="related-topics"></a>Argomenti correlati
+## <a name="related-articles"></a>Articoli correlati
 
 [Panoramica versioni di determinazione costi](costing-versions.md)
 

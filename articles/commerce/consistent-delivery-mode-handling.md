@@ -1,6 +1,6 @@
 ---
 title: Abilitare la gestione coerente della modalità di consegna nei canali e-commerce
-description: Questo argomento descrive come abilitare la gestione coerente della modalità di consegna per risolvere possibili problemi correlati ai flussi di addebiti nei canali di e-commerce di Microsoft Dynamics 365 Commerce.
+description: Questo articolo descrive come abilitare la gestione coerente della modalità di consegna per risolvere possibili problemi correlati ai flussi di addebiti nei canali di e-commerce di Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 ms.date: 02/24/2022
 ms.topic: article
@@ -9,18 +9,18 @@ ms.reviewer: v-chgri
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 4cecd70dacd72572afc8e6cb65530bf2be4cc93d
-ms.sourcegitcommit: d2e5d38ed1550287b12c90331fc4136ed546b14c
+ms.openlocfilehash: f32f1915f8f7de1d5536b69b05bc74c6149dfda6
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "8349951"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8885587"
 ---
 # <a name="enable-consistent-delivery-mode-handling-in-e-commerce-channels"></a>Abilitare la gestione coerente della modalità di consegna nei canali e-commerce 
 
 [!include [banner](includes/banner.md)]
 
-Questo argomento descrive come abilitare la gestione coerente della modalità di consegna per risolvere possibili problemi correlati ai flussi di addebiti nei canali di e-commerce di Microsoft Dynamics 365 Commerce.
+Questo articolo descrive come abilitare la gestione coerente della modalità di consegna per risolvere possibili problemi correlati ai flussi di addebiti nei canali di e-commerce di Microsoft Dynamics 365 Commerce.
 
 In Dynamics 365 Commerce, gli addebiti a livello di intestazione non ripartiti proporzionalmente non vengono applicati per impostazione predefinita nei canali di e-commerce. Questo comportamento potrebbe causare uno o entrambi i seguenti problemi nei canali di e-commerce:
 
