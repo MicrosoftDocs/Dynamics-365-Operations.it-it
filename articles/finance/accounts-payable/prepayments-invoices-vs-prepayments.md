@@ -1,6 +1,6 @@
 ---
 title: Fatture di pagamento anticipato e pagamenti anticipati a confronto
-description: Questo argomento descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati.
+description: Questo articolo descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati.
 author: abruer
 ms.date: 10/26/2017
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f05f1d8d2a1fb454f3f227d2cc8138f2b779ff87
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716327"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8895198"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Fatture di pagamento anticipato e pagamenti anticipati a confronto
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Un metodo crea una fattura di pagamento anticipato che è associata a un ordine fornitore. L'altro metodo crea i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
+Questo articolo descrive e contrappone i due metodi utilizzati dalle organizzazioni per i pagamenti anticipati. Un metodo crea una fattura di pagamento anticipato che è associata a un ordine fornitore. L'altro metodo crea i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di scritture contabili e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato.
 
 Le organizzazioni possono emettere pagamenti anticipati in favore dei fornitori di merci o servizi prima che la fornitura di tali merci o servizi sia stata completata. Due metodi possono essere utilizzati per emettere pagamenti anticipati ai fornitori. Per ridurre al minimo i rischi, è possibile tenere traccia dei pagamenti definendo il pagamento anticipato in relazione a un ordine fornitore. Per questo metodo è necessario creare una fattura di pagamento anticipato associata a un ordine fornitore. Questo metodo è denominato fatturazione di pagamento anticipato. Le organizzazioni che non desiderano tenere traccia dei pagamenti anticipati in modo sistematico o che non ricevono una fattura di pagamento anticipato dal proprio fornitore possono utilizzare i giustificativi giornale di registrazione per pagamento anticipato anziché il metodo di fatturazione di pagamento anticipato. È possibile creare i giustificativi del giornale di registrazione per pagamento anticipato mediante la creazione di inserimenti nel giornale di registrazione e contrassegnando tali voci come giustificativi del giornale di registrazione per pagamento anticipato. Con questo metodo non è possibile verificare quali pagamenti anticipati vengono effettuati a favore di un fornitore in relazione a un determinato ordine fornitore. Tuttavia, è possibile contrassegnare un pagamento anticipato registrato per la liquidazione in base a un ordine fornitore.
 

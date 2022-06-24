@@ -1,6 +1,6 @@
 ---
 title: Creare i programmi di fatturazione
-description: In questo argomento viene descritto come creare, eliminare e modificare programmi di fatturazione.
+description: In questo articolo viene descritto come creare, eliminare e modificare programmi di fatturazione.
 author: JodiChristiansen
 ms.date: 02/09/2022
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ed31dd96b0115610cfb74aed69f1acc1055bfe56
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1248799f92dc6cbce8528a53cc8a3012d2a67b3c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690447"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8903394"
 ---
 # <a name="create-billing-schedules"></a>Creare i programmi di fatturazione
 
@@ -83,7 +83,7 @@ Per rimuovere un articolo da un programma di fatturazione, attieniti alla seguen
 2. Nella Scheda dettaglio **Righe programma di fatturazione**, seleziona la voce da eliminare, quindi seleziona **Rimuovi**.
 3. Seleziona **Salva**.
 
-Il resto di questo argomento descrive le azioni e i dettagli disponibili per le righe nella Scheda dettaglio **Righe programma di fatturazione**.
+Il resto di questo articolo descrive le azioni e i dettagli disponibili per le righe nella Scheda dettaglio **Righe programma di fatturazione**.
 
 ## <a name="billing-schedule-line-actions"></a>Azioni delle righe del programma di fatturazione
 

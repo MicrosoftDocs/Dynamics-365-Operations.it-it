@@ -1,6 +1,6 @@
 ---
 title: Miglioramento dell'usabilità dei dati bancari
-description: Questo argomento spiega come risparmiare tempo e semplificare la registrazione dei dati bancari per clienti e fornitori.
+description: Questo articolo spiega come risparmiare tempo e semplificare la registrazione dei dati bancari per clienti e fornitori.
 author: ilkond
 ms.date: 11/12/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 51c12264b0e2ce94498cac681ae53c2af8bb734324d1a2df38b0896917ed6bdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6fb9ba103e40ebf9bc8071527169144ea9ac02c5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765011"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8902350"
 ---
 # <a name="bank-data-usability-enhancement"></a>Miglioramento dell'usabilità dei dati bancari
 

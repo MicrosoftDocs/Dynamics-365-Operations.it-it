@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi generali
-description: In questo argomento vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse.
+description: In questo articolo vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5896b031229c7fe7e02c8ccf038dd2b1a4f2de05
-ms.sourcegitcommit: 7faf82fa7ce269c0201abb8473af861ef7ce00bf
+ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "8614097"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8853657"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
@@ -22,10 +22,10 @@ ms.locfileid: "8614097"
 
 
 
-In questo argomento vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse.
+In questo articolo vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse.
 
 > [!IMPORTANT]
-> Alcuni problemi che questo argomento tratta potrebbero richiedere il ruolo di amministratore di sistema o le credenziali di amministratore del tenant Microsoft Azure Active Directory (Azure AD). La sezione per ogni problema spiega se sono richiesti ruolo o credenziali specifici.
+> Alcuni problemi che questo articolo tratta potrebbero richiedere il ruolo di amministratore di sistema o le credenziali di amministratore del tenant Microsoft Azure Active Directory (Azure AD). La sezione per ogni problema spiega se sono richiesti ruolo o credenziali specifici.
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Abilitare e visualizzare il log di traccia del plug-in Dataverse per visualizzare i dettagli dell'errore
 

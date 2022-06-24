@@ -1,6 +1,6 @@
 ---
 title: Novità o modifiche in Dynamics 365 Human Resources 6 settembre 2021
-description: Questo argomento descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 6 settembre 2021.
+description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Human Resources al 6 settembre 2021.
 author: marcelbf
 ms.date: 09/06/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-09-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 314d836db9b7560c2ed95ad1b9d2eba753e39d2b
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 776498b32f8323b1a06f39b518cdc1ae534f9bcc
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8690584"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8872154"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-6-2021"></a>Novità o modifiche in Dynamics 365 Human Resources 6 settembre 2021
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Questo argomento descrive le caratteristiche che sono nuove, cambiate o in arrivo in Microsoft Dynamics 365 Human Resources.
+Questo articolo descrive le funzionalità nuove, modificate o future di Microsoft Dynamics 365 Human Resources.
 
 Per ulteriori informazioni sul processo di aggiornamento e pianificazione, vedere [Processo di aggiornamento](hr-admin-setup-update-process.md).
 
@@ -50,9 +50,9 @@ Le seguenti funzioni sono generalmente disponibili con questa versione.
 Questa versione include le seguenti correzioni di bug.
 
 > [!NOTE]
-> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo argomento per includere le correzioni di bug che sono state inserite nella build dopo che questo argomento è stato inizialmente pubblicato.
+> Il nostro obiettivo è fornire queste informazioni il prima possibile. Potremmo aggiornare questo articolo per includere le correzioni di bug che sono state inserite nella build dopo che questo articolo è stato inizialmente pubblicato.
 
-| Numero problema | Problema | descrizione |
+| Numero problema | Problema | Description |
 |---|---|---|
 | 610128 | Errore relativo alla pubblicazione dei dati quando si utilizza HcmDiscussionOverallCommentEntity | Quando i dati vengono pubblicati da una cartella di lavoro di Excel nell'entità HcmDiscussionOverralCommentEntity, si verifica il seguente errore: "Impossibile individuare il record di origine dati di tipo HcmTopicOverrall". |
 | 589073 | Il report EEO-1 conteggia i valori "non specificati" e vuoti per il campo **Genere** come valore "Femmina". | Se **Maschio** non è specificato per il campo **Genere**, il report EEO-1 genera un valore predefinito di **Femmina**. |

@@ -1,6 +1,6 @@
 ---
 title: Modelli di fasi
-description: Questo argomento spiega come impostare la funzionalità di fatturazione a fasi nella fatturazione abbonamento.
+description: Questo articolo spiega come impostare la funzionalità di fatturazione a fasi nella fatturazione abbonamento.
 author: JodiChristiansen
 ms.date: 11/04/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: ecc4ddbb4d22eefac36f8cf8205d3b6084bd7d9d
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: d3c2cf751e4998c73bc3816e5b81e8d5963c8e53
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8686493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856772"
 ---
 # <a name="milestone-billing"></a>Fatturazione a fasi
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega come definire i modelli per la funzionalità di fatturazione a fasi nella fatturazione abbonamento. Per ciascuna riga nel modello a fasi, è possibile definire la percentuale o l'importo di allocazione. È quindi possibile assegnare il modello a fasi agli elementi del programma di fatturazione che utilizzano la funzionalità di fatturazione a fasi.
+Questo articolo spiega come definire i modelli per la funzionalità di fatturazione a fasi nella fatturazione abbonamento. Per ciascuna riga nel modello a fasi, è possibile definire la percentuale o l'importo di allocazione. È quindi possibile assegnare il modello a fasi agli elementi del programma di fatturazione che utilizzano la funzionalità di fatturazione a fasi.
 
 ## <a name="add-a-template"></a>Aggiungi un modello
 

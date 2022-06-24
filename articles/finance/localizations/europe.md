@@ -1,6 +1,6 @@
 ---
 title: Panoramica Europa
-description: In questo argomento vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Europa.
+description: In questo articolo vengono forniti i collegamenti alle risorse della documentazione Microsoft Dynamics 365 Finance per l'Europa.
 author: kfend
 ms.date: 01/15/2022
 ms.topic: overview
@@ -12,18 +12,18 @@ ms.search.region: global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b7a3dd75f526a076b6fe696f71ec623e20abb24
-ms.sourcegitcommit: 753714ac0dabc4b7ce91509757cd19f7be4a4793
+ms.openlocfilehash: 9a9fd88bde02d8ea4f6eeda5e8785366ec0d8e85
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8856520"
 ---
 # <a name="europe-overview"></a>Panoramica Europa
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni e collegamenti a risorse utili per impostare persone giuridiche con un indirizzo principale in Europa. 
+In questo articolo vengono fornite informazioni e collegamenti a risorse utili per impostare persone giuridiche con un indirizzo principale in Europa. 
 
 - [Panoramica titolari di anticipi](emea-advance-holders.md)
  - [Transazioni dei titolari di anticipi](emea-advance-holders-transactions.md)

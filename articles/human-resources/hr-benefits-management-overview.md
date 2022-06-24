@@ -1,6 +1,6 @@
 ---
 title: Panoramica di gestione dei benefit
-description: Questo argomento fornisce una panoramica della funzione di gestione dei benefici in Dynamics 365 Human Resources.
+description: Questo articolo fornisce una panoramica della funzione di gestione dei benefici in Dynamics 365 Human Resources.
 author: twheeloc
 ms.date: 12/06/2021
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e53a68aed2e4b1e0b0d7797e7326e223c47443f4
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687193"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8901149"
 ---
 # <a name="benefits-management-overview"></a>Panoramica di gestione dei benefit
 
@@ -44,7 +44,7 @@ Se si desidera accedere ai dati dimostrativi, sarà necessario ridistribuire l'a
 
 ## <a name="enable-benefits-management"></a>Abilitare Gestione benefit
 
-In questo argomento viene descritto come attivare le funzionalità in Human Resources. Spiega anche quali funzioni esistenti in Human Resources sono sostituite da Benefits management e quali funzioni sono disabilitate dopo aver attivato Benefits management.
+In questo articolo viene descritto come attivare le funzionalità in Human Resources. Spiega anche quali funzioni esistenti in Human Resources sono sostituite da Benefits management e quali funzioni sono disabilitate dopo aver attivato Benefits management.
 
 > [!IMPORTANT]
 > Dopo aver abilitato Gestione benefit in un ambiente di **Produzione** non è possibile disabilitarlo. Si consiglia di abilitare e testare Gestione benefit in un ambiente **sandbox** prima di abilitarlo in un ambiente di **Produzione**. Sono presenti differenze significative tra la funzionalità dei benefit legacy e la nuova funzionalità di Gestione benefit che richiedono una configurazione aggiuntiva e devono essere testati prima di essere messi in produzione.

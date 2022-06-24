@@ -1,6 +1,6 @@
 ---
 title: Fatture elettroniche del fornitore
-description: Questo argomento spiega come configurare e inviare fatture elettroniche del fornitore in Italia.
+description: Questo articolo spiega come configurare e inviare fatture elettroniche del fornitore in Italia.
 author: ikondo
 ms.date: 12/01/2021
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2021-12-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3267b81872c17df3fa053939be2429352528ae3a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0261da87a746f181592a869a3377f165a49e8b80
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8696112"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8868292"
 ---
 # <a name="vendor-electronic-invoices"></a>Fatture elettroniche del fornitore
 
 [!include [banner](../includes/banner.md)]
 
-Secondo la normativa italiana, le fatture che pervengono da fornitori esteri non fiscalmente residenti in Italia devono essere presentate al Sistema di Interscambio (SDI). Questo argomento spiega come configurare e inviare le fatture elettroniche del fornitore nel formato elettronico **FatturaPA**.
+Secondo la normativa italiana, le fatture che pervengono da fornitori esteri non fiscalmente residenti in Italia devono essere presentate al Sistema di Interscambio (SDI). Questo articolo spiega come configurare e inviare le fatture elettroniche del fornitore nel formato elettronico **FatturaPA**.
 
 ## <a name="prerequisites"></a>Prerequisiti
 

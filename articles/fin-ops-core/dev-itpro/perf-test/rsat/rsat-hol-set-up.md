@@ -1,6 +1,6 @@
 ---
 title: Esercitazione sull'impostazione e l'installazione di Regression Suite Automation Tool
-description: Questo argomento è un'esercitazione in cui viene illustrato come impostare e installare lo strumento Regression Suite Automation Tool (RSAT).
+description: Questo articolo è un'esercitazione in cui viene illustrato come impostare e installare lo strumento Regression Suite Automation Tool (RSAT).
 author: tonyafehr
 ms.date: 09/20/2019
 ms.topic: article
@@ -14,16 +14,16 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 5dcdd14f54b9c0ad39794ff98ede29332c246513
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: ec4ae765aaac038e6c7eff11403fb21ebd27fc2c
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781993"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8858592"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Esercitazione sull'impostazione e l'installazione di Regression Suite Automation Tool
 
-Questo argomento è un'esercitazione che consente di iniziare a utilizzare RSAT e gli strumenti ad esso associati.
+Questo articolo è un'esercitazione che consente di iniziare a utilizzare RSAT e gli strumenti ad esso associati.
 
 [!include [banner](../../includes/banner.md)]
 
@@ -111,7 +111,7 @@ In questa esercitazione, si utilizzerà il Modellatore di processi aziendali (BP
 
 ## <a name="configure-the-lcs-project"></a>Configurare il progetto LCS
 
-È necessario un progetto Lifecycle Services (LCS) per la libreria di test principale. Il Modellatore di processi aziendali (BPM) LCS viene utilizzato come libreria principale per i test case. BPM è utilizzato per gestire e distribuire le librerie di test nei progetti LCS. Ad esempio, un partner Microsoft o un fornitore di software indipendente (ISV) che crea librerie di test rilascerà test case sotto forma di librerie BPM. In BPM, i test case sono organizzati per processo aziendale. BPM non definisce l'ordine di esecuzione o la frequenza del passaggio dei test. Queste informazioni sono gestite in Azure DevOps, come descritto nelle sezioni successive di questo argomento.  
+È necessario un progetto Lifecycle Services (LCS) per la libreria di test principale. Il Modellatore di processi aziendali (BPM) LCS viene utilizzato come libreria principale per i test case. BPM è utilizzato per gestire e distribuire le librerie di test nei progetti LCS. Ad esempio, un partner Microsoft o un fornitore di software indipendente (ISV) che crea librerie di test rilascerà test case sotto forma di librerie BPM. In BPM, i test case sono organizzati per processo aziendale. BPM non definisce l'ordine di esecuzione o la frequenza del passaggio dei test. Queste informazioni sono gestite in Azure DevOps, come descritto nelle sezioni successive di questo articolo.  
 
 Per il progetto LC, è possibile utilizzare un progetto partner o di implementazione cliente esistente.
 

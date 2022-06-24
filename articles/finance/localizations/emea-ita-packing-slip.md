@@ -1,6 +1,6 @@
 ---
 title: Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto per l'Italia
-description: In questo argomento viene descritto come impostare i dettagli di consegna di trasporto e registrare un documento di trasporto per l'Italia.
+description: In questo articolo viene descritto come impostare i dettagli di consegna di trasporto e registrare un documento di trasporto per l'Italia.
 author: ShylaThompson
 ms.date: 04/06/2018
 ms.topic: article
@@ -12,12 +12,12 @@ ms.search.region: Italy
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 74a42eb77ae82e0e6b5905e51e63731c6a661331039f12c687d2382f90fb62b5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0378baf4346f9f7727291e4e8f45714e4165a726
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778840"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8886277"
 ---
 # <a name="post-and-print-a-packing-slip-with-transportation-delivery-details-for-italy"></a>Registrare e stampare un documento di trasporto con dettagli di consegna di trasporto per l'Italia
 

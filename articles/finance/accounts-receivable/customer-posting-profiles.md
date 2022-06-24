@@ -1,6 +1,6 @@
 ---
 title: Profili di registrazione cliente
-description: Questo argomento descrive i profili di registrazione cliente che controllano la registrazione delle transazioni cliente nella contabilità generale.
+description: Questo articolo descrive i profili di registrazione cliente che controllano la registrazione delle transazioni cliente nella contabilità generale.
 author: JodiChristiansen
 ms.date: 12/22/2021
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ed5ab24e37c75222080bd242aa72a39ecb476bf
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734634"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891697"
 ---
 # <a name="customer-posting-profiles"></a>Profili di registrazione cliente
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive i profili di registrazione cliente che controllano la registrazione delle transazioni cliente nella contabilità generale.
+Questo articolo descrive i profili di registrazione cliente che controllano la registrazione delle transazioni cliente nella contabilità generale.
 
 ## <a name="customer-posting-profiles"></a>Profili di registrazione cliente
 

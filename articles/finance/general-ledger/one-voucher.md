@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 9a0a9a3f23a3aec0077fd1a64c55fea567b72800
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: fa7a519b87bd5933b8b672f9f9b3e230fd7f2eb4
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722494"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8896407"
 ---
 # <a name="one-voucher"></a>Un giustificativo
 
@@ -37,7 +37,7 @@ La funzionalità esistente per giornali di registrazione finanziari (il giornale
     [![Riga singola.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
-    > La definizione di Un giustificativo **non** copre i casi in cui i nomi di giornali di registrazione sono impostati come **Un solo numero di giustificativo**, ma l'utente immette poi un giustificativo che include solo tipi di conto CoGe. In questo argomento Un giustificativo significa che c'è un solo giustificativo che contiene più di un fornitore, cliente, banca, cespite o progetto.
+    > La definizione di Un giustificativo **non** copre i casi in cui i nomi di giornali di registrazione sono impostati come **Un solo numero di giustificativo**, ma l'utente immette poi un giustificativo che include solo tipi di conto CoGe. In questo articolo Un giustificativo significa che c'è un solo giustificativo che contiene più di un fornitore, cliente, banca, cespite o progetto.
 
 - Immettere un giustificativo plurimo in cui non sono presenti conti di contropartita.
 
@@ -63,16 +63,16 @@ Si genera quindi il report **Spese per fornitore** nell'area di lavoro **Informa
 
 A causa dei problemi che possono verificarsi quando si utilizza un voucher, questa funzionalità verrà eventualmente deprecata. Tuttavia, poiché si presentano discontinuità funzionali che dipendono da questa funzionalità, il deprecamento non si verificherà tutto in una volta. Si utilizzerà invece la seguente programmazione:
 
-- **Versione di primavera 2018**: questa funzionalità sarà disattivata per impostazione predefinita attraverso il parametro **Consenti più transazioni in un giustificativo** nella scheda **Generale** della pagina **Parametri di contabilità generale**. È tuttavia possibile riattivare la funzionalità se l'organizzazione ha uno scenario che rientra in uno delle discontinuità funzionali indicate più avanti in questo argomento.
+- **Versione di primavera 2018**: questa funzionalità sarà disattivata per impostazione predefinita attraverso il parametro **Consenti più transazioni in un giustificativo** nella scheda **Generale** della pagina **Parametri di contabilità generale**. È tuttavia possibile riattivare la funzionalità se l'organizzazione ha uno scenario che rientra in uno delle discontinuità funzionali indicate più avanti in questo articolo.
 
-    - Se il tuo scenario aziendale non richiede un voucher, ti consigliamo di lasciare la funzionalità disattivata. Se la usi anche se esiste un'altra soluzione, questi "bug" non verranno corretti da Microsoft nelle aree identificate oltre in questo argomento.
+    - Se il tuo scenario aziendale non richiede un voucher, ti consigliamo di lasciare la funzionalità disattivata. Se la usi anche se esiste un'altra soluzione, questi "bug" non verranno corretti da Microsoft nelle aree identificate oltre in questo articolo.
     - Ti consigliamo di interrompere l'uso di un giustificativo per le integrazioni, a meno che la funzionalità sia necessaria per uno dei gap funzionali documentati.
 
 - **Versioni successive**: è necessario soddisfare diversi requisiti commerciali utilizzando un solo giustificativo. Microsoft deve garantire che tutti i requisiti commerciali identificati possano ancora essere soddisfatti nel sistema dopo che la funzionalità è stata deprecata. Pertanto, sarà probabilmente necessario aggiungere nuove funzionalità per colmare le lacune funzionali. Microsoft non può fornire una soluzione specifica, perché ogni lacuna di funzionalità è diversa e deve essere valutata in base ai requisiti aziendali. Alcune lacune funzionali verranno probabilmente sostituite da funzionalità che aiutano a soddisfare requisiti aziendali specifici. Tuttavia, altre lacune potrebbero essere colmate continuando a consentire l'inserimento in un giornale di registrazione, come quando viene utilizzato un giustificativo, ma migliorando il sistema per tenere traccia di più dettagli come richiesto.
 
 Dopo che tutte le lacune funzionali sono state colmate, Microsoft comunicherà che la funzionalità sarà deprecata. Tuttavia, la deprecazione non sarà efficace per almeno un anno da quella comunicazione. Sebbene Microsoft non sia in grado di fornire una stima su quando la funzionalità Un giustificativo sarà deprecata, saranno probabilmente necessari almeno due anni prima che si verifichi il deprecamento. I criteri Microsoft prevedono di lasciare almeno 12 mesi tra l'annuncio della funzionalità deprecata e l'effettivo deprecamento, in modo che i clienti e i fornitori di software indipendenti (ISV) abbiano il tempo di reagire alla modifica. Ad esempio, un'organizzazione potrebbe dover aggiornare i processi, le entità e le integrazioni aziendali.
 
-Il deprecamento di Un giustificativo è un cambiamento significativo che verrà ampiamente comunicato. Come parte di tale comunicazione, Microsoft aggiornerà questo argomento e pubblicherà un post sul blog nel blog di Microsoft Dynamics 365 Finance, aggiornare l'argomento "Funzionalità rimosse o deprecate", comunicare la modifica alle conferenze Microsoft appropriate e così via.
+Il deprecamento di Un giustificativo è un cambiamento significativo che verrà ampiamente comunicato. Come parte di tale comunicazione, Microsoft aggiornerà questo articolo e pubblicherà un post sul blog nel blog di Microsoft Dynamics 365 Finance, aggiornerà l'articolo "Funzionalità rimosse o deprecate", comunicherà la modifica alle conferenze Microsoft appropriate e così via.
 
 ## <a name="why-use-one-voucher"></a>Perché utilizzare la funzionalità Un giustificativo?
 

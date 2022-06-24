@@ -1,6 +1,6 @@
 ---
 title: Standard supportati per la fatturazione elettronica in Europa
-description: In questo argomento viene descritto il livello di copertura della fatturazione elettronica per l'Europa.
+description: In questo articolo viene descritto il livello di copertura della fatturazione elettronica per l'Europa.
 author: mrolecki
 ms.date: 11/19/2020
 ms.topic: article
@@ -14,22 +14,22 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3d41b00a6762c9985cf86b54d92b58a3e4ccdf19
-ms.sourcegitcommit: d13ea8b6baf73601a8b57548232aac84ffaba717
+ms.openlocfilehash: 6bbd2acc879447bd7a5883abffdfe0582f6f7554
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7941229"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8906257"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Standard supportati per la fatturazione elettronica in Europa
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto il livello di copertura della fatturazione elettronica per l'Europa. 
+In questo articolo viene descritto il livello di copertura della fatturazione elettronica per l'Europa. 
 
 L'implementazione e l'adozione della fatturazione elettronica in scala comunitaria europea è disciplinata da [Direttiva del Consiglio 2010/45/UE](https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2010:189:0001:0008:EN:PDF), che interessa tutti gli stati membri UE. Le società che desiderano beneficiare della fatturazione elettronica devono inviare fatture di ordini cliente, fatture a testo libero, fatture di progetto, note di accredito ordini cliente e note di accredito delle fatture di progetto come file XML al governo o ad altre parti del settore che richiedono l'utilizzo della fatturazione elettronica. Questi file XML devono rispondere a determinate regole. I requisiti specifici di un paese e la relativa implementazione possono differire tra gli stati membri UE, ma normalmente utilizzano sia Universal Business Language ([UBL](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl)) nelle versioni diverse con personalizzazioni che le specifiche e i punti di accesso [PEPPOL](https://www.peppol.eu) per la convalida e il trasporto. Il vantaggio principale dell'UBL è che i documenti aziendali possono essere standardizzati per diversi scopi. Poiché l'UBL è uno standard internazionale flessibile che supporta numerosi requisiti aziendali, questi documenti aziendali possono essere scambiati tra paesi diversi.
 
-## <a name="electronic-invoice-formats-currently-available-in-dynamics-365-finance"></a>Formati di fattura elettronica sono attualmente disponibili in Dynamics 365 Finance
+## <a name="electronic-invoice-formats-currently-available-in-dynamics-365-finance"></a>Formati di fattura elettronica attualmente disponibili in Dynamics 365 Finance
 
 Sono disponibili i seguenti formati di fatture elettroniche specifici di ciascun paese:
 

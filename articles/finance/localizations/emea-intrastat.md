@@ -1,6 +1,6 @@
 ---
 title: Panoramica di Intrastat
-description: In questo argomento vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea.
+description: In questo articolo vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea.
 author: EvgenyPopovMBS
 ms.date: 01/13/2021
 ms.topic: overview
@@ -16,18 +16,18 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97c2b4068f3b8d38281e637ec80f04b19d19be61
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9360f97506ac7bdf67bb2f1b296f01b6ed49b39f
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7986038"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8894781"
 ---
 # <a name="intrastat-overview"></a>Panoramica di Intrastat
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate inoltre informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
+In questo articolo vengono fornite informazioni sulla dichiarazione Intrastat per gli scambi commerciali di beni e servizi tra paesi dell'Unione Europea. Sono riportate inoltre informazioni generali sul processo di dichiarazione e vengono descritte le impostazioni necessarie e i prerequisiti.
 
 Intrastat è il sistema per la raccolta e la generazione di statistiche sugli scambi commerciali tra paesi dell'Unione Europea. La dichiarazione Intrastat è richiesta ogni volta che un prodotto attraversa il confine di un altro paese UE. In più paesi, il report Intrastat si applica anche ai servizi. Gli elementi obbligatori e facoltativi possono essere raccolti nella dichiarazione Intrastat. Gli elementi seguenti sono obbligatori: numero di imposta sul valore aggiunto (IVA) della parte responsabile di immettere informazioni, il periodo di riferimento, il flusso (arrivo o spedizione), il codice di voce doganale di otto cifre, lo stato membro del partner (stato membro della spedizione negli arrivi e stato membro di destinazione delle spedizioni), il valore delle merci, la quantità delle merci (massa netto e unità supplementare) e la natura della transazione. Per i paesi/regioni è inoltre possibile raccogliere gli elementi facoltativi nelle varie condizioni. Alcuni elementi facoltativi sono il paese di origine, i termini di consegna, la modalità di trasporto, un codice di voce doganale più dettagliato che CN8, l'area di origine nelle spedizioni e l'area di destinazione degli arrivi, la procedura statistica, il valore statistico, una descrizione delle merci e il porto/aeroporto di carico/di scarico.
 
@@ -152,7 +152,7 @@ Utilizzare la pagina **Parametri per il commercio estero** per impostare i param
 
 ### <a name="transaction-codes-and-miscellaneous-charges"></a><a name= "transaction-codes-and-miscellaneous-charges"></a>Codici di transazione e spese varie
 
-Questo argomento tratta uno scenario in cui un'azienda in Germania deve acquistare beni da un'azienda in Italia. Per effettuare questo acquisto, l'azienda tedesca deve impostare nuovi codici di transazione e configurare regole di calcolo per l'importo della fattura e l'importo statistico per i codici di transazione. Inoltre, quando l'azienda crea una fattura, deve specificare le spese varie e le relative percentuali. Tali valori verranno presi in considerazione quando si calcola il valore statistico.
+Questo articolo tratta uno scenario in cui un'azienda in Germania deve acquistare beni da un'azienda in Italia. Per effettuare questo acquisto, l'azienda tedesca deve impostare nuovi codici di transazione e configurare regole di calcolo per l'importo della fattura e l'importo statistico per i codici di transazione. Inoltre, quando l'azienda crea una fattura, deve specificare le spese varie e le relative percentuali. Tali valori verranno presi in considerazione quando si calcola il valore statistico.
 
 Questo scenario usa la persona giuridica **DEMF**.
 

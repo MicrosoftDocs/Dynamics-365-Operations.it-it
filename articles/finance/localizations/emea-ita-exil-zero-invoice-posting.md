@@ -1,6 +1,6 @@
 ---
 title: Registrazione fatture con importo zero
-description: Questo argomento spiega come registrare transazioni finanziarie per fatture che hanno un importo pari a 0 (zero).
+description: Questo articolo spiega come registrare transazioni finanziarie per fatture che hanno un importo pari a 0 (zero).
 author: ilkond
 ms.date: 11/21/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2019-11-29
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: a664a31b18c1943f668762722061bc2b72060b1a6e5a4829a6486807b4585643
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b51b56a7ee6dd0d929f442e17c2be64c7224195d
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764220"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8870000"
 ---
 # <a name="posting-invoices-with-zero-amount"></a>Registrazione fatture con importo zero
 

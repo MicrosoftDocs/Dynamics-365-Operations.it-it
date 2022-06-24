@@ -1,6 +1,6 @@
 ---
-title: Pianificare la rubrica globale e altre rubriche
-description: Questo argomento descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione.
+title: Piano per la rubrica globale e altre rubriche
+description: Questo articolo descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione.
 author: msftbrking
 ms.date: 01/13/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b3f6a74c217b0cc7cec784ca6a964ab2caae0c7e9438aee2cc82987a508d63
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 288c96d8c877f5e3b3101080294b2f6cdeb39882
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8863161"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Piano per la rubrica globale e altre rubriche
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di impostare e configurare la Rubrica globale ed eventuali rubriche aggiuntive. Alcune decisioni richiederanno la conferma delle decisioni che sono state prese per altre aree del prodotto, ad esempio la gerarchia organizzativa.
+Questo articolo descrive le considerazioni e le decisioni che è necessario prendere durante il processo di pianificazione prima di impostare e configurare la Rubrica globale ed eventuali rubriche aggiuntive. Alcune decisioni richiederanno la conferma delle decisioni che sono state prese per altre aree del prodotto, ad esempio la gerarchia organizzativa.
 
 ## <a name="global-address-book"></a>Rubrica globale
 

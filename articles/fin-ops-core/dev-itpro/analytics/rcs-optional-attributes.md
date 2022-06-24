@@ -1,6 +1,6 @@
 ---
 title: Importare file in formato XML con attributi facoltativi
-description: In questo argomento vengono fornite informazioni sulla progettazione di formati ER che specificano attributi XML per analizzare i documenti elettronici in entrata in formato XML.
+description: In questo articolo vengono fornite informazioni sulla progettazione di formati ER che specificano attributi XML per analizzare i documenti elettronici in entrata in formato XML.
 author: NickSelin
 ms.date: 07/03/2019
 ms.topic: article
@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 81156cf13e003a67fde0a73bdcd69b2c997f23a33c464fad82132f7768f8a99f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f5b25b51a4f59bf9c308bcaeb140e2737597798e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757299"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8873224"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Importare file in formato XML con attributi facoltativi
 
@@ -26,7 +26,7 @@ ms.locfileid: "6757299"
 
 È possibile progettare formati di report elettronici (ER) per analizzare documenti elettronici in entrata in formato XML. Determinati attributi di elementi XML possono essere specificati nel formato ER progettato come facoltativi. Ciò consentirà di gestire correttamente i file in entrata con e senza tali attributi XML. È quindi possibile utilizzare il contenuto di tali file per aggiornare i dati dell'applicazione.
 
-Per ulteriori informazioni su questa funzionalità, completare i passaggi nell'argomento [(RCS) Importare file in formato XML con attributi facoltativi](tasks/import-files-xml-format-optional-attributes.md), che fa parte del processo aziendale 7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677). È possibile scaricare questa guida attività e i file di esempio associati dall'[Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
+Per ulteriori informazioni su questa funzionalità, completa i passaggi nell'articolo [(RCS) Importare file in formato XML con attributi facoltativi](tasks/import-files-xml-format-optional-attributes.md), che fa parte del processo aziendale 7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677). È possibile scaricare questa guida attività e i file di esempio associati dall'[Area download Microsoft](https://go.microsoft.com/fwlink/?linkid=874684).
 
 
 | Descrizione contenuto       | File                                                         |
@@ -38,7 +38,7 @@ Per ulteriori informazioni su questa funzionalità, completare i passaggi nell'a
 I passaggi seguenti illustrano come un utente con ruolo di amministratore di sistema o di sviluppatore per la creazione di report elettronici può progettare una configurazione di formato ER per importare file in formato XML contenente attributi facoltativi. Per completare questi passaggi, è necessario dapprima completare i passaggi nella procedura [Creare provider di configurazione e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md). Prima di iniziare, scaricare e salvare localmente il file IncomingDocumentToLearnHowToHandleOptionalAttributes.xml dall'Area download Microsoft (https://go.microsoft.com/fwlink/?linkid=874684).
 
 1. Andare a **Amministrazione organizzazione** > **Aree di lavoro** > **Creazione di report elettronici**.
-2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se questo provider di configurazione non è visualizzato, completare i passaggi nell'argomento [Creare provider di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Verificare che il provider di configurazione per la società di esempio Litware, Inc. sia disponibile e contrassegnato come **attivo**. Se questo provider di configurazione non è visualizzato, completa i passaggi nell'articolo [Creare provider di configurazioni e contrassegnarli come attivi](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Fare clic su **Configurazioni report**.
 
 ## <a name="create-a-new-data-model-configuration"></a>Creare una nuova configurazione del modello di dati

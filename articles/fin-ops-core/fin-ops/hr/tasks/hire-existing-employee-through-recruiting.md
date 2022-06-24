@@ -12,19 +12,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07dae424f32281a39c3887437ac7976fb3beb8d3
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: 3fdbdfc7a1a642bae2e693d1f6de0af3c08a8a6e
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8734925"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8876475"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Assumere dipendenti esistenti tramite selezione
 
 [!include [banner](../../includes/banner.md)]
 
 > [!IMPORTANT]
-> La funzionalità di selezione in questo argomento sarà denominata Progetti di selezione e si concentra su candidati, domande di lavoro e progetti di selezione.  
+> La funzionalità di selezione in questo articolo sarà denominata Progetti di selezione e si concentra su candidati, domande di lavoro e progetti di selezione.  
 
 
 Talvolta, le posizioni aperte possono essere ricoperte da candidati che sono già dipendenti dell'organizzazione. Questa procedura descrive i passaggi per l'assunzione di un dipendente esistente tramite il processo di selezione. In questa procedura, un progetto di selezione è già stato impostato e un dipendente esistente ha già inviato una domanda di lavoro per il progetto di selezione. La società di dati dimostrativi **USMF** è stata utilizzata per creare questa procedura.

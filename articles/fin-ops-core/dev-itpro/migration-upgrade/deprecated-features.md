@@ -1,6 +1,6 @@
 ---
 title: Funzionalità rimosse o deprecate nelle versioni precedenti
-description: Questo argomento descrive le funzionalità che sono state rimosse o che sono state pianificate per la rimozione da Dynamics 365 for Finance and Operations e versioni precedenti.
+description: Questo articolo descrive le funzionalità che sono state rimosse o che sono state pianificate per la rimozione da Dynamics 365 for Finance and Operations e versioni precedenti.
 author: sericks007
 ms.date: 02/16/2021
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6dfe1cf9d3d67c6b65f64248d48a2e7420a47c93
-ms.sourcegitcommit: 4be1473b0a4ddfc0ba82c07591f391e89538f1c3
+ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8866187"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
@@ -28,9 +28,9 @@ ms.locfileid: "8063239"
 
 
 > [!IMPORTANT]
-> Questo argomento non è più aggiornato. Per visualizzare un elenco corrente di funzionalità che sono state rimosse o deprecate nelle app per finanza e operazioni, cercare i contenuti **"Funzionalità rimosse o deprecate"** relativi all'app che stai utilizzando.
+> Questo articolo non è più aggiornato. Per visualizzare un elenco corrente di funzionalità che sono state rimosse o deprecate nelle app per finanza e operazioni, cercare i contenuti **"Funzionalità rimosse o deprecate"** relativi all'app che stai utilizzando.
 
-Questo argomento descrive le funzionalità che sono state rimosse o deprecate in Dynamics 365 for Finance and Operations e versioni precedenti del prodotto.
+Questo articolo descrive le funzionalità che sono state rimosse o deprecate in Dynamics 365 for Finance and Operations e versioni precedenti del prodotto.
 
 - Una funzionalità *rimossa* non è più disponibile nel prodotto.
 - Una funzionalità *deprecata* non si trova nella fase attiva di sviluppo e potrebbe essere rimossa in un aggiornamento futuro.

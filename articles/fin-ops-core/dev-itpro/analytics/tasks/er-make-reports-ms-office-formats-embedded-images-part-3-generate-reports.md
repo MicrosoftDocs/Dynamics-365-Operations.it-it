@@ -1,6 +1,6 @@
 ---
 title: Generare report in formato di Office con immagini incorporate
-description: Questo argomento descrive come progettare le configurazioni ER per generare i documenti elettronici in Excel e Word contenenti immagini incorporate.
+description: Questo articolo descrive come progettare le configurazioni ER per generare i documenti elettronici in Excel e Word contenenti immagini incorporate.
 author: NickSelin
 ms.date: 06/13/2017
 ms.topic: business-process
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ec9f3013c1e365a3ca1a4c6cabe71a22e3e8b730eac38155ef023fe68107524
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e728c6e55eca7bcb541a019d1fc9af00b5ad2081
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8855618"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Generare report in formato di Office con immagini incorporate
 

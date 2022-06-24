@@ -1,6 +1,6 @@
 ---
 title: Prospect to cash in doppia scrittura
-description: Questo argomento fornisce informazioni sul prospect to cash in doppia scrittura.
+description: Questo articolo fornisce informazioni sul prospect to cash in doppia scrittura.
 author: RamaKrishnamoorthy
 ms.date: 01/07/2021
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 7c53bcd1084d89b59d0f6b2674a85d7c3481a9bf
-ms.sourcegitcommit: 9acfb9ddba9582751f53501b82a7e9e60702a613
+ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "7781793"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8860111"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -29,7 +29,7 @@ Nelle interfacce delle app, è possibile accedere agli stati di elaborazione e a
 Per informazioni sull'integrazione di clienti e contatti, vedere [Gestione integrata dei dati dei clienti](customer-mapping.md). Per informazioni sull'integrazione del prodotto, vedere [Esperienza prodotto unificata](product-mapping.md).
 
 > [!NOTE]
-> In Dynamics 365 Sales, sia il prospect che il cliente fanno riferimento a un record nella tabella **Account** dove la colonna **RelationshipType** è **Prospect** o **Cliente**. Se la tua logica aziendale include un processo di qualidica **Account** in cui il record **Account** viene creato e qualificato come prospect prima e poi come cliente, quel record si sincronizza con l'app Finance and Operations solo quando è un cliente (`RelationshipType=Customer`). Se desideri che la riga **Account** venga sincronizzata come prospecr, è necessaria una mappa personalizzata per integrare i dati del prospect.
+> In Dynamics 365 Sales, sia il prospect che il cliente fanno riferimento a un record nella tabella **Account** dove la colonna **RelationshipType** è **Prospect** o **Cliente**. Se la tua logica aziendale include un processo di qualifica **Account** in cui il record **Account** viene creato e qualificato come prospect prima e poi come cliente, quel record si sincronizza con l'app per la finanza e le operazioni solo quando è un cliente (`RelationshipType=Customer`). Se desideri che la riga **Account** venga sincronizzata come prospecr, è necessaria una mappa personalizzata per integrare i dati del prospect.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Prerequisiti e impostazione del mapping
 
@@ -111,7 +111,7 @@ Le fatture di vendita vengono create in Supply Chain Management e sincronizzate 
 
 Prospect per uno scenario di liquidazione include una raccolta di mappe della tabella di base che funzionano in combinazione durante l'interazione con i dati, come illustrato nella seguente tabella.
 
-| App di Finance and Operations | App di interazione con i clienti | descrizione |
+| App Finanza e operazioni | App di interazione con i clienti | Description |
 |-----------------------------|-----------------------------------|-------------|
 [Tutti i prodotti](mapping-reference.md#138) | msdyn_globalproducts | |
 [Clienti V3](mapping-reference.md#101) | conti | |
@@ -122,7 +122,7 @@ Prospect per uno scenario di liquidazione include una raccolta di mappe della ta
 [Intestazione offerta di vendita CDS](mapping-reference.md#215) | offerte | |
 [Righe di offerta di vendita CDS](mapping-reference.md#214) | quotedetails | |
 [Prodotti rilasciati V2](mapping-reference.md#189) | msdyn_sharedproductdetails | |
-[Intestazioni fattura di vendita V2](mapping-reference.md#118) | fatture | La tabella delle intestazioni delle fatture di vendita V2 nell'app Finance and Operations contiene fatture per ordini cliente e fatture a testo libero. Viene applicato un filtro in Dataverse per la doppia scrittura che filtrerà qualsiasi documento di fattura a testo libero. |
+[Intestazioni fattura di vendita V2](mapping-reference.md#118) | fatture | La tabella delle intestazioni delle fatture di vendita V2 nell'app per la finanza e le operazioni contiene fatture per ordini cliente e fatture a testo libero. Viene applicato un filtro in Dataverse per la doppia scrittura che filtrerà qualsiasi documento di fattura a testo libero. |
 [Righe fattura di vendita V2](mapping-reference.md#117) | invoicedetails | |
 [Codici origine ordine cliente](mapping-reference.md#186) | msdyn_salesorderorigins | |
 

@@ -1,6 +1,6 @@
 ---
 title: Insuccesso della pubblicazione del giornale a causa dello squilibrio
-description: Questo argomento spiega perché gli addebiti e gli accrediti potrebbero non essere bilanciati nelle transazioni dei buoni, così che le transazioni non possono essere registrate. L'argomento include anche i passi per risolvere il problema.
+description: Questo articolo spiega perché gli addebiti e gli accrediti potrebbero non essere bilanciati nelle transazioni dei buoni, così che le transazioni non possono essere registrate. L'articolo include anche i passi per risolvere il problema.
 author: kweekley
 ms.date: 08/03/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-8-03
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 07408e608496dcc19562b866449b3b27f5f80edd
-ms.sourcegitcommit: e09f5c6d78d7942af950ae3f6407df2fedceeba4
+ms.openlocfilehash: f5afded3d5c42f8dab465b668e4c1fcdaed8c215
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8719934"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8861331"
 ---
 # <a name="journal-posting-failure-because-of-imbalance"></a>Insuccesso della pubblicazione del giornale a causa dello squilibrio
 
 [!include [banner](../includes/banner.md)]
 
-Questo argomento spiega perché gli addebiti e gli accrediti potrebbero non essere bilanciati nelle transazioni dei buoni, così che le transazioni non possono essere registrate. L'argomento include anche i passi per risolvere il problema.
+Questo articolo spiega perché gli addebiti e gli accrediti potrebbero non essere bilanciati nelle transazioni dei buoni, così che le transazioni non possono essere registrate. L'articolo include anche i passi per risolvere il problema.
 
 ## <a name="symptom"></a>Sintomo
 

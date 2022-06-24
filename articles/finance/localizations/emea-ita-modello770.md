@@ -1,6 +1,6 @@
 ---
 title: Report Modello 770
-description: In questo argomento vengono fornite informazioni sul Modello 770 per l'Italia.
+description: In questo articolo vengono fornite informazioni sul Modello 770 per l'Italia.
 author: ilkond
 ms.date: 07/19/2021
 ms.topic: article
@@ -13,18 +13,18 @@ ms.search.region: Italy
 ms.author: ilyako
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c8d3756545734832b9d00425cb6e0baa9c31897f6cd84cb7ad5ecb35b59c0d28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0baf697a5e18dc8e0777b362e86347ce830f82db
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779354"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8891473"
 ---
 # <a name="modello-770-report"></a>Report Modello 770
 
 [!include [banner](../includes/banner.md)]
 
-In questo argomento viene descritto come installare, creare ed esportare il Modello 770 utilizzato per dichiarare le ritenute d'acconto.
+In questo articolo viene descritto come installare, creare ed esportare il Modello 770 utilizzato per dichiarare le ritenute d'acconto.
 
 Il Modello 770 è un report annuale che fornisce informazioni sulle ritenute d'acconto operate da una società quando questa paga terzisti e lavoratori autonomi. Le società rimettono le ritenute d'acconto direttamente al governo durante l'anno. A fine anno, la società crea e trasmette il Modello 770. Questo report dettaglia i pagamenti a favore di ciascun terzista e lavoratore autonomo e le imposte che sono state trattenute nei pagamenti. Il Modello 770 contiene informazioni solo sui terzisti e i lavoratori autonomi per i quali sono state trattenute le imposte nei pagamenti. 
 

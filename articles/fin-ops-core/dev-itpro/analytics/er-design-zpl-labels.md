@@ -1,6 +1,6 @@
 ---
-title: Progettare una nuova soluzione ER per stampare etichette ZPL
-description: Questo argomento spiega come progettare una nuova soluzione di reporting elettronico (ER) per stampare etichette ZPL (Zebra Programming Language).
+title: Progettare una nuova soluzione per i report elettronici per stampare etichette ZPL
+description: Questo articolo spiega come progettare una nuova soluzione di reporting elettronico (ER) per stampare etichette ZPL (Zebra Programming Language).
 author: NickSelin
 ms.date: 02/28/2022
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2022-02-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: c1bedf1184b45741102000fa68c8d662c7383301
-ms.sourcegitcommit: 2977e92a76211875421e608555311c363cfbdc25
+ms.openlocfilehash: f861fe63c6d7d00d0a9f84d33c0d1b1b23735b61
+ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "8612358"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8845717"
 ---
-# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Progettare una nuova soluzione ER per stampare etichette ZPL
+# <a name="design-a-new-er-solution-to-print-zpl-labels"></a>Progettare una nuova soluzione per i report elettronici per stampare etichette ZPL
 
 [!include [banner](../includes/banner.md)]
 
 
-Questo argomento spiega come un utente con il ruolo di amministratore di sistema, sviluppatore per la creazione di report elettronici o consulente funzionale per la creazione di report elettronici può configurare i parametri del framework di [Creazione di report elettronici (ER)](general-electronic-reporting.md), progettare le [configurazioni](general-electronic-reporting.md#Configuration) ER richieste per una nuova soluzione ER per accedere ai dati del sistema di gestione del magazzino e generare etichette di ubicazione di magazzino personalizzate in formato Zebra Programming Language (ZPL). Queste operazioni possono essere completate nella società **USRT**.
+Questo articolo spiega come un utente con il ruolo di amministratore di sistema, sviluppatore per la creazione di report elettronici o consulente funzionale per la creazione di report elettronici può configurare i parametri del framework di [Creazione di report elettronici (ER)](general-electronic-reporting.md), progettare le [configurazioni](general-electronic-reporting.md#Configuration) ER richieste per una nuova soluzione ER per accedere ai dati del sistema di gestione del magazzino e generare etichette di ubicazione di magazzino personalizzate in formato Zebra Programming Language (ZPL). Queste operazioni possono essere completate nella società **USRT**.
 
 ## <a name="business-scenario"></a>Scenario aziendale
 
