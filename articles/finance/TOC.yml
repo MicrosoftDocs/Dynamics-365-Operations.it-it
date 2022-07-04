@@ -18,8 +18,6 @@
                   href: get-started/whats-new-changed-10-0-27.md
                 - name: Finance 10.0.26 (maggio)
                   href: get-started/whats-new-changed-10-0-26.md
-                - name: Finance 10.0.25 (aprile)
-                  href: get-started/whats-new-changed-10-0-25.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -462,6 +460,8 @@
                   items:
                     - name: Imposta differimenti ricavi e spese
                       href: accounts-receivable/sb-deferrals.md
+                    - name: Metodo di registrazione differimento
+                      href: accounts-receivable/Deferral-posting-methods.md
                     - name: Creare programmazioni di differimento
                       href: accounts-receivable/sb-deferrals-schedules.md
                     - name: Transazioni predefinite di differimento
@@ -1210,10 +1210,12 @@
           items:
             - name: Introduzione alla creazione di report finanziari
               href: general-ledger/financial-reporting-getting-started.md
-            - name: Panoramica sulla creazione di report finanziari
+            - name: Panoramica su Financial Reporting
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
             - name: Componenti del report finanziario
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Visualizzare e progettare i report finanziari
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-reports.md
             - name: Funzionalità di valuta nei report finanziari
               href: general-ledger/financial-reporting-currency-capability.md
             - name: Calcolo degli utili non distribuiti in Creazione di report finanziari
@@ -1978,6 +1980,8 @@
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
                 - name: Configurare numeri di conto bancario per il Brasile
                   href: localizations/latam-bra-bank-account-number-setup-brazil-localization.md
+                - name: Ordini di trasferimento
+                  href: localizations/latam-bra-about-transfer-orders.md
                 - name: Imposte
                   items:
                     - name: Panoramica imposte Brasile
@@ -2116,6 +2120,8 @@
                   href: localizations/emea-cze-intra-community-VAT.md
                 - name: Chiusura di fine anno
                   href: localizations/emea-cze-hun-year-end.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-cze-eu-sales-list.md
             - name: Danimarca
               items:
                 - name: Panoramica Danimarca
@@ -2130,8 +2136,8 @@
                   href: localizations/tasks/create-post-project-invoice-public-sector-customer.md
                 - name: Elenco vendite UE
                   href: localizations/emea-dnk-eu-sales-list.md
-                - name: Importare le configurazioni della fatturazione elettronica OIOUBL
-                  href: localizations/tasks/import-oioubl-electronic-invoicing-configurations.md
+                - name: Fatture elettroniche dei clienti in Danimarca
+                  href: localizations/emea-dnk-e-invoices.md
                 - name: Registrare una fattura a testo libero con una distinta di pagamento
                   href: localizations/tasks/post-free-text-invoice-payment-slip.md
                 - name: Registrare una fattura di progetto con una distinta di pagamento
@@ -2220,6 +2226,8 @@
                       href: localizations/emea-ISO20022-file-formats.md
                     - name: Importare la configurazione di addebito diretto ISO20022
                       href: localizations/tasks/import-iso20022-direct-debit-configuration.md
+                    - name: Prerequisiti per il formato di trasferimento del credito ISO 20022
+                      href: localizations/emea-fra-ISO20022-international.md
                     - name: Importare la configurazione di bonifico ISO20022
                       href: localizations/tasks/import-iso20022-credit-transfer-configuration.md
                     - name: Impostare i conti bancari della società per i bonifici ISO20022
@@ -2462,6 +2470,8 @@
                   href: localizations/emea-hun-intrastat.md
                 - name: Calcoli IVA differita
                   href: localizations/emea-hun-deferred-vat.md
+                - name: Elenco vendite UE
+                  href: localizations/emea-hun-eu-sales-list.md
             - name: Islanda
               items:
                 - name: Panoramica Islanda
@@ -2766,6 +2776,8 @@
                                   href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
                                 - name: Impostare i numeri di registrazione TDS per le persone giuridiche
                                   href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Impostare i gruppi di componenti ritenuta d'acconto per il tipo di imposta TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-component-groups-setup-for-TDS-tax-type.md
                                 - name: Impostare le autorità di ritenuta d'acconto per il tipo di imposta TDS
                                   href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
                                 - name: Impostare i componenti delle imposte per il tipo di imposta TDS
@@ -2968,6 +2980,8 @@
                   href: localizations/tasks/configure-depreciation-profile-posting.md
                 - name: Configurare i conti principali per la registrazione dell'obbligo di ritiro dei cespiti e dei tassi di sconto sul mercato
                   href: localizations/tasks/configure-main-accounts-asset-retirement.md
+                - name: Report imposta di consumo
+                  href: localizations/apac-jpn-consumption-tax-report.md
                 - name: Fatture consolidate
                   href: localizations/apac-jpn-consolidate-invoices.md
                 - name: Creare un cespite con ammortamento aggiuntivo
@@ -3416,6 +3430,8 @@
                           href: localizations/rus-register-acquisition.md
                         - name: Acquisizione di cespiti e messa in funzione
                           href: localizations/rus-fixed-asset-acquisition.md
+                        - name: Veicoli e immobili come cespiti
+                          href: localizations/rus-vehicles-realty.md
                         - name: Calcolare l'ammortamento
                           href: localizations/rus-depreciation-calculation.md
                         - name: Disassemblaggio cespite parziale (liquidazione)
@@ -3444,7 +3460,9 @@
                       items:
                         - name: Cespiti non di valore (NVFA) (Russia)
                           href: localizations/rus-not-valuable-assets.md
-                        - name: Contabilità per abiti da lavoro/attrezzature (Russia)
+                        - name: 'Moduli primari per NVFA, abiti da lavoro e attrezzature speciali (Russia)'
+                          href: localizations/rus-nvfa.md
+                        - name: Contabilità per abiti da lavoro/attrezzature speciali (Russia)
                           href: localizations/rus-working-clothes-instruments-accounting.md
                     - name: Integrazione dei cespiti con il modulo Gestione cespiti
                       href: localizations/rus-integration-eam-with-fixed-asset.md
@@ -3520,6 +3538,8 @@
                       href: localizations/rus-land-tax-declaration.md
                     - name: Dichiarazione IVA profitto
                       href: localizations/rus-profit-tax-declaration.md
+                    - name: Report sulle operazioni con beni tracciabili
+                      href: localizations/rus-traceable-goods-operation-report.md
                 - name: Amministrazione organizzazione
                   items:
                     - name: Registrazione delle informazioni fiscali relative all'indirizzo

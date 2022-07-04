@@ -496,6 +496,8 @@
                   items:
                     - name: Gestire processi di selezione del personale
                       href: ../fin-ops-core/fin-ops/hr/manage-recruiting-process.md
+                    - name: Impostare progetti di selezione
+                      href: hr-personnel-develop-open-job-requisition.md
                     - name: Immettere manualmente i dati del candidato e della domanda di lavoro
                       href: ../fin-ops-core/fin-ops/hr/tasks/enter-applicant-application-data-manually.md
                     - name: Sviluppare e aprire richieste relative alla mansione lavorativa
@@ -626,6 +628,10 @@
                   items:
                     - name: Impostare i piani di benefit
                       href: hr-benefits-plans-setup.md
+                    - name: Creare i piani di benefit lavoratore
+                      href: hr-benefits-plans-worker.md
+                    - name: Impostare eventi di vita futuri
+                      href: hr-benefits-plans-future-life-events.md
                     - name: Impostare i programmi di credito flessibile
                       href: hr-benefits-plans-flex-credit-programs.md
                 - name: Elaborare i piani di benefit
@@ -836,6 +842,10 @@
               href: hr-developer-api-authentication.md
             - name: Entità
               items:
+                - name: Dettagli posizione lavorativa
+                  href: hr-admin-integration-api-job-detail.md
+                - name: Opzione tipo di impiego
+                  href: hr-admin-integration-payroll-api-hcmemploymenttype.md
                 - name: MyLeaveRequests
                   items:
                     - name: Panoramica di MyLeaveRequests

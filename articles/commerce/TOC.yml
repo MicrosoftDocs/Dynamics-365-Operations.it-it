@@ -18,8 +18,6 @@
                   href: get-started/whats-new-commerce-10-0-27.md
                 - name: Commerce 10.0.26 (maggio 2022)
                   href: get-started/whats-new-commerce-10-0-26.md
-                - name: Commerce 10.0.25 (aprile 2022)
-                  href: get-started/whats-new-commerce-10-0-25.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page delle funzionalità rimosse o deprecate
@@ -70,20 +68,16 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Creare e automatizzare i test di accettazione utenti
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: Impostare un ambiente di valutazione Dynamics 365 Commerce
+            - name: Impostare un ambiente sandbox Dynamics 365 Commerce
               items:
-                - name: Panoramica dell'ambiente di valutazione Dynamics 365 Commerce
-                  href: cpe-overview.md
-                - name: Provisioning di un ambiente di valutazione Dynamics 365 Commerce
+                - name: Provisioning di un ambiente sandbox Dynamics 365 Commerce
                   href: provisioning-guide.md
-                - name: Configurare un ambiente di valutazione Dynamics 365 Commerce
+                - name: Configurare un ambiente sandbox Dynamics 365 Commerce
                   href: cpe-post-provisioning.md
-                - name: Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce
+                - name: Configurare uno scenario BOPIS in un ambiente sandbox Dynamics 365 Commerce
                   href: cpe-bopis.md
-                - name: Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
+                - name: Configurare le funzioni facoltative per un ambiente sandbox Dynamics 365 Commerce
                   href: cpe-optional-features.md
-                - name: Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce
-                  href: cpe-faq.md
             - name: Considerazioni sulla distribuzione
               items:
                 - name: Opzioni di distribuzione
@@ -440,6 +434,8 @@
                           href: pos-healthcheck.md
                         - name: Supporto per periferiche di rete
                           href: dev-itpro/network-peripherals.md
+                        - name: Compatibilità delle periferiche
+                          href: Compatible-peripherals.md
                     - name: Layout schermo
                       items:
                         - name: Layout schermo con dati dimostrativi in MPOS/CPOS
@@ -1402,6 +1398,8 @@
               items:
                 - name: Esempio di integrazione del servizio di registrazione fiscale per l'Austria
                   href: localizations/emea-aut-fi-sample.md
+                - name: Linee guida per la distribuzione dei registratori di cassa per l'Austria
+                  href: localizations/emea-aut-deployment.md
                 - name: Linee guida per la distribuzione del campione di integrazione fiscale per l'Austria (legacy)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasile
@@ -2896,6 +2894,8 @@
                       href: dev-itpro/cloud-dev-box.md
                     - name: Pipeline di compilazione SDK di vendita al dettaglio
                       href: dev-itpro/retail-sdk/sdk-build-pipeline.md
+                    - name: Configurare un agente di compilazione di Visual Studio 2017 per compilare MPOS
+                      href: dev-itpro/retail-sdk/mpos-build-agent.md
                     - name: Eseguire esempi POS
                       href: dev-itpro/pos-run-samples.md
                 - name: Riferimento
