@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 723eae906260d152a8729f91c75cd9860eca84c5
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4f2b4213574a2d84089ab20ab1a584e1ab894ad9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8669490"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016364"
 ---
 # <a name="manage-template-boms-on-object-relations"></a>Gestire le DBA modello per le relazioni di oggetti 
 
@@ -29,7 +29,7 @@ ms.locfileid: "8669490"
 
 ## <a name="attach-a-template-bom-to-a-service-object"></a>Collegare una DBA modello a un oggetto assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Fare doppio clic sul contratto di assistenza in cui si desidera collegare una DBA modello a una relazione di oggetti.
 
@@ -43,7 +43,7 @@ ms.locfileid: "8669490"
 
 ## <a name="delete-a-service-bom-from-a-service-object"></a>Eliminare una DBA assistenza da un oggetto assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Fare doppio clic sul contratto di assistenza in cui si desidera eliminare una DBA assistenza da una relazione di oggetti.
 
@@ -55,7 +55,7 @@ ms.locfileid: "8669490"
 
 ## <a name="move-the-service-bom-history-from-one-service-agreement-to-another"></a>Spostare lo storico DBA assistenza da un contratto di assistenza a un altro
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Fare doppio clic sul contratto di assistenza da cui spostare una DBA assistenza.
 

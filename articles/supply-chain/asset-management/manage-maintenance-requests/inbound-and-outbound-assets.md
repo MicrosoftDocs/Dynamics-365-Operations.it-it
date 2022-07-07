@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e0c382efda81067ad4c0cd977e5cfbf37b4e3fc6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fd7482cfe943347840e9fb070151d66fbe5ef9ca
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908716"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016538"
 ---
 # <a name="inbound-and-outbound-assets"></a>Cespiti in entrata e in uscita
 
@@ -37,7 +37,7 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 
 ## <a name="register-assets-as-inbound"></a>Registrare cespiti come in entrata
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Richieste di intervento di manutenzione** \> **Richieste di intervento di manutenzione attive**.
+1. Seleziona **Gestione cespiti** \> **Richieste di intervento di manutenzione** \> **Richieste di intervento di manutenzione attive**.
 2. Selezionare la richiesta di intervento di manutenzione.
 3. Selezionare **Aggiorna stato della richiesta di intervento di manutenzione**.
 4. Selezionare **In entrata** (o un altro stato del ciclo di vita creato per i cespiti in entrata), quindi **OK**.
@@ -46,7 +46,7 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 
 ## <a name="register-inbound-assets-as-received"></a>Registrare i cespiti in entrata come ricevuti
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **In entrata/In uscita** \> **Cespiti in entrata**.
+1. Seleziona **Gestione cespiti** \> **In entrata/In uscita** \> **Cespiti in entrata**.
 2. Selezionare il cespite o la richiesta di intervento di manutenzione.
 3. Selezionare **Ricevi cespiti**.
 4. Nel campo **Ricevuto** immettere la data e l'ora. Selezionare **OK**. Il record verrà rimosso dalla pagina elenco **Cespiti in entrata**.
@@ -57,14 +57,14 @@ L'impostazione di Gestione cespiti determina se è possibile lavorare con i cesp
 
 Dopo aver completato il processo di riparazione o manutenzione, è possibile registrare il cespite come restituito.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Richieste di intervento di manutenzione** \> **Richieste di intervento di manutenzione attive**.
+1. Seleziona **Gestione cespiti** \> **Richieste di intervento di manutenzione** \> **Richieste di intervento di manutenzione attive**.
 2. Selezionare la richiesta di intervento di manutenzione.
 3. Selezionare **Aggiorna stato della richiesta di intervento di manutenzione**.
 4. Selezionare **In uscita** (o un altro stato del ciclo di vita creato per i cespiti in uscita), quindi **OK**.
 
 ## <a name="register-outbound-assets-as-delivered"></a>Registrare i cespiti in uscita come consegnati
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **In entrata/In uscita** \> **Cespiti in uscita**.
+1. Seleziona **Gestione cespiti** \> **In entrata/In uscita** \> **Cespiti in uscita**.
 2. Selezionare il cespite o la richiesta di intervento di manutenzione.
 3. Selezionare **Consegna cespiti**.
 4. Nel campo **Consegnato** immettere la data e l'ora. Selezionare **OK**. Il record verrà rimosso dalla pagina elenco **Cespiti in uscita**.

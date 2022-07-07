@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e59271771a5f332ad8470b0b8f8f54b52a25543d
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c9495bbc8e5f7cb603c027a125887feba1f0e2d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8671676"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017205"
 ---
 # <a name="set-up-a-preferred-technician"></a>Impostare un tecnico preferito 
 
@@ -31,13 +31,13 @@ ms.locfileid: "8671676"
 
 ## <a name="assign-employee-to-a-dispatch-team"></a>Assegnare un dipendente a un team di intervento
 
-1.  Fare clic su **Risorse umane** \> **Comune** \> **Lavoratori** \> **Lavoratori**. Fare doppio clic su un lavoratore per aprire la pagina dei dettagli relativi al lavoratore. Nel **riquadro azioni**, fare clic su **Impostazione** \>**Team di intervento** per aprire il modulo **Lavoratori di intervento**.
+1.  Fai clic su **Risorse umane** \> **Lavoratori** \> **Lavoratori**. Fare doppio clic su un lavoratore per aprire la pagina dei dettagli relativi al lavoratore. Nel **riquadro azioni**, fare clic su **Impostazione** \>**Team di intervento** per aprire il modulo **Lavoratori di intervento**.
 
 2.  Nel campo **Team di intervento** selezionare il team a cui assegnare il lavoratore.
 
 ## <a name="assign-a-preferred-technician-to-a-service-agreement"></a>Assegnare un tecnico preferito a un contratto di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**. Fare doppio clic su un contratto di assistenza per aprire il modulo dei dettagli.
+1.  Fai clic su **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**. Fare doppio clic su un contratto di assistenza per aprire il modulo dei dettagli.
 
 2.  Nella scheda **Generale**, selezionare il campo **Tecnico preferito**, quindi selezionare un membro del team di intervento appropriato come tecnico preferito per il contratto di assistenza.
 

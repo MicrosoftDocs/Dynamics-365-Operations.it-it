@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d0552c38ddc31ad6322e9e2e0f2c2c722c045f4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25e9b00533fb183b27c1bbe616cf6f414b44b5e7
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870902"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016103"
 ---
 # <a name="calculate-item-forecast"></a>Calcolare le previsioni articolo
 
@@ -36,7 +36,7 @@ Esattamente come è possibile eseguire i calcoli del carico di capacità, descri
 
 Questa funzionalità è utile se si desidera ottenere una panoramica del consumo previsto degli articoli (pezzi di ricambio nonché altri articoli necessari per il completamento degli ordini di lavoro) per un periodo specifico. Il calcolo delle previsioni articolo può essere eseguito in tutti i cespiti o nei cespiti selezionati. È inoltre possibile eseguire un calcolo in un'attività dei tempi di fermo per la manutenzione (**Tutte le attività tempi di fermo per manutenzione** o **Attività tempi di fermo per manutenzione attive**) oppure in un pool di ordini di lavoro (**Tutti i pool di ordini di lavoro** o **Pool di ordini di lavoro attivi**).
 
-1. Fare clic su **Gestione cespiti** > **Richieste di informazioni** > ,**Previsione articolo** o **Gestione cespiti** > **Comune** > **Pool di ordini di lavoro** > **Tutti i pool di ordini di lavoro** / **Pool di ordini di lavoro attivi** > selezionare il pool degli ordini di lavoro nell'elenco > pulsante **Previsione articolo** o **Gestione cespiti** > **Comune** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** / **Attività tempi di fermo per manutenzione attive** > selezionare l'attività dei tempi di fermo per la manutenzione nell'elenco > pulsante **Previsione articolo**.
+1. Fai clic su **Gestione cespiti** > **Richieste di informazion** > **Previsione articolo**, o **Gestione cespiti** > **Pool di ordini di lavoro** > **Tutti i pool di ordini di lavoro** / **Pool di ordini di lavoro attivi** > seleziona il pool degli ordini di lavoro nell'elenco > pulsante **Previsione articolo** o **Gestione cespiti** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** / **Attività tempi di fermo per manutenzione attive** >seleziona l'attività dei tempi di fermo per la manutenzione nell'elenco > pulsante **Previsione articolo**.
 
 2. Nella finestra di dialogo **Calcolare previsioni articolo** selezionare un periodo per il calcolo nei campi **Data/ora di inizio** e **Data/ora di fine**.
 

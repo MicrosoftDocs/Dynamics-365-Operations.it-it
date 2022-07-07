@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f969e3de9586c0c47214201b34a16f8afad5ca90
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 1764d97d4492e7b982a5d2c9f7e7f1c15380be1d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8678264"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014853"
 ---
 # <a name="create-service-orders-manually"></a>Creare ordini di assistenza manualmente    
 
@@ -34,7 +34,7 @@ ms.locfileid: "8678264"
 
 ## <a name="create-a-service-order-manually-from-a-service-agreement"></a>Creare un ordine di assistenza manualmente da un contratto di assistenza
 
-1.  Selezionare **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Seleziona **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Selezionare un contratto di assistenza oppure crearne uno nuovo.
 
@@ -42,7 +42,7 @@ ms.locfileid: "8678264"
 
 ## <a name="create-a-service-order-manually-in-the-service-orders-form"></a>Creare un ordine di assistenza manualmente nel modulo Ordini di assistenza
 
-1.  Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1.  Seleziona **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
 2.  Selezionare **Nuovo** per creare un nuovo ordine di assistenza.
 
@@ -53,7 +53,7 @@ ms.locfileid: "8678264"
 
 ## <a name="create-a-service-order-from-a-project"></a>Creare un ordine di assistenza da un progetto
 
-1.  Selezionare **Gestione progetti e contabilità** \> **Comune** \> **Progetti** \> **Tutti i progetti**.
+1.  Passare a **Gestione progetti e contabilità** \> **Progetti** \> **Tutti i progetti**.
 
 2.  Nel **riquadro azioni** del modulo **Progetti**, selezionare la scheda **Gestisci** \> **Assistenza** \> **Ordini di assistenza**.
 
@@ -66,9 +66,9 @@ ms.locfileid: "8678264"
 
 È possibile creare un ordine di assistenza dal modulo **Ordini cliente** utilizzando la procedura guidata **Crea un nuovo ordine di assistenza in base all'ordine cliente**.
 
-1.  Selezionare **Vendite e marketing** \> **Comune** \> **Ordini cliente** \> **Tutti gli ordini cliente**.
+1.  Andare a **Vendite e marketing** \> **Ordini cliente** \> **Tutti gli ordini cliente**.
 
-2.  Aprire l'ordine cliente rilevante.
+2.  Apri l'ordine cliente rilevante.
 
 3.  Nella scheda **Ordine cliente**, selezionare **Ordine di assistenza** per avviare la procedura guidata **Crea un nuovo ordine di assistenza in base all'ordine cliente**.
 

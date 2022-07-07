@@ -2,7 +2,7 @@
 title: Panoramica su Financial Reporting
 description: In questo articolo viene descritto dove accedere ai report finanziari in Microsoft Dynamics 365 Finance e come utilizzare le funzionalità dei report finanziari.
 author: aprilolson
-ms.date: 03/31/2022
+ms.date: 06/20/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b09adc738ac36625436e5cc3197e79603fff9b8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
+ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853411"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "9033662"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione alla creazione di report finanziari 
 
@@ -30,14 +30,17 @@ ms.locfileid: "8853411"
 
 In questo articolo viene descritto dove accedere a Financial Reporting e come utilizzare le funzionalità di Financial Reporting. Include anche una descrizione dei report finanziari predefiniti forniti.
 
-## <a name="accessing-financial-reporting"></a>Accesso ai report finanziari
+## <a name="enable-financial-reporting"></a>Abilitare Financial Reporting
+Per utilizzare il servizio Financial Reporting per la tua organizzazione, un amministratore di Lifecycle Services (LCS) deve abilitare questo servizio nel portale LCS per la tua organizzazione. Se Financial Reporting non è stato sottoposto al provisioning per il tuo ambiente, contatta il tuo amministratore LCS per abilitare il servizio. 
+
+## <a name="accessing-financial-reporting"></a>Accesso a Financial Reporting
 
 È possibile trovare il menu **Report finanziari** nelle seguenti posizioni:
 
-- **Contabilità generale** &gt; **Richieste di informazioni e report**
-- **Impostazione budget** &gt; **Richieste di informazioni e report** &gt; **Impostazione budget di base**
-- **Impostazione budget** &gt; **Richieste di informazioni e report** &gt; **Pianificazione del budget**
-- **Impostazione budget** &gt; **Richieste di informazioni e report** &gt; **Controllo del budget**
+- **Contabilità generale** > **Richieste di informazioni e report**
+- **Impostazione budget** > **Richieste di informazioni e report** > **Impostazione budget di base**
+- **Impostazione budget** > **Richieste di informazioni e report** > **Pianificazione del budget**
+- **Impostazione budget** > **Richieste di informazioni e report** > **Controllo del budget**
 - Consolidamenti
 
 Per creare e generare i report finanziari per una persona giuridica, è necessario impostare le seguenti informazioni per la persona giuridica:

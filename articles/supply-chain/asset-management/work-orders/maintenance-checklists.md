@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 25e9139ce57283482d8da4b7f1e5d6275c74ad28
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 70b83de50105cf664bbc6b6095203d01d83cd79b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854531"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016683"
 ---
 # <a name="maintenance-checklists"></a>Elenchi di controllo di manutenzione
 
@@ -35,7 +35,7 @@ Quando si utilizzano elenchi di controllo di manutenzione in un ordine di lavoro
 
 ## <a name="fill-in-a-maintenance-checklist"></a>Compilare un elenco di controllo di manutenzione
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Fai clic su **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 2. Selezionare l'ordine di lavoro, quindi nel riquadro azioni, nella scheda **Ordine di lavoro**, nel gruppo **Righe**, selezionare **Elenco di controllo di manutenzione**.
 

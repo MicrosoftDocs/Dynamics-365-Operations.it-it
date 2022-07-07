@@ -1,8 +1,8 @@
 ---
-title: Configurare un ambiente di valutazione Dynamics 365 Commerce
-description: Questo articolo illustra come configurare un ambiente di valutazione di Microsoft Dynamics 365 Commerce dopo il provisioning.
+title: Configurare un ambiente sandbox Dynamics 365 Commerce
+description: Questo articolo illustra come configurare un ambiente sandbox di Microsoft Dynamics 365 Commerce dopo il provisioning.
 author: psimolin
-ms.date: 05/12/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,34 +14,34 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 19d88139e35554bce68bc6203141957b96e439a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 259a580981003f135e234f66e9e93ceb18605412
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892332"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013111"
 ---
-# <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurare un ambiente di valutazione Dynamics 365 Commerce
+# <a name="configure-a-dynamics-365-commerce-sandbox-environment"></a>Configurare un ambiente sandbox Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo articolo illustra come configurare un ambiente di valutazione di Microsoft Dynamics 365 Commerce dopo il provisioning.
+Questo articolo illustra come configurare un ambiente sandbox di Microsoft Dynamics 365 Commerce dopo il provisioning.
 
-Completa le procedure in questo articolo solo dopo aver effettuato il provisioning dell'ambiente di valutazione Commerce. Per informazioni relative a come effettuare il provisioning dell'ambiente di valutazione Commerce, consultare [Provisioning di un ambiente di valutazione Commerce](provisioning-guide.md).
+Completa le procedure in questo articolo solo dopo aver effettuato il provisioning dell'ambiente sandbox Commerce. Per informazioni relative a come effettuare il provisioning dell'ambiente sandbox di Commerce, consulta [Provisioning di un ambiente sandbox di Commerce](provisioning-guide.md).
 
-Una volta eseguito il provisioning completo dell'ambiente di valutazione Commerce, è necessario completare ulteriori passaggi di configurazione post-provisioning prima di poter iniziare a valutare l'ambiente. Per completare questi passaggi, è necessario utilizzare Microsoft Dynamics Lifecycle Services (LCS) e Dynamics 365 Commerce.
+Una volta eseguito il provisioning completo dell'ambiente sandbox di Commerce, è necessario completare ulteriori passaggi di configurazione post-provisioning prima di poter iniziare a usare l'ambiente. Per completare questi passaggi, è necessario utilizzare Microsoft Dynamics Lifecycle Services (LCS) e Dynamics 365 Commerce.
 
 ## <a name="before-you-start"></a>Prima di iniziare
 
 1. Accedere al [portale LCS](https://lcs.dynamics.com).
 1. Andare al progetto.
-1. Nel menu superiore, selezionare **Distribuzione ambienti ospitati nel cloud**.
 1. Selezionare l'ambiente nell'elenco.
 1. Nelle informazioni sull'ambiente a destra, selezionare **Accedi all'ambiente**. Si accederà a Commerce Headquarters.
-1. Assicurarsi che la persona giuridica **USRT** sia selezionata nell'angolo in alto a destra.
-1. Andare a **Parametri Commerce \> Parametri di configurazione** e assicurarsi che ci sia una voce per **ProductSearch.UseAzureSearch** e che il valore sia impostato su **true**. Se questa voce è mancante, è possibile aggiungerla, impostare il valore su **true**, quindi selezionare **Database canale \> Sincronizzazione dati completa** per la Commerce Scale Unit associata al sito Web di e-commerce.
+1. Assicurarsi che la persona giuridica **USRT** sia selezionata nell'angolo in alto a destra. Questa persona giuridica è stata preconfigurata nei dati demo.
+1. Andare a **Parametri Commerce \> Parametri di configurazione** e assicurarsi che ci sia una voce per **ProductSearch.UseAzureSearch** e che il valore sia impostato su **true**. Se questa voce è mancante, aggiungila e imposta il valore su **vero**.
 1. Andare a **Retail e Commerce \> Impostazione sedi centrali \> Utilità di pianificazione Commerce \> Inizializza utilità di pianificazione Commerce**. Nel menu a comparsa **Inizializza utilità di pianificazione Commerce**, impostare l'opzione **Elimina configurazione esistente** su **Sì** e selezionare **OK**.
-1. Per aggiungere canali alla Commerce Scale Unit, andare a **Vendita al dettaglio e commercio \> Impostazione sedi centrali \> Utilità di pianificazione Commerce \>Database canale**, quindi nel riquadro a sinistra selezionare la Commerce Scale Unit. Nella Scheda dettaglio **Canale di vendita al dettaglio**, aggiungere i canali **Negozio online AW**, **Negozio online AW Business** e **Negozio online esteso Fabrikam**. Facoltativamente, è anche possibile aggiungere punti vendita al dettaglio se si utilizzerà POS (ad esempio, **Seattle**, **San Francisco** e **San Jose**).
+1. Affinché i canali del negozio e dell'e-commerce funzionino correttamente, devono essere aggiunti a Commerce Scale Unit. Vai a **Vendita al dettaglio e commercio \> Impostazione sedi centrali \> Utilità di pianificazione Commerce \> Database canale** e nel riquadro a sinistra seleziona Commerce Scale Unit. Nella Scheda dettaglio **Canale di vendita al dettaglio**, aggiungi i canali **Negozio online AW**, **Negozio online AW Business** e **Negozio online esteso Fabrikam** se prevedi di utilizzare quei canali di e-commerce. Facoltativamente, è anche possibile aggiungere punti vendita al dettaglio se si utilizzerà POS (ad esempio, **Seattle**, **San Francisco** e/o **San Jose**).
+1. Per garantire che tutte le modifiche siano sincronizzate con il database del canale, seleziona **Database del canale \> Sincronizzazione completa dei dati** per Commerce Scale Unit.
 
 Durante le attività di post-provisioning in Commerce headquarters, assicurarsi che la persona giuridica **USRT** sia sempre selezionata.
 
@@ -52,7 +52,7 @@ Durante le attività di post-provisioning in Commerce headquarters, assicurarsi 
 Per associare un lavoratore all'identità, effettuare le seguenti operazioni in Commerce headquarters.
 
 1. Utilizzare il menu a sinistra e scegliere **Moduli \> Vendita al dettaglio e commercio \> Dipendenti \> Lavoratori**.
-1. Nell'elenco trovare e selezionare il seguente record **000713 - Andrew Collette**.
+1. Nell'elenco trovare e selezionare il seguente record **000713 - Andrew Collette**. Questo utente di esempio è associato al negozio di San Francisco che verrà utilizzato nella sezione successiva.
 1. Nel riquadro azioni selezionare **Commerce**.
 1. Selezionare **Associa identità esistente**.
 1. Nel campo **Indirizzo di posta elettronica** a destra di **Cerca tramite posta elettronica**, digitare il proprio indirizzo di posta elettronica.
@@ -76,24 +76,24 @@ Per attivare Cloud POS in LCS, attenersi alla seguente procedura.
 1. Selezionare **Attiva**. Si verrà disconnessi e indirizzati alla pagina di accesso POS.
 1. A questo punto è possibile accedere all'esperienza Cloud POS utilizzando l'ID operatore **000713** e la password **123**.
 
-## <a name="set-up-your-site-in-commerce"></a>Configurare il sito in Commerce
+## <a name="set-up-your-e-commerce-sites"></a>Configurare i siti di e-commerce
 
-Per iniziare a configurare il sito di valutazione in Commerce, attenersi alla seguente procedura.
+Sono disponibili tre siti dimostrativi di e-commerce: Fabrikam, Adventure Works e Adventure Works Business. Segui i passaggi seguenti per configurare ciascun sito demo.
 
 1. Accedi a Creazione di siti Web utilizzando l'URL di cui hai preso nota quando hai inizializzato l'e-Commerce durante il provisioning (vedere [Inizializzare l'e-Commerce](provisioning-guide.md#initialize-e-commerce)).
-1. Selezionare il sito **Fabrikam** per aprire la finestra di dialogo di impostazione del sito.
-1. Selezionare il dominio inserito quando è stato inizializzato e-Commerce.
-1. Come canale predefinito, selezionare **Punto vendita online esteso Fabrikam**. Assicurarsi di selezionare il punto vendita online **esteso**.
+1. Seleziona il sito (**Fabrikam**, **Adventure Works**, o **Adventure Works Business**), per aprire la finestra di dialogo di configurazione del sito.
+1. Seleziona il dominio inserito quando è stato inizializzato Commerce.
+1. In headquarters, seleziona il canale preconfigurato del punto vendita online (**Negozio online esteso Fabrikam**, **Negozio online AW**, o **Negozio online AW Business**) che corrisponde al canale predefinito.
 1. Come lingua predefinita, selezionare **en-us**.
-1. Lascia invariato valore del campo **Percorso**.
+1. Configura i campi del percorso. Questo può essere lasciato vuoto per un singolo sito, ma dovrà essere configurato se si utilizza lo stesso nome di dominio per più siti. Ad esempio, se il nome di dominio è `https://www.constoso.com`, puoi usare un percorso vuoto per Fabrikam (`https://contoso.com`), quindi usa "aw" per Adventure Works (`https://contoso.com/aw`) e "awbusiness" per il sito Adventure Works Business (`https://contoso.com/awbusiness`).
 1. Seleziona **OK**. Viene visualizzato l'elenco delle pagine del sito.
-1. Ripetere i passaggi 2-7 per il sito **AdventureWorks** (che mappa al canale **Negozio online AW**) e il sito **AdventureWorks Business** (che mappa al canale **Negozio online AW Business**). Se il campo **Percorso** per il sito Fabrikam è vuoto, è necessario aggiungere i percorsi per i due siti AdventureWorks (ad esempio, "aw" e "awbusiness").
+1. Facoltativamente, ripeti i passaggi 2-7 per configurare gli altri siti demo secondo necessità.
 
 ## <a name="enable-jobs"></a>Abilitare i processi
 
 Per abilitare i processi in Commerce, effettuare le operazioni seguenti.
 
-1. Accedere all'ambiente (HQ).
+1. Accedi all'ambiente headquarters.
 1. Utilizzare il menu a sinistra per andare a **Vendita al dettaglio e commercio \> Richieste di informazioni e report \> Processi batch**.
 
     Le fasi restanti di questa procedura devono essere completate per ciascuno dei seguenti processi:
@@ -146,12 +146,11 @@ Per eseguire transazioni di prova nel sito, è possibile utilizzare le seguenti 
 
 ## <a name="next-steps"></a>Passaggi successivi
 
-Dopo aver completato le fasi di provisioning e configurazione, è possibile iniziare a usare l'ambiente di valutazione. Utilizzare l'URL di Creazione di siti Web di Commerce per accedere all'esperienza di creazione. Utilizzare l'URL del sito di Commerce per accedere all'esperienza del sito dei clienti di vendita al dettaglio.
+Dopo aver completato le fasi di provisioning e configurazione, è possibile iniziare a usare l'ambiente sandbox. Utilizzare l'URL di Creazione di siti Web di Commerce per accedere all'esperienza di creazione. Utilizzare l'URL del sito di Commerce per accedere all'esperienza del sito dei clienti di vendita al dettaglio.
 
-Per configurare funzionalità facoltative per l'ambiente di valutazione Commerce, vedere [Configurare le funzionalità facoltative per un ambiente di valutazione Commerce](cpe-optional-features.md).
+Per configurare funzionalità facoltative per l'ambiente sandbox Commerce, vedu [Configurare le funzionalità facoltative per un ambiente sandbox Commerce](cpe-optional-features.md).
 
-> [!NOTE]
-> Gli ambienti di valutazione di Commerce vengono forniti con un tenant business-to-consumer (B2C) Azure Active Directory (Azure AD) precaricato a scopo dimostrativo. La configurazione del tuo tenant B2C Azure AD non è richiesta per gli ambienti di valutazione. Tuttavia, se stai configurando l'ambiente di valutazione per utilizzare il tuo tenant B2C Azure AD, assicurati di aggiungere ``https://login.commerce.dynamics.com/_msdyn365/authresp`` come URL di risposta nell'applicazione B2C Azure AD tramite il portale di Azure.
+Per consentire agli utenti di e-commerce di accedere al sito di e-commerce, è necessaria una configurazione aggiuntiva per abilitare l'autenticazione del sito tramite Azure Active Directory business-to-consumer (B2C). Per istruzioni, vedi [Impostare un tenant B2C in Commerce](set-up-b2c-tenant.md).
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 
@@ -177,15 +176,11 @@ I dati dimostrativi forniti in Commerce versione 10.0.26 e precedenti presentava
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dell'ambiente di valutazione Dynamics 365 Commerce](cpe-overview.md)
+[Eseguire il provisioning dell'ambiente sandbox di Dynamics 365 Commerce](provisioning-guide.md)
 
-[Provisioning di un ambiente di valutazione Dynamics 365 Commerce](provisioning-guide.md)
+[Configurare le funzionalità facoltative per un ambiente sandbox Dynamics 365 Commerce](cpe-optional-features.md)
 
-[Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce](cpe-optional-features.md)
-
-[Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce](cpe-bopis.md)
-
-[Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
+[Configurare uno scenario BOPIS in un ambiente sandbox Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf65d5b41438b167847f0cd31f7d76169af26cb8
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 7b110c6a08d946b4527f47f6d4181819f3508fee
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675545"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016335"
 ---
 # <a name="start-and-stop-time-recording-on-a-service-order"></a>Avviare e interrompere la registrazione dell'ora per un ordine di assistenza 
 
@@ -31,7 +31,7 @@ Utilizzare questa procedura per avviare e interrompere la registrazione delle or
 
 ## <a name="start-time-recording"></a>Avviare la registrazione dell'ora
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
 2.  Fare clic sulla scheda **Ordine di assistenza**. Nel **riquadro azioni**, nel gruppo **Contratto di servizio** fare clic su **Avvia**.
 
@@ -39,7 +39,7 @@ Utilizzare questa procedura per avviare e interrompere la registrazione delle or
 
 ## <a name="stop-time-recording"></a>Interrompi registrazione ore accordo sui livelli di servizio
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
 2.  Fare clic sulla scheda **Ordine di assistenza**. Nel **riquadro azioni**, nel gruppo **Contratto di servizio** fare clic su **Arresta**.
 

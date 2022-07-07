@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8eb0b152f0a4b4e0f61d519262c24d02b71b8fc3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 95d1e38db8e4658a57f36139836264b87d525e61
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849650"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016132"
 ---
 # <a name="calculate-capacity-load"></a>Calcolare carico di capacità
 
@@ -35,7 +35,7 @@ In Gestione cespiti, è possibile calcolare il carico di capacità in:
 
 Ciò è utile se si desidera ottenere una panoramica del carico di capacità previsto per un periodo specifico. Il calcolo del carico di capacità può essere eseguito in tutti i cespiti o nei cespiti selezionati. È anche possibile eseguire un calcolo nelle attività dii tempi di fermo per la manutenzione o nei pool di ordini di lavoro.
 
-1. Fare clic su **Gestione cespiti** > **Richieste di informazioni** > ,**Carico di capacità** o **Gestione cespiti** > **Comune** > **Pool di ordini di lavoro** > **Tutti i pool di ordini di lavoro** / **Pool di ordini di lavoro attivi** > selezionare il pool di ordini di lavoro nell'elenco > pulsante **Carico di capacità** o **Gestione cespiti** > **Comune** > **Attività tempi di fermo per manutenzione** > **Tutte le attività dei tempi di fermo per la manutenzione** / **Attività tempi di fermo per manutenzione attive** > selezionare l'attività dei tempi di fermo per la manutenzione nell'elenco > pulsante **Carico di capacità**.
+1. Fai clic su **Gestione cespiti** > **Richieste di informazioni** > **Carico di capacità**, o **Gestione cespiti** > **Pool di ordini di lavoro** > **Tutti i pool di ordini di lavoro** / **Pool di ordini di lavoro attivi** > seleziona il pool di ordini di lavoro nell'elenco > pulsante **Carico di capacità** o **Gestione cespiti** > **Attività tempi di fermo per manutenzione** > **Tutte le attività dei tempi di fermo per la manutenzione** / **Attività tempi di fermo per manutenzione attive** > seleziona l'attività dei tempi di fermo per la manutenzione nell'elenco > pulsante **Carico di capacità**.
 
 2. Nella finestra di dialogo **Calcolare carico di capacità** selezionare un periodo per il calcolo nei campi **Data/ora di inizio** e **Data/ora di fine**.
 

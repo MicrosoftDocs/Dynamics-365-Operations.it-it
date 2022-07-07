@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 99613369084ca1e708761179dfb2688014b011f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 72813325c19c639c3c8e7ea9c7436730d23eb61b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849621"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017031"
 ---
 # <a name="scheduled-work-order-maintenance-jobs"></a>Processi di manutenzione degli ordini di lavoro programmati
 
@@ -32,7 +32,7 @@ La pagina **Processi di manutenzione ordine di lavoro programmati** mostra una p
 
 ## <a name="view-scheduled-work-order-maintenance-jobs"></a>Visualizzare processi di manutenzione di ordine di lavoro programmati
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Processi di manutenzione ordine di lavoro programmati**. Viene visualizzato un elenco di tutti gli ordini di lavoro impostati il cui stato del ciclo di vita è "Programmato" o "In corso".
+1. Fai clic su **Gestione cespiti** > **Ordini di lavoro** > **Processi di manutenzione ordine di lavoro programmati**. Viene visualizzato un elenco di tutti gli ordini di lavoro impostati il cui stato del ciclo di vita è "Programmato" o "In corso".
 
 2. È possibile ordinare l'elenco, ad esempio, per addetto alla manutenzione. È inoltre possibile utilizzare il filtro per limitare l'elenco e visualizzare gli ordini di lavoro assegnati a una specifico addetto alla manutenzione o risorsa.
 

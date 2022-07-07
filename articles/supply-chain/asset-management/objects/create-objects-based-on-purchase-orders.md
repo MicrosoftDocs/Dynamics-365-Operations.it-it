@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bee66e2d35af6daa8d86539e52b558bde3c79a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ccd14493aac6484dc54ccf51ae159a071c8697a5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893702"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015611"
 ---
 # <a name="create-assets-based-on-purchase-orders"></a>Creare cespiti in base agli ordini fornitore
 
@@ -45,7 +45,7 @@ Innanzitutto, vengono impostati gli articoli da utilizzare per creare i cespiti 
 
 ## <a name="create-assets-from-pending-assets"></a>Creare cespiti dai cespiti in sospeso
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Cespiti** > **Cespiti in sospeso**.
+1. Seleziona **Gestione cespiti** > **Cespiti** > **Cespiti in sospeso**.
 2. Vedrete un elenco aggiornato di ordini fornitore in base agli articoli selezionati **Elementi cespite**.
 3. È possibile filtrare lo stato degli ordini fornitore per selezionare a quale stato del ciclo di vita il cespite deve essere creato. Per esempio, è possibile creare cespiti solo quando un'entrata prodotti è stata registrata in un ordine fornitore.
 4. Selezionare il collegamento **Numero di riferimento** in una riga ordine fornitore per visualizzare informazioni dettagliate sull'articolo.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9eefde163473e11b01bfa0adf9b3694c830f1488
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899413"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022566"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -113,9 +113,6 @@ Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione fu
 
 ### <a name="enable-the-my-day-dialog"></a>Abilitare la finestra di dialogo "Registrazioni quotidiane"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 La finestra di dialogo **Registrazioni quotidiane** fornisce ai lavoratori una panoramica delle loro registrazioni giornaliere e dei saldi correnti per ore retribuite, straordinari retribuiti, assenze e assenze retribuite.
 
 Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -124,9 +121,6 @@ Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione fu
 
 ### <a name="enable-teams"></a>Abilitare i team
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 Quando più lavoratori vengono assegnati allo stesso processo di produzione, possono formare un team. Il team può nominare un lavoratore come pilota. I restanti lavoratori quindi diventano automaticamente assistenti del pilota. Per il team risultante, solo il pilota deve registrare lo stato del processo. I record di tempo si applicano a tutti i membri del team.
 
 Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
@@ -134,9 +128,6 @@ Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione fu
 - *Team di produzione nell'interfaccia di esecuzione dell'area di produzione*
 
 ### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Abilitare la configurazione aggiuntiva nell'interfaccia di esecuzione dell'area di produzione
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Questa funzione aggiunge le impostazioni per la seguente funzionalità alla pagina **Configurare esecuzione area di produzione**:
 

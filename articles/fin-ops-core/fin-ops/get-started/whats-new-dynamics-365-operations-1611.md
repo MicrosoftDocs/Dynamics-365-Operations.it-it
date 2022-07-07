@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a6e9454baa33e37fe62db2b7bd39ff00891ff855
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905026"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016422"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 
@@ -818,7 +818,7 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 | Rettificare l'inventario di proprietà del fornitore utilizzando un giornale di registrazione di conteggio. | È importante mantenere le scorte disponibili nel sistema sincronizzate con l'inventario fisico effettivo. L'inventario di proprietà del fornitore può essere rettificato in entrata e in uscita tramite processi di conteggio quali la correzione della quantità e processi di giornale di registrazione di conteggio. |
 | Scoprire ulteriori informazioni sul supporto di spedizione in Dynamics 365 for Operations | Per ulteriori informazioni sul supporto per i processi di spedizione, vedere [Spedizione](../../../supply-chain/inventory/consignment.md), [Impostazione della spedizione](/d365F-O/fin-ops-core/fin-ops/get-started/consignment), [Creare un ordine di rifornimento spedizione (guida attività)](../../../supply-chain/inventory/tasks/create-consignment-replenishment-order.md) e [Modificare la proprietà dell'inventario di spedizione in base alla domanda di produzione (guida attività)](../../../supply-chain/inventory/tasks/change-ownership-consignment.md). |
 
-### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>Collaborazione fornitore (in precedenza noto anche come Portale fornitori)
+### <a name="vendor-collaboration"></a>Collaborazione fornitore
 
 | Operazioni che è possibile effettuare | Perché questo è importante |
 |-----------------|-----------------------|

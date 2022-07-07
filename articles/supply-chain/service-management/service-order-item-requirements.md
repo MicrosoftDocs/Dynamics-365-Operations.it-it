@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6f12b0dd1facc753bfcde820eea26a4052caf67
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 376cda6bbe1800611e6f24c347b9035469a30a14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882404"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015174"
 ---
 # <a name="service-order-item-requirements"></a>Richieste articoli degli ordini di assistenza
 
@@ -36,7 +36,7 @@ Una richiesta articolo creata per un ordine di assistenza è immediatamente visi
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Visualizzare una richiesta articolo da un ordine di assistenza
 
-1. Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1. Vai a **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 1. Selezionare **Spedisci**, quindi **Richiesta articolo** per aprire il modulo **Richieste articoli**.
 1. Selezionare la scheda **Progetto** e selezionare il campo **Ordine di assistenza** per visualizzare gli ordini di assistenza della richiesta articolo.
 
@@ -44,13 +44,13 @@ Una richiesta articolo creata per un ordine di assistenza è immediatamente visi
 
 Se si crea una richiesta articolo per un ordine di assistenza, non è possibile eliminare l'ordine di assistenza. È necessario eliminare la richiesta articolo prima di poter eliminare l'ordine di assistenza.
 
-1. Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1. Vai a **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 1. Selezionare **Spedisci**, quindi **Richiesta articolo** per aprire il modulo **Richieste articoli**. In questo modulo verrà visualizzato l'elenco di tutte le richieste articoli create nell'ordine di assistenza.
 1. Selezionare la richiesta articolo da eliminare, quindi selezionare **Elimina**.
 
 oppure
 
-1. Selezionare **Gestione progetti e contabilità** \> **Comune** \> **Progetti** \> **Tutti i progetti**.
+1. Passare a **Gestione progetti e contabilità** \> **Progetti** \> **Tutti i progetti**.
 1. Aprire il progetto che include l'ordine di assistenza in cui è stata creata una richiesta articolo.
 1. Nel modulo **Progetti**, nel riquadro destro, selezionare **Richieste articoli**. Verrà aperto il modulo **Richieste articoli** con l'elenco delle richieste articolo associate al progetto selezionato.
 1. Selezionare la richiesta articolo da eliminare, quindi selezionare **Elimina**.

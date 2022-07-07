@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d6f7861d5c242d512c4ac984e9e9f1d0890c5dc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 488b6505aba246aa3a6ea69436514a274403bf49
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848080"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015640"
 ---
 # <a name="maintenance-requests"></a>Richieste di intervento di manutenzione
 
@@ -37,7 +37,7 @@ Le richieste di intervento di manutenzione possono essere create per qualsiasi c
 
 ## <a name="view-maintenance-requests"></a>Visualizza richieste di intervento di manutenzione
 
-Per visualizzare le richieste di intervento di manutenzione, selezionare **Gestione cespiti** \> **Comune** \> **Richieste di intervento di manutenzione** \>, **Tutte le richieste di intervento di manutenzione**, **Richieste di intervento di manutenzione attive** o **Richieste di intervento di manutenzione delle unità funzionali personali**. Ogni pagina elenco vengono visualizzate alcune informazioni correlate a una richiesta di intervento di manutenzione.
+Per visualizzare le richieste di intervento di manutenzione, seleziona **Gestione cespiti** \> **Richieste di intervento di manutenzione** \> **Tutte le richieste di intervento di manutenzione**, **Richieste di intervento di manutenzione attive** o **Richieste di intervento di manutenzione delle unità funzionali personali**. Ogni pagina elenco vengono visualizzate alcune informazioni correlate a una richiesta di intervento di manutenzione.
 
 ![Visualizzare le richieste di intervento di manutenzione.](media/01-manage-maintenance-requests.png)
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 19fa26eeb8ea3c0944be199c57eaf4a2d7e76034
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 923715893b9f1c4b87d7bbb67e200f8cb8f92e6b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851625"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015557"
 ---
 # <a name="import-vendor-catalogs"></a>Importare i cataloghi del fornitore
 
@@ -46,7 +46,7 @@ Per importare i dati del catalogo fornitore, è necessario completare le attivit
 
 4. Configurare il flusso di lavoro per l'importazione del catalogo. Creare un modello di file di richiesta di gestione catalogo e condividerlo con il fornitore.
 
-5. Selezionare **Approvvigionamento** \> **Comune** \> **Cataloghi** \> **Cataloghi fornitore** per creare un catalogo fornitore. I file di richiesta di gestione catalogo ricevuti dal fornitore vengono raggruppati in questo catalogo. 
+5. Seleziona **Approvvigionamento** \> **Cataloghi** \> **Cataloghi fornitore** per creare un catalogo fornitore. I file di richiesta di gestione catalogo ricevuti dal fornitore vengono raggruppati in questo catalogo.
 
 6. Caricare il file di richiesta di gestione catalogo.
 

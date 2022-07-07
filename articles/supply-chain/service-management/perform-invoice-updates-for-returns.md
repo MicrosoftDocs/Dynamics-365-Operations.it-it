@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f999dec6639183015b1be9378dc4e8ea01c9a84
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 32a108694c11a2ebd922a71d5c82691584bbb397
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670890"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014751"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>Eseguire aggiornamenti di fatture per i resi 
 
@@ -35,7 +35,7 @@ Quando si imposta l'aggiornamento della fattura per l'elaborazione batch, lo sta
 
 ## <a name="post-an-invoice-for-a-return-order"></a>Registrare una fattura per un ordine di reso
 
-1.  Fare clic su **Contabilità clienti** \> **Comune** \> **Ordini cliente** \> **Tutti gli ordini cliente**.
+1.  Fai clic su **Contabilità clienti** \> **Ordini** \> **Tutti gli ordini cliente**.
 
 2.  Selezionare un ordine cliente per il quale **Ordine di reso** è visualizzato nel campo **Tipo di ordine**.
 

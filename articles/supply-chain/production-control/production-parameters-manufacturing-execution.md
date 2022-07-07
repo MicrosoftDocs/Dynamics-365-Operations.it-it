@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d74b6c82c573810da9cbfe14745f997f40d408fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873668"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016161"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parametri di produzione di Esecuzione produzione
 
@@ -63,7 +63,7 @@ Nella pagina **Parametri di produzione**, il consumo DBA automatico viene impost
 
 Per ciascuna fase, il campo **Consumo DBA automatico** consente di selezionare uno dei tre metodi per il prelievo di articoli per un ordine di produzione:
 
-- **Principio di registrazione del consumo di materiali**: questa opzione viene utilizzata insieme a un'altra opzione definita nella DBA del modulo **Produzione**. Fare clic su **Controllo produzione** &gt; **Comune** &gt; **Ordini di produzione** &gt; **Tutti gli ordini di produzione**. Nella pagina **Tutti gli ordini di produzione**, selezionare un ordine di produzione dall'elenco, quindi fare clic su **DBA** nel riquadro azioni. Nella pagina **DBA** della scheda **Impostazione**, nel campo **Principio di registrazione del consumo di materiali**, selezionare una delle seguenti opzioni:
+- **Principio di registrazione del consumo di materiali**: questa opzione viene utilizzata insieme a un'altra opzione definita nella DBA del modulo **Produzione**. Fai clic su **Controllo produzione** &gt; **Ordini di produzione** &gt; **Tutti gli ordini di produzione**. Nella pagina **Tutti gli ordini di produzione**, selezionare un ordine di produzione dall'elenco, quindi fare clic su **DBA** nel riquadro azioni. Nella pagina **DBA** della scheda **Impostazione**, nel campo **Principio di registrazione del consumo di materiali**, selezionare una delle seguenti opzioni:
 
   - **Inizio**
   - **Fine**

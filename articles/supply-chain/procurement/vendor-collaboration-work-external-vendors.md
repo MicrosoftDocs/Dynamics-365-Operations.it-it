@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ae943592c18dd0383aafbce59617cc983dc979b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25561802996514f6f60fc9400c22dc61a30ef1c8
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907292"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023790"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Collaborazione fornitore con i fornitori esterni
 
@@ -29,9 +29,6 @@ ms.locfileid: "8907292"
 Il modulo **Collaborazione fornitore** si rivolge ai fornitori che non dispongono di integrazione di scambio di dati elettronici (EDI) con Microsoft Dynamics 365 Supply Chain Management. Consente ai fornitori di utilizzare ordini fornitore, fatture, dati dell'inventario spedizione e richieste di offerta (RdO) e consente loro di accedere a parti dei dati master del fornitore. In questo articolo viene spiegato come è possibile collaborare con i fornitori esterni che usano l'interfaccia di collaborazione fornitore per utilizzare ordini fornitore, richieste di offerta e l'inventario spedizione. Viene inoltre illustrato come attivare un fornitore specifico per utilizzare la collaborazione fornitore e come definire i dati che tutti i fornitori vedranno quando risponderanno a un ordine fornitore.
 
 Per ulteriori informazioni sulle attività che i fornitori esterni possono eseguire nell'interfaccia di collaborazione fornitore, vedere [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md).
-
-> [!NOTE]
-> Le informazioni in questo articolo relative alla collaborazione con i fornitori sono applicabili solo alla versione corrente di Supply Chain Management. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sul modulo **Portale fornitori**, vedere [Collaborazione con i fornitori tramite il portale fornitori](collaborate-vendors-vendor-portal.md).
 
 Per ulteriori informazioni su come i fornitori possono utilizzare la collaborazione fornitore nei processi di fatturazione, vedere [Area di lavoro fatturazione di collaborazione fornitore](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Per informazioni su come richiedere il provisioning di nuovi utenti di collaborazione fornitore, vedere [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md).
 
@@ -57,8 +54,25 @@ Un amministratore può configurare le impostazioni generali per la collaborazion
 
 Prima di creare account utente per un fornitore esterno, è necessario configurare il conto fornitore per consentire al fornitore l'utilizzo della collaborazione fornitore. Nella pagina **Fornitori** nella scheda **Generale** impostare il campo **Attivazione collaborazione**. Sono disponibili le opzioni seguenti:
 
-- **Attiva (con conferma automatica OF)**- Gli ordini fornitore vengono confermati automaticamente se il fornitore li accetta senza apportare modifiche.
+- **Attiva (con conferma automatica OF)**- Gli ordini fornitore vengono confermati automaticamente se il fornitore li accetta senza apportare modifiche. Se utilizzi questa opzione, assicurati di pianificare il processo batch *Confermare gli ordini fornitore accettati tramite la collaborazione fornitore* che è responsabile dell'elaborazione delle conferme. Per le istruzioni, vedi la sezione successiva.
 - **Attiva (senza conferma automatica OF)**- Gli ordini fornitore devono essere confermati manualmente dall'organizzazione dopo che il fornitore li ha accettati.
+
+### <a name="scheduling-the-auto-confirmation-batch-job"></a>Pianificazione del processo batch di conferma automatica
+
+Se usi l'opzione **Attiva (con conferma automatica OF)** per uno o più dei tuoi fornitori (come descritto nella sezione precedente), devi programmare il processo batch *Confermare gli ordini fornitore accettati tramite la collaborazione fornitore* che è responsabile dell'elaborazione e della conferma degli ordini di acquisto. In caso contrario, le conferme automatiche non vengono eseguite. Utilizza la procedura seguente per pianificare questo processo.
+
+1. Vai ad **Approvvigionamento \> Ordini di acquisto \> Conferma dell'ordine di acquisto \> Confermare gli ordini fornitore accettati tramite la collaborazione fornitore**.
+1. Nella finestra di dialogo **Confermare gli ordini fornitore accettati tramite la collaborazione fornitore** nella Scheda dettaglio **Esegui in background**, seleziona **Ricorrenza**.
+1. Nella finestra di dialogo **Definisci ricorrenza** definisci la pianificazione con cui deve essere eseguito il processo. Quando scegli la pianificazione, considera i seguenti problemi:
+
+    - Se il tuo sistema elabora un grande volume di dati ed esegue molti processi batch, le prestazioni potrebbero essere un problema. In questo caso, probabilmente non dovresti eseguire questo processo più spesso di ogni 10 minuti (a seconda degli altri tuoi requisiti). Se le prestazioni non sono un problema per te, puoi eseguirlo ogni 1 o 2 minuti, se necessario.
+    - Se i tuoi fornitori tendono a consegnare le merci rapidamente (entro il giorno in cui hanno concordato), la ricorrenza dovrebbe essere frequente (ogni 10-30 minuti circa). In questo modo, i magazzinieri potranno ricevere la merce contro l'ordine di acquisto confermato dopo la conferma.
+    - Se i fornitori tendono ad avere un tempo di consegna lungo (più di 24 ore), puoi impostare questa attività in modo che venga eseguita solo una volta al giorno circa.
+
+1. Seleziona **OK** per applicare la pianificazione e tornare alla finestra di dialogo **Confermare gli ordini fornitore accettati tramite la collaborazione fornitore**.
+1. Imposta le opzioni di background aggiuntive secondo necessità. La finestra di dialogo fornisce le consuete opzioni per l'impostazione dei processi batch in Supply Chain Management.
+
+Per ulteriori informazioni sui processi batch, vedi [Panoramica elaborazione batch](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Specificare se il fornitore deve visualizzare le informazioni sul prezzo
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee61c43f93d68747a7095dc9317674a435553c8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d8498d6099112cea2c57a6387e7596adb5bcd84e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874190"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016016"
 ---
 # <a name="introduction-to-assets"></a>Introduzione ai cespiti
 
@@ -36,7 +36,7 @@ Un cespite viene aggiornato automaticamente con informazioni correlate. Ad esemp
 
 ## <a name="all-assets"></a>Tutti i cespiti
 
-Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti**. La pagina elenco **Tutti i cespiti** mostra tutti i cespiti e alcune delle informazioni correlate. Per visualizzare solo i cespiti attivi, selezionare **Cespiti attivi**. Per visualizzare solo i cespiti installati nelle unità funzionali a cui si è correlati come addetti alla manutenzione, selezionare **Cespiti attivi personali**. Questa relazione viene impostata nella pagina **Lavoratori**. Per ulteriori informazioni, vedere [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md).
+Seleziona **Gestione cespiti** \> **Cespiti** \> **Tutti i cespiti**. La pagina elenco **Tutti i cespiti** mostra tutti i cespiti e alcune delle informazioni correlate. Per visualizzare solo i cespiti attivi, selezionare **Cespiti attivi**. Per visualizzare solo i cespiti installati nelle unità funzionali a cui si è correlati come addetti alla manutenzione, selezionare **Cespiti attivi personali**. Questa relazione viene impostata nella pagina **Lavoratori**. Per ulteriori informazioni, vedere [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md).
 
 Nella visualizzazione griglia **Tutti i cespiti**, selezionare un collegamento nella colonna **Cespite** per visualizzare i dettagli relativi al record selezionato. Per modificare il record, selezionare il pulsante **Modifica**. La visualizzazione dettagli mostra informazioni dettagliate correlate al cespite. Un riquadro **Informazioni correlate** a destra contiene informazioni aggiuntive correlate cespite. Espandere il riquadro per visualizzare le informazioni correlate per il cespite selezionato.
 

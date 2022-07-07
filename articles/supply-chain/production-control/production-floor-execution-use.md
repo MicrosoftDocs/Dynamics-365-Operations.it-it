@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 9c0d87dfb4c432f9cff0f1172139dbcda6308275
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
+ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860669"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "9022506"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -263,9 +263,6 @@ Un lavoratore registra una pausa selezionando **Pausa** e quindi selezionando la
 
 ## <a name="view-the-my-day-dialog"></a>Visualizzare la finestra di dialogo "Registrazioni quotidiane"
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
-
 La finestra di dialogo **Registrazioni quotidiane** fornisce ai lavoratori una panoramica delle registrazioni e dei saldi. La finestra di dialogo è suddivisa nelle tre sezioni seguenti:
 
 - La sezione principale elenca le registrazioni che l'attuale lavoratore ha effettuato in una data selezionata. Si apre mostrando le registrazioni per il giorno corrente e fornisce un selettore di date che consente al lavoratore di visualizzare altri giorni.
@@ -275,9 +272,6 @@ La finestra di dialogo **Registrazioni quotidiane** fornisce ai lavoratori una p
 Gli amministratori possono aggiungere questa funzione all'interfaccia inserendo il pulsante **Registrazioni quotidiane** su una barra degli strumenti per ciascuna scheda pertinente come descritto in [Progettare l'interfaccia di esecuzione dell'area di produzione](production-floor-execution-tabs.md).
 
 ## <a name="working-in-teams"></a>Lavorare in team
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until 10.0.27 GA -->
 
 Quando più lavoratori vengono assegnati allo stesso processo di produzione, possono formare un team. Il team può nominare un lavoratore come pilota. I restanti lavoratori quindi diventano automaticamente assistenti del pilota. Per il team risultante, solo il pilota deve registrare lo stato del processo. I record di tempo si applicano a tutti i membri del team.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 015499463f1eab4aaa3f3658b3204229382e73cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6e41a28ec922924b0ef86858a881280fd44bfe63
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893644"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014954"
 ---
 # <a name="procurement"></a>Approvvigionamento
 
@@ -28,7 +28,7 @@ ms.locfileid: "8893644"
 
 In Gestione cespiti, è possibile ottenere una panoramica delle richieste di acquisto e degli ordini fornitore associati agli ordini di lavoro. È inoltre possibile creare un ordine fornitore o una richiesta di acquisto da un ordine di lavoro.
 
-La pagina elenco **Richiesta di acquisto ordine di lavoro** (**Gestione cespiti** > **Comune** > **Approvvigionamento** > **Richiesta di acquisto ordine di lavoro**) contiene le richieste di acquisto correlate agli ordini di lavoro. Quando si seleziona un processo di ordine di lavoro in questa pagina, è possibile utilizzare i pulsanti del gruppo **Mostra** della scheda del riquadro azioni **Richiesta di acquisto ordine di lavoro** per eseguire le varie operazioni:
+La pagina elenco **Richiesta di acquisto ordine di lavoro** (**Gestione cespiti** > **Approvvigionamento** > **Richiesta di acquisto ordine di lavoro**) contiene le richieste di acquisto correlate agli ordini di lavoro. Quando si seleziona un processo di ordine di lavoro in questa pagina, è possibile utilizzare i pulsanti del gruppo **Mostra** della scheda del riquadro azioni **Richiesta di acquisto ordine di lavoro** per eseguire le varie operazioni:
 
 - Per aprire la richiesta di acquisto correlata, selezionare **Richiesta di acquisto**. 
 - Per aprire l'ordine di lavoro correlato, selezionare **Ordine di lavoro**.
@@ -39,7 +39,7 @@ Nell'illustrazione seguente è illustrato un esempio della pagina elenco **Richi
 ![Figura 1.](media/08-work-orders.png)
 
 
-La pagina elenco **Acquisto ordine di lavoro** (**Gestione cespiti** > **Comune** > **Approvvigionamento** > **Acquisto ordine di lavoro**) contiene l'elenco degli ordini fornitore correlati agli ordini di lavoro. Quando si seleziona un processo di ordine di lavoro in questa pagina, è possibile utilizzare i pulsanti del gruppo **Mostra** della scheda del riquadro azioni **Acquisto ordine di lavoro** per eseguire le varie operazioni:
+La pagina elenco **Acquisto ordine di lavoro** (**Gestione cespiti** > **Approvvigionamento** > **Acquisto ordine di lavoro**) contiene l'elenco degli ordini fornitore correlati agli ordini di lavoro. Quando si seleziona un processo di ordine di lavoro in questa pagina, è possibile utilizzare i pulsanti del gruppo **Mostra** della scheda del riquadro azioni **Acquisto ordine di lavoro** per eseguire le varie operazioni:
 
 - Per aprire l'ordine fornitore correlato, selezionare **Ordine fornitore**. 
 - Per aprire l'ordine di lavoro correlato, selezionare **Ordine di lavoro**.
@@ -69,7 +69,7 @@ Per una richiesta di acquisto, viene utilizzata la data nel campo **Data richies
 
 Nella pagina elenco **Tutti gli ordini di lavoro**, è possibile selezionare un processo di ordine di lavoro e creare un ordine fornitore o una richiesta di acquisto correlata. In questo modo si garantisce la presenza delle relazioni di progetto tra l'ordine fornitore o la richiesta di acquisto e l'ordine di lavoro.
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Seleziona **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 2. Selezionare l'ordine di lavoro per creare un ordine fornitore, quindi selezionare **Modifica**.
 

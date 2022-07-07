@@ -2,30 +2,25 @@
 title: Aggiungere un indirizzo a un ordine di servizio
 description: In questo articolo viene descritto come aggiungere un indirizzo cliente a un ordine di assistenza.
 author: sorenva
-ms.date: 05/02/2018
+ms.date: 06/15/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce58ff7bbb491fd2d250b8986d02fca04bd5fad1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c485c50bab7c2e945aa0f0fc0601008dcebd3328
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844737"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015727"
 ---
-# <a name="add-an-address-to-a-service-order"></a>Aggiungere un indirizzo a un ordine di servizio    
+# <a name="add-an-address-to-a-service-order"></a>Aggiungere un indirizzo a un ordine di servizio
 
 [!include [banner](../includes/banner.md)]
-
 
 In questo articolo viene descritto come aggiungere un indirizzo cliente a un ordine di assistenza. Quando si crea un ordine di assistenza, in esso vengono trasferite le informazioni relative all'indirizzo dal progetto a cui l'ordine di assistenza è collegato. È tuttavia possibile selezionare un'ubicazione alternativa dagli indirizzi già immessi in Microsoft Dynamics AX per i clienti, i fornitori, i siti, i magazzini, gli ordini di assistenza e i progetti.
 
@@ -35,43 +30,36 @@ In questo articolo viene descritto come aggiungere un indirizzo cliente a un ord
 
 Per aggiungere un indirizzo a un ordine di assistenza, effettuare le operazioni seguenti:
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1. Vai a **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
-2.  Aprire l'ordine di assistenza per cui si desidera creare un indirizzo.
+1. Aprire l'ordine di assistenza per cui si desidera creare un indirizzo.
 
-3.  Nel **riquadro azioni** fare clic su **Modifica**, quindi fare clic su **Visualizzazione intestazione**.
+1. Apri la scheda **Intestazione**.
 
-4.  Nella Scheda dettaglio **Indirizzo** fare clic su **Aggiungi indirizzo**.
+1. Espandi la Scheda dettaglio **Indirizzo** e quindi seleziona **Aggiungi indirizzo** dalla barra degli strumenti della Scheda dettaglio.
 
-5.  Nel modulo **Nuovo indirizzo**, immettere un nome univoco per l'indirizzo e completare i campi rimanenti. 
-    
+1. Nella finestra di dialogo **Nuovo indirizzo**, immetti un nome univoco per l'indirizzo e completa i campi rimanenti. 
 
     > [!WARNING]
-    > <P>Se si immette lo stesso nome dell'indirizzo esistente, le informazioni immesse nei campi rimanenti sovrascriveranno le informazioni relative all'indirizzo esistente.</P>
+    > Se si immette lo stesso nome dell'indirizzo esistente, le informazioni immesse nei campi rimanenti sovrascriveranno le informazioni relative all'indirizzo esistente.
 
-
-6.  Fare clic su **OK** per copiare il nuovo indirizzo nell'ordine di assistenza.
+1. Seleziona **OK** per copiare il nuovo indirizzo nell'ordine di assistenza.
 
 ## <a name="specify-an-alternative-address-on-a-service-order"></a>Specificare un indirizzo alternativo nell'ordine di assistenza
 
 Per aggiungere un indirizzo alternativo a un ordine di assistenza, effettuare le operazioni seguenti:
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1. Vai a **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
-2.  Aprire l'ordine di assistenza per cui si desidera inserire un indirizzo alternativo.
+1. Aprire l'ordine di assistenza per cui si desidera inserire un indirizzo alternativo.
 
-3.  Nel **riquadro azioni** fare clic su **Modifica**, quindi fare clic su **Visualizzazione intestazione**.
+1. Apri la scheda **Intestazione**.
 
-4.  Nella Scheda dettaglio **Indirizzo** fare clic su **Altro indirizzo**.
+1. Espandi la Scheda dettaglio **Indirizzo** e quindi seleziona **Altro indirizzo** dalla barra degli strumenti della Scheda dettaglio.
 
-5.  Nel modulo **Selezione indirizzo**, nel campo **Tipo di record**, selezionare **Ordini di assistenza**.
+1. Nella finestra di dialogo **Selezione indirizzo** seleziona **Ordini di assistenza** dall'elenco a discesa sopra la griglia.
 
-6.  Selezionare un indirizzo, quindi fare clic su **OK** per copiarlo nell'ordine di assistenza.
-
-
-  
-
-
+1. Seleziona un indirizzo, quindi fai clic su **OK** per copiarlo nell'ordine di assistenza.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

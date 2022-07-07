@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75e30c8b2d74cc2f1ca538b64e5fc801f9ca130a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 42e8ba4e19333cb25464203a2583175ef082ad98
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897692"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016480"
 ---
 # <a name="maintenance-downtime-activities"></a>Attività dei tempi di fermo per la manutenzione
 
@@ -38,14 +38,14 @@ Dopo la selezione dei cespiti in una registrazione di tempi di fermo per la manu
 
 ## <a name="maintenance-downtime-activities"></a>Attività dei tempi di fermo per la manutenzione
 
-Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** per visualizzare un elenco di tutte le attività dei tempi di fermo per la manutenzione e alcune delle informazioni relative alle attività. Fare clic su un collegamento nella colonna **Attività tempi di fermo per manutenzione** per visualizzare i dettagli. Nella figura seguente è illustrato un esempio dell'elenco **Attività dei tempi di fermo per la manutenzione**.
+Fai clic su **Gestione cespiti** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** per visualizzare un elenco di tutte le attività dei tempi di fermo per la manutenzione e alcune delle informazioni relative alle attività. Fare clic su un collegamento nella colonna **Attività tempi di fermo per manutenzione** per visualizzare i dettagli. Nella figura seguente è illustrato un esempio dell'elenco **Attività dei tempi di fermo per la manutenzione**.
 
 ![Figura 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Creare un'attività di tempi di fermo per la manutenzione
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** o **Attività tempi di fermo per manutenzione attive**.
+1. Fai clic su **Gestione cespiti** > **Attività tempi di fermo per manutenzione** > **Tutte le attività tempi di fermo per manutenzione** o **Attività tempi di fermo per manutenzione attive**.
 
 2. Fare clic su **Nuovo**.
 

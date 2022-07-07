@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a416dbea0bab8f6a506ae5cfbfc4feeae8edfe29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 495f3dbf9bab9d550ebdbb7dda52aca80d5ea635
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882723"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017118"
 ---
 # <a name="asset-view"></a>Visualizzazione cespite
 
@@ -30,7 +30,7 @@ ms.locfileid: "8882723"
 
 In questo articolo viene descritta la visualizzazione cespiti in Gestione cespiti. La pagina **Visualizzazione cespiti** mostra i cespiti attivi e le unità funzionali in una visualizzazione struttura. Di conseguenza, è possibile ottenere facilmente una panoramica delle relazioni cespiti alle unità funzionali. Inoltre, è possibile visualizzare informazioni dettagliate sulle unità funzionali, Cespiti e distinte base (DBA) correlate. È inoltre possibile visualizzare una veloce panoramica delle richieste di intervento di manutenzione e degli ordini di lavoro attivi correlati a un cespite.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Visualizzazione cespiti**.
+1. Seleziona **Gestione cespiti** \> **Cespiti** \> **Visualizzazione cespiti**.
 2. Per cambiare la visualizzazione nella pagina, selezionare un nuovo valore nel campo **Visualizzazione**.
 
     > [!NOTE]

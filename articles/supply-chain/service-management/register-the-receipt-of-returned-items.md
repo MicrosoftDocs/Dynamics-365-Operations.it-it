@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4ff01a8c4ed5fb8372ff7b498d0febdcd2f1e89
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: f4942e455350844ac5614e70fef21b37461540a6
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8672768"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017291"
 ---
 # <a name="register-the-receipt-of-returned-items"></a>Registrare il ricevimento di resi 
 
@@ -87,7 +87,7 @@ Sono disponibili due metodi per registrare il ricevimento di resi. Il primo meto
 
 In alternativa all'uso del modulo **Panoramica arrivi**, è possibile utilizzare il modulo **Registrazione** per registrare l'arrivo dei resi.
 
-1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini di reso** \> **Tutti gli ordini di reso**. Creare un nuovo ordine di reso o aprire l'ordine di reso dall'elenco. Nella Scheda dettaglio **Righe** selezionare la riga ordine di reso. Fare clic su **Aggiorna riga**, quindi su **Registrazione**.
+1.  Fai clic su **Vendite e marketing** \> **Ordini di reso** \> **Tutti gli ordini di reso**. Creare un nuovo ordine di reso o aprire l'ordine di reso dall'elenco. Nella Scheda dettaglio **Righe** selezionare la riga ordine di reso. Fare clic su **Aggiorna riga**, quindi su **Registrazione**.
 
 2.  Assegnare un codice smaltimento nel campo **Codice smaltimento**, quindi fare clic su **OK**.
     

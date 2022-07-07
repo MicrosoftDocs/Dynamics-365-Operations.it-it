@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 503150e7cfc580821c5ed8d4c4c9b56998f6ff13
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f7c36fe230db38bfdbfd70fec7bdfd0a313d5a15
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869722"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015843"
 ---
 # <a name="create-functional-locations"></a>Creare unità funzionali
 
@@ -41,7 +41,7 @@ Per poter utilizzare le unità funzionali, è necessario innanzitutto creare due
 
 Quando si utilizzano le unità funzionali, iniziare creando una unità predefinita da utilizzare quando si creano nuovi cespiti. Questa unità funzionale corrisponde a quella selezionata in **Gestione cespiti** > **Impostazione** > **Parametri di gestione cespiti** > **Cespiti** > campo **Unità funzionale predefinita**. L'unità funzionale predefinita può essere utilizzata quando si creano nuovi cespiti e non è stata impostata una struttura di unità funzionali per tali cespiti.
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Unità funzionali** > **Tutte le unità funzionali**.  
+1. Seleziona **Gestione cespiti** > **Unità funzionali** > **Tutte le unità funzionali**.  
 2. In **Tutte le unità funzionali**, selezionare **Nuovo**.
 3. Immettere un ID nel campo **Unità funzionale**, ad esempio, "0000 "o "Standard", per indicare che è una unità funzionale speciale.
 4. Nel campo **Nome** immettere un nome per l'unità funzionale predefinita.
@@ -53,7 +53,7 @@ Quando si utilizzano le unità funzionali, iniziare creando una unità predefini
 
 Nella seguente procedura viene descritto come create le unità funzionali necessarie per la gestione della manutenzione nella società.
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Unità funzionali** > **Tutte le unità funzionali**. È possibile creare una unità funzionale dalla visualizzazione griglia o la visualizzazione dettagli.
+1. Seleziona **Gestione cespiti** > **Unità funzionali** > **Tutte le unità funzionali**. È possibile creare una unità funzionale dalla visualizzazione griglia o la visualizzazione dettagli.
 2. Fare clic sul pulsante **Nuovo**.
 3. Immettere un ID nel campo **Unità funzionale**.
 4. Nel campo **Nome** immettere un nome per l'unità funzionale.

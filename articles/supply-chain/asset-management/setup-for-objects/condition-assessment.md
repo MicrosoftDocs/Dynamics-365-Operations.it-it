@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa326a01bb63bd0b59c0df7a3c751a5242a3dd37
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c43424a0955d7a046186e8a4120c050990df6060
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872096"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015058"
 ---
 # <a name="condition-assessment"></a>Valutazione della condizione
 
@@ -47,7 +47,7 @@ Valutazione delle condizioni viene creata sui cespiti. Si deve configurare un mo
 
 ## <a name="create-condition-assessment-registration-on-an-asset"></a>Creare una registrazione di valutazione delle condizioni per un cespite
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Cespiti** > **Tutti i cespiti**.
+1. Seleziona **Gestione cespiti** > **Cespiti** > **Tutti i cespiti**.
 2. Nell'elenco, selezionare il cespite per cui si desidera creare una valutazione delle condizioni.
 3. Nella scheda **Generale** fare clic su **Valutazione delle condizioni**.
 4. Fare clic su **Nuovo** per creare una nuova registrazione.
@@ -62,7 +62,7 @@ Valutazione delle condizioni viene creata sui cespiti. Si deve configurare un mo
 Dopo avere effettuato una registrazione di valutazione delle condizioni di un cespite, è possibile stampare un report della valutazione delle condizioni.
 
 >[!NOTE]
->È anche possibile registrare la valutazione delle condizioni in un ordine di lavoro (**Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** > **Valutazione delle condizioni** ).
+>È anche possibile registrare la valutazione delle condizioni in un ordine di lavoro (**Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** > **Valutazione delle condizioni**).
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

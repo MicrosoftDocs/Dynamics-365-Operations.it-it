@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52f9fd00841a2df06db85108a0fdcc1a8134a1c6
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: b8d3599e13573ab7a9883f79b17e0eb267025483
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677144"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015232"
 ---
 # <a name="move-service-order-lines"></a>Sposta righe ordine di assistenza 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
 2.  Fare doppio clic sull'ordine di assistenza contenente le righe che si desidera spostare in un altro ordine di assistenza.
 

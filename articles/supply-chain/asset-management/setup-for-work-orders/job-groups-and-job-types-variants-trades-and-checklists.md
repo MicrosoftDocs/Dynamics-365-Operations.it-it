@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b4d0bf82dc0dfe12991b4a48fd68a029a2ff2f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2d4385fdd3e94d48a65baf195efa1d687fbf95c3
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887604"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016770"
 ---
 # <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tipi di lavori di manutenzione, categorie, varianti, scambi e liste di controllo
 
@@ -243,7 +243,7 @@ Un ID di attività di progetto viene automaticamente associato a ogni riga prede
 
 Dopo avere creato le combinazioni predefinite di tipo di processo di manutenzione necessarie, è possibile utilizzare la pagina **Tutti i cespiti** per ottenere una panoramica del valore predefinito di tipo di processo di manutenzione corrente associato a uno specifico cespite. La panoramica mostra tutte le combinazioni predefinite di tipo di processo di manutenzione utilizzabili nel tipo di cespite selezionato per il cespite. Queste combinazioni includono combinazioni con variazioni di varianti di tipi di processo di manutenzione e settori di processo di manutenzione.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
+1. Seleziona **Gestione cespiti** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
 2. Nell'elenco, selezionare il cespite per visualizzare una panoramica delle combinazioni dei tipi di processo di manutenzione.
 3. Nella scheda **Generale** del riquadro azioni, nel gruppo **Informazioni correlate**, selezionare **Tipi di processo di manutenzione**.
 

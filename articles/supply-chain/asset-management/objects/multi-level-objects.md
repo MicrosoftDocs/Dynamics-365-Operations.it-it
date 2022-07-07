@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34ab83c9f9673c39006b3985ebaac9e17a45da82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5b13db8b8b12aaef2e067f9a55eb8754333eb16b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908774"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017147"
 ---
 # <a name="multi-level-assets"></a>Cespiti multilivello
 
@@ -30,7 +30,7 @@ ms.locfileid: "8908774"
 
 In questo articolo viene descritto come creare ed eliminare i cespiti multilivello. È possibile creare i cespiti e cespiti secondari correlati in una struttura gerarchica. In questo modo, è possibile visualizzare le relazioni e le dipendenze tra i cespiti. I processi di manutenzione possono essere correlati a tutti i livelli della struttura. Possono inoltre essere create statistiche per un singolo livello o come somma di tutti i livelli dei cespiti secondari.
 
-Nella pagina elenco **Tutti i cespiti** (**Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti**), la colonna **Cespite** elenca i cespiti nell'ordine gerarchico. Nella colonna **Padre** viene visualizzato il padre correlato. Inoltre, se i cespiti e i cespiti secondari sono già stati creati, la sezione **Struttura cespiti** nel riquadro **Informazioni correlate** mostra i cespiti in una struttura.
+Nella pagina elenco **Tutti i cespiti** (**Gestione cespiti** \> **Cespiti** \> **Tutti i cespiti**), la colonna **Cespite** elenca i cespiti nell'ordine gerarchico. Nella colonna **Padre** viene visualizzato il padre correlato. Inoltre, se i cespiti e i cespiti secondari sono già stati creati, la sezione **Struttura cespiti** nel riquadro **Informazioni correlate** mostra i cespiti in una struttura.
 
 Per informazioni sulla modalità di creazione dei cespiti, vedere [Creare un cespite](../objects/create-an-object.md). Per creare un cespite secondario, selezionare il cespite padre nel campo **Padre** della scheda dettaglio **Generale**.
 
@@ -38,7 +38,7 @@ Per informazioni sulla modalità di creazione dei cespiti, vedere [Creare un ces
 
 Se la società ha più strutture di cespiti simili, è possibile utilizzare la funzione di copia in Gestione cespiti per crearli rapidamente.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti**.
+1. Seleziona **Gestione cespiti** \> **Cespiti** \> **Tutti i cespiti**.
 2. Nella pagina elenco **Tutti i cespiti**, selezionare il cespite da copiare. Ad esempio, per copiare l'intera struttura di cespiti, inclusi i cespiti secondari, selezionare un cespite padre.
 3. Selezionare **Copia cespite**. Nella sezione **Copia da**, il campo **Cespite** è impostato sul cespite selezionato nella pagina elenco.
 4. Nella sezione **Copia in**, nel campo **Cespite**, immettere il nome del nuovo cespite.

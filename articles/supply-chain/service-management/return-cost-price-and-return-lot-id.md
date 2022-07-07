@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14442853152764fce7e5a8a275532ed553da16dc
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 4c1d236918eddf3203a544a6b047f8ccac777971
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8677088"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017242"
 ---
 # <a name="return-cost-price-and-return-lot-id"></a>Eseguire il prezzo di costo e restituire l'ID lotto        
 
@@ -38,7 +38,7 @@ Per utilizzare un costo diverso da quello corrente per i resi da un cliente, uti
 
 Per impostazione predefinita, quando si aggiungono articoli a un ordine di reso, gli articoli vengono restituiti al magazzino al prezzo di costo corrente. Per specificare un prezzo di costo di reso diverso, effettuare le operazioni seguenti.
 
-1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini di reso** \> **Tutti gli ordini di reso**.
+1.  Fai clic su **Vendite e marketing** \> **Ordini di reso** \> **Tutti gli ordini di reso**.
 
 2.  Nel **riquadro azioni** fare clic su **Ordine di reso** nel gruppo **Nuovo**.
 
@@ -54,7 +54,7 @@ Per impostazione predefinita, quando si aggiungono articoli a un ordine di reso,
 
 Questo è il metodo preferito da utilizzare per creare le righe di reso. Per utilizzare il costo dei prodotti nel momento in cui sono stati venduti al cliente, creare un ordine di reso e specificare una riga di vendita da restituire.
 
-1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini di reso** \> **Tutti gli ordini di reso**.
+1.  Fai clic su **Vendite e marketing** \> **Ordini di reso** \> **Tutti gli ordini di reso**.
 
 2.  Nel **riquadro azioni** fare clic su **Ordine di reso** nel gruppo **Nuovo**.
 

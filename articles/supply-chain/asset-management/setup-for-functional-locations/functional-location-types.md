@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01c8276d77f7655659cab13f3c520d7c171e3cfd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0c44e503900bd157d7f0159cdf2b2d0c1fb3393f
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879223"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015785"
 ---
 # <a name="functional-location-types"></a>Tipi di unità funzionale
 
@@ -57,7 +57,7 @@ Ora il tipo di unità funzionale predefinito da utilizzare solo per una unità f
 7. Il campo **Tipo di cespite** viene utilizzato se si desidera creare automaticamente *un solo* cespite per l'unità funzionale con lo stesso ID e nome dell'unità funzionale che si sta creando. Ad esempio, questo può essere importante se si crea una unità funzionale statica, ad esempio edifici o una conduttura. In tal caso, selezionare il tipo di cespite si desidera utilizzare per il cespite creato automaticamente. Tenere presente che se si effettua una selezione in questo campo, l'interruttore **Più cespiti** deve essere impostato su "No".
 8. Nella Scheda dettaglio **Tipi di cespite**, selezionare i tipi di cespite per essere correlati al tipo di unità funzionale. Fare clic **Aggiungi riga** e selezionare i tipi di cespite. Se si aggiunge i tipi di cespite qui, solo i cespiti che usano quei tipi di cespite possono essere installati in una unità funzionale che usa questo tipo di unità funzionale. Se non si seleziona un tipo di cespite nella Scheda dettaglio **Tipi di cespite**, tutti i tipi di cespite possono essere installati.
 9. Nella Scheda dettaglio **Piani di manutenzione**, selezionare i piani di manutenzione che devono essere impostati automaticamente nelle nuove unità funzionali che usano questo tipo di unità funzionale. Fare clic **Aggiungi riga** e selezionare i piani di manutenzione. Se si aggiunge i piani di manutenzione di cespite qui, solo questi piani possono essere usati in una unità funzionale che usa questo tipo di unità funzionale.
-10. Nella Scheda dettaglio **Requisiti attributi cespite**, impostare gli attributi cespite che devono essere impostati automaticamente nelle nuove unità funzionali che usano questo tipo di unità funzionale. Fare clic **Aggiungi riga** e selezionare l'attributo. Questi requisiti di attributi fungono da linee guida. Non vengono convalidati in base agli attributi impostati per un cespite (**Gestione cespiti** > **Comune** > **Cespiti** > **Tutti i cespiti** > selezionare un cespite nella pagina elenco > scheda **Generale** > pulsante **Attributi** ). I requisiti di attributo vengono visualizzati quando si installano i cespiti nelle unità funzionali.
+10. Nella Scheda dettaglio **Requisiti attributi cespite**, impostare gli attributi cespite che devono essere impostati automaticamente nelle nuove unità funzionali che usano questo tipo di unità funzionale. Fare clic **Aggiungi riga** e selezionare l'attributo. Questi requisiti di attributi fungono da linee guida. Non vengono convalidati in base agli attributi impostati per un cespite (**Gestione cespiti** > **Cespiti** > **Tutti i cespiti** > selezionare un cespite nella pagina elenco > scheda **Generale** > pulsante **Attributi**). I requisiti di attributo vengono visualizzati quando si installano i cespiti nelle unità funzionali.
 11. Nella Scheda dettaglio **Tipi consentiti**, selezionare i tipi di unità funzionali che devono essere validi per i tipi di unità funzionali secondari correlati a un tipo di unità funzionale padre, che utilizza il tipo di unità funzionale selezionato.
 12. Nella Scheda dettaglio **Attributi**, selezionare gli attributi dell'unità funzionale che devono essere impostati automaticamente nelle nuove unità funzionali che usano questo tipo di unità funzionale. Fare clic **Aggiungi riga** e selezionare l'attributo.
 

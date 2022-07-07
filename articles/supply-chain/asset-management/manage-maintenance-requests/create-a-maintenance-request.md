@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c3def1b8ebd75da44588732d9f54a1cc03c999c6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 92f3a2bc3d2a4d5d1c3be0c6dda2674dc3e7d0bb
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891236"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016828"
 ---
 # <a name="create-maintenance-requests"></a>Creare richieste di intervento di manutenzione
 
@@ -32,9 +32,9 @@ Le richieste di intervento di manutenzione può essere utilizzata se gli addetti
 
 **Esempio:** mentre l'addetto alla manutenzione effettua una riparazione, scopre che un altro cespite nello stesso ubicazione ha bisogno di manutenzione. Tuttavia, l'addetto non ha il tempo o pezzi di ricambio necessari per eseguire il processo di riparazione. A tale scopo, crea una richiesta di intervento di manutenzione sul cespite e immette una breve descrizione del problema.
 
-La sezione **Richieste di interventi di manutenzione attive** del riquadro **Informazioni correlate** sul lato destro della pagina **Tutti i cespiti** o **Cespiti attivi** (**Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**) mostra le richieste attive collegate al cespite selezionato.
+La sezione **Richieste di interventi di manutenzione attive** del riquadro **Informazioni correlate** sul lato destro della pagina **Tutti i cespiti** o **Cespiti attivi** (**Gestione cespiti** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**) mostra le richieste attive collegate al cespite selezionato.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Richieste di intervento di manutenzione** \> **Tutte le richieste di intervento di manutenzione** o **Richieste di intervento di manutenzione attive**.
+1. Seleziona **Gestione cespiti** \> **Richieste di intervento di manutenzione** \> **Tutte le richieste di intervento di manutenzione** o **Richieste di intervento di manutenzione attive**.
 2. Selezionare **Nuovo**.
 3. Nella finestra di dialogo **Crea richiesta**, nel campo **Tipo di richiesta di intervento di manutenzione**, selezionare il tipo di richiesta di intervento di manutenzione. Tipo predefinito viene suggerito.
 4. Nel campo **Descrizione**, immettere un nome o un titolo che brevemente descrivono la richiesta di intervento di manutenzione.

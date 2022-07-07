@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c2c90ff76121b436d0fec532268cd3383de0eab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f21cda0abb334432d22cc7e0ccfdab724253d91e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888414"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016951"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Creare richieste articoli per gli ordini di assistenza
 
@@ -34,14 +34,14 @@ Le richieste articoli per gli ordini di assistenza vengono elaborati nel corso d
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Creare una richiesta articoli per un ordine di assistenza
 
-1. Selezionare **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1. Vai a **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 1. Selezionare l'ordine di assistenza per cui si desidera creare una richiesta di articoli.
 1. Nel **riquadro Azioni**, sulla scheda **Spedisci**, selezionare **Richiesta articolo**.
 1. Nel modulo **Richieste articoli** immettere le informazioni relative all'articolo richiesto. Per ulteriori informazioni su specifici campi, consultare [Richieste articoli (modulo)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Creare una richiesta di articoli per un contratto di assistenza
 
-1. Selezionare **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1. Seleziona **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 1. Aprire il contratto di assistenza per cui si desidera creare una richiesta di articoli.
 1. Nella Scheda dettaglio **Righe** selezionare **Aggiungi** per creare una nuova riga.
 1. Nel campo **Tipo di transazione**, selezionare **Articolo**.

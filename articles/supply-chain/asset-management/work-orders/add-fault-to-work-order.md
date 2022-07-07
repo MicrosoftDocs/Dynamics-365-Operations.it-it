@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7905dcd4c29872ec2601359baefa78545140397c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 210db3259a6c64a508119b30598a34dbda2d2dd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857897"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015000"
 ---
 # <a name="add-fault-to-work-order"></a>Aggiungere errore all'ordine di lavoro
 
@@ -30,7 +30,7 @@ ms.locfileid: "8857897"
 
 È possibile aggiungere registrazioni di errore impostate in Designer errori a un ordine di lavoro. Uno o più record di errore devono essere collegati ai tipi di cespite utilizzati per il cespite selezionato nell'ordine di lavoro. Per ulteriori informazioni sull'impostazione, vedere [Gestione errori](../setup-for-work-orders/fault-management.md).
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Seleziona **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 2. Selezionare l'ordine di lavoro per effettuare una registrazione dell'errore, quindi nel riquadro azioni, nella scheda **Ordine di lavoro**, nel gruppo **Cespite**, selezionare **Errore di cespite**.
 
@@ -64,7 +64,7 @@ Nella pagina elenco **Errori di cespite**, è possibile ottenere una panoramica 
 
 Nella pagina elenco **Tutti i cespiti**, è possibile stampare un report degli errori di cespite contenente tutte le registrazioni di errore e una panoramica grafica delle statistiche degli errori.
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Cespiti** > **Tutti i cespiti**.
+1. Seleziona **Gestione cespiti** > **Cespiti** > **Tutti i cespiti**.
 
 2. Selezionare tutti i cespiti per cui stampare il report degli errori.
 

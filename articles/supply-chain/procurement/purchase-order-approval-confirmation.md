@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 936fddb73a639564a136002354a4d3dff7798e0b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af33dbd38b1eb70e79392860e48c6943a4192f78
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907379"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016451"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Approvare e confermare gli ordini fornitore
 
@@ -50,7 +50,7 @@ Quando è attivata la gestione delle modifiche, i PO passano attraverso sei stat
 ## <a name="confirming-purchase-orders"></a>Conferma di ordini fornitore
 I PO che hanno uno stato di approvazione di **Approvato** possono passare attraverso passaggi aggiuntivi prima di essere confermati. Ad esempio, potrebbe essere necessario inviare una richiesta di informazioni sull'acquisto al fornitore per informazioni su prezzi, sconti o le date di consegna. In questo caso, è possibile impostare l'ordine fornitore sullo stato **In revisione esterna** utilizzando l'azione **Richiesta informazioni su acquisto**.
 
-I fornitori che sono impostati per utilizzare il portale fornitori possono esaminare gli ordini nel portale e approvarli o rifiutarli. Durante questo processo di revisione, l'ordine fornitoredi ha lo stato **In revisione esterna**. Il portale fornitori può essere configurato in modo che una conferma del fornitore confermi automaticamente l'ordine in Supply Chain Management. In alternativa, è possibile confermare manualmente un ordine fornitore dopo aver ricevuto conferma dal fornitore. Se un fornitore rifiuta un ordine fornitore, il rifiuto viene ricevuto con il motivo del rifiuto e suggerimenti per le modifiche. In questo caso, lo stato dell'ordine fornitore rimane **In revisione esterna**.
+I fornitori che sono impostati per utilizzare il modulo di collaborazione fornitori possono esaminare gli ordini nel portale e approvarli o rifiutarli. Durante questo processo di revisione, l'ordine fornitoredi ha lo stato **In revisione esterna**. Il modulo di collaborazione fornitori può essere configurato in modo che una conferma del fornitore confermi automaticamente l'ordine in Supply Chain Management. In alternativa, è possibile confermare manualmente un ordine fornitore dopo aver ricevuto conferma dal fornitore. Se un fornitore rifiuta un ordine fornitore, il rifiuto viene ricevuto con il motivo del rifiuto e suggerimenti per le modifiche. In questo caso, lo stato dell'ordine fornitore rimane **In revisione esterna**.
 
 È inoltre disponibile un'opzione per generare una conferma proforma per un ordine prima che la conferma effettiva è stata elaborata. Questa opzione crea solo un report che è possibile condividere con il fornitore. Non crea alcuna informazione di giornale di registrazione.
 

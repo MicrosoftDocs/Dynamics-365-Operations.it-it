@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71b861ec31e704e001aab29245b9e24ce8beb0de
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 665c705e3ffb617fc159a1223cb3f776878d5cd2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882781"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016248"
 ---
 # <a name="asset-boms"></a>DBA cespiti
 
@@ -57,7 +57,7 @@ L'impostazione di storico dei pezzi di ricambio si basa sui gruppi di articoli c
 
 Dopo la registrazione del consumo di articoli in un ordine di lavoro, è possibile visualizzare il consumo articoli registrato nella pagina **DBA cespiti**.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Cespiti attivi**. Selezionare il cespite dall'elenco e quindi selezionare **DBA cespiti**.
+1. Seleziona **Gestione cespiti** \> **Cespiti** \> **Cespiti attivi**. Selezionare il cespite dall'elenco e quindi selezionare **DBA cespiti**.
 
     > [!NOTE]
     > Per visualizzare tutte le registrazioni del consumo articoli in tutti i cespiti, selezionare **Gestione cespiti** \> **Richieste di informazioni** \> **Cespiti** \> **DBA cespiti**.

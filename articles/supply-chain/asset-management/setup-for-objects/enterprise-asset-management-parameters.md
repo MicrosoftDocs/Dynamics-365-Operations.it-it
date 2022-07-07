@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1e2c79a621cf4bd1212c006e1c8967d85bd716b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 750776412ce9d87389a635ef108a34cffe12b68b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870813"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015814"
 ---
 # <a name="asset-management-parameters"></a>Parametri di Gestione cespiti
 
@@ -37,7 +37,7 @@ La scheda **Cespiti** fornisce le seguenti impostazioni:
 
 - **Unità funzionale predefinita** rappresenta l'unità funzionale standard, che viene selezionata automaticamente per i cespiti quando si creano nuovi cespiti.  
 - Nel campo **Calendario standard**, selezionare un calendario da utilizzare per calcolare i KPI del cespite, se nessuna risorsa è selezionata per un cespite.  
-- Nel campo **Visualizzazione**, selezionare la visualizzazione predefinita che viene visualizzata quando si apre **Visualizzazione cespiti** (**Gestione cespiti** > **Comune** > **Cespiti** > **Visualizzazione cespiti**).
+- Nel campo **Visualizzazione**, seleziona la visualizzazione predefinita che viene visualizzata quando si apre **Visualizzazione cespiti** (**Gestione cespiti** > **Cespiti** > **Visualizzazione cespiti**).
 - **Tipo di richiesta predefinito** è il tipo predefinito di richiesta di intervento di manutenzione, che viene selezionato automaticamente quando si crea una nuova richiesta.  
 - Le previsioni relative ai tipi di processo vengono archiviate nel progetto selezionato nel campo **Previsione progetto**. Per ciascun tipo di processo, una nuova attività viene creata automaticamente nel progetto di previsione. Le previsioni del tipo di processo vengono salvate nel progetto di previsione.  
 - Nel campo **Modello**, selezionare il modello previsionale utilizzato nelle previsioni di tipo di processo e ordine di lavoro.

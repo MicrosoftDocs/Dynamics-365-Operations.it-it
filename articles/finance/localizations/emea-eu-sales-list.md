@@ -2,7 +2,7 @@
 title: Dichiarazione elenco vendite UE
 description: Questo articolo fornisce informazioni sulla dichiarazione elenco vendite dell'Unione Europea (UE).
 author: EvgenyPopovMBS
-ms.date: 02/17/2022
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af49817667999dd02a96a7a9bd5bb966be652d35
-ms.sourcegitcommit: 68114cc54af88be9a3a1a368d5964876e68e8c60
+ms.openlocfilehash: 8dfd3fafdfc011973b169516cd4e2d239751e96d
+ms.sourcegitcommit: f5b156f2e5ca99ad05b3d6e4a5d118631fd3064e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323477"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "9012501"
 ---
 # <a name="eu-sales-list-reporting"></a>Dichiarazione elenco vendite UE
 
@@ -150,7 +150,7 @@ Le transazioni dei seguenti tipi possono essere considerate transazioni commerci
 -   Fatture progetto
 -   Fatture fornitore
 
-Una transazione viene considerata una transazione commerciale intracomunitaria se l'indirizzo di consegna della transazione si trova in uno stato membro dell'UE. Per tali paesi, deve essere presente un record nella scheda **Parametri paese** della pagina **Parametri per il commercio estero** e il valore in **Tipo di paese** deve essere impostato su **UE**. Le transazioni commerciali intracomunitarie sono contrassegnate nel campo **Codice elenco**. Questo campo consente inoltre di separare le transazioni commerciali intracomunitarie generali dalle transazioni commerciali triangolari. È possibile raccogliere le informazioni sulle transazioni commerciali intracomunitarie nella pagina **Elenco vendite UE** (fare clic su **Imposta** &gt; **Dichiarazioni** &gt; **Commercio estero** &gt; **Elenco vendite UE**) utilizzando la funzione **Trasferimento**. Questa funzione consente di includere le transazioni che hanno importi di tipi di report differenti (vale a dire, articoli o servizi), in base alle fasce IVA articoli specificate nelle righe di transazione. È inoltre possibile applicare altri filtri per definire le transazioni che devono essere incluse. La funzione di **trasferimento** crea un record nella pagina **Elenco vendite UE** per ogni transazione commerciale intracomunitaria che viene inclusa e specifica un numero di conto di contropartita, un paese, una partita IVA, un numero di fattura e la data e gli importi totali delle righe per il tipo di report. La funzione copia inoltre il valore **Codice elenco** dalla transazione. È possibile modificare manualmente il codice elenco per la transazione nella pagina **Elenco vendite UE**. La funzione di **trasferimento** crea record nei quali il valore di **Stato relazione** è impostato su **Incluso**. È possibile convalidare le informazioni che vengono raccolte nella pagina **Elenco vendite UE** utilizzando la funzione **Convalida**.
+Una transazione viene considerata una transazione commerciale intracomunitaria se l'indirizzo di consegna della transazione si trova in uno stato membro dell'UE. Per tali paesi, deve essere presente un record nella scheda **Parametri paese** della pagina **Parametri per il commercio estero** e il valore in **Tipo di paese** deve essere impostato su **UE**. Le transazioni commerciali intracomunitarie sono contrassegnate nel campo **Codice elenco**. Questo campo consente inoltre di separare le transazioni commerciali intracomunitarie generali dalle transazioni commerciali triangolari. È possibile raccogliere le informazioni sulle transazioni commerciali intracomunitarie nella pagina **Elenco vendite UE** (fare clic su **Imposta** &gt; **Dichiarazioni** &gt; **Commercio estero** &gt; **Elenco vendite UE**) utilizzando la funzione **Trasferimento**. Questa funzione consente di includere le transazioni che hanno importi di tipi di report differenti (vale a dire, articoli o servizi), in base alle fasce IVA articoli specificate nelle righe di transazione. È inoltre possibile applicare altri filtri per definire le transazioni che devono essere incluse. La funzione di **trasferimento** crea un record nella pagina **Elenco vendite UE** per ogni transazione commerciale intracomunitaria che viene inclusa e specifica un numero di conto di contropartita, un paese, una partita IVA, un numero di fattura e la data e gli importi totali delle righe per il tipo di report. La funzione copia inoltre il valore **Codice elenco** dalla transazione. È possibile modificare manualmente il codice elenco per la transazione nella pagina **Elenco vendite UE**. La funzione di **trasferimento** crea record nei quali il valore di **Stato relazione** è impostato su **Incluso**. È possibile convalidare le informazioni che vengono raccolte nella pagina **Elenco vendite UE** utilizzando la funzione **Convalida**. È possibile ottenere informazioni dettagliate sulla fattura (per la direzione di vendita) utilizzando la funzione **Totali**.
 
 ### <a name="generating-the-eu-sales-list-report"></a>Generazione della dichiarazione Elenco vendite UE
 
@@ -160,8 +160,26 @@ Una transazione viene considerata una transazione commerciale intracomunitaria s
 
 Una volta completato il processo di creazione del report per uno specifico periodo (ad esempio, quando gli uffici IVA hanno accettato la dichiarazione **Elenco vendite UE**), è possibile contrassegnare i record dell'ESL che sono inclusi nel report del periodo impostando il valore in **Stato relazione** su **Chiuso**. Per impostare questo stato, utilizzare la funzione **Contrassegna come chiuso** nella pagina **Elenco vendite UE**. Se si annulla la chiusura del periodo, è possibile contrassegnare i record dell'ESL impostando il valore in **Stato relazione** su **Incluso**. Questi record possono quindi essere inclusi nuovamente in una dichiarazione **Elenco vendite UE**. Per impostare questo stato, utilizzare la funzione **Contrassegna come** **incluso** nella pagina **Elenco vendite UE**.
 
+## <a name="list-of-country-specific-topics"></a>Elenco di argomenti specifici del paese
 
-
+| Paese          | Collegamento      |
+|------------------|-----------|
+| Austria          | [Elenco vendite UE per l'Austria](emea-aut-eu-sales-list.md)| 
+| Belgio          |[Elenco vendite UE per il Belgio](emea-bel-eu-sales-list.md)|
+| Repubblica Ceca          |[Elenco vendite UE per la Repubblica Ceca](emea-cze-eu-sales-list.md)|
+| Danimarca          |[Elenco vendite UE per la Danimarca](emea-dnk-eu-sales-list.md)|
+| Estonia          |[Elenco vendite UE per l'Estonia](emea-est-eu-sales-list.md)|
+| Finlandia          |[Elenco vendite UE per la Finlandia](emea-fin-eu-sales-list.md)|
+| Francia          |[Elenco vendite UE per la Francia](emea-fra-eu-sales-list.md)|
+| Germania          |[Elenco vendite UE per la Germania](emea-deu-eu-sales-list.md)|
+| Ungheria          |[Elenco vendite UE per l'Ungheria](emea-hun-eu-sales-list.md)|
+| Lettonia          |[Elenco vendite UE per la Lettonia](emea-lva-eu-sales-list.md)|
+| Lituania          |[Elenco vendite UE per la Lituania](emea-ltu-eu-sales-list.md)|
+| Paesi Bassi          |[Elenco vendite UE per i Paesi Bassi](emea-nl-eu-sales-list.md)|
+| Polonia          |[Elenco vendite UE per la Polonia](emea-pol-eu-sales-list.md)|
+| Spagna          |[Elenco vendite UE per la Spagna (Report 349)](emea-esp-sales-list.md)|
+| Svezia          |[Elenco vendite UE per la Svezia](emea-swe-eu-sales-list.md)|
+| Regno Unito (Irlanda del Nord)          |[Elenco vendite UE per il Regno Unito (Irlanda del Nord)](emea-uk-eu-sales-list.md)|
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

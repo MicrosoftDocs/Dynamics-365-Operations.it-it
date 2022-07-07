@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e89039356f167ef2f06824ffee8645f74f8a2b53
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4d9424b5678a6f37d46203e5d4e359b020fda7a
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890656"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016972"
 ---
 # <a name="create-service-object-relations"></a>Creare relazioni di oggetti assistenza 
 
@@ -33,7 +33,7 @@ In questo articolo viene descritto come creare relazioni di oggetti assistenza p
 
 Utilizzare i seguenti passaggi per creare una relazione dell'oggetto di assistenza per un contratto di assistenza:
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Nell'elenco **Contratti di assistenza** selezionare un contratto di assistenza esistente, fare clic su **Nuovo** per creare un nuovo contratto di assistenza.
 
@@ -47,7 +47,7 @@ Utilizzare i seguenti passaggi per creare una relazione dell'oggetto di assisten
 
 Utilizzare i seguenti passaggi per creare una relazione dell'oggetto di assistenza per un ordine di assistenza:
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**.
 
 2.  Nell'elenco **Ordini di assistenza** selezionare un ordine di assistenza esistente o crearne uno nuovo.
 

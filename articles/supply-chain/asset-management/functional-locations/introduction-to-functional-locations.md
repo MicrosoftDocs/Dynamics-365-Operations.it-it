@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a1c8c4db9aee68584ab35949745132091a34a58
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a94b366dc725db3af01c156ae517a241213f7d52
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882839"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016045"
 ---
 # <a name="introduction-to-functional-locations"></a>Introduzione alle unità funzionali
 
@@ -59,7 +59,7 @@ Dopo aver creato una gerarchia di unità funzionali, sarà necessario installarv
 
 ## <a name="all-functional-locations"></a>Tutte le unità funzionali
 
-Selezionare **Gestione cespiti** \> **Comune** \> **Unità funzionali** \> **Tutte le unità funzionali** per aprire la pagina elenco **Tutte le unità funzionali**. In questa pagina vengono visualizzate tutte le unità funzionali e alcune informazioni correlate a ciascuna. Per visualizzare solo le unità funzionali attive, selezionare **Unità funzionali attive**. Per visualizzare solo le unità funzionali a cui si è correlati come lavoratore, selezionare **Unità funzionali attive personali**. Questa relazione viene impostata nella pagina **Lavoratori**. Per ulteriori informazioni, vedere [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md).
+Seleziona **Gestione cespiti** \> **Unità funzionali** \> **Tutte le unità funzionali** per aprire la pagina elenco **Tutte le unità funzionali**. In questa pagina vengono visualizzate tutte le unità funzionali e alcune informazioni correlate a ciascuna. Per visualizzare solo le unità funzionali attive, selezionare **Unità funzionali attive**. Per visualizzare solo le unità funzionali a cui si è correlati come lavoratore, selezionare **Unità funzionali attive personali**. Questa relazione viene impostata nella pagina **Lavoratori**. Per ulteriori informazioni, vedere [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md).
 
 Nella pagina elenco **Tutte le unità funzionali**, selezionare un collegamento nella colonna **Unità funzionale** per visualizzare i dettagli relativi al record selezionato. Per modificare l'unità funzionale, selezionare il pulsante **Modifica**. La visualizzazione dettagli mostra informazioni dettagliate correlate alla ubicazione. Include inoltre un riquadro **Informazioni correlate** a destra. In questo riquadro è illustrata la gerarchia dell'unità funzionale. È possibile espandere e comprimere il riquadro **Informazioni correlate**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dfb75d69f20c68a40242bb1c0c25ca77f85e0c14
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 519431d84652e45dcd45aefbbaaa2a0e2afe6349
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852873"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016509"
 ---
 # <a name="maintenance-rounds"></a>Cicli di manutenzione
 
@@ -87,7 +87,7 @@ L'illustrazione seguente mostra ed esempio di un ciclo di manutenzione contenent
 
 Dopo l'impostazione di un ciclo di manutenzione, si esegue un processo di programmazione per programmare tutti i processi correlati al ciclo di manutenzione.
 
-1. Fare clic su **Gestione cespiti** > **Periodico** > **Manutenzione preventiva** > ,**Programma cicli di manutenzione** o **Gestione cespiti** > **Comune** > **Programma di manutenzione** > **Tutti i programmi di manutenzione** o **Apri righe di programma di manutenzione** o **Apro pool di programmi di manutenzione** > selezionare la riga di programma di manutenzione nell'elenco > pulsante **Cicli di manutenzione**.
+1. Fai clic su **Gestione cespiti** > **Periodico** > **Manutenzione preventiva** > **Programma cicli di manutenzione**, o **Gestione cespiti** > **Programma di manutenzione** > **Tutti i programmi di manutenzione** o **Apri righe di programma di manutenzione** o **Apri pool di programmi di manutenzione** > seleziona la riga di programma di manutenzione nell'elenco > pulsante **Cicli di manutenzione**.
 
 2. Nel campo **Periodo**, selezionare il tipo di periodo da utilizzare per il processo di programmazione.
 
@@ -102,7 +102,7 @@ Dopo l'impostazione di un ciclo di manutenzione, si esegue un processo di progra
 
 6. Fare clic su **OK**.
 
-7. A questo punto è possibile visualizzare i processi dei cicli di manutenzione in **Gestione cespiti** > **Comune** > **Programma di manutenzione** > **Tutti i programmi di manutenzione** o **Apri righe di programma di manutenzione**. Se i cicli di manutenzione sono collegati a un pool di ordini di lavoro, vengono visualizzate anche le righe di programma di manutenzione in **Apri pool di programmazione di manutenzione**. Le righe di programma di manutenzione create da un ciclo hanno il tipo di riferimento "Cicli di manutenzione".
+7. A questo punto è possibile visualizzare i processi dei cicli di manutenzione in **Gestione cespiti** > **Programma di manutenzione** > **Tutti i programmi di manutenzione** o **Apri righe di programma di manutenzione**. Se i cicli di manutenzione sono collegati a un pool di ordini di lavoro, vengono visualizzate anche le righe di programma di manutenzione in **Apri pool di programmazione di manutenzione**. Le righe di programma di manutenzione create da un ciclo hanno il tipo di riferimento "Cicli di manutenzione".
 
 Le due illustrazioni di seguito illustrano un processo di programmazione nella finestra di dialogo **Cicli di programmazione della manutenzione** e le righe del programma di manutenzione create in **Tutto il programma di manutenzione** in base al processo di programmazione.
 

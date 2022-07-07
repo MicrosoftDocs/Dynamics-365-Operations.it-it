@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90b41b57dfa6db8b5874bbc2d4bcac7b4c634f20
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5ab715be3bfdc380f5736fadd901af3ed78d7035
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860930"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016306"
 ---
 # <a name="create-an-asset"></a>Creare un cespite
 
@@ -30,7 +30,7 @@ ms.locfileid: "8860930"
 
 In questo articolo viene descritta la procedura per la creazione di un cespite in Gestione cespiti.
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **cespiti** > **Tutti i cespiti** o **Cespiti attivi**.
+1. Fai clic su **Gestione cespiti** > **Cespiti** > **Tutti i cespiti** o **Cespiti attivi**.
 2. Fare clic sul pulsante **Nuovo**.
 3. Nella finestra di dialogo **Crea cespiti**, inserire i dati relativi al **Cespite** (l'ID del cespite) e il nome del cespite. Selezionare la data e l'ora del cespite nel campo **Validità**. A partire da tale data, è possibile installare il cespite in una unità funzionale nonché spostare e sostituire il cespite in una struttura di cespiti.
 4. Nel campo **Tipo cespite**, selezionare il tipo per il cespite (campo obbligatorio). Se necessario, selezionare **Produttore cespite** e **Modello cespite** per il cespite. Se un solo prodotto è stato configurato, il prodotto è selezionato automaticamente nel campo **Produttore cespite**. Le opzioni disponibili nei campi **Produttore cespite** e **Modello cespite** dipendono dalla configurazione in [Produttori e modelli di cespiti](../setup-for-objects/product-and-model.md).

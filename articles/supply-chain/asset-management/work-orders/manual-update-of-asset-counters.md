@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3a9ee0a96e6a9097608b4c7cd1f65085e95b8ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30c672286c16a4353556a507019960edb93f8b1b
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897721"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016596"
 ---
 # <a name="manual-update-of-asset-counters"></a>Aggiornamento manuale dei contatori di cespiti
 
@@ -34,7 +34,7 @@ Il tipo selezionato per un contatore può essere impostato per ereditare i valor
 
 Nella pagina **Tutti i cespiti** si creano le registrazioni contatore di ore o quantità di un cespite, in base alle letture nel cespite.
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Cespiti** > **Tutti i cespiti**.
+1. Seleziona **Gestione cespiti** > **Cespiti** > **Tutti i cespiti**.
 
 2. Selezione il cespite e nel riquadro azioni, nella scheda **Cespite**, nel gruppo **Preventivo**, selezionare **Contatori**. Nella pagina **Contatori cespiti** viene visualizzato un elenco di tutte le registrazioni contatore precedenti effettuate per il cespite selezionato.
 

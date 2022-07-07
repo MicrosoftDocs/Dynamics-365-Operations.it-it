@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f15c0f15302c271fac7199b21b7bcd3dcfe88a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4a98b90491093f55ce6974b9b11ff326c0c2f5c
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903871"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015320"
 ---
 # <a name="credit-limits-for-customers"></a>Limiti di credito per i clienti
 
@@ -117,7 +117,7 @@ Utilizzare il modulo **Parametri contabilità clienti** per specificare se visua
 
 Utilizzare il modulo **Clienti** per specificare l'importo del limite di credito per un cliente specifico. È necessario essere membri di un ruolo di sicurezza con il compito Gestisci dati master cliente (CustCustomersMaintain) assegnato per apportare modifiche nel modulo.
 
-1.  Fare clic su **Contabilità clienti** \> **Comune** \> **Clienti** \> **Tutti i clienti**. Fare doppio clic su un conto cliente.
+1.  Fai clic su **Contabilità clienti** \> **Clienti** \> **Tutti i clienti**. Fare doppio clic su un conto cliente.
 
 2.  Nel modulo **Clienti**, nel riquadro azioni, fare clic su **Modifica**.
 
@@ -132,7 +132,7 @@ Utilizzare il modulo **Clienti** per specificare l'importo del limite di credito
 
 Talvolta, potrebbe essere necessario verificare manualmente il limite di credito di un cliente. Ad esempio, è possibile verificare manualmente il limite di credito di un cliente prima di iniziare a immettere un ordine cliente. È possibile utilizzare il modulo **Ordine cliente** per controllare manualmente i limiti di credito. È necessario essere membri di un ruolo di sicurezza con il compito Gestisci ordine cliente (SalesOrderMaintain) assegnato per apportare modifiche nel modulo.
 
-1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini cliente** \> **Tutti gli ordini cliente**. Fare doppio clic su un ordine cliente.
+1.  Fai clic su **Vendite e marketing** \> **Ordini cliente** \> **Tutti gli ordini cliente**. Fare doppio clic su un ordine cliente.
 
 2.  Nella scheda **Gestione** del riquadro azioni del modulo **Ordine cliente**, fare clic su **Verifica limite di credito**.
 

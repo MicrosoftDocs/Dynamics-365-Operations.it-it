@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b372e7d06fdf25df81b11e74e20a5ff214503a0c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c2a1a30fe3f1c86d316cc04bf88b428369e7f14
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8852130"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014794"
 ---
 # <a name="create-service-objects"></a>Creare oggetti di servizio  
 
@@ -29,9 +29,9 @@ ms.locfileid: "8852130"
 Gli oggetti assistenza sono i cespiti cliente e i prodotti per i quali è possibile prestare assistenza.
 
 1. Andare a **Gestione assistenza** \> **Impostazione** \> **Oggetti assistenza** \> **Oggetti assistenza**.
-2. Sulla barra degli strumenti selezionare **Nuovo**.
+2. Nel Riquadro azioni selezionare **Nuovo**.
 3. Nel campo **Descrizione** immettere una descrizione dell'oggetto.
-4. Nel campo **Gruppo di oggetti assistenza** selezionare il gruppo di lavoratori cui l'oggetto appartiene. 
+4. Nel campo **Gruppo di oggetti assistenza** selezionare il gruppo di lavoratori cui l'oggetto appartiene.
 5. Facoltativo: selezionare un articolo per la riga dell'oggetto assistenza, oppure selezionare una distinta base (BOM) modello.
 
 ## <a name="related-articles"></a>Articoli correlati

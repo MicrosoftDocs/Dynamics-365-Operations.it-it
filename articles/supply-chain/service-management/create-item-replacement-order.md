@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57bbb8eb638b990914dc00f9700ff0c1925c48852862b02e09f3f26415d3e347
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 14751fb0e0632ca986d6eddf55c93d44fbd68276
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745504"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015466"
 ---
 # <a name="create-an-item-replacement-order"></a>Creare un ordine di sostituzione articolo 
 
@@ -31,7 +31,7 @@ Gli ordini di sostituzione articolo vengono in genere creati dopo la restituzion
 
 ## <a name="create-a-replacement-order-after-you-receive-an-item-that-is-returned"></a>Creare un ordine sostitutivo dopo che viene visualizzato un articolo che viene restituito
 
-1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini di reso** \> **Tutti gli ordini di reso**.
+1.  Fai clic su **Vendite e marketing** \> **Ordini di reso** \> **Tutti gli ordini di reso**.
 
 2.  Creare un nuovo ordine di reso o selezionare un ordine di reso dall'elenco per aprire il modulo **Ordine di reso - Codice NAR: %1, %2**.
 
@@ -45,7 +45,7 @@ Gli ordini di sostituzione articolo vengono in genere creati dopo la restituzion
 
 ## <a name="create-a-replacement-order-before-you-receive-an-item-that-will-be-returned"></a>Creare un ordine sostitutivo prima di ricevere un articolo che verrà restituito
 
-1.  Fare clic su **Vendite e marketing** \> **Comune** \> **Ordini di reso** \> **Tutti gli ordini di reso**.
+1.  Fai clic su **Vendite e marketing** \> **Ordini di reso** \> **Tutti gli ordini di reso**.
 
 2.  Creare un nuovo ordine di reso o selezionare un ordine di reso dall'elenco per aprire il modulo **Ordine di reso - Codice NAR: %1, %2**.
 

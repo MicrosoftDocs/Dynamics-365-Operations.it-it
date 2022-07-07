@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d519240c0e9e68542e1e10a51eaa2050d011cb4a
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c0aac9bf0f312052160b29be606ba587f2de0184
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8675713"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014668"
 ---
 # <a name="modify-a-service-bom"></a>Modificare una DBA assistenza 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8675713"
 
 ## <a name="update-a-service-bom-element"></a>Aggiornare un elemento di una DBA assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Fare clic su **Modifica** per aprire il modulo dei dettagli **Contratti di assistenza**.
 
@@ -52,7 +52,7 @@ ms.locfileid: "8675713"
 
 ## <a name="delete-a-service-bom-line"></a>Eliminare una riga DBA assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Contratti di assistenza** \> **Contratti di assistenza**.
+1.  Fai clic su **Gestione assistenza** \> **Contratti di assistenza** \> **Contratti di assistenza**.
 
 2.  Fare clic su **Modifica** per aprire il modulo dei dettagli **Contratti di assistenza**.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb29c5e7170011b95151d9aaf2a96a570563096d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5d2cc1f5b8eccb51b6bea8655fdee243c1a2df55
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902084"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015029"
 ---
 # <a name="manually-created-work-orders"></a>Ordini di lavoro creati manualmente
 
@@ -34,7 +34,7 @@ ms.locfileid: "8902084"
 
 ## <a name="create-work-order"></a>Crea ordine di lavoro
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Seleziona **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 2. Selezionare **Nuovo**.
 
@@ -82,7 +82,7 @@ Notare i punti seguenti:
 
 È possibile creare un ordine di lavoro basato su un ordine di lavoro esistente. Questa funzionalità è utile ad esempio se si desidera utilizzare ordini di lavoro principali e secondari. Un nuovo ordine di lavoro è basato su un processo di ordine di lavoro di un ordine di lavoro esistente.
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Seleziona **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 2. Selezionare l'ordine di lavoro di cui creare un ordine di lavoro correlato.
 
@@ -120,7 +120,7 @@ Nella figura seguente è illustrato un esempio della finestra di dialogo **Crea 
 
 È possibile creare rapidamente un nuovo ordine di lavoro da un ordine di lavoro esistente. Questo modo di utilizzare gli ordini di lavoro differisce dalla creazione di ordini di lavoro basati sui [piani di manutenzione](../preventive-and-reactive-maintenance/maintenance-plans.md). È utile se, ad esempio, un ordine di lavoro contiene numerosi processi di ordine di lavoro con vari processi da completare in diversi cespiti a intervalli regolari.
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Seleziona **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 2. Selezionare l'ordine di lavoro da cui copiare il contenuto.
 
@@ -142,7 +142,7 @@ Nella figura seguente è illustrato un esempio della finestra di dialogo **Copia
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Creare un ordine di lavoro basato su una richiesta di intervento di manutenzione
 
-1. Selezionare **Gestione cespiti** > **Comune** > **Richieste di intervento di manutenzione** > **Tutte le richieste di intervento di manutenzione** o **Richieste di intervento di manutenzione attive**.
+1. Seleziona **Gestione cespiti** > **Richieste di intervento di manutenzione** > **Tutte le richieste di intervento di manutenzione** o **Richieste di intervento di manutenzione attive**.
 
 2. Selezionare la richiesta di intervento di manutenzione per la quale creare un ordine di lavoro e fare clic su **Modifica**.
 

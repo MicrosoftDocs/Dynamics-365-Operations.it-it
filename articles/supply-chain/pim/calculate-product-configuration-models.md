@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 593f6a8e28c789a378515ddc8e4163c331442e8b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4424ebbf64ccdcb9bffc840520952ac915606209
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890946"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015495"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Domande frequenti sui calcoli per i modelli di configurazione prodotto
 
@@ -73,7 +73,7 @@ I calcoli si verificano quando si immette un valore per tutti gli attributi di i
 ## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Come si imposta un attributo di destinazione come nascosto o di sola lettura?
 Per impostare un attributo come nascosto o di sola lettura, effettuare le operazioni seguenti:
 
-1.  Fare clic su **Gestione informazioni sul prodotto** &gt; **Comune** &gt; **Modelli di configurazione prodotto**.
+1.  Fai clic su **Gestione informazioni sul prodotto** &gt; **Prodotti** &gt; **Modelli di configurazione prodotto**.
 2.  Selezionare un modello di configurazione prodotto e quindi nel Riquadro azioni fare clic su **Modifica**.
 3.  Nella pagina **Dettagli modello di configurazione prodotto basato su vincoli**, selezionare l'attributo da utilizzare come attributo di destinazione.
 4.  Nella scheda dettaglio **Attributi** selezionare **Nascosto** o **Sola lettura**.
@@ -96,7 +96,7 @@ Questo messaggio viene visualizzato quando un calcolo include un errore o quando
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Poiché viene generato un messaggio di errore anche se il modello prodotto è stato convalidato correttamente?
 I calcoli non sono inclusi nella convalida. È necessario eseguire il test del modello di configurazione prodotto per individuare gli errori nei calcoli. Nei passaggi seguenti viene descritto come eseguire i test di un modello di configurazione prodotto:
 
-1.  Fare clic su **Gestione informazioni sul prodotto** &gt; **Comune** &gt; **Modelli di configurazione prodotto**.
+1.  Fai clic su **Gestione informazioni sul prodotto** &gt; **Prodotti** &gt; **Modelli di configurazione prodotto**.
 2.  Selezionare un modello di configurazione prodotto e quindi nel gruppo **Esecuzione** del Riquadro azioni fare clic su **Test**.
 
 

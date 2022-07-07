@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 1fa2ec6e21026552a4f14a67188db0720d3feae5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af344d3771583a99851c070e3735258ac964b5d7
+ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850788"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "8954498"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.25 (aprile 2022)
 
@@ -155,7 +155,7 @@ La tabella elenca anche le funzionalità che erano precedentemente in anteprima 
 | Warehouse Management | [Elaborazione differita dell'operazione di movimento inventario manuale](../warehousing/deferred-processing-manual-inventory-movement.md) | Obbligatorio |
 | Warehouse Management | Non consentire la creazione di carichi che non soddisfano i requisiti del modello di creazione del carico ondata | Obbligatorio |
 | Warehouse Management | [Layout etichette targa avanzata](../warehousing/document-routing-layout-for-license-plates.md) | Obbligatorio |
-| Warehouse Management | [Valuta tutte le azioni per direttive di ubicazione multi-SKU](../troubleshooting/warehousing/evaluate-multiple-location-directive-actions.md) | Obbligatorio |
+| Warehouse Management | [Valuta tutte le azioni per direttive di ubicazione multi-SKU](/troubleshoot/dynamics-365/supply-chain/warehousing/evaluate-multiple-location-directive-actions) | Obbligatorio |
 | Warehouse Management | Nascondi il campo valore totale nelle pagine "Tutti i carichi" e "Dettagli carico" | Obbligatorio |
 | Warehouse Management | Configurazione di versione etichetta targa | Obbligatorio |
 | Warehouse Management | Correzione manuale righe di carico per utenti amministratore o altri utenti attendibili simili | Obbligatorio |

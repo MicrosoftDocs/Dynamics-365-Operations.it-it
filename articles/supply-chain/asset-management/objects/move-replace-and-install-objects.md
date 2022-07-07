@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e1454f41bb0b43e22c5278463f63aa4178696eef
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0a6b5a2904d21782ae422d06eaaf03c5d5e51ab9
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872126"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015581"
 ---
 # <a name="move-replace-and-install-assets"></a>Spostare, sostituire e installare cespiti
 
@@ -44,7 +44,7 @@ Usare la funzione **Sposta cespite** per spostare il cespite in un'altra struttu
 > [!NOTE]
 > Non utilizzare questa funzione se i cespiti sono in riparazione o vengono temporaneamente sostituiti. Invece, utilizza la funzionalità **Sostituisci cespite** che viene descritta più avanti in questo articolo.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
+1. Seleziona **Gestione cespiti** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
 2. Selezionare il cespite da spostare nell'elenco. Se il cespite ha cespiti figlio, si spostano anche quelli.
 3. Selezionare **Sposta cespite**.
 4. Per spostare il cespite in modo che diventi parte di una struttura di cespiti, selezionare il nuovo cespite padre nel campo **Cespite padre**. Se si sposta un cespite figlio e si desidera renderlo un cespite autonomo che non ha relazioni di struttura, lasciare vuoto il campo **Cespite padre**.
@@ -58,7 +58,7 @@ Utilizzare la funzione **Sostituisci cespite** in relazione alle riparazioni, al
 > [!NOTE]
 > Se l'officina riparazioni è correlata al reparto di produzione, è possibile creare unità funzionali quali **Riparazione**, **Scarti** e **Immagazzinamento** per gestire la riparazione e la sostituzione dei cespiti.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
+1. Seleziona **Gestione cespiti** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
 2. Nell'elenco selezionare il cespite figlio da sostituire. Se il cespite ha cespiti figlio, si sostituiscono anche quelli.
 3. Selezionare **Sostituisci cespite**.
 
@@ -79,7 +79,7 @@ Utilizzare la funzione **Installa cespite** per installare una struttura di cesp
 > [!NOTE]
 > Selezionare sempre un cespite padre. Il cespite padre e i cespiti figlio correlati verranno spostati nell'unità funzionale selezionata.
 
-1. Selezionare **Gestione cespiti** \> **Comune** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
+1. Seleziona **Gestione cespiti** \> **Cespiti** \> **Tutti i cespiti** o **Cespiti attivi**.
 2. Nell'elenco, selezionare il cespite padre da installare in un'altra unità funzionale.
 3. Selezionare **Installa cespite**.
 

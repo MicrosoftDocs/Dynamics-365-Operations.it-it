@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fe4731f8ff23f4abe25fce57a2325e1fca979c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19fafb21e879d7436678bdb3c29d1a3d7e2330d7
+ms.sourcegitcommit: bad64015da0c96a6b5d81e389708281406021d4f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890830"
+ms.lasthandoff: 06/17/2022
+ms.locfileid: "9023762"
 ---
 # <a name="set-up-and-maintain-vendor-collaboration"></a>Impostare e gestire la collaborazione fornitore
 
@@ -29,9 +29,6 @@ ms.locfileid: "8890830"
 L'interfaccia di collaborazione fornitore mostra un set limitato di informazioni sugli ordini fornitore, fatture e scorte di spedizione agli utenti fornitori esterni. Da questa interfaccia, un fornitore può anche rispondere alle richieste di offerta (RdO) e visualizzare e modificare le informazioni aziendali di base.
 
 In questo articolo viene spiegato come impostare la collaborazione fornitore in Dynamics 365 Supply Chain Management. Spiega inoltre come impostare un flusso di lavoro per eseguire il provisioning di nuovi utenti di collaborazione fornitore e come gestire i ruoli di sicurezza per tali utenti.
-
-> [!NOTE]
-> Le informazioni sull'impostazione dei ruoli di sicurezza per la collaborazione fornitore si applicano solo alla versione corrente di Finance and Operations. In Microsoft Dynamics AX 7.0 (febbraio 2016) e Microsoft Dynamics AX versione applicazione 7.0.1 (maggio 2016), è possibile collaborare con i fornitori tramite il modulo del **Portale fornitori**. Per informazioni sulle autorizzazioni utente per il portale fornitori in Microsoft Dynamics AX, vedi [Sicurezza degli utenti del portale per fornitori](configure-security-vendor-portal-users.md).
 
 ## <a name="set-up-vendor-collaboration-security-roles"></a>Impostare i ruoli di sicurezza della collaborazione fornitore
 
@@ -138,13 +135,7 @@ Crea un flusso di lavoro di tipo **Disattiva piattaforma flusso di lavoro richie
 
 ## <a name="enable-vendor-collaboration-for-a-specific-vendor"></a>Abilitare la collaborazione fornitore per un fornitore specifico
 
-Prima di creare un account utente per una persona che utilizzerà la collaborazione fornitore, è necessario impostare il fornitore e consentire l'uso della collaborazione fornitore. Nella pagina **Fornitori** nella scheda **Generale** impostare il campo **Attivazione collaborazione**. Di seguito vengono illustrate le opzioni disponibili.
-
-- **Attiva (con conferma automatica OF)**- Gli ordini fornitore vengono confermati automaticamente se il fornitore li accetta senza richiedere modifiche.
-- **Attiva (senza conferma automatica OF)**- Gli ordini fornitore devono essere confermati manualmente dall'organizzazione dopo che il fornitore li ha accettati.
-
-> [!NOTE]
-> Anche i responsabili dell'approvvigionamento della tua azienda possono completare questa attività.
+Prima di creare un account utente per una persona che utilizzerà la collaborazione fornitore, è necessario impostare il fornitore e consentire l'uso della collaborazione fornitore. Per i dettagli su come eseguire questa operazione, vedi [Collaborazione fornitore con i fornitori esterni](vendor-collaboration-work-external-vendors.md).
 
 ## <a name="troubleshoot-the-provisioning-of-new-vendor-collaboration-users"></a>Risolvere i problemi relativi al provisioning di nuovi utenti di collaborazione fornitore
 

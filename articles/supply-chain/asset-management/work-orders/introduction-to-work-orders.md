@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dcee5fd729de6e96d57462879f7851756f287dc9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5eb911ec4ba9655c4ecaea3bf9a4f8736fa036c2
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902833"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016712"
 ---
 # <a name="introduction-to-work-orders"></a>Introduzione agli ordini di lavoro
 
@@ -47,15 +47,15 @@ Gli ordini di lavoro possono essere creati nei seguenti modi:
 
 ## <a name="all-work-orders"></a>Tutti gli ordini di lavoro
 
-Selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** per aprire la pagina elenco **Tutti gli ordini di lavoro**. In questa pagina vengono visualizzati tutti gli ordini di lavoro e alcune informazioni correlate.
+Seleziona **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** per aprire la pagina elenco **Tutti gli ordini di lavoro**. In questa pagina vengono visualizzati tutti gli ordini di lavoro e alcune informazioni correlate.
 
 Nella figura seguente è illustrato un esempio della pagina di elenco **Tutti gli ordini di lavoro**.
 
 ![Figura 1.](media/01-work-orders.png)
 
-Per visualizzare un elenco di ordini di lavoro attivi, selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro**. 
+Per visualizzare un elenco di ordini di lavoro attivi, seleziona **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro**. 
 
-Per visualizzare un elenco di processi di ordini di lavoro contenenti cespiti installati in unità funzionali a cui si è collegati come lavoratore, selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Processi di manutenzione di ordine di lavoro personali in unità funzionali**. La relazione tra i lavoratori e le unità funzionali viene impostata nella pagina **Lavoratori**. Per ulteriori informazioni, vedere [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md).
+Per visualizzare un elenco di processi di ordini di lavoro contenenti cespiti installati in unità funzionali a cui si è collegati come lavoratore, seleziona **Gestione cespiti** > **Ordini di lavoro** > **Processi di manutenzione di ordine di lavoro personali in unità funzionali**. La relazione tra i lavoratori e le unità funzionali viene impostata nella pagina **Lavoratori**. Per ulteriori informazioni, vedere [Addetti alla manutenzione e gruppi di lavoratori](../setup-for-objects/workers-and-worker-groups.md).
 
 Di seguito sono riportati alcuni metodi di utilizzo della pagina **Tutti gli ordini di lavoro**:
 

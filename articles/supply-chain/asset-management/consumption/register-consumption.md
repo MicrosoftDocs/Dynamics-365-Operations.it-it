@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf78d53e8e2d7bee24a0a7789ca1a96cdd8f1415
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 588da2a217a56d2bc25f85c9a10c6589f90b16a1
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886046"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9015087"
 ---
 # <a name="register-consumption"></a>Registrare il consumo
 
@@ -35,7 +35,7 @@ In alcuni casi, esiste la possibilità di aggiungere o eliminare righe di previs
 >[!NOTE]
 >È possibile impostare la registrazione automatica dei giornali di registrazione in uno stato del ciclo di vita di ordine di lavoro. Per ulteriori informazioni, fare riferimento a [Stati del ciclo di vita ordine di lavoro](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Fai clic su **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 2. Selezionare l'ordine di lavoro e fare clic su **Giornali di registrazione**.
 
@@ -61,7 +61,7 @@ La schermata seguente mostra un esempio di registrazioni di ore e articoli in un
 
 Se un ordine di lavoro contiene più processi di ordine di lavoro, è possibile registrare le ore lavorative utilizzando la funzionalità **Suddividi ore**, nel senso che la riga di registrazione di 1 ora può essere distribuita in modo uniforme in ogni processo di ordine di lavoro.
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
+1. Fai clic su **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**.
 
 2. Selezionare l'ordine di lavoro e fare clic su **Giornali di registrazione**.
 

@@ -1,8 +1,8 @@
 ---
-title: Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
-description: Questo articolo spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
+title: Configurare le funzionalità facoltative per un ambiente sandbox Dynamics 365 Commerce
+description: Questo articolo spiega come configurare funzionalità facoltative per un ambiente sandbox Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 06/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,24 +14,24 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39d4784e21c4fb42ca218d507616d49eff309ee1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 201628eb0c3e81d5fee0df9e53d93f5b1839adfb
+ms.sourcegitcommit: 252cb41c3029b623354698463f7b44a29fd9f184
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861916"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9013240"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurare le funzioni facoltative per un ambiente di valutazione Dynamics 365 Commerce
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-sandbox-environment"></a>Configurare le funzionalità facoltative per un ambiente sandbox Dynamics 365 Commerce
 
 [!include [banner](includes/banner.md)]
 
-Questo articolo spiega come configurare funzionalità facoltative per un ambiente di valutazione Microsoft Dynamics 365 Commerce.
+Questo articolo spiega come configurare funzionalità facoltative per un ambiente sandbox Microsoft Dynamics 365 Commerce.
 
 ## <a name="prerequisites"></a>Prerequisiti
 
-Se si desidera valutare le funzionalità di posta elettronica transazionali, è necessario soddisfare i prerequisiti seguenti:
+Se vuoi valutare le funzionalità di posta elettronica transazionali, è necessario soddisfare i prerequisiti seguenti:
 
-- Si dispone di un server di posta elettronica disponibile (Serve Simple Mail Transfer Protocol \[SMTP\]), che può essere utilizzato dalla sottoscrizione Microsoft Azure in cui si effettua il provisioning dell'ambiente di valutazione.
+- Hai un server di posta elettronica disponibile (Serve Simple Mail Transfer Protocol \[SMTP\]), che può essere utilizzato dalla sottoscrizione Microsoft Azure in cui effettui il provisioning dell'ambiente sandbox.
 - Si dispone del nome di dominio completo (FQDN)/indirizzo IP, numero della porta SMTP e dei dettagli di autenticazione del server.
 
 ## <a name="configure-the-image-back-end"></a>Configurare il back-end dell'immagine
@@ -39,10 +39,10 @@ Se si desidera valutare le funzionalità di posta elettronica transazionali, è 
 ### <a name="find-your-media-base-url"></a>Individuare l'URL di base multimediale
 
 > [!NOTE]
-> Prima di poter completare questa procedura, è necessario completare i passaggi in [Configura il tuo sito in Commerce](cpe-post-provisioning.md#set-up-your-site-in-commerce).
+> Prima di poter completare questa procedura, è necessario completare i passaggi in [Configura il tuo sito in Commerce](cpe-post-provisioning.md#set-up-your-e-commerce-sites).
 
 1. Accedi alla Creazione di siti Web di Commerce utilizzando l'URL di cui hai preso nota quando hai inizializzato l'e-Commerce durante il provisioning (vedere [Inizializzare l'e-Commerce](provisioning-guide.md#initialize-e-commerce)).
-1. Aprire il sito **Fabrikam**.
+1. Apri il sito **Fabrikam**, **Adventure Works**, o **Adventure Works Business** con cui vuoi lavorare.
 1. Nel menu a sinistra scegliere **Libreria multimediale**.
 1. Selezionare qualsiasi singolo asset di immagine.
 1. Nel controllo proprietà a destra, individuare la proprietà **URL pubblico**. Il valore è un URL. Ecco un esempio:
@@ -98,9 +98,9 @@ Per ciascun evento transazionale per il quale si desidera inviare messaggi di po
 
 ## <a name="customize-email-templates"></a>Personalizzare i modelli di messaggio di posta elettronica
 
-Potresti voler personalizzare i modelli di messaggio di posta elettronica in modo che utilizzino immagini diverse. Oppure potresti voler aggiornare i collegamenti nei modelli in modo che vadano nell'ambiente di valutazione. Questa procedura illustra come scaricare i modelli predefiniti, personalizzarli e aggiornarli nel sistema.
+Potresti voler personalizzare i modelli di messaggio di posta elettronica in modo che utilizzino immagini diverse. Oppure potresti voler aggiornare i collegamenti nei modelli in modo che vadano nell'ambiente sandbox. Questa procedura illustra come scaricare i modelli predefiniti, personalizzarli e aggiornarli nel sistema.
 
-1. In un browser Web, scaricare il [file ZIP dei modelli di messaggio di posta elettronica predefiniti della valutazione di Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) nel computer locale. Questo file contiene i seguenti documenti HTML:
+1. In un browser Web, scarica il [file ZIP dei modelli di messaggio di posta elettronica predefiniti dimostrativi di Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) nel computer locale. Questo file contiene i seguenti documenti HTML:
 
     - Modello Conferma ordine
     - Modello Emetti gift card
@@ -167,15 +167,11 @@ I seguenti token vengono sostituiti con i valori di ogni prodotto nell'ordine.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dell'ambiente di valutazione Dynamics 365 Commerce](cpe-overview.md)
+[Eseguire il provisioning dell'ambiente sandbox di Dynamics 365 Commerce](provisioning-guide.md)
 
-[Provisioning di un ambiente di valutazione Dynamics 365 Commerce](provisioning-guide.md)
+[Configurare un ambiente sandbox Dynamics 365 Commerce](cpe-post-provisioning.md)
 
-[Configurare un ambiente di valutazione Dynamics 365 Commerce](cpe-post-provisioning.md)
-
-[Configurare uno scenario BOPIS in un ambiente di valutazione Dynamics 365 Commerce](cpe-bopis.md)
-
-[Domande frequenti sull'ambiente di valutazione Dynamics 365 Commerce](cpe-faq.md)
+[Configurare uno scenario BOPIS in un ambiente sandbox Dynamics 365 Commerce](cpe-bopis.md)
 
 [Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 80f0380d50a0c050242846c0c3e70bc1a0bd6bf5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df1e1fe352add8361309df54b2178ec27752466d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880453"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016799"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Previsioni, ordini di lavoro e progetti
 
@@ -60,7 +60,7 @@ Ad esempio, nell'illustrazione seguente, a causa dell'impostazione del tipo di c
 
 ![Figura 1.](media/01-integration-to-pma.png)
 
-Lo scopo dell'ID progetto nel processo di ordine di lavoro e del numero di attività correlato è di tenere traccia dei costi relativi al processo di ordine di lavoro e al cespite selezionato nello stesso nel modulo **Gestione progetti e contabilità**. Per visualizzare l'ID progetto e il numero di attività, selezionare **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** e quindi selezionare l'ordine di lavoro. Nella Scheda dettaglio **Dettagli riga**, il campo **ID progetto** mostra l'ID progetto e il campo **Numero attività** visualizza il numero di attività. Per ulteriori informazioni sul controllo dei costi in Gestione cespiti, vedere [Controllo dei costi e delle date](../controlling-and-reporting/cost-and-date-control.md).
+Lo scopo dell'ID progetto nel processo di ordine di lavoro e del numero di attività correlato è di tenere traccia dei costi relativi al processo di ordine di lavoro e al cespite selezionato nello stesso nel modulo **Gestione progetti e contabilità**. Per visualizzare l'ID progetto e il numero di attività, seleziona **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** e quindi seleziona l'ordine di lavoro. Nella Scheda dettaglio **Dettagli riga**, il campo **ID progetto** mostra l'ID progetto e il campo **Numero attività** visualizza il numero di attività. Per ulteriori informazioni sul controllo dei costi in Gestione cespiti, vedere [Controllo dei costi e delle date](../controlling-and-reporting/cost-and-date-control.md).
 
 Nella figura seguente è illustrata una panoramica grafica dei progetti di ordine di lavoro e delle attività di progetto correlate.
 

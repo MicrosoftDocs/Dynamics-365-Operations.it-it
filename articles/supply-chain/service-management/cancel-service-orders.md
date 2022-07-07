@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e75ed6e30ece1f4807ff036d831c269774d941a7
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: 228b76d6f6f0bb048662c8e82df76f51b7cb3652
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670974"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9017378"
 ---
 # <a name="cancel-service-orders"></a>Annulla ordini di assistenza   
 
@@ -36,11 +36,11 @@ ms.locfileid: "8670974"
 
 ## <a name="cancel-a-service-order-in-the-service-orders-form"></a>Annullare un ordine di assistenza nel modulo Ordini di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**. Selezionare l'ordine di assistenza e fare clic su **Annulla ordine** nel riquadro azioni.
+1.  Fai clic su **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**. Selezionare l'ordine di assistenza e fare clic su **Annulla ordine** nel riquadro azioni.
 
 ## <a name="cancel-a-service-order-line"></a>Annullare una riga di ordine di assistenza
 
-1.  Fare clic su **Gestione assistenza** \> **Comune** \> **Ordini di assistenza** \> **Ordini di assistenza**. Fare doppio clic sull'ordine di assistenza contenente la riga che si desidera annullare.
+1.  Fai clic su **Gestione assistenza** \> **Ordini di assistenza** \> **Ordini di assistenza**. Fare doppio clic sull'ordine di assistenza contenente la riga che si desidera annullare.
 
 2.  Selezionare la riga di ordine di assistenza che si desidera annullare, quindi fare clic su **Annulla riga ordine** per modificare lo stato della riga in **Annullata**.
 

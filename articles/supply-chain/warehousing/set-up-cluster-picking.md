@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3094649da2ce9a700a4d1cde236609013f4b9744
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0ec3de073def2ff63af3c04b5696cbcec4f09948
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862310"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9014736"
 ---
 # <a name="set-up-cluster-picking"></a>Imposta prelievo del cluster
 
@@ -74,9 +74,14 @@ Quando il prelievo cluster viene applicato, la conferma dell'articolo è essenzi
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Impostare la verifica dell'articolo con prelievo cluster
 
-1. Su una voce di menu del dispositivo mobile, apri il modulo di configurazione per la conferma del lavoro:  **Gestione magazzino** \> **Gestione magazzino** \> **Configurazione** \>  **Dispositivo mobile** \> **Voci di menu del dispositivo mobile**.
+1. Vai a **Gestione magazzino** > **Impostazioni** > **Dispositivo mobile** > **Voci di menu del dispositivo mobile**.
+1. Nel riquadro elenco, seleziona la voce di menu che vuoi impostare.
+1. Seleziona **Impostazione conferma lavoro** nel riquadro azioni.
+1. Effettua una delle seguenti azioni:
+    - Se esiste già una riga per il **Tipo di lavoro** che vuoi configurare, selezionala e quindi seleziona **Modifica** nel riquadro azioni.
+    - Se non esiste una riga appropriata, seleziona **Nuovo** nel riquadro azioni e quindi imposta il **Tipo di lavoro** sul tipo appropriato.
+1. Contrassegna la casella di controllo **Conferma prodotto** per la riga nuova o selezionata. Ciò consente ai lavoratori di verificare ogni pezzo di inventario usando il dispositivo mobile.
 
-1. Dalle voci di menu del dispositivo mobile, aprire la **configurazione della conferma del lavoro**. L'opzione **Conferma prodotto** consente di verificare ogni pezzo di magazzino dal dispositivo mobile sottoposto a scansione.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

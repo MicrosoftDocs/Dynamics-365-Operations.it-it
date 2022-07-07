@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c1b04c7cca70ec8b25d40cde86be370bce224388
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8ea84259eb8f12becdcf008ed9222a44b2626a0d
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856253"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016219"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Aggiornamento automatico dei contatori di cespiti
 
@@ -53,7 +53,7 @@ Come descritto in precedenza, i contatori automatici possono essere aggiornati d
 
 5. Selezionare **OK**. 
 
-Dopo l'aggiornamento automatico del contatore di cespiti, è possibile visualizzare le registrazioni del contatore correlate al cespite nella pagina **Contatori cespiti**. Selezionare **Gestione cespiti** > **Comune** > **Cespiti** > **Tutti i cespiti**, selezionare il cespite, quindi nel riquadro azioni, nella scheda **Cespite**, nel gruppo **Preventivo** selezionare **Contatori**.
+Dopo l'aggiornamento automatico del contatore di cespiti, è possibile visualizzare le registrazioni del contatore correlate al cespite nella pagina **Contatori cespiti**. Seleziona **Gestione cespiti** > **Cespitis** > **Tutti i cespiti**, selezionaa il cespite, quindi nel riquadro azioni, nella scheda **Cespite**, nel gruppo **Preventivo** seleziona **Contatori**.
 
 Nella pagina **Valore aggregato cespiti**, è possibile ottenere una panoramica dell'ultima registrazione effettuata in tutti i cespiti di tutti i tipi. Selezionare **Gestione cespiti** > **Richieste di informazioni** > **Cespiti** > **Valore aggregato cespiti**. Questa pagina è simile alla pagina **Contatori cespiti**, ma non è possibile aggiungere o modificare le registrazioni. La visualizzazione è disponibile solo a scopo informativo.
 

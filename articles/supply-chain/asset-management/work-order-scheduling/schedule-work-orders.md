@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3fc3e6ef2332a883ef4a612a669142da1794454
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6592b94105777525c777950132d5099d1e8abb0e
+ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845056"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "9016741"
 ---
 # <a name="schedule-work-orders"></a>Programma ordini di lavoro
 
@@ -30,11 +30,11 @@ ms.locfileid: "8845056"
 
 In questo articolo viene descritto come programmare ordini di lavoro in Gestione cespiti. 
 
-Il numero di ore necessario per un ordine di lavoro viene definito dalla somma delle ore previste meno le ore registrate. Se è necessario più tempo, la previsione deve essere rettificata di conseguenza. In **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**, è possibile visualizzare o modificare previsioni in un ordine di lavoro selezionando l'ordine di lavoro e facendo clic su **Previsione** nella scheda **Ordine di lavoro**. Dopo la creazione e la stima degli ordini di lavoro, è necessario assegnare gli addetti alla manutenzione e gli strumenti necessari per completare gli ordini di lavoro.
+Il numero di ore necessario per un ordine di lavoro viene definito dalla somma delle ore previste meno le ore registrate. Se è necessario più tempo, la previsione deve essere rettificata di conseguenza. In **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro** o **Ordini di lavoro attivi**, è possibile visualizzare o modificare previsioni in un ordine di lavoro selezionando l'ordine di lavoro e facendo clic su **Previsione** nella scheda **Ordine di lavoro**. Dopo la creazione e la stima degli ordini di lavoro, è necessario assegnare gli addetti alla manutenzione e gli strumenti necessari per completare gli ordini di lavoro.
 
 Solo gli ordini di lavoro con un ciclo di vita che consente la programmazione possono essere programmati. Per consentire la programmazione, andare a **Gestione cespiti** > **Impostazione** > **Ordini di lavoro** > **Stati del ciclo di vita** >  Scheda dettaglio **Generale** > interruttore **Consenti programmazione**.
 
-1. Fare clic su **Gestione cespiti** > **Comune** > **Ordini di lavoro** > **Tutti gli ordini di lavoro**.
+1. Fai clic su **Gestione cespiti** > **Ordini di lavoro** > **Tutti gli ordini di lavoro**.
 
 2. Selezionare gli ordini di lavoro da programmare nell'elenco. Ad esempio, è possibile ordinare l'elenco per **Stato del ciclo di vita corrente**.
 
