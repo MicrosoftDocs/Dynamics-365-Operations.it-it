@@ -7,21 +7,21 @@ ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom:
-- "27681"
-- intro-internal
-ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be3c576cd0fac1239113efcdd7e97810b193a88
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "27681"
+- intro-internal
+ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
+ms.openlocfilehash: 119292dccc2f2d7131f0fa39aa35a8253b948d40
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906635"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206477"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Home page creazione di report e analisi con Power BI
 
@@ -29,10 +29,10 @@ ms.locfileid: "8906635"
 
 In questo articolo vengono descritte le risorse che è possibile utilizzare per ottenere ulteriori informazioni sugli strumenti di business intelligence (BI) e di creazione di report disponibili.
 
-## <a name="get-started"></a>Introduzione
+## <a name="get-started"></a>Attività iniziali
 - [Accesso alle informazioni e creazione di report](information-access-reporting.md)
-- [Tech Talk: Reporting options](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
-- [Finance and Operations: Power BI Analytics & Reporting Services blog](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
+- [Discussione tecnica - Opzioni per la creazione di report](https://www.youtube.com/watch?v=NzZONjKs5xA) (video)
+- [App per la finanza e le operazioni - Blog sui servizi di creazione di report e di analisi di Power BI](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)
 
 ## <a name="analytical-workspaces"></a>Aree di lavoro analitiche
 Le aree di lavoro possono utilizzare contenuti di infografica e oggetti visivi supportati da Microsoft Power BI. Tali contenuti e oggetti visivi includono numerosi controlli forniti da terze parti. Di conseguenza, le aree di lavoro possono offrire un'esperienza utente interattiva estremamente efficace a livello visivo.

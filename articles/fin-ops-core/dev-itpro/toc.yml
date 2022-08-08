@@ -2,7 +2,7 @@
   items:
     - name: Sviluppo e amministrazione delle app per la finanza e le operazioni
       items:
-        - name: Documentazione delle applicazioni Finance and Operations
+        - name: Documentazione delle applicazioni per la finanza e le operazioni
           href: ../fin-ops/index.md
         - name: Sviluppo e amministrazione delle app per la finanza e le operazioni
           href: index.md
@@ -18,11 +18,9 @@
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: Aggiornamento piattaforma versione 10.0.27 (luglio 2022)
                   href: get-started/whats-new-platform-updates-10-0-27.md
-                - name: Aggiornamento piattaforma versione 10.0.26 (maggio 2022)
-                  href: get-started/whats-new-platform-updates-10-0-26.md
             - name: Funzionalità rimosse o deprecate
               items:
-                - name: Home page delle funzionalità rimosse o deprecate
+                - name: Home page Funzionalità rimosse o deprecate
                   href: ../fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
                 - name: Funzionalità di Platform rimosse o deprecate
                   href: get-started/removed-deprecated-features-platform-updates.md
@@ -46,11 +44,11 @@
               href: dev-tools/aio-deployable-packages.md
             - name: Aggiornare versioni di modello nella compilazione automatica
               href: dev-tools/version-models-build.md
-        - name: Integrazione dati
+        - name: Integrazione dei dati
           items:
             - name: Integrazione tra le app per la finanza e le operazioni e servizi di terze parti
               href: data-entities/integration-overview.md
-            - name: API di integrazione dati
+            - name: API di integrazione dei dati
               items:
                 - name: API REST di pacchetti di gestione dei dati
                   href: data-entities/data-management-api.md
@@ -86,7 +84,7 @@
               href: data-entities/fin-ops-connector.md
             - name: Sviluppo per l'integrazione
               items:
-                - name: Integrazione di dati tramite entità di dati
+                - name: Integrazione dei dati tramite entità di dati
                   items:
                     - name: Panoramica integrazione di dati tramite entità di dati
                       href: data-entities/data-management-integration-data-entity.md
@@ -106,39 +104,39 @@
                       items:
                         - name: Prospect per uno scenario di liquidazione
                           href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                        - name: Sincronizzare conti direttamente da Sales con clienti in Finance and Operations
+                        - name: Sincronizzare conti direttamente da Sales con clienti di app per la finanza e le operazioni
                           href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                        - name: Sincronizzare prodotti direttamente da Finance and Operations con prodotti in Sales
+                        - name: Sincronizzare prodotti direttamente da app per la finanza e le operazioni con prodotti di Sales
                           href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                        - name: Sincronizzare contatti direttamente da Sales con contatti o clienti in Finance and Operations
+                        - name: Sincronizzare contatti direttamente da Sales con contatti o clienti di app per la finanza e le operazioni
                           href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                        - name: Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales a Finance and Operations
+                        - name: Sincronizzare intestazioni e righe di offerte di vendita direttamente da Sales ad app per la finanza e le operazioni
                           href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                        - name: Sincronizzazione degli ordini cliente direttamente tra Sales e Finance and Operations
+                        - name: Sincronizzazione degli ordini cliente direttamente tra Sales e app per la finanza e le operazioni
                           href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                        - name: Sincronizzare intestazioni e righe di fatture di vendita direttamente da Finance and Operations in Sales
+                        - name: Sincronizzare intestazioni e righe di fatture di vendita direttamente da app per la finanza e le operazioni in Sales
                           href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
                     - name: Configurare l'integrazione con Field Service
                       items:
                         - name: Panoramica configurazione dell'integrazione con Field Service
                           href: ../../supply-chain/sales-marketing/field-service.md
-                        - name: Sincronizzare prodotti in Finance and Operations con prodotti in Field Service
+                        - name: Sincronizzare prodotti in app per la finanza e le operazioni con prodotti in Field Service
                           href: ../../supply-chain/sales-marketing/field-service-product.md
-                        - name: Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in Finance and Operations
+                        - name: Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente in app per la finanza e le operazioni
                           href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                        - name: Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in Finance and Operations
+                        - name: Sincronizzare le fatture del contratto in Field Service con le fatture a testo libero in app per la finanza e le operazioni
                           href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                        - name: Sincronizzare i trasferimenti e le rettifiche delle scorte da Field Service a Finance and Operations
+                        - name: Sincronizzare i trasferimenti e le rettifiche di magazzino da Field Service in app per la finanza e le operazioni
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                        - name: Sincronizzare le informazioni sul livello di scorte da Finance and Operations a Field Service
+                        - name: Sincronizzare le informazioni sul livello di scorte da app per la finanza e le operazioni a Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                        - name: Sincronizzare i prodotti con l'unità di magazzino da Finance and Operations a Field Service
+                        - name: Sincronizzare i prodotti con l'unità di magazzino da app per la finanza e le operazioni a Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                        - name: Sincronizzare l'elenco dei progetti da Finance and Operations a Field Service
+                        - name: Sincronizzare l'elenco dei progetti da app per la finanza e le operazioni a Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                        - name: Sincronizzare i magazzini da Finance and Operations a Field Service
+                        - name: Sincronizzare i magazzini da app per la finanza e le operazioni a Field Service
                           href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                        - name: Sincronizzare gli ordini di lavoro con il progetto da Field Service a Finance and Operations
+                        - name: Sincronizzare gli ordini di lavoro con il progetto da Field Service in app per la finanza e le operazioni
                           href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
                     - name: Configurare l'integrazione di Project Service Automation
                       items:
@@ -348,9 +346,9 @@
                   href: deployment/arm-onboarding.md
                 - name: Completare il processo di integrazione di Azure Resource Manager per i progetti LCS del governo degli Stati Uniti
                   href: deployment/arm-onbarding-us-goverment.md
-                - name: Azure ExpressRoute e Finance and Operations
+                - name: Azure ExpressRoute e app per la finanza e le operazioni
                   href: deployment/expressroute.md
-                - name: Architettura Finance and Operations
+                - name: Architettura di app per la finanza e le operazioni
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Applicare aggiornamenti ad ambienti cloud
                   href: deployment/apply-deployable-package-system.md
@@ -584,7 +582,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Modelli e pacchetti
                   href: dev-tools/models.md
-                - name: Tipo di progetto Finance and Operations
+                - name: Tipo di progetto per la finanza e le operazioni
                   href: dev-tools/projects.md
                 - name: Componenti aggiuntivi degli strumenti per Visual Studio
                   href: dev-tools/developer-tools-add-ins.md
@@ -1050,7 +1048,7 @@
                   href: lifecycle-services/dts-devops-extension.md
                 - name: Esercitazione dell'estensione Azure DevOps (anteprima pubblica)
                   href: lifecycle-services/dts-ado-tutorial.md
-                - name: Estensione Visual Studio (anteprima privata)
+                - name: Estensione Visual Studio (anteprima pubblica)
                   href: lifecycle-services/dts-visual-studio.md
                 - name: Estensione Visual Studio Code (anteprima pubblica)
                   href: lifecycle-services/dts-vscode-doc.md
@@ -1088,7 +1086,7 @@
                           href: data-entities/dual-write/enable-dual-write.md
                         - name: Requisiti di sistema e prerequisiti
                           href: data-entities/dual-write/requirements-and-prerequisites.md
-                        - name: Come utilizzare la procedura guidata per la doppia scrittura per collegare i tuoi ambienti
+                        - name: Come utilizzare la procedura guidata per la doppia scrittura per collegare gli ambienti
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Abilitazione della mappa entità per la doppia scrittura
                           href: data-entities/dual-write/enable-entity-map.md
@@ -1224,9 +1222,9 @@
                   href: power-platform/admin-reference.md
                 - name: Abilitare le entità virtuali di Dataverse
                   href: power-platform/enable-virtual-entities.md
-                - name: Portali Power Apps con Finance and Operations
+                - name: Portali Power Apps con le app per la finanza e le operazioni
                   href: power-platform/power-portal-reference.md
-                - name: Domande frequenti sulle entità virtuali di Finance and Operations
+                - name: Domande frequenti sulle entità virtuali per la finanza e le operazioni
                   href: power-platform/faq.md
             - name: Eventi aziendali
               items:
@@ -1574,11 +1572,11 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Supporto
           items:
-            - name: Ottenere supporto per Finance and Operations e Lifecycle Services
+            - name: Ottenere supporto per app per la finanza e le operazioni e Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Panoramica del supporto per Dynamics 365
               href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
-            - name: Ottenere supporto per Finance and Operations gestito da 21Vianet in Cina
+            - name: Ottenere supporto per app per la finanza e le operazioni gestite da 21Vianet in Cina
               href: lifecycle-services/21vianet-support.md
             - name: Impostare il supporto tecnico per le app per la finanza e le operazioni
               href: lifecycle-services/support-experience.md
@@ -1586,7 +1584,7 @@
               href: lifecycle-services/cloud-powered-support-lcs.md
             - name: Supporto e monitoraggio della produzione
               href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
-        - name: Amministrazione sistema
+        - name: Amministrazione di sistema
           items:
             - name: Home page amministrazione sistema
               href: sysadmin/system-administration-home-page.md
@@ -1698,7 +1696,7 @@
               href: migration-upgrade/upgrade-home-page.md
             - name: Eseguire l'aggiornamento da AX 2012
               items:
-                - name: Eseguire l'aggiornamento da AX 2012 a Finance and Operations
+                - name: Eseguire l'aggiornamento da AX 2012 ad app per la finanza e le operazioni
                   href: migration-upgrade/upgrade-overview-2012.md
                 - name: 'Aggiornamento AX 2012: pianificare l''utilizzo dello strumento Analisi aggiornamenti'
                   href: migration-upgrade/upgrade-analyzer-tool.md
@@ -1758,7 +1756,7 @@
                       href: migration-upgrade/compress-tables-ax-2012.md
             - name: Migrazione dei dati da AX 2009
               items:
-                - name: Migrare i dati da AX 2009 a Finance and Operations
+                - name: Migrare i dati da AX 2009 ad app per la finanza e le operazioni
                   href: migration-upgrade/data-migration-tool.md
                 - name: Migrazione AX 2009 - Installare lo strumento di migrazione dei dati
                   href: migration-upgrade/install-dmt.md

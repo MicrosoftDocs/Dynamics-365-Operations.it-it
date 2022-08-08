@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4935d54a911701fda4740e3a1116c139730ceb08
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: abfba49c1b5e410cdc47db9965ffee26fbaebb9e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866539"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067684"
 ---
 # <a name="globalization-resources"></a>Risorse di globalizzazione
 
@@ -63,10 +63,10 @@ Nelle risorse seguenti sono riportate informazioni sulle funzionalità di locali
 I [piani di rilascio di Dynamics 365](/business-applications-release-notes/) forniscono una descrizione delle funzionalità nuove e migliorate pianificate per le applicazioni aziendali e le piattaforme applicative di Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novità delle app per la finanza e le operazioni
-La [Home page Novità o modifiche in Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse in versioni specifiche delle app per la finanza e le operazioni.
+La [Home page Novità o modifiche delle app per la finanza e le operazioni](../../fin-ops/get-started/whats-new-changed.md) descrive le funzionalità incluse in versioni specifiche delle app per la finanza e le operazioni.
 
 ### <a name="electronic-reporting"></a>Creazione di report elettronici
-Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
+Lo strumento di creazione di report elettronici consente di configurare i formati per i documenti elettronici in base ai requisiti legali dei vari paesi/aree geografiche. La creazione di report elettronici consente di gestire questi formati durante il ciclo di vita. Per ulteriori informazioni, fare riferimento ai seguenti argomenti:
 -   [Panoramica dei report elettronici](../analytics/general-electronic-reporting.md)
 -   [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
 -   [Creare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-configuration.md)
@@ -133,3 +133,4 @@ Per ulteriori informazioni, vedere la [Guida](../../fin-ops/get-started/help-ove
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

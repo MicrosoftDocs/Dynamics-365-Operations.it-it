@@ -1,7 +1,7 @@
 ---
 title: Home page di Gestione cassa e banche
 description: È possibile utilizzare Gestione cassa e banche per gestire i conti bancari della persona giuridica e gli strumenti finanziari a essi associati.
-author: kfend
+author: angelad116
 ms.date: 10/26/2017
 ms.topic: index-page
 ms.prod: ''
@@ -14,15 +14,15 @@ ms.custom:
 - intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
-ms.author: kfend
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf423c61f4a7ac8648a09c25e30b47ce1b0e3300
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: e49c9f514e79552dda2e7a6e10c7d84fa2560c2e
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710727"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151971"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Home page di Gestione cassa e banche
 
@@ -89,7 +89,7 @@ Passare ai [piani di rilascio di Microsoft Dynamics 365](/dynamics365/release-pl
 
 #### <a name="blogs"></a>Blog
 
-Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Dati finanziari](https://community.dynamics.com/365/financeandoperations/b/financials).
+Per opinioni, notizie e altre informazioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 per la finanza e le operazioni - Dati finanziari](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.
 
@@ -102,3 +102,4 @@ Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

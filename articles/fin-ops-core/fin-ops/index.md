@@ -1,6 +1,6 @@
 ---
-title: Documentazione delle applicazioni Finance and Operations
-description: Documentazione per le applicazioni Finance and Operations.
+title: Documentazione delle applicazioni per la finanza e le operazioni
+description: Documentazione per le app per la finanza e le operazioni.
 author: tonyafehr
 ms.date: 04/13/2021
 ms.topic: index-page
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6f646b3216c73e14b550dc438c500a569bb799c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f9776038530438ba8d8046b735d95b2a5701594
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865834"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067464"
 ---
-# <a name="finance-and-operations-application-documentation"></a>Documentazione delle applicazioni Finance and Operations
+# <a name="finance-and-operations-application-documentation"></a>Documentazione delle applicazioni per la finanza e le operazioni
 
 [!include [banner](includes/banner.md)]
 
-Informazioni su come sfruttare le applicazioni per la finanza e le operazioni nell'azienda, utilizzando le risorse indicate in questo articolo per individuare contenuti efficaci per utenti finali, sviluppatori e professionisti IT. 
+Informazioni su come sfruttare le app per la finanza e le operazioni nell'azienda, utilizzando le risorse indicate in questo articolo per individuare contenuti efficaci per utenti finali, sviluppatori e professionisti IT. 
 
 La maggior parte di questo contenuto si applica anche ai prodotti correlati Dynamics 365 Commerce e Dynamics 365 Human Resources. 
 
@@ -41,7 +41,7 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 <h3><a href="get-started/before-you-buy.md">Prima di effettuare l'acquisto</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Iscriversi a una sottoscrizione di anteprima</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Scegliere un'opzione di distribuzione</a></p>
- <p><a href="get-started/purchase-on-premises.md">Acquistare Finance and Operations (on-premises)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Acquistare app per la finanza e le operazioni (locale)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Ciclo di vita dell'implementazione</a></h3>
 <p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
@@ -143,3 +143,4 @@ La maggior parte di questo contenuto si applica anche ai prodotti correlati Dyna
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

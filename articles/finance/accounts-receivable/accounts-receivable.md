@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 412b900b5eb9a3a01feb5f4dd67529a5128e52b7
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: ef08d7880a0695527cbfb4ba4e11aae05aec7fc8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711856"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065367"
 ---
 # <a name="accounts-receivable-home-page"></a>Home page di contabilità clienti
 
@@ -83,7 +83,7 @@ Passare alla [roadmap di Microsoft Dynamics 365](/dynamics365/release-plans/) pe
 
 #### <a name="blogs"></a>Blog
 
-Per opinioni, notizie e altre informazioni sulla contabilità clienti e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 Finance and Operations - Financials](https://community.dynamics.com/365/financeandoperations/b/financials).
+Per opinioni, notizie e altre informazioni sulla contabilità clienti e su altre soluzioni, fare riferimento al [blog di Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) e al [blog di Microsoft Dynamics 365 per la finanza e le operazioni - Dati finanziari](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 Il [blog della community di partner di Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) offre ai partner Microsoft Dynamics una singola risorsa per conoscere le novità e le tendenze di Dynamics 365.
 
@@ -103,3 +103,4 @@ Vedere i video dimostrativi disponibili nel [canale di Microsoft Dynamics 365 su
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

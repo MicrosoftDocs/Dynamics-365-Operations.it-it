@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 189239ad6142af200e41cfe9cfcdbb56be65b0b7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dbf77b57f7a107918c3b8a03290e208ed1c4803b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879078"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066059"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page di Supply Chain Management
 
@@ -56,16 +56,16 @@ Per informazioni su Dynamics 365 Finance, passare alla [home page di Finance](..
 
 ## <a name="videos"></a>Video
 
-In questo breve video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 for Finance and Operations versione 8.0 (aprile 2018).
+In questo breve video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 Finance versione 8.0 (aprile 2018).
 
-- [Sincronizzare un ordine di lavoro in Field Service con gli ordini cliente in Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+- [Sincronizzare un ordine di lavoro tra Field Service e le app per la finanza e le operazioni](https://youtu.be/hAB4TDVMjxU)
 
-In questi brevi video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 (dicembre 2017).
+In questi brevi video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 Finance, Enterprise edition 7.3 (dicembre 2017).
 
 - [Consulente dell'ottimizzazione](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [Utilizzare il modello di magazzino per copiare la configurazione](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-In questi brevi video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (luglio 2017).
+In questi brevi video vengono riepilogate le nuove funzionalità di gestione della supply chain aggiunte in Microsoft Dynamics 365 Finance, Enterprise edition (luglio 2017).
 
 - [Introduzione alla contabilità industriale](https://youtu.be/1pUDtJQZ8FU)
 - [Area di lavoro mobile di controllo costi](https://youtu.be/imsuTg8rUVk)
@@ -73,7 +73,7 @@ In questi brevi video vengono riepilogate le nuove funzionalità di gestione del
 - [Approvare gli ordini fornitore su un dispositivo mobile](https://youtu.be/gZ-gOlJe7H8)
 - [Programmazione visiva con il diagramma di Gantt per ordini batch e di produzione](https://youtu.be/BtbuShkGj4I)
 
-Le registrazioni di conferenze tecniche seguenti illustrano le funzionalità di gestione della supply chain delle versioni precedenti di Finance and Operations. Tale funzionalità è ora parte di Dynamics 365 Supply Chain Management. Nella versione corrente si applicano ancora gli stessi concetti e le procedure sono simili.
+Le registrazioni di conferenze tecniche seguenti illustrano le funzionalità di gestione della supply chain delle versioni precedenti delle app per la finanza e le operazioni. Tale funzionalità è ora parte di Dynamics 365 Supply Chain Management. Nella versione corrente si applicano ancora gli stessi concetti e le procedure sono simili.
 
 - **Gestione costi:**
   - [Panoramica della gestione dei costi](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
@@ -106,3 +106,4 @@ Per corsi online e formazione, vedere [Dynamics 365 Supply Chain Management su M
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
