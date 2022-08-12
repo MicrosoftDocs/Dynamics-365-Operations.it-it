@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45316c40cce988c0758e70af627b0123ec1f7873
-ms.sourcegitcommit: 9166e531ae5773f5bc3bd02501b67331cf216da4
+ms.openlocfilehash: c1acc103291c5d648ac7e179a598348cd9cc2a93
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "8670442"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135571"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>Informazioni su LIFO con valore fisico e contrassegno
 
@@ -128,7 +128,7 @@ La figura di seguito mostra le transazioni:
 - 6a. Uscita fisica da magazzino per una quantità pari a 1 al prezzo di costo di 23,00 EUR (media corrente delle transazioni registrate finanziariamente)
 - 7\. Viene eseguita la chiusura inventario. Sulla base del principio del contrassegno che utilizza il metodo LIFO, le transazioni contrassegnate sono compensate l'una contro l'altra. In questo esempio, 3b viene liquidata rispetto a 2b e una rettifica per USD 6.00 viene inviata a 3b per portare il valore a USD 22.00. In questo esempio, non vengono effettuate liquidazioni aggiuntive, poiché la chiusura crea liquidazioni solo per transazioni aggiornate finanziariamente.
 
-Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 27,50 EUR.
+Il nuovo prezzo di costo medio corrente riflette la media delle transazioni aggiornate fisicamente e finanziariamente a 17,50 EUR.
 
 Nella seguente illustrazione vengono mostrati gli effetti del modello inventariale LIFO su questa serie di transazioni quando viene utilizzato il contrassegno tra entrate e uscite.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d0f0e44cfafec722f6eed3d18ba8be4739be30c1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 881c3c4aa655a5ad30adffce108ba2fc3e6691c5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900682"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070411"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Elaborazione di prodotti a peso variabile con la gestione magazzino
 
@@ -31,7 +31,7 @@ Per elaborare prodotti a peso variabile con la gestione magazzino, è necessario
 > [!NOTE]
 > Anche la chiave di configurazione di licenza **Gestione magazzino e trasporto** e le chiavi di configurazione di licenza **Distribuzione processo \> Peso variabile** devono essere attivate. Per impostare le chiavi di configurazione per il peso variabile, è anche necessario attivare la funzionalità utilizzando l'area di lavoro **Gestione funzionalità**. La funzionalità principale che deve essere attivata è **Elaborazione di prodotti a peso variabile con la gestione magazzino**. Sono due le funzionalità correlate ma facoltative che si potrebbe voler attivare **Lo stato delle scorte cambia per i prodotti a peso variabile** e **Utilizzare i tag peso variabile esistenti quando si segnalano gli ordini di produzione come finiti**.
 
-Dopo l'attivazione della chiave di configurazione di licenza, quando si crea un prodotto rilasciato, è possibile selezionare **Peso variabile**. È inoltre possibile associare il prodotto rilasciato a un gruppo di dimensioni di immagazzinamento per il quale il parametro **Usa processi di gestione magazzino** è selezionato.
+Dopo l'attivazione della chiave di configurazione di licenza, quando si crea un prodotto rilasciato, è possibile selezionare **Peso variabile**. È inoltre possibile associare il prodotto rilasciato a un gruppo di dimensioni di immagazzinamento per il quale il parametro **Usa processi di gestione del magazzino** è selezionato.
 
 Prima di utilizzare il prodotto nella gestione magazzino, è necessario effettuare alcune impostazioni di base specifiche del prodotto per il peso variabile:
 
@@ -82,7 +82,7 @@ Se il peso effettivo viene acquisito nel centro d'imballaggio durante i processi
 > [!NOTE]
 > Perché l'opzione **Imballaggio** comporta l'aggiornamento delle scorte con il peso medio prelevato, ciò potrebbe generare una discrepanza che potrebbe causare una rettifica di profitti/perdite per prodotti a peso variabile e/o una differenza tra il peso delle scorte disponibili e il peso del tag di peso variabile.
 
-Per i processi di gestione magazzino interni come il conteggio e le rettifiche, è possibile definire se il peso deve essere acquisito o meno. Se non viene acquisito, verrà utilizzato il peso nominale. Altre opzioni consentono di acquisire il peso per unità di peso variabile e per quantità di conteggio.
+Per i processi interni come il conteggio e le rettifiche, è possibile definire se il peso deve essere acquisito o meno. Se non viene acquisito, verrà utilizzato il peso nominale. Altre opzioni consentono di acquisire il peso per unità di peso variabile e per quantità di conteggio.
 
 È inoltre possibile definire il modo in cui peso viene acquisito. In uno dei due flussi principali, i tag a peso variabile vengono tracciati e utilizzati per acquisire il peso. Nell'altro flusso, i tag a peso variabile non vengono tracciati.
 
@@ -126,7 +126,7 @@ Per impedire ai processi di prelievo di gestione magazzino di acquisire pesi che
 
 Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variabile con la gestione magazzino. Attualmente, vengono applicate le restrizioni descritte di seguito. Si applicano a tutti gli articoli a peso variabile, indipendentemente dal fatto che abbiano o meno dei tag.
 
-### <a name="configuring-catch-weight-products-for-warehouse-management-processes"></a>Configurazione di prodotti a peso variabile per processi di gestione magazzino
+### <a name="configuring-catch-weight-products-for-warehouse-management-processes"></a>Configurazione di prodotti a peso variabile per processi di gestione del magazzino
 
 - Solo l'elaborazione della formula viene supportata per i prodotti a peso variabile (non la distinta base).
 - I prodotti a peso variabile non possono essere associati a un gruppo di dimensioni di tracciabilità utilizzando la dimensione Proprietario.
@@ -183,7 +183,7 @@ Non tutti i flussi di lavoro supportano l'elaborazione di prodotti a peso variab
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Altri restrizioni e comportamenti per l'elaborazione di prodotti a peso variabile con la gestione magazzino
 
 - Durante i processi di prelievo in cui all'utente non viene richiesto di identificare le dimensioni di tracciabilità, l'assegnazione del peso viene effettuata in base al peso medio. Questo comportamento si verifica quando, ad esempio, una combinazione di dimensioni di tracciabilità viene utilizzata nella stessa ubicazione e, dopo che un utente elabora il prelievo, solo un valore di dimensione di tracciabilità rimane nell'ubicazione.
-- Quando le scorte sono prenotate per un prodotto a peso variabile configurato per processi di gestione magazzino, la prenotazione viene eseguita in base al peso minimo definito, anche se questa quantità è l'ultima quantità movimentazioni disponibile. Questo comportamento differisce da quello degli articoli che non sono configurati per i processi di gestione magazzino. C'è un'eccezione a questa limitazione. Per il prelievo produzione, quando viene prelevata l'ultima quantità di movimentazione di un prodotto a peso variabile controllato in base al numero di serie, viene utilizzato il peso effettivo.
+- Quando il magazzino viene prenotato per un prodotto a peso variabile configurato per i processi di gestione del magazzino (WMS), la prenotazione viene eseguita in base al peso minimo definito, anche se questa quantità è l'ultima quantità di movimentazione disponibile. Questo comportamento è diverso dal comportamento per gli articoli che non sono configurati per WMS. C'è un'eccezione a questa limitazione. Per il prelievo produzione, quando viene prelevata l'ultima quantità di movimentazione di un prodotto a peso variabile controllato in base al numero di serie, viene utilizzato il peso effettivo.
 - I processi che utilizzano il peso per i calcoli di capacità (soglie ondata, interruzioni lavoro massime, numero massimo di contenitori, capacità del carico ubicazione e così via) non utilizzano il peso effettivo delle scorte. I processi sono invece basati sul peso di gestione fisica definito per il prodotto.
 - In generale, la funzionalità Commerce non è supportata per i prodotti a peso variabile.
 - Per i prodotti a peso variabile, non è possibile aggiornare lo stato delle scorte in **Modifica stato magazzino**.

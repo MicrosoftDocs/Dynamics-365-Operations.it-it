@@ -2,7 +2,7 @@
 title: Configurare le strutture dei conti
 description: In questo articolo vengono fornite informazioni sulle strutture dei conti e le dimensioni finanziarie.
 author: aprilolson
-ms.date: 06/03/2019
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f0a3febf8d269caec847ad879f60ac042e5fec9e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f816f0fc894b902c444a3113abfd48d4146d485
+ms.sourcegitcommit: e59990780830ac8e3382fea5df851abe86fbf496
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907982"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "9141280"
 ---
 # <a name="configure-account-structures"></a>Configura strutture dei conti
 
@@ -91,6 +91,8 @@ Per continuare ad aggiungere altri criteri, fare clic su **Duplica nel segmento*
 Quando si impostano le strutture dei conti esistono alcune procedure consigliate che è possibile seguire. Si tratta tuttavia di indicazioni pertanto una discussione olistica su business, piano di crescita e piano di gestione deve essere considerata parte integrante di tale discussione.
 
 - Creare il conto principale a primo livello della struttura dei conti o il più vicino possibile all'inizio della struttura, in modo che gli utenti ottengano la migliore esperienza possibile durante l'immissione delle voci contabili.
+  
+  - Verificare come prima cosa che eventuali soluzioni di terze parti che si intende usare supportino l'account principale.
 
 - Riutilizzare le strutture dei conti il più possibile per ridurre la gestione nelle persone giuridiche.
 

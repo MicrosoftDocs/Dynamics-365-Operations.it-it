@@ -1,6 +1,6 @@
 ---
 title: Configurare le ubicazioni in un magazzino abilitato WMS
-description: La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato per WMS (un magazzino che utilizza i processi di gestione avanzata del magazzino).
+description: La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato per WMS (un magazzino che utilizza i processi di gestione avanzata del magazzino (WMS)).
 author: perlynne
 ms.date: 06/26/2019
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
-ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
+ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599350"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067275"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurare le ubicazioni in un magazzino abilitato WMS
 
 [!include [banner](../../includes/banner.md)]
 
-La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato per WMS (un magazzino che utilizza i processi di gestione avanzata del magazzino). Il processo è in genere eseguito da un amministratore di magazzino. È possibile eseguire questa guida nella società di dati dimostrativi USMF oppure sui propri dati. Una precondizione è che si abbia almeno un sito configurato.
+La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato per WMS (un magazzino che utilizza i processi di gestione avanzata del magazzino (WMS)). Il processo è in genere eseguito da un amministratore di magazzino. È possibile eseguire questa guida nella società di dati dimostrativi USMF oppure sui propri dati. Una precondizione è che si abbia almeno un sito configurato.
 
 
 ## <a name="create-a-new-warehouse"></a>Creare un nuovo magazzino
@@ -35,8 +35,8 @@ La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato
 4. Digitare un valore nel campo **Nome**.
 5. Nel campo **Sito**, seleziona o digita un valore del sito esistente.
 6. Espandere la sezione **Magazzino**.
-7. Impostare l'opzione **Usa processi di gestione magazzino** su Sì. Questa impostazione consente di eseguire i processi di organizzazione immagazzinamento avanzati utilizzando dispositivi di lavoro e mobili del magazzino.
-8. Chiudere la pagina.
+7. Impostare l'opzione **Usa processi di gestione del magazzino** su Sì. Questa impostazione consente di eseguire i processi di gestione del magazzino (WMS) utilizzando dispositivi di lavoro e mobili del magazzino.
+8. Chiudi la pagina.
 
 ## <a name="define-a-location-format"></a>Definire un formato ubicazione
 1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Formati ubicazione**. I formati ubicazione sono un sistema di denominazione utilizzato per creare nomi univoci e coerenti per le diverse posizioni di collocazione usate all'interno di un magazzino. Può essere utile utilizzare separatori come parte del formato di ubicazione per semplificare l'identificazione dei componenti dell'ubicazione, ad esempio il numero di sezione. In questo esempio verrà creato un nome con quattro componenti. Ad esempio, questi possono essere sezione, scaffale, ripiano e contenitore.
@@ -61,14 +61,14 @@ La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato
 20. Chiudere la pagina.
 
 ## <a name="define-location-types"></a>Definire tipi di ubicazione
-1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Tipi di ubicazione**. I tipi di ubicazione possono essere utilizzati come opzioni di filtro per verificare i diversi processi di gestione magazzino. Come minimo, è necessario creare tipi di ubicazione di gestione temporanea e spedizione finale per definire il processo in uscita di gestione magazzino. 
+1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Tipi di ubicazione**. I tipi di ubicazione possono essere utilizzati come opzioni di filtro per verificare i diversi processi di gestione del magazzino. Come minimo, è necessario creare tipi di ubicazione di gestione temporanea e spedizione finale per definire il processo in uscita di gestione magazzino. 
 2. Fare clic su **Nuovo**.
 3. Digitare un valore nel campo **Tipo di ubicazione**.
 4. Digitare un valore nel campo **Descrizione**
 5. Chiudere la pagina.
 
 ## <a name="define-location-profile"></a>Definire il profilo di ubicazione
-1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Profili ubicazione**. La definizione dei profili di ubicazione è molto importante. La capacità di ubicazioni raggruppate può essere controllata qui così come i criteri relativi a quale inventario viene immagazzinato e a come viene immagazzinato. I profili di ubicazione possono essere utilizzati come opzioni di filtro per verificare i diversi processi di gestione magazzino. Come minimo, è necessario creare un profilo di ubicazione per attivare i processi di gestione magazzino.
+1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Profili ubicazione**. La definizione dei profili di ubicazione è molto importante. La capacità di ubicazioni raggruppate può essere controllata qui così come i criteri relativi a quale inventario viene immagazzinato e a come viene immagazzinato. I profili di ubicazione possono essere utilizzati come opzioni di filtro per verificare i diversi processi di gestione del magazzino. Come minimo, è necessario creare un profilo di ubicazione per attivare WMS.
 2. Fare clic su **Nuovo**.
 3. Nel campo **ID profilo ubicazione** digitare un valore.
 4. Digitare un valore nel campo **Nome**.
@@ -97,7 +97,7 @@ La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato
 10. Chiudere la pagina.
 
 ## <a name="define-warehouse-zone-groups"></a>Definire i gruppi di zone magazzinaggio
-1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Gruppi di zone magazzinaggio**. Le zone magazzinaggio possono essere utilizzate come opzioni di filtro per controllare i diversi processi di gestione magazzino. È necessario creare un gruppo di zone prima di poter definire una zona.   
+1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Gruppi di zone magazzinaggio**. Le zone magazzinaggio possono essere utilizzate come opzioni di filtro per controllare i diversi processi di gestione del magazzino. È necessario creare un gruppo di zone prima di poter definire una zona.   
 2. Fare clic su **Nuovo**.
 3. Digitare un valore nel campo **ID gruppo zone**.
 4. Digitare un valore nel campo **Nome gruppo di zone**.

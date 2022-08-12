@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6a00bdae34e2aebcc4a015626eb044d90cd2887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db15c52ddde08bcc9d390c51efc676c20aac0a7e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864399"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067431"
 ---
 # <a name="budgeting-home-page"></a>Home page di impostazione del budget
 
@@ -38,7 +38,7 @@ Il ciclo di pianificazione delle risorse per un'azienda consiste generalmente ne
 
 I processi per la pianificazione strategica a lungo termine e per la pianificazione del budget annuale sono supportati tramite un documento di piano di budget. I documenti del piano di budget sono strettamente integrati con Microsoft Excel. Gli utenti possono configurare scenari quantitativi e monetari illimitati e possono definire anche una gerarchia organizzativa di impostazione del budget per supportare i metodi di impostazione del budget dall'alto verso il basso e dal basso verso l'alto. Dopo aver definito e approvato un budget nell'applicazione, è possibile convertire il piano di budget in una voce del registro di budget. Le voci del registro di budget forniscono gli strumenti per la gestione del budget e per il tracciamento degli importi tramite i codici budget. Le voci del registro di budget consentono di rivedere i budget originali, eseguire trasferimenti e riportare gli importi di budget dall'anno precedente. Sulla base del budget determinato, una società può abilitare il controllo del budget. Il livello del controllo dipende dalle impostazioni cultura e dal livello di maturità dell'organizzazione. Le organizzazioni con un basso livello di maturità potrebbero lasciare il budget "così come è" e potrebbero essere più reattive che proattive se un budget non soddisfa le aspettative. Altre organizzazioni potrebbero abilitare i criteri di controllo del budget che impediscono agli utenti di acquistare se i fondi di budget non sono disponibili.
 
-Infine, le organizzazioni con un alto livello di maturità potrebbero definire una cultura aziendale in cui i dipendenti vengono istruiti sugli obiettivi organizzativi e seguono tali obiettivi attraverso criteri quali "Considerare una riunione online anziché un viaggio". L'applicazione include un framework di controllo del budget che consente alla gestione aziendale di selezionare un controllo di tipo rigido (che impedisce le registrazioni superiori al budget) o flessibile (dove gli utenti vengono avvertiti del fatto che supereranno i fondi di budget disponibili ma possono decidere autonomamente come procedere). Infine, è possibile utilizzare le previsioni di rolling. Una previsione rolling è un confronto regolare del budget rispetto ai valori effettivi e viene utilizzata per valutare come la società utilizza il budget. Una previsione rolling viene utilizzata anche per identificare le tendenze. In Finance and Operations, le previsioni rolling sono supportate, tramite un documento del piano di budget, come attività di pianificazione iniziale. Le previsioni di rolling possono essere eseguite in parallelo con la pianificazione del successivo ciclo di budget.
+Infine, le organizzazioni con un alto livello di maturità potrebbero definire una cultura aziendale in cui i dipendenti vengono istruiti sugli obiettivi organizzativi e seguono tali obiettivi attraverso criteri quali "Considerare una riunione online anziché un viaggio". L'applicazione include un framework di controllo del budget che consente alla gestione aziendale di selezionare un controllo di tipo rigido (che impedisce le registrazioni superiori al budget) o flessibile (dove gli utenti vengono avvertiti del fatto che supereranno i fondi di budget disponibili ma possono decidere autonomamente come procedere). Infine, è possibile utilizzare le previsioni continue. Una previsione continua è un confronto regolare del budget rispetto ai valori effettivi e viene utilizzata per valutare come la società utilizza il budget. Una previsione continua viene utilizzata anche per identificare le tendenze. Nelle app per la finanza e le operazioni, le previsioni continue sono supportate, tramite un documento del piano di budget, come attività di pianificazione iniziale. Le previsioni continue possono essere eseguite in parallelo con la pianificazione del successivo ciclo di budget.
 
 -   [Panoramica dell'impostazione budget](basic-budgeting-overview-configuration.md)
 -   [Panoramica del controllo del budget](budget-control-overview-configuration.md)
@@ -72,3 +72,4 @@ Ad esempio, è possibile definire chi si occupa dell'impostazione del budget, co
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

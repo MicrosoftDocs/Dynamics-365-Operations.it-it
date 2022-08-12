@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: f0d5339190f7e2aff7b084fa73e559af28e10ee8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f44574abddb71e1a994ae60960e8c9c79242aff0
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860111"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112114"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect to cash in doppia scrittura
 
@@ -135,3 +135,4 @@ Per informazioni sui listini prezzi vedi [Esperienza prodotto unificata](product
 - Le dimensioni finanziarie devono essere impostate per i dati master, ad esempio, cliente e fornitore. Quando un cliente viene aggiunto a un'offerta o a un ordine cliente, le dimensioni finanziarie associate al record del cliente fluiscono automaticamente nell'ordine. Attualmente la doppia scrittura non include i dati sulle dimensioni finanziarie per i dati master.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

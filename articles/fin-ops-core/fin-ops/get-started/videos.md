@@ -1,6 +1,6 @@
 ---
 title: Video
-description: In questa pagina sono elencati i video illustrativi e quelli tecnologici relativi alle app Finance and Operations disponibili su YouTube e altri siti.
+description: In questa pagina sono elencati i video illustrativi e quelli tecnologici relativi alle app per la finanza e le operazioni disponibili su YouTube e altri siti.
 author: sericks007
 ms.date: 06/13/2022
 ms.topic: article
@@ -14,27 +14,27 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 76fe61c13490afbd7b5dcd39f3c631cbab43bb9e
-ms.sourcegitcommit: 0686b56b4699ffefd2c208d0fe496d5860296520
+ms.openlocfilehash: a21a9122badc308940c0182061a18051bfcc0abd
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8958140"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124953"
 ---
 # <a name="videos"></a>Video 
 
 [!include [banner](../includes/banner.md)]
 
-Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), è possibile trovare video creati da Microsoft relativi a una vasta gamma di soluzioni aziendali per i prodotti Dynamics 365. In questa sezione sono elencati i video illustrativi per le app Finance and Operations disponibili sul canale.
+Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), è possibile trovare video creati da Microsoft relativi a una vasta gamma di soluzioni aziendali per i prodotti Dynamics 365. In questa sezione sono elencati i video illustrativi per le app per la finanza e le operazioni disponibili sul canale.
 
 > [!Note]
 > Alcuni dei video elencati sono stati pubblicati con un nome di prodotto precedente, ma sono ancora applicabili.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Video per Sviluppo e amministrazione per Finance and Operations
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>Video per sviluppo e amministrazione per finanza e operazioni
 
 ### <a name="data-integration"></a>Integrazione dati
 
-- [Sincronizzare un ordine di lavoro tra Dynamics 365 for Field Service e le app Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [Sincronizzare un ordine di lavoro tra Dynamics 365 for Field Service e le app per la finanza e le operazioni](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 ### <a name="data-management"></a>Gestione dati
 
@@ -50,8 +50,8 @@ Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/U
 ### <a name="intelligence"></a>Intelligence
 
 - [Come modificare un report incorporato in un'area di lavoro analitica](https://youtu.be/_8WlwmSggcQ)
-- [Come incorporare i report PowerBI.com nelle app Finance and Operations](https://youtu.be/gGWuNJDoi-M)
-- [Portare il database (BYOD) nelle app Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Come incorporare i report PowerBI.com nelle app per la finanza e le operazioni](https://youtu.be/gGWuNJDoi-M)
+- [Portare il proprio database (BYOD) nelle app per la finanza e le operazioni](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Come utilizzare il contenuto di Power BI per la gestione dei costi in Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>Lifecycle Services (LCS)
@@ -169,3 +169,4 @@ Sul [canale YouTube di Microsoft Dynamics 365](https://www.youtube.com/channel/U
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

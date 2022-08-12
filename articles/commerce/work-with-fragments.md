@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8824a42e46d94904f50d3f95b486673c231d9828
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f911c5ee209cfcde5d2b2aef2c8f7343eb694cd3
+ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8896824"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183291"
 ---
 # <a name="work-with-fragments"></a>Utilizzare i frammenti 
 
@@ -53,7 +53,7 @@ Nella figura seguente viene illustrato come è possibile utilizzare i frammenti 
 
 ### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Salvare una configurazione di modulo esistente come frammento
 
-Per convertire un modulo configurato precedentemente in un frammento riutilizzabile in Creazione di siti Web di Commerce, effettuare le seguenti operazioni.
+Per convertire un modulo configurato precedentemente in un frammento riutilizzabile nel generatore di siti Web di Commerce, effettuare le seguenti operazioni.
 
 1. Aprire una pagina o un modello che contiene il modulo da convertire in frammento.
 1. Nel riquadro struttura a sinistra o direttamente nel generatore di pagine visivo, selezionare il modulo precedentemente configurato.
@@ -66,7 +66,7 @@ Per convertire un modulo configurato precedentemente in un frammento riutilizzab
 
 ### <a name="create-a-new-fragment"></a>Crea un nuovo frammento
 
-Per creare un nuovo frammento in Creazione di siti Web di Commerce, seguire questi passaggi.
+Per creare un nuovo frammento nel generatore di siti Web di Commerce, seguire questi passaggi.
 
 1. Selezionare **Frammenti** nel pannello di navigazione a sinistra.
 1. Selezionare **Nuovo**. Viene visualizzata una finestra di dialogo **Nuovo frammento** contenente tutti i tipi di modulo disponibili. Come indicato in precedenza, i frammenti possono essere creati da qualsiasi tipo di modulo.
@@ -83,7 +83,7 @@ Nelle procedure riportate di seguito viene descritto come aggiungere, rimuovere 
 
 ### <a name="add-a-fragment"></a>Aggiungere un frammento
 
-Per aggiungere un frammento a una pagina in Creazione di siti Web di Commerce, seguire questi passaggi.
+Per aggiungere un frammento a una pagina nel generatore di siti Web di Commerce, seguire questi passaggi.
 
 1. Nel riquadro a sinistra o direttamente nel generatore di pagine visivo, selezionare un contenitore o uno slot a cui i moduli figlio possono essere aggiunti.
 1. Selezionare i puntini di sospensione (**...**) accanto al nome del contenitore o dello slot.  In alternativa, se si utilizza il generatore di pagine visivo, selezionare il simbolo più (**+**).  
@@ -102,7 +102,7 @@ Per aggiungere un frammento a una pagina in Creazione di siti Web di Commerce, s
 
 ### <a name="remove-a-fragment"></a>Rimuovere un frammento
 
-Per rimuovere un frammento da uno slot o un contenitore in una pagina di Creazione di siti Web di Commerce, seguire questi passaggi.
+Per rimuovere un frammento da uno slot o un contenitore in una pagina del generatore di siti Web di Commerce, seguire questi passaggi.
 
 1. Nel riquadro a sinistra, selezionare il pulsante con i puntini di sospensione (**...**) accanto al nome del frammento da rimuovere e quindi selezionare il simbolo del cestino.  In alternativa, è possibile selezionare il frammento nel generatore di pagine visivo e selezionare il simbolo del cestino nella barra degli strumenti del frammento.
 1. Quando viene richiesto di confermare la rimozione del frammento, selezionare **OK**.
@@ -114,7 +114,7 @@ Per rimuovere un frammento da uno slot o un contenitore in una pagina di Creazio
 
 Per modificare i frammenti, è necessario utilizzare l'interfaccia utente dell'editor di frammenti. Questa restrizione è dovuta alla struttura. Impedisce agli autori di confondere il processo di modifica dei moduli per una pagina specifica con il processo di modifica di frammenti che potrebbero essere condivisi da più pagine.
 
-Per modificare un frammento in Creazione di siti Web di Commerce, seguire questi passaggi.
+Per modificare un frammento nel generatore di siti Web di Commerce, seguire questi passaggi.
 
 1. Selezionare **Frammenti** nel pannello di navigazione a sinistra.
 1. In **Frammenti**, selezionare il frammento da modificare.
@@ -145,6 +145,8 @@ Puoi rinominare un frammento dopo che è stato creato modificandolo e selezionan
 [Utilizzare i layout preimpostati](work-with-layouts.md)
 
 [Utilizzare i gruppi di pubblicazione](publish-groups.md)
+
+[Visualizzare la cronologia delle versioni per ripristinare pagine e frammenti](version-history-revert.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

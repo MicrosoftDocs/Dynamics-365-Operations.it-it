@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51165db8d15f0a57fd9bc1649dc6e3ca72875236
-ms.sourcegitcommit: 1fa1ac1fa25e977e98bc02ed5d9d39bd3a7a28d7
+ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/08/2022
-ms.locfileid: "8945806"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069924"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -30,7 +30,7 @@ In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata
 
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
-Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per finanza e operazioni.
+Informazioni dettagliate sugli oggetti nelle app per la finanza e le operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per la finanza e le operazioni.
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Ritiro delle funzionalità in vigore da giugno 2022
@@ -358,7 +358,7 @@ Informazioni dettagliate sugli oggetti nelle app per finanza e operazioni sono d
 | **Sostituita da un'altra funzionalità?**   | Questo errore del compilatore sostituisce in modo permanente l'avviso del compilatore.  |
 | **Aree del prodotto interessate**         | Strumenti di sviluppo di Visual Studio |
 | **Opzione di distribuzione**              | Tutti |
-| **Stato**                         | Deprecato: L'avviso del compilatore è un errore del compilatore negli aggiornamenti della piattaforma per la versione 10.0.11 delle app per finanza e operazioni. |
+| **Stato**                         | Deprecato: L'avviso del compilatore è un errore del compilatore negli aggiornamenti della piattaforma per la versione 10.0.11 delle app per la finanza e le operazioni. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licenze ISV create utilizzando l'algoritmo di hashing SHA1
 
@@ -398,3 +398,4 @@ Per ulteriori informazioni sulle funzionalità che sono state rimosse o deprecat
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

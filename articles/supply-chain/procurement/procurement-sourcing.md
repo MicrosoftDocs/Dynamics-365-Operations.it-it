@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec5a9dac1d3b1288d060fe92ec94e6a105f84be8
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: b0d3869b93f6ecf4f70df6b394ce18a77318b83c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015290"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111786"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Home page di approvvigionamento
 
@@ -54,7 +54,7 @@ L'approvvigionamento interessa tutti i passaggi del processo: dalla verifica del
 -   [Collaborazione fornitore con i clienti](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gestire gli utenti di collaborazione fornitore](manage-vendor-collaboration-users.md)
 -   [Impostare e gestire la collaborazione fornitore](set-up-maintain-vendor-collaboration.md)
--   [Script dimostrativo per inventario di spedizione in entrata per Microsoft Dynamics 365 for Finance and Operations](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)
+-   [Script dimostrativo per inventario di spedizione in entrata](https://www.microsoft.com/download/details.aspx?id=101945)(white paper)
 -   [Verificare l'inventario spedizione tramite la collaborazione fornitore](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Area di lavoro mobile di collaborazione fornitore](vendor-collaboration-mobile-workspace.md)
 

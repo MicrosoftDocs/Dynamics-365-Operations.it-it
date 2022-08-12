@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2c31e8b8b8022e5dfdb1f8dc4836d3d95174078
-ms.sourcegitcommit: d9d111d7420ca8f1071689afe38a1ccf4b8051f4
+ms.openlocfilehash: 9d0c2e821ee504cd62a536674ef91ee89a25c0a9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/21/2022
-ms.locfileid: "9033662"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066419"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introduzione alla creazione di report finanziari 
 
@@ -151,7 +151,7 @@ Uno dei componenti utilizzati per creare report finanziari è una definizione de
 
 ## <a name="update-the-financial-reporting-version-through-slipstreaming"></a>Aggiornare la versione di Financial Reporting tramite slipstreaming
 
-Le app Finance and Operations vengono aggiornate ogni mese. Tuttavia, Financial Reporting non è necessariamente aggiornato con la stessa cadenza. Inoltre, i clienti hanno più opzioni disponibili per implementare gli aggiornamenti per le app Finance and Operations. Gli aggiornamenti di Financial Reporting vengono installati automaticamente. Financial Reporting ha una versione designata che viene utilizzata in un ambiente del cliente quando viene implementato un aggiornamento del servizio, quando viene avviato un tempo di inattività o quando l'ambiente di un cliente è in modalità di manutenzione. Questo processo è noto come *slipstreaming* o *true-up*, perché tutte le implementazioni del cliente sono impostate sulla stessa versione di Financial Reporting.
+Le app per la finanza e le operazioni vengono aggiornate ogni mese. Tuttavia, Financial Reporting non è necessariamente aggiornato con la stessa cadenza. Inoltre, i clienti hanno più opzioni disponibili per implementare gli aggiornamenti per le app per la finanza e le operazioni. Gli aggiornamenti di Financial Reporting vengono installati automaticamente. Financial Reporting ha una versione designata che viene utilizzata in un ambiente del cliente quando viene implementato un aggiornamento del servizio, quando viene avviato un tempo di inattività o quando l'ambiente di un cliente è in modalità di manutenzione. Questo processo è noto come *slipstreaming* o *true-up*, perché tutte le implementazioni del cliente sono impostate sulla stessa versione di Financial Reporting.
 
 Le modifiche rilasciate in ciascuna versione possono essere trovate in [Novità o modifiche in Dynamics 365 Finance](../../finance/get-started/whats-new-home-page.md). Gli aggiornamenti della piattaforma e le correzioni di bug sono disponibili nella sezione "Risorse aggiuntive" nella parte inferiore della pagina per ogni versione.
 
@@ -254,3 +254,4 @@ Problema: viene visualizzato l'errore "Impossibile connettersi al server di Fina
 - [Definizioni di albero gerarchico nei report finanziari](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ee1ba338d90c6ee9cdc37948061f518040ae1a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e18735117d1f671e0efc0947248bbe266fa0ca6
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869664"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065601"
 ---
 # <a name="quarantine-orders"></a>Ordini di quarantena
 
@@ -31,7 +31,7 @@ In questo articolo viene descritto come usare gli ordini di quarantena per blocc
 Gli ordini di quarantena ti consentono di bloccare il magazzino. Ad esempio, è possibile che si desideri mettere in quarantena gli articoli per motivi di controllo qualità. L'inventario messo in quarantena viene trasferito a un magazzino di quarantena.
 
 > [!NOTE]
-> Se si utilizzano processi di gestione avanzata del magazzino (in Gestione magazzino), l'elaborazione degli ordini di quarantena viene utilizzata solo per gli ordini cliente resi.
+> Se si utilizzano processi di gestione avanzata del magazzino (nel modulo Gestione magazzino), l'elaborazione degli ordini di quarantena viene utilizzata solo per gli ordini cliente resi.
 
 ## <a name="quarantine-on-hand-inventory-items"></a>Quarantena degli articoli di magazzino disponibili
 

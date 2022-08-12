@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 274e80136ee303af9d0fe5fd04095f575a345d19
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d8d155b8bbf981408f6f15e914fc3bb1da25c9c
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8875657"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111078"
 ---
 # <a name="functional-locations-and-assets"></a>Unità funzionali e cespiti
 
@@ -32,7 +32,7 @@ Questo articolo illustra unità funzionali e cespiti in Gestione cespiti. Gestio
 
 ## <a name="overview"></a>Panoramica
 
-Gestione cespiti è integrato con diversi moduli in altre app Finance and Operations. La figura di seguito mostra le interfacce con altri moduli.
+Gestione cespiti è integrato con diversi moduli in altre app per la finanza e le operazioni. La figura di seguito mostra le interfacce con altri moduli.
 
 ![Diagramma che mostra come Gestione cespiti si interfaccia con altri moduli.](media/01-overview-image.png)
 

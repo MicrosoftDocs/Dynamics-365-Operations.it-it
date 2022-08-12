@@ -1,5 +1,5 @@
 ---
-title: Ottenere supporto per le app per finanza e operazioni o Lifecycle Services (LCS)
+title: Ottenere supporto per le app per la finanza e le operazioni o Lifecycle Services (LCS)
 description: In questo articolo viene descritto come ottenere supporto per le app per la finanza e le operazioni o Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
 ms.date: 08/02/2021
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 278a62c0393be503352db39dddeca1095e7e4a5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f36709ddc2a64c31fe3c2d63fbe073fd9bc159bb
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866433"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103405"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ottenere supporto per le app per finanza e operazioni o Lifecycle Services (LCS)
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ottenere supporto per le app per la finanza e le operazioni o Lifecycle Services (LCS)
 
 [!include [banner](../includes/banner.md)]
 
@@ -51,7 +51,7 @@ In questo articolo viene descritto come ottenere supporto per le app per la fina
 <td>In <a href="https://lcs.dynamics.com/">LCS</a>, utilizza lo strumento <strong>Ricerca argomento</strong> per cercare rapidamente aggiornamenti rapidi, soluzioni alternative e articoli della Knowledge Base di Microsoft relativi a problemi noti. È possibile vedere quali problemi segnalati sono in fase di risoluzione per una determinata area funzionale e quali sono stati già risolti. Per ulteriori informazioni, vedere <a href="issue-search-lcs.md">Ricerca argomento (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Ottieni supporto all'interno della tua app per finanza e operazioni.</td>
+<td>Ottieni supporto all'interno della tua app per la finanza e le operazioni.</td>
 <td>Fare clic sul pulsante <strong>Guida</strong> (<strong>?</strong>) nell'angolo superiore destro dell'app, quindi seleziona <strong>Supporto</strong>. I problemi vengono segnalati nella scheda <strong>Problemi attivi</strong> in LCS. In questa posizione, gli amministratori possono determinare se devono fornire supporto interno o inviare i problemi a Microsoft.</td>
 </tr>
 <tr>
@@ -72,3 +72,4 @@ In questo articolo viene descritto come ottenere supporto per le app per la fina
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

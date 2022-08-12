@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: weijiesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d973d1cdb530a031ca8a5caf621f9bebced4842
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 25484efd7be026bfc3a209fb52822b87d6b76cc2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873494"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065496"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Impostare una direttiva di ubicazione per lo stoccaggio dell'ordine fornitore
 
 [!include [banner](../../includes/banner.md)]
 
-In questo articolo viene illustrato come impostare una direttiva di ubicazione semplice. L'esempio visualizzato crea una direttiva ubicazione da utilizzare per determinare dove inserire gli articoli ricevuti per un ordine fornitore. È possibile riprodurre questa guida attività con i dati indicati usando la società di dati dimostrativi USMF. Precondizioni: è necessario creare un codice smaltimento. In questa procedura viene utilizzato un codice smaltimento denominato Nuova etichetta. Se si crea una direttiva ubicazione i propri dati, è necessario impostare gestione avanzata di magazzino per il magazzino e gli articoli. Questa procedura è destinata al responsabile del magazzino.
+In questo articolo viene illustrato come impostare una direttiva di ubicazione semplice. L'esempio visualizzato crea una direttiva ubicazione da utilizzare per determinare dove inserire gli articoli ricevuti per un ordine fornitore. È possibile riprodurre questa guida attività con i dati indicati usando la società di dati dimostrativi USMF. Precondizioni: è necessario creare un codice smaltimento. In questa procedura viene utilizzato un codice smaltimento denominato Nuova etichetta. Se si crea una direttiva ubicazione i propri dati, è necessario impostare i processi di gestione del magazzino (WMS) per il magazzino e gli articoli. Questa procedura è destinata al responsabile del magazzino.
 
 1. Nel pannello di navigazione andare a **Moduli > Gestione magazzino > Impostazioni > Magazzino > Direttive ubicazione**.
 2. Nel campo **Tipo ordine di lavoro** selezionare **Ordini fornitori**.

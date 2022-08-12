@@ -1,6 +1,6 @@
 ---
 title: Dati master clienti integrati
-description: In questo articolo viene descritta l'integrazione dei dati dei clienti tra Finance and Operations e Dataverse.
+description: In questo articolo viene descritta l'integrazione dei dati dei clienti tra le app per la finanza e le operazioni e Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 042042bb19b32d3c96b4e0c8521a8b1d65e7ab22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b16eab5c107a3176f0890372d397947698e71de
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890458"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111726"
 ---
 # <a name="integrated-customer-master"></a>Dati master clienti integrati
 
@@ -30,9 +30,9 @@ I dati dei clienti possono essere masterizzati in più di un'applicazione Dynami
 
 ![Flusso di dati dei clienti.](media/dual-write-customer-data-flow.png)
 
-I clienti possono essere classificati largamente in due tipi: clienti commerciali/aziendali e consumatori/utenti finali. Questi due tipi di clienti vengono archiviati e gestiti in modo diverso in Finanza e operazioni e Dataverse.
+I clienti possono essere classificati largamente in due tipi: clienti commerciali/aziendali e consumatori/utenti finali. Questi due tipi di clienti vengono archiviati e gestiti in modo diverso nelle app per la finanza e le operazioni e Dataverse.
 
-In Finanza e operazioni, sia i clienti commerciali/aziendali che i consumatori/utenti finali vengono gestiti in un'unica tabella denominata **CustTable** (CustCustomerV3Entity) e vengono classificati in base all'attributo **Tipo**. Se **Tipo** è impostato su **Organizzazione**, il cliente è cliente commerciale/aziendale e se **Tipo** è impostato su **Persona**, il cliente è un consumatore/utente finale. Le informazioni principali del contatto vengono gestite tramite la tabella SMMContactPersonEntity.
+Nelle app per la finanza e le operazioni, sia i clienti commerciali/aziendali che i consumatori/utenti finali vengono gestiti in un'unica tabella denominata **CustTable** (CustCustomerV3Entity) e vengono classificati in base all'attributo **Tipo**. Se **Tipo** è impostato su **Organizzazione**, il cliente è cliente commerciale/aziendale e se **Tipo** è impostato su **Persona**, il cliente è un consumatore/utente finale. Le informazioni principali del contatto vengono gestite tramite la tabella SMMContactPersonEntity.
 
 In Dataverse, i clienti commerciali/aziendali sono gestiti nella tabella Conto e vengono identificati come clienti quando l'attributo **RelationshipType** è impostato su **Cliente**. Sia i consumatori/utenti finali che il contatto sono rappresentati dalla tabella Contatto. Per fornire una netta separazione tra un consumatore/utente finale e un contatto, la tabella **Contatto** include un flag booleano **Di vendita**. Se **Di vendita** è **True**, il contatto è un consumatore/utente finale e offerte e gli ordini possono essere creati per quel contatto. Se **Di vendita** è **False**, il contatto è solo un contatto principale di un cliente.
 
@@ -57,3 +57,4 @@ App Finanza e operazioni | App di interazione con i clienti         | descrizion
 [Termini di pagamento](mapping-reference.md#161) | msdyn_paymentterms | Questo modello sincronizza i dati di riferimento dei termini di pagamento per clienti e fornitori.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

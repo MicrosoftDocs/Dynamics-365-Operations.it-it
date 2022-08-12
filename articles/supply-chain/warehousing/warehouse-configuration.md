@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28e026b01bbc2b2534556ce6018eec66fc5517d6
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 7643a333c269a7e1976563ff0f10b89c1fb91674
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7983005"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065189"
 ---
 # <a name="warehouse-configuration-overview"></a>Panoramica della configurazione del magazzino
 
@@ -31,10 +31,10 @@ ms.locfileid: "7983005"
 Questo articolo illustra come configurare un magazzino. Sono riportate le informazioni su come abilitare un layout e i processi di magazzino.
 
 > [!NOTE]
-> Questo articolo viene applicato alle funzionalità del modulo **Gestione magazzino** (operazioni di magazzino avanzate). Non viene applicato alle funzionalità di magazzino nel modulo **Gestione inventario**.
+> Questo articolo si applica alle funzionalità nel modulo **Gestione magazzino**. Non viene applicato alle funzionalità di magazzino nel modulo **Gestione inventario**.
 
 ## <a name="warehouse-layout"></a>Layout magazzino
-Il sistema di gestione magazzino in Supply Chain Management offre modalità flessibili per definire il layout di magazzino per soddisfare le mutevoli esigenze, in modo da poter raggiungere un efficienza di magazzino ottimale.
+I processi di gestione del magazzino (WMS) in Supply Chain Management offre modalità flessibili per definire il layout di magazzino per soddisfare le mutevoli esigenze, in modo da poter raggiungere un efficienza di magazzino ottimale.
 
 -   È possibile impostare aree di immagazzinamento ad alta priorità e a priorità bassa per un posizionamento ottimale delle merci.
 -   È possibile suddividere il magazzino in aree per soddisfare varie esigenze di immagazzinamento, ad esempio requisiti della temperatura, o vari tassi di fatturato per gli articoli.
@@ -42,7 +42,7 @@ Il sistema di gestione magazzino in Supply Chain Management offre modalità fles
 -   È possibile raggruppare le ubicazioni utilizzando le impostazioni del vincolo di capacità fisica.
 -   È possibile controllare come vengono immagazzinati e prelevati gli articoli, in base a regole definite su query.
 
-Per utilizzare la gestione magazzino in Supply Chain Management, è necessario creare un magazzino e abilitarlo per l'uso di attività di gestione magazzino più avanzate o specializzate. Nella pagina **Magazzini** selezionare l'opzione **Usa processi di gestione magazzino**.
+Per usare WMS in Supply Chain Management, occorre creare un magazzino e abilitarlo per WMS. Nella pagina **Magazzini** selezionare l'opzione **Usa processi di gestione del magazzino**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Gruppi di zone, zone, tipi di ubicazione e ubicazioni
 

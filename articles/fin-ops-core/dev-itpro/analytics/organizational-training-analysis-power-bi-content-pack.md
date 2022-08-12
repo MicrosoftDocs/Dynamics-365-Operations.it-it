@@ -1,31 +1,32 @@
 ---
 title: Contenuto Power BI sulla formazione nell'organizzazione
-description: In questo articolo viene descritto il contenuto Power BI sulla formazione nell'organizzazione in Finance and Operations.
+description: In questo articolo viene descritto il contenuto Power BI sulla formazione nell'organizzazione in finanza e operazioni.
 author: jcart1106
 ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: kfend
-ms.custom: 263874
-ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ba332fc0c241969cbe0c25e7985101a2bbe12be4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom:
+- "263874"
+ms.assetid: 45dbba14-aba6-4571-be0d-5d1aba3515d9
+ms.openlocfilehash: 7b8f6c1b32876af3a6992ff73c6898ce5307c5a2
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892423"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206757"
 ---
 # <a name="organizational-training-power-bi-content"></a>Contenuto Power BI sulla formazione nell'organizzazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene descritto il contenuto Power BI sulla formazione nell'organizzazione in Finance and Operations.
+In questo articolo viene descritto il contenuto Power BI sulla formazione nell'organizzazione in finanza e operazioni.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Report inclusi nel pacchetto di contenuti
 Dopo aver collegato il pacchetto di contenuti ai dati, nei report vengono visualizzati i dati dell'organizzazione. Se non è mai stato usato Microsoft Power BI in precedenza, è possibile ottenere informazioni in merito nella pagina [Formazione guidata a Power BI](https://powerbi.microsoft.com/guided-learning/?WT.mc_id=PBIService_GetData). I report inclusi nel pacchetto di contenuti dispongono di grafici e tabelle contenenti informazioni aggiuntive. Nella seguente tabella vengono illustrati i report.

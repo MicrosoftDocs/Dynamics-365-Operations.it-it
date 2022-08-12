@@ -10,12 +10,12 @@ ms.search.form: InventPosting, InventTrans
 audience: Application User
 ms.search.region: Global
 ms.author: raprofit
-ms.openlocfilehash: 0793c58b07d2c0a133e1a5bc0607483f22206b95
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38a9e2740232b18255109ba867fcdddd5b890774
+ms.sourcegitcommit: 9310c943ac76896663e5604209034da9f8d6139c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849933"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151034"
 ---
 # <a name="purchase-order-posting"></a>Registrazione ordine fornitore
 
@@ -93,10 +93,10 @@ La tabella seguente mostra esempi dei tipi di registrazione predefiniti con cont
 
 | Tipo di registrazione | Esempio di conto principale | Esempio nome di conto principale | Tipo di account | Dare/Avere? | Conto di compensazione | P/F | Segui | Description |
 |--------------|---------------------|-------------------------|----------------|----------------|--------------------|----|----------|-----------|
-| Costo dei materiali acquistati ricevuti | 140100</br>140101 | Inventario dei materiali</br>Materiali spediti non fatturati | Cespite | Dare | Sì | P | Costo dei materiali acquistati fatturati | Utilizzato quando viene registrata un'entrata prodotti dell'ordine fornitore. La compensazione sul conto è Spese acquisto, non fatturate. L'importo in questo conto viene automaticamente stornato quando viene registrata una fattura per l'ordine fornitore. |
+| Costo dei materiali acquistati ricevuti | 140100</br>140101 | Inventario dei materiali</br>Materiali spediti non fatturati | Cespite | Dare | Sì | P | Costo dei materiali acquistati fatturati | Utilizzato quando viene registrata un'entrata prodotti, l'offset per il conto è Spese acquisto, non fatturate. L'importo in questo conto viene automaticamente stornato quando viene registrata una fattura per l'ordine fornitore. |
 | Spese acquisto, non fatturate | 600180 | Entrate materiali | Spese | Dare | Sì | P | |Utilizzato quando viene registrata un'entrata prodotti dell'ordine fornitore. Vengono creati due giustificativi per l'entrata per tenere traccia delle variazioni del prezzo di acquisto quando viene utilizzato il costo standard. La compensazione nel conto sul primo giustificativo è il rateo di acquisto. La compensazione nel secondo giustificativo è la somma dei conti Costo dei materiali acquistati ricevuti e Variazione prezzo di acquisto. Gli importi registrati in questo conto vengono automaticamente stornati quando viene registrata una fattura per l'ordine fornitore. |
 | Costo dei materiali acquistati fatturati | 140100 | Inventario dei materiali | Cespite | Dare | Numero | V  |Costo dei materiali acquistati ricevuti | Utilizzato quando viene registrata una fattura dell'ordine fornitore. La compensazione sul conto è Spese acquisto per prodotto. Questo conto rappresenta l'inventario nel tuo stato patrimoniale. Il conto utilizzato è in genere lo stesso conto utilizzato per Costo delle unità consegnate e Costo delle unità fatturate per l'ordine cliente. |
-| Spese acquisto per prodotto | 600180 | Entrata materiali | Spese | Credito | Numero | V  | |Utilizzato quando viene registrata una fattura dell'ordine fornitore. La compensazione sul conto è il costo dei materiali acquistati. Questo conto rappresenta l'inventario nel tuo stato patrimoniale. |
+| Spese acquisto per prodotto | 600180 | Entrata materiali | Spese | Credito | Sì | V  | |Utilizzato quando viene registrata una fattura dell'ordine fornitore. Vengono creati due giustificativi per la fattura per tenere traccia delle variazioni del prezzo di acquisto quando viene utilizzato il costo standard. L'offset su questo conto è Spese acquisto, non fatturate, usato nella registrazione e lo storno di entrate durante la registrazione delle fatture. Rappresenta i costi per le scorte acquistate con fatturazione non riportata nel conto di magazzino nello stato patrimoniale. È una registrazione di profitti e perdite per lo scostamento del prezzo di acquisto che si verifica più frequentemente negli acquisti di articoli con costo standard.|
 | Profitto prezzo entrata fisso (Acquisti, profitto prezzo entrata fisso*) | 510310 | Scostamento prezzi di acquisto | Spese | Credito | Numero | V | Perdita sul prezzo di entrata fisso | Utilizzato quando viene registrata una fattura di un ordine fornitore ed esiste una differenza tra il prezzo fatturato e il costo predefinito per l'articolo. Questo conto viene utilizzato quando la differenza è superiore. Il conto di contropartita è il conto Deviazione prezzo di entrata fisso. |
 | Perdita sul prezzo di entrata fisso (Acquisti, perdita sul prezzo di entrata fisso*) | 510310 | Scostamento prezzi di acquisto | Spese | Dare | Numero | V | Profitto sul prezzo di entrata fisso | Utilizzato quando viene registrata una fattura di un ordine fornitore ed esiste una differenza tra il prezzo fatturato e il costo predefinito per l'articolo. Questo conto viene utilizzato quando la differenza è inferiore. Il conto di contropartita è il conto Deviazione prezzo di entrata fisso. |
 | Deviazione prezzo di entrata fisso (Acquisti, deviazione prezzo di entrata fisso*) | 140900 | Variazione scorte | Cespite | Entrambi | Numero | V  | |Utilizzato quando viene registrata una fattura di un ordine fornitore ed esiste una differenza tra il prezzo fatturato e il costo predefinito per l'articolo. Questo è il conto di contropartita per i conti profitti e perdite Prezzo di entrata fisso. |

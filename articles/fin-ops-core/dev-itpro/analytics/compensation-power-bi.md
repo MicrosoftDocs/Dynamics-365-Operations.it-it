@@ -6,19 +6,19 @@ ms.date: 12/19/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a8bc9be91a7538c3d50163832d5d4957724cd8fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: HcmCompensationWorkspace
+ms.openlocfilehash: cd51bf429abea5693432643a5ea9441fb9e2e464
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897190"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206448"
 ---
 # <a name="compensation-power-bi-content"></a>Contenuto Power BI per retribuzione
 
@@ -29,7 +29,7 @@ Questo articolo descrive il contenuto Microsoft Power BI **Retribuzione**. Descr
 ## <a name="accessing-the-power-bi-content"></a>Accesso al contenuto Power BI
 Il contenuto **Retribuzione** di Power BI viene visualizzato nell'area di lavoro **Gestione retribuzioni** se si utilizza uno dei seguenti prodotti:
 
-- App Finance and Operations
+- app per la finanza e le operazioni
 - Microsoft Dynamics 365 Human Resources
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Report inclusi nel contenuto Power BI

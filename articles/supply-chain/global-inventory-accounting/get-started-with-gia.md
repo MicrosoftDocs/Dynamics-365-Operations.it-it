@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cbe6bff6fab96900b8bd4e112a8858363fff86d1
-ms.sourcegitcommit: 9870b773a2ea8f5675651199fdbc63ca7a1b4453
+ms.openlocfilehash: 463a66002ec7a6536c9ff829f9ea2c3734138eae
+ms.sourcegitcommit: 6221a25f81aa83ab335de7cb6b6c3014dbec0116
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9013557"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177150"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Introduzione alla Contabilità inventario globale
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
-<!--KFM: Preview until 4/30/2022 -->
 
 Contabilità inventario globale ti consente di eseguire più contabilità di inventario nei libri contabili di Contabilità inventario globale impostati. È necessario associare ogni libro contabile di Contabilità inventario globale a una *convenzione*. Una convenzione è la raccolta dei seguenti tipi di principi contabili:
 
@@ -69,28 +67,34 @@ Prima di poter abilitare la funzionalità del componente aggiuntivo, è necessar
 
 Per ulteriori informazioni, vedi [Abilitare dopo la distribuzione dell'ambiente](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy).
 
-## <a name="install-the-add-in"></a><a name="install"></a>Installare il componente aggiuntivo
+## <a name="install-or-update-the-add-in-and-solution"></a><a name="install"></a>Installare o aggiornare il componente aggiuntivo e la soluzione
 
-Segui questi passaggi per installare il componente aggiuntivo in modo da poter utilizzare Contabilità inventario globale.
+Attieniti alla seguente procedura per installare o aggiornare il componente aggiuntivo e la soluzione Contabilità inventario globale La parte della procedura da seguire dipende se si tratta della prima installazione o se devi aggiornare la soluzione per un'installazione esistente.
+
+- Se il componente aggiuntivo non è mai stato installato in precedenza, segui la procedura completa per installare sia il componente aggiuntivo che la soluzione.
+- Se stai già usando Contabilità inventario globale ma devi aggiornare la soluzione nell'[interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com), vai al punto 6 e ignora tutti gli altri passaggi.
+
+Per installare o aggiornare il componente aggiuntivo e la soluzione:
 
 1. Accedere a [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Aprire l'ambiente LCS in cui si desidera aggiungere il servizio.
 1. Andare a **Dettagli completi**.
 1. Vai a **Integrazione di Power Platform** e seleziona **Impostazioni**.
 1. Nella finestra di dialogo **Configurazione ambiente Power Platform** seleziona la casella di controllo, quindi seleziona **Impostazioni**. In genere, la configurazione richiede tra 60 e 90 minuti.
-1. Dopo l'installazione dell'ambiente Microsoft Power Platform, accedi all'[interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com) e quindi installa il componente aggiuntivo Contabilità inventario globale procedendo come segue:
-   1. Seleziona l'ambiente in cui vuoi installare il componente aggiuntivo.
+1. Una volta completata l'installazione dell'ambiente Microsoft Power Platform, accedi all'[interfaccia di amministrazione di Power Platform](https://admin.powerplatform.microsoft.com) e quindi installa o aggiorna la soluzione Contabilità inventario globale procedendo come segue:
+   1. Seleziona l'ambiente in cui vuoi installare o aggiornare la soluzione.
    1. Seleziona **App Dynamics 365**.
    1. Seleziona **Installa app**.
    1. Seleziona **Contabilità inventario globale Dynamics 365**.
    1. Seleziona **Avanti** per installare.
-1. Torna all'ambiente LCS. Nella Scheda dettaglio **Componenti aggiuntivi per l'ambiente**, seleziona **Installa un nuovo componente aggiuntivo**.
+1. Dopo aver completato l'installazione della soluzione, torna all'ambiente LCS. Nella Scheda dettaglio **Componenti aggiuntivi per l'ambiente**, seleziona **Installa un nuovo componente aggiuntivo**.
 1. Seleziona **Contabilità inventario globale**.
 1. Seguire la guida all'installazione e accettare le condizioni.
 1. Seleziona **Installa**.
 1. Nella scheda dettaglio **Componenti aggiuntivi dell'ambiente** viene indicato che Contabilità inventario globale è stato installato. Dopo alcuni minuti, lo stato cambia da *Installazione in corso* in *Installato*. Potrebbe essere necessario aggiornare la pagina per vedere questa modifica. A quel punto, Contabilità inventario globale è pronto per l'uso.
 
 Se la lingua predefinita dell'installazione di Dataverse non è inglese, segui questi passaggi:
+
 1. Vai a **Impostazioni avanzate \> Amministrazione \> Lingue**.
 1. Seleziona *Inglese* (*LanguageCode=1033*) e seleziona **Applica**.
 

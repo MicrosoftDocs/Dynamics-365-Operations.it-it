@@ -2,7 +2,7 @@
 title: Configurare l'integrazione diretta di FatturaPA italiana con SDI
 description: Questo articolo fornisce informazioni che ti aiuteranno a iniziare con la fatturazione elettronica per l'Italia e impostare l'integrazione diretta di FatturaPA italiana con il sistema di Exchange (SDI).
 author: abaryshnikov
-ms.date: 01/15/2022
+ms.date: 07/27/2022
 ms.topic: article
 audience: Application User, Developer
 ms.reviewer: kfend
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: abaryshnikov
 ms.search.validFrom: 2021-10-18
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 510cf05e7bbc925478f9a1a4ea2ea27fe397c570
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 363b7b5e3d5abbb990fea8f8ad4d0c1bebf80102
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853194"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203171"
 ---
 # <a name="set-up-direct-integration-of-italian-fatturapa-with-sdi"></a>Configurare l'integrazione diretta di FatturaPA italiana con SDI
 
@@ -69,10 +69,13 @@ Questa sezione è a complemento della sezione [Configurazione specifica del paes
     - Per l'azione **Firma documento** nel campo **Nome certificato** specifica il Certificato di firma digitale.
     - Per l'azione **Invia** imposta i campi **Indirizzo URL** e **Certificati**. Il valore del campo **Certificati** è una catena di certificati, il primo dei quali è il certificato CA radice (caentrate.cer) e il secondo è il certificato client.
 
-4. Seleziona **Convalida** per garantire che tutti i campi necessari siano stati impostati.
-5. Salva le modifiche e chiudi la pagina.
-6. Nella scheda **Impostazioni**, seleziona **Fatture di progetto**, quindi seleziona **Modifica**.
-7. Ripeti i passaggi da 3 a 5 per le fatture di progetto.
+4. Nella sezione **Regole di applicabilità**, esamina le singole clausole e rivedi o imposta i campi obbligatori:
+    - Rivedi la clausola **LegalEntityID** e aggiornala con il valore corretto della persona giuridica.
+
+5. Seleziona **Convalida** per garantire che tutti i campi necessari siano stati impostati.
+6. Salva le modifiche e chiudi la pagina.
+7. Nella scheda **Impostazioni**, seleziona **Fatture di progetto**, quindi seleziona **Modifica**.
+8. Ripeti i passaggi da 3 a 6 per le fatture di progetto.
 
 ### <a name="configure-the-processing-pipeline-for-import"></a>Configurare la pipeline di elaborazione per l'importazione
 

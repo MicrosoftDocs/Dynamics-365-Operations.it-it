@@ -9,23 +9,22 @@ ms.reviewer: v-chgriffin
 ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
-ms.openlocfilehash: e2b13403ffb316059476a03857c849b4f9f8cb9c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83e20d9fc655a474a11521ec61d0b64d30603181
+ms.sourcegitcommit: c271b2edc4bf777f7194b09139ccbd174a359c75
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884665"
+ms.lasthandoff: 07/16/2022
+ms.locfileid: "9169132"
 ---
 # <a name="create-dynamic-e-commerce-pages-based-on-url-parameters"></a>Creare pagine di e-commerce dinamiche in base ai parametri URL
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In questo articolo viene descritto come configurare una pagina di e-commerce Microsoft Dynamics 365 Commerce in grado di offrire contenuti dinamici, in base ai parametri URL.
 
-Una pagina di e-commerce può essere configurata per offrire contenuti diversi, in base a un segmento nel percorso dell'URL. Pertanto, la pagina è nota come pagina dinamica. Il segmento viene utilizzato come parametro per recuperare il contenuto della pagina. Ad esempio, un pagina creata in Creazione di siti Web e denominata **blog\_viewer** viene mappata all'URL `https://fabrikam.com/blog`. Questa pagina può quindi essere utilizzata per mostrare contenuti diversi, in base all'ultimo segmento nel percorso dell'URL. Ad esempio, l'ultimo segmento nell'URL `https://fabrikam.com/blog/article-1` è **article-1**.
+Una pagina di e-commerce può essere configurata per offrire contenuti diversi, in base a un segmento nel percorso dell'URL. Pertanto, la pagina è nota come pagina dinamica. Il segmento viene utilizzato come parametro per recuperare il contenuto della pagina. Ad esempio, un pagina creata nel generatore di siti Web e denominata **blog\_viewer** viene mappata all'URL `https://fabrikam.com/blog`. Questa pagina può quindi essere utilizzata per mostrare contenuti diversi, in base all'ultimo segmento nel percorso dell'URL. Ad esempio, l'ultimo segmento nell'URL `https://fabrikam.com/blog/article-1` è **article-1**.
 
-Puoi anche sostituire un segmento URL parametrizzato con una pagina di creazione del sito. Ad esempio, un pagina creata in Creazione di siti Web e denominata **blog\_summary** può essere mappata all'URL `https://fabrikam.com/blog/about-this-blog`. Quando l'URL `https://fabrikam.com/blog` è richiesto con il segmento `/about-this-blog` alla fine, il contenuto della pagina **blog\_summary** viene restituito al posto del segmento `/about-this-blog` interpretato come un parametro che deve essere utilizzato dalla pagina `https://fabrikam.com/blog`. 
+Puoi anche sostituire un segmento URL parametrizzato con una pagina del generatore di siti. Ad esempio, un pagina creata nel generatore di siti Web e denominata **blog\_summary** può essere mappata all'URL `https://fabrikam.com/blog/about-this-blog`. Quando l'URL `https://fabrikam.com/blog` è richiesto con il segmento `/about-this-blog` alla fine, il contenuto della pagina **blog\_summary** viene restituito al posto del segmento `/about-this-blog` interpretato come un parametro che deve essere utilizzato dalla pagina `https://fabrikam.com/blog`. 
 
 Quando si selezionano i nomi per i parametri da passare alla pagina dinamica, il nome della pagina dinamica come appare nell'URL (`/blog` nell'esempio precedente) non può essere utilizzato come nome di un parametro o una sottostringa di un nome di parametro. 
 
@@ -42,7 +41,7 @@ Per creare una pagina che offrirà contenuto dinamico, segui i passaggi in [Aggi
 
 ### <a name="create-the-base-url-for-the-dynamic-page"></a>Creare l'URL di base per la pagina dinamica
 
-Per creare l'URL di base per la pagina dinamica in Creazione di siti di Commerce, segui questi passaggi.
+Per creare l'URL di base per la pagina dinamica nel generatore di siti di Commerce, segui questi passaggi.
 
 1. Vai a **URL** e seleziona **Nuovo \> Nuovo URL**.
 1. Nella finestra di dialogo **Crea nuovo URL**, seleziona **Pagina interna**. In **Percorso URL**, immetti il percorso che servirà da radice per la pagina dinamica (in questo esempio, **/blog**). Quindi seleziona **Avanti**.
@@ -51,7 +50,7 @@ Per creare l'URL di base per la pagina dinamica in Creazione di siti di Commerce
 
 ### <a name="configure-the-route-to-the-dynamic-page"></a>Configurare il percorso della pagina dinamica
 
-Per configurare il percorso della pagina dinamica in Creazione di siti di Commerce, segui questi passaggi.
+Per configurare il percorso della pagina dinamica nel generatore di siti di Commerce, segui questi passaggi.
 
 1. Vai a **Impostazioni sito \> Estensioni**.
 1. In **Percorsi URL con parametri**, seleziona **Aggiungi**, quindi immetti il percorso dell'URL immesso quando hai creato l'URL (in questo esempio, **/blog**).
@@ -61,7 +60,7 @@ Dopo aver configurato il percorso, tutte le richieste del percorso dell'URL con 
 
 ## <a name="override-a-parameterized-url-with-a-custom-page"></a>Sostituzione di un URL con parametri con una pagina personalizzata
 
-Per sostituire un URL con parametri con una pagina personalizzata in Creazione di siti di Commerce, segui questi passaggi.
+Per sostituire un URL con parametri con una pagina personalizzata nel generatore di siti di Commerce, segui questi passaggi.
 
 1. Vai a **URL** e seleziona **Nuovo \> Nuovo URL**.
 1. Nella finestra di dialogo **Crea nuovo URL**, seleziona **Pagina interna**. In **Percorso URL**, immetti il percorso che include il segmento da sostituire (in questo esempio, **/blog/about-this-blog**). Quindi seleziona **Avanti**.

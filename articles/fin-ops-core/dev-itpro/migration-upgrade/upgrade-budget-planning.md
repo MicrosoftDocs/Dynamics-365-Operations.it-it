@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d098aa77b4eb87118692c18ecd1b09a5de2c53d6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d8d59def24fd138b4cf1d36e286b786e13b096e
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890408"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124030"
 ---
 # <a name="upgrade-budget-planning"></a>Aggiornamento della pianificazione del budget
 
@@ -30,7 +30,7 @@ Tra Microsoft Dynamics AX 2012 e Dynamics 365 Finance sono presenti differenze s
 La pianificazione del budget in Finance include molti miglioramenti che non erano disponibili in Dynamics AX 2012. In questo articolo vengono illustrate le modifiche che devono eseguire i clienti che effettuano l'aggiornamento. Vengono inoltre illustrate le nuove funzionalità che devono essere considerate nel processo di aggiornamento. A causa delle dimensioni delle modifiche, tutti i piani di budget esistenti non potranno essere aperti fino a che non sono state apportate le modifiche descritte in questo articolo. Tuttavia, i report dovrebbero continuare a funzionare e non richiedono modifiche aggiuntive.
 
 ## <a name="overview-of-changes"></a>Panoramica delle modifiche
-Nell'Impostazione budget di Finance and Operations sono state apportate molte modifiche significative. Le modifiche hanno lo scopo di rendere la struttura del budget più semplice da configurare e più riutilizzabile, per ridurre le operazioni di manutenzione annuali e le impostazioni. Le seguenti aree di AX 2012 non esistono più in Finance:
+Nell'Impostazione budget di finanza e operazioni sono state apportate molte modifiche significative. Le modifiche hanno lo scopo di rendere la struttura del budget più semplice da configurare e più riutilizzabile, per ridurre le operazioni di manutenzione annuali e le impostazioni. Le seguenti aree di AX 2012 non esistono più in Finance:
 
 -   Modelli del piano di budget (configurazione di pianificazione del budget)
 -   Cartelle del piano di budget (configurazione di pianificazione del budget)
@@ -47,7 +47,7 @@ Le colonne costituiscono un nuovo concetto che sostituisce parti del modello di 
 
 ### <a name="layouts"></a>Layout
 
-I layout sono un nuovo concetto che sostituisce il modello Excel. I layout contengono le colonne che definiscono quali dati del budget o effettivi devono essere mostrati. I layout vengono condivisi tra il client e il componente aggiuntivo di Excel. Di conseguenza, l'esperienza utente quando si immettono o si visualizzano i dati nel client di Finance and Operations è migliore rispetto all'esperienza utente di AX 2012. Nell'immettere i dati nel client di Finance non si è più limitati alla visualizzazione e all'immissione di un unico scenario in una visualizzazione transazione. Una visualizzazione di confronto consente invece di visualizzare e immettere facilmente gli importi per più periodi e conti contemporaneamente. I layout possono inoltre venire definiti in modo che sia possibile immettere e visualizzare la valuta, i commenti e altri dati facoltativi. I layout consentono anche di definire le dimensioni di contabilità generale e le descrizioni delle dimensioni da visualizzare. I layout includono inoltre vincoli di scenario per definire quali colonne di un modello possono essere modificate e quali colonne devono essere disponibili in Excel. Dopo aver definito un layout, un modello viene generato. Questo modello, a sua volta, crea il modello corrispondente di Excel. È quindi possibile modificare il modello Excel per includere più formule e formattazione e quindi caricarlo di nuovo. I layout vengono assegnati a ciascuna regola fase nella pagina **Processo di pianificazione del budget**. Di conseguenza, i layout sostituiscono i modelli, che sono stati assegnati e utilizzati in modo simile.
+I layout sono un nuovo concetto che sostituisce il modello Excel. I layout contengono le colonne che definiscono quali dati del budget o effettivi devono essere mostrati. I layout vengono condivisi tra il client e il componente aggiuntivo di Excel. Di conseguenza, l'esperienza utente quando si immettono o si visualizzano i dati nel client di finanza e operazioni è migliore rispetto all'esperienza utente di AX 2012. Nell'immettere i dati nel client di Finance non si è più limitati alla visualizzazione e all'immissione di un unico scenario in una visualizzazione transazione. Una visualizzazione di confronto consente invece di visualizzare e immettere facilmente gli importi per più periodi e conti contemporaneamente. I layout possono inoltre venire definiti in modo che sia possibile immettere e visualizzare la valuta, i commenti e altri dati facoltativi. I layout consentono anche di definire le dimensioni di contabilità generale e le descrizioni delle dimensioni da visualizzare. I layout includono inoltre vincoli di scenario per definire quali colonne di un modello possono essere modificate e quali colonne devono essere disponibili in Excel. Dopo aver definito un layout, un modello viene generato. Questo modello, a sua volta, crea il modello corrispondente di Excel. È quindi possibile modificare il modello Excel per includere più formule e formattazione e quindi caricarlo di nuovo. I layout vengono assegnati a ciascuna regola fase nella pagina **Processo di pianificazione del budget**. Di conseguenza, i layout sostituiscono i modelli, che sono stati assegnati e utilizzati in modo simile.
 
 ### <a name="budget-planning-processes"></a>Processi di pianificazione del budget
 
@@ -69,7 +69,7 @@ Per consentire di determinare la modalità di configurazione del sistema aggiorn
    -   Scenari del piano di budget: Effettivi, Base, Richiesta budget, Budget approvato
    -   Righe del piano di budget per tutti gli scenari nel 2017 ed effettivi per entrambi 2017 e 2016
 
-   Le colonne seguenti verranno create in Finance and Operations:
+   Le colonne seguenti verranno create in finanza e operazioni:
 
    | Nome colonna    | Scenario del piano di budget | Periodo di tempo colonna | Offset anno |
    |----------------|----------------------|--------------------|-------------|

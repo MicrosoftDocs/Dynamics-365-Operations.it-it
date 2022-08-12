@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 4997ba123f105f683daaa6b29fe8c5ee72cb47cb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8f46a4d4e087a99c00ab7b4eabc74f60043cbf21
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873813"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186485"
 ---
 # <a name="priority-based-planning"></a>Pianificazione basata sulle priorità
 
 [!include [banner](../../includes/banner.md)]
 
-Questo articolo descrive la funzionalità di pianificazione basata sulle priorità di Microsoft Dynamics 365 Supply Chain Management. La funzionalità aggiunge il supporto per la pianificazione basata sulla domanda, che è una fase della pianificazione del fabbisogno di materiale basato sulla domanda (DDMRP). La pianificazione basata sulle priorità consente a Ottimizzazione pianificazione di generare ordini pianificati basati sulle priorità di pianificazione anziché sulle date dei requisiti.
+Questo articolo descrive la funzionalità di pianificazione basata sulle priorità di Microsoft Dynamics 365 Supply Chain Management. La funzionalità aggiunge il supporto per la pianificazione basata sulla domanda, che è una fase della [pianificazione del fabbisogno di materiale basato sulla domanda (DDMRP)](ddmrp-overview.md). La pianificazione basata sulle priorità consente a Ottimizzazione pianificazione di generare ordini pianificati basati sulle priorità di pianificazione anziché sulle date dei requisiti.
 
 La pianificazione basata sulle priorità consente di assegnare la priorità agli ordini di rifornimento per garantire che la domanda urgente abbia la priorità rispetto alla domanda meno importante. Ad esempio, un ordine di rifornimento per esaurimento scorte avrà la priorità rispetto a un ordine di rifornimento di rifornimento standard. Il sistema può dividere automaticamente gli ordini più grandi in ordini più piccoli separati in cui le righe dell'ordine sono raggruppate per priorità. Può quindi elaborare prima tutti gli ordini ad alta priorità.
 

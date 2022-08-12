@@ -1,7 +1,7 @@
 ---
 title: Risoluzione dei problemi di importazione di file di rendiconto bancario
 description: Questo articolo spiega come correggere i problemi causati da piccole differenze nel file di rendiconto bancario.
-author: panolte
+author: angelad116
 ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
@@ -12,19 +12,22 @@ ms.reviewer: kfend
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 422b2df6c4de3a948b0e62bfb70f99b12e04a8f9
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 44658ea48b9f7dae76c34c5f3d8828c9e8c4ac32
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8711175"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151762"
 ---
 # <a name="bank-statement-file-import-troubleshooting"></a>Risoluzione dei problemi di importazione di file di rendiconto bancario
 
 [!include [banner](../includes/banner.md)]
+
+>[!NOTE]
+>Questa funzionalità verrà deprecata a settembre 2022, i nuovi utenti dovranno usare la creazione di report elettronici.
 
 È importante che il file di rendiconto bancario della banca corrisponda al layout supportato da Microsoft Dynamics 365 Finance. A causa dei rigorosi standard per i rendiconti bancari, la maggior parte delle integrazioni funzionerà correttamente. Tuttavia, talvolta il file di rendiconto non può essere importato o contiene risultati non corretti. In genere, questi ultimi problemi sono provocati da piccole differenze nel file di rendiconto bancario. In questo articolo viene descritto come risolvere tali differenze e risolvere i problemi.
 
@@ -39,7 +42,7 @@ Dopo aver tentato di importare un file di rendiconto bancario, passare allo stor
 Confrontare la definizione del layout del file bancario con la definizione di importazione di Finance e osservare tutte le differenze nei campi e le voci. Confrontare il file di rendiconto bancario al file di esempio di Finance correlato. Nei file ISO20022, tutte le differenze dovrebbero essere semplici da visualizzare.
 
 ## <a name="time-zone-differences-on-imported-bank-statements"></a>Differenze di fuso orario nei rendiconti bancari importati
-I valori di data e ora nel file di importazione possono variare in base ai valori di data e ora visualizzati in Finance and Operations. Per impedire questa discrepanza, immettere una preferenze di fuso orario nella pagina **Configura origine dati**. Per ulteriori informazioni sull'immissione di una preferenze di fuso orario, vedi [Impostare il processo di importazione della riconciliazione estratti conto avanzata](set-up-advanced-bank-reconciliation-import-process.md).
+I valori di data e ora nel file di importazione possono variare in base ai valori di data e ora visualizzati nelle app per la finanza e le operazioni. Per impedire questa discrepanza, immettere una preferenze di fuso orario nella pagina **Configura origine dati**. Per ulteriori informazioni sull'immissione di una preferenze di fuso orario, vedi [Impostare il processo di importazione della riconciliazione estratti conto avanzata](set-up-advanced-bank-reconciliation-import-process.md).
 
 ## <a name="transformations"></a>Trasformazioni
 In genere, la modifica deve essere eseguita in una delle tre trasformazioni. Ogni trasformazione viene scritta per uno specifico standard.
@@ -109,3 +112,4 @@ Nella tabella seguente vengono elencati esempi di definizioni di layout tecnici 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

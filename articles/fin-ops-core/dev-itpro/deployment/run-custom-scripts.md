@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-12-16
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: ff01e2ff8ec105603bb91e0b555301f36e8985b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad48fbd3ee2f28f39f6061b5e922f5c4f47c8f6
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867331"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103522"
 ---
 # <a name="run-custom-x-scripts-with-zero-downtime"></a>Esegui script X++ personalizzati senza tempi di inattività
 
@@ -120,7 +120,7 @@ L'elenco seguente descrive alcune procedure consigliate per scrivere, implementa
 
 Utilizza la procedura seguente per caricare ed eseguire uno script.
 
-1. Nell'app Finanza e operazioni, vai a **Amministrazione di sistema \> Attività periodiche \> Database \> Script personalizzati**.
+1. Nell'app per la finanza e le operazioni, vai a **Amministrazione di sistema \> Attività periodiche \> Database \> Script personalizzati**.
 1. Selezionare **Carica**.
 1. Seleziona il pacchetto distribuibile che hai creato come descritto in precedenza in questo articolo. Ti verrà chiesto di specificare lo scopo dello script.
 1. Lo script ora deve essere approvato da un utente diverso dall'utente che lo ha caricato. Il responsabile dell'approvazione deve seguire questi passaggi:
@@ -149,6 +149,7 @@ La tua selezione nell'ultimo passaggio definisce lo stato finale dello script. P
 
 ## <a name="upload-and-run-a-deployable-package-through-lcs"></a>Caricare ed eseguire un pacchetto distribuibile tramite LCS
 
-Invece di distribuire il pacchetto distribuibile tramite l'interfaccia utente per l'app per finanza e operazioni, come descritto nella sezione precedente, puoi caricarlo in LCS e utilizzare la normale procedura per distribuirlo. Per altre informazioni, vedi [Installare pacchetti distribuibili dalla riga di comando](../deployment/install-deployable-package.md).
+Invece di distribuire il pacchetto distribuibile tramite l'interfaccia utente per l'app per la finanza e le operazioni, come descritto nella sezione precedente, puoi caricarlo in LCS e utilizzare la normale procedura per distribuirlo. Per altre informazioni, vedi [Installare pacchetti distribuibili dalla riga di comando](../deployment/install-deployable-package.md).
 
 Sebbene questo approccio abbia meno restrizioni, fornisce una minore protezione dagli errori. Inoltre, poiché richiede il riavvio di tutti i server, causerà alcuni tempi di inattività.
+

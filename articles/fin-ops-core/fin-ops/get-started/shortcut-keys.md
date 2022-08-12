@@ -1,8 +1,8 @@
 ---
 title: Tasti di scelta rapida
-description: Questo articolo fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app per finanza e operazioni.
+description: Questo articolo fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app per la finanza e le operazioni.
 author: jasongre
-ms.date: 03/03/2022
+ms.date: 07/12/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f0f833e3a6d45329fd8a69af658f392df32e4db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
+ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866119"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "9140441"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -197,6 +197,7 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Chiudere l'elenco di navigazione nel modulo Dettagli (con lo stato attivo nell'elenco di navigazione) | ESC                        |
 | Spostarsi sul contenuto della pagina principale (con lo stato attivo in un altro riquadro)                    | ALT + M,M                    |
 | Spostarsi sul riquadro Dettaglio informazioni (può includerne l'apertura)                       | ALT + M,B o CTRL + F2         |
+| Passa al prossimo callout di funzionalità                                              | Alt + M, C                    |
 
 > [!NOTE]
 > La funzionalità **Semplificazione del comportamento della tabulazione nei moduli a pagina intera** introdotta nella versione 10.0.26 consente agli utenti di scorrere tutte le aree di una pagina senza richiedere il mouse o una scorciatoia da tastiera dedicata per spostarsi tra le aree. Puoi comunque utilizzare le scorciatoie da tastiera esistenti (come le scorciatoie da tastiera Alt+M) per spostarti rapidamente tra le regioni di una pagina.
@@ -269,3 +270,4 @@ La gestione dello stato attivo descrive come viene gestita lo stato attivo dell'
 [Tasti di scelta rapida per l'analisi dei conti mancanti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4b63ac8a09efb9ab449b651d030bd14a24d5cc36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b81eb8e0be4c7d7357a6b8b7b5f0ac025b9ab8ca
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850080"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124260"
 ---
 # <a name="alerts-overview"></a>Panoramica degli avvisi
 
@@ -77,13 +77,13 @@ Una regola di avviso include cinque componenti:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3DWZ3]
 
-Il video [Come utilizzare gli avvisi per monitorare i dati filtrati](https://youtu.be/ZYKMcv6kl9s) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+Il video [Come utilizzare gli avvisi per monitorare i dati filtrati](https://youtu.be/ZYKMcv6kl9s) (mostrato sopra) è incluso nella [playlist delle app per la finanza e le operazioni](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 ### <a name="alert-rule-options"></a>Opzioni per le regole di avviso
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3E4PV]
 
-Il video [Opzioni per le regole di avviso](https://youtu.be/cpzimwOjicM) (mostrato sopra) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+Il video [Opzioni per le regole di avviso](https://youtu.be/cpzimwOjicM) (mostrato sopra) è incluso nella [playlist delle app per la finanza e le operazioni](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 
 

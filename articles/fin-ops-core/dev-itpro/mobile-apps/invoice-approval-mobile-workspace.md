@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e9067e33038ee09b8f8cdcc8dd597ab5be9cfe7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4cc05d9fcea129cfb2ed8ed8df4bd4034a1fed4c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868671"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066392"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Area di lavoro mobile Approvazioni fatture
 
@@ -26,7 +26,7 @@ ms.locfileid: "8868671"
 
 In questo articolo vengono fornite informazioni sull'area di lavoro mobile **Approvazioni fatture**. Questa area di lavoro fornisce un elenco di fatture assegnate all'utente mediante il processo del flusso di lavoro di intestazione della fattura fornitore. 
 
-Questa area di lavoro mobile può essere utilizzata con l'app Finance and Operations per dispositivi mobili.
+Questa area di lavoro mobile può essere utilizzata con l'app per dispositivi mobili per la finanza e le operazioni.
 
 ## <a name="overview"></a>Panoramica
 
@@ -61,7 +61,7 @@ Per poter utilizzare questa area di lavoro mobile è necessario soddisfare i seg
 
 ## <a name="download-and-install-the-mobile-app"></a>Scaricare e installare l'app per dispositivi mobili
 
-Scaricare e installare l'app Finance and Operations per dispositivi mobili:
+Scarica e installa l'app per la finanza e le operazioni per dispositivi mobili:
 
 -   [Per telefoni Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Per iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -88,3 +88,4 @@ Scaricare e installare l'app Finance and Operations per dispositivi mobili:
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

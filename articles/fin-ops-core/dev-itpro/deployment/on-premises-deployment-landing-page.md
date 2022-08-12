@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b73e0cc31fd0e5a22ee330f623b9125de9237e29
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 87bab110d99bd756038b9f556aa15ed9fd02fb97
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867414"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103974"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page delle distribuzioni locali
 
@@ -53,7 +53,7 @@ Puoi distribuire Dynamics 365 Finance + Operations (on-premises). Quando si sceg
 - [Importare configurazioni per la creazione di report elettronici](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Generazione, pubblicazione e stampa di documenti nelle distribuzioni locali](../analytics/printing-capabilities-on-premises.md)
 - [Configurare proxy per ambienti locali](onprem-reverseproxy.md)
-- [Impostare il supporto tecnico per app Finance and Operations](../lifecycle-services/support-experience.md)
+- [Impostare il supporto tecnico per le app per la finanza e le operazioni](../lifecycle-services/support-experience.md)
 - [Connettività Internet client](../user-interface/client-disconnected.md)
 - [Applicare aggiornamenti a distribuzioni locali](apply-updates-on-premises.md)
 - [Ridistribuire ambienti locali](redeploy-on-prem.md)
@@ -73,9 +73,10 @@ Puoi distribuire Dynamics 365 Finance + Operations (on-premises). Quando si sceg
 - [Script relativi alla risoluzione dei problemi negli ambienti locali](onprem-tsg-implementations.md)
 - [Rotazione certificati](certificate-rotation-on-prem.md)
 - [Diagnostica locale](on-premises-diagnostics.md)
-- [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md)
+- [Funzionalità rimosse o deprecate per le app per la finanza e le operazioni](../migration-upgrade/deprecated-features.md)
 - [Criteri del ciclo di vita del software e versioni in locale](../migration-upgrade/on-prem-version-update-policy.md)
  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

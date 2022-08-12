@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-26
-ms.openlocfilehash: 8e5c11e535bd61e9955a4abf1491e88991ee40f1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91cc0e59405bc085e09f01f05ef02e4a0260481e
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894268"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111896"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura
 
@@ -32,7 +32,7 @@ Devi installarla manualmente. Dopo l'installazione, tutto rimane esattamente lo 
 
 Per eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a doppia scrittura, seguire questi passaggi.
 
-1. Eseguire i processi di integrazione dei dati Prospect to cash per eseguire un'ultima sincronizzazione completa. In questo modo, ti assicuri che entrambi i sistemi (app per finanza e operazioni e app di interazione con i clienti) abbiano tutti i dati.
+1. Eseguire i processi di integrazione dei dati Prospect to cash per eseguire un'ultima sincronizzazione completa. In questo modo, ti assicuri che entrambi i sistemi (app per la finanza e le operazioni e app di interazione con i clienti) abbiano tutti i dati.
 2. Per contribuire a prevenire la potenziale perdita di dati, esportare i dati Prospect to cash da Microsoft Dynamics 365 Sales in un file Excel o in un file CSV (valori delimitati da virgole). Esporta i dati dalle seguenti entità:
 
     - [Conto](#account-table)
@@ -47,25 +47,25 @@ Per eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a 
 
 3. Disinstallare la soluzione Prospect to cash dall'ambiente Sales. Questo passaggio rimuove le colonne e i dati corrispondenti introdotti dalla soluzione Prospect to cash.
 4. Installare la soluzione a doppia scrittura.
-5. Creare una connessione a doppia scrittura tra l'app per finanza e operazioni e l'app di interazione con i clienti per una o più persone giuridiche.
+5. Creare una connessione a doppia scrittura tra l'app per la finanza e le operazioni e l'app di interazione con i clienti per una o più persone giuridiche.
 6. Abilitare i mapping di tabelle a doppia scrittura ed eseguire la sincronizzazione iniziale per i dati di riferimento obbligatori. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md). Esempi di dati obbligatori includono gruppi di clienti, termini di pagamento e programmi di pagamento. Non abilitare i mapping a doppia scrittura per le tabelle che richiedono l'inizializzazione, come le tabelle account, offerta, riga preventivo, ordine e riga ordine.
 7. Nell'app di interazione con i clienti, passare a **Impostazioni avanzate \> Impostazioni di sistema \> Gestione dati \> Regole di rilevamento duplicati** e disabilitare tutte le regole.
 8. Inizializzare le tabelle elencate nel passaggio 2. Per istruzioni, vedi le sezioni rimanenti di questo articolo.
-9. Aprire l'app per finanza e operazioni e abilitare i mapping di tabella, come i mapping account, offerta, riga di offerta, ordine e riga ordine. Quindi eseguire la sincronizzazione iniziale. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md). Questo processo sincronizzerà ulteriori informazioni dall'app per finanza e operazioni, come stato di elaborazione, indirizzi di spedizione e fatturazione, siti e magazzini.
+9. Aprire l'app per la finanza e le operazioni e abilitare i mapping di tabella, come i mapping account, offerta, riga di offerta, ordine e riga ordine. Quindi eseguire la sincronizzazione iniziale. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md). Questo processo sincronizzerà ulteriori informazioni dall'app per la finanza e le operazioni, come stato di elaborazione, indirizzi di spedizione e fatturazione, siti e magazzini.
 
 ## <a name="account-table"></a>Tabella account
 
 1. Nella colonna **Azienda**, immettere il nome dell'azienda, ad esempio **USMF**.
 2. Nella colonna **Tipo di relazione**, immetti **Cliente** come valore statico. È consigliabile non classificare ogni record di account come cliente nella logica di business.
-3. Nella colonna **ID gruppo clienti**, immettere il numero del gruppo di clienti dall'app per finanza e operazioni. Il valore predefinito della soluzione Prospect to cash è **10**.
-4. Se stai utilizzando la soluzione Prospect to cash senza alcuna personalizzazione di **Numero di conto**, immetti un valore per **Numero di conto** nella colonna **Numero parte**. Se sono presenti personalizzazioni e non conosci il numero parte, estrai queste informazioni dall'app per finanza e operazioni.
+3. Nella colonna **ID gruppo clienti**, immettere il numero del gruppo di clienti dall'app per la finanza e le operazioni. Il valore predefinito della soluzione Prospect to cash è **10**.
+4. Se stai utilizzando la soluzione Prospect to cash senza alcuna personalizzazione di **Numero di conto**, immetti un valore per **Numero di conto** nella colonna **Numero parte**. Se sono presenti personalizzazioni e non conosci il numero parte, estrai queste informazioni dall'app per la finanza e le operazioni.
 
 ## <a name="contact-table"></a>Tabella dei contatti
 
 1. Nella colonna **Azienda**, immettere il nome dell'azienda, ad esempio **USMF**.
 2. Impostare le seguenti colonne, in base al valore **IsActiveCustomer** nel file CSV:
 
-    - Se **IsActiveCustomer** è impostato su **Sì** nel file CSV, imposta la colonna **Vendibile** su **Sì**. Nella colonna **ID gruppo clienti**, immettere il numero del gruppo di clienti dall'app per finanza e operazioni. Il valore predefinito della soluzione Prospect to cash è **10**.
+    - Se **IsActiveCustomer** è impostato su **Sì** nel file CSV, imposta la colonna **Vendibile** su **Sì**. Nella colonna **ID gruppo clienti**, immettere il numero del gruppo di clienti dall'app per la finanza e le operazioni. Il valore predefinito della soluzione Prospect to cash è **10**.
     - If **IsActiveCustomer** è impostato su **No** nel file CSV, impostare la colonna **Vendibile** su **No** e impostare la colonna **Contatta For** su **Cliente**.
 
 3. Se stai utilizzando la soluzione Prospect to cash senza alcuna personalizzazione di **Numero di contatto**, impostare le seguenti colonne:
@@ -76,7 +76,7 @@ Per eseguire la migrazione dei dati Prospect to cash da Integrazione dei dati a 
 
 ## <a name="invoice-table"></a>Tabella delle fatture
 
-Perché i dati della tabella **Fattura** sono progetti per un flusso unidirezionale, dall'app per finanza e operazioni all'app di interazione con i clienti, l'inizializzazione non è necessaria. Eseguire la sincronizzazione iniziale per migrare tutti i dati richiesti dall'app per finanza e operazioni all'app di interazione con i clienti. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md).
+Perché i dati della tabella **Fattura** sono progettati per un flusso unidirezionale, dall'app per la finanza e le operazioni all'app di interazione con i clienti, l'inizializzazione non è necessaria. Eseguire la sincronizzazione iniziale per migrare tutti i dati richiesti dall'app per la finanza e le operazioni all'app di interazione con i clienti. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md).
 
 ## <a name="order-table"></a>Tabella degli ordini
 
@@ -94,7 +94,7 @@ Perché i dati della tabella **Fattura** sono progetti per un flusso unidirezion
 
 ## <a name="products-table"></a>Tabella prodotti
 
-Perché i dati della tabella **Prodotti** sono progetti per un flusso unidirezionale, dall'app per finanza e operazioni all'app di interazione con i clienti, l'inizializzazione non è necessaria. Eseguire la sincronizzazione iniziale per migrare tutti i dati richiesti dall'app per finanza e operazioni all'app di interazione con i clienti. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md).
+Perché i dati della tabella **Prodotti** sono progettati per un flusso unidirezionale, dall'app per la finanza e le operazioni all'app di interazione con i clienti, l'inizializzazione non è necessaria. Eseguire la sincronizzazione iniziale per migrare tutti i dati richiesti dall'app per la finanza e le operazioni all'app di interazione con i clienti. Per ulteriori informazioni, vedere [Considerazioni per la sincronizzazione iniziale](initial-sync-guidance.md).
 
 ## <a name="quote-and-quote-product-tables"></a>Tabelle di offerta e prodotti offerta
 
@@ -102,3 +102,4 @@ Per la tabella **Offerta**, segui le istruzioni nella sezione [Tabella degli ord
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

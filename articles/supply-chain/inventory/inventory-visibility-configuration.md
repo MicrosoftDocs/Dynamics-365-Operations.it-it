@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 2bdb2ca0067ea430b249ac619a38c8bcec75f2f7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895817"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066672"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Inventory Visibility
 
@@ -55,7 +55,7 @@ Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzional
 | *OnHandMostSpecificBackgroundService* | Questa funzionalità fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. Per ulteriori informazioni, vedere [Riepilogo inventario](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | La funzione facoltativa abilita la programmazione delle modifiche scorte disponibili e le funzionalità ATP. Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md). |
 | *Allocazione* | Questa funzione facoltativa consente a Visibilità inventario di avere la capacità di protezione dell'inventario (ringfencing) e controllo delle vendite eccessive. Per ulteriori informazioni, vedi [Allocazione dell'inventario di Visibilità inventario](inventory-visibility-allocation.md). |
-| *Abilita articoli di magazzino in Visibilità inventario* | Questa funzione opzionale consente a Visibilità inventario di supportare gli articoli abilitati per i processi di magazzino avanzati (articoli WHS). Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WHS](inventory-visibility-whs-support.md). |
+| *Abilita articoli di magazzino in Visibilità inventario* | Questa funzione opzionale consente a Visibilità inventario di supportare gli articoli abilitati per i processi di gestione del magazzino (WMS). Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WMS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Trovare l'endpoint del servizio
 
@@ -809,3 +809,4 @@ La tabella seguente mostra la gerarchia di prenotazione predefinita.
 | `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

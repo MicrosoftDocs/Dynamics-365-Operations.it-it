@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f3d6cd373699d374c019f0db7befaffc169f4f6c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7d6524cb9109263ad62d221ec98e546b962b89ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850440"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067530"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurare i filtri di prodotto per le transazioni di magazzino
 
@@ -34,7 +34,7 @@ Nella seguente tabella vengono visualizzati i prerequisiti che devono essere val
 
 | Prerequisito | Istruzioni |
 |---|---|
-| Prima di iniziare a configurare i prodotti nella pagina **Dettagli prodotto rilasciato**, è necessario attivare l'elaborazione del magazzino per il gruppo di dimensioni di immagazzinamento del prodotto. | Vai a **Gestione informazioni sul prodotto \> Configura \> Gruppi di dimensioni e varianti \> Gruppi di dimensioni di archiviazione** e seleziona o crea un gruppo di dimensioni di immagazzinamento in cui l'opzione **Usa processi di gestione magazzino** è impostata su *Sì*. |
+| Prima di iniziare a configurare i prodotti nella pagina **Dettagli prodotto rilasciato**, è necessario attivare l'elaborazione del magazzino per il gruppo di dimensioni di immagazzinamento del prodotto. | Vai a **Gestione informazioni sul prodotto \> Configura \> Gruppi di dimensioni e varianti \> Gruppi di dimensioni di archiviazione** e seleziona o crea un gruppo di dimensioni di immagazzinamento in cui l'opzione **Usa processi di gestione del magazzino** è impostata su *Sì*. |
 | Se si utilizzeranno filtri cliente e/o filtri fornitore, è necessario abilitarne l'utilizzo nei parametri di gestione magazzino. | Fare clic su **Gestione magazzino \> Impostazione \> Parametri di gestione magazzino**. Nella scheda **Filtri prodotto**, imposta l'opzione **Abilita filtri cliente** e/o **Abilita filtri fornitore** su *Sì*. |
 
 ## <a name="set-up-product-filters"></a>Configurare filtri di prodotto
@@ -95,7 +95,7 @@ Per impostare i codici filtro su gruppi di articoli, effettuare le operazioni se
     Ad esempio, se vengono selezionate le caselle di controllo **Utilizza codice filtro 1** e **Utilizza codice filtro 2**, entrambi i codici filtro 1 e 2 dell'articolo devono corrispondere all'impostazione del gruppo di filtri per il gruppo di articoli prima che il gruppo di filtri possa essere selezionato. Quando crei un nuovo articolo, il gruppo di filtri selezionato sarà il gruppo di filtri predefinito nei campi **Gruppo 1** e **Gruppo 2** della scheda Dettaglio **Magazzino** della pagina **Dettagli prodotto rilasciato**.
 
 > [!IMPORTANT]
-> I codici filtro di prodotto sono abilitati solo per gli articoli che utilizzano la gestione avanzata del magazzino.
+> I codici filtro di prodotto sono abilitati solo per gli articoli che utilizzano i processi di gestione del magazzino (WMS).
 
 ## <a name="specify-filter-codes-for-released-products"></a>Specificare i codici filtro per i prodotti rilasciati
 
@@ -158,7 +158,7 @@ Per impostare i codici filtro per un fornitore, effettuare le seguenti operazion
 1. Nei campi da **Codice 1** a **Codice 10** selezionare i codici filtro da utilizzare come criteri per limitare gli articoli disponibili per i fornitori nel gruppo di articoli selezionato. È necessario effettuare una selezione per ogni codice filtro impostato per il gruppo di articoli.
 
 > [!NOTE]
-> L'impostazione dei filtri dei prodotti del fornitore si applica ai prodotti rilasciati in cui i processi di gestione del magazzino sono abilitati per il gruppo di dimensioni di immagazzinamento associato. I codici filtro vengono utilizzati per determinare se il sistema consentirà agli utenti di acquistare un determinato articolo da un determinato fornitore quando creano righe ordine fornitore. Microsoft Dynamics 365 Supply Chain Management prevede due metodi per gestire l'approvazione del fornitore. Se esistono uno o più prodotti rilasciati in cui il campo **Metodo di controllo fornitore approvato** è impostato su *Solo avvertimento* o *Non autorizzato*, entrambi i metodi di approvazione del fornitore potrebbero essere abilitati per tali articoli. Questa situazione potrebbe causare problemi quando gli utenti creano righe ordine fornitore.
+> L'impostazione dei filtri dei prodotti del fornitore si applica ai prodotti rilasciati in cui i processi di gestione del magazzino (WMS) sono abilitati per il gruppo di dimensioni di immagazzinamento associato. I codici filtro vengono utilizzati per determinare se il sistema consentirà agli utenti di acquistare un determinato articolo da un determinato fornitore quando creano righe ordine fornitore. Microsoft Dynamics 365 Supply Chain Management prevede due metodi per gestire l'approvazione del fornitore. Se esistono uno o più prodotti rilasciati in cui il campo **Metodo di controllo fornitore approvato** è impostato su *Solo avvertimento* o *Non autorizzato*, entrambi i metodi di approvazione del fornitore potrebbero essere abilitati per tali articoli. Questa situazione potrebbe causare problemi quando gli utenti creano righe ordine fornitore.
 
 ## <a name="see-also"></a>Vedere anche
 

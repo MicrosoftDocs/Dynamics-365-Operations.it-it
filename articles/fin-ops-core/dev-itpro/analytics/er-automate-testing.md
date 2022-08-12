@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: df2baa988bb634db11d819dd84ef73eaa560bab9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6254d15d13e40007396c9f2a36a8cd3122dc2609
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892771"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109342"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizzare il test con la creazione di report elettronici
 
@@ -57,7 +57,7 @@ I power user funzionali possono eseguire test di accettazione e integrazione ute
 Prima di poter completare le attività in questo articolo, è necessario soddisfare i seguenti prerequisiti:
 
 - Distribuire una topologia che supporta l'automazione dei test. È necessario avere accesso all'istanza di questa topologia per il ruolo **Amministratore di sistema**. Questa topologia deve contenere i dati dimostrativi che verranno utilizzati in questo esempio. Per ulteriori informazioni, vedere [Distribuire ambienti che supportano la compilazione continua e l'automazione dei test](../perf-test/continuous-build-test-automation.md).
-- Per eseguire automaticamente i test di accettazione e integrazione utente, è necessario installare RSAT nella topologia in uso e configurarlo nel modo appropriato. Per informazioni su come installare e configurare RSAT per l'uso con le app Finance and Operations e Azure DevOps, vedere [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prestare attenzione ai prerequisiti per l'utilizzo dello strumento. Di seguito viene illustrato un esempio delle impostazioni RSAT. Il rettangolo blu racchiude i parametri che specificano l'accesso a Azure DevOps. Il rettangolo verde racchiude i parametri che specificano l'accesso all'istanza.
+- Per eseguire automaticamente i test di accettazione e integrazione utente, è necessario installare RSAT nella topologia in uso e configurarlo nel modo appropriato. Per informazioni su come installare e configurare RSAT per l'uso con le app per la finanza e le operazioni e Azure DevOps, vedere [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357). Prestare attenzione ai prerequisiti per l'utilizzo dello strumento. Di seguito viene illustrato un esempio delle impostazioni RSAT. Il rettangolo blu racchiude i parametri che specificano l'accesso a Azure DevOps. Il rettangolo verde racchiude i parametri che specificano l'accesso all'istanza.
 
     ![Impostazioni RSAT.](media/GER-Configure.png "Schermata della finestra di dialogo Impostazioni RSAT")
 

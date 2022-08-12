@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c9bfcdef91ad07b8346498b8944e1d741d623a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862658"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067394"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -40,7 +40,7 @@ La gestione delle modifiche di progettazione consente di pianificare e gestire i
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HE6B]
 
-Il video precedente ([Cambia capacità di gestione in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) è incluso nella [playlist di Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+Il video precedente ([Cambia capacità di gestione in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) è incluso nella [playlist delle app per la finanza e le operazioni](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 ## <a name="turn-on-the-engineering-change-management-features-for-your-system"></a>Attivare le funzionalità di gestione delle modifiche di progettazione per il sistema
 
@@ -88,3 +88,4 @@ Dopo aver attivato le funzionalità di base di gestione delle modifiche di proge
 | Generazione di varianti per prodotti di progettazione | <p>Questa funzionalità consente di generare varianti per prodotti di progettazione, in base ai valori delle dimensioni disponibili.</p><p>Per ulteriori informazioni, vedere [Generare varianti per prodotti di progettazione](engineering-variants.md).</p> |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

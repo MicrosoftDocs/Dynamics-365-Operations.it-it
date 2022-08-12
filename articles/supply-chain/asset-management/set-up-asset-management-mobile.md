@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ee92ed2c0e2a59adaebe20ed3d426ac03c056dac
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef4e6bf2ae59adb05c7d4aacc3f5675a5adcafc9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870844"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070055"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurare l'area di lavoro per dispositivi mobili Gestione cespiti
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo descrive come configurare Microsoft Dynamics 365 Supply Chain Management e l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365) per eseguire un'area di lavoro per dispositivi mobili **Gestione cespiti** che i lavoratori possono utilizzare per eseguire attività di gestione dei cespiti.
+Questo articolo descrive come configurare Microsoft Dynamics 365 Supply Chain Management e l'app per dispositivi mobili per la finanza e le operazioni (Dynamics 365) per eseguire un'area di lavoro per dispositivi mobili **Gestione dispositivi** che i lavoratori possono utilizzare per eseguire attività di gestione dei cespiti.
 
 ## <a name="set-up-maintenance-worker-users-in-supply-chain-management"></a>Configurare gli utenti addetto alla manutenzione in Supply Chain Management
 

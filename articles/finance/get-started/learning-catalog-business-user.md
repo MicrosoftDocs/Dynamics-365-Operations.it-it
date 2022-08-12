@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2c7b1faac6af3356e4621d932031e798413b6563
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c883a425610d9b04812ba77c666b0b220184d5af
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889902"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069286"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Catalogo di apprendimento per gli utenti di Dynamics 365 Finance
 
@@ -31,7 +31,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 |---------|-------------|--------|--------|
 | [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Si è interessati all'apprendimento delle applicazioni aziendali? Forse non si sa da dove come cominciare a usare le applicazioni Microsoft Dynamics 365 e Power Platform ? Ottenere informazioni su come la potenza delle applicazioni aziendali può aiutare a trasformare l'azienda. | Percorso di apprendimento online gratuito autonomo | 8 ore |
 | [Dynamics 365 e Power Platform Fundamentals](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore   |
-| [Attività iniziali per le applicazioni Finanza e operazioni](/learn/paths/get-started-finance-operations/) | Informazioni su come le app per la finanza e le operazioni supportano le aziende nella gestione dei loro sistemi finanziari globali, dei processi aziendali operativi e delle catene di fornitura semplificate per consentire alle persone di prendere decisioni informate e rapidamente.   Come primo passo nella carriera di collaboratore delle app per la finanza e le operazioni, è necessario familiarizzare con le caratteristiche e le funzionalità, indipendentemente dal ruolo desiderato. | Percorso di apprendimento online gratuito autonomo | 2 ore |
+| [Introduzione alle app per la finanza e le operazioni](/learn/paths/get-started-finance-operations/) | Il modulo fornisce informazioni sul modo in cui le app per la finanza e le operazioni supportano le aziende nella gestione di sistemi finanziari globali, processi aziendali operativi e supply chain ottimizzate per consentire di prendere decisioni rapide e informate.   Il primo passaggio per imparare a lavorare con le app per la finanza e le operazioni è familiarizzare con le loro caratteristiche e funzionalità, indipendentemente dal ruolo che si desidera svolgere. | Percorso di apprendimento online gratuito autonomo | 2 ore |
 | [Introduzione a Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Con Dynamics 365 Intelligent Order Management, i clienti possono gestire l'orchestrazione degli ordini fino all'evasione. Queste funzionalità consentono alle organizzazioni di orchestrare i flussi di ordini in piattaforme e app diverse. | Modulo di apprendimento online gratuito e personalizzato | 30 minuti |
 | [Corso MB-900T01-A: Dynamics 365 fundamentals](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Questo corso familiarizzerà lo studente con le funzionalità e il valore aziendale di Dynamics 365. Il corso coprirà le applicazioni di Dynamics 365, Power Platform, concetti cloud, modello di sicurezza e considerazioni sulle licenze. | Formazione con istruttore dal vivo o online, il costo varia in base alla regione e al partner | 1 giorno |
 
@@ -39,8 +39,8 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 | Contenuto | Description | Formato | Length |
 |---------|-------------|--------|--------|
-| [Configurare l'organizzazione nelle app per la finanza e le operazioni](/learn/paths/configure-your-organization-finance-ops/) | Come consulente funzionale che lavora con app per la finanza e le operazioni, è necessario comprendere come impostare un'organizzazione per il cliente. Questo percorso di apprendimento mostra tra le altre attività, come configurare persone giuridiche, implementare impostazioni di sicurezza, personalizzare l'interfaccia utente per gli utenti, progettare e creare app per dispositivi mobili e implementare integrazioni comuni. | Percorso di apprendimento online gratuito autonomo | 12 ore  |
-| [Configurare e lavorare con analisi e report nelle app per la finanza e le operazioni](/learn/paths/configure-analytics-reporting-finance-operations/) | I leader aziendali possono prendere decisioni importanti nella loro azienda se hanno una visione accurata dei dati finanziari e operativi sottostanti. Un utente aziendale può anche configurare e utilizzare lo strumento di creazione di report elettronici senza una singola riga di codice, per adottare nuovi requisiti normativi e generare documenti aziendali nel formato richiesto per scambiare elettronicamente informazioni con enti governativi, banche e altre parti. | Percorso di apprendimento online gratuito autonomo | 4 ore   |
+| [Configurazione dell'organizzazione nelle app per la finanza e le operazioni](/learn/paths/configure-your-organization-finance-ops/) | I consulenti funzionali che lavorano con le app per la finanza e le operazioni devono capire come impostare un'organizzazione per il cliente. Questo percorso di apprendimento mostra tra le altre attività, come configurare persone giuridiche, implementare impostazioni di sicurezza, personalizzare l'interfaccia utente per gli utenti, progettare e creare app per dispositivi mobili e implementare integrazioni comuni. | Percorso di apprendimento online gratuito autonomo | 12 ore  |
+| [Configurazione e uso delle funzionalità di analisi e report nelle app per la finanza e le operazioni](/learn/paths/configure-analytics-reporting-finance-operations/) | I leader aziendali possono prendere decisioni importanti nella loro azienda se hanno una visione accurata dei dati finanziari e operativi sottostanti. Un utente aziendale può anche configurare e utilizzare lo strumento di creazione di report elettronici senza una singola riga di codice, per adottare nuovi requisiti normativi e generare documenti aziendali nel formato richiesto per scambiare elettronicamente informazioni con enti governativi, banche e altre parti. | Percorso di apprendimento online gratuito autonomo | 4 ore   |
 
 ## <a name="financial-management"></a>Gestione finanziaria<a name="financial-management"></a>
 

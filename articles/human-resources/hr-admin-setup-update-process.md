@@ -14,18 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b9ab27b443e5ec675ea03e13aa7be4ea84bfb45
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722243"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178445"
 ---
 # <a name="update-process"></a>Aggiornare un processo
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Si applica a**: Human Resources nell'infrastruttura autonoma_ 
 
+> [!NOTE]
+> A partire da luglio 2022, non sarà possibile eseguire il provisioning dei nuovi ambienti Human Resources nell'infrastruttura Human Resources autonoma, né potranno essere creati nuovi progetti Microsoft Dynamics Lifecycle Services (LCS) sull'infrastruttura stessa. I clienti potranno distribuire gli ambienti Human Resources nell'infrastruttura di finanza e operazioni. Per ulteriori informazioni, vedere [Provisioning di Human Resources nell'infrastruttura di finanza e operazioni](/hr-admin-setup-provision-fo.md).
 
+> [!IMPORTANT]
+> Il processo di aggiornamento e applicazione di hotfix nell'infrastruttura delle app per la finanza e le operazioni è diverso rispetto a quello per l'infrastruttura Human Resources autonoma. Per ulteriori informazioni su come eseguire il processo di aggiornamento, vedere [Processo per il passaggio all'ultimo aggiornamento di finanza e operazioni](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Per ulteriori informazioni sugli hotfix, vedere [Download degli aggiornamenti da Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 
 
 Microsoft Dynamics 365 Human Resources è un vero software come un servizio (SaaS, software as a service) che fornisce aggiornamenti di servizio continui e touchless. Questi aggiornamenti contengono modifiche all'applicazione e alla piattaforma che spesso generano miglioramenti fondamentali nel servizio, inclusi aggiornamenti normativi.
 
@@ -37,16 +41,14 @@ Gli aggiornamenti vengono rilasciati a cadenza regolare per tutti gli ambienti. 
 
 Gli aggiornamenti di Human Resources vengono applicati automaticamente a tutti gli ambienti. Human Resources fornisce due tipi di rilasci:
 
-- **Aggiornamenti del servizio**: aggiornamenti bisettimanali che includono correzioni di bug e nuove funzionalità. Gli aggiornamenti del servizio includono anche gli aggiornamenti applicabili della piattaforma quando vengono rilasciati. Per ulteriori informazioni sui rilasci della piattaforma, vedere [Novità o modifiche negli aggiornamenti della piattaforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Gli aggiornamenti bisettimanali prevedono un'implementazione globale in fasi tra le regioni. Per ulteriori informazioni sugli aggiornamenti bisettimanali, vedere [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md).
-
-    Tutti i datacenter supportati vengono aggiornati ogni due settimane, salvo diversa indicazione. Gli Stati Uniti, l'Australia, l'Europa, il Regno Unito, l'Asia e il Canada sono inclusi negli aggiornamenti bisettimanali. 
+- **Aggiornamenti del servizio**: aggiornamenti bisettimanali che includono correzioni di bug e nuove funzionalità. Gli aggiornamenti del servizio includono anche gli aggiornamenti applicabili della piattaforma quando vengono rilasciati. Per ulteriori informazioni sui rilasci della piattaforma, vedere [Novità o modifiche negli aggiornamenti della piattaforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Gli aggiornamenti prevedono un'implementazione globale in fasi tra le regioni. Per ulteriori informazioni sugli aggiornamenti, vedere [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Aggiornamenti della soluzione Dataverse**: questi aggiornamenti si verificano all'incirca ogni sei settimane, come necessario. Includono nuove entità e modifiche a entità esistenti in Dataverse. Questi aggiornamenti vengono rilasciati nelle stesse aree degli aggiornamenti bisettimanali e richiedono circa sei settimane per replicarsi in tutti i datacenter. Gli aggiornamenti della soluzione possono essere allineati o meno agli aggiornamenti del servizio bisettimanali.
 
 > [!NOTE]
 > Gli aggiornamenti della soluzione sono disponibili in tutti i datacenter una volta rilasciati. Se non si desidera attendere la replica automatica degli aggiornamenti, è possibile applicare manualmente questi aggiornamenti in qualsiasi datacenter di qualsiasi ambiente.
 
-Quando necessario, Human Resources fornisce anche i seguenti tipi di correzioni:
+Quando necessario, Human Resources fornisce i seguenti tipi di correzioni:
 
 - **Revisione (aggiornamento rapido)**: correzioni di bug che possono verificarsi con o indipendentemente da una versione di aggiornamento del servizio bisettimanale
 
@@ -83,11 +85,11 @@ La cadenza di rilascio bisettimanale riprenderà come al solito l'10 gennaio 202
 
 È possibile convalidare le funzionalità di anteprima in un ambiente sandbox prima di abilitarle nell'ambiente di produzione. Per ulteriori informazioni sull'abilitazione delle funzionalità, vedere [Panoramica della gestione funzionalità](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-Tutte le nuove funzionalità rimangono in anteprima per almeno 30 giorni e in genere per 30-60 giorni. Le principali funzionalità sono generalmente disponibili in ottobre e aprile di ogni anno successivo al periodo di anteprima. Non appena nuove funzioni sono presenti nell'area di lavoro Gestione funzionalità, è possibile attivarle. Alcune funzionalità possono essere attive per impostazione predefinita.
+Tutte le nuove funzionalità rimangono in anteprima per almeno 30 giorni e in genere per 30-60 giorni. Le principali funzionalità sono generalmente disponibili in ottobre e aprile di ogni anno successivo al periodo di anteprima. Non appena nuove funzioni sono presenti nell'area di lavoro **Gestione funzionalità**, è possibile attivarle. Alcune funzionalità possono essere attive per impostazione predefinita.
 
 Talvolta, una funzionalità integrale viene attivata per impostazione predefinita e non può essere disattivata, ad esempio l'area di lavoro Gestione funzionalità.
 
-Una volta che una funzionalità è generalmente disponibile, può essere attivata o disattivata negli ambienti di produzione. L'area di lavoro Gestione funzionalità indica quando una funzionalità di anteprima diventa obbligatoria. Questa data è in genere il 1° ottobre o il 1° aprile in base ai piani di rilascio semestrali. Non è possibile disattivare le funzionalità obbligatorie. Finché non diventa obbligatoria, è possibile attivare e disattivare una funzionalità in tutti gli ambienti.
+Una volta che una funzionalità è generalmente disponibile, può essere attivata o disattivata negli ambienti di produzione. L'area di lavoro **Gestione funzionalità** indica quando una funzionalità di anteprima diventa obbligatoria. Questa data è in genere il 1° ottobre o il 1° aprile in base ai piani di rilascio semestrali. Non è possibile disattivare le funzionalità obbligatorie. Finché non diventa obbligatoria, è possibile attivare e disattivare una funzionalità in tutti gli ambienti.
 
 Consigliamo vivamente di visualizzare in anteprima le funzionalità in un ambiente sandbox o di prova. È meglio creare una copia dell'ambiente di produzione o del database corrente in un ambiente sandbox in modo da poter ottenere l'esperienza completa delle nuove funzionalità con i propri dati.
 

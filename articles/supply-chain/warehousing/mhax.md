@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: c4b0d991d320d5a679d0ed60880c56a6cb849e2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907089"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068361"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interfaccia attrezzatura movimentazione materiali (MHAX)
 
 [!include [banner](../../includes/banner.md)]
 
-È possibile usare l'*interfaccia attrezzatura movimentazione materiali* (MHAX) per connettere i sistemi di movimentazione materiali (MH) fisici esterni a un magazzino gestito mediante la gestione avanzata del magazzino (WMS) in Microsoft Dynamics 365 Supply Chain Management. L'interfaccia tra i sistemi WMS e MH è costituita da due code: una per gli eventi in uscita (da WMS a MH) e una per gli eventi in entrata (da MH a WMS). Il sistema WMS genera eventi in uscita in base alle righe di lavoro che vengono create durante i vari processi di creazione ed esecuzione del lavoro. Il sistema MH quindi esegue regolarmente il polling di nuovi eventi nel sistema WMS ed elabora le risposte. Dopo che il sistema MH ha terminato la gestione degli eventi in conformità con le istruzioni di lavoro, invia eventi in entrata, come il completamento della riga di lavoro e il prelievo in difetto.
+È possibile usare l'*interfaccia attrezzatura movimentazione materiali* (MHAX) per connettere i sistemi di movimentazione materiali (MH) fisici esterni a un magazzino gestito mediante i processi di gestione del magazzino (WMS) in Microsoft Dynamics 365 Supply Chain Management. L'interfaccia tra i sistemi WMS e MH è costituita da due code: una per gli eventi in uscita (da WMS a MH) e una per gli eventi in entrata (da MH a WMS). Il sistema WMS genera eventi in uscita in base alle righe di lavoro che vengono create durante i vari processi di creazione ed esecuzione del lavoro. Il sistema MH quindi esegue regolarmente il polling di nuovi eventi nel sistema WMS ed elabora le risposte. Dopo che il sistema MH ha terminato la gestione degli eventi in conformità con le istruzioni di lavoro, invia eventi in entrata, come il completamento della riga di lavoro e il prelievo in difetto.
 
 L'illustrazione seguente mostra i vari elementi e l'ordine in cui si verificano i processi quando si utilizza l'integrazione MHAX.
 

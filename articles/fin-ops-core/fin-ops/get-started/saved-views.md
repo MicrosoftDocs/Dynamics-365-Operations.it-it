@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 1218497bbb112c9a9ebeaa4cabdcb9314c604a7f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845415"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125152"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -215,7 +215,7 @@ Per un elenco di problemi noti con le visualizzazioni salvate, vedere [Creare mo
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Come si abilitano le visualizzazioni salvate nel proprio ambiente?
 
 > [!NOTE]
-> Nota: la funzionalità **Visualizzazione salvate** richiede il sistema di personalizzazione in Finanza e operazioni per essere abilitata. Se la personalizzazione è disattivata per l'intero ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura seguente. 
+> Nota: la funzionalità **Visualizzazione salvate** richiede il sistema di personalizzazione nelle app per la finanza e le operazioni per essere abilitata. Se la personalizzazione è disattivata per l'intero ambiente, le visualizzazioni verranno disabilitate anche se si esegue la procedura seguente. 
 
 Puoi attivare e disattivare la funzionalità **Visualizzazioni salvate** tramite la gestione delle funzionalità in qualsiasi ambiente. Dopo l'attivazione, le visualizzazioni salvate verranno abilitate in tutte le sessioni utente successive.
 
@@ -255,3 +255,4 @@ Se si pubblica una vista su una specifica entità legale, ma non si pubblica que
 - **Versione 10.0.21 o successiva:** Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, il selettore di viste mostrerà sempre e solo la vista per le entità legali specificate. Questo comportamento si verifica perché la caratteristica permette alle viste (incluse le viste personali) di essere collegate a specifiche entità legali.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

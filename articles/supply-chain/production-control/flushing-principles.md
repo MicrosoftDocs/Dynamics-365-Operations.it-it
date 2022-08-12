@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 953a3bfec70235524067a47b8764f6dbb40d3c7b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849302"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065556"
 ---
 # <a name="flushing-principles"></a>Principi di registrazione del consumo di materiali
 
@@ -50,9 +50,9 @@ I principi di registrazione del consumo di materiali sono configurati in una ger
 ## <a name="description-of-the-flushing-principles"></a>Descrizione dei principi di registrazione del consumo di materiali
 
 ### <a name="manual"></a>Manuale
-Il principio di registrazione del consumo di materiali manuale indica che la registrazione del consumo di materiali è un'operazione manuale. Questo principio è viene applicato se, ad esempio, si desidera poter tenere traccia del tempo e conteggiare la quantità di numeri batch consumati o di numeri di serie, ai fini della tracciabilità. Il consumo manuale viene registrato in un giornale di registrazione distinte di prelievo produzione. Per gli articoli abilitati per i processi di magazzino avanzati, è possibile applicare un flusso gestibile manualmente.
+Il principio di registrazione del consumo di materiali manuale indica che la registrazione del consumo di materiali è un'operazione manuale. Questo principio è viene applicato se, ad esempio, si desidera poter tenere traccia del tempo e conteggiare la quantità di numeri batch consumati o di numeri di serie, ai fini della tracciabilità. Il consumo manuale viene registrato in un giornale di registrazione distinte di prelievo produzione. Per gli articoli abilitati per i processi di gestione del magazzino (WMS), è possibile applicare un flusso gestibile manualmente.
 
-### <a name="start"></a>Avvio
+### <a name="start"></a>Inizio
 Il principio di registrazione del consumo di materiali Inizio indica che il materiale verrà consumato automaticamente quando viene avviato l'ordine di produzione. La quantità di materiale che viene consumato è proporzionale alla quantità iniziata. Quando il principio di registrazione del consumo di materiali Inizio viene utilizzato insieme al sistema di esecuzione produzione, può essere utilizzato anche per registrare i materiali quando viene avviata un'operazione o un processo di lavorazione. Questo principio è importante se, ad esempio, lo scostamento nel consumo è ridotto, i materiali sono di scarso valore, non vi sono requisiti di tracciabilità, oppure le operazioni devono essere svolte in poco tempo. 
 
 ### <a name="finish"></a>Fine

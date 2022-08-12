@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 8e1444aa311bb2dc74705a3791e58c3187ecd8ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 19a1fd53f19575a16ee8d8b7391c30f0cacf26a8
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876717"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111458"
 ---
 # <a name="note-integration"></a>Integrazione di note
 
@@ -30,7 +30,7 @@ Le informazioni sui clienti possono essere classificate nei seguenti modi:
 + **Informazioni utilizzabili per un utente Dynamics 365** - Ad esempio, un cliente che acquista un'unità Surface inserisce istruzioni speciali con cui richiede una confezione regalo per il dispositivo prima della consegna. Queste istruzioni sono informazioni utilizzabili che devono essere gestite dal dipendente Contoso responsabile della confezione regalo.
 + **Informazioni non utilizzabili** - Ad esempio, un cliente visita il punto vendita Contoso e, durante la conversazione con un addetto del punto vendita, esprime interesse per i giochi e gli accessori per giochi *Halo*. L'addetto del punto vendita prende nota di queste informazioni. Il motore dei suggerimenti sui prodotti le utilizza quindi per fornire suggerimenti al cliente.
 
-In genere, le informazioni utilizzabili vengono acquisite come *attività* nelle app Aggiorna data posticipo come data fabbisogno e nelle app di interazione con i clienti. Le informazioni non utilizzabili vengono acquisite come *note* nelle app Aggiorna data posticipo come data fabbisogno e come *annotazioni* nelle app di interazione con i clienti.
+In genere, le informazioni utilizzabili vengono acquisite come *attività* nelle app per la finanza e le operazioni e nelle app di interazione con i clienti. Le informazioni non utilizzabili vengono acquisite come *note* nelle app per la finanza e le operazioni e come *annotazioni* nelle app di interazione con i clienti.
 
 > [!TIP]
 > Sebbene le note siano destinate alle informazioni non utilizzabili, le app non ne impediranno l'utilizzo per archiviare e gestire informazioni utilizzabili se si intende farlo.
@@ -39,7 +39,7 @@ Microsoft sta attualmente rilasciando funzionalità per l'integrazione delle not
 
 ## <a name="create-a-note-in-a-customer-engagement-app"></a>Creare una nota in un'app di interazione con i clienti
 
-Per creare una nota in un'app di interazione con i clienti e quindi sincronizzarla con un'app per finanza e operazioni, procedere come segue.
+Per creare una nota in un'app di interazione con i clienti e quindi sincronizzarla con un'app per la finanza e le operazioni, procedere come segue.
 
 1. Nell'app di interazione con i clienti, aprire il record account per un cliente.
 2. Nel riquadro **Sequenza temporale**, selezionare il segno più (**+**), quindi selezionare **Nota** per creare una nota.
@@ -54,7 +54,7 @@ Per creare una nota in un'app di interazione con i clienti e quindi sincronizzar
 
     ![Nuova nota nella sequenza temporale del cliente.](media/notes-ce-3.png)
 
-4. Accedere all'app per finanza e operazioni e aprire lo stesso record cliente. Si noti che il pulsante **Allegati** (simbolo della graffetta) nell'angolo in alto a destra indica che il record ha un allegato.
+4. Accedere all'app per la finanza e le operazioni e aprire lo stesso record cliente. Si noti che il pulsante **Allegati** (simbolo della graffetta) nell'angolo in alto a destra indica che il record ha un allegato.
 
     ![Notifica su un allegato.](media/notes-ce-4.png)
 
@@ -62,17 +62,17 @@ Per creare una nota in un'app di interazione con i clienti e quindi sincronizzar
 
     ![Nota nell'app di interazione con i clienti.](media/notes-ce-5.png)
 
-Tutti gli aggiornamenti della nota vengono sincronizzati tra l'app per finanza e operazioni e l'app di interazione con i clienti.
+Tutti gli aggiornamenti della nota vengono sincronizzati tra l'app per la finanza e le operazioni e l'app di interazione con i clienti.
 
-## <a name="create-a-note-in-a-finance-and-operations-app"></a>Creare una nota in un'app per finanza e operazioni
+## <a name="create-a-note-in-a-finance-and-operations-app"></a>Creare una nota in un'app per la finanza e le operazioni
 
-È anche possibile creare una nota in un'app per finanza e operazioni, che verrà sincronizzata con un'app di interazione con i clienti.
+È anche possibile creare una nota in un'app per la finanza e le operazioni, che verrà sincronizzata con un'app di interazione con i clienti.
 
-Per creare una nota in un'app per finanza e operazioni e quindi sincronizzarla con un'app Customer Engagement, procedere come segue.
+Per creare una nota in un'app per la finanza e le operazioni e quindi sincronizzarla con un'app di interazione con i clienti, procedere come segue.
 
-1. Nell'app per finanza e operazioni, nella pagina **Allegati**, seleziona **Nuovo** \> **Nota**.
+1. Nell'app per la finanza e le operazioni, nella pagina **Allegati**, selezionare **Nuovo** \> **Nota**.
 
-    ![Creazione di una nota nell'app per finanza e operazioni.](media/notes-fo-1.png)
+    ![Creazione di una nota nell'app per la finanza e le operazioni.](media/notes-fo-1.png)
 
 2. Immettere un titolo e una breve serie di istruzioni, quindi selezionare **Salva**.
 
@@ -84,17 +84,17 @@ Per creare una nota in un'app per finanza e operazioni e quindi sincronizzarla c
 
 È possibile classificare una nota come interna o esterna.
 
-- Nell'app per finanza e operazioni, nella pagina **Allegati**, aprire la nota e nel campo **Restrizione**, selezionare **Interna** o **Esterna**.
+- Nell'app per la finanza e le operazioni, nella pagina **Allegati**, aprire la nota e nel campo **Restrizione**, selezionare **Interna** o **Esterna**.
 
     ![Campo Restrizione.](media/notes-fo-4.png)
 
 È inoltre possibile creare un URL.
 
-1. Nell'app per finanza e operazioni, nella pagina **Allegati**, seleziona **Nuovo** \> **URL**.
+1. Nell'app per la finanza e le operazioni, nella pagina **Allegati**, selezionare **Nuovo** \> **URL**.
 2. Immettere un titolo e un URL.
 3. Nel campo **Restrizione**, selezionare **Interna** o **Esterna**.
 
-    ![Creazione di un URL nell'app per finanza e operazioni.](media/notes-fo-5.png)
+    ![Creazione di un URL nell'app per la finanza e le operazioni.](media/notes-fo-5.png)
 
 4. Seleziona **Salva**.
 
@@ -109,7 +109,7 @@ Per creare una nota in un'app per finanza e operazioni e quindi sincronizzarla c
 
 L'integrazione delle note include una raccolta di mappe della tabella che funzionano in combinazione durante l'interazione con i dati, come illustrato nella seguente tabella.
 
-| App Finanza e operazioni | App di interazione con i clienti | Description |
+| App per la finanza e le operazioni | App di interazione con i clienti | Description |
 |----------------------------|-------------------------|-------------|
 | [Allegati cliente](mapping-reference.md#230) | Annotazioni | Aziende che utilizzano testo normale e URL per acquisire informazioni specifiche sui clienti (per le organizzazioni e per le persone). |
 | [Allegati documento fornitore](mapping-reference.md#231) | Annotazioni | Aziende che utilizzano testo normale e URL per acquisire informazioni specifiche sui fornitori (per le organizzazioni e per le persone). |
@@ -121,3 +121,4 @@ L'integrazione delle note include una raccolta di mappe della tabella che funzio
 Una volta installata la soluzione per le note, non è possibile disinstallarla. 
 
 Per ulteriori informazioni, vedere [Riferimento per il mapping a doppia scrittura](mapping-reference.md).
+

@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dceb8e6300d19eb9253e88debbaaef0b6987420
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 075e74845eb8e0363cdb706f1f3af0dc9cfddfaa
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893093"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069184"
 ---
 # <a name="replenishment-overview"></a>Panoramica del rifornimento
 
@@ -70,8 +70,8 @@ Anziché sommare la domanda alla fine di un processo di allocazione ed effettuar
 
 |      Prerequisito       |                                                                                                                                Descrizione                                                                                                                                 |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|          Articolo           |                                                                                                        Gli articoli devono essere abilitati per i processi di gestione magazzino.                                                                                                        |
-|        Magazzino        | Il magazzino deve essere abilitato per i processi di gestione magazzino. Per abilitare un magazzino per i processi di gestione magazzino, nella pagina <strong>Magazzino</strong> selezionare il magazzino, quindi selezionare l'opzione <strong>Usa processi di gestione magazzino</strong>. |
+|          Articolo           |                                                                                                        Gli articoli devono essere abilitati per i processi di gestione del magazzino (WMS).                                                                                                        |
+|        Magazzino        | Il magazzino deve essere abilitato per i processi di gestione del magazzino (WMS). Per abilitare un magazzino per WMS, nella pagina <strong>Magazzino</strong> selezionare il magazzino, quindi selezionare l'opzione <strong>Usa processi di gestione del magazzino</strong>. |
 | Modelli rifornimento |                                                                   Almeno un modello di rifornimento deve essere impostato per il rifornimento basato su quantità minima e massima, rifornimento basato sulla domanda ondata o rifornimento basato sulla domanda di carico.                                                                   |
 |        Percorsi        |                                                                                                       Le ubicazioni devono essere create e connesse a un profilo ubicazione.                                                                                                       |
 |    Profili ubicazione    |                                                                                                        I profili ubicazione sono necessari per creare le ubicazioni.                                                                                                        |

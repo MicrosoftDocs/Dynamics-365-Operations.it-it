@@ -1,6 +1,6 @@
 ---
 title: Gestione qualità per i processi di magazzino
-description: Questo articolo fornisce informazioni sulla funzionalità Gestione qualità per i processi di magazzino. Questa funzionalità estende le capacità di gestione della qualità e consente agli utenti di integrare i controlli di campionamento degli articoli nel processo di ricezione del magazzino utilizzando la gestione avanzata del magazzino.
+description: Questo articolo fornisce informazioni sulla funzionalità Gestione qualità per i processi di magazzino. Questa funzionalità estende le capacità di gestione della qualità e consente agli utenti di integrare i controlli di campionamento degli articoli nel processo di ricezione del magazzino utilizzando i processi di gestione del magazzino (WMS).
 author: yufeihuang
 ms.date: 03/23/2021
 ms.topic: article
@@ -12,18 +12,18 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 7f806b58c5e956e4f26158e8ea5c90a559296655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 13c9bf522ededb5896c5f8462bfe123e9a9edb2c
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857839"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069244"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestione qualità per i processi di magazzino
 
 [!include [banner](../includes/banner.md)]
 
-La funzione _Gestione qualità per i processi di magazzino_ consente di integrare i controlli di campionamento degli articoli nel processo di ricezione del magazzino utilizzando la gestione avanzata del magazzino. Il lavoro di magazzino può essere generato automaticamente per spostare le scorte nell'ubicazione di controllo qualità, in base a una percentuale o una quantità fissa, oppure in base a ogni *n* targhe. Dopo che un ordine di controllo qualità è stato completato, il lavoro può essere generato automaticamente per spostare le scorte nella posizione successiva del processo, a seconda dei risultati di qualità.
+La funzionalità _Gestione qualità per i processi di magazzino_ consente di integrare i controlli di campionamento degli articoli nel processo di ricezione del magazzino utilizzando i processi di gestione del magazzino (WMS). Il lavoro di magazzino può essere generato automaticamente per spostare le scorte nell'ubicazione di controllo qualità, in base a una percentuale o una quantità fissa, oppure in base a ogni *n* targhe. Dopo che un ordine di controllo qualità è stato completato, il lavoro può essere generato automaticamente per spostare le scorte nella posizione successiva del processo, a seconda dei risultati di qualità.
 
 La funzionalità _Gestione qualità per i processi di magazzino_ estende le funzionalità della funzionalità di gestione della qualità di base. Offre la possibilità di creare ordini di controllo qualità per le scorte che vengono inviate all'ubicazione di controllo di qualità, sebbene gli ordini di controllo qualità non siano sempre richiesti. Pertanto, consente un semplice processo di controllo della qualità basato sul lavoro di magazzino.
 
@@ -43,7 +43,7 @@ La funzione _Gestione qualità per i processi di magazzino_ genera automaticamen
 
 ## <a name="quality-management-and-the-quality-management-for-warehouse-processes-feature"></a>Gestione della qualità e la funzione Gestione qualità per i processi di magazzino
 
-Quando la funzione _Gestione qualità per i processi di magazzino_ è attivata, modifica l'impostazione delle principali entità di gestione del magazzino e di gestione della qualità. La seguente illustrazione fornisce una panoramica delle entità che abilitano gli ordini di controllo qualità per i processi di magazzino. Il testo tra parentesi indica le azioni suggerite quando è stata applicata la gestione della qualità prima che la funzione _Gestione qualità per i processi di gestione magazzino_ sia stata attivata.
+Quando la funzione _Gestione qualità per i processi di magazzino_ è attivata, modifica l'impostazione delle principali entità di gestione del magazzino e di gestione della qualità. La seguente illustrazione fornisce una panoramica delle entità che abilitano gli ordini di controllo qualità per i processi di magazzino. Il testo tra parentesi indica le azioni suggerite quando è stata applicata la gestione della qualità prima che la funzione _Gestione qualità per i processi di gestione del magazzino_ sia stata attivata.
 
 ![Processi di gestione qualità.](media/quality-management-entity-diagram.png "Entità di gestione qualità")
 
@@ -77,7 +77,7 @@ Prima che la funzione _Gestione qualità per i processi di magazzino_ possa esse
 
 1. Selezionare **Gestione magazzino \> Impostazioni \> Magazzino \> Magazzini**.
 1. Selezionare un magazzino per abilitare la gestione della qualità.
-1. Nella scheda dettaglio **Magazzino**, impostare l'opzione **Abilita ordine di controllo qualità per i processi di magazzino** su _sì_. (Nota che questa opzione può essere impostata su _Sì_ solo per i magazzini che utilizzano i processi di gestione del magazzino).
+1. Nella scheda dettaglio **Magazzino**, impostare l'opzione **Abilita ordine di controllo qualità per i processi di magazzino** su _sì_. (Nota che questa opzione può essere impostata su _Sì_ solo per i magazzini che utilizzano i processi di gestione del magazzino (WMS)).
 
 Quando l'opzione **Abilita ordine di controllo qualità per i processi di magazzino** è impostata su _Sì_, l'impostazione dell'associazione di controllo qualità controlla se la funzione _Gestione qualità per i processi di magazzino_ viene effettivamente applicata per il magazzino selezionato. È possibile modificare l'impostazione dell'opzione su _No_ in ogni momento. In tal caso, la funzione non verrà più applicata al magazzino, indipendentemente dall'impostazione dell'associazione di controllo qualità.
 
@@ -97,7 +97,7 @@ Ogni [record di associazione di controllo qualità](enable-quality-management.md
     - **Tutti** – Disattiva la funzione _Gestione qualità per i processi di magazzino_ . Seleziona questo valore per tutti i tipi di riferimento tranne *Acquisto* e *Produzione*.
 
 > [!NOTE]
-> La funzione _Gestione qualità per i processi di magazzino_ ha effetto solo se l'articolo nella riga del documento di origine utilizza processi avanzati di gestione del magazzino e se l'opzione **Abilita ordine di controllo qualità per i processi di magazzino** è impostata su _Sì_ per il magazzino sulla riga del documento di origine.
+> La funzione _Gestione qualità per i processi di magazzino_ ha effetto solo se l'articolo nella riga del documento di origine utilizza processi di gestione del magazzino (WMS) e se l'opzione **Abilita ordine di controllo qualità per i processi di magazzino** è impostata su _Sì_ per il magazzino sulla riga del documento di origine.
 
 Poiché ogni articolo viene registrato (o dichiarato come finito), il sistema determina quali associazioni di controllo qualità si applicano ad esso.
 
@@ -108,7 +108,7 @@ Quando la funzione _Gestione qualità per i processi di magazzino_ è attivata, 
 | Gruppo 1 | Per ogni associazione di controllo qualità, controllare i valori **Tipo di riferimento**, **Tipo di evento** e **Account esecuzione** rispetto all'elemento. Se esiste una corrispondenza con la riga del documento di origine, passare al gruppo 2. |
 | Gruppo 2 | Per ogni associazione di controllo qualità, controllare il valore **Codice articolo** (_Tabella_, _Gruppo_ o _Tutti_) rispetto all'elemento. _Tabella_ è più specifico di _Gruppo_ e _Gruppo_ è più specifico di _Tutti_. Se esiste una corrispondenza per _Tabella_ (un elemento specifico), passare al gruppo 3. Se non esiste una corrispondenza per _Tabella_, cercare una corrispondenza per _Gruppo_. Se non esiste una corrispondenza per _Gruppo_, applicare _Tutti_. Se c'è una corrispondenza, passare al gruppo 3. |
 | Gruppo 3 | Per ogni associazione di controllo qualità, controllare i valori **Codice conto** e **Codice risorsa** rispetto all'elemento. La logica applicata è simile alla logica applicata per il valore **Codice articolo**. |
-| Gruppo 4 | Per ogni associazione di controllo qualità, controllare il valore **Tipo di magazzino applicabile** (_Gestione della qualità solo per i processi di magazzino_ o _Tutti_) rispetto all'elemento. Se l'opzione **Abilita ordine di controllo qualità per i processi di magazzino** è impostata su _Sì_ per il magazzino nel documento di origine e l'articolo nella riga del documento di origine è impostato su _Utilizzare i processi di gestione del magazzino_, per entrambe le associazioni per le quali esiste una corrispondenza _Gestione della qualità solo per i processi di magazzino_ e associazioni per le quali esiste una corrispondenza, _Tutti_ sarà applicabile in parallelo, se esistono entrambi. Se l'opzione **Gestione qualità per i processi di magazzino** è impostata su _No_ per il magazzino sul documento di origine e l'articolo nella riga del documento di origine è impostato su _Usa processi di gestione magazzino_, sarà applicabile solo la gestione della qualità. |
+| Gruppo 4 | Per ogni associazione di controllo qualità, controllare il valore **Tipo di magazzino applicabile** (_Gestione della qualità solo per i processi di magazzino_ o _Tutti_) rispetto all'elemento. Se l'opzione **Abilita ordine di controllo qualità per i processi di magazzino** è impostata su _Sì_ per il magazzino nel documento di origine e l'articolo nella riga del documento di origine è impostato su _Utilizzare i processi di gestione del magazzino_, per entrambe le associazioni per le quali esiste una corrispondenza _Gestione della qualità solo per i processi di magazzino_ e associazioni per le quali esiste una corrispondenza, _Tutti_ sarà applicabile in parallelo, se esistono entrambi. Se l'opzione **Gestione qualità per i processi di magazzino** è impostata su _No_ per il magazzino sul documento di origine e l'articolo nella riga del documento di origine è impostato su _Usa processi di gestione del magazzino_, sarà applicabile solo la gestione della qualità. |
 
 Ad esempio, dopo aver definito un magazzino in cui l'opzione **Abilita ordine di controllo qualità per i processi di magazzino** è impostata su _Sì_ e si hanno due associazioni di controllo qualità definite per il tipo di riferimento *Acquisti*: uno per tutti gli articoli e uno per il tipo di evento *Registrazione*. L'unica differenza tra le due associazioni di controllo qualità è il valore **Tipo di magazzino applicabile**: è impostato su _Tutti_ per un'associazione di controllo qualità e _Gestione della qualità solo per i processi di magazzino_ per l'altro. In questo caso entrambe le associazioni di controllo qualità sono ugualmente specifiche ed entrambe saranno applicabili.
 

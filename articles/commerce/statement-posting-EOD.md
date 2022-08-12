@@ -9,22 +9,22 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: analpert
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: a7f25a7cc1e214b5c08013055126728b2ad10f3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 33b4f17cd46338b62bed96f0a285e7b9634cc87a
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886908"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067821"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Miglioramenti alla funzionalità di registrazione del rendiconto
 
 [!include [banner](includes/banner.md)]
 
-Questo articolo descrive il primo set di miglioramenti apportati alla funzionalità di registrazione dei rendiconti. Questi miglioramenti sono disponibili in Microsoft Dynamics 365 for Finance and Operations 7.3.2.
+Questo articolo descrive il primo set di miglioramenti apportati alla funzionalità di registrazione dei rendiconti. Questi miglioramenti sono disponibili in Microsoft Dynamics 365 Finance 7.3.2.
 
 ## <a name="activation"></a>Attivazione
 
-Per impostazione predefinita, durante la distribuzione di Finanza e operazioni 7.3.2, il programma è configurato per l'utilizzo della funzionalità di registrazione dei rendiconti legacy. Per attivare la funzionalità di registrazione dei rendiconti migliorata, è necessario attivare la chiave di configurazione relativa.
+Per impostazione predefinita, durante la distribuzione di finanza e operazioni 7.3.2, il programma è configurato per l'utilizzo della funzionalità di registrazione dei rendiconti legacy. Per attivare la funzionalità di registrazione dei rendiconti migliorata, è necessario attivare la chiave di configurazione relativa.
 
 - Accedere a **Amministrazione sistema** \> **Impostazione** \> **Configurazione licenza**, quindi nel nodo **Retail e Commerce**, deselezionare la casella di controllo **Rendiconti (legacy)** e selezionare la casella di controllo **Rendiconti**.
 
@@ -190,3 +190,4 @@ Altri miglioramenti back-end visibili agli utenti sono stati apportati alla funz
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

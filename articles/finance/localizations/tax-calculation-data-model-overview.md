@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a711eb73c171cd099947b44e2376cad2455059f0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79296a452e146bb17b197e9ca40db016664df6f9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859697"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068850"
 ---
 # <a name="tax-calculation-data-model"></a>Modello di dati per il calcolo delle tasse
 
 Questo articolo fornisce informazioni su come i valori dei campi nel modello di dati delle tasse sono determinati nelle transazioni di calcolo delle tasse.
 
-Il *modello di dati fiscali* è costituito dai campi necessari per il calcolo delle imposte. Microsoft fornisce il *modello di dati per il calcolo delle imposte*, che include i campi di intestazione e i campi di riga dei documenti di transazione nelle app Finance and Operations. I campi definiti nel modello dati di calcolo delle imposte sono le colonne disponibili delle tabelle delle regole di applicabilità nella configurazione della configurazione della funzione di calcolo delle imposte.
+Il *modello di dati fiscali* è costituito dai campi necessari per il calcolo delle imposte. Microsoft fornisce il *modello di dati per il calcolo delle imposte*, che include i campi di intestazione e i campi di riga dei documenti di transazione nelle app per la finanza e le operazioni. I campi definiti nel modello dati di calcolo delle imposte sono le colonne disponibili delle tabelle delle regole di applicabilità nella configurazione della configurazione della funzione di calcolo delle imposte.
 
 > [!NOTE] 
 > Alcuni nodi definiti nel modello di dati, come **ID record** e **ID tabella**, sono per scopi tecnici. Non sono colonne disponibili nella configurazione della funzione di calcolo delle imposte.
@@ -54,7 +54,7 @@ Seguire questi passaggi per visualizzare il modello di dati per il calcolo delle
 
     [![Gestisci colonne.](./media/tax-calculation-model-mapping-3.png)](./media/tax-calculation-model-mapping-3.png)
 
-Il modello di dati per il calcolo delle imposte è integrato con le app Finance and Operations. Durante ogni transazione correlata al calcolo delle imposte, i valori dei campi definiti nelle tabelle delle regole di applicabilità vengono raccolti e inviati al servizio di calcolo delle imposte per il calcolo. Nella versione 40.46, sono disponibili 57 modelli di dati predefiniti per i seguenti tipi di transazione: ordini fornitore, ordini cliente, ordini di trasferimento, richieste di acquisto, richieste di offerta e offerte di vendita.
+Il modello di dati per il calcolo delle imposte è integrato con le app per la finanza e le operazioni. Durante ogni transazione correlata al calcolo delle imposte, i valori dei campi definiti nelle tabelle delle regole di applicabilità vengono raccolti e inviati al servizio di calcolo delle imposte per il calcolo. Nella versione 40.46, sono disponibili 57 modelli di dati predefiniti per i seguenti tipi di transazione: ordini fornitore, ordini cliente, ordini di trasferimento, richieste di acquisto, richieste di offerta e offerte di vendita.
 
 ## <a name="version-updates-and-restrictions"></a>Restrizioni e aggiornamenti delle versioni
 
@@ -134,3 +134,4 @@ Ventisei modelli di dati vengono inclusi come campi nelle righe di una transazio
 | Unità                          | <ul><li>**Ordine cliente:** Unità</li><li>**Ordine fornitore:** Unità</li><li>**Ordine di trasferimento - Spedisci:** Unità</li><li>**Ordine di trasferimento - Ricevi:** Unità</li><li>**Richiesta di acquisto:** Unità</li><li>**Richiesta di offerta:** Unità</li><li>**Offerta di vendita :** Unità</li></ul> |
 | Numero variante                | <ul><li>**Ordine cliente:** Numero variante</li><li>**Ordine fornitore:** Numero variante</li><li>**Offerta di vendita:** Numero variante</li></ul> |
 | Magazzino                     | <ul><li>**Ordine cliente:**<ol><li>Riga &gt; Magazzino</li><li>Prodotto &gt; Magazzino</li></ol></li><li>**Ordine fornitore:**<ol><li>Riga &gt; Magazzino</li><li>Prodotto &gt; Magazzino</li></ol></li><li>**Ordine di trasferimento - Spedisci:** Dal magazzino</li><li>**Ordine di trasferimento - Ricevi:** Al magazzino</li><li>**Richiesta di acquisto:** Riga &gt; Magazzino</li><li>**Richiesta di offerta:** Riga &gt; Magazzino</li><li>**Offerta di vendita:**<ol><li>Riga &gt; Magazzino</li><li>Prodotto &gt; Magazzino</li></ol></li></ul> |
+

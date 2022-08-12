@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2022-05-03
 ms.dyn365.ops.version: 10.0.27
-ms.openlocfilehash: 467839b1d0ca6788a92ae60d46686374d0a58046
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a1d86e7e9cca159d0a820680714a08dc73c0688
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850846"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068395"
 ---
 # <a name="inventory-costing-faq"></a>Domande frequenti sulla determinazione costi inventario
 
@@ -110,13 +110,13 @@ Sì, se stai utilizzando un modello di determinazione dei costi periodico come F
 
 No, non puoi abilitare l'opzione **Inventario finanziario** per la dimensione **Ubicazione** nel gruppo di dimensioni di immagazzinamento. Se la tua organizzazione deve tenere traccia dei costi a un livello più dettagliato, valuta se puoi creare magazzini virtuali, quindi seleziona l'opzione **Inventario finanziario** per la dimensione **Magazzino** nel tuo gruppo di dimensioni di immagazzinamento.
 
-### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>Devo abilitare l'opzione Usa processi di gestione magazzino per il gruppo di dimensioni di immagazzinamento?
+### <a name="should-i-enable-the-use-warehouse-management-processes-option-for-the-storage-dimension-group"></a>Devo abilitare l'opzione Usa processi di gestione del magazzino per il gruppo di dimensioni di immagazzinamento?
 
-Se ritieni di voler utilizzare le funzionalità avanzate di gestione del magazzino in futuro, dovresti abilitare l'opzione **Usa processi di gestione magazzino**. Dopo aver salvato un gruppo di dimensioni di immagazzinamento, non è più possibile modificare l'impostazione dell'opzione **Usa processi di gestione magazzino** per questo. Se decidi di utilizzare i processi di gestione magazzino in un secondo momento, dovrai creare un nuovo magazzino in cui l'opzione è abilitata. Non esiste un processo automatizzato che puoi utilizzare per spostare tutto l'inventario da un magazzino a un altro magazzino o per copiare le configurazioni correlate in un nuovo magazzino.
+Se ritieni di voler utilizzare le funzionalità dei processi di gestione del magazzino (WMS) in futuro, dovresti abilitare l'opzione **Usa processi di gestione del magazzino**. Dopo aver salvato un gruppo di dimensioni di immagazzinamento, non è più possibile modificare l'impostazione dell'opzione **Usa processi di gestione del magazzino** per questo. Se decidi di utilizzare i processi di gestione del magazzino in un secondo momento, dovrai creare un nuovo magazzino in cui l'opzione è abilitata. Non esiste un processo automatizzato che puoi utilizzare per spostare tutto l'inventario da un magazzino a un altro magazzino o per copiare le configurazioni correlate in un nuovo magazzino.
 
-### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-advanced-warehousing"></a>Posso abilitare i processi Usa processi di gestione magazzino per il gruppo di dimensioni di immagazzinamento anche se non ho intenzione di utilizzare il magazzino avanzato?
+### <a name="can-i-enable-the-use-warehouse-management-processes-for-the-storage-dimension-group-even-if-im-not-planning-to-use-warehouse-management-processes-wms"></a>Posso abilitare i processi Usa processi di gestione del magazzino per il gruppo di dimensioni di immagazzinamento anche se non ho intenzione di utilizzare i processi di gestione del magazzino (WMS)?
 
-Sì, anche se non prevedi di utilizzare le funzionalità avanzate di gestione del magazzino, puoi abilitare l'opzione **Usa processi di gestione magazzino** per il gruppo di dimensioni di immagazzinamento. Per creare ed elaborare le transazioni, dovrai completare la configurazione minima, ad esempio gerarchie di prenotazione e gruppi di sequenza unità. Tuttavia, le impostazioni per il magazzino avanzato vengono generalmente ignorate quando si elaborano manualmente liste di prelievo, documenti di trasporto e entrate prodotti (ad esempio, nelle pagine dell'ordine cliente e dell'ordine fornitore).
+Sì, anche se non prevedi di utilizzare le funzionalità dei processi di gestione del magazzino (WMS), puoi abilitare l'opzione **Usa processi di gestione del magazzino** per il gruppo di dimensioni di immagazzinamento. Per creare ed elaborare le transazioni, dovrai completare la configurazione minima, ad esempio gerarchie di prenotazione e gruppi di sequenza unità. Tuttavia, le impostazioni per WMS vengono generalmente ignorate quando si elaborano manualmente liste di prelievo, documenti di trasporto e entrate prodotti (ad esempio, nelle pagine dell'ordine cliente e dell'ordine fornitore).
 
 ### <a name="when-should-i-enable-the-physical-inventory-option-for-a-storage-or-tracking-dimension-group"></a>Quando devo abilitare l'opzione Inventario fisico per un gruppo di dimensioni di immagazzinamento o tracciabilità?
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7d8e55fc1293e2b33b15f3862498363a6b23f1f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0449a13989bad45cf0456a2678e5724036d2af3d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883418"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070696"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automazione delle fatture per i documenti digitalizzati
 
@@ -58,7 +58,7 @@ Un pacchetto dati è l'unità di lavoro che deve essere inviata, in modo che le 
 
 L'allegato documento della fattura fornitore è una nuova entità dati che è introdotta come parte di questa funzionalità. L'entità intestazione della fattura fornitore è stata modificata in modo che supporti gli allegati. L'entità riga fattura fornitore non è stata modificata per questa funzionalità.
 
-Per informazioni dettagliate sui pacchetti di dati, vedi [Panoramica sulla gestione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Per informazioni su come creare pacchetti di dati utilizzando l'area di lavoro di gestione dei dati, vedi [Elaborare e consumare pacchetti di dati nella soluzione per le app Dynamics 365 Finance per la finanza e le operazioni](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
+Per informazioni dettagliate sui pacchetti di dati, vedi [Panoramica sulla gestione dei dati](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Per informazioni su come creare pacchetti di dati utilizzando l'area di lavoro di gestione dei dati, vedi [Elaborare e consumare pacchetti di dati nella soluzione per le app Dynamics 365 per la finanza e le operazioni](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Per generare rapidamente i dati di test che includono fatture e allegati, effettuare le seguenti operazioni.
 
@@ -86,7 +86,7 @@ Le fatture che vengono importate tramite il pacchetto dati possono essere associ
 
 ## <a name="exception-processing"></a>Elaborazione delle eccezioni
 
-Negli scenari in cui le fatture fornitore vengono immesse in Finance and Operations tramite l'integrazione, è necessario fornire al membro del team della contabilità fornitori un modo facile per elaborare le eccezioni o fatture non riuscite e creare fatture in sospeso relative alle fatture non riuscite. Questa elaborazione delle eccezioni per le fatture fornitori è ora parte di Finance and Operations.
+Negli scenari in cui le fatture fornitore vengono immesse in finanza e operazioni tramite l'integrazione, è necessario fornire al membro del team della contabilità fornitori un modo facile per elaborare le eccezioni o fatture non riuscite e creare fatture in sospeso relative alle fatture non riuscite. Questa elaborazione delle eccezioni per le fatture fornitori è ora parte della soluzione per la finanza e le operazioni.
 
 ### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Fatture fornitore che non sono riuscite a importare la pagina elenco
 
@@ -225,3 +225,4 @@ Per impostazione predefinita, se il ruolo utente fornisce i diritti di modifica 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi di doppia scrittura nelle app per la finanza e le operazioni
-description: Questo articolo fornisce informazioni che possono aiutarti a risolvere i problemi relativi al modulo doppia scrittura nelle app per finanza e operazioni.
+description: Questo articolo fornisce informazioni che possono aiutarti a risolvere i problemi relativi al modulo doppia scrittura nelle app per la finanza e le operazioni.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 36f7969eb0bdbc64ade14a5bb97b4b708486d226
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2743b99538b332af7cc6ad8d951eede562c14235
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864574"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111172"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Risoluzione dei problemi di doppia scrittura nelle app per la finanza e le operazioni
 
@@ -22,12 +22,12 @@ ms.locfileid: "8864574"
 
 
 
-In questo articolo vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi relativi al modulo **doppia scrittura** nelle app per finanza e operazioni.
+In questo articolo vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra le app per la finanza e le operazioni e Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi relativi al modulo **doppia scrittura** nelle app per la finanza e le operazioni.
 
 > [!IMPORTANT]
 > Alcuni problemi che questo articolo tratta potrebbero richiedere il ruolo di amministratore di sistema o le credenziali di amministratore del tenant Microsoft Azure Active Directory (Azure AD). La sezione per ogni problema spiega se sono richiesti ruolo o credenziali specifici.
 
-## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Non è possibile caricare il modulo doppia scrittura in un'app per finanza e operazioni
+## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Non è possibile caricare il modulo doppia scrittura in un'app per la finanza e le operazioni
 
 Se non si riesce ad aprire la pagina **Doppia scrittura** selezionando il riquadro **Doppia scrittura** nell'area di lavoro **Gestione dei dati**, il servizio di integrazione dei dati è probabilmente inattivo. Creare un ticket di supporto per richiedere il riavvio del servizio di integrazione dei dati.
 
@@ -49,7 +49,7 @@ Per risolvere il problema, accedere utilizzando una finestra InPrivate in Micros
 
 ## <a name="error-when-you-link-the-environment-for-dual-write-or-add-a-new-table-mapping"></a>Errore quando si collega l'ambiente per la doppia scrittura o si aggiunge un nuovo mapping della tabella
 
-**Ruolo richiesto per risolvere il problema:** amministratore di sistema sia nelle app per finanza e operazioni che in Dataverse.
+**Ruolo richiesto per risolvere il problema:** amministratore di sistema sia nelle app per la finanza e le operazioni che in Dataverse.
 
 È possibile che si verifichi il seguente errore durante il collegamento o la creazione di mappe:
 
@@ -59,7 +59,7 @@ Session ID: \<your session id\>
 Root activity ID: \<your root activity\> id
 ```
 
-Questo errore può verificarsi se non si dispone di autorizzazioni sufficienti per collegare la doppia scrittura o creare mappe. Questo errore può verificarsi anche se l'ambiente Dataverse è stato ripristinato senza scollegare la doppia scrittura. Qualsiasi utente con ruolo di amministratore di sistema nelle app per finanza e operazioni e Dataverse può collegare gli ambienti. Solo l'utente che imposta la connessione per la doppia scrittura può aggiungere nuove mappe della tabella. Dopo l'impostazione, qualsiasi utente con ruolo di amministratore di sistema può monitorare lo stato e modificare i mapping.
+Questo errore può verificarsi se non si dispone di autorizzazioni sufficienti per collegare la doppia scrittura o creare mappe. Questo errore può verificarsi anche se l'ambiente Dataverse è stato ripristinato senza scollegare la doppia scrittura. Qualsiasi utente con ruolo di amministratore di sistema nelle app per la finanza e le operazioni e Dataverse può collegare gli ambienti. Solo l'utente che imposta la connessione per la doppia scrittura può aggiungere nuove mappe della tabella. Dopo l'impostazione, qualsiasi utente con ruolo di amministratore di sistema può monitorare lo stato e modificare i mapping.
 
 ## <a name="error-when-you-stop-the-table-mapping"></a>Errore quando si interrompe il mapping della tabella
 
@@ -77,7 +77,7 @@ L'abilitazione dell'elaborazione parallela può ridurre il tempo necessario per 
 
 Per abilitare l'elaborazione parallela nelle app per la finanza e le operazioni completa i seguenti passaggi.
 
-1. Accedi all'ambiente delle app per la finanza e le operazioni.
+1. Accedi all'ambiente di finanza e operazioni.
 2. Vai a **Gestione dati > Parametri framework**.
 3. Seleziona **Impostazioni entità** e seleziona **Configura parametri di esecuzione entità**.
 4. Aggiungi i parametri per l'elaborazione parallela:
@@ -97,7 +97,7 @@ Per abilitare l'elaborazione parallela nelle app per la finanza e le operazioni 
 Quando si tenta di impostare lo stato di un mapping su **In esecuzione** potrebbe essere visualizzato questo errore. La correzione dipende dalla causa dell'errore:
 
 + Se il mapping prevede mapping dipendenti, assicurarsi di abilitare i mapping dipendenti di questo mapping della tabella.
-+ Nel mapping potrebbero mancare le colonne di origine o destinazione. Se manca una colonna nell'app per finanza e operazioni, seguire i passaggi nella sezione [Problema delle colonne di tabella mancanti sulle mappe](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se manca una colonna in Dataverse, fare clic sul pulsante **Aggiorna tabelle** sul mapping in modo che le colonne vengano automaticamente compilati nuovamente nel mapping.
++ Nel mapping potrebbero mancare le colonne di origine o destinazione. Se manca una colonna nell'app per la finanza e le operazioni, segui i passaggi nella sezione [Problema delle colonne di tabella mancanti sulle mappe](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se manca una colonna in Dataverse, fare clic sul pulsante **Aggiorna tabelle** sul mapping in modo che le colonne vengano automaticamente compilati nuovamente nel mapping.
 
 ### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Errore di mancata corrispondenza della versione e aggiornamento delle soluzioni a doppia scrittura
 
@@ -112,3 +112,4 @@ Quando si tenta di impostare lo stato di un mapping su **In esecuzione** potrebb
 Per risolvere i problemi, aggiorna le soluzioni a doppia scrittura in Dataverse. Assicurati di eseguire l'aggiornamento alla soluzione più recente che corrisponda alla versione della soluzione richiesta.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

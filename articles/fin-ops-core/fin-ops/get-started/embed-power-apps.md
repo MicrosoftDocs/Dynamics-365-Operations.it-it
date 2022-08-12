@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: fb81aa058e749df346ee87bbe83427b20b234b72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7dc45e56c5fa616c288ebb4b919f039b7358794
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898400"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123656"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Incorporare app canvas da Power Apps
 
@@ -27,7 +27,7 @@ ms.locfileid: "8898400"
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
-Microsoft Power Apps è un servizio che consente agli sviluppatori che agli utenti non tecnici di creare app aziendali personalizzate per dispositivi mobili, tablet e il Web senza dover scrivere codice. Integrazione del supporto per le app per finanza e operazioni con Power Apps. Le app canvas sviluppate da te, dall'organizzazione o dall'ecosistema più ampio possono essere incorporate nelle app per finanza e operazioni per aumentare la funzionalità del prodotto. Ad esempio, è possibile creare un'app canvas da Power Apps che completi l'app per finanza e operazioni con informazioni recuperate da un altro sistema.
+Microsoft Power Apps è un servizio che consente agli sviluppatori che agli utenti non tecnici di creare app aziendali personalizzate per dispositivi mobili, tablet e il Web senza dover scrivere codice. Integrazione del supporto per le app per la finanza e le operazioni con Power Apps. Le app canvas sviluppate da te, dall'organizzazione o dall'ecosistema più ampio possono essere incorporate nelle app per la finanza e le operazioni per aumentare la funzionalità del prodotto. Ad esempio, è possibile creare un'app canvas da Power Apps che completi l'app per la finanza e le operazioni con informazioni recuperate da un altro sistema.
 
 Per ulteriori informazioni sull'incorporamento di app canvas, guardare il breve video su [Come incorporare app canvas](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
@@ -35,7 +35,7 @@ Per ulteriori informazioni sull'incorporamento di app canvas, guardare il breve 
 
 Prima di incorporare un'app canvas da Power Apps nel client, è necessario dapprima trovare o creare un'app con gli oggetti visivi e/o le funzionalità desiderati. Questo articolo non include una descrizione dettagliata del processo per la creazione di app. Se non conosci Power Apps, vedi la [documentazione di Power Apps](/powerapps/).
 
-Esistono tre modi per incorporare un'app canvas in un'app per finanza e operazioni. Puoi utilizzare l'approccio che meglio si adatta al tuo scenario. 
+Esistono tre modi per incorporare un'app canvas in un'app per la finanza e le operazioni. Puoi utilizzare l'approccio che meglio si adatta al tuo scenario. 
 
 - Incorpora l'app canvas nel pulsante **Power Apps** nel riquadro Azioni standard di una pagina. Le app che aggiungi in questo modo vengono visualizzate come elementi nel pulsante del menu **Power Apps** e le app si aprono nei riquadri laterali. 
 - Incorpora l'app canvas direttamente in una pagina esistente come nuova scheda (scheda pivot, Scheda dettaglio, pannello o sezione dell'area di lavoro).
@@ -68,7 +68,7 @@ La procedura seguente mostra come incorporare un'app canvas in una pagina esiste
 
 ### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Incorporare un'app canvas come esperienza a tutta pagina dalla dashboard
 
-Puoi incorporare un'app canvas dalla dashboard se l'app non è correlata a una pagina esistente o se vuoi solo utilizzare l'app come esperienza a tutta pagina all'interno dell'app per finanza e operazioni.
+Puoi incorporare un'app canvas dalla dashboard se l'app non è correlata a una pagina esistente o se vuoi solo utilizzare l'app come esperienza a tutta pagina all'interno dell'app per la finanza e le operazioni.
 
 > [!NOTE]
 > Per rendere disponibile questa funzionalità, è necessario attivare la funzionalità **App a tutta pagina** in Gestione funzionalità. 
@@ -86,7 +86,7 @@ Quando incorpori un'app canvas, devi impostare i seguenti parametri:
 
 - **Nome**: immetti il testo da visualizzare per il pulsante o la scheda che conterrà l'app incorporata. È spesso possibile che si intenda ripetere il nome dell'app in questo campo.
 - **ID app**: specifica l'identificatore univoco globale (GUID) per l'app canvas che desideri incorporare. Per ripristinare questo valore, trovare l'app in [make.powerapps.com](https://make.powerapps.com) e quindi individua il campo **ID app** sotto **Dettagli**.
-- **Contesto di input per l'app**: puoi scegliere di selezionare il campo che contiene i dati da passare all'app come input. Per informazioni sul modo in cui l'app può accedere ai dati inviati dalle app per finanza e operazioni, vedi la sezione [Creazione di una Power App che sfrutta i dati inviati dalle app per finanza e operazioni](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) più avanti in questo articolo.
+- **Contesto di input per l'app**: puoi scegliere di selezionare il campo che contiene i dati da passare all'app come input. Per informazioni sul modo in cui l'app può accedere ai dati inviati dalle app per finanza e operazioni, vedi la sezione [Creazione di una Power App che sfrutta i dati inviati dalle app per la finanza e le operazioni](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) più avanti in questo articolo.
 
     A partire dalla versione 10.0.19, anche la persona giuridica corrente viene passata all'app canvas come contesto tramite il parametro URL **cmp**. Questo comportamento non avrà effetto sull'app canvas di destinazione finché l'app utilizza tali informazioni.
 
@@ -107,15 +107,15 @@ Dopo avere incorporato un'app in una pagina e averne verificato il corretto funz
     - Se la funzionalità **Visualizzazioni salvate** è disattivata, l'amministratore di sistema può fornire una personalizzazione che includa l'app canvas per il set di utenti appropriato tramite la pagina **Personalizzazione**. In alternativa, puoi esportare le personalizzazioni della tua pagina e quindi inviarle a uno o più utenti. Ciascuno di questi utenti può quindi importare la personalizzazione. La barra degli strumenti di personalizzazione contiene dei pulsanti che consentono di esportare e importare le personalizzazioni.
 
 > [!NOTE]
-> Se l'app canvas è stata condivisa con utenti esterni, tali utenti non possono utilizzare l'app incorporata all'interno delle app per finanza e operazioni. Tuttavia, possono accedere all'app direttamente all'interno di Power Apps. Gli utenti esterni includono guest e utenti che non appartengono alla directory di Microsoft 365 Azure dove viene distribuita l'app per finanza e operazioni.
+> Se l'app canvas è stata condivisa con utenti esterni, tali utenti non possono utilizzare l'app incorporata all'interno delle app per la finanza e le operazioni. Tuttavia, possono accedere all'app direttamente all'interno di Power Apps. Gli utenti esterni includono guest e utenti che non appartengono alla directory di Microsoft 365 Azure dove viene distribuita l'app per la finanza e le operazioni.
 
 Per ulteriori informazioni sulle funzionalità di personalizzazione nel prodotto e su come utilizzarle, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 
-## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Creazione di un'app canvas che utilizza i dati inviati dalle app per finanza e operazioni
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Creazione di un'app canvas che utilizza i dati inviati dalle app per la finanza e le operazioni
 
-Quando crei un'app canvas che verrà incorporata in un'app per finanza e operazioni, una parte importante del processo consiste nell'utilizzare i dati di input dall'app per finanza e operazioni. Nell'esperienza di sviluppo di Power Apps, è possibile accedere ai dati di input passati da un'app per finanza e operazioni utilizzando la variabile **Param ("EntityId")**. Inoltre, a partire dalla versione 10.0.19, anche la persona giuridica corrente verrà passata come contesto all'app canvas tramite la variabile **Param("cmp")**. 
+Quando crei un'app canvas che verrà incorporata in un'app per la finanza e le operazioni, una parte importante del processo consiste nell'utilizzare i dati di input dall'app per la finanza e le operazioni. Nell'esperienza di sviluppo di Power Apps, è possibile accedere ai dati di input passati da un'app per la finanza e le operazioni utilizzando la variabile **Param ("EntityId")**. Inoltre, a partire dalla versione 10.0.19, anche la persona giuridica corrente verrà passata come contesto all'app canvas tramite la variabile **Param("cmp")**. 
 
-Ad esempio, nella funzione OnStart dell'app, è possibile impostare i dati di input dalle app per finanza e operazioni su una variabile come la seguente:
+Ad esempio, nella funzione OnStart dell'app, è possibile impostare i dati di input dalle app per la finanza e le operazioni su una variabile come la seguente:
 
 ``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
@@ -125,7 +125,7 @@ If(!IsBlank(Param("cmp")), Set(FinOpsLegalEntity, Param("cmp")), Set(FinOpsLegal
 
 ## <a name="viewing-a-canvas-app"></a>Visualizzazione di un'app canvas
 
-Per visualizzare un'app canvas in una pagina nelle app per finanza e operazioni, è sufficiente accedere a una pagina che include un'app incorporata. Ricorda che è possibile accedere alle app utilizzando il pulsante **Power Apps** nel riquadro azioni standard. In alternativa, possono apparire direttamente in una pagina come nuova scheda, Scheda dettaglio o sezione in un'area di lavoro. Quando gli utenti tentano per la prima volta di caricare un'app in una pagina, verrà richiesto di accedere. Questo passaggio garantisce che gli utenti dispongano delle autorizzazioni appropriate per utilizzare l'app.
+Per visualizzare un'app canvas in una pagina nelle app per la finanza e le operazioni, è sufficiente accedere a una pagina che include un'app incorporata. Ricorda che è possibile accedere alle app utilizzando il pulsante **Power Apps** nel riquadro azioni standard. In alternativa, possono apparire direttamente in una pagina come nuova scheda, Scheda dettaglio o sezione in un'area di lavoro. Quando gli utenti tentano per la prima volta di caricare un'app in una pagina, verrà richiesto di accedere. Questo passaggio garantisce che gli utenti dispongano delle autorizzazioni appropriate per utilizzare l'app.
 
 ## <a name="editing-an-embedded-app"></a>Modifica di un'app incorporata
 
@@ -184,3 +184,4 @@ public final class ClassTest_Extension
 ```
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

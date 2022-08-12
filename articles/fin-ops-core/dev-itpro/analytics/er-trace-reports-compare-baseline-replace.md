@@ -1,6 +1,6 @@
 ---
 title: Migliorare il tracciamento dei risultati dei report elettronici generati per confrontarli con i valori di base
-description: Questo articolo descrive i miglioramenti alla funzionalità di base ER in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019).
+description: Questo articolo descrive i miglioramenti alla funzionalità di base ER in Microsoft Dynamics 365 Finance versione 10.0.3 (giugno 2019).
 author: NickSelin
 ms.date: 06/19/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 3b9ac7dcac4d020759d04fec75e17c43ed627e25
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb2e76492ac9f6feb71811d0fbfd25919b59ac4d
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847403"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109144"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Migliorare il tracciamento dei risultati dei report elettronici generati per confrontarli con i valori di base
 
 [!include[banner](../includes/banner.md)]
 
-In questo articolo viene descritto il primo set di miglioramenti apportati alle funzionalità di base del framework di report elettronici (ER). Questi miglioramenti sono disponibili in Microsoft Dynamics 365 for Finance and Operations versione 10.0.3 (giugno 2019) e versioni successive.
+In questo articolo viene descritto il primo set di miglioramenti apportati alle funzionalità di base del framework di report elettronici (ER). Questi miglioramenti sono disponibili in Microsoft Dynamics 365 Finance versione 10.0.3 (giugno 2019) e versioni successive.
 
 ## <a name="automate-the-setting-of-baseline-rules"></a>Automatizzare l'impostazione delle regole di base
 
@@ -208,3 +208,4 @@ Per importare le impostazioni di base da un file XML archiviato nel server di Mi
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

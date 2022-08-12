@@ -1,5 +1,5 @@
 ---
-title: Anteprima di Dynamics 365 Supply Chain Management 10.0.28 (agosto 2022)
+title: Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.28 (agosto 2022)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.28.
 author: kamaybac
 ms.date: 05/27/2022
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 2b129481399897337e960ec2d708d69a563b5435
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e17127ff6ef6c52034b8aa5e0c8404772363ca9
+ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902055"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9186521"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10028-august-2022"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.28 (agosto 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.28 (agosto 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo articolo elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione di anteprima 10.0.28. Questa versione ha il numero di build 10.0.1264 ed è disponibile con il seguente programma:
+Questo articolo elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione 10.0.28. Questa versione ha il numero di build 10.0.1264 ed è disponibile con il seguente programma:
 
 - **Anteprima della versione:** maggio 2022
 - **Disponibilità generale della versione (aggiornamento automatico):** luglio 2022
@@ -35,7 +34,7 @@ Questa tabella elenca le funzionalità incluse in questa versione. Possiamo aggi
 | Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da |
 |---|---|---|---|
 | Inventario e logistica | [Entità di integrazione dei costi di spedizione per spedizionieri di terze parti](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/landed-cost-integration-third-party-freight-forwarders) | [Panoramica delle entità dei costi di spedizione](../landed-cost/landed-cost-entities-overview.md) | Abilitato per impostazione predefinita |
-| Pianificazione | [Pianificazione del fabbisogno di materiale basato sulla domanda (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | Presto disponibile | Gestione funzionalità:<br>*(Anteprima) DDMRP per Ottimizzazione pianificazione* |
+| Pianificazione | [Pianificazione del fabbisogno di materiale basato sulla domanda (DDMRP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/demand-driven-material-requirements-planning-ddmrp) | [Panoramica della pianificazione del fabbisogno di materiale basato sulla domanda](../master-planning/planning-optimization/ddmrp-overview.md) | Gestione funzionalità:<br>*(Anteprima) DDMRP per Ottimizzazione pianificazione* |
 | Pianificazione | [Supporto di Ottimizzazione pianificazione per capable-to-promise (CTP)](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capable-to-promise-ctp) | Presto disponibile | Gestione funzionalità:<br>*(Anteprima) CTP per Ottimizzazione pianificazione* |
 | Pianificazione | [Supporto di Ottimizzazione pianificazione per durata a scaffale](/dynamics365-release-plan/2022wave1/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-shelf-life) | Presto disponibile | Abilitato per impostazione predefinita |
 
@@ -66,9 +65,9 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti arti
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per app per finanza e operazioni
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app per la finanza e le operazioni
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.28 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.28 delle app per finanza e operazioni (giugno 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.28 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.28 delle app per la finanza e le operazioni (giugno 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-28.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 
@@ -92,3 +91,4 @@ Prima che qualsiasi funzionalità venga rimossa dal prodotto, l'avviso di deprec
 Per le modifiche significative che influiscono solo sui tempi di compilazione, ma che sono binari compatibili con sandbox e ambienti di produzione, il tempo di deprecazione sarà inferiore a 12 mesi. In genere, si tratta di aggiornamenti funzionali che è necessario apportare al compilatore.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90a3f132a96081b56ab60f5b0ba5cc328b820879
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f6f3f2db6efcc4d4d6ae3d278751a230fca9a64
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899326"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068598"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Scenari di esempio di conteggio ciclo
 
@@ -127,7 +127,7 @@ Segui questi passaggi per verificare che tutti i dati demo richiesti per gli sce
 1. Nell'elenco dell'elenco, seleziona il magazzino *61*. Se nessun record esistente ha questo nome, crealo.
 1. Nella scheda dettaglio **Magazzino**, imposta i seguenti valori:
 
-    - **Usa processi di Warehouse Management:** *Sì* (Questo valore abilita il magazzino per i processi di gestione del magazzino.)
+    - **Usa processi di gestione del magazzino:** *Sì* (Questo valore abilita il magazzino per i processi di gestione del magazzino (WMS).)
     - **Consenti movimenti targa durante conteggio ciclo:** *Sì* (Questo valore consente ai lavoratori di spostare le targhe durante un conteggio ciclo.)
 
 ## <a name="scenario-1-guided-cycle-counting"></a>Scenario 1: Conteggio ciclo guidato

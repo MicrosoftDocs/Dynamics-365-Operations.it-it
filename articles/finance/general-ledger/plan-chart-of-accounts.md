@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e797117199ff57cb4d3beae187ae7649579d33b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 10906d7b30628dfe69907cfa69ae1022fde33243
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853350"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070636"
 ---
 # <a name="plan-your-chart-of-accounts"></a>Definire il piano dei conti
 
@@ -43,7 +43,7 @@ Di seguito vengono indicati alcuni fattori da prendere in considerazione quando 
 Si crea il piano dei conti nella pagina **Piano dei conti**. È possibile creare conti principali dalla pagina **Piano dei conti** o dalla pagina **Conti principali**. Nei conti principali non è consigliabile utilizzare caratteri speciali come delimitatori del piano dei conti. Si potrebbe sperimentare instabilità oppure potrebbe essere necessario utilizzare sempre le ricerche o la finestra di dialogo quando si immettono combinazioni di conti e dimensioni. Per ulteriori informazioni, vedere [Creare un conto principale](tasks/create-main-account.md).
 
 > [!NOTE]
-> In Dynamics 365 for Finance and Operations versione 8.0 (aprile 2018), è possibile modificare il delimitatore del piano dei conti nella pagina **Parametri di contabilità generale**.
+> In Dynamics 365 Finance versione 8.0 (aprile 2018), è possibile modificare il delimitatore del piano dei conti nella pagina **Parametri di contabilità generale**.
 
 È consigliabile collegare i conti principali alle categorie dei conti principali, in modo da poter sfruttare i report finanziari predefiniti senza dover apportare eventuali modifiche. Di conseguenza, è possibile progettare e gestire i report in modo più rapido e facile.
 
@@ -60,3 +60,4 @@ Per ulteriori informazioni, vedere i seguenti argomenti:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

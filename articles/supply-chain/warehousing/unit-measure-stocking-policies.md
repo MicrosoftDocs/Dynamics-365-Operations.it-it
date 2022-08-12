@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0de12620bca54c7e43713138d7a152c2bd6edff3453f81cf779f9b875cf77eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ca1c18a293d66ab78f41cac857461249826ce4c9
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714838"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069124"
 ---
 # <a name="unit-of-measure-and-stocking-policies"></a>Politiche di immagazzinamento e di unità di misura
 
@@ -28,7 +28,7 @@ ms.locfileid: "6714838"
 
 Questo articolo descrive come si utilizzano le unità predefinite, le sequenze unità e le conversioni di unità nei processi di magazzino.
 
-I gruppi di sequenze unità definiscono la sequenza di unità che può essere utilizzata nelle operazioni di magazzino. Vengono creati nella  pagina **Gruppi di sequenze unità**. La sequenza illustra la relazione delle diverse unità. Ad esempio, archiviare i pallet che contengono le caselle contenenti i diversi pezzi di articoli. In questo caso, è necessario immettere le tre diverse unità e l'ordine logico dei livelli. Gruppi di sequenze di unità consentono di definire i criteri per il raggruppamento di dei numeri di targa e unità predefinite che devono essere utilizzate per vari il magazzino elabora. Questo articolo viene applicato alla soluzione organizzazione immagazzinamento avanzata disponibile in gestione magazzino che la soluzione più organizzazione di immagazzinamento base disponibile in gestione articoli.
+I gruppi di sequenze unità definiscono la sequenza di unità che può essere utilizzata nelle operazioni di magazzino. Vengono creati nella  pagina **Gruppi di sequenze unità**. La sequenza illustra la relazione delle diverse unità. Ad esempio, archiviare i pallet che contengono le caselle contenenti i diversi pezzi di articoli. In questo caso, è necessario immettere le tre diverse unità e l'ordine logico dei livelli. Gruppi di sequenze di unità consentono di definire i criteri per il raggruppamento di dei numeri di targa e unità predefinite che devono essere utilizzate per vari il magazzino elabora. Questo articolo è applicabile sia ai processi di gestione del magazzino (WMS) disponibili nel modulo Gestione magazzino che alla soluzione di immagazzinamento base disponibile nel modulo Gestione scorte.
 
 ## <a name="unit-sequence-groups-for-released-products"></a>Gruppi di sequenze unità per i prodotti rilasciati
 Se si desidera utilizzare i prodotti rilasciati nei processi di lavoro di magazzino, un gruppo di sequenze di unità deve essere assegnato. Se la convalida un prodotto associato a un gruppo di dimensioni di immagazzinamento e **Processi di gestione magazzino di utilizzo** l'opzione per il gruppo di dimensioni di immagazzinamento è impostati su **Sì**, verrà visualizzato un messaggio di errore se un ID gruppo di sequenze di unità non è definita per il prodotto. Se il gruppo di sequenze di unità utilizzato contiene più righe (e quindi più unità), è necessario impostare una conversione unità tra unità.  Completare questa impostazione nella pagina **Conversioni unità**. La più piccola unità di un gruppo di sequenze associato a un articolo deve corrispondere all'unità di magazzino definita per il prodotto corrispondente. L'unità di magazzino è l'unità di misura utilizzata per i calcoli di base delle scorte disponibili. È inoltre possibile impostare le conversioni unità di misura per le varianti prodotto delle rappresentazioni generali prodotto mediante l'opzione **Abilitare le conversioni unità di misura**.

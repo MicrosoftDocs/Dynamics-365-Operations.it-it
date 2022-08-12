@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3d1a45ad00e59581f27f2e822ccb47430219c501
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857375"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070471"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Dichiarazione di finito dal dispositivo scheda processo
 
@@ -50,7 +50,7 @@ Per ulteriori informazioni su come utilizzare la pagina **Impostazioni predefini
 
 ## <a name="report-batch-controlled-items-as-finished"></a>Dichiarare finiti articoli controllati in batch
 
-Il dispositivo scheda processo supporta tre scenari per la dichiarazione di articoli in batch. Questi scenari si applicano sia agli articoli abilitati per processi di magazzino avanzati sia agli articoli non abilitati per processi di magazzino avanzati.
+Il dispositivo scheda processo supporta tre scenari per la dichiarazione di articoli in batch. Questi scenari sono validi sia per gli articoli abilitati per i processi di gestione del magazzino (WMS) e che per gli articoli non abilitati per WMS.
 
 - **Numeri di batch assegnati manualmente:** i lavoratori inseriscono un numero di batch personalizzato. Questo numero di batch potrebbe provenire da una fonte esterna non nota al sistema.
 - **Numeri di batch predefiniti:** i lavoratori selezionano un numero di batch in un elenco di numeri di batch che il sistema genera automaticamente prima che l'ordine di produzione venga rilasciato al dispositivo scheda processo.
@@ -129,7 +129,7 @@ Quando si utilizza questo scenario, il campo **Numero batch** nella pagina **Seg
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Dichiarare finiti articoli controllati in serie
 
-Il dispositivo scheda processo supporta tre scenari per la dichiarazione di articoli controllati in serie. Questi scenari si applicano sia agli articoli abilitati per processi di magazzino avanzati sia agli articoli non abilitati per processi di magazzino avanzati.
+Il dispositivo scheda processo supporta tre scenari per la dichiarazione di articoli controllati in serie. Questi scenari sono validi sia per gli articoli abilitati per i processi di gestione del magazzino (WMS) e che per gli articoli non abilitati per WMS.
 
 - **Numeri di serie assegnati manualmente:** i lavoratori inseriscono un numero di serie personalizzato. Questo numero di serie potrebbe provenire da una fonte esterna non nota al sistema.
 - **Numeri di serie predefiniti:** i lavoratori selezionano un numero di serie in un elenco di numeri di serie che il sistema genera automaticamente prima che l'ordine di produzione venga rilasciato al dispositivo scheda processo.
@@ -212,7 +212,7 @@ Quando si utilizza questo scenario, il campo **Numero di serie** nella pagina **
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Dichiarazione di finito per una targa
 
-I processi di magazzino avanzati possono utilizzare la dimensione della targa per tenere traccia dell'inventario nelle posizioni di magazzino che sono state impostate per questo scopo. In questo caso, il numero di targa viene richiesto quando un lavoratore dichiara finite le quantità.
+I processi di gestione del magazzino (WMS) possono utilizzare la dimensione della targa per tenere traccia dell'inventario nelle posizioni di magazzino che sono state impostate per questo scopo. In questo caso, il numero di targa viene richiesto quando un lavoratore dichiara finite le quantità.
 
 ### <a name="enable-license-plate-reporting-and-label-printing"></a>Abilitare la dichiarazione di una targa e stampa di etichette
 

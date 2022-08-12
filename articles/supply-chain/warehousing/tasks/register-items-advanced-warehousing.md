@@ -1,6 +1,6 @@
 ---
-title: Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi
-description: Questo articolo presenta uno scenario che mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione avanzata di magazzino.
+title: Registrare articoli abilitati per i processi di gestione del magazzino tramite un giornale di registrazione arrivi articoli
+description: Questo articolo presenta uno scenario che mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione del magazzino (WMS).
 author: Mirzaab
 ms.date: 03/24/2021
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac4a681484f0cd843ccd73633040f0fa0be0475e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5241c982675d6b9a9bc9596b8ac9ed2798903287
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863623"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066969"
 ---
-# <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi
+# <a name="register-items-enabled-for-warehouse-management-processes-using-an-item-arrival-journal"></a>Registrare articoli abilitati per i processi di gestione del magazzino tramite un giornale di registrazione arrivi articoli
 
 [!include [banner](../../includes/banner.md)]
 
-Questo articolo presenta uno scenario che mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione avanzata di magazzino. Questa operazione viene generalmente effettuata da un addetto al ricevimento.
+Questo articolo presenta uno scenario che mostra come registrare gli articoli utilizzando il giornale di registrazione arrivi articoli quando si utilizzano i processi di gestione del magazzino (WMS). Questa operazione viene generalmente effettuata da un addetto al ricevimento.
 
 ## <a name="enable-sample-data"></a>Abilitare dati di esempio
 
@@ -36,7 +36,7 @@ Puoi invece elaborare questo scenario sostituendo i valori dei tuoi dati a condi
 - Devi avere un ordine cliebte confermato con una riga dell'ordine fornitore aperta.
 - L'articolo nella riga deve essere stoccato. Non deve utilizzare varianti di prodotto e non deve avere dimensioni di tracciabilità.
 - L'articolo deve essere associato a un gruppo di dimensioni di immagazzinamento con un processo di gestione magazzino abilitato.
-- Il magazzino utilizzato deve essere abilitato per i processi di gestione magazzino e l'ubicazione utilizzata per il ricevimento deve essere controllata da targa.
+- Il magazzino utilizzato deve essere abilitato per WMS e l'ubicazione utilizzata per il ricevimento deve essere controllata da targa.
 
 ## <a name="create-an-item-arrival-journal-header-that-uses-warehouse-management"></a>Creare un'intestazione del giornale di registrazione arrivi articoli che utilizzi la gestione di magazzino
 

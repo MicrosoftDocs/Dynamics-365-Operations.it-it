@@ -1,6 +1,6 @@
 ---
 title: Gerarchia organizzativa in Dataverse
-description: In questo articolo viene descritta l'integrazione dei dati organizzativi tra le app per finanza e operazioni e Dataverse.
+description: In questo articolo viene descritta l'integrazione dei dati organizzativi tra le app per la finanza e le operazioni e Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a4edaf5b9c50e9d8781ff703328ac786d71ee782
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f900637855bee3e21916652a373c683e6bf1392
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8884734"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112020"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Gerarchia organizzativa in Dataverse
 
@@ -28,11 +28,11 @@ Sebbene In Dataverse non esiste il concetto di una gerarchia organizzativa, vi s
 
 ## <a name="data-flow"></a>Flusso di dati
 
-Un ecosistema aziendale composto dalle app per finanza e operazioni e Dataverse continuerà a avere una gerarchia organizzativa. Questa gerarchia organizzativa si basa sulle app per finanza e operazioni, ma viene esposta in Dataverse per scopi di informazione ed estendibilità. La figura di seguito mostra le informazioni di gerarchia organizzativa che vengono esposte in Dataverse come flusso di dati unidirezionale dalle app per finanza e operazioni a Dataverse.
+Un ecosistema aziendale composto dalle app per la finanza e le operazioni e Dataverse continuerà a avere una gerarchia organizzativa. Questa gerarchia organizzativa si basa sulle app per la finanza e le operazioni, ma viene esposta in Dataverse per scopi di informazione ed estendibilità. La figura di seguito mostra le informazioni di gerarchia organizzativa che vengono esposte in Dataverse come flusso di dati unidirezionale dalle app per la finanza e le operazioni a Dataverse.
 
 ![Immagine dell'architettura.](media/dual-write-data-flow.png)
 
-Le mappe delle tabelle della gerarchia organizzativa sono disponibili per la sincronizzazione unidirezionale dei dati dalle app per finanza e operazioni a Dataverse.
+Le mappe delle tabelle della gerarchia organizzativa sono disponibili per la sincronizzazione unidirezionale dei dati dalle app per la finanza e le operazioni a Dataverse.
 
 ## <a name="templates"></a>Modelli
 
@@ -52,3 +52,4 @@ App Finanza e operazioni | App di interazione con i clienti     | Description
 Le informazioni sull'organizzazione interna in Dataverse vengono recuperate da due tabelle, **unità operativa** e **persone giuridiche**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

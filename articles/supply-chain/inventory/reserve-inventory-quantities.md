@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c407b45f3df91d569c2bf043ff9f83b640837bb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0c0e283189998473469164398fa6f43c8e8825e
+ms.sourcegitcommit: 3a882de1f1c27654a8e92ebc1999c75678cc9a53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8899442"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9201868"
 ---
 # <a name="reserve-inventory-quantities"></a>Prenotare quantità di inventario
 
@@ -75,7 +75,7 @@ Per un ordine cliente che dovrà essere prenotato automaticamente e consegnato i
 
 Sono disponibili due opzioni relative alle prenotazioni nella pagina **Parametri di gestione articoli e magazzino**.
 -   L'opzione **Prenota articoli ordinati** nella scheda **Generale** consente di prenotare le entrate di articoli ordinati in base alle uscite di articoli nelle sezioni Contabilità clienti, Gestione progetti e contabilità e Controllo produzione. Se questa opzione viene deselezionata, sarà possibile prenotare solo articoli già fisicamente ricevuti. Se un determinato articolo è stato impostato per l'accettazione di scorte negative, questo campo non è rilevante.
--   L'opzione **Prenota articoli automaticamente** nella scheda **Trasporto** determina l'impostazione predefinita se gli articoli sono prenotati automaticamente per gli ordini di trasferimento. L'impostazione predefinita può essere sostituita per singoli ordini di trasferimento.
+-   L'opzione **Prenota articoli automaticamente** nella scheda **Trasferimento** determina l'impostazione predefinita se gli articoli sono prenotati automaticamente per gli ordini di trasferimento. L'impostazione predefinita può essere sostituita per singoli ordini di trasferimento.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Criteri di prenotazione scorte nella pagina Parametri di produzione
 

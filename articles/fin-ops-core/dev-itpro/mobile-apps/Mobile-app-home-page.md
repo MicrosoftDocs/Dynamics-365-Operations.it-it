@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: d73a8d3cf8a7899f16db87148456671dea773636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 973fdcd81a83b6b70e8fa941c4f0c9d24b5cb559
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868761"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066455"
 ---
 # <a name="mobile-app-home-page"></a>Home page app per dispositivi mobili
 
 [!include [banner](../includes/banner.md)]
 [!include [mobile app deprecation](../includes/mobile-app-deprecation-banner.md)]
 
-In questo articolo viene descritta l'app per la **finanza e le operazioni (Dynamics 365)** per dispositivi mobili e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
+In questo articolo viene descritta l'**app per la finanza e le operazioni (Dynamics 365)** per dispositivi mobili e vengono forniti i collegamenti alle risorse necessarie per implementarla dell'organizzazione.
 
 ## <a name="overview"></a>Panoramica
 
@@ -132,8 +132,8 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 <td>Utente</td>
 <td>Scaricare e installare l'app mobile.</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">App Finance and Operations per Android</a><BR/>
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">App Finance and Operations per iOS</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">App per la finanza e le operazioni per Android</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">App per la finanza e le operazioni per iOS</a><BR/>
 (Windows Phone non supportato)
 </td>
 </tr>
@@ -152,3 +152,4 @@ Nella seguente tabella sono inclusi collegamenti alle risorse necessarie per imp
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

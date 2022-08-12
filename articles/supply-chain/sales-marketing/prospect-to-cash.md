@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 40398a481d23b8abed59556a3c6d70e783756017
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea07b40c0a1a7eae7cd167f46796556b1e0ecc46
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857230"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103596"
 ---
 # <a name="prospect-to-cash"></a>Prospect per uno scenario di liquidazione
 
@@ -43,13 +43,13 @@ Nella versione corrente, la soluzione Prospect to cash offre i seguenti tipi di 
 ## <a name="system-requirements-for-supply-chain-management"></a>Requisiti di sistema per Supply Chain Management
 L'integrazione Prospect to cash è supportata nelle seguenti versioni:
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dicembre 2017)
+### <a name="microsoft-dynamics-365-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 per finanza e operazioni, Enterprise Edition 7.3 (dicembre 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (dicembre 2017) - Build applicazione 7.3.11971.56116 con aggiornamento 12 della piattaforma (7.0.4709.41129)
+- Dynamics 365 per finanza e operazioni, Enterprise Edition (dicembre 2017) - Build applicazione 7.3.11971.56116 con Platform Update 12 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise edition (luglio 2017)
+### <a name="dynamics-365-finance-enterprise-edition-july-2017"></a>Dynamics 365 Finance, Enterprise edition (luglio 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise edition (July 2017) - Con aggiornamento 8 della piattaforma (build applicazione 7.2.11792.56024 con build piattaforma 7.0.4565.16212).
+- Dynamics 365 per finanza e operazioni, Enterprise Edition (July 2017) - Con Platform Update 8 (build applicazione 7.2.11792.56024 con build piattaforma 7.0.4565.16212).
 - Sono necessari i seguenti aggiornamenti rapidi:
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** - Questo hotfix consente la sincronizzazione degli ordini cliente da Sales in Supply Chain Management tramite la funzionalità Integrazione dati. Sono inoltre presenti molti altri miglioramenti.
@@ -59,9 +59,9 @@ L'integrazione Prospect to cash è supportata nelle seguenti versioni:
     > [!NOTE]
     > È necessario installare solo KB4045570 poiché l'installazione include le modifiche di altri aggiornamenti rapidi. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 for Finance and Operations versione 1611 (novembre 2016)
+### <a name="dynamics-365-finance-and-operations-version-1611-november-2016"></a>Dynamics 365 per finanza e operazioni versione 1611 (novembre 2016)
 
-- Dynamics 365 for Finance and Operations versione 1611 (novembre 2016) con aggiornamento della piattaforma 8 o successivo
+- Dynamics 365 per finanza e operazioni versione 1611 (November 2016) con Platform Update 8 o superiore
 
 - Sono necessari i seguenti aggiornamenti rapidi:
 

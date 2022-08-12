@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: f523680f3d71ffd75c6cd2df284d2fd3610cef96
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a420c5b2a036ac63a1a179f93462d152c3941fda
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853619"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124226"
 ---
 # <a name="create-alert-rules"></a>Creare regole di avviso
 
@@ -75,7 +75,7 @@ Nella Scheda dettaglio **Invia avviso con** della finestra di dialogo **Crea reg
 
 ## <a name="alerts-as-business-events"></a>Avvisi come eventi aziendali
 
-Gli avvisi possono essere inviati esternamente utilizzando il framework degli eventi aziendali. Quando si crea un avviso, impostare **A livello di organizzazione** su **No** e impostare **Invia esternamente** su **Sì**. Dopo aver ricevuto l'avviso che attiva l'evento aziendale, è possibile attivare un flusso integrato in Power Automate usando il trigger **Quando si verifica un evento aziendale** sul connettore Finance and Operations o inviare esplicitamente l'evento a un endpoint di eventi aziendali tramite il **Catalogo degli eventi aziendali**.
+Gli avvisi possono essere inviati esternamente utilizzando il framework degli eventi aziendali. Quando si crea un avviso, impostare **A livello di organizzazione** su **No** e impostare **Invia esternamente** su **Sì**. Dopo aver ricevuto l'avviso che attiva l'evento aziendale, è possibile attivare un flusso integrato in Power Automate usando il trigger **Quando si verifica un evento aziendale** sul connettore per la finanza e le operazioni o inviare esplicitamente l'evento a un endpoint di eventi aziendali tramite il **Catalogo degli eventi aziendali**.
 
 ## <a name="create-an-alert-rule"></a>Crea una regola di avviso
 

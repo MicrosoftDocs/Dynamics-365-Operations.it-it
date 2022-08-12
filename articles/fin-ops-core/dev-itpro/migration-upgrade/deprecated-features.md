@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d8c79057c157f9f0244ea11ad5c3563dcdb21a5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ea9355b040c6431f5ddcccc4aaa0de73e21ad299
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8866187"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124560"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Funzionalità rimosse o deprecate nelle versioni precedenti
 
@@ -849,7 +849,7 @@ Due formati per l'esportazione dei pagamenti disponibili per la Finlandia. LM02 
 |  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | La soluzione di gestione magazzino II (WMS II) che è disponibile nel modulo **Gestione inventario** duplica la funzionalità nel modulo **Gestione magazzino** che è stato rilasciato in Dynamics AX 2012 R3.                                                                         |
-| **Sostituita da un'altra funzionalità?**   | Il modulo **Gestione magazzino** che è stato rilasciato in AX 2012 R3, Dynamics AX 2012 R3 CU8 e Dynamics AX 2012 R3 CU9 sostituisce le funzionalità Gestione magazzino II. Il nuovo modulo dispone di funzionalità più avanzate e di processi di gestione magazzino più flessibili rispetto a quelli offerti nelle funzionalità Gestione magazzino II. |
+| **Sostituita da un'altra funzionalità?**   | Il modulo **Gestione magazzino** che è stato rilasciato in AX 2012 R3, Dynamics AX 2012 R3 CU8 e Dynamics AX 2012 R3 CU9 sostituisce le funzionalità Gestione magazzino II. Il nuovo modulo dispone di funzionalità più avanzate e di processi di gestione del magazzino più flessibili rispetto a quelli offerti nelle funzionalità Gestione magazzino II. |
 | **Aree del prodotto interessate**         | Gestione articoli, vendite e marketing, approvvigionamento   |
 | **Stato**                         | Rimosso a partire da Dynamics 365 for Operations versione 1611.    |
 
@@ -1417,3 +1417,4 @@ L'app tablet di Windows 8 ha fornito la funzionalità per la voce e l'approvazio
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

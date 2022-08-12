@@ -9,18 +9,18 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 756895ab0ccdbd2bc42f0a750ad9895ee7b284a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9e5160cc3961703475ffb8dc4a4daf2ae872aaba
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847162"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124927"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Descrizione del servizio per le app per la finanza e le operazioni
 
 [!include[banner](../includes/banner.md)]
 
-Le app per la finanza e le operazioni sono offerte di software come servizio (SaaS) ERP (Enterprise Resource Planning) basate su e per [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/).. Il servizio per la finanza e le operazioni fornisce alle organizzazioni funzionalità ERP che supportano i loro requisiti unici e le aiutano ad adattarsi ad ambienti aziendali in continua evoluzione, senza richiedere la gestione dell'infrastruttura. Le app per la finanza e le operazioni possono includere una o più delle seguenti aree di soluzione:
+Le app per la finanza e le operazioni sono offerte di software come servizio (SaaS) ERP (Enterprise Resource Planning) basate su e per [Microsoft Azure](https://azure.microsoft.com/overview/what-is-azure/). Il servizio per la finanza e le operazioni fornisce alle organizzazioni funzionalità ERP che supportano i loro requisiti unici e le aiutano ad adattarsi ad ambienti aziendali in continua evoluzione, senza richiedere la gestione dell'infrastruttura. Le app per la finanza e le operazioni possono includere una o più delle seguenti aree di soluzione:
 
 - [Dynamics 365 Finance](/dynamics365/finance/)
 - [Dynamics 365 Human Resources](/dynamics365/human-resources/)
@@ -79,7 +79,7 @@ Microsoft gestisce il servizio per la finanza e le operazioni distribuendo, moni
 
 ## <a name="system-configuration"></a>Configurazione sistema
 
-Le app per la finanza e le operazioni scalano in base al volume delle transazioni e al carico degli utenti. Ogni implementazione del cliente produce una soluzione unica che consiste dei seguenti elementi:
+Le app per la finanza e le operazioni vengono dimensionate in base al volume delle transazioni e al carico degli utenti. Ogni implementazione del cliente produce una soluzione unica che consiste dei seguenti elementi:
 
 - **Composizione dei dati** – Un insieme univoco di parametri che controllano il comportamento, il layout dell'organizzazione, la struttura dei dati master (come le dimensioni finanziarie e di inventario) e la granularità del monitoraggio delle transazioni.
 - **Estensione e configurazione** – Meccanismi di estensione che utilizzano estensioni di codice, soluzioni ISV e configurazioni univoche che includono flussi di lavoro, integrazioni e configurazioni di report.
@@ -112,17 +112,17 @@ Per ulteriori informazioni, vedere [Onboarding di un progetto di implementazione
 
 ## <a name="globalization"></a>Globalizzazione
 
-Le app per la finanza e le operazioni sono servite da diverse aree di Azure in tutto il mondo. Le app per la finanza e le operazioni forniscono funzionalità per supportare diversi paesi/aree geografice e lingue native. Per ulteriori informazioni, vedere [Funzionalità per la normativa e la localizzazione](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
+Le app per la finanza e le operazioni sono servite da diverse aree di Azure in tutto il mondo. Le app per la finanza e le operazioni forniscono funzionalità per supportare diversi paesi/aree geografiche e lingue native. Per ulteriori informazioni, vedere [Funzionalità per la normativa e la localizzazione](../../dev-itpro/lcs-solutions/country-region.md#localization-and-regulatory-features).
 
 ### <a name="countryregion-specific-considerations"></a>Considerazioni specifiche di paese/area geografica
 
-- I clienti del settore regolamentato o le organizzazioni commerciali che fanno affari con entità in Francia che richiedono la residenza dei dati locali dovrebbero rivedere [Finanza e operazioni in Francia](../../dev-itpro/deployment/france-local-deployment.md).
-- I clienti che hanno operazioni in Cina dovrebbero rivedere [Azure China Playbook](/azure/china/) e [Finanza e operazioni gestito da 21Vianet in China](../../dev-itpro/deployment/china-local-deployment.md).
+- I clienti del settore regolamentato o le organizzazioni commerciali che fanno affari con entità in Francia che richiedono la residenza dei dati locali devono rivedere [Finanza e operazioni in Francia](../../dev-itpro/deployment/france-local-deployment.md).
+- I clienti che hanno operazioni in Cina devono rivedere [Azure China Playbook](/azure/china/) e [Finanza e operazioni gestito da 21Vianet in China](../../dev-itpro/deployment/china-local-deployment.md).
 - I clienti che operano in Russia dovrebbero rivedere il [Legge russa sulla localizzazione dei dati personali](/business-applications-release-notes/october18/dynamics365-finance-operations/russian-regulations-on-prem#when-will-the-cloud-deployment-option-of-dynamics-365-for-finance-and-operations-be-generally-available-for-russia).
 
 ### <a name="general-data-protection-regulation-gdpr"></a>Regolamento generale sulla protezione dei dati (RGDP)
 
-Per le app per la finanza e le operazioni, Microsoft funge da processore. In qualità di responsabile del trattamento, finanza e operazioni fornisce processi e funzionalità che aiutano i clienti a rispettare gli obblighi GDPR in qualità di titolari del trattamento dei dati. Per ulteriori informazioni, vedere [Panoramica del GDPR](../../dev-itpro/gdpr/gdpr-guide.md).
+Per le app per la finanza e le operazioni, Microsoft funge da processore. In qualità di responsabile del trattamento, le app per la finanza e le operazioni forniscono processi e funzionalità che aiutano i clienti a rispettare gli obblighi GDPR in qualità di titolari del trattamento dei dati. Per ulteriori informazioni, vedere [Panoramica del GDPR](../../dev-itpro/gdpr/gdpr-guide.md).
 
 ## <a name="environment-and-data-management"></a>Gestione ambiente e dati
 
@@ -428,3 +428,4 @@ Il framework che guida sistematicamente un'implementazione attraverso una serie 
 ### <a name="user"></a>Utente
 
 Una sola persona che usa gli ambienti per la finanza e le operazioni e chi è associato al tenant di un cliente.
+

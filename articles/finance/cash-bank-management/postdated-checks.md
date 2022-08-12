@@ -1,7 +1,7 @@
 ---
 title: Assegni postdatati
-description: Questo articolo fornisce informazioni sul supporto per gli assegni postdatati in Microsoft Dynamics 365 Finance. Gli assegni postdatati sono assegni emessi per effettuare e ricevere pagamenti in una data futura. Di conseguenza, l'assegno non può più essere incassato fino alla data specificata.
-author: panolte
+description: Questo articolo fornisce informazioni sul supporto per gli assegni postdatati. Gli assegni postdatati vengono emessi per consentire l'esecuzione e la ricezione di pagamenti in una data futura.
+author: angelad116
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.custom: 21741
 ms.assetid: 4eb7c7da-1e6b-4d35-9f41-373b66103229
 ms.search.region: Global
-ms.author: panolte
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33de0d5180962f52ddb0770f8729ed147d144e6d
-ms.sourcegitcommit: 602a319f4720b39a56b7660b530236912d484391
+ms.openlocfilehash: 4d32ed9de66bc92e17c5515a4266f41aaeb9f2c1
+ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8722857"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "9151363"
 ---
 # <a name="postdated-checks"></a>Assegni postdatati
 

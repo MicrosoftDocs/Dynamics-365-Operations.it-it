@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 186dcdca9d6db5ca16d84f084c66700ddfe8bb5d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 335bdc9690b3111f4a04adc7e82d62de36ff4caf
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857433"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065990"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Pianificazione in modalità mista: combinazione dell'approvvigionamento, discreto, di processo e snello
 
@@ -33,7 +33,7 @@ Questo articolo fornisce informazioni sulla pianificazione in modalità mista. N
 
 Ad esempio, è possibile avere il controllo kanban nell'assemblaggio, in cui i materiali sono originati per l'area di assemblaggio da ordini di produzione, kanban, trasferimenti, ordini batch o una combinazione qualsiasi appropriata alle caratteristiche della supply chain e avere comunque una visibilità completa sulle forniture. Questa funzionalità porta a processi della supply chain ottimizzati e a una maggiore visibilità della supply chain.  
 
-La granularità dei criteri di fornitura che vengono utilizzati nella programmazione generale dipende dalle dimensioni di immagazzinamento abilitate come dimensioni di copertura. Per consentire alla programmazione generale di controllare il rifornimento e la fornitura di diversi tipi di ubicazione (ad esempio, separando il reparto di produzione in differenti unità di produzione o separando i diversi tipi di materiali e di magazzini di prodotti finiti), è consigliabile abilitare Sito e Magazzino come dimensioni di copertura. In alternativa, è possibile omettere Magazzino come dimensione di copertura. In tal caso, quando si utilizza la gestione di magazzino avanzata, tutti i movimenti all'interno di un magazzino sono controllati dal lavoro di magazzino, mentre tutti i movimenti tra i magazzini possono essere controllati da kanban di prelievo.
+La granularità dei criteri di fornitura che vengono utilizzati nella programmazione generale dipende dalle dimensioni di immagazzinamento abilitate come dimensioni di copertura. Per consentire alla programmazione generale di controllare il rifornimento e la fornitura di diversi tipi di ubicazione (ad esempio, separando il reparto di produzione in differenti unità di produzione o separando i diversi tipi di materiali e di magazzini di prodotti finiti), è consigliabile abilitare Sito e Magazzino come dimensioni di copertura. In alternativa, è possibile omettere Magazzino come dimensione di copertura. In tal caso, quando si utilizzano i processi di gestione del magazzino (WMS), tutti i movimenti all'interno di un magazzino sono controllati dal lavoro di magazzino, mentre tutti i movimenti tra i magazzini possono essere controllati da kanban di prelievo.
 
 ## <a name="supply-policies"></a>Criteri di fornitura
 La pianificazione in modalità mista determina il modo in cui un prodotto viene fornito e, in base alla fornitura, in che modo vengono emessi i requisiti derivati (consumo di articoli da una distinta base \[DBA\]). In base al tipo di ordine, il sistema fornisce automaticamente i materiali per soddisfare i fabbisogni.  

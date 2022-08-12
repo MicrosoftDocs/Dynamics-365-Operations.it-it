@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 14a49d1d6c956b37ff9b2bec387615dc75d060e1
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022566"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9167763"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -92,9 +92,9 @@ A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalit�
 
 Questa funzionalità consente ai lavoratori di utilizzare l'interfaccia di esecuzione del piano di produzione per registrare il consumo di materiale, i numeri di batch e i numeri di serie. Alcuni produttori, in particolare quelli all'interno delle industrie di processo, devono registrare esplicitamente la quantità di materiale consumato per ogni batch oppure ordine di produzione. Ad esempio, i lavoratori potrebbero utilizzare una bilancia per pesare la quantità di materiale consumato mentre lavorano. Per garantire la completa tracciabilità dei materiali, le organizzazioni devono anche registrare quali numeri di batch sono stati consumati durante la produzione di ciascun prodotto.
 
-Sono disponibili due versioni di questa funzionalità. Una supporta gli articoli che *non sono* abilitati per l'utilizzo di processi di magazzino avanzati (WMS). L'altra supporta gli articoli che *sono* abilitati all'utilizzo di WMS. Per utilizzare questa funzionalità, attiva una o entrambe le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in questo ordine), a seconda che siano presenti articoli abilitati per WMS:
+Sono disponibili due versioni di questa funzionalità. Una supporta gli articoli che *non sono* abilitati per l'utilizzo di processi di gestione del magazzino (WMS). L'altra supporta gli articoli che *sono* abilitati all'utilizzo di WMS. Per utilizzare questa funzionalità, attiva una o entrambe le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in questo ordine), a seconda che siano presenti articoli abilitati per WMS:
 
-- *(Anteprima) Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (non WMS)*
+- *Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (non WMS)*
 - *(Anteprima) Registra il consumo materiali nell'interfaccia di esecuzione area di produzione (abilitato per WMS)*
 
 > [!IMPORTANT]

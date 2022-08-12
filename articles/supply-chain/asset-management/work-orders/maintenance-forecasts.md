@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: be6ef12f34e85b90c24c43c6e55ad169c271810a
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 4e3da8ab9a739c8455d2c1d2720f94f91a42927d
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016625"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111602"
 ---
 # <a name="maintenance-forecasts"></a>Previsioni di manutenzione
 
@@ -107,7 +107,7 @@ Nell'illustrazione seguente è illustrato un esempio della pagina **Previsioni d
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Aggiornamento automatico delle previsioni dell'ordine di lavoro
 
-Se i costi delle ore, i costi degli articoli e le spese vengono aggiornati in altri moduli in Microsoft Dynamics 365 for Finance and Operations, le previsioni sugli ordini di lavoro in Gestione cespiti possono essere aggiornate automaticamente per riflettere tali modifiche. Questa funzionalità garantisce l'utilizzo degli ultimi prezzi di costo nelle previsioni dell'ordine di lavoro. È inoltre possibile apportare aggiornamenti simili per le [previsioni del tipo di processo di manutenzione](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Se i costi delle ore, i costi degli articoli e le spese vengono aggiornati in altri moduli, le previsioni sugli ordini di lavoro in Gestione cespiti possono essere aggiornate automaticamente per riflettere tali modifiche. Questa funzionalità garantisce l'utilizzo degli ultimi prezzi di costo nelle previsioni dell'ordine di lavoro. È inoltre possibile apportare aggiornamenti simili per le [previsioni del tipo di processo di manutenzione](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Selezionare **Gestione cespiti** > **Periodico** > **Previsione** > **Aggiorna previsione ordine di lavoro**.
 

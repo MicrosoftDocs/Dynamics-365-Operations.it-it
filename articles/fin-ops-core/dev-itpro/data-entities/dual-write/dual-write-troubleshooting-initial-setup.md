@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ebb14dad723fad5b17b4dfca153bf153e77bbd4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882086"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111202"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Risoluzione dei problemi durante l'impostazione iniziale
 
@@ -22,20 +22,20 @@ ms.locfileid: "8882086"
 
 
 
-In questo articolo vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi che possono verificarsi durante l'impostazione iniziale dell'integrazione doppia scrittura.
+In questo articolo vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra le app per la finanza e le operazioni e Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi che possono verificarsi durante l'impostazione iniziale dell'integrazione doppia scrittura.
 
 > [!IMPORTANT]
 > Alcuni problemi che questo articolo tratta potrebbero richiedere il ruolo di amministratore di sistema o le credenziali di amministratore del tenant Microsoft Azure Active Directory (Azure AD). La sezione per ogni problema spiega se sono richiesti ruolo o credenziali specifici.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Non puoi collegare un'app per finanza e operazioni a Dataverse
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>Non puoi collegare un'app per la finanza e le operazioni a Dataverse
 
-**Ruolo richiesto per impostare la doppia scrittura**: Amministratore di sistema nelle app per finanza e operazioni e Dataverse.
+**Ruolo richiesto per impostare la doppia scrittura**: Amministratore di sistema nelle app per la finanza e le operazioni e Dataverse.
 
 Gli errori nella pagina **Impostazione del collegamento a Dataverse** sono generalmente causati da problemi di configurazione o permessi incompleti. Assicurarsi che l'intero controllo dello stato passi nella pagina **Impostazione del collegamento a Dataverse**, come mostrato nella figura seguente. Non è possibile collegare la doppia scrittura a meno che non venga superato l'intero controllo dello stato.
 
 ![Controllo dello stato riuscito.](media/health_check.png)
 
-È necessario avere le credenziali di amministratore del tenant Azure AD per il collegamento degli ambienti Finanza e operazioni e Dataverse. Dopo aver collegato gli ambienti, gli utenti possono accedere utilizzando le credenziali del proprio account e aggiornare una mappa della tabella esistente.
+È necessario avere le credenziali di amministratore del tenant Azure AD per il collegamento degli ambienti di finanza e operazioni e Dataverse. Dopo aver collegato gli ambienti, gli utenti possono accedere utilizzando le credenziali del proprio account e aggiornare una mappa della tabella esistente.
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Trovare il limite del numero di tavoli giuridici o società che possono essere collegate per la doppia scrittura
 
@@ -55,7 +55,7 @@ La doppia scrittura non supporta più persone giuridiche/società con lo stesso 
 
 Per sbloccare il cliente, rimuovi i record duplicati dalla tabella **cdm_company** in Dataverse. Inoltre, se la tabella **cdm_company** contiene dei record con nome vuoto, rimuovi o correggi questi record.
 
-## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Errore durante l'apertura della pagina Doppia scrittura nelle app per finanza e operazioni
+## <a name="error-when-opening-the-dual-write-page-in-finance-and-operations-apps"></a>Errore durante l'apertura della pagina Doppia scrittura nelle app per la finanza e le operazioni
 
 È possibile che venga visualizzato il seguente messaggio di errore quando si tenta di collegare un ambiente Dataverse per la doppia scrittura:
 
@@ -70,22 +70,23 @@ Questo errore si verifica quando il passaggio del consenso dell'app non è compl
     `https://login.microsoftonline.com/common/oauth2/authorize?client_id=33976c19-1db5-4c02-810e-c243db79efde&response_type=code&prompt=admin_consent`
 
 + Seleziona **Accetta** per fornire il consenso. Stai fornendo il consenso per installare l'app (con `id=33976c19-1db5-4c02-810e-c243db79efde`) nel tuo tenant.
-+ Questa app è necessaria perché Dataverse comunichi con le app per finanza e operazioni.
++ Questa app è necessaria perché Dataverse comunichi con le app per la finanza e le operazioni.
 
     ![Risoluzione dei problemi durante l'impostazione della sincronizzazione iniziale.](media/Initial-sync-setup-troubleshooting-1.png)
 
 > [!NOTE]
 > Se non funziona, avvia l'URL in modalità privata di Microsoft Edge o modalità in incognito di Chrome.
 
-## <a name="finance-and-operations-environment-is-not-discoverable"></a>L'ambiente Finanza e operazioni non è individuabile
+## <a name="finance-and-operations-environment-is-not-discoverable"></a>L'ambiente di finanza e operazioni non è individuabile
 
 Potrebbe essere visualizzato il seguente messaggio di errore:
 
-*Ambiente della appa Finanza e operazioni \*\*\*.cloudax.dynamics.com non rilevabile.*
+*Ambiente delle app per la finanza e le operazioni \*\*\*.cloudax.dynamics.com non rilevabile.*
 
 Ci sono due fattori che possono causare un problema con l'ambiente non individuabile:
 
-+ L'utente utilizzato per l'accesso non è nello stesso tenant dell'istanza di Finanza e operazioni.
-+ Ci sono alcune istanze di Finanza e operazioni legacy ospitate da Microsoft che hanno riscontrato un problema con l'individuazione. Per risolvere questo problema, aggiorna l'istanza di Finanza e operazioni. L'ambiente diventa individuabile con qualsiasi aggiornamento.
++ L'utente utilizzato per l'accesso non è nello stesso tenant dell'istanza di finanza e operazioni.
++ Ci sono alcune istanze di finanza e operazioni legacy ospitate da Microsoft che hanno riscontrato un problema con l'individuazione. Per risolvere questo problema, aggiorna l'istanza di finanza e operazioni. L'ambiente diventa individuabile con qualsiasi aggiornamento.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

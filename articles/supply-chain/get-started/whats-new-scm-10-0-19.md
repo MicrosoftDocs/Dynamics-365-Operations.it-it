@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1ea0f2dae2f558f1ee5c0d2b94a4b926263b7de7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: de9d20ba7ffc0bc5201ccafc2157a13983923249
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893412"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125024"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novità o modifiche introdotte in Dynamics 365 Supply Chain Management versione 10.0.19 (giugno 2021)
 
@@ -70,9 +70,9 @@ Abbiamo recentemente aggiunto o aggiornato in modo significativo i seguenti arti
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per app per finanza e operazioni
+### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per le app per la finanza e le operazioni
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.19 delle app per finanza e operazioni (giugno 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedere [Aggiornamenti della piattaforma per la versione 10.0.19 delle app per la finanza e le operazioni (giugno 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 
@@ -97,3 +97,4 @@ Per le modifiche significative che influiscono solo sui tempi di compilazione, m
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

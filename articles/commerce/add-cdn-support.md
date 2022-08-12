@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed8f66d447e1d9e890c0885fd20e9b55c66ac0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2177eeb6497269d580d2baea87ebb4fcd395223b
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855878"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069670"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Aggiungere il supporto per una rete per la distribuzione di contenuti (CDN)
 
@@ -101,7 +101,7 @@ Per impostare una regola di routing in Azure Front Door Service, effettuare le s
 
 
 > [!WARNING]
-> Se il dominio che utilizzerai è già attivo e live, crea un ticket di supporto dal riquadro **Supporto** in [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) per ottenere assistenza per i tuoi prossimi passaggi. Per altre informazioni, vedi [Ottenere supporto per le app per la finanza e le operazioni o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+> Se il dominio che utilizzerai è già attivo e live, crea un ticket di supporto dal riquadro **Supporto** in [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) per ottenere assistenza per i tuoi prossimi passaggi. Per altre informazioni, vedere [Ottenere supporto per le app per la finanza e le operazioni o Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 Se il dominio è nuovo e non è un dominio live preesistente, è possibile aggiungere il dominio personalizzato alla configurazione per il servizio Frontdoor di Azure. In questo modo il traffico Web verrà indirizzato verso il tuo sito tramite l'istanza Frontdoor di Azure. Per aggiungere il dominio personalizzato (ad esempio `www.fabrikam.com`), è necessario configurare un nome canonico (CNAME) per il dominio.
 

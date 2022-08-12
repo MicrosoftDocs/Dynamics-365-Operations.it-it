@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1407c6def22b9759723e49fb2fa6d4d68f180891
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860166"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109464"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -209,7 +209,7 @@ Quando si esegue la programmazione del processo di pulizia, i seguenti parametri
 ## <a name="job-history-clean-up-and-archival"></a>Pulizia e archiviazione della cronologia dei lavori 
 La funzionalità di pulizia e archiviazione della cronologia dei processi sostituisce le versioni precedenti della funzionalità di pulizia. Questa sezione spiegherà queste nuove funzionalità.
 
-Una delle principali modifiche alla funzionalità di pulizia è l'uso del processo batch di sistema per la pulizia dello storico. L'utilizzo del processo batch di sistema consente alle app per finanza e operazioni di pianificare ed eseguire automaticamente il processo batch di pulizia non appena il sistema è pronto. Non è più necessario pianificare manualmente il processo batch. In questa modalità di esecuzione predefinita, il processo batch verrà eseguito ogni ora a partire dalla mezzanotte e conserverà lo storico delle esecuzioni per i 7 giorni più recenti. Lo storco eliminato viene archiviato per il recupero futuro. A partire dalla versione 10.0.20, questa funzionalità è sempre attiva.
+Una delle principali modifiche alla funzionalità di pulizia è l'uso del processo batch di sistema per la pulizia dello storico. L'utilizzo del processo batch di sistema consente alle app per la finanza e le operazioni di pianificare ed eseguire automaticamente il processo batch di pulizia non appena il sistema è pronto. Non è più necessario pianificare manualmente il processo batch. In questa modalità di esecuzione predefinita, il processo batch verrà eseguito ogni ora a partire dalla mezzanotte e conserverà lo storico delle esecuzioni per i 7 giorni più recenti. Lo storco eliminato viene archiviato per il recupero futuro. A partire dalla versione 10.0.20, questa funzionalità è sempre attiva.
 
 La seconda modifica nel processo di pulizia è l'archiviazione dello storico esecuzione eliminato. Il processo di pulizia archivierà i record eliminati nell'archiviazione BLOB che DIXF utilizza per le integrazioni regolari. Il file archiviato sarà nel formato del pacchetto DIXF e sarà disponibile per 7 giorni nel BLOB durante il quale potrà essere scaricato. La longevità predefinita di 7 giorni per il file archiviato può essere modificata fino a un massimo di 90 giorni nei parametri.
 
@@ -235,3 +235,4 @@ Per scaricare lo storico esecuzione archiviata, andare all'area di lavoro della 
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

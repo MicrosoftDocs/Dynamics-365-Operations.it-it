@@ -1,6 +1,6 @@
 ---
 title: Panoramica consulente dell'ottimizzazione
-description: In questo articolo viene descritto come utilizzare il consulente dell'ottimizzazione per garantire la configurazione ottimale di Finance and Operations.
+description: In questo articolo viene descritto come utilizzare il consulente dell'ottimizzazione per garantire la configurazione ottimale delle app per la finanza e le operazioni.
 author: roxanadiaconu
 ms.date: 07/23/2019
 ms.topic: overview
@@ -15,18 +15,18 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 1dd66e27098b4125b03c4fe6b52825afe2ff34cf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fb71453c37572c4956d98d4309d3526a7fbc1124
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865863"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109042"
 ---
 # <a name="optimization-advisor-overview"></a>Panoramica consulente dell'ottimizzazione
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene descritto come utilizzare il consulente dell'ottimizzazione per garantire la configurazione ottimale di Finance and Operations.
+In questo articolo viene descritto come utilizzare il consulente dell'ottimizzazione per garantire la configurazione ottimale delle app per la finanza e le operazioni.
 
 ## <a name="overview"></a>Panoramica
 
@@ -44,7 +44,7 @@ I criteri di sicurezza standard si applicano alle opportunità di ottimizzazione
 
 Quando si intraprendono azioni in relazione alle opportunità di ottimizzazione, il sistema calcola l'impatto dell'opportunità in termini di riduzione nel runtime dei processi aziendali. Purtroppo, questa funzionalità non è disponibile per tutte le opportunità di ottimizzazione.
 
-Per ulteriori informazioni sul consulente dell'ottimizzazione, guardare il breve video [Consulente dell'ottimizzazione in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
+Per altre informazioni sul consulente dell'ottimizzazione, guardare il breve video [Consulente dell'ottimizzazione in Dynamics 365 Finance](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
 
 ## <a name="optimization-rules"></a>Regole di ottimizzazione
 
@@ -90,7 +90,7 @@ Per disattivare la valutazione di regole specifiche, selezionare l'opportunità 
 
 [Creare regole per il consulente dell'ottimizzazione](./create-rules-optimization-advisor.md)
 
-[Consulente dell'ottimizzazione in Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+[Consulente dell'ottimizzazione in Dynamics 365 Finance (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

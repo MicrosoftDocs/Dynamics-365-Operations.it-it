@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65f7a642d3b2c2ddfca1e2d92570b49ef2f8c2b4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869259"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109582"
 ---
 # <a name="electronic-reporting-er-overview"></a>Panoramica dei report elettronici
 
@@ -66,7 +66,7 @@ ER attualmente supporta i formati di foglio di lavoro TEXT, XML, JSON, PDF, Micr
 
 Il motore ER presenta le seguenti funzionalità:
 
-- Rappresenta un unico strumento condiviso per la creazione di report elettronici in diversi domini e sostituisce più di 20 differenti motori impiegati in vari tipi di creazione di report elettronici per Finance and Operations.
+- Rappresenta un unico strumento condiviso per la creazione di report elettronici in diversi domini e sostituisce più di 20 differenti motori impiegati in vari tipi di creazione di report elettronici per la finanza e le operazioni.
 - Isola il formato di un report dall'implementazione corrente. (In altre parole, il formato è applicabile per le diverse versioni).
 - Supporta la creazione di un formato personalizzato basato su un formato originale. Include inoltre funzionalità per aggiornare automaticamente il formato personalizzato quando vengono apportate modifiche al formato originale a causa dei requisiti di localizzazione/personalizzazione.
 - Diventa lo strumento standard principale per il supporto dei requisiti di localizzazione nella creazione di report elettronici, sia per Microsoft che per i partner Microsoft.
@@ -126,7 +126,7 @@ Una configurazione ER è condivisa per le società dell'applicazione.
 
 #### <a name="provider"></a><a name="Provider"></a>Provider
 
-Il provider ER è l'identificatore della parte che viene utilizzato per indicare l'autore (proprietario) di ciascuna configurazione ER. ER consente di gestire l'elenco di provider di configurazione. Le configurazioni di formato rilasciate per documenti elettronici come parte della soluzione Finance and Operations sono contrassegnate come di proprietà del provider di configurazione **Microsoft**.
+Il provider ER è l'identificatore della parte che viene utilizzato per indicare l'autore (proprietario) di ciascuna configurazione ER. ER consente di gestire l'elenco di provider di configurazione. Le configurazioni di formato rilasciate per documenti elettronici come parte della soluzione Finanza e operazioni sono contrassegnate come di proprietà del provider di configurazione **Microsoft**.
 
 Per informazioni sulla modalità di registrazione di un nuovo provider ER, riprodurre la Guida attività, **Creazione di report elettronici: creare e attivare un provider di configurazione** (parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)** ).
 
@@ -143,7 +143,7 @@ In un archivio ER sono archiviate le configurazioni di ER. Attualmente sono supp
 
 Un archivio **Libreria condivisa LCS** consente di accedere all'elenco di configurazioni nella libreria di risorse condivise in Lifecycle Services. Questo tipo di archivio ER può essere registrato solo per i fornitori di Microsoft. Nella libreria di risorse condivise LCS è possibile importare le ultime versioni delle configurazioni ER nell'istanza corrente.
 
-L'archivio **Progetto LCS** consente l'accesso all'elenco delle configurazioni di un determinato progetto LCS (raccolta risorse di progetto LCS) selezionato durante la registrazione dell'archivio. Creazione report elettronici (ER) consente di caricare le configurazioni condivise dall'istanza corrente in uno specifico archivio **Progetto LCS**. È possibile importare configurazioni anche da un archivio **Progetto LCS** nell'istanza corrente delle app Finance and Operations.
+L'archivio **Progetto LCS** consente l'accesso all'elenco delle configurazioni di un determinato progetto LCS (raccolta risorse di progetto LCS) selezionato durante la registrazione dell'archivio. Creazione report elettronici (ER) consente di caricare le configurazioni condivise dall'istanza corrente in uno specifico archivio **Progetto LCS**. È possibile importare configurazioni anche da un archivio **Progetto LCS** nell'istanza corrente delle app per la finanza e le operazioni.
 
 Un archivio **File system** consente di accedere all'elenco delle configurazioni presenti come file xml nella cartella specifica del file system locale del computer in cui il servizio AOS è ospitato. La cartella richiesta viene selezionata durante la fase di registrazione dell'archivio. È possibile importare configurazioni da un archivio **File system** nell'istanza corrente. 
 
@@ -270,3 +270,4 @@ L'elenco delle configurazioni di report elettronici per Finance viene costanteme
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

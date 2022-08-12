@@ -1,6 +1,6 @@
 ---
 title: Risoluzione dei problemi generali
-description: In questo articolo vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse.
+description: In questo articolo vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra le app per la finanza e le operazioni e Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 04/18/2022
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 620f6f999859eff0ccd8aeb1cff12ddd56fa9926
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2f263e331d23ce0ddf60a4abc2467513aa342445
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853657"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112366"
 ---
 # <a name="general-troubleshooting"></a>Risoluzione dei problemi generali
 
@@ -22,7 +22,7 @@ ms.locfileid: "8853657"
 
 
 
-In questo articolo vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra Finanza e operazioni e Dataverse.
+In questo articolo vengono fornite informazioni generale sulla risoluzione dei problemi di integrazione della doppia scrittura tra le app per la finanza e le operazioni e Dataverse.
 
 > [!IMPORTANT]
 > Alcuni problemi che questo articolo tratta potrebbero richiedere il ruolo di amministratore di sistema o le credenziali di amministratore del tenant Microsoft Azure Active Directory (Azure AD). La sezione per ogni problema spiega se sono richiesti ruolo o credenziali specifici.
@@ -55,28 +55,28 @@ Per visualizzare il log di traccia, effettuare le seguenti operazioni.
 
 Puoi copiare il contenuto dei log di traccia e incollarlo in un'altra applicazione come Blocco note o altri strumenti per visualizzare registri o file di testo per visualizzare più facilmente tutto il contenuto. 
 
-## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Abilitare la modalità debug per risolvere i problemi di sincronizzazione in tempo reale nelle app per finanza e operazioni
+## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Abilitare la modalità debug per risolvere i problemi di sincronizzazione in tempo reale nelle app per la finanza e le operazioni
 
 **Ruolo richiesto per visualizzare gli errori:** amministratore di sistema
 
-Gli errori di doppia scrittura che hanno origine in Dataverse possono apparire nell'app per finanza e operazioni. Per abilitare la registrazione dettagliata degli errori, segui questi passaggi:
+Gli errori di doppia scrittura che hanno origine in Dataverse possono apparire nell'app per la finanza e le operazioni. Per abilitare la registrazione dettagliata degli errori, segui questi passaggi:
 
-1. Per tutte le configurazioni del progetto nelle app per finanza e operazioni è presente un flag **IsDebugMode** nella tabella **DualWriteProjectConfiguration**.
-2. Apri la tabella **DualWriteProjectConfiguration** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilita la modalità di progettazione nel componente aggiuntivo di Excel di Finanza e operazioni e aggiungi la tabella **DualWriteProjectConfiguration** al foglio. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
+1. Per tutte le configurazioni del progetto nelle app per la finanza e le operazioni è presente un flag **IsDebugMode** nella tabella **DualWriteProjectConfiguration**.
+2. Apri la tabella **DualWriteProjectConfiguration** utilizzando il componente aggiuntivo di Excel. Per utilizzare il componente aggiuntivo, abilita la modalità di progettazione nel componente aggiuntivo di Excel di finanza e operazioni e aggiungi la tabella **DualWriteProjectConfiguration** al foglio. Per ulteriori informazioni, vedi [Visualizzare e aggiornare i dati entità con Excel](../../office-integration/use-excel-add-in.md).
 3. Imposta **IsDebugMode** su **Sì** nel progetto.
 4. Esegui lo scenario che genera errori.
 5. I log dettagliati sono archiviati nella tabella **DualWriteErrorLog**.
 6. Per cercare i dati sul browser della tabella, utilizza il seguente collegamento: `https://999aos.cloudax.dynamics.com/?mi=SysTableBrowser&tableName=DualWriteErrorLog`, sostituendo `999` come necessario.
 7. Aggiorna di nuovo dopo [KB 4595434](https://fix.lcs.dynamics.com/Issue/Details?kb=4595434&bugId=527820&dbType=3&qc=98e5dc124ac125c57ad633d885ac612aea3ddb8f4abf9d71ab3aa354f2e06cbe), disponibile per gli aggiornamenti della piattaforma 37 e successivi. Se hai installato questa correzione, la modalità di debug acquisirà più registri.  
 
-## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Controllare gli errori di sincronizzazione sulla macchina virtuale per l'app per finanza e operazioni
+## <a name="check-synchronization-errors-on-the-virtual-machine-for-the-finance-and-operations-app"></a>Controllare gli errori di sincronizzazione sulla macchina virtuale per l'app per la finanza e le operazioni
 
 **Ruolo richiesto per visualizzare gli errori:** amministratore di sistema
 
 1. Accedere a Microsoft Dynamics Lifecycle Services (LCS).
 2. Aprire il progetto LCS per cui si è scelto di eseguire il test di doppia scrittura.
 3. Selezionare il riquadro **Distribuzione ambienti ospitati nel cloud**.
-4. Usare Remote Desktop per accedere alla macchina virtuale (VM) per l'app per finanza e operazioni. Utilizzare l'account locale mostrato in LCS.
+4. Usare Remote Desktop per accedere alla macchina virtuale (VM) per l'app per la finanza e le operazioni. Utilizzare l'account locale mostrato in LCS.
 5. Aprire il visualizzatore eventi.
 6. Selezionare **Registri applicazioni e servizi \> Microsoft \> Dynamics \> AX-DualWriteSync \> Operativo**.
 7. Rivedere l'elenco degli errori recenti.
@@ -109,11 +109,11 @@ I cookie di terze parti devono essere consentiti nelle impostazioni del browser.
 1.  Vai in Impostazioni -> Autorizzazioni sito -> Cookie e dati del sito.
 2.  Disattiva "Blocca cookie di terze parti".  
 
-## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Scollega e collega un altro ambiente Dataverse da un'app per finanza e operazioni
+## <a name="unlink-and-link-another-dataverse-environment-from-a-finance-and-operations-app"></a>Scollega e collega un altro ambiente Dataverse da un'app per la finanza e le operazioni
 
-**Ruolo richiesto per scollegare l'ambiente**: amministratore di sistema per l'app per finanza e operazioni o Dataverse.
+**Ruolo richiesto per scollegare l'ambiente**: amministratore di sistema per l'app per la finanza e le operazioni o Dataverse.
 
-1. Accedere all'app per finanza e operazioni.
+1. Accedere all'app per la finanza e le operazioni.
 2. Andare a **Aree di lavoro \>Gestione dei dati** e selezionare il riquadro **Doppia scrittura**.
 3. Selezionare tutti i mapping in esecuzione e scegliere **Interrompi**.
 4. Selezionare **Scollega ambiente**.
@@ -174,3 +174,4 @@ Il team di supporto potrebbe dover esaminare le tracce di rete per risolvere alc
 4. Seleziona **Salva** per esportare i risultati come HAR.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

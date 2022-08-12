@@ -6,21 +6,22 @@ ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
-ms.custom: 68873
-ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e175d1e3de1f5db31de9c4600c8a5935f0cb11a9d39bc0f4e142edf5fc00ce86
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.custom:
+- "68873"
+ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
+ms.search.form: FinancialReports
+ms.openlocfilehash: a60e66c372d85cc05219eaa17b7924aca5f3f337
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745914"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206320"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Definizioni di riga in Progettazione report finanziari
 
@@ -42,7 +43,7 @@ Una definizione di riga è un componente di report, o blocco predefinito, che sp
 Una definizione di riga può contenere fino a 20.000 righe di dimensione finanziaria e includere le seguenti informazioni:
 
 - Testo descrittivo che aggiunge significato al report creando intestazioni di sezione, righe e spazi, ad esempio **Contante** o **Totale ricavi**.
-- Collegamenti ai dati finanziari che possono includere valori di dimensione del sistema Microsoft Dynamics 365 Finance
+- Collegamenti a dati finanziari, che possono includere valori di dimensione in Microsoft Dynamics 365 Finance.
 
     > [!NOTE]
     > È possibile impostare una definizione di riga per il recupero dei dati dal sistema di dimensioni finanziarie ogni volta che viene generato il report.

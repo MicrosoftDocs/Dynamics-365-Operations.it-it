@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7ef3be13e82ff3722fc81247b5cd581b0b571b0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 91078352b6376ee99e7d9ce4546ed200cb80a25a
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876126"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135845"
 ---
 # <a name="posting-profiles-overview"></a>Panoramica dei profili di registrazione
 
-Nelle app Finance and Operations, il termine *profili di registrazione* viene utilizzato per descrivere le configurazioni che controllano il modo in cui i conti del giornale d registrazione secondario vengono convertiti in conti principali in modo che possano essere utilizzati nelle transazioni registrate nella contabilità generale. Ad esempio, controllano il modo in cui il cliente viene convertito in un conto principale Contabilità clienti quando viene registrata una fattura.
+Nelle app per la finanza e le operazioni, il termine *profili di registrazione* viene utilizzato per descrivere le configurazioni che controllano il modo in cui i conti del giornale d registrazione secondario vengono convertiti in conti principali in modo che possano essere utilizzati nelle transazioni registrate nella contabilità generale. Ad esempio, controllano il modo in cui il cliente viene convertito in un conto principale Contabilità clienti quando viene registrata una fattura.
 
 Alcuni moduli e funzionalità hanno una pagina che include le parole "profilo di registrazione" nel nome (ad esempio, **Profilo di registrazione cliente** o **Profilo di registrazione fornitore**). Inoltre, alcuni moduli hanno più opzioni per la configurazione della registrazione contabile per le transazioni generate dal giornale di registrazione secondario. Ad esempio, nel modulo **Controllo produzione** puoi impostare la registrazione per gruppo di produzione, risorsa o gruppo di risorse.
 
@@ -34,7 +34,7 @@ Prima di poter configurare i profili di registrazione, le definizioni di registr
 
 ## <a name="posting-types"></a>Tipi di registrazione
 
-Nelle app Finance and Operations, un tipo di registrazione viene utilizzato per definire una categoria generale per un debito o un credito. Questa categoria è indipendente dal conto principale nella contabilità generale. Esistono tipi di registrazione per ogni addebito o accredito nella contabilità generale.
+Nelle app per la finanza e le operazioni, un tipo di registrazione viene utilizzato per definire una categoria generale per un debito o un credito. Questa categoria è indipendente dal conto principale nella contabilità generale. Esistono tipi di registrazione per ogni addebito o accredito nella contabilità generale.
 
 Un singolo giustificativo può avere uno o più tipi di registrazione. Ad esempio, una transazione registrata tramite un giornale di registrazione generale in cui il conto e il conto di contropartita sono impostati su **Contabilità generale** avrà un tipo di registrazione **Giornale di registrazione contabile** sia per il debito che per il credito. Al contrario, una fattura fornitore avrà più tipi di registrazione. Questi tipi di registrazione includeranno una riga per il saldo fornitore e righe aggiuntive per il movimento di contropartita, ad esempio **Giornale di registrazione contabile**.
 
@@ -111,13 +111,14 @@ Molti moduli in Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dyna
 - Registrazione di gestione spese (presto disponibile)
 - [Profilo registrazione cespiti](../fixed-assets/tasks/set-up-fixed-asset-posting-profiles.md)
 - Registrazione contabile interaziendale (presto disponibile)
-- Profilo di registrazione dell'inventario (presto disponibile)
+- [Registrazione magazzino](inventory-posting.md)
 - [Registrazione costi di spedizione](../../supply-chain/landed-cost/costing-parameters-setup.md)
 - [Panoramica delle definizioni di registrazione](posting-definitions.md)
-- Registrazione del controllo produzione (presto disponibile)
+- [Registrazione produzione](production-posting.md)
 - Registrazione gestione progetti e contabilità (presto disponibile)
 - Registrazione di gestione servizi (presto disponibile)
 - Registrazione delle imposte (presto disponibile)
 - Registrazione orari e presenze (presto disponibile)
 - Registrazione di gestione trasporti (presto disponibile)
 - Profili di registrazione per la gestione degli sconti (presto disponibile)
+

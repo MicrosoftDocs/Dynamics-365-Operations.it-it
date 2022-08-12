@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 50392e8aa0deb568a57e1df59ced70625a4f8a78
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 939066fbf4ab7b316283d406c321f1a7936c187f
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856050"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066548"
 ---
 # <a name="batch-balancing"></a>Bilanciamento del batch
 
@@ -165,22 +165,22 @@ Nel processo secondario Bilancia ingredienti batch, la quantità di ingredienti 
 
 ### <a name="confirm-and-release-the-formula"></a>Confermare e rilasciare la formula
 
-Dopo che le quantità di ingredienti sono state calcolate, è possibile confermare e rilasciare la formula. Il processo di rilascio varia a seconda che i prodotti siano attivati per i processi di gestione magazzino:
+Dopo che le quantità di ingredienti sono state calcolate, è possibile confermare e rilasciare la formula. Il processo di rilascio varia a seconda che i prodotti siano abilitati o meno per i processi di gestione del magazzino (WMS):
 
-- Se un prodotto è attivato per i processi di gestione magazzino, la riga della formula viene rilasciata al magazzino in base ai principi per i processi di gestione magazzino. La riga della formula viene rilasciata in quantità corrispondenti alle quantità rilasciate e viene rilasciata per i batch specifici selezionati per i principi attivi.
+- Se un prodotto è abilitato per WMS, la riga della formula viene rilasciata al magazzino in base ai principi previsti per WMS. La riga della formula viene rilasciata in quantità corrispondenti alle quantità rilasciate e viene rilasciata per i batch specifici selezionati per i principi attivi.
 
     > [!NOTE]
     > Le righe della formula possono essere rilasciate al magazzino solo come parte del processo di bilanciamento del batch. Anche se sono presenti altre opzioni per il rilascio di materiali per la produzione al magazzino, queste opzioni non possono essere utilizzate per le righe della formula.
 
-- Se un prodotto non è attivato per i processi di gestione magazzino, una distinta di prelievo di produzione viene creata per il prodotto quando si conferma e si rilascia la formula.
+- Se un prodotto non è abilitato per WMS, nel momento in cui si conferma e rilascia la formula viene creata una distinta di prelievo per il prodotto in questione.
 
-In un'unica formula, è possibile combinare i prodotti attivati per i processi di gestione magazzino e i prodotti che non sono attivati per tali processi. Quando i due tipi di prodotti sono inclusi in una formula, i prodotti attivati per i processi di gestione magazzino vengono rilasciati al magazzino. Per i prodotti non attivati per i processi di gestione magazzino, una distinta di prelievo viene creata quando si conferma e si rilascia la formula.
+In un'unica formula, è possibile combinare i prodotti attivati per i processi di gestione del magazzino e i prodotti che non sono attivati per tali processi. Se si includono entrambi i tipi di prodotti in una sola formula, i prodotti abilitati per WMS vengono rilasciati al magazzino. Per i prodotti non abilitati per WMS, nel momento in cui si conferma e rilascia la formula viene creata una distinta di prelievo.
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Ordini batch non applicabili al bilanciamento del batch
 
 Esistono due eccezioni alla regola in base alla quale gli ordini batch sono applicabili al bilanciamento del batch se la formula dispone di almeno una riga della formula in cui il **tipo di ingrediente** è *Attivo*.
 
-1. Se una formula contiene un principio attivo per un prodotto attivato per i processi di gestione magazzino, ma il numero batch è sotto il percorso nella gerarchia prenotazioni, l'ordine batch non è applicabile al bilanciamento del batch.
+1. Se la formula contiene un principio attivo per un prodotto abilitato per WMS, ma il numero di batch è sotto il percorso nella gerarchia prenotazioni, l'ordine batch non è applicabile per il bilanciamento del batch.
 1. Se l'unità di misura della formula è diversa dall'unità di misura dell'inventario del principio attivo, l'ordine batch non è applicabile per il bilanciamento del batch.
 
 Un ordine batch non applicabile al bilanciamento del batch viene sottoposto al ciclo di lavorazione standard per gli ordini batch.

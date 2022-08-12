@@ -14,18 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d13372d8cc1f1f0f1407ea69bee4f98ae5065c2
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6fc44b52e2f7662fc6be609562cec903a8755d1b
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9015348"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178505"
 ---
 # <a name="provision-human-resources"></a>Effettuare il provisioning di Human Resources
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Si applica a**: Human Resources nell'infrastruttura autonoma_ 
 
-
+> [!NOTE]
+> A partire da giugno 2022, gli ambienti Human Resources possono essere distribuiti solo nell'infrastruttura delle app per la finanza e le operazioni. Per ulteriori informazioni, vedere [Provisioning di Human Resources nell'infrastruttura di finanza e operazioni](hr-admin-setup-provision-fo.md).
 
 Questo articolo spiega il processo di approvvigionamento di un nuovo ambiente di produzione per Microsoft Dynamics 365 Human Resources. 
 
@@ -40,14 +41,14 @@ Prima di iniziare il provisioning di un nuovo ambiente di produzione, i seguenti
 ## <a name="provision-a-human-resources-trial-environment"></a>Effettuare il provisioning di un ambiente di valutazione per Human Resources
 
 >[!NOTE]
-> A partire da aprile 2022, gli ambienti di prova di Human Resources non saranno disponibili nell'applicazione autonoma. I potenziali clienti interessati a valutare le funzionalità di Human Resources all'interno delle app per la finanza e le operazioni possono farlo utilizzando la versione di prova gratuita di 30 giorni insieme ai dati demo. Dynamics 365 Finance includerà le funzionalità di Human Resources introdotte nell'infrastruttura di Finance tramite l'unione dell'applicazione autonoma. Per ulteriori informazioni, vedi [L'unione delle offerte per le risorse umane unisce le capacità dei clienti](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers) Per ulteriori informazioni sulle versioni di prova di Dynamics 365 Finance, consulta la [guida](../fin-ops-core/fin-ops/get-started/before-you-buy.md) dettagliata. 
+> A partire da aprile 2022, gli ambienti di prova di Human Resources non saranno disponibili nell'applicazione autonoma. I potenziali clienti interessati a valutare le funzionalità di Human Resources all'interno delle app per la finanza e le operazioni possono farlo utilizzando la versione di valutazione gratuita di 30 giorni insieme ai dati demo. Dynamics 365 Finance includerà le funzionalità di Human Resources introdotte nell'infrastruttura di Finance tramite l'unione dell'applicazione autonoma. Per ulteriori informazioni, vedere[L'unione delle offerte per HR riunisce le funzionalità per i clienti](https://cloudblogs.microsoft.com/dynamics365/it/2021/09/15/merging-of-hr-offerings-brings-capabilities-together-for-customers). Per ulteriori informazioni sulle versioni di valutazione di Dynamics 365 Finance, consultare la [guida dettagliata](../fin-ops-core/fin-ops/get-started/before-you-buy.md). 
 
 
 Prima di eseguire il provisioning del tuo primo ambiente di produzione o sandbox, potresti voler eseguire il provisioning di un [Ambiente di valutazione di Human Resources](https://go.microsoft.com/fwlink/p/?LinkId=2115962) per convalidare la funzionalità di Human Resources. Gli ambienti di prova contengono dati fittizi che possono essere utilizzati per esplorare il programma in modo sicuro. Sebbene un ambiente di prova sia di proprietà dell'utente che lo ha richiesto, altri utenti possono essere invitati tramite l'esperienza di amministrazione del sistema per l'ambiente Human Resources. 
 
-Gli ambienti di prova offrono la possibilità di valutare la funzionalità delle risorse umane per le persone che non hanno già accesso a un ambiente Human Resources. Se stai effettuando il provisioning di un ambiente di valutazione e l'utente autenticato ha già accesso a uno o più ambienti Human Resources esistenti, l'utente verrà reindirizzato all'ambiente esistente o all'elenco di ambienti.
+Gli ambienti di prova permettono di valutare la funzionalità delle risorse umane per le persone che non hanno già accesso a un ambiente Human Resources. Se stai effettuando il provisioning di un ambiente di valutazione e l'utente autenticato ha già accesso a uno o più ambienti Human Resources esistenti, l'utente verrà reindirizzato all'ambiente esistente o all'elenco di ambienti.
 
-Gli ambienti di valutazione non sono destinati all'utilizzo come ambienti di produzione. Sono limitati a un periodo di valutazione di 30 giorni. Quando un periodo di valutazione scade, l'ambiente e tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. L'ambiente non può essere convertito in sandbox o ambiente di produzione. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
+Gli ambienti di valutazione non sono destinati all'utilizzo come ambienti di produzione. Sono limitati a un periodo di valutazione di 30 giorni. Quando un periodo di valutazione scade, l'ambiente e tutti i dati in esso contenuti verranno cancellati e non potranno essere recuperati. L'ambiente non può essere convertito in ambiente sandbox o di produzione. È possibile registrarsi per un nuovo ambiente di prova dopo che l'ambiente esistente è scaduto.
 
 Quando si crea un ambiente di prova Human Resources, viene creato anche un ambiente di prova Power Apps sul tenant e collegato all'ambiente Human Resources. L'ambiente Power Apps, denominato "TestDrive", ha lo stesso periodo di prova dell'ambiente Human Resources.
 
@@ -60,10 +61,10 @@ Prima di creare il primo ambiente Human Resources, è necessario pianificare att
 
 Considerazioni per altri ambienti:
 
-- **Migrazione dei dati**: potresti dover considerare un ambiente aggiuntivo per le attività di migrazione dei dati per consentire l'utilizzo del tuo ambiente sandbox a scopo di test durante il progetto. Avere un ambiente aggiuntivo consente alle attività di migrazione dei dati di continuare mentre le attività di test e la configurazione si verificano simultaneamente in un ambiente diverso.
-- **Integrazione**: potresti dover considerare un ambiente aggiuntivo per configurare e testare le integrazioni. Ciò potrebbe includere integrazioni native come le integrazioni Ceridian Dayforce o LinkedIn Talent Hub o integrazioni personalizzate come quelle per le buste paga, i sistemi di tracciamento dei candidati o i sistemi di benefit e i fornitori.
+- **Migrazione dei dati**: le attività di migrazione dei dati consentono di usare l'ambiente sandbox a scopo di test durante il progetto. Avere un ambiente aggiuntivo consente alle attività di migrazione dei dati di continuare mentre le attività di test e la configurazione si verificano simultaneamente in un ambiente diverso.
+- **Integrazione**: configurazione e test delle integrazioni, che potrebbe includere integrazioni native, come Ceridian Dayforce, o personalizzate.
 - **Formazione**: potrebbe essere necessario un ambiente separato configurato con una serie di dati di formazione per formare i dipendenti sull'uso del nuovo sistema. 
-- **Progetto multifase**: potrebbe essere necessario un ambiente aggiuntivo per supportare la configurazione, la migrazione dei dati, il test o altre attività in una fase del progetto pianificata dopo la fase operativa iniziale del progetto.
+- **Progetto multifase**: supporto della configurazione, della migrazione dei dati, del test o di altre attività in una fase del progetto pianificata dopo la fase operativa iniziale del progetto.
 
  > [!IMPORTANT]
  > Mentre consideri il tuo ambiente, ti raccomandiamo quanto segue:
@@ -111,7 +112,7 @@ Dopo avere creato un progetto LCS, è possibile eseguire il provisioning di Huma
 
 6. Selezionare **Sì** per accettare le condizioni e iniziare la distribuzione.
 
-   Il nuovo ambiente appare nell'elenco di ambienti nel riquadro di navigazione a sinistra. Tuttavia, non è possibile iniziare a utilizzare l'ambiente prima che lo stato di distribuzione sia stato aggiornato a **Distribuito**. Questo processo richiede in genere alcuni minuti. Se il processo di approvvigionamento ha esito negativo, è necessario contattare il Supporto tecnico.
+   Il nuovo ambiente appare nell'elenco di ambienti nel riquadro di navigazione a sinistra. Tuttavia, non è possibile iniziare a utilizzare l'ambiente prima che lo stato di distribuzione sia **Distribuito**. Questo processo richiede in genere alcuni minuti. Se il processo di approvvigionamento ha esito negativo, contattare il Supporto tecnico.
 
 7. Selezionare **Accesso a Human Resources** per utilizzare il nuovo ambiente.
 
@@ -140,7 +141,7 @@ Utilizzare le seguenti linee guida per la determinazione dell'ambiente Power App
    
     - **Aree geografiche non supportate** - L'ambiente deve essere in un'area geografica supportata. Per ulteriori informazioni, vedere [Aree geografiche supportate](hr-admin-setup-provision.md#supported-geographies).
 
-6. Funzionalità di doppia scrittura per l'integrazione dei dati di Human Resources con l'ambiente Power Apps può essere utilizzato solo se l'opzione **Abilita app Dynamics 365** è selezionata per l'ambiente. Vedi [Home page doppia scrittura](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) per ulteriori informazioni sulla doppia scrittura.
+6. Funzionalità di doppia scrittura per l'integrazione dei dati di Human Resources con l'ambiente Power Apps può essere utilizzato solo se l'opzione **Abilita app Dynamics 365** è selezionata per l'ambiente. Per ulteriori informazioni, vedere [Home page della doppia scrittura](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md).
 
     > [!NOTE]
     > L'opzione **Abilita app Dynamics 365** deve essere selezionata al momento della creazione dell'ambiente Power Apps. Se l'opzione non è selezionata al momento del provisioning, non sarai in grado di utilizzare la doppia scrittura per integrare i dati tra Dynamics 365 Human Resources e l'ambiente Power Apps o installare le app Dynamics 365 come Dynamics 365 Sales e Field Service nell'ambiente. Questa opzione non è reversibile. 
@@ -175,3 +176,4 @@ Per impostazione predefinita, l'accesso è consentito solo all'amministratore gl
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f150c87b6d4e6575bc61a8f36bdf344ebba9c571
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f57e995dfcc04de8384d15f238c45290b3c3cbd
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879281"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067618"
 ---
 # <a name="integration-with-finance-faq"></a>Domande frequenti sull'integrazione con Finance
 
@@ -88,7 +88,7 @@ Non è necessaria alcuna impostazione speciale per la gestione delle eccezioni. 
 
 ## <a name="can-i-set-up-bi-directional-integration"></a>È possibile configurare l'integrazione bidirezionale?
 
-No, l'integrazione è attualmente unidirezionale (da Human Resources a Finanza e operazioni). Tuttavia, è disponibile un modello predefinito per l'invio di dati da Human Resources a Finance.
+No, l'integrazione è attualmente unidirezionale (da Human Resources a finanza e operazioni). Tuttavia, è disponibile un modello predefinito per l'invio di dati da Human Resources a Finance.
 
 ## <a name="can-i-allow-record-deletion-as-part-of-my-integration"></a>Posso consentire l'eliminazione dei record nell'integrazione?
 
@@ -118,7 +118,7 @@ I motivi di questo errore possono includere:
 
 - Il trasferimento di dati ha generato l'estrazione di record duplicati all'origine (Dataverse).
 
-- Il trasferimento di dati ha valori nulli per i campi necessari in Finanza e operazioni. Verificare i dati in Dataverse e soddisfare i requisiti di Finanza e operazioni.
+- Il trasferimento di dati ha valori nulli per i campi necessari in finanza e operazioni. Verificare i dati in Dataverse e soddisfare i requisiti di Finanza e operazioni.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Se sono presenti errori di esecuzione e l'ID dipendente non è stato sincronizzato, come è possibile trovare lo storico processi che include il record dipendente con l'errore?
 
@@ -150,7 +150,7 @@ Se l'entità è supportata e i dati sono disponibili in Dataverse, verificare ch
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>Gli indirizzi dei dipendenti risultano non corretti dopo l'importazione degli stessi in Finance. Cosa fare?
 
-La sequenza numerica di **ID ubicazione** utilizza lo stesso modello sia in Human Resources, sia in Finance. La sequenza numerica deve essere univoca su entrambi i lati di modo che non vi siano conflitti durante l'integrazione di dati da Dataverse in Finanza e operazioni.
+La sequenza numerica di **ID ubicazione** utilizza lo stesso modello sia in Human Resources, sia in Finance. La sequenza numerica deve essere univoca su entrambi i lati di modo che non vi siano conflitti durante l'integrazione di dati da Dataverse in finanza e operazioni.
 
 Durante l'implementazione di Human Resources, verificare che le sequenze numeriche non siano le stesse in Human Resources e in Finance. Verificare che tutte le sequenze numeriche non siano identiche quando i dati possono essere gestiti in entrambi i sistemi.
 
@@ -184,3 +184,4 @@ Aggiornare le entità di dati in Finance selezionando **Gestione dati \> Paramet
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

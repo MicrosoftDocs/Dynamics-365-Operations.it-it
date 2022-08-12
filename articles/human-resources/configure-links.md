@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-29-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0c9efae1061e96c0c42d5ca6a100bb36889ce56b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9640f460ed7b0b1a0cfdffb7c318bf833f8627fc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8859668"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065295"
 ---
 # <a name="create-links-from-human-resources-to-another-finance-environment"></a>Creare collegamenti da Human Resources a un altro ambiente Finance
 
@@ -53,7 +53,7 @@ Ogni collegamento creato conterrà le seguenti informazioni definite:
 
    Per trovare la voce di menu richiesta:
    1. Andare all'ambiente Finance e aprire la pagina che corrisponde alla destinazione dello spostamento. 
-   2. Copiare la voce di menu dall'URL. Ad esempio, se si desidera che il collegamento porti all'elenco dei dipendenti in Finance and Operations, immettere il valore visualizzato dopo "&mi" nell'URL. 
+   2. Copiare la voce di menu dall'URL. Ad esempio, se si desidera che il collegamento porti all'elenco dei dipendenti nelle app per la finanza e le operazioni, immettere il valore visualizzato dopo "&mi" nell'URL. 
    3. La voce di menu per navigare alla pagina con l'elenco dei dipendenti in questo esempio è: HcmWorkerListPage_Employees.
 
  - **Collegamento a origine dati**: selezionare l'origine dei dati a cui si riferisce il collegamento. Le origini più comuni come **Lavoratore** e **Posizione** sono disponibili.
@@ -63,4 +63,5 @@ Ogni collegamento creato conterrà le seguenti informazioni definite:
 Gli amministratori di sistema vedranno i collegamenti appena creati nelle pagine definite anche se l'opzione **Abilitare questo collegamento** è impostata su **No**. Ciò può essere utilizzato per verificare i collegamenti prima di renderli disponibili ad altri dipendenti. Tutti gli altri ruoli vedranno i collegamenti configurati solo dopo che l'opzione **Abilita questo collegamento** è stata impostata su **Sì**. I dipendenti che hanno accesso alle pagine in cui i collegamenti vengono resi disponibili potranno accedere ad essi.
 
 Gli utenti devono inoltre disporre dei diritti di sicurezza all'interno dell'ambiente secondario definito per accedere alle pagine in tale ambiente. In caso contrario, viene visualizzata una finestra di dialogo di protezione quando si utilizza il collegamento.
+
 

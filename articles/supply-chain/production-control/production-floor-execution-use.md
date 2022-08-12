@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 2ee316a3e6a6baef7aa8b5d46b04a2d1bb07a641
-ms.sourcegitcommit: d770f0e6a012675a3027641704be804beb99754b
+ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "9022506"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069788"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -217,7 +217,7 @@ I lavoratori possono regolare il consumo di materiale per gli articoli a peso va
 
 Nella finestra di dialogo **Regola materiale**, un lavoratore può effettuare e modificare le prenotazioni di materiale selezionando **Prenota materiale**. La finestra di dialogo **Prenota materiale** visualizzata mostra le scorte fisicamente disponibili per l'articolo per ciascuna dimensione di tracciabilità e stoccaggio.
 
-Se il materiale è abilitato per i processi di magazzino avanzati, l'elenco mostra solo le scorte fisicamente disponibili per il percorso dell'input di produzione per il materiale. Il percorso dell'input di produzione è definito sulla risorsa in cui è pianificato il processo di produzione. Se il numero dell'articolo è controllato dal batch o dal numero di serie, viene visualizzato l'elenco completo dei numeri di batch e di serie fisicamente disponibili. Per specificare una quantità da prenotare, il lavoratore può selezionare **Prenota materiale**. Per rimuovere una prenotazione esistente, il lavoratore può selezionare **Rimuovi prenotazione**.
+Se il materiale è abilitato per i processi di gestione del magazzino (WMS), l'elenco mostra solo le scorte fisicamente disponibili per il percorso dell'input di produzione per il materiale. Il percorso dell'input di produzione è definito sulla risorsa in cui è pianificato il processo di produzione. Se il numero dell'articolo è controllato dal batch o dal numero di serie, viene visualizzato l'elenco completo dei numeri di batch e di serie fisicamente disponibili. Per specificare una quantità da prenotare, il lavoratore può selezionare **Prenota materiale**. Per rimuovere una prenotazione esistente, il lavoratore può selezionare **Rimuovi prenotazione**.
 
 Per ulteriori informazioni su come configurare il percorso di input di produzione, vedere il seguente post del blog: [Configurazione della posizione dell'input di produzione](/archive/blogs/axmfg/deliver-picked-materials-to-the-locations-where-the-materials-are-consumed-by-operations-in-production).
 

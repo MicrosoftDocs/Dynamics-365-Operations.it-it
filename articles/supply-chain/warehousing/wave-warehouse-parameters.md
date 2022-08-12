@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2a64cba837faf84f3e8470a9831d1641213a5cc4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e02cd80a3b7692f496fc70e50b812fae358103bc
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909614"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067853"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Parametri di magazzino per l'elaborazione ciclo
 
@@ -52,7 +52,7 @@ Per impostare i parametri di magazzino per l'elaborazione ciclo, effettua le ope
 > [!NOTE]
 > Nel modello ondata utilizzato per elaborare l'ondata, è possibile specificare le impostazioni che automatizzano l'elaborazione ondata. Se si imposta una programmazione per il processo batch, è necessario coordinare l'intervallo con le impostazioni per l'automazione nel modello ondata. Per ulteriori informazioni, vedere [Creazione di un modello di ciclo](wave-templates.md).
 >
-> Se usi *Gestione trasporto* e *Gestione magazzino avanzata*, puoi specificare se consolidare i carichi quando elabori un ciclo. Ad esempio, questo è utile quando vari piccoli carichi possono essere spediti contemporaneamente. Per consolidare i carichi quando si elabora un ciclo, nella scheda **Carichi** seleziona la casella di controllo **Consolida carichi durante elaborazione ciclo**.</P>
+> Se usi *Gestione trasporto* e i *processi di gestione del magazzino (WMS)*, puoi specificare se consolidare i carichi quando elabori un ciclo. Ad esempio, questo è utile quando vari piccoli carichi possono essere spediti contemporaneamente. Per consolidare i carichi quando si elabora un ciclo, nella scheda **Carichi** seleziona la casella di controllo **Consolida carichi durante elaborazione ciclo**.</P>
 
 ## <a name="set-up-full-or-partial-reservation-for-production-waves"></a>Impostare la prenotazione completa o parziale per i cicli di produzione
 

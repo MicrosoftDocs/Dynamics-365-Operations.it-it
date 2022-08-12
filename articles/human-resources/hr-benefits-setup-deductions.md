@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b4817cd6370166b6dfdf17b3d733b13374db8f49
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 2fb5f5b0b50f407f58193aafd79f28dd1fd432ee
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8694909"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066794"
 ---
 # <a name="configure-deductions"></a>Configurare le detrazioni
 
@@ -45,7 +45,7 @@ L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente d
    | **Intestazione** | Il codice di intestazione del sistema di gestione delle retribuzioni che la detrazione utilizzerà per la parte della detrazione del dipendente durante l'elaborazione dei benefit per la retribuzione. Questo codice viene utilizzato quando si utilizza un fornitore di retribuzioni di terze parti. |
    | **Riferimento detrazioni sulle retribuzioni del dipendente** | Codice di detrazione del sistema di gestione delle retribuzioni utilizzato dalla detrazione per la parte relativa al dipendente della detrazione durante l'elaborazione dei benefit per le retribuzioni. |
    | **Intestazione importo** | Il codice di intestazione del sistema di gestione delle retribuzioni che questo importo di detrazioni utilizzerà per la parte della detrazione del dipendente durante l'elaborazione dei benefit per la retribuzione. Questo codice viene normalmente utilizzato quando si utilizza un fornitore di retribuzioni di terze parti. |
-   | **Eliminazione possibile** | Specifica se un valore esportato da Dynamics 365 for Finance and Operations può causare l'eliminazione del valore nel sistema di gestione delle retribuzioni. |
+   | **Eliminazione possibile** | Specifica se un valore esportato da Dynamics 365 Finance può causare l'eliminazione del valore nel sistema di gestione delle retribuzioni. |
    | **Colonne associate** | Specifica se esportare l'intestazione e l'importo delle detrazioni in colonne adiacenti accoppiate nel sistema di gestione delle retribuzioni. |
    | **Data di validità modifica** | La data in cui la modifica alle detrazioni per benefit diventa effettiva. In questa data, le modifiche alla deduzione dei benefici e tutti i piani di benefici associati a questa deduzione sono aggiornati, a condizione che si esegua l'elaborazione dell' **aggiornamento della modifica della deduzione** . |
    | **Modifica detrazione completata** | La casella di controllo **Modifica detrazione completata** verrà selezionata automaticamente una volta completate le modifiche alla detrazioni per benefit mediante l'elaborazione dell'aggiornamento delle modifiche alle detrazioni. |
@@ -56,3 +56,4 @@ L'utilizzo delle detrazioni in Microsoft Dynamics 365 Human Resources consente d
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

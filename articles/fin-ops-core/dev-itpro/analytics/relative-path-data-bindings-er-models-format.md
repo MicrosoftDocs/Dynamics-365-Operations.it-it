@@ -13,18 +13,18 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af3a646e24976d50f83d8564e3006fc2c50d8e2a
-ms.sourcegitcommit: 8bcb9c13eccb14e61c39ca6578d135b64090fad2
+ms.openlocfilehash: be2c0f921fde13598685553ea01bfcf3f8255362
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8313569"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108673"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Utilizzare un percorso relativo nelle associazioni dati dei modelli e dei formati ER
 
 [!include[banner](../includes/banner.md)]
 
-Lo strumento di creazione di report elettronici (ER) consente agli utenti di definire le strutture dei formati elettronici e quindi descrivere come tali strutture devono essere riempite utilizzando dati e algoritmi disponibili nell'applicazione. Per ulteriori informazioni, vedere [Creare configurazioni di creazione di report elettronici (ER)](electronic-reporting-configuration.md). Per specificare il flusso dati per il recupero dei dati di Finance and Operations e utilizzarlo per generare un documento elettronico, è necessario effettuare le seguenti operazioni:
+Lo strumento di creazione di report elettronici (ER) consente agli utenti di definire le strutture dei formati elettronici e quindi descrivere come tali strutture devono essere riempite utilizzando dati e algoritmi disponibili nell'applicazione. Per ulteriori informazioni, vedere [Creare configurazioni di creazione di report elettronici (ER)](electronic-reporting-configuration.md). Per specificare il flusso dati per il recupero dei dati di finanza e operazioni e utilizzarlo per generare un documento elettronico, è necessario effettuare le seguenti operazioni:
 
 - Associare le origini dati configurate agli elementi del modello di dati specifico del dominio progettato. La struttura di modello e le origini dati selezionate potrebbero far parte di una struttura gerarchica complessa. Per questo motivo, le associazioni finali possono essere molto grandi e contenere molti elementi di vari tipi (ad esempio relazioni, tabelle e metodi). Le associazioni possono diventare meno leggibili e molto difficili da esaminare e comprendere, in particolare per i non proprietari. 
 - Associare gli elementi del modello di dati ai componenti di formato per definire quali dati verranno inseriti dal modello di dati nell'output del formato generato.
@@ -58,3 +58,4 @@ Questa funzionalità non annulla la compatibilità con le versioni precedenti de
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

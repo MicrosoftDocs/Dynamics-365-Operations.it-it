@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcbe41d113ee41734020546388851afb7fc27bbf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7b6fb9643873178f1cb93e3da15e83598af51de0
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910417"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109552"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Soluzione PowerBI.com per prestazioni finanziarie
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Questa soluzione PowerBI.com è stata deprecata come documentato in [Funzionalità rimosse o deprecate per Finance and Operations](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Questa soluzione PowerBI.com è stata deprecata come documentato in [Funzionalità rimosse o deprecate per le app per la finanza e le operazioni](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Questo articolo descrive la soluzione PowerBI.com per le **prestazioni finanziarie**. Descrive il dashboard e i report che vengono inclusi e fornisce informazioni sul modello di dati e sulle entità utilizzati per creare la soluzione.
 

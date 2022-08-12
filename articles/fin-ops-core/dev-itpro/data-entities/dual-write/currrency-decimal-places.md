@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 809906c3926b200e7beac84e780314aec1f8c2ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 85b3a45c054144e414aebb28b3d8080ab295f52f
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855589"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112276"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migrazione del tipo di dati valuta per la doppia scrittura
 
@@ -29,7 +29,7 @@ Il processo di modifica del numero di cifre decimali prevede due passaggi:
 1. Richiedere la migrazione da Microsoft.
 2. Modificare il numero di posizioni decimali in Dataverse.
 
-L'app per finanza e operazioni e Dataverse devono supportare lo stesso numero di cifre decimali nei valori di valuta. In caso contrario, la perdita di dati può verificarsi quando queste informazioni vengono sincronizzate tra le app. Il processo di migrazione riconfigura il modo in cui sono memorizzati i valori di valuta e tasso di cambio, ma non modifica alcun dato. Una volta completata la migrazione, è possibile aumentare il numero di posizioni decimali per i codici valuta e i prezzi e i dati immessi e visualizzati dagli utenti possono avere una maggiore precisione decimale.
+L'app per la finanza e le operazioni e Dataverse devono supportare lo stesso numero di cifre decimali nei valori di valuta. In caso contrario, la perdita di dati può verificarsi quando queste informazioni vengono sincronizzate tra le app. Il processo di migrazione riconfigura il modo in cui sono memorizzati i valori di valuta e tasso di cambio, ma non modifica alcun dato. Una volta completata la migrazione, è possibile aumentare il numero di posizioni decimali per i codici valuta e i prezzi e i dati immessi e visualizzati dagli utenti possono avere una maggiore precisione decimale.
 
 La migrazione è facoltativa. Se il supporto per più cifre decimali è vantaggioso per l'utente, consigliamo di prendere in considerazione la migrazione. Le organizzazioni che non richiedono valori con più di quattro cifre decimali non devono essere migrate.
 
@@ -37,7 +37,7 @@ La migrazione è facoltativa. Se il supporto per più cifre decimali è vantaggi
 
 L'archiviazione per le colonne di valuta esistenti in Dataverse non può supportare più di quattro cifre decimali. Pertanto, durante il processo di migrazione, i valori di valuta vengono copiati in nuove colonne interne nel database. Questo processo si verifica continuamente fino alla migrazione di tutti i dati. Internamente, al termine della migrazione, i nuovi tipi di archiviazione sostituiscono i vecchi tipi di archiviazione, ma i valori dei dati rimangono invariati. Le colonne di valuta possono quindi supportare fino a 10 cifre decimali. Durante il processo di migrazione, Dataverse può continuare a essere utilizzato senza interruzioni.
 
-Allo stesso tempo, i tassi di cambio vengono modificati in modo da supportare fino a 12 cifre decimali anziché l'attuale limite di 10. Questa modifica è necessaria in modo che il numero di decimali sia lo stesso nell'app per finanza e operazioni e in Dataverse.
+Allo stesso tempo, i tassi di cambio vengono modificati in modo da supportare fino a 12 cifre decimali anziché l'attuale limite di 10. Questa modifica è necessaria in modo che il numero di decimali sia lo stesso nell'app per la finanza e le operazioni e in Dataverse.
 
 La migrazione non modifica alcun dato. Dopo la conversione delle colonne di valuta e tasso di cambio, gli amministratori possono configurare il sistema in modo da utilizzare fino a 10 posizioni decimali per le colonne di valuta specificando il numero di posizioni decimali per ciascuna valuta di transazione e per i prezzi.
 
@@ -100,3 +100,4 @@ Per il comportamento previsto della precisione decimale della valuta predefinita
 |          | Massima precisione decimale visibile nel database e nell'interfaccia utente dei risultati delle query DB | 10 cifre. Tuttavia, solo 4 sono significative con tutti gli zeri oltre le 4 cifre decimali. Ciò consente una migrazione più semplice e veloce dell'organizzazione, se necessario. | 10 cifre      | 10 cifre     |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

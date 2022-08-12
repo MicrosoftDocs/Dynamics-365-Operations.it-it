@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 886781764b44ca76b327ad49f25f11f6c370a706
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ea6901f8d9632b021c35b9ee899385e688fc77e
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851953"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108858"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Generare la traccia dell'esecuzione di formati ER per risolvere problemi relativi alle prestazioni
 
@@ -98,7 +98,7 @@ Si supponga di aver iniziato a progettare una nuova soluzione ER per generare un
 
 Presupponiamo di aver completato la progettazione della prima versione della soluzione ER. Ora si desidera testarla nell'istanza e analizzare le prestazioni di esecuzione.
 
-### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importare una configurazione ER da RCS in Finance and Operations
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Importare una configurazione ER da RCS in finanza e operazioni
 
 1. Accedere all'istanza dell'applicazione.
 2. Per questa esercitazione, si importeranno le configurazioni dall'istanza di RCS (in cui si progettano i componenti ER) nell'istanza (dove vengono testati e infine utilizzati). Di conseguenza, è necessario assicurarsi che tutti gli elementi necessari siano stati preparati. Per istruzioni, vedere la procedura [Importare le configurazioni di creazione di report elettronici da Regulatory Configuration Service (RCS)](rcs-download-configurations.md).
@@ -305,7 +305,7 @@ Può anche essere utile ridurre il numero di chiamate effettuate all'origine dat
 
 ### <a name="import-the-modified-er-model-mapping-configuration-from-rcs-into-the-application"></a>Importare la configurazione del mapping di modello ER modificata da RCS nell'applicazione
 
-Ripeti la procedura nella sezione [Importare una configurazione ER da RCS in Finance and Operations](#import-configuration) vista in precedenza in questo articolo per importare la versione 1.2 della configurazione **Mapping traccia delle prestazioni**.
+Ripeti la procedura nella sezione [Importare una configurazione ER da RCS in finanza e operazioni](#import-configuration) vista in precedenza in questo articolo per importare la versione 1.2 della configurazione **Mapping traccia delle prestazioni**.
 
 ## <a name="run-the-modified-er-solution-to-trace-execution"></a>Eseguire la soluzione ER modificata per generare la traccia dell'esecuzione
 
@@ -363,7 +363,7 @@ Si noti che il Web browser offre un file zip per il download. Questo file contie
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Utilizzare strumenti esterni per esaminare una traccia dell'esecuzione che include le query di database
 
-In seguito ai miglioramenti apportati al framework ER, la traccia delle prestazioni che viene generata nel formato di PerfView ora offre ulteriori dettagli sull'esecuzione del formato ER. In Microsoft Dynamics 365 for Finance and Operations versione 10.0.4 (luglio 2019), questa traccia può anche includere i dettagli delle query SQL eseguite nel database dell'applicazione.
+In seguito ai miglioramenti apportati al framework ER, la traccia delle prestazioni che viene generata nel formato di PerfView ora offre ulteriori dettagli sull'esecuzione del formato ER. In Microsoft Dynamics 365 Finance versione 10.0.4 (luglio 2019), questa traccia può anche includere i dettagli delle query SQL eseguite nel database dell'applicazione.
 
 ### <a name="configure-user-parameters"></a>Configurare parametri utente
 
@@ -392,3 +392,4 @@ Si noti che il Web browser offre un file zip per il download. Questo file contie
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

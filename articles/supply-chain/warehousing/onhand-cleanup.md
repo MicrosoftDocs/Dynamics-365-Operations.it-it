@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 7f054f4f479affe8ca2e041c77bd6fd11d51378e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900508"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065151"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Processo di pulizia delle voci disponibili per la gestione del magazzino
 
@@ -26,11 +26,11 @@ ms.locfileid: "8900508"
 
 Le prestazioni delle query utilizzate per calcolare le scorte disponibili sono influenzate dal numero di record nelle tabelle interessate. Un modo di migliorare le prestazioni è ridurre il numero di record che il database deve considerare.
 
-Questo articolo descrive il processo di pulizia delle voci disponibili, che elimina i record non necessari nelle tabelle InventSum e WHSInventReserve. Queste tabelle contengono informazioni sulla disponibilità per gli articoli abilitati per l'elaborazione della gestione del magazzino. (questi articoli sono definiti articoli Gestione magazzino). La cancellazione di questi record può migliorare significativamente le prestazioni dei calcoli sulle disponibilità.
+Questo articolo descrive il processo di pulizia delle voci disponibili, che elimina i record non necessari nelle tabelle `InventSum` e `WHSInventReserve`. Queste tabelle contengono informazioni sulla disponibilità per gli articoli abilitati per l'elaborazione della gestione del magazzino. (questi articoli sono definiti articoli Gestione magazzino). La cancellazione di questi record può migliorare significativamente le prestazioni dei calcoli sulle disponibilità.
 
 ## <a name="what-the-cleanup-job-does"></a>Funzione del lavoro di pulizia
 
-Il processo di pulizia delle voci disponibili elimina tutti i record nelle tabelle WHSInventReserve e InventSum in cui tutti i valori dei campi sono *0* (zero). Questi record possono essere eliminati perché non contribuiscono alle informazioni sulla disponibilità. Il processo elimina solo i record al di sotto del livello **Ubicazione**.
+Il processo di pulizia delle voci disponibili elimina tutti i record delle tabelle `WHSInventReserve` e `InventSum` in cui tutti i valori dei campi sono *0* (zero). Questi record possono essere eliminati perché non contribuiscono alle informazioni sulla disponibilità. Il processo elimina solo i record al di sotto del livello **Ubicazione**.
 
 Se un inventario fisico negativo è consentito, il processo di pulizia potrebbe non essere in grado di eliminare tutte le voci pertinenti. Il motivo di questa limitazione è che il processo deve consentire uno scenario speciale in cui una targa ha più numeri di serie e uno di quei numeri di serie è diventato negativo. Ad esempio, il sistema avrà una disponibilità zero a livello di targa quando una targa ha +1 pezzi del numero di serie 1 e -1 pezzi del numero di serie 2. Per questo scenario speciale, il processo esegue dapprima un'eliminazione in profondità tentando di eliminare prima i livelli inferiori.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5259e1d7d6c95074337164d8427d7f035e00dbd9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 07791afb2de670a5b9b910e441395c2949460394
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8890060"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124712"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
@@ -35,10 +35,10 @@ Il nuovo controllo griglia offre una serie di funzionalità utili e potenti che 
 - Colonne estensibili
 
 ## <a name="calculating-totals"></a>Calcolo totali in corso
-Nelle app per finanza e operazioni, gli utenti hanno la possibilità di vedere i totali nella parte inferiore delle colonne numeriche nelle griglie. Questi totali sono visualizzati in una sezione a piè di pagina nella parte inferiore della griglia. 
+Nelle app per la finanza e le operazioni, gli utenti hanno la possibilità di vedere i totali nella parte inferiore delle colonne numeriche nelle griglie. Questi totali sono visualizzati in una sezione a piè di pagina nella parte inferiore della griglia. 
 
 ### <a name="showing-the-grid-footer"></a>Visualizzare il piè di pagina della griglia
-C'è un'area per i piè di pagina nella parte inferiore di ogni griglia tabulare nelle app per finanza e operazioni. Il piè di pagina può mostrare informazioni preziose correlate ai dati visualizzati nella griglia. Di seguito sono riportati alcuni esempi di queste informazioni:
+C'è un'area per i piè di pagina nella parte inferiore di ogni griglia tabulare nelle app per la finanza e le operazioni. Il piè di pagina può mostrare informazioni preziose correlate ai dati visualizzati nella griglia. Di seguito sono riportati alcuni esempi di queste informazioni:
 
 - Il numero di righe selezionate nella tabella (quando è selezionato più di un record)
 - I totali complessivi nella parte inferiore delle colonne numeriche configurate
@@ -86,7 +86,7 @@ Per supportare questo nuovo comportamento, una nuova colonna per lo stato della 
 Quando gli utenti inseriscono dei dati prima della posizione in cui il server sta elaborando, possono prevedere qualche degrado nell'esperienza di immissione dei dati, come la mancanza di ricerche, la convalida a livello di controllo e l'inserimento di valori predefiniti. Gli utenti che necessitano di un elenco a discesa per trovare un valore sono invitati ad attendere che il server raggiunga la riga corrente. La convalida a livello di controllo e l'inserimento dei valori predefiniti si verificheranno quando il server elabora quella riga.
 
 ### <a name="pasting-from-excel"></a>Incollare da Excel
-Gli utenti sono sempre stati in grado di esportare i dati dalle griglie delle app per finanza e operazioni in Microsoft Excel in Excel utilizzando il meccanismo **Esporta in Excel**. Tuttavia, la possibilità di inserire i dati prima del sistema, consente alla nuova griglia di supportare la copia delle tabelle da Excel e incollarle direttamente nelle griglie nelle app per finanza e operazioni. La cella della griglia da cui viene avviata l'operazione "incolla" determina da dove inizia l'operazione incolla della tabella copiata. Il contenuto della griglia viene sovrascritto dal contenuto della tabella copiata, tranne in due casi:
+Gli utenti sono sempre stati in grado di esportare i dati dalle griglie delle app per la finanza e le operazioni in Microsoft Excel in Excel utilizzando il meccanismo **Esporta in Excel**. Tuttavia, la possibilità di inserire i dati prima del sistema, consente alla nuova griglia di supportare la copia delle tabelle da Excel e incollarle direttamente nelle griglie nelle app per la finanza e le operazioni. La cella della griglia da cui viene avviata l'operazione "incolla" determina da dove inizia l'operazione incolla della tabella copiata. Il contenuto della griglia viene sovrascritto dal contenuto della tabella copiata, tranne in due casi:
 
 - Se il numero di colonne nella tabella copiata supera il numero di colonne che rimangono nella griglia, a partire dalla posizione incolla, l'utente viene avvisato che le colonne extra sono state ignorate. 
 - Se il numero di righe nella tabella copiata supera il numero di righe nella griglia, a partire dalla posizione incolla, le celle esistenti vengono sovrascritte dal contenuto incollato e tutte le righe aggiuntive dalla tabella copiata vengono inserite come nuove righe nella parte inferiore della griglia. 
@@ -97,7 +97,7 @@ Come booster di produttività, gli utenti possono inserire formule matematiche n
 Per fare in modo che il sistema riconosca un valore come espressione, iniziare il valore con un segno uguale (**=**). Per ulteriori informazioni sugli operatori supportati e sulla sintassi, vedere [Simboli matematici supportati](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Raggruppamento di dati tabulari
-Gli utenti aziendali devono spesso eseguire analisi ad hoc dei dati. Sebbene questa operazione possa essere eseguita esportando dati in Microsoft Excel e usando tabelle pivot, la funzionalità **Raggruppamento in griglie** che dipende dalla nuova funzionalità controllo griglia consente agli utenti di organizzare i dati tabulari in modi interessanti nelle app per finanza e operazioni. Poiché questa funzionalità estende la funzionalità **Totali**, **Raggruppamento** consente di ottenere informazioni dettagliate significative sui dati fornendo subtotali a livello di gruppo.
+Gli utenti aziendali devono spesso eseguire analisi ad hoc dei dati. Sebbene questa operazione possa essere eseguita esportando dati in Microsoft Excel e usando tabelle pivot, la funzionalità **Raggruppamento in griglie** che dipende dalla nuova funzionalità controllo griglia consente agli utenti di organizzare i dati tabulari in modi interessanti nelle app per la finanza e le operazioni. Poiché questa funzionalità estende la funzionalità **Totali**, **Raggruppamento** consente di ottenere informazioni dettagliate significative sui dati fornendo subtotali a livello di gruppo.
 
 Per utilizzare questa funzionalità, fare clic con il pulsante destro del mouse sulla colonna in base alla quale eseguire il raggruppamento e selezionare **Raggruppa in base a questa colonna**. Questa azione ordina i dati in base alla colonna selezionata, aggiunge una nuova colonna **Raggruppa per** all'inizio della griglia e inserisce "righe di intestazione" all'inizio di ciascun gruppo. Queste righe di intestazione forniscono le seguenti informazioni su ciascun gruppo:
 
@@ -168,7 +168,7 @@ Se hai disattivato l'utilizzo della nuova griglia per una singola pagina, potres
 ## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Sviluppatore] Eliminazione delle singole griglie dalla digitazione prima della capacità del sistema
 Sono apparsi alcuni scenari che non si prestano a funzionare bene con la funzionalità *Digitare prima del sistema* della griglia. (Ad esempio, un codice che viene attivato quando una riga viene convalidata provoca l'attivazione di una ricerca sull'origine dati e la ricerca può quindi danneggiare le modifiche non vincolate sulle righe esistenti.) Se l'organizzazione rileva uno scenario del genere, è disponibile un'API che consente a lo sviluppatore esclude una singola griglia dalla convalida di riga asincrona e ripristina il comportamento legacy.
 
-Quando la convalida di riga asincrona è disabilitata in una griglia, gli utenti non possono creare una nuova riga o passare a una riga esistente diversa nella griglia mentre sono presenti problemi di convalida nella riga corrente. Come effetto collaterale di questa azione, le tabelle non possono essere incollate da Excel nelle griglie Finanza e operazioni.
+Quando la convalida di riga asincrona è disabilitata in una griglia, gli utenti non possono creare una nuova riga o passare a una riga esistente diversa nella griglia mentre sono presenti problemi di convalida nella riga corrente. Come effetto collaterale di questa azione, le tabelle non possono essere incollate da Excel nelle griglie di finanza e operazioni.
 
 Per rifiutare esplicitamente una singola griglia di una convalida di riga asincrona, aggiungere il seguente post di chiamata `super()` nel metodo `run()` del modulo.
 
@@ -200,3 +200,4 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo grigli
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

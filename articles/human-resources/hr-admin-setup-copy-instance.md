@@ -14,17 +14,22 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d0da71c87364eacf60b9a82a200996292b863b6a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
+ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692424"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "9178535"
 ---
 # <a name="copy-an-instance"></a>Copiare un'istanza
 
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+_**Si applica a**: Human Resources nell'infrastruttura autonoma_ 
 
+> [!NOTE]
+> A partire da giugno 2022, gli ambienti Human Resources possono essere distribuiti solo nell'infrastruttura delle app per la finanza e le operazioni. Per ulteriori informazioni, vedere [Provisioning di Human Resources nell'infrastruttura di finanza e operazioni](hr-admin-setup-provision-fo.md).
+
+> [!IMPORTANT]
+> L'infrastruttura di finanza e operazioni non supporta la funzione di copia di un'istanza. È possibile distribuire nuovi ambienti e usare gli spostamenti dei database per creare copie. Per ulteriori informazioni sulle distribuzioni self-service, vedere [Panoramica delle distribuzioni self-service](../fin-ops-core/dev-itpro/deployment/infrastructure-stack.md). Per ulteriori informazioni sugli spostamenti dei database nell'infrastruttura di finanza e operazioni, vedere [Home page delle operazioni di spostamento dei database](../fin-ops-core/dev-itpro/database/dbmovement-operations.md).
 
 È possibile utilizzare Microsoft Dynamics Lifecycle Services (LCS) per copiare un database di Microsoft Dynamics 365 Human Resources in un ambiente sandbox. Se è disponibile un altro ambiente sandbox, è anche possibile copiare il database da tale ambiente in un ambiente sandbox di destinazione.
 
@@ -50,7 +55,7 @@ I seguenti eventi si verificano quando si copia un database di Human Resources:
 
 - I documenti nell'archivio Blob di Microsoft Azure non vengono copiati da un ambiente all'altro. Di conseguenza, tutti i documenti e i modelli allegati non verranno copiati e rimarranno nell'ambiente di origine.
 
-- Tutti gli utenti eccetto quelli con il ruolo di sicurezza "Amministratore sistema" e altri account utente del servizio interno saranno disponibili. L'utente amministratore può eliminare o offuscare i dati prima di autorizzare altri utenti nel sistema.
+- Tutti gli utenti eccetto quelli con il ruolo di sicurezza "Amministratore sistema" e altri account utente del servizio interno saranno disponibili. L'utente amministratore può eliminare i dati prima di autorizzare altri utenti nel sistema.
 
 - Qualsiasi utente con il ruolo di sicurezza "Amministratore sistema" deve apportare le modifiche necessarie alla configurazione, come la riconnessione di endpoint di integrazione a servizi o URL specifici.
 
@@ -67,7 +72,7 @@ Per completare questa attività, innanzi tutto copiare un'istanza, quindi accede
 
 3. Selezionare l'istanza da copiare, quindi selezionare **Copia**.
 
-4. Nel riquadro attività **Copia un'istanza**, selezionare l'istanza da sovrascrivere, quindi selezionare **Copia**. Attendere che il valore di **Stato copia** diventi **Completata**.
+4. Nel riquadro attività **Copia un'istanza**, selezionare l'istanza da sovrascrivere, quindi selezionare **Copia**. Attendere che il campo **Stato copia** venga aggiornato in **Completata**.
 
    ![[Selezionare l'istanza da sovrascrivere.](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
@@ -76,6 +81,8 @@ Per completare questa attività, innanzi tutto copiare un'istanza, quindi accede
    ![[Selezionare Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Selezionare l'ambiente Power Apps da copiare, quindi selezionare **Copia**.
+
+Per ulteriori informazioni sulla copia degli ambienti Power Apps, vedere [Copia di un ambiente](/power-platform/admin/copy-environment#copy-an-environment-1).
 
 7. Al termine del processo di copia, accedere all'istanza di destinazione e abilitare l'integrazione di Dataverse. Per ulteriori informazioni e istruzioni, vedere [Configurare l'integrazione di Dataverse](./hr-admin-integration-common-data-service.md).
 

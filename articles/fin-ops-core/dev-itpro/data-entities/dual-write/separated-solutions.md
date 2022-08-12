@@ -10,12 +10,12 @@ ms.custom: separate-solution
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-11-29
-ms.openlocfilehash: 504939f1f98c18005c092cabc1d040b420402c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 28c321ee2815b2886c07bfb0996870e536458145
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874814"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111662"
 ---
 # <a name="separated-dual-write-application-orchestration-package"></a>Pacchetto separato di orchestrazione dell'applicazione a doppia scrittura
 
@@ -26,14 +26,14 @@ ms.locfileid: "8874814"
 In precedenza, il pacchetto di orchestrazione dell'applicazione a doppia scrittura era un singolo pacchetto che conteneva le seguenti soluzioni:
 
 - Dynamics 365 Notes
-- Ancoraggio comune Dynamics 365 Finance e le operazioni
-- Mappe di entità a doppia scrittura di Dynamics 365 Finance e le operazioni
+- Ancoraggio comune per le app per la finanza e le operazioni di Dynamics 365
+- Mappe di entità a doppia scrittura per le app per la finanza e le operazioni di Dynamics 365
 - App Gestione cespiti Dynamics 365
 - Gestione cespiti Dynamics 365
 - Elementi comuni di HCM
 - Dynamics 365 Supply Chain Extended
 - Dynamics 365 Finance Extended
-- Comune Dynamics 365 Finance e le operazioni
+- Comuni per le app per la finanza e le operazioni di Dynamics 365
 - Dynamics 365 Company
 - Tassi di cambio valutario
 - Field Service Common
@@ -46,7 +46,7 @@ Questo articolo spiega le soluzioni e le mappe contenute in ogni pacchetto e la 
 
 ## <a name="dual-write-application-core"></a>Core dell'applicazione a doppia scrittura
 
-Il pacchetto Core dell'applicazione a doppia scrittura consente agli utenti di installare e configurare la doppia scrittura senza alcuna app di coinvolgimento del cliente. Sono incluse le seguenti cinque soluzioni.
+Il pacchetto Core dell'applicazione a doppia scrittura consente agli utenti di installare e configurare la doppia scrittura senza alcuna app di interazione con i clienti. Sono incluse le seguenti cinque soluzioni.
 
 | Nome univoco                           | Nome visualizzato                               |
 |---------------------------------------|--------------------------------------------|
@@ -344,3 +344,4 @@ Le soluzioni di doppia scrittura parte e rubrica globale dipendono dai tre pacch
 - Pacchetto Core dell'applicazione a doppia scrittura
 - Pacchetto Finance a doppia scrittura
 - Pacchetto Supply chain a doppia scrittura
+

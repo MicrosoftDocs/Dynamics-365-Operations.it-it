@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9adbf8f5baa829fb28977d618a4f8beee31ef080
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4d423b149957e624269231aede510190f0c14c7
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870135"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068782"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Report rollforward cespiti
 
@@ -30,7 +30,7 @@ Il report **rollforward cespiti fornisce**, in un formato Microsoft Excel di fac
 
 Nel report **rollforward cespiti** viene utilizzato il framework di report elettronici (ER). Prima di poter eseguire il report, è necessario importare il modello di cespiti e le configurazioni di roll-forward dei cespiti da Microsoft Dynamics Lifecycle Services (LCS). Per istruzioni, vedere [Scaricare le configurazioni per la creazione di report elettronici da Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Il report è disponibile in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, oppure come correzione rapida di Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (luglio 2017). Agli ambienti con la versione di luglio 2017, devono essere applicate tre correzioni rapide:
+Il report è disponibile in Microsoft Dynamics 365 Finance, Enterprise Edition 7.3, oppure come correzione rapida di Microsoft Dynamics 365 Finance, Enterprise Edition (luglio 2017). Agli ambienti con la versione di luglio 2017, devono essere applicate tre correzioni rapide:
 
 - **KB 4041754**: impossibile scaricare la configurazione ER da LCS poiché non applicabile per la versione corrente dopo l'applicazione del pacchetto di aggiornamento della piattaforma
 - **KB 4056107**: aggiornamento cumulativo 5 per i report elettronici (GER)
@@ -67,3 +67,4 @@ Nella seguente tabella vengono illustrati i campi disponibili nel report.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 10c5d9eb3f98887be976c2331f4d34530628702c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 02ab3675db0d78efa1e4e43188d79bb1e763a713
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895278"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111820"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Eseguire l'aggiornamento al modello di parte e di rubrica globale
 
@@ -24,7 +24,7 @@ ms.locfileid: "8895278"
 
 I [modelli di Microsoft Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema) consentono di aggiornare i seguenti dati di tabella in doppia scrittura al modello di parte e rubrica globale; dati nelle tabelle **Account**, **Contatto** e **Fornitore** e indirizzi elettronici e postali.
 
-Vengono forniti i tre modelli di Data Factory seguenti. Consentono di riconciliare i dati delle app per finanza e operazioni e delle app di coinvolgimento del cliente.
+Vengono forniti i tre modelli di Data Factory seguenti. Consentono di riconciliare i dati delle app per la finanza e le operazioni e delle app di interazione con i clienti.
 
 - **[Modello di parte](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/arm_template.json) (Aggiorna i dati allo schema Party-GAB in doppia scrittura/arm_template.json)** – Questo modello aiuta l'aggiornamento dei dati **Parte** e **Contatto** associati ai dati **Account**, **Contatto**, e **Fornitore**.
 - **[Modello di indirizzo postale di parte](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/Upgrade%20to%20Party%20Postal%20Address%20-%20GAB/arm_template.json) (Aggiorna i dati allo schema Party-GAB in doppia scrittura/Aggiorna all'indirizzo postale della parte - GAB/arm_template.json)** – Questo modello aiuta ad aggiornare gli indirizzi postali associati ai dati **Account**, **Contatto**, e **Fornitore**.
@@ -34,11 +34,11 @@ Alla fine del processo, vengono generati i seguenti file con valori separati da 
 
 | Nome file | Scopo |
 |---|---|
-| FONewParty.csv | Questo file consente di creare nuovi record **Parte** nell'app per finanza e operazioni. |
-| ImportFONewPostalAddressLocation.csv | Questo file aiuta a creare nuovi record **Posizione indirizzo postale** nell'app per finanza e operazioni. |
-| ImportFONewPartyPostalAddress.csv | Questo file aiuta a creare nuovi record **Indirizzo postale parte** nell'app per finanza e operazioni. |
-| ImportFONewPostalAddress.csv | Questo file aiuta a creare nuovi record **Indirizzo postale** nell'app per finanza e operazioni. |
-| ImportFONewElectronicAddress.csv | Questo file aiuta a creare nuovi record **Indirizzo elettronico** nell'app per finanza e operazioni. |
+| FONewParty.csv | Questo file consente di creare nuovi record **Parte** nell'app per la finanza e le operazioni. |
+| ImportFONewPostalAddressLocation.csv | Questo file aiuta a creare nuovi record **Posizione indirizzo postale** nell'app per la finanza e le operazioni. |
+| ImportFONewPartyPostalAddress.csv | Questo file aiuta a creare nuovi record **Indirizzo postale parte** nell'app per la finanza e le operazioni. |
+| ImportFONewPostalAddress.csv | Questo file aiuta a creare nuovi record **Indirizzo postale** nell'app per la finanza e le operazioni. |
+| ImportFONewElectronicAddress.csv | Questo file aiuta a creare nuovi record **Indirizzo elettronico** nell'app per la finanza e le operazioni. |
 
 In questo articolo vengono fornite istruzioni per utilizzare i modelli Data Factory e aggiornare i dati. Se non disponi di personalizzazioni, puoi utilizzare i modelli così come sono. Tuttavia se hai personalizzazioni per i dati **Account**, **Contatto** e **Fornitore** devi modificare i modelli con le seguenti istruzioni.
 
@@ -57,11 +57,11 @@ I seguenti prerequisiti devono essere soddisfatti prima di poter eseguire l'aggi
 
 Un aggiornamento richiede la seguente preparazione:
 
-+ **Sincronizzazione completa:** Sia l'ambiente Finance and operations che l'ambiente di coinvolgimento del cliente sono in uno stato completamente sincronizzato per le tabelle **Account (Cliente)**, **Contatto**, e **Fornitore**.
++ **Sincronizzazione completa:** Sia l'ambiente Finance and operations che l'ambiente di interazione con i clienti sono in uno stato completamente sincronizzato per le tabelle **Account (Cliente)**, **Contatto**, e **Fornitore**.
 + **Chiavi di integrazione**: le tabelle **Account (cliente)**, **Contatto** e **Fornitore** nelle app di interazione con i clienti utilizzano le chiavi di integrazione predefinite. Se hai personalizzato le chiavi di integrazione, devi personalizzare il modello.
 + **Numero parte:** tutti i record **Account (cliente)**, **Contatto**, e **Fornitore** che verranno aggiornati hanno un numero parte. I record che non hanno un numero parte verranno ignorati. Se desideri aggiornare questi record, aggiungici un numero parte prima di iniziare il processo di aggiornamento.
 + **Interruzione del sistema**: durante il processo di aggiornamento, Finanza e operazioni e ambienti di interazione con i clienti devono essere offline.
-+ **Snapshot**: esegui uno snapshot delle app per finanza e operazioni e delle app di coinvolgimento del cliente. Puoi usare gli snapshot per ripristinare lo stato precedente, se necessario.
++ **Snapshot**: esegui uno snapshot delle app per la finanza e le operazioni e delle app di interazione con i clienti. Puoi usare gli snapshot per ripristinare lo stato precedente, se necessario.
 
 ## <a name="deployment"></a>Distribuzione
 
@@ -120,7 +120,7 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
 
 ### <a name="setup-to-run-the-party-postal-address-template"></a>Impostare per eseguire il modello di indirizzo postale della parte
 
-1. Accedi alle app di coinvolgimento dei clienti e vai a **Impostazioni** \> **Impostazioni personalizzazione**. Poi, nella scheda **Generale** configura l'impostazione del fuso orario per l'account amministratore di sistema. Il fuso orario deve essere in Coordinated Universal Time (UTC) per aggiornare le date "valido da" e "valido fino a" degli indirizzi postali dalle app per finanza e operazioni.
+1. Accedi alle app di interazione con i clienti e vai a **Impostazioni** \> **Impostazioni personalizzazione**. Poi, nella scheda **Generale** configura l'impostazione del fuso orario per l'account amministratore di sistema. Il fuso orario deve essere in Coordinated Universal Time (UTC) per aggiornare le date "valido da" e "valido fino a" degli indirizzi postali dalle app per la finanza e le operazioni.
 
     ![Impostazione del fuso orario per l'account amministratore di sistema.](media/ADF-1.png)
 
@@ -128,7 +128,7 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
 
     | Numero | Name | Tipo | Valore |
     |---|---|---|---|
-    | 1 | PostalAddressIdPrefix | stringa | Questo parametro aggiunge un numero di serie agli indirizzi postali appena creati come prefisso. Assicurati di fornire una stringa che non sia in conflitto con gli indirizzi postali nelle app per finanza e operazioni e nelle app di coinvolgimento del cliente. Ad esempio, utilizza **ADF-PAD-**. |
+    | 1 | PostalAddressIdPrefix | stringa | Questo parametro aggiunge un numero di serie agli indirizzi postali appena creati come prefisso. Assicurati di fornire una stringa che non sia in conflitto con gli indirizzi postali nelle app per la finanza e le operazioni e nelle app di interazione con i clienti. Ad esempio, utilizza **ADF-PAD-**. |
 
     ![Parametro globale PostalAddressIdPrefix creato nella scheda Gestisci.](media/ADF-2.png)
 
@@ -142,8 +142,8 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
 
     | Numero | Name | Tipo | Valore |
     |---|---|---|---|
-    | 1 | IsFOSource | bool | Questo parametro determina quali indirizzi di sistema primari vengono sostituiti in caso di conflitti. Se il valore è **vero**, gli indirizzi primari nelle app per finanza e operazioni sostituiranno gli indirizzi primari nelle app di coinvolgimento del cliente. Se il valore è **falso**, gli indirizzi primari nelle app di coinvolgimento del cliente sostituiranno gli indirizzi primari nelle app per finanza e operazioni. |
-    | 2 | ElectronicAddressIdPrefix | stringa | Questo parametro aggiunge un numero di serie agli indirizzi elettronici appena creati come prefisso. Assicurati di fornire una stringa che non sia in conflitto con gli indirizzi elettronici nelle app per finanza e operazioni e nelle app di coinvolgimento del cliente. Ad esempio, utilizza **ADF-EAD-**. |
+    | 1 | IsFOSource | bool | Questo parametro determina quali indirizzi di sistema primari vengono sostituiti in caso di conflitti. Se il valore è **true**, gli indirizzi primari nelle app per la finanza e le operazioni sostituiranno gli indirizzi primari nelle app di interazione con i clienti. Se il valore è **false**, gli indirizzi primari nelle app di interazione con i clienti sostituiranno gli indirizzi primari nelle app per la finanza e le operazioni. |
+    | 2 | ElectronicAddressIdPrefix | stringa | Questo parametro aggiunge un numero di serie agli indirizzi elettronici appena creati come prefisso. Assicurati di fornire una stringa che non sia in conflitto con gli indirizzi elettronici nelle app per la finanza e le operazioni e nelle app di interazione con i clienti. Ad esempio, utilizza **ADF-EAD-**. |
 
     ![Parametri globali IsFOSource ed ElectronicAddressIdPrefix creati nella scheda Gestisci.](media/ADF-4.png)
 
@@ -167,7 +167,7 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
 
 2. Assicurati che le mappe vengano rimosse dalla tabella **msdy_dualwriteruntimeconfig** in Dataverse.
 3. Installa le [soluzioni di doppia scrittura per parte e rubrica globale](https://aka.ms/dual-write-gab) da AppSource.
-4. Nell'app per finanza e operazioni, esegui **Sincronizzazione iniziale** per le seguenti tabelle se contengono dati:
+4. Nell'app per la finanza e le operazioni, esegui **Sincronizzazione iniziale** per le seguenti tabelle se contengono dati:
 
     + Formule di apertura
     + Tipi di carattere personale
@@ -267,21 +267,21 @@ Questa sezione descrive l'impostazione richiesta prima di eseguire i modelli Dat
     > [!NOTE]
     > Se hai personalizzazioni per **Account**, **Contatto** e **Fornitore** devi modificare il modello.
 
-8. Importa i nuovi record **Parte** nell'app per finanza e operazioni.
+8. Importa i nuovi record **Parte** nell'app per la finanza e le operazioni.
 
     1. Scarica il file **FONewParty.csv** da archiviazione BLOB di Azure. Il percorso è **partybootstrapping/output/FONewParty.csv**.
-    2. Converti il file **FONewParty.csv** in un file Excel e importa il file Excel nell'app per finanza e operazioni. In alternativa se l'importazione del file CSV funziona, puoi importare direttamente il file CSV. Il completamento di questo processo potrebbe richiedere alcune ore in base al volume di dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../data-import-export-job.md).
+    2. Converti il file **FONewParty.csv** in un file Excel e importa il file Excel nell'app per la finanza e le operazioni. In alternativa se l'importazione del file CSV funziona, puoi importare direttamente il file CSV. Il completamento di questo processo potrebbe richiedere alcune ore in base al volume di dati. Per ulteriori informazioni, vedere [Panoramica dei processi di importazione ed esportazione dei dati](../data-import-export-job.md).
 
     ![Importazione dei record di parte di Dataverse.](media/data-factory-import-party.png)
 
 9. Nel data factory, esegui uno dopo l'altro i modelli Indirizzo postale della parte e Indirizzo elettronico della parte.
 
-    + Il modello di indirizzo postale della parte aggiorna tutti i record dell'indirizzo postale nell'app di coinvolgimento del cliente e li associa ai corrispondenti record **Account**, **Contatto**, e **Fornitore**. Genera anche tre file .csv: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv e ImportFONewPostalAddress.csv.
-    + Il modello di indirizzo elettronico della parte aggiorna tutti i record dell'indirizzo elettronico nell'app di coinvolgimento del cliente e li associa ai corrispondenti record **Account**, **Contatto**, e **Fornitore**. Genera anche un file .csv: ImportFONewElectronicAddress.csv.
+    + Il modello di indirizzo postale della parte aggiorna tutti i record dell'indirizzo postale nell'app di interazione con i clienti e li associa ai corrispondenti record **Account**, **Contatto**, e **Fornitore**. Genera anche tre file .csv: ImportFONewPostalAddressLocation.csv, ImportFONewPartyPostalAddress.csv e ImportFONewPostalAddress.csv.
+    + Il modello di indirizzo elettronico della parte aggiorna tutti i record dell'indirizzo elettronico nell'app di interazione con i clienti e li associa ai corrispondenti record **Account**, **Contatto**, e **Fornitore**. Genera anche un file .csv: ImportFONewElectronicAddress.csv.
 
     ![Esecuzione dei modelli di indirizzo postale della parte e di indirizzo elettronico della parte.](media/ADF-7.png)
 
-10. Per aggiornare l'app per finanza e operazioni con questi dati, devi convertire i file .csv in una cartella di lavoro Excel e [importalo nell'app per finanza e operazioni](../data-import-export-job.md). In alternativa se l'importazione del file CSV funziona, puoi importare direttamente i file CSV. Il completamento di questo processo potrebbe richiedere alcune ore in base al volume.
+10. Per aggiornare l'app per la finanza e le operazioni con questi dati, devi convertire i file .csv in una cartella di lavoro Excel e [importalo nell'app per la finanza e le operazioni](../data-import-export-job.md). In alternativa se l'importazione del file CSV funziona, puoi importare direttamente i file CSV. Il completamento di questo processo potrebbe richiedere alcune ore in base al volume.
 
     ![Importazione completata.](media/ADF-8.png)
 
@@ -364,54 +364,54 @@ Questa sezione illustra i passaggi in ogni modello di Data Factory.
 ### <a name="steps-in-the-party-template"></a>Passaggi nel modello Parte
 
 1. I passaggi da 1 a 6 identificano le società abilitate per la doppia scrittura e creano una clausola di filtro.
-2. I passaggi da 7-1 a 7-9 recuperano i dati da entrambe l'app per finanza e operazioni e l'app di coinvolgimento del cliente e predispongono tali dati per l'aggiornamento.
-3. I passaggi da 8 a 9 confrontano il numero della parte per i record **Account**, **Contatto**, e **Fornitore** tra l'app per finanza e operazioni e l'app di coinvolgimento del cliente. I record che non hanno un numero parte verranno saltati.
-4. Il passaggio 10 genera due file .csv per i record della parte che devono essere creati nell'app di coinvolgimento del cliente e nell'app per finanza e operazioni.
+2. I passaggi da 7-1 a 7-9 recuperano i dati da entrambe le app per la finanza e le operazioni e le app per l'interazione con i clienti e predispongono tali dati per l'aggiornamento.
+3. I passaggi da 8 a 9 confrontano il numero della parte per i record **Account**, **Contatto**, e **Fornitore** tra l'app per la finanza e le operazioni e l'app di interazione con i clienti. I record che non hanno un numero parte verranno saltati.
+4. Il passaggio 10 genera due file .csv per i record della parte che devono essere creati nell'app di interazione con i clienti e nell'app per la finanza e le operazioni.
 
     - **FOCDSParty.csv** – Questo file contiene tutti i record delle parti di entrambi i sistemi, indipendentemente dal fatto che l'azienda sia abilitata per la doppia scrittura.
     - **FONewParty.csv** – Questo file contiene un sottoinsieme dei record della parte che Dataverse è consapevole (ad esempio, account di tipo **Prospect**).
 
-5. Il passaggio 11 crea le parti nell'app di coinvolgimento del cliente.
-6. Il passaggio 12 recupera gli identificatori univoci globali (GUID) delle parti dall'app di coinvolgimento del cliente e li organizza in modo che possano essere associati ai record **Account**, **Contatto**, e **Fornitore** nei passaggi successivi.
+5. Il passaggio 11 crea le parti nell'app di interazione con i clienti.
+6. Il passaggio 12 recupera gli identificatori univoci globali (GUID) delle parti dall'app di interazione con i clienti e li organizza in modo che possano essere associati ai record **Account**, **Contatto**, e **Fornitore** nei passaggi successivi.
 7. Il passaggio 13 associa i record **Account**, **Contatto**, e **Fornitore** ai GUID di parte.
-8. I passaggi da 14-1 a 14-3 aggiornano i record **Account**, **Contatto**, e **Fornitore** nell'app di coinvolgimento del cliente con i GUID di parte.
+8. I passaggi da 14-1 a 14-3 aggiornano i record **Account**, **Contatto**, e **Fornitore** nell'app di interazione con i clienti con i GUID di parte.
 9. I passaggi da 15-1 a 15-3 preparano i record **Contatto per la parte** per i record **Account**, **Contatto**, e **Fornitore**.
 10. I passaggi da 16-1 a 16-7 recuperano dati di riferimento come saluti e tipi di caratteri personali e li associano ai record **Contatto per la parte**.
 11. Il passaggio 17 unisce i record **Contatto per la parte** per i record **Account**, **Contatto**, e **Fornitore**.
-12. Il passaggio 18 importa i record **Contatto per la parte** nell'app di coinvolgimento del cliente.
+12. Il passaggio 18 importa i record **Contatto per la parte** nell'app di interazione con i clienti.
 
 ### <a name="steps-in-the-party-postal-address-template"></a>Passaggi nel modello di indirizzo postale della parte
 
-1. I passaggi da 1-1 a 1-10 recuperano i dati da entrambe l'app per finanza e operazioni e l'app Customer Engagement e predispongono tali dati per l'aggiornamento.
-2. Il passaggio 2 denormalizza i dati dell'indirizzo postale nell'app per finanza e operazioni unendo l'indirizzo postale e l'indirizzo postale della parte.
-3. Il passaggio 3 deduplica e unisce i dati dell'account, del contatto e dell'indirizzo del fornitore dall'app di coinvolgimento del cliente.
-4. Il passaggio 4 crea file .csv per l'app per finanza e operazioni per creare nuovi dati di indirizzo basati su indirizzi di account, contatti e fornitori.
-5. Il passaggio 5-1 crea file .csv per l'app di coinvolgimento del cliente per creare tutti i dati dell'indirizzo, in base a entrambe le app per finanza e operazioni e di coinvolgimento del cliente.
-6. Il passaggio 5-2 converte i file .csv nel formato di importazione Finanza e operazioni per l'importazione manuale.
+1. I passaggi da 1-1 a 1-10 recuperano i dati da entrambe le app per la finanza e le operazioni e le app per l'interazione con i clienti e predispongono tali dati per l'aggiornamento.
+2. Il passaggio 2 denormalizza i dati dell'indirizzo postale nell'app per la finanza e le operazioni unendo l'indirizzo postale e l'indirizzo postale della parte.
+3. Il passaggio 3 deduplica e unisce i dati dell'account, del contatto e dell'indirizzo del fornitore dall'app di interazione con i clienti.
+4. Il passaggio 4 crea file .csv per l'app per la finanza e le operazioni per creare nuovi dati di indirizzo basati su indirizzi di account, contatti e fornitori.
+5. Il passaggio 5-1 crea file .csv per l'app di interazione con i clienti per creare tutti i dati dell'indirizzo, in base a entrambe le app per la finanza e le operazioni e di interazione con i clienti.
+6. Il passaggio 5-2 converte i file .csv nel formato di importazione di finanza e operazioni per l'importazione manuale.
 
     - ImportFONewPostalAddressLocation.csv
     - ImportFONewPartyPostalAddress.csv
     - ImportFONewPostalAddress.csv
 
-7. Il passaggio 6 importa i dati di raccolta dell'indirizzo postale nell'app di coinvolgimento del cliente.
-8. Il passaggio 7 recupera i dati di raccolta dell'indirizzo postale dall'app di coinvolgimento del cliente.
+7. Il passaggio 6 importa i dati di raccolta dell'indirizzo postale nell'app di interazione con i clienti.
+8. Il passaggio 7 recupera i dati di raccolta dell'indirizzo postale dall'app di interazione con i clienti.
 9. Il passaggio 8 crea i dati dell'indirizzo del cliente e associa un ID di raccolta dell'indirizzo postale.
 10. Passaggi da 9-1 a 9-2 associa gli ID raccolta indirizzi postali e parti con indirizzi postali e indirizzi postali delle parti.
-11. I passaggi da 10-1 a 10-3 importano gli indirizzi dei clienti, gli indirizzi postali e gli indirizzi postali delle parti nell'app di coinvolgimento dei clienti.
+11. I passaggi da 10-1 a 10-3 importano gli indirizzi dei clienti, gli indirizzi postali e gli indirizzi postali delle parti nell'app di interazione con i clienti.
 
 ### <a name="steps-in-the-party-electronic-address-template"></a>Passaggi nel modello di indirizzo elettronico della parte
 
-1. I passaggi da 1-1 a 1-5 recuperano i dati da entrambe l'app per finanza e operazioni e l'app Customer Engagement e predispongono tali dati per l'aggiornamento.
-2. Il passaggio 2 consolida gli indirizzi elettronici nell'app di coinvolgimento del cliente da entità account, contatti e fornitore.
-3. Il passaggio 3 unisce i dati dell'indirizzo elettronico primario dall'app di coinvolgimento del cliente e dall'app per finanza e operazioni.
+1. I passaggi da 1-1 a 1-5 recuperano i dati da entrambe le app per la finanza e le operazioni e le app di interazione con i clienti e predispongono tali dati per l'aggiornamento.
+2. Il passaggio 2 consolida gli indirizzi elettronici nell'app di interazione con i clienti da entità account, contatti e fornitore.
+3. Il passaggio 3 unisce i dati dell'indirizzo elettronico primario dall'app di interazione con i clienti e dall'app per la finanza e le operazioni.
 4. Il passaggio 4 crea i file .csv.
 
-    - Crea nuovi dati di indirizzo elettronico per l'app per finanza e operazioni, in base agli indirizzi dell'account, del contatto e del fornitore.
-    - Crea nuovi dati di indirizzo elettronico per l'app di coinvolgimento del cliente, in base all'indirizzo elettronico e agli indirizzi di account, contatti e fornitore nell'app per finanza e operazioni.
+    - Crea nuovi dati di indirizzo elettronico per l'app per la finanza e le operazioni, in base agli indirizzi dell'account, del contatto e del fornitore.
+    - Crea nuovi dati di indirizzo elettronico per l'app di interazione con i clienti, in base all'indirizzo elettronico e agli indirizzi di account, contatti e fornitore nell'app per la finanza e le operazioni.
 
-5. Il passaggio 5-1 importa gli indirizzi elettronici nell'app di coinvolgimento del cliente.
-6. Il passaggio 5-2 crea i file .csv per aggiornare gli indirizzi primari per account e contatti nell'app di coinvolgimento dei clienti.
-7. I passaggi da 6-1 a 6-2 importano gli indirizzi primari di contatti e account nell'app di coinvolgimento dei clienti.
+5. Il passaggio 5-1 importa gli indirizzi elettronici nell'app di interazione con i clienti.
+6. Il passaggio 5-2 crea i file .csv per aggiornare gli indirizzi primari per account e contatti nell'app di interazione con i clienti.
+7. I passaggi da 6-1 a 6-2 importano gli indirizzi primari di contatti e account nell'app di interazione con i clienti.
 
 ## <a name="troubleshooting"></a>Risoluzione dei problemi
 
@@ -425,3 +425,4 @@ Questa sezione illustra i passaggi in ogni modello di Data Factory.
 ## <a name="learn-more-about-the-template"></a>Ulteriori informazioni sul modello
 
 Per ulteriori informazioni sul modello vedi [Commenti per il file Leggimi del modello di Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+

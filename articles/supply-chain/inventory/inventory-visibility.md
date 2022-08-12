@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 782545ea38a209eb4430607f5bca96e4e930efdc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 274f9b368a6074725d1938de5f2172d2810a5985
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897634"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9066642"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Panoramica del componente aggiuntivo Visibilità dell'inventario
 
@@ -61,9 +61,9 @@ La visibilità dell'inventario previsto per il prossimo futuro (inclusi offerta,
 
 La funzione ATP è facile da adottare nel processo quotidiano di evasione degli ordini. Ancora più importante, come altre offerte di visibilità inventario, la funzione ATP è *globale e in tempo reale*. Pertanto, puoi impostare più formule di calcolo dell'ATP per avere query sulla disponibilità completa dell'inventario che coprano tutti i tuoi canali aziendali e le origini dati. Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md).
 
-### <a name="compatibility-with-advanced-warehouse-management-items"></a>Compatibilità con articoli di gestione avanzata del magazzino
+### <a name="compatibility-with-warehouse-management-processes-wms-items"></a>Compatibilità con articoli dei processi di gestione del magazzino (WMS)
 
-Microsoft mira a fornire un'integrazione predefinita con la gestione avanzata del magazzino (WHS), in modo che anche i clienti WHS possano usufruire dei vantaggi del servizio di visibilità inventario. Per il primo ciclo di rilascio del 2022 (anteprima pubblica a marzo), il servizio di inventario supporta le query WHS sugli articoli disponibili e l'ATP. La funzione di prenotazione e assegnazione temporanea sarà supportata per i clienti WHS nel prossimo ciclo. Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WHS](inventory-visibility-whs-support.md).
+Microsoft mira a fornire un'integrazione predefinita con i processi di gestione del magazzino (WMS), in modo che anche i clienti WMS possano usufruire dei vantaggi del servizio di visibilità inventario. Per il primo ciclo di rilascio del 2022 (anteprima pubblica a marzo), il servizio di inventario supporta le query WMS sugli articoli disponibili e l'ATP. La funzione di prenotazione e assegnazione temporanea sarà supportata per i clienti WMS nel prossimo ciclo. Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WMS](inventory-visibility-whs-support.md).
 
 ## <a name="licensing"></a>Licenze
 

@@ -1,6 +1,6 @@
 ---
-title: Assegnare gli utenti ai ruoli di sicurezza
-description: Per accedere alle app Finance and Operations, è necessario assegnare utenti a ruoli di sicurezza.
+title: Assegnare utenti a ruoli di sicurezza
+description: Per accedere alle app per la finanza e le operazioni, è necessario assegnare utenti a ruoli di sicurezza.
 author: Peakerbl
 ms.date: 02/09/2022
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36874b996cc5708f6fd7fbc45251f3066b5b1c97
-ms.sourcegitcommit: f2a78e0d7d461ca843ac2f9abff7690275db9196
+ms.openlocfilehash: b5e69a79f123daff3f85d0100647615ad818288e
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8105540"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103870"
 ---
 # <a name="manage-users-and-security-roles"></a>Gestire utenti e ruoli di sicurezza
 
 [!include [banner](../../includes/banner.md)]
 
-Per utilizzare altri elementi oltre alle capacità comuni nelle app per la finanza e le operazioni, è necessario assegnare utenti a ruoli di sicurezza. È possibile assegnare gli utenti ai ruoli automaticamente, in base a regole e dati aziendali, escludere gli utenti dall'assegnazione automatica dei ruoli o aggiungere manualmente gli utenti ai ruoli.
+Per usare altri elementi oltre alle capacità comuni nelle app per la finanza e le operazioni, è necessario assegnare utenti a ruoli di sicurezza. È possibile assegnare gli utenti ai ruoli automaticamente, in base a regole e dati aziendali, escludere gli utenti dall'assegnazione automatica dei ruoli o aggiungere manualmente gli utenti ai ruoli.
 
 ## <a name="automatically-assign-users-to-roles"></a>Assegnare automaticamente utenti a ruoli
 In questa procedura viene illustrato come gli amministratori di sistema possono assegnare utenti ai ruoli automaticamente, in base ai dati aziendali. 
@@ -73,3 +73,4 @@ Gli utenti che vengono assegnati manualmente ai ruoli di sicurezza devono anche 
    4. Nel **Riquadro azioni**, selezionare **Escludi da ruolo**. La colonna **Modalità assegnazione** viene impostata su **Manuale** e gli utenti sono esclusi dal ruolo.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 28ebf1b4fb966fd6801e75e7b3a6c8741114938d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863681"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070291"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking pianificato
 
@@ -118,7 +118,7 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
     - **Fonte di approvvigionamento:** *Ordine fornitore*
 
 > [!NOTE]
-> È possibile impostare una query per verificare se un determinato modello di cross-docking è utilizzato. La query per i modelli di cross-docking ha solo la tabella *Invent Table* (articoli) e la tabella *WHSInventTable* (articoli WHS) inner join. Se vuoi aggiungere altre tabelle alla query, puoi unirle usando solo join *exist* o *not exist*. Quando si filtrano le tabelle unite, viene recuperato un record dalla tabella principale per ogni record corrispondente nella tabella unita. Se il tipo di join è *exist*, la ricerca termina dopo che è stata trovata la prima corrispondenza. Ad esempio, se unisci la tabella della riga dell'ordine cliente alla tabella degli articoli, il sistema convalida e restituisce gli articoli per i quali almeno una riga dell'ordine cliente presenta la condizione definita. In sostanza, i dati vengono recuperati dalla tabella padre (articoli), non dalla tabella figlio (riga ordine cliente). Pertanto, il filtro in base a documenti di origine come righe di ordini cliente o clienti non può essere eseguito immediatamente.
+> È possibile impostare una query per verificare se un determinato modello di cross-docking è utilizzato. La query per i modelli di cross-docking ha solo la tabella *Invent Table* (articoli) e la tabella *WHSInventTable* (articoli WMS) inner join. Se vuoi aggiungere altre tabelle alla query, puoi unirle usando solo join *exist* o *not exist*. Quando si filtrano le tabelle unite, viene recuperato un record dalla tabella principale per ogni record corrispondente nella tabella unita. Se il tipo di join è *exist*, la ricerca termina dopo che è stata trovata la prima corrispondenza. Ad esempio, se unisci la tabella della riga dell'ordine cliente alla tabella degli articoli, il sistema convalida e restituisce gli articoli per i quali almeno una riga dell'ordine cliente presenta la condizione definita. In sostanza, i dati vengono recuperati dalla tabella padre (articoli), non dalla tabella figlio (riga ordine cliente). Pertanto, il filtro in base a documenti di origine come righe di ordini cliente o clienti non può essere eseguito immediatamente.
 
 ### <a name="create-a-work-class"></a>Creare una classe di lavoro
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 100b1972801f117560a5caf338a1ac640737ccdf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855934"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070321"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -56,7 +56,7 @@ La seguente illustrazione mostra il flusso tipico per la gestione di carichi in 
 
 ## <a name="register-item-quantities-that-arrive-on-an-inbound-load"></a><a name="register-item-quantities-arriving"></a>Registrare le quantità degli articoli che arrivano su un carico in entrata
 
-Microsoft Dynamics 365 Supply Chain Management supporta diversi approcci operativi per la registrazione dell'arrivo dei prodotti ordinati. Pertanto, è possibile configurare il sistema in modo che corrisponda ai requisiti aziendali specifici. Questa sezione descrive come registrare le quantità di articoli in entrata utilizzando un dispositivo mobile quando nel sistema è attivata la gestione avanzata del magazzino. Tuttavia, esiste un flusso alternativo basato sull'utilizzo del giornale di registrazione arrivi articoli anziché di un dispositivo mobile. Per ulteriori informazioni riguardo questo flusso, vedere [Registrare articoli per un articolo abilitato a immagazzinaggio avanzato tramite un giornale di registrazione arrivi articoli](tasks/register-items-advanced-warehousing.md).
+Microsoft Dynamics 365 Supply Chain Management supporta diversi approcci operativi per la registrazione dell'arrivo dei prodotti ordinati. Pertanto, è possibile configurare il sistema in modo che corrisponda ai requisiti aziendali specifici. Questa sezione descrive come registrare le quantità di articoli in entrata utilizzando un dispositivo mobile quando nel sistema sono attivati i processi di gestione del magazzino (WMS). Tuttavia, esiste un flusso alternativo basato sull'utilizzo del giornale di registrazione arrivi articoli anziché di un dispositivo mobile. Per ulteriori informazioni riguardo questo flusso, vedere [Registrare articoli abilitati per i processi di gestione del magazzino tramite un giornale di registrazione arrivi articoli](tasks/register-items-advanced-warehousing.md).
 
 Quando un carico in entrata arriva per la prima volta in magazzino, gli addetti al magazzino devono registrare le quantità degli articoli incluse nella spedizione. In genere, è preferibile utilizzare scanner portatili. Questo flusso di lavoro è disponibile solo se nel sistema sono presenti i seguenti elementi:
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fe083f16bd47b3f7bdfd366ae4b0fe4a02f49185
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 657c29ec6ddfb2be918424e06eaf219f51a30a02
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907002"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9069064"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Ricezione della targa con l'app per dispositivi mobili Warehouse Management
 
@@ -26,7 +26,7 @@ ms.locfileid: "8907002"
 
 Questo articolo spiega come configurare l'app per dispositivi mobili Gestione magazzino in modo che supporti l'utilizzo di un processo di ricezione della targa per ricevere l'inventario fisico.
 
-È possibile utilizzare questa funzionalità per registrare rapidamente l'entrata di inventario in entrata correlata a un avviso di spedizione anticipata (ASN). Il sistema crea automaticamente un ASN quando i processi di gestione del magazzino vengono utilizzati per spedire un ordine di trasferimento. Per il processo dell'ordine fornitore, un ASN può essere registrato manualmente oppure può essere importato automaticamente utilizzando un processo dell'entità dati ASN in entrata.
+È possibile utilizzare questa funzionalità per registrare rapidamente l'entrata di inventario in entrata correlata a un avviso di spedizione anticipata (ASN). Il sistema crea automaticamente un ASN quando i processi di gestione del magazzino (WMS) vengono utilizzati per spedire un ordine di trasferimento. Per il processo dell'ordine fornitore, un ASN può essere registrato manualmente oppure può essere importato automaticamente utilizzando un processo dell'entità dati ASN in entrata.
 
 I dati ASN sono collegati a carichi e spedizioni tramite le *strutture di imballaggio*, dove i pallet (targhe padre) possono contenere casi (targhe nidificate).
 

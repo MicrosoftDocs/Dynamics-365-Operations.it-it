@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 304cf3f6c913586e08e0a3771ebfe40bc5d2b102
-ms.sourcegitcommit: 3cb1f49a02e4a849fc34ffeb81fe507f0608b35e
+ms.openlocfilehash: 21d7d045c812c54d6776394ad9a0b025b55df8e1
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "8464911"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9109114"
 ---
 # <a name="financial-analysis"></a>Analisi finanziaria
 
@@ -78,7 +78,7 @@ Attualmente, i dati sui report Power BI incorporati non possono essere limitati 
 | Diritti                                    | Ruoli | Descrizione |
 |-----------------------------------------|-------|------------|
 | Visualizzare l'analisi finanziaria della società attuale | <ul><li>Contabile</li><li>Direttore amministrativo</li><li>Supervisore contabile</li><li>Revisore</li><li>Responsabile budget</li><li>Amministratore delegato</li><li>Responsabile finanziario</li><li>Supervisore finanziario</li></ul> | Questi diritti consentono di accedere a Analisi finanziaria. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Non è possibile aggiungere altre persone giuridiche. |
-| Visualizzare l'analisi finanziaria di tutte le società   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3, questi diritti non sono assegnati a un ruolo. Nella versione successiva, questi diritti verranno assegnati al ruolo Responsabile finanziario. | Questi diritti consentono di accedere alla voce di menu per l'area di lavoro Panoramica responsabile finanziario. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche. |
+| Visualizzare l'analisi finanziaria di tutte le società   | In Microsoft Dynamics 365 Finance, Enterprise Edition 7.3, questi diritti non sono assegnati a un ruolo. Nella versione successiva, questi diritti verranno assegnati al ruolo Responsabile finanziario. | Questi diritti consentono di accedere alla voce di menu per l'area di lavoro Panoramica responsabile finanziario. Per impostazione predefinita, la società attiva viene utilizzata come filtro. Tuttavia, è possibile aggiungere tutte le persone giuridiche, indipendentemente dal fatto che l'utente abbia accesso ad altre persone giuridiche. |
 
 
 ## <a name="financial-reporting-vs-financial-analysis"></a>Financial Reporting e Analisi finanziaria
@@ -96,7 +96,7 @@ La seguente tabella di confronto aiuterà a differenziare le due opzioni:
 | **Supporto creazione di report con gerarchia/gerarchia organizzativa**   | Sì                                                               | No |
 | **Report i dati del giornale d registrazione secondario**                             | Sì limitato solo al fornitore, cliente                              | Sì fornitore, cliente, gruppi di clienti/fornitori, indirizzi clienti/fornitori, e così via. |
 | **Valuta di dichiarazione**                                   | Sì valuta di contabilizzazione e convertire in valuta di dichiarazione       | No solo valuta di contabilizzazione |
-| **Sicurezza**                                             | Sì conforme alla sicurezza dell'albero gerarchico di creazione report di Finance | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza di Finance and Operations) o solo per la società attiva |
+| **Sicurezza**                                             | Sì conforme alla sicurezza dell'albero gerarchico di creazione report di Finance | Report con visualizzazione limitata per tutte le società (indipendentemente dalla sicurezza delle app per la finanza e le operazioni) o solo per la società attiva |
 | **Supporto di diversi piani dei conti e anni fiscali** | Sì                                                               | No |
 | **Report di dati esterni**                              | No                                                                | No |
 | **Supporto di consolidamenti**                               | Sì                                                               | Limitato Può creare report per più società ma utilizzare solo la valuta di contabilizzazione |
@@ -244,3 +244,4 @@ Le informazioni contenute nelle seguenti risorse non sono necessarie per abilita
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

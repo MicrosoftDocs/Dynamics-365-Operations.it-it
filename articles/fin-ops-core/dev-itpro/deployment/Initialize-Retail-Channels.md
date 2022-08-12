@@ -1,22 +1,22 @@
 ---
 title: Inizializzare Commerce Scale Unit (cloud)
 description: Questo articolo spiega come inizializzare Commerce Scale Unit (cloud) in Microsoft Dynamics 365 Commerce.
-author: AamirAllaq
-ms.date: 06/03/2022
+author: jashanno
+ms.date: 07/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.region: Global
-ms.author: aamiral
+ms.author: jashanno
 ms.search.validFrom: 2018-4-30
-ms.openlocfilehash: 969dd220a7b73a676b9cf5ac26223ebd9b3f2296
-ms.sourcegitcommit: ddcb62bb5fbf26a1178c2bb1aec45a3d2362339e
+ms.openlocfilehash: 93fbf2893fecc7b731f946797907bce4f8448309
+ms.sourcegitcommit: 8032d6275e6d9994ef9759ee16e743b483f7689e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "8942854"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183365"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Inizializzare Commerce Scale Unit (cloud)
 
@@ -51,30 +51,30 @@ Commerce Scale Unit è disponibile per la distribuzione nelle seguenti aree geog
 
 | Posizione globale | Area geografica              | Disponibilità        | Commenti                  |
 |-----------------|---------------------|---------------------|---------------------------|
-| AMERICHE        | Stati Uniti orientali             | Generalmente disponibile |                           |
-| AMERICHE        | Stati Uniti orientali 2           | Generalmente disponibile |                           |
-| AMERICHE        | Stati Uniti centro-settentrionali    | Capacità limitata    |                           |
-| AMERICHE        | Stati Uniti centro-meridionali    | Capacità limitata    |                           |
-| AMERICHE        | Stati Uniti centrali          | Generalmente disponibile |                           |
-| AMERICHE        | Stati Uniti occidentali             | Generalmente disponibile |                           |
-| AMERICHE        | Stati Uniti occidentali 2           | Generalmente disponibile |                           |
-| AMERICHE        | Canada centrale      | Capacità limitata    |                           |
-| AMERICHE        | Canada orientale         | Capacità limitata    |                           |
-| AMERICHE        | Stati Uniti centro-occidentali     | Capacità limitata    |                           |
-| Asia Pacifico            | Australia orientale      | Generalmente disponibile |                           |
-| Asia Pacifico            | Asia sud-orientale      | Capacità limitata | Non sono consentite distribuzioni    |
-| Asia Pacifico            | Giappone orientale          | Generalmente disponibile |                           |
-| Asia Pacifico            | Giappone occidentale          | Generalmente disponibile |                           |
-| Asia Pacifico            | Australia sud-orientale | Generalmente disponibile |                           |
-| Asia Pacifico            | Asia orientale           | Capacità limitata    |                           |
-| Asia Pacifico            | India meridionale         | Capacità limitata | Non sono consentite distribuzioni    |
-| Asia Pacifico            | India centrale       | Capacità limitata    | Richiede il processo di approvazione |
-| EMEA            | Europa occidentale         | Generalmente disponibile |                           |
-| EMEA            | Europa settentrionale        | Generalmente disponibile |                           |
-| EMEA            | Regno Unito meridionale            | Capacità limitata    |                           |
-| EMEA            | Regno Unito occidentale             | Capacità limitata    |                           |
-| Svizzera     | Svizzera settentrionale   | Capacità limitata    | Richiede il processo di approvazione |
-| Emirati Arabi Uniti             | Emirati Arabi Uniti settentrionali           | Capacità limitata    | Richiede il processo di approvazione |
+| AMERICHE        | Stati Uniti orientali             | Generalmente disponibile |  Nessun commento.                         |
+| AMERICHE        | Stati Uniti orientali 2           | Generalmente disponibile |  Nessun commento.                          |
+| AMERICHE        | Stati Uniti centro-settentrionali    | Capacità limitata    |  Nessun commento.                            |
+| AMERICHE        | Stati Uniti centro-meridionali    | Capacità limitata    |  Nessun commento.                            |
+| AMERICHE        | Stati Uniti centrali          | Generalmente disponibile |  Nessun commento.                            |
+| AMERICHE        | Stati Uniti occidentali             | Generalmente disponibile |  Nessun commento.                            |
+| AMERICHE        | Stati Uniti occidentali 2           | Generalmente disponibile |  Nessun commento.                            |
+| AMERICHE        | Canada centrale      | Capacità limitata    |  Nessun commento.                            |
+| AMERICHE        | Canada orientale         | Capacità limitata    |   Nessun commento.                           |
+| AMERICHE        | Stati Uniti centro-occidentali     | Capacità limitata    |   Nessun commento.                           |
+| Asia Pacifico            | Australia orientale      | Generalmente disponibile |   Nessun commento.                           |
+| Asia Pacifico            | Asia sud-orientale      | Capacità limitata | Non sono consentite distribuzioni.    |
+| Asia Pacifico            | Giappone orientale          | Generalmente disponibile |  Nessun commento.                            |
+| Asia Pacifico            | Giappone occidentale          | Generalmente disponibile |   Nessun commento.                           |
+| Asia Pacifico            | Australia sud-orientale | Generalmente disponibile |   Nessun commento.                           |
+| Asia Pacifico            | Asia orientale           | Capacità limitata    |   Nessun commento.                           |
+| Asia Pacifico            | India meridionale         | Capacità limitata | Non sono consentite distribuzioni.    |
+| Asia Pacifico            | India centrale       | Capacità limitata    | Richiede il processo di approvazione. |
+| EMEA            | Europa occidentale         | Capacità limitata    | Non disponibile in LCS al momento. |
+| EMEA            | Europa settentrionale        | Capacità limitata    | Non disponibile in LCS al momento. |
+| EMEA            | Regno Unito meridionale            | Generalmente disponibile |    Nessun commento.                          |
+| EMEA            | Regno Unito occidentale             | Generalmente disponibile |    Nessun commento.                          |
+| Svizzera     | Svizzera settentrionale   | Capacità limitata    | Richiede il processo di approvazione. |
+| Emirati Arabi Uniti             | Emirati Arabi Uniti settentrionali           | Capacità limitata    | Richiede il processo di approvazione. |
 
 La capacità di distribuzione nelle aree geografiche a capacità limitata è estremamente limitata. Le richieste di distribuzione vengono valutate caso per caso. Se hai un'esigenza aziendale impellente per la distribuzione in aree geografiche a capacità limitata, puoi presentare una richiesta di supporto da aggiungere alla lista d'attesa. Le aree con limitazione di capacità attualmente non consentono la distribuzione di Commerce Scale Unit. 
 

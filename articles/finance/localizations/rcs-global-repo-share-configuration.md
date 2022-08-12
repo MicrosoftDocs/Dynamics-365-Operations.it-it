@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 976a86aee75581d1afa764bea049b6c0eaecf9f3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f789fd86904c1e625be8fc5be3bfe456fe0659b4
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888925"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068750"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>Condividere le configurazioni di report elettronici (ER) nel repository globale di Regulatory Configuration Services (RCS) con organizzazioni esterne
 
@@ -36,7 +36,7 @@ Le seguenti procedure spiegano come un utente RCS può condividere una versione 
 
 Puoi inoltre assicurarti che venga fornito un ambiente RCS per la tua azienda.
 
-1. In un'app Finance and Operations, vai a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
+1. In un'app per la finanza e le operazioni, vai a **Amministrazione organizzazione** \> **Aree di lavoro** \> **Creazione di report elettronici**.
 2. Se non è stato effettuato il provisioning di nessun ambiente RCS per la società, seleziona **Regulatory services - Configurazione** e segui le istruzioni per il provisioning di un ambiente.
 
 Se è già stato eseguito il provisioning di un ambiente RCS per la tua azienda, utilizza l'URL della pagina per accedervi selezionando l'opzione di accesso.

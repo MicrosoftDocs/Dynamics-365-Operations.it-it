@@ -1,6 +1,6 @@
 ---
 title: Dati master fornitori integrati
-description: In questo articolo viene descritta l'integrazione dei dati dei fornitori società tra le app per finanza e operazioni e Dataverse.
+description: In questo articolo viene descritta l'integrazione dei dati dei fornitori società tra le app per la finanza e le operazioni e Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 394bb19000076eace6377e07bb3a939c8345da8a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a2c32ef546a5bc74e090591c0ac9d51529299041
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905317"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112204"
 ---
 # <a name="integrated-vendor-master"></a>Dati master fornitori integrati
 
@@ -37,7 +37,7 @@ In entrambi gli approcci, i dati del fornitore sono integrati in Dynamics 365 Su
 ![Flusso di dati esteso fornitore.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
-> Se si usano i portali Power Apps per i fornitori self-service, le informazioni sui fornitori possono essere inviate direttamente alle app per finanza e operazioni.
+> Se si usano i portali Power Apps per i fornitori self-service, le informazioni sui fornitori possono essere inviate direttamente alle app per la finanza e le operazioni.
 
 ## <a name="templates"></a>Modelli
 
@@ -52,8 +52,9 @@ App Finanza e operazioni | App di interazione con i clienti     | descrizione
 [Righe scadenzario pagamenti](mapping-reference.md#159) | msdyn_paymentschedulelines | Sincronizza i dati di riferimento delle righe scadenzario pagamenti per clienti e fornitori.
 [Scadenzario pagamenti](mapping-reference.md#160) | msdyn_paymentschedules | Questo modello sincronizza i dati di riferimento dello scadenzario pagamenti per clienti e fornitori.
 [Termini di pagamento](mapping-reference.md#161) | msdyn_paymentterms | Questo modello sincronizza i dati di riferimento dei termini di pagamento per clienti e fornitori.
-[Fornitori V2](mapping-reference.md#202) | msdyn_vendors | Le società che utilizzano una soluzione personalizzata per i fornitori possono sfruttare il concetto di fornitore predefinito introdotto in Dataverse a causa dell'integrazione con le app per finanza e operazioni.
+[Fornitori V2](mapping-reference.md#202) | msdyn_vendors | Le società che utilizzano una soluzione personalizzata per i fornitori possono sfruttare il concetto di fornitore predefinito introdotto in Dataverse a causa dell'integrazione con le app per la finanza e le operazioni.
 [Gruppi di fornitori](mapping-reference.md#200) | msdyn_vendorgroups | Questo modello sincronizza le informazioni del gruppo di fornitori.
 [Metodo di pagamento fornitore](mapping-reference.md#201) | msdyn_vendorpaymentmethods | Questo modello sincronizza le informazioni del metodo di pagamento dei fornitori.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

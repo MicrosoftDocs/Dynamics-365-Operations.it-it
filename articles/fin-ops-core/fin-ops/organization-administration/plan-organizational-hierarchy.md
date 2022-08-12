@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef906c0d60639da763f2a9c1e1adf508b0849b8978dff17cd0e7b3936fc4779e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5bb0b306cca715cad64d62fff843987a8e98eb99
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771874"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108766"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Pianificazione della gerarchia organizzativa
 
@@ -42,7 +42,7 @@ Quando si effettua la pianificazione delle gerarchie, è inoltre importante cons
 
 È necessario disporre di almeno una persona giuridica che rappresenti l'azienda. Una persona giuridica può stipulare contratti legali e ha l'obbligo di preparare rendiconti finanziari sul proprio rendimento.
 
-Le persone giuridiche possono essere utilizzate per le attività transazionali o per il consolidamento. Ciò significa che una persona giuridica in Finance and Operations non rappresenta necessariamente un'entità reale nell'azienda. Ad esempio, una società che partecipa alle transazioni può possedere persone giuridiche affiliate. In questo scenario, sono necessarie una persona giuridica per le transazioni e una persona giuridica virtuale per consolidare i risultati e i saldi delle persone giuridiche affiliate.
+Le persone giuridiche possono essere utilizzate per le attività transazionali o per il consolidamento. Ciò significa che una persona giuridica in finanza e operazioni non rappresenta necessariamente un'entità reale nell'azienda. Ad esempio, una società che partecipa alle transazioni può possedere persone giuridiche affiliate. In questo scenario, sono necessarie una persona giuridica per le transazioni e una persona giuridica virtuale per consolidare i risultati e i saldi delle persone giuridiche affiliate.
 
 Le organizzazioni interne all'azienda, ad esempio gli uffici regionali, possono essere rappresentate come persone giuridiche aggiuntive o come unità operative della persona giuridica principale. Non è necessario che un'unità operativa sia un'organizzazione legalmente definita. Le unità operative vengono utilizzate per controllare le risorse economiche e i processi operativi nell'azienda. Ad esempio, i reparti e i centri di costo sono unità operative.
 
@@ -171,7 +171,7 @@ Per i paesi che sono supportati, è possibile creare la maggior parte delle dich
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>Se l'organizzazione è modellata come unità operativa
 
-Le dichiarazioni statutarie devono essere create utilizzando un'altra applicazione. È necessario assicurarsi che i dati vengano acquisiti in Finance and Operations per supportare i requisiti di ciascuna unità operativa, laddove differiscono dai requisiti della sede centrale.
+Le dichiarazioni statutarie devono essere create utilizzando un'altra applicazione. È necessario assicurarsi che i dati vengano acquisiti nelle app per la finanza e le operazioni per supportare i requisiti di ciascuna unità operativa, laddove differiscono dai requisiti della sede centrale.
 
 ### <a name="currency"></a>Valuta
 
@@ -242,3 +242,4 @@ Quando si implementa una gerarchia organizzativa, considerare le procedure ottim
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

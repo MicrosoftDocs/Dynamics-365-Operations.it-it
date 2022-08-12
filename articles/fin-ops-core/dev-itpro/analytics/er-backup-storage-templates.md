@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2ca847f6f11d5d849ea570cc3886e6470021e451
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 635e7152bece91d5dee47f82cef7052730eb0c82
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880395"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108954"
 ---
 # <a name="backup-storage-of-er-templates"></a>Archiviazione di backup di modelli ER
 
@@ -28,11 +28,11 @@ ms.locfileid: "8880395"
 
 La [Panoramica dello strumento di creazione di report elettronici](general-electronic-reporting.md) consente agli utenti aziendali di configurare formati per documenti in uscita in base ai requisiti legali dei vari paesi. I formati ER configurati possono utilizzare modelli predefiniti per generare documenti in uscita in vari formati, ad esempio cartelle di lavoro Microsoft Excel, documenti Microsoft Word o documenti PDF. I modelli vengono riempiti con i dati necessari al flusso di dati configurato per documenti generati.
 
-Ogni formato configurato può essere pubblicato come parte di una soluzione ER. Ogni soluzione ER può essere esportata da un'istanza di Finance and Operations e importata in un'altra istanza.
+Ogni formato configurato può essere pubblicato come parte di una soluzione ER. Ogni soluzione ER può essere esportata da un'istanza di finanza e operazioni e importata in un'altra istanza.
 
-Il framework ER utilizza la [configurazione della gestione dei documenti](../../fin-ops/organization-administration/configure-document-management.md) per gestire i modelli necessari per l'istanza corrente di Finance and Operations. A seconda delle impostazioni del framework ER, l'archiviazione Blob di Microsoft Azure o una cartella di Microsoft SharePoint può essere selezionata come percorso fisico di archiviazione principale per i modelli. Per ulteriori informazioni, vedere [Configurare il framework di report elettronici](electronic-reporting-er-configure-parameters.md). La tabella DocuValue contiene un singolo record per ogni modello. In ogni record, il campo **AccessInformation** memorizza il percorso di un file di modello che si trova nel percorso di archiviazione configurato.
+Il framework ER utilizza la [configurazione della gestione dei documenti](../../fin-ops/organization-administration/configure-document-management.md) per gestire i modelli necessari per l'istanza corrente di finanza e operazioni. A seconda delle impostazioni del framework ER, l'archiviazione Blob di Microsoft Azure o una cartella di Microsoft SharePoint può essere selezionata come percorso fisico di archiviazione principale per i modelli. Per ulteriori informazioni, vedere [Configurare il framework di report elettronici](electronic-reporting-er-configure-parameters.md). La tabella DocuValue contiene un singolo record per ogni modello. In ogni record, il campo **AccessInformation** memorizza il percorso di un file di modello che si trova nel percorso di archiviazione configurato.
 
-Quando si gestiscono le istanze di Finance and Operations, è possibile che si decida di migrare l'istanza corrente a un'altra posizione. Ad esempio, si potrebbe migrare l'istanza di produzione a un nuovo ambiente sandbox. Se il framework ER è stato configurato per archiviare modelli nell'archiviazione Blob, la tabella DocuValue nel nuovo ambiente sandbox fa riferimento all'istanza dell'archiviazione Blob nell'ambiente di produzione. Tuttavia, non è possibile accedere a questa istanza dall'ambiente sandbox, in quanto il processo di migrazione non supporta la migrazione di elementi nell'archiviazione Blob. Di conseguenza, se si tenta di eseguire un formato ER che utilizza un modello per generare documenti aziendali, si verifica un'eccezione e si riceve una notifica relativa al modello mancante. Vengono inoltre fornite informazioni sull'utilizzo dello strumento di pulitura ER per eliminare e quindi reimportare la configurazione di formato ER che contiene il modello. Poiché è possibile che vi siano varie configurazioni di formato ER, questo processo può richiedere molto tempo.
+Quando si gestiscono le istanze di finanza e operazioni, è possibile che si decida di migrare l'istanza corrente a un'altra posizione. Ad esempio, si potrebbe migrare l'istanza di produzione a un nuovo ambiente sandbox. Se il framework ER è stato configurato per archiviare modelli nell'archiviazione Blob, la tabella DocuValue nel nuovo ambiente sandbox fa riferimento all'istanza dell'archiviazione Blob nell'ambiente di produzione. Tuttavia, non è possibile accedere a questa istanza dall'ambiente sandbox, in quanto il processo di migrazione non supporta la migrazione di elementi nell'archiviazione Blob. Di conseguenza, se si tenta di eseguire un formato ER che utilizza un modello per generare documenti aziendali, si verifica un'eccezione e si riceve una notifica relativa al modello mancante. Vengono inoltre fornite informazioni sull'utilizzo dello strumento di pulitura ER per eliminare e quindi reimportare la configurazione di formato ER che contiene il modello. Poiché è possibile che vi siano varie configurazioni di formato ER, questo processo può richiedere molto tempo.
 
 La funzionalità di archiviazione di backup di modelli ER consente di rendere i modelli sempre disponibili per generare documenti aziendali.
 
@@ -46,7 +46,7 @@ Per questa funzionalità, ogni modello di una nuova configurazione di formato ER
 - Si importa una nuova configurazione di formato ER che contiene un modello.
 - Si completa la versione bozza di una configurazione di formato ER che contiene un modello.
 
-Le copie di backup dei modelli vengono migrate a una nuova istanza di Finance and Operations come parte del database dell'applicazione.
+Le copie di backup dei modelli vengono migrate a una nuova istanza di finanza e operazioni come parte del database dell'applicazione.
 
 Se un modello di un formato di ER è necessario per la generazione di documenti in uscita, ad esempio per elaborare i pagamenti fornitori inclusa la generazione di report di avvisi di pagamento e di controllo, ma il modello richiesto non è presente nel percorso di archiviazione principale, si verifica l'evento seguente:
 
@@ -58,7 +58,7 @@ Se un modello di un formato di ER è necessario per la generazione di documenti 
 
 Per configurare il parametro **Esegui automaticamente procedura di ripristino di modelli danneggiati in batch**, completare i passaggi seguenti:
 
-1. In Finance and Operations, aprire la pagina **Amministrazione organizzazione \> Creazione di report elettronici \> pagina Configurazioni**.
+1. In finanza e operazioni, aprire la pagina **Amministrazione organizzazione \> Creazione di report elettronici \> pagina Configurazioni**.
 2. Nella pagina **Configurazioni**, nel Riquadro azioni, nella scheda **Configurazioni**, nel gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
 3. Nella finestra di dialogo **Parametri utente**, impostare il valore necessario per il parametro **Esegui automaticamente procedura di ripristino di modelli danneggiati in batch**.
 
@@ -83,7 +83,7 @@ Per impostazione predefinita, il processo di creazione automatica di copie di ba
 
 Se si imposta **Interrompi creazione di copie di backup del modello** su **Sì** e non si desidera mantenere le copie di backup dei modelli create in precedenza, selezionare **Pulisci archiviazione di backup** nella pagina **Parametri per la creazione di report elettronici**.
 
-Se l'ambiente è stato aggiornato alla versione 10.0.5 di Finance and Operations (ottobre 2019) e si desidera eseguire la migrazione a un nuovo ambiente che include configurazioni di formato ER eseguibili, selezionare **Completa archiviazione di backup** nella pagina **Parametri per la creazione di report elettronici** prima di eseguire la migrazione. Questo pulsante avvia il processo di creazione di copie di backup di tutti i modelli disponibili, di modo che possano essere archiviati nel percorso di archiviazione di backup ER per modelli.
+Se l'ambiente è stato aggiornato alla versione 10.0.5 di Finanza e operazioni (ottobre 2019) e si desidera eseguire la migrazione a un nuovo ambiente che include configurazioni di formato ER eseguibili, selezionare **Completa archiviazione di backup** nella pagina **Parametri per la creazione di report elettronici** prima di eseguire la migrazione. Questo pulsante avvia il processo di creazione di copie di backup di tutti i modelli disponibili, di modo che possano essere archiviati nel percorso di archiviazione di backup ER per modelli.
 
 ![Pagina Parametri per la creazione di report elettronici.](./media/GER-BackupTemplates-5.png)
 
@@ -93,7 +93,7 @@ Andare a **Amministrazione organizzazione** \> **Creazione di report elettronici
 
 ## <a name="supported-deployments"></a>Distribuzioni supportate
 
-In Finance and Operations versione 10.0.5, la funzionalità di archiviazione di backup di modelli ER è disponibile solo nelle distribuzioni cloud.
+In Finanza e operazioni versione 10.0.5, la funzionalità di archiviazione di backup di modelli ER è disponibile solo nelle distribuzioni cloud.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

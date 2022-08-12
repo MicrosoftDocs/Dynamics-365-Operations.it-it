@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 7fac40ebd8a1f7994997e12f1231e5522a0c0e24
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8b86b6a59344299a7a2d277543c3186ed2b8cee4
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865065"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103235"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Sincronizzare i magazzini da Supply Chain Management a Field Service
 
@@ -58,7 +58,7 @@ Per supportare l'integrazione tra Field Service e Supply Chain Management, sono 
 La colonna **Gestito esternamente** consente di controllare la sincronizzazione di livelli di scorte, rettifiche, trasferimenti e utilizzo negli ordini di lavoro. Solo i magazzini con **Gestito esternamente** impostato su **Sì** possono essere utilizzati per la sincronizzazione direttamente allo stesso magazzino nell'altro sistema. 
 
 > [!NOTE]
-> È possibile creare più magazzini in Field Service (con **Gestito esternamente** = No) e quindi mapparli a un singolo magazzino, con la funzionalità Filtro e query avanzati. Questa soluzione è utilizzata in situazioni in cui Field Service deve gestire il livello delle scorte dettagliato e inviare aggiornamenti solo a Supply Chain Management. In questo caso Field Service non riceverà gli aggiornamenti del livello delle scorte da Supply Chain Management. Per ulteriori informazioni, vedere [Sincronizzare rettifiche di inventario da Field Service a Finanza e operazioni](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente collegati a un progetto in Finanza e operazioni](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> È possibile creare più magazzini in Field Service (con **Gestito esternamente** = No) e quindi mapparli a un singolo magazzino, con la funzionalità Filtro e query avanzati. Questa soluzione è utilizzata in situazioni in cui Field Service deve gestire il livello delle scorte dettagliato e inviare aggiornamenti solo a Supply Chain Management. In questo caso Field Service non riceverà gli aggiornamenti del livello delle scorte da Supply Chain Management. Per ulteriori informazioni, vedere [Sincronizzare rettifiche di inventario da Field Service a Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizzare gli ordini di lavoro in Field Service con gli ordini cliente collegati a un progetto in Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="prerequisites-and-mapping-setup"></a>Prerequisiti e impostazione del mapping
 ### <a name="data-integration-project"></a>Progetto di Integrazione dati

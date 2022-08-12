@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efbf9072c3bbcb20f38e144f9a15d8178d96d708
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ef392fd744a68c54bc0438152b3487233ac5c7f3
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905575"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070351"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Impostare i dispositivi mobili per il lavoro di magazzino
 
@@ -123,13 +123,13 @@ Se il campo **Modo** per una voce di menu è impostato su **Indiretto**, è poss
 <td>Ricevimento articolo ordine di trasferimento</td>
 <td>Registrare l'entrata della quantità di un articolo e creare il lavoro di stoccaggio per un altro lavoratore.
 
-<strong>Nota:</strong> utilizzare questa opzione solo se gli articoli sono stati spediti da un magazzino che non è abilitato per i processi di gestione magazzino.</td>
+<strong>Nota:</strong> utilizzare questa opzione solo se gli articoli sono stati spediti da un magazzino che non è abilitato per i processi di gestione del magazzino (WMS).</td>
 </tr>
 <tr>
 <td>Ricevimento e stoccaggio articolo ordine di trasferimento</td>
 <td>Registrare l'entrata della quantità di un articolo e stoccare gli articoli. Lo stesso lavoratore esegue entrambe le azioni.
 
-<strong>Nota:</strong> utilizzare questa opzione solo se gli articoli sono stati spediti da un magazzino che non è abilitato per i processi di gestione magazzino.</td>
+<strong>Nota:</strong> utilizzare questa opzione solo se gli articoli sono stati spediti da un magazzino che non è abilitato per i processi di gestione del magazzino (WMS).</td>
 </tr>
 <tr>
 <td>Ricevimento riga ordine di trasferimento</td>

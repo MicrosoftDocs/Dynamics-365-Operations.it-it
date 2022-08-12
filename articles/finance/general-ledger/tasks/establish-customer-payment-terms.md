@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 16d861294a80ddb44c78760b329e544bc4665130
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716973"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9065710"
 ---
 # <a name="establish-customer-payment-terms"></a>Definire condizioni di pagamento cliente
 
@@ -35,13 +35,13 @@ Questa procedura consente di definire un'impostazione dello sconto di cassa e de
 7. Fare clic su **Salva**.
 8. Chiudere la pagina.
 9. Selezionare **Pannello di navigazione > Moduli > Contabilità clienti > Impostazione pagamenti > Termini di pagamento**.
-10. Fare clic su **Nuovo**. I termini di pagamento vengono utilizzati per definire la modalità di calcolo delle date di scadenza. L'impostazione della data dello sconto di cassa viene definita in una pagina separata. 
+10. Fare clic su **Nuovo**. I **Termini di pagamento** vengono utilizzati per definire la modalità di calcolo delle date di scadenza. L'impostazione della data dello sconto di cassa viene definita in una pagina separata. 
 11. Nel campo **Termini di pagamento** immettere un ID.
 12. Nel campo **Descrizione** immettere una descrizione.
-13. Selezionare un **Metodo di pagamento** ad esempio COD, Netto, Mese corrente e così via. Il metodo di pagamento viene utilizzato per definire la modalità di calcolo delle date di scadenza. Ad esempio, Netto viene utilizzato se la data di scadenza è sempre un determinato numero di mesi o di giorni dopo la data della fattura. COD può essere utilizzato quando il pagamento viene richiesto al ricevimento della fattura, in modo da non calcolare una data di scadenza. Selezionare "Mese corrente" per la guida attività.  
-14. Selezionare un **giorno di pagamento** se un determinato giorno della settimana o una determinata data verranno inclusi nel calcolo. A seconda dei termini di pagamento, è possibile immettere una quantità in Mesi o Giorni. Oppure è possibile utilizzare lo **scadenzario pagamenti** o il **giorno di pagamento** da "aggiungere" alla fine del Metodo di pagamento. Se la data di scadenza verrà sempre il decimo giorno del mese successivo, selezionare un **giorno di pagamento** del decimo giorno. 
+13. Selezionare un **Metodo di pagamento**, ad esempio **COD**, **Netto**, **Mese corrente** e così via. Il **Metodo di pagamento** viene utilizzato per definire la modalità di calcolo delle date di scadenza. Ad esempio, **Netto** viene utilizzato se la data di scadenza è sempre un determinato numero di mesi o di giorni dopo la data della fattura. **COD** può essere utilizzato quando il pagamento viene richiesto al ricevimento della fattura, in modo da non calcolare una data di scadenza. Selezionare **Mese corrente** per la guida attività.  
+14. Selezionare un **giorno di pagamento** se un determinato giorno della settimana o una determinata data verranno inclusi nel calcolo. A seconda dei termini di pagamento, è possibile immettere una quantità in Mesi o Giorni. Oppure è possibile utilizzare lo **Scadenzario pagamenti** o il **Giorno di pagamento** da "aggiungere" alla fine del **Metodo di pagamento**. Se la data di scadenza verrà sempre il decimo giorno del mese successivo, selezionare un **giorno di pagamento** del decimo giorno. Se si usa un **Calendario pagamenti**, è possibile definire in che modo viene determinata la scadenza quando la data calcolata cade in un giorno non lavorativo. La scadenza iniziale viene calcolata in base ai giorni di calendario. Se la data calcolata cade in un giorno non lavorativo, è possibile modificare la data calcolata in base al giorno lavorativo successivo o precedente.
 15. Fare clic su **Salva**.
-16. Chiudere la pagina.
+16. Chiudi la pagina.
 17. Selezionare **Contabilità clienti > Impostazione pagamenti > Sconti di cassa**.
 18. Fare clic su **Nuovo**. Questa pagina viene utilizzata per definire come la data dello sconto di cassa verrà calcolata. 
 19. Nel campo **Sconto di cassa** immettere un ID.
@@ -50,7 +50,7 @@ Questa procedura consente di definire un'impostazione dello sconto di cassa e de
 22. Nel campo **Giorni**, immettere il numero di giorni utilizzati per calcolare la data dello sconto di cassa. Se il principio **Netto** è selezionato, il numero di giorni verrà aggiunto alla data della fattura per calcolare la data dello sconto di cassa.  
 23. Immettere la percentuale dello sconto di cassa nel campo **Percentuale sconto**.
 24. In **Conto principale per sconti cliente**, immettere il conto principale in cui lo sconto di cassa verrà registrato per le fatture cliente.
-25. Selezionare un'opzione nel campo **Conti di contropartita sconti**. Se si seleziona "conti nelle righe fattura", lo sconto di cassa verrà registrato nello stesso conto principale spese/cespite nelle righe della fattura fornitore. Se si seleziona "Utilizza conto principale per le fatture fornitore", lo sconto di cassa verrà registrato nel conto principale definito in "Conto principale per le fatture fornitore". Per questo esempio selezionare "Utilizza conto principale per le fatture fornitore". 
+25. Selezionare un'opzione nel campo **Conti di contropartita sconti**. Se si seleziona "conti nelle righe fattura", lo sconto di cassa verrà registrato nello stesso conto principale spese/cespite nelle righe della fattura fornitore. Se si seleziona **Utilizza conto principale per le fatture fornitore**, lo sconto di cassa verrà registrato nel conto principale definito in **Conto principale per le fatture fornitore**. Per questo esempio selezionare **Utilizza conto principale per le fatture fornitore**. 
 26. Nel campo **Conto principale per sconti fornitore**, immettere il conto principale in cui lo sconto di cassa verrà registrato per le fatture fornitore.
 27. Fare clic su **Salva**.
 

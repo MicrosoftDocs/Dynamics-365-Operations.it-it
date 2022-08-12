@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 24d4a722ee143dc0869f758475aaf377e7a9e084
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 817d7db5952f96fa741671166d88fffddaac84e9
+ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954541"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "9166841"
 ---
 # <a name="tax-calculation-overview"></a>Panoramica calcolo delle imposte
 
@@ -29,7 +29,7 @@ Calcolo imposte è un servizio multitenant iperscalabile che consente al Global 
 Il calcolo delle imposte si integra con Dynamics 365 Finance e Dynamics 365 Supply Chain Management. Alla fine, si integrerà anche con Dynamics 365 Project Operations, Dynamics 365 Commerce e altre applicazioni proprietarie e di terze parti.
 
 > [!IMPORTANT]
-> Quando abiliti il calcolo delle tasse, alcune operazioni sui dati correlati potrebbero essere eseguite in un centro dati diverso dal centro dati che mantiene i tuoi dati di servizio. Rivedere i [termini e le condizioni](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) prima di abilitare il calcolo delle tasse. La privacy è molto importante. Per ulteriori informazioni, leggere l'[Informativa sulla privacy](https://go.microsoft.com/fwlink/?LinkId=521839) di Microsoft.
+> Quando abiliti il calcolo delle tasse, alcune operazioni sui dati correlati potrebbero essere eseguite in un centro dati diverso dal centro dati che mantiene i tuoi dati di servizio. Rivedere i [termini e le condizioni](https://go.microsoft.com/fwlink/?linkid=2156043) prima di abilitare il calcolo delle tasse. La privacy è molto importante. Per ulteriori informazioni, leggere l'[Informativa sulla privacy](https://go.microsoft.com/fwlink/?LinkId=521839) di Microsoft.
 
 Calcolo imposta è un motore fiscale basato su microservizi che offre una scalabilità esponenziale e può aiutarvi a eseguire i seguenti compiti:
 

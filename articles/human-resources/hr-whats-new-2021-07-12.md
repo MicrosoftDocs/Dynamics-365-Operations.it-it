@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 259004773c4e5a7d8865d563da9bcfea3a116632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d7fb922a35504b69aa8cc3d92cb981e8fb060290
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870960"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067588"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Novità e modifiche in Dynamics 365 Human Resources 12 luglio 2021
 
@@ -80,7 +80,7 @@ Le seguenti nuove funzionalità sono in anteprima. Per ulteriori informazioni su
 
 | Funzionalità | Dettagli |
 | --- | --- |
-| Platform Update 10.0.20 (44) | L'implementazione dell'aggiornamento della piattaforma 10.0.20 inizierà con la versione di servizio il 26 luglio 2021. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.20 delle app per finanza e operazioni (agosto 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
+| Platform Update 10.0.20 (44) | L'implementazione dell'aggiornamento della piattaforma 10.0.20 inizierà con la versione di servizio il 26 luglio 2021. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.20 delle app per la finanza e le operazioni (agosto 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20). |
 
 Per un elenco completo delle funzionalità pianificate e delle relative versioni pianificate, vedi [Panoramica del primo ciclo di rilascio del 2021 di Dynamics 365 Human Resources](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
@@ -92,3 +92,4 @@ Per un elenco completo delle funzionalità pianificate e delle relative versioni
 [Gestire le funzionalità](hr-admin-manage-features.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

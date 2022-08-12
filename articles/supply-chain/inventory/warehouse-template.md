@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 737b6f2f645ff270e5a49d54ca7542df3c075f94
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dafd51a46b19f3709963ffc12b3c8c77b6c809ac
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856108"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070441"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Impostare un magazzino utilizzando un modello di configurazione magazzino
 
@@ -90,7 +90,7 @@ Per questo scenario, le impostazioni di configurazione per un magazzino e alcuni
 
 In **Visualizza registro di esecuzione** vengono fornite informazioni dettagliate su ciascuna entità di dati da importare. È possibile utilizzare la visualizzazione dei dati di gestione temporanea per visualizzare rapidamente i dati di destinazione. In questo modo, è possibile visualizzare come appaiono i dati importati nelle pagine correlate nell'applicazione. Quando si utilizzano i modelli di dati predefiniti, la sequenza di importazione per ogni entità di dati funziona in modo predefinito per garantire che tutti i dati dipendenti vengano importati per primi. Se le entità di dati personalizzate fanno parte del progetto, verificare che la sequenza corretta sia definita. Per ulteriori informazioni, vedere [Modelli di dati di configurazione](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
-Per ulteriori informazioni su come utilizzare il modello di magazzino per copiare la configurazione di un magazzino da una società a una nuova società all'interno della stessa istanza, guardare questo video di 3 minuti su YouTube su [come utilizzare il modello di magazzino per copiare la configurazione di Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Per altre informazioni su come utilizzare il modello di magazzino per copiare la configurazione di un magazzino da una società a una nuova società all'interno della stessa istanza, guardare questo video di 3 minuti su YouTube su [come utilizzare il modello di magazzino per copiare la configurazione delle app per la finanza e le operazioni](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-article"></a>Articolo correlato
 

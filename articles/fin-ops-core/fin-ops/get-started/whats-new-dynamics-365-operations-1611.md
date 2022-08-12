@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5be880a6d178743f4a2d3339609604d993f7e5d5
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: dfe5eeee10bbe7812155018f4ff552eaa10a14e1
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016422"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9125054"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novità o modifiche introdotte in Dynamics 365 for Operations versione 1611 (novembre 2016)
 
@@ -881,7 +881,7 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 
 | Operazioni che è possibile effettuare | Perché questo è importante |
 |-----------------|-----------------------|
-| Modellare diversi tipi di contenitore. | È possibile utilizzare diversi tipi di contenitore nel magazzino per ottimizzare l'immagazzinamento e per altri motivi. La nuova entità Tipo di contenitore presenta le caratteristiche fisiche dei tipi di contenitore. È ora possibile associare le targhe a un tipo specifico di contenitore e utilizzare i limiti di stoccaggio di ubicazione. Ad esempio, è possibile utilizzare questa funzionalità per controllare il numero di pallet (o altri tipi di contenitore) consentiti in una determinata ubicazione. I tipi di contenitore anche sono stati aggiunti a gruppi di sequenze unità per aggiungere tipi di contenitore predefiniti per il processo di ricevimento. I tipi di contenitore possono essere utilizzati insieme alle direttive ubicazione in entrata e in uscita. Possono inoltre essere utilizzati nella visualizzazione delle scorte disponibili per determinare quanti tipi di contenitore sono attualmente disponibili in magazzino. Per ulteriori informazioni, vedere il post di blog [Utilizzo di targhe associato a un tipo di contenitore per guidare i processi di gestione magazzino](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Sebbene questo post di blog descriva un aggiornamento a Microsoft Dynamics AX 2012, lo stesso supporto è stato ora aggiunto a Dynamics 365 for Operations. |
+| Modellare diversi tipi di contenitore. | È possibile utilizzare diversi tipi di contenitore nel magazzino per ottimizzare l'immagazzinamento e per altri motivi. La nuova entità Tipo di contenitore presenta le caratteristiche fisiche dei tipi di contenitore. È ora possibile associare le targhe a un tipo specifico di contenitore e utilizzare i limiti di stoccaggio di ubicazione. Ad esempio, è possibile utilizzare questa funzionalità per controllare il numero di pallet (o altri tipi di contenitore) consentiti in una determinata ubicazione. I tipi di contenitore anche sono stati aggiunti a gruppi di sequenze unità per aggiungere tipi di contenitore predefiniti per il processo di ricevimento. I tipi di contenitore possono essere utilizzati insieme alle direttive ubicazione in entrata e in uscita. Possono inoltre essere utilizzati nella visualizzazione delle scorte disponibili per determinare quanti tipi di contenitore sono attualmente disponibili in magazzino. Per ulteriori informazioni, vedere il post di blog [Utilizzo di targhe associato a un tipo di contenitore per guidare i processi di gestione del magazzino](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/20/use-of-license-plates-associated-with-a-container-type-to-drive-warehouse-management-processes/). Sebbene questo post di blog descriva un aggiornamento a Microsoft Dynamics AX 2012, lo stesso supporto è stato ora aggiunto a Dynamics 365 for Operations. |
 | Stornare le spedizioni. | In un magazzino, è necessario poter gestire le modifiche dell'ultimo minuto. Ad esempio, alcune merci potrebbero essere danneggiate, in modo che non sia possibile spedirle. In alternativa, un cliente può effettuare una richiesta tardiva di annullamento o modifica di un ordine. Dynamics 365 for Operations ora consente di stornare una spedizione. Di conseguenza, è possibile annullare un documento di trasporto in modo che sia possibile aggiornarlo successivamente con le quantità corrette. Analogamente, sul flusso di entrata, è possibile annullare le entrate prodotti in modo da poter creare una versione aggiornata. |
 | Utilizzare i pallet con articoli combinati. | È ora possibile ricevere e registrare un pallet "combinato". Un pallet combinato consiste di articoli diversi che sono assemblati in un unico pallet per uno o più ordini fornitore o righe. Tutte le registrazioni possono essere riepilogate in una sola targa di destinazione. Questo processo è abilitato tramite il dispositivo mobile del magazzino. Ad esempio, quando il pallet degli articoli combinati arriva presso il magazzino, l'addetto ricevente identifica gli articoli e le quantità sul pallet prima che il pallet verrà spostato nelle ubicazioni di stoccaggio dedicate. Le ubicazioni di stoccaggio vengono identificate da modelli di lavoro e direttive ubicazione. Se le ubicazioni di stoccaggio sono distribuite su diversi articoli con ubicazioni fisse, questa funzionalità crea il numero di righe di lavoro di stoccaggio corrispondente al numero di articoli differenti sul pallet combinato. Questa funzionalità rende la registrazione e lo stoccaggio dei pallet di articoli combinati ricevuti più rapidi e più flessibili. Per ulteriori informazioni, vedere il post di blog [Ricevere e registrare un pallet con le righe del documento di origine miste utilizzando una targa](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/13/receive-and-register-a-pallet-with-mixed-source-document-lines-using-1-license-plate-purchase-order-matching/) e le informazioni sul supporto di pallet combinati nell'[annuncio del recente aggiornamento cumulativo Microsoft](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/06/30/whats-new-in-cu11-for-wms-and-tms/). Sebbene questo post di blog descriva un aggiornamento a AX 2012, lo stesso supporto è stato ora aggiunto a Dynamics 365 for Operations. |
 
@@ -942,7 +942,7 @@ Attualmente, Retail Modern POS è disponibile solo come applicazione di Windows 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Home page Novità o modifiche in Finance and Operations](whats-new-changed.md)
+[Home page Novità o modifiche in finanza e operazioni](whats-new-changed.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

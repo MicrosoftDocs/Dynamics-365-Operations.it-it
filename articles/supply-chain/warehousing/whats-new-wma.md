@@ -10,18 +10,35 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac750ede78bb4547f90b57426cc9cb10d2a282b3
-ms.sourcegitcommit: 78576abe5c7cbab1bb69d26c999b038e8c24873a
+ms.openlocfilehash: 19193cc445bc9c7d79463734d7d5787737ecc4f7
+ms.sourcegitcommit: 6989ac8a20c16d384b8307b707eeaf498c32d64e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "8954665"
+ms.lasthandoff: 07/25/2022
+ms.locfileid: "9188993"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo articolo elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20300"></a>Versione 2.0.30.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Maggiore stabilità.
+
+## <a name="version-20280"></a>Versione 2.0.28.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+
+- Maggiore stabilità.
+- È stata introdotta la possibilità di continuare la scansione anche quando viene visualizzata una finestra di dialogo di errore.
+- Aggiunto supporto per ASCII 10 nei codici a barre.
+- Migliorata l'usabilità delle finestra di dialogo di istruzioni dettagliate.
+- Risolto un problema a volte veniva visualizzata una schermata vuota.
+- Risolto un problema per cui lo scorrimento degli elenchi di lavoro non funzionava durante l'esecuzione di Microsoft Windows.
 
 ## <a name="version-20250"></a>Versione 2.0.25.0
 

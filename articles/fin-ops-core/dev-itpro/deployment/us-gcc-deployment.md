@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: hasaid
 ms.search.validFrom: 2021-11-09
-ms.openlocfilehash: 90e64fec512307af209ace128d5897475de7aee5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 41789d574cc7348dbf8a18db97da9c428da09602
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867275"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103940"
 ---
 # <a name="dynamics-365-finance-supply-chain-management-and-commerce-in-us-government-community-cloud-gcc"></a>Dynamics 365 Finance, Supply Chain Management e Commerce in US Government Community Cloud (GCC)
 
@@ -38,9 +38,9 @@ Dopo aver completato l'onboarding iniziale, segui le istruzioni in [Onboarding d
 
 ## <a name="environment-deployment"></a>Distribuzione dell'ambiente
 
-Dopo aver completato l'onboarding del progetto, puoi esaminare le funzionalità aggiuntive di LCS descritte in [Lifecycle Services (LCS) per i clienti di app per finanza e operazioni](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Quindi passa alla distribuzione dell'ambiente.
+Dopo aver completato l'onboarding del progetto, puoi esaminare le funzionalità aggiuntive di LCS descritte in [Lifecycle Services (LCS) per i clienti di app per la finanza e le operazioni](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md). Quindi passa alla distribuzione dell'ambiente.
 
-- Per distribuire ambienti gestiti da Microsoft tramite LCS, segui le istruzioni in [Lifecycle Services (LCS) per i clienti di app per finanza e operazioni](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
+- Per distribuire ambienti gestiti da Microsoft tramite LCS, segui le istruzioni in [Lifecycle Services (LCS) per i clienti di app per la finanza e le operazioni](../../../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md#new-deployment-experience).
 - Per gli ambienti ospitati su cloud, vedi [Distribuire e accedere agli ambienti di sviluppo](../../../fin-ops-core/dev-itpro/dev-tools/access-instances.md). È inoltre necessario completare il processo di onboarding di Resource Manager per i connettori, come descritto in [Completare il processo di onboarding di Azure Resource Manager per i progetti Lifecycle Services del governo degli Stati Uniti](arm-onbarding-us-goverment.md).
 
 > [!NOTE]
@@ -84,3 +84,4 @@ Sì. Tuttavia, se il tuo partner utilizza un'identità non GCC, il ticket di sup
 - [Panoramica distribuzione cloud](../../../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

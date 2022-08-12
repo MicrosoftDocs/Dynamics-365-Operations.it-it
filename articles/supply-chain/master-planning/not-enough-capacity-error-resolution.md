@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-19
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2db4c2606936222fcd1a97cf2814fbfbc41df113
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d4f54c06a07b3cdd0b8fe2cc52614189ff31ba7f
+ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891033"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "9135601"
 ---
 # <a name="fix-the-not-enough-capacity-could-be-found-scheduling-engine-error"></a>Risolvere l'errore del motore di pianificazione "Impossibile trovare capacità sufficiente"
 
@@ -111,5 +111,41 @@ Per esaminare la capacità disponibile sul gruppo di risorse, seguire questi pas
 Quando si utilizza la pianificazione delle operazioni, la pianificazione generale pianificherà la capacità in base al calendario del gruppo di risorse principale. Prenota l'operazione secondaria contemporaneamente all'operazione primaria e non tiene conto dei calendari o della capacità dell'operazione secondaria. Ciò può comportare la pianificazione dell'ordine di produzione in un calendario chiuso o in un momento in cui l'operazione secondaria non è disponibile (calendario chiuso, nessuna capacità).
 
 Quando si utilizza la pianificazione processo, la pianificazione generale terrà conto della capacità e del calendario dell'operazione primaria e secondaria durante la pianificazione dell'ordine. Affinché l'ordine possa essere programmato, i calendari per le risorse di entrambe le operazioni devono essere aperti e avere capacità disponibile.
+
+## <a name="maximum-job-lead-time-is-too-short"></a>Il lead time massimo del processo è troppo breve
+
+Il motore di pianificazione non sarà in grado di pianificare un ordine se il **Lead time massimo del processo** impostato per il sito è inferiore al lead time specificato per un articolo nelle relative impostazioni dell'ordine predefinite o nelle impostazioni di copertura.
+
+Per visualizzare o modificare l'impostazione **Lead time massimo del processo** per il sito, andare a **Controllo produzione \> Impostazione \> Parametri di controllo della produzione** e aprire la scheda **Generale**.
+
+Per visualizzare o modificare le impostazioni dell'ordine predefinite per un articolo, seguire questi passaggi:
+
+1. Fai clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
+1. Trovare e selezionare il prodotto pertinente nell'elenco.
+1. Nel riquadro Azioni, aprire la scheda **Gestisci inventario** e seleziona **Impostazioni ordine predefinite**.
+1. Espandere la Scheda dettaglio **Inventario** e visualizzare o modificare l'impostazione **Lead time inventario** in base alle esigenze.
+
+Per visualizzare o modificare le impostazioni della copertura per un articolo, seguire questi passaggi:
+
+1. Fai clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
+1. Trovare e selezionare il prodotto pertinente nell'elenco.
+1. Aprire la scheda **Piano** del riquadro Azioni selezionare **Copertura articolo**.
+1. Aprire la scheda **Lead time** e visualizzare o modificare il valore **Tempo di produzione** come necessario.
+
+## <a name="excessive-quantity-of-required-resources"></a>Quantità eccessiva di risorse richieste
+
+Durante la pianificazione, il motore tenta di creare una corrispondenza tra la quantità di risorse richieste impostata per un'operazione di ciclo di lavorazione e le risorse applicabili, in base ai fabbisogni di risorse dell'operazione. Se si imposta una quantità di risorse eccessiva, il ciclo di lavorazione potrebbe risultare irrealizzabile, il che produrrà un errore di pianificazione.
+
+Attenersi alla seguente procedura per verificare la quantità specificata e le risorse applicabili per un percorso, un ciclo di lavorazione e un'operazione del ciclo di lavorazione selezionati:
+
+1. Fai clic su **Gestione informazioni sul prodotto \> Prodotti \> Prodotti rilasciati**.
+1. Trovare e selezionare il prodotto pertinente nella griglia.
+1. Nel riquadro Azioni aprire la scheda **Ingegnere** e selezionare **Ciclo di lavorazione**.
+1. Trovare e selezionare il ciclo di lavorazione pertinente nella griglia.
+1. Aprire la scheda **Panoramica** nella parte inferiore della pagina.
+1. Selezionare un'operazione dall'elenco di operazioni di ciclo di lavorazione selezionate.
+1. Selezionare **Risorse applicabili** per aprire una finestra di dialogo in cui visualizzare le risorse applicabili per l'operazione di ciclo di lavorazione selezionata.
+1. Aprire la scheda **Carico risorse**. Il campo **Quantità** mostra la quantità di risorse necessaria per l'operazione di ciclo di lavorazione selezionata. Visualizzarla e/o modificarla in base alle esigenze.
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

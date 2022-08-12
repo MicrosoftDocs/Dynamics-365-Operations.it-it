@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5bfabae39d3bcb8f7fdd71ac5c93fcdbaeb9d946
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 130db343c4d09f2b8d31bf8acad3dcceec2be32e
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893296"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067943"
 ---
 # <a name="production-output-location"></a>Ubicazione uscita produzione
 
@@ -36,7 +36,7 @@ Un'ubicazione uscita produzione predefinita viene impostata quando i prodotti fi
 3. Se non è presente alcuna ubicazione, utilizzare l'ubicazione uscita definita nel gruppo di risorse utilizzato dalla risorsa per l'ultima operazione definita nel ciclo di lavorazione produzione.
 4. Se non è presente alcuna ubicazione, utilizzare l'ubicazione uscita definita nel magazzino definito per l'ordine di produzione.
 
-L'ubicazione uscita produzione predefinita viene impostata solo per i prodotti che vengono impostati utilizzando i processi di magazzino avanzati. Quando questo tipo di articolo viene dichiarato finito, viene creato il lavoro magazzino di tipo **Stoccaggio prodotti finiti** o **Stoccaggio co-prodotti e sottoprodotti**. Questo tipo di lavoro utilizza l'ubicazione uscita produzione come ubicazione di prelievo. L'ubicazione di stoccaggio è determinata dalle direttive ubicazione.
+Un'ubicazione di uscita produzione predefinita viene specificata solo per i prodotti impostati con i processi di gestione del magazzino (WMS). Quando questo tipo di articolo viene dichiarato finito, viene creato il lavoro magazzino di tipo **Stoccaggio prodotti finiti** o **Stoccaggio co-prodotti e sottoprodotti**. Questo tipo di lavoro utilizza l'ubicazione uscita produzione come ubicazione di prelievo. L'ubicazione di stoccaggio è determinata dalle direttive ubicazione.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

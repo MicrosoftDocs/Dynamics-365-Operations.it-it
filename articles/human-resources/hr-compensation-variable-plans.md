@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 22788dff1ee29b6920426d8ff00d412c3d5564e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f2f51a095a23b651dca645b14e652519f20037e2
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853076"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070560"
 ---
 # <a name="create-variable-compensation-plans"></a>Creare piani di retribuzione variabile
 
@@ -42,7 +42,11 @@ I **tipi di retribuzione variabile** costituiscono una componente necessaria. I 
 Facoltativamente, le società possono impostare **regole di distribuzione incentivi**. Le **regole di distribuzione incentivi** descrivono come il premio variabile deve essere allocato nel tempo. Ad esempio, una regola di distribuzione degli incentivi potrebbe indicare che il dipendente riceverà il 25% del proprio premio totale ogni anno per i quattro anni successivi. Le regole di distribuzione incentivi sono solo informative.
 
 ## <a name="variable-compensation-plans"></a>Piani di retribuzione variabile
-Il **piano di retribuzione variabile** contiene le regole, i metodi di calcolo e i valori predefiniti per il calcolo di retribuzione variabile per dipendenti iscritti al piano. Quando si crea un piano di retribuzione variabile, è necessario impostare il tipo di retribuzione variabile. Il tipo di retribuzione variabile determina se il sistema calcolerà un importo in valuta o un numero di unità come premio. È inoltre necessario impostare il metodo di calcolo:
+Il **piano di retribuzione variabile** contiene le regole, i metodi di calcolo e i valori predefiniti per il calcolo di retribuzione variabile per dipendenti iscritti al piano. Quando si crea un piano di retribuzione variabile, è necessario impostare il tipo di retribuzione variabile. Il tipo di retribuzione variabile determina se il sistema calcolerà un importo in valuta o un numero di unità come premio. 
+
+Il parametro **Limitare l'accesso a ruoli selezionati** limita l'acceso al piano di retribuzione ai ruoli di sicurezza selezionati assegnati a tale piano in Human Resources. Ad esempio, quando si creano piani di retribuzione per i dirigenti che non devono essere visibili a tutti i ruoli specifici per HR, è possibile usare questo parametro per limitare l'accesso a tali piani. 
+
+È inoltre necessario impostare il metodo di calcolo:
 
 -   **Temporizzato** - Il calcolo del premio variabile è basato sulla retribuzione fissa che il dipendente ha avuto in una data specifica. Tale data viene specificata all'evento processo quando i nuovi importi di retribuzione vengono elaborati.
 -   **Composito**: un importo del premio viene calcolato per ogni tariffa retributiva univoca della retribuzione fissa che il dipendente ha percepito tra la data di inizio e la data di fine del ciclo nell'evento di processo. I tassi vengono quindi sommati per determinare il premio finale. Ad esempio, durante il ciclo, un dipendente trasferito in una posizione diversa che aveva una retribuzione diversa. In questo caso, il premio variabile viene rettificato in base alla durata di ogni tariffa retributiva del dipendente.

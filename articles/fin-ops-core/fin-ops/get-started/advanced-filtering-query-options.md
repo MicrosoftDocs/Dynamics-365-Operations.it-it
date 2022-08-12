@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 520c8b32099024e9a9619a6ecdcd3ba7b97c7ecf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 89175763357f4309c4eb7874d0068586c5d9e726
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856920"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9123950"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Sintassi di query e filtro avanzata
 
@@ -122,9 +122,9 @@ Questo articolo descrive le opzioni di filtro e query disponibili quando si util
 <td>Due doppie virgolette consecutive ( <strong> "" </strong>) trova le righe senza valore per la colonna corrente.</td>
 </tr>
 <tr>
-<td>(<span class="code">Query di Finanza e operazioni</span>) (query Finanza e operazioni tra parentesi)</td>
+<td>(<span class="code">Query per le app per la finanza e le operazioni</span>) (query per le app per la finanza e le operazioni tra parentesi)</td>
 <td>Corrisponde a una query definita.</td>
-<td>Digita una query come un'istruzione SQL tra parentesi utilizzando il linguaggio di query Finanza e operazioni.</td>
+<td>Digitare una query come un'istruzione SQL tra parentesi utilizzando il linguaggio di query per le app per la finanza e le operazioni.</td>
   <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
        come esempio di sintassi per una condizione di filtro su un campo dall'origine dati radice e un campo da un'origine dati diversa (per la pagina Tutti i clienti)</td>
 </tr>

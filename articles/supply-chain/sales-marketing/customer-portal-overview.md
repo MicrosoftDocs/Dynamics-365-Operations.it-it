@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ff074e62489fe74f0c2de6dae0e02d1da7e7f6ae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f34acd78966cc9f26242653e9d0d16fdf22e0b2
+ms.sourcegitcommit: 12b3dbee905f8b2eb2e6c383c822a0fc9fccf063
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901910"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9103832"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Panoramica sul portale clienti per Dynamics 365 Supply Chain Management
 
@@ -42,7 +42,7 @@ Il modello di portale clienti include tutte le funzionalità di personalizzazion
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
 
-Il video della [panoramica del modello del portale clienti in Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (mostrato sopra) è incluso nella playlist di [Finanza e operazioni](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
+Il video della [panoramica del modello del portale clienti in Dynamics 365 Supply Chain Management](https://youtu.be/nPrqoLuHfV8) (mostrato sopra) è incluso nella playlist delle [app per la finanza e le operazioni](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponibile su YouTube.
 
 ## <a name="who-should-use-it"></a>Chi dovrebbe usarlo?
 
@@ -62,7 +62,7 @@ Il portale clienti viene fornito come modello di portali Power Apps. Dipende dai
 
 I [portali Power Apps](/powerapps/maker/portals/overview) sono una funzionalità che consente agli utenti di creare un sito Web rivolto verso l'esterno al quale possono accedere persone esterne all'organizzazione. È possibile creare portali con poco codice o senza codice. Il portale clienti è uno dei tanti [modelli di portale Dynamics 365](/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) messi a disposizione da Microsoft.
 
-La [doppia scrittura](/powerapps/maker/portals/overview) è un prodotto di infrastruttura predefinito che fornisce interazione quasi in tempo reale tra le app di interazione con i clienti e le app per finanza e operazioni. La doppia scrittura fornisce un'integrazione bidirezionale tra le app per finanza e operazioni e Microsoft Dataverse. Di conseguenza, offre un'esperienza utente integrata nelle app. Il portale clienti dipende da tabelle sincronizzate con la doppia scrittura. Affinché i dati di Supply Chain Management siano visualizzati nel portale clienti, è necessario abilitare la doppia scrittura per tutte le tabelle appropriate.
+La [doppia scrittura](/powerapps/maker/portals/overview) è un prodotto di infrastruttura predefinito che fornisce interazione quasi in tempo reale tra le app di interazione con i clienti e le app per la finanza e le operazioni. La doppia scrittura fornisce un'integrazione bidirezionale tra le app per la finanza e le operazioni e Microsoft Dataverse. Di conseguenza, offre un'esperienza utente integrata nelle app. Il portale clienti dipende da tabelle sincronizzate con la doppia scrittura. Affinché i dati di Supply Chain Management siano visualizzati nel portale clienti, è necessario abilitare la doppia scrittura per tutte le tabelle appropriate.
 
 ![Dipendenze del portale clienti.](media/customer-portal-elements.png "Dipendenze del portale clienti")
 

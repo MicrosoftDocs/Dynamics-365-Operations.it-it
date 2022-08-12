@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 281ee90b7cae2d24d37d0684ad9975118560bb3e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
+ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869983"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "9203111"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Supporto della funzione fiscale per ordini di trasferimento
 
@@ -111,7 +111,10 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
 6. Definisci l'applicabilità della fascia IVA dell'articolo.
 
     1. Seleziona **Gestisci colonne** e quindi seleziona le colonne da utilizzare per creare la tabella di applicabilità.
-    2. Aggiungi le regole di applicabilità. Non lasciare vuoto il campo **Fascia IVA articolo**.
+    2. Aggiungi le regole di applicabilità.
+        
+       > [!NOTE]
+       > Se la fascia IVA articolo predefinita nelle righe del documento imponibile è già corretta, lascia vuota questa matrice. 
         
         Aggiungi una nuova regola per la spedizione dell'ordine di trasferimento e il ricevimento.
         1. Nella pagina **Regole di applicabilità** seleziona **Aggiungi**.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 525e9be1655bdf0c0328ec53509ab1966abd7bde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aceb883e9182090a336c4c91aa0022a79495ce40
+ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883570"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9111696"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definire la dipendenza delle configurazioni ER in altri componenti
 
@@ -25,7 +25,7 @@ ms.locfileid: "8883570"
 
 Per effettuare queste operazioni, è innanzitutto necessario completare i passaggi nella guida attività ER Gestire configurazioni di mapping di modelli ed è necessario disporre dell'accesso a Microsoft Dynamics Lifecycle Services (LCS).
 
-Questa procedura descrive come progettare una configurazione ER e come specificarne la dipendenza da altri componenti software, in modo da garantire che la configurazione venga scaricata correttamente in una versione specifica di Finance and Operations. In questo esempio verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. 
+Questa procedura descrive come progettare una configurazione ER e come specificarne la dipendenza da altri componenti software, in modo da garantire che la configurazione venga scaricata correttamente in una versione specifica di Finanza e operazioni. In questo esempio verranno create le configurazioni ER necessarie per la società di esempio Litware, Inc. 
 
 Questa procedura viene creata per utenti con il ruolo di amministratore di sistema o di sviluppatore di report elettronici. Queste operazioni possono essere eseguite in qualsiasi società perché le configurazioni ER sono condivise tra tutte le società. 
 
@@ -46,7 +46,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 7. Selezionare Microsoft Dynamics 365 for Operations (1611).
 8. Nel campo Versione digitare "[7.1.1541.3036,8]".
     * [7.1.1541.3036,8]  
-    * Le dipendenze immesse vengono valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Finance and Operations versione 7.1.1541.3036 o successiva, ma comunque inferiore alla versione principale 8.   
+    * Le dipendenze immesse vengono valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Finanza e operazioni versione 7.1.1541.3036 o successiva, ma comunque inferiore alla versione principale 8.   
 9. Fare clic su Salva.
 10. Chiudere la pagina.
 11. Fare clic su Cambia stato.
@@ -59,7 +59,7 @@ Questa procedura viene creata per utenti con il ruolo di amministratore di siste
 18. Selezionare Microsoft Dynamics AX 7.0 RTW.
 19. Nel campo Versione digitare "[7.0.1265.3015,7.1]".
     * [7.0.1265.3015,7.1]  
-    * Le dipendenze verranno valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, versione 7.0.1265.3015 o successiva, ma comunque inferiore alla versione principale 1.   
+    * Le dipendenze verranno valutate quando la configurazione viene scaricata da un archivio ER. Questa versione di configurazione viene scaricata dall'archivio ER quando la versione 1 della configurazione "Modello dati di esempio" è già impostata o scaricata in anticipo. Se scaricata in anticipo, deve essere completata in Microsoft Dynamics 365 Finance, Enterprise Edition, versione 7.0.1265.3015 o successiva, ma comunque inferiore alla versione principale 1.   
 20. Fare clic su Salva.
 21. Chiudere la pagina.
 22. Fare clic su Cambia stato.
@@ -136,10 +136,11 @@ Le configurazioni create dal sistema verranno eliminate e scaricate nuovamente d
 25. Passare a Amministrazione organizzazione > Reporting elettronico > Configurazioni.
 26. Nella struttura espandere "Sample data model".
     * Si noti che la configurazione di mapping "Mapping di esempio" del modello è stata scaricata con la configurazione del modello dati selezionato. I due file verranno scaricati insieme perché il mapping di esempio è stato definito come implementazione del modello dati selezionato e perché è applicabile per l'applicazione. La configurazione "Mapping di esempio (alternativo)" non è stata scaricata perché la condizione per versione dell'applicazione non è soddisfatta.   
-    * Se accedi a Finance and Operations, registri lo stesso provider, accedi allo stesso progetto LCS e scarichi la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  
+    * Se accedi alle app per la finanza e le operazioni, registri lo stesso provider, accedi allo stesso progetto LCS e scarichi la stessa configurazione del modello dati, verrà scaricata la configurazione "Mapping di esempio (alternativo)", mentre la configurazione "Mapping di esempio" verrà ignorata.  
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
 [Gestire il ciclo di vita della configurazione per la creazione di report elettronici](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+

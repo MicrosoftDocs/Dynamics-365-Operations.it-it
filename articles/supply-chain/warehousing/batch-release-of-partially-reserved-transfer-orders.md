@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 591c93eef61992507188323909f37e3f33550a7d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888385"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9068636"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Rilascio batch degli ordini di trasferimento parzialmente prenotati
 
@@ -28,7 +28,7 @@ ms.locfileid: "8888385"
 La funzionalità per il rilascio batch degli ordini di trasferimento parzialmente prenotati consente di rilasciare parzialmente gli ordini di trasferimento a un magazzino utilizzando un processo batch.
 Poiché si ha la possibilità di rilasciare una quantità parziale, non è necessario attendere che l'intera quantità dell'ordine sia disponibile nel magazzino prima di rilasciare un ordine.
 
-Il rilascio di ordini a un magazzino è un processo di gestione magazzino avanzato. Questo processo include attività come prelievo, imballaggio e spedizione che un addetto al magazzino può eseguire mediante un dispositivo mobile.
+Il rilascio di ordini a un magazzino è un processo di gestione magazzino avanzato (WMS). Questo processo include attività come prelievo, imballaggio e spedizione che un addetto al magazzino può eseguire mediante un dispositivo mobile.
 
 ## <a name="where-it-applies"></a>Dove si applica
 

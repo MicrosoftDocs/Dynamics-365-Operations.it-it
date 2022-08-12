@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a05c34454e27244bb08bfff84f2ada6ff498f23
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 388be651164af622dbabd7b2c7b3437233454bea
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862157"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108603"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Visualizzare e aggiornare i dati entità con Excel 
 
@@ -31,7 +31,7 @@ ms.locfileid: "8862157"
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
 
-In questo articolo viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo di Excel di Microsoft Dynamics. Per aprire i dati entità, è possibile iniziare da Excel o dalle app per finanza e operazioni.
+In questo articolo viene illustrato come aprire i dati entità in Microsoft Excel e visualizzare, aggiornare e modificare i dati utilizzando il componente aggiuntivo di Excel di Microsoft Dynamics. Per aprire i dati entità, è possibile iniziare da Excel o dalle app per la finanza e le operazioni.
 
 Aprendo i dati entità in Excel, è possibile visualizzare in modo rapido e facile i dati utilizzando il componente aggiuntivo per Excel. Questo componente aggiuntivo richiede Microsoft Excel 2016 o versione successiva.
 
@@ -40,15 +40,15 @@ Aprendo i dati entità in Excel, è possibile visualizzare in modo rapido e faci
 
 Per ulteriori informazioni sull'utilizzo del componente aggiuntivo di Excel, guardare il breve video su come c[reare un modello Excel per l'intestazione e allineare i modelli](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Aprire i dati entità in Excel quando si inizia da un'app per finanza e operazioni
-1. In una pagina in un'app per finanza e operazioni, selezionare **Apri in Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Aprire i dati entità in Excel quando si inizia da un'app per la finanza e le operazioni
+1. In una pagina in un'app per la finanza e le operazioni, selezionare **Apri in Microsoft Office**.
 
     Se l'origine dati principale (tabella) della pagina è analoga a quella dell'origine dati principale di tutte le entità, le opzioni predefinite **Apri in Excel** vengono generate per la pagina. Le opzioni **Apri in Excel** possono essere individuate su pagine utilizzate di frequente, ad esempio **Tutti i fornitori** e **Tutti i clienti**.
  
 2. Selezionare l'opzione **Apri in Excel** e aprire la cartella di lavoro generata. Questa cartella di lavoro contiene dati vincolanti per l'entità, un puntatore all'ambiente in uso e un puntatore al componente aggiuntivo di Excel.
 3. In Excel selezionare **Abilita modifica** per attivare il componente aggiuntivo di Excel da eseguire. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4. Se si esegue per la prima volta il componente aggiuntivo di Excel, selezionare **Considera attendibile questo componente aggiuntivo**.
-5. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso all'app per finanza e operazioni. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente dal browser e consentirà l'acceso automatico, se possibile. Per informazioni sul browser utilizzato in base al sistema operativo, vedere [Browser utilizzati dai componenti aggiuntivi di Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Per assicurarti che l'accesso sia riuscito, verifica il nome utente nell'angolo in alto a destra del componente aggiuntivo di Excel. 
+5. Se viene richiesto di accedere, selezionare **Accedi**, quindi accedere utilizzando le stesse credenziali usate per l'accesso all'app per la finanza e le operazioni. Il componente aggiuntivo di Excel utilizzerà un contesto di accesso precedente dal browser e consentirà l'acceso automatico, se possibile. Per informazioni sul browser utilizzato in base al sistema operativo, vedere [Browser utilizzati dai componenti aggiuntivi di Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins). Per assicurarti che l'accesso sia riuscito, verifica il nome utente nell'angolo in alto a destra del componente aggiuntivo di Excel. 
 
 Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità selezionata. Tenere presente che non saranno disponibili dati nella cartella di lavoro finché il componente aggiuntivo di Excel la leggerà.
 
@@ -57,7 +57,7 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 2. Nell'Office Store cercare la parola chiave **Dynamics** e selezionare **Aggiungi** accanto a **Microsoft Dynamics Office Add-in** (il componente aggiuntivo di Excel).
 3. Se si esegue per la prima volta il componente aggiuntivo di Excel, abilitarlo selezionando **Considera attendibile questo componente aggiuntivo**. Il componente aggiuntivo di Excel viene eseguito nel riquadro a destra della finestra di Excel.
 4. Selezionare **Aggiungi informazioni sul server** per aprire il riquadro **Opzioni**.
-5. Nel browser, copiare l'URL del browser dall'app per finanza e operazioni di destinazione, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host. L'URL risultante deve includere soltanto il nome host.
+5. Nel browser, copiare l'URL del browser dall'app per la finanza e le operazioni, incollarlo nel campo **URL server**, quindi eliminare tutto ciò che segue il nome host. L'URL risultante deve includere soltanto il nome host.
 
     Ad esempio, se l'URL è `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, eliminare tutto salvo `https://xxx.dynamics.com`.
 
@@ -76,7 +76,7 @@ Il componente aggiuntivo di Excel legge automaticamente i dati dell'entità sele
 Dopo che il componente aggiuntivo di Excel avrà letto i dati entità nella cartella di lavoro, sarà possibile aggiornarli in qualsiasi momento selezionando **Aggiorna** nel componente aggiuntivo di Excel.
 
 ## <a name="edit-entity-data-in-excel"></a>Modificare i dati entità in Excel
-È possibile modificare i dati entità come richiesto, quindi pubblicarli di nuovo nelle app per finanza e operazioni selezionando **Pubblica** nel componente aggiuntivo di Excel. Per modificare un record, selezionare una cella del foglio di lavoro, quindi cambiare il valore di cella. Per aggiungere un nuovo record, effettuare uno dei seguenti passaggi:
+È possibile modificare i dati entità come richiesto, quindi pubblicarli di nuovo nelle app per la finanza e le operazioni selezionando **Pubblica** nel componente aggiuntivo di Excel. Per modificare un record, selezionare una cella del foglio di lavoro, quindi cambiare il valore di cella. Per aggiungere un nuovo record, effettuare uno dei seguenti passaggi:
 
 - Fare clic in un punto qualsiasi della tabella di origini dati, quindi selezionare **Nuovo** nel componente aggiuntivo di Excel.
 - Fare clic ovunque sull'ultima riga della tabella di origini dati, quindi premere il tasto TAB finché il cursore non si sposta dall'ultima colonna della riga e viene creata una nuova riga.
@@ -146,3 +146,4 @@ Sono disponibili alcuni problemi che possono essere risolti attraverso alcuni se
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

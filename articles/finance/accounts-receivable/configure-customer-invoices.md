@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93d25a260cfc94e898ef50c618b2cbc640c963bc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
+ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876327"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129514"
 ---
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
@@ -90,6 +90,14 @@ Utilizzare questo processo quando uno o più ordini cliente sono pronti per la f
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Registratr su account Ricavi per le righe di ordine senza prezzo e costo
 Sarà disponibile l'opzione per aggiornare l'account **Ricavi** in **Contabilità generale** per le righe di ordini cliente senza prezzo e costo. Per configurare o visualizzare queste informazioni, vai al parametro **Registra in conto ricavi per righe fattura ordine cliente a prezzo e costo zero** nella scheda **Contabilità generale e IVA** della pagina **Parametri contabilità clienti**. (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per aggiornare l'account **Ricavi** per le righe delle fatture degli ordini di vendita senza prezzo e costo. Se questa opzione è selezionata, il giustificativo conterrà 0,00 voci per i tipi di registrazione **Saldo cliente** e **Ricavi**. Un account ricavi viene definito nella pagina dei parametri **Registrazione magazzino**, nella scheda di definizione dell'account **Ordine cliente**. Se questa opzione non viene selezionata, le righe che non hanno informazioni sul prezzo o sul costo non registreranno l'account **Ricavi**. Il giustificativo conterrà invece una voce 0,00 per il tipo di registrazione **Saldo cliente**.
+
+## <a name="line-creation-sequence-number-information"></a>Informazioni sul numero di sequenza per la creazione di righe
+Quando si pubblicano le righe della fattura cliente, è possibile creare numeri sequenziali per le righe. I numeri di sequenza per la creazione delle righe vengono assegnati durante il processo di registrazione. Consentire una numerazione non sequenziale permette di migliorare le prestazioni della registrazione delle fatture cliente. I numeri sequenziali per la creazione di righe possono essere usati da integrazioni di terze parti che prevedono l'ordinamento sequenziale. Consultare il reparto IT in merito a eventuali estensioni che potrebbero integrarsi con i numeri sequenziali per la creazione di righe.
+
+Per configurare o visualizzare queste informazioni, andare alla pagina **Parametri contabilità clienti**, nella scheda **Aggiornamenti** impostare l'opzione **Assegna numeri di riga sequenziali durante la registrazione delle righe delle fatture clienti**:
+
+- Impostare l'opzione su **No** per usare una numerazione non sequenziale per i numeri sequenziali per la creazione di righe.
+- Impostare l'opzione su **Sì** per usare la numerazione sequenziale. Questa opzione deve essere impostata su **Sì** per le persone giuridiche con un indirizzo principale in Italia. Deve essere impostata su **Sì** anche se la versione di anteprima **CustInvoiceTransRandLineCreationSeqNumFlight** è disabilitata.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Impostazioni aggiuntive che modificano il comportamento di registrazione
 I seguenti campi modificano il comportamento del processo di registrazione.

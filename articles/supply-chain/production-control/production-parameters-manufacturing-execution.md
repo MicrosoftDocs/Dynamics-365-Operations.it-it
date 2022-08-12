@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8d9c756d8aaf2e7b2f6593e78fbb645dafee4552
-ms.sourcegitcommit: cfe8fbc202c3eb05d894076fdf99e46704f17365
+ms.openlocfilehash: 6d440a0d0d95fe93ed633fa588e1c3a193757d9d
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/15/2022
-ms.locfileid: "9016161"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070381"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parametri di produzione di Esecuzione produzione
 
@@ -71,7 +71,7 @@ Per ciascuna fase, il campo **Consumo DBA automatico** consente di selezionare u
   - Vuoto (nessuna opzione selezionata).
   - **Disponibile in ubicazione**
 
-    In Esecuzione produzione, se l'opzione **Principio di registrazione del consumo di materiali** è selezionata nel campo **Consumo DBA automatico** della scheda **Inizio**, tutti i materiali che sono impostati su **Inizio** nella DBA vengono detratti dalle scorte quando l'operazione viene avviata. L'opzione **Disponibile in ubicazione** viene utilizzata per i prodotti abilitati per i processi avanzati di magazzino. Se si seleziona il principio di registrazione del consumo di materiali, il materiale verrà registrato come consumato quando il lavoro di magazzino per il prelievo di materie viene completato. Il materiale viene registrato come consumato anche quando una riga DBA che utilizza il principio di registrazione del consumo di materiali viene rilasciata al magazzino e il materiale è disponibile nell'ubicazione entrata produzione.
+    In Esecuzione produzione, se l'opzione **Principio di registrazione del consumo di materiali** è selezionata nel campo **Consumo DBA automatico** della scheda **Inizio**, tutti i materiali che sono impostati su **Inizio** nella DBA vengono detratti dalle scorte quando l'operazione viene avviata. L'opzione **Disponibile in ubicazione** si usa per i prodotti abilitati per i processi di gestione del magazzino (WMS). Se si seleziona il principio di registrazione del consumo di materiali, il materiale verrà registrato come consumato quando il lavoro di magazzino per il prelievo di materie viene completato. Il materiale viene registrato come consumato anche quando una riga DBA che utilizza il principio di registrazione del consumo di materiali viene rilasciata al magazzino e il materiale è disponibile nell'ubicazione entrata produzione.
 
     > [!NOTE]
     > Se il campo **Principio di registrazione del consumo di materiali** è impostato nella scheda **Inizio** in Esecuzione produzione, è necessario selezionare lo stesso principio nella scheda **Operazioni** o **Dichiarazione di finito**. Questo requisito consente di per garantire che i materiali vengano detratti dalle scorte sulle DBA che utilizzano **Fine** come principio di registrazione del consumo di materiali sull'ordine di produzione. Se lo stesso principio di registrazione del consumo di materiali non è selezionato nella scheda **Operazioni** o **Dichiarazione di finito**, i materiali potrebbero essere detratti dalle scorte due volte.

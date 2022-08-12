@@ -7,21 +7,21 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: IT Pro, Application User
-ms.reviewer: kfend
-ms.custom:
-- "69161"
-- intro-internal
-ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.reviewer: sericks
 ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b9105ef39e411ac33043f1941d4e1dd32b758e5
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.custom:
+- "69161"
+- intro-internal
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.openlocfilehash: d8d40f7cb94e17370f04b0c97365600f68eb5090
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7984910"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9206727"
 ---
 # <a name="document-printing-overview"></a>Panoramica stampa del documento
 
@@ -54,7 +54,7 @@ Poiché la soluzione varia a seconda dello scenario, le applicazioni forniscono 
 - **Scenario 2**: utilizza le applicazioni client e i servizi Microsoft 365.
 - **Scenario 3**: richiede il supporto delle applicazioni client e dei servizi ospitati in Microsoft Azure.
 
-Oltre alla piattaforma distribuita nella sottoscrizione di Azure, le applicazioni di Finance and Operations forniscono ai clienti un'applicazione integrata di Azure che consente di utilizzare più facilmente dispositivi ospitati nel dominio per stampare documenti.
+Oltre alla piattaforma distribuita nella sottoscrizione di Azure, le app per la finanza e le operazioni forniscono ai clienti un'applicazione integrata di Azure che consente di utilizzare più facilmente dispositivi ospitati nel dominio per stampare documenti.
 
 ## <a name="service-overview"></a>Panoramica del servizio
 Mentre i documenti prodotti dalle applicazioni ospitate sono in attesa di essere stampati su un dispositivo connesso in rete, vengono memorizzati nell'archiviazione BLOB di Azure. L'opzione [Installare l'agente di distribuzione documenti per abilitare la stampa di rete](install-document-routing-agent.md) utilizza l'autenticazione Azure per stabilire un canale sicuro per i servizi Azure.

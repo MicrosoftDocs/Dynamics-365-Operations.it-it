@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2963589562e2d646670183e9db35df33255e8894
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e5816a7cddf509260511368b74655a9fd5bfc485
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903755"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067883"
 ---
 # <a name="shipment-auto-updates"></a>Aggiornamenti automatici delle spedizioni
 
@@ -30,7 +30,7 @@ La funzionalità di aggiornamento automatico delle spedizioni aggiorna automatic
 
 Quando la funzionalità di aggiornamento automatico delle spedizioni non è utilizzata, solo le diminuzioni della quantità vengono automaticamente inviate al magazzino fino alla creazione del lavoro di magazzino. Gli utenti devono aggiornare o eliminare manualmente le righe e devono quindi rilasciarle di nuovo se le quantità degli ordini aumentano o si aggiungono nuove righe ordine. Mediante la funzionalità di aggiornamento automatico delle spedizioni, le aziende possono fornire facilmente aggiornamenti al magazzino senza doversi preoccupare dell'eventuale non corrispondenza di spedizioni e carichi con gli aggiornamenti delle righe ordine.
 
-La funzionalità di aggiornamento automatico delle spedizioni si applica alle righe ordine cliente e alle righe ordine di trasferimento ed è attivata per uno specifico magazzino. Di conseguenza, le aziende possono applicare differenti criteri di aggiornamento automatico delle spedizioni ai magazzini, in base alle proprie esigenze. Per impostazione predefinita, i criteri di aggiornamento automatico delle spedizioni per le diminuzioni della quantità sono applicati a tutti i magazzini che utilizzano processi di gestione magazzino. Quando si utilizzano questi criteri predefiniti, solo le diminuzioni della quantità vengono automaticamente dirette a una spedizione e a un carico fino alla creazione di un lavoro di magazzino. Questo comportamento è simile a quello utilizzato prima dell'introduzione della funzionalità di aggiornamento automatico delle spedizioni.
+La funzionalità di aggiornamento automatico delle spedizioni si applica alle righe ordine cliente e alle righe ordine di trasferimento ed è attivata per uno specifico magazzino. Di conseguenza, le aziende possono applicare differenti criteri di aggiornamento automatico delle spedizioni ai magazzini, in base alle proprie esigenze. Per impostazione predefinita, i criteri di aggiornamento automatico delle spedizioni per le diminuzioni della quantità sono applicati a tutti i magazzini che utilizzano processi di gestione del magazzino (WMS). Quando si utilizzano questi criteri predefiniti, solo le diminuzioni della quantità vengono automaticamente dirette a una spedizione e a un carico fino alla creazione di un lavoro di magazzino. Questo comportamento è simile a quello utilizzato prima dell'introduzione della funzionalità di aggiornamento automatico delle spedizioni.
 
 ## <a name="main-elements-of-the-functionality"></a>Elementi principali della funzionalità
 

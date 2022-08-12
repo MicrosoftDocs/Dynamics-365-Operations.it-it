@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4a4933c429982d1371c7c9a9412789ae08e08f43
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a4eb70144957ecdbeba4246fb8c7cd6a20cb08c
+ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934704"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9108331"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Supporto per le chiamate parametrizzate delle origini dati ER di tipo Campo calcolato
 
@@ -36,7 +36,7 @@ Per completare gli esempi in questo articolo, è necessario disporre del seguent
     - Consulente funzionale per la creazione di report elettronici
     - Amministratore di sistema
 
-- Accesso ai servizi RCS (Regulatory Configuration Service) di cui è stato eseguito il provisioning per lo stesso tenant di Finance and Operations per uno dei seguenti ruoli:
+- Accesso ai servizi RCS (Regulatory Configuration Services) di cui è stato eseguito il provisioning per lo stesso tenant di Finanza e operazioni per uno dei seguenti ruoli:
 
     - Sviluppatore per la creazione di report elettronici
     - Consulente funzionale per la creazione di report elettronici
@@ -84,7 +84,7 @@ In questo esempio si creerà una configurazione per la società di esempio Litwa
             - Somma dei valori di imposta.
             - Valore minimo dell'aliquota fiscale applicata.
 
-    Il mapping di modello in questa configurazione implementa il modello di dati di base per qualsiasi formato ER creato per questo modello ed eseguito in Finance and Operations. Di conseguenza, il contenuto delle origini dati **Imposta** e **Gr** viene esposto per i formati ER, ad esempio origini dati astratte.
+    Il mapping di modello in questa configurazione implementa il modello di dati di base per qualsiasi formato ER creato per questo modello ed eseguito in Finanza e operazioni. Di conseguenza, il contenuto delle origini dati **Imposta** e **Gr** viene esposto per i formati ER, ad esempio origini dati astratte.
 
     ![Pagina Progettazione mapping modello con le origini dati Imposta e Gr.](media/er-calculated-field-type-01.png)
 
@@ -343,3 +343,4 @@ Quando un campo calcolato parametrizzato restituisce un record, è necessario su
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

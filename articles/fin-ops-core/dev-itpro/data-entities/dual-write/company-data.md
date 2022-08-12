@@ -1,6 +1,6 @@
 ---
 title: Concetto di società in Dataverse
-description: In questo articolo viene descritta l'integrazione dei dati della società tra Finance and Operations e Dataverse.
+description: In questo articolo viene descritta l'integrazione dei dati della società tra le app per la finanza e le operazioni e Dataverse.
 author: RamaKrishnamoorthy
 ms.date: 08/04/2020
 ms.topic: article
@@ -9,12 +9,12 @@ ms.reviewer: tfehr
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 11355031714b7e046f70bd5840297d66aa7d32e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ad0075e2b92ebeb9fba879bcae503100dc7adb47
+ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873180"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9205938"
 ---
 # <a name="company-concept-in-dataverse"></a>Concetto di società in Dataverse
 
@@ -23,15 +23,17 @@ ms.locfileid: "8873180"
 
 
 
-In Finanza e operazioni, il concetto di *società* è un costrutto sia legale che commerciale. È inoltre un limite di visibilità e di sicurezza per i dati. Gli utenti lavorano sempre nel contesto di una singola società e la maggior parte dei dati è oggetto dello striping della società.
+Nelle app per la finanza e le operazioni, il concetto di *società* è un costrutto sia legale che commerciale. È inoltre un limite di visibilità e di sicurezza per i dati. Gli utenti lavorano sempre nel contesto di una singola società e la maggior parte dei dati è oggetto dello striping della società.
 
 Dataverse non dispone di un concetto equivalente. Il concetto più vicino è *Business Unit*, ovvero principalmente un limite di visibilità e sicurezza per i dati utente. Questo concetto non ha le stesse implicazioni legali o commerciali del concetto di società.
 
 Poiché Business Unit e società non sono equivalenti concetti, non è possibile applicare un mapping di uno-a-uno (1:1) tra loro a scopo dell'integrazione con Dataverse. Tuttavia, poiché gli utenti devono, per impostazione predefinita, poter visualizzare le stesse righe nell'applicazione e in Dataverse, Microsoft ha introdotto una nuova tabella in Dataverse denominata cdm\_Company. Questa tabella equivale alla tabella Società nell'applicazione. Per contribuire a garantire che la visibilità delle righe sia equivalente tra l'applicazione e Dataverse predefinita, è consigliabile la seguente impostazione per i dati in Dataverse:
 
-+ Per ogni riga di Finanza e operazioni abilitato per la doppia scrittura, una riga cdm\_Company associato viene creata.
-+ Quando una riga cdm\_Company viene creata e abilitata per la doppia scrittura, una Business Unit predefinita viene creata con lo stesso nome. Sebbene un team predefinito venga creato automaticamente per tale Business Unit, la Business Unit non viene utilizzata.
-+ Un team proprietario distinto viene creato con lo stesso nome. Sarà inoltre associato al Business Unit.
++ Per ogni riga Company per la finanza e le operazioni abilitata per la doppia scrittura, viene creata una riga cdm\_Company associata.
+
++ Quando una riga cdm\_Company viene creata e abilitata per la doppia scrittura, una Business Unit predefinita viene creata con lo stesso nome. Sebbene un team di proprietari predefinito venga creato automaticamente per tale Business Unit, la Business Unit non viene utilizzata.
++ Un team proprietario distinto viene creato con lo stesso nome con un suffisso di doppia scrittura. Sarà inoltre associato al Business Unit.
+
 + Per impostazione predefinita, il proprietario di una riga creata e oggetto di doppia scrittura in Dataverse è impostato sul team "DW Owner" collegato alla Business Unit associata.
 
 Di seguito viene illustrato un esempio di questa impostazione dei dati in Dataverse.
@@ -43,7 +45,7 @@ Grazie a questa configurazione, qualsiasi riga correlata alla società USMF sar�
 + Il ruolo "Sales Manager" viene assegnato ai membri del team "USMF Sales".
 + Gli utenti con il ruolo "Sales Manager" possono accedere a tutte le righe relative ai conti appartenenti alla stessa Business Unit di cui sono membri.
 + Il team "USMF Sales" è collegato alla Business Unit USMF menzionata in precedenza.
-+ Di conseguenza, i membri del team "USMF Sales" possono visualizzare qualsiasi conto che appartiene all'utente "USMF DW", proveniente dalla tabella Società USMF in Finanza e operazioni.
++ Di conseguenza, i membri del team "USMF Sales" possono visualizzare qualsiasi conto che appartiene all'utente "USMF DW", proveniente dalla tabella Società USMF nelle app per la finanza e le operazioni.
 
 ![Come utilizzare i team.](media/dual-write-company-2.png)
 

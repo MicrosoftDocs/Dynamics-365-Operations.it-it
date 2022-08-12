@@ -12,12 +12,12 @@ ms.search.region: Italy
 ms.author: elgolu
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 48249ee840b915fcc44f3134e448b25ae5d735d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0edc69b88dff2912162264115f060fa20aa12e24
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903019"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9067079"
 ---
 # <a name="vat-management-and-reporting-by-tax-point-date-date-of-vat-register"></a>Gestione e reporting IVA per data di effettuazione dell'operazione (data del libro IVA)
 
@@ -31,7 +31,7 @@ Il 23 ottobre 2018, il Decreto Legge 119 (D.L.119/2018) ha introdotto una modifi
 - Le fatture registrate prima del quindicesimo giorno del mese successivo ma che presentano un riferimento alla liquidazione IVA precedente non devono interrompere la registrazione sequenziale. Se le fatture presentano una data di effettuazione dell'operazione IVA nel mese precedente ma una data di fatturazione nel mese corrente, devono essere registrate in ordine cronologico con le fatture nel mese corrente che presentano un riferimento indicante che tali fatture sono relative alla liquidazione IVA precedente.
 - Le società che emettono la fattura di vendita il giorno stesso, senza applicare la modifica introdotta dal D.L.119/2018, sono in regola.
 
-La funzionalità Data del libro IVA supporta le modifiche introdotte dal D.L.119/2018. Questa funzionalità è presente in Microsoft Dynamics 365 for Finance and Operations versione 10.0.6 (novembre 2019) e versioni successive.
+La funzionalità Data del libro IVA supporta le modifiche introdotte dal D.L.119/2018. Questa funzionalità è presente in Microsoft Dynamics 365 Finance versione 10.0.6 (novembre 2019) e versioni successive.
 
 Prima di poter utilizzare la funzionalità Data del libro IVA, è necessario attivarla nell'area di lavoro **Gestione funzionalità**. Questa funzionalità introduce un nuovo campo di tipo data, ovvero **Data del libro IVA**, per le transazioni IVA. La data aggiuntiva verrà utilizzata come criterio di determinazione della data di effettuazione dell'operazione IVA per l'inclusione delle transazioni IVA nell'ambito del periodo di liquidazione IVA e del reporting per le dichiarazioni IVA.
 
@@ -104,3 +104,4 @@ Quando l'opzione **Data del libro IVA** nella pagina **Parametri di contabilità
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

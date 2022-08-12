@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f75176781620cd6f845c002876eba6e34d5793e7
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 1f379cd7783cc984666582d2c680a1db013627ce
+ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8692228"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9070174"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Ottimizzare le query di tabelle virtuali di Dataverse
 
@@ -49,12 +49,12 @@ Una delle cause del rallentamento delle prestazioni con le tabelle virtuali di D
 Un esempio in cui è possibile vedere questo impatto è rappresentato dalle query sull'entità Lavoratore (**mshr_hcmworkerentity**) o Lavoratore base (**mshr_hcmworkerbaseentity**). È possibile che il problema relativo alle prestazioni si manifesti in vari modi:
 
 - **Lenta esecuzione delle query**: la query sulla tabella virtuale può restituire i risultati previsti, ma la sua esecuzione può richiedere più tempo del previsto.
-- **Timeout della query**: è possibile che si verifichi il timeout della query e che venga restituito il seguente errore: "È stato ottenuto un token per chiamare Finanza e operazioni, ma Finanza e operazioni ha restituito un errore di tipo InternalServerError."
+- **Timeout della query**: è possibile che si verifichi il timeout della query e che venga restituito il seguente errore: "È stato ottenuto un token per chiamare finanza e operazioni, ma finanza e operazioni ha restituito un errore di tipo InternalServerError."
 - **Errore imprevisto**: la query potrebbe restituire un errore 400 con il seguente messaggio: "Si è verificato un errore imprevisto."
 
   ![Errore 400 su HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
-- **Limitazione**: la query potrebbe utilizzare in modo eccessivo le risorse del server e diventare soggetta a limitazione. In tal caso, la query restituisce il seguente errore: "È stato ottenuto un token per chiamare Finanza e operazioni, ma Finanza e operazioni ha restituito un errore 429." Per ulteriori informazioni sulla limitazione in Human Resources, vedere [Domande frequenti sulla limitazione](./hr-admin-integration-throttling-faq.md).
+- **Limitazione**: la query potrebbe utilizzare in modo eccessivo le risorse del server e diventare soggetta a limitazione. In tal caso, la query restituisce il seguente errore: "È stato ottenuto un token per chiamare finanza e operazioni, ma finanza e operazioni ha restituito un errore 429." Per ulteriori informazioni sulla limitazione in Human Resources, vedere [Domande frequenti sulla limitazione](./hr-admin-integration-throttling-faq.md).
 
   ![Errore 429 su HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
@@ -161,3 +161,4 @@ Per ulteriori informazioni sulla paginazione, vedere [Specificare il numero di e
 - [Domande frequenti sulla limitazione](./hr-admin-integration-throttling-faq.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

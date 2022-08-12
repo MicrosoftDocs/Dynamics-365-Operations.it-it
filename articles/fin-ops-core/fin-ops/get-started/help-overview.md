@@ -1,6 +1,6 @@
 ---
 title: Sistema della guida (video)
-description: Questo articolo fornisce una panoramica della Guida per le app per finanza e operazioni.
+description: Questo articolo fornisce una panoramica della Guida per le app per la finanza e le operazioni.
 author: edupont04
 ms.date: 07/20/2021
 ms.topic: overview
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 924af44a6f0b1430859f0f6354ef55ff67a1b677
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 57c17cab920c531b3eb125260064d01dd8662576
+ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8898371"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "9124196"
 ---
 # <a name="help-system"></a>Guida
 
@@ -53,7 +53,7 @@ Puoi trovare contenuti su docs.microsoft.com usando qualsiasi motore di ricerca.
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ricevi notifiche sulle modifiche tramite un feed RSS
 
-Per iscriverti a un feed RSS di tutti gli aggiornamenti relativi al contenuto di docs.microsoft.com nelle app per finanza e operazioni, utilizza il seguente collegamento:
+Per iscriverti a un feed RSS di tutti gli aggiornamenti relativi al contenuto di docs.microsoft.com nelle app per la finanza e le operazioni, utilizza il seguente collegamento:
 
 [Feed RSS](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
@@ -98,7 +98,7 @@ Per ulteriori informazioni, vedi la [Guida del collaboratore alla documentazione
 
 La guida attività è un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o un processo aziendale. È possibile aprire (riprodurre) una guida attività dal riquadro **Guida**. Quando selezioni per la prima volta una guida attività, nel riquadro **Guida** vengono visualizzate le istruzioni dettagliate per l'attività. Sono disponibili guide attività localizzate.
 
-Microsoft ha rilasciato le librerie delle guide attività per le versioni dei prodotti fino alla versione di dicembre 2017 di Dynamics 365 for Finance and Operations. La sezione [Accesso alle guide attività dal riquadro Guida](#accessing-task-guides-from-the-help-pane) di questo articolo descrive come trovare le guide attività appropriate per il prodotto.
+Microsoft ha rilasciato le librerie delle guide attività per le versioni dei prodotti fino alla versione di dicembre 2017 di Dynamics 365 per finanza e operazioni. La sezione [Accesso alle guide attività dal riquadro Guida](#accessing-task-guides-from-the-help-pane) di questo articolo descrive come trovare le guide attività appropriate per il prodotto.
 
 ![Visualizzazione lettura della guida attività.](./media/task-guide-ops.png)
 
@@ -182,3 +182,4 @@ Nella tabella riportata di seguito sono elencati i nostri siti Web. I siti con u
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+
