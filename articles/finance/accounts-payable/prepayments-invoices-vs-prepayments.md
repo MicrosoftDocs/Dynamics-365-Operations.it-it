@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a420a0a366e454df14d5fe994691829bc7950306
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 901683f2176189ce2f4186b4f9b3b5c64ec9f2b1
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895198"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227777"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Fatture di pagamento anticipato e pagamenti anticipati a confronto
 
@@ -78,6 +78,8 @@ Il pagamento anticipato può essere rimosso dall'ordine fornitore a meno che non
 Per registrare la fattura di pagamento anticipato del fornitore, vai alla pagina **Fattura fornitore** selezionando l'opzione **Fattura pagamento anticipato** nella pagina **Ordini fornitore** (**Contabilità fornitore \> Comune \> Ordini fornitore \> Tutti gli ordini fornitore \> scheda Fattura \> Fattura pagamento anticipato**). Immetti le informazioni relative alla fattura di pagamento anticipato, compreso il numero della stessa. Non è possibile modificare le quantità per una fattura di pagamento anticipato. Se il fornitore ha fatturato un importo parziale del valore di pagamento anticipato definito nell'ordine fornitore, è possibile aggiornare il prezzo unitario in modo che rifletta il valore parziale.
 
 Quando la fattura di pagamento anticipato viene registrata, il saldo fornitore e il conto pagamento anticipato verranno aggiornati. Verrà inoltre aggiornato il valore dell'**applicazione di pagamento anticipato** nella definizione di pagamento anticipato contenuta nell'ordine fornitore. I movimenti di dimensione finanziaria predefiniti per il giustificativo di pagamento anticipato registrato verranno prelevati dalle informazioni di intestazione nell'ordine fornitore.
+
+Se la funzionalità **Blocca dimensioni finanziarie sulle righe fattura nella fattura di pagamento anticipato fornitore** nella pagina **Gestione funzionalità** è attivata, le dimensioni nell'intestazione o nelle righe del pagamento anticipato non possono essere aggiornate. 
 
 ## <a name="post-and-settle-payments-for-the-prepayment-invoice"></a>Registrare e liquidare i pagamenti per la fattura di pagamento anticipato
 Successivamente, la fattura di pagamento anticipato verrà pagata dalla pagina **Giornale di registrazione pagamenti**. Per accedere ai giornali di registrazione pagamenti, fai clic su **Contabilità fornitori \> Giornali di registrazione \> Pagamenti \> Giornale di registrazione pagamenti**. Dopo aver contabilizzato la liquidazione del pagamento nella fattura di pagamento anticipato, il valore **rimanente dell'applicazione di pagamento anticipato** dell'ordine fornitore verrà aggiornato.

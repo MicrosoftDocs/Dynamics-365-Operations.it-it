@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3465866df0d766b2300eb4fd1989c034cedbbb22
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: d99a7a7d0261ba0afd19efbb237dff329527723d
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123810"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219156"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.20 (agosto 2021)
 
@@ -49,7 +49,7 @@ Questa tabella elenca i miglioramenti delle funzionalità incluse in questa vers
 | Modulo | Nome della&nbsp;funzionalità&nbsp;nella gestione&nbsp;delle funzionalità | Ulteriori informazioni |
 |---|---|---|
 | Pianificazione generale | Autorizzazione parallela della previsione della domanda modificata | Questa funzionalità consente l'autorizzazione parallela della previsione della domanda rettificata dalla pagina **Previsione della domanda modificata**. Lo scopo di questa funzione è aumentare le prestazioni quando viene autorizzato un numero elevato di previsioni. Al momento dell'autorizzazione, l'utente può specificare il **Numero di thread** nella finestra di dialogo di autorizzazione. |
-| Pianificazione generale | (Anteprima) Stabilizzazione e consolidamento batch per ordini batch in blocco e di imballaggio pianificati | Questa funzionalità consente di utilizzare i processi batch per stabilizzare e consolidare gli ordini in blocco e di imballaggio pianificati. |
+| Pianificazione generale | Stabilizzazione e consolidamento batch per ordini batch in blocco e di imballaggio pianificati | Questa funzionalità consente di utilizzare i processi batch per stabilizzare e consolidare gli ordini in blocco e di imballaggio pianificati. |
 | Controllo produzione | Copia cicli di lavorazione generici | Questa funzionalità migliora la funzione di copia del percorso per consentire agli utenti di copiare percorsi che non sono specifici dell'elemento. Consente al sistema di aggiornare tutte le informazioni rilevanti (come il sito, il gruppo di percorsi, i requisiti delle risorse e varie volte) dopo che la funzione di copia del percorso è stata utilizzata per sovrascrivere un percorso non ancora assegnato a un elemento. |
 | Controllo produzione | Aggiorna requisiti delle risorse correlate quando viene modificata un'operazione di ciclo di lavorazione | Questa funzionalità consente al sistema di aggiornare i requisiti delle risorse correlate dopo che un utente ha modificato il funzionamento di un passaggio del ciclo di lavorazione esistente. |
 | Gestione informazioni sul prodotto | Pre-elaborazione del report della distinta base per evitare il timeout | Questa funzionalità fa sì che il report della distinta base venga pre-elaborato. Ciò eviterà problemi di timeout quando si ha un grande carico di dati per il rapporto. |

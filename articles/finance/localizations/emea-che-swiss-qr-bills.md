@@ -1,24 +1,24 @@
 ---
 title: Fatture QR per la Svizzera
 description: Questo articolo fornisce informazioni su come generare fatture QR (QR-slip) ed elaborare fatture QR in entrata.
-author: anasyash
+author: AdamTrukawka
 ms.date: 03/25/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Switzerland
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 5c968146b2d60ba3f21ff93dca6aa6b5f0dea319
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 2292f8a1c598806e170bef08ea59d6ecea656bb8
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906269"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9287047"
 ---
 # <a name="swiss-qr-bills"></a>Fatture QR per la Svizzera
 

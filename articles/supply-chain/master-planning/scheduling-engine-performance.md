@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5ece3672bba352e02808248c91366539423d682
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ddc22bdd223eff513ff571501c599712ac78a7da
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854299"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219909"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Migliorare le prestazioni del motore di pianificazione
 
@@ -294,7 +294,9 @@ Un'alternativa all'uso di operazioni parallele è modellare le coppie come risor
 
 ### <a name="route-with-quantity-of-resources-higher-than-1"></a>Ciclo di lavorazione con una quantità di risorse superiore a uno
 
-Se si imposta la quantità di risorse necessarie per un'operazione su un valore superiore a uno, risulta effettivamente uguale all'utilizzo di operazioni primarie/secondarie poiché più lavori paralleli vengono inviati al motore. Tuttavia, per questo caso non è possibile utilizzare assegnazioni di risorse specifiche, poiché una quantità superiore a una richiede che più di una risorsa sia applicabile per l'operazione.
+Se la quantità di risorse necessarie per un'operazione è superiore a uno, il risultato è effettivamente uguale all'utilizzo di operazioni primarie/secondarie poiché più lavori paralleli verranno inviati al motore. Tuttavia, per questo caso, non è possibile utilizzare assegnazioni di risorse specifiche poiché una quantità superiore a uno richiede che più di una risorsa sia applicabile per l'operazione.
+
+Un'operazione secondaria con una quantità del carico di risorse superiore a uno significa che la quantità specificata delle risorse secondarie è necessaria per ogni risorsa dell'operazione primaria. Ad esempio, se la quantità di risorse di un'operazione primaria è impostata su due e la quantità di risorse della relativa operazione secondaria è impostata su tre, sono necessarie in totale sei risorse per l'operazione secondaria.
 
 ### <a name="excessive-use-of-finite-capacity"></a>Uso eccessivo di una capacità finita
 

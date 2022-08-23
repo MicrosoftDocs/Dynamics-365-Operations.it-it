@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f793cb71ff52e49534e1f11b06132f2e20610d7c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8845926"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219534"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurazione dei criteri di consolidamento delle spedizioni
 
@@ -60,8 +60,7 @@ Attieniti alla seguente procedura per impostare i criteri di consolidamento dell
 1. Nel riquadro azioni, seleziona **Modifica**.
 1. Nella Scheda dettaglio **Magazzino**, imposta l'opzione **Consolida spedizione al rilascio al magazzino** su *Sì*.
 1. Ripeti i passaggi da 2 a 4 per tutti gli altri magazzini in cui è richiesto il consolidamento.
-1. Chiudere la pagina.
-1. Usare la [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare la funzionalità *Criteri di consolidamento della spedizione*. Nell'area di lavoro **Gestione funzionalità**, la funzione è denominata *Consolida spedizione*.
+1. Chiudi la pagina.
 1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**. Potrebbe essere necessario aggiornare il browser per vedere la nuova voce di menu **Criteri di consolidamento della spedizione** dopo aver abilitato la funzione.
 1. Nel riquadro azioni, seleziona **Crea impostazione predefinita** per creare i seguenti criteri:
 
@@ -81,7 +80,6 @@ Attieniti alla seguente procedura per impostare i criteri di consolidamento dell
 
 Segui questi passaggi per impostare i criteri di consolidamento delle spedizioni predefinite in un ambiente completamente nuovo.
 
-1. Usare la [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per abilitare la funzionalità *Criteri di consolidamento della spedizione*, se non è stata già abilitata. Nell'area di lavoro **Gestione funzionalità**, la funzione è denominata *Consolida spedizione*.
 1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
 1. Nel riquadro azioni, seleziona **Crea impostazione predefinita** per creare i seguenti criteri:
 

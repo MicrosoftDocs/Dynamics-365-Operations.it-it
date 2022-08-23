@@ -1,24 +1,24 @@
 ---
 title: Fattura fiscale per le merci consegnate gratuitamente
 description: Questo articolo fornisce informazioni sulle fatture imposta per le merci che sono state consegnate gratuitamente.
-author: ilkond
+author: mrolecki
 ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
-ms.author: ilyako
+ms.author: mrolecki
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: bc83b9213392b4534e28e966a46dbd29e4805618
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: d30fd0042107e2caff7fde29d78bcea1a9e71827
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858348"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281212"
 ---
 # <a name="tax-invoice-for-goods-delivered-for-free"></a>Fattura fiscale per le merci consegnate gratuitamente
 

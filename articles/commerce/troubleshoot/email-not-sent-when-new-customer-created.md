@@ -2,21 +2,21 @@
 title: Il messaggio e-mail di benvenuto non viene inviato quando vengono creati nuovi clienti
 description: Questo articolo fornisce indicazioni per la risoluzione dei problemi che possono essere utili se non viene inviata una notifica e-mail di benvenuto quando viene creato un nuovo cliente in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/24/2022
+ms.date: 08/01/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-02-10
-ms.openlocfilehash: 8e95b33d4b8a9af13c613ab89dd33de6b4934694
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5aa7d864555f96194500989e2d7ad200d8892121
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853685"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219406"
 ---
-# <a name="welcome-email-is-not-sent-when-new-customers-are-created"></a>Il messaggio e-mail di benvenuto non viene inviato quando vengono creati nuovi clienti
+# <a name="welcome-email-isnt-sent-when-new-customers-are-created"></a>Il messaggio e-mail di benvenuto non viene inviato quando vengono creati nuovi clienti
 
 [!include [banner](../../includes/banner.md)]
 
@@ -24,17 +24,19 @@ Questo articolo fornisce indicazioni per la risoluzione dei problemi che possono
 
 ## <a name="description"></a>Description
 
-Quando viene creato un nuovo cliente in Commerce Headquarters, al cliente non viene inviato un messaggio un'e-mail di benvenuto, anche se è configurata una notifica e-mail per il tipo di notifica e-mail **Cliente creato**.
+Quando viene creato un nuovo cliente in Commerce Headquarters, al cliente non viene inviata una notifica e-mail di benvenuto, anche se è configurata una notifica e-mail per il tipo di notifica e-mail **Cliente creato**.
 
 ## <a name="resolution"></a>Risoluzione
 
-### <a name="set-the-correct-email-id-value-for-the-customer-created-email-notification-type"></a>Impostare il valore ID e-mail corretto per il tipo di notifica e-mail creato dal cliente
+### <a name="associate-an-email-notification-profile-under-commerce-parameters"></a>Associare un profilo di notifica tramite posta elettronica in Parametri di Commerce
 
-Per impostare il valore **ID e-mail** coretto per il tipo di notifica e-mail **Creato dal cliente** in Headquarters, attenersi alla seguente procedura.
+1. In headquarters, vai a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di Commerce \> Generale**.
+2. Nell'elenco a discesa **Profilo di notifica tramite posta elettronica**, seleziona il profilo di notifica tramite posta elettronica che contiene un mapping tra il tipo di notifica cliente creato e un modello di posta elettronica cliente creato.  
 
-1. Andare a **Retail e Commerce \> Impostazione sedi centrali \> Profilo di notifica tramite posta elettronica per Commerce**.
-1. Selezionare il profilo di notifica e-mail.
-1. In **Impostazioni notifiche evento Retail**, per il tipo di notifica e-mail **Creato dal cliente**, impostare il campo **ID e-mail** su **NewCust**.
+> [!NOTE] 
+> Quando abiliti le notifiche cliente creato, i clienti creati in tutti i canali nella persona giuridica riceveranno un'e-mail cliente creato. Attualmente, le notifiche cliente creato non possono essere limitate a un singolo canale.
+
+Per ulteriori informazion vedi [Creare modelli e-mail per eventi transazionali](../email-templates-transactions.md). 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

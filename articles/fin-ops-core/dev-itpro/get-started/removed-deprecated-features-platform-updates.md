@@ -2,7 +2,7 @@
 title: Funzionalità della piattaforma rimosse o deprecate
 description: In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione dagli aggiornamenti della piattaforma per le app per la finanza e le operazioni.
 author: sericks007
-ms.date: 05/24/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 16c77d719171e8e5cfef71178f8917d462f6d84b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
+ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069924"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9262300"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -31,6 +31,50 @@ In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata
 Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni e deprecazioni per la pianificazione. 
 
 Informazioni dettagliate sugli oggetti nelle app per la finanza e le operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per la finanza e le operazioni.
+
+## <a name="feature-deprecation-effective-august-2022"></a>Ritiro delle funzionalità in vigore da agosto 2022
+
+### <a name="lifecycle-services-lcs-features-deprecated-in-august-2022"></a>Funzionalità di Lifecycle Services deprecate in agosto 2022
+
+Nell'ambito del programma [One Dynamics One Platform](/dynamics365-release-plan/2022wave2/finance-operations/finance-operations-crossapp-capabilities/one-dynamics-one-platform), sono state deprecate le funzionalità LCS descritte di seguito.
+
+| Nome funzionalità | Usata con AX 2012? | Usata con le app per la finanza e le operazioni? | Sostituita da un'altra funzionalità? |
+|--------------|--------------------|----------------------------------------|------------------------------|
+| Annunci | Sì | Sì | Sì. Esistono banner nelle singole pagine di progetti e ambienti per le notifiche. |
+| Gestione configurazione | Sì | Numero | Numero |
+| Analisi dump di arresto anomalo | Sì | Numero | Numero |
+| Commenti e suggerimenti e bug | Sì | Sì | Numero |
+| Sottoscrizione personale | Sì | Sì | Numero |
+| Office 365 | Sì | Sì | Sì. Il portale di amministrazione Microsoft o Azure Active Directory. |
+| Analisi dell'impatto | Numero | Sì | Numero |
+| Strumento di stima dell'impatto economico totale | Numero | Sì | Numero |
+| Richieste di assistenza | Numero | Sì | Sì. [Distribuzioni self-service](../deployment/infrastructure-stack.md). |
+| Integrazione di SharePoint | Sì | Sì | Numero |
+| Gestione configurazione e dati | Numero | Sì | Numero |
+| Pacchetti di dati del processo | Numero | Sì | Sì. Framework di importazione/esportazione dati (DIXF). |
+| Aggiornamento dell'ambiente | Numero | Sì | Sì. Sono disponibili gli aggiornamenti del servizio [One Version](../lifecycle-services/oneversion-overview.md). |
+| Stima infrastruttura | Sì | Numero | Numero |
+| Numero di licenze | Sì | Numero | Numero |
+| Profiler utilizzo | Sì | Numero | Numero |
+| Analisi personalizzazione | Sì | Numero | Numero |
+| Diagnostica di sistema | Sì | Sì | Numero |
+| Gestione del modellatore di processi aziendali tramite Visio | Sì | Sì | Numero |
+| Gestione dell'ambiente cloud AX 2012 | Sì | Numero | Numero |
+| Connettori Azure RDFE | Sì | Sì | Numero |
+| Versioni di AX 2012 | Sì | Numero | Numero |
+| Elementi di lavoro archiviati in LCS | Sì | Sì | Numero |
+| Richieste di aggiornamento rapido | Sì | Sì | Numero |
+
+
+### <a name="transport-layer-security-tls-rsa-cipher-suites"></a>Suite di crittografia RSA Transport Layer Security (TLS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Stiamo rimuovendo il seguente elenco di suite di crittografia per assicurare la conformità ai nostri protocolli di sicurezza correnti.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
+| **Sostituita da un'altra funzionalità?**   | A partire dal 30 novembre 2022, i clienti possono utilizzare solo le nostre [suite di crittografia standard](/power-platform/admin/server-cipher-tls-requirements). Questa modifica ha un impatto sui tuoi client e server che comunicano con i nostri server. Ad esempio, potrebbe influire sulle integrazioni di terze parti che non aderiscono alle nostre suite di crittografia standard. |
+| **Aree del prodotto interessate**         | App Finanza e operazioni |
+| **Opzione di distribuzione**              | Distribuzioni cloud |
+| **Status**                         | Deprecato. I clienti devono aggiornare i propri server entro il 30 novembre 2022. Per ulteriori informazioni sulla configurazione dell'ordine Suite di crittografia TLS, vedi [Gestire Transport Layer Security (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Ritiro delle funzionalità in vigore da giugno 2022

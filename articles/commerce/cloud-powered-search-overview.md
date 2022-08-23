@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8a3ab869eb9ddc0e73061bd2363cf9b3962da1e3
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: ed80ff42ea5c6e6a904ea2855953d006f66aad37
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850358"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273668"
 ---
 # <a name="cloud-powered-search-overview"></a>Panoramica ricerca basata su cloud
 
@@ -64,11 +64,14 @@ Nella figura seguente è illustrato un esempio di utilizzo della funzionalità d
 
 ## <a name="sort"></a>Ordina
 
-L'ordinamento migliorato in Commerce consente ai clienti di ordinare, cercare ed esaminare i risultati della ricerca e di affinarli tramite criteri quali prezzo, nome del prodotto e numero del prodotto. I clienti possono inoltre ordinare i risultati a seconda se un prodotto è nuovo, tra i più venduti o aggiunto di recente.
+La funzionalità di ordinamento consente ai clienti di ordinare, cercare ed esaminare i risultati delle categorie e di affinarli tramite criteri quali prezzo, nome del prodotto e numero del prodotto. Se abiliti [Suggerimenti sul prodotto](product-recommendations.md) nel tuo ambiente, i clienti possono anche ordinare i risultati in base a criteri di ordinamento avanzati come Nuovi, Più venduti e Di tendenza.
+
 
 > [!NOTE]
 > Queste funzionalità di ricerca basate su cloud sono disponibili a partire dalla versione 10.0.8. Verifica che in **Parametri di commercio > Parametri di configurazione** c'è una voce per "ProductSearch.UseAzureSearch impostata su 'true'". 
 ![Parametri di configurazione per la ricerca basata su cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
+>Opzioni di ordinamento avanzate come Nuovi, Più venduti e Di tendenza sono disponibili con Commerce SSK versione 9.35+ e Dynamics 365 Commerce versione 10.0.20.  
+
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

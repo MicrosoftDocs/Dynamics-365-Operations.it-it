@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ec5535013af9ccb253744e061de738155ac9ad22
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889637"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220029"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
 
@@ -45,7 +45,7 @@ Prima di provare a eseguire uno degli esercizi nel resto di questo articolo, seg
 
 ### <a name="make-standard-demo-data-available"></a>Rendere disponibili i dati dimostrativi standard
 
-Utilizzare un sistema in cui i [dati dimostrativi demo siano installati](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md). I dati dimostrativi standard aggiungono dati per diverse persone giuridiche (aziende e organizzazioni). Mentre si svolgono gli esercizi, viene utilizzato il selettore di aziende sul lato destro della barra di navigazione per passare da una società (*DEMF*), impostata come *organizzazione di progettazione* a un'altra (*USMF*), impostata come *organizzazione operativa*.
+Utilizza un sistema in cui i [dati dimostrativi standard](../../fin-ops-core/fin-ops/get-started/demo-data.md) siano installati. I dati dimostrativi standard aggiungono dati per diverse persone giuridiche (aziende e organizzazioni). Mentre si svolgono gli esercizi, viene utilizzato il selettore di aziende sul lato destro della barra di navigazione per passare da una società (*DEMF*), impostata come *organizzazione di progettazione* a un'altra (*USMF*), impostata come *organizzazione operativa*.
 
 ### <a name="set-up-an-engineering-organization"></a>Impostare un'organizzazione di progettazione
 

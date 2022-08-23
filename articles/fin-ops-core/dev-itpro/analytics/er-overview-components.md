@@ -1,26 +1,26 @@
 ---
 title: Componenti di Creazione di report elettronici
 description: Questo articolo descrive i componenti di Creazione di report elettronici (ER).
-author: nselin
+author: kfend
 ms.date: 09/28/2021
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.topic: overview
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2b8b197fdea0cd49fc5161a12b8f547cc1a27bf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58941
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: 4851374ca4943a84d35f063e0ee65b537ec3b6cd
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892452"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285033"
 ---
 # <a name="electronic-reporting-components"></a>Componenti di Creazione di report elettronici
 
@@ -113,7 +113,7 @@ Per eseguire una singola configurazione di formato ER per importare i dati di un
 
 Il controllo delle versioni è supportato per i componenti ER. Viene fornito il seguente flusso di lavoro per gestire le modifiche nei componenti ER:
 
-1. La versione che viene creata in origine è contrassegnata come versione **Bozza**. Questa versione può essere modificata ed è disponibile per le esecuzioni dei test.
+1. La versione che è stata creata in origine è contrassegnata come versione **Bozza**. Questa versione può essere modificata ed è disponibile per le esecuzioni dei test.
 2. La versione **Bozza** può essere convertita in una versione **Completata**. Questa versione può essere utilizzata nei processi di creazione di report locali.
 3. La versione **Completata** può essere convertita in una versione **Condivisa**. Questa versione viene pubblicata in Microsoft Dynamics Lifecycle Services (LCS) e può essere utilizzata nei processi globali di reporting.
 4. La versione **Condivisa** può essere convertita in una versione **Interrotta**. Questa versione può essere eliminata.
@@ -123,15 +123,37 @@ Le versioni nello stato **Completata** o **Condivisa** sono disponibili per un a
 - Il componente può essere serializzato in formato XML ed esportato come file in formato XML.
 - Il componente può essere nuovamente serializzato da un file XML e importato nell'applicazione come nuova versione di un componente di Creazione di report elettronici.
 
+Per ulteriori informazioni, vedere [Importare una nuova configurazione del modello di dati](er-quick-start1-new-solution.md#ImportDataModel) ed [Esportare la versione completata di un formato derivato](er-calculated-field-type.md#export-completed-version-of-a-derived-format).
+
+### <a name="draft-versions-at-runtime"></a>Versioni bozza al runtime
+
+Nei parametri utente personali per il framework ER, è possibile abilitare l'opzione che consente di specificare se la versione bozza di una configurazione ER deve essere utilizzata al runtime. Per informazioni su come rendere disponibile l'opzione **Esegui bozza** per le configurazioni ER, vedere [Contrassegnare un formato personalizzato come eseguibile](er-quick-start2-customize-report.md#MarkFormatRunnable).
+
+> [!NOTE]
+> I parametri utente ER sono specifici dell'utente e dell'azienda.
+
+### <a name="draft-format-versions-at-runtime"></a>Versioni bozza del formato al runtime
+
+Per impostazione predefinita, quando si esegue una soluzione ER, le versioni bozza dei relativi componenti del formato vengono ignorate. Viene invece usata solo la versione pertinente il cui stato non è **Bozza**. A volte, è possibile che si voglia forzare ER a utilizzare la versione bozza della configurazione del formato ER al runtime. Ad esempio, dopo aver introdotto le modifiche necessarie nella versione bozza, è possibile utilizzare tale versione per l'esecuzione dei test. In questo modo, è possibile convalidare la correttezza delle modifiche. Per iniziare a utilizzare la versione bozza del formato, è necessario [impostare](er-quick-start2-customize-report.md#MarkFormatRunnable) l'opzione **Esegui bozza** della configurazione ER pertinente su **Sì**.
+
+### <a name="draft-model-mapping-versions-at-runtime"></a>Versioni bozza del mapping del modello al runtime
+
+Per impostazione predefinita, quando si esegue una soluzione ER, le versioni bozza dei relativi componenti del mapping del modello vengono sempre usate. A volte, è possibile che si voglia forzare ER a ignorare la versione bozza della configurazione del mapping del modello al runtime. Nella **versione 10.0.29 e successive**, puoi abilitare la funzionalità **Prendi sempre in considerazione l'opzione "Esegui bozza" per le mappature del modello ER** per controllare la versione del mapping del modello utilizzata al runtime. Quando questa funzionalità è abilitata, si verifica il seguente comportamento:
+
+- Quando l'opzione **Esegui bozza** è impostata su **No** per una configurazione del mapping del modello, la versione non bozza più recente di quella configurazione viene usata al runtime. Viene generata un'eccezione se la configurazione non è disponibile nell'istanza Finance corrente.
+- Quando l'opzione **Esegui bozza** è impostata su **Sì** per una configurazione del mapping del modello, la versione bozza di quella configurazione viene usata al runtime.
+
 ## <a name="component-date-effectivity"></a>Validità delle date dei componenti
 
-Le versioni dei componenti ER dipendono dalle date. È possibile impostare la data di "Inizio validità" per un componente ER per specificare la data a partire dalla quale il componente diventa valido per i processi di creazione di report. La data della sessione dell'applicazione viene utilizzata per definire se un componente è valido per l'esecuzione. Se più di una versione è valida per una data specifica, la versione più recente viene utilizzata per i processi di creazione di report.
+Le versioni dei componenti del formato ER dipendono dalle date. È possibile impostare la data di "Inizio validità" per un componente del formato ER per specificare la data a partire dalla quale il componente diventa valido per i processi di creazione di report. La data della sessione dell'applicazione viene utilizzata per definire se un componente è valido per l'esecuzione. Se più di una versione è valida per una data specifica, la versione più recente viene utilizzata per i processi di creazione di report.
 
 ## <a name="component-access"></a>Accesso ai componenti
 
-L'accesso ai componenti di formato ER dipende dall'impostazione del codice del paese/area geografica dell'organizzazione internazionale per la standardizzazione (ISO, International Organization for Standardization). Se questa impostazione è vuota per la versione selezionata di una configurazione di formato, un componente formato è accessibile da qualsiasi società al runtime. Se l'impostazione contiene codici di paese/area geografica ISO, il componente formato è disponibile solo dalle società che hanno un indirizzo principale definito per uno dei codici di paese/area geografica ISO del componente formato.
+L'accesso ai componenti del mapping del modello e del formato ER al runtime dipende dall'impostazione del codice paese/area geografica dell'organizzazione internazionale per la standardizzazione (ISO, International Organization for Standardization). Se questa impostazione è vuota per una versione selezionata di una configurazione del formato o del mapping del modello, un componente del formato o del mapping del modello è accessibile da qualsiasi azienda al runtime. Se l'impostazione contiene codici di paese/area geografica ISO, un componente del formato o del mapping del modello è disponibile solo dalle società che hanno un indirizzo principale definito per uno dei codici paese/area geografica ISO del componente del formato.
 
-Versioni differenti di un componente formato dati possono avere impostazioni differenti per i codici di paese ISO.
+Versioni differenti di un componente del formato o del mapping del modello possono avere impostazioni differenti per i codici paese/area geografica ISO.
+
+Per ulteriori informazioni, vedere [Configurare i mapping del modello ER dipendenti dal contesto del paese](er-country-dependent-model-mapping.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

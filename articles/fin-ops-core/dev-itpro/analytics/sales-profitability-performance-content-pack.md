@@ -12,16 +12,15 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.custom:
-- "260674"
+ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.form: SalesProfitabilityPerformancePowerBI
-ms.openlocfilehash: 2a3e0a46656f54a423a3bdfb05b87e3b7ad68efd
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: 77271ad9f5a1d7c131e1d7750de280f0c70daaa4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9205603"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274661"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Contenuto Power BI per prestazioni di vendite e redditività
 
@@ -77,7 +76,7 @@ Il contenuto di Power BI **Prestazioni di vendita e redditività** include un re
 ## <a name="understanding-the-data-model-and-entities"></a>Informazioni su modelli ed entità di dati
 I seguenti dati vengono utilizzati per compilare il report nel contenuto Power BI **Prestazioni di vendita e redditività**. Questi dati vengono rappresentati come misure aggregate approntate nell'archivio entità. L'archivio entità è un database di Microsoft SQL Server che viene ottimizzato per l'analisi dei dati. Per ulteriori informazioni, vedere [Integrazione di Power BI con l'archivio entità](power-bi-integration-entity-store.md).
 
-Le misure di aggregazione in questo pacchetto di contenuti sono il sottoinsieme delle misure di aggregazione disponibili nel cubo Vendite in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post del blog [Integrazione di  Power BI con l'Archivio entità in Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
+Le misure di aggregazione in questo pacchetto di contenuti sono il sottoinsieme delle misure di aggregazione che erano disponibili nel cubo Vendite in Microsoft Dynamics AX 2012 e Microsoft Dynamics AX 2012 R3. Per rappresentare le misure di aggregazione del cubo nell'Archivio entità, è necessario renderle distribuibili. Per ulteriori informazioni, vedere la procedura per la rappresentazione delle misure di aggregazione nell'Archivio entità nel post del blog [Integrazione di  Power BI con l'Archivio entità in Dynamics](/archive/blogs/dynamicsaxbi/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update).
 
 Le seguenti misure di aggregazione chiave dell'entità delle righe della fattura sono utilizzate come base del contenuto.
 
@@ -95,7 +94,7 @@ Nella tabella seguente vengono illustrate le misure di aggregazione chiave dell'
 | Margine lordo      | SUM(Profitto lordo/(Ricavi - IVA (inclusa nell'importo della riga fattura cliente)))             |
 | Ricavi nell'anno passato | Ricavi nell'anno passato = CALCULATE(SUM('Righe fattura'\[Ricavi\]), SAMEPERIODLASTYEAR(Dates\[Data\]) |
 
-La seguenti dimensioni chiave nel cubo vendite vengono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e informazioni analitiche più approfondite.
+La seguenti dimensioni chiave nel cubo Vendite sono utilizzate come filtri per dividere le misure di aggregazione in modo da poter ottenere una maggiore granularità e informazioni analitiche più approfondite.
 
 | Entità           | Esempi di attributi                               |
 |------------------|------------------------------------------------------|

@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a9fc2b9f31bc9e2f73b53a900bc9b0924410768
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9a8c088f8726573e4b1fcad1944676547391a9bf
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860350"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219630"
 ---
 # <a name="configure-wave-processing-example"></a>Configurare l'elaborazione di cicli di esempio
 
@@ -29,7 +29,7 @@ Questo articolo fornisce un esempio di come impostare i criteri che determinano 
 
 ## <a name="enable-sample-data"></a>Abilitare dati di esempio
 
-Per elaborare lo scenario utilizzando i record e i valori di esempio specificati qui, devi utilizzare un sistema in cui sono installati i dati dimostrativi standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
+Per elaborare questo scenario utilizzando i record e i valori di esempio specificati qui, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../../fin-ops-core/fin-ops/get-started/demo-data.md) standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
 
 ## <a name="example-scenario-configure-wave-processing"></a>Scenario di esempio: configurare l'elaborazione di cicli
 

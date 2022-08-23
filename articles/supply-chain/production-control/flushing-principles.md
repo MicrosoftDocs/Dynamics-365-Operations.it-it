@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 357ce65792ceef37abda523e7693069f1bc1ab43
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 89fd38ea6d2c1635e9d8974ab99c2e4cdae4d6be
+ms.sourcegitcommit: 8d072505f66f507aafbaae65bedf3b530eb6cb7b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065556"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9266430"
 ---
 # <a name="flushing-principles"></a>Principi di registrazione del consumo di materiali
 
@@ -56,7 +56,10 @@ Il principio di registrazione del consumo di materiali manuale indica che la reg
 Il principio di registrazione del consumo di materiali Inizio indica che il materiale verrà consumato automaticamente quando viene avviato l'ordine di produzione. La quantità di materiale che viene consumato è proporzionale alla quantità iniziata. Quando il principio di registrazione del consumo di materiali Inizio viene utilizzato insieme al sistema di esecuzione produzione, può essere utilizzato anche per registrare i materiali quando viene avviata un'operazione o un processo di lavorazione. Questo principio è importante se, ad esempio, lo scostamento nel consumo è ridotto, i materiali sono di scarso valore, non vi sono requisiti di tracciabilità, oppure le operazioni devono essere svolte in poco tempo. 
 
 ### <a name="finish"></a>Fine
-Il principio di registrazione del consumo di materiali Fine indica che il materiale verrà consumato automaticamente quando l'ordine di produzione verrà dichiarato finito oppure quando un'operazione impostata per il consumo di materiali verrà registrata come completata. La quantità di materiale che viene consumata è proporzionale alla quantità che viene segnalata come finita. Quando il principio di registrazione del consumo di materiali Fine viene utilizzato insieme al sistema di esecuzione produzione, può essere utilizzato anche per registrare i materiali quando viene completata un'operazione o un processo di lavorazione. Questo principio è rilevante nelle stesse situazioni del principio di inizio. Il principio di fine tuttavia viene utilizzato per operazioni con un tempo di esecuzione più lungo, dove i materiali non devono essere impostati su WIP prima che l'operazione sia stata completata. 
+Il principio di registrazione del consumo di materiali Fine indica che il materiale verrà consumato automaticamente quando l'ordine di produzione verrà dichiarato finito oppure quando un'operazione impostata per il consumo di materiali verrà registrata come completata. La quantità di materiale che viene consumata è proporzionale alla quantità che viene segnalata come finita. Quando il principio di registrazione del consumo di materiali Fine viene utilizzato insieme al sistema di esecuzione produzione, può essere utilizzato anche per registrare i materiali quando viene completata un'operazione o un processo di lavorazione. Questo principio è rilevante nelle stesse situazioni del principio di inizio. Il principio di fine tuttavia viene utilizzato per operazioni con un tempo di esecuzione più lungo, dove i materiali non devono essere impostati su WIP prima che l'operazione sia stata completata.
+
+> [!NOTE]
+> Non è possibile utilizzare il principio di registrazione del consumo di materiali Fine insieme agli articoli di pianificazione. Si consiglia di utilizzare piuttosto il principio di registrazione del consumo di materiali Inizio. Il tipo di produzione degli articoli di pianificazione è *articolo di pianificazione* e solo i co-prodotti e i sottoprodotti possono essere dichiarati finiti negli ordini batch creati per gli articoli di pianificazione.
 
 ### <a name="available-at-location"></a>Disponibile in ubicazione
 Il principio di registrazione del consumo di materiali Disponibile in ubicazione indica che il materiale verrà consumato automaticamente quando verrà registrato come prelevato per la produzione. Il materiale viene registrato come prelevato dall'ubicazione quando il lavoro per il prelievo di materie prime è completato oppure quando il materiale è disponibile nell'ubicazione entrata produzione e la riga materiali viene rilasciata al magazzino. La distinta di prelievo che viene generata durante il processo viene registrata in un processo batch. Questo principio è rilevante se, ad esempio, sono presenti molti attività di prelievo rispetto a un ordine di produzione. In questo caso, non è necessario aggiornare manualmente la distinta di prelievo ed è possibile ottenere una visualizzazione corrente del saldo WIP.

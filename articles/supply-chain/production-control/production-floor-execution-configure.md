@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f740b68128b90fc7c9ce2f74edc4f3c06f03debd
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9167763"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220364"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -87,29 +87,23 @@ A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalit�
 
 ### <a name="enable-registering-of-material-consumption"></a>Abilitare la registrazione del consumo materiali
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 Questa funzionalità consente ai lavoratori di utilizzare l'interfaccia di esecuzione del piano di produzione per registrare il consumo di materiale, i numeri di batch e i numeri di serie. Alcuni produttori, in particolare quelli all'interno delle industrie di processo, devono registrare esplicitamente la quantità di materiale consumato per ogni batch oppure ordine di produzione. Ad esempio, i lavoratori potrebbero utilizzare una bilancia per pesare la quantità di materiale consumato mentre lavorano. Per garantire la completa tracciabilità dei materiali, le organizzazioni devono anche registrare quali numeri di batch sono stati consumati durante la produzione di ciascun prodotto.
 
 Sono disponibili due versioni di questa funzionalità. Una supporta gli articoli che *non sono* abilitati per l'utilizzo di processi di gestione del magazzino (WMS). L'altra supporta gli articoli che *sono* abilitati all'utilizzo di WMS. Per utilizzare questa funzionalità, attiva una o entrambe le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in questo ordine), a seconda che siano presenti articoli abilitati per WMS:
 
 - *Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (non WMS)*
-- *(Anteprima) Registra il consumo materiali nell'interfaccia di esecuzione area di produzione (abilitato per WMS)*
+- *Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (abilitato per WMS)*
 
 > [!IMPORTANT]
 > È possibile utilizzare solo la funzionalità non WMS. Tuttavia, se utilizzi WMS, devi abilitare entrambe le funzionalità.
 
 ### <a name="enable-reporting-on-catch-weight-items"></a>Abilitare la creazione di report di articoli a peso variabile
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
-
 I lavoratori possono utilizzare l'interfaccia di esecuzione del reparto di produzione per dichiarare lo stato di avanzamento degli ordini batch per gli articoli a peso variabile. Gli ordini batch vengono creati da formule che possono essere definite in modo che abbiano articoli a peso variabile come articoli formula, co-prodotti e sottoprodotti. È anche possibile definire una formula per avere righe di formula per gli ingredienti definiti per il peso variabile. Gli articoli a peso variabile utilizzano due unità di misura per tener traccia dell'inventario: la quantità a peso variabile e la quantità di inventario. Ad esempio, nell'industria alimentare, la carne in scatola può essere definita come un articolo a peso variabile, in cui la quantità a peso variabile viene utilizzata per tenere traccia del numero di scatole e la quantità di inventario viene utilizzata per tenere traccia del peso delle scatole.
 
 Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- *(Anteprima) Report sugli articoli a peso variabile dall'interfaccia di esecuzione area di produzione*
+- *Report sugli articoli a peso variabile dall'interfaccia di esecuzione area di produzione*
 
 ### <a name="enable-the-my-day-dialog"></a>Abilitare la finestra di dialogo "Registrazioni quotidiane"
 

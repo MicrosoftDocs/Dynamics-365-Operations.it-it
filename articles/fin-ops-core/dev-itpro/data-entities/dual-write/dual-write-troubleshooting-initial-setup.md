@@ -5,22 +5,20 @@ author: RamaKrishnamoorthy
 ms.date: 08/10/2021
 ms.topic: article
 audience: Application User, IT Pro
-ms.reviewer: tfehr
+ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2e2759ff15dd8d146c642fc0da90d1a38fe855d1
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: d33fc6f4895b53f16cc6957a3a2fc6b1abe90a2f
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9111202"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9289516"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Risoluzione dei problemi durante l'impostazione iniziale
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 In questo articolo vengono fornite informazioni sulla risoluzione dei problemi di integrazione della doppia scrittura tra le app per la finanza e le operazioni e Dataverse. In particolare, fornisce informazioni che possono aiutarti a risolvere i problemi che possono verificarsi durante l'impostazione iniziale dell'integrazione doppia scrittura.
 
@@ -51,7 +49,7 @@ Durante il collegamento dell'ambiente a doppia scrittura, l'azione non riesce co
 
 *Salvataggio del set di connessioni non riuscito. È già stato aggiunto un elemento con la stessa chiave.*
 
-La doppia scrittura non supporta più persone giuridiche/società con lo stesso nome. Ad esempio, se hai due società con il nome "DAT" in Dataverse verrà visualizzato questo messaggio di errore.
+La doppia scrittura non supporta più persone giuridiche/società con lo stesso nome. Ad esempio, se hai due società con il nome "DAT" in Dataverse, verrà visualizzato questo messaggio di errore.
 
 Per sbloccare il cliente, rimuovi i record duplicati dalla tabella **cdm_company** in Dataverse. Inoltre, se la tabella **cdm_company** contiene dei record con nome vuoto, rimuovi o correggi questi record.
 
@@ -87,6 +85,19 @@ Ci sono due fattori che possono causare un problema con l'ambiente non individua
 
 + L'utente utilizzato per l'accesso non è nello stesso tenant dell'istanza di finanza e operazioni.
 + Ci sono alcune istanze di finanza e operazioni legacy ospitate da Microsoft che hanno riscontrato un problema con l'individuazione. Per risolvere questo problema, aggiorna l'istanza di finanza e operazioni. L'ambiente diventa individuabile con qualsiasi aggiornamento.
+
+## <a name="403-forbidden-error-while-connections-are-being-created"></a>Errore 403 (Accesso negato) durante la creazione delle connessioni
+
+Come parte del processo di collegamento in doppia scrittura, due connessioni Power Apps (note anche come connessioni *Apihub*) vengono create per conto dell'utente nell'ambiente Dataverse collegato. Se il cliente non dispone di una licenza per l'ambiente Power Apps, la creazione delle connessioni ApiHub non riesce e viene visualizzato un errore 403 (Accesso negato). Di seguito è riportato un esempio del messaggio di errore:
+
+> MSG=\[Impossibile configurare l'ambiente a doppia scrittura. Dettagli errore: Il codice di stato della risposta non indica un'operazione riuscita: 403 (Accesso negato). - Il codice di stato della risposta non indica un'operazione riuscita: 403 (Accesso negato).\] STACKTRACE=\[    in Microsoft.Dynamics.Integrator.ProjectManagementService.DualWrite.DualWriteConnectionSetProcessor.\<CreateDualWriteConnectionSetAsync\>d\_\_29.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\DualWrite\\DualWriteConnectionSetProcessor.cs:line 297 --- Fine traccia dello stack da posizione precedente dove è stata generata l'eccezione --- inSystem.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() in System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) in Microsoft.Dynamics.Integrator.ProjectManagementService.Controllers.DualWriteEnvironmentManagementController.\<SetupDualWriteEnvironmentAsync\>d\_\_34.MoveNext() in X:\\bt\\1158727\\repo\\src\\ProjectManagementService\\Controllers\\DualWriteEnvironmentManagementController.cs:line 265\]
+
+Questo errore si verifica a causa della mancanza di una licenza Power Apps. Assegna una licenza appropriata (ad esempio, la licenza di valutazione di Power Apps Piano 2) all'utente, di modo che questi disponga dell'autorizzazione per creare le connessioni. Per verificare la licenza, il cliente può accedere al sito [Account personale](https://portal.office.com/account/?ref=MeControl#subscriptions) per visualizzare le licenze attualmente assegnate all'utente.
+
+Per ulteriori informazioni sulla licenza Power Apps, vedi gli articoli seguenti:
+
+- [Assegnare licenze a utenti](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide)
+- [Acquistare Power Apps per l'organizzazione](/power-platform/admin/signup-for-powerapps-admin)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
 

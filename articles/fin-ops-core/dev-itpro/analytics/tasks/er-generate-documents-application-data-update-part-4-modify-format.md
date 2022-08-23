@@ -1,7 +1,7 @@
 ---
 title: Modificare i formati per generare documenti che contengono dati dell'applicazione
 description: Questo articolo descrive come progettare le configurazioni di creazione di report per generare un documento elettronico e aggiornare i dati dell'applicazione.
-author: NickSelin
+author: kfend
 ms.date: 06/19/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bff9fa53df8e762f82bcc1946df265685a824b8f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ecd301b60f804328f3b6652df8c38edf42eb79f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863295"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9290486"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificare i formati per generare documenti che contengono dati dell'applicazione
 

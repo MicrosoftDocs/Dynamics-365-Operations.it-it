@@ -1,25 +1,25 @@
 ---
 title: Elenco delle funzioni ER nella categoria elenco
 description: Questo articolo fornisce informazioni sulle funzioni di elenco supportate nella creazione di report elettronici (ER).
-author: NickSelin
+author: kfend
 ms.date: 04/01/2020
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 58771
-ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b39da482578636d94faaa3117bd40a579f3ae636
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+ms.openlocfilehash: 6c28445f731393857cdb0c75c1244e557b5ff4a4
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869057"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277694"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Elenco delle funzioni ER nella categoria elenco
 
@@ -47,6 +47,7 @@ Le funzioni dell'elenco della creazione di report elettronici (ER) possono esser
 | [ListOfFields](er-functions-list-listoffields.md)         | Questa funzione restituisce un valore *Elenco di record* creato in base alla struttura dell'argomento specificato del tipo *Enumerazione* o *Contenitore (record)*. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Questa funzione restituisce un nuovo valore *Elenco di record* costituito solo dal primo record dell'elenco specificato.|
 | [OrderBy](er-functions-list-orderby.md)                   | Questa funzione restituisce l'elenco specificato come un valore *Elenco di record* dopo che è stato ordinato in base agli argomenti specificati. Questi argomenti possono essere definiti come espressioni. |
+| [Ripeti](er-functions-list-repeat.md)                     | Questa funzione crea un record contenente il campo che ha un valore corrispondente all'input specificato. Quindi restituisce un nuovo *Elenco record* di un record che viene ripetuto un determinato numero di volte. |
 | [Storna](er-functions-list-reverse.md)                   | Questa funzione restituisce l'elenco specificato come un valore *Elenco di record* in ordine inverso. |
 | [Dividi](er-functions-list-split.md)                       | Questa funzione divide la stringa di input specificata in sottostringhe e restituisce il risultato come nuovo valore *Elenco di record*. |
 | [SplitList](er-functions-list-splitlist.md)               | Questa funzione divide l'elenco specificato in elenchi secondari (o batch) ciascuno dei quali contiene il numero specificato di record. Quindi restituisce il risultato come nuovo valore *Elenco di record* costituito dai batch. |

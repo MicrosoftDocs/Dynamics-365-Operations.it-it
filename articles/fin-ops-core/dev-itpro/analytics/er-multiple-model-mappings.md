@@ -1,24 +1,24 @@
 ---
 title: Gestire diversi mapping derivati per una singola radice del modello
 description: Questo articolo spiega come gestire diversi mapping derivati configurati per una singola radice del modello.
-author: NickSelin
+author: kfend
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERModelMappingTable
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 960f5962ec1ea216e35feb0c282856bed95d079a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ERSolutionTable, ERModelMappingTable
+ms.openlocfilehash: 868d47ccfebb9a9753d93344c72b10ae4353b0e6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892481"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277510"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gestire diversi mapping derivati per una singola radice del modello
 
@@ -106,7 +106,7 @@ Questa sezione spiega come [personalizzare](er-quick-start3-customize-report.md#
 3. Nella finestra di dialogo a discesa **Crea configurazione**, nel gruppo di campi **Nuovo**, selezionare **Deriva da nome: Mapping del modello di fattura, Microsoft**.
 4. Nel campo **Nome** digitare **Mapping di modello di fattura Litware**.
 5. Selezionare **Crea configurazione**.
-6. [Contrassegna](er-quick-start2-customize-report.md#MarkFormatRunnable) la versione [bozza](general-electronic-reporting.md#component-versioning) del mapping derivato disponibile per l'uso in fase di esecuzione:
+6. [Contrassegna](er-quick-start2-customize-report.md#MarkFormatRunnable) la versione [bozza](general-electronic-reporting.md) del mapping derivato disponibile per l'uso in fase di esecuzione:
 
     1. Nel riquadro azioni, scheda **Configurazioni**, gruppo **Impostazioni avanzate**, selezionare **Parametri utente**.
     2. Nella finestra di dialogo **Parametri utente**, imposta l'opzione **Esegui impostazioni** su **Sì**, quindi seleziona **OK**.

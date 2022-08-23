@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45195698b48d6a22697f99044a8ae49beaf7156e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4cce7ea0c06938d2ce038853a262f843ec76fe4c
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067275"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219660"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurare le ubicazioni in un magazzino abilitato WMS
 
@@ -39,7 +39,7 @@ La guida illustra come configurare l'ubicazione per un nuovo magazzino abilitato
 8. Chiudi la pagina.
 
 ## <a name="define-a-location-format"></a>Definire un formato ubicazione
-1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Formati ubicazione**. I formati ubicazione sono un sistema di denominazione utilizzato per creare nomi univoci e coerenti per le diverse posizioni di collocazione usate all'interno di un magazzino. Può essere utile utilizzare separatori come parte del formato di ubicazione per semplificare l'identificazione dei componenti dell'ubicazione, ad esempio il numero di sezione. In questo esempio verrà creato un nome con quattro componenti. Ad esempio, questi possono essere sezione, scaffale, ripiano e contenitore.
+1. Selezionare **Pannello di navigazione > Moduli > Gestione magazzino > Impostazioni > Magazzino > Formati ubicazione**. I formati ubicazione sono un sistema di denominazione utilizzato per creare nomi univoci e coerenti per le diverse posizioni dei contenitori di ubicazione usate all'interno di un magazzino. Può essere utile utilizzare separatori come parte del formato di ubicazione per semplificare l'identificazione dei componenti dell'ubicazione, ad esempio il numero di sezione. In questo esempio verrà creato un nome con quattro componenti. Ad esempio, questi possono essere sezione, scaffale, ripiano e contenitore.
 2. Fare clic su **Nuovo**.
 3. Digitare un valore nel campo **Formato ubicazione**.
 4. Digitare un valore nel campo **Nome**.

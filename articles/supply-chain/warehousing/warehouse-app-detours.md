@@ -4,19 +4,19 @@ description: Questo articolo descrive come configurare le deviazioni per le voci
 author: Mirzaab
 ms.date: 10/15/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 69090def1bba2f64ed21cca8b6d4629083aeb0c4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863594"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219006"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
 
@@ -34,20 +34,8 @@ Una deviazione è una voce di menu separata che può essere aperta da un passagg
 Prima di poter configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile, è necessario completare la procedura seguente per abilitare le funzionalità richieste e generare i nomi dei campi richiesti nell'app per dispositivi mobili Warehouse Management.
 
 1. Vai a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
-1. Nell'area di lavoro [**Gestione funzionalità**](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), abilita la funzionalità elencata nel modo seguente:
-
-    - **Modulo:** *Gestione Magazzino*
-    - **Nome della funzione:** *Istruzioni per il passo dell'app del magazzino*
-
-    Per ulteriori informazioni sulla funzionalità *Istruzioni del passaggio dell'app di magazzino*, vedi [Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management](mobile-app-titles-instructions.md). Questa funzione è un prerequisito per la funzionalità *Deviazioni dell'app Warehouse Management*.
-
-1. Abilita la funzionalità elencata nel modo seguente:
-
-    - **Modulo:** *Gestione Magazzino*
-    - **Nome funzione:** *Deviazioni dell'app Warehouse Management*
-
-    Questa è la funzionalità descritta in questo articolo.
-
+1. Assicurati che la funzionalità *Istruzioni per i passaggi dell'app di magazzino* sia attivata per il tuo sistema. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Per ulteriori informazioni sulla funzionalità *Istruzioni per i passaggi dell'app di magazzino*, vedi [Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management](mobile-app-titles-instructions.md). Questa funzione è un prerequisito per la funzionalità *Deviazioni dell'app Warehouse Management*.
+1. Attiva la funzionalità *Deviazioni dell'app Warehouse Management*. Questa funzionalità è descritta in questo articolo.
 1. Aggiorna i nomi dei campi nell'app per dispositivi mobili Warehouse Management andando in **Warehouse Management \> Impostazioni \> Dispositivo mobile \> Nomi dei campi dell'app di magazzino** e selezionando **Crea impostazione predefinita**. Per ulteriori informazioni, vedi [Configurare i campi per l'app per dispositivi mobili Gestione magazzino](configure-app-field-names-priorities-warehouse.md).
 1. Ripeti il passaggio precedente per ogni persona giuridica (società) in cui si utilizza l'app per dispositivi mobili Warehouse Management.
 
@@ -65,7 +53,7 @@ Questo scenario mostra come configurare una richiesta di posizione come una devi
 
 ### <a name="enable-sample-data"></a>Abilitare dati di esempio
 
-Per usare i record e i valori di esempio specificati in questo scenario, devi utilizzare un sistema in cui sono installati i dati dimostrativi standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
+Per usare i record e i valori di esempio specificati in questo scenario, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-1"></a>Creare un override specifico del menu e configurare la deviazione per lo scenario 1
 
@@ -118,7 +106,7 @@ Puoi sostituire la richiesta di ubicazione con una richiesta di targa o una rich
 
 ### <a name="enable-sample-data"></a>Abilitare dati di esempio
 
-Per usare i record e i valori di esempio specificati in questo scenario, devi utilizzare un sistema in cui sono installati i dati dimostrativi standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
+Per usare i record e i valori di esempio specificati in questo scenario, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
 
 ### <a name="create-a-menu-specific-override-and-configure-the-detour-for-scenario-2"></a>Creare un override specifico del menu e configurare la deviazione per lo scenario 2
 

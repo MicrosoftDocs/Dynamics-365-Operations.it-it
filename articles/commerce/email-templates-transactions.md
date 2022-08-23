@@ -7,19 +7,19 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgri
-ms.custom: ''
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9a4d67d901608e210b4060a655ce39f0ea707a52
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.openlocfilehash: cc3ad01c60324d751ee52d83d93fe59593775a00
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910552"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9279570"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Creare modelli e-mail per eventi transazionali
 
@@ -117,7 +117,29 @@ Il tipo di notifica *cancellazione ordine* viene attivato quando un ordine viene
 
 ### <a name="customer-created"></a>Cliente creato
 
-Il tipo di notifica *cliente creato* viene attivato quando viene creata una nuova entità cliente in Commerce headquarters.
+Il tipo di notifica *cliente creato* viene attivato quando viene creata una nuova entità cliente in Commerce headquarters. 
+
+Per abilitare le notifiche cliente creato in Commerce headquarters vai a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri di Commerce \> Generale**. Nell'elenco a discesa **Profilo di notifica tramite posta elettronica**, seleziona un profilo di notifica tramite posta elettronica che contiene il tipo di notifica cliente creato. 
+
+Per impostazione predefinita, gli eventi cliente creato vengono caricati nelle sedi centrali con il processo batch **Sincronizza richieste di canale e clienti**. Se vuoi utilizzare una chiamata di servizio in tempo reale per inviare questi eventi, imposta l'ID e-mail del modello cliente creato su **newCust**. Tuttavia, ciò non è consigliato poiché le chiamate di servizio in tempo reale sono denominate "fire and forget" e non hanno la logica di fallback o di ripetizione fornita dai processi batch.
+
+> [!NOTE] 
+> Quando abiliti le notifiche cliente creato, i clienti creati in tutti i canali nella persona giuridica riceveranno un'e-mail cliente creato. Attualmente, le notifiche cliente creato non possono essere limitate a un singolo canale.  
+
+Quando viene richiamato tramite il processo batch, il tipo di notifica cliente creato supporta il seguente segnaposto.
+
+| Nome segnaposto | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| customername     | Il nome e il cognome del cliente che ha creato un account. |
+
+Quando viene richiamato tramite una chiamata di servizio in tempo reale, il tipo di notifica cliente creato supporta i seguenti segnaposto.
+
+| Nome segnaposto | Description                                                      |
+| ---------------- | ------------------------------------------------------------ |
+| Name             | Il nome e il cognome del cliente che ha creato un account. |
+| Indirizzo e-mail            | L'indirizzo email del cliente che ha creato un account.    |
+| Telefono            | Il numero di telefono del cliente che ha creato un account.      |
+| URL              | L'URL fornito dal cliente al momento della creazione dell'account. |
 
 ### <a name="b2b-prospect-approved"></a>Prospect B2B approvato
 

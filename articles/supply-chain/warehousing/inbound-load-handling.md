@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 43102cb867243a872a5d1df777d8c4102a48e235
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070321"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219504"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -279,7 +279,7 @@ Questi scenari richiedono la funzionalità _Registrazioni entrata di più prodot
 
 #### <a name="enable-sample-data"></a>Abilitare dati di esempio
 
-Per elaborare questi scenari utilizzando i record e i valori di esempio specificati, è necessario utilizzare un sistema in cui sono installati i dati demo standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
+Per elaborare questi scenari utilizzando i record e i valori di esempio specificati, è necessario utilizzare un sistema in cui sono installati i [dati demo](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
 
 #### <a name="add-a-menu-item-for-receiving-load-items-when-a-mobile-device-is-used"></a>Aggiungere una voce al menu per ricevere articoli di carico quando viene utilizzato un dispositivo mobile
 

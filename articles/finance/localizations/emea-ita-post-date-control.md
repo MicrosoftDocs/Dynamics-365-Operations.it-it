@@ -1,25 +1,25 @@
 ---
 title: Controllo unificato della data di registrazione
 description: In questo articolo viene illustrato come configurare il controllo cronologico per le date di registrazione delle fatture.
-author: ikond
+author: mrolecki
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: NumberSequenceGroup
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 537707
 ms.search.region: Italy
-ms.author: ilyako
+ms.author: mrolecki
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 285aeeec4379a1dc555bb6508816277a2445c1aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 537707
+ms.search.form: NumberSequenceGroup
+ms.openlocfilehash: 2785b37ab7250d9515beee32929f9dff478df731
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879503"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272119"
 ---
 # <a name="unified-posting-date-control"></a>Controllo unificato della data di registrazione
 

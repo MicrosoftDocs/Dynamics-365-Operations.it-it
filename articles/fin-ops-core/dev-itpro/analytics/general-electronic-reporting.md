@@ -1,28 +1,26 @@
 ---
 title: Panoramica dei report elettronici
 description: In questo articolo viene fornita una panoramica dello strumento di creazione di report elettronici. Descrive concetti chiave, scenari supportati e formati che fanno parte della soluzione.
-author: NickSelin
+author: kfend
 ms.date: 11/02/2021
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "58941"
-- intro-internal
-ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f3853e0c1da0a5abb3f92171370cc4aeabbd829
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.custom: 58941,  ""intro-internal
+ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
+ms.search.form: ERWorkspace
+ms.openlocfilehash: e94846dd565abb6de2c1f07532d285e28307e9a2
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109582"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9269693"
 ---
 # <a name="electronic-reporting-er-overview"></a>Panoramica dei report elettronici
 
@@ -78,7 +76,7 @@ Il motore ER presenta le seguenti funzionalità:
 
 [![Flusso di dati principale ER.](./media/ger-main-data-flow.jpg)](./media/ger-main-data-flow.jpg)
 
-### <a name="components"></a>Componenti
+### <a name="component"></a>Componente
 
 ER supporta i seguenti tipi di componenti:
 
@@ -89,32 +87,7 @@ ER supporta i seguenti tipi di componenti:
 
 Per ulteriori informazioni, vedere [Componenti di Creazione di report elettronici](er-overview-components.md).
 
-
-#### <a name="component-versioning"></a>Controllo delle versioni del componente
-
-Il controllo delle versioni è supportato per i componenti ER. Viene fornito il seguente flusso di lavoro per gestire le modifiche nei componenti ER:
-
-1. La versione che viene creata in origine è contrassegnata come versione **Bozza**. Questa versione può essere modificata ed è disponibile per le esecuzioni dei test.
-2. La versione **Bozza** può essere convertita in una versione **Completata**. Questa versione può essere utilizzata nei processi di creazione di report locali.
-3. La versione **Completata** può essere convertita in una versione **Condivisa**. Questa versione viene pubblicata su LCS e può essere utilizzata nei processi globali di reporting.
-4. La versione **Condivisa** può essere convertita in una versione **Interrotta**. Questa versione può quindi essere eliminata.
-
-Le versioni nello stato **Completata** o **Condivisa** sono disponibili per un altro interscambio di dati: Su un componente che dispone di questi stati è possibile eseguire queste azioni:
-
-- Il componente può essere serializzato in formato XML ed esportato come file in formato XML.
-- Il componente può essere nuovamente serializzato da un file XML e importato nell'applicazione come nuova versione di un componente di Creazione di report elettronici.
-
-#### <a name="component-date-effectivity"></a>Validità delle date dei componenti
-
-Le versioni dei componenti ER dipendono dalle date. È possibile impostare la data di **Inizio validità** per un componente ER per specificare la data a partire dalla quale il componente diventa valido per i processi di creazione di report. La data della sessione dell'applicazione viene utilizzata per definire se un componente è valido per l'esecuzione. Se più di una versione è valida per una data particolare, la versione più recente viene utilizzata per i processi di creazione di report.
-
-#### <a name="component-access"></a>Accesso ai componenti
-
-L'accesso ai componenti di formato ER dipende dall'impostazione dei codici di paese ISO. Quando questa impostazione è vuota per la versione selezionata di una configurazione di formato, un componente formato è accessibile da qualsiasi società in fase di esecuzione. Quando questa impostazione contiene codici di paese/area ISO, il componente formato è disponibile solo dalle società che hanno un indirizzo principale definito per uno dei codici di paese/area ISO del componente formato.
-
-Versioni differenti di un componente formato dati possono avere impostazioni differenti per i codici di paese ISO.
-
-#### <a name="configuration"></a><a name="Configuration"></a>Configurazione
+### <a name="configuration"></a><a name="Configuration"></a>Configurazione
 
 Una configurazione ER corrisponde al wrapper di un componente ER specifico. Tale componente può essere un componente del modello dati o un componente di formato. Una configurazione può includere versioni diverse di un componente ER. Ciascuna configurazione viene contrassegnata come di proprietà di un provider di una specifica configurazione. La versione **Bozza** di un componente di una configurazione può essere modificata quando il proprietario della configurazione è stato selezionato come provider attivo nelle impostazioni ER dell'applicazione.
 
@@ -124,13 +97,13 @@ La configurazione formato creata contiene un componente formato. Il componente m
 
 Una configurazione ER è condivisa per le società dell'applicazione.
 
-#### <a name="provider"></a><a name="Provider"></a>Provider
+### <a name="provider"></a><a name="Provider"></a>Provider
 
 Il provider ER è l'identificatore della parte che viene utilizzato per indicare l'autore (proprietario) di ciascuna configurazione ER. ER consente di gestire l'elenco di provider di configurazione. Le configurazioni di formato rilasciate per documenti elettronici come parte della soluzione Finanza e operazioni sono contrassegnate come di proprietà del provider di configurazione **Microsoft**.
 
 Per informazioni sulla modalità di registrazione di un nuovo provider ER, riprodurre la Guida attività, **Creazione di report elettronici: creare e attivare un provider di configurazione** (parte del processo aziendale **7.5.4.3 Acquisire/sviluppare componenti di soluzioni/servizi IT (10677)** ).
 
-#### <a name="repository"></a><a name="Repository"></a>Archivio
+### <a name="repository"></a><a name="Repository"></a>Archivio
 
 In un archivio ER sono archiviate le configurazioni di ER. Attualmente sono supportati i seguenti tipi di archivio di ER: 
 
@@ -145,7 +118,7 @@ Un archivio **Libreria condivisa LCS** consente di accedere all'elenco di config
 
 L'archivio **Progetto LCS** consente l'accesso all'elenco delle configurazioni di un determinato progetto LCS (raccolta risorse di progetto LCS) selezionato durante la registrazione dell'archivio. Creazione report elettronici (ER) consente di caricare le configurazioni condivise dall'istanza corrente in uno specifico archivio **Progetto LCS**. È possibile importare configurazioni anche da un archivio **Progetto LCS** nell'istanza corrente delle app per la finanza e le operazioni.
 
-Un archivio **File system** consente di accedere all'elenco delle configurazioni presenti come file xml nella cartella specifica del file system locale del computer in cui il servizio AOS è ospitato. La cartella richiesta viene selezionata durante la fase di registrazione dell'archivio. È possibile importare configurazioni da un archivio **File system** nell'istanza corrente. 
+Un archivio **File system** consente di accedere all'elenco delle configurazioni presenti come file XML nella cartella specifica del file system locale del computer in cui il servizio AOS è ospitato. La cartella richiesta viene selezionata durante la fase di registrazione dell'archivio. È possibile importare configurazioni da un archivio **File system** nell'istanza corrente. 
 
 Da notare che questo tipo di archivio è accessibile negli ambienti seguenti:
 
@@ -162,7 +135,7 @@ Un archivio **Archivio globale** fornisce l'accesso all'elenco di configurazioni
 
 Per ulteriori informazioni, vedere [Importare le configurazioni di creazione di report elettronici dall'archivio globale di Regulatory Configuration Service (RCS)](./er-download-configurations-global-repo.md).
 
-Un archivio **Risorse operative** consente di accedere all'elenco di configurazioni che Microsoft rilascia inizialmente come parte della soluzione dell'applicazione in qualità di provider di configurazioni ER. Queste configurazioni possono essere importate nell'istanza corrente e utilizzate per la creazione di report elettronici o la riproduzione di guide attività di esempio. Possono inoltre essere utilizzate per altre localizzazioni e personalizzazioni. Tenere presente che le ultime versioni fornite dalle configurazioni ER di Microsoft devono essere importate dalla libreria di risorse condivise LCS utilizzando l'archivio ER corrispondente.
+Un archivio **Risorse operative** consente di accedere all'elenco di configurazioni che Microsoft rilascia inizialmente come parte della soluzione dell'applicazione in qualità di provider di configurazioni ER. Queste configurazioni possono essere importate nell'istanza corrente e utilizzate per la creazione di report elettronici o la riproduzione di guide attività di esempio. Possono inoltre essere utilizzate per altre localizzazioni e personalizzazioni. Tenere presente che le ultime versioni fornite dalle configurazioni ER di Microsoft devono essere importate dalla raccolta di risorse condivise LCS utilizzando l'archivio ER corrispondente.
 
 È possibile registrare individualmente gli archivi **Progetto LCS**, **File system** e **Regulatory Configuration Service** richiesti per ciascun provider di configurazioni dell'istanza corrente. Ogni archivio può essere dedicato a un provider di configurazioni specifico.
 
@@ -265,6 +238,7 @@ L'elenco delle configurazioni di report elettronici per Finance viene costanteme
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
+- [Componenti di Creazione di report elettronici](er-overview-components.md)
 - [Creare configurazioni per la creazione di report elettronici](electronic-reporting-configuration.md)
 - [Gestire il ciclo di vita della configurazione per la creazione di report elettronici (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
 

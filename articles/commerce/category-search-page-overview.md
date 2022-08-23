@@ -7,18 +7,18 @@ ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
-ms.assetid: ''
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e61db026649df8fe331d107bfbda8246fb9d5f9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.assetid: ''
+ms.openlocfilehash: 1f2e4eb8825dd690f926f7f0bdfc39f1eb5fb83c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881854"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276375"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Panoramica della pagina di destinazione di categoria e della pagina dei risultati della ricerca predefinite
 
@@ -46,6 +46,12 @@ I seguenti componenti sono essenziali per una categoria:
     - Nome prodotto: \[Z-A\]
     - Valutazioni: dalla più bassa alla più alta
     - Valutazioni: dalla più alta alla più bassa
+
+- Le **opzioni di ordinamento avanzate** sono utilizzate dai visitatori del sito Web per ordinare i prodotti utilizzando criteri intelligenti. Abilitando [Suggerimenti sul prodotto](product-recommendations.md), hai a disposizione le seguenti opzioni di ordinamento: Per ulteriori informazioni, fai riferimento all'articolo [Tipi di suggerimenti sul prodotto](product-recommendations.md#types-of-product-recommendations).
+
+    - Nuovi
+    - Più venduti
+    - Di tendenza
 
 - La **paginazione** consente ai visitatori del sito Web di passare da una pagina di risultati di prodotti categorizzati a un'altra pagina.
 - Il **conteggio totale** fornisce il numero totale di prodotti definiti in una categoria.
@@ -78,7 +84,7 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
 
 - I **riquadri di posizionamento dei prodotti** mostrano i prodotti per la ricerca dell'utente. Per impostazione predefinita, questi riquadri sono ordinati per punteggio di pertinenza della ricerca basata su cloud.
 - I **criteri di affinamento e il riepilogo delle scelte** sono filtri che forniscono conteggi e che possono essere utilizzati per filtrare gli articoli. Il responsabile merchandising li configura durante la configurazione dei metadati correlati alle categorie del canale e agli attributi dei prodotti.
-- Le **opzioni di ordinamento** sono utilizzate dai visitatori del sito Web per ordinare i prodotti. Per impostazione predefinita, sono disponibili le seguenti opzioni di ordinamento:
+- Le **opzioni di ordinamento standard** sono utilizzate dai visitatori del sito Web per ordinare i prodotti. Per impostazione predefinita, sono disponibili le seguenti opzioni di ordinamento:
 
     - Prezzo: dal più basso al più alto
     - Prezzo: dal più alto al più basso
@@ -86,7 +92,16 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
     - Nome prodotto: \[Z-A\]
     - Valutazioni: dalla più bassa alla più alta
     - Valutazioni: dalla più alta alla più bassa
-    - Valore predefinito
+    - Impostazione predefinita 
+    
+    > [!NOTE]
+    > Se i valori di **Ordine di visualizzazione** sono definiti per i prodotti nella gerarchia di navigazione, l'ordinamento predefinito in una pagina di categorie rispetta i valori definiti in **Ordine di visualizzazione**. In caso contrario, l'ordinamento verrà eseguito in base a **Numero prodotto**.
+    
+- Le **opzioni di ordinamento avanzate** sono utilizzate dai visitatori del sito Web per ordinare i prodotti utilizzando criteri intelligenti. Abilitando [Suggerimenti sul prodotto](product-recommendations.md), hai a disposizione le seguenti opzioni di ordinamento: Per ulteriori informazioni, fai riferimento all'articolo [Tipi di suggerimenti sul prodotto](product-recommendations.md#types-of-product-recommendations).
+
+    - Nuovi
+    - Più venduti
+    - Di tendenza
 
 - La **paginazione** consente ai visitatori del sito Web di passare da una pagina di risultati di prodotti categorizzati a un'altra pagina.
 - Il **conteggio totale** fornisce il numero totale di prodotti definiti in una categoria e corrispondenti ai criteri di ricerca.
@@ -94,6 +109,8 @@ I seguenti componenti sono essenziali per una pagina dei risultati della ricerca
 >[!NOTE]
 >Queste funzionalità di ricerca basate su cloud sono disponibili a partire dalla versione 10.0.8. Verifica che in **Parametri di commercio > Parametri di configurazione** c'è una voce per "ProductSearch.UseAzureSearch impostata su 'true'". 
 ![Parametri di configurazione per la ricerca basata su cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
+
+>Inoltre, per utilizzare le opzioni di ordinamento avanzate come Nuovi, Più venduti e Di tendenza, devi abilitare [Suggerimenti sul prodotto](product-recommendations.md) per il tuo ambiente. Le opzioni di ordinamento avanzate sono disponibili con Commerce SDK versione 9.35+ e Commerce versione 10.0.20.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

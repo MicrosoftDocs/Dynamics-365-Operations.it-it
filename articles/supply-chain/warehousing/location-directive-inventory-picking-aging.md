@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8b75907d01a029da1ed6a8224f8a7c0ca0230550
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: fc4348f8207f4f6c8a0b694bc3e57beb29449a15
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068672"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219474"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Periodo di aging prelievo inventario per direttiva ubicazione
 
@@ -34,8 +34,8 @@ Quando le scorte vengono ricevute o create per la prima volta nel magazzino, il 
 
 Per rendere disponibile questa funzionalità, abilitare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in quest'ordine:
 
-1. Stato ubicazione magazzino
-1. Aging prelievo scorte per direttiva ubicazione
+1. *Stato ubicazione magazzino* (a partire dalla versione 10.0.29, questa funzionalità è attivata per impostazione predefinita. Per ulteriori informazioni, vedi [Stato ubicazione magazzino](warehouse-location-status.md)).
+1. *Aging prelievo scorte per direttiva ubicazione*
 
 ## <a name="feature-requirements"></a>Requisiti della funzionalità
 
@@ -50,7 +50,7 @@ Questa sezione fornisce esempi che mostrano come impostare e utilizzare le strat
 
 ### <a name="make-sample-data-available"></a>Rendi disponibili i dati di esempio
 
-Per elaborare questi scenari utilizzando i record e i valori di esempio specificati qui, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
+Per elaborare questi scenari utilizzando i record e i valori di esempio specificati qui, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
 
 È inoltre possibile utilizzare questi scenari come indicazioni per l'utilizzo di questa funzionalità in un sistema di produzione. Tuttavia, in tal caso, devi sostituire i tuoi valori per ciascuna impostazione descritta qui.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2f1902ba76db59b61b0437eb3cd68ee94018b7c5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8844469"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219939"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Contrassegno inventario con Ottimizzazione pianificazione
 
@@ -43,9 +43,15 @@ Il pegging inizia includendo il contrassegno pertinente, le prenotazioni disponi
 
 Quando si stabilisce un ordine pianificato, la finestra di dialogo **Stabilizzazione** fornisce un campo **Aggiorna contrassegno** che può essere utilizzato per impostare le opzioni di contrassegno per gli ordini creati durante la stabilizzazione. Selezionare uno dei seguenti valori:
 
-- **No** - Non viene applicato alcun contrassegno di inventario.
-- **Standard** – Il contrassegno scorte viene aggiornato in base al pegging. Un ordine di richiesta (domanda) viene contrassegnato in base a un ordine di evasione (offerta). Se una certa quantità rimane nell'ordine di evasione, non viene contrassegnata e le informazioni di riferimento vengono lasciate vuote. Ad esempio, se un ordine cliente per 100 pezzi è ancorato a un ordine fornitore per 150 pezzi, le informazioni di riferimento verranno assegnate solo all'ordine cliente.
-- **Esteso** – Verranno contrassegnati sia l'ordine di richiesta (domanda) che l'ordine di evasione (offerta), indipendentemente dalla quantità eventualmente rimasta nell'ordine di evasione. Ad esempio, se un ordine cliente per 100 pezzi è ancorato a un ordine fornitore per 150 pezzi, le informazioni di riferimento verranno assegnate all'ordine cliente e all'ordine fornitore.
+- *No* - Non viene applicato alcun contrassegno di inventario.
+- *Standard* – Il contrassegno scorte viene aggiornato in base al pegging. Un ordine di richiesta (domanda) viene contrassegnato in base a un ordine di evasione (offerta). Se una certa quantità rimane nell'ordine di evasione, non viene contrassegnata e le informazioni di riferimento vengono lasciate vuote. Ad esempio, se un ordine cliente per 100 pezzi è ancorato a un ordine fornitore per 150 pezzi, le informazioni di riferimento verranno assegnate solo all'ordine cliente.
+- *Esteso* – Verranno contrassegnati sia l'ordine di richiesta (domanda) che l'ordine di evasione (offerta), indipendentemente dalla quantità eventualmente rimasta nell'ordine di evasione. Ad esempio, se un ordine cliente per 100 pezzi è ancorato a un ordine fornitore per 150 pezzi, le informazioni di riferimento verranno assegnate all'ordine cliente e all'ordine fornitore.
+- *Livello singolo standard*: viene utilizzato il contrassegno a livello singolo. Il contrassegno a livello singolo contrassegna solo l'articolo principale, non i componenti della distinta base (DBA). Pertanto, puoi mantenere flessibile l'assegnazione dei componenti per gli ordini di produzione dopo la stabilizzazione. Il contrassegno a livello singolo consente al sistema di eseguire l'ottimizzazione per le modifiche della domanda dell'ultimo minuto. Nel contrassegno a livello singolo *standard*, gli ordini di fabbisogno vengono contrassegnati rispetto ai relativi ordini di evasione, ma gli ordini di evasione non vengono contrassegnati se hanno quantità rimanenti.
+- *Livello singolo esteso*: viene utilizzato il contrassegno a livello singolo. Nel contrassegno a livello singolo *esteso*, gli ordini di fabbisogno vengono contrassegnati rispetto ai relativi ordini di evasione e gli ordini di evasione vengono sempre contrassegnati indipendentemente dalla quantità rimanente.
 
+Per impostare l'opzione di contrassegno predefinita per il sistema, andare a **Pianificazione generale \> Impostazioni \> Parametri di pianificazione generale**. Quindi, nella scheda **Aggiornamento standard**, impostare il campo **Aggiorna contrassegno** sull'opzione preferita.
+
+> [!NOTE]
+> Le opzioni *Livello singolo standard* e *Livello singolo esteso* sono disponibili solo se la funzionalità *Automazione dell'offerta Produzione su ordine* è abilitata nel sistema. Per ulteriori informazioni su questa funzionalità e su come abilitarla, vedere [Automazione dell'offerta Produzione su ordine](../make-to-order-supply-automation.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

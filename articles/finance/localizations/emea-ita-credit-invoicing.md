@@ -1,26 +1,26 @@
 ---
 title: Fatturazione delle note di accredito (Italia)
 description: In questo articolo viene descritto come impostare e utilizzare la funzionalità di fatturazione delle note di accredito in Italia.
-author: liza-golub
+author: AdamTrukawka
 ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: TaxYearlyCom_IT, TaxAuthority, TaxPeriod
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 269664
-ms.assetid: af07d122-5694-4de6-96bf-7bf5478b0175
 ms.search.region: Italy
-ms.author: elgolu
+ms.author: atrukawk
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e745503a0cb37fb7febd0b058810f4f2862bcad6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 269664
+ms.assetid: af07d122-5694-4de6-96bf-7bf5478b0175
+ms.search.form: TaxYearlyCom_IT, TaxAuthority, TaxPeriod
+ms.openlocfilehash: b3b0da7a63ad899083a3c685e3e86d327bb64e64
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855303"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281218"
 ---
 # <a name="credit-invoicing-italy"></a>Fatturazione delle note di accredito (Italia)
 

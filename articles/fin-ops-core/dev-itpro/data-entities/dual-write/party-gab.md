@@ -2,19 +2,19 @@
 title: Rubrica globale e parte
 description: In questo articolo vengono descritte le funzionalità della parte e della rubrica globale della doppia scrittura.
 author: RamaKrishnamoorthy
-ms.date: 04/25/2022
+ms.date: 08/02/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 91b56d091f549838092bdefe1a6a763fde79a32c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7f06b6e69b76bf12092fdceca5b45a6750b52233
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892195"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228992"
 ---
 # <a name="party-and-global-address-book"></a>Rubrica globale e parte
 
@@ -119,11 +119,11 @@ La griglia include le colonne seguenti:
 
 Puoi usare il pulsante **Nuovo indirizzo** sopra la griglia per creare tutti gli indirizzi postali che desideri.
 
-I campi **Indirizzo 1** e **Indirizzo 2** della scheda **Riepilogo** dell apagina **Conto** corrispondono agli indirizzi di **Consegna** e **Fatturazione** rispettivamente.
+Nelle app di interazione con i clienti, quando un utente immette gli indirizzi nella scheda **Riepilogo** della pagina **Account**, i campi **Indirizzo 1** e **Indirizzo 2** corrispondono rispettivamente agli indirizzi **Consegna** e **Fattura**. Tuttavia, quando un utente crea un indirizzo postale nelle app per la finanza e le operazioni, i primi due indirizzi del record cliente verranno visualizzati nei campi **Indirizzo 1** e **Indirizzo 2** e l'utente avrà la possibilità di modificare lo scopo dell'indirizzo in **Consegna** e **Fattura**.
 
 ![Scheda Riepilogo per indirizzi postali.](media/party-gab-image5.png)
 
-I campi **Indirizzo 1**, **Indirizzo 2** e **Indirizzo 3** della scheda **Riepilogo** della pagina **Contatto** corrispondono agli indirizzi di **Azienda**, **Consegna** e **Fatturazione** rispettivamente.
+Analogamente, i campi **Indirizzo 1**, **Indirizzo 2** e **Indirizzo 3** della scheda **Riepilogo** della pagina **Contatto** corrispondono rispettivamente agli indirizzi **Azienda**, **Consegna** e **Fattura**.
 
 ## <a name="electronic-addresses"></a>Indirizzi elettronici
 

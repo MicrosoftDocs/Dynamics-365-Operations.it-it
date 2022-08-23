@@ -1,25 +1,25 @@
 ---
 title: Verifica della data del documento di trasporto nelle fatture per l'Italia
 description: Per l'Italia, la data della fattura è verificata sui documenti di trasporto e sulle proposte di fatturazione. In questo articolo vengono fornite informazioni aggiuntive sulla verifica eseguita.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 263824
 ms.search.region: Italy
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 241e60a82d2e2b83b727fb8f628fdeb70e7706a1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 263824
+ms.search.form: CustPackingSlipJournal
+ms.openlocfilehash: ac6bf37b0e5a7d32836fa4c43d6e95242f8639ff
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855273"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9292267"
 ---
 # <a name="packing-slip-date-verification-on-invoices-for-italy"></a>Verifica della data del documento di trasporto nelle fatture per l'Italia
 

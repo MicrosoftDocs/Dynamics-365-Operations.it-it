@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 63fd8b209cb73843aae7324c805c5d0eb83b4ca4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849186"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219444"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidamento degli articoli e utilizzo delle ubicazioni
 
@@ -30,8 +30,8 @@ Questo articolo fornisce informazioni sulle funzionalità che semplificano la vi
 
 Prima di poter utilizzare le funzionalità descritte in questo articolo, è necessario attivarle nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzionalità e attivarle se sono necessarie. Attivare entrambe le funzionalità seguenti, nell'ordine indicato (entrambe le funzionalità sono per il modulo **Gestione magazzino**).
 
-1. Stato ubicazione magazzino
-2. Utilizzo ubicazione consolidamento articolo
+1. *Stato ubicazione magazzino* (a partire dalla versione 10.0.29, questa funzionalità è attivata per impostazione predefinita. Per ulteriori informazioni, vedi [Stato ubicazione magazzino](warehouse-location-status.md)).
+2. *Utilizzo ubicazione consolidamento articolo*
 
 ## <a name="warehouse-location-status"></a>Stato ubicazione magazzino
 

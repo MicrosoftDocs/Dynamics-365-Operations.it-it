@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 833d6cc131b3fb45d273b60ecf6778b2be31fc8a
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 87be947c829641ba809e6850ccf41ea6d142161d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687109"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228962"
 ---
 # <a name="plan-type-overview"></a>Panoramica del tipo di piano
 
@@ -27,6 +27,8 @@ ms.locfileid: "8687109"
 [!INCLUDE [PEAP](../includes/peap-2.md)]
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+[!include [banner](../includes/preview-banner.md)]
 
 Un tipo di piano è un raggruppamento di alto livello di specifici tipi di benefit. Ogni tipo di piano ha un codice di tipo di piano che determina le regole per il tipo di piano. Ad esempio, il tipo di piano **Vita base** avrebbe il codice di tipo di piano **Vita** perché è un tipo di piano di assicurazione sulla vita e deve essere conforme alle regole stabilite per il codice **Vita**. Un altro tipo di piano potrebbe essere **Vita supplementare**. Anche questo tipo di piano avrà il codice tipo piano **Vita**.
 
@@ -61,20 +63,20 @@ Un tipo di piano può definire opzioni di copertura. Le opzioni di copertura son
    | **Iscrizione simultanea** | Specifica se un dipendente può iscriversi a più piani di benefit dello stesso tipo di piano o a un solo piano di benefit per tipo di piano. |
    | **Tipo di contatto** | Specifica il ruolo del contatto personale. I valori sono vuoto, Persona a carico e Beneficiario. È possibile lasciare vuoto il campo **Tipo di contatto** se il tipo di piano non richiede una persona a carico o un beneficiario in funzione dell'opzione di copertura. |
 
-4. Per configurare opzioni di eventi reali, selezionare **Azioni**, quindi selezionare **Opzioni di eventi reali**. Specificare i valori per i seguenti campi:
+4. Per configurare opzioni di eventi di vita, selezionare **Azioni**, quindi selezionare **Opzioni di eventi di vita**. Specificare i valori per i seguenti campi:
 
    | Campo | Descrizione |
    | --- | --- |
-   | **Tipo di piano** | Il tipo di piano per il quale configurare le opzioni di eventi reali. |
-   | **ID tipo di evento reale** | L'ID del tipo di evento reale. |
-   | **Consenti annullamento** | Specifica se un dipendente può annullare un piano di benefit durante l'evento reale. |
-   | **Modifica opzione di copertura** | Specifica se un dipendente può modificare le opzioni di copertura durante l'evento reale. |
-   | **Modifica in un nuovo piano** | Specifica se un dipendente può modificare i piani durante l'evento reale. |
-   | **Annulla piano automaticamente** | Specifica se annullare automaticamente un piano durante l'evento reale. |
-   | **Riapri automaticamente il controllo di idoneità** | Specifica se riaprire automaticamente il controllo di idoneità di iscrizione di benefit durante l'evento reale. |
-   | **Periodo di reporting** | Specifica il periodo di reporting dell'evento reale, in giorni. **Nota**: se non si immette un importo, il sistema presuppone che la finestra di reporting sia zero e non elaborerà l'evento reale. |
+   | **Tipo di piano** | Il tipo di piano per il quale configurare le opzioni di eventi di vita. |
+   | **ID tipo di evento di vita** | L'ID del tipo di evento di vita. |
+   | **Modifica opzione di copertura** | Specifica se un dipendente può modificare le opzioni di copertura durante l'evento di vita. |
+   | **Modifica in un nuovo piano** | Specifica se un dipendente può modificare i piani durante l'evento di vita. |
+   | **Riapri automaticamente il controllo di idoneità** | Specifica se riaprire automaticamente il controllo di idoneità di iscrizione di benefit durante l'evento di vita. |
+   | **Periodo di iscrizione a evento di vita** | Specifica il periodo di reporting dell'evento di vita, in giorni. **Nota**: se non si immette un importo, il sistema presuppone che la finestra di reporting sia zero e non elaborerà l'evento di vita. |
+   | **Modificabile solo dagli amministratori** | Specifica se gli amministratori possono annullare o modificare un piano durante un evento di vita. Nessuna modifica può essere apportata dal dipendente nell'area di lavoro **Dipendente self-service**. |
+   | **Annulla piano automaticamente** | Specifica se un piano deve essere annullato automaticamente durante un evento di vita. Dopo l'elaborazione delle modifiche all'evento di vita, l'opzione **Annulla piano automaticamente** manterrà la selezione del piano. Solo lo stato **Confermato** o **Verificato** verrà rimosso. Il piano rimane selezionato. Pertanto, i dipendenti che non eseguono selezioni del piano durante il periodo di iscrizione all'evento di vita non perderanno la selezione del piano. 
 
-5. Selezionare **Salva**. 
+5. Seleziona **Salva**. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

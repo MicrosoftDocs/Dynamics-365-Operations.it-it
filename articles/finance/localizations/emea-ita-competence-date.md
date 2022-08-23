@@ -1,24 +1,24 @@
 ---
 title: Data di competenza per le transazioni e il report giornale di registrazione fiscale
 description: In questo articolo vengono fornite informazioni sulla data di competenza e illustra come attivare la funzionalità per le transazioni in Italia
-author: anasyash
+author: AdamTrukawka
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
 ms.search.region: Italy
-ms.author: anasyash
+ms.author: atrukawk
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ffd249e62c3df57758d338e7d3f2d9c66e873e3f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.openlocfilehash: 1d8b634a6fce77c9983602bc1f59c814d1b508d0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8870003"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9272158"
 ---
 # <a name="competence-date-for-transactions-and-the-fiscal-journal-report"></a>Data di competenza per le transazioni e il report giornale di registrazione fiscale
 

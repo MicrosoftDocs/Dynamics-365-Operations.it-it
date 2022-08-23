@@ -1,26 +1,26 @@
 ---
 title: Progettare un formato ER per generare un report in formato Excel con immagini incorporate nelle intestazioni o piè di pagina
 description: Questo articolo spiega come usare Electronic reporting (ER) per generare documenti aziendali che hanno immagini e forme incorporate nelle intestazioni o nei piè di pagina.
-author: NickSelin
+author: kfend
 ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 1cfde60459e440c851edb97276321216b1654e40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: EROperationDesigner, ERParameters
+ms.openlocfilehash: 5b46d92094bb3f2dab67a5cb2f0e1a34b05d52f0
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854845"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281814"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Progettare un formato ER per generare un report in formato Excel con immagini incorporate nelle intestazioni o piè di pagina
 
@@ -196,7 +196,7 @@ In questo caso, il rappresentante di Litware, Inc. deve creare (derivare) una nu
 
 ![Creazione di una configurazione per un formato pagamento personalizzato nella finestra di dialogo a discesa Crea configurazione.](./media/er-embed-images-header-footer-excel-reports-add-derived-format.png)
 
-Viene creata la versione 240.112.1 della configurazione del formato ER **Fattura a testo libero (Excel)**. Questa versione ha uno [stato](general-electronic-reporting.md#component-versioning) di **Bozza** e può essere modificata. Il contenuto corrente del tuo formato ER personalizzato corrisponde al contenuto del formato fornito da Microsoft.
+Viene creata la versione 240.112.1 della configurazione del formato ER **Fattura a testo libero (Excel)**. Questa versione ha lo stato **Bozza** e può essere modificata. Il contenuto corrente del tuo formato ER personalizzato corrisponde al contenuto del formato fornito da Microsoft.
 
 ![Nuova versione della configurazione del formato ER creata nella pagina Configurazioni.](./media/er-embed-images-header-footer-excel-reports-derived-format-configuration1.png)
 
@@ -244,7 +244,7 @@ Configurare il formato personalizzato in modo che un'immagine del logo aziendale
 
 ### <a name="mark-the-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Contrassegnare il formato personalizzato come eseguibile
 
-Poiché la prima versione del formato personalizzato è stata creata e presenta lo stato **Bozza**, è possibile eseguire il formato a scopo di test. Per eseguire il report, elaborare un pagamento fornitore utilizzando il metodo di pagamento che fa riferimento al formato ER personalizzato. Per impostazione predefinita, quando chiami un formato ER dall'applicazione, solo le versioni che hanno uno stato di **Completata** o **Condivisa** vengono [considerate](general-electronic-reporting.md#component-versioning). Questo comportamento consente di impedire l'utilizzo di formati ER con progettazioni incomplete. Tuttavia, per le esecuzioni di test, è possibile forzare l'applicazione a utilizzare la versione del formato ER con uno stato di **Bozza**. In questo modo, è possibile regolare la versione del formato corrente se sono necessarie modifiche. Per ulteriori informazioni, vedi [Applicabilità](electronic-reporting-destinations.md#applicability).
+Poiché la prima versione del formato personalizzato è stata creata e presenta lo stato **Bozza**, è possibile eseguire il formato a scopo di test. Per eseguire il report, elaborare un pagamento fornitore utilizzando il metodo di pagamento che fa riferimento al formato ER personalizzato. Per impostazione predefinita, quando chiami un formato ER dall'applicazione, solo le versioni che hanno lo stato **Completata** o **Condivisa** vengono prese in considerazione. Questo comportamento consente di impedire l'utilizzo di formati ER con progettazioni incomplete. Tuttavia, per le esecuzioni di test, è possibile forzare l'applicazione a utilizzare la versione del formato ER con uno stato di **Bozza**. In questo modo, è possibile regolare la versione del formato corrente se sono necessarie modifiche. Per ulteriori informazioni, vedi [Applicabilità](electronic-reporting-destinations.md#applicability).
 
 Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare esplicitamente il formato ER.
 

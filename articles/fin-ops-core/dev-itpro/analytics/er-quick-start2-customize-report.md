@@ -1,28 +1,26 @@
 ---
 title: Modificare un formato ER per generare un documento elettronico personalizzato
 description: Questo articolo spiega come modificare un formato di report elettronico (ER) fornito da Microsoft in modo che generi un documento elettronico personalizzato.
-author: NickSelin
+author: kfend
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 492964d3cea0e474a50d6d83231f33d9508b9d9d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 8b0bcdbd011c4c04e2693a3dcb8033c3cbe2adc7
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886793"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283560"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Modificare un formato ER per generare un documento elettronico personalizzato
 
@@ -271,7 +269,7 @@ In questo caso, in qualità di rappresentante di Litware, Inc., devi creare (der
 
 6. Selezionare **Crea configurazione**.
 
-Viene creata la versione 1.1.1 della configurazione del formato ER **BACS (Regno Unito, personalizzato)**. Questa versione ha uno [stato](general-electronic-reporting.md#component-versioning) di **Bozza** e può essere modificata. Il contenuto corrente del tuo formato ER personalizzato corrisponde al contenuto del formato fornito da Microsoft.
+Viene creata la versione 1.1.1 della configurazione del formato ER **BACS (Regno Unito, personalizzato)**. Questa versione ha lo stato **Bozza** e può essere modificata. Il contenuto corrente del tuo formato ER personalizzato corrisponde al contenuto del formato fornito da Microsoft.
 
 ![Pagina delle configurazioni con versione 1.1.1 della configurazione del formato ER BACS (Regno Unito, personalizzato).](./media/er-quick-start2-derived-format-configuration1.png)
 
@@ -324,7 +322,7 @@ Viene creata la versione 1.1.1 della configurazione del formato ER **BACS (Regno
 
 ### <a name="mark-a-custom-format-as-runnable"></a><a id="MarkFormatRunnable"></a>Contrassegnare un formato personalizzato come eseguibile
 
-Ora che la prima versione del tuo formato personalizzato è stata creata e ha uno stato di **Bozza**, puoi eseguirla a scopo di test. Per eseguire il report, è necessario elaborare un pagamento fornitore utilizzando il metodo di pagamento che fa riferimento al formato ER personalizzato. Per impostazione predefinita, quando chiami un formato ER dall'applicazione, solo le versioni che hanno uno stato di **Completata** o **Condivisa** vengono [considerate](general-electronic-reporting.md#component-versioning). Questo comportamento consente di impedire l'utilizzo di formati ER con progettazioni incomplete. Tuttavia, per le esecuzioni di test, è possibile forzare l'applicazione a utilizzare la versione del formato ER con uno stato di **Bozza**. In questo modo, è possibile regolare la versione del formato corrente se sono necessarie modifiche. Per ulteriori informazioni, vedi [Applicabilità](electronic-reporting-destinations.md#applicability).
+Ora che la prima versione del tuo formato personalizzato è stata creata e ha uno stato di **Bozza**, puoi eseguirla a scopo di test. Per eseguire il report, è necessario elaborare un pagamento fornitore utilizzando il metodo di pagamento che fa riferimento al formato ER personalizzato. Per impostazione predefinita, quando chiami un formato ER dall'applicazione, solo le versioni che hanno lo stato **Completata** o **Condivisa** vengono prese in considerazione. Questo comportamento consente di impedire l'utilizzo di formati ER con progettazioni incomplete. Tuttavia, per le esecuzioni di test, è possibile forzare l'applicazione a utilizzare la versione del formato ER con uno stato di **Bozza**. In questo modo, è possibile regolare la versione del formato corrente se sono necessarie modifiche. Per ulteriori informazioni, vedi [Applicabilità](electronic-reporting-destinations.md#applicability).
 
 Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare esplicitamente il formato ER.
 

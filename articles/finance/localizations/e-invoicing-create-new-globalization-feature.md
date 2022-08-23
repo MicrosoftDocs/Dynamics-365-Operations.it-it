@@ -1,26 +1,26 @@
 ---
 title: Creare una funzionalità di globalizzazione
 description: In questo articolo viene illustrato come creare una funzionalità di globalizzazione.
-author: dkalyuzh
+author: gionoder
 ms.date: 02/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.author: dkalyuzh
+ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c622b350f79d36b8fda12598ceae57ee9c7095e9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: ''
+ms.assetid: ''
+ms.search.form: ''
+ms.openlocfilehash: 5432de8f8a70a4e6a0facd546083b37fd8690556
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889832"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9283177"
 ---
 # <a name="create-a-globalization-feature"></a>Creare una funzionalità di globalizzazione
 

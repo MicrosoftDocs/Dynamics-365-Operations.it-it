@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 67c54f344ff7091f4a25198fdafa745c6c84d5d0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907147"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219780"
 ---
 # <a name="gs1-bar-codes"></a>Codici a barre GS1
 
@@ -115,7 +115,7 @@ Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli a
 
 ### <a name="turn-on-the-enhanced-parser-for-gs1-barcodes-feature"></a>Attivare la funzione parser avanzato per codici a barre GS1
 
-Se utilizzi i codici a barre GS1, ti consigliamo di abilitare anche la funzionalità *Parser avanzato per codici a barre GS1*. Questa funzione fornisce una migliore implementazione del parser di codici a barre GS1. Aggiunge i seguenti miglioramenti:
+Se utilizzi codici a barre GS1, ti consigliamo di attivare anche la funzionalità *Parser avanzato per codici a barre GS1*. Questa funzione fornisce una migliore implementazione del parser di codici a barre GS1. Aggiunge i seguenti miglioramenti:
 
 - Segue l'algoritmo delle specifiche generali GS1 per l'analisi dei dati dei simboli e convalida che i dati nel simbolo siano validi secondo la specifica.
 - Non richiede l'impostazione di un valore **Lunghezza massima dell'identificatore** e utilizza la corrispondenza del prefisso più lungo dagli identificatori dell'applicazione configurati.

@@ -1,26 +1,26 @@
 ---
 title: Destinazioni dei report elettronici
 description: Questo articolo fornisce informazioni sulla gestione delle destinazioni di report elettronici, i tipi di destinazioni supportati e le considerazioni sulla sicurezza.
-author: nselin
+author: kfend
 ms.date: 05/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
-ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
-ms.author: mrolecki
+ms.author: filatovm
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: bc8ef4a5299e6daba79702fadd37284f752a54a7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 97423
+ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
+ms.search.form: DocuType, ERSolutionTable
+ms.openlocfilehash: 1718b9e32c1e9f34d38479b74d59af6233f82a8c
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8851079"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281969"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinazioni dei report elettronici
 
@@ -118,7 +118,7 @@ Quando si configurano destinazioni di file per un formato selezionato, le si con
 
 [![Collegamento Configurazione.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Allo stesso tempo, si potrebbero avere più [versioni ](general-electronic-reporting.md#component-versioning) del formato che è stato importato nell'istanza corrente di Finance. È possibile visualizzarle selezionando il collegamento **Configurazione** che risulta disponibile quando si seleziona il campo **Riferimento**.
+Allo stesso tempo, si potrebbero avere più versioni  del formato che è stato importato nell'istanza corrente di Finance. È possibile visualizzarle selezionando il collegamento **Configurazione** che risulta disponibile quando si seleziona il campo **Riferimento**.
 
 [![Versioni di configurazione.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -181,6 +181,16 @@ A partire da Finance **versione 10.0.9**, nel documento PDF prodotto da un outpu
 
 Solo i caratteri di sistema comuni del sistema operativo Windows vengono utilizzati per la conversione di un output che non contiene caratteri incorporati.
 
+### <a name="resources"></a>Risorse
+
+Prima della versione 10.0.29 di Finance, la conversione in PDF poteva essere eseguita solo al di fuori dell'istanza Finance corrente. Un file generato era inviato da Finance al servizio di conversione e quindi tale servizio restituiva il documento convertito. Tuttavia, nella versione **10.0.29 e successive**, oltre alla funzionalità **Convertire documenti in uscita per la creazione di report elettronici da formati Microsoft Office in PDF**, è possibile abilitare la funzionalità **Utilizzare le risorse dell'applicazione per eseguire la conversione dei documenti aziendali configurabili da Word al formato PDF**. Questa funzionalità consente di convertire i documenti di Word generati in formato PDF in locale utilizzando le risorse del server delle applicazioni nell'istanza Finance corrente. 
+
+Di seguito sono descritti i vantaggi della conversione in PDF locale quando la funzionalità **Utilizzare le risorse dell'applicazione per eseguire la conversione dei documenti aziendali configurabili da Word al formato PDF** è abilitata:
+
+- Il documento PDF generato non è [limitato](#limitations) a un numero massimo di pagine.
+- Il documento di Word convertito può contenere un [gran numero di controlli del contenuto](https://fix.lcs.dynamics.com/Issue/Details?bugId=647877&dbType=3).
+- La connettività Internet non è richiesta nelle distribuzioni locali.
+
 ### <a name="use-the-pdf-conversion-option"></a>Utilizzare l'opzione di conversione PDF
 
 Per attivare la conversione PDF per una destinazione file, selezionare la casella di controllo **Converti in PDF**.
@@ -230,7 +240,7 @@ Nella Scheda dettaglio **Generale**, nel campo **Invia cartella come**, selezion
 - **File separati**: recapita ogni file di un file zip generato come un singolo file.
 
     > [!NOTE]
-    > Quando selezioni **File separati**, l'output generato viene raccolto in memoria in uno stato compresso. Pertanto, il [limite di dimensione del file](er-compress-outbound-files.md) massimo viene applicato per l'output compresso quando la dimensione reale del file potrebbe superare questo limite. Si consiglia di selezionare questo valore quando si prevede che anche la dimensione dell'output generato sia abbastanza grande.
+    > Quando selezioni **File separati**, l'output generato viene raccolto in memoria in uno stato compresso. Pertanto, il [limite di dimensione del file](er-compress-outbound-files.md) massimo viene applicato per l'output compresso quando la dimensione reale del file potrebbe superare questo limite. Si consiglia di selezionare questo valore quando si prevede che anche la dimensione dell'output generato sarà abbastanza grande.
 
 [![Configurazione di una destinazione per un componente formato cartella.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 

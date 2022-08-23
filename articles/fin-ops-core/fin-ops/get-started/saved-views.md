@@ -2,7 +2,7 @@
 title: Visualizzazioni salvate
 description: In questo articolo viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
 author: jasongre
-ms.date: 04/25/2022
+ms.date: 07/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 14369b02f1d7553be5c732f3bdf768825267998b
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9125152"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220334"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -31,7 +31,7 @@ ms.locfileid: "9125152"
 
 La personalizzazione riveste un ruolo fondamentale in quanto consente ad utenti e organizzazioni di ottimizzare l'esperienza utente per soddisfare le relative esigenze. Per ulteriori informazioni sulla personalizzazione, vedere [Personalizzare l'esperienza utente](personalize-user-experience.md).
 
-Con la personalizzazione tradizionale, gli utenti possono avere soltanto un singolo insieme di personalizzazioni per pagina. La funzionalità **Visualizzazioni salvate** espande la personalizzazione in vari modi importanti:
+La personalizzazione tradizionale consente agli utenti di avere soltanto un singolo insieme di personalizzazioni per pagina. La funzionalità **Visualizzazioni salvate** espande la personalizzazione in vari modi importanti:
 
 - Le visualizzazioni consentono agli utenti di avere molteplici insiemi di personalizzazione per modulo, a cui possono accedere rapidamente come necessario. Ciò consente a un utente di creare molteplici visualizzazioni ottimizzate di una pagina, dove ogni visualizzazione è stata adattata per soddisfare le esigenze di esecuzione di una particolare attività aziendale. 
 - Le visualizzazioni create per specifici tipi di pagina possono anche includere filtri o ordinamenti aggiunti dagli utenti, che consentono agli stessi di ritornare rapidamente a set di dati filtrati comunemente. Vedere la sezione [Quali pagine supportano le visualizzazioni](saved-views.md#what-pages-support-views) per ulteriori informazioni. 
@@ -46,7 +46,12 @@ Dopo che le visualizzazioni sono state rese disponibili per un ambiente, qualsia
 Il selettore di visualizzazioni include due variazioni di dimensioni: 
 
 - **Selettori di visualizzazioni grandi**: le pagine con un elenco avranno un selettore di visualizzazioni più grande per alcuni motivi. In particolare, il selettore di visualizzazioni più grande indica le pagine in cui la visualizzazione può includere filtri e ordinamenti definiti dall'utente. Poiché i filtri e gli ordinamenti sono inclusi nelle visualizzazioni, la dimensione più grande del selettore è anche garantita in quanto i nomi di visualizzazioni saranno spesso la migliore descrizione dei dati visualizzati sullo schermo e l'aspettativa è che gli utenti passeranno più spesso da una visualizzazione all'altra su questi tipi di pagine. Il raggruppamento in una griglia può anche essere salvato nelle visualizzazioni di una pagina con selettori di visualizzazioni di grandi dimensioni. 
+    
+    [![Selettore di visualizzazioni di grandi dimensioni che supporta modifiche alle query nella visualizzazione.](./media/views-largeViewSelector.png)](./media/views-largeViewSelector.png)
+
 - **Selettori di visualizzazioni piccoli**: tutte le altre pagine a schermo intero (con l'eccezione delle aree di lavoro e del dashboard) hanno un selettore di visualizzazioni più piccolo visualizzato accanto al titolo della pagina. Le visualizzazioni in queste pagine includono solo personalizzazioni, non filtri definiti dall'utente. In queste pagine, il sottotitolo o titolo del record è in genere l'informazione più importante nella parte superiore della pagina. La dimensione più piccola del selettore della visualizzazione riflette inoltre una frequenza prevista di passaggio da una visualizzazione all'altra inferiore in queste pagine. 
+    
+    [![Selettore di visualizzazioni di piccole dimensioni che non supporta modifiche alle query nella visualizzazione.](./media/views-smallViewSelector.png)](./media/views-smallViewSelector.png)
  
 Se si seleziona il nome della visualizzazione, viene aperto il selettore di visualizzazioni che visualizza l'elenco delle visualizzazioni disponibili per tale pagina.
 
@@ -64,6 +69,8 @@ Per passare a un'altra visualizzazione, innanzitutto aprire il selettore di visu
 A differenza della personalizzazione tradizionale, le visualizzazioni non vengono salvate automaticamente quando un utente personalizza la pagina o quando un utente applica un filtro a un elenco o lo ordina. Un'azione esplicita è necessaria per salvare le modifiche a una visualizzazione. Questo requisito offre agli utenti la flessibilità di creare una visualizzazione prima o dopo che sono state apportate le modifiche associate a quella visualizzazione. Assicura inoltre che le definizioni della visualizzazione non vengano modificate involontariamente da filtri o personalizzazioni occasionali. Si noti che gli elementi di utilizzo tipico della pagina (ad esempio, larghezza delle colonne o stato delle sezioni espanso o compresso) vengono salvati automaticamente nella visualizzazione corrente, anche pe rle visualizzazioni bloccate.
 
 Per garantire che lo stato corrente della visualizzazione sia noto, quando si inizia a modificare una visualizzazione personalizzandola o filtrandola, un asterisco (\*) appare accanto al nome della visualizzazione corrente. Questo simbolo indica che si sta visualizzando una versione non salvata e modificata di quella visualizzazione.
+
+[![Modifiche non salvate in una visualizzazione.](./media/views-unsavedChanges.png)](./media/views-unsavedChanges.png)
 
 Per salvare le modifiche, attenersi alla procedura seguente.
 
@@ -184,7 +191,7 @@ Se le modifiche apportate alla visualizzazione pubblicata comportano la modifica
 
 Come per la gestione delle visualizzazioni personali, la finestra di dialogo **Gestisci le mie visualizzazioni** fornisce agli utenti funzionalità di gestione di base dei privilegi di pubblicazione per le visualizzazioni pubblicate delle pagine (oltre che per le visualizzazioni personali). Per aprire questa pagina, selezionare il nome della visualizzazione per aprire il menu a discesa del selettore di visualizzazioni, selezionare **Altro**, quindi selezionare **Gestisci le mie visualizzazioni**.
 
-Sebbene tutti gli utenti dispongano di una scheda **Visualizzazioni personali** che elenca le visualizzazioni personali, gli utenti con privilegi di pubblicazione dispongono anche di una scheda **Visualizzazioni organizzazione** che mostra tutte le visualizzazioni pubblicate e non pubblicate per tale pagina. Poiché è possibile che vi siano vari utenti che pubblicano visualizzazioni, è importante poter gestire l'elenco completo delle visualizzazioni pubblicate, indipendentemente se si è l'utente che ha effettivamente pubblicato la visualizzazione.
+Sebbene tutti gli utenti dispongano di una scheda **Visualizzazioni personali** che mostra le visualizzazioni personali, gli utenti con privilegi di pubblicazione dispongono anche di una scheda **Visualizzazioni organizzazione** che mostra tutte le visualizzazioni pubblicate e non pubblicate per tale pagina. Poiché è possibile che vi siano vari utenti che pubblicano visualizzazioni, è importante poter gestire l'elenco completo delle visualizzazioni pubblicate, indipendentemente se si è l'utente che ha effettivamente pubblicato la visualizzazione.
 
 Per l'elenco di tutte le visualizzazioni pubblicate per la pagina, si ha a disposizione il set di azioni seguente. 
 
@@ -225,7 +232,7 @@ Quando le visualizzazioni vengono abilitate, tutte le personalizzazioni esistent
 
 ### <a name="what-pages-support-views"></a>Quali pagine supportano le visualizzazioni? 
 
-Le visualizzazioni sono disponibili nella maggior parte delle pagine. In particolare, le visualizzazioni sono attualmente disponibili per tutte le pagine a schermo intero ad eccezione dei dashboard e delle aree di lavoro. Inoltre, le pagine non a schermo intero, tra cui finestre di dialogo, finestre di dialogo a discesa, ricerche, anteprime avanzate, non supportano attualmente le visualizzazioni. È possibile che il supporto delle visualizzazioni per ulteriori tipi di pagine, ad esempio aree di lavoro e finestre di dialogo, sia preso in considerazione per un aggiornamento futuro.
+Le visualizzazioni sono disponibili nella maggior parte delle pagine. In particolare, le visualizzazioni sono attualmente disponibili per tutte le pagine a schermo intero ad eccezione dei dashboard. Il supporto delle visualizzazioni per le aree di lavoro è disponibile tramite la funzionalità **Supporto visualizzazioni salvate per aree di lavoro**. La maggior parte delle pagine non a schermo intero, tra cui finestre di dialogo a discesa, ricerche e anteprime avanzate, non supporta attualmente le visualizzazioni. Il supporto delle visualizzazioni per le finestre di dialogo è disponibile tramite la funzionalità **Supporto visualizzazioni salvate per finestre di dialogo**.
 
 ### <a name="who-is-allowed-to-publish-views"></a>A chi è consentito pubblicare visualizzazioni?
 

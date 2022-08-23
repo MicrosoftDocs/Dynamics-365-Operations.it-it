@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41b9538d3064bad24c4c5c60d401605e47e9c655
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2dc24fed1ec71432d9e2a3e1cb5b366267c2938b
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905456"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218744"
 ---
 # <a name="warehouse-app-event-processing"></a>Elaborazione degli eventi dell'app di magazzino
 
@@ -26,13 +26,13 @@ ms.locfileid: "8905456"
 
 I processi batch in esecuzione in Supply Chain Management possono utilizzare i dati di una coda per elaborare eventi emessi dall'app per dispositivi mobili Gestione magazzino per reagire come necessario agli eventi segnalati. Questa funzionalità aggiunge eventi pertinenti alla coda in risposta a determinati tipi di azioni intraprese dai lavoratori che utilizzano l'app. Un esempio è quando si utilizza la funzionalità *Crea ed elabora ordini di trasferimento nell'app di magazzino*, l'intestazione e le righe dell'ordine di trasferimento vengono create e aggiornate nel back-end quando il sistema esegue il processo batch **Elabora eventi dell'app di magazzino**.
 
-## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Attivare o disattivare la funzionalità Elabora eventi dell'app magazzino
+## <a name="turn-the-process-warehouse-app-events-feature-on-or-off"></a>Attivare o disattivare la funzionalità Elabora eventi dell'app di magazzino
 
-A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Elabora eventi dell'app magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria. Pertanto, è attivata per impostazione predefinita e non può essere disattivata di nuovo. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Elabora eventi dell'app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-a-batch-job-to-process-warehouse-app-events"></a>Configurare un processo batch per elaborare eventi dell'app di magazzino
 
-### <a name="process-warehouse-app-events"></a>Elabora eventi dell'app magazzino
+### <a name="process-warehouse-app-events"></a>Elabora eventi dell'app di magazzino
 
 Configura un processo batch pianificato per elaborare gli eventi dell'app di magazzino per la creazione dell'ordine di trasferimento e gli aggiornamenti delle righe.
 

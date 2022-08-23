@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 8dfa7d8e3bdbfd74c6f95d8b79ac1b0698f73bd6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849128"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219690"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenza lavori gestiti dal sistema
 
@@ -44,7 +44,7 @@ Prima di poter utilizzare la sequenza lavori gestita dal sistema, tale funzional
 
 ### <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
-Per elaborare lo scenario utilizzando i record e i valori di esempio presentati in questo articolo, devi utilizzare un sistema in cui sono installati i dati dimostrativi standard. Inoltre, è necessario selezionare la persona giuridica **USMF**. Lo scenario utilizza il magazzino *51* dai dati demo.
+Per elaborare lo scenario utilizzando i valori presentati in questo articolo, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard. Inoltre, è necessario selezionare la persona giuridica **USMF**. Lo scenario utilizza il magazzino *51* dai dati demo.
 
 > [!IMPORTANT]
 > Prima di rilasciare gli ordini al magazzino, devi assicurarti che le posizioni di prelievo dispongano di scorte sufficienti per tutti gli articoli degli ordini.

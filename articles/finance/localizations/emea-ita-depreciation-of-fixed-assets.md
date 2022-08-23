@@ -1,25 +1,25 @@
 ---
 title: Ammortamento manuale dei cespiti per l'Italia
 description: In questo articolo vengono fornite informazioni sull'ammortamento dei cespiti per le persone giuridiche in Italia.
-author: ShylaThompson
+author: AdamTrukawka
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: AssetDepreciationProfile, LedgerJournalTransApprove, LedgerJournalTransAsset, LedgerJournalTransDaily, LedgerJournalTransVendInvoice, PurchTable
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 264294
 ms.search.region: Italy
-ms.author: kfend
+ms.author: atrukawk
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 9a443dd1f427dae9fd7e03ad0a49b2176043603e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 264294
+ms.search.form: AssetDepreciationProfile, LedgerJournalTransApprove, LedgerJournalTransAsset, LedgerJournalTransDaily, LedgerJournalTransVendInvoice, PurchTable
+ms.openlocfilehash: a1ec22e9bf9c4a567aee142492de8e93d458701b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872368"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281215"
 ---
 # <a name="manual-depreciation-of-fixed-assets-for-italy"></a>Ammortamento manuale dei cespiti per l'Italia
 

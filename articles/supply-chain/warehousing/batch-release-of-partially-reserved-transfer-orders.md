@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0b21c0000f6bf1cbbb318c898a519e51ca7e9b8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 741377a43e2bfe702b213647cc6460a3d6ad93fb
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068636"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218684"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Rilascio batch degli ordini di trasferimento parzialmente prenotati
 
@@ -42,25 +42,22 @@ Per poter rilasciare parzialmente un ordine a un magazzino in un batch, è neces
 
 I criteri di evasione per gli ordini di trasferimento e gli ordini cliente sono definiti a livello aziendale. A seconda dell'impostazione del criterio di evasione, il rilascio degli ordini in un batch verrà accettato o rifiutato. Gli ordini verranno quindi elaborati di conseguenza.
 
--   Per creare criteri di evasione per ordini di trasferimento e ordini cliente, fare clic su **Gestione magazzino** \> **Impostazione** \> **Rilascia in magazzino** \> **Criteri di evasione** e quindi creare un criterio di evasione immettendo un nome e una descrizione.
-
--   Per specificare una percentuale di evasione, un tipo di valore e il messaggio visualizzato se il criterio di evasione viene violato, fare clic su **Gestione magazzino** \> **Impostazione** \> **Rilascia in magazzino** \> **Regola di evasione** e quindi impostare i campi **Percentuale evasione**, **Tipo di valore** e **Messaggio di violazione adempimento**.
+- Per creare criteri di evasione per ordini di trasferimento e ordini cliente, andare a **Gestione magazzino\> Impostazioni \> Rilascia in magazzino \> Criteri di evasione** e creare un criterio di evasione immettendo un nome e una descrizione.
+- Per specificare una percentuale di evasione, un tipo di valore e il messaggio visualizzato se il criterio di evasione viene violato, andare a **Gestione magazzino \> Impostazioni \> Rilascia in magazzino \> Criteri di evasione** e quindi impostare i campi **Percentuale evasione**, **Tipo di valore** e **Messaggio di violazione adempimento**.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Impostare i criteri di evasione per gli ordini di trasferimento e gli ordini cliente
 
--   Per impostare i criteri di evasione per gli ordini di trasferimento, fare clic su **Gestione articoli** \> **Impostazione** \> **Parametri di gestione articoli e magazzino** \> **Ordini di trasferimento** \> **Gestione magazzino** e selezionare un criterio di evasione per gli ordini di trasferimento.
+- Per impostare i criteri di evasione per gli ordini di trasferimento, andare a **Gestione articoli \> Impostazioni \> Parametri di gestione articoli e magazzino** e nella scheda **Ordini di trasferimento**, nella sezione **Gestione magazzino**, selezionare un criterio di evasione per gli ordini di trasferimento.
+- Per impostare i criteri di evasione per gli ordini cliente, andare a **Contabilità clienti \> Impostazioni \> Parametri contabilità clienti** e nella scheda **Gestione magazzino** selezionare un criterio di evasione per gli ordini cliente.
 
--   Per impostare i criteri di evasione per gli ordini cliente, fare clic su **Contabilità clienti** \> **Impostazione** \> **Parametri contabilità clienti** \> **Gestione magazzino** e selezionare un criterio di evasione per gli ordini cliente.
-
-## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-release-in-a-batch"></a>Consentire il rilascio in un batch e specificare la quantità da rilasciare in un batch
+## <a name="allow-release-in-a-batch-and-specify-the-quantity-that-should-be-released-in-a-batch"></a>Consentire il rilascio in un batch e specificare la quantità da rilasciare in un batch
 
 Un processo batch viene utilizzato per rilasciare ordini a un magazzino in un batch. I parametri che determinano gli ordini da eseguire in un processo batch vengono impostati nel processo batch stesso.
 
 Il parametro **Quantità** specifica se l'intera quantità o la quantità prenotata fisicamente deve essere rilasciata nel batch. Il parametro **Consenti rilascio degli ordini parzialmente rilasciati** determina se gli ordini nel batch devono essere accettati o rifiutati nel caso siano stati parzialmente rilasciati in precedenza.
 
--   Per impostare i parametri **Consenti rilascio degli ordini parzialmente rilasciati** e **Quantità** per gli ordini di trasferimento, fare clic su **Gestione magazzino** \> **Rilascia in magazzino** \> **Rilascio automatico degli ordini di trasferimento**.
-
--   Per impostare i parametri **Consenti rilascio degli ordini parzialmente rilasciati** e **Quantità** per gli ordini cliente, fare clic su **Gestione magazzino** \> **Rilascia in magazzino** \> **Rilascio automatico degli ordini cliente**.
+- Per impostare i parametri **Consenti rilascio degli ordini parzialmente rilasciati** e **Quantità** per gli ordini di trasferimento, andare a **Gestione magazzino \> Rilascia in magazzino \> Rilascio automatico degli ordini di trasferimento**.
+- Per impostare i parametri **Consenti rilascio degli ordini parzialmente rilasciati** e **Quantità** per gli ordini cliente, andare a **Gestione magazzino \> Rilascia in magazzino \> Rilascio automatico degli ordini cliente**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
 title: Richiesta di informazioni migliorata sulla liquidazione dare/avere
 description: Questo articolo spiega come visualizzare le informazioni relative alla fatturazione e ai pagamenti in un formato comodo e semplice.
-author: ilkond
+author: mrolecki
 ms.date: 11/21/2019
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
-ms.author: ilyako
+ms.author: mrolecki
 ms.search.validFrom: 2019-11-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 96cc4d1a46cb1e80d2c9416bcff3a37dac1b6c1b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 718c8aeeba4646b53c671c1467909714514de0b1
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858345"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277261"
 ---
 # <a name="improved-inquiry-on-debitcredit-settlement"></a>Richiesta di informazioni migliorata sulla liquidazione dare/avere
 

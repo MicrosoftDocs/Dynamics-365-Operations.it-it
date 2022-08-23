@@ -2,7 +2,7 @@
 title: Funzionalità rimosse o deprecate in Dynamics 365 Finance
 description: In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Finance.
 author: kfend
-ms.date: 03/21/2022
+ms.date: 06/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ee084e84c052366bdf34fe1a1e697a32e456914b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068924"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219570"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 > [!NOTE]
 > Informazioni dettagliate sugli oggetti nelle app per la finanza e le operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per la finanza e le operazioni.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.29
+
+### <a name="stock-transfer-orders-that-have-tax-on-the-transfer-price"></a>Ordini di trasferimento scorte con imposta sul prezzo di trasferimento
+
+[Ordini di trasferimento scorte con imposta sul prezzo di trasferimento](../../finance/localizations/apac-ind-gst-stock-transfer-transactions.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motivo della deprecazione/rimozione** | Sostituita da una funzionalità migliorata, [Ordini di trasferimento stock per l'India](../../finance/localizations/apac-ind-stock-transfer.md)|
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate** | Domanda di lavoro |
+| **Opzione di distribuzione** | Tutti |
+| **Status** | Deprecata: dopo aprile 2023, la funzionalità **Ordini di trasferimento scorte con imposta sul prezzo di trasferimento** non riceverà più supporto per correzioni di bug e correzioni di sicurezza. Ai clienti verrà chiesto di utilizzare la funzionalità migliorata, [Ordini di trasferimento stock per l'India](../../finance/localizations/apac-ind-stock-transfer.md). Dopo ottobre 2023, la funzionalità **Ordini di trasferimento scorte con imposta sul prezzo di trasferimento** non sarà più disponibile e ai clienti verrà chiesto di passare alla funzionalità migliorata. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.26
 

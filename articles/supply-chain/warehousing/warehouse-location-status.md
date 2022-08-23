@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 6d04ca43895935329b711f2658360c41f611975e
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2b3c408f5a5e4ce85a235ac83c15b648e43b5e10
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065466"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220059"
 ---
 # <a name="warehouse-location-status"></a>Stato ubicazione magazzino
 
@@ -42,10 +42,7 @@ I seguenti quattro campi nella pagina **Ubicazioni** tengono traccia delle infor
 
 ## <a name="turn-on-the-warehouse-location-status-feature"></a>Attivare la funzionalità di stato dell'ubicazione di magazzino
 
-Prima di poter utilizzare la funzionalità *Stato ubicazione magazzino*, tale funzionalità deve essere attivata nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Gestione Magazzino*
-- **Nome funzionalità** *Stato ubicazione magazzino*
+Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Stato ubicazione magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-warehouse-location-status"></a>Impostare lo stato dell'ubicazione di magazzino
 
@@ -55,7 +52,7 @@ Prima di iniziare ad analizzare lo scenario, devi attivare i dati di esempio e i
 
 #### <a name="use-the-usmf-legal-entity"></a>Utilizzare la persona giuridica USMF
 
-Per elaborare lo scenario di esempio utilizzando i record e i valori di esempio specificati qui, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
+Per elaborare lo scenario di esempio utilizzando i record e i valori di esempio specificati qui, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../fin-ops-core/fin-ops/get-started/demo-data.md) standard. È inoltre necessario selezionare la persona giuridica **USMF** prima di iniziare.
 
 #### <a name="set-up-location-profiles"></a>Imposta profili ubicazione
 

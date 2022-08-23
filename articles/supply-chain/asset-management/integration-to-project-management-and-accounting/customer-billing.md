@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d6ad25ec49a329c16b0290278fb614293a507eae
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7c2c07f3e3eb76ff20e37e8d5d485dc08232c7a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887691"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220424"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Fattura per manutenzione su cespiti di proprietà del cliente
 
@@ -49,7 +49,7 @@ Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. 
 
 Per scoprire come funziona questa funzionalità, utilizza il seguente scenario di esempio.
 
-Per elaborare lo scenario utilizzando i record e i valori di esempio specificati qui, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) standard. È necessario selezionare la persona giuridica **USMF** prima di iniziare.
+Per elaborare lo scenario utilizzando i record e i valori di esempio specificati qui, devi utilizzare un sistema in cui sono installati i [dati dimostrativi](../../../fin-ops-core/fin-ops/get-started/demo-data.md) standard. È necessario selezionare la persona giuridica **USMF** prima di iniziare.
 
 È inoltre possibile utilizzare questo scenario come indicazioni per l'utilizzo di questa funzionalità quando si lavora su un sistema di produzione. Tuttavia, in questo caso, è necessario sostituire i propri valori e potrebbero mancare alcuni tipi di record richiesti forniti dai dati demo standard.
 

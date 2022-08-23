@@ -1,26 +1,26 @@
 ---
 title: Ispezionare il componente ER configurato per evitare problemi di runtime
 description: Questo articolo spiega come ispezionare i componenti di creazione di report elettronici (ER) configurati per prevenire problemi di runtime che potrebbero verificarsi.
-author: NickSelin
+author: kfend
 ms.date: 01/03/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30f1a0d6ca4a50645bada39abbbf2f58777abb8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: ''
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
+ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864838"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9277852"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Ispezionare il componente ER configurato per evitare problemi di runtime
 
@@ -30,8 +30,8 @@ Ogni formato [Reporting elettronico (ER)](general-electronic-reporting.md) [conf
 
 Per impostazione predefinita, la convalida viene applicata automaticamente nei seguenti casi per una configurazione ER che contiene i componenti ER precedentemente menzionati:
 
-- [Importa](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) una nuova [versione](general-electronic-reporting.md#component-versioning) di una configurazione ER nell'istanza di Microsoft Dynamics 365 Finance.
-- Modificare lo [stato](general-electronic-reporting.md#component-versioning) della configurazione modificabile e personalizzata da **Bozza** a **Completato**.
+- [Si importa](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) una nuova versione di una configurazione ER nell'istanza di Microsoft Dynamics 365 Finance.
+- Si modifica lo stato della configurazione ER modificabile da **Bozza** a **Completata**.
 - [Risolvere](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase) una configurazione ER modificabile applicando una nuova versione di base.
 
 È possibile eseguire esplicitamente questa convalida. Selezionare una delle tre opzioni seguenti e seguire i passaggi forniti:
@@ -770,7 +770,7 @@ Modificare il formato configurato rimuovendo l'associazione per l'elemento di fo
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Modello non collegato
 
-Quando si configura [manualmente](er-fillable-excel.md#manual-entry) un componente formato ER per utilizzare un modello per generare un documento in uscita, è necessario aggiungere manualmente l'elemento **Excel\\File**, aggiungere il modello richiesto come allegato del componente modificabile e selezionare tale allegato nell'elemento aggiunto **Excel\\File**. In questo modo, si indica che l'elemento aggiunto riempirà il modello selezionato in fase di runtime. Quando si configura una versione del componente di formato nello [stato](general-electronic-reporting.md#component-versioning) **Bozza**, si potrebbero aggiungere diversi modelli al componente modificabile e quindi selezionare ogni modello nell'elemento **Excel\\File** per eseguire il formato ER. In questo modo, è possibile vedere come i diversi modelli vengono riempiti in fase di esecuzione. Se disponi di modelli che non sono selezionati in alcun elemento **Excel\\File**, la progettazione del formato ER avvisa che quei modelli verranno eliminati dalla versione modificabile del componente del formato ER quando il suo stato viene modificato da **Bozza** a **Completato**.
+Quando si configura [manualmente](er-fillable-excel.md#manual-entry) un componente formato ER per utilizzare un modello per generare un documento in uscita, è necessario aggiungere manualmente l'elemento **Excel\\File**, aggiungere il modello richiesto come allegato del componente modificabile e selezionare tale allegato nell'elemento aggiunto **Excel\\File**. In questo modo, si indica che l'elemento aggiunto riempirà il modello selezionato in fase di runtime. Quando si configura una versione del componente di formato nello stato **Bozza**, si potrebbero aggiungere diversi modelli al componente modificabile e quindi selezionare ogni modello nell'elemento **Excel\\lFile** per eseguire il formato ER. In questo modo, è possibile vedere come i diversi modelli vengono riempiti in fase di esecuzione. Se disponi di modelli che non sono selezionati in alcun elemento **Excel\\File**, la progettazione del formato ER avvisa che quei modelli verranno eliminati dalla versione modificabile del componente del formato ER quando il suo stato viene modificato da **Bozza** a **Completato**.
 
 I passaggi seguenti mostrano come potrebbe verificarsi questo problema.
 

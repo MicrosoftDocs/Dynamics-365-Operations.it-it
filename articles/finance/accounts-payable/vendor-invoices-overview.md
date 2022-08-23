@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b88390085d86956c38c0fc167395509d0c54f860
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 565e45a1c396b9144b4a6437056a0040b2fbde1d
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894173"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9228753"
 ---
 # <a name="vendor-invoices-overview"></a>Panoramica delle fatture fornitore
 
@@ -71,10 +71,10 @@ L'organizzazione può utilizzare flussi di lavoro per gestire il processo di rev
 
 Di seguito sono riportati diversi modi per impedire che una fattura venga inviata a un flusso di lavoro.
 
-- **Il totale della fattura e il totale registrato non sono uguali.** La persona che ha inviato la fattura riceverà un avviso che i totali non sono uguali. L'avviso offre l'opportunità di correggere i saldi prima di inviare nuovamente la fattura al flusso di lavoro. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando il totale della fattura e il totale della fattura registrata non sono uguali** nella pagina **Gestione funzionalità** è attivato. 
-- **La fattura contiene addebiti non allocati.** La persona che ha inviato la fattura riceverà un avviso che la fattura contiene addebiti non allocati in modo da poter correggere la fattura prima di inviarla nuovamente al flusso di lavoro. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando sono presenti addebiti non allocati in una fattura fornitore** nella pagina **Gestione funzionalità** è attivato.
-- **La fattura contiene lo stesso numero di fattura di un'altra fattura registrata.** La persona che ha inviato la fattura riceverà un messaggio che indica che è stata trovata una fattura con un numero duplicato. Il numero duplicato può essere corretto prima di inviare nuovamente la fattura al flusso di lavoro. Questo avviso viene visualizzato quando il parametro **Verifica il numero di fattura utilizzato** in Contabilità fornitori è impostato su **Rifiuta duplicati**. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando il numero di fattura esiste già in una fattura registrata e il sistema non è impostato per accettare numeri di fattura duplicati** nella pagina **Gestione funzionalità** è attivato.
-- **La fattura contiene una riga in cui la quantità della fattura è inferiore alla quantità di entrata prodotti abbinata.** La persona che invia la fattura o tenta di effettuare la registrazione riceverà un messaggio indicante che le quantità non sono uguali. Questo messaggi offre l'opportunità di correggere i valori prima di inviare nuovamente la fattura al flusso di lavoro. Questa funzione è disponibile se il parametro **Blocca la registrazione e l'invio di fatture fornitore al flusso di lavoro** nella pagina **Gestione funzionalità** è attivata e il parametro **Blocca la pubblicazione e l'invio al flusso di lavoro** nella pagina **Parametri di contabilità fornitori** è attivata.
+- **Il totale della fattura e il totale registrato non sono uguali.** L'utente che ha inviato la fattura riceverà un avviso indicante che i totali non sono uguali. Questo avviso fornisce all'utente l'opportunità di correggere i saldi prima di inviare nuovamente la fattura al sistema del flusso di lavoro. Questa funzionalità è disponibile se il parametro **Invio al flusso di lavoro non consentito se il totale della fattura e il totale della fattura registrata non coincidono** nella pagina **Gestione funzionalità** e il parametro **Opzione flusso di lavoro quando il totale della fattura e il totale registrato non sono uguali** nella pagina **Parametri contabilità fornitori** sono attivati. 
+- **La fattura contiene addebiti non allocati.** L'utente che ha inviato la fattura riceverà un avviso indicante che la fattura contiene addebiti non allocati. In tal modo, l'utente può correggere la fattura prima di inviarla nuovamente al sistema di flusso di lavoro. Questa funzionalità è disponibile se il parametro **Impedisci invio al flusso di lavoro quando in una fattura fornitore sono presenti addebiti non allocati** nella pagina **Gestione funzionalità** e il parametro **Opzione flusso di lavoro quando sono presenti addebiti non allocati** nella pagina **Parametri contabilità fornitori** sono attivati.
+- **La fattura contiene lo stesso numero di fattura di un'altra fattura registrata.** L'utente che ha inviato la fattura riceverà un avviso indicante che è stata trovata una fattura con un numero duplicato. L'utente può correggere il numero duplicato prima di inviare nuovamente la fattura al sistema di flusso di lavoro. L'avviso viene visualizzato se il parametro **Verifica il numero di fattura utilizzato** in Contabilità fornitori è impostato su **Rifiuta duplicati**. Questa funzione è disponibile se il parametro **Proibisci l'invio al flusso di lavoro quando il numero di fattura esiste già in una fattura registrata e il sistema non è impostato per accettare numeri di fattura duplicati** nella pagina **Gestione funzionalità** è attivato.
+- **La fattura contiene una riga in cui la quantità della fattura è inferiore alla quantità di entrata prodotti abbinata.** L'utente che invia la fattura o tenta di registrarla riceverà un messaggio indicante che le quantità non sono uguali. Questo messaggio fornisce all'utente l'opportunità di correggere i valori prima di inviare nuovamente la fattura al sistema del flusso di lavoro. Questa funzionalità è disponibile se il parametro **Blocca registrazione e invio delle fatture fornitore al flusso di lavoro** nella pagina **Gestione funzionalità** e il parametro **Blocca registrazione e invio al flusso di lavoro** nella pagina **Parametri contabilità fornitori** sono attivati.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Abbinamento delle fatture fornitore con le entrate prodotti
 
@@ -142,7 +142,7 @@ Per ogni transazione, il report include i seguenti dettagli:
 Quando generi il report **Transazioni fornitore aperte**, sono disponibili i seguenti parametri predefiniti. È possibile utilizzarli per filtrare i dati che verranno inclusi nel report.
 
 - **Escludi liquidazione futura** – Selezionare questa casella di controllo per escludere le transazioni liquidate dopo la data immessa nel campo **Transazioni aperte per**.
-- **Transazioni aperte per** – Immettere una data per includere le transazioni aperte a partire da tale data. Se non inserisci una data, questo campo è impostato sulla data massima. (La data massima è l'ultima data accettata dal sistema, 31 dicembre 2154.) Per impostazione predefinita, alla successiva esecuzione del report, in questo campo verrà impostata l'ultima data inserita.
+- **Transazioni aperte per** – Immettere una data per includere le transazioni aperte a partire da tale data. Se non inserisci una data, questo campo è impostato sulla data massima (la data massima è l'ultima data accettata dal sistema, ovvero 31 dicembre 2154). Per impostazione predefinita, alla successiva esecuzione del report, questo campo verrà impostato sull'ultima data immessa.
 
 Puoi usare i filtri sotto il campo **Record da includere** per limitare ulteriormente i dati della transazione inclusi nel report.
 

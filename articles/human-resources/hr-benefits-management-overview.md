@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f008c273a3088353c33ae8c4b0b3cbc6b274fbcf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 261d71e955e4cb1a4a461d59725c631248e10b17
+ms.sourcegitcommit: e0905a3af85d8cdc24a22e0c041cb3a391c036cb
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901149"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227899"
 ---
 # <a name="benefits-management-overview"></a>Panoramica di gestione dei benefit
 
@@ -147,6 +147,16 @@ Prima di poter elaborare gli eventi reali, è necessario aver eseguito l'iscrizi
 - [Elaborare gli eventi reali](hr-benefits-process-life-events.md)
 - [Elaborare le modifiche agli eventi reali](hr-benefits-process-life-event-changes.md)
 - [Elaborare l'idoneità degli eventi reali](hr-benefits-process-life-event-eligibility.md)
+
+Dopo il completamento dell'elaborazione dell'evento di vita e finché il periodo di iscrizione all'evento di vita è aperto, i dipendenti possono apportare modifiche alle opzioni del piano interessate dall'evento di vita. Gli amministratori possono apportare le modifiche per conto dei dipendenti. Al termine del periodo di iscrizione e se nessun tipo di piano non confermato è correlato alla transazione dell'evento di vita, la transazione viene chiusa.
+
+Tutti i piani interessati dall'evento di vita devono essere selezionati o annullati e quindi confermati. Se un piano non viene selezionato, non viene annullato e quindi non viene confermato, la transazione dell'evento di vita non viene chiusa.
+
+Gli amministratori possono chiudere manualmente la transazione di un evento di vita selezionandola e quindi selezionando **Chiudi**. Se nella transazione sono presenti piani non confermati e un amministratore desidera chiuderla, la chiusura dell'evento di vita potrebbe limitare le modifiche a tali piani.
+
+Gli eventi di vita chiusi non possono essere eliminati.
+
+Gli amministratori possono riaprire la transazione di un evento di vita selezionandola e quindi selezionando **Riapri**.
 
 ## <a name="rate-updates-optional"></a>Aggiornamenti tariffari (facoltativo)
 

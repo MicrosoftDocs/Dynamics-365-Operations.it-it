@@ -10,28 +10,35 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4bd6042f9dd33ba15773b251911e965cb870c5aa
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8865123"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219969"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolleranza di ritardo (giorni negativi)
 
 [!include [banner](../../includes/banner.md)]
 
-La funzionalità di tolleranza al ritardo consente a Ottimizzazione pianificazione di considerare il valore **Giorni negativi** impostato per i gruppi di copertura. Viene utilizzata per estendere il periodo di tolleranza di ritardo applicato durante la pianificazione generale. In questo modo, è possibile evitare di creare nuovi ordini di fornitura se la fornitura esistente è in grado di coprire la domanda con un breve ritardo. Lo scopo della funzionalità è determinare se ha senso creare un nuovo ordine di fornitura per una determinata domanda.
+La funzionalità di tolleranza di ritardo consente a Ottimizzazione pianificazione di considerare il valore **Giorni negativi** impostato per i gruppi di copertura, la copertura degli articoli e/o i piani generali. Viene utilizzata per estendere il periodo di tolleranza di ritardo applicato durante la pianificazione generale. In questo modo, è possibile evitare di creare nuovi ordini di fornitura se la fornitura esistente è in grado di coprire la domanda con un breve ritardo. Lo scopo della funzionalità è determinare se ha senso creare un nuovo ordine di fornitura per una determinata domanda.
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Attiva la funzionalità nel tuo sistema
 
-Per rendere disponibile la funzionalità di tolleranza di ritardo nel sistema, andare a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Giorni negativi per l'ottimizzazione della pianificazione*.
+Per rendere disponibile la funzionalità di tolleranza di ritardo nel sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva le seguenti funzionalità:
+
+- *Giorni negativi per l'ottimizzazione della pianificazione*: questa funzionalità abilita le impostazioni dei giorni negativi per i gruppi di copertura e la copertura degli articoli.
+- *Automazione dell'offerta Produzione su ordine*: questa funzionalità abilita le impostazioni dei giorni negativi per i piani generali (per ulteriori informazioni, vedi [Automazione dell'offerta Produzione su ordine](../make-to-order-supply-automation.md)).
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Tolleranza di ritardo nell'ottimizzazione della pianificazione
 
-La tolleranza di ritardo rappresenta il numero di giorni oltre il lead time che si è disposti ad aspettare prima di ordinare un nuovo rifornimento quando la fornitura esistente è già pianificata. La tolleranza al ritardo viene definita utilizzando i giorni di calendario, non i giorni lavorativi.
+La tolleranza di ritardo rappresenta il numero di giorni oltre il lead time che si è disposti ad aspettare prima di ordinare un nuovo rifornimento quando la fornitura esistente è già pianificata. La tolleranza di ritardo viene definita utilizzando i giorni di calendario, non i giorni lavorativi.
 
-Al momento della pianificazione generale, quando il sistema calcola la tolleranza di ritardo, considera l'impostazione **Giorni negativi**. È possibile impostare il valore **Giorni negativi** nella pagina **Gruppi di copertura** o nella pagina **Copertura articoli**.
+Al momento della pianificazione generale, quando il sistema calcola la tolleranza di ritardo, considera l'impostazione **Giorni negativi**. Puoi impostare il valore **Giorni negativi** nella pagina **Gruppi di copertura**, **Copertura articoli** o **Piani generali**. Se i giorni negativi vengono assegnati a più livelli, il sistema applica la seguente gerarchia per decidere quale impostazione utilizzare:
+
+- Se i giorni negativi sono abilitati nella pagina **Piani generali**, tale impostazione ha la precedenza su tutte le altre impostazioni dei giorni negativi quando viene eseguito il piano.
+- Se i giorni negativi sono configurati nella pagina **Copertura articoli**, tale impostazione ha la precedenza sull'impostazione del gruppo di copertura.
+- I giorni negativi configurati nella pagina **Gruppi di copertura** si applicano solo se non sono stati configurati giorni negativi per un articolo o un piano pertinente.
 
 Il sistema collega il calcolo della tolleranza di ritardo alla *prima data di rifornimento*, che equivale alla data corrente più il lead time. La tolleranza di ritardo viene calcolata utilizzando la seguente formula, dove *max()* trova il maggiore tra due valori:
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 388066b9c81ecb63ac1f81b70dc4b168f3f4a71d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888327"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9218620"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidare le spedizioni utilizzando il workbench di consolidamento delle spedizioni
 
@@ -41,7 +41,7 @@ Prima di poter usare la funzionalità *Consolidamento spedizione manuale*, devi 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Consolidamento spedizione manuale*
 
-Come menzionato in [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md), devi attivare anche la funzionalità *Consolida spedizione* prima di poter creare criteri. Tuttavia, dovresti già aver completato questo passaggio.
+Devi anche attivare la funzionalità *Consolida spedizione* prima di creare i criteri. Per ulteriori informazioni, vedi [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Crea gli ordini cliente per questo scenario
 

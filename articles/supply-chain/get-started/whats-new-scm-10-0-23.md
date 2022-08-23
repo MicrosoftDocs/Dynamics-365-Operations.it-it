@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: ded645ebaea1230b68525c247ee91e3893211774
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 1b45cc2ba26f60ab444edca6c513c581e8332a2a
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124530"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9219126"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10023-january-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.23 (gennaio 2022)
 
@@ -55,7 +55,7 @@ Se vuoi attivare o disattivare una di queste funzioni, devi farlo in [gestione f
 | Gestione articoli e magazzino | (Russia) Utilizza le traduzioni nella lingua locale nei moduli primari specifici del paese o dell'area geografica in Gestione inventario | Per le localizzazioni russe di Supply Chain Management, la funzionalità consente di utilizzare le traduzioni russe per nomi di prodotti/articoli e unità di misura negli stampati di inventario specifici per la Russia: elenco di conteggio (INV-3), elenco di conteggio (INV-5) ed elenco di conteggio (INV-6). |
 | Pianificazione generale | Servizio Azure Machine Learning per la previsione della domanda | Questa funzionalità consente al servizio Azure Machine Learning di generare previsioni della domanda in base ai dati storici. Per ulteriori informazioni, vedi [Impostazione della previsione della domanda](../master-planning/demand-forecasting-setup.md). |
 | Approvvigionamento | Pulisci storico aggiornamento ordini fornitore | Questa funzione consente di ripulire i record storici temporanei relativi agli aggiornamenti degli ordini fornitore. Aggiunge un nuovo pulsante chiamato **Pulisci storico aggiornamento acquisti** al riquadro azioni della pagina **Tutti gli ordini fornitore**. Questo funzionalità è abilitata per impostazione predefinita. |
-| Controllo produzione | (Anteprima) Prelievo automatico di materiali pronti per il magazzino per le distinte di prelievo registrate automaticamente | Questa funzionalità consente di prelevare automaticamente e di risolvere le dimensioni inventariali per giornali di distinte di prelievo registrati automaticamente, derivati e di tipo backflush. |
+| Controllo produzione | Prelievo automatico di materiali pronti per il magazzino per le distinte di prelievo registrate automaticamente | Questa funzionalità consente di prelevare automaticamente e di risolvere le dimensioni inventariali per giornali di distinte di prelievo registrati automaticamente, derivati e di tipo backflush. |
 | Controllo produzione | Convalida la scadenza delle materie prime rispetto alla data di consumo pianificata | Questa funzionalità cambia il modo in cui le date di scadenza del batch vengono convalidate quando si prenota un batch di materie prime da utilizzare durante la produzione. Quando questa funzionalità è abilitata, la data di scadenza del batch viene convalidata rispetto alla data di consumo pianificata (la data delle materie prime), come stabilito nella riga DBA di produzione o nella riga della formula dell'ordine batch. Quando questa funzionalità è disabilitata, la data di scadenza del batch viene convalidata rispetto alla data di consegna pianificata dell'ordine di produzione o batch (come in precedenza). |
 | Vendite e marketing | Pulisci storico aggiornamento vendite in base alla validità | Questa funzionalità consente di impostare l'età massima dei record da conservare durante l'esecuzione dell'attività periodica **Pulizia dello storico aggiornamenti delle vendite**. I record più vecchi verranno eliminati. Ciò è utile quando si imposta l'attività per l'esecuzione periodica perché l'età viene sempre calcolata rispetto alla data di esecuzione dell'attività. Senza questa funzionalità, puoi solo impostare una data specifica per i record più vecchi da conservare. Per ulteriori informazioni, vedi [Programmare la pulizia dei dati dello storico vendite](../sales-marketing/sales-update-history-cleanup-performance-improvements.md). |
 | Vendite e marketing | Migliora le prestazioni del report "Primi 100" clienti | Questa funzione migliora le prestazioni del report **I primi 100** clienti eseguendo sempre il report su tutti i clienti (che è l'uso previsto) invece che tramite query personalizzate. Quando questa funzione è abilitata, tutte le impostazioni **Record da includere** sono disabilitate nella finestra del report **I primi 100**. |

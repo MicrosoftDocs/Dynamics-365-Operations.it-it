@@ -1,24 +1,26 @@
 ---
 title: Sopprimere i controlli del contenuto di Word nei report generati
 description: In questo articolo viene descritto come configurare un formato di creazione di report elettronici (ER) per generare report come file Microsoft Word in cui i controlli del contenuto sono stati eliminati.
-author: NickSelin
+author: kfend
 ms.date: 02/11/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: e11b697b78c89a1758fa9e81c901bd29fe281539
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form:
+- ERWorkspace, ERSolutionTable, EROperationDesigner
+- LedgerJournalTable, LedgerJournalTransVendPaym
+ms.openlocfilehash: 8787d43a0c453d49dd1d0efcbb7b5d276721be9e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8882115"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9267316"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Sopprimere i controlli del contenuto di Word nei report generati
 
@@ -42,7 +44,7 @@ Per effettuare questi passaggi, è necessario completare quelli nelle seguenti g
 Dopo aver completato i passaggi di queste guide attività, vengono preparati i seguenti elementi:
 
 - Un formato ER **Report foglio di lavoro di esempio** configurato per generare un documento in formato Word
-- Una versione [bozza](general-electronic-reporting.md#component-versioning) del formato ER **Report del foglio di lavoro di esempio** contrassegnato come **Eseguibile**
+- Una versione bozza del formato ER **Report foglio di lavoro di esempio** contrassegnato come **Eseguibile**
 - Un metodo di pagamento **Elettronico** configurato per utilizzare il formato ER **Report del foglio di lavoro di esempio** per l'elaborazione dei pagamenti del fornitore
 
 È inoltre necessario scaricare e salvare il seguente modello per il report di esempio:

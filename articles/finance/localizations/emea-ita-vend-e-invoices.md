@@ -1,25 +1,25 @@
 ---
 title: Fatture elettroniche del fornitore
 description: Questo articolo spiega come configurare e inviare fatture elettroniche del fornitore in Italia.
-author: ikondo
+author: mrolecki
 ms.date: 12/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 3984823
 ms.search.region: Italy
-ms.author: ilyako
+ms.author: mrolecki
 ms.search.validFrom: 2021-12-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0261da87a746f181592a869a3377f165a49e8b80
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 3984823
+ms.search.form: ''
+ms.openlocfilehash: acbb6ab05e6afe79bb28cb287a58348b99755d18
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8868292"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9274590"
 ---
 # <a name="vendor-electronic-invoices"></a>Fatture elettroniche del fornitore
 

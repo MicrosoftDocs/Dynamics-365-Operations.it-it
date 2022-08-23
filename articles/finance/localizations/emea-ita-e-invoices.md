@@ -1,21 +1,21 @@
 ---
 title: Fatture elettroniche dei clienti
 description: Questo articolo fornisce informazioni sulla gestione delle fatture elettroniche dei clienti per l'Italia.
-author: v-oloski
+author: AdamTrukawka
 ms.date: 05/06/2021
 ms.topic: article
-ms.: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: ''
 ms.search.region: Italy
-ms.author: v-oloski
-ms.openlocfilehash: 5e49944923f6f83731ef4e0c8d53ede6959d8005
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.author: atrukawk
+ms.: ''
+ms.openlocfilehash: 006d45097bfa6d025138cba06148de1c22a2736e
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858354"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9273802"
 ---
 # <a name="customer-electronic-invoices"></a>Fatture elettroniche dei clienti
 

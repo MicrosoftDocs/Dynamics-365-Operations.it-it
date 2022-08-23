@@ -1,28 +1,26 @@
 ---
 title: Progettare una nuova soluzione ER per stampare un report personalizzato
 description: Questo articolo spiega come progettare una soluzione di reporting elettronico (ER) per stampare un report personalizzato.
-author: NickSelin
+author: kfend
 ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom:
-- "220314"
-- intro-internal
-ms.assetid: ''
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7194fa9243362d4eb61d6ce706e30a66c9cf3217
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314,  ""intro-internal
+ms.assetid: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
+ms.openlocfilehash: 114de2e7a3e40f45e5e46ddcb29e9fc626f89ad6
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847490"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9281784"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Progettare una nuova soluzione ER per stampare un report personalizzato
 
@@ -289,7 +287,7 @@ Lo stato della versione 1 di questa configurazione viene modificato da **Bozza**
 
 ![Versioni della configurazione modificabile nella pagina Configurazioni.](./media/er-quick-start1-model-configuration.png)
 
-Per ulteriori informazioni sul controllo delle versioni per le configurazioni ER, vedere [Panoramica dei report elettronici](general-electronic-reporting.md#component-versioning).
+Per ulteriori informazioni sul controllo delle versioni per le configurazioni ER, vedere [Panoramica dei report elettronici](general-electronic-reporting.md).
 
 > [!NOTE]
 > Il modello di dati configurato è la rappresentazione astratta del dominio aziendale **Gestione questionari** e non contiene relazioni con elementi specifici di Microsoft Dynamics 365 Finance.

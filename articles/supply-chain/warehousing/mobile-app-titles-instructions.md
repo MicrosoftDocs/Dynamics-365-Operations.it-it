@@ -4,19 +4,19 @@ description: Questo articolo descrive come creare e mostrare istruzioni personal
 author: Mirzaab
 ms.date: 08/11/2021
 ms.topic: article
-ms.search.form: ''
+ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 289a3735133919ae7dbad05c40ba9ccf0e8f57ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
+ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895498"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "9220151"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management
 
@@ -28,12 +28,9 @@ Questo articolo descrive come creare e mostrare istruzioni personalizzate per og
 - **Aumenta i lavoratori più velocemente facendo loro seguire semplici istruzioni per ogni fase del lavoro.** Ogni passo di un flusso fornisce istruzioni che permettono ai lavoratori di prima linea di capire il compito.
 - **Fornite istruzioni che corrispondono ai vostri processi.** Scrivete le vostre istruzioni per adattarle ai vostri processi aziendali e di magazzino. Per esempio, puoi adattare la terminologia al tuo spazio fisico e alle abbreviazioni locali.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Attivare la funzione di istruzioni passo dopo passo dell'app Warehouse
+## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Attivare la funzionalità Istruzioni per i passaggi dell'app di magazzino
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Gestione Magazzino*
-- **Nome della funzione:** *Istruzioni per il passo dell'app del magazzino*
+Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Istruzioni per i passaggi dell'app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Titoli dei passi e istruzioni dei passi nell'app
 
@@ -58,7 +55,7 @@ L'istruzione del passo viene mostrata automaticamente quando un passo viene aper
 
 ## <a name="load-the-default-setup"></a>Caricare l'impostazione predefinita
 
-Quando attivi per la prima volta la funzione di *istruzioni a passi dell'app Warehouse* , il tuo sistema non conterrà alcun titolo o istruzione a passi personalizzabile. Pertanto, la prima cosa che dovreste fare è caricare il setup di default. L'impostazione predefinita fornisce testi per tutti gli ID dei passi disponibili in ogni lingua supportata. Per caricare l'impostazione predefinita, seguite questi passi.
+Quando attivi per la prima volta la funzionalità *Istruzioni per i passaggi dell'app di magazzino*, il tuo sistema non conterrà alcun titolo o istruzione a passi personalizzabile. Pertanto, la prima cosa che dovreste fare è caricare il setup di default. L'impostazione predefinita fornisce testi per tutti gli ID dei passi disponibili in ogni lingua supportata. Per caricare l'impostazione predefinita, seguite questi passi.
 
 1. Vai alla **gestione del magazzino \> Impostazione \> Dispositivo mobile \> Passi per il dispositivo mobile**.
 1. Nel riquadro azioni, selezionare **Crea impostazione predefinita**. La pagina viene riempita con i passi standard.

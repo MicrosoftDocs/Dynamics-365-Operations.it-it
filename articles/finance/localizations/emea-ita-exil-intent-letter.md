@@ -1,24 +1,24 @@
 ---
 title: Lettere di intento - Fatturazione di esportatori abituali
 description: Questo articolo fornisce informazioni su come impostare lettere di intento e su come utilizzarle quando si emettono fatture.
-author: ilkond
+author: mrolecki
 ms.date: 12/28/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Italy
-ms.author: ilyako
+ms.author: mrolecki
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: b1c7b957f328813000f569cac6e6bf10e2303ce0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.search.form: ''
+ms.openlocfilehash: 9583a009452b692ece88a6bc8c35a62012da3c4d
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858339"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9276503"
 ---
 # <a name="intent-letters---invoicing-of-usual-exporters"></a>Lettere di intento - Fatturazione di esportatori abituali
 

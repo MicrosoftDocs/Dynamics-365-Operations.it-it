@@ -1,26 +1,26 @@
 ---
 title: Progettare un formato ER per impaginare i documenti generati in Excel
 description: In questo articolo viene illustrato come progettare un formato di report elettronico (ER) per impaginare un documento generato in Microsoft Excel.
-author: NickSelin
+author: kfend
 ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
-ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
-ms.author: nselin
+ms.author: filatovm
 ms.search.validFrom: 2021-08-01
 ms.dyn365.ops.version: Version 10.0.22
-ms.openlocfilehash: e8edc8bba62f74b4f81d423cf75b5fb87c01e43f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.custom: 220314
+ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
+ms.search.form: EROperationDesigner
+ms.openlocfilehash: e4a34dffda9e9b95f5d6c7ee382723663817ec6b
+ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909280"
+ms.lasthandoff: 08/12/2022
+ms.locfileid: "9285003"
 ---
 # <a name="design-an-er-format-to-paginate-generated-documents-in-excel"></a>Progettare un formato ER per impaginare i documenti generati in Excel
 
@@ -58,11 +58,11 @@ In questo scenario, sei il rappresentante di Litware, Inc., attualmente selezion
 5. Nel campo **Nome**, immettere **Report Intrastat Litware**.
 6. Seleziona **Crea configurazione** per creare il nuovo formato.
 
-Viene creata la versione 1.9.1 della configurazione del formato ER **Report Intrastat Litware**. Questa versione ha uno [stato](general-electronic-reporting.md#component-versioning) di **Bozza** e può essere modificata. Il contenuto corrente del tuo formato ER personalizzato corrisponde al contenuto del formato fornito da Microsoft.
+Viene creata la versione 1.9.1 della configurazione del formato ER **Report Intrastat Litware**. Questa versione ha lo stato **Bozza** e può essere modificata. Il contenuto corrente del tuo formato ER personalizzato corrisponde al contenuto del formato fornito da Microsoft.
 
 ### <a name="make-the-custom-format-runnable"></a>Contrassegnare il formato personalizzato come eseguibile
 
-Ora che la prima versione del tuo formato personalizzato è stata creata e ha uno stato di **Bozza**, puoi eseguire il formato a scopo di test. Per eseguire il report, elaborare un pagamento fornitore utilizzando il metodo di pagamento che fa riferimento al formato ER personalizzato. Per impostazione predefinita, quando chiami un formato ER dall'applicazione, solo le versioni che hanno uno stato di **Completata** o **Condivisa** vengono [considerate](general-electronic-reporting.md#component-versioning). Questo comportamento consente di impedire l'utilizzo di formati ER con progettazioni incomplete. Tuttavia, per le esecuzioni di test, è possibile forzare l'applicazione a utilizzare la versione del formato ER con uno stato di **Bozza**. In questo modo, è possibile regolare la versione del formato corrente se sono necessarie modifiche. Per ulteriori informazioni, vedi [Applicabilità](electronic-reporting-destinations.md#applicability).
+Ora che la prima versione del tuo formato personalizzato è stata creata e ha uno stato di **Bozza**, puoi eseguire il formato a scopo di test. Per eseguire il report, elaborare un pagamento fornitore utilizzando il metodo di pagamento che fa riferimento al formato ER personalizzato. Per impostazione predefinita, quando chiami un formato ER dall'applicazione, solo le versioni che hanno lo stato **Completata** o **Condivisa** vengono prese in considerazione. Questo comportamento consente di impedire l'utilizzo di formati ER con progettazioni incomplete. Tuttavia, per le esecuzioni di test, è possibile forzare l'applicazione a utilizzare la versione del formato ER con uno stato di **Bozza**. In questo modo, è possibile regolare la versione del formato corrente se sono necessarie modifiche. Per ulteriori informazioni, vedi [Applicabilità](electronic-reporting-destinations.md#applicability).
 
 Per utilizzare la versione bozza di un formato ER, è necessario contrassegnare esplicitamente il formato ER.
 
