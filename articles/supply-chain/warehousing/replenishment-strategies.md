@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 3b4d691bbcf88cc73d10e3bb401710508ec641e1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1245d07436a9b57ee4f0402687e7a4367668cbfa
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893151"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336277"
 ---
 # <a name="replenishment-strategies"></a>Strategie di rifornimento
 
@@ -36,7 +36,7 @@ L'alta stagione è un esempio di una situazione in cui la strategia *Capacità m
 
 ## <a name="turn-on-the-replenish-to-max-based-on-stocking-limits-feature"></a>Attivare la funzione Rifornisci al massimo in base ai limiti di stoccaggio
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Per poter utilizzare la funzionalità, è necessario attivarla per il sistema. Gli amministratori possono utilizzare l'area di lavoro della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzione:** *Rifornisci al massimo in base ai limiti di stoccaggio*

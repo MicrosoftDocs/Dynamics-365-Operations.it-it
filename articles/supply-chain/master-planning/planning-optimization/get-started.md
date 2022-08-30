@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e853c8a482b8fd0b92c9861fe022c056915ab405
-ms.sourcegitcommit: 6781fc47606b266873385b901c302819ab211b82
+ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112192"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295931"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione della pianificazione
 
@@ -29,7 +29,7 @@ ms.locfileid: "9112192"
 
 Come [annunciato in precedenza](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), l'ottimizzazione di pianificazione sostituirà il motore di pianificazione generale integrato esistente.
 
-Se attualmente utilizzi il motore di pianificazione generale integrato, dovresti già iniziare a pianificare la migrazione all'ottimizzazione di pianificazione. È importante avviare subito il processo di migrazione perché la deprecazione potrebbe impattare le operazioni. Per evitare problemi dell'ultimo minuto quando viene applicata la deprecazione, ti consigliamo vivamente di completare la migrazione prima del 1° dicembre 2020. 
+Se attualmente utilizzi il motore di pianificazione generale integrato, dovresti già iniziare a pianificare la migrazione all'ottimizzazione di pianificazione. È importante iniziare subito perché altrimenti le tue operazioni potrebbero risentirne quando viene applicata la deprecazione (sebbene l'applicazione non sia attualmente pianificata). Ti consigliamo vivamente di completare la migrazione non appena Ottimizzazione pianificazione supporta le funzionalità necessarie in modo da poter iniziare a usufruire dei numerosi miglioramenti delle prestazioni e altre nuove funzionalità fornite dal nuovo servizio.
 
 La funzionalità di ottimizzazione di pianificazione non supporta attualmente tutte le funzionalità disponibili nel motore di pianificazione incorporato in Supply Chain Management. Pertanto, è importante valutare se il set di funzionalità attualmente disponibile nell'ottimizzazione di pianificazione soddisfa i requisiti. La funzionalità di ottimizzazione di pianificazione non è attualmente attivata per impostazione predefinita in Dynamics Lifecycle Services (LCS), quindi hai la possibilità di eseguire una tua valutazione prima che la funzionalità venga attivata.
 

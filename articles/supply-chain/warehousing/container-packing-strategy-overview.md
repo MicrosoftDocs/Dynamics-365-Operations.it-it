@@ -2,7 +2,7 @@
 title: Strategie di imballaggio dei contenitori
 description: Questo articolo descrive le differenze tra le strategie di imballaggio dei contenitori e fornisce esempi.
 author: GalynaFedorova
-ms.date: 06/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 46b4a007dafbd99e5f9b7231c07a148f8101d2a4
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5a9a0066abaa76294faebcb15d5091ba36e8a60d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8862368"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335767"
 ---
 # <a name="container-packing-strategies"></a>Strategie di imballaggio dei contenitori
 
@@ -77,7 +77,7 @@ Questo scenario mostra come è possibile ridurre il numero di contenitori valuta
 
 #### <a name="turn-on-the-consolidate-shipments-feature-in-your-system"></a>Attiva la funzione Consolida spedizioni nel tuo sistema
 
-Questo scenario utilizza la funzionalità *Consolida spedizioni*. Se quella funzione non è già disponibile nel tuo sistema, devi attivarla usando [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Questo scenario utilizza la funzionalità *Consolida spedizioni*. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Consolida spedizioni* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 #### <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
@@ -245,11 +245,11 @@ Per impostare un modello lavoro, effettua le operazioni seguenti.
 1. Seleziona la casella di controllo **Raggruppa per questo campo** per ogni riga della pagina **Suddivisioni intestazione lavoro** (**ID spedizione**, **Numero d'ordine**, e **ID contenitore**).
 1. Chiudere la pagina.
 
-### <a name="set-up-shipment-consolidation-policies"></a>Impostare i criteri consolidamento spedizione
+### <a name="set-up-shipment-consolidation-policies"></a>Impostare i criteri di consolidamento delle spedizioni
 
 Per configurare un criterio di consolidamento spedizione, segui questi passaggi.
 
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**.
 1. Nel riquadro dell'elenco, imposta il campo **Tipo di criterio** su *Ordini cliente*.
 1. Seleziona il criterio **predefinito** nell'elenco.
 1. Nel riquadro azioni, seleziona **Modifica**.

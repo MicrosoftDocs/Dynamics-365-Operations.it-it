@@ -2,7 +2,7 @@
 title: Report per confrontare i prezzi degli articoli in magazzino
 description: Informazioni su come generare un report per confrontare i prezzi degli articoli in magazzino e quindi sfogliare e/o esportare il risultato.
 author: JennySong-SH
-ms.date: 01/30/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: yanansong
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c9e2ccbe613a4aab40a4f519bbb82a9175d46e72
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c6373679299b68413d75236ca8cc18ceba03e091
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846215"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334987"
 ---
 # <a name="compare-item-prices-storage-report"></a>Report per confrontare i prezzi degli articoli in magazzino
 
@@ -35,12 +35,9 @@ I risultati del report sono memorizzati nell'entità dati **Confronta prezzi art
 
 Il report per **confrontare i prezzi degli articoli in magazzino** è utile nei casi in cui l'output contiene molte righe. Ad esempio, l'output conterrà molte righe se nella versione di determinazione costi sono presenti più di 40.000 articoli con un prezzo in sospeso.
 
-## <a name="enable-compare-item-prices-storage"></a>Abilitare il confronto dei prezzi degli articoli in magazzino
+## <a name="turn-the-compare-item-prices-storage-feature-on-or-off"></a>Attivare o disattivare la funzionalità Archiviazione confronto prezzi articoli
 
-Prima di utilizzare questa funzionalità, è necessario abilitarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla se necessario. La funzione viene elencata come:
-
-- **Modulo** - Gestione costi
-- **Nome della funzione** - Confronto dei prezzi degli articoli in magazzino
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Archiviazione confronto prezzi articoli* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="generate-a-compare-item-prices-storage-report"></a>Generare un report in cui vengono confrontati i prezzi degli articoli in magazzino
 

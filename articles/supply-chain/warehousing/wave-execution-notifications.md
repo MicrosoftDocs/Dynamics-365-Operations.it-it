@@ -2,7 +2,7 @@
 title: Notifiche di esecuzione ciclo
 description: Questo articolo descrive le notifiche di esecuzione ciclo e spiega come configurarle.
 author: Mirzaab
-ms.date: 04/03/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 5c8fa259e51f024d19c1f2f7e84ed7edd0ddb7e1
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: a6a554965c11eea3b4fa53fe4dbc4bac04624026
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069030"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336577"
 ---
 # <a name="wave-execution-notifications"></a>Notifiche di esecuzione ciclo
 
@@ -32,7 +32,7 @@ Gli eventi aziendali si verificano quando vengono eseguiti i processi aziendali.
 
 ## <a name="turn-the-wave-execution-notifications-feature-on-or-off"></a>Attivare o disattivare la funzionalità Notifiche di esecuzione ciclo
 
-A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Notifiche di esecuzione ciclo* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Notifiche di esecuzione ciclo* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="scenario-send-wave-batch-execution-notifications-to-the-action-center"></a>Scenario: inviare notifiche di esecuzione batch ciclo al centro azioni
 

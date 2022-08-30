@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e020bd3973b8b56dd1e6f3e5bdc8cba32600f7f8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: af6dcb6d822ab14b0b4b881ca32626ea6eae4c28
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8909645"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334508"
 ---
 # <a name="put-to-wall---put-to-store"></a>Stoccaggio a parete - stoccaggio in magazzino
 
@@ -32,7 +32,7 @@ Questa funzionalità di magazzino è anche indicata con altri nomi, ad esempio "
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Attivare la funzionalità Ordinamento in uscita
 
-Prima di poter usare la funzionalità *Stoccaggio a parete - stoccaggio in magazzino*, è necessario attivare la funzionalità *Ordinamento in uscita* nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Prima di poter usare la funzionalità *Stoccaggio a parete - stoccaggio in magazzino*, è necessario attivare la funzionalità *Ordinamento in uscita* per il sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Ordinamento in uscita*

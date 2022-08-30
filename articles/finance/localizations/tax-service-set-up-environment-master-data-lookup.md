@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3642bb88d5b0570014513b64eef5fdab6d1ee9d3
-ms.sourcegitcommit: 5b721f6fc1ba4350b5bd0eae457f71d80246db42
+ms.openlocfilehash: 2f9d882340171173e5e503f8b5e3aa856e8544b0
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9181126"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306205"
 ---
 # <a name="enable-master-data-lookup-for-tax-calculation-configuration"></a>Abilitare la ricerca dei dati anagrafici per la configurazione del calcolo delle tasse 
 
@@ -108,7 +108,7 @@ Dataverse usa l'applicazione Azure AD creata per chiamare le app per la finanza 
     - **Provider**: imposta questo campo su **NonAAD**.
     - **E-mail**: immetti **integrazionedataverse** o un altro valore. (Il valore non deve necessariamente essere un account di posta elettronica valido.)
 
-3. Assegna all'utente il ruolo di sicurezza **Applicazione entità virtuale CDS**.
+3. Assegna all'utente il ruolo di sicurezza **App di integrazione entità virtuale Dataverse**.
 4. Rimuovi tutti gli altri ruoli, incluso **Utente di sistema**.
 5. Vai ad **Amministrazione del sistema** \> **Impostazione** \> **Applicazioni Azure Active Directory** per registrare Dataverse. 
 6. Aggiungi una riga, quindi, nel campo **ID client**, immetti il valore **ID applicazione (client)** annotato in precedenza.
@@ -199,17 +199,11 @@ Per ulteriori informazioni, vedi [Abilitare entità virtuali di Microsoft Datave
 
 ## <a name="set-up-the-connected-application-for-tax-calculation"></a><a name='set-up'></a>Impostare l'applicazione connessa per Calcolo imposte
 
-1. In RCS, apri l'area di lavoro **Gestione funzionalità** e abilita le seguenti funzionalità:
-
-    - Supporto origini dati Dataverse per creazione di report elettronici
-    - Supporto origini dati Dataverse per servizio imposte
-    - Funzionalità di globalizzazione
-
-2. Vai a **Creazione di report elettronici**, quindi, nella sezione **Collegamenti correlati**, seleziona **Applicazioni connesse**.
+1. Vai a **Creazione di report elettronici**, quindi, nella sezione **Collegamenti correlati**, seleziona **Applicazioni connesse**.
 
     [![Applicazioni connesse.](./media/tcs-dataverse-master-data-lookup-12.png)](./media/tcs-dataverse-master-data-lookup-12.png)
 
-3. Seleziona **Nuovo** per aggiungere un record e immetti le seguenti informazioni.
+2. Seleziona **Nuovo** per aggiungere un record e immetti le seguenti informazioni.
 
     - **Nome** - immetti un nome.
     - **Tipo**: seleziona **Dataverse**.
@@ -217,12 +211,18 @@ Per ulteriori informazioni, vedi [Abilitare entità virtuali di Microsoft Datave
     - **ID tenant**: immetti il tenant.
     - **URL personalizzato**: immetti l'URL Dataverse e aggiungi **/api/data/v9.1**.
 
-4. Seleziona **Verifica connessione**, quindi, nella finestra di dialogo visualizzata, seleziona **Fare clic qui per la connessione all'applicazione remota selezionata**.
+3. Seleziona **Verifica connessione**, quindi, nella finestra di dialogo, seleziona **Fare clic qui per la connessione all'applicazione remota selezionata**.
 
     [![Verifica della connessione.](./media/tcs-dataverse-master-data-lookup-13.png)](./media/tcs-dataverse-master-data-lookup-13.png)
-5. Assicurati che venga visualizzato un messaggio "Operazione riuscita" a indicare che la connessione è stata correttamente stabilita.
+4. Assicurati che venga visualizzato un messaggio "Operazione riuscita" a indicare che la connessione è stata correttamente stabilita.
 
     [![Messaggio di operazione riuscita.](./media/tcs-dataverse-master-data-lookup-14.png)](./media/tcs-dataverse-master-data-lookup-14.png)
+    
+5. In RCS, apri l'area di lavoro **Gestione funzionalità** e abilita le seguenti funzionalità:
+
+    - Funzionalità di globalizzazione
+    - Supporto origini dati Dataverse per creazione di report elettronici
+    - Supporto origini dati Dataverse per servizio imposte
 
 ## <a name="import-and-set-up-the-dataverse-model-mapping-configuration"></a><a name='import'></a>Importare e impostare la configurazione di mapping del modello Dataverse
 

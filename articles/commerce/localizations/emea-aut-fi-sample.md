@@ -2,27 +2,28 @@
 title: Esempio di integrazione del servizio di registrazione fiscale per l'Austria
 description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per l'Austria in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 08/17/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 7f4f1d796028330d2d655b1e13d3e36bbef95403
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: da4deb37b260ffa2a68e2a36aef01965cbf098b2
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287567"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313803"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-austria"></a>Esempio di integrazione del servizio di registrazione fiscale per l'Austria
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per l'Austria in Microsoft Dynamics 365 Commerce.
 
-Per soddisfare i requisiti fiscali locali per i registratori di cassa in Austria, la funzionalità Dynamics 365 Retail per l'Austria include un esempio di integrazione del point of sale (POS) con un servizio di registrazione fiscale esterno. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Si basa sulla soluzione [EFR (Registro Fiscale Elettronico)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) di [EFSTA](https://www.efsta.eu/at/) e consente la comunicazione con il servizio EFR tramite il protocollo HTTPS. Il servizio EFR deve essere ospitato sulla stazione hardware Retail o su una macchina separata a cui è possibile connettersi dalla stazione hardware. L'esempio viene fornito sotto forma di codice sorgente e fa parte del kit SDK.
+Per soddisfare i requisiti fiscali locali per i registratori di cassa in Austria, la funzionalità Dynamics 365 Retail per l'Austria include un esempio di integrazione del point of sale (POS) con un servizio di registrazione fiscale esterno. L'esempio estende la [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md). Si basa sulla soluzione [EFR (Registro Fiscale Elettronico)](https://www.efsta.eu/at/fiskalloesungen/oesterreich) di [EFSTA](https://www.efsta.eu/at/) e consente la comunicazione con il servizio EFR tramite il protocollo HTTPS. Il servizio EFR deve essere ospitato sulla stazione hardware Retail o su una macchina separata a cui è possibile connettersi dalla stazione hardware. L'esempio viene fornito sotto forma di codice sorgente e fa parte di Commerce SDK.
 
 Microsoft non rilascia hardware, software o documentazione di EFSTA. Per informazioni su come ottenere la soluzione EFR e utilizzarla, contatta [EFSTA](https://www.efsta.eu/at/kontakt).
 
@@ -103,6 +104,13 @@ Per utilizzare la funzionalità specifica per l'Austria, è necessario specifica
 
 È inoltre necessario specificare le seguenti impostazioni per l'Austria. Tieni presente che è necessario eseguire i processi di distribuzione appropriati dopo aver completato l'impostazione.
 
+### <a name="enable-features-for-austria"></a>Abilitare le funzionalità per l'Austria
+
+Devi abilitare le seguenti funzionalità nell'area di lavoro **Gestione funzionalità**:
+
+- (Austria) Abilita eventi di controllo aggiuntivi in POS
+- (Austria) Abilita informazioni aggiuntive nei rendiconti di fine giornata in POS
+
 ### <a name="set-up-vat-per-austrian-requirements"></a>Impostare l'IVA per i requisiti austriaci
 
 È necessario creare codici IVA, fasce IVA e fasce IVA articoli. È inoltre necessario impostare le informazioni sull'IVA per prodotti e servizi. Per ulteriori informazioni su come impostare e usare le funzionalità dell'IVA vedi [Panoramica dell'IVA](../../finance/general-ledger/indirect-taxes-overview.md).
@@ -128,7 +136,7 @@ Imposta i profili della funzionalità POS:
 
 È possibile configurare il testo della lingua e i campi personalizzati utilizzati nei formati di ricevuta POS. La società predefinita dell'utente che crea l'impostazione della ricevuta deve essere la stessa persona giuridica in cui viene creata l'impostazione del testo della lingua. In alternativa, i testi nella stessa lingua devono essere creati sia nella società predefinita dell'utente sia nella persona giuridica del negozio per cui è stata creata l'impostazione.
 
-Nella pagina **Testo lingua** aggiungi i record seguenti per le etichette dei campi personalizzati per i layout di ricevuta. Tieni presente che i valori **ID lingua**, **ID testo** e **Testo** visualizzati nella seguente tabella sono solo esempi. Puoi modificarli in base alle esigenze. Tuttavia, i valori **ID testo** utilizzati devono essere univoci e devono essere uguali o maggiori di 900001.
+Nella pagina **Testo lingua** aggiungi i record seguenti per le etichette dei campi personalizzati per i layout di ricevuta. Tieni presente che i valori **ID lingua**, **ID testo** e **Testo** visualizzati nella seguente tabella sono solo esempi. È possibile modificarli in base alle esigenze. Tuttavia, i valori **ID testo** utilizzati devono essere univoci e devono essere uguali o maggiori di 900001.
 
 Aggiungi le seguenti etichette POS alla sezione **POS** di **Testo in lingua** dalla tabella:
 
@@ -204,10 +212,10 @@ Per ulteriori informazioni sulle modalità di utilizzo dei formati di ricevute, 
 
 ## <a name="set-up-fiscal-integration-for-austria"></a>Impostare l'integrazione fiscale per l'Austria
 
-L'esempio di integrazione del servizio di registrazione fiscale per l'Austria si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e fa parte di Retail SDK. L'esempio si trova nella cartella **src\\FiscalIntegration\\Efr** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ad esempio, [l'esempio in release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). L'esempio [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) di un provider di documenti fiscali, che è un'estensione di Commerce Runtime (CRT) e un connettore fiscale, che è un'estensione di Commerce Hardware Station. Per ulteriori informazioni su come utilizzare Retail SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurare una pipeline di compilazione per SDK a pacchetti indipendenti](../dev-itpro/build-pipeline.md).
+L'esempio di integrazione del servizio di registrazione fiscale per l'Austria si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e fa parte di Commerce SDK. L'esempio si trova nella cartella **src\\FiscalIntegration\\Efr** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). L'[esempio](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) consiste di un provider di documenti fiscali, che è un'estensione di Commerce Runtime (CRT), e di un connettore fiscale, che è un'estensione di Commerce Hardware Station. Per ulteriori informazioni su come utilizzare Commerce SDK, vedi [Scaricare esempi di Commerce SDK e pacchetti di riferimento da GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md) e [Configurare una pipeline di compilazione per SDK a pacchetti indipendenti](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questo esempio di integrazione fiscale. È necessario utilizzare la versione precedente di Retail SDK su una macchina virtuale per sviluppatori (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione fiscale per l'Austria (legacy)](emea-aut-fi-sample-sdk.md). Il supporto per il nuovo modello di packaging ed estensione indipendente per gli esempi di integrazione fiscale è previsto per le versioni successive.
+> [!NOTE]
+> L'esempio di integrazione del servizio di registrazione fiscale per l'Austria è disponibile in Commerce SDK a partire dalla versione 10.0.29 di Commerce. In Commerce versione 10.0.28 o precedente, devi utilizzare la versione precedente di Retail SDK in una macchina virtuale per sviluppatori (VM) in Microsoft Dynamics Lifecycle Services (LCS). Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione fiscale per l'Austria (legacy)](emea-aut-fi-sample-sdk.md).
 
 Completare la procedura di configurazione dell'integrazione fiscale come descritto in [Impostare l'integrazione fiscale per canali di Commerce](setting-up-fiscal-integration-for-retail-channel.md):
 
@@ -223,18 +231,20 @@ Per abilitare il processo di registrazione, segui questi passaggi per configurar
 1. Scarica i file di configurazione per il provider di documenti fiscali e il connettore fiscale:
 
     1. Apri il repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/).
-    1. Seleziona una versione del ramo di rilascio corretta in base alla versione dell'SDK/dell'applicazione (ad esempio, **[release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33)**).
+    1. Seleziona una versione del ramo di rilascio corretta in base alla versione dell'SDK/dell'applicazione.
     1. Apri **src \> FiscalIntegration \> Efr**.
-    1. Apri **Configurations \> DocumentProviders** e scarica i file di configurazione del provider di documenti fiscali: **DocumentProviderFiscalEFRSampleAustria.xml** e **DocumentProviderNonFiscalEFRSampleAustria.xml** (ad esempio, [la posizione dei file per release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr/Configurations/DocumentProviders)).
-    1. Scarica il file di configurazione del connettore in **Configurations \> Connectors \> ConnectorEFRSample.xml** (ad esempio, [il file per release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/blob/release/9.33/src/FiscalIntegration/Efr/Configurations/Connectors/ConnectorEFRSample.xml)).
+    1. Apri **Configurazioni \> DocumentProviders** e scarica i file di configurazione per il provider di documenti fiscali: 
 
-    > [!WARNING]
-    > A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questo esempio di integrazione fiscale. È necessario utilizzare la versione precedente di Retail SDK su una macchina virtuale per sviluppatori in LCS. I file di configurazione per questo esempio di integrazione fiscale si trovano nelle seguenti cartelle di Retail SDK su una macchina virtuale per sviluppatori in LCS:
+        - DocumentProviderFiscalEFRSampleAustria.xml
+        - DocumentProviderNonFiscalEFRSampleAustria.xml
+
+    1. Scarica il file di configurazione del connettore fiscale in **Configurazioni \> Connettori \> ConnectorEFRSample.xml**.
+
+    > [!NOTE]
+    > In Commerce versione 10.0.28 o precedente, devi utilizzare la versione precedente di Retail SDK in una macchina virtuale per sviluppatori in LCS. I file di configurazione per questo esempio di integrazione fiscale si trovano nelle seguenti cartelle di Retail SDK su una macchina virtuale per sviluppatori in LCS:
     >
     > - **File di configurazione provider documenti fiscali:** RetailSdk\\SampleExtensions\\CommerceRuntime\\Extensions.DocumentProvider.EFRSample\\Configuration
     > - **File di configurazione connettore fiscale:** RetailSdk\\SampleExtensions\\HardwareStation\\Extension.EFRSample\\Configuration
-    > 
-    > Il supporto per il nuovo modello di packaging ed estensione indipendente per gli esempi di integrazione fiscale è previsto per le versioni successive.
 
 1. Accedere a **Retail e Commerce \> Impostazione sedi centrali \> Parametri \> Parametri condivisi di commercio**. Nella Scheda **Generale**, imposta l'opzione **Abilita integrazione fiscale** su **Sì**.
 1. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Provider di documenti fiscali**, e carica i file di configurazione del provider di documenti fiscali che hai scaricato prima.
@@ -244,7 +254,7 @@ Per abilitare il processo di registrazione, segui questi passaggi per configurar
 1. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Gruppi di connettori fiscali**. Crea due nuovi gruppi di connettori fiscali uno per ogni profilo funzionale del connettore che hai creato in precedenza.
 1. Vai a **Retail e Commerce \> Impostazione canale \> Integrazione fiscale \> Processi di registrazione fiscale**. Crea un nuovo processo di registrazione fiscale e due passaggi del processo di registrazione fiscale e seleziona i gruppi di connettori fiscali creati in precedenza.
 1. Passare a **Retail e Commerce \> Impostazione canale \> Impostazione POS \> Profili POS \> Profili funzionalità**. Seleziona il profilo funzionalità collegato al punto vendita in cui il processo di registrazione deve essere attivato. Nella scheda Dettaglio **Processo di registrazione fiscale**, seleziona il processo di registrazione fiscale creato precedentemente. Per abilitare la registrazione degli eventi non fiscali sul POS, nella scheda dettaglio **Funzioni** sotto **POS**, imposta l'opzione **Controllo** su **sì**.
-1. Andare a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**. Seleziona un profilo hardware collegato alla stazione hardware a cui la stampante fiscale sarà collegata. Nella scheda Dettaglio **Periferiche fiscali**, seleziona il profilo tecnico del connettore creato in precedenza.
+1. Andare a **Retail e Commerce \> Impostazione canale \> Impostazioni POS \> Profili POS \> Profili hardware**. Seleziona un profilo hardware collegato alla stazione hardware a cui il servizio di registrazione fiscale sarà connesso. Nella scheda Dettaglio **Periferiche fiscali**, seleziona il profilo tecnico del connettore creato in precedenza.
 1. Aprire la programmazione della distribuzione (**Retail e Commerce \> Vendita al dettaglio e commercio IT \> Programmazione della distribuzione**) e selezionare i processi **1070** e **1090** per trasferire i dati al database del canale.
 
 #### <a name="default-data-mapping"></a>Mapping dei dati predefiniti
@@ -269,16 +279,15 @@ Le seguenti impostazioni sono incluse nella configurazione del connettore fiscal
 
 ### <a name="configure-channel-components"></a>Configurare i componenti del canale
 
-> [!WARNING]
-> A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questo esempio di integrazione fiscale. È necessario utilizzare la versione precedente di Retail SDK su una macchina virtuale per sviluppatori in LCS. Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione fiscale per l'Austria (legacy)](emea-aut-fi-sample-sdk.md).
->
-> Il supporto per il nuovo modello di packaging ed estensione indipendente per gli esempi di integrazione fiscale è previsto per le versioni successive.
+> [!NOTE]
+> - L'esempio di integrazione del servizio di registrazione fiscale per l'Austria è disponibile in Commerce SDK a partire dalla versione 10.0.29 di Commerce. In Commerce versione 10.0.28 o precedente, devi utilizzare la versione precedente di Retail SDK in una macchina virtuale per sviluppatori in LCS. Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione fiscale per l'Austria (legacy)](emea-aut-fi-sample-sdk.md).
+> - Gli esempi di Commerce distribuiti nel tuo ambiente non vengono aggiornati automaticamente quando applichi aggiornamenti del servizio o qualitativi ai componenti di Commerce. Devi aggiornare manualmente gli esempi necessari.
 
 #### <a name="set-up-the-development-environment"></a>Impostare un ambiente di sviluppo
 
 Segui questi passaggi per impostare un ambiente di sviluppo in modo da poter testare ed estendere l'esempio.
 
-1. Clona o scarica il repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Seleziona una versione del ramo di rilascio corretta in base alla versione dell'SDK/dell'applicazione. Per altre informazioni vedi [Scaricare gli esempi Retail SDK e i pacchetti di riferimento da GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md).
+1. Clona o scarica il repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions). Seleziona una versione del ramo di rilascio corretta in base alla versione dell'SDK/dell'applicazione. Per altre informazioni, vedi [Scaricare esempi di Commerce SDK e pacchetti di riferimento da GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md).
 1. Apri la soluzione EFR in **Dynamics365Commerce.Solutions\\FiscalIntegration\\Efr\\EFR.sln**, e compilala.
 1. Installa le estensioni CRT:
 
@@ -330,10 +339,10 @@ Segui i passaggi in [Configurare una pipeline di compilazione per un esempio di 
 
 ## <a name="design-of-extensions"></a>Progettazione delle estensioni
 
-L'esempio di integrazione del servizio di registrazione fiscale per l'Austria si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e fa parte di Retail SDK. L'esempio si trova nella cartella **src\\FiscalIntegration\\Efr** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/) (ad esempio, [l'esempio in release/9.33](https://github.com/microsoft/Dynamics365Commerce.Solutions/tree/release/9.33/src/FiscalIntegration/Efr)). L'esempio [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) di un provider di documenti fiscali, che è un'estensione di CRT e un connettore fiscale, che è un'estensione di Commerce Hardware Station. Per ulteriori informazioni su come utilizzare Retail SDK, vedi [Architettura di Retail SDK](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurare una pipeline di compilazione per SDK a pacchetti indipendenti](../dev-itpro/build-pipeline.md).
+L'esempio di integrazione del servizio di registrazione fiscale per l'Austria si basa sulla [funzionalità di integrazione fiscale](fiscal-integration-for-retail-channel.md) e fa parte di Commerce SDK. L'esempio si trova nella cartella **src\\FiscalIntegration\\Efr** del repository [Soluzioni Dynamics 365 Commerce](https://github.com/microsoft/Dynamics365Commerce.Solutions/). L'esempio [consiste](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices-and-services) di un provider di documenti fiscali, che è un'estensione di CRT e un connettore fiscale, che è un'estensione di Commerce Hardware Station. Per ulteriori informazioni su come utilizzare Commerce SDK, vedi [Scaricare esempi di Commerce SDK e pacchetti di riferimento da GitHub e NuGet](../dev-itpro/retail-sdk/retail-sdk-overview.md) e [Configurare una pipeline di compilazione per SDK a pacchetti indipendenti](../dev-itpro/build-pipeline.md).
 
-> [!WARNING]
-> A causa delle limitazioni del [nuovo modello di packaging ed estensione indipendente](../dev-itpro/build-pipeline.md), non può essere attualmente utilizzato per questo esempio di integrazione fiscale. È necessario utilizzare la versione precedente di Retail SDK su una macchina virtuale per sviluppatori in LCS. Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione fiscale per l'Austria (legacy)](emea-aut-fi-sample-sdk.md). Il supporto per il nuovo modello di packaging ed estensione indipendente per gli esempi di integrazione fiscale è previsto per le versioni successive.
+> [!NOTE]
+> L'esempio di integrazione del servizio di registrazione fiscale per l'Austria è disponibile in Commerce SDK a partire dalla versione 10.0.29 di Commerce. In Commerce versione 10.0.28 o precedente, devi utilizzare la versione precedente di Retail SDK in una macchina virtuale per sviluppatori in LCS. Per ulteriori informazioni, vedi [Linee guida per la distribuzione per l'esempio di integrazione fiscale per l'Austria (legacy)](emea-aut-fi-sample-sdk.md).
 
 ### <a name="commerce-runtime-extension-design"></a>Progettazione dell'estensione di Commerce Runtime 
 

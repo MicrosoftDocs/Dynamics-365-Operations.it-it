@@ -14,18 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35fcb7c4068ff2f68970d9c0127491e4a63dab4c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: dac3ad583be9e4cbd6eacbc6d228819bd298628b
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8861075"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323575"
 ---
 # <a name="create-a-working-time-calendar"></a>Creare un calendario orario di lavoro
 
-
-> [!Important]
-> La funzionalità indicata in questo articolo è attualmente disponibile per i clienti di Dynamics 365 Human Resources standalone. Alcune o tutte le funzionalità saranno disponibili come parte di una versione futura dell'infrastruttura Finance dopo la versione Finance 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -49,7 +46,7 @@ Impostare almeno un calendario orario di lavoro che mostri i giorni e le ore di 
 
 3. Sotto **Opzioni di generazione**, selezionare i giorni lavorativi dell'organizzazione e immettere gli orari di lavoro. 
    - Per aggiungere una festività o una chiusura, selezionare il pulsante **Aggiungi** accanto a **Festività e chiusure**.
-   - Per aggiungere un orario non lavorativo, come i pranzi o le pause, selezionare **Aggiungi** sotto **ORARIO NON LAVORATIVO** e immettere il nome e l'intervallo di tempo.
+   - Per aggiungere un orario non lavorativo, come i pranzi o le pause, selezionare **Aggiungi** sotto **Orario non lavorativo** e immettere il nome e l'intervallo di tempo.
 
 4. Sotto **Giorni** selezionare **Genera** per generare i giorni nel calendario. Immettere l'intervallo di date per il calendario e quindi selezionare **Genera giorni**.
 
@@ -67,7 +64,7 @@ Impostare almeno un calendario orario di lavoro che mostri i giorni e le ore di 
 
 È possibile aggiungere o modificare orari non lavorativi separatamente da un calendario orario di lavoro.
 
-1. Nella pagina **Amministrazione organizzazione** selezionare **ORARIO NON LAVORATIVO**.
+1. Nella pagina **Amministrazione organizzazione** selezionare **Orario non lavorativo**.
 
 2. Selezionare **Nuovo** e immettere un nome e la fascia oraria per l'orario non lavorativo.
 

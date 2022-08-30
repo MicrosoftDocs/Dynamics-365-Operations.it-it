@@ -14,19 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8569cabf72871396b9935a14a5637e5e645705fb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f9c107e31e58ba1302cd02e2e82aa405dda0fdef
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848226"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336994"
 ---
 # <a name="create-coverage-options"></a>Creare opzioni di copertura
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Le opzioni di copertura determinano chi deve essere coperto o quanta copertura è disponibile in un piano assicurativo. Per esempio, per un piano medico, si potrebbe avere un'opzione **solo per il dipendente** , un'opzione **per il dipendente + 1** e un'opzione per la **famiglia** . Per l'assicurazione sulla vita, potresti offrire una copertura per **1 x stipendio** o **2 x stipendio**.
 

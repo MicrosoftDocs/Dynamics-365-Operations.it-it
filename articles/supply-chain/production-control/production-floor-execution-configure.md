@@ -2,7 +2,7 @@
 title: Configurare l'interfaccia di esecuzione dell'area di produzione
 description: Questo articolo descrive come creare una o più configurazioni per l'interfaccia di esecuzione dell'area di produzione. Quando si apre l'interfaccia di esecuzione dell'area di produzione, viene automaticamente caricata una configurazione selezionata e un filtro di processo specifici per il browser e il dispositivo. Nella configurazione si impostano i criteri che devono essere applicabili per un utilizzo specifico.
 author: johanhoffmann
-ms.date: 10/05/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2a77924e6133158d538a3eb8365def92c9354b0e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220364"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336187"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -35,7 +35,7 @@ Questo articolo descrive le varie opzioni per la configurazione di un'interfacci
 
 ## <a name="turn-on-the-production-floor-execution-interface-and-its-related-optional-features"></a>Attivare l'interfaccia di esecuzione dell'area di produzione e le relative funzionalità opzionali
 
-L'interfaccia di esecuzione dell'area di produzione stessa, più molte delle impostazioni opzionali descritte in questo articolo, devono essere attivate nel sistema prima di poterle utilizzare. Utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare una o tutte le funzionalità descritte nelle sottosezioni seguenti secondo le necessità.
+L'interfaccia di esecuzione dell'area di produzione stessa, più molte delle impostazioni opzionali descritte in questo articolo, devono essere attivate per il sistema prima di poterle utilizzare. Utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare una o tutte le funzionalità descritte nelle sottosezioni seguenti secondo le necessità.
 
 ### <a name="the-production-floor-execution-interface"></a>Interfaccia di esecuzione dell'area di produzione
 
@@ -63,29 +63,32 @@ A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalit�
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione
 
-Questa funzionalità aggiunge una scheda di gestione dei cespiti all'interfaccia di esecuzione del piano di produzione. I lavoratori possono utilizzare questa scheda per selezionare un cespite connesso a una risorsa macchina che si trova all'interno del filtro selezionato dell'elenco lavori. Per il cespite macchina selezionato, il lavoratore può visualizzare lo stato e l'integrità del cespite dai valori contatore per un massimo di quattro contatori selezionati. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Questa funzionalità aggiunge una scheda di gestione dei cespiti all'interfaccia di esecuzione del piano di produzione. I lavoratori possono utilizzare questa scheda per selezionare un cespite connesso a una risorsa macchina che si trova all'interno del filtro selezionato dell'elenco lavori. Per il cespite macchina selezionato, il lavoratore può visualizzare lo stato e l'integrità del cespite dai valori contatore per un massimo di quattro contatori selezionati.
 
-- *Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione*<br>A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.
+A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Funzionalità di gestione cespiti per l'interfaccia di esecuzione dell'area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-job-search"></a>Abilitare la ricerca di lavoro
+### <a name="job-search"></a>Ricerca processo
 
-Questa funzionalità consente di aggiungere un campo di ricerca all'elenco dei processi. I lavoratori possono trovare un processo specifico inserendo l'ID lavoro o trovare tutti i lavori per un ordine specifico inserendo l'ID ordine. I lavoratori possono inserire l'ID utilizzando una tastiera o eseguendo la scansione di un codice a barre. Per usarla, attivare la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Questa funzionalità consente di aggiungere un campo di ricerca all'elenco dei processi. I lavoratori possono trovare un processo specifico inserendo l'ID lavoro o trovare tutti i lavori per un ordine specifico inserendo l'ID ordine. I lavoratori possono inserire l'ID utilizzando una tastiera o eseguendo la scansione di un codice a barre.
 
-- *Ricerca del processo per l'interfaccia di esecuzione dell'area di produzione*<br>A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.
+A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Ricerca del processo per l'interfaccia di esecuzione dell'area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-reporting-on-co-products-and-by-products"></a>Abilitare la dichiarazione in co-prodotti e sottoprodotti
+### <a name="report-on-co-products-and-by-products"></a>Report su co-prodotti e sottoprodotti
 
-Questa funzionalità consente ai lavoratori di utilizzare l'interfaccia di esecuzione dell'area di produzione per dichiarare lo stato di avanzamento degli ordini batch. Questo report include la dichiarazione di co-prodotti e sottoprodotti. Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Questa funzionalità consente ai lavoratori di utilizzare l'interfaccia di esecuzione dell'area di produzione per dichiarare lo stato di avanzamento degli ordini batch. Questo report include la dichiarazione di co-prodotti e sottoprodotti.
 
-- *Report sui sotto/co-prodotti dall'interfaccia di esecuzione dell'area di produzione*
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Report sui sotto/co-prodotti dall'interfaccia di esecuzione dell'area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-the-display-of-full-serial-batch-and-license-plate-numbers"></a>Abilitare la visualizzazione dei numeri di serie, batch e targa completi
+### <a name="display-full-serial-batch-and-license-plate-numbers"></a>Visualizza numeri di identificazione, batch e serie completi
 
 Questa funzionalità offre un'esperienza migliorata per la visualizzazione di elenchi di numeri di serie, batch e targa nell'interfaccia di esecuzione dell'area di produzione. La visualizzazione cambia da una visualizzazione scheda che mostra un numero limitato di caratteri a una visualizzazione elenco che fornisce spazio sufficiente per mostrare i valori completi. L'elenco offre anche la possibilità di cercare numeri specifici.
 
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Mostra i numeri di identificazione, serie e batch completi nell'interfaccia di esecuzione area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+
 A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Mostra i numeri di identificazione, serie e batch completi nell'interfaccia di esecuzione area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-### <a name="enable-registering-of-material-consumption"></a>Abilitare la registrazione del consumo materiali
+### <a name="register-material-consumption"></a>Registra consumo materiali
 
 Questa funzionalità consente ai lavoratori di utilizzare l'interfaccia di esecuzione del piano di produzione per registrare il consumo di materiale, i numeri di batch e i numeri di serie. Alcuni produttori, in particolare quelli all'interno delle industrie di processo, devono registrare esplicitamente la quantità di materiale consumato per ogni batch oppure ordine di produzione. Ad esempio, i lavoratori potrebbero utilizzare una bilancia per pesare la quantità di materiale consumato mentre lavorano. Per garantire la completa tracciabilità dei materiali, le organizzazioni devono anche registrare quali numeri di batch sono stati consumati durante la produzione di ciascun prodotto.
 
@@ -97,7 +100,7 @@ Sono disponibili due versioni di questa funzionalità. Una supporta gli articoli
 > [!IMPORTANT]
 > È possibile utilizzare solo la funzionalità non WMS. Tuttavia, se utilizzi WMS, devi abilitare entrambe le funzionalità.
 
-### <a name="enable-reporting-on-catch-weight-items"></a>Abilitare la creazione di report di articoli a peso variabile
+### <a name="report-on-catch-weight-items"></a>Report su articoli a peso variabile
 
 I lavoratori possono utilizzare l'interfaccia di esecuzione del reparto di produzione per dichiarare lo stato di avanzamento degli ordini batch per gli articoli a peso variabile. Gli ordini batch vengono creati da formule che possono essere definite in modo che abbiano articoli a peso variabile come articoli formula, co-prodotti e sottoprodotti. È anche possibile definire una formula per avere righe di formula per gli ingredienti definiti per il peso variabile. Gli articoli a peso variabile utilizzano due unità di misura per tener traccia dell'inventario: la quantità a peso variabile e la quantità di inventario. Ad esempio, nell'industria alimentare, la carne in scatola può essere definita come un articolo a peso variabile, in cui la quantità a peso variabile viene utilizzata per tenere traccia del numero di scatole e la quantità di inventario viene utilizzata per tenere traccia del peso delle scatole.
 
@@ -105,15 +108,13 @@ Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione fu
 
 - *Report sugli articoli a peso variabile dall'interfaccia di esecuzione area di produzione*
 
-### <a name="enable-the-my-day-dialog"></a>Abilitare la finestra di dialogo "Registrazioni quotidiane"
+### <a name="the-my-day-dialog"></a>La finestra di dialogo "Registrazioni quotidiane"
 
 La finestra di dialogo **Registrazioni quotidiane** fornisce ai lavoratori una panoramica delle loro registrazioni giornaliere e dei saldi correnti per ore retribuite, straordinari retribuiti, assenze e assenze retribuite.
 
-Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Visualizzazione "Registrazioni quotidiane" per l'interfaccia di esecuzione dell'area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- *Visualizzazione "Registrazioni quotidiane" per l'interfaccia di esecuzione dell'area di produzione*
-
-### <a name="enable-teams"></a>Abilitare i team
+### <a name="teams"></a>Team
 
 Quando più lavoratori vengono assegnati allo stesso processo di produzione, possono formare un team. Il team può nominare un lavoratore come pilota. I restanti lavoratori quindi diventano automaticamente assistenti del pilota. Per il team risultante, solo il pilota deve registrare lo stato del processo. I record di tempo si applicano a tutti i membri del team.
 
@@ -121,7 +122,7 @@ Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione fu
 
 - *Team di produzione nell'interfaccia di esecuzione dell'area di produzione*
 
-### <a name="enable-additional-configuration-in-the-production-floor-execution-interface"></a>Abilitare la configurazione aggiuntiva nell'interfaccia di esecuzione dell'area di produzione
+### <a name="additional-configuration-in-the-production-floor-execution-interface"></a>Configurazione aggiuntiva nell'interfaccia di esecuzione dell'area di produzione
 
 Questa funzione aggiunge le impostazioni per la seguente funzionalità alla pagina **Configurare esecuzione area di produzione**:
 
@@ -136,7 +137,6 @@ Le informazioni su come utilizzare le impostazioni sono fornite più avanti in q
 Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - *Configurazione aggiuntiva nell'interfaccia di esecuzione dell'area di produzione*
-
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Utilizzare le configurazioni di esecuzione dell'area di produzione
 

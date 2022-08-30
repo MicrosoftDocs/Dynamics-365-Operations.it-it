@@ -2,7 +2,7 @@
 title: Visualizzazioni salvate standard per Supply Chain Management
 description: Questo articolo descrive le visualizzazioni salvate standard disponibili e spiega come abilitarle.
 author: kamaybac
-ms.date: 02/03/2021
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 92ff2dfc9cd8b742a7b086e540bd2c527833254d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f94fffb9aa2c208b8c2c0005a2892853eda66a01
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887575"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334837"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Visualizzazioni salvate standard per Supply Chain Management
 
@@ -47,15 +47,15 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Elenco scorte disponibili | Dati finanziari | Questa visualizzazione semplificata ti consente di concentrarti sulle informazioni finanziarie mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Elenco scorte disponibili | Controllo qualità | Questa visualizzazione semplificata ti consente di concentrarti sul controllo della qualità mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Elenco scorte disponibili | Ricevimento | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di ricevimento mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Elenco scorte disponibili | Spedizione | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di spedizione mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Transazioni | Semplificata | Questa visualizzazione semplificata consente di esaminare lo stato dell'inventario senza essere distratti dalle informazioni finanziarie e da altri campi utilizzati meno spesso. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Ordini di trasferimento | Spedizione | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di spedizione mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Ordini di trasferimento | Ricevimento | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di ricevimento mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Ordini di trasferimento | Controllo qualità | Questa visualizzazione semplificata ti consente di concentrarti sul controllo della qualità mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Ordini di trasferimento | Dati finanziari | Questa visualizzazione semplificata ti consente di concentrarti sulle informazioni finanziarie mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
+| Elenco scorte disponibili | Dati finanziari | Questa visualizzazione semplificata ti consente di concentrarti sulle informazioni finanziarie mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Elenco scorte disponibili | Controllo qualità | Questa visualizzazione semplificata ti consente di concentrarti sul controllo della qualità mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Elenco scorte disponibili | Ricevimento | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di ricevimento mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Elenco scorte disponibili | Spedizione | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di spedizione mentre gestisci le scorte disponibili. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Transazioni | Semplificata | Questa visualizzazione semplificata consente di esaminare lo stato dell'inventario senza essere distratti dalle informazioni finanziarie e da altri campi utilizzati meno spesso. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Ordini di trasferimento | Spedizione | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di spedizione mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Ordini di trasferimento | Ricevimento | Questa visualizzazione semplificata ti consente di concentrarti sulle operazioni di ricevimento mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Ordini di trasferimento | Controllo qualità | Questa visualizzazione semplificata ti consente di concentrarti sul controllo della qualità mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Ordini di trasferimento | Dati finanziari | Questa visualizzazione semplificata ti consente di concentrarti sulle informazioni finanziarie mentre gestisci gli ordini di trasferimento. | Visualizzazioni salvate per gestione inventario<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
 
 ## <a name="saved-views-for-the-master-planning-module"></a>Visualizzazioni salvate per il modulo Pianificazione generale
 
@@ -63,8 +63,8 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Ordini pianificati: pagina dei dettagli dell'ordine pianificato | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per lavorare con i dettagli di un singolo ordine pianificato. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per ordini pianificati<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Ordini pianificati: pagina elenco degli ordini pianificati | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per lavorare con l'elenco degli ordini pianificati. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per ordini pianificati<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
+| Ordini pianificati: pagina dei dettagli dell'ordine pianificato | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per lavorare con i dettagli di un singolo ordine pianificato. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per ordini pianificati<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Ordini pianificati: pagina elenco degli ordini pianificati | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per lavorare con l'elenco degli ordini pianificati. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per ordini pianificati<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
 
 ## <a name="saved-views-for-the-procurement-and-sourcing-module"></a>Visualizzazioni salvate per il modulo Approvvigionamento
 
@@ -72,10 +72,10 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Dettagli ordine fornitore | Creazione degli ordini | Questa visualizzazione semplificata è ottimizzata per la creazione di nuovi ordini fornitore. | Visualizzazioni salvate per ordini fornitore<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Dettagli ordine fornitore | Gestione inventario | Questa visualizzazione semplificata è ottimizzata per eseguire attività correlate all'inventario, come il monitoraggio delle scorte ricevute, il ricevimento delle scorte, il controllo del fabbisogno netto e la regolazione delle quantità degli ordini. | Visualizzazioni salvate per ordini fornitore<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Dettagli ordine fornitore | Gestione finanziaria | Questa visualizzazione semplificata è ottimizzata per l'esecuzione di attività finanziarie, come la fatturazione e il controllo di prezzi, totali e addebiti. | Visualizzazioni salvate per ordini fornitore<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Dettagli ordine fornitore | Approvazione ordine | Questa visualizzazione semplificata è ottimizzata per l'approvazione degli ordini fornitore. | Visualizzazioni salvate per ordini fornitore<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
+| Dettagli ordine fornitore | Creazione degli ordini | Questa visualizzazione semplificata è ottimizzata per la creazione di nuovi ordini fornitore. | Visualizzazioni salvate per ordini fornitore<br><br>Attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Dettagli ordine fornitore | Gestione inventario | Questa visualizzazione semplificata è ottimizzata per eseguire attività correlate all'inventario, come il monitoraggio delle scorte ricevute, il ricevimento delle scorte, il controllo del fabbisogno netto e la regolazione delle quantità degli ordini. | Visualizzazioni salvate per ordini fornitore<br><br>Attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Dettagli ordine fornitore | Gestione finanziaria | Questa visualizzazione semplificata è ottimizzata per l'esecuzione di attività finanziarie, come la fatturazione e il controllo di prezzi, totali e addebiti. | Visualizzazioni salvate per ordini fornitore<br><br>Attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Dettagli ordine fornitore | Approvazione ordine | Questa visualizzazione semplificata è ottimizzata per l'approvazione degli ordini fornitore. | Visualizzazioni salvate per ordini fornitore<br><br>Attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
 
 ## <a name="saved-views-for-the-product-information-management-module"></a>Visualizzazioni salvate per il modulo Gestione informazioni sul prodotto
 
@@ -83,11 +83,11 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Elenco dei prodotti rilasciati | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Dettagli prodotto rilasciato | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Dettagli prodotto rilasciato | Gestione informazioni sulla logistica | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sulla logistica per prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Dettagli prodotto rilasciato | Gestione informazioni sull'acquisto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sull'acquisto per prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Dettagli prodotto rilasciato | Gestione informazioni sulla vendita | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni correlate alla vendita per prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
+| Elenco dei prodotti rilasciati | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Dettagli prodotto rilasciato | Creazione prodotto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la creazione di prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Dettagli prodotto rilasciato | Gestione informazioni sulla logistica | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sulla logistica per prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Dettagli prodotto rilasciato | Gestione informazioni sull'acquisto | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni sull'acquisto per prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Dettagli prodotto rilasciato | Gestione informazioni sulla vendita | Visualizzazione semplificata della pagina che include solo i campi utilizzati più di frequente per la gestione di informazioni correlate alla vendita per prodotti. | Visualizzazioni salvate per prodotti rilasciati<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
 
 ## <a name="saved-views-for-the-production-control-module"></a>Visualizzazioni salvate per il modulo Controllo produzione
 
@@ -95,10 +95,10 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Pagina DBA ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per controllo di produzione<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Pagina dei dettagli dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per controllo di produzione<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Pagina distinte di prelievo dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per controllo di produzione<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
-| Pagina elenco degli ordini di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per controllo di produzione<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.21) |
+| Pagina DBA ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per controllo di produzione<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Pagina dei dettagli dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per controllo di produzione<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Pagina distinte di prelievo dell'ordine di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per controllo di produzione<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
+| Pagina elenco degli ordini di produzione | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazioni salvate per controllo di produzione<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.21. Obbligatoria a partire dalla versione 10.0.29). |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Visualizzazioni salvate per il modulo Vendite e marketing
 
@@ -106,10 +106,10 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Giornale di registrazione documenti di trasporto | Revisione del giornale di registrazione | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per rivedere i giornali di registrazione dei documenti di trasporto. | Visualizzazioni salvate per vendite e marketing<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Ordine cliente | Creazione ordine | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per creare ordini cliente. | Visualizzazioni salvate per vendite e marketing<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Ordine cliente | Revisione ordine | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per rivedere gli ordini cliente. | Visualizzazioni salvate per vendite e marketing<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Offerta di vendita | Creazione offerta | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per creare offerte di vendita. | Visualizzazioni salvate per vendite e marketing<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
+| Giornale di registrazione documenti di trasporto | Revisione del giornale di registrazione | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per rivedere i giornali di registrazione dei documenti di trasporto. | Visualizzazioni salvate per vendite e marketing<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Ordine cliente | Creazione ordine | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per creare ordini cliente. | Visualizzazioni salvate per vendite e marketing<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Ordine cliente | Revisione ordine | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per rivedere gli ordini cliente. | Visualizzazioni salvate per vendite e marketing<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Offerta di vendita | Creazione offerta | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per creare offerte di vendita. | Visualizzazioni salvate per vendite e marketing<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
 
 ## <a name="saved-views-for-the-warehouse-management-module"></a>Visualizzazioni salvate per il modulo Gestione magazzino
 
@@ -117,13 +117,13 @@ La tabella seguente descrive le visualizzazioni salvate disponibili per il modul
 
 | Pagina | Nome visualizzazione | Visualizzare la descrizione | Nome funzionalità |
 |---|---|---|---|
-| Tutti i carichi | Elaborazione in entrata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare carichi in entrata. | Visualizzazioni salvate per elaborazione carico<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Tutti i carichi | Elaborazione in uscita | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare carichi in uscita. | Visualizzazioni salvate per elaborazione carico<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Tutte le spedizioni | Elaborazione in entrata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare spedizioni in entrata. | Visualizzazioni salvate per elaborazione spedizione<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Tutte le spedizioni | Elaborazione in uscita | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare spedizioni in uscita. | Visualizzazioni salvate per elaborazione spedizione<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Tutte le ondate | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per elaborazione ciclo<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Workbench pianificazione carico | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per il workbench di pianificazione del carico<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
-| Dettagli lavoro | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per la pagina dei dettagli del lavoro<br><br>(Attivata per impostazione predefinita a partire dalla versione 10.0.25) |
+| Tutti i carichi | Elaborazione in entrata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare carichi in entrata. | Visualizzazioni salvate per elaborazione carico<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Tutti i carichi | Elaborazione in uscita | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare carichi in uscita. | Visualizzazioni salvate per elaborazione carico<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Tutte le spedizioni | Elaborazione in entrata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare spedizioni in entrata. | Visualizzazioni salvate per elaborazione spedizione<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Tutte le spedizioni | Elaborazione in uscita | Questa visualizzazione semplificata include solo i campi utilizzati più spesso per elaborare spedizioni in uscita. | Visualizzazioni salvate per elaborazione spedizione<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Tutte le ondate | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per elaborazione ciclo<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Workbench pianificazione carico | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per il workbench di pianificazione del carico<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
+| Dettagli lavoro | Semplificata | Questa visualizzazione semplificata include solo i campi utilizzati più spesso. In questo modo, fornisce una panoramica più rapida e un processo di lavoro semplificato. | Visualizzazione salvata per la pagina dei dettagli del lavoro<br><br>(attivata per impostazione predefinita a partire dalla versione 10.0.25. Obbligatoria a partire dalla versione 10.0.29). |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

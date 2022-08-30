@@ -2,7 +2,7 @@
 title: Eseguire query sui dati usando le deviazioni dell'app per dispositivi mobili Warehouse Management
 description: Questo articolo descrive come configurare voci di menu di dispositivo mobile per richieste di dati e usarle come parte delle deviazioni.
 author: perlynne
-ms.date: 08/01/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: c3ea53379badb3cb2ed71b7f102956d71c3f047a
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220540"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336607"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Eseguire query sui dati usando le deviazioni dell'app per dispositivi mobili Warehouse Management
 
@@ -35,19 +35,19 @@ Ad esempio, nel flusso di entrata dell'ordine fornitore, un numero di ordine for
 Prima di poter utilizzare la funzionalità descritta in questo articolo, devi completare la procedura seguente per attivare le funzionalità necessarie.
 
 1. Vai a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**. Per ulteriori informazioni su come utilizzare l'area di lavoro **Gestione funzionalità**, vedi [Panoramica di Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
-1. Attiva la funzionalità elencata nel modo seguente:
+1. Se stai eseguendo Supply Chain Management versione 10.0.28 o precedente, attiva la funzionalità elencata nel modo seguente:
 
     - **Modulo:** *Gestione Magazzino*
     - **Nome funzionalità:** *Istruzioni per i passaggi dell'app di magazzino*
 
-    Questa funzione è un prerequisito della funzionalità *Flusso di richiesta di dati dell'app Warehouse Management*. Per ulteriori informazioni sulla funzionalità *Istruzioni per i passaggi dell'app di magazzino*, vedi [Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management](mobile-app-titles-instructions.md).
+    Questa funzione è un prerequisito della funzionalità *Flusso di richiesta di dati dell'app Warehouse Management*. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Per ulteriori informazioni sulla funzionalità *Istruzioni per i passaggi dell'app di magazzino*, vedi [Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management](mobile-app-titles-instructions.md).
 
 1. Attiva la funzionalità elencata nel modo seguente:
 
     - **Modulo:** *Gestione Magazzino*
     - **Nome funzione:** *Deviazioni dell'app Warehouse Management*
 
-    Questa funzione è un prerequisito della funzionalità *Flusso di richiesta di dati dell'app Warehouse Management*. Per ulteriori informazioni sulla funzionalità *Deviazioni dell'app Warehouse Management*, vedi [Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile](warehouse-app-detours.md).
+    Questa funzione è un prerequisito della funzionalità *Flusso di richiesta di dati dell'app Warehouse Management*. A partire dalla versione 10.0.29 di Supply Chain Management, è attivata per impostazione predefinita. Per ulteriori informazioni sulla funzionalità *Deviazioni dell'app Warehouse Management*, vedi [Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile](warehouse-app-detours.md).
 
 1. Se la funzionalità *Deviazioni dell'app Warehouse Management* non è attivata, aggiorna i nomi dei campi nell'app per dispositivi mobili Warehouse Management andando a **Warehouse Management \> Impostazioni \> Dispositivo mobile \> Nomi campo app magazzino** e selezionando **Crea impostazione predefinita**. Ripeti questo passaggio per ogni persona giuridica (società) in cui utilizzi l'app per dispositivi mobili Warehouse Management. Per ulteriori informazioni, vedi [Configurare i campi per l'app per dispositivi mobili Gestione magazzino](configure-app-field-names-priorities-warehouse.md).
 1. Attiva la funzionalità elencata nel modo seguente:

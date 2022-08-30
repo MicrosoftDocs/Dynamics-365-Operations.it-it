@@ -14,17 +14,14 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59fe5ece00500f7dafab282c00d572575706f790
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 982e5afe6442e038774d59419a7edc0a9ec5444c
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8894587"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323960"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurare tipi di congedo e assenza
-
-> [!Important]
-> La funzionalità indicata in questo articolo è attualmente disponibile per i clienti di Dynamics 365 Human Resources standalone. Alcune o tutte le funzionalità saranno disponibili come parte di una versione futura dell'infrastruttura Finance dopo la versione Finance 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -41,31 +38,21 @@ I tipi di congedo in Dynamics 365 Human Resources definiscono i tipi di assenze 
 
 ## <a name="add-a-leave-type"></a>Aggiungere un tipo di congedo
 
-1. Nella pagina **Congedo e assenza**, selezionare la scheda **Collegamenti**.
-
+1. Nell'area di lavoro **Congedo e assenza**, selezionare la scheda **Collegamenti**.
 2. Sotto **Impostazione**, selezionare **Tipi di congedo e assenza**.
-
 3. Selezionare **Nuovo**.
-
 4. Immettere un nome per il tipo di congedo sotto **Tipo**, selezionare un flusso di lavoro in **ID flusso di lavoro** e immettere una descrizione sotto **Descrizione**.
-
 5. In **Generale**, selezionare **Nessuno**, **Programmato** o **Non programmato** nell'elenco a discesa **Categoria**.
-
 6. Seleziona un codice di reddito nell'elenco a discesa **Codice di reddito**.
-
 7. Sotto **Codice motivo obbligatorio**, scegliere se richiedere un codice motivo o meno. Se si desidera richiedere dei codici motivo, potrebbe essere necessario aggiungerli. Sotto **Codici motivo**, selezionare **Aggiungi**, selezionare un codice motivo, quindi selezionare la casella di controllo **Abilitato** accanto allo stesso.
-
 8. Sotto **Limitare l'accesso a ruoli selezionati**, scegliere se limitare l'accesso. Quindi selezionare i ruoli di sicurezza sotto **Ruoli di sicurezza per questo tipo di congedo**. I ruoli di sicurezza sono definiti nel flusso di lavoro selezionato sotto **ID flusso di lavoro** precedentemente in questa procedura.
-
 9. Sotto **Colore calendario**, scegli il colore da visualizzare nei calendari di congedi e assenze per questo tipo di congedo. 
-
 10. Sotto **Relazioni di sospensione**, scegli se questo tipo di congedo deve sospendere questo tipo di congedo o deve essere sospeso da un altro tipo di congedo. Quando una richiesta di congedo viene inviata per il tipo di congedo che provoca la sospensione, verrà automaticamente creata una sospensione del congedo per il tipo di congedo sospeso. 
-
-10. Selezionare **Salva**.
+11. Seleziona **Salva**.
 
 ## <a name="configure-leave-type-rules"></a>Configurare le regole del tipo di congedo
 
-1. Impostare opzioni di arrotondamento per il tipo di congedo. Le opzioni includono **Nessuno**, **Su**, **Giù** e **Al più vicino**. È inoltre possibile impostare la precisione di arrotondamento per il tipo di congedo.
+1. Impostare opzioni di arrotondamento per il tipo di **congedo e assenza**. Le opzioni includono **Nessuno**, **Su**, **Giù** e **Al più vicino**. È inoltre possibile impostare la precisione di arrotondamento per il tipo di congedo.
 
 2. Impostare **Correzione giorni festivi** per il tipo di congedo. Quando si seleziona questa opzione, il numero di giorni festivi che cadono in un giorno lavorativo viene usato per determinare come accumulare permessi per il tipo di congedo. Ad esempio, se il giorno di Natale cade di lunedì, Human Resources sottrarrà un giorno dal tipo di congedo durante l'elaborazione degli accumuli.
 

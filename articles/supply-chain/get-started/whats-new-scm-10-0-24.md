@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-12-03
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: f8864ac22153908492b5e7c30a03617e6dc9d05a
-ms.sourcegitcommit: 5b34b41ae74269ba639e2876bc5862ef468da1cc
+ms.openlocfilehash: 9b4b538e6d50013626739e19fee2a050b630bf7f
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "9166877"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334807"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10024-february-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.24 (febbraio 2022)
 
@@ -48,7 +48,7 @@ Se desideri attivare o disattivare una di queste funzionalità, devi farlo in [G
 | Controllo produzione | Controllo disponibilità materiali su richiesta per ordini di produzione | Questa funzione rende più veloce l'apertura della pagina **Ordini di produzione da rilasciare** che è disponibile dall'area di lavoro **Gestione area di produzione**. Senza questa funzionalità, il sistema controlla automaticamente se i materiali sono disponibili per tutti gli ordini di produzione elencati non appena si apre la pagina, il che può richiedere molto tempo se il numero di ordini è elevato. Quando questa funzionalità è abilitata, il sistema fornisce invece un pulsante della barra degli strumenti, che puoi utilizzare per avviare il controllo dei materiali solo per gli ordini selezionati e quando necessario. |
 | Controllo produzione | Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (non WMS) | Questa funzionalità consente ai lavoratori di utilizzare l'interfaccia di esecuzione del piano di produzione per registrare il consumo di materiale, i numeri di batch e i numeri di serie. Questa funzionalità supporta solo gli articoli che non sono abilitati per l'utilizzo dei processi di gestione del magazzino (WMS). Il supporto per gli articoli abilitati per WMS è pianificato per una versione futura.<p>Alcuni produttori, in particolare quelli all'interno delle industrie di processo, devono registrare esplicitamente la quantità di materiale consumato per ogni batch oppure ordine di produzione. Ad esempio, i lavoratori potrebbero utilizzare una bilancia per pesare la quantità di materiale consumato mentre lavorano. Per garantire la completa tracciabilità dei materiali, le organizzazioni devono anche registrare quali numeri di batch sono stati consumati durante la produzione di ciascun prodotto. |
 | Controllo produzione | Dichiarare come finito il carico di lavoro di gestione del magazzino per l'unità cloud e di scala edge | Questa funzionalità consente ai lavoratori di utilizzare l'app per dispositivi mobili Warehouse Management per dichiarare un ordine di produzione o batch come finito quando l'app è in esecuzione su un carico di lavoro di gestione del magazzino su un'unità cloud o di scala edge. Per ulteriori informazioni, vedi [Dichiarato di finito e stoccato su un'unità di scala](../cloud-edge/cloud-edge-workload-manufacturing.md#RAF). |
-| Warehouse Management | Nuove pagine del workbench di pianificazione del carico | Abilita due nuove pagine del workbench di pianificazione del carico: **Workbench di pianificazione del carico in ingresso** e **Workbench di pianificazione del carico in uscita**. |
+| Warehouse Management | Nuove pagine del workbench di pianificazione del carico | Aggiunge due nuove pagine del workbench di pianificazione del carico: **Workbench di pianificazione del carico in ingresso** e **Workbench di pianificazione del carico in uscita**. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Risorse della documentazione nuove e aggiornate
 

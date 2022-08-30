@@ -2,7 +2,7 @@
 title: Consolidare le spedizioni utilizzando il workbench di consolidamento delle spedizioni
 description: Questo articolo presenta uno scenario in cui più ordini vengono rilasciati al magazzino e consolidati successivamente in spedizioni utilizzando il workbench di consolidamento delle spedizioni.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: a33189cdcbb66304eef80558e931209ea236f576
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: db8dc5101b223a0033284d8e6c494721871809d8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218620"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335797"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidare le spedizioni utilizzando il workbench di consolidamento delle spedizioni
 
@@ -32,16 +32,13 @@ Lo scenario in questo articolo fa riferimento a valori e record inclusi nei dati
 
 ## <a name="set-up-shipment-consolidation-policies-and-product-filters"></a>Impostare i criteri di consolidamento delle spedizioni e i filtri per i prodotti
 
-Lo scenario qui descritto presuppone che tu abbia già attivato la funzione, eseguito gli esercizi [Configurare i criteri di consolidamento della spedizione](configure-shipment-consolidation-policies.md) e creato i criteri e altri record ivi descritti. Assicurati di eseguire quegli esercizi prima di continuare con questo scenario.
+Lo scenario qui descritto presuppone che tu abbia già attivato la funzione, eseguito gli esercizi [Configurare i criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md) e creato i criteri e altri record ivi descritti. Assicurati di eseguire quegli esercizi prima di continuare con questo scenario.
 
-## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Attiva la funzionalità dei criteri di consolidamento delle spedizioni manuali
+## <a name="turn-the-manual-shipment-consolidation-feature-on-or-off"></a>Attivare la funzionalità Consolidamento spedizioni manuali
 
-Prima di poter usare la funzionalità *Consolidamento spedizione manuale*, devi attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Per poter usare la funzionalità Consolidamento spedizioni manuali, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Consolidamento spedizioni manuale* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-- **Modulo:** *Gestione Magazzino*
-- **Nome funzionalità:** *Consolidamento spedizione manuale*
-
-Devi anche attivare la funzionalità *Consolida spedizione* prima di creare i criteri. Per ulteriori informazioni, vedi [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md).
+Devi anche attivare la funzionalità *Consolida spedizione* per poter creare criteri (a partire da Supply Chain Management versione 10.0.29, la funzionalità è obbligatoria e non può essere disattivata). Per ulteriori informazioni, vedi [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md).
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Crea gli ordini cliente per questo scenario
 
@@ -262,7 +259,7 @@ Dovrebbero essere state create quattro spedizioni:
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Criteri consolidamento spedizione](about-shipment-consolidation-policies.md)
+- [Criteri di consolidamento delle spedizioni](about-shipment-consolidation-policies.md)
 - [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md)
 
 

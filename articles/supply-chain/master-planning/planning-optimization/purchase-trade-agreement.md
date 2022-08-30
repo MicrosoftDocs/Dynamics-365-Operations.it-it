@@ -2,7 +2,7 @@
 title: Pianificazione generale con accordi commerciali di acquisto
 description: Questo articolo descrive come utilizzare l'ttimizzazione della pianificazione per trovare il fornitore e/o il lead time per un ordine pianificato, in base al prezzo o al lead time migliore presente negli accordi commerciali di acquisto.
 author: t-benebo
-ms.date: 06/29/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 29f0f44289e44b21cb304bd1f423d63f9f58f2db
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3797ee584cdb059a97670d532cf7e1a1163cc7ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873755"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335227"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Pianificazione generale con accordi commerciali di acquisto
 
@@ -29,12 +29,9 @@ ms.locfileid: "8873755"
 
 Questo articolo descrive come utilizzare l'ottimizzazione della pianificazione per trovare il fornitore e/o il lead time per un ordine pianificato, in base al prezzo o lead time migliore presente negli accordi commerciali di acquisto specificati per un determinato prodotto.
 
-## <a name="turn-on-the-purchase-trade-agreements-for-planning-optimization-feature"></a>Attivare la funzionalità Accordi commerciali di acquisto per ottimizzazione pianificazione
+## <a name="turn-the-purchase-trade-agreements-for-planning-optimization-feature-on-or-off"></a>Attivare o disattivare la funzionalità Accordi commerciali di acquisto per Ottimizzazione pianificazione
 
-Prima di poter utilizzare questa funzione, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
-
-- **Modulo:** *Pianificazione generale*
-- **Nome funzionalità:** *Accordi commerciali di acquisto per ottimizzazione pianificazione*
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Accordi commerciali di acquisto per Ottimizzazione pianificazione* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="prepare-your-system-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Preparare il sistema per valutare gli accordi commerciali di acquisto durante la pianificazione generale
 

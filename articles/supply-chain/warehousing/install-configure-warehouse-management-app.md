@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ec2a9f5ca6d6735e675defda6782738da7814c01
-ms.sourcegitcommit: f2501d93ffc1c7bf4e0daa78e63bc37528ef2358
+ms.openlocfilehash: d6131d205e650c0de88b85434629ed9537c2a0b1
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "9171457"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335647"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installare e connettere l'app per dispositivi mobili Warehouse Management
 
@@ -38,7 +38,7 @@ L'app per dispositivi mobili Gestione magazzino è disponibile per i sistemi ope
 
 ## <a name="turn-warehouse-management-mobile-app-features-on-or-off-in-supply-chain-management"></a>Attivare o disattivare le funzionalità dell'app per dispositivi mobili Warehouse Management in Supply Chain Management
 
-Per utilizzare l'app mobile Warehouse Management, la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* deve essere attivata nel sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare l'app per dispositivi mobili Warehouse Management, la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* deve essere attivata per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Impostazioni utente, icone e titoli di passaggi per la nuova app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>Scarica l'app per dispositivi mobili Gestione magazzino
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 88ea680b5b3e237d117b087978d703a7f6f09465
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1dab8d8bdace046f0f061713600fd1eab69e7c12
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219690"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335467"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenza lavori gestiti dal sistema
 
@@ -35,7 +35,7 @@ Pertanto, questa funzionalità consente un'ulteriore ottimizzazione dei processi
 
 ## <a name="turn-on-the-organization-wide-system-directed-work-sequencing-feature"></a>Attivare la funzionalità di sequenza lavoro gestiti dal sistema a livello di organizzazione
 
-Prima di poter utilizzare la sequenza lavori gestita dal sistema, tale funzionalità deve essere attivata nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Prima di poter utilizzare la sequenza lavori gestita dal sistema, la funzionalità deve essere attivata per il sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzione:** *Sequenza del lavoro diretto al sistema a livello di organizzazione*

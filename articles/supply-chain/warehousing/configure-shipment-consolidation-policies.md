@@ -2,7 +2,7 @@
 title: Configurazione dei criteri di consolidamento delle spedizioni
 description: Questo articolo spiega come impostare criteri di consolidamento delle spedizioni predefiniti e personalizzati.
 author: Mirzaab
-ms.date: 05/12/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,30 +13,27 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: bec96131326b3162b3d1a138b896e85982ad3aa5
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 4583d523811cb41518a0a4dae0d67398d64cab44
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219534"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336494"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurazione dei criteri di consolidamento delle spedizioni
 
 [!include [banner](../includes/banner.md)]
 
-Il processo di consolidamento della spedizione che utilizza criteri di consolidamento della spedizione consente il consolidamento automatico della spedizione durante il rilascio automatico e manuale al magazzino. Dopo aver attivato questa funzionalità, è necessario configurare i criteri iniziali. Se non sono configurati criteri, ogni riga di vendita genererà una spedizione separata con una sola riga di carico.
+Il processo di consolidamento delle spedizioni che utilizza criteri di consolidamento delle spedizioni consente il consolidamento automatico delle spedizioni durante il rilascio automatico e manuale al magazzino. Dopo aver attivato questa funzionalità, è necessario configurare i criteri iniziali. Se non sono configurati criteri, ogni riga di vendita genererà una spedizione separata con una sola riga di carico.
 
 Gli scenari presentati in questo articolo mostrano come impostare criteri di consolidamento delle spedizioni predefiniti e personalizzati.
 
-## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Attiva la funzionalità Criteri di consolidamento spedizione
+## <a name="turn-on-the-shipment-consolidation-policies-feature"></a>Attiva la funzionalità Criteri di consolidamento spedizioni
 
 > [!IMPORTANT]
-> Nel [primo scenario](#scenario-1) che è descritto in questo articolo, devi prima impostare un magazzino in modo che utilizzi la funzione di consolidamento della spedizione precedente. Renderai quindi disponibili i criteri di consolidamento della spedizione. In questo modo, puoi provare come funziona lo scenario di aggiornamento. Se prevedi di utilizzare un ambiente dati dimostrativo per conoscere il primo scenario, non attivare la funzionalità prima di eseguire lo scenario.
+> Nel [primo scenario](#scenario-1) che è descritto in questo articolo, devi prima impostare un magazzino in modo che utilizzi la funzione di consolidamento della spedizione precedente. Renderai quindi disponibili i criteri di consolidamento delle spedizioni. In questo modo, puoi provare come funziona lo scenario di aggiornamento. Se prevedi di utilizzare un ambiente dati dimostrativo per conoscere il primo scenario, non attivare la funzionalità prima di eseguire lo scenario.
 
-Prima di poter usare la funzionalità *Criteri di consolidamento spedizione*, devi attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Gestione Magazzino*
-- **Nome funzione:** *Consolida spedizione*
+Per poter usare la funzionalità *Criteri di consolidamento spedizioni*, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Criteri di consolidamento spedizioni* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="make-demo-data-available"></a>Rendi disponibili i dati dimostrativi
 
@@ -44,14 +41,14 @@ Ogni scenario in questo articolo fa riferimento a valori e record inclusi nei da
 
 ## <a name="scenario-1-configure-default-shipment-consolidation-policies"></a><a name="scenario-1"></a>Scenario 1: configurare i criteri di consolidamento delle spedizioni predefiniti
 
-Esistono due situazioni in cui è necessario configurare il numero minimo di criteri predefiniti dopo aver attivato la funzionalità *Criteri di consolidamento della spedizione*:
+Esistono due situazioni in cui è necessario configurare il numero minimo di criteri predefiniti dopo aver attivato la funzionalità *Criteri di consolidamento spedizioni*:
 
 - Stai aggiornando un ambiente che contiene già dati.
 - Stai configurando un ambiente completamente nuovo.
 
 ### <a name="upgrade-an-environment-where-warehouses-are-already-configured-for-cross-order-consolidation"></a>Aggiorna un ambiente in cui i magazzini sono già configurati per il consolidamento tra ordini
 
-Quando avvii questa procedura, la funzionalità *Criteri di consolidamento della spedizione* deve essere disattivata per simulare un ambiente in cui è già stata utilizzata la funzionalità di consolidamento tra ordini di base. Utilizzerai quindi la gestione delle funzionalità per attivare la funzione, in modo da poter imparare come impostare i criteri di consolidamento della spedizione dopo l'aggiornamento.
+Quando avvii questa procedura, la funzionalità *Criteri di consolidamento spedizioni* deve essere disattivata per simulare un ambiente in cui è già stata utilizzata la funzionalità di consolidamento tra ordini di base. Utilizzerai quindi la gestione delle funzionalità per attivare la funzionalità, in modo da poter imparare come impostare i criteri di consolidamento delle spedizioni dopo l'aggiornamento.
 
 Attieniti alla seguente procedura per impostare i criteri di consolidamento delle spedizioni predefiniti in un ambiente in cui i magazzini sono già stati configurati per il consolidamento tra ordini.
 
@@ -61,7 +58,7 @@ Attieniti alla seguente procedura per impostare i criteri di consolidamento dell
 1. Nella Scheda dettaglio **Magazzino**, imposta l'opzione **Consolida spedizione al rilascio al magazzino** su *Sì*.
 1. Ripeti i passaggi da 2 a 4 per tutti gli altri magazzini in cui è richiesto il consolidamento.
 1. Chiudi la pagina.
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**. Potrebbe essere necessario aggiornare il browser per vedere la nuova voce di menu **Criteri di consolidamento della spedizione** dopo aver abilitato la funzione.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**. Potrebbe essere necessario aggiornare il browser per vedere la nuova voce di menu **Criteri di consolidamento spedizioni** dopo aver abilitato la funzionalità.
 1. Nel riquadro azioni, seleziona **Crea impostazione predefinita** per creare i seguenti criteri:
 
     - Un criterio **CrossOrder** per il tipo di criteri *Ordini cliente* (a condizione che si disponga di almeno un magazzino impostato per utilizzare la funzionalità di consolidamento precedente)
@@ -80,7 +77,7 @@ Attieniti alla seguente procedura per impostare i criteri di consolidamento dell
 
 Segui questi passaggi per impostare i criteri di consolidamento delle spedizioni predefinite in un ambiente completamente nuovo.
 
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**.
 1. Nel riquadro azioni, seleziona **Crea impostazione predefinita** per creare i seguenti criteri:
 
     - Un criterio **Predefinito** per il tipo di criterio *Ordini cliente*
@@ -89,13 +86,13 @@ Segui questi passaggi per impostare i criteri di consolidamento delle spedizioni
     > [!NOTE]
     > Entrambi i criteri **Predefinito** considerano lo stesso insieme di campi della logica precedente, incluso il campo per il numero dell'ordine. Questo campo viene utilizzato per consolidare le righe nelle spedizioni, in base a fattori quali numero di ordine, magazzino, modalità di trasporto della consegna e indirizzo.
 
-## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Scenario 2: configurare i criteri di consolidamento delle spedizioni personalizzati
+## <a name="scenario-2-configure-custom-shipment-consolidation-policies"></a>Scenario 2: configurare criteri di consolidamento delle spedizioni personalizzati
 
 Questo scenario mostra come impostare criteri di consolidamento delle spedizioni personalizzati. I criteri personalizzati possono supportare requisiti aziendali complessi in cui il consolidamento della spedizione dipende da diverse condizioni. Per ciascun criterio di esempio più avanti in questo scenario, è inclusa una breve descrizione del caso aziendale. Questi criteri di esempio dovrebbero essere impostati in una sequenza che garantisca una valutazione piramidale delle query. In altre parole, i criteri che presentano il maggior numero di condizioni dovrebbero essere valutati come aventi la massima priorità.
 
 ### <a name="turn-on-the-feature-and-prepare-master-data-for-this-scenario"></a>Attiva la funzione e prepara i dati master per questo scenario
 
-Prima di poter eseguire gli esercizi in questo scenario, è necessario attivare la funzione e preparare i dati master necessari per eseguire il filtro, come descritto nelle sottosezioni seguenti. Questi prerequisiti si applicano anche agli scenari elencati in [Scenari di esempio su come utilizzare i criteri di consolidamento della spedizione](#example-scenarios).
+Prima di poter eseguire gli esercizi in questo scenario, è necessario attivare la funzione e preparare i dati master necessari per eseguire il filtro, come descritto nelle sottosezioni seguenti. Questi prerequisiti si applicano anche agli scenari elencati in [Scenari di esempio su come utilizzare i criteri di consolidamento delle spedizioni](#example-scenarios).
 
 #### <a name="turn-on-the-feature-and-create-the-default-policies"></a>Attiva la funzione e crea i criteri predefiniti
 
@@ -167,7 +164,7 @@ In questo esempio, creerai un criterio *Cliente + Modalità* che può essere uti
 
 Attieniti alla seguente procedura per creare i criteri di consolidamento della spedizione per questo caso aziendale.
 
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**.
 1. Imposta il campo **Tipo di criteri** su *Ordini cliente*.
 1. Nel riquadro azioni, seleziona **Nuovo** per creare un criterio con le seguenti impostazioni:
 
@@ -202,7 +199,7 @@ In questo esempio, creerai un criterio *Merce pericolosa* che può essere utiliz
 
 Attieniti alla seguente procedura per creare i criteri di consolidamento della spedizione per questo caso aziendale.
 
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**.
 1. Imposta il campo **Tipo di criteri** su *Ordini cliente*.
 1. Nel riquadro azioni, seleziona **Nuovo** per creare un criterio con le seguenti impostazioni:
 
@@ -239,7 +236,7 @@ In questo esempio, creerai un criterio *Requisiti cliente* che può essere utili
 
 Attieniti alla seguente procedura per creare i criteri di consolidamento della spedizione per questo caso aziendale.
 
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**.
 1. Imposta il campo **Tipo di criteri** su *Ordini cliente*.
 1. Nel riquadro azioni, seleziona **Nuovo** per creare un criterio con le seguenti impostazioni:
 
@@ -271,7 +268,7 @@ In questo esempio, creerai un criterio *Clienti che consentono il consolidamento
 
 Attieniti alla seguente procedura per creare i criteri di consolidamento della spedizione per questo caso aziendale.
 
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**.
 1. Imposta il campo **Tipo di criteri** su *Ordini cliente*.
 1. Nel riquadro azioni, seleziona **Nuovo** per creare un criterio con le seguenti impostazioni:
 
@@ -305,7 +302,7 @@ In questo esempio, creerai un criterio *Magazzini che consentono il consolidamen
 
 In genere, questo caso aziendale può essere risolto utilizzando i criteri predefiniti in cui è stato creato nello [scenario 1](#scenario-1). Tuttavia, è anche possibile creare manualmente criteri simili seguendo questi passaggi.
 
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**.
 1. Imposta il campo **Tipo di criteri** su *Ordini cliente*.
 1. Nel riquadro azioni, seleziona **Nuovo** per creare un criterio con le seguenti impostazioni:
 
@@ -324,7 +321,7 @@ In genere, questo caso aziendale può essere risolto utilizzando i criteri prede
 
 Ora che hai creato tutti i tuoi criteri, devi stabilire l'ordine in cui verranno applicati. Per utilizzare un approccio simile a una piramide, in cui i criteri che presentano il maggior numero di condizioni vengono valutati con la massima priorità, attieniti alla seguente procedura.
 
-1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento della spedizione**.
+1. Vai a **Gestione magazzino \> Impostazione \>Rilascia in magazzino \> Criteri di consolidamento spedizioni**.
 1. Imposta il campo **Tipo di criteri** su *Ordini cliente*.
 1. Seleziona ciascun criterio elencato nella colonna sinistra, quindi utilizza i pulsanti **Sposta su** e **Sposta giù** nel riquadro azioni per disporre i criteri nel seguente ordine:
 
@@ -335,9 +332,9 @@ Ora che hai creato tutti i tuoi criteri, devi stabilire l'ordine in cui verranno
     1. Tra ordini
     1. Predefinita
 
-## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Scenari di esempio su come utilizzare i criteri di consolidamento della spedizione
+## <a name="example-scenarios-of-how-to-use-shipment-consolidation-policies"></a><a name="example-scenarios"></a> Scenari di esempio su come utilizzare i criteri di consolidamento delle spedizioni
 
-I seguenti scenari illustrano come è possibile utilizzare i criteri di consolidamento della spedizione create durante la lettura di questo articolo. Ogni scenario passa attraverso il processo di consolidamento della spedizione che utilizza criteri di consolidamento della spedizione durante il rilascio automatico e manuale al magazzino:
+I seguenti scenari illustrano come è possibile utilizzare i criteri di consolidamento delle spedizioni create durante la lettura di questo articolo. Ogni scenario passa attraverso il processo di consolidamento della spedizione che utilizza criteri di consolidamento delle spedizioni durante il rilascio automatico e manuale al magazzino:
 
 - Scenario 1: [Consolidare le spedizioni quando vengono rilasciate al magazzino utilizzando Rilascio automatico degli ordini cliente](../warehousing/consolidate-shipments-automatic.md)
 - Scenario 2: [Consolidare le spedizioni quando i criteri di consolidamento delle spedizioni vengono ignorati dalla pagina Rilascia in magazzino](../warehousing/consolidate-shipments-release-to-warehouse-override.md)
@@ -348,7 +345,7 @@ I seguenti scenari illustrano come è possibile utilizzare i criteri di consolid
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-- [Criteri consolidamento spedizione](about-shipment-consolidation-policies.md)
+- [Criteri di consolidamento delle spedizioni](about-shipment-consolidation-policies.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

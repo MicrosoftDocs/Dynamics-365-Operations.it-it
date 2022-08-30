@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 782b1b4995af09a63c483d2b81ed255a5c11803a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 784361f4e715921890ecff784b62935988732464
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846042"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335167"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Richieste di informazioni e report sui materiali pericolosi
 
@@ -101,11 +101,11 @@ Per generare e stampare questo report andare a **Gestione magazzino \> Spedizion
 
 ## <a name="bill-of-lading-report"></a>Report di polizza di carico
 
-Quando la funzione dei materiali pericolosi è attivata nel sistema, il report **polizza di carico** include una colonna **Materiali pericolosi** che indica se un carico include materiali pericolosi. Questo report è disponibile nella pagina **Tutti i carichi**, come di consueto.
+Quando la funzionalità dei materiali pericolosi è attivata per il sistema, il report **polizza di carico** include una colonna **Materiali pericolosi** che indica se un carico include materiali pericolosi. Questo report è disponibile nella pagina **Tutti i carichi**, come di consueto.
 
 ## <a name="packing-list-report"></a>Report di elenco imballaggio
 
-Quando la funzione dei materiali pericolosi è attivata nel sistema, gli elenchi di imballaggio includono informazioni aggiuntive correlate al testo della stampa della spedizione per un articolo. Questo report è disponibile nella pagina **Tutti i carichi**, come di consueto.
+Quando la funzionalità dei materiali pericolosi è attivata per il sistema, gli elenchi di imballaggio includono informazioni aggiuntive correlate al testo della stampa della spedizione per un articolo. Questo report è disponibile nella pagina **Tutti i carichi**, come di consueto.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

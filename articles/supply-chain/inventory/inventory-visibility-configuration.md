@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cd5d2cf112a9d2ccdf6226ee79f0ff488d51066b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066672"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306320"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Inventory Visibility
 
@@ -52,7 +52,7 @@ Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzional
 | Nome Gestione funzionalità | Description |
 |---|---|
 | *OnHandReservation* | Questa funzione ti consente di creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità inventario. Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md). |
-| *OnHandMostSpecificBackgroundService* | Questa funzionalità fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. Per ulteriori informazioni, vedere [Riepilogo inventario](inventory-visibility-power-platform.md#inventory-summary). |
+| *OnHandMostSpecificBackgroundService* | Questa funzionalità fornisce un riepilogo dell'inventario per i prodotti insieme a tutte le dimensioni. I dati del riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. La frequenza di sincronizzazione predefinita è una volta ogni 15 minuti e può essere impostata fino a una volta ogni 5 minuti. Per ulteriori informazioni, vedere [Riepilogo dell'inventario](inventory-visibility-power-platform.md#inventory-summary). |
 | *OnhandChangeSchedule* | La funzione facoltativa abilita la programmazione delle modifiche scorte disponibili e le funzionalità ATP. Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md). |
 | *Allocazione* | Questa funzione facoltativa consente a Visibilità inventario di avere la capacità di protezione dell'inventario (ringfencing) e controllo delle vendite eccessive. Per ulteriori informazioni, vedi [Allocazione dell'inventario di Visibilità inventario](inventory-visibility-allocation.md). |
 | *Abilita articoli di magazzino in Visibilità inventario* | Questa funzione opzionale consente a Visibilità inventario di supportare gli articoli abilitati per i processi di gestione del magazzino (WMS). Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WMS](inventory-visibility-whs-support.md). |

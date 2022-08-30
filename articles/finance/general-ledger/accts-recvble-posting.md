@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 492bbd31cae08a93cd68e5ce120d02a62141241b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0d679595a1f702c4e3ade138a87c817d245fcf79
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8874576"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324331"
 ---
 # <a name="accounts-receivable-posting"></a>Registrazione nella contabilità clienti
 
 [!include [banner](../includes/banner.md)]
 
 Il profilo di registrazione principale per il modulo **Contabilità clienti** è il profilo di registrazione cliente. Questo profilo di registrazione determina il conto riepilogativo utilizzato quando i saldi cliente vengono registrati nella contabilità generale. Un conto riepilogativo è un conto principale. Viene anche chiamato conto commerciale Contabilità clienti.
+
+Il report **Riconciliazione cliente/saldi contabili** può essere utilizzato dopo la registrazione per facilitare la riconciliazione di conti cliente e CoGe. Il report utilizza le informazioni che si trovano nel conto riepilogativo per il profilo di registrazione del cliente. Non utilizza il conto riepilogativo della contabilità creata per il documento. Se apporti modifiche al profilo di registrazione del cliente o al gruppo di clienti assegnato al cliente dopo aver registrato le transazioni, il report potrebbe visualizzare differenze tra il saldo del conto cliente e quello del conto CoGe. Per visualizzare solo le righe che presentano differenze e tutte le righe per le quali i conti cliente e il conto CoGe sono entrambi zero, seleziona il parametro **Solo differenze** durante la stampa del report.
 
 Per ulteriori informazioni, vedi [Profili di registrazione cliente](../accounts-receivable/customer-posting-profiles.md).
 

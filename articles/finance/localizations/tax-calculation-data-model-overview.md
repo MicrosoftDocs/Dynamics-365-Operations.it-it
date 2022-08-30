@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b47ec3922621a15ee1fb1aa8ab1559d9a57418e3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fc90964a5b0bd31b28a8c8d9b7474c063da34205
+ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220304"
+ms.lasthandoff: 08/15/2022
+ms.locfileid: "9295960"
 ---
 # <a name="tax-calculation-data-model"></a>Modello di dati per il calcolo delle tasse
 
@@ -64,6 +64,7 @@ Il modello di dati per il calcolo delle imposte è integrato con le app per la f
     *Restrizione:* [Un giustificativo](../general-ledger/one-voucher.md#issues-with-one-voucher) e la commissione di pagamento non è supportata.
 
 - **Giornale di registrazione fatture fornitore:** supportate dalla versione 40.54.234 e Finance versione 10.0.26.
+- **Giornali di registrazione periodici**: supportati a partire dalla versione 40.55.236 e dalla versione 10.0.29 di Finance.
 
 ## <a name="field-mapping"></a>Mapping campi
 

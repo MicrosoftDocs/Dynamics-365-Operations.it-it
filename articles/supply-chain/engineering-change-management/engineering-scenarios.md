@@ -2,7 +2,7 @@
 title: Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
 description: Questo articolo fornisce una procedura dettagliata completa per utilizzare le funzionalità di gestione delle modifiche di progettazione.
 author: t-benebo
-ms.date: 09/28/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e66cda6e529a70d40e599718332152bac95b061e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 65ff30632a54b0b7cadbfe663698d466d41abe47
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220029"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334897"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Procedura dettagliata per le funzionalità di gestione delle modifiche di progettazione
 
@@ -284,7 +284,7 @@ Per esaminare il prodotto e rilasciarlo nella società *USMF*, eseguire queste o
 
 1. Selezionare il valore nella colonna **Numero prodotto** per aprire la pagina **Dettagli rilascio prodotto**. Si notino i seguenti dettagli:
 
-    - La Scheda dettaglio **Generale** mostra le informazioni sul rilascio del prodotto, come la società di rilascio (*DEMF* per questo esempio), il sito di rilascio (*1*) e il sito ricevente (*1*). Perché non è stato specificato un sito di ricevimento nella procedura guidata **Prodotti di rilascio**, il valore del sito di rilascio viene copiato nel sito ricevente.
+    - La Scheda dettaglio **Generale** mostra le informazioni sul rilascio del prodotto, come la società di rilascio (*DEMF* per questo esempio), il sito di rilascio (*1*) e il sito ricevente (*1*). Perché non hai specificato un sito di ricevimento nella procedura guidata **Prodotti di rilascio**, il valore del sito di rilascio viene copiato nel sito ricevente.
     - Nella Scheda dettaglio **Dettagli sul rilascio** vengono visualizzate le informazioni sul prodotto e sulla versione rilasciata. Qui è possibile modificare le impostazioni, ad esempio le date di validità.
     - La Scheda dettaglio **Ciclo di lavorazione** mostra il ciclo di lavorazione del prodotto. Tuttavia, per questo esempio, non è stato rilasciato alcun ciclo di lavorazione.
 

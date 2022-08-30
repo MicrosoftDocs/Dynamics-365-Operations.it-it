@@ -2,7 +2,7 @@
 title: Flussi di lavoro di approvazione del giornale di registrazione magazzino
 description: In questo articolo viene descritto come configurare e usare i flussi di approvazione del giornale di registrazione magazzino per i diversi tipi di transazioni dell'inventario fisico. I flussi di lavoro del giornale di registrazione magazzino aiutano a garantire che solo i giornali di registrazione magazzino approvati possano essere registrati nelle transazioni.
 author: yufeihuang
-ms.date: 07/21/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: ebb12562a9f06f2efc3b5a373d7ad0f98bc3505e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3a97eaeae24850282c39196a61e3baa29307aa93
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873987"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334657"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Flussi di lavoro di approvazione del giornale di registrazione magazzino
 
@@ -29,12 +29,9 @@ In questo articolo viene descritto come configurare e usare i flussi di approvaz
 > [!NOTE]
 > I flussi di lavoro di approvazione del giornale di registrazione magazzino si applicano solo alle transazioni registrate utilizzando il modulo Gestione articoli. Non funzionano con i giornali di registrazione magazzino attivati dal modulo Gestione magazzino.
 
-## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>Attivare la funzionalità dei flussi di lavoro di approvazione del giornale di registrazione magazzino
+## <a name="turn-the-inventory-journal-approval-workflows-feature-on-or-off"></a>Attivare o disattivare la funzionalità Flussi di lavoro di approvazione del giornale di registrazione magazzino
 
-A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla o disabilitarla se necessario. La funzione viene elencata come:
-
-- **Modulo:** *Gestione articoli e magazzino*
-- **Nome funzionalità:** *Flusso di lavoro di approvazione del giornale di registrazione inventario*
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.21 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Flussi di lavoro di approvazione del giornale di registrazione magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Creare i flussi di lavoro di approvazione del giornale di registrazione magazzino
 

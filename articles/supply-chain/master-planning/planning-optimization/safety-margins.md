@@ -2,7 +2,7 @@
 title: Margini di sicurezza
 description: In questo articolo viene descritto come utilizzare i margini di sicurezza con il componente aggiuntivo Planning Optimization per Microsoft Dynamics 365 Supply Chain Management.
 author: t-benebo
-ms.date: 09/14/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: c792c33edea9a7f4e2973383b1fcce5b4e8ec998
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854241"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335197"
 ---
 # <a name="safety-margins"></a>Margini di sicurezza
 
@@ -79,12 +79,9 @@ Si noti che quando viene applicato un margine su uscita, le date relative al fab
 
 ## <a name="set-up-safety-margins"></a>Impostare i margini di sicurezza
 
-### <a name="turn-on-safety-margins-in-feature-management"></a>Attivare i margini di sicurezza in Gestione funzionalità
+### <a name="turn-safety-margins-on-or-off"></a>Attivare o disattivare i margini di sicurezza
 
-Prima di poter utilizzare questa funzione con Planning Optimization, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
-
-- **Modulo:** _Pianificazione generale_
-- **Nome funzionalità:** _Margini per Planning Optimization_
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Margini per Ottimizzazione pianificazione* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="define-safety-margins"></a>Definire i margini di sicurezza
 

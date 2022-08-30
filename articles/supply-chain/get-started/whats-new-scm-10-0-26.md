@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: b44b044bf10115a7fcaf347a3b6f1759c2a68cb6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: dd98b22a2dfcd8cad62bdef2d31ac2880b3422f8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219066"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334717"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10026-may-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.26 (maggio 2022)
 
@@ -51,7 +51,6 @@ Se desideri attivare o disattivare una di queste funzionalità, devi farlo in [G
 | Gestione informazioni sul prodotto | Pulisci valori attributo del prodotto | Questa funzionalità aggiunge un'attività periodica denominata **Pulisci valori attributo del prodotto**, che pulisce i record di valore attributo del prodotto non più associati ad alcun prodotto tramite una categoria di prodotto. |
 | Gestione articoli e magazzino | (Russia) Impedimento delle discrepanze quando si emette il numero GTD per ordini fornitore che includono articoli abilitati da WMS | Questa funzionalità è disponibile solo per la Russia. Previene le discrepanze che si verificano durante l'emissione dei numeri di dichiarazione doganale (GTD) russi per gli ordini di acquisto di importazione che includono articoli abilitati per i processi di gestione del magazzino (WMS). Il processo di emissione di GTD modifica alcuni valori delle dimensioni inventariali nelle transazioni di magazzino correlate per le fatture incluse nel giornale di registrazione personalizzato, il che porta a discrepanze tra i record di lavoro per l'ordine d'acquisto e le transazioni di magazzino per l'acquisto. Quando questa funzione è abilitata, il processo di emissione di GTD genera un lavoro di adeguamento che elimina tali discrepanze. |
 | Warehouse Management | Parser avanzato per codici a barre GS1 | Questa funzionalità aggiunge un parser avanzato per i dati dei simboli GS1. Il nuovo parser implementa l'algoritmo GS1 General Specification per l'analisi dei simboli GS1 e fornisce una convalida dei dati più forte. Per ulteriori informazioni, vedi [Scansione dei codici a barre GS1](../warehousing/gs1-barcodes.md). |
-| Warehouse Management | Nuove pagine del workbench di pianificazione del carico | Aggiunge due nuove pagine del workbench di pianificazione del carico: **Workbench di pianificazione del carico in ingresso** e **Workbench di pianificazione del carico in uscita**. |
 | Warehouse Management | Applicazione di gestione magazzino - Numero GTD vuoto | Questa funzionalità è disponibile solo per la Russia. Consente ai lavoratori che utilizzano l'app per dispositivi mobili Warehouse Management di lasciare vuoti i numeri di dichiarazione doganale russi (GTD) quando necessario. Se la dimensione di tracciabilità GTD è impostata per consentire valori vuoti, il sistema accetterà valori vuoti per GTD per le operazioni di inventario a condizione che l'inventario disponibile sia disponibile. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Risorse della documentazione nuove e aggiornate

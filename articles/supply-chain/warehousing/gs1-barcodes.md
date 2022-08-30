@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 34f74c2a889b3a659831897897e2086b277256e0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: e1c1c274054ed1c14c9b3fc0595baa029bf3124d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219780"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336367"
 ---
 # <a name="gs1-bar-codes"></a>Codici a barre GS1
 
@@ -108,7 +108,7 @@ Dopo che i dati sono stati analizzati dal codice a barre, verranno inseriti nei 
 
 ## <a name="turn-on-the-gs1-feature"></a>Attivare la funzionalità GS1
 
-Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Per poter utilizzare la funzionalità, è necessario attivarla per il sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome della funzione:** *Scansione di codici a barre GS1*
@@ -134,7 +134,7 @@ Per impostare le opzioni globali GS1, segui questi passi.
 
     - **Carattere FNC1**, **Carattere Datamatrix**, e **Carattere codice QR** – Specifica i caratteri che devono essere interpretati come prefisso per ogni tipo di codice a barre GS1.
     - **Separatore di gruppo** – Specifica il carattere che sostituisce il carattere separatore di gruppo ASCII.
-    - **Lunghezza massima dell'identificatore** - Specifica il numero massimo di caratteri consentito per l'identificatore dell'applicazione. Questo campo non è obbligatorio se la funzione *Parser avanzato GS1* è attivata nel sistema.
+    - **Lunghezza massima dell'identificatore** - Specifica il numero massimo di caratteri consentito per l'identificatore dell'applicazione. Questo campo non è obbligatorio se la funzionalità *Parser avanzato GS1* è attivata per il sistema.
 
 > [!NOTE]
 > I prefissi dicono al sistema che un codice a barre è codificato secondo lo standard GS1. Fino a tre prefissi **(carattere FNC1**, **carattere Datamatrix** e **carattere QR code**) possono essere usati simultaneamente e per vari scopi.

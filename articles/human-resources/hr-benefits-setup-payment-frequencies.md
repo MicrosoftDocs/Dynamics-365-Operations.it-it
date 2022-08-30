@@ -14,19 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 969369eb0edb7e8cbb9358bc7c3965a0145eaef0
-ms.sourcegitcommit: a58dfb892e43921157014f0784bd411f5c40e454
+ms.openlocfilehash: 0472e2203cc20fcf0904d22778092721b4cbce41
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8687137"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9323930"
 ---
 # <a name="set-up-payment-frequencies"></a>Impostare le frequenze pagamenti
 
-
-[!INCLUDE [PEAP](../includes/peap-2.md)]
-
-[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Microsoft Dynamics 365 Human Resources utilizza frequenze di pagamento per calcolare la retribuzione benefit annuale, determinare l'importo del premio di benefit che un dipendente paga ogni periodo retributivo e definire la frequenza del pagamento per i fornitori.
 

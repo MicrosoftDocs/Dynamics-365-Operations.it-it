@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 17e336fb059880e54a1cba7c0079e7452925c24d
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 44e7dfdbc980c5df6b9426515365611bc0de45c2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219999"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335947"
 ---
 # <a name="zone-threshold-replenishment"></a>Rifornimento soglia di zona
 
@@ -38,7 +38,7 @@ A differenza del rifornimento min/max basato sull'ubicazione, il rifornimento mi
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Attiva la funzione di rifornimento della soglia di zona
 
-Prima di poter utilizzare la funzionalità *Rifornimento soglia di zona*, deve essere attivata nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Per poter utilizzare la funzionalità *Rifornimento soglia di zona*, è necessario attivarla per il sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Rifornimento soglia di zona*

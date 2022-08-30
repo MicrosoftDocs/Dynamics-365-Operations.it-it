@@ -2,7 +2,7 @@
 title: Dichiarazione di finito dal dispositivo scheda processo
 description: In questo articolo viene descritto come configurare il sistema di modo che gli utenti di un dispositivo scheda processo possano dichiarare finiti i prodotti da un ordine di produzione all'inventario.
 author: johanhoffmann
-ms.date: 07/31/2020
+ms.date: 08/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 38372f08db0258de8b5e653b4757c9fda96c8d70
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 56d19a966d93202668c34ffaaef561d72b7669ff
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070471"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334627"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Dichiarazione di finito dal dispositivo scheda processo
 
@@ -56,13 +56,12 @@ Il dispositivo scheda processo supporta tre scenari per la dichiarazione di arti
 - **Numeri di batch predefiniti:** i lavoratori selezionano un numero di batch in un elenco di numeri di batch che il sistema genera automaticamente prima che l'ordine di produzione venga rilasciato al dispositivo scheda processo.
 - **Numeri di batch fissi:** i lavoratori non inseriscono o selezionano un numero di batch. Il sistema assegna automaticamente un numero di batch all'ordine di produzione prima che venga rilasciato.
 
-
 ### <a name="enable-the-feature-on-your-system"></a>Abilitare la funzionalità nel sistema
 
-Per consentire ai dispositivi scheda processo di accettare un numero di batch durante la dichiarazione di finito, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità (in questo ordine):
+Per consentire ai dispositivi scheda processo di accettare un numero di batch durante la dichiarazione di finito, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità:
 
-1. Esperienza utente migliorata per la finestra di dialogo Segnala stato nel dispositivo scheda processo
-1. Abilitare per immettere numeri di serie e batch durante la dichiarazione di finito dal dispositivo scheda processo
+- *Esperienza utente migliorata per la finestra di dialogo Segnala stato nel dispositivo scheda processo*
+- *Abilitare per immettere numeri di serie e batch durante la dichiarazione di finito dal dispositivo scheda processo*<br>A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.
 
 ### <a name="configure-products-that-require-batch-number-reporting"></a>Configurare i prodotti che richiedono la segnalazione del numero di batch
 
@@ -137,10 +136,10 @@ Il dispositivo scheda processo supporta tre scenari per la dichiarazione di arti
 
 ### <a name="enable-the-feature-on-your-system"></a>Abilitare la funzionalità nel sistema
 
-Per consentire ai dispositivi scheda processo di accettare un numero di serie durante la dichiarazione di finito, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità (in questo ordine):
+Per consentire ai dispositivi scheda processo di accettare un numero di serie durante la dichiarazione di finito, è necessario utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le seguenti funzionalità:
 
-1. Esperienza utente migliorata per la finestra di dialogo Segnala stato nel dispositivo scheda processo
-1. Abilitare per immettere numeri di serie e batch durante la dichiarazione di finito dal dispositivo scheda processo
+- *Esperienza utente migliorata per la finestra di dialogo Segnala stato nel dispositivo scheda processo*
+- *Abilitare per immettere numeri di serie e batch durante la dichiarazione di finito dal dispositivo scheda processo*<br>A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.
 
 ### <a name="configure-products-that-require-serial-number-reporting"></a>Configurare i prodotti che richiedono la segnalazione del numero di serie
 

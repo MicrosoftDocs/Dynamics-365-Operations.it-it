@@ -2,7 +2,7 @@
 title: Consolidamento degli articoli e utilizzo delle ubicazioni
 description: Questo articolo fornisce informazioni sulle funzionalità che semplificano la visualizzazione e il filtraggio dell'utilizzo volumetrico delle ubicazioni nel magazzino per i responsabili del magazzino. I responsabili possono selezionare le ubicazioni e creare attività di movimentazione delle scorte direttamente dalla pagina Consolidamento articoli per consolidare gli articoli e quindi sfruttare meglio lo spazio del magazzino.
 author: Mirzaab
-ms.date: 07/16/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 7c78954659c125c919ed0debbd81023a3da02db3
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d0e52769de3f200e2bb3060b3d9cb19dc0847b69
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219444"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336425"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidamento degli articoli e utilizzo delle ubicazioni
 
@@ -30,8 +30,8 @@ Questo articolo fornisce informazioni sulle funzionalità che semplificano la vi
 
 Prima di poter utilizzare le funzionalità descritte in questo articolo, è necessario attivarle nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzionalità e attivarle se sono necessarie. Attivare entrambe le funzionalità seguenti, nell'ordine indicato (entrambe le funzionalità sono per il modulo **Gestione magazzino**).
 
-1. *Stato ubicazione magazzino* (a partire dalla versione 10.0.29, questa funzionalità è attivata per impostazione predefinita. Per ulteriori informazioni, vedi [Stato ubicazione magazzino](warehouse-location-status.md)).
-2. *Utilizzo ubicazione consolidamento articolo*
+1. *Stato ubicazione magazzino*<br>(a partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Per ulteriori informazioni, vedi [Stato ubicazione magazzino](warehouse-location-status.md)).
+2. *Utilizzo ubicazione consolidamento articolo*<br>(A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
 
 ## <a name="warehouse-location-status"></a>Stato ubicazione magazzino
 

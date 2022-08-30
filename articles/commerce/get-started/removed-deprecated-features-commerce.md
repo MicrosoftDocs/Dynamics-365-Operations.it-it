@@ -2,7 +2,7 @@
 title: Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 description: In questo articolo vengono descritte le funzionalità rimosse, o di cui è stata progettata la rimozione da Dynamics 365 Commerce.
 author: josaw1
-ms.date: 07/11/2022
+ms.date: 08/23/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 541e21999884a2d51b27009d72a2f8bc9084557f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 59ffcc00d67f6538980dec8965f894eb51f7230d
+ms.sourcegitcommit: 649f1db26da8f20602f11180fc565b7c59eaf545
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287625"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337598"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Funzionalità rimosse o deprecate in Dynamics 365 Commerce
 
@@ -33,6 +33,38 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 > [!NOTE]
 > Informazioni dettagliate sugli oggetti nelle app per la finanza e le operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per la finanza e le operazioni.
 
+## <a name="features-removed-or-deprecated-in-the-commerce-10029-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.29
+
+### <a name="commerce-parameters-setting---allow-price-adjustments-to-increase-product-price"></a>Impostazione dei parametri di Commerce - Consentire alle rettifiche prezzo di aumentare il prezzo del prodotto
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Avevamo questa impostazione per controllare se la funzione di rettifica del prezzo consentiva di aumentare il prezzo del prodotto. Quando questo parametro è disattivato, durante l'utilizzo della funzione di rettifica del prezzo, le organizzazioni possono impostare solo un prezzo unitario di un prodotto inferiore al relativo prezzo base e al prezzo di vendita dell'accordo commerciale. Deprechiamo questa impostazione poiché la funzione di rettifica del prezzo è stata aggiornata per supportare le rettifiche bidirezionali (aumento o diminuzione) pronte all'uso. |
+| **Sostituita da un'altra funzionalità?**   | Numero |
+| **Aree del prodotto interessate**         | Prezzi e sconti |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecata: questa impostazione è attivata per impostazione predefinita a partire dalla versione 10.0.29 di Commerce e verrà rimossa a ottobre 2023. |
+
+### <a name="commerce-parameters-setting---enable-price-report-for-retail-store"></a>Impostazione dei parametri di Commerce - Abilita report dei prezzi per punto vendita al dettaglio
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Avevamo questa impostazione per controllare se la funzione di report sui prezzi è disponibile per l'uso nel modulo di configurazione del punto vendita. Deprechiamo questa impostazione poiché il modulo di configurazione del punto vendita è stato aggiornato per fornire sempre la funzione di report sui prezzi come funzione standard. |
+| **Sostituita da un'altra funzionalità?**   | Numero |
+| **Aree del prodotto interessate**         | Prezzi e sconti |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecata: questa impostazione verrà rimossa a ottobre 2023. |
+
+### <a name="commerce-parameters-setting---use-todays-date-to-calculate-prices"></a>Impostazione dei parametri di Commerce - Utilizza la data odierna per calcolare i prezzi
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo della deprecazione/rimozione** | Il motore di determinazione dei prezzi standard di Supply Chain Management supporta il calcolo dei prezzi in base alla data di spedizione richiesta o alla data di ricevimento richiesta, insieme alla data odierna. Il motore di determinazione dei prezzi di Commerce supporta solo il calcolo dei prezzi in base alla data odierna. Per i clienti che utilizzano le funzionalità di Supply Chain Management e di Commerce, abbiamo fornito questa impostazione e consigliato ai clienti di impostarla sempre su **Sì** di modo che i due motori di determinazione dei prezzi possano lavorare insieme. Deprechiamo questa impostazione poiché non cambia il comportamento di calcolo ed è ridondante. |
+| **Sostituita da un'altra funzionalità?**   | Numero |
+| **Aree del prodotto interessate**         | Prezzi e sconti |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecata: questa impostazione è attivata per impostazione predefinita a partire dalla versione 10.0.29 di Commerce e verrà rimossa a ottobre 2023. |
+
 ## <a name="feature-deprecation-effective-july-2022"></a>Deprecazione delle funzionalità in vigore da giugno 2022
 
 ### <a name="commerce-analytics-preview"></a>Analisi di Commerce (anteprima)
@@ -44,21 +76,6 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Aree del prodotto interessate**         | Analisi di Commerce (anteprima) |
 | **Opzione di distribuzione**              | Tutti |
 | **Status**                         | Questa funzionalità verrà disabilitata il 30 agosto 2022.  A partire da questa data, non vi saranno aggiornamenti per i report Power BI correnti forniti da Analisi di Commerce (anteprima).     |
-
-
-## <a name="features-removed-or-deprecated-in-the-commerce-10025-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.25
-
-### <a name="modern-point-of-sale-mpos"></a>Modern Point of Sale (MPOS)
-
-L'applicazione Modern Point of Sale (MPOS) sarà deprecata nella versione 10.0.25 di Commerce e sostituita con l'app Store Commerce.
-
-| &nbsp;  | &nbsp; |
-|------------|--------------------|
-| **Motivo della deprecazione/rimozione** | Le app nel punto vendita sono la pietra angolare dell'offerta multicanale di Dynamics 365 Commerce. Innoviamo continuamente per fornire esperienze di negozio moderne e intelligenti e per modernizzare ulteriormente la nostra soluzione stiamo implementando nuove serie di modifiche che miglioreranno significativamente le operazioni IT e le esperienze degli utenti con le nostre applicazioni nel punto vendita esistenti su Windows. La nuova applicazione Store Commerce è un aggiornamento tecnologico del MPOS esistente. Fornisce prestazioni, affidabilità e supporto a lungo termine migliorati sulla piattaforma Windows ed elimina la necessità di ricomprimere l'app ad ogni aggiornamento. |
-| **Sostituita da un'altra funzionalità?**   |  [Store Commerce](../dev-itpro/store-commerce.md) |
-| **Aree del prodotto interessate**         | Modern Point of Sale |
-| **Opzione di distribuzione**              | Tutti |
-| **Status**                         | Deprecato: a partire dalla versione 10.0.25 di Commerce, il programma di installazione MPOS fornito tramite le macchine virtuali (VM) LCS verrà rimosso nell'ottobre 2023. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.21
 
@@ -131,7 +148,7 @@ Lo sviluppo di estensioni POS utilizzando ModernPos.sln, CloudPos.sln, POS.Exten
 | **Sostituita da un'altra funzionalità?**   | No |
 | **Aree del prodotto interessate**         | Dynamics 365 Commerce |
 | **Opzione di distribuzione**              | Tutti|
-| **Stato**                         | Deprecato. Non utilizzare questo campo né modificarne il valore.|
+| **Status**                         | Deprecato. Non utilizzare questo campo o non modificane il valore.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10015-release"></a>Funzionalità rimosse o deprecate nella versione Commerce 10.0.15
 

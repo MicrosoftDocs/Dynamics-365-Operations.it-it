@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 95afa46140de863ecdf61b0ef54e6d9e9ece91d7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ec7bc573329a0f8a37b2fd17dcb998ec161b04e8
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897315"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336337"
 ---
 # <a name="outbound-sorting"></a>Ordinamento in uscita
 
@@ -30,7 +30,7 @@ Questa funzionalità consente di creare pallet da contenitori imballati mediante
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Attivare la funzionalità Ordinamento in uscita
 
-Prima di poter utilizzare questa funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
+Per poter utilizzare questa funzionalità, è necessario attivarla per il sistema. Gli amministratori possono utilizzare l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzionalità e attivarla se necessario. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
 
 - **Modulo:** *Gestione Magazzino*
 - **Nome funzionalità:** *Ordinamento in uscita*

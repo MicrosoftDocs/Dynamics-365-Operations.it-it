@@ -14,17 +14,15 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40f9607fb6fc16b96373141d8d2610538e3fdec7
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b752b722bf63958fc35b10a4612f7f02e2e8e717
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8886104"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337045"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurare il ruolo di responsabile dei congedi
 
->[!Important]
->La funzionalità indicata in questo articolo è attualmente disponibile per i clienti di Dynamics 365 Human Resources standalone. Alcune o tutte le funzionalità saranno disponibili come parte di una versione futura dell'infrastruttura Finance dopo la versione Finance 10.0.26.
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,7 +35,6 @@ In alcune organizzazioni, i responsabili delle persone non gestiscono i congedi 
 ## <a name="turn-on-the-feature"></a>Attivare la funzionalità
 
 1. Nell'area di lavoro **Amministrazione sistema** seleziona **Gestione funzionalità**.
-
 2. Nella scheda **Gestione funzionalità** abilita la funzionalità **Responsabile dei congedi per la gestione dei congedi**.
 
 ## <a name="define-a-custom-hierarchy"></a>Definire una gerarchia personalizzata
@@ -45,37 +42,26 @@ In alcune organizzazioni, i responsabili delle persone non gestiscono i congedi 
 La funzionalità del responsabile dei congedi utilizza una gerarchia personalizzata che deve essere configurata.
 
 1. Nell'area di lavoro **Amministrazione organizzazione** seleziona **Tipi di gerarchia posizioni**.
-
 2. Crea un tipo di gerarchia posizioni denominato **Congedo**.
-
 3. Nell'area di lavoro **Congedo e assenza** sotto **Collegamenti**, seleziona **Parametri di congedo e assenza**.
-
 4. Nella scheda **Generale** nell'elenco a discesa **Gerarchia assenze** seleziona il tipo di gerarchia **Congedo** creato in precedenza. Questa associazione della gerarchia dei congedi deve essere completata per ogni persona giuridica in cui verrà utilizzata la funzionalità del responsabile dei congedi.
 
 Dopo aver definito il tipo di gerarchia, il report della gerarchia di posizioni deve essere assegnato alla posizione.
 
 1. Nell'area di lavoro **Amministrazione organizzazione** seleziona **Tutte le posizioni**.
-
 2. Seleziona la posizione da aggiungere alla gerarchia dei congedi.
-
 3. Nella scheda **Relazioni**, seleziona **Aggiungi**.
-
 4. Nel campo **Nome gerarchia** seleziona **Congedo**.
-
 5. Nel campo **Subordinato a** seleziona una posizione Il nome del lavoratore viene compilato automaticamente dopo aver selezionato una posizione.
 
 ## <a name="assign-the-absence-manager-role-to-a-user"></a>Assegnare il ruolo di responsabile dei congedi a un utente
 
 Il ruolo di Responsabile dei congedi deve essere assegnato ai dipendenti per consentire loro di approvare o rifiutare le richieste di congedo.
 
-1. Nell'area di lavoro **Amministratore di sistema** seleziona **Collegamenti**.
-
+1. Nell'area di lavoro **Amministrazione sistema** seleziona **Collegamenti**.
 2. Nella sezione **Utenti** seleziona il collegamento **Utenti**.
-
 3. Nell'elenco degli utenti, seleziona l'utente a cui assegnare il ruolo di Gestore dei congedi.
-
 4. Nella scheda **Ruolo utente**, seleziona **Assegna ruoli**.
-
 5. Nell'elenco, seleziona il ruolo **Responsabile dei congedi**. Selezionare **OK**.
 
     > [!IMPORTANT]
@@ -84,7 +70,6 @@ Il ruolo di Responsabile dei congedi deve essere assegnato ai dipendenti per con
 6. Dopo aver creato la gerarchia dei congedi, puoi visualizzarla seguendo questi passaggi:
 
     1. Nell'area di lavoro **Amministrazione organizzazione** seleziona **Gerarchia posizioni**.
-    
     2. Nel campo **Tipo di gerarchia** seleziona **Congedo**.
 
 ## <a name="absence-manager-workspace"></a>Area di lavoro del responsabile delle assenze
@@ -115,9 +100,7 @@ I responsabili dei congedi possono approvare o negare le richieste di permesso p
 > Per informazioni su come creare il flusso di lavoro delle richieste di congedo, vedi [Creare un flusso di lavoro di richieste di congedo](hr-leave-and-absence-workflow.md).
 
 1. Nell'area di lavoro **Self-service dipendenti** seleziona la scheda **Gestione dei congedi**.
-
 2. Nella scheda **Richieste di permesso**, seleziona le richieste di permesso su cui desideri intervenire. Puoi selezionare più record in questa visualizzazione elenco.
-
 3. Utilizza i pulsanti di azione nella parte superiore della griglia per approvare, negare o delegare la richiesta di permesso. 
 
 In alternativa, l'utente può anche utilizzare il riquadro **Richieste di permesso** a sinistra per accedere all'elenco di tutti gli elementi di lavoro delle richieste di permesso. 
@@ -130,9 +113,7 @@ Gli utenti con il ruolo di responsabile dei congedi possono visualizzare le rich
 > Un amministratore di sistema deve configurare le opzioni di visualizzazione per il calendario del responsabile dei congedi. Nella pagina **Parametri congedi e assenze** nella scheda **Calendario** ci sono le opzioni per nascondere o mostrare compleanni, assenze senza dettagli, congedi, e richieste di congedo in sospeso. C'è anche un'opzione per filtrare l'opzione di visualizzazione del calendario per tipo di lavoratore.
 
 1. Nell'area di lavoro **Self-service dipendenti** seleziona **Gestone dei congedi** e **Calendario responsabile dei congedi**.
-
 2. Immetti la data desiderata nel campo **Data**.
-
 3. Aggiorna le opzioni di visualizzazione come richiesto.
 
 Il calendario del responsabile dei congedi mostra tutti i record per i dipendenti che riportano al responsabile dei congedi nella gerarchia dei congedi.

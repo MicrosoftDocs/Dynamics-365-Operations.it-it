@@ -2,7 +2,7 @@
 title: Programmare la pulizia dei dati dello storico vendite
 description: In questo articolo viene descritto come migliorare le prestazioni del sistema pianificando l'attività periodica di pulizia della cronologia degli aggiornamenti delle vendite in modo che venga eseguita a intervalli regolari.
 author: myvakalo
-ms.date: 03/21/2022
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-09-29
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1b2c9436fbb5020065f8f6ec30eedeca342d8aa9
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e9a4dd5372afa8a0452449d1cb9121107e6e1610
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8900827"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335505"
 ---
 # <a name="schedule-sales-history-data-cleanup"></a>Programmare la pulizia dei dati dello storico vendite
 
@@ -42,7 +42,7 @@ La funzione migliora il lavoro di pulizia esistente nei seguenti modi:
 
 Dopo aver abilitato la funzionalità, il lavoro in batch **pulizia della cronologia degli aggiornamenti delle vendite** (**Vendite e marketing \> Attività periodo \> Pulizia \> Pulizia della cronologia degli aggiornamenti delle vendite**) verrà eseguito come prima, ma con prestazioni migliori per un massimo di 2 ore. Ciò significa che potrebbe essere necessario eseguirlo più volte per ripulire tutti i dati per un intervallo di tempo di conservazione specifico.
 
-Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+Per poter utilizzare la funzionalità, è necessario attivarla per il sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
 
 - **Modulo:** *Vendite e marketing*
 - **Nome funzionalità:** *Miglioramenti delle prestazioni di pulizia della cronologia delle vendite*
@@ -51,10 +51,7 @@ Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli a
 
 La funzionalità *Pulisci storico aggiornamento vendite in base alla validità* ti consente di specificare l'età massima dei record da conservare durante l'esecuzione dell'attività periodica *Pulizia dello storico aggiornamenti delle vendite*. I record più vecchi verranno eliminati. La funzionalità è utile quando si imposta l'attività per l'esecuzione periodica perché l'età viene sempre calcolata rispetto alla data di esecuzione dell'attività. Se non usi questa funzionalità, puoi solo impostare una data specifica per i record più vecchi da conservare.
 
-Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
-
-- **Modulo:** *Vendite e marketing*
-- **Nome funzionalità:** *Pulisci storico aggiornamento vendite in base alla validità*
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Pulisci storico aggiornamento vendite in base alla validità* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="set-up-and-schedule-the-sales-history-cleanup-periodic-task"></a>Impostare e pianificare l'attività periodica di pulizia della cronologia delle vendite
 

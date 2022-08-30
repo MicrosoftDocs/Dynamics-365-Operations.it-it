@@ -2,7 +2,7 @@
 title: Configurare i campi promossi per i passaggi nell'app per dispositivi mobili Warehouse Management
 description: In questo articolo viene descritto come promuovere ed evidenziare specifiche informazioni per i passaggi nei flussi di attività per l'app per dispositivi mobili Warehouse Management.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8ecca2d00b8753a405faa8d4c67c3cbb1eef6907
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 3451b1aec525cd0738af558b183f8676d20294a0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218976"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336067"
 ---
 # <a name="configure-promoted-fields-for-steps-in-the-warehouse-management-mobile-app"></a>Configurare i campi promossi per i passaggi nell'app per dispositivi mobili Warehouse Management
 
@@ -29,19 +29,12 @@ In questo articolo viene descritto come promuovere ed evidenziare specifiche inf
 
 ## <a name="enable-promoted-fields-in-your-system"></a>Abilitare i campi promossi nel tuo sistema
 
-Prima di poter impostare i campi promossi, è necessario completare la procedura seguente per abilitare le funzionalità richieste e generare i nomi dei campi richiesti nell'app per dispositivi mobili Warehouse Management.
+Se stai eseguendo Supply Chain Management versione 10.0.28 o precedente, prima di poter impostare i campi promossi, devi completare la procedura seguente per abilitare le funzionalità richieste e generare i nomi dei campi richiesti nell'app per dispositivi mobili Warehouse Management. Se si sta eseguendo Supply Chain Management versione 10.0.29 o successiva, le funzionalità sono obbligatorie e non possono essere disattivate, quindi puoi saltare questa procedura.
 
-1. Vai a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
-1. Assicurati che la funzionalità *Istruzioni per i passaggi dell'app di magazzino* sia attivata per il tuo sistema. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Per ulteriori informazioni sulla funzionalità *Istruzioni per i passaggi dell'app di magazzino*, vedi [Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management](mobile-app-titles-instructions.md). Questa funzione è un prerequisito per la funzionalità *Campi promossi dell'app di magazzino*.
-1. Abilita la funzionalità elencata nel modo seguente:
-
-    - **Modulo:** *Gestione Magazzino*
-    - **Nome funzionalità:** *Campi promossi dall'app di magazzino*
-
-    Questa è la funzionalità descritta in questo articolo.
-
-1. Aggiorna i nomi dei campi nell'app per dispositivi mobili Warehouse Management andando in **Warehouse Management \> Impostazioni \> Dispositivo mobile \> Nomi dei campi dell'app di magazzino** e selezionando **Crea impostazione predefinita**. Per ulteriori informazioni, vedi [Configurare i campi per l'app per dispositivi mobili Gestione magazzino](configure-app-field-names-priorities-warehouse.md).
-1. Ripeti il passaggio precedente per ogni persona giuridica (società) in cui si utilizza l'app per dispositivi mobili Warehouse Management.
+1. Vai a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**. (per ulteriori informazioni su questa pagina, vedi [Panoramica di Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)).
+1. Assicurati che la funzionalità *Istruzioni per i passaggi dell'app di magazzino* sia attivata per il tuo sistema. Questa funzione è un prerequisito per la funzionalità *Campi promossi dell'app di magazzino*. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Per ulteriori informazioni sulla funzionalità *Istruzioni per i passaggi dell'app di magazzino*, vedi [Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management](mobile-app-titles-instructions.md).
+1. Assicurati che la funzionalità *Campi promossi dell'app di magazzino* sia attivata per il sistema. Questa è la funzionalità descritta in questo articolo. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata.
+1. Aggiorna i nomi dei campi nell'app per dispositivi mobili Warehouse Management andando in **Warehouse Management \> Impostazioni \> Dispositivo mobile \> Nomi dei campi dell'app di magazzino** e selezionando **Crea impostazione predefinita**. Ripeti questo passaggio per ogni persona giuridica (società) in cui utilizzi l'app per dispositivi mobili Warehouse Management. Per ulteriori informazioni, vedi [Configurare i campi per l'app per dispositivi mobili Gestione magazzino](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-promoted-fields-from-a-menu-specific-override"></a>Configurare campi promossi da un override specifico del menu
 

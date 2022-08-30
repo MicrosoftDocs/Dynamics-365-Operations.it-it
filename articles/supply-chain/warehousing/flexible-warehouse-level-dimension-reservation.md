@@ -2,7 +2,7 @@
 title: Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 description: In questo articolo vengono descritti i criteri di prenotazione di inventario che consentono alle aziende che vendono prodotti tracciati in batch ed eseguono la propria logistica come operazioni abilitate WMS di prenotare batch specifici per gli ordini cliente, anche se la gerarchia di prenotazioni associata ai prodotti impedisce la prenotazione di specifici batch.
 author: perlynne
-ms.date: 07/31/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: d515fb46dcc2d135412d140b98f0578cae89c409
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 64855460ddf015f936fe695fc68938067f31b0cc
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065900"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335707"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Criteri flessibili di prenotazione delle dimensioni a livello di magazzino
 
@@ -196,12 +196,12 @@ In questo scenario, un'azienda utilizza la gestione del magazzino e l'elaborazio
 - Una targa può essere registrata e prenotata quando l'ordine viene preso dall'addetto alle vendite e non può essere preso da altre domande. Questo comportamento garantisce che la targa pianificata sia spedita al cliente.
 - Se la targa non è già assegnata a una riga ordine cliente, il personale del magazzino può selezionare una targa durante il lavoro di prelievo, dopo che la registrazione e la prenotazione dell'ordine cliente sono state completate.
 
-### <a name="turn-on-flexible-license-plate-reservation"></a>Attivare la prenotazione flessibile della targa
+### <a name="turn-flexible-license-plate-reservation-on-or-off"></a>Attivare o disattivare la prenotazione flessibile della targa
 
-Prima di poter utilizzare la prenotazione flessibile della targa, due funzionalità devono essere attivate nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzionalità e attivarle se sono obbligatorie. È necessario attivare le funzionalità nel seguente ordine:
+Per poter utilizzare la prenotazione flessibile della targa, due funzionalità devono essere attivate per il sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzionalità e attivarle se sono obbligatorie. È necessario attivare le funzionalità nel seguente ordine:
 
-1. **Nome funzionalità:** *Prenotazione flessibile delle dimensioni a livello di magazzino*
-1. **Nome funzionalità:** *Prenotazione flessibile della targa impegnata nell'ordine*
+1. *Prenotazione flessibile di dimensioni a livello di magazzino*<br>(a partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata).
+1. *Prenotazione targa impegnata dell'ordine flessibile*<br>(a partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata).
 
 ### <a name="reserve-a-specific-license-plate-on-the-sales-order"></a>Prenotare una targa specifica sull'ordine cliente
 

@@ -2,7 +2,7 @@
 title: Interfaccia attrezzatura movimentazione materiali (MHAX)
 description: In questo articolo viene descritto come impostare l'interfaccia attrezzatura movimentazione materiali (MHAX) di modo che sia possibile connettersi a sistemi di movimentazione materiali (MH) fisici esterni.
 author: Mirzaab
-ms.date: 03/04/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dc46c9fea94c3d86f9511c2bea4ea64455c936f9
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 1056c7aee3ea96ddcb012704be40bef6c363f323
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068361"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334357"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interfaccia attrezzatura movimentazione materiali (MHAX)
 
@@ -41,12 +41,13 @@ Di seguito viene riportata una spiegazione delle interazioni mostrate nell'illus
 
 Per poter utilizzare la funzionalità MHAX, è necessario attivare tale funzionalità nonché la relativa chiave di configurazione.
 
-1. Andare a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
-2. Nell'area di lavoro **[Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**, attivare la funzionalità denominata *Interfaccia attrezzatura movimentazione materiali*.
-3. Mettere il sistema in modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-4. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
-5. Espandere **Commercio \> Gestione magazzino e trasporto**, quindi selezionare la casella di controllo **Interfaccia attrezzatura movimentazione materiali**.
-6. Disattivare la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Se stai eseguendo Supply Chain Management versione 10.0.28 o precedente, procedi come segue:
+    1. Vai a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
+    1. Nell'area di lavoro **[Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**, attivare la funzionalità denominata *Interfaccia attrezzatura movimentazione materiali*. (a partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata).
+1. Mettere il sistema in modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.
+1. Espandere **Commercio \> Gestione magazzino e trasporto**, quindi selezionare la casella di controllo **Interfaccia attrezzatura movimentazione materiali**.
+1. Disattivare la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 ## <a name="set-mhax-parameters"></a>Impostare i parametri MHAX
 

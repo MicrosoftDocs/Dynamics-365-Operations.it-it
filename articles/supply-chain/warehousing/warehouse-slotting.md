@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: d319a1130facbc2988cc074960e6cdfbe053a2d6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: bb86800f1491e8cb9ad629ed6cc1c76e9393e945
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218946"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336037"
 ---
 # <a name="warehouse-slotting"></a>Assegnazione magazzino
 
@@ -34,7 +34,7 @@ La funzione *Allocazione dell'assegnazione di magazzino migliorata* aggiunge un'
 
 ## <a name="turn-on-the-warehouse-slotting-features"></a>Attivare le funzioni di assegnazione magazzino
 
-Prima di poter utilizzare queste funzionalità, è necessario attivarle nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzionalità e attivarle se sono obbligatorie. Attivare le seguenti funzionalità come richiesto:
+Prima di poter utilizzare queste funzionalità, è necessario attivarle per il sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato delle funzionalità e attivarle se sono obbligatorie. Attivare le seguenti funzionalità come richiesto:
 
 - Funzionalità di assegnazione magazzino
 - Assegnazione magazzino per ordini di trasferimento

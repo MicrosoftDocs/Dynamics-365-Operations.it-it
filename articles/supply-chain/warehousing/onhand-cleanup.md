@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: a82a3b26f2bf7cb546383da047d18c2997569ca5
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: df20f00a639d237bf8446f24a2ad4cbbfcf36615
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065151"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334387"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Processo di pulizia delle voci disponibili per la gestione del magazzino
 
@@ -39,7 +39,7 @@ Se un inventario fisico negativo è consentito, il processo di pulizia potrebbe 
 Il processo di pulizia delle voci disponibili è disponibile in **Gestione scorte \> Attività periodiche \> Pulizia \> Processo di pulizia delle voci disponibili per la gestione del magazzino**. Utilizzare le impostazioni del processo standard per controllare l'ambito e la pianificazione per l'esecuzione del processo. Inoltre, sono disponibili le seguenti impostazioni:
 
 - **Elimina se non aggiornato da giorni** - Immettere il numero minimo di giorni che il processo deve attendere prima di eliminare una voce disponibile la cui quantità è scesa a zero. Utilizzare questa impostazione per ridurre il rischio di eliminare le voci disponibili ancora in uso. Se la pulizia deve essere eseguita il più presto possibile, immettere *0* (zero) o lasciare vuoto il campo.
-- **Tempo di esecuzione massimo (ore)** - Immettere il tempo di esecuzione massimo del processo di pulizia, in ore. Se il processo non viene completato prima della scadenza di tale periodo di tempo, salverà il lavoro completato fino a quel momento e quindi si chiuderà automaticamente. Questa funzionalità è particolarmente rilevante per le implementazioni che fanno un utilizzo elevato delle scorte. In questi casi, è necessario pianificare il processo affinché venga eseguito quando il carico del sistema è il più basso possibile. Se il processo batch deve continuare a essere eseguito fino al completamento, immettere *0* (zero) o lasciare il campo vuoto. Questa impostazione è disponibile solo se la relativa funzionalità è stata [attivata nel sistema](#max-execution-time).
+- **Tempo di esecuzione massimo (ore)** - Immettere il tempo di esecuzione massimo del processo di pulizia, in ore. Se il processo non viene completato prima della scadenza di tale periodo di tempo, salverà il lavoro completato fino a quel momento e quindi si chiuderà automaticamente. Questa funzionalità è particolarmente rilevante per le implementazioni che fanno un utilizzo elevato delle scorte. In questi casi, è necessario pianificare il processo affinché venga eseguito quando il carico del sistema è il più basso possibile. Se il processo batch deve continuare a essere eseguito fino al completamento, immettere *0* (zero) o lasciare il campo vuoto. Questa impostazione è disponibile solo se la relativa funzionalità è stata [attivata per il sistema](#max-execution-time).
 
 Sebbene sia possibile eseguire il processo durante il normale orario lavorativo, si consiglia di eseguirlo in altri periodi della giornata. In questo modo, si prevengono i conflitti che possono verificarsi se un utente sta utilizzando un record che viene anch'esso pulito.
 

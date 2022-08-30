@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: acfd9be044818ab0f40171c25a8fc9e760173aa8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a8deb71713619b4be6c875223ab3b1f08499dfb2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867929"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335137"
 ---
 # <a name="product-dimensions"></a>Dimensioni prodotto
 
@@ -108,9 +108,9 @@ In fase di verifica delle soluzioni per la compatibilità con la dimensione dell
 
 #### <a name="turn-on-the-version-dimension"></a>Abilitare la dimensione della versione
 
-Prima di poter utilizzare la dimensione della versione, è necessario attivarla nel sistema. Questa attività richiede autorizzazioni di amministratore.
+Per poter utilizzare la dimensione della versione, è necessario attivarla per il sistema. Questa attività richiede autorizzazioni di amministratore.
 
-1. Andare a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
+1. Vai a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
 1. Attiva la funzionalità denominata *Versione dimensione prodotto*. Per ulteriori informazioni, vedere [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Mettere il sistema in [Modalità manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Accedere a **Amministrazione sistema \> Imposta \> Configurazione licenza**.

@@ -2,7 +2,7 @@
 title: Elaborazione differita del movimento manuale delle scorte
 description: In questo articolo viene descritto come utilizzare l'elaborazione differita del movimento manuale delle scorte in Microsoft Dynamics 365 Supply Chain Management.
 author: Mirzaab
-ms.date: 04/27/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSWorkProcessingPolicy, WHSWorkDeferredPutProcessingTask
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a8dd322446843af41214e8daa0822939d0468f0
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 9acacaddbde22d05d85ab9e11cd1d6de62337a6a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219810"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336397"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Elaborazione differita del movimento manuale delle scorte
 
@@ -32,10 +32,10 @@ L'elaborazione in background si ottiene utilizzando la [funzionalità Elabora ev
 
 Per rendere disponibile questa funzionalità, attivare le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md): Devi attivarle in questo ordine:
 
-1. *Blocco lavoro a livello di organizzazione*<br>(A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
-1. *Elabora eventi dell'app magazzino*<br>A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria. Pertanto, è attivata per impostazione predefinita e non può essere disattivata di nuovo.
-1. *Operazioni Put differite*
-1. *Elaborazione differita dell'operazione di movimento scorte manuale*<br>(A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
+1. *Blocco lavoro a livello di organizzazione*<br>(a partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata).
+1. *Elabora eventi dell'app magazzino*<br>A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. (a partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata).
+1. *Operazioni Put differite*<br>(a partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata).
+1. *Elaborazione differita dell'operazione di movimento scorte manuale*<br>(a partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata).
 
 ## <a name="configure-the-work-processing-policies"></a>Configurare i criteri di elaborazione del lavoro
 

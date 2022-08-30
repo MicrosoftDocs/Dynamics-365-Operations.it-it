@@ -2,7 +2,7 @@
 title: Spedizione pacchi di piccole dimensioni
 description: In questo articolo vengono fornite informazioni sulla funzionalità di spedizione di pacchi di piccole dimensioni. Questa funzionalità consente a Microsoft Dynamics 365 Supply Chain Management di inviare i dettagli su un contenitore imballato al vettore, quindi ricevere un'etichetta di spedizione, una tariffa di spedizione e un numero di riferimento da quel vettore.
 author: Mirzaab
-ms.date: 01/08/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 6ccc9c795e2da121acf9c0809aef99a5f9d5889e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: b2adde2b81ed881a3c81193a2220fbe569069c7c
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219720"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336157"
 ---
 # <a name="small-parcel-shipping"></a>Spedizione pacchi di piccole dimensioni
 
@@ -34,12 +34,9 @@ La tariffa di spedizione restituita viene aggiunta all'ordine cliente associato 
 
 Prima di poter iniziare a utilizzare la funzionalità di spedizione di pacchi di piccole dimensioni:, è necessario attivare la funzionalità spedizione di pacchi di piccole dimensioni: in Gestione delle funzionalità, aggiungere il motore tariffe e configurare i moduli **Gestione trasporti** e **Gestione magazzino** per supportarlo.
 
-### <a name="turn-on-the-sps-feature"></a>Attivare la funzionalità di spedizione di pacchi di piccole dimensioni
+### <a name="turn-the-sps-feature-on-or-off"></a>Attivare o disattivare la funzionalità Spedizione pacchi di piccole dimensioni
 
-Prima di poter utilizzare questa funzionalità, è necessario attivarla nel sistema. Gli amministratori possono utilizzare l'area di lavoro della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e se necessario abilitarla. Nell'area di lavoro, la funzionalità è elencata nel modo seguente:
-
-- **Modulo:** *Gestione trasporto*
-- **Nome funzionalità:** *Spedizione di pacchi di piccole dimensioni*
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Spedizione pacchi di piccole dimensioni* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="deploy-and-set-up-rate-engines"></a>Distribuire e configurare i motori tariffe
 

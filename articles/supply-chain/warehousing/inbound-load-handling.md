@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c48d240b346acacf2988fbaac69308ee655dced6
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 38d5ba96690dd855556a7f69591ef5b9ee5f9d7b
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219504"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335677"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Gestione magazzino dei carichi in entrata per gli ordini fornitore
 
@@ -259,7 +259,7 @@ Le aziende che utilizzano i carichi per pianificare e gestire il trasporto e la 
 
 ### <a name="prepare-your-system-to-run-the-sample-scenarios"></a>Preparare il sistema per eseguire gli scenari di esempio
 
-Per eseguire gli scenari di esempio descritti in questa sezione, è necessario innanzitutto assicurarsi che tutte le funzionalità richieste siano attivate nel sistema. I dati dimostrativi richiesti devono anche essere disponibili nel sistema.
+Per eseguire gli scenari di esempio descritti in questa sezione, è necessario innanzitutto assicurarsi che tutte le funzionalità richieste siano attivate per il sistema. I dati dimostrativi richiesti devono anche essere disponibili nel sistema.
 
 #### <a name="turn-on-the-required-features"></a>Attivare le funzionalità richieste
 

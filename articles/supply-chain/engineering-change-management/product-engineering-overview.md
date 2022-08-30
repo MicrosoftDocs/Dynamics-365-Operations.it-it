@@ -2,7 +2,7 @@
 title: Panoramica della gestione delle modifiche di progettazione (video)
 description: Questo articolo fornisce una panoramica della gestione delle modifiche di progettazione, che consente di pianificare e gestire il controllo delle versioni del prodotto e gestire i cicli di vita del prodotto e le modifiche di progettazione.
 author: t-benebo
-ms.date: 01/11/2022
+ms.date: 08/09/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3a27548fff9728c74814fb92438da1d0c17b5e2b
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067394"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334867"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -76,16 +76,16 @@ Successivamente, attivare le chiavi di configurazione procedendo come segue. Que
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Attivare le funzionalità di gestione delle modifiche di progettazione aggiuntive
 
-Dopo aver attivato le funzionalità di base di gestione delle modifiche di progettazione e le relative chiavi di configurazione, vengono aggiunte diverse funzionalità aggiuntive e facoltative di gestione delle modifiche di progettazione. Ciascuna di tali funzionalità è elencata nel modulo **Gestione modifiche di progettazione**. La tabella seguente descrive ogni funzione facoltativa e fornisce collegamenti per ulteriori informazioni. A partire dalla versione 10.0.25 di Supply Chain Management, tutte queste funzionalità sono attivate per impostazione predefinita, ma puoi comunque scegliere di disattivarle.
+Dopo aver attivato le funzionalità di base di gestione delle modifiche di progettazione e le relative chiavi di configurazione, vengono aggiunte diverse funzionalità aggiuntive e facoltative di gestione delle modifiche di progettazione. Ciascuna di tali funzionalità è elencata nel modulo **Gestione modifiche di progettazione**. La tabella seguente descrive ogni funzione facoltativa e fornisce collegamenti per ulteriori informazioni.
 
 | Nome della funzionalita in gestione funzionalità | Description | Stato funzionalità |
 |---|---|---|
-| Abilita gestione modifiche su prodotti esistenti | <p>Questa funzionalità consente di convertire i prodotti esistenti in prodotti di progettazione in modo da iniziare a utilizzarli tramite la gestione delle modifiche di progettazione.</p><p>Per ulteriori informazioni, vedere [Abilitare la gestione delle modifiche in prodotti esistenti](change-management-existing-products.md).</p> |
-| Notifiche di progettazione per la produzione | <p>Quando un prodotto viene modificato in fase di progettazione, potrebbe essere importante informare la produzione in relazioni a tali modifiche. In questo modo, gli addetti alla produzione possono intraprendere le azioni appropriate, come la sostituzione dei componenti, della distinta base (DBA) o del percorso. Questa funzionalità consente di notificare al reparto produzione le modifiche ai prodotti in fase di produzione stessa.</p><p>Per ulteriori informazioni, vedere [Gestire le modifiche ai prodotti di progettazione](engineering-change-management.md).</p> |
-| Ereditarietà degli attributi migliorata per la gestione modifiche di progettazione | <p>Questa funzionalità semplifica la gestione degli attributi per prodotti finiti o articoli intermedi. Quando questa funzione è attivata, è più facile identificare tutti gli attributi che appartengono a un articolo ed è possibile selezionare gli attributi che devono essere propagati da quell'articolo al relativo articolo padre. Questa funzione è utile quando, ad esempio, un componente di un prodotto finito è fragile, tossico o infiammabile, perché è possibile identificare facilmente l'attributo fragile, tossico o infiammabile e propagarlo al prodotto finito.</p><p>Per ulteriori informazioni, vedere [Attributi di progettazione e ricerca di attributi di progettazione](engineering-attributes-and-search.md).</p> |
-| Controlli di disponibilità prodotto | <p>Tale funzionalità consente di configurare controlli di disponibilità standard (non tecnici). Utilizzare i controlli di disponibilità del prodotto per garantire che ogni prodotto sia completamente definito e che tutti i criteri richiesti siano configurati prima che il prodotto sia reso disponibile e utilizzato nelle transazioni. Se si disattiva questa funzione dopo averla utilizzata per un certo periodo di tempo, tutti i controlli di disponibilità esistenti per i prodotti standard verranno eliminati.</p><p>Per ulteriori informazioni, vedere [Preparazione del prodotto](product-readiness.md).</p> |
-| Gestisci modifiche a formule e relativi ingredienti | <p>Questa funzionalità consente di tenere traccia delle modifiche agli ingredienti della formula, ai coprodotti e ai sottoprodotti.</p><p>Per altre informazioni, vedi [Gestisci le modifiche nelle formule e nei loro ingredienti](manage-formula-changes.md).</p> |
-| Generazione di varianti per prodotti di progettazione | <p>Questa funzionalità consente di generare varianti per prodotti di progettazione, in base ai valori delle dimensioni disponibili.</p><p>Per ulteriori informazioni, vedere [Generare varianti per prodotti di progettazione](engineering-variants.md).</p> |
+| Abilita gestione modifiche su prodotti esistenti | <p>Questa funzionalità consente di convertire i prodotti esistenti in prodotti di progettazione in modo da iniziare a utilizzarli tramite la gestione delle modifiche di progettazione.</p><p>Per ulteriori informazioni, vedere [Abilitare la gestione delle modifiche in prodotti esistenti](change-management-existing-products.md).</p> | Attivata per impostazione predefinita a partire dalla versione 10.0.25. |
+| Notifiche di progettazione per la produzione | <p>Quando un prodotto viene modificato in fase di progettazione, potrebbe essere importante informare la produzione in relazioni a tali modifiche. In questo modo, gli addetti alla produzione possono intraprendere le azioni appropriate, come la sostituzione dei componenti, della distinta base (DBA) o del percorso. Questa funzionalità consente di notificare al reparto produzione le modifiche ai prodotti in fase di produzione stessa.</p><p>Per ulteriori informazioni, vedere [Gestire le modifiche ai prodotti di progettazione](engineering-change-management.md).</p> |  Attivata per impostazione predefinita a partire dalla versione 10.0.25. |
+| Ereditarietà degli attributi migliorata per la gestione modifiche di progettazione | <p>Questa funzionalità semplifica la gestione degli attributi per prodotti finiti o articoli intermedi. Quando questa funzione è attivata, è più facile identificare tutti gli attributi che appartengono a un articolo ed è possibile selezionare gli attributi che devono essere propagati da quell'articolo al relativo articolo padre. Questa funzione è utile quando, ad esempio, un componente di un prodotto finito è fragile, tossico o infiammabile, perché è possibile identificare facilmente l'attributo fragile, tossico o infiammabile e propagarlo al prodotto finito.</p><p>Per ulteriori informazioni, vedere [Attributi di progettazione e ricerca di attributi di progettazione](engineering-attributes-and-search.md).</p> |  Attivata per impostazione predefinita a partire dalla versione 10.0.25. |
+| Controlli di disponibilità prodotto | <p>Tale funzionalità consente di configurare controlli di disponibilità standard (non tecnici). Utilizzare i controlli di disponibilità del prodotto per garantire che ogni prodotto sia completamente definito e che tutti i criteri richiesti siano configurati prima che il prodotto sia reso disponibile e utilizzato nelle transazioni. Se si disattiva questa funzione dopo averla utilizzata per un certo periodo di tempo, tutti i controlli di disponibilità esistenti per i prodotti standard verranno eliminati.</p><p>Per ulteriori informazioni, vedere [Preparazione del prodotto](product-readiness.md).</p> |  Attivata per impostazione predefinita a partire dalla versione 10.0.25. |
+| Gestisci modifiche a formule e relativi ingredienti | <p>Questa funzionalità consente di tenere traccia delle modifiche agli ingredienti della formula, ai coprodotti e ai sottoprodotti.</p><p>Per altre informazioni, vedi [Gestisci le modifiche nelle formule e nei loro ingredienti](manage-formula-changes.md).</p> |  Attivata per impostazione predefinita a partire dalla versione 10.0.25. |
+| Generazione di varianti per prodotti di progettazione | <p>Questa funzionalità consente di generare varianti per prodotti di progettazione, in base ai valori delle dimensioni disponibili.</p><p>Per ulteriori informazioni, vedere [Generare varianti per prodotti di progettazione](engineering-variants.md).</p> |  Attivata per impostazione predefinita a partire dalla versione 10.0.25. |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
 

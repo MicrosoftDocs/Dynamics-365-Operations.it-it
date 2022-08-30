@@ -2,7 +2,7 @@
 title: Blocco scorte
 description: Questo articolo fornisce una panoramica del blocco scorte, che fa parte del processo di ispezione qualità in Supply Chain Management. È possibile utilizzare il blocco scorte per impedire l'elaborazione o il consumo degli articoli.
 author: yufeihuang
-ms.date: 03/02/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7a16c41b56b30098945a6fbdb02577624b6e173
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 83b5417dc24af85f09e6713f2b12fdc358f61d54
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857810"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334687"
 ---
 # <a name="inventory-blocking"></a>Blocco scorte
 
@@ -96,11 +96,11 @@ Quando l'opzione **Prenota articoli ordinati** è disabilitata, le entrate previ
 
 Notare la differenza nello stato della transazione e nelle dimensioni tra i due casi. Per questo motivo, consigliamo di abilitare l'opzione **Prenota articoli ordinati**.
 
-### <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory-feature"></a>Funzionalità Disabilita ricevute previste da ordini di controllo qualità che campionano scorte bloccate
+## <a name="disable-expected-receipts-from-quality-orders-that-sample-blocked-inventory"></a>Disabilitare le ricevute previste dagli ordini di controllo qualità che campionano le scorte bloccate
 
 Per semplificare le transazioni di magazzino nel caso di ordini di controllo qualità che campionano scorte bloccate come conseguenza dello stato delle scorte, il sistema fornisce una funzionalità che disabilita le ricevute previste da tali ordini di controllo qualità. Poiché la ricevuta prevista viene immediatamente bloccata dal blocco dello stato delle scorte, non vi è alcuna riduzione delle scorte disponibili a causa di questa modifica.
 
-Per impostazione predefinita, questa funzionalità è disattivata. Gli amministratori possono attivarla o disattivarla cercando la funzionalità *Disabilita ricevute previste da ordini di controllo qualità che campionano scorte bloccate* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Disabilita ricevute previste da ordini di controllo qualità che campionano scorte bloccate* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

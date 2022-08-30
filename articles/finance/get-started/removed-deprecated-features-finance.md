@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 4f2a1984d39713daa84f15422d7e0680b7f6c601
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
+ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219570"
+ms.lasthandoff: 08/18/2022
+ms.locfileid: "9313885"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -46,6 +46,17 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Aree del prodotto interessate** | Domanda di lavoro |
 | **Opzione di distribuzione** | Tutti |
 | **Status** | Deprecata: dopo aprile 2023, la funzionalità **Ordini di trasferimento scorte con imposta sul prezzo di trasferimento** non riceverà più supporto per correzioni di bug e correzioni di sicurezza. Ai clienti verrà chiesto di utilizzare la funzionalità migliorata, [Ordini di trasferimento stock per l'India](../../finance/localizations/apac-ind-stock-transfer.md). Dopo ottobre 2023, la funzionalità **Ordini di trasferimento scorte con imposta sul prezzo di trasferimento** non sarà più disponibile e ai clienti verrà chiesto di passare alla funzionalità migliorata. |
+
+### <a name="bank-statement-import-and-export-of-positive-pay-file"></a>Importazione ed esportazione dei rendiconti bancari del file pagamenti sicuri
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motivo della deprecazione/rimozione** |Sostituito da funzionalità migliorate, importa rendiconti bancari ed esporta il file pagamenti positivi.| 
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate**         | Domanda di lavoro |
+| **Opzione di distribuzione**              | Tutti |
+| **Status**                         | Deprecato: la funzionalità XSLT per l'importazione e l'esportazione di file non riceverà più supporto con correzioni di bug e correzioni di sicurezza. Ai clienti verrà chiesto di utilizzare la funzionalità migliorata: [Impostare file di pagamento sicuri utilizzando la creazione di report elettronici](../../finance/accounts-payable/set-up-positive-pay-er.md) e [Impostare il processo di importazione della riconciliazione estratti conto avanzata mediante la creazione di report elettronici](../../finance/accounts-payable/import-bai2-er.md). Dopo settembre 2022, la funzionalità XSLT non sarà più disponibile e ai clienti verrà chiesto di passare alla funzionalità migliorata.|
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10026-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.26
 

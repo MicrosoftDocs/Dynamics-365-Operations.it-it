@@ -2,7 +2,7 @@
 title: Stabilizzare ordini pianificati
 description: Questo articolo spiega come stabilizzare gli ordini pianificati. Quando gli ordini pianificati vengono stabilizzati, diventano ordini fornitore, di trasferimento o di produzione effettivi.
 author: t-benebo
-ms.date: 04/22/2021
+ms.date: 08/09/2022
 ms.search.form: ReqTransPo, ReqTransFirmLog
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24b5c6cb7e97924ebace8f7131a87e9bffea22e0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8857520"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335347"
 ---
 # <a name="firm-planned-orders"></a>Stabilizza ordini pianificati
 
@@ -37,19 +37,21 @@ La maggior parte delle funzionalità degli ordini pianificati sono disponibili i
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Attivare o disattivare la stabilizzazione parallela degli ordini pianificati
 
-La stabilizzazione parallela aiuta ad accelerare il processo di stabilizzazione parallelizzandolo su più thread. Questo approccio può essere utile quando molti ordini pianificati vengono stabilizzati. Per utilizzare questa funzionalità, la funzionalità *Stabilizzazione parallela degli ordini pianificati* deve essere attivata per il sistema. A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, è possibile attivare o disattivare questa funzionalità cercando la funzionalità *Stabilizzazione parallela degli ordini pianificati* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+La stabilizzazione parallela aiuta ad accelerare il processo di stabilizzazione parallelizzandolo su più thread. Questo approccio può essere utile quando molti ordini pianificati vengono stabilizzati. Per utilizzare questa funzionalità, la funzionalità *Stabilizzazione parallela degli ordini pianificati* deve essere attivata per il sistema. 
 
-### <a name="enable-planned-order-firming-with-filtering"></a>Abilitare la stabilizzazione degli ordini pianificati con il filtraggio
+A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.25, è possibile attivare o disattivare questa funzionalità cercando la funzionalità *Stabilizzazione parallela degli ordini pianificati* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-La stabilizzazione degli ordini pianificati con filtri consente di definire criteri logici per la selezione degli ordini pianificati da stabilizzare. È inoltre possibile visualizzare in anteprima quali ordini pianificati sono stati selezionati, eseguire il processo in background e / o pianificarlo come processo batch.
+### <a name="turn-planned-order-firming-with-filtering-on-or-off"></a>Attivare o disattivare la funzionalità Stabilizzazione di ordini pianificati con filtri
 
-A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Stabilizzazione parallela degli ordini pianificati* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+La stabilizzazione di ordini pianificati con filtri consente di definire criteri logici per la selezione degli ordini pianificati da stabilizzare. È inoltre possibile visualizzare in anteprima quali ordini pianificati sono stati selezionati, eseguire il processo in background e / o pianificarlo come processo batch.
 
-### <a name="enable-auto-firming-for-planning-optimization"></a>Abilitare la stabilizzazione automatica per l'ottimizzazione della pianificazione
+Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Stabilizzazione di ordini pianificati con filtri* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+### <a name="turn-auto-firming-for-planning-optimization-on-or-off"></a>Attivare o disattivare la funzionalità Stabilizzazione automatica per Ottimizzazione pianificazione
 
 La stabilizzazione automatica consente di stabilizzare gli ordini pianificati nel processo di pianificazione generale durante il intervallo temporale stabilito. La stabilizzazione automatica è sempre supportata per il motore di pianificazione integrato in Supply Chain Management. Tuttavia, per utilizzarlo anche con l'ottimizzazione della pianificazione, è necessario attivare la funzionalità.
 
-Per rendere disponibile questa funzionalità nel tuo sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva la funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
+A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, è possibile attivare o disattivare questa funzionalità cercando la funzionalità *Stabilizzazione automatica per Ottimizzazione pianificazione* nell'area di lavoro [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="manually-firm-planned-orders"></a>Stabilizzare manualmente ordini pianificati
 
@@ -67,8 +69,8 @@ Per stabilizzare manualmente gli ordini pianificati, individuare e selezionare g
 
     - **Aggiorna contrassegno** – Selezionare i criteri di contrassegno scorte da utilizzare durante la stabilizzazione degli ordini pianificati.
     - **Interrompi stabilizzazione in caso di errore** - Imposta questa opzione su *Sì* per interrompere la stabilizzazione di tutti gli ordini pianificati selezionati se si verifica un errore in uno di essi. Questa opzione deve essere impostata su *No* se **Stabilizzazione parallela** è impostata su *Sì*.
-    - **Stabilizzazione parallela** - Questa opzione è disponibile solo se la funzionalità [*Stabilizzazione parallela degli ordini pianificati*](#enable-features) è attivata nel tuo sistema e se hai selezionato due o più ordini pianificati per la stabilizzazione. Impostala su *Sì* eseguire i processi di stabilizzazione in parallelo. La stabilizzazione parallelo può aiutare a migliorare le prestazioni.
-    - **Numero di thread** - Questa opzione è disponibile solo se la funzionalità [*Stabilizzazione parallela degli ordini pianificati*](#enable-features) è attivata nel tuo sistema e se hai impostato l'opzione **Stabilizzazione parallela** su *Sì*. Immettere il numero di thread da utilizzare per parallelizzare il processo di stabilizzazione. Per consigli su come utilizzare questa opzione nella pianificazione generale, vedere [Migliorare le prestazioni della pianificazione generale](../master-planning-performance.md#number-of-threads).
+    - **Stabilizzazione parallela** - Questa opzione è disponibile solo se la funzionalità [*Stabilizzazione parallela degli ordini pianificati*](#enable-features) è attivata per il tuo sistema e se hai selezionato due o più ordini pianificati per la stabilizzazione. Impostala su *Sì* eseguire i processi di stabilizzazione in parallelo. La stabilizzazione parallelo può aiutare a migliorare le prestazioni.
+    - **Numero di thread** - Questa opzione è disponibile solo se la funzionalità [*Stabilizzazione parallela degli ordini pianificati*](#enable-features) è attivata per il tuo sistema e se hai impostato l'opzione **Stabilizzazione parallela** su *Sì*. Immettere il numero di thread da utilizzare per parallelizzare il processo di stabilizzazione. Per consigli su come utilizzare questa opzione nella pianificazione generale, vedere [Migliorare le prestazioni della pianificazione generale](../master-planning-performance.md#number-of-threads).
 
         > [!NOTE]
         > Un valore di *0* (zero) per il campo **Numero di thread** aumenta il tempo di esecuzione della pianificazione generale. Di conseguenza, è consigliabile impostare il campo sempre su un valore maggiore di 0.
@@ -97,7 +99,7 @@ La stabilizzazione automatica consente di stabilizzare gli ordini pianificati ne
 > Gli ordini derivati (cioè ordini fornitore in conto lavoro) che sono stabilizzati mostreranno uno stato di *In revisione* quando è abilitato il rilevamento delle modifiche.
 
 > [!IMPORTANT]
-> Prima che la funzionalità descritta in questa sezione possa essere utilizzata con l'ottimizzazione della pianificazione, la [funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*](#enable-features) deve essere attivato nel sistema, come descritto all'inizio di questo articolo. La stabilizzazione automatica può sempre essere utilizzato con il motore di pianificazione generale integrato.
+> Prima che la funzionalità descritta in questa sezione possa essere utilizzata con l'ottimizzazione della pianificazione, la [funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*](#enable-features) deve essere attivato per il sistema, come descritto all'inizio di questo articolo. La stabilizzazione automatica può sempre essere utilizzato con il motore di pianificazione generale integrato.
 
 ### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Stabilizzazione automatica con l'ottimizzazione della pianificazione e motore di pianificazione integrato
 
@@ -130,7 +132,7 @@ La stabilizzazione basata su query consente di pianificare la stabilizzazione in
 Puoi combinare la stabilizzazione automatica con ia stabilizzazione basata su query. Ad esempio, un processo di stabilizzazione basato su query ha un intervallo temporale in avanti più lungo di quello di una configurazione di copertura di stabilizzazione automatica corrispondente. Pertanto, il processo di stabilizzazione basato su query elaborerà gli ordini pianificati prima che venga attivata la stabilizzazione automatica. È possibile sfruttare questo comportamento per pianificare gli ordini per fornitori specifici in modo diverso rispetto agli ordini per prodotti simili di altri fornitori.
 
 > [!IMPORTANT]
-> Prima che la funzionalità descritta in questa sezione possa essere utilizzata, la [funzionalità *Stabilizzazione degli ordini pianificati con il filtraggio*](#enable-features) deve essere attivato nel sistema, come descritto all'inizio di questo articolo.
+> Prima che la funzionalità descritta in questa sezione possa essere utilizzata, la [funzionalità *Stabilizzazione degli ordini pianificati con il filtraggio*](#enable-features) deve essere attivato per il sistema, come descritto all'inizio di questo articolo.
 
 Per stabilizzare un ordine pianificato utilizzando il processo di stabilizzazione basato su query, attenersi alla seguente procedura.
 

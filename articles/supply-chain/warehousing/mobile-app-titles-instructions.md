@@ -2,7 +2,7 @@
 title: Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management
 description: Questo articolo descrive come creare e mostrare istruzioni personalizzate per ogni passo di ogni flusso di attività che hai impostato per l'applicazione mobile Warehouse Management.
 author: Mirzaab
-ms.date: 08/11/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-11
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 40b2115126aae28a41feaec4d3aabd73595107cd
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: faa9bfa320823664603153601c56654170e7e23a
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220151"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334478"
 ---
 # <a name="customize-step-titles-and-instructions-for-the-warehouse-management-mobile-app"></a>Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management
 
@@ -28,9 +28,9 @@ Questo articolo descrive come creare e mostrare istruzioni personalizzate per og
 - **Aumenta i lavoratori più velocemente facendo loro seguire semplici istruzioni per ogni fase del lavoro.** Ogni passo di un flusso fornisce istruzioni che permettono ai lavoratori di prima linea di capire il compito.
 - **Fornite istruzioni che corrispondono ai vostri processi.** Scrivete le vostre istruzioni per adattarle ai vostri processi aziendali e di magazzino. Per esempio, puoi adattare la terminologia al tuo spazio fisico e alle abbreviazioni locali.
 
-## <a name="turn-on-the-warehouse-app-step-instructions-feature"></a>Attivare la funzionalità Istruzioni per i passaggi dell'app di magazzino
+## <a name="turn-the-warehouse-app-step-instructions-feature-on-or-off"></a>Attivare o disattivare la funzionalità Istruzioni per i passaggi dell'app di magazzino
 
-Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Istruzioni per i passaggi dell'app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+Per poter utilizzare la funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Istruzioni per i passaggi dell'app di magazzino* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="step-titles-and-step-instructions-in-the-app"></a>Titoli dei passi e istruzioni dei passi nell'app
 

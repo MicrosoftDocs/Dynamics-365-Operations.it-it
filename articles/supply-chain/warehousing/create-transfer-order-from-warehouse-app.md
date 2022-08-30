@@ -2,7 +2,7 @@
 title: Creare ordini di trasferimento dall'app di magazzino
 description: In questo articolo viene descritto come creare ed elaborare ordini di trasferimento nell'app per dispositivi mobili Gestione magazzino
 author: perlynne
-ms.date: 09/02/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b9edc2d94aa1f4850d2e7fe2b4bdd1b092be944f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 45cbf7aca431c19e58de75355579304baef3cf7d
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8877452"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336457"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Creare ordini di trasferimento dall'app di magazzino
 
@@ -26,14 +26,14 @@ ms.locfileid: "8877452"
 
 Questa funzionalità consente agli addetti al magazzino di creare ed elaborare ordini di trasferimento direttamente nell'app per dispositivi mobili Gestione magazzino. Gli addetti iniziano selezionando il magazzino di destinazione e possono quindi eseguire la scansione di una o più targhe utilizzando l'app per aggiungere le targhe all'ordine di trasferimento. Quando l'addetto al magazzino seleziona **Completa ordine**, un processo batch creerà l'ordine di trasferimento richiesto e le righe dell'ordine in base alle scorte disponibili registrate per tali targhe.
 
-## <a name="turn-this-feature-on-or-off"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Attivare o disattivare questa funzionalità
+## <a name="turn-on-this-feature-and-its-prerequisites"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Attivare questa funzionalità e i relativi prerequisiti
 
 Prima di utilizzare questa funzionalità, devi abilitarla nel sistema insieme ai relativi prerequisiti. Gli amministratori possono utilizzare la pagina [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e abilitarla se necessario.
 
 1. Abilitare le due seguenti funzionalità (nell'ordine) nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). A partire dalla versione 10.0.25 di Supply Chain Management, entrambe queste funzionalità sono attivate per impostazione predefinita.
-    1. *Elabora eventi dell'app magazzino*
-    1. *Crea ed elabora ordini di trasferimento dall'app magazzino*
-1. Per automatizzare l'elaborazione delle spedizioni in uscita, devi abilitare anche la funzionalità [Conferma spedizioni in uscita in processi batch](confirm-outbound-shipments-from-batch-jobs.md).
+    1. *Elabora eventi dell'app magazzino*<br>(a partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata).
+    1. *Crea ed elabora ordini di trasferimento dall'app magazzino*<br>(a partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata).
+1. Per automatizzare l'elaborazione delle spedizioni in uscita, devi abilitare anche la funzionalità [*Conferma spedizioni in uscita da processi batch*](confirm-outbound-shipments-from-batch-jobs.md). A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata.
 
 ## <a name="set-up-a-mobile-device-menu-item-to-create-transfer-orders"></a><a name="setup-warehouse-app-menu"></a>Impostare una voce di menu di dispositivo mobile per creare ordini di trasferimento
 
@@ -307,11 +307,11 @@ No, non puoi aggiungere più targhe a un ordine di trasferimento con un evento d
 
 #### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Come posso trovare ordini di trasferimento esistenti da utilizzare mediante il pulsante "Seleziona ordine di trasferimento" nell'app per dispositivi mobili Gestione magazzino se l'ordine non è stato ancora creato nel sistema back-end?
 
-Al momento non puoi cercare ordini di trasferimento nell'app, ma puoi trovare i numeri degli ordini di trasferimento nella pagina **Eventi dell'app di magazzino**. Per ulteriori informazioni, vedi [Richiedere informazioni su eventi dell'app di magazzino](#inquire-the-warehouse-app-events).
+Puoi consentire ai lavoratori di cercare numeri di ordini di trasferimento nell'app per dispositivi mobili Warehouse Management utilizzando la relativa funzionalità [Richiesta di dati](warehouse-app-data-inquiry.md). Ad esempio, potresti creare una voce di menu per dispositivo mobile di [deviazione](warehouse-app-detours.md) che esegue query sui dati visualizzati nella pagina **Eventi dell'app di magazzino** (`WHSMobileDeviceQueueMessageCollection`) come parte del passaggio *Seleziona ordine - MobileDeviceQueueMessageCollectionIdentifierId*. Il numero dell'ordine di trasferimento corrisponde al valore indicato nel campo **Identificatore**. Vedi anche [Richiedere informazioni su eventi dell'app di magazzino](#inquire-the-warehouse-app-events).
 
 #### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Posso selezionare manualmente il numero dell'ordine di trasferimento da utilizzare nell'app per dispositivi mobili Gestione magazzino?
 
-Sono supportati solo i numeri di ordine di trasferimento generati automaticamente tramite sequenze numeriche.
+Sono supportati solo i numeri di ordine di trasferimento generati automaticamente tramite sequenze numeriche. Vedi anche la risposta alla domanda precedente su come impostare il pulsante **Seleziona ordine di trasferimento**. Per ulteriori informazioni su come trovare i numeri degli ordini di trasferimento, vedi [Richiedere informazioni su eventi dell'app di magazzino](#inquire-the-warehouse-app-events).
 
 ### <a name="background-processing"></a>Elaborazione in background
 

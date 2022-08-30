@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 935c2e6cb45df193e6cbf70634f3561154c6fe38
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 20a2ffb44f9b99800146e3365e6f0d6df8e9a75e
+ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178535"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9324262"
 ---
 # <a name="copy-an-instance"></a>Copiare un'istanza
 
@@ -47,13 +47,14 @@ Per copiare un'istanza, tenere presente i seguenti suggerimenti:
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>Effetti della copia di un database di Human Resources
 
+> [!Note]
+> A partire da agosto 2022, i documenti nell'archiviazione BLOB di Microsoft Azure vengono inclusi quando si copia un ambiente di produzione in un ambiente sandbox. Tutti i documenti e i modelli allegati verranno copiati dall'ambiente di origine all'ambiente di destinazione.
+
 I seguenti eventi si verificano quando si copia un database di Human Resources:
 
 - Il processo di copia cancella il database esistente nell'ambiente di destinazione. Una volta completato il processo di copia, non è possibile ripristinare il database esistente.
 
 - L'ambiente di destinazione non sarà disponibile fino al completamento del processo di copia.
-
-- I documenti nell'archivio Blob di Microsoft Azure non vengono copiati da un ambiente all'altro. Di conseguenza, tutti i documenti e i modelli allegati non verranno copiati e rimarranno nell'ambiente di origine.
 
 - Tutti gli utenti eccetto quelli con il ruolo di sicurezza "Amministratore sistema" e altri account utente del servizio interno saranno disponibili. L'utente amministratore può eliminare i dati prima di autorizzare altri utenti nel sistema.
 

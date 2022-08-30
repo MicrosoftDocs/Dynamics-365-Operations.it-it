@@ -1,6 +1,6 @@
 ---
-title: App Visibilità dell'inventario
-description: Questo articolo descrive come utilizzare l'applicazione Visibilità dell'inventario.
+title: App Visibilità inventario
+description: Questo articolo descrive come utilizzare l'applicazione Visibilità inventario.
 author: yufeihuang
 ms.date: 05/27/2022
 ms.topic: article
@@ -11,21 +11,21 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: db158e3b6ae76f69149db04096f99d3dc4251146
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a360b8beaad2bf6916c22765131e37f90e40282b
+ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8895759"
+ms.lasthandoff: 08/17/2022
+ms.locfileid: "9306175"
 ---
-# <a name="use-the-inventory-visibility-app"></a>Utilizzare l'app Inventory Visibility
+# <a name="use-the-inventory-visibility-app"></a>Utilizzare l'app Visibilità inventario
 
 [!include [banner](../includes/banner.md)]
 
 
-Questo articolo descrive come utilizzare l'applicazione Visibilità dell'inventario.
+Questo articolo descrive come utilizzare l'applicazione Visibilità inventario.
 
-Visibilità inventario fornisce un'applicazione guidata dal modello per la visualizzazione. L'applicazione contiene tre pagine: **Configurazione**, **visibilità operativa** e **riepilogo dell'inventario**. Ha le seguenti caratteristiche:
+Visibilità inventario fornisce un'applicazione guidata dal modello per la visualizzazione. L'applicazione contiene tre pagine: **Configurazione**, **Visibilità operativa** e **Riepilogo inventario**. Ha le seguenti caratteristiche:
 
 - Fornisce un'interfaccia utente (UI) per la configurazione on-hand e la configurazione soft reservation.
 - Supporta le interrogazioni in tempo reale dell'inventario su varie combinazioni di dimensioni.
@@ -64,16 +64,30 @@ Per pubblicare una query on-hand, inserisci la query nel corpo della richiesta. 
 
 ### <a name="reservation-posting"></a>Prenotazione
 
-Usa la scheda **Prenotazione** per pubblicare una richiesta di prenotazione. Prima di poter pubblicare una richiesta di prenotazione, devi attivare la funzione *OnHandReservation* . Per ulteriori informazioni su questa funzione, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md).
+Usa la scheda **Prenotazione** per pubblicare una richiesta di prenotazione. Prima di poter pubblicare una richiesta di prenotazione, devi attivare la funzione *OnHandReservation* . Per ulteriori informazioni su questa funzione, vedere [Prenotazioni di Visibilità inventario](inventory-visibility-reservations.md).
 
 Per pubblicare una richiesta di prenotazione, devi inserire un valore nel corpo della richiesta. Usate il modello che è descritto in [Creare un evento di prenotazione](inventory-visibility-api.md#create-one-reservation-event). Poi seleziona **Registra**. Per visualizzare i dettagli della risposta alla richiesta, selezionare **Mostra dettagli**. È possibile anche ottenere il valore `reservationId` dai dettagli della risposta.
 
-## <a name="inventory-summary"></a><a name="inventory-summary"></a>Riassunto dell'inventario
+## <a name="inventory-summary"></a><a name="inventory-summary"></a>Riepilogo dell'inventario
 
-Il **riepilogo dell'inventario** è una vista personalizzata per l'entità *Somma inventario disponibile*. Fornisce un riassunto dell'inventario per i prodotti insieme a tutte le dimensioni. I dati di riepilogo dell'inventario vengono sincronizzati periodicamente da Visibilità inventario ogni 15 minuti. Prima di poter vedere i dati sulla scheda **Riepilogo inventario**, è necessario attivare la funzionalità *OnHandMostSpecificBackgroundService* sulla scheda **Gestione funzionalità** e selezionare **Aggiorna configurazione**.
+La pagina **Riepilogo inventario** fornisce un riepilogo dell'inventario per i prodotti insieme a tutte le dimensioni. Il riepilogo è una vista personalizzata per l'entità *Somma inventario disponibile*. I dati del riepilogo dell'inventario vengono sincronizzati periodicamente da Visibilità inventario.
+
+### <a name="enable-the-inventory-summary-and-set-the-synchronization-frequency"></a>Abilitare il riepilogo dell'inventario e impostare la frequenza di sincronizzazione
+
+Per abilitare la pagina **Riepilogo inventario** e impostare la frequenza di sincronizzazione, procedi come segue:
+
+1. Aprire la pagina di **configurazione** .
+1. Apri la scheda **Gestione funzionalità e impostazioni**.
+1. Imposta l'interruttore della funzionalità **OnHandMostSpecificBackgroundService** su *Sì*.
+1. Quando la funzionalità è abilitata, la sezione **Configurazione servizio** diventa disponibile e include una riga per la configurazione della funzionalità **OnHandMostSpecificBackgroundService**. Questa impostazione ti consente di scegliere la frequenza con cui i dati del riepilogo dell'inventario vengono sincronizzati. Utilizza i pulsanti **Su** e **Giù** nella colonna **Valore** per modificare l'intervallo di tempo tra le sincronizzazioni (che può arrivare fino a 5 minuti). Quindi selezionare **Salva**.
+1. Seleziona **Aggiorna configurazione** per salvare tutte le modifiche.
+
+![Impostazione OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.PNG "Impostazione OnHandMostSpecificBackgroundService")
 
 > [!NOTE]
-> La funzionalità *OnHandMostSpecificBackgroundService* tiene traccia solo delle modifiche delle scorte disponibili del prodotto che si sono verificate dopo l'attivazione della funzione. I dati per i prodotti che non sono cambiati da quando hai attivato la funzione non verranno sincronizzati dalla cache del servizio di inventario nell'ambiente Dataverse. Se la pagina **Riepilogo inventario** non mostra tutte le informazioni disponibili che ti aspetti, vai a **Gestione inventario > Attività periodiche > Integrazione visibilità inventario**, disabilita il processo batch e riattivalo. Questo eseguirà il push iniziale e tutti i dati verranno sincronizzati con l'entità *Somma scorte disponibili* nei prossimi 15 minuti. Se desideri utilizzare questa funzione, ti consigliamo di attivarla prima di creare eventuali modifiche alle scorte disponibili e di abilitare il processo batch **Integrazione visibilità inventario**.
+> La funzionalità *OnHandMostSpecificBackgroundService* tiene traccia solo delle modifiche delle scorte disponibili del prodotto che si sono verificate dopo l'attivazione della funzione. I dati per i prodotti che non sono cambiati da quando hai attivato la funzione non verranno sincronizzati dalla cache del servizio di inventario nell'ambiente Dataverse. Se la pagina **Riepilogo inventario** non mostra tutte le informazioni disponibili che ti aspetti, vai a **Gestione inventario > Attività periodiche > Integrazione Visibilità inventario**, disabilita il processo batch e riattivalo. Questo eseguirà il push iniziale e tutti i dati verranno sincronizzati con l'entità *Somma scorte disponibili* nei prossimi 15 minuti. Se desideri utilizzare questa funzione, ti consigliamo di attivarla prima di creare eventuali modifiche alle scorte disponibili e di abilitare il processo batch **Integrazione Visibilità inventario**.
+
+### <a name="work-with-the-inventory-summary"></a>Utilizzare il riepilogo dell'inventario
 
 Utilizzando il **filtro avanzato** che Dataverse fornisce, è possibile creare una vista personale che mostra le righe importanti per l'utente. Le opzioni di filtro avanzate ti permettono di creare una vasta gamma di visualizzazioni, dalle più semplici alle più complesse. Permettono anche di aggiungere condizioni raggruppate e annidate ai filtri. Per ulteriori informazioni su come utilizzare il **filtro avanzato**, vedere [Modificare o creare viste personali usando i filtri avanzati della griglia](/powerapps/user/grid-filters-advanced).
 
@@ -85,4 +99,4 @@ La parte inferiore della vista personalizzata mostra informazioni come "50 recor
 
 Nella parte inferiore della vista c'è un pulsante **Ulteriori informazioni** che puoi usare per caricare altri record da Dataverse. Il numero predefinito di record che viene caricato è 50. Quando si seleziona **Carica altro**, i prossimi 1.000 record disponibili vengono caricati nella vista. Il numero sul pulsante **Carica altro** indica i record attualmente caricati e il numero totale di record per il risultato del **filtro avanzato**.
 
-![Riepilogo scorte](media/inventory-visibility-onhand-list.png "Riepilogo scorte")
+![Riepilogo dell'inventario](media/inventory-visibility-onhand-list.png "Riepilogo dell'inventario")

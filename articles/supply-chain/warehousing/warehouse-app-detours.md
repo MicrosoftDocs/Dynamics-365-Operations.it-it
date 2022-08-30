@@ -2,7 +2,7 @@
 title: Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
 description: Questo articolo descrive come configurare le deviazioni per le voci di menu in modo che i lavoratori possano sospendere l'attività corrente, eseguire un'altra attività e quindi tornare all'attività originale senza perdere alcuna informazione.
 author: Mirzaab
-ms.date: 10/15/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 8106dd600e8eadbaafcaa4cbc27ec179899318f7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 50f899cd7f28a4b7fd23db5f049de02896e8d8e9
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219006"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336127"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
 
@@ -35,9 +35,8 @@ Prima di poter configurare le deviazioni per i passaggi nelle voci di menu del d
 
 1. Vai a **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
 1. Assicurati che la funzionalità *Istruzioni per i passaggi dell'app di magazzino* sia attivata per il tuo sistema. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Per ulteriori informazioni sulla funzionalità *Istruzioni per i passaggi dell'app di magazzino*, vedi [Personalizzare i titoli dei passi e le istruzioni per l'applicazione mobile Warehouse Management](mobile-app-titles-instructions.md). Questa funzione è un prerequisito per la funzionalità *Deviazioni dell'app Warehouse Management*.
-1. Attiva la funzionalità *Deviazioni dell'app Warehouse Management*. Questa funzionalità è descritta in questo articolo.
-1. Aggiorna i nomi dei campi nell'app per dispositivi mobili Warehouse Management andando in **Warehouse Management \> Impostazioni \> Dispositivo mobile \> Nomi dei campi dell'app di magazzino** e selezionando **Crea impostazione predefinita**. Per ulteriori informazioni, vedi [Configurare i campi per l'app per dispositivi mobili Gestione magazzino](configure-app-field-names-priorities-warehouse.md).
-1. Ripeti il passaggio precedente per ogni persona giuridica (società) in cui si utilizza l'app per dispositivi mobili Warehouse Management.
+1. Attiva la funzionalità *Deviazioni dell'app Warehouse Management*. Questa funzionalità è descritta in questo articolo. A partire dalla versione 10.0.29 di Supply Chain Management, è attivata per impostazione predefinita.
+1. Se la funzionalità *Deviazioni dell'app Warehouse Management* non è attivata, aggiorna i nomi dei campi nell'app per dispositivi mobili Warehouse Management andando a **Warehouse Management \> Impostazioni \> Dispositivo mobile \> Nomi campo app magazzino** e selezionando **Crea impostazione predefinita**. Ripeti questo passaggio per ogni persona giuridica (società) in cui utilizzi l'app per dispositivi mobili Warehouse Management. Per ulteriori informazioni, vedi [Configurare i campi per l'app per dispositivi mobili Gestione magazzino](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="configure-a-detour-from-a-menu-specific-override"></a>Configurare una deviazione da un override specifico del menu
 

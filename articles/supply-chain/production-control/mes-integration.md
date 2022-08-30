@@ -2,7 +2,7 @@
 title: Eseguire l'integrazione con sistemi di esecuzione della produzione di terze parti
 description: Questo articolo spiega come integrare Microsoft Dynamics 365 Supply Chain Management con un sistema di esecuzione della produzione di terze parti (MES).
 author: johanhoffmann
-ms.date: 10/01/2021
+ms.date: 08/09/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-10-01
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 46f6db3dd9942131b379216e6fffe5551d6c8fc3
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 8629ef2581a114609d14999a3c1fc48b49c988e0
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068033"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9336217"
 ---
 # <a name="integrate-with-third-party-manufacturing-execution-systems"></a>Eseguire l'integrazione con sistemi di esecuzione della produzione di terze parti
 
@@ -45,9 +45,7 @@ Prima di poter utilizzare questa funzione, un amministratore deve attivarla nel 
     1. Nella pagina **Configurazione della licenza** seleziona la casella di controllo **Orario e presenze**.
     1. Disattiva la modalità di manutenzione come descritto in [Modalità di manutenzione](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md)
 1. Vai ad **Amministrazione sistema \> Aree di lavoro \> Gestione funzionalità**.
-1. Attiva la funzione elencata nel modo seguente (vedi anche [Panoramica della gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)):
-    - **Modulo:** *Controllo produzione*
-    - **Nome funzionalità:** *Integrazione del sistema di esecuzione della produzione*
+1. Utilizza l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare la funzionalità *Integrazione di sistemi di esecuzione della produzione*. A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.
 
 ## <a name="processes-available-for-mes-integration"></a>Processi disponibili per l'integrazione MES
 

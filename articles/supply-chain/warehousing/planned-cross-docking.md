@@ -2,7 +2,7 @@
 title: Cross-docking pianificato
 description: Questo articolo descrive il cross-docking pianificato avanzato, in cui la quantità di scorte richiesta per un ordine viene indirizzata direttamente dalla ricevuta o dalla creazione alla banchina di uscita o alla zona di transito corretta. Tutte le scorte rimanenti dall'origine in entrata vengono indirizzate all'ubicazione di magazzino corretta attraverso il normale processo di stoccaggio.
 author: Mirzaab
-ms.date: 07/01/2020
+ms.date: 08/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 4f379b3cdb6830f989199afde7d751842047df79
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: b530cc1403458775fd330e826a32417d3b03bf25
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9070291"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9334567"
 ---
 # <a name="planned-cross-docking"></a>Cross-docking pianificato
 
@@ -37,10 +37,10 @@ Al momento della ricezione dell'ordine in entrata, la configurazione del cross-d
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Attivare le funzionalità di cross docking pianificato
 
-Se il sistema in uso non include già le funzionalità descritte in questo articolo, vedi [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva le seguenti funzionalità nel seguente ordine:
+Se si sta eseguendo Supply Chain Management versione 10.0.28 o precedente, è possibile che sia necessario abilitare il cross-docking pianificato prima di poterlo utilizzare. Vai a [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva le seguenti funzionalità nel seguente ordine:
 
-1. *Cross-docking pianificato*
-1. *Modelli di cross-docking con direttive di ubicazione*
+1. *Cross-docking pianificato*<br>(a partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è obbligatoria e non può essere disattivata).
+1. *Modelli di cross-docking con direttive di ubicazione*<br>(A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
     > [!NOTE]
     > Questa funzionalità abilita il campo **Codice direttiva** affinché sia specificato nel modello di cross-docking, in modo simile al modo in cui si impostano i modelli di rifornimento. L'abilitazione di questa funzionalità impedisce di aggiungere un codice direttiva nelle righe del modello di lavoro cross-docking per la riga *Stoccaggio* finale. Ciò garantisce che la posizione di stoccaggio finale possa essere determinata durante la creazione del lavoro prima di considerare i modelli di lavoro.
 
@@ -92,7 +92,7 @@ Il cross-docking pianificato è implementato come metodo di registrazione del ca
 
     - **Codice direttiva:** lascia vuoto questo campo
 
-        Questa opzione è abilitata tramite la funzionalità *Modelli di cross docking con direttive di ubicazione*. Il sistema utilizza le direttive di ubicazione per determinare l'ubicazione migliore in cui spostare l'inventario cross-docking. È possibile configurarla assegnando un codice direttiva a ciascun modello di cross-docking pertinente. Se il codice direttiva è impostato, il sistema cercherà direttive di ubicazione in base al codice direttiva quando viene generato il lavoro. In questo modo, puoi limitare le direttive di ubicazione utilizzate per un particolare modello di cross-docking.
+        Questa opzione è abilitata dalla funzionalità *Modelli di cross-docking con direttive di ubicazione* (a partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita). Il sistema utilizza le direttive di ubicazione per determinare l'ubicazione migliore in cui spostare l'inventario cross-docking. È possibile configurarla assegnando un codice direttiva a ciascun modello di cross-docking pertinente. Se il codice direttiva è impostato, il sistema cercherà direttive di ubicazione in base al codice direttiva quando viene generato il lavoro. In questo modo, puoi limitare le direttive di ubicazione utilizzate per un particolare modello di cross-docking.
 
     - **Convalida finestra temporale:** *Sì*
 

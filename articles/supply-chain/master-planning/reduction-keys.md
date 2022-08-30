@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5cf84598b731e9750e3cf79d312bf0bbf4f8bd81
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b7eaf57e0f02c0b9dd6454a58184db7bb3f58c04
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854270"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9337136"
 ---
 # <a name="forecast-reduction-keys"></a>Chiavi di riduzione previsioni
 
@@ -133,7 +133,7 @@ Quando questa opzione viene utilizzata, si verifica il seguente comportamento :
 - Le chiavi di riduzione non sono richieste o utilizzate. 
 - Se la previsione viene ridotta completamente, i requisiti per la previsione corrente diventano 0 (zero).
 - Se non vi è alcuna previsione futura, vengono ridotti i requisiti di previsione dall'ultima previsione immessa.
-- Gli intervalli temporali vengono inclusi nel calcolo della riduzione previsionale.
+- L'intervallo temporale di riduzione della previsione della domanda non è incluso nel calcolo della riduzione previsionale. Al contrario, l'intervallo temporale del gruppo di copertura viene utilizzato per la riduzione previsionale.
 - I giorni di positività vengono inclusi nel calcolo della riduzione previsionale.
 - Se le transazioni di ordini effettivi superano i requisiti previsti, le transazioni rimanenti non vengono inoltrate al periodo previsionale successivo.
 

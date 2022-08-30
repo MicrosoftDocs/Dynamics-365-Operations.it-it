@@ -2,7 +2,7 @@
 title: Tolleranza di ritardo (giorni negativi)
 description: Questo articolo fornisce informazioni sul calcolo della tolleranza di ritardo e su come influisce sulla creazione degli ordini pianificati in Ottimizzazione pianificazione.
 author: t-benebo
-ms.date: 07/30/2021
+ms.date: 08/09/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e1c9a9b618184303efe2bd10975e46423cca9ccc
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
+ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219969"
+ms.lasthandoff: 08/23/2022
+ms.locfileid: "9335377"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolleranza di ritardo (giorni negativi)
 
@@ -23,11 +23,11 @@ ms.locfileid: "9219969"
 
 La funzionalità di tolleranza di ritardo consente a Ottimizzazione pianificazione di considerare il valore **Giorni negativi** impostato per i gruppi di copertura, la copertura degli articoli e/o i piani generali. Viene utilizzata per estendere il periodo di tolleranza di ritardo applicato durante la pianificazione generale. In questo modo, è possibile evitare di creare nuovi ordini di fornitura se la fornitura esistente è in grado di coprire la domanda con un breve ritardo. Lo scopo della funzionalità è determinare se ha senso creare un nuovo ordine di fornitura per una determinata domanda.
 
-## <a name="turn-on-the-feature-in-your-system"></a>Attiva la funzionalità nel tuo sistema
+## <a name="turn-delay-tolerance-features-on-or-off"></a>Attivare o disattivare le funzionalità di tolleranza di ritardo
 
 Per rendere disponibile la funzionalità di tolleranza di ritardo nel sistema, vai a [Gestione funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e attiva le seguenti funzionalità:
 
-- *Giorni negativi per l'ottimizzazione della pianificazione*: questa funzionalità abilita le impostazioni dei giorni negativi per i gruppi di copertura e la copertura degli articoli.
+- *Giorni negativi per l'ottimizzazione della pianificazione*: questa funzionalità abilita le impostazioni dei giorni negativi per i gruppi di copertura e la copertura degli articoli. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata.
 - *Automazione dell'offerta Produzione su ordine*: questa funzionalità abilita le impostazioni dei giorni negativi per i piani generali (per ulteriori informazioni, vedi [Automazione dell'offerta Produzione su ordine](../make-to-order-supply-automation.md)).
 
 ## <a name="delay-tolerance-in-planning-optimization"></a>Tolleranza di ritardo nell'ottimizzazione della pianificazione
