@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Aggiornamento piattaforma per la versione 10.0.29 (ottobre 2022)
+                  href: get-started/whats-new-platform-updates-10-0-29.md
                 - name: Aggiornamento piattaforma versione 10.0.28 (agosto 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
                 - name: Aggiornamento piattaforma versione 10.0.27 (luglio 2022)
@@ -1090,6 +1092,8 @@
                           href: data-entities/dual-write/link-your-environment.md
                         - name: Abilitazione della mappa entità per la doppia scrittura
                           href: data-entities/dual-write/enable-entity-map.md
+                    - name: Abilitazione di una finestra di timeout della sessione di cinque minuti per le sessioni a doppia scrittura
+                      href: data-entities/dual-write/5-minute-mode.md
                     - name: Pacchetto separato di orchestrazione dell'applicazione a doppia scrittura
                       href: data-entities/dual-write/separated-solutions.md
                     - name: Migrazione del tipo di dati valuta per la doppia scrittura

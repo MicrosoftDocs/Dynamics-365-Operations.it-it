@@ -1,24 +1,24 @@
 ---
 title: Riallocazione del riconoscimento ricavi - Scenario 2
 description: In questo articolo viene descritto uno scenario di riallocazione in cui vengono immessi due ordini cliente e quindi il cliente aggiunge un articolo al contratto dopo che il primo ordine cliente è stato fatturato. Quando un nuovo articolo viene aggiunto a un contratto, può essere aggiunto a un nuovo ordine cliente o all'ordine cliente esistente.
-author: kweekley
+author: bking
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
-ms.author: kweekley
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dec8dba9848b77e5c0a1007102789c8f88185fbc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5f8dac2991b309bb91faaa3107480ca3860af008
+ms.sourcegitcommit: 1909d18a74cef85aad020a6a7473281e451f58c7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904846"
+ms.lasthandoff: 08/24/2022
+ms.locfileid: "9348383"
 ---
 # <a name="revenue-recognition-reallocation--scenario-2"></a>Riallocazione del riconoscimento ricavi - Scenario 2
 

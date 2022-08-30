@@ -12,6 +12,8 @@
               items:
                 - name: Home page Novità o modifiche in Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.29 (ottobre 2022)
+                  href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (luglio 2022)
                   href: get-started/whats-new-commerce-10-0-28.md
                 - name: Commerce 10.0.27 (luglio 2022)
@@ -60,6 +62,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/pause-service-updates.md?context=/dynamics365/context/commerce
                 - name: Ricevere notifiche sugli aggiornamenti del servizio
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?context=/dynamics365/context/commerce
+                - name: Aggiornamenti proattivi della qualità
+                  href: ../fin-ops-core/fin-ops/get-started/quality-updates.md?context=/dynamics365/context/commerce
                 - name: Automazione attività dati
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?context=/dynamics365/context/commerce
                 - name: Implementare soluzioni ISV tramite One Version
@@ -422,6 +426,8 @@
                       href: hide-non-carrier-modes.md
                     - name: Registrazione attività e Guida per MPOS e Cloud POS
                       href: task-recorder-retail-pos.md
+                    - name: Configurare CPOS per utilizzare un'app Azure AD personalizzata
+                      href: cpos-custom-aad.md
                     - name: Periferiche hardware
                       items:
                         - name: Periferiche
@@ -698,8 +704,8 @@
                   href: prevent-discounts.md
                 - name: Sconti basati sui metodi di pagamento
                   href: tender_based_discounts.md
-                - name: Panoramica sugli sconti per spedizione
-                  href: retail-shipping-discount.md
+                - name: Sconto spedizione
+                  href: shipping-discount.md
                 - name: Configurare regalo con promozioni di acquisto
                   href: gift-with-purchase.md
                 - name: Impostare buoni sconto
@@ -714,6 +720,10 @@
                   href: tasks/category-pricing-rules-trade-agreements.md
                 - name: Ritardare il calcolo del prezzo esatto e dello sconto
                   href: delayed-price-calculation.md
+                - name: Funzioni di prezzo in POS
+                  href: pos-pricing-functions.md
+                - name: API dei prezzi di Commerce
+                  href: pricing-apis.md
             - name: Suggerimenti
               items:
                 - name: Panoramica suggerimenti sul prodotto
@@ -872,11 +882,13 @@
               href: async-customer-mode.md
             - name: Convertire i clienti asincroni in clienti sincroni
               href: convert-async-to-sync.md
+            - name: Domande frequenti sulla modalità di creazione clienti asincroni
+              href: async-customer-mode-faq.md
             - name: Gestione profili clienti
               items:
                 - name: Panoramica della fidelizzazione dei clienti
                   href: clienteling-overview.md
-            - name: Fedeltà
+            - name: Programma fedeltà
               items:
                 - name: Panoramica fedeltà
                   href: set-up-customer-loyalty-program.md
@@ -1252,6 +1264,10 @@
                       href: product-collection-module-overview.md
                     - name: Modulo di visualizzazione rapida
                       href: quick-view-module.md
+                - name: Moduli di confronto dei prodotti
+                  items:
+                    - name: Moduli di confronto dei prodotti
+                      href: product-comparison-modules.md
                 - name: Moduli di spostamento
                   items:
                     - name: Modulo percorso di navigazione
@@ -1272,7 +1288,11 @@
                   items:
                     - name: Modulo di consenso sui cookie
                       href: cookie-consent-module.md
-            - name: Cerca
+                - name: Moduli di chat
+                  items:
+                    - name: Modulo di chat di Commerce
+                      href: commerce-chat-module.md
+            - name: Ricerca
               items:
                 - name: Panoramica della pagina di destinazione di categoria e della pagina dei risultati di ricerca predefinite
                   href: category-search-page-overview.md
@@ -1404,8 +1424,6 @@
               items:
                 - name: Esempio di integrazione del servizio di registrazione fiscale per l'Austria
                   href: localizations/emea-aut-fi-sample.md
-                - name: Linee guida per la distribuzione dei registratori di cassa per l'Austria
-                  href: localizations/emea-aut-deployment.md
                 - name: Linee guida per la distribuzione del campione di integrazione fiscale per l'Austria (legacy)
                   href: localizations/emea-aut-fi-sample-sdk.md
             - name: Brasile
@@ -1462,7 +1480,7 @@
                   href: localizations/emea-fra-fi-deployment.md
                 - name: Archivio fiscale e verifica dell'integrità dei dati
                   href: localizations/emea-fra-fiscal-archive.md
-                - name: Migrazione dalle funzionalità legacy per la Francia
+                - name: Migrare le funzionalità legacy per la Francia
                   href: localizations/emea-fra-fi-migration.md
                 - name: Linee guida per la distribuzione dei registratori di cassa (legacy)
                   href: localizations/emea-fra-deployment.md
@@ -1502,6 +1520,8 @@
                   href: localizations/emea-nor-cash-registers.md
                 - name: Linee guida per la distribuzione dei registratori di cassa
                   href: localizations/emea-nor-fi-deployment.md
+                - name: Migrare le funzionalità legacy per la Norvegia
+                  href: localizations/emea-nor-fi-migration.md
                 - name: Linee guida per la distribuzione dei registratori di cassa (legacy)
                   href: localizations/emea-nor-loc-deployment-guidelines.md
             - name: Russia
@@ -1764,6 +1784,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?context=/dynamics365/context/commerce
                         - name: OrderBy
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?context=/dynamics365/context/commerce
+                        - name: Repeat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-repeat.md?context=/dynamics365/context/commerce
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?context=/dynamics365/context/commerce
                         - name: Split
@@ -2482,7 +2504,7 @@
               items:
                 - name: Panoramica di Commerce SDK
                   items:
-                    - name: Esempi e pacchetti di riferimento
+                    - name: Scaricare esempi e pacchetti di riferimento di Commerce SDK
                       href: dev-itpro/retail-sdk/sdk-github.md
                     - name: Migrazione di Retail SDK legacy
                       href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
