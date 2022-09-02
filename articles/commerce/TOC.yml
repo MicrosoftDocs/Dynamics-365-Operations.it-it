@@ -466,6 +466,8 @@
                           items:
                             - name: Supporto per gift card esterne
                               href: dev-itpro/gift-card.md
+                            - name: Condivisione dati interaziendali per gift card
+                              href: dev-itpro/data-sharing-gift-cards.md
                     - name: RSAT
                       items:
                         - name: Registratore di test e Regression Suite Automation Tool per Cloud POS
