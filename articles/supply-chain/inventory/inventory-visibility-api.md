@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 25f6539616d4567249e1d1eb4297090176526fde
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 23f4c52b6d1d8c1af927a2c21455d6e24b24408a
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902026"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357643"
 ---
 # <a name="inventory-visibility-public-apis"></a>API pubbliche di visibilità dell'inventario
 
@@ -95,19 +95,19 @@ Microsoft fornisce una raccolta di ottenimento di token *Postman* out-of-box. Pu
 
 Per ottenere un token di servizio di sicurezza, seguite questi passi.
 
-1. Accedi al portale Azure e usalo per trovare i valori `clientId` e `clientSecret` per la tua app Dynamics 365 Supply Chain Management .
+1. Accedi al portale Azure e usalo per trovare i valori `clientId` e `clientSecret` per la tua app Dynamics 365 Supply Chain Management.
 1. Recupera un token Azure AD (`aadToken`) inviando una richiesta HTTP che ha le seguenti proprietà:
 
-   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
    - **Metodo:** `GET`
    - **Contenuto del corpo (dati del modulo):**
 
-     | Chiave           | Valore                                |
-     | ------------- | ------------------------------------ |
-     | client_id     | ${aadAppId}                          |
-     | client_secret | ${aadAppSecret}                      |
-     | grant_type    | client_credentials                   |
-     | risorsa      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Chiave           | Valore                                            |
+     | ------------- | -------------------------------------------------|
+     | client_id     | ${aadAppId}                                      |
+     | client_secret | ${aadAppSecret}                                  |
+     | grant_type    | client_credentials                               |
+     | scope         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
 
    Dovreste ricevere un token Azure AD (`aadToken`) in risposta. Il risultato sarà simile all'esempio seguente.
 
@@ -116,9 +116,6 @@ Per ottenere un token di servizio di sicurezza, seguite questi passi.
        "token_type": "Bearer",
        "expires_in": "3599",
        "ext_expires_in": "3599",
-       "expires_on": "1610466645",
-       "not_before": "1610462745",
-       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
        "access_token": "eyJ0eX...8WQ"
    }
    ```
@@ -131,7 +128,7 @@ Per ottenere un token di servizio di sicurezza, seguite questi passi.
        "client_assertion_type": "aad_app",
        "client_assertion": "{Your_AADToken}",
        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context": "{$LCS_environment_id}",
        "context_type": "finops-env"
    }
    ```
@@ -517,7 +514,7 @@ Body:
 Nella parte del corpo di questa richiesta, `dimensionDataSource` è ancora un parametro facoltativo. Se non è impostato, i `filters` saranno considerati come *dimensioni di base*. Sono presenti quattro campi obbligatori per `filters`: `organizationId`, `productId`, `siteId` e `locationId`.
 
 - `organizationId` deve contenere un solo valore, ma è ancora una matrice.
-- `productId` può contenere uno o più valori. Se è una matrice vuota, verranno restituiti tutti i prodotti.
+- `productId` potrebbe contenere uno o più valori. Se è una matrice vuota, verranno restituiti tutti i prodotti.
 - `siteId` e `locationId` vengono utilizzati per il partizionamento in Visibilità inventario. È possibile specificare più di un valore `siteId` e `locationId` in una richiesta *Query a portata di mano*. Nella versione corrente, è necessario specificare entrambi i valori `siteId` e `locationId`.
 
 Il parametro `groupByValues` dovrebbe seguire la configurazione effettuata per l'indicizzazione. Per maggiori informazioni, vedere [Configurazione della gerarchia degli indici dei prodotti](./inventory-visibility-configuration.md#index-configuration).

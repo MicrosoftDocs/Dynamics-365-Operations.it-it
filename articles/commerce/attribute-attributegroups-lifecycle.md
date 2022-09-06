@@ -1,119 +1,114 @@
 ---
 title: Gestire attributi e gruppi di attributi
-description: In questo articolo viene illustrato come utilizzare gli attributi per fornire un modo per descrivere un prodotto e le relative caratteristiche tramite campi definiti dall'utente.
+description: In questo articolo viene descritto come gestire attributi e gruppi di attributi per descrivere i prodotti e le relative caratteristiche in Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 04/28/2018
+ms.date: 08/31/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: EcoResCategoryAttribute, EcoResProductEntityAttributeTableFieldAssociation, EcoResCategorySearchList, EcoResAttribute, COODualUseCategories, EcoResAttributeType, EcoResAttributeValue, EcoResCategoryAttributeGroup, EcoResCategoryFriendlyName
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
+ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
-ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: cd74cb7795366bdca80e47d79a9591af69a16daf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: aad448ea733aabdff3dc4438dcb682d49e0665c0
+ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876666"
+ms.lasthandoff: 08/31/2022
+ms.locfileid: "9386974"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gestire attributi e gruppi di attributi
 
 [!include [banner](includes/banner.md)]
 
-Gli *attributi* forniscono un modo per descrivere ulteriormente un prodotto e le sue caratteristiche tramite campi definiti dall'utente (ad esempio **Dimensione di memoria**, **Capacità del disco rigido**, **Conformità allo standard Energy Star** e così via). Gli attributi possono essere associati a varie entità di Commerce, come ad esempio le categorie di prodotti e canali. Inoltre è possibile impostarne dei valori predefiniti. I prodotti ereditano quindi gli attributi e i valori predefiniti quando vengono associati alle categorie di prodotti o ai canali. I valori predefiniti possono essere sovrascritti a livello di singolo prodotto, a livello di canale o in un catalogo.
+In questo articolo viene descritto come gestire attributi e gruppi di attributi per descrivere i prodotti e le relative caratteristiche in Microsoft Dynamics 365 Commerce.
 
+Gli *attributi* forniscono un modo di descrivere i prodotti e le relative caratteristiche tramite campi definiti dall'utente. Gli esempi includono la dimensione della memoria, la capacità del disco rigido e la conformità Energy Star.
+
+Gli attributi possono essere associati a varie entità di Commerce, come ad esempio le categorie di prodotti e canali. Inoltre è possibile impostarne dei valori predefiniti. Quando gli attributi vengono associati a categorie di prodotti o canali, i prodotti ereditano quegli attributi e i relativi valori predefiniti. I valori di attributi predefiniti possono essere sostituiti a livello di singolo prodotto, a livello di canale o in un catalogo.
 
 Ad esempio, un prodotto tipico nell'ambito dei televisori può avere i seguenti attributi.
 
-| Categoria   | Attributo                | Valori permessi          | Valore predefinito |
-|------------|--------------------------|-----------------------------|---------------|
-| TV e video | Marchio                    | Qualsiasi valore di marchio valido       | Nessuno          |
-| TV         | Dimensioni schermo              | 20-80 pollici                | Nessuno          |
-|            | Risoluzione verticale      | 480i, 720p, 1080i o 1080p | 1080p         |
-|            | Frequenza di aggiornamento schermo      | 60 hz, 120 hz o 240 hz       | 60 hz          |
-|            | Ingressi HDMI              | 0–10                        | 3             |
-|            | Ingressi DVI               | 0–10                        | 1             |
-|            | Ingressi compositi         | 0–10                        | 2             |
-|            | Ingressi per componenti         | 0–10                        | 1             |
-| LCD        | Predisposizione al 3D                 | Sì o No                   | Sì           |
-|            | Abilitato 3D               | Sì o No                   | No            |
-| Plasma     | Temperatura d'esercizio da      | 32-110 gradi              | 32            |
-|            | Temperatura d'esercizio fino a        | 32-110 gradi              | 100           |
-| LCD | Garanzia tubo a proiezione | 6, 12 o 18 mesi         | 12            |
-|            | N. di tubi di proiezione   | 1–5                         | 3             |
+| Categoria   | Attributo           | Valori permessi                        | Valore predefinito |
+|------------|---------------------|-------------------------------------------|---------------|
+| TV e video | Marchio               | Qualsiasi valore di marchio valido                     | Nessuna          |
+| TV         | Dimensioni schermo         | 20-85 pollici                              | 55 pollici     |
+|            | Risoluzione verticale | 4K (2160p), Full HD (1080p) o HD (720p) | 4K (2160p)    |
+|            | Frequenza di aggiornamento schermo | 60 hz, 120 hz o 240 hz                     | 60 hz          |
+|            | Ingressi HDMI         | 0–10                                      | 3             |
 
 ## <a name="attributes-and-attribute-types"></a>Attributi e tipi di attributo
 
-Gli attributi si basano sui *tipi di attributo*. Il tipo di attributo identifica il tipo di dati che possono essere immessi per un attributo specifico. Sono supportati i seguenti tipi di attributo:
+Gli attributi si basano sui *tipi di attributo*. Un tipo di attributo identifica il tipo di dati che possono essere immessi per un attributo specifico. I seguenti tipi di attributo sono supportati in Commerce:
 
 - **Valuta** - Questo tipo supporta un valore di valuta. Può essere associato (ovvero può supportare un intervallo di valori) oppure può essere lasciato aperto.
 - **Data/ora** - Questo tipo supporta un valore di data e ora. Può essere limitato o lasciato aperto.
 - **Decimale** - Questo tipo supporta un valore numerico che include posizioni decimali. Supporta anche un'unità di misura. Può essere limitato o lasciato aperto.
 - **Intero** - Questo tipo supporta un valore numerico. Supporta anche un'unità di misura. Può essere limitato o lasciato aperto.
-- **Testo** - Questo tipo supporta un valore di testo. Supporta anche un set predefinito di valori possibili, ovvero una *enumerazione*.
+- **Testo** - Questo tipo supporta un valore di testo. Supporta anche un insieme predefinito di valori possibili quando l'impostazione **Elenco fisso** è abilitata.
 - **Booleano** - Questo tipo supporta un valore binario (**true** o **false**).
 - **Riferimento** - Questo tipo fa riferimento ad altri attributi.
 
-### <a name="set-up-attribute-types"></a>Imposta i tipi di attributi
+> [!NOTE]
+> A causa delle [limitazioni dell'indice di ricerca di Azure](/rest/api/searchservice/data-type-map-for-indexers-in-azure-search), il tipo di attributo **Decimale** non è supportato per le esperienze di ricerca basate sul cloud. Ricerca cognitiva di Azure non supporta la conversione dei tipi di attributo **Decimale** in tipi di campo di indice di destinazione **Edm.Double**, poiché questa conversione ridurrebbe la precisione.
 
-1. Accedere al client di back-office come responsabile merchandising.
-2. Scegliere **Gestione informazioni sul prodotto** &gt; **Impostazioni** &gt; **Categorie e attributi** &gt; **Tipi di attributo**.
-3. Creare due tipi di attributo di tipo **Testo**, impostare l'opzione **Elenco fisso** su **Sì**, quindi aggiungere un elenco di valori:
+### <a name="set-up-attribute-types"></a>Impostare i tipi di attributo
 
-    - Denominare un tipo di attributo **Forma di lente**, quindi aggiungere i seguenti valori: **Ovale**, **Quadrato** e **Rettangolo**.
-    - Denominare l'altro tipo di attributo **Marca di occhiali da sole**, quindi aggiungere i seguenti valori: **Ray ban**, **Aviator** e **Oakley**.
+Per impostare i tipi di attributo, segui i passaggi in questa procedura di esempio.
 
-![Tipi di attributo.](media/AttributeType.png)
+1. Accedi a Commerce headquarters come responsabile del merchandising.
+1. Vai a **Gestione informazioni sul prodotto \> Impostazioni \> Categorie e attributi \> Tipi di attributo**.
+1. Nel Riquadro azioni selezionare **Nuovo**.
+1. Nel campo **Nome tipo di attributo**, immetti **Tipo di borsa**.
+1. Nel campo **Tipo** selezionare **Testo**.
+1. Imposta l'opzione **Elenco fisso** su **Sì**.
+1. Nella Scheda dettaglio **Valori** seleziona **Aggiungi**.
+1. Nella nuova riga, nel campo **Valore**, immetti **Satchel**.
+1. Aggiungi altre cinque righe. Nel campo **Valore** di ognuno, immetti un valore diverso: **Borsetta**, **Borsellino**, **Zaino**, **Borsa a tracolla** o **Portafoglio**.
+1. Nel riquadro azioni selezionare **Salva**.
+1. Nel Riquadro azioni selezionare **Nuovo**.
+1. Nel campo **Nome tipo di attributo**, immetti **Marca di occhiali da sole**.
+1. Nel campo **Tipo** selezionare **Testo**.
+1. Imposta l'opzione **Elenco fisso** su **Sì**.
+1. Nella Scheda dettaglio **Valori** seleziona **Aggiungi**.
+1. Nella nuova riga, nel campo **Valore**, immetti **Ray ban**.
+1. Aggiungi altre due righe. Nel campo **Valore** di ognuno, immetti un valore diverso: **Aviator** o **Oakley**.
+1. Nel riquadro azioni selezionare **Salva**.
+
+![Pagina Tipi di attributo.](media/AttributeType_2022Series.png)
 
 ### <a name="set-up-an-attribute"></a>Impostare un attributo
 
-1. Accedere al client di back-office come responsabile merchandising.
-2. Scegliere **Gestione informazioni sul prodotto** &gt; **Impostazioni** &gt; **Categorie e attributi** &gt; **Attributi**.
-3. Creare un attributo denominato **Lente**.
-4. Impostare il campo **Tipo di attributo** su **Forma di lente**.
+Per impostare un attributo, segui i passaggi in questa procedura di esempio.
 
-![Attributi.](media/Attribute.png)
+1. Accedi a Commerce headquarters come responsabile del merchandising.
+1. Vai a **Gestione informazioni sul prodotto \> Impostazioni \> Categorie e attributi \> Attributi**.
+1. Nel Riquadro azioni selezionare **Nuovo**.
+1. Nel campo **Nome** immetti **Tipo di borsa**.
+1. Nel campo **Tipo di attributo**, seleziona **Tipo di borsa**.
+1. Nel riquadro azioni selezionare **Salva**.
+
+![Pagina Attributi.](media/Attribute_2022Series.png)
 
 ## <a name="attribute-metadata"></a>Metadati di attributi
 
 *Metadati di attributi* consente di selezionare le opzioni per specificare come gli attributi per ogni prodotto devono comportarsi. Ad esempio, è possibile specificare se gli attributi sono obbligatori, se possono essere utilizzati per le ricerche e come filtro.
 
-Per i prodotti, le impostazioni dei metadati di attributi possono essere sostituite a livello di canale. Questa funzionalità verrà descritta più avanti in questo articolo.
+Per i prodotti, le impostazioni dei metadati di attributi possono essere sostituite a livello di canale.
 
-Come è possibile notare, la pagina **Attributi** include opzioni correlate ai metadati di attributi. In **Metadati di attributi per POS**, un'opzione denominata **Ridefinizione possibile** influisce sul comportamento dei valori di attributo nel POS o sul modo in cui il sistema gestisce tali valori di attributo. Solo gli attributi per cui è possibile impostare l'opzione **Ridefinizione possibile** su **Sì** verranno visualizzati per la ridefinizione o il filtro dei prodotti nel POS.
-
-Di seguito sono riportate le opzioni rimanenti relative ai metadati di attributi nella pagina **Attributi**:
-
-- Ricercabile
-- Recuperabile
-- Esecuzione query possibile
-- Classificabile
-- Consenti più valori
-- Ignora distinzione tra maiuscole e minuscole e formato
-- Corrispondenza completa
-
-Queste opzioni sono state inizialmente progettate per migliorare le funzionalità di ricerca per la vetrina virtuale online. Sebbene Commerce non includa la vetrina virtuale online per impostazione predefinita, include l'eCommerce Publishing Software Development Kit (SDK). I clienti possono utilizzare questo SDK per inserire i prodotti in un indice di ricerca di propria scelta. Sebbene i dati dei prodotti siano importati, i clienti dovrebbero comunque essere in grado di distinguere i dati in cui è possibile eseguire le ricerche, quelli nei quali è possibile eseguire le interrogazioni e così via. In questo modo, gli utenti possono creare un indice ottimale per assicurarsi di indicizzare solo gli attributi che, *a loro parere*, devono essere indicizzati.
-
-Per informazioni sullo scopo di queste opzioni rimanenti, vedere [Panoramica dello schema di ricerca in SharePoint Server 2013](/SharePoint/search/search-schema-overview).
+La pagina **Attributi** di un attributo include varie opzioni correlate ai metadati di attributi. Ad esempio, se imposti l'opzione **Ridefinizione possibile** su **Sì** sotto **Metadati di attributi per i canali di Commerce**, l'attributo verrà mostrato per affinare o filtrare i prodotti nei risultati di ricerca e nelle pagine di navigazione delle categorie. Per configurare un attributo come affinabile, devi prima selezionare **Impostazioni filtro** nel riquadro azioni e confermare le impostazioni di filtro per l'attributo.
 
 ## <a name="filter-settings-for-attributes"></a>Impostazioni di filtro per attributi
 
-Le impostazioni di filtro per gli attributi consentono di definire il modo in cui i filtri per attributi vengono visualizzati nel POS. Per accedere alle impostazioni di filtro per un attributo, nella pagina **Attributi**, selezionare l'attributo, quindi, nel riquadro azioni, selezionare **Impostazioni filtro**.
+Le impostazioni di filtro per gli attributi ti consentono di definire il modo in cui i filtri per gli attributi sono visualizzati nel POS. Per accedere alle impostazioni di filtro per un attributo, nella pagina **Attributi** dell'attributo, nel riquadro azioni, seleziona **Impostazioni filtro**.
 
-La pagina **Preferenze di visualizzazione filtro** include i seguenti campi:
+La pagina **Impostazioni filtro** include i seguenti campi:
 
 - **Nome** - Per impostazione predefinita, questo campo è impostato sul nome dell'attributo. È tuttavia possibile modificare tale valore.
 - **Opzione di visualizzazione** - Sono disponibili le opzioni seguenti:
 
-    - **Valore singolo** - Questa opzione è disponibile per i seguenti tipi di attributo: **Booleano**, **Valuta**, **Decimale**, **Intero** e **Testo**. Questa opzione consente la selezione di un valore singolo per questi attributi nel client per il perfezionamento.
-    - **Multi-valore** - Questa opzione è disponibile per i seguenti tipi di attributo: **Valuta**, **Decimale**, **Intero** e **Testo**. Questa opzione consente la selezione di più valori per questo attributo nel client per il perfezionamento.
+    - **Valore singolo** - Questa opzione è disponibile per i seguenti tipi di attributo: **Booleano**, **Valuta**, **Decimale**, **Intero** e **Testo**. Consente di selezionare un singolo valore per i criteri di affinamento nelle pagine di elenco dei prodotti, come le pagine di navigazione delle categorie e dei risultati di ricerca dei prodotti.
+    - **Multi-valore** - Questa opzione è disponibile per i seguenti tipi di attributo: **Valuta**, **Decimale**, **Intero** e **Testo**. Consente la selezione di più valori per l'attributo nel client, per l'affinamento.
 
 - **Controllo di visualizzazione** - Sono disponibili le opzioni seguenti:
 
@@ -124,7 +119,7 @@ La pagina **Preferenze di visualizzazione filtro** include i seguenti campi:
 
 - **Valore di soglia** - Questa impostazione è necessaria se è stato selezionato **Intervallo** come tipo di controllo di visualizzazione. È possibile definire i valori utilizzando un punto e virgola (;) come separatore.
 
-    Ad esempio, per il filtro come **Volume borsa**, il valore soglia può essere **10; 20; 50; 100; 200; 500; 1000; 5000**. In questo caso, nel POS verranno visualizzati i seguenti intervalli. Tutti gli intervalli privi di prodotti nel set di risultati risulteranno disattivati.
+    Ad esempio, per un attributo **Volume borsa** che ha un tipo di attributo **Numero intero**, il valore di soglia potrebbe essere **10; 20; 50; 100; 200; 500; 1000; 5000**. In questo caso, nel POS verranno visualizzati i seguenti intervalli. Gli intervalli privi di prodotti nel set di risultati risulteranno disattivati.
 
     - Minore di 10
     - 10 – 20
@@ -134,126 +129,204 @@ La pagina **Preferenze di visualizzazione filtro** include i seguenti campi:
     - 200 – 500
     - 500 o più
 
-![Impostazioni filtro attributi.](media/AttributeFilterSettings.PNG)
+Le impostazioni di filtro per attributi sono applicabili solo ad attributi di prodotto e possono essere utilizzate per affinare i risultati della ricerca di prodotti e di navigazione delle categorie. Non si applicano alla ricerca di clienti o di ordini, sebbene gli stessi attributi possano essere utilizzati per arricchire le informazioni su clienti o ordini.
+
+Nei moduli di Commerce predefiniti, non è disponibile alcun supporto predefinito per le impostazioni di filtro **Controllo di visualizzazione** come **Intervallo**, **Dispositivo di scorrimento** e **Dispositivo di scorrimento con barre**. Le impostazioni **Intervallo** e **Dispositivo di scorrimento** continuano a essere supportate per le soluzioni POS, mentre l'impostazione **Dispositivo di scorrimento con barre** è applicabile alle vetrine online legacy di SharePoint per scenari personalizzati e di integrazione di terze parti.
+
+È consigliabile che gli attributi affinabili abbiano un attributo di tipo **Testo** dove l'opzione **Elenco fisso** è abilitata e mantenere l'elenco gestibile (fino a 100–200 valori univoci). Se un criterio di affinamento avrà 1.000 o più valori univoci, è più appropriato utilizzare un attributo di tipo **Testo** dove l'opzione **Elenco fisso** è disabilitata.
+
+Le traduzioni sono fondamentali per i nomi di attributi e i relativi valori. Per gli attributi di tipo **Testo** dove l'opzione **Elenco fisso** è abilitata, puoi definire traduzioni per valori di attributi sotto **Tipo di attributo**. Per ogni altro tipo di attributo, puoi definire le traduzioni nella pagina in cui definisci i valori di attributi. Ad esempio, per un attributo di tipo **Testo**, puoi definire le traduzioni per il valore predefinito nella pagina **Attributi** dell'attributo. Tuttavia, se sostituisci il valore predefinito a livello di prodotto, puoi definire le traduzioni per l'attributo nella pagina **Attributi del prodotto** del prodotto.
+
+Dopo che un attributo è stato contrassegnato come affinabile per un canale, non devi aggiornare il tipo di attributo. In caso contrario, influirai sulla pubblicazione dei dati del prodotto nell'indice di ricerca. Ti consigliamo invece di creare un nuovo attributo per un nuovo tipo di criterio di affinamento e di ritirare l'attributo precedente rimuovendolo da altri gruppi di attributi.
+
+La ricerca per attributi è supportata ma recupera i risultati solo per le corrispondenze esatte delle parole di ricerca. Ad esempio, un attributo **Tessuto** ha il valore **Cotone cashmere**. Se un cliente cerca "Cash", nessun prodotto che ha **Cotone cashmere** come tessuto verrà recuperato. Tuttavia, se un cliente cerca "Cashmere", "Cotone" o "Cotone cashmere", verranno recuperati i prodotti che hanno **Cotone cashmere** come tessuto.
+
+### <a name="additional-attribute-metadata-options"></a>Opzioni aggiuntive per metadati di attributi
+
+> [!NOTE]
+> Queste opzioni per metadati di attributi sono applicabili solo alle integrazioni esterne e alla vetrina online legacy di SharePoint. Per ulteriori informazioni sulle opzioni per metadati di attributi, vedi [Panoramica dello schema di ricerca in SharePoint Server 2013](/SharePoint/search/search-schema-overview).
+
+Le seguenti opzioni aggiuntive per metadati di attributi sono disponibili anche nella pagina **Attributi**:
+
+- Ricercabile
+- Recuperabile
+- Esecuzione query possibile
+- Classificabile
+- Ignora distinzione tra maiuscole e minuscole e formato
+- Corrispondenza completa
+
+Queste opzioni sono state inizialmente progettate per migliorare le funzionalità di ricerca per le vetrina online legacy basate su SharePoint. Non si applicano necessariamente ai terminali POS o ai siti Web di e-commerce di Commerce. Poiché l'integrazione headless continua a essere supportata, queste opzioni sono disponibili per l'esportazione dei metadati di attributi tramite l'SDK (Software Development Kit) di Commerce. Puoi utilizzare l'SDK di Commerce per inserire i prodotti in un indice di ricerca esterno personalizzato e ottimizzato. In questo modo, puoi garantire che vengano indicizzati solo gli attributi che devono essere indicizzati.
 
 ## <a name="attribute-groups"></a>Gruppi di attributi
 
-Dopo che gli attributi sono stati definiti, possono essere assegnati a gruppi di attributi. Un *gruppo di attributi* viene utilizzato per raggruppare i singoli attributi per un componente o un sottocomponente in un modello di configurazione prodotto. È possibile includere un attributo in più gruppi di attributi. I gruppi di attributi possono consentire agli utenti di configurare i prodotti, poiché le varie selezioni vengono disposte in un contesto specifico. È possibile assegnare i gruppi di attributi ai canali o alle categorie.
+Un *gruppo di attributi* viene utilizzato per raggruppare i singoli attributi di un componente o un sottocomponente in un modello di configurazione prodotto. È possibile includere un attributo in più gruppi di attributi. I gruppi di attributi possono consentire agli utenti di configurare i prodotti, poiché le varie selezioni vengono disposte in un contesto specifico. È possibile assegnare i gruppi di attributi ai canali o alle categorie. Puoi inoltre impostare valori predefiniti per gli attributi in un gruppo di attributi.
 
-È inoltre possibile impostare i valori predefiniti per gli attributi inclusi in un gruppo di attributi. Ad esempio, si aggiunge un attributo per il colore a un gruppo di attributi e si seleziona **Blu** come valore di attributo predefinito. In questo caso, quando il gruppo di attributi viene aggiunto a un prodotto che include il colore come uno degli attributi, **Blu** apparirà come il colore predefinito per quel prodotto.
-
-![Gruppi di attributi.](media/AttributeGroup.png)
+![Pagina Gruppi di attributi.](media/AttributeGroup_2022Series.png)
 
 ### <a name="create-an-attribute-group"></a>Crea un gruppo attributi
 
-1. Accedere al client di back-office come responsabile merchandising.
-2. Scegliere **Gestione informazioni sul prodotto** &gt; **Impostazioni** &gt; **Categorie e attributi** &gt; **Gruppi di attributi**.
-3. Creare un gruppo di attributi denominato **Occhiali da sole di moda**.
-4. Aggiungere i seguenti attributi: **Forma di lente** e **Marca di occhiali da sole**.
+Per creare un gruppo di attributi, segui i passaggi in questa procedura di esempio.
 
-### <a name="assign-attribute-groups-to-categories"></a>Assegnare i gruppi di attributi alle categorie
-
-È possibile associare uno o più gruppi di attributi ai nodi di categoria nei seguenti tipi di gerarchie di categorie: Gerarchia di prodotti di Commerce, Gerarchia di categorie di navigazione nei canali e Gerarchia di categorie di prodotti supplementari. Quindi, una volta che i prodotti sono stati classificati in categorie, ereditano gli attributi inclusi nei gruppi di attributi.
-
-![Gerarchia di prodotti - Gruppi di attributi del prodotto.](media/AGRetailProdHierarchy.PNG)
-
-Attenersi alla procedura seguente per assegnare gruppi di attributi alle categorie nella gerarchia di prodotti di Commerce.
-
-1. Accedere al client di back-office come responsabile merchandising.
-2. Selezionare **Retail e Commerce** &gt; **Gestione categorie e prodotti** &gt; **Gerarchia di prodotti di Commerce**.
-3. Selezionare **Gerarchia di navigazione articoli di moda**.
-4. In **Abbigliamento maschile**, selezionare la categoria **Pantaloni**, quindi, nella scheda dettaglio **Gruppi di attributi del prodotto**, aggiungere un gruppo di attributi denominato **Cintura uomo**.
-5. Selezionare la categoria **Occhiali da sole di moda**, quindi verificare i nuovi attributi nel gruppo di attributi **Occhiali da sole di moda** selezionando **Visualizza attributi**.
-
-    Nel gruppo di attributi vengono visualizzati i nuovi attributi **Forma di lente** e **Marca di occhiali dal sole**.
-
-6. In **Abbigliamento maschile**, selezionare la categoria **Pantaloni** e verificare gli attributi per il gruppo di attributi **Cintura uomo** selezionando **Visualizza attributi**.
-
-    Nel gruppo di attributi vengono visualizzati gli attributi **Marca di cintura uomo**, **Tessuto cintura** e **Taglia cintura**.
+1. Accedi a Commerce headquarters come responsabile del merchandising.
+1. Vai a **Gestione informazioni sul prodotto \> Impostazioni \> Categorie e attributi \> Gruppi di attributi**.
+1. Crea un gruppo di attributi denominato **Camicia elegante**.
+1. Aggiungi i seguenti attributi: **CleaningMethod**, **CollarType**, **Collection** e **Design**.
 
 > [!NOTE]
-> Questa procedura può essere utilizzata anche per assegnare gruppi di attributi alle categorie nella gerarchia di categorie di navigazione nei canali e nella gerarchia di categorie di prodotti supplementari. Nel passaggio 2, utilizzare i seguenti percorsi di navigazione:
->
-> - Retail e Commerce &gt; Gestione categorie e prodotti &gt; Categorie di navigazione nei canali
-> - Retail e Commerce &gt; Gestione categorie e prodotti &gt; Categorie di prodotti supplementari
+> I valori dell'ordine di visualizzazione degli attributi nel gruppo di attributi non influiscono né si applicano all'ordine dei criteri di affinamento nei risultati di ricerca e di navigazione delle categorie. Sono applicabili solo allo scenario "attributi dell'ordine".
 
-### <a name="assign-attribute-groups-to-stores"></a>Assegnare i gruppi di attributi ai punti vendita
+### <a name="assign-attribute-groups-to-categories"></a>Assegnare gruppi di attributi a categorie
 
-È possibile associare uno o più gruppi di attributi a uno o più punti vendita nella gerarchia dei punti vendita. Quindi, una volta che i prodotti sono stati migliorati per gli specifici punti vendita, ereditano gli attributi inclusi nei gruppi di attributi.
+Uno o più gruppi di attributi possono essere associati a nodi di categoria nei seguenti tipi di gerarchie di categorie:
 
-1. Accedere al client di back-office come responsabile merchandising.
-2. Passare a **Retail e Commerce** &gt; **Impostazione canale** &gt; **Categorie canale e attributi del prodotto**.
-3. Assegnare gruppi di attributi al canale Houston:
+- Gerarchia di prodotti di commercio
+- Gerarchia di categorie di navigazione nei canali
+- Gerarchia di categorie di prodotti supplementari
 
-    1. Selezionare il canale **Houston**.
-    2. Nella scheda dettaglio **Gruppo di attributi**, selezionare **Aggiungi**, quindi, nel campo **Nome**, selezionare **SharePointProvisionedProductAttributeGroup**.
-    3. Selezionare nuovamente **Aggiungi**, quindi, nel campo **Nome**, selezionare **Cintura uomo**.
-    4. Selezionare nuovamente **Aggiungi**, quindi, nel campo **Nome**, selezionare **Occhiali da sole di moda**.
+Quando i prodotti sono categorizzati in categorie associate a gruppi di attributi, ereditano gli attributi inclusi in quei gruppi di attributi.
 
-        > [!NOTE]
-        > Un'opzione consente di specificare che questo canale deve ereditare i gruppi di attributi dal relativo canale padre nella gerarchia. Se si imposta l'opzione **Eredita** su **Sì**, il nodo del canale figlio eredita tutti i gruppi di attributi e tutti gli attributi in tali gruppi di attributi.
+![Scheda dettaglio Gruppi di attributi del prodotto nella pagina Gerarchia di prodotti di Commerce.](media/AGRetailProdHierarchy_2022Series.png)
 
-4. Attivare gli attributi in modo che siano disponibili nel canale Houston:
+Segui i passaggi nella procedura di esempio seguente per assegnare gruppi di attributi alle categorie nella gerarchia di prodotti di Commerce.
 
-    1. Nel riquadro azioni, selezionare **Imposta metadati di attributi**.
-    2. Selezionare il nodo della categoria **Moda**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
-    3. Selezionare il nodo della categoria **Accessori di moda**,selezionare la categoria **Occhiali da sole di moda**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
-    4. Selezionare il nodo della categoria **Abbigliamento maschile**, selezionare la categoria **Pantaloni**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
+1. Accedi a Commerce headquarters come responsabile del merchandising.
+1. Selezionare **Retail e Commerce \> Prodotti e categorie \> Gerarchia di prodotti di Commerce**.
+1. Seleziona la gerarchia di navigazione **Abbigliamento**.
+1. In **Uomo**, seleziona la categoria **Pantaloni**, quindi, nella scheda dettaglio **Gruppi di attributi del prodotto**, aggiungi un gruppo di attributi denominato **Cintura uomo**.
+1. Selezionare la categoria **Occhiali da sole di moda**, quindi verificare i nuovi attributi nel gruppo di attributi **Occhiali da sole di moda** selezionando **Visualizza attributi**. Nel gruppo di attributi vengono visualizzati i nuovi attributi **Forma di lente** e **Marca di occhiali dal sole**.
+1. Seleziona la categoria **Pantaloni** e verifica gli attributi per il gruppo di attributi **Cintura uomo** selezionando **Visualizza attributi**. Nel gruppo di attributi vengono visualizzati gli attributi **Marca di cintura uomo**, **Tessuto cintura** e **Taglia cintura**.
 
-![Categorie canale e attributi del prodotto - Gruppi di attributi.](media/CCPAttrGrp.png)
+La stessa procedura di base può essere utilizzata anche per assegnare gruppi di attributi alle categorie nella gerarchia di categorie di navigazione nei canali e nella gerarchia di categorie di prodotti supplementari. Tuttavia, nel passaggio 2, utilizza uno dei seguenti percorsi, a seconda della gerarchia a cui vuoi assegnare i gruppi di attributi:
 
-## <a name="overriding-attribute-values"></a>Sostituzione dei valori di attributi
+- **Gerarchia di categorie di navigazione nei canali:** vai a **Retail e Commerce \> Gestione categorie e prodotti \> Categorie di navigazione nei canali**.
+- **Gerarchia di categorie di prodotti supplementari:** vai a **Retail e Commerce \> Gestione categorie e prodotti \> Categorie di prodotti supplementari**.
 
-È possibile sovrascrivere i valori predefiniti degli attributi per singoli prodotti a livello di prodotto. È inoltre possibile sovrascrivere i valori predefiniti per singoli prodotti in specifici cataloghi che sono destinati a canali specifici.
+> [!NOTE]
+> Assicurati di associare i gruppi di attributi in una gerarchia di categorie solo nella Scheda dettaglio **Gruppi di attributi del prodotto** e non nella Scheda dettaglio **Valori attributi categoria**. Se gli attributi sono visualizzati nella Scheda dettaglio **Valori attributi categoria**, seleziona **Modifica gerarchia di categorie** nel riquadro azioni. Quindi, nella Scheda dettaglio **Gruppi di attributi categoria**, seleziona i nodi della categoria e seleziona **Rimuovi**. Non è disponibile alcun supporto per il recupero di attributi per categoria tramite Commerce Scale Unit.
 
-### <a name="override-the-attribute-values-of-an-individual-product"></a>Sostituire i valori degli attributi di un singolo prodotto
+## <a name="identify-viewable-and-refinable-attributes-for-commerce-channels-for-the-default-product-collection"></a>Identificare attributi visualizzabili e affinabili per canali Commerce per la raccolta prodotti predefinita
 
-1. Accedere al client di back-office come responsabile merchandising.
-2. Passare a **Retail e Commerce** &gt; **Gestione categorie e prodotti** &gt; **Prodotti rilasciati per categoria**.
-3. Selezionare il nodo della categoria **Moda** &gt; **Accessori di moda** &gt; **Occhiali da sole di moda**.
-4. Selezionare il prodotto richiesto nella griglia. Quindi, nel riquadro azioni, nella scheda **Prodotto**, nel gruppo **Imposta**, selezionare **Attributi del prodotto**.
-5. Selezionare un attributo nel riquadro sinistro, quindi aggiornare il relativo valore nel riquadro destro.
+Dopo aver associato vari gruppi di attributi alle categorie in varie gerarchie (gerarchia dei prodotti di Commerce o categorie di navigazione nei canali) e definito valori di attributi per ciascun prodotto, in base all'associazione di categoria, devi abilitare il flag **Mostra attributo sul canale** per rendere tali attributi visibili in un canale specifico.
 
-![Pagina Dettagli prodotto - Gruppi di attributi del prodotto.](media/ProdDetailsProdAttrValues.png)
+1. Passare a **Retail e Commerce \> Impostazione canale \> Categorie canale e attributi del prodotto**.
+1. Seleziona **Imposta metadati di attributi** e quindi un attributo nel riquadro di spostamento a sinistra.
+1. Nella Scheda dettaglio **Attributi del prodotto del canale** (non nella Scheda dettaglio **Attributi categoria**), imposta l'opzione **Mostra attributo sul canale** su **Si** per rendere visibile l'attributo.
+1. Se vuoi che anche l'attributo sia affinabile, imposta l'opzione **Ridefinizione possibile** su **Sì**.
 
-### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Sostituire i valori degli attributi dei prodotti in un catalogo
+### <a name="control-visibility-of-dimension-based-refiners-such-as-size-style-and-color"></a>Controllare la visibilità di criteri di affinamento basati su dimensioni come dimensioni, stile e colore
 
-1. Accedere al client di back-office come responsabile merchandising.
-2. Passare a **Retail e Commerce** &gt; **Gestione cataloghi** &gt; **Tutti i cataloghi**.
-3. Selezionare il catalogo **Fabrikam Base Catalog**.
-4. Selezionare il nodo della categoria **Moda** &gt; **Accessori di moda** &gt; **Occhiali da sole di moda**.
-5. Nella scheda dettaglio **Prodotti**, selezionare il prodotto richiesto, quindi selezionare **Attributi** sopra la griglia del prodotto.
-6. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
+Le dimensioni del prodotto come dimensioni, stile e colore sono i criteri di affinamento più comunemente utilizzati. Per rendere disponibili queste dimensioni di prodotto come criteri di affinamento, devi associare un gruppo di attributi a livello di canale che contenga un riferimento a un tipo di attributo che eredita automaticamente i valori dai valori delle dimensioni di prodotto.
+
+Puoi specificare le dimensioni di prodotto come visualizzabili e affinabili aggiornando i flag nella pagina **Categorie canale e attributi del prodotto**. Seleziona il nodo principale nel riquadro di spostamento e quindi nella Scheda dettaglio **Attributi del prodotto del canale**, imposta l'opzione **Mostra attributo sul canale** su **Sì** per gli attributi **Dimensione**, **Stile** e **Colore**. Se vuoi che anche questi attributi siano affinabili, imposta l'opzione **Ridefinizione possibile** su **Sì** per ognuno.
+
+![Impostare i metadati di attributi per i criteri di affinamento delle dimensioni.](./media/ProductDimensionRefinersMetadataSetup_2022Series.png)
+
+Per abilitare gli attributi di modo che siano disponibili nel canale Houston basato sui dati demo, segui i passaggi in questa procedura di esempio.
+
+1. Passare a **Retail e Commerce \> Impostazione canale \> Categorie canale e attributi del prodotto**.
+1. Selezionare il canale **Houston**.
+1. Nel riquadro azioni, selezionare **Imposta metadati di attributi**.
+1. Selezionare il nodo della categoria **Moda**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
+1. Selezionare il nodo della categoria **Accessori di moda**,selezionare la categoria **Occhiali da sole di moda**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
+1. Selezionare il nodo della categoria **Abbigliamento maschile**, selezionare la categoria **Pantaloni**, quindi, nella scheda dettaglio **Attributi del prodotto del canale**, selezionare **Includi attributo** per ciascun attributo.
+1. Dopo aver aggiornato i metadati di attributi per gli attributi e i criteri di affinamento desiderati, assicurati di salvare le modifiche ed eseguire il processo **Pubblica aggiornamenti canale**. Quindi, dopo la pubblicazione degli aggiornamenti, devi eseguire i seguenti processi: **1070** (**Configurazione canale**), **1040** (**Prodotti**) e **1150** (**Catalogo**).
+
+> [!NOTE]
+> - Se la tua attività richiede di aggiungere o rimuovere frequentemente prodotti nella gerarchia di navigazione o di apportare modifiche come l'aggiornamento dei valori dell'ordine di visualizzazione, l'aggiunta di nuove categorie e l'aggiunta di nuovi gruppi di attributi alle categorie, ti consigliamo di configurare il processo **Pubblica aggiornamenti canale** da eseguire come processo batch frequente. In alternativa, attiva manualmente il processo **Pubblica aggiornamenti canale** e quindi i seguenti processi di Commerce Data Exchange (CDX): **1070** (**Configurazione canale**), **1040** (**Prodotti**) e **1150** (**Catalogo**).
+> - Un'opzione **Eredita** ti consente di specificare che un canale deve ereditare i gruppi di attributi dal relativo canale padre nella gerarchia. Se si imposta l'opzione **Eredita** su **Sì**, il nodo del canale figlio eredita tutti i gruppi di attributi e tutti gli attributi in tali gruppi di attributi.
+> - Se il pulsante **Imposta metadati di attributi** nel riquadro azioni non è disponibile, assicurati che **Gerarchia di navigazione** sia associato al tuo canale nella Scheda dettaglio **Generale**.
+> - Non devi associare alcun gruppo di attributi ad eccezione dei gruppi di attributi basati sulle dimensioni a livello di canale (ad esempio, sotto **Gruppi di attributi** nella pagina **Categorie canale e attributi del prodotto**).
+> - Dopo l'introduzione del supporto per cataloghi business-to-business (B2B) specifici del cliente in Commerce versione 10.0.27, dovresti identificare il criterio di affinamento e attribuire le configurazioni degli attributi per ogni catalogo B2B nello stesso modo descritto in questo articolo.
+
+## <a name="override-attribute-values"></a>Sostituire valori di attributi
+
+È possibile sostituire i valori predefiniti degli attributi per singoli prodotti a livello di prodotto. È inoltre possibile sostituire i valori predefiniti per singoli prodotti in specifici cataloghi destinati a canali specifici.
+
+### <a name="override-the-attribute-values-of-an-individual-product"></a>Sostituire i valori di attributi di un singolo prodotto
+
+Per sostituire i valori di attributi di un singolo prodotto, segui i passaggi in questa procedura di esempio.
+
+1. Accedi a Commerce headquarters come responsabile del merchandising.
+1. Vai a **Retail e Commerce \> Gestione categorie e prodotti \> Prodotti rilasciati per categoria**.
+1. Seleziona **Moda \> Accessori di moda \> Occhiali da sole di moda**.
+1. Selezionare il prodotto richiesto nella griglia. Quindi, nel riquadro azioni, nella scheda **Prodotto**, nel gruppo **Imposta**, selezionare **Attributi del prodotto**.
+1. Selezionare un attributo nel riquadro sinistro, quindi aggiornare il relativo valore nel riquadro destro.
+
+![Pagina Valori attributi del prodotto](media/ProdDetailsProdAttrValues_2022Series.png)
+
+### <a name="override-the-attribute-values-of-all-products-in-a-catalog"></a>Sostituire i valori di attributi di tutti prodotti in un catalogo
+
+Per sostituire i valori di attributi di tutti i prodotti in un catalogo, segui i passaggi in questa procedura di esempio.
+
+1. Accedi a Commerce headquarters come responsabile del merchandising.
+1. Vai a **Retail e Commerce \> Gestione cataloghi \> Tutti i cataloghi**.
+1. Selezionare il catalogo **Fabrikam Base Catalog**.
+1. Seleziona **Moda \> Accessori di moda \> Occhiali da sole di moda**.
+1. Nella scheda dettaglio **Prodotti**, selezionare il prodotto richiesto, quindi selezionare **Attributi** sopra la griglia del prodotto.
+1. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
 
     - Supporti prodotto condivisi
     - Attributi del prodotto condivisi
     - Supporti canale
     - Attributi del prodotto del canale
 
-    > [!NOTE]
-    > Se vengono creati supporti prodotto condivisi e attributi del prodotto condivisi, questi sono applicati a tutti i prodotti.
+### <a name="override-the-attribute-values-of-all-products-in-a-channel"></a>Sostituire i valori di attributi di tutti i prodotti in un canale
 
-![Gruppi di attributi del prodotto del catalogo.](media/CatalogProdAttrValues.png)
+Per sostituire i valori di attributi di tutti i prodotti in un canale, segui i passaggi in questa procedura di esempio.
 
-### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Sostituire i valori degli attributi dei prodotti in un canale
-
-1. Accedere al client di back-office come responsabile merchandising.
-2. Passare a **Retail e Commerce** &gt; **Impostazione canale** &gt; **Categorie canale e attributi del prodotto**.
-3. Selezionare il canale **Houston**.
-4. Nella scheda dettaglio **Prodotti**, selezionare il prodotto richiesto, quindi selezionare **Attributi** sopra la griglia del prodotto.
-
-    > [!NOTE]
-    > Se non sono disponibili prodotti, aggiungere prodotti selezionando **Aggiungi** nella scheda dettaglio **Prodotti**, quindi selezionando i prodotti richiesti nella finestra di dialogo **Aggiungi prodotti**.
-
-5. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
+1. Accedi a Commerce headquarters come responsabile del merchandising.
+1. Passare a **Retail e Commerce \> Impostazione canale \> Categorie canale e attributi del prodotto**.
+1. Selezionare il canale **Houston**.
+1. Nella scheda dettaglio **Prodotti**, selezionare il prodotto richiesto, quindi selezionare **Attributi** sopra la griglia del prodotto.
+1. Se non sono disponibili prodotti, seleziona **Aggiungi** nella scheda dettaglio **Prodotti**, quindi seleziona i prodotti necessari nella finestra di dialogo **Aggiungi prodotti**.
+1. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
 
     - Supporti prodotto condivisi
     - Attributi del prodotto condivisi
     - Supporti canale
     - Attributi del prodotto del canale
 
-    > [!NOTE]
-    > Se vengono creati supporti prodotto condivisi e attributi del prodotto condivisi, questi sono applicati a tutti i prodotti.
+### <a name="define-variant-specific-attribute-values-and-define-multiple-values-for-product-attributes"></a>Definire valori di attributi specifici della variante e definire più valori per attributi di prodotto
 
+Per definire valori di attributi specifici della variante e per definire più valori per attributi di prodotto, segui i passaggi in questa procedura di esempio.
+
+1. Accedi a Commerce headquarters come responsabile del merchandising.
+1. Passare a **Retail e Commerce \> Impostazione canale \> Categorie canale e attributi del prodotto**.
+1. Selezionare il canale **Houston**.
+1. Nella scheda dettaglio **Prodotti**, seleziona la variante prodotto necessaria, quindi seleziona **Attributi** sopra la griglia del prodotto.
+1. Se non sono disponibili prodotti, seleziona **Aggiungi** nella scheda dettaglio **Prodotti**, quindi seleziona le varianti prodotto necessarie nella finestra di dialogo **Aggiungi prodotti**.
+1. Nelle seguenti schede dettaglio, aggiornare i valori degli attributi richiesti:
+
+    - Supporti prodotto condivisi
+    - Attributi del prodotto condivisi
+    - Supporti canale
+    - Attributi del prodotto del canale
+
+#### <a name="example-of-variant-specific-attribute-configuration"></a>Esempio di configurazione di attributi specifici della variante
+        
+In questo esempio, il prodotto **P001-Master** è una scarpa multi-attività che ha tre varianti: **Corsa**, **Marcia** e **Trekking**. Per ogni variante, vuoi definire in modo univoco il valore dell'attributo **Attività**. Nella Scheda dettagli **Prodotti** della pagina **Categorie canale e attributi del prodotto** per il tuo canale, definisci il valore dell'attributo **Attività** per le varianti come mostrato nella tabella seguente.
+
+| Variante     | Valore dell'attributo Attività |
+|-------------|--------------------------|
+| P001-Master | Sport                   |
+| P001-1      | Corsa                  |
+| P001-2      | Marcia                  |
+| P001-3      | Trekking                 |
+
+Se un utente cerca "scarpa", il prodotto **P001-Maestro** apparirà nei risultati di ricerca. Se hai configurato l'attributo **Attività** come affinabile, il criterio di affinamento **Attività** elencherà solo **Sport** come valore affinabile perché quel valore è stato definito per l'attributo **Attività** a livello del prodotto **P001-Master**.
+
+Per impostazione predefinita, gli attributi a livello di variante vengono utilizzati solo nelle pagine dei dettagli del prodotto (PDP). Quando selezioni una variante prodotto specifica in una PDP, le specifiche del prodotto nella PDP vengono aggiornate per quella variante specifica.
+
+Affinché i criteri di affinamento raccolgano valori di attributi definiti a livello di variante di prodotto, devi definire un attributo a livello di rappresentazione generale prodotto, selezionare la casella di controllo **Consenti più valori** e impostare il tipo di attributo su **Testo**.
+
+Successivamente, devi determinare tutti i valori possibili per le varianti di prodotto. Per l'attributo **Attività** utilizzato in questo esempio, i possibili valori potrebbero includere **Corsa**, **Marcia**, **Escursionismo**, **Trekking**, **Campeggio**, **Sport acquatici**, e **Sport invernali**.
+
+Dopo aver determinato quali devono essere i valori dell'attributo della variante, puoi definirli a livello di rappresentazione generale prodotto utilizzando valori separati da barra verticale. Per l'attributo **Attività** potresti definire il valore di attributo nella rappresentazione generale prodotto come **Corsa|Marcia|Escursionismo|Trekking|Campeggio|Sport acquatici|Sport invernali**.
+
+Quindi, per ogni variante, puoi definire i valori degli attributi immettendo valori separati da barra verticale o singoli valori. Per l'attributo **Attività** potresti configurare una singola variante prodotto come **Corsa|Marcia|Escursionismo**, **Corsa**, **Corsa|Escursionismo|Sport acquatici** e così via.
+
+Dopo aver definito i valori dell'attributo della variante, nella pagina **Categorie canale e attributi del prodotto**, nel riquadro azioni seleziona **Pubblica aggiornamenti canale** e quindi esegui i processi **1150**, **1040** e **1070**.
+
+Dopo il completamento dei processi e l'aggiornamento dell'indice di ricerca, tutti i valori previsti devono essere visualizzati nei risultati di ricerca e nei risultati di navigazione delle categorie.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

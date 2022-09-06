@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 6b42252a37f01a2b387c2393760998a6b2e4761d
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9271517"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357660"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Inizializzare Commerce Scale Unit (cloud)
 
@@ -69,8 +69,8 @@ Commerce Scale Unit è disponibile per la distribuzione nelle seguenti aree geog
 | Asia Pacifico            | Asia orientale           | Capacità limitata    |   Nessun commento.                           |
 | Asia Pacifico            | India meridionale         | Capacità limitata | Non sono consentite distribuzioni.    |
 | Asia Pacifico            | India centrale       | Capacità limitata    | Richiede il processo di approvazione. |
-| EMEA            | Europa occidentale         | Capacità limitata    | Non disponibile in LCS al momento. |
-| EMEA            | Europa settentrionale        | Capacità limitata    | Non disponibile in LCS al momento. |
+| EMEA            | Europa occidentale         | Generalmente disponibile    |  Nessun commento. |
+| EMEA            | Europa settentrionale        | Generalmente disponibile    |  Nessun commento. |
 | EMEA            | Regno Unito meridionale            | Generalmente disponibile |    Nessun commento.                          |
 | EMEA            | Regno Unito occidentale             | Generalmente disponibile |    Nessun commento.                          |
 | Svizzera     | Svizzera settentrionale   | Capacità limitata    | Richiede il processo di approvazione. |

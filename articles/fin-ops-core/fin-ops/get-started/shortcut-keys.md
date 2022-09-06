@@ -2,7 +2,7 @@
 title: Tasti di scelta rapida
 description: Questo articolo fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app per la finanza e le operazioni.
 author: jasongre
-ms.date: 07/12/2022
+ms.date: 08/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67e1904807dfe5122de3d3ead97c2e2c11ed213d
-ms.sourcegitcommit: bd2d6a86a7fd4b4f6f86656998f7a8844f949e42
+ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "9140441"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357581"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -135,10 +135,10 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Scorrimento orizzontale                                                                                                   | MAIUSC + rotellina del mouse             |
 | Spostarsi sulla colonna successiva/precedente                                                                                       | TAB/MAIUSC + TAB                 |
 | Spostarsi sulla riga successiva/precedente                                                                                          | Freccia GIÙ/Freccia SU           |
-| Spostarsi sulla riga successiva/precedente senza selezionare<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote> | CTRL + Freccia SU/CTRL + Freccia GIÙ |
-| Selezionare/deselezionare la riga corrente<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>                    | CTRL + Barra spaziatrice/CTRL + clic         |
-| Aggiungere la riga successiva/precedente al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>   | MAIUSC + BARRA SPAZIATRICE                     |
-| Aggiungere un intervallo di righe al set selezionato<blockquote>[!NOTE] Questo collegamento è valido solo per gli scenari di scelta multipla.</blockquote>         | MAIUSC + clic                     |
+| Spostarsi sulla riga successiva/precedente senza selezionare<br><br>**Nota:** questo collegamento è valido solo per gli scenari di scelta multipla. | CTRL + Freccia SU/CTRL + Freccia GIÙ |
+| Selezionare/deselezionare la riga corrente<br><br>**Nota:** questo collegamento è valido solo per gli scenari di scelta multipla.                   | CTRL + Barra spaziatrice/CTRL + clic         |
+| Aggiungere la riga successiva/precedente al set selezionato<br><br>**Nota:** questo collegamento è valido solo per gli scenari di scelta multipla.  | MAIUSC + BARRA SPAZIATRICE                     |
+| Aggiungere un intervallo di righe al set selezionato<br><br>**Nota:** questo collegamento è valido solo per gli scenari di scelta multipla.         | MAIUSC + clic                     |
 | Passare alla pagina di dati successiva/precedente                                                                                   | Pagina SU/Pagina GIÙ             |
 | Crea una nuova riga in fondo alla griglia                                                                             | Freccia GIÙ (dall'ultima riga)  |
 | Passa al primo record                                                                                               | CTRL + HOME                       |
@@ -148,7 +148,7 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Passa alla riga contrassegnata successiva                                                                                            | ALT + MAIUSC + M, L                  |
 | Passa alla riga contrassegnata precedente                                                                                        | ALT + MAIUSC + M, P                  |
 | Passa alla ultima riga contrassegnata                                                                                           | ALT + MAIUSC + M, N                  |
-| Eseguire l'azione predefinita in una griglia<blockquote>[!NOTE] Questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali.</blockquote> | INVIO                           |
+| Eseguire l'azione predefinita in una griglia<br><br>**Nota:** questo collegamento è abilitato quando l'elemento attivo è una cella contenente un collegamento ipertestuale e tutte le celle della colonna hanno collegamenti ipertestuali. | INVIO                           |
 | Alternare lo stato attivo tra la riga selezionata e la riga di intestazione                                                               | ALT + MAIUSC + H                     |
 | Ingrandire o diminuire la colonna corrente (con stato attivo nella riga di intestazione)                                                  | Freccia destra o freccia sinistra        |
 | Sposta la colonna corrente nella posizione successiva/precedente (con lo stato attivo nella riga di intestazione)                                   | CTRL + MAIUSC+ Freccia DESTRA/CTRL + MAIUSC + Freccia SINISTRA |

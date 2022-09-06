@@ -2,7 +2,7 @@
 title: Panoramica dei processi di importazione ed esportazione dati
 description: Utilizzare l'area di lavoro Gestione dati per creare e gestire i processi di importazione ed esportazione di dati.
 author: peakerbl
-ms.date: 04/25/2022
+ms.date: 08/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18a15928eef4d7158f778729506d691dd587e013
-ms.sourcegitcommit: 3289478a05040910f356baf1995ce0523d347368
+ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
+ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9109464"
+ms.lasthandoff: 08/26/2022
+ms.locfileid: "9357593"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -76,6 +76,19 @@ Quando si seleziona un'entità, è necessario selezionare il formato dei dati da
 
 > [!NOTE]
 > Per i formati di file basati su XML, assicurati di utilizzare solo caratteri validi. Per maggiori dettagli sui caratteri validi, vedi [Caratteri validi in XML 1.0](https://www.w3.org/TR/2006/REC-xml-20060816/Overview.html#charsets/). XML 1.0 non consente alcun carattere di controllo ad eccezione di tabulazioni, ritorni a capo e avanzamenti di riga. Esempi di caratteri non validi sono parentesi quadre, parentesi graffe e barre rovesciate. 
+
+Utilizza Unicode invece di una tabella codici specifica per importare o esportare dati. Ciò contribuirà a fornire i risultati più coerenti ed eliminare i processi di gestione dati che non riescono perché includono caratteri Unicode. I formati dei dati di origine definiti dal sistema che utilizzano Unicode includono **Unicode** nel nome dell'origine. Il formato Unicode viene applicato selezionando una tabella codici ANSI di codifica Unicode come **Tabella codici** nella scheda **Impostazioni regionali**. Seleziona una delle seguenti tabelle codici per Unicode:
+
+| Tabella codici | Nome visualizzato                |
+|-----------|-----------------------------|
+| 1200      | Unicode                     |
+| 12000     | Unicode (UTF-32)            |
+| 12001     | Unicode (UTF-32 Big-Endian) |
+| 1201      | Unicode (Big-Endian)        |
+| 65000     | Unicode (UTF-7)             |
+| 65001     | Unicode (UTF-8)             |
+
+Per maggiori dettagli sulle tabelle codici, vedi [Identificatori di tabelle codici](/windows/win32/intl/code-page-identifiers/).
 
 ### <a name="sequence-the-entities"></a>Sequenziare le entità
 È possibile sequenziare le entità in un modello di dati o nei processi di importazione e esportazione. Quando si esegue un processo contenente più entità di dati, è necessario assicurarsi che le entità di dati siano sequenziate correttamente. Il sequenziamento delle entità deve essere eseguito in modo da poter risolvere qualsiasi dipendenza funzionale tra le entità. Se le entità non hanno dipendenze funzionali, possono essere programmate per l'importazione o l'esportazione parallela. 
