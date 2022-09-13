@@ -11,12 +11,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2018-04-30
-ms.openlocfilehash: 25ca054df6422370b1e61dff7965189ad90d7fcc
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a4a36d773e0790747c017dca35492af5caf410ab
+ms.sourcegitcommit: 61be5f43c9678e9f12b4a90410876b4a179ac585
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357660"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427078"
 ---
 # <a name="initialize-commerce-scale-unit-cloud"></a>Inizializzare Commerce Scale Unit (cloud)
 
@@ -73,8 +73,6 @@ Commerce Scale Unit è disponibile per la distribuzione nelle seguenti aree geog
 | EMEA            | Europa settentrionale        | Generalmente disponibile    |  Nessun commento. |
 | EMEA            | Regno Unito meridionale            | Generalmente disponibile |    Nessun commento.                          |
 | EMEA            | Regno Unito occidentale             | Generalmente disponibile |    Nessun commento.                          |
-| Svizzera     | Svizzera settentrionale   | Capacità limitata    | Richiede il processo di approvazione. |
-| Emirati Arabi Uniti             | Emirati Arabi Uniti settentrionali           | Capacità limitata    | Richiede il processo di approvazione. |
 
 La capacità di distribuzione nelle aree geografiche a capacità limitata è estremamente limitata. Le richieste di distribuzione vengono valutate caso per caso. Se hai un'esigenza aziendale impellente per la distribuzione in aree geografiche a capacità limitata, puoi presentare una richiesta di supporto da aggiungere alla lista d'attesa. Le aree con limitazione di capacità attualmente non consentono la distribuzione di Commerce Scale Unit. 
 

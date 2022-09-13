@@ -2,7 +2,7 @@
 title: Funzionalità di griglia
 description: Questo articolo descrive diverse potenti funzionalità del controllo griglia. La nuova funzionalità della griglia deve essere abilitata per avere accesso a queste funzionalità.
 author: jasongre
-ms.date: 08/09/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a8968a1263dfafd67b07b4beb78c51493e95756e
-ms.sourcegitcommit: 47534a943f87a9931066e28f5d59323776e6ac65
+ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9258949"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405467"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
@@ -178,20 +178,22 @@ La funzionalità **Nuovo controllo griglia** è disponibile direttamente in Gest
 
 Questa funzionalità ha iniziato ad essere abilitata per impostazione predefinita a partire dalla versione 10.0.21. Diventerà obbligatoria nell'ottobre 2022.
 
-## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Sviluppatore] Rifiuto di singole pagine dall'uso della nuova griglia 
+## <a name="developer-topics"></a>Argomenti per gli sviluppatori
+
+### <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Sviluppatore] Rifiuto di singole pagine dall'uso della nuova griglia 
 Se l'organizzazione rileva una pagina che presenta alcuni problemi durante l'utilizzo della nuova griglia, è disponibile un'API per consentire a un singolo modulo di utilizzare il controllo della griglia legacy, consentendo comunque al resto del sistema di utilizzare il nuovo controllo della griglia. Per rifiutare esplicitamente una singola pagina della nuova griglia, aggiungere il seguente post di chiamata `super()` nel metodo `run()` del modulo.
 
 ```this.forceLegacyGrid();```
 
 Questa API verrà infine deprecata per consentire la rimozione del controllo della griglia legacy. Tuttavia, rimarrà disponibile per almeno 12 mesi dopo l'annuncio della deprecazione. Se qualsiasi problema richiede l'utilizzo di questa API, segnalalo a Microsoft.
 
-### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forzare una pagina a utilizzare la nuova griglia dopo aver precedentemente disattivato la griglia
+#### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forzare una pagina a utilizzare la nuova griglia dopo aver precedentemente disattivato la griglia
 Se hai disattivato l'utilizzo della nuova griglia per una singola pagina, potresti voler riattivare in seguito la nuova griglia dopo che i problemi sottostanti sono stati risolti. Per fare ciò, devi semplicemente rimuovere la chiamata a `forceLegacyGrid()`. La modifica non avrà effetto fino a quando non si verifica una delle seguenti condizioni:
 
 - **Ridistribuzione dell'ambiente**: quando un ambiente viene aggiornato e ridistribuito, la tabella che archivia le pagine che sono state escluse dalla nuova griglia (FormControlReactGridState) viene cancellata automaticamente.
 - **Svuotamento manuale della tabella**: per gli scenari di sviluppo, sarà necessario utilizzare SQL per cancellare la tabella FormControlReactGridState e quindi riavviare Microsoft Dynamics AX Application Object Server (AOS). Questa combinazione di azioni ripristinerà la memorizzazione nella cache delle pagine che sono state escluse dalla nuova griglia.
 
-## <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Sviluppatore] Eliminazione delle singole griglie dalla digitazione prima della capacità del sistema
+### <a name="developer-opting-individual-grids-out-of-the-typing-ahead-of-the-system-capability"></a>[Sviluppatore] Eliminazione delle singole griglie dalla digitazione prima della capacità del sistema
 Sono apparsi alcuni scenari che non si prestano a funzionare bene con la funzionalità *Digitare prima del sistema* della griglia. (Ad esempio, un codice che viene attivato quando una riga viene convalidata provoca l'attivazione di una ricerca sull'origine dati e la ricerca può quindi danneggiare le modifiche non vincolate sulle righe esistenti.) Se l'organizzazione rileva uno scenario del genere, è disponibile un'API che consente a lo sviluppatore esclude una singola griglia dalla convalida di riga asincrona e ripristina il comportamento legacy.
 
 Quando la convalida di riga asincrona è disabilitata in una griglia, gli utenti non possono creare una nuova riga o passare a una riga esistente diversa nella griglia mentre sono presenti problemi di convalida nella riga corrente. Come effetto collaterale di questa azione, le tabelle non possono essere incollate da Excel nelle griglie di finanza e operazioni.
@@ -204,13 +206,18 @@ Per rifiutare esplicitamente una singola griglia di una convalida di riga asincr
 > - Questa chiamata dovrebbe essere invocata solo in casi eccezionali e non dovrebbe essere la norma per tutte le griglie.
 > - Non è consigliabile attivare questa API in fase di esecuzione dopo il caricamento del modulo.
 
-## <a name="developer-size-to-available-width-columns"></a>[Sviluppatore] Colonne dalla dimensione alla larghezza disponibile
+### <a name="developer-size-to-available-width-columns"></a>[Sviluppatore] Colonne dalla dimensione alla larghezza disponibile
 Se uno sviluppatore imposta la proprietà **WidthMode** su **SizeToAvailable** per le colonne all'interno della nuova griglia, tali colonne hanno inizialmente la stessa larghezza che avrebbero se la proprietà fosse impostata su **SizeToContent**. Tuttavia, si allungano per utilizzare qualsiasi larghezza extra disponibile all'interno della griglia. Se la proprietà è impostata su **SizeToAvailable** per più colonne, tutte queste colonne condividono qualsiasi larghezza extra disponibile all'interno della griglia. Tuttavia, se un utente ridimensiona manualmente una di queste colonne, la colonna diventa statica. Rimarrà a quella larghezza e non si allungherà più per occupare la larghezza della griglia disponibile in più.
 
-## <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Sviluppatore] Specificare la colonna in cui viene spostato lo stato attivo quando vengono create nuove righe utilizzando il tasto freccia GIÙ.
+### <a name="developer-specifying-the-column-that-receives-the-initial-focus-when-new-rows-are-created-by-using-the-down-arrow-key"></a>[Sviluppatore] Specificare la colonna in cui viene spostato lo stato attivo quando vengono create nuove righe utilizzando il tasto freccia GIÙ.
 Come discusso nella sezione [Differenze durante l'inserimento di dati prima del sistema](#differences-when-entering-data-ahead-of-the-system), se la funzionalità "Digitare prima del sistema" è abilitata e un utente crea una nuova riga utilizzando il tasto **freccia GIÙ**, il comportamento predefinito consiste nello spostare lo stato attivo nella prima colonna della nuova riga. Questa esperienza potrebbe differire dall'esperienza nella griglia legacy o quando si seleziona un pulsante **Nuovo**.
 
 Gli utenti e le organizzazioni possono creare viste salvate ottimizzate per l'immissione di dati (ad esempio, puoi riordinare le colonne di modo che la prima colonna sia quella in cui vuoi iniziare a immettere dati). Inoltre, a partire dalla versione 10.0.29, le organizzazioni possono modificare questo comportamento utilizzando il metodo **selectedControlOnCreate()**. Questo metodo consente a uno sviluppatore di specificare la colonna in cui viene spostato lo stato attivo iniziale quando si crea una nuova riga utilizzando il tasto **freccia GIÙ**. Come input, questa API usa l'ID controllo che corrisponde alla colonna in cui deve essere spostato lo stato attivo iniziale.
+
+### <a name="developer-handling-grids-with-non-react-extensible-controls"></a>[Sviluppatore] Gestione delle griglie con controlli estensibili non React
+Quando una griglia viene caricata, se il sistema rileva un controllo estensibile che non è basato su React, il sistema forzerà invece il rendering della griglia legacy. Quando un utente si trova per la prima volta in questa situazione, verrà visualizzato un messaggio che indica che la pagina deve essere aggiornata. Successivamente, questa pagina caricherà automaticamente la griglia legacy senza ulteriori notifiche agli utenti fino al prossimo aggiornamento del sistema. 
+
+Per superare questa situazione in modo permanente, gli autori del controllo estensibile possono creare una versione React del controllo da utilizzare nella griglia.  Una volta sviluppata, la classe X++ per il controllo può essere corredata con l'attributo **FormReactControlAttribute** per specificare la posizione del bundle React da caricare per quel controllo. Vedi la classe `SegmentedEntryControl` come esempio.  
 
 ## <a name="known-issues"></a>Problemi noti
 Questa sezione mantiene un elenco di problemi noti per il nuovo controllo griglia.
@@ -218,9 +225,12 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo grigli
 ### <a name="open-issues"></a>Problemi aperti
 - Dopo aver abilitato la funzionalità **Nuovo controllo griglia**, alcune pagine continueranno a utilizzare il controllo griglia esistente. Questo avverrà nelle seguenti situazioni:
  
-    - È presente un elenco di schede nella pagina che viene visualizzata in più colonne.
-    - È presente un elenco di schede raggruppate sulla pagina.
-    - Una colonna della griglia con un controllo estendibile non reattivo.
+    - [Risolto] È presente un elenco di schede nella pagina che viene visualizzata in più colonne.
+        - Questo tipo di elenco di schede è supportato dal **Nuovo controllo della griglia** a partire dalla versione 10.0.30. Qualsiasi utilizzo di forceLegacyGrid() per questo scopo può essere rimosso. 
+    - [Risolto] È presente un elenco di schede raggruppate sulla pagina.
+        - Gli elenchi di schede raggruppate sono supportati dal **Nuovo controllo della griglia** a partire dalla versione 10.0.30. Qualsiasi utilizzo di forceLegacyGrid() per questo scopo può essere rimosso. 
+    - [Risolto] Una colonna della griglia con un controllo estendibile non reattivo.
+        - I controlli estensibili possono fornire una versione React del loro controllo che verrà caricata quando posizionata nella griglia e regolare la definizione del controllo per caricare questo controllo quando utilizzato nella griglia. Per ulteriori dettagli, vedere la sezione dedicata agli sviluppatori corrispondente. 
 
     Quando un utente incontra per la prima volta una di queste situazioni, verrà visualizzato un messaggio sull'aggiornamento della pagina. Una volta visualizzato questo messaggio, la pagina continuerà a utilizzare la griglia esistente per tutti gli utenti fino al prossimo aggiornamento della versione del prodotto. Una migliore gestione di questi scenari, in modo che la nuova griglia possa essere utilizzata, verrà presa in considerazione per un aggiornamento futuro.
 

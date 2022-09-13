@@ -2,7 +2,7 @@
 title: Tasti di scelta rapida
 description: Questo articolo fornisce una panoramica delle combinazioni di tasti di scelta rapida che è possibile utilizzare quando si lavora con le app per la finanza e le operazioni.
 author: jasongre
-ms.date: 08/26/2022
+ms.date: 08/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04abaeada458e05df3de045d9c7a715040b7bfa4
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357581"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405440"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 [!INCLUDE [PEAP](../../../includes/peap-1.md)]
 
@@ -87,10 +88,12 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Aprire il riquadro filtri (o spostare lo stato attivo tra il riquadro filtri e il modulo principale se il riquadro filtri è già aperto) | ALT + M,F o CTRL + F3       |
 | Chiudere il riquadro filtri (con lo stato attivo nel riquadro filtri)                                                               | ESC                      |
 | Aprire le opzioni di filtro/ordinamento avanzate                                                                                        | CTRL + MAIUSC + F3            |
+| Applicare il filtro rapido (quando lo stato attivo è in Filtro rapido)                                                              | INVIO                    |
+| Applicare il filtro della griglia (quando lo stato attivo è nel campo del filtro dell'intestazione della colonna)                                             | INVIO                    |
 
 ## <a name="form-shortcuts"></a>Tasti di scelta rapida del modulo
 
-| Operazione da eseguire                                    | Tasti di premere             |
+| Azione                                    | Premere             |
 |-----------------------------------------------|-------------------|
 | Crea un nuovo record                           | ALT + N             |
 | Eliminare un record                               | ALT + CANC o ALT + F9 |
@@ -160,9 +163,10 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Azione                                                                   | Premere                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Aprire il collegamento ipertestuale                                                           | Ctrl + INVIO                    |
+| Aprire il collegamento ipertestuale (quando lo stato attivo è su un controllo di sola lettura)<br><br>**Nota:** questo collegamento si applica solo quando la funzionalità **Standardizza l'interazione della tastiera per i controlli casella combinata e ricerca** è abilitata                   | INVIO    |
 | Immettere la data della sessione in un campo data                                       | D                             |
 | Immettere la data corrente in un campo data                                       | M                             |
-| Aprire ricerca, casella combinata, selezione data, finestra di dialogo a discesa                         | ALT + Freccia GIÙ                |
+| Aprire ricerca, casella combinata, selezione data, finestra di dialogo a discesa                         | ALT + Freccia GIÙ<br><br>Immetti quando la funzionalità **Standardizza l'interazione della tastiera per i controlli casella combinata e ricerca** è abilitata                |
 | Chiudere ricerca, casella combinata, selezione data, finestra di dialogo a discesa                        | ESC                           |
 | Spostare lo stato attivo in una ricerca (quando la ricerca è già aperta)                   | ALT + Freccia GIÙ                |
 | Aprire l'anteprima avanzata del controllo                                          | ALT + Freccia SU                  |

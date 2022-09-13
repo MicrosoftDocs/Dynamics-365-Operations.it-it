@@ -1,23 +1,23 @@
 ---
 title: Catalogo di apprendimento per gli amministratori di Dynamics 365 Finance
 description: Informazioni su tutte le opzioni di formazione per gli amministratori di Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/23/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 811ff0eb9d13c34a5fa21014415981574833d256
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 7772de29030475c45a86f305e74a7048508887ba
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065251"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424544"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-administrators"></a>Catalogo di apprendimento per gli amministratori di Dynamics 365 Finance
 
@@ -62,9 +62,7 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | Contenuto | Description  | Formato | Length    |
 |---------|--------------|--------|-----------|
 | [Aggiornamento di Dynamics AX 2012 alle app per la finanza e le operazioni](/learn/paths/upgrade-ax-2012-finance-operations/) | Informazioni sugli elementi più importanti e sulle procedure consigliate per aggiornare correttamente la soluzione Dynamics AX 2012 alle app per la finanza e le operazioni. Dai primi passaggi per scoprire le principali differenze architetturali, iniziare con il processo di aggiornamento e gli strumenti di aggiornamento di codice e dati, ai modi migliori di riprogettare integrazioni, analisi e report in base alle funzionalità più recenti. | Percorso di apprendimento online gratuito autonomo | 7 ore |
-| [Finanza e operazioni: aggiornamento da 7.x a 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Partecipare alla prossima discussione tecnica durante la quale verrà illustrato il processo di aggiornamento da 7.X a 8.X. Verranno descritti vari scenari e le operazioni da eseguire per l'aggiornamento del codice e dei dati. Verranno descritti inoltre gli scenari di richiesta di estensibilità e come generarli ove opportuno. | Registrazione gratuita di una conferenza Web | 61 minuti |
-| [How to upgrade to 7.2 (July 2017) from 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | In questa sessione, verrà spiegato come effettuare l'aggiornamento dall'applicazione Dynamics 365 per finanza e operazioni v7.0 (RTW) e v7.1 (1611) a v7.2 (luglio 2017). Si applica una chiara differenziazione tra i clienti Live e i progetti in corso (non ancora attivi). | Registrazione gratuita di una conferenza Web | 58 minuti |
-| [AX2012 to Dynamics 365 for Operations Upgrade (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Questa discussione tecnica fornirà una panoramica sull'aggiornamento del codice e dei dati da Dynamics AX 2012 a Dynamics 365 for Operations. | Registrazione gratuita di una conferenza Web | 45 minuti |
+| [Aggiornamento da AX2012 alle app per la finanza e le operazioni - 3 settembre 2020](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/tax2012-to-finance-and-operations-apps-upgrade-september-3-2020) | Questa discussione tecnica fornirà una panoramica sull'aggiornamento del codice e dei dati da Dynamics AX 2012 alle app per la finanza e le operazioni. | Tech Talk (webinar registrato) | 66 minuti |
 | [AX2009 Migration Tool](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | Questa sessione riguarderà gli strumenti disponibili per assistere l'utente nella migrazione da AX2009 a D365 for Operations. | Registrazione gratuita di una conferenza Web | 55 minuti |
 
 ## <a name="servicing"></a>Manutenzione<a name="servicing"></a>
@@ -73,9 +71,8 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 |----------|---------------|---------|-----------|
 | [Finanza e operazioni: gestione delle funzionalità (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Discussione tecnica sull'esperienza di gestione delle funzionalità. Fornisce un'area di lavoro in cui è possibile visualizzare, abilitare, disabilitare e pianificare le funzioni fornite in ogni versione. Per impostazione predefinita, le nuove funzionalità sono disabilitate. È possibile utilizzare l'area di lavoro per accendere alle funzionalità e visualizzare la documentazione correlata. Partecipare a questa riunione per vedere cosa viene offerto nella versione 10.0.3 e i piani per le versioni future. | Registrazione gratuita di una conferenza Web | 47 minuti |
 | [Finanza e operazioni: assistenza, supporto e gestione della produzione (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Discussione tecnica su come supportare, gestire e assistere in modo efficiente l'ambiente di produzione Dynamics 365 Finance. | Registrazione gratuita di una conferenza Web | 53 minuti |
-| [Finance And Operations: Microsoft Managed Continuous Updates (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | La cadenza dell'aggiornamento continuo per le Dynamics 365 Finance è iniziata. Partecipare per discutere degli aggiornamenti continui gestiti da Microsoft, dell'esperienza utente già disponibile in Lifecycle Services e dei prossimi aggiornamenti. | Registrazione gratuita di una conferenza Web | 61 minuti |
-| [Microsoft Managed Continuous Updates: What's new (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Durante questa discussione verranno spiegate le novità dai nostri annunci iniziali riguardo gli aggiornamenti continui gestiti da Microsoft. Verrà discussa la cadenza degli aggiornamenti, la risposta al prezioso feedback sul processo e la prossima esperienza utente di Lifecycle Services, attraverso la quale è possibile gestire gli aggiornamenti. | Registrazione gratuita di una conferenza Web | 56 minuti |
-| [Microsoft Managed Continuous Updates (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | Verranno descritti i piani di Microsoft per mantenere aggiornato il sistema con l'ultima versione. Verranno indicati i tempi, la cadenza per gli aggiornamenti maggiori e minori, le procedure pianificate, le implicazioni e cosa si deve fare per risultati ottimali. | Registrazione gratuita di una conferenza Web | 62 minuti |
+| [Finance and Operations: Microsoft Managed Continuous Updates (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | La cadenza dell'aggiornamento continuo per le Dynamics 365 Finance è iniziata. Partecipare per discutere degli aggiornamenti continui gestiti da Microsoft, dell'esperienza utente già disponibile in Lifecycle Services e dei prossimi aggiornamenti. | Registrazione gratuita di una conferenza Web | 61 minuti |
+| [Finance And Operations: Microsoft Managed Continuous Updates - 2 aprile 2019](https://community.dynamics.com/365/dynamics-365-fasttrack/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | La cadenza dell'aggiornamento continuo per Finanza e operazioni è iniziata. Partecipare per discutere degli aggiornamenti continui gestiti da Microsoft, dell'esperienza utente già disponibile in Lifecycle Services e dei prossimi aggiornamenti. | Tech Talk (webinar registrato) | 61 minuti |
 | [Monitoring, Optimization Advisor & Critical KBs (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Vengono descritte le capacità di monitoraggio e ciò che Microsoft controlla nell'ambiente di produzione, il consulente per l'ottimizzazione e come può essere esteso, l'esperienza di "aggiornamenti X++ critici" in LCS e le best practice per l'opzione "Segnalare l'interruzione della produzione" in LCS. | Registrazione gratuita di una conferenza Web | 40 minuti |
 
 ## <a name="testing"></a>Test<a name="testing"></a>
@@ -87,4 +84,3 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 | [Finanza e operazioni: strumenti per la risoluzione dei problemi relativi alle prestazioni per Dynamics 365 (DYN541PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-performance-troubleshooting-tools-for-dynamics-365-12-14-18) | In questa discussione tecnica vengono presentati i diversi strumenti che possono essere utilizzati per la risoluzione dei problemi di prestazioni di Microsoft Dynamics 365 Finance. Questa sessione contiene alcune dimostrazioni basate su scenari e una guida iniziale su come affrontare i tipici problemi di prestazioni. | Registrazione gratuita di una conferenza Web | 64 minuti |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

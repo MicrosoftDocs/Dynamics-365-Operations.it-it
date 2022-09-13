@@ -2,7 +2,7 @@
 title: Applicare le impostazioni di inventario
 description: In questo articolo vengono descritte le impostazioni relative alle scorte e il modo in cui applicarle in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/15/2021
+ms.date: 08/31/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: ''
-ms.openlocfilehash: bc55715b7c74f3b572459dd1aa7d409b7175535b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 49310a44f8b9c636734e04d4eed9445384b55791
+ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287594"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9405322"
 ---
 # <a name="apply-inventory-settings"></a>Applicare le impostazioni di inventario
 
@@ -51,7 +51,7 @@ In Commerce, è possibile definire le impostazioni relative alle scorte selezion
     > [!IMPORTANT] 
     > L'impostazione **Livello di scorte per più magazzini** è disponibile a partire dalla versione Commerce 10.0.19. Se stai aggiornando da una versione precedente di Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni, vedi [SDK e aggiornamenti della libreria moduli](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
-- **Impostazioni inventario per le pagine elenco prodotti**: questa impostazione definisce il modo in cui i prodotti esauriti vengono visualizzati negli elenchi dei prodotti visualizzati dalla raccolta prodotti e dai moduli dei risultati di ricerca. I valori disponibili sono **Visualizza in ordine con altri prodotti**, **Nascondi prodotti esauriti dalla lista** e **Mostra i prodotti esauriti alla fine dell'elenco**. Per utilizzare questa impostazione, devi prima configurare alcune impostazioni dei prerequisiti in Commerce headquarters. Per ulteriori informazioni, vedi [Abilitare la consapevolezza dell'inventario per il modulo dei risultati di ricerca](search-result-module.md#enable-inventory-awareness-for-the-search-results-module).
+- **Impostazioni inventario per le pagine elenco prodotti**: questa impostazione definisce il modo in cui i prodotti esauriti vengono visualizzati negli elenchi dei prodotti visualizzati dalla raccolta prodotti e dai moduli dei risultati di ricerca. I valori disponibili sono **Visualizza in ordine con altri prodotti**, **Nascondi prodotti esauriti dalla lista** e **Mostra i prodotti esauriti alla fine dell'elenco**. Per utilizzare questa impostazione, devi prima configurare alcune impostazioni dei prerequisiti in Commerce headquarters. Per ulteriori informazioni, vedere [Elenco dei prodotti in base all'inventario](inventory-aware-product-listing.md).
 
     > [!IMPORTANT] 
     > L'impostazione **Impostazioni inventario per le pagine elenco prodotti** è disponibile a partire dalla versione Commerce 10.0.20. Se stai aggiornando da una versione precedente di Commerce, devi aggiornare manualmente il file appsettings.json. Per istruzioni, vedi [SDK e aggiornamenti della libreria moduli](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).

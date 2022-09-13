@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.25
-ms.openlocfilehash: 89036920cc8738e2948ec1a78aafc4b35fff87fa
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d6aa5a0cb49e5871a50a2ac5ac2c29cc09e232fc
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219096"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403684"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10025-april-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.25 (aprile 2022)
 
@@ -161,7 +161,7 @@ La tabella elenca anche le funzionalità che erano precedentemente in anteprima 
 | Warehouse Management | [Posizionamento targa ubicazione](../warehousing/location-license-plate-positioning.md) | Obbligatorio |
 | Warehouse Management | [Combinazione dimensioni prodotto ubicazione](../warehousing/location-product-dimension-mixing.md) | Obbligatorio |
 | Warehouse Management | Rendi modificabile il campo dello stato inventario del movimento inventario del dispositivo mobile | Obbligatorio |
-| Warehouse Management | Servizio di prelievo manuale righe di vendita per amministratori o utenti attendibili simili | Obbligatorio |
+| Warehouse Management | [Servizio di prelievo manuale righe di vendita per amministratori o utenti attendibili simili](../warehousing/manual-order-line-picking-exception-handling.md) | Obbligatorio |
 | Warehouse Management | [Impedisci l'utilizzo di targhe spedite per l'ordine di trasferimento in altri magazzini diversi dal magazzino di destinazione](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md) | Obbligatorio |
 | Warehouse Management | Richiedi di risolvere i nomi ambigui per "ubicazione/targa" | Obbligatorio |
 | Warehouse Management | [Controllo qualità](../warehousing/quality-check.md) | Obbligatorio |

@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 81c20432a3094ef0fe3013c0867044ef3014adcb
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 4c3289d034346fa21e31000fa4a2b4961a2d5304
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124620"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423666"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>Catalogo di apprendimento per decision maker aziendali che considerano Dynamics 365 Supply Chain Management
 
@@ -25,11 +25,10 @@ Decidi se investire in nuove tecnologie?
 
 Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini specifici e dalla più elementare alla più avanzata. Se il contenuto esiste in più formati, verrà reso noto in modo da poter scegliere il formato di formazione più adatto alle esigenze.
 
-## <a name="get-started"></a>Inizia subito<a name="get-started"></a>
+## <a name="get-started"></a>Attività iniziali<a name="get-started"></a>
 
-| Contenuto | Descrizione | Formatta | Durata |
+| Contenuto | Description | Formato | Length |
 |---------|-------------|--------|--------|
-| [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Si è interessati all'apprendimento delle applicazioni aziendali? Forse non si sa da dove come cominciare a usare le applicazioni Microsoft Dynamics 365 e Power Platform ? Ottenere informazioni su come la potenza delle applicazioni aziendali può aiutare a trasformare l'azienda. | Percorso di apprendimento online gratuito autonomo | 7 ore |
 | [Dynamics 365 e Power Platform Fundamentals](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
 | [Introduzione alle app per la finanza e le operazioni](/learn/paths/get-started-finance-operations/) | Il modulo fornisce informazioni sul modo in cui le app per la finanza e le operazioni supportano le aziende nella gestione di sistemi finanziari globali, processi aziendali operativi e supply chain ottimizzate per consentire di prendere decisioni rapide e informate. Il primo passaggio per imparare a lavorare con le app per la finanza e le operazioni è familiarizzare con le loro caratteristiche e funzionalità, indipendentemente dal ruolo che si desidera svolgere. | Percorso di apprendimento online gratuito autonomo | 2 ore |
 | [Corso MB-900T01-A: Dynamics 365 fundamentals](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Questo corso familiarizzerà lo studente con le funzionalità e il valore aziendale di Dynamics 365. Il corso coprirà le applicazioni di Dynamics 365, Power Platform, concetti cloud, modello di sicurezza e considerazioni sulle licenze. | Formazione con istruttore dal vivo o online, il costo varia in base alla regione e al partner | 1 giorno |

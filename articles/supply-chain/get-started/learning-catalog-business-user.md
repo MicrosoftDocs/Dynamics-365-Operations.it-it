@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d43b9b331a8a88ac1282acc33dabe7b71bca57b7
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: 82420ad8dae12e4a47290599a5bbd0d15a7f3c29
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9124298"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423856"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-supply-chain-management"></a>Catalogo di apprendimento per gli utenti di Dynamics 365 Supply Chain Management
 
@@ -25,11 +25,10 @@ Hai appena ricevuto una nuova applicazione da utilizzare?
 
 Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini specifici e dalla più elementare alla più avanzata. Se il contenuto esiste in più formati, verrà reso noto in modo da poter scegliere il formato di formazione più adatto alle esigenze.
 
-## <a name="get-started"></a>Inizia subito<a name="get-started"></a>
+## <a name="get-started"></a>Attività iniziali<a name="get-started"></a>
 
-| Contenuto | Descrizione | Formatta | Durata |
+| Contenuto | Description | Formato | Length |
 |---------|-------------|--------|--------|
-| [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Si è interessati all'apprendimento delle applicazioni aziendali? Forse non si sa da dove come cominciare a usare le applicazioni Microsoft Dynamics 365 e Power Platform ? Ottenere informazioni su come la potenza delle applicazioni aziendali può aiutare a trasformare l'azienda. | Percorso di apprendimento online gratuito autonomo | 8 ore |
 | [Dynamics 365 e Power Platform Fundamentals](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
 | [Introduzione alle app per la finanza e le operazioni](/learn/paths/get-started-finance-operations/) | Il modulo fornisce informazioni sul modo in cui le app per la finanza e le operazioni supportano le aziende nella gestione di sistemi finanziari globali, processi aziendali operativi e supply chain ottimizzate per consentire di prendere decisioni rapide e informate. Il primo passaggio per imparare a lavorare con le app per la finanza e le operazioni è familiarizzare con le loro caratteristiche e funzionalità, indipendentemente dal ruolo che si desidera svolgere. | Percorso di apprendimento online gratuito autonomo | 2 ore |
 | [Introduzione alla Gestione cespiti per Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | La gestione cespiti è un modulo avanzato per gestire i cespiti e i processi di manutenzione in Dynamics 365 Supply Chain Management. Gestione cespiti consente di gestire e eseguire in modo efficiente le attività correlate alla gestione e alla manutenzione di molti tipi di attrezzature della società, come macchine, attrezzature di produzione e veicoli. Gestione cespiti supporta soluzioni per numerosi settori. | Modulo di apprendimento online gratuito e personalizzato | 1 ora |

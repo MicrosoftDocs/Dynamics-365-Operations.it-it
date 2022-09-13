@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-05-27
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 5cca06517fbdcbdae6e54c106b113a83851240c8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: bbbd524020690b84fce34facaaa3047853fb2641
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334777"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403689"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10028-august-2022"></a>Novità e modifiche in Dynamics 365 Supply Chain Management 10.0.28 (agosto 2022)
 
@@ -50,7 +50,7 @@ Se desideri attivare o disattivare una di queste funzionalità, devi farlo in [G
 | Gestione articoli e magazzino | (India) Per le regole dei prezzi di trasferimento, ignorare l'ubicazione quando "Codice magazzino di origine" è impostato su "Tutti" | <p>Questa funzione si applica solo alle ubicazioni dell'India. Rende più intuitivo il processo di impostazione dei prezzi di trasferimento per gli articoli nei trasferimenti di magazzino.</p><p>Puoi impostare i prezzi di trasferimento configurando ogni articolo con le regole dei prezzi di trasferimento. Un modo per eseguire questa configurazione consiste nell'includere una riga di regola in cui il campo **Codice magazzino di origine** è impostato su *Tutti*. Questa impostazione indica che il prezzo di trasferimento definito dalla riga deve essere applicato indipendentemente dal magazzino da cui viene prelevato l'articolo. Quando questa funzione è abilitata, le regole del prezzo di trasferimento in cui il campo **Codice magazzino di origine** è impostato su *Tutti* ignorano l'impostazione **Ubicazione**. Pertanto, la regola si applicherà indipendentemente dall'ubicazione specificata nell'ordine di trasferimento. Questo comportamento è probabilmente quello previsto, poiché l'ubicazione è al di sotto del magazzino nella gerarchia delle dimensioni di stoccaggio.</p><p>Senza questa funzione, il sistema applica regole di questo tipo solo quando l'ubicazione nell'ordine di trasferimento corrisponde esattamente all'ubicazione impostata per la regola. (Se per la regola è impostata un'ubicazione vuota, il sistema applicherà la regola solo per trasferire gli ordini che hanno anche un valore vuoto per l'ubicazione.)</p> |
 | Gestione articoli e magazzino | Pulizia dati report scorte disponibili | Questa funzionalità offre un modo per pulire i dati usati per creare i report *Archiviazione report scorte disponibili*. |
 | Controllo produzione | Assegna le attività di progetto per le righe contratto di assistenza e ordine di assistenza | Questa funzione aggiunge un campo denominato **Attività di progetto** al contratto di assistenza e alle righe dell'ordine di assistenza, in modo da poter impostare un'attività di progetto. La funzione aiuterà a prevenire gli errori di blocco quando si registrano giornali di registrazione del progetto di gestione assistenza che richiedono l'impostazione di un'attività di progetto.  |
-| Warehouse Management | Servizio di prelievo manuale righe di trasferimento per amministratori o utenti attendibili simili | Questa funzione consente agli amministratori di prelevare manualmente le transazioni di magazzino correlate alle righe di trasferimento. Queste righe includono quelle che sono già state rilasciate al magazzino. Gli amministratori dovrebbero eseguire questa selezione solo in casi eccezionali, ad esempio quando il sistema è danneggiato. |
+| Warehouse Management | Servizio di prelievo manuale righe di trasferimento per amministratori o utenti attendibili simili | Questa funzione consente agli amministratori di prelevare manualmente le transazioni di magazzino correlate alle righe di trasferimento. Queste righe includono quelle che sono già state rilasciate al magazzino. Gli amministratori dovrebbero eseguire questa selezione solo in casi eccezionali, ad esempio quando il sistema è danneggiato. Per ulteriori informazioni, vedere [Gestire manualmente le vendite e le eccezioni di prelievo riga di trasferimento](../warehousing/manual-order-line-picking-exception-handling.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Risorse della documentazione nuove e aggiornate
 

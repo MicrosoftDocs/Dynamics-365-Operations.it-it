@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-06-30
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: c0015b65f1ff00cfce19139cb8aaa248512d070b
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: 1a1d152a01e0ebe6a20e2e6b31f12ed7b8deb024
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9114937"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423961"
 ---
 # <a name="process-automation"></a>Automazione del processo
 
@@ -30,7 +30,9 @@ L'automazione dei processi consente una semplice pianificazione dei processi che
 
 La pagina di amministrazione centrale per tutte le automazioni di processo si trova nel modulo Amministrazione di sistema nel menu **Impostazione**. Questa pagina elencherà tutti i processi automatizzati (serie) impostati nel sistema. Consentirà anche di aggiungere nuove automazioni di processo direttamente da questa pagina. Dopo aver impostato una serie, è possibile gestire ogni serie da questo elenco. È possibile scegliere di modificare l'intera serie, eliminarla, visualizzare tutte le occorrenze in una vista elenco o disabilitare la serie se si desidera sospendere il lavoro pianificato per un periodo di tempo. 
 
-Tutti i processi disabilitati nella gestione delle funzionalità non verranno visualizzati quando la funzionalità è disabilitata. Inoltre, il motore di pianificazione dell'automazione dei processi non pianificherà alcuna occorrenza o processo in background per una funzione disabilitata. La riattivazione della funzione provocherà l'esecuzione immediata di eventuali ricorrenze pianificate o processi in background precedenti. Il motore di pianificazione dell'automazione del processo si basa sull'esecuzione del processo batch di sistema, **Processo di sistema polling automazione processo**. Il processo non deve essere alterato o manomesso in nessun momento. Se questo processo batch non è in esecuzione oppure è in uno stato di errore, seleziona **Inizializza automazione processo** per reimpostare il processo batch. Questa operazione garantisce che ogni nuova automazione rilasciata in una versione più recente dell'applicazione venga rilasciata. 
+Utilizzare la scheda **Processi in background** in questa pagina per amministrare tutti i processi in background in esecuzione nel tuo ambiente. Selezionare **Modifica** per apportare modifiche alla pianificazione per qualsiasi processo in background. Queste modifiche possono includere un periodo di sospensione che farà "sospendere" il processo o interromperà l'esecuzione per un periodo specifico ogni giorno. Selezionare **Visualizza risultati più recenti** per visualizzare i risultati dell'esecuzione per ogni processo in background.
+
+Tutti i processi disabilitati nella gestione delle funzionalità non verranno visualizzati quando la funzionalità è disabilitata. Inoltre, il motore di pianificazione dell'automazione dei processi non pianificherà alcuna occorrenza o processo in background per una funzione disabilitata. La riattivazione della funzione provocherà l'esecuzione immediata di eventuali ricorrenze pianificate o processi in background precedenti. Il motore di pianificazione dell'automazione del processo si basa sull'esecuzione del processo batch di sistema, **Processo di sistema polling automazione processo**. Il processo non deve essere alterato o manomesso in nessun momento. Se questo processo batch non è in esecuzione o è in uno stato di errore, selezionare **Inizializza automazioni processi** per reimpostare il processo batch. Questa reimpostazione garantisce che tutte le nuove automazioni rilasciate in una versione più recente dell'applicazione vengano inizializzate. 
 
 ## <a name="calendar-view"></a>Visualizzazione calendario
 

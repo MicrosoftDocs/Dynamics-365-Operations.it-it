@@ -1,23 +1,23 @@
 ---
 title: Catalogo di apprendimento per i ruoli di marketing e vendite dei partner Microsoft per Dynamics 365 Finance
 description: Informazioni su tutte le opzioni di formazione per le persone nei ruoli di vendite e marketing dei partner Microsoft che utilizzano Dynamics 365 Finance.
-author: margoc
+author: cstorega
 ms.topic: article
 ms.date: 07/27/2020
-ms.author: margoc
+ms.author: cstorega
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a53522acb89fc2b766e5b245a5b095a038d1b282
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 2adacf9a3408b0cc4ee62204e50fceedf740b8fa
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9067150"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9424534"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Catalogo di apprendimento per i ruoli di marketing e vendite dei partner Microsoft per Dynamics 365 Finance
 
@@ -25,11 +25,10 @@ Sei responsabile di aiutare i tuoi clienti ad acquistare la soluzione giusta?
 
 Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini specifici e dalla più elementare alla più avanzata. Se il contenuto esiste in più formati, verrà reso noto in modo da poter scegliere il formato di formazione più adatto alle esigenze.
 
-## <a name="get-started"></a>Inizia subito<a name="get-started"></a>
+## <a name="get-started"></a>Attività iniziali<a name="get-started"></a>
 
-| Contenuto  | Descrizione  | Formatta  | Durata    |
+| Contenuto  | Description  | Formato  | Length    |
 |-------------|-----------------|-------------|------------|
-| [Apprendere il valore aziendale di Microsoft Dynamics 365 e Power Platform](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Si è interessati all'apprendimento delle applicazioni aziendali? Forse non si sa da dove come cominciare a usare le applicazioni Microsoft Dynamics 365 e Power Platform ? Ottenere informazioni su come la potenza delle applicazioni aziendali può aiutare a trasformare l'azienda. | Percorso di apprendimento online gratuito autonomo | 7 ore |
 | [Dynamics 365 e Power Platform Fundamentals](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
 | [Introduzione alle app per la finanza e le operazioni](/learn/paths/get-started-finance-operations/) | Il modulo fornisce informazioni sul modo in cui le app per la finanza e le operazioni supportano le aziende nella gestione di sistemi finanziari globali, processi aziendali operativi e supply chain ottimizzate per consentire di prendere decisioni rapide e informate. Il primo passaggio per imparare a lavorare con le app per la finanza e le operazioni è familiarizzare con le loro caratteristiche e funzionalità, indipendentemente dal ruolo che si desidera svolgere. | Percorso di apprendimento online gratuito autonomo | 2 ore |
 | [Attività iniziali per Dynamics 365 Finance](/learn/modules/get-started-financial-management-dyn365-finance/) | Dynamics 365 Finance consente agli utenti aziendali di adattarsi agli ambienti aziendali in rapida evoluzione. Fornisce alle aziende tutto il necessario per controllare i dati finanziari e gestire i fondi con informazioni accurate per la pianificazione e la previsione finanziaria e le aiuta a rimanere aggiornate con gli strumenti di analisi. Poiché la finanza è il fulcro di qualsiasi attività commerciale, è importante conoscere le funzionalità di Dynamics 365 Finance. | Modulo di apprendimento online gratuito e personalizzato | 1 ora |

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1b5282bc1fb4834d001cd2513664996a2f4cf4f0
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
+ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313885"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410452"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -32,6 +32,20 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 
 > [!NOTE]
 > Informazioni dettagliate sugli oggetti nelle app per la finanza e le operazioni sono disponibili nei [Report tecnici di riferimento](/dynamics/s-e/global/axtechrefrep_61). È possibile confrontare le diverse versioni dei report per ottenere informazioni sugli oggetti che sono stati modificati o rimossi in ogni versione delle app per la finanza e le operazioni.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10030-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.30
+
+### <a name="revenue-recognition"></a>Riconoscimento ricavi
+
+[Riconoscimento ricavi](../../finance/accounts-receivable/revenue-recognition-overview.md)
+
+| &nbsp;  | &nbsp;  |
+|---|---|
+| **Motivo della deprecazione/rimozione** |Sostituito da una funzionalità migliorata, [Fatturazione abbonamento](../../finance/accounts-receivable/subscription-billing-summary.md)
+| **Sostituita da un'altra funzionalità?**   | Sì |
+| **Aree del prodotto interessate** | Domanda di lavoro |
+| **Opzione di distribuzione** | Tutti |
+| **Status** | Deprecata: dopo aprile 2023, la funzionalità di riconoscimento delle entrate in Dynamics 365 Finance non riceverà più supporto con correzioni di bug. Ai clienti verrà chiesto di utilizzare la funzionalità migliorata, [Fatturazione abbonamento](../../finance/accounts-receivable/subscription-billing-summary.md). A ottobre 2023 la funzione di riconoscimento delle entrate non sarà più disponibile. Ai clienti verrà chiesto di passare alla funzionalità migliorata, Fatturazione abbonamento.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.29
 

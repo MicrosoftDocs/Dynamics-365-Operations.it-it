@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 576d8d5d0cad09aed40f1ceb9ce5682816c0f666
-ms.sourcegitcommit: f2175fe5e900d39f34167d671aab5074b09cc1b8
+ms.openlocfilehash: 8d8fe042d7c56b86a5a7c92cc24480f573a2ea8a
+ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/17/2022
-ms.locfileid: "9306320"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9423571"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Inventory Visibility
 
@@ -303,13 +303,13 @@ La soluzione include questa configurazione della partizione per impostazione pre
 
 La maggior parte delle volte, la query dell'inventario on-hand non sarà solo al livello più alto "totale". Invece, potresti voler vedere anche i risultati aggregati in base alle dimensioni dell'inventario.
 
-Visibilità inventario fornisce flessibilità permettendovi di impostare gli _indici_. Questi indici sono basati su una dimensione o su una combinazione di dimensioni. Un indice consiste in un *numero di set*, una *dimensione* e una *gerarchia*, come definito nella tabella seguente.
+Visibilità inventario fornisce flessibilità permettendovi di impostare gli _indici_ per migliorare le prestazioni delle query. Questi indici sono basati su una dimensione o su una combinazione di dimensioni. Un indice consiste in un *numero di set*, una *dimensione* e una *gerarchia*, come definito nella tabella seguente.
 
 | Nome | descrizione |
 |---|---|
 | Impostare il numero | Le dimensioni che appartengono allo stesso set (indice) saranno raggruppate insieme, e verrà loro assegnato lo stesso numero di set. |
 | Dimensione | Dimensioni di base su cui viene aggregato il risultato della query. |
-| Hierarchy | La gerarchia è usata per definire le combinazioni di dimensioni supportate che possono essere interrogate. Per esempio, si imposta un set di dimensioni che ha una sequenza gerarchica di `(ColorId, SizeId, StyleId)`. In questo caso, il sistema supporta query su quattro combinazioni di dimensioni. La prima combinazione è vuota, la seconda è `(ColorId)`, la terza è `(ColorId, SizeId)`, e la quarta è `(ColorId, SizeId, StyleId)`. Le altre combinazioni non sono supportate. Per maggiori informazioni, vedere l'esempio che segue. |
+| Gerarchia | La gerarchia consente di aumentare le prestazioni di specifiche combinazioni di dimensioni quando vengono utilizzate nei parametri delle query di raggruppamento e filtro. Ad esempio, se si imposta un set di dimensioni con una sequenza gerarchica di `(ColorId, SizeId, StyleId)`, il sistema può elaborare più rapidamente le query relative a combinazioni di quattro dimensioni. La prima combinazione è vuota, la seconda è `(ColorId)`, la terza è `(ColorId, SizeId)`, e la quarta è `(ColorId, SizeId, StyleId)`. Altre combinazioni non saranno accelerate. I filtri non sono limitati in base all'ordine, ma devono rientrare in queste dimensioni se si desidera migliorarne le prestazioni. Per maggiori informazioni, vedere l'esempio che segue. |
 
 Per impostare il tuo indice di gerarchia dei prodotti, segui questi passi.
 
@@ -319,14 +319,13 @@ Per impostare il tuo indice di gerarchia dei prodotti, segui questi passi.
 1. Per impostazione predefinita, viene fornita una lista di indici. Per modificare un indice esistente, seleziona **Modifica** o **Aggiungi** nella sezione per il relativo indice. Per creare un nuovo set di indici, selezionare **Nuovo set di indici**. Per ogni riga di ogni set di indici, nel campo **Dimensione** , selezionate dall'elenco delle dimensioni di base. I valori per i seguenti campi sono generati automaticamente:
 
     - **Numero di set** - Le dimensioni che appartengono allo stesso gruppo (indice) saranno raggruppate insieme, e lo stesso numero di set sarà assegnato loro.
-    - **Gerarchia** - La gerarchia è usata per definire le combinazioni di dimensioni supportate che possono essere interrogate in un gruppo di dimensioni (indice). Per esempio, se imposti un gruppo di dimensioni che ha una sequenza gerarchica di *Stile*, *Colore* e *Dimensione*, il sistema supporta il risultato di tre gruppi di query. Il primo gruppo è solo stile. Il secondo gruppo è una combinazione di stile e colore. E il terzo gruppo è una combinazione di stile, colore e dimensioni. Le altre combinazioni non sono supportate.
+    - **Gerarchia**: La gerarchia aumenta le prestazioni di specifiche combinazioni di dimensioni quando vengono utilizzate nei parametri delle query di raggruppamento e filtro.
 
 > [!TIP]
 > Ecco alcuni suggerimenti da tenere a mente quando si imposta la gerarchia dell'indice:
 >
 > - Le dimensioni di base che sono definite nella configurazione della partizione non dovrebbero essere definite nelle configurazioni degli indici. Se una dimensione di base viene definita di nuovo nella configurazione dell'indice, non sarà possibile eseguire le query in base a questo indice.
 > - Se è necessario interrogare solo l'inventario aggregato da tutte le combinazioni di dimensioni, è possibile configurare un unico indice che contenga la dimensione di base `Empty`.
-> - Devi avere almeno una gerarchia di indici (ad esempio, contenente la dimensione di base `Empty`), altrimenti le query non riusciranno con l'errore "Nessuna gerarchia di indici è stata impostata".
 
 ### <a name="example"></a>Esempio
 

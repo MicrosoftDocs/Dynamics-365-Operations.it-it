@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 45a35eb32cb9e51d9f63f6687808fb511f894887
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5e8b4ab74bf973a131499799efa66e9c7fe9d5be
+ms.sourcegitcommit: 0220be95c007c77ba3b73fed8ac68a3d72dc2884
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873726"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403696"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Processo di rilascio di Ottimizzazione pianificazione e cronologia dei rilasci
 
@@ -33,6 +33,7 @@ Poiché le notifiche non vengono visualizzate quando Ottimizzazione pianificazio
 
 | Modifiche | Dettagli della gestione funzionalità | Date di rilascio |
 |---|---|---|
+| <p>Miglioramenti generali di prestazioni, qualità e stabilità. | Non è richiesta alcuna gestione delle funzionalità. | 29 agosto - 3 settembre 2022 |
 | <p>Miglioramenti generali di prestazioni, qualità e stabilità.<p>[Manutenzione calendario centralizzato di Ottimizzazione pianificazione](../supply-chain-calendars-master-planning.md)<p>[Suggerimenti di ottimizzazione pianificazione per ottimizzare l'approvvigionamento esistente](../action-messages.md)<p>[Supporto di Ottimizzazione pianificazione per conto lavoro](../../production-control/manage-subcontract-work-production.md) | Non è richiesta alcuna gestione delle funzionalità. | 7-11 marzo 2022 |
 | <p>Aggiunto supporto per la priorità di pianificazione per gli ordini di produzione. | Disponibile con la versione 10.0.25 come parte della funzionalità denominata *Supporto MRP basato sulla priorità per Ottimizzazione pianificazione*. | 12-18 novembre 2021 |
 | <p>Miglioramenti generali di prestazioni, qualità e stabilità. | Non è richiesta alcuna gestione delle funzionalità. | 12-18 novembre 2021 |
