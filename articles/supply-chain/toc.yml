@@ -3413,8 +3413,6 @@
                       href: warehousing/packing-work.md
                     - name: Impostare la riallocazione articolo per prelievo breve
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                    - name: Annullare il lavoro di magazzino per la gestione delle eccezioni
-                      href: warehousing/cancel-warehouse-work.md
                     - name: Sequenza lavori gestiti dal sistema
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Raggruppamento righe prelievo
@@ -3431,6 +3429,10 @@
                       href: warehousing/put-to-wall-put-to-store.md
                     - name: Visualizzazione del carico di lavoro in uscita
                       href: warehousing/outbound-workload-visualization.md
+                    - name: Gestire manualmente le vendite e le eccezioni di prelievo righe di trasferimento
+                      href: warehousing/manual-order-line-picking-exception-handling.md
+                    - name: Annullare il lavoro di magazzino per la gestione delle eccezioni
+                      href: warehousing/cancel-warehouse-work.md
                 - name: Rifornimento
                   items:
                     - name: Panoramica rifornimento

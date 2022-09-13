@@ -12,6 +12,8 @@
               items:
                 - name: Home page Novità o modifiche in Commerce
                   href: get-started/whats-new-home-page.md
+                - name: Commerce 10.0.30 (novembre 2022)
+                  href: get-started/whats-new-commerce-10-0-30.md
                 - name: Commerce 10.0.29 (ottobre 2022)
                   href: get-started/whats-new-commerce-10-0-29.md
                 - name: Commerce 10.0.28 (luglio 2022)
@@ -702,18 +704,16 @@
                   href: optimal-combination-overlapping-discounts.md
                 - name: Definire gli sconti specifici del canale
                   href: define-channel-specific-discounts.md
-                - name: Opzioni per impedire sconti sui prodotti di vendita al dettaglio
-                  href: prevent-discounts.md
                 - name: Sconti basati sui metodi di pagamento
                   href: tender_based_discounts.md
                 - name: Sconto spedizione
                   href: shipping-discount.md
                 - name: Configurare regalo con promozioni di acquisto
                   href: gift-with-purchase.md
-                - name: Impostare buoni sconto
-                  href: retail-coupons.md
-                - name: Mostrare sconti in POS
-                  href: discounts-pos.md
+                - name: Buoni sconto
+                  href: coupons.md
+                - name: Impostazioni prezzi
+                  href: price-settings.md
                 - name: Report prezzi
                   href: price-report.md
                 - name: Creare accordi commerciali specifici di canale
@@ -800,6 +800,8 @@
                       href: calculated-inventory-retail-channels.md
                     - name: Operazione di ricerca in magazzino in POS
                       href: pos-inventory-lookup-operation.md
+                    - name: Elenco dei prodotti basato sulle scorte
+                      href: inventory-aware-product-listing.md
                 - name: Ordini fornitore
                   items:
                     - name: Panoramica degli ordini fornitore
