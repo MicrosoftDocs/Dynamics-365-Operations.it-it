@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Novità o modifiche in Human Resources
               items:
+                - name: Human Resources 10.0.30 (infrastruttura unita)
+                  href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (infrastruttura unita)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (infrastruttura unita)
@@ -476,13 +478,15 @@
               href: hr-personnel-view-address-changes.md
             - name: Modificare le relazioni gerarchiche per una posizione
               href: hr-personnel-modify-reporting-relationships-position.md
-            - name: Immissione dati dipendente semplificata
+            - name: Immissione dei dati del dipendente semplificata
               href: stream-employee-entry.md
-            - name: Immettere informazioni su lavoratore
+            - name: Personalizzare il controllo intestazione
+              href: hr-worker-header-control.md
+            - name: Immettere le informazioni sul lavoratore
               href: hr-personnel-enter-worker-information.md
             - name: Lavoratori senza impiego
               href: hr-personnel-workers-without-employment.md
-            - name: Prestare articoli ai lavoratori
+            - name: Articoli prestito per i lavoratori
               href: hr-personnel-loan-item-worker.md
             - name: Creare articoli prestito
               href: hr-personnel-create-loan-items.md
