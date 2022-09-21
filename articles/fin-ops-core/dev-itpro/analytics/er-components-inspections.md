@@ -2,7 +2,7 @@
 title: Ispezionare il componente ER configurato per evitare problemi di runtime
 description: Questo articolo spiega come ispezionare i componenti di creazione di report elettronici (ER) configurati per prevenire problemi di runtime che potrebbero verificarsi.
 author: kfend
-ms.date: 01/03/2022
+ms.date: 09/14/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
-ms.openlocfilehash: 53835bbceaa89793d890d8bc18921497c686e969
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1ca59d6c26dbcf065adb952409da30002d951f62
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277852"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476856"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Ispezionare il componente ER configurato per evitare problemi di runtime
 
@@ -243,6 +243,15 @@ Nella seguente tabella viene fornita una panoramica delle ispezioni che ER offre
 <td>
 <p>L'espressione elenco della funzione ORDERBY non è disponibile per query.</p>
 <p><b>Errore di runtime:</b> l'ordinamento non è supportato. Convalidare la configurazione per ottenere maggiori dettagli su questo.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i19'>Artefatto dell'applicazione obsoleto</a></td>
+<td>Integrità dei dati</td>
+<td>Avviso</td>
+<td>
+<p>L'elemento &lt;percorso&gt; è contrassegnato come obsoleto.<br>o<br>L'elemento &lt;percorso&gt; è contrassegnato come obsoleto con il messaggio &lt;testo del messaggio&gt;.</p>
+<p><b>Esempio di errore di runtime:</b> "&lt;percorso&gt;" della classe non trovato.</p>
 </td>
 </tr>
 </tbody>
@@ -942,6 +951,36 @@ Invece di aggiungere un campo nidificato del tipo **Campo calcolato** all'origin
 #### <a name="option-2"></a>Opzione 2
 
 Cambiare l'espressione dell'origine dati **FilteredVendors** da `ORDERBY("Query", Vendor, Vendor.AccountNum)` a `ORDERBY("InMemory", Vendor, Vendor.AccountNum)`. Non è consigliabile modificare l'espressione per una tabella che ha un grande volume di dati (tabella transazionale), perché tutti i record verranno recuperati e l'ordinamento dei record richiesti verrà eseguita in memoria. Pertanto, questo approccio può causare prestazioni ridotte.
+
+## <a name="obsolete-application-artifact"></a><a id="i19"></a>Artefatto dell'applicazione obsoleto
+
+Quando progetti un componente di mapping del modello ER o un componente in formato ER, è possibile configurare un'espressione ER per chiamare un artefatto dell'applicazione in ER, ad esempio una tabella di database, un metodo di una classe, ecc. In Finance versione 10.0.30 e successive, puoi forzare ER ad avvisarti che l'artefatto dell'applicazione a cui si fa riferimento è contrassegnato nel codice sorgente come obsoleto. Questo avviso può essere utile perché di solito gli artefatti obsoleti vengono eventualmente rimossi dal codice sorgente. Essere informati sullo stato di un artefatto può impedire l'utilizzo dell'artefatto obsoleto nel componente ER modificabile prima della sua rimozione dal codice sorgente, aiutando a prevenire errori di chiamata di elementi dell'applicazione non esistenti da un componente ER in fase di esecuzione.
+
+Abilita la funzionalità **Convalida elementi obsoleti delle origini dati di Creazione di report elettronici** nell'area di lavoro **Gestione funzionalità** per iniziare a valutare l'attributo obsoleto degli artefatti dell'applicazione durante l'ispezione di un componente ER modificabile. L'attributo obsoleto è attualmente valutato per i seguenti tipi di artefatti dell'applicazione:
+
+- Tabella di database
+    - Campo di tabella
+    - Metodo di tabella
+- Classe dell'applicazione
+    - Metodo di classe
+
+> [!NOTE]
+> Viene visualizzato un avviso durante l'ispezione del componente ER modificabile per un'origine dati che fa riferimento a un artefatto obsoleto solo quando questa origine dati viene utilizzata in almeno un'associazione di questo componente ER.
+
+> [!TIP]
+> Quando la classe [SysObsoleteAttribute](../dev-ref/xpp-attribute-classes.md#sysobsoleteattribute) viene utilizzata per notificare al compilatore di emettere messaggi di avviso anziché errori, l'avviso di ispezione presenta l'avviso di codice sorgente specificato in fase di progettazione nella scheda dettaglio **Dettagli** sulla pagina **Progettazione mapping modello** o **Progettazione formati**.
+
+L'illustrazione seguente mostra l'avviso di convalida che si verifica quando il campo `DEL_Email` obsoleto della tabella dell'applicazione `CompanyInfo` è associato a un campo del modello di dati tramite l'orgine dati `company` configurata.
+
+![Esamina gli avvisi di convalida nella Scheda dettaglio Dettagli nella pagina Progettazione mapping modello.](./media/er-components-inspections-19a.png)
+
+### <a name="automatic-resolution"></a>Risoluzione automatica
+
+Non è disponibile alcuna opzione per risolvere automaticamente questo problema.
+
+### <a name="manual-resolution"></a>Risoluzione manuale
+
+Modifica il mapping o il formato del modello configurato rimuovendo tutte le associazioni a un'origine dati che fa riferimento a un artefatto dell'applicazione obsoleto.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

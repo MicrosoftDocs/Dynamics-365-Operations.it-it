@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 95c905cbcc3c057dbccf2b7d6e894b1e99ddfba5
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 68a1ba2bfe90aaf0462917c405d483fa12bf8126
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337145"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428223"
 ---
 # <a name="master-planning-for-products-with-limited-shelf-life"></a>Pianificazione generale per prodotti con durata a scaffale limitata
 
@@ -298,8 +298,6 @@ L'illustrazione seguente mostra la sequenza temporale per questo esempio.
 ![Esempio 4: FEFO semplice, periodo, lead time dipende dalla quantità.](media/fefo-example-4.png "Esempio 4: FEFO semplice, periodo, lead time dipende dalla quantità")
 
 ## <a name="example-5-simple-fefo-requirement-10-negative-days"></a>Esempio 5: FEFO semplice, fabbisogno, 10 giorni negativi
-
-<!-- KFM: This is more of a negative days example than a shelf life example. We should point out more explicitly how shelf life affects this situation (or maybe otherwise remove this example). -->
 
 Questo esempio mostra come funziona la durata a scaffale quando un gran numero di giorni negativi viene aggiunto per un articolo. I giorni negativi sono il numero di giorni che sei disposto ad attendere prima di ordinare il rifornimento di un articolo in caso di scorte negative. Il sistema non crea una fornitura a meno che non venga superato il numero di giorni negativi.
 

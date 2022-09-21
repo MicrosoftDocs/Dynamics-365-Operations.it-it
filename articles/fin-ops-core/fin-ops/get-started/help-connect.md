@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 16141
 ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
 ms.search.form: SystemParameters
-ms.openlocfilehash: 35dc37f6669a3f47dd82917be0e84d0b8698e8f8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 2c45a203303181c7ea23e20f8fa1bdce1c827aa2
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9282467"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462241"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurare l'esperienza della Guida per le app per la finanza e le operazioni
 
@@ -37,7 +37,7 @@ Le app per la finanza e le operazioni includono panoramiche concettuali e altri 
 
 [![Architettura della Guida.](./media/help-architecture.png)](./media/help-architecture.png)
 
-Il sistema della Guida interno al prodotto estrae articoli da docs.microsoft.com e altri siti Web collegati. Inserisce anche le guide attività archiviate in Business process modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).
+Il sistema della Guida interno al prodotto estrae articoli da Microsoft Docs e altri siti Web collegati. Inserisce anche le guide attività archiviate in Business process modeler (BPM) in Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="adding-task-guides"></a>Aggiunta di guide per le attività
 
@@ -103,4 +103,3 @@ Se desideri collaborare con Microsoft su strumenti e processi per la personalizz
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

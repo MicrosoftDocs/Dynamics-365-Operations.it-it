@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
-ms.openlocfilehash: 3620fa886fd4b609a0f1f08b2338ab725065efe7
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 283c882300ece460c18ffebe572238e7629f8dee
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287930"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476803"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Designer formula nella creazione di report elettronici (ER)
 
@@ -137,7 +137,29 @@ La figura seguente mostra espressioni di questo tipo. (La versione 11.12.11 dell
 > 
 > In base a questa impostazione, il messaggio che viene generato per ogni pagamento debitore, l'elemento XML **Ustrd**, conterrà il testo delle note di pagamento o, quando questo testo è vuoto, l'elenco separato con virgole dei numeri di fattura utilizzati per liquidare il pagamento.
 
-## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Convalida delle formule configurate
+## <a name="assistance-in-formulas-writing"></a>Assistenza nella scrittura di formule
+
+### <a name="data-sources-navigator"></a>Strumento di navigazione delle origini dati
+
+È possibile modificare una formula che rappresenta un elemento di un'origine dati strutturata. Quando hai configurato i parametri ER per presentare il percorso a un elemento di un'origine dati strutturata come [percorso relativo](relative-path-data-bindings-er-models-format.md), il segno "chiocciola" (@) è [mostrato](er-formula-language.md#relative-path) nella formula invece della parte restante del percorso assoluto della struttura ad albero gerarchica che viene utilizzata. Questa parte rimanente del percorso assoluto è puntata a un elemento padre di quello modificabile. In Finance versione **10.0.30 e successive**, nella pagina **Designer formula**, nel riquadro **Origini dati**, è possibile selezionare l'opzione **Vai a @** per posizionare il cursore dell'albero delle origini dati su un elemento che è il padre di quello modificabile. La struttura di tutti gli elementi ascendenti compressi verrà espansa automaticamente e ricorsivamente quando richiesto. Questa espansione può aiutarti a visualizzare rapidamente l'elemento di base di quello modificabile, osservare gli elementi di pari livello dell'elemento modificabile nell'albero delle origini dati e, se necessario, utilizzare ciascuno di essi nella formula modificabile.
+
+![Utilizza l'opzione "Vai a @" per posizionare il cursore dell'albero delle origini dati su un elemento che è il padre di quello modificabile nella pagina Designer formula.](./media/er_formula-designer-data-sources-navigator.gif)
+
+### <a name="data-sources-picker"></a>Selezione delle origini dati
+
+Sulla pagina **Designer formula** nel riquadro **Origini dati** a sinistra, seleziona un elemento di un'origine dati che desideri inserire nella formula modificabile. Quindi seleziona **Aggiungi origine dati**. L'elemento selezionato viene aggiunto al testo della formula modificabile.
+
+> [!TIP]
+> Quando usi l'opzione **Aggiungi origine dati** nell'editor delle formule predefinito, l'elemento selezionato viene sempre aggiunto alla fine del testo della formula. Quando fai lo stesso nell'[Editor di formule avanzato](er-advanced-formula-editor.md), l'elemento selezionato viene inserito nel testo della formula nella posizione corrente del cursore.
+
+### <a name="built-in-functions-picker"></a>Selezione delle funzioni integrate
+
+Sulla pagina **Designer formula** nel riquadro **Funzioni** a destra, seleziona una funzione integrata ER che desideri inserire nella formula modificabile. Quindi seleziona **Aggiungi funzione**. La funzione selezionata viene aggiunta al testo della formula modificabile.
+
+> [!TIP]
+> Quando usi l'opzione **Aggiungi funzione** nell'editor delle formule predefinito, la funzione selezionata viene sempre aggiunta alla fine del testo della formula. Quando fai lo stesso nell'[Editor di formule avanzato](er-advanced-formula-editor.md), la funzione selezionata viene inserita nel testo della formula nella posizione corrente del cursore.
+
+### <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Convalida delle formule configurate
 
 Nella pagina **Designer formula**, selezionare **Test** per convalidare il funzionamento della formula configurata.
 

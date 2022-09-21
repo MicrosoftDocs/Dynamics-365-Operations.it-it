@@ -2,7 +2,7 @@
 title: Gestione attività
 description: In questo articolo viene illustrata la funzionalità di gestione delle attività disponibile in Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 12/20/2021
+ms.date: 09/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,14 +12,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2021-29-11
+ms.search.validFrom: 2022-06-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c567f6d74e6ff87a72ff3b8663ca3a291dff3abb
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 29b547ff4f55b572ab774e7e70949ec8cb53ef42
+ms.sourcegitcommit: 167f73a834629752c6b79c312d744e52df7f0927
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8897866"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9445896"
 ---
 # <a name="task-management"></a>Gestione attività
 
@@ -69,7 +69,13 @@ In tutte e tre le schede, gli assistenti e i manager delle risorse umane possono
 
 Puoi creare attività individualmente e quindi riutilizzarle in più elenchi di controllo. Per creare un'attività, nella pagina **Impostazione onboarding** nella scheda **Attività** seleziona **Nuovo**.
 
+È possibile assegnare un'attività creata a più elenchi di controllo selezionando l'attività e quindi selezionando **Applica a elenchi di controllo** nel menu.
+
 In alternativa, puoi aggiungere attività direttamente a un elenco di controllo. Per aggiungere un'attività a un elenco di controllo, nella pagina **Impostazione onboarding** nella scheda **Elenco di controllo** crea un nuovo elenco di controllo a cui aggiungere l'attività o aggiungi l'attività a un elenco di controllo esistente.
+
+Per modificare un'attività nella libreria, seleziona **Modifica** nel menu della libreria delle attività. Se l'attività è associata a delle liste di controllo, tali liste di controllo verranno visualizzate nella pagina **Modifica attività**. Se desideri che le attività in qualsiasi elenco di controllo vengano aggiornate con le modifiche, seleziona tali elenchi di controllo nella sezione **Applica a elenchi di controllo**.
+
+Per eliminare le attività dalla libreria, seleziona l'opzione **Elimina**. Se un'attività è associata a un elenco di controllo, questa azione non eliminerà l'attività dall'elenco di controllo. L'attività deve essere rimossa dall'elenco di controllo con un'azione separata.
 
 > [!NOTE]
 > Se aggiungi un'attività direttamente a un elenco di controllo, non puoi riutilizzarla in altri elenchi di controllo.
@@ -133,7 +139,15 @@ Attività complesse possono richiedere più passaggi, o la persona che esegue l'
 
 ## <a name="setting-up-checklists"></a>Impostazione di elenchi di controllo
 
-Un elenco di controllo è un gruppo di attività. Puoi creare tutti gli elenchi di controllo di cui hai bisogno e puoi assegnare le stesse attività a più elenchi di controllo. Quando crei un elenco di controllo, specifichi un proprietario e un calendario.
+Un elenco di controllo è un gruppo di attività. Puoi creare tutti gli elenchi di controllo di cui hai bisogno e puoi assegnare le stesse attività a più elenchi di controllo.
+
+Per creare una nuova attività in un elenco di controllo, seleziona **Nuovo** nella barra dei menu **Attività**. Quando crei una nuova attività, puoi scegliere di aggiungerla alla libreria delle attività, in modo che possa essere condivisa tra più elenchi di controllo. È possibile aggiungere l'attività alla libreria solo se l'opzione **Applica attività alla libreria** è impostata su **sì**. Se aggiungi l'attività alla libreria delle attività, puoi anche aggiungerla ad altri elenchi di controllo contemporaneamente selezionando tali elenchi di controllo nella sezione **Applica a elenchi di controllo**. Se non aggiungi l'attività alla libreria, esisterà solo nell'elenco di controllo in cui la crei.
+
+Per modificare un'attività nell'elenco di controllo, seleziona **Modifica**. Se l'attività è associata a delle liste di controllo, tali liste di controllo verranno visualizzate nella pagina **Modifica attività**. Se desideri che le attività in altri elenchi di controllo vengano aggiornate con le modifiche, seleziona tali elenchi di controllo nella sezione **Applica a elenchi di controllo**.
+
+Per rimuovere le attività dall'elenco di controllo, seleziona **Rimuovi**. Questa azione rimuove semplicemente le attività dall'elenco di controllo. Non le elimina dalla libreria delle attività. Per eliminare un'attività dalla libreria, vai alla pagina della libreria delle attività e seleziona **Elimina**.
+
+Quando crei un elenco di controllo, specifichi un proprietario e un calendario.
 
 Se il campo **Tipo di assegnazione** per un'attività è impostato su **Posizione**, **Manager**, o **Gruppo**, ma non è possibile derivare alcun individuo specifico dal tipo di assegnazione, l'attività verrà assegnata al proprietario dell'elenco di controllo. Di seguito sono riportati alcuni esempi di situazioni in cui le attività verranno assegnate al proprietario dell'elenco di controllo:
 

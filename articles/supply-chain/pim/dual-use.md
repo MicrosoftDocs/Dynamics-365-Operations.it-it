@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 02b154b9ea849c6b905d76edb256c4106b254acd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5147a837be91aab519c373e624acc036f9293641
+ms.sourcegitcommit: 555de844b8ba02fe095c28a2d447fc7c441ae549
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878905"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460550"
 ---
 # <a name="dual-use-goods"></a>Beni a duplice uso
 
@@ -85,7 +85,14 @@ Per identificare un prodotto come bene a duplice uso e applicarvi una categoria 
 1. Nella Scheda dettaglio **Commercio estero**, impostare l'opzione **Prodotti a duplice uso** su **Sì** per identificare il prodotto attuale come un bene a duplice uso.
 1. Impostare il campo **Codice a doppio uso** sul codice che si applica al prodotto corrente (questo codice è stato definito nella pagina **Categorie a duplice uso**).
 
-Questa impostazione viene verificata quando si crea un ordine cliente.
+> [!NOTE]
+>
+> Il sistema effettua i seguenti controlli di duplice uso quando genera una conferma di vendita:
+>
+> 1. L'ordine include beni a duplice uso?
+> 1. In tal caso, il paese di destinazione richiede certificati per duplice uso?
+> 1. In tal caso, esistono certificati per ogni bene a duplice uso per il paese di destinazione e sono validi per le date di spedizione confermate?
+> 1. Se le risposte alle domande 1 e 2 sono "Sì" e la risposta alla domanda 3 è "No", il sistema mostra un avviso per informare l'utente che mancano certificati a duplice uso per uno o più beni a duplice uso nel ordine cliente. L'utente deve probabilmente ottenere i certificati richiesti e riprovare, ma può annullare l'avviso e procedere con la conferma della vendita, se lo desidera.
 
 ## <a name="set-up-dual-use-certificates"></a>Impostare certificati per duplice uso
 

@@ -2,7 +2,7 @@
 title: Abilita suggerimenti sul prodotto
 description: In questo articolo viene descritto come abilitare i suggerimenti sul prodotto basati su intelligenza artificiale-machine learning (AI-ML) disponibili per i clienti di Microsoft Dynamics 365 Commerce.
 author: bebeale
-ms.date: 08/31/2021
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dceec9e8e994a81b43cd5d1bd13970f2d246f40
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc1b43fa70e6652d38b1141e2d93cf323f70a756
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8892073"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460023"
 ---
 # <a name="enable-product-recommendations"></a>Abilita suggerimenti sul prodotto
 
@@ -36,8 +36,15 @@ In questo articolo viene descritto come abilitare i suggerimenti sul prodotto ba
 1. Verificare che la configurazione dell'identità di Azure AD contiene una voce per i Consigli. Ulteriori informazioni su come eseguire questa azione sono di seguito.
 1. Assicurarsi che l'aggiornamento giornaliero dell'archivio entità ad Azure Data Lake Storage Gen2 sia stato programmato. Per ulteriori informazioni, vedere [Assicurarsi che l'aggiornamento dell'archivio entità sia stato automatizzato](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 1. Abilitare le misure RetailSale per l'archivio entità. Per ulteriori informazioni sulla configurazione di questa procedura, vedere [Lavorare con le misure](/dynamics365/ai/customer-insights/pm-measures).
+1. Assicurati che il tuo ambiente abbia configurato le aree di servizio e cottura nelle aree attualmente supportate, come segue:
+
+    - **Aree di cottura supportate:** UE/USA/CA/AU.
+    - **Aree di servizio supportate:** USA/CA/AU. Se l'area di servizio non corrisponde a una delle aree supportate esistenti, il servizio di suggerimenti selezionerà l'area di servizio supportata più vicina.
 
 Dopo aver completato i passaggi precedenti, sarà possibile abilitare gli elementi consigliati.
+
+> [!NOTE]
+> Esiste un problema noto per cui i suggerimenti non vengono visualizzati dopo il completamento dei passaggi seguenti. Questo problema è causato da problemi di flusso di dati nell'ambiente. Se il tuo ambiente non mostra i risultati dei suggerimenti, configura i dati alternativi per il servizio dei suggerimenti seguendo i passaggi in [Configurare un flusso di dati alternativo per i suggerimenti](set-up-alternate-data-flow.md). È necessario disporre delle autorizzazioni di amministratore di Azure per completare questi passaggi. Se hai bisogno di assistenza, contatta il tuo rappresentante FastTrack.
 
 ## <a name="azure-ad-identity-configuration"></a>Configurazione dell'identità di Azure AD
 
@@ -94,9 +101,11 @@ Per ulteriori informazioni su suggerimenti personalizzati, vedere [Abilitare sug
 
 [Abilitare Azure Data Lake Storage in un ambiente Dynamics 365 Commerce](enable-adls-environment.md)
 
+[Impostare un flusso di dati alternativo per i suggerimenti](set-up-alternate-data-flow.md)
+
 [Abilitare i suggerimenti personalizzati](personalized-recommendations.md)
 
-[Abilitare gli elementi consigliati "acquista prodotti simili"](shop-similar-looks.md)
+[Abilitare i consigli "acquista prodotti simili"](shop-similar-looks.md)
 
 [Rifiuto esplicito dei suggerimenti personalizzati](personalization-gdpr.md)
 
@@ -111,6 +120,7 @@ Per ulteriori informazioni su suggerimenti personalizzati, vedere [Abilitare sug
 [Crea suggerimenti con dati dimostrativi](product-recommendations-demo-data.md)
 
 [Domande frequenti su suggerimenti prodotto](faq-recommendations.md)
+
 
 
 

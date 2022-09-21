@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2022-08-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: cc013e962b4da803764f16e451b1d433666e75c2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 39677ebfb9babeb7246ece4d27ab1813435ca12e
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336607"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427850"
 ---
 # <a name="query-data-using-warehouse-management-mobile-app-detours"></a>Eseguire query sui dati usando le deviazioni dell'app per dispositivi mobili Warehouse Management
 
@@ -268,6 +268,6 @@ Segui questi passaggi per testare la nuova configurazione dell'app per dispositi
     ![Entrata acquisti che utilizza la ricerca di ordini fornitore per fornitore, esempio 2.](media/wma-purchase-receive-lookup-po-vendor-detours.png "Entrata acquisti che utilizza la ricerca di ordini fornitore per fornitore, esempio 2")
 
 > [!TIP]
-> Anziché eseguire il flusso di entrata eseguendo una ricerca dalla voce di menu **Entrata acquisti**, puoi iniziare da un flusso di richiesta (**Principale \> Richiedi informazioni \> Cerca ordini fornitore per fornitore**) e invocare una deviazione per eseguire il flusso desiderato selezionando una delle schede nell'elenco. Per utilizzare questo approccio, puoi definire una deviazione nella pagina **Passaggi per dispositivo mobile** per il passaggio il cui **ID passaggio** è *GenericDataInquiryList*. Poiché questo flusso è un flusso di deviazione, non puoi richiamare più deviazioni dallo stesso. Pertanto, quando arrivi alla schermata di immissione del numero di articolo, ad esempio, la ricerca non sarà disponibile poiché il sistema attualmente supporta un solo livello di deviazioni.
+> Anziché eseguire il flusso di entrata eseguendo una ricerca dalla voce di menu **Entrata acquisti**, puoi iniziare da un flusso di richiesta (**Principale \> Richiedi informazioni \> Cerca ordini fornitore per fornitore**) e invocare una deviazione per eseguire il flusso desiderato selezionando una delle schede nell'elenco. Per utilizzare questo approccio, puoi definire una deviazione nella pagina **Passaggi per dispositivo mobile** per il passaggio il cui **ID passaggio** è *GenericDataInquiryList*. Con la funzionalità [*Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management*](warehouse-app-detours.md) attivata per il tuo sistema, puoi anche aggiungere una deviazione aggiuntiva se necessario (questa funzionalità aggiunge il supporto per un massimo di due livelli di deviazioni e può essere personalizzata per supportare livelli aggiuntivi).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

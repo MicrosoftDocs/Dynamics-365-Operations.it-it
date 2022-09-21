@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-13
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: c3280b2e39d7af5ca99cad703cad6ecc7b307bff
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: caa38c4ed1c7fb8cf1ead3ba6534f8405a5ff57f
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8893180"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428038"
 ---
 # <a name="release-to-warehouse"></a>Rilascio in magazzino
 
@@ -34,7 +34,7 @@ Un *carico* è un gruppo di righe di ordini cliente o di ordini di trasferimento
 
 Per *lavoro* di magazzino si intende qualsiasi operazione di magazzino eseguita da un addetto al magazzino stesso. In genere, le operazioni di magazzino sono costituite almeno da due azioni consecutive: un addetto preleva le scorte disponibili da un'ubicazione e le colloca in un'altra ubicazione.
 
-Quando gli ordini vengono rilasciati in magazzino, il sistema crea *righe di carico* e le raggruppa in spedizioni. Il processo di consolidamento della spedizione viene eseguito in automatico durante il processo di rilascio in magazzino. Per ulteriori informazioni, vedere [Criteri di consolidamento della spedizione](about-shipment-consolidation-policies.md).
+Quando gli ordini vengono rilasciati in magazzino, il sistema crea *righe di carico* e le raggruppa in spedizioni. Il processo di consolidamento della spedizione viene eseguito in automatico durante il processo di rilascio in magazzino. Per ulteriori informazioni, vedi [Panoramica dei criteri di consolidamento delle spedizioni](about-shipment-consolidation-policies.md).
 
 Il sistema utilizza *cicli* per creare lavori di prelievo e carichi per la spedizione. Un *modello di ciclo* deve essere disponibile per il tipo di ciclo che si desidera creare e per il magazzino della riga ordine. I modelli di ciclo di tipo *Spedizione* vengono utilizzati per spedire articoli relativi a ordini cliente e ordini di trasferimento.
 

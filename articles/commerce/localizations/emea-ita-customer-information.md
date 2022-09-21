@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Italy
 ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 4d5394a329b9f21f01786a20bf20eaa9b4145282
-ms.sourcegitcommit: 66d129874635d34a8b29c57762ecf1564e4dc233
+ms.openlocfilehash: 3b3e5b6fbb7acadf35972b163c36295de1e6c070
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9324593"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9474169"
 ---
 # <a name="customer-information-management-for-italy"></a>Gestione delle informazioni cliente per l'Italia
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introduzione
 

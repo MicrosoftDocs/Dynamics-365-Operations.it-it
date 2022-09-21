@@ -2,7 +2,7 @@
 title: Periferiche
 description: In questo articolo vengono descritti i concetti correlati alle periferiche di Commerce.
 author: BrianShook
-ms.date: 03/01/2022
+ms.date: 09/08/2022
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -12,12 +12,12 @@ ms.custom:
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 641b45390477c8c5e6239709f7c91887a403fbaf
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b3113626b18ad7f074c808d7631d13b09071bef2
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880083"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459996"
 ---
 # <a name="peripherals"></a>Periferiche
 
@@ -141,6 +141,9 @@ Nel caso di periferiche POS, molti dispositivi USB possono essere collegati e ri
 Modern POS supporta MSR e scanner UWP. Pertanto, quando Modern POS è pronto per l'input da uno di questi dispositivi e un dispositivo appartenente a una di queste classi di dispositivo è connesso, il dispositivo può essere utilizzato. Ad esempio, se uno scanner di codice a barre plug and play viene collegato a un computer Windows 10 e l'accesso con codice a barre è configurato per Modern POS, lo scanner di codici a barre diventerà attivo nella pagina di accesso. Non sono necessarie configurazioni aggiuntive.
 
 Altri classi di periferiche POS vengono aggiunte a Windows, come le classi per i cassetti di cassa e le stampanti per ricevute. IL supporto per queste nuove classi di dispositivi in Modern POS è in sospeso.
+
+> [!NOTE] 
+> Alcuni dispositivi USB potrebbero non rispondere o essere inaffidabili se gestiti da una funzionalità di gestione dell'alimentazione di Windows 10 chiamata [Sospensione selettiva USB](/windows-hardware/drivers/usbcon/usb-selective-suspend). Se una periferica USB non risponde, potrebbe essere necessario disabilitare la funzione di sospensione selettiva per quel dispositivo. Per ulteriori informazioni, vedi [Abilitare la sospensione selettiva](/windows-hardware/drivers/usbcon/usb-selective-suspend#enabling-selective-suspend). 
 
 ### <a name="keyboard-wedge"></a>Lettore collegato alla tastiera
 

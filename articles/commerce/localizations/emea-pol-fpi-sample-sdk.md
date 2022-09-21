@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-03-01
-ms.openlocfilehash: 178301e6d8e5f87376ed893e4bf5f966260cad62
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: b19c8d7a80ac772ae238191d1285a1ad80e6f611
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336718"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473960"
 ---
 # <a name="deployment-guidelines-for-the-fiscal-printer-integration-sample-for-poland-legacy"></a>Linee guida per la distribuzione dell'esempio di integrazione della stampante fiscale per la Polonia (legacy)
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Devi seguire le linee guida in questo articolo solo se stai usando Microsoft Dynamics 365 Commerce versione 10.0.28 o precedente. A partire dalla versione 10.0.29 di Commerce, l'esempio di integrazione della stampante fiscale per la Polonia è disponibile in Commerce SDK. Per ulteriori informazioni, vedi [Configurare i componenti del canale](./emea-pol-fpi-sample.md#configure-channel-components).

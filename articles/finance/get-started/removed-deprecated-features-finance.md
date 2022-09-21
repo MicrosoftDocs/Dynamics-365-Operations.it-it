@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 83fa9d0a08d4d9ec171aeee685d39bba46e5687d
-ms.sourcegitcommit: 6fd44fc6e9a7bad197cab58c36ec25a555724cf1
+ms.openlocfilehash: 070c61df14db4d2538b129b01defd4b82db0b8a7
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410452"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462303"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Funzionalità rimosse o deprecate in Dynamics 365 Finance
 
@@ -45,7 +45,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Sostituita da un'altra funzionalità?**   | Sì |
 | **Aree del prodotto interessate** | Domanda di lavoro |
 | **Opzione di distribuzione** | Tutti |
-| **Status** | Deprecata: dopo aprile 2023, la funzionalità di riconoscimento delle entrate in Dynamics 365 Finance non riceverà più supporto con correzioni di bug. Ai clienti verrà chiesto di utilizzare la funzionalità migliorata, [Fatturazione abbonamento](../../finance/accounts-receivable/subscription-billing-summary.md). A ottobre 2023 la funzione di riconoscimento delle entrate non sarà più disponibile. Ai clienti verrà chiesto di passare alla funzionalità migliorata, Fatturazione abbonamento.|
+| **Status** | Deprecata: dopo aprile 2023, la funzionalità di riconoscimento delle entrate in Dynamics 365 Finance non riceverà più supporto con correzioni di bug. Ai clienti verrà chiesto di utilizzare la funzionalità migliorata, [Fatturazione abbonamento](../../finance/accounts-receivable/subscription-billing-summary.md). A ottobre 2023 la funzione di riconoscimento delle entrate non sarà più disponibile. Ai clienti verrà chiesto di passare alla funzionalità migliorata, Fatturazione abbonamento. Per la funzionalità di aggregazione come parte del riconoscimento dei ricavi, al momento non è prevista alcuna funzionalità di sostituzione.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10029-release"></a>Funzionalità rimosse o deprecate nella versione Finance 10.0.29
 

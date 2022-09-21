@@ -2,7 +2,7 @@
 title: Panoramica calcolo delle imposte
 description: In questo articolo vengono illustrati l'ambito e le funzionalità generali di Calcolo imposte.
 author: EricWangChen
-ms.date: 03/02/2022
+ms.date: 09/08/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2765b922bcc58837c32973b7ca96e0d63eb8b9d6
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: a193db82b2b079c1e10fbfb6bfde7aa43b18bc4a
+ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295994"
+ms.lasthandoff: 09/10/2022
+ms.locfileid: "9465168"
 ---
 # <a name="tax-calculation-overview"></a>Panoramica calcolo delle imposte
 
@@ -74,18 +74,10 @@ Ti consigliamo di importare e impostare la configurazione del calcolo delle impo
 
 | Versione di Finance o Supply Chain Management | Versione di configurazione delle imposte               |
 | --------------- | --------------------------------------- |
-| 10.0.18         | Configurazione fiscale - Europa 30.12.82     |
-| 10.0.19         | Configurazione del calcolo delle tasse 36.38.193 |
-| 10.0.20         | Configurazione del calcolo dell'imposta 40.43.208 |
-| 10.0.21         | Configurazione del calcolo dell'imposta 40.48.215 |
-| 10.0.22         | Configurazione del calcolo dell'imposta 40.48.215 |
-| 10.0.23         | Configurazione del calcolo dell'imposta 40.50.221 |
-| 10.0.24         | Configurazione del calcolo dell'imposta 40.50.225 |
-| 10.0.25         | Configurazione del calcolo dell'imposta 40.50.225 |
-| 10.0.26         | Configurazione del calcolo dell'imposta 40.54.234 |
-| 10.0.27         | Configurazione del calcolo dell'imposta 40.54.234 |
-| 10.0.28         | Configurazione del calcolo dell'imposta 40.54.234 |
+| 10.0.30         | Configurazione del calcolo dell'imposta 40.55.239 |
 | 10.0.29         | Configurazione del calcolo dell'imposta 40.55.236 |
+| 10.0.28         | Configurazione del calcolo dell'imposta 40.54.234 |
+| 10.0.27         | Configurazione del calcolo dell'imposta 40.54.234 |
 
 
 ## <a name="data-flow"></a>Flusso di dati
@@ -104,120 +96,27 @@ Ecco uno schema del processo di flusso dei dati per Calcolo imposta.
 
 Il calcolo delle tasse può essere abilitato dalle transazioni. 
 
-Le seguenti transazioni sono supportate nella versione 10.0.21: 
+La tabella seguente elenca le transazioni supportate nella versione corrispondente.
 
-- Vendite
-
-    - Offerta di vendita
-    - Ordine cliente
-    - Conferma
-    - Distinta di prelievo
-    - Documento di trasporto
-    - Fattura di vendita
-    - Nota di accredito
-    - Ordine di reso
-    - Spese varie intestazione
-    - Spese varie riga
-
-- Acquisti
-
-    - Ordine fornitore
-    - Conferma
-    - Elenco entrate
-    - Entrata prodotti
-    - Fattura acquisto
-    - Spese varie intestazione
-    - Spese varie riga
-    - Nota di accredito
-    - Ordine di reso
-    - Richiesta di acquisto
-    - Spese varie riga di richiesta di acquisto
-    - Richiesta di offerta
-    - Spese varie intestazione richiesta di offerta
-    - Spese varie riga richiesta di offerta
-
-- Inventario
-
-    - Ordine di trasferimento - spedizione
-    - Ordine di trasferimento - ricezione
-
-Le seguenti transazioni sono supportate nella versione 10.0.23: 
-
-- Fattura a testo libero
-
-Le seguenti transazioni sono supportate nella versione 10.0.26: 
-
-- Giornali di registrazione generali
-- Giornale di registrazione fatture fornitore
-
-Le seguenti transazioni sono supportate nella versione 10.0.28: 
-
-- Giornale di registrazione pagamenti fornitore
-- Giornale di registrazione pagamenti cliente
-
-Le seguenti transazioni sono supportate nella versione 10.0.29: 
-
-
-- Giornali di registrazione periodici
+| Versione | Transazioni |
+|---------|--------------|
+| 10.0.29 | Giornali di registrazione periodici |
+| 10.0.28 | Giornale di registrazione pagamenti fornitore<br> Giornale di registrazione pagamenti cliente | 
+| 10.0.26 | Giornali di registrazione generali<br> Giornale di registrazione fatture fornitore |
+| 10.0.23 | Fattura a testo libero |
+| 10.0.21| Vendite<br><ul><li>Offerta di vendita</li><li>Ordine cliente</li><li>Conferma</li><li>Distinta di prelievo</li><li>Documento di trasporto</li><li>Fattura di vendita</li><li>Nota di accredito</li><li>Ordine di reso</li><li>Spese varie intestazione</li><li>Spese varie riga</li></ul>Acquisti<br><ul><li>Ordine fornitore</li><li>Conferma</li><li>Elenco entrate</li><li>Entrata prodotti</li><li>Fattura acquisto</li><li>Spese varie intestazione</li><li>Spese varie riga</li><li>Nota di accredito</li><li>Ordine di reso</li><li>Richiesta di acquisto</li><li>Spese varie riga di richiesta di acquisto</li><li>Richiesta di offerta</li><li>Spese varie intestazione richiesta di offerta</li><li>Spese varie riga richiesta di offerta</li></ul>Scorte<ul><li>Ordine di trasferimento - spedizione</li><li>Ordine di trasferimento - ricezione</li></ul>|
 
 ## <a name="supported-countriesregions"></a>Paesi/regioni supportati
 
-Calcolo imposte può essere eseguito con le funzionalità di localizzazione supportate nei seguenti paesi/aree geografiche per l'indirizzo principale di una persona giuridica: 
+Il calcolo delle imposte può essere eseguito con le funzionalità di localizzazione supportate. La tabella seguente elenca i paesi/aree geografiche per l'indirizzo principale di una persona giuridica.
 
-Supportate nella versione 10.0.21:
-
-- Austria
-- Belgio
-- Danimarca
-- Estonia
-- Finlandia
-- Francia
-- Germania
-- Ungheria
-- Islanda
-- Irlanda
-- Italia
-- Lettonia
-- Lituania
-- Paesi Bassi
-- Regno di Norvegia
-- Polonia
-- Svezia
-- Svizzera
-- Regno Unito
-- Stati Uniti
-
-Supportate nella versione 10.0.22:
-
-- Australia
-- Bahrein
-- Canada
-- Egitto
-- RAS di Hong Kong
-- Kuwait
-- Nuova Zelanda
-- Oman
-- Qatar
-- Arabo Saudita
-- Sudafrica
-- Emirati Arabi Uniti
-
-Supportate nella versione 10.0.23:
-
-- Thailandia
-- Giappone
-- Malaysia
-- Singapore
-
-Supportate nella versione 10.0.24:
-
-- Messico
-
-Supportate nella versione 10.0.26:
-
-- Cina
-- Repubblica Ceca
-- Spagna
+| Versione | Paese |
+|---------|----------------|
+| 10.0.26 | - Cina <br>- Repubblica Ceca<br>- Spagna |
+| 10.0.24 | Messico |
+| 10.0.23 | - Thailandia <br>- Giappone <br>- Malaysia <br>- Singapore |
+| 10.0.22 | - Australia<br>- Bahrein <br>- Canada<br>- Egitto <br>- RAS di Hong Kong <br>- Kuwait <br>- Nuova Zelanda <br>- Oman <br>- Qatar <br>- Arabia Saudita <br>- Sudafrica <br>- Emirati Arabi Uniti |
+| 10.0.21 | - Austria <br>- Belgio <br>- Danimarca <br>- Estonia <br>- Finlandia <br>- Francia <br>- Germania <br>- Ungheria <br>- Islanda <br>- Irlanda <br>- Italia <br>- Lettonia <br>- Lituania <br>- Paesi Bassi <br>- Regno di Norvegia <br>- Polonia <br>- Svezia <br>- Svizzera <br>- Regno Unito <br>- Stati Uniti |
 
 Per qualsiasi paese/area geografica non localizzata da Microsoft, Calcolo imposte può anche essere abilitato ed eseguito con altre funzionalità globali.
 

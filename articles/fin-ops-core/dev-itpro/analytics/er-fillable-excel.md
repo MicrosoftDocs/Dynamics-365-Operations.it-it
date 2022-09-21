@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 7.0.0
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.form: EROperationDesigner, ERParameters
-ms.openlocfilehash: 2feadf8e196936220cf557989cae40b742447d99
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: ff44226b7deb15bc673d121d62cad44309b5d78b
+ms.sourcegitcommit: a1d14836b40cfc556f045c6a0d2b4cc71064a6af
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280926"
+ms.lasthandoff: 09/14/2022
+ms.locfileid: "9476826"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Progettare una configurazione per la generazione di documenti in formato Excel
 
@@ -186,6 +186,9 @@ Quando un componente **Cella** è configurato per immettere un valore in un'imma
 
 > [!NOTE]
 > Ogni immagine e forma di Excel è considerata ancorata dal suo angolo in alto a sinistra a una cella o intervallo Excel specifici. Se desideri replicare un'immagine o una forma di Excel, devi configurare la cella o l'intervallo a cui è ancorata come cella o intervallo replicato.
+
+> [!TIP]
+> Se prevedi di utilizzare un'immagine con ridimensionamento e proporzioni personalizzate in fase di esecuzione, ti consigliamo di impostare l'opzione **Rispetta il ridimensionamento delle immagini** del [Componente file Excel](#excel-file-component) padre su **sì** per applicare il ridimensionamento e le proporzioni come segnaposto di quell'immagine nel modello di Excel che stai utilizzando.
 
 Per ulteriori informazioni su come incorporare immagini e forme, vedi [Incorporare immagini e forme nei documenti generati utilizzando ER](electronic-reporting-embed-images-shapes.md).
 

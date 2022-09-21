@@ -9,17 +9,16 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: e4a004b929138f0a04c19d6a94278cfad6e83303
-ms.sourcegitcommit: 1dbff0b5fa1f4722a1720fac35cce94606fa4320
+ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
+ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9346389"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9473811"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Modulo Chat di Commerce con Multicanale per Customer Service
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Questo articolo descrive il modulo *Chat di Commerce con Multicanale per Customer Service* in Microsoft Dynamics 365 Commerce.
 

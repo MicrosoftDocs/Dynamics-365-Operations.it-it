@@ -1,5 +1,5 @@
 ---
-title: Criteri consolidamento spedizione
+title: Panoramica dei criteri di consolidamento delle spedizioni
 description: Questo articolo offre una panoramica delle funzionalità che forniscono una configurazione flessibile delle politiche di consolidamento delle spedizioni.
 author: Mirzaab
 ms.date: 05/12/2020
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 27f5d52dac2e428655f1b16908ff796ed9d02e82
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7113fc635a7c01e4b9cc44898daa3d2617058b6b
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903900"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9427930"
 ---
-# <a name="shipment-consolidation-policies"></a>Criteri consolidamento spedizione
+# <a name="shipment-consolidation-policies-overview"></a>Panoramica dei criteri di consolidamento delle spedizioni
 
 [!include [banner](../includes/banner.md)]
 
-Il processo di consolidamento della spedizione che utilizza criteri di consolidamento della spedizione consente il consolidamento automatico della spedizione durante il rilascio automatico e manuale al magazzino. Il consolidamento automatizzato disponibile prima dell'introduzione di questa funzionalità aveva campi codificati e si basava sul campo **Consolida spedizione al rilascio al magazzino** impostato per un magazzino.
+Il processo di consolidamento delle spedizioni che utilizza criteri di consolidamento delle spedizioni consente il consolidamento automatico delle spedizioni durante il rilascio automatico e manuale al magazzino. Il consolidamento automatizzato disponibile prima dell'introduzione di questa funzionalità aveva campi codificati e si basava sul campo **Consolida spedizione al rilascio al magazzino** impostato per un magazzino.
 
 Le politiche di consolidamento della spedizione vengono utilizzate per le seguenti funzionalità:
 
@@ -38,7 +38,7 @@ Prima dell'introduzione delle politiche di consolidamento delle spedizioni, la f
 
 Le query vengono utilizzate per identificare i criteri di consolidamento della spedizione applicabile, quindi un insieme modificabile di campi determina il modo in cui le linee di carico sono raggruppate a livello di spedizione. Questo modulo ricorda il modulo seguito dai modelli wave. Inoltre, un'opzione **Consolida con spedizioni esistenti** è stata aggiunta a ciascun criterio. Quando questa opzione è attivata, la procedura *Rilascia in magazzino* trova le spedizioni per il consolidamento cercando tra le spedizioni esistenti create in base allo stesso criterio di consolidamento. In questo caso, il sistema selezionerà una spedizione o un carico esistente invece di crearne uno nuovo. Tuttavia, il sistema si consoliderà solo con spedizioni esistenti con uno stato *Aperto*; spedizioni che appartengono a un rilascio ondata con uno stato *Rilasciato* o superiore non saranno considerate obiettivi per il consolidamento.
 
-Quando vengono resi disponibili i criteri di consolidamento della spedizione, l'impostazione **Consolida spedizione al rilascio al magazzino** precedentemente disponibile nella pagina di configurazione **Magazzini** è nascosta. Per aiutarti a passare alla nuova funzionalità di consolidamento della spedizione, una funzione nella pagina **Criteri di consolidamento della spedizione** crea un criterio predefinito che include automaticamente la vecchia impostazione per i magazzini esistenti. Dopo aver creato i criteri predefiniti, l'impostazione **Consolida spedizione al rilascio al magazzino** nella pagina di configurazione **Magazzini** non verrà più considerata.
+Quando la funzionalità *Criteri consolidamento spedizione* è attivata nel sistema, l'impostazione **Consolida spedizione al rilascio al magazzino** precedentemente disponibile nella pagina di configurazione **Magazzini** è nascosta. Per aiutarti a passare alla nuova funzionalità di consolidamento della spedizione, una funzione nella pagina **Criteri di consolidamento della spedizione** ti consente di creare un criterio predefinito che include automaticamente la vecchia impostazione per i magazzini esistenti. Dopo aver creato i criteri predefiniti, l'impostazione **Consolida spedizione al rilascio al magazzino** nella pagina di configurazione **Magazzini** non verrà più considerata. Per ulteriori informazioni, vedi [Configurazione dei criteri di consolidamento delle spedizioni](configure-shipment-consolidation-policies.md).
 
 Puoi usare la pagina **Rilascia in magazzino** per sovrascrivere manualmente i criteri di consolidamento applicabili nello stesso modo in cui è possibile ignorare i criteri di adempimento.
 

@@ -14,21 +14,16 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 35c38ad25380b940d050b4e498fabca017c35997
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 975b620dc911d154f6f67420a957bd72c02321ed
+ms.sourcegitcommit: 6b013a423ed91973d60a895330046db2a07d92c4
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336955"
+ms.lasthandoff: 09/12/2022
+ms.locfileid: "9472715"
 ---
 # <a name="benefits-management-workspace"></a>Area di lavoro gestione benefit
 
-[!include [preview feature](./includes/preview-feature.md)]
-
 In questo articolo viene descritta l'area di lavoro **Gestione benefit** in Dynamics 365 Human Resources.
-
-> [!NOTE]
-> Per visualizzare l'area di lavoro **Gestione benefit**, è necessario dapprima abilitare la funzionalità **(Anteprima) Area di lavoro Gestione benefici** in Gestione funzionalità. Per ulteriori informazioni sull'abilitazione delle funzionalità di anteprima, vedere [Gestire le funzionalità](hr-admin-manage-features.md).<br><br>![Abilitare l'area di lavoro Gestione benefit.](./media/hr-benefits-management-workspace-enable.png)
 
 L'area di lavoro **Gestione benefit** fornisce una rapida visualizzazione dei benefit che richiedono l'attenzione dell'utente. In questa pagina sono visualizzati:
 

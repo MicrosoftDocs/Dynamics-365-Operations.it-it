@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e745ab1fb39edf69fabd147e46e1da8cc98ba6e5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5cb2c1234de03e9777921c18e4cbb81eec7feef9
+ms.sourcegitcommit: 9c637bcf4e2eb8f711290a861492f038feaf1568
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903509"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9462276"
 ---
 # <a name="generate-invoice-lines-when-you-import-vendor-invoices"></a>Genera righe fattura quando importi fatture fornitore
 
@@ -45,7 +45,7 @@ Per abilitare la creazione automatica di righe fattura, segui questi passaggi.
 Per supportare la funzionalità descritta in questo articolo, l'entità di dati **Intestazione fattura fornitore** è stata migliorata. Sono stati aggiunti tre campi:
 
 - **HeaderOnlyImport**: questo campo deve essere impostato su **Sì** per generare righe per le intestazioni delle fatture.
-- **PurchIdRange**: l'elenco dei numeri dell'ordine fornitore. I numeri di fattura possono essere un intervallo, ad esempio **INV0001..INV0009** (dove due punti separano l'inizio e la fine dell'intervallo) o valori discreti, come **INV0001, INV0003, INV0006**. Tutti gli ordini fornitore devono appartenere allo stesso conto fornitore nell'intestazione della fattura. In caso contrario, riceverai il seguente messaggio di errore: "Impossibile generare righe fattura. Gli ordini fornitore hanno account fornitore diversi".
+- **PurchIdRange**: l'elenco dei numeri dell'ordine fornitore. I numeri di fattura possono essere un intervallo, ad esempio **PO0001..PO0009** (dove due punti separano l'inizio e la fine dell'intervallo) o valori discreti, come **PO0001, PO0003, PO0006**. Tutti gli ordini fornitore devono appartenere allo stesso conto fornitore nell'intestazione della fattura. In caso contrario, riceverai il seguente messaggio di errore: "Impossibile generare righe fattura. Gli ordini fornitore hanno account fornitore diversi".
 - **PackingslipRange**: l'elenco dei numeri di ricevuta dei prodotti. Le righe della fattura fornitore possono essere create dalle ricevute dei prodotti. Tuttavia, i numeri di ricevuta dei prodotti non sono generalmente inclusi nelle fatture fornitore. Immettere i numeri della ricevuta dei prodotti in questo campo solo se è possibile identificare chiaramente quali sono le entrate prodotti per quali fatture specifiche. Le righe della fattura possono essere create in base alle ricevute dei prodotti. Se viene utilizzata per questo campo, l'impostazione del campo **Scegliere la quantità predefinita per la creazione automatica delle righe fattura** nella pagina **Parametri contabilità fornitori** viene ignorata. 
 
 **Limitazione**: se si immettono più numeri di ricevuta dei prodotti, verranno create diverse fatture fornitore in sospeso con lo stesso numero di fattura. È necessario consolidarli manualmente prima di elaborare ulteriormente la fattura. Nelle versioni future, prevediamo di consolidare automaticamente le fatture, quindi la limitazione verrà rimossa.

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: dd72332abefd31fd391ff66931a5abae0efb08de
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 57ee6206da926d0dbf62f562197538bfcdd41148
+ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186665"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9428146"
 ---
 # <a name="buffer-profile-and-levels"></a>Profilo e livelli di buffer
 
@@ -77,6 +77,14 @@ Nell'immagine seguente, se oggi è la mattina dell'11 giugno, l'ADU per i tre gi
 
 - **ADU (passato)** = (29 + 11 + 23) ÷ 3 = 21
 
+Per il calcolo dell'utilizzo giornaliero medio (passato) vengono prese in considerazione le seguenti transazioni:
+
+- Transazioni che diminuiscono la quantità dell'articolo (nella tabella `inventtrans` dove la quantità è minore di zero)
+- Transazioni con stato di *Su ordine*, *Ordinato riservato*, *Fisico riservato*, *Scelto*, *Dedotto*, o *Venduto*
+- Transazioni datate all'interno del periodo a ritroso scelto (l'utilizzo giornaliero medio del periodo passato)
+- Transazioni diverse da lavoro di magazzino, quarantena, offerte di vendita o rendiconti (`WHSWork`, `WHSQuarantine`, `SalesQuotation`, o `Statement`)
+- Transazioni diverse dai giornali di registrazione di trasferimento che rientrano nella stessa dimensione di copertura
+
 ### <a name="average-daily-usage-forward"></a>Utilizzo giornaliero medio (futuro)
 
 Per un nuovo prodotto, si potrebbero non avere dati sull'utilizzo passato. Pertanto, si potrebbe usare invece l'ADU previsto in futuro (ad esempio, in base alla domanda prevista). L'immagine seguente mostra il funzionamento di questo approccio quando il calcolo prende in esame tre giorni futuri (incluso oggi).
@@ -86,6 +94,11 @@ Per un nuovo prodotto, si potrebbero non avere dati sull'utilizzo passato. Perta
 Nell'immagine seguente, se oggi è la mattina dell'11 giugno, l'ADU per i tre giorni successivi (11, 12 e 13 giugno) è 21,66.
 
 - **ADU (futuro)** = (18 + 18 + 29) ÷ 3 = 21,66
+
+Per il calcolo dell'utilizzo giornaliero medio (futuro) vengono prese in considerazione le seguenti transazioni:
+
+- Transazioni di previsione per l'articolo in cui è selezionata la previsione nel piano principale
+- Transazioni datate all'interno del periodo in avanti scelto (l'utilizzo giornaliero medio del periodo futuro)
 
 ### <a name="average-daily-usage-blended"></a>Utilizzo giornaliero medio (misto)
 

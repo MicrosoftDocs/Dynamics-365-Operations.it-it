@@ -2,7 +2,7 @@
 title: Aggiungere suggerimenti sul prodotto su POS
 description: In questo articolo viene descritto l'utilizzo dei suggerimenti sul prodotto in un dispositivo POS.
 author: bebeale
-ms.date: 05/26/2020
+ms.date: 09/08/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 442ae540b04588afd9aeb37a92c6ceb92c05a9ba
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 170e2bf18aefc79a796620818c7100ff8e6e689a
+ms.sourcegitcommit: f88273627ba105ede27f28fe67ccec2d7f78261c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872801"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460058"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Aggiungere suggerimenti sul prodotto su POS
 
@@ -37,7 +37,7 @@ I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS. Sono d
 
 1. Nella pagina **Dettagli prodotto**:
 
-    - Se un associato del punto vendita visita una pagina **Dettagli prodotto** quando visualizza le transazioni precedenti su più canali diversi, il servizio dei suggerimenti suggerisce articoli aggiuntivi che è probabile vengano acquistati insieme.
+    - Se un associato del punto vendita visita una pagina **Dettagli prodotto** quando visualizza le transazioni precedenti su più canali diversi, il servizio dei suggerimenti suggerisce articoli aggiuntivi che è probabile vengano acquistati insieme. A seconda dei componenti aggiuntivi per il servizio, i rivenditori possono mostrare i suggerimenti **Guarda articoli simili** e **Acquista descrizioni simili** per i prodotti, oltre ai suggerimenti personalizzati per gli utenti che hanno una precedente cronologia degli acquisti.
 
     [![Suggerimenti sulla pagina Dettagli prodotto.](./media/proddetails.png)](./media/proddetails.png)
 
@@ -50,21 +50,17 @@ I suggerimenti sul prodotto sono abilitati per i seguenti scenari di POS. Sono d
 
     [![Suggerimenti nella pagina Transazione.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurare Commerce per abilitare i suggerimenti POS
+## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurare Commerce per abilitare i suggerimenti POS 
 
-Per impostare i suggerimenti sul prodotto, effettuare le seguenti operazioni:
+Per impostare i suggerimenti dei prodotti, conferma di aver completato il processo di provisioning per i suggerimenti dei prodotti di Commerce seguendo i passaggi descritti in [Abilitare i suggerimenti dei prodotti](../commerce/enable-product-recommendations.md). Per impostazione predefinita, i suggerimenti vengono visualizzati su entrambe le pagine **Dettagli prodotto** e **Dettagli cliente** dopo aver completato i passaggi di provisioning e i dati sono stati cucinati correttamente. 
 
-1. Verificare che il servizio sia stato aggiornato alla **build 10.0.6.**
-2. Seguire le istruzioni su come [abilitare i suggerimenti sul prodotto](../commerce/enable-product-recommendations.md) per l'azienda.
-3. Facoltativo: per visualizzare i suggerimenti sulla schermata della transazione, passare a **Layout schermo**, scegliere il layout dello schermo, avviare **Progettazione layout schermo**, quindi rilasciare il controllo **suggerimenti** dove necessario.
-4. Passare a **Parametri di commercio**, selezionare **Machine learning**, quindi scegliere **Sì** in **Abilita suggerimenti POS**.
-5. Per visualizzare i suggerimenti sul POS, eseguire il processo di configurazione globale **1110**. Per riflettere le modifiche apportate a Progettazione layout schermo POS, eseguire il processo di configurazione dei canali **1070**.
+## <a name="add-recommendations-to-the-transaction-screen"></a>Aggiungere suggerimenti alla schermata della transazione
 
-## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Risolvere i problemi in caso di suggerimenti sul prodotto già abilitati
+1. Per aggiungere suggerimenti alla schermata della transazione, segui i passaggi in [Aggiungere suggerimenti alla schermata della transazione](add-recommendations-control-pos-screen.md).
+1. Per riflettere le modifiche apportate nella finestra di progettazione del layout dello schermo POS, esegui il processo di configurazione del canale **1070** in Commerce headquarters.
 
-- Passare a **Parametri di commercio** \> **Elenchi di suggerimenti** \> **Disabilita suggerimenti sul prodotto** ed eseguire il **Processo di configurazione globale \[9999\]**. 
-- Se si è aggiunto il **Controllo per suggerimenti** alla schermata di transazione mediante la **Progettazione layout schermo**, rimuovere anche tale elemento.
-- Per eventuali domande aggiuntive, leggere le [domande frequenti su suggerimenti prodotto](../commerce/faq-recommendations.md) per ulteriori informazioni.
+> [!NOTE] 
+> Se vuoi abilitare i suggerimenti POS utilizzando il file CSV (valori separati da virgole) RecoMock, è necessario distribuire il file CSV alla libreria di risorse Microsoft Dynamics Lifecycle Services (LCS) prima di configurare il gestore layout. Se utilizzi il file CSV RecoMock, non devi abilitare i suggerimenti. Il file CSV è disponibile solo a scopo dimostrativo. È consigliato per i clienti o gli architetti di soluzioni che desiderano imitare l'aspetto degli elenchi di suggerimenti a scopo dimostrativo senza dover acquistare un'unità di stockkeeping (SKU) aggiuntiva.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
