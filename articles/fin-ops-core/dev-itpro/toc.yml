@@ -18,10 +18,8 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Aggiornamento piattaforma per la versione 10.0.29 (ottobre 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Aggiornamento piattaforma versione 10.0.28 (agosto 2022)
+                - name: Aggiornamento piattaforma per la versione 10.0.28 (agosto 2022)
                   href: get-started/whats-new-platform-updates-10-0-28.md
-                - name: Aggiornamento piattaforma versione 10.0.27 (luglio 2022)
-                  href: get-started/whats-new-platform-updates-10-0-27.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page Funzionalità rimosse o deprecate
@@ -510,6 +508,8 @@
                   href: dev-tools/access-instances.md
                 - name: Configurare ambienti di sviluppo one-box
                   href: dev-tools/configure-developer-vm.md
+                - name: Proteggere ambienti di sviluppo one-box
+                  href: dev-tools/secure-developer-vm.md
                 - name: Domande frequenti su sviluppo e configurazione di VM che non consentono l'accesso con diritti di amministratore
                   href: sysadmin/VMs-no-admin-access.md
                 - name: Configurare il disco rigido virtuale scaricabile per il primo utilizzo
