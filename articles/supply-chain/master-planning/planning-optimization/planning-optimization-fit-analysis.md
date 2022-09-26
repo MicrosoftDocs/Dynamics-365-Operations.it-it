@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 633daba553b1544c2caa788f4cec1da4c1da6960
-ms.sourcegitcommit: 7af116c60f3a94671a7a80c04097d70180754930
+ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347291"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542354"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
@@ -62,7 +62,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | --- | --- | --- | --- |
 | Azioni | Gruppi di copertura con il calcolo delle azioni abilitato: *\#* | Questa funzionalità è ora supportata. | Supportata |
 | Calendari di base | Calendari che utilizzano il calendario di base: *\#* | Questa funzionalità è ora supportata. | Supportata | 
-| Codici smaltimento batch | Smaltimenti batch generali non nettificabili: *\#* | Questa funzione è in sospeso. Attualmente, i codici smaltimento batch vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. | Ciclo di rilascio 2 del 2022 |
+| Codici smaltimento batch | Smaltimenti batch generali non nettificabili: *\#* | Questa funzione è in sospeso. Attualmente, i codici smaltimento batch vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. | Ciclo di rilascio 2 del 2022 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
 | Capable-to-promise (CTP) | Impostazioni predefinite ordine con controllo data di consegna impostato su CTP: *\#* | In Supply Chain Management 10.0.28 e versioni successive, un processo denominato *CTP per Ottimizzazione pianificazione* rende disponibili le date di spedizione e di ricezione dopo l'esecuzione del piano dinamico. Per le versioni precedenti di Supply Chain Management, l'impostazione CTP legacy viene ignorata quando Pianificazione ottimizzazione è abilitata. | Supportata |
 | Copia piano statico in piano dinamico | La copia del piano statico in quello dinamico è abilitata nei parametri di pianificazione generale. | L'ottimizzazione della pianificazione non copia il piano statico nel piano dinamico, indipendentemente da questa impostazione. In generale, questo concetto è meno rilevante a causa della velocità e della rigenerazione completa fornita dall'ottimizzazione della pianificazione. Se vengono utilizzati due o più piani, è necessario attivare la pianificazione generale per ciascun piano. | N/D |
 | Stabilizzazione | Gruppi di copertura con intervallo temporale di stabilizzazione automatica impostato: *\#* | Nella versione 10.0.7 e successive, la stabilizzazione è supportata come processo di stabilizzazione batch separato al termine della pianificazione generale (a condizione che la funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione* sia stata abilitata in [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Si noti che la stabilizzazione automatica per l'ottimizzazione della pianificazione si basa sulla data dell'ordine di lavoro (data di inizio) e non sulla data del fabbisogno (data di fine). Questo comportamento garantisce che la stabilizzazione degli ordini pianificati si verifichi alla scadenza, senza dover includere i tempi di consegna nel tempo di risposta. | Supportata |

@@ -2,7 +2,7 @@
 title: Aggiornare un processo
 description: Microsoft Dynamics 365 Human Resources è un vero software come un servizio (SaaS, software as a service) che fornisce aggiornamenti di servizio continui e touchless per modifiche di applicazioni o piattaforme.
 author: twheeloc
-ms.date: 09/01/2020
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25889f9d4a7ffb4f155b7b7c12ec3b21a44a4710
-ms.sourcegitcommit: 1401d66b6b64c590ca1f8f339d622e922920cf15
+ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
+ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/20/2022
-ms.locfileid: "9178445"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9520812"
 ---
 # <a name="update-process"></a>Aggiornare un processo
 
 _**Si applica a**: Human Resources nell'infrastruttura autonoma_ 
 
 > [!NOTE]
-> A partire da luglio 2022, non sarà possibile eseguire il provisioning dei nuovi ambienti Human Resources nell'infrastruttura Human Resources autonoma, né potranno essere creati nuovi progetti Microsoft Dynamics Lifecycle Services (LCS) sull'infrastruttura stessa. I clienti potranno distribuire gli ambienti Human Resources nell'infrastruttura di finanza e operazioni. Per ulteriori informazioni, vedere [Provisioning di Human Resources nell'infrastruttura di finanza e operazioni](/hr-admin-setup-provision-fo.md).
+> A partire da luglio 2022, non sarà possibile eseguire il provisioning dei nuovi ambienti Human Resources nell'infrastruttura Human Resources autonoma, né potranno essere creati nuovi progetti Microsoft Dynamics Lifecycle Services (LCS) sull'infrastruttura stessa. I clienti potranno distribuire gli ambienti Human Resources nell'infrastruttura di finanza e operazioni. Per ulteriori informazioni, vedere [Provisioning di Human Resources nell'infrastruttura di finanza e operazioni](hr-admin-setup-provision-fo.md).
 
 > [!IMPORTANT]
 > Il processo di aggiornamento e applicazione di hotfix nell'infrastruttura delle app per la finanza e le operazioni è diverso rispetto a quello per l'infrastruttura Human Resources autonoma. Per ulteriori informazioni su come eseguire il processo di aggiornamento, vedere [Processo per il passaggio all'ultimo aggiornamento di finanza e operazioni](../fin-ops-core/dev-itpro/migration-upgrade/upgrade-latest-update.md). Per ulteriori informazioni sugli hotfix, vedere [Download degli aggiornamenti da Lifecycle Services (LCS)](/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs.md). 

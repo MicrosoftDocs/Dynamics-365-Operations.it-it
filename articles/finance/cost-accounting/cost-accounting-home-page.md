@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 06cd3929fd93861c3e2dfd73913be5dc33111263
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 600ae16a9cd83730432b75b81a1cb2f3ffae827b
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853527"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539295"
 ---
 # <a name="cost-accounting-home-page"></a>Home page della contabilità industriale
 
@@ -38,7 +38,7 @@ Nella mappa di apprendimento vengono visualizzati i concetti e le attività prin
 
 | &nbsp; | &nbsp;  |
 |------|---|
-|  [Introduzione alla contabilità industriale (Learn)](/learn/modules/get-started-cost-accounting-dyn365-finance/)  |[Dimensioni elemento di costo](cost-elements.md)  |
+|  [Introduzione alla contabilità industriale (Learn)](/training/modules/get-started-cost-accounting-dyn365-finance/)  |[Dimensioni elemento di costo](cost-elements.md)  |
 |  [Gerarchia dimensioni](dimension-hierarchy.md)  |[Definire unità di controllo costi](./tasks/define-cost-control-units.md)| 
 | [Basi di allocazione](allocation-bases.md)|[Creare e assegnare i criteri di allocazione costi a un'unità di controllo costi](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
 | [Gestire un'origine dati per un movimento CoGe di contabilità industriale](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Elaborare e tenere traccia dei dati di origine](./tasks/process-trace-source-data.md)     | 

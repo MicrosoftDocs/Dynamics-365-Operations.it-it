@@ -12,12 +12,12 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4c3289d034346fa21e31000fa4a2b4961a2d5304
-ms.sourcegitcommit: 07ed6f04dcf92a2154777333651fefe3206a817a
+ms.openlocfilehash: 46a2b36b61f7a2d10564109963942c384f9163c2
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9423666"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9539053"
 ---
 # <a name="learning-catalog-for-business-decision-makers-considering-dynamics-365-supply-chain-management"></a>Catalogo di apprendimento per decision maker aziendali che considerano Dynamics 365 Supply Chain Management
 
@@ -29,16 +29,16 @@ Il seguente catalogo è organizzato partendo dalla conoscenza di base a domini s
 
 | Contenuto | Description | Formato | Length |
 |---------|-------------|--------|--------|
-| [Dynamics 365 e Power Platform Fundamentals](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
-| [Introduzione alle app per la finanza e le operazioni](/learn/paths/get-started-finance-operations/) | Il modulo fornisce informazioni sul modo in cui le app per la finanza e le operazioni supportano le aziende nella gestione di sistemi finanziari globali, processi aziendali operativi e supply chain ottimizzate per consentire di prendere decisioni rapide e informate. Il primo passaggio per imparare a lavorare con le app per la finanza e le operazioni è familiarizzare con le loro caratteristiche e funzionalità, indipendentemente dal ruolo che si desidera svolgere. | Percorso di apprendimento online gratuito autonomo | 2 ore |
+| [Dynamics 365 e Power Platform Fundamentals](/training/paths/dyn-power-plat-bus-app-fundamentals/) | Si è interessati all'apprendimento delle applicazioni aziendali? Iniziare da questo percorso di apprendimento per vedere come le app Dynamics 365 vengono utilizzate. Ottenere informazioni sui concetti di cloud, Power Platform e su come iniziare a usare le app Dynamics 365. | Percorso di apprendimento online gratuito autonomo | 5.5 ore |
+| [Introduzione alle app per la finanza e le operazioni](/training/paths/get-started-finance-operations/) | Il modulo fornisce informazioni sul modo in cui le app per la finanza e le operazioni supportano le aziende nella gestione di sistemi finanziari globali, processi aziendali operativi e supply chain ottimizzate per consentire di prendere decisioni rapide e informate. Il primo passaggio per imparare a lavorare con le app per la finanza e le operazioni è familiarizzare con le loro caratteristiche e funzionalità, indipendentemente dal ruolo che si desidera svolgere. | Percorso di apprendimento online gratuito autonomo | 2 ore |
 | [Corso MB-900T01-A: Dynamics 365 fundamentals](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01) | Questo corso familiarizzerà lo studente con le funzionalità e il valore aziendale di Dynamics 365. Il corso coprirà le applicazioni di Dynamics 365, Power Platform, concetti cloud, modello di sicurezza e considerazioni sulle licenze. | Formazione con istruttore dal vivo o online, il costo varia in base alla regione e al partner | 1 giorno |
-| [Introduzione alla Gestione cespiti per Dynamics 365 Supply Chain Management](/learn/modules/get-started-asset-management/index) | La gestione cespiti è un modulo avanzato per gestire i cespiti e i processi di manutenzione in Dynamics 365 Supply Chain Management. Gestione cespiti consente di gestire e eseguire in modo efficiente le attività correlate alla gestione e alla manutenzione di molti tipi di attrezzature della società, come macchine, attrezzature di produzione e veicoli. Gestione cespiti supporta soluzioni per numerosi settori. | Modulo di apprendimento online gratuito e personalizzato | 1 ora |
-| [Inizia con il componente aggiuntivo di Engineering Change Management per Dynamics 365 Supply Chain Management](/learn/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management consente ai dipendenti e alle organizzazioni di ottenere una visione unificata di inventario, magazzino, produzione, servizio e logistica con analisi predittiva che trasforma i dati in intuizioni per supportare decisioni strategiche migliori. | Modulo di apprendimento online gratuito e personalizzato | 2 ore |
+| [Introduzione alla Gestione cespiti per Dynamics 365 Supply Chain Management](/training/modules/get-started-asset-management/index) | La gestione cespiti è un modulo avanzato per gestire i cespiti e i processi di manutenzione in Dynamics 365 Supply Chain Management. Gestione cespiti consente di gestire e eseguire in modo efficiente le attività correlate alla gestione e alla manutenzione di molti tipi di attrezzature della società, come macchine, attrezzature di produzione e veicoli. Gestione cespiti supporta soluzioni per numerosi settori. | Modulo di apprendimento online gratuito e personalizzato | 1 ora |
+| [Inizia con il componente aggiuntivo di Engineering Change Management per Dynamics 365 Supply Chain Management](/training/modules/get-started-engineering-change-management/) | Dynamics 365 Supply Chain Management consente ai dipendenti e alle organizzazioni di ottenere una visione unificata di inventario, magazzino, produzione, servizio e logistica con analisi predittiva che trasforma i dati in intuizioni per supportare decisioni strategiche migliori. | Modulo di apprendimento online gratuito e personalizzato | 2 ore |
 
 ## <a name="exam"></a>Esame<a name="exam"></a>
 
 | Contenuto | descrizione | Formattazione |
 |---------|-------------|--------|
-| [Dynamics 365 Fundamentals](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Dimostrare di aver compreso Microsoft Dynamics 365, Power Platform, concetti di cloud, opzioni di licenza e opzioni di distribuzione e rilascio. | Esame, i costi variano in base alla regione |
+| [Dynamics 365 Fundamentals](/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Dimostrare di aver compreso Microsoft Dynamics 365, Power Platform, concetti di cloud, opzioni di licenza e opzioni di distribuzione e rilascio. | Esame, i costi variano in base alla regione |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

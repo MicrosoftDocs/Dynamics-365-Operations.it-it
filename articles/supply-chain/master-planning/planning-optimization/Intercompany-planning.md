@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 65467fd9525ae8fb5a65a9316b7307f611fa6e42
-ms.sourcegitcommit: ec15857b753ebedd86503170efd54c8007b87231
+ms.openlocfilehash: 6ef551e1c2c4d90510f967855a5aa61646dc8eab
+ms.sourcegitcommit: d3f7a56eaf788d223ece4cedac4a319eaf5f6112
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9475614"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9538567"
 ---
 # <a name="intercompany-planning"></a>Pianificazione interaziendale
 
@@ -45,8 +45,8 @@ Se si esegue la pianificazione generale da un piano generale che include la doma
 
 Per utilizzare la pianificazione interaziendale, è necessario preparare il sistema nel modo seguente:
 
-1. I prodotti rilevanti devono essere rilasciati in tutte le società interessate. Per ulteriori informazioni, vedi [Configurare e usare il commercio interaziendale in Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
-1. La domanda downstream deve essere coperta da acquisti da un fornitore che ha una relazione interaziendale con la società upstream e le relative dimensioni di inventario predefinite (sito e magazzino) per il cliente. Per ulteriori informazioni, vedi [Configurare e usare il commercio interaziendale in Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. I prodotti rilevanti devono essere rilasciati in tutte le società interessate. Per ulteriori informazioni, vedi [Configurare e usare il commercio interaziendale in Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
+1. La domanda downstream deve essere coperta da acquisti da un fornitore che ha una relazione interaziendale con la società upstream e le relative dimensioni di inventario predefinite (sito e magazzino) per il cliente. Per ulteriori informazioni, vedi [Configurare e usare il commercio interaziendale in Dynamics 365 Supply Chain Management](/training/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/).
 1. Il piano generale nella società upstream deve includere la domanda downstream pianificata e la società e il piano generale pertinenti devono essere specificati nei piani downstream.
 
 ## <a name="include-planned-downstream-demand"></a>Includi domanda downstream pianificata

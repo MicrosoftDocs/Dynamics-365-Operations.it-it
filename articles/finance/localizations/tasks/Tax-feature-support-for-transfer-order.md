@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b611abb2d68d93178d0c26ba40b22f1b8d26b191
-ms.sourcegitcommit: 6d9fcb52d723ac5022a3002e0ced8e7b56e9bc2a
+ms.openlocfilehash: c55d0891ed37d63f89ee09759965ac443db20dc6
+ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/27/2022
-ms.locfileid: "9203111"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9542246"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Supporto della funzione fiscale per ordini di trasferimento
 
@@ -63,7 +63,7 @@ Segui questi passaggi per configurare l'imposta applicata in un ordine di trasfe
         7. Selezionare **Salva**.
         
         Crea il codice imposta **BE-RC+21**.
-        1. Seleziona **Aggiungi**, immetti **BE-RC-21** nel campo **Codice imposta**.
+        1. Seleziona **Aggiungi**, immetti **BE-RC+21** nel campo **Codice imposta**.
         2. Seleziona **Per importo netto** nel campo **Componente fiscale**.
         3. Selezionare **Salva**.
         4. Nella tabella **Tasso** seleziona **Aggiungi**.

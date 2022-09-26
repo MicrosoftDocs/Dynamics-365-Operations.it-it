@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 10.0.12
 ms.custom: 97423,  ""intro-internal
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: c98f33345b37a72c4099f01e37c82e27002ac687
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0195dc528f2fe6bf62efbf03f8706ea90f4a4fc4
+ms.sourcegitcommit: a5a4c45bb265758c6e5c3483c8552503b1799a89
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9283147"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524747"
 ---
 # <a name="use-the-electronic-invoicing-service-to-import-vendor-invoices"></a>Usare il servizio di fatturazione elettronica per importare le fatture fornitore
 
@@ -107,7 +107,8 @@ Completa i passaggi nelle due sezioni seguenti per configurare diversi tipi di i
 2. Selezionare **Modello contesto fattura cliente**, quindi **Crea configurazione** > **Deriva da Nome: modello di contesto fattura cliente, Microsoft** per creare una configurazione derivata.
 3. Nella versione **Bozza**, selezionare **Progettazione** e nell'albero **Modello di dati**, selezionare **Mappa modello a origine dati**.
 4. Nell'albero **Definizioni**, selezionare **DataChannel** e quindi selezionare **Progettazione**.
-5. Nell'albero **Origine dati**, espandere il contenitore **$Context\_Channel**. Nel campo **Valore**, selezionare **Modifica** e immettere il nome del canale dati. Questo è il nome del canale specificato nella configurazione del canale dati per la funzionalità di Fatturazione elettronica in RCS. 
+5. Nell'albero **Origine dati**, espandere il contenitore **$Context\_Channel**. 
+6. Nel campo **Valore**, seleziona **Modifica** > **Modifica formula** e immetti il nome del canale dati. Questo è il nome del canale specificato nella configurazione del canale dati per la funzionalità di Fatturazione elettronica in RCS. 
 7. Selezionare **Salva**, quindi chiudere la pagina.
 8. Chiudere la pagina.
 9. Selezionare la configurazione derivata appena creata dal **Modello contesto fattura cliente** e, nella Scheda dettaglio **Versioni**, selezionare **Cambia stato** > **Completato**.
