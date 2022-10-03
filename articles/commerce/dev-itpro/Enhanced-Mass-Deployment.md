@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: jashanno
 ms.search.validFrom: 2021-04-30
-ms.openlocfilehash: 66a711aff90221e594f4b2a0df3735eac93d0c9b
-ms.sourcegitcommit: 09d4805aea6d148de47c8ca38d8244bbce9786ce
+ms.openlocfilehash: 426473c14cdf9e171810aafd97dbb1afd5988b2f
+ms.sourcegitcommit: 24673493d14f2045a08fe7240689bee34e099cb5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/31/2022
-ms.locfileid: "9387021"
+ms.lasthandoff: 09/24/2022
+ms.locfileid: "9589091"
 ---
 # <a name="mass-deployment-of-sealed-commerce-self-service-components"></a>Distribuzione di massa dei componenti self-service Commerce sigillati
 
@@ -47,7 +47,7 @@ La tabella seguente mostra i delimitatori che possono essere utilizzati nell'ese
 | -EnvironmentId | L'ID ambiente. |
 | -HardwareStationAppInsightsInstrumentationKey | La chiave di strumentazione AppInsights della stazione hardware. |
 | Installa | Un parametro che specifica se il componente fornito da questo programma di installazione deve essere installato. Questo parametro è necessario per eseguire un'installazione e non ha un trattino iniziale. |
-| -InstallOffline | Per POS moderno, questo parametro specifica che anche il database offline deve essere installato e configurato. Usare anche il parametro **-SQLServerName**. In caso contrario, il programma di installazione proverà a trovare un'istanza predefinita che soddisfi i prerequisiti. |
+| -InstallOffline | Per POS moderno, questo parametro specifica che anche il database offline deve essere installato e configurato. Usare anche il parametro **-SQLServerName**. In caso contrario, il programma di installazione proverà a trovare un'istanza predefinita che soddisfi i prerequisiti. Quando si usa l'autenticazione Azure Active Directory (Azure AD), il POS offline non funziona perché è sempre richiesta la connettività online. |
 | -Port | La porta che deve essere associata e utilizzata dalla directory virtuale di Retail Server. Se non viene impostata alcuna porta, verrà utilizzata quella predefinita, 443. |
 | -Register | L'ID registro, come mostrato nella pagina **Registri** in Headquarters. |
 | -RetailServerAadClientId | L'ID client Azure AD che Retail Server deve utilizzare durante le comunicazioni con Headquarters. |

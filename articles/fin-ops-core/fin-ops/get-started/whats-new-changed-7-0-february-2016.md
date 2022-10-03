@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e69fddf1acd9a9388f62da63e0ca6a19c7a95f55
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 4cd59d5ea2ef8d280a927fd9e9fe3b9af7974d7c
+ms.sourcegitcommit: 0a5885dc792fc608ae59d0ef9b36fb61790b24de
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287082"
+ms.lasthandoff: 09/27/2022
+ms.locfileid: "9593989"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novità o modifiche introdotte in Dynamics AX 7.0 (febbraio 2016)
 
@@ -319,7 +319,7 @@ Questa funzionalità opera indipendentemente dai metodi di determinazione costi 
 <tr>
 <td>Accesso alla guida procedurale (guide di attività) e agli argomenti concettuali facendo clic su <strong>Guida</strong>.</td>
 <td>La guida di AX 2012 punta agli argomenti HTML che vengono archiviati in un web server locale. I clienti e i partner possono creare la relativa specifica guida.</td>
-<td>Nella Guida della versione corrente di attività di Dynamics AX sono visualizzate guide di attività archiviate in Microsoft Dynamics Lifecycle Services (LCS) BPM. Nella Guida sono inoltre visualizzati gli argomenti inclusi nel sito documenti di Microsoft. Per ulteriori informazioni, vedere <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Guida</a> e <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nuove guide attività (febbraio 2016)</a>.</td>
+<td>Nella Guida della versione corrente di attività di Dynamics AX sono visualizzate guide di attività archiviate in Microsoft Dynamics Lifecycle Services (LCS) BPM. La Guida mostra anche gli argomenti di Microsoft Learn. Per ulteriori informazioni, vedere <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Guida</a> e <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nuove guide attività (febbraio 2016)</a>.</td>
 <td>La guida attività fornisce un'esperienza controllata, guidata e interattiva che guida l'utente attraverso i passaggi di un'attività o un processo aziendale. È possibile scaricare e personalizzare le guide attività fornite da Microsoft. L'articolo illustra un modo più rapido e flessibile per creare, distribuire e aggiornare la documentazione del prodotto. Di conseguenza, aiuta a garantire l'accesso alle ultime informazioni tecniche.</td>
 </tr>
 </tbody>

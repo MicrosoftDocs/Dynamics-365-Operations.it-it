@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f9c85c4fbcc3c66d6cc4c65431b76c31cbb7aebf
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
+ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542354"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9591852"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
@@ -94,7 +94,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Produzione | Versioni formula con resa: *\#* | Questa funzione è in sospeso. Attualmente, il rendimento associato alla versione della formula viene ignorato quando è abilitata l'ottimizzazione della pianificazione. | Ciclo di rilascio 2 del 2022 |
 | Produzione | Piani che includono la sequenza: *\#* | Questa funzione è in sospeso. Attualmente, la sequenza viene ignorata quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | Ciclo di rilascio 2 del 2022 |
 | Produzione | Ordini di produzione rilasciati non avviati, il cui avvio programmato è precedente alla data odierna: *\#* | Questa funzione è in sospeso. Attualmente, se un ordine di produzione viene ritardato, la pianificazione generale presumerà che sarà completato oggi. Ciò è rilevante per gli ordini di produzione rilasciati in cui una data di consegna è nel passato, ma non è stata ancora completata. | Ciclo futuro |
-| Produzione | Risorse programmate con capacità limitata: *\#* | Questa funzione è in sospeso. Attualmente, le risorse programmate con capacità limitata vengono ignorate quando è abilitata l'ottimizzazione della pianificazione. La programmazione viene eseguita in base al tempo di consegna predefinito dal prodotto. | Ciclo di rilascio 2 del 2022 |
+| Produzione | Risorse programmate con capacità limitata: *\#* | Questa funzionalità è ora supportata.| Supportata |
 | Produzione | Cicli di lavorazione utilizzati nella pianificazione: *\#* | Questa funzionalità è supportata. | Supportata |
 | Produzione | Prenotazione riga vendite mediante esplosione: *\#* | La prenotazione della riga di vendita che utilizza l'esplosione non è supportata quando l'ottimizzazione della pianificazione è abilitata. | Ciclo futuro |
 | Produzione | Programmazione con esplosione degli ordini di produzione: *\#* | La programmazione che utilizza l'esplosione degli ordini di produzione non è supportata quando l'ottimizzazione della pianificazione è abilitata. Gli ordini di produzione possono essere programmati singolarmente. | Ciclo futuro |

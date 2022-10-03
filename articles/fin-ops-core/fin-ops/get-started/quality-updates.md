@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 985800aad3711a1b28613f0f82585b4d592cdf58
-ms.sourcegitcommit: de989037d83393bea013cd58c061159765305b4f
+ms.openlocfilehash: c2d26b7c5e110d05806c064e15a3ad2af34d0fbd
+ms.sourcegitcommit: fde2867524b6a851628185cbdeee60a6ad918d08
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473607"
+ms.lasthandoff: 09/26/2022
+ms.locfileid: "9592048"
 ---
 # <a name="proactive-quality-updates"></a>Aggiornamenti qualitativi proattivi
 
@@ -57,7 +57,7 @@ I dati sulla gestione delle release correnti mostrano che meno del 3% delle regr
 - **Schema** – Gli strumenti garantiranno che le build degli aggiornamenti qualitativi includano solo le modifiche dello schema che possono essere applicate mentre il servizio è online. Questo approccio consentirà di preservare la capacità di applicare l'aggiornamento con tempi di inattività prossimi allo zero.
 - **Maggiore controllo delle modifiche** – Attualmente, esiste già una fase supplementare del processo per approvare le modifiche da includere in un aggiornamento qualitativo. Il controllo nella fase supplementare verrà aumentato per contribuire a ridurre il potenziale delle regressioni. Non sono consentite modifiche che causano interruzioni negli aggiornamenti qualitativi e il maggiore controllo delle modifiche contribuirà a garantire il raggiungimento di questo obiettivo.
 - **Visibilità** – Invieremo notifiche tramite e-mail e Lifecycle Services (LCS) per i prossimi aggiornamenti qualitativi proattivi. Inoltre, i team di supporto e i responsabili della gestione degli incidenti avranno visibilità su dove gli aggiornamenti qualitativi sono stati implementati in modo proattivo.
-- **Fallback della versione** – La distribuzione di versioni di anteprima verrà utilizzata per raggruppare tutte le modifiche in un aggiornamento qualitativo proattivo. Se il fallback è necessario dopo una distribuzione proattiva, è possibile eseguirlo tramite il sistema di distribuzione di versioni di anteprima.
+- **Errore sicuro con la versione di anteprima** – La versione di anteprima verrà utilizzata per proteggere le modifiche al codice ove applicabile in una correzione di bug dell'aggiornamento della qualità o utilizzare la versione di anteprima di funzionalità esistente pertinente alla correzione. Se è necessario un fallback o disattivare una modifica dopo una distribuzione proattiva, è possibile farlo tramite il sistema di versione di anteprima per evitare ulteriori errori.
 - **Designazione della sincronizzazione sandbox** – Meno del 20% dei clienti dispone attualmente di più sandbox e mantiene una sandbox distribuita dove la versione corrisponde alla produzione, per agevolare la risoluzione dei problemi. Se un cliente utilizza una sandbox per testare una versione più recente rispetto alla propria produzione, tale sandbox riceverà aggiornamenti qualitativi alla versione più recente.
 
 ## <a name="what-is-the-rollout-roadmap-for-quality-updates"></a>Qual è la roadmap per l'implementazione degli aggiornamenti di qualità?
@@ -69,7 +69,7 @@ Nei prossimi sei mesi, aumenteremo gradualmente la percentuale di ambienti sandb
 Poiché i clienti riceveranno regolarmente payload più piccoli, prevediamo che il processo di aggiornamento diventerà più semplice. Adegueremo la frequenza della distribuzione degli aggiornamenti mentre dimostreremo la capacità di eseguire il processo senza interruzioni. Questo processo sta già funzionando efficacemente per la nostra piattaforma e le applicazioni Dataverse e fornisce i miglioramenti previsti nella qualità del servizio. Siamo impazienti di fare lo stesso passo avanti per le applicazioni per la finanza e le operazioni.
 
 ## <a name="when-will-quality-updates-start-for-production-environments"></a>Quando inizieranno gli aggiornamenti di qualità per gli ambienti di produzione?
-Al momento, gli aggiornamenti di qualità riguardano solo i sandbox. Gli aggiornamenti agli ambienti di produzione inizieranno dopo novembre 2022.
+Al momento, gli aggiornamenti di qualità riguardano solo i sandbox. Aggiorneremo questo spazio con una data di inizio per gli ambienti di produzione quando avremo dati e metriche più concreti da aggiornamenti proattivi per sandbox per valutare la preparazione per la produzione.
 
 ## <a name="what-is-the-schedule-for-sandbox-quality-updates"></a>Qual è la pianificazione per gli aggiornamenti di qualità sandbox?
 Per informazioni sulle ore notturne per ciascuna area, vedi [Qual è la pianificazione per gli aggiornamenti di qualità proattivi?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#what-is-the-schedule-for-proactive-quality-updates).

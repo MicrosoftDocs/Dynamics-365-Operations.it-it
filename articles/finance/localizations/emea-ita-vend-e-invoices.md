@@ -2,7 +2,7 @@
 title: Fatture elettroniche del fornitore
 description: Questo articolo spiega come configurare e inviare fatture elettroniche del fornitore in Italia.
 author: mrolecki
-ms.date: 12/01/2021
+ms.date: 09/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-12-01
 ms.dyn365.ops.version: 10.0.21
 ms.custom: 3984823
 ms.search.form: ''
-ms.openlocfilehash: acbb6ab05e6afe79bb28cb287a58348b99755d18
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: bd77dc07da7eae1607c2b6865dd93cbbb6d231a3
+ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274590"
+ms.lasthandoff: 09/22/2022
+ms.locfileid: "9573210"
 ---
 # <a name="vendor-electronic-invoices"></a>Fatture elettroniche del fornitore
 
@@ -45,6 +45,17 @@ Segui questi passaggi per impostare la configurazione della fattura elettronica 
    > Le configurazioni devono essere importate prima di poter essere selezionate. Per ulteriori informazioni, vedere [Scaricare configurazioni ER dall'archivio globale del servizio di configurazione](../../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md).
    >
    > La configurazione del modello padre, **Modello fattura** e la relativa configurazione di mapping del modello, **Mapping modello di fattura fornitore (IT)**, verranno importate o aggiornate automaticamente.
+   > 
+   > 1. Dopo aver importato le configurazioni, imposta i parametri specifici dell'applicazione nell'area di lavoro **Report elettronici** per il formato fattura fornitore (IT). Nel riquadro azioni, seleziona **Configurazione** > **Parametri specifici dell'applicazione** > **Impostazione**. Devi impostare almeno due linee per i valori **Vuoto** e **Non vuoto**.
+   >  
+   >     ![Parametri specifici dell'applicazione](media/emea-ita-vendor-einvoice-asp.png)
+   > 
+   >     Queste impostazioni predefinite sono richieste per tutti gli scenari, anche se **Reverse charge** non è applicabile.
+   >
+   > 2. Nella sezione **Condizioni**, nella colonna **Nome** aggiungi gli altri gruppi di articoli Reverse charge richiesti e associali ai relativi valori nella colonna **Risultato della ricerca**. Per ulteriori dettagli su come impostare i gruppi di articoli Reverese charge, vedi ![Fatture elettroniche dei clienti](emea-ita-e-invoices.md)
+
+
+
 
 ## <a name="enable-electronic-invoice-generation"></a>Abilitare la generazione di fatture elettroniche
 

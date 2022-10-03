@@ -2,7 +2,7 @@
 title: Aggiornamenti normativi
 description: In questo articolo viene fornito un elenco degli aggiornamenti normativi pianificati e rilasciati per Microsoft Dynamics 365 Finance.
 author: VStamberg
-ms.date: 04/18/2022
+ms.date: 09/26/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: vastrup
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 129e4e1d44018da206d0e797dcfd389c9e6adeba
-ms.sourcegitcommit: 3c4dd125ed321af8a983e89bcb5bd6e5ed04a762
+ms.openlocfilehash: fdfc10ea5bf330c3a739f8dfe86c56f16ca2c69e
+ms.sourcegitcommit: 2290799408b7567a97601bc4158f814d5bfd844c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/28/2022
-ms.locfileid: "9206197"
+ms.lasthandoff: 09/28/2022
+ms.locfileid: "9596237"
 ---
 # <a name="regulatory-updates"></a>Aggiornamenti normativi
 
@@ -39,19 +39,14 @@ Per i piani di aggiornamenti normativi più recenti, fare riferimento alla tabel
 
 |Paese|Data rilascio|Versione di rilascio|Aggiornamento normativo|
 |--------------------|---------------|-------|-------| 
-|      Brasile         |   2022 marzo    | 10.0.27        |    Riscossione ICMS-DIFAL nelle operazioni rivolte a contribuenti non fiscali (Legge complementare n. 190/22)  |
-|      Brasile         |   2022 marzo         | 10.0.27         |    NF-e NT2021.004 v1.00 - Aggiornamenti delle regole di layout e convalida  |
-|      Brasile         |   2022 marzo         | 10.0.27         |    NF-e NT2021.004 v1.00 - Aggiornamenti delle regole di layout e convalida - Vendita al dettaglio  |
-|      Brasile         |   2022 aprile         | 10.0.27HF, 10.0.28         |    SPED ECF - LAYOUT 8  |
-|      Europa orientale         |   Luglio 2022         | 10.0.27HF, 10.0.28HF, 10.0.29         |    Rendiconto di contabilità generale per conto principale  |
-|      Lituania|   2022 febbraio | 10.0.27 | i.SAF cambia dal 01-01-2022 in Dynamics 365 Finance  |
-|      Messico         |   2022 marzo      | 10.0.27      |   Formati CFDI versione 4.0 (fatture e pagamenti)  |
-|      Messico         |   2022 febbraio      | 10.0.27      |   Dal 1 gennaio 2022 entra in vigore la versione 4.0 del CFDI, con un periodo di coesistenza tra la versione 3.3 e la versione 4.0, che va dal 1 gennaio al 30 giugno 2022.  |
-|      Messico         |   2022 marzo      | 10.0.27      |   Formati CFDI versione 4.0 (ritenuta)  |
-|      Polonia          |   2022 aprile     | 10.0.27HF, 10.0.28     |   JPK_FA versione 4 a partire dal 1 aprile 2022JPK_V7M - nuova versione dello schema da gennaio 2022 |
-|      Russia          |   2022 giugno     | 10.0.27    |  Report relativi alle operazioni con prodotti tracciabili (nell'ambito dell'eliminazione di beni tracciabili quali monitor, frigoriferi e mobili per ufficio per uso personale)|
-|      Singapore      |   Luglio 2022| 10.0.27HF, 10.0.28HF, 10.0.29 | File di audit IRAS (IAF) in formato TXT|
-|      Spagna      |   2022 marzo| 10.0.27 | Dichiarazione IVA Il modello 303 cambia il 1 gennaio 2022 in Dynamics 365 Finance|
+|      Brasile         |   2022 aprile         | 10.0.28         |    SPED ECF - LAYOUT 8  |
+|      Brasile         |   2022 giugno         | 10.0.30HF         |    EFD ICMS IPI - versione 3.0.9  |
+|      Brasile         |   Agosto 2022         | 10.0.30         |    NF-e NT2021.004 v1.31 - Aggiornamenti delle regole di layout e convalida  |
+|      Europa orientale         |   Luglio 2022         | 10.0.28HF, 10.0.29         |    Rendiconto di contabilità generale per conto principale  |
+|      Ungheria         |   Luglio 2022         | 10.0.30         |    Dichiarazione IVA in XML (2065A) e anteprima in Excel. Appendice fatture di acquisto in XML (2065M)  |
+|      Polonia          |   2022 aprile     | 10.0.28     |   JPK_FA versione 4 a partire dal 1 aprile 2022 |
+|      Russia          |   2022 giugno     | 10.0.29    |  Importare i dati di indirizzo dal Registro indirizzi statale (GAR)|
+|      Singapore      |   Luglio 2022| 10.0.28HF, 10.0.29 | File di audit IRAS (IAF) in formato TXT|
 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
