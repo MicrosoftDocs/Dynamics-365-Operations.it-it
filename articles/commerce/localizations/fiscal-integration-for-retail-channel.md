@@ -2,19 +2,19 @@
 title: Panoramica dell'integrazione fiscale per i canali Commerce
 description: In questo articolo viene fornita una panoramica delle funzionalità di integrazione fiscale disponibili in Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 03/04/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 0a56df2a463153c6c3986ce84907e25ea7d965b8
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 1812405db3c1e58eaf7cd1df3896f786e7bf026f
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286501"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631242"
 ---
 # <a name="fiscal-integration-overview-for-commerce-channels"></a>Panoramica dell'integrazione fiscale per i canali Commerce
 
@@ -95,16 +95,20 @@ Questa configurazione viene utilizzata quando un dispositivo fiscale fisico o un
 
 Il framework di integrazione fiscale fornisce le seguenti opzioni per gestire gli errori durante la registrazione fiscale:
 
-- **Riprova** - Gli operatori possono utilizzare questa opzione quando l'errore può essere risolto rapidamente e la registrazione fiscale può essere eseguita di nuovo. Ad esempio, questa opzione può essere utilizzata quando il dispositivo fiscale non è collegato, la carta è esaurita o inceppata nella stampante fiscale.
-- **Annulla** - Questa opzione consente agli operatori di posticipare la registrazione fiscale della transazione o dell'evento corrente se questo ha esito negativo. Dopo che la registrazione è stata posticipata, l'operatore può continuare a utilizzare il POS e completare le operazioni per le quali la registrazione fiscale non è necessaria. Quando si verifica un evento che richiede la registrazione fiscale nel POS (ad esempio, viene aperta una nuova transazione), la finestra di dialogo di gestione degli errori viene automaticamente visualizzata per informare l'operatore che la transazione precedente non è stata registrata correttamente e per fornire le opzioni di gestione degli errori.
-- **Ignora** - Gli operatori possono utilizzare questa opzione quando la registrazione fiscale può essere omessa in determinate condizioni e le operazioni normali possono essere eseguite nel POS. Ad esempio, questa opzione può essere utilizzata se una transazione di vendita per la quale la registrazione fiscale non è riuscita può essere registrata in un giornale speciale.
-- **Contrassegna come registrato** - Gli operatori possono utilizzare questa opzione quando la transazione è stata effettivamente registrata nel dispositivo fiscale (ad esempio, è stata stampata una ricevuta fiscale), ma si è verificato un errore durante il salvataggio della risposta fiscale nel database del canale.
-- **Posticipa** – Gli operatori possono utilizzare questa opzione quando la transazione non è stata registrata perché il servizio di registrazione non era disponibile. 
+- **Riprova**: l'operatore può utilizzare questa opzione quando l'errore può essere risolto rapidamente e la registrazione fiscale può essere eseguita di nuovo. Ad esempio, questa opzione può essere utilizzata quando il dispositivo fiscale non è collegato, la carta è esaurita o inceppata nella stampante fiscale.
+- **Annulla**: questa opzione consente all'operatore di posticipare la registrazione fiscale della transazione o dell'evento corrente se questo ha esito negativo. Dopo che la registrazione è stata differita, l'operatore può continuare a utilizzare il POS e completare le operazioni per le quali la registrazione fiscale non è necessaria. Quando si verifica un evento che richiede la registrazione fiscale nel POS (ad esempio, viene aperta una nuova transazione), la finestra di dialogo di gestione degli errori viene automaticamente visualizzata per informare l'operatore che la transazione precedente non è stata registrata correttamente e per fornire le opzioni di gestione degli errori.
+- **Ignora**: l'operatore può utilizzare questa opzione quando non è possibile completare la registrazione fiscale della transazione o dell'evento in corso, ad esempio se la stampante fiscale è fuori servizio **e** la registrazione fiscale può essere omessa a determinate condizioni. Ad esempio, questa opzione può essere utilizzata se una transazione di vendita per la quale la registrazione fiscale non è riuscita può essere registrata in un giornale speciale. Dopo aver ignorato la registrazione fiscale, è possibile continuare la regolare operatività sul POS. 
+- **Contrassegna come registrato**: l'operatore può utilizzare questa opzione quando la transazione o l'evento corrente sono stati effettivamente registrati nel dispositivo fiscale, ad esempio è stata stampata una ricevuta fiscale, ma si è verificato un errore durante il salvataggio della risposta fiscale nel database del canale. Dopo aver contrassegnato la transazione o l'evento in corso come registrato, è possibile continuare le normali operazioni sul POS.
+- **Posticipa**: l'operatore può utilizzare questa opzione quando la transazione non è stata registrata perché il servizio o il dispositivo di registrazione non è disponibile **e** si applica una delle seguenti condizioni:
+    - Esiste un'opzione di registrazione fiscale di backup ed è possibile continuare il processo di registrazione fiscale per la transazione corrente. Ad esempio, un [dispositivo fiscale](./latam-bra-cf-e-sat.md#scenario-4-make-a-cash-and-carry-sale-of-goods-by-using-sat-as-contingency-mode) locale può essere un'opzione di backup per un servizio di registrazione fiscale online quando il servizio non è disponibile.
+    - La registrazione fiscale può essere completata successivamente con mezzi diversi dal framework di integrazione fiscale. Ad esempio, le transazioni posticipate possono essere successivamente registrate fiscalmente in un batch da una [funzionalità separata](./latam-bra-nfce.md#scenario-3-make-a-cash-and-carry-sale-of-goods-in-offline-contingency-mode).
+    
+    Dopo aver posticipato la transazione o l'evento in corso, è possibile continuare le normali operazioni sul POS.
 
-> [!NOTE]
-> Le opzioni **Ignora**, **Contrassegna come registrato** e **Posticipa** devono essere attivate nel processo di registrazione fiscale prima di essere utilizzate. Inoltre, le autorizzazioni corrispondenti devono essere concesse agli operatori.
+> [!WARNING]
+> Le opzioni **Ignora**, **Contrassegna come registrato** e **Posticipa** dovrebbero essere considerate opzioni di emergenza e utilizzate solo in casi eccezionali. Discuti queste opzioni di gestione degli errori con il tuo consulente legale o fiscale e applica il buon senso prima di abilitarle. Le opzioni devono essere attivate nel processo di registrazione fiscale prima di essere utilizzate. Per assicurarsi che gli operatori non le utilizzino regolarmente, le autorizzazioni corrispondenti devono essere concesse agli operatori.
 
-Le opzioni **Ignora**, **Contrassegna come registrato** e **Posticipa** attivano codici informativi per acquisire alcune informazioni specifiche sull'errore, ad esempio la causa dell'errore o il motivo per aver ignorato la registrazione fiscale o contrassegnato la transazione come registrata. Per ulteriori informazioni su come impostare i parametri di gestione degli errori, vedere [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+Una [transazione fiscale](#storing-fiscal-response-in-fiscal-transaction) viene creata quando le opzioni **Ignora**, **Contrassegna come registrato** o **Posticipa** sono selezionate, ma la transazione fiscale non contiene una risposta fiscale. Ciò consente di acquisire l'evento di mancata registrazione fiscale. Queste opzioni abilitano codici informativi per acquisire alcune informazioni specifiche sull'errore, ad esempio la causa dell'errore o il motivo per aver ignorato la registrazione fiscale o contrassegnato la transazione come registrata. Per ulteriori informazioni su come impostare i parametri di gestione degli errori, vedere [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
 ### <a name="optional-fiscal-registration"></a>Registrazione fiscale facoltativa
 
@@ -112,11 +116,7 @@ La registrazione fiscale può essere obbligatoria per alcune operazioni ma facol
 
 ### <a name="manually-rerun-fiscal-registration"></a>Esecuzione manuale della registrazione fiscale
 
-Se la registrazione fiscale di una transazione o di un evento è stata posticipata dopo un errore (ad esempio se l'operatore ha selezionato **Annulla** nella finestra di dialogo di gestione degli errori), è possibile rieseguire manualmente la registrazione fiscale invocando un'operazione corrispondente. Per ulteriori dettagli, vedere [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
-
-### <a name="postpone-option"></a>Opzione Posticipa
-
-L'opzione **Posticipa** consente di continuare il processo di registrazione fiscale se il passaggio corrente non riesce. Può essere utilizzato quando è disponibile un'opzione di backup della registrazione fiscale.
+Se la registrazione fiscale di una transazione o di un evento è stata differita dopo un errore (ad esempio se l'operatore ha selezionato **Annulla** nella finestra di dialogo di gestione degli errori), è possibile rieseguire manualmente la registrazione fiscale invocando un'operazione corrispondente. Per ulteriori dettagli, vedi [Abilitare l'esecuzione manuale della registrazione fiscale differita](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 
 ### <a name="fiscal-registration-health-check"></a>Verifica integrità della registrazione fiscale
 
@@ -138,7 +138,7 @@ Se la verifica integrità non riesce, il POS visualizza la finestra di dialogo d
 
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Archiviazione della risposta fiscale nella transazione fiscale
 
-Quando la registrazione fiscale di una transazione o di un evento ha esito positivo, una transazione fiscale viene creata nel database del canale e collegata alla transazione o all'evento originale. Analogamente, se l'opzione **Ignora** o **Contrassegna come registrato** è selezionata per una registrazione fiscale non riuscita, queste informazioni vengono archiviate in una transazione fiscale. Una transazione fiscale include la risposta fiscale del dispositivo o del servizio fiscale. Se il processo di registrazione fiscale comporta varie fasi, una transazione fiscale viene creata per ogni fase del processo che ha generato una registrazione riuscita o non riuscita.
+Quando la registrazione fiscale di una transazione o di un evento ha esito positivo, una transazione fiscale viene creata nel database del canale e collegata alla transazione o all'evento originale. Analogamente, se l'opzione **Ignora**, **Contrassegna come registrato** o **Posticipa** è selezionata per una registrazione fiscale non riuscita, queste informazioni vengono archiviate in una transazione fiscale. Una transazione fiscale include la risposta fiscale del dispositivo o del servizio fiscale. Se il processo di registrazione fiscale comporta varie fasi, una transazione fiscale viene creata per ogni fase del processo che ha generato una registrazione riuscita o non riuscita.
 
 Le transazioni fiscali vengono trasferite a Headquarters dal *processo P*, insieme alle transazioni. Nella scheda Dettaglio **Transazioni fiscali** della pagina **Transazioni punto vendita**, è possibile visualizzare le transazioni fiscali collegate alle transazioni di vendita al dettaglio.
 

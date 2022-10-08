@@ -1749,18 +1749,8 @@
               href: sensor-data-intelligence/sdi-scenario-production-delays.md
         - name: Intelligenza IoT
           items:
-            - name: Home page Intelligenza IoT
+            - name: Intelligenza IoT ora sostituita da Sensor Data Intelligence
               href: iot/iot-intelligence-home-page.md
-            - name: Impostare le risorse di Azure
-              href: iot/iot-azure-setup.md
-            - name: Formati dello schema dei messaggi per l'hub IoT
-              href: iot/iot-schema-format.md
-            - name: Impostare le metriche
-              href: iot/iot-metrics-setup.md
-            - name: Impostazione dello scenario
-              href: iot/iot-scenario-setup.md
-            - name: Monitorare e gestire
-              href: iot/iot-management.md
         - name: Pianificazione generale
           items:
             - name: Home page pianificazione generale
@@ -1803,6 +1793,8 @@
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Programmazione con capacità infinita
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Programmazione e pianificazione con capacità finita
+                  href: master-planning/planning-optimization/finite-capacity.md
                 - name: Programmazione con selezione delle risorse in base alla capacità
                   href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Pianificazione basata sulle priorità

@@ -2,19 +2,19 @@
 title: Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca
 description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Repubblica Ceca in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-04-01
-ms.openlocfilehash: 3838792c0a420fb88ea9daab0a67c2e644c80681
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: de26b038009d8bf3518c67389c96aade19a0b65b
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313750"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631287"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-the-czech-republic"></a>Esempio di integrazione del servizio di registrazione fiscale per la Repubblica Ceca
 
@@ -48,7 +48,7 @@ Gli scenari seguenti sono coperti dall'esempio di integrazione di servizio di re
 - Gestione degli errori, ad esempio le seguenti opzioni.
 
     - Riprova la registrazione fiscale se è possibile riprova, ad esempio se il servizio di registrazione fiscale non è disponibile, non è pronto o non risponde.
-    - Posticipare la registrazione fiscale.
+    - Differisci la registrazione fiscale.
     - Ignorare la registrazione fiscale, o contrassegnare la transazione come registrata, e includere i codici informativi per acquisire il motivo dell'errore e ulteriori informazioni.
     - Verifica la disponibilità del servizio di registrazione fiscale prima dell'apertura di una nuova transazione di vendita o della finalizzazione di una transazione di vendita.
 
@@ -188,7 +188,7 @@ Completare la procedura di configurazione dell'integrazione fiscale come descrit
 
 1. [Configurare un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Inoltre, prendi nota delle impostazioni per il processo di registrazione fiscale che sono [specifiche dell'esempio di integrazione del servizio di registrazione fiscale](#set-up-the-registration-process).
 1. [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Abilitare l'esecuzione manuale della registrazione fiscale differita](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configura i componenti del canale](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Impostare il processo di registrazione

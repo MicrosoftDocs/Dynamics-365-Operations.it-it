@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: hangwan
 ms.search.validFrom: 03/23/2022
 ms.dyn365.ops.version: Version 10.0.21
-ms.openlocfilehash: 2bb381939ebe32cb51caf730cdd441557d83a4c0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 38ef8c51d52de6b8f748330d0697e860d75233bf
+ms.sourcegitcommit: 43cf54d057eccd07a71bb48e2fcf858d043a9669
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887784"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9620900"
 ---
 # <a name="enable-debug-mode-in-the-tax-calculation-service"></a>Abilitare la modalità di debug nel servizio di calcolo imposte
 
@@ -27,7 +27,7 @@ ms.locfileid: "8887784"
 Questo articolo spiega come abilitare la modalità di debug nel servizio di calcolo delle imposte per analizzare i problemi.
 
 1. Aggiungi **&debug=vs%2CconfirmExit&** all'URL di Application Object Server (AOS), quindi aggiorna la pagina.
-2. Quando selezioni **IVA** per calcolare l'IVA, un file di testo denominato **TaxServiceTroubleshootingLog.txt** viene aperto. Il file **TaxServiceTroubleshootingLog.txt** contiene **TaxableDocument** e il parametro di calcolo. Questi risultati vengono restituiti dal servizio fiscale e dalle informazioni sulle eccezioni per la risoluzione dei problemi.
+2. Quando selezioni **IVA** per calcolare l'imposta sulle vendite, un file di testo denominato **TaxServiceTroubleshootingLog.txt** verrà acquisito sul server in **C:\AXWeb_SMBShare\temporary-file\\{%session%}\\**. Il file **TaxServiceTroubleshootingLog.txt** contiene **TaxableDocument** e il parametro di calcolo. Questi risultati vengono restituiti dal servizio fiscale e dalle informazioni sulle eccezioni per la risoluzione dei problemi.
 
 ## <a name="sample"></a>Esempio
 

@@ -2,19 +2,19 @@
 title: Impostare l'integrazione fiscale per canali di commercio
 description: In questo articolo vengono fornite indicazioni per l'impostazione della funzionalità di integrazione fiscale per canali di commercio.
 author: EvgenyPopovMBS
-ms.date: 04/28/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 9fd801395f2ba04c703734a1de7998d6a53b6462
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 28097341c7b39660b834eb81786c3f56045e1496
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276134"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631425"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Impostare l'integrazione fiscale per canali di commercio
 
@@ -30,9 +30,10 @@ Per abilitare le funzionalità relative alla funzionalità di integrazione fisca
 1. Trova e abilita le seguenti funzionalità:
 
     - **Integrazione fiscale diretta da registri POS** – Questa funzione estende il framework di integrazione fiscale aggiungendo la capacità di creare connettori fiscali che verranno eseguiti nel punto vendita (POS). Questo tipo di connettore comunica con un dispositivo o un servizio fiscale che fornisce un'API (Application Programming Interface) HTTP e non richiede una macchina fisica dedicata nel negozio. Ad esempio, questa funzionalità consente l'integrazione fiscale per i dispositivi mobili senza richiedere una stazione hardware condivisa.
-    - **Sostituzioni profilo tecnico fiscale di integrazione fiscale** – Questa funzionalità consente di ampliare la configurazione dell'integrazione fiscale e aggiunge la possibilità di verificare i parametri di connessione nella pagina delle impostazioni di un registro POS. Quando questa funzione è abilitata, puoi sostituire i parametri di un profilo tecnico.
+    - **Sostituzioni profilo tecnico fiscale di integrazione fiscale**: questa funzionalità consente di ampliare la configurazione dell'integrazione fiscale e aggiunge la possibilità di sovrascrivere i parametri di un profilo tecnico. Ad esempio, è possibile specificare le stringhe di connessione del dispositivo fiscale a livello di singolo registro POS. La funzionalità aggiunge anche la possibilità di verificare i parametri di connessione nella pagina **Impostazioni** di un registro POS. 
     - **Stato della registrazione fiscale dei registri POS** – Quando questa funzione è abilitata, è possibile disabilitare il processo di registrazione fiscale per specifici registri POS. Se la registrazione fiscale è disabilitata per un registro POS, le transazioni di vendita non possono essere completate su quel registro.
-    - **Backup archiviazione locale di integrazione fiscale** – Questa funzione estende le capacità di gestione degli errori del framework di integrazione fiscale. Consente inoltre il backup automatico dei dati di registrazione fiscale in caso di perdita dei dati, in modo che i dati nella memoria locale vengano ripristinati all'attivazione di un dispositivo.
+    - **Backup archiviazione locale di integrazione fiscale**: questa funzionalità estende le funzionalità di gestione errori del Fiscal Integration Framework abilitando il backup automatico dei dati di registrazione fiscale per rendere possibile il ripristino di questi dettagli nell'archivio locale durante l'attivazione di un dispositivo.
+    - **Registrazione dei documenti posticipata**: questa funzione estende le capacità di gestione degli errori del framework di integrazione fiscale consentendo l'opzione di posticipare la registrazione fiscale in caso di mancata registrazione fiscale e di utilizzare un'opzione di registrazione fiscale di riserva o completare la registrazione fiscale in un secondo momento con mezzi diversi dal framework di integrazione fiscale.
 
 ## <a name="set-up-commerce-parameters"></a>Configurare parametri di commercio
 
@@ -286,16 +287,15 @@ Per abilitare report X/Z fiscali per l'esecuzione dal POS, è necessario aggiung
     1. Aggiungere un nuovo pulsante e impostare la proprietà del pulsante **Stampa Z fiscale**.
     1. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1090** per trasferire le modifiche al database del canale.
 
-## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Abilitare l'esecuzione manuale della registrazione fiscale posticipata
+## <a name="enable-manual-execution-of-deferred-fiscal-registration"></a>Abilitare l'esecuzione manuale della registrazione fiscale differita
 
-Per abilitare l'esecuzione manuale di una registrazione fiscale posticipata, è necessario aggiungere un nuovo pulsante a un layout POS.
+Per abilitare l'esecuzione manuale di una registrazione fiscale differita, è necessario aggiungere un nuovo pulsante a un layout POS.
 
 - Nella pagina **Griglie dei pulsanti**, seguire le istruzioni in [Aggiungere operazioni POS a layout POS tramite Progetto griglia dei pulsanti](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters) per installare il designer e aggiornare un layout POS.
 
     1. Selezionare il layout da aggiornare.
     1. Aggiungere un nuovo pulsante e impostare la proprietà del pulsante **Processo di registrazione fiscale completo**.
     1. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1090** per trasferire le modifiche al database del canale.
-
 
 ## <a name="view-connection-parameters-and-other-information-in-pos"></a>Visualizzare i parametri di connessione e altre informazioni nel POS
 

@@ -2,19 +2,19 @@
 title: Esempio di integrazione di stampante fiscale per la Polonia
 description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Polonia in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/18/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-02-01.
-ms.openlocfilehash: d4e99854f5e3ab9a6ae802f4f6bcde7918f72e6d
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 2f27e5fdcd2b26a0a1651f21436cb4caad501cf8
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473769"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631373"
 ---
 # <a name="fiscal-printer-integration-sample-for-poland"></a>Esempio di integrazione di stampante fiscale per la Polonia
 
@@ -64,7 +64,7 @@ Gli scenari seguenti sono coperti dall'esempio di integrazione di stampante fisc
 - Gestione degli errori, ad esempio le seguenti opzioni:
 
     - Se possibile, ripeti la registrazione fiscale nel caso la stampante fiscale non sia collegata, pronta o non risponda o se la carta risulta mancante o inceppata.
-    - Posticipare la registrazione fiscale.
+    - Differisci la registrazione fiscale.
     - Ignorare la registrazione fiscale, o contrassegnare la transazione come registrata, e includere i codici informativi per acquisire il motivo dell'errore e ulteriori informazioni.
     - Verificare la disponibilità della stampante fiscale prima dell'apertura di una nuova transazione di vendita o della finalizzazione di una transazione di vendita.
 
@@ -107,7 +107,7 @@ Completa la procedura di configurazione dell'integrazione fiscale come descritto
 1. [Configurare un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Inoltre, prendi nota delle impostazioni per il processo di registrazione fiscale che sono [specifiche dell'esempio di integrazione della stampante fiscale](#set-up-the-registration-process).
 1. [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 1. [Configurare report X/Z fiscali dal POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
-1. [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Abilitare l'esecuzione manuale della registrazione fiscale differita](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configura i componenti del canale](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Impostare il processo di registrazione

@@ -2,19 +2,19 @@
 title: Moduli di confronto dei prodotti
 description: Questo articolo descrive i moduli di confronto dei prodotti e come implementarli di modo che i clienti possano confrontare i prodotti nei siti Web di e-commerce di Microsoft Dynamics 365 Commerce.
 author: ashishmsft
-ms.date: 08/09/2022
+ms.date: 10/03/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2022-02-28
-ms.openlocfilehash: 6fd851ce6b32d0772c3fe23c4d7bd4dae2616fdc
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 9ff45f3fbcc86b21f336d580582adef586417de4
+ms.sourcegitcommit: 66b954827826706ea2ba00c2afd5d694ad92148d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474128"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9618387"
 ---
 # <a name="product-comparison-modules"></a>Moduli di confronto dei prodotti
 
@@ -91,6 +91,19 @@ Per aggiungere un pulsante di confronto dei prodotti ai riquadri dei prodotti ne
 1. Nel riquadro proprietà a destra, configura le proprietà del modulo **Pulsante di confronto dei prodotti**.
 1. Selezionare **Salva**, quindi selezionare **Anteprima** per visualizzare l'anteprima della pagina.
 1. Selezionare **Fine modifica** per archiviare la pagina, quindi selezionare **Pubblica** per pubblicarla.
+
+## <a name="add-a-product-comparison-preview-panel-module-to-pages-on-your-website"></a>Aggiungi un modulo del riquadro di anteprima del confronto dei prodotti alle pagine del tuo sito Web
+
+Un modulo del riquadro di anteprima del confronto dei prodotti offre ai tuoi clienti la possibilità di rivedere i prodotti che aggiungono o rimuovono dal confronto. Il riquadro di anteprima fornisce anche le opzioni per accedere direttamente alla pagina di confronto o cancellare l'intero elenco di prodotti. 
+
+Ti consigliamo di abilitare il riquadro di anteprima su tutte le pagine che hanno il **pulsante di confronto prodotti** abilitato. Il modulo può essere aggiunto al **Pulsante di confronto dei prodotti** come slot o può essere utilizzato come modulo indipendente che puoi configurare su qualsiasi pagina, anche quando non c'è funzionalità per aggiungere o rimuovere prodotti da confrontare. 
+
+Devi aggiungere manualmente il modulo del riquadro di anteprima di confronto dei prodotti a una pagina. Dovresti aggiungere solo un modulo del riquadro di anteprima su una pagina. Se aggiungi più istanze del modulo a una pagina, verrà eseguito il rendering del primo modulo e il resto verrà ignorato.
+
+![Riquadro di anteprima del confronto dei prodotti](./media/product-comparison-preview-panel-2.png)
+
+Se specifichi un limite per il confronto dei prodotti, hai un'opzione per abilitare i segnaposto grigi nel riquadro di anteprima che indicano quanti altri prodotti possono essere aggiunti al confronto. I segnaposto grigi vengono sostituiti con prodotti man mano che vengono aggiunti al confronto. Per configurare un limite di confronto dei prodotti e abilitare i segnaposto grigi, in Creazione di siti Web, vai a **Impostazioni sito > Estensioni** e apporta le modifiche nella sezione **Confronto dei prodotti**. La configurazione verrà applicata a tutti i riquadri di anteprima per tutte le pagine. 
+
 
 ## <a name="specify-the-maximum-number-of-products-to-show-in-the-comparison-tray"></a>Impostare il numero massimo di prodotti da mostrare nella barra di confronto
 

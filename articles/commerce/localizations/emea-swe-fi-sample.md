@@ -2,19 +2,19 @@
 title: Esempio di integrazione di un'unità di controllo per la Svezia
 description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Svezia in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 12/20/2021
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-08
-ms.openlocfilehash: 3376e6a901b692371a44b5c74c1e6b4afd0cd573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 966ba3fab780991736f0c84d7eb68356c28a4022
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9275068"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631264"
 ---
 # <a name="control-unit-integration-sample-for-sweden"></a>Esempio di integrazione di un'unità di controllo per la Svezia
 
@@ -42,7 +42,7 @@ L'esempio di integrazione dell'unità di controllo per la Svezia include le segu
 - Sono disponibili diverse opzioni di gestione degli errori. Di seguito sono riportati alcuni esempi.
 
     - Riprova la registrazione fiscale, se è possibile riprovare. Puoi riprovare la registrazione fiscale se, ad esempio, l'unità di controllo non è collegata, non è pronta o non risponde.
-    - Posticipare la registrazione fiscale.
+    - Differisci la registrazione fiscale.
     - Ignorare la registrazione fiscale, o contrassegnare la transazione come registrata, e includere i codici informativi per acquisire il motivo dell'errore e ulteriori informazioni.
     - Verifica la disponibilità dell'unità di controllo prima dell'apertura di una nuova transazione di vendita o della finalizzazione di una transazione di vendita.
 
@@ -103,7 +103,7 @@ Completa la procedura di configurazione dell'integrazione fiscale come descritto
 
 1. [Configurare un processo di registrazione fiscale](setting-up-fiscal-integration-for-retail-channel.md#set-up-a-fiscal-registration-process). Inoltre, prendi nota delle impostazioni per il processo di registrazione fiscale che sono [specifiche dell'esempio di integrazione dell'unità di controllo](#set-up-the-registration-process).
 1. [Configurare le impostazioni di gestione degli errori](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
-1. [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Abilitare l'esecuzione manuale della registrazione fiscale differita](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configura i componenti del canale](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Impostare il processo di registrazione

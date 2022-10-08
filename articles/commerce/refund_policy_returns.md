@@ -14,12 +14,12 @@ ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
 ms.custom: ''
 ms.search.industry: Retail
-ms.openlocfilehash: b93852bfb7c6f5a9f2f83f30a1f76da3f9559c7e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d01ad490301dd2f4103b8bd3f702db12b93a45a8
+ms.sourcegitcommit: bd7b1ffe90b25eb4c68d6aaebd063bf33e09d9cd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286839"
+ms.lasthandoff: 10/05/2022
+ms.locfileid: "9627498"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Creare e aggiornare i criteri per resi e rimborsi di un canale
 
@@ -36,12 +36,8 @@ L'ambito della politica è attualmente limitato alla definizione delle offerte d
 
 ## <a name="enable-return-policy"></a>Abilitare la politica sui resi
 
-Per abilitare la funzionalità di politica sui resi del canale in Commerce Headquarters, seguire questi passaggi.
+Per impostazione predefinita, questa funzionalità è attivata. Lo trovi nell'area di lavoro **Gestione funzionalità** cercando **Abilita criteri di reso canale** nell'elenco dei nomi delle funzioni.
 
-1. Andare all'area di lavoro **Gestione funzionalità** in Dynamics 365 Commerce.
-1. Cercare la funzionalità **Abilita politiche sui resi del canale** nell'elenco dei nomi di funzionalità.
-1. Selezionare **Abilita ora**.
-1. Nella pagina **Programmazione della distribuzione**, eseguire il processo **1110** (Configurazione globale) per distribuire la modifica della funzionalità.
 
 ## <a name="configure-return-policy"></a>Configurare la politica sui resi
 

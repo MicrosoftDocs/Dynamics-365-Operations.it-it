@@ -2,19 +2,19 @@
 title: Esempio di integrazione del servizio di registrazione fiscale per la Germania
 description: In questo articolo viene fornita una panoramica dell'esempio di integrazione fiscale per la Germania in Microsoft Dynamics 365 Commerce.
 author: EvgenyPopovMBS
-ms.date: 08/17/2022
+ms.date: 10/04/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-05-29
-ms.openlocfilehash: c3fdc0c378ad57300213357eccd50d817e06789a
-ms.sourcegitcommit: 0feb5d0b06e04f99903069ff2801577be86b8555
+ms.openlocfilehash: a725badbce498e4e7b35aecb2500e273586c7b77
+ms.sourcegitcommit: 2bc6680dc6b12d20532d383a0edb84d180885b62
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/18/2022
-ms.locfileid: "9313943"
+ms.lasthandoff: 10/06/2022
+ms.locfileid: "9631455"
 ---
 # <a name="fiscal-registration-service-integration-sample-for-germany"></a>Esempio di integrazione del servizio di registrazione fiscale per la Germania
 
@@ -265,7 +265,7 @@ Completare la procedura di configurazione dell'integrazione fiscale come descrit
     > - Ti consigliamo di lasciare l'opzione **Continua in caso di errore** nella pagina **Processo di registrazione fiscale** disattivata, perché tutte le transazioni devono essere registrate correttamente, anche se il primo tentativo di registrazione fiscale non è andato a buon fine.
     > - Prima di attivare l'opzione **Ignora** o **Contrassegna come registrato** nella pagina **Processo di registrazione fiscale** dovresti discutere queste modifiche al processo di registrazione fiscale con il tuo consulente fiscale o l'ufficio delle imposte locali.
 
-1. [Abilitare l'esecuzione manuale della registrazione fiscale posticipata](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+1. [Abilitare l'esecuzione manuale della registrazione fiscale differita](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-deferred-fiscal-registration).
 1. [Configura i componenti del canale](#configure-channel-components).
 
 ### <a name="set-up-the-registration-process"></a>Impostare il processo di registrazione
