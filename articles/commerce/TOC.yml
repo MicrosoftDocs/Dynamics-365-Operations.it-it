@@ -394,6 +394,8 @@
                   items:
                     - name: App Store Commerce
                       href: dev-itpro/store-commerce.md
+                    - name: App Store Commerce per piattaforme mobili
+                      href: dev-itpro/store-commerce-mobile.md
                     - name: Migrare Modern POS in Store Commerce
                       href: dev-itpro/pos-extension/migrate-mpos-store-commerce.md
                     - name: Linee guida per l'implementazione di gestione dei dispositivi
