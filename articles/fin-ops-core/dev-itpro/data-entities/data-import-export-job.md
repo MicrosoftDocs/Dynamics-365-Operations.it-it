@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a03f8fd0fa05a1400c69a2da8867dee135ad06a1
-ms.sourcegitcommit: 7bcaf00a3ae7e7794d55356085e46f65a6109176
+ms.openlocfilehash: dfd06c30ae09a175862810a0c85399358a65fdb0
+ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/26/2022
-ms.locfileid: "9357593"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9671460"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Panoramica processi di importazione ed esportazione dati
 
@@ -64,6 +64,9 @@ Si consiglia di selezionare attentamente una categoria di progetto appropriata p
 
 ### <a name="set-the-data-format-for-the-job"></a>Impostare il formato dei dati per il processo
 Quando si seleziona un'entità, è necessario selezionare il formato dei dati da esportare o importare. Si definiscono i formati utilizzando il riquadro **Impostazione origini dati**. Un formato di dati di origine è una combinazione **Tipo**, **Formato file**, **Delimitatore di riga** e **Delimitatore di colonna**. Sono inclusi anche altri attributi, ma questi sono quelli fondamentale da ricordare. Nella tabella riportata di seguito vengono elencate le combinazioni valide.
+
+> [!NOTE]
+> Il formato di file Excel non è attualmente disponibile nell'area di lavoro Gestione dati per Government Community Cloud (GCC).
 
 | Formato file            | Delimitatore di riga/colonna                       | Stile XML                 |
 |------------------------|--------------------------------------------|---------------------------|

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 5ef6a1574f55ad8a4222658887249db4a5490042
-ms.sourcegitcommit: 9cfccb5c260ce56a3457f9ea12e80f54ea55a3b4
+ms.openlocfilehash: e3b200186096a49f800d5b650ac81a45fe5e9e30
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183839"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644143"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Confronto tra funzionalità cloud e locali
 
@@ -118,7 +118,8 @@ Nelle tabelle seguenti sono elencate le aree di applicazione. Il supporto cloud 
 | Localizzazioni                        |                                                                                           | Sì       | Sì             |
 | Produzione                        |                                                                                           | Sì       | Sì             |
 | Offerta e pianificazione generale      |                                                                                           | Sì       | Sì             |
-|                                      | Ottimizzazione pianificazione                                                                     | Sì       | No              |
+|                                      | Ottimizzazione pianificazione                                                                     | Sì       | Numero              |
+|                                      | Previsione della domanda                                                                        | Sì       | Numero              |
 | App per dispositivi mobili, aree di lavoro e piattaforma |                                                                                           | Sì       | Sì             |
 | Integrazione Office                   |                                                                                           | Sì       | Sì             |
 | Amministrazione organizzazione          |                                                                                           | Sì       | Sì             |

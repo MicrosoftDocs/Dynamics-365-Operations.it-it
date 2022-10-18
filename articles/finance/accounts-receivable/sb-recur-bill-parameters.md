@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: cb60253f3cbb8c991ef2e106abdb1c685bf22171
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 64d6e21c2d8c588a64f0f4cf8b7a0bafc853bcab
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903336"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644005"
 ---
 # <a name="recurring-contract-billing-parameters"></a>Parametri di fatturazione contratto ricorrente
 
@@ -46,7 +46,8 @@ Usa la pagina **Parametri di fatturazione contratto ricorrente** per impostare i
 8. Nel campo **Tipo di transazione fattura**, seleziona il tipo di transazione fattura predefinito per i nuovi programmi di fatturazione.
 9. Imposta l'opzione **Allinea differimento a fatturazione** su **sì** per allineare il programma di differimento corrispondente in modo che utilizzi le stesse date del programma di fatturazione. Impostalo su **No** per avere date diverse.
 10. Se stai utilizzando la funzione di suddivisione dei ricavi, imposta l'opzione **Crea automaticamente suddivisione ricavi** su **sì** quando gli articoli vengono aggiunti a un programma di fatturazione. La casella di controllo **Suddivisione ricavi** verrà automaticamente selezionata nella riga del programma di fatturazione se l'articolo è impostato come articolo di suddivisione dei ricavi. Imposta l'opzione su **No** per selezionare manualmente la casella di controllo **Suddivisione ricavi**.
-11. Imposta i campi per la creazione dell'ordine cliente:
+11. Imposta l'opzione **Suddivisione clienti** su **sì** per consentire la fatturazione di un piano di fatturazione a clienti diversi. Quando è impostata su **sì** l'opzione **Suddivisione clienti** è disponibile nell'intestazione del programma di fatturazione e nella riga del programma di fatturazione. 
+12. Imposta i campi per la creazione dell'ordine cliente:
 
     - Le fatture possono essere consolidate per periodo, cliente o articolo. Qualsiasi combinazione di valori **sì** e **no** può essere impostata. Le fatture possono anche essere suddivise per gruppo di articoli.
     - Sono disponibili le seguenti opzioni di registrazione per le fatture:
@@ -92,6 +93,9 @@ Usa la pagina **Parametri di fatturazione contratto ricorrente** per impostare i
     - **Emetti credito** – Crea una nota di credito quando un programma di fatturazione o una riga del programma di fatturazione viene terminato.
     - **Rettifica credito** – Crea una rettifica del credito per un programma di fatturazione quando una riga viene terminata. La rettifica del credito viene visualizzato in un periodo di fatturazione futuro per il programma di fatturazione. La rettifica del credito aggiorna l'importo della fattura per il periodo di fatturazione successivo fino al termine dell'applicazione del credito al programma di fatturazione.
     - **Nessun credito** – Non viene creata una rettifica di credito o una nota di credito quando un programma di fatturazione o una riga del programma di fatturazione viene terminato. Questa opzione è disponibile solo quando l'opzione **Nessuna rettifica** viene usata per terminare un programma di fatturazione.
+18. Quando l'opzione **Occasionale può terminare il rimborso** è impostata su **No** e un programma di fatturazione con una frequenza di fatturazione di **Occasionale**, lo stato della riga del programma di fatturazione cambia in **Terminato** una volta che il piano di fatturazione è stato fatturato. Questo programma di fatturazione non può essere terminato e non può essere emesso alcun credito. Quando l'opzione **Occasionale può terminare il rimborso** è impostata su **Sì**, la riga del programma di fatturazione con una frequenza di fatturazione di **Occasionale** avrà lo stato **attivo** dopo che il piano di fatturazione è stato fatturato. È possibile terminare la riga del programma di fatturazione ed elaborare un rimborso. 
+19. L'opzione **Ripartizione giornaliera** impostata nei parametri imposta automaticamente la pagina di terminazione di massa e l'intestazione della pianificazione di fatturazione e le finestre di dialogo Termina. Può essere modificata durante il processo di terminazione. Quando è impostata su **sì** l'eventuale importo del rimborso sarà calcolato utilizzando una tariffa giornaliera. Quando è impostata su **No** l'importo verrà accreditato in base alla data di scadenza e alla frequenza di fatturazione. Ad esempio, se si utilizza la frequenza mensile e l'importo di fatturazione è stato $ 100 al mese, l'importo del credito è in incrementi di $ 100. Se la frequenza di fatturazione è una tantum, l'importo del credito è $ 0,00. Devi avere Ripartizione giornaliera impostato su Sì per ottenere un rimborso per la frequenza di fatturazione una tantum. 
+20. Imposta l'opzione **Crea differimento per credito** su **sì** per creare un nuovo programma di differimento se si accredita un programma di differimento esistente. Lascia l'opzione impostata su **No** per creare il credito sul piano di differimento esistente.
 
 ## <a name="sequence-number-tab"></a>Scheda Sequenza numerica
 

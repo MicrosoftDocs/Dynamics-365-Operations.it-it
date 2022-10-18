@@ -2,7 +2,7 @@
 title: Configurare le regole e le opzioni di idoneità
 description: Questo articolo descrive come impostare le regole e le opzioni di ammissibilità nella gestione dei benefici in Microsoft Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/24/2021
+ms.date: 09/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5540a2c39b3f9f53600e5edd5c63c99cec1fb000
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 916a9955327aef67ac768d4505bdb343862058a1
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337027"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644086"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurare le regole e le opzioni di idoneità 
 
@@ -175,6 +175,7 @@ I pacchetti sono un set di piani di benefit correlati. È possibile utilizzare p
    | **Aggregazione** | Identificatore univoco per il pacchetto. |
    | **Descrizione** | Descrizione del pacchetto. |
    | **Generale** | Indica se uno dei piani del pacchetto deve essere contrassegnato come piano generale. Il piano generale deve essere selezionato durante l'iscrizione aperta come parte del pacchetto prima che l'amministratore dei benefit possa confermare le selezioni dei benefit del dipendente. |
+   | **Obbligatorio**| Indica che è necessario selezionare il piano per estrarre qualsiasi altro piano nell'aggregazione. È possibile contrassegnare più di un piano come **Obbligatorio**. In tal caso, tutti i piani contrassegnati come **Obbligatorio** dovranno essere selezionati per estrarre uno qualsiasi dei piani nell'aggregazione.|
    | **Ora e data di inizio validità** | Data e ora in cui il pacchetto diventa attivo. |
    | **Data di fine validità** | Data di scadenza del pacchetto. La data predefinita è 31/12/2154 (che rappresenta mai). |
 

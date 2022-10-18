@@ -1,8 +1,8 @@
 ---
 title: Report finanziari del conto patrimoniale
 description: In questo articolo viene descritto i report predefiniti per gli stati patrimoniali. Sono descritti inoltre i blocchi predefiniti associati a questi report.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheeloc
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
-ms.author: jcart
+ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64e23574f470efe1cb737236ff0b0ef37dae5064
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4aad297f401143388d682da175a6b14727a8f2f0
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8880732"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643825"
 ---
 # <a name="balance-sheet-financial-reports"></a>Report finanziari del conto patrimoniale
 
@@ -33,9 +33,9 @@ In questo articolo viene descritto i report predefiniti per gli stati patrimonia
 Sono disponibili due report predefiniti del conto patrimoniale. In un report, le sezioni sono in pila. Nell'altro report, le sezioni sono affiancate.
 
 | Report predefinito                       | Funzionamento                                                                                                                           |
-|--------------------------------------|----------------------------------------------------------------------------------------------|
-| Stato patrimoniale - Predefinito              | Fornisce una visualizzazione della posizione finanziaria dell'organizzazione per l'anno.                                                                 |
-| Stato patrimoniale affiancato – Predefinito | Fornisce una visualizzazione della posizione finanziaria dell'organizzazione per l'anno. I cespiti e le passività e il capitale netto dell'azionista sono affiancati. |
+|--------------------------------------|--------------------------------------------------------------------------------------|
+| Stato patrimoniale - Predefinito              | Fornisce una visualizzazione della posizione finanziaria dell'organizzazione per l'anno.                    |
+| Stato patrimoniale e conto economico affiancati- Predefinito | Fornisce una visualizzazione affiancata della posizione finanziaria dell'organizzazione per l'anno. |
 
 ## <a name="building-blocks"></a>Blocchi predefiniti
 I report finanziari del conto patrimoniale utilizzano i seguenti blocchi predefiniti.
@@ -43,7 +43,7 @@ I report finanziari del conto patrimoniale utilizzano i seguenti blocchi predefi
 | Report predefinito                       | Definizione riga                       | Definizione colonna             |
 |--------------------------------------|--------------------------------------|-------------------------------|
 | Conto patrimoniale - Predefinito              | Conto patrimoniale - Predefinito              | Da inizio anno e scostamento - Predefinito    |
-| Stato patrimoniale affiancato – Predefinito | Stato patrimoniale affiancato – Predefinito | Colonna da inizio anno - Predefinito |
+| Stato patrimoniale e conto economico affiancati- Predefinito | Stato patrimoniale e conto economico affiancati- Predefinito | Colonna da inizio anno - Predefinito |
 
 ### <a name="row-definition"></a>Definizione riga
 

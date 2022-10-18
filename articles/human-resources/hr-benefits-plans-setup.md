@@ -2,7 +2,7 @@
 title: Creare un piano di benefit
 description: Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human Resources.
 author: twheeloc
-ms.date: 08/23/2021
+ms.date: 09/29/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5c8d4488f1782d80484a8b91f4ae7303fea0e464
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 001318be00efcda1e7ee07513e240059d3c5e135
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9337030"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643939"
 ---
 # <a name="create-a-benefit-plan"></a>Creare un piano di benefit
 
@@ -42,8 +42,9 @@ Questo articolo illustra come impostare piani di benefit in Dynamics 365 Human R
    | **Programma** | Specifica un programma a cui assegnare facoltativamente il piano. |
    | **Pacchetto** | Specifica un pacchetto a cui assegnare facoltativamente il piano. |
    | **Generale** | Specifica se il piano è il piano generale dell'aggregazione a cui è assegnato. |
+   | **Obbligatorio** | Indica che è necessario selezionare il piano per estrarre qualsiasi altro piano nell'aggregazione. È possibile contrassegnare più di un piano come **Obbligatorio**. In tal caso, tutti i piani contrassegnati come **Obbligatorio** dovranno essere selezionati per estrarre uno qualsiasi dei piani nell'aggregazione.|
    | **Ora e data di inizio validità** | Data e ora di inizio validità del piano. Il valore predefinito è la data di sistema corrente. |
-   | **Ora e data di fine validità** | Data e ora di fine validità del piano. 31/12/2154 (che significa mai) è il valore predefinito. |
+   | **Ora e data di fine validità** | Data e ora di fine validità del piano. 31/12/2154 (che significa mai) è il valore predefinito.  |
 
 4. Nella scheda **Configurazione**, specificare i valori per i seguenti campi, a seconda del tipo di piano che si sta creando:
 

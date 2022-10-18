@@ -2,7 +2,7 @@
 title: Ricavi non fatturati
 description: Questo articolo spiega come impostare gli articoli e i conti per utilizzare la funzione dei ricavi non fatturati nella fatturazione abbonamento.
 author: JodiChristiansen
-ms.date: 11/04/2021
+ms.date: 10/10/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-11-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: b3fe58fc06df3f61433c8457b337ae895283e12b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: adf6f06ee454f368fa194315a87cfdec9e5e13da
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8879684"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9644170"
 ---
 # <a name="unbilled-revenue"></a>Ricavi non fatturati
 
@@ -123,15 +123,15 @@ Le distribuzioni vengono ricalcolate in base al tipo di allocazione selezionato 
 
 Viene inserito un programma di fatturazione per tre anni e le fatture vengono fatturate ogni anno per un periodo di tre anni. L'intero importo del contratto viene registrato nel conto ricavi non fatturati da cui vengono create le fatture annuali. Il conto di contropartita è il conto dei ricavi o dei ricavi differiti.
 
-Tieni presente che la fatturazione principale e i ricavi non fatturati non funzionano insieme, perché nella contabilità generale possono verificarsi problemi di riconciliazione. Ad esempio, sulla pagina **Impostazione gruppo di articoli**, il gruppo di articoli A è impostato in modo che il campo **Numero di righe principali** è impostato su **2**. Sulla pagina **Programmi di fatturazione** vengono aggiunti tre articoli. Tutti e tre gli articoli appartengono al gruppo di articoli A. Quando viene creata la scrittura contabile iniziale per la funzione ricavi non fatturati, l'importo per tutti e tre gli articoli viene elaborato nel conto non fatturato. Quando viene creata la fattura per il programma di fatturazione, vengono inclusi solo gli importi dei primi due articoli. Pertanto, l'importo della fattura non corrisponde all'importo elaborato nel conto ricavi non fatturati e nella contabilità generale si verificano problemi di riconciliazione.
+La fatturazione principale e i ricavi non fatturati non funzionano insieme, perché nella contabilità generale possono verificarsi problemi di riconciliazione. Ad esempio, sulla pagina **Impostazione gruppo di articoli**, il gruppo di articoli A è impostato in modo che il campo **Numero di righe principali** è impostato su **2**. Sulla pagina **Programmi di fatturazione** vengono aggiunti tre articoli. Tutti e tre gli articoli appartengono al gruppo di articoli A. Quando viene creata la scrittura contabile iniziale per la funzione ricavi non fatturati, l'importo per tutti e tre gli articoli viene elaborato nel conto non fatturato. Quando viene creata la fattura per il programma di fatturazione, vengono inclusi solo gli importi dei primi due articoli. Pertanto, l'importo della fattura non corrisponde all'importo elaborato nel conto ricavi non fatturati e nella contabilità generale si verificano problemi di riconciliazione.
 
 Se desideri utilizzare i ricavi non fatturati, lascia il campo **Impostazione gruppo di articoli** vuoto o imposta tutti i gruppi di articoli in modo che il campo **Numero di righe principali** sia impostato su **0** (zero). Se desideri utilizzare la fatturazione principale, non sono disponibili azioni relative ai ricavi non fatturati.
 
 ### <a name="examples"></a>Esempi
 
-A partire dalla versione 10.0.27, viene introdotto un nuovo conto quando si utilizzano i ricavi non fatturati. Quando l'iniziale processo **Crea scrittura contabile** viene registrato, l'accredito viene effettuato su un nuovo conto di contropartita ricavi non fatturati. Questo conto viene utilizzato al posto del conto ricavi, poiché lo stesso valore deve essere stornato quando viene fatturato il programma di fatturazione. Se si verificano differenze di cambio o di arrotondamento, gli importi che vengono calcolati durante il processo **Genera fattura** potrebbero essere diversi. Questo comportamento garantisce che l'importo netto dei conti sia 0 (zero).
+A partire dalla versione 10.0.29, viene aggiunto un nuovo parametro ai parametri di fatturazione contratto ricorrente. Quando è impostato su Sì, il parametro **Utilizza conti di contropartita non fatturati** abilita due nuovi conti in **Impostazione ricavi non fatturati**. I conti di contropartita ricavi non fatturati e di contropartita sconti non fatturati diventano disponibili e vengono utilizzati al meglio quando i programmi di fatturazione vengono creati in una valuta diversa da quella contabile. L'utilizzo dei conti di contropartita garantisce che i conti relativi ai ricavi non fatturati e agli sconti non fatturati vengano stornati utilizzando gli stessi tassi di cambio dei movimenti iniziali. Il processo iniziale **Crea scrittura contabile** è lo stesso con l'addebito sui ricavi non fatturati e l'accredito sui ricavi. Se si utilizza uno sconto, la scrittura contabile iniziale è la stessa con un addebito su sconto e un accredito su sconto non fatturato. 
 
-Questo esempio mostra come utilizzare i ricavi non fatturati per rilevare l'intero importo di un contratto nello stato patrimoniale come ricavi non fatturati. L'altro lato della voce è la contropartita dei ricavi non fatturati. Quando si fattura al cliente, i ricavi non fatturati e la contropartita ricavi non fatturati vengono stornati. Il riconoscimento dei ricavi avverrà al momento della fatturazione o secondo la programmazione di riconoscimento del differimento che è stata impostata.
+Questo esempio mostra come utilizzare i ricavi non fatturati per rilevare l'intero importo di un contratto nello stato patrimoniale come ricavi non fatturati. L'altro lato della voce è il ricavo o il ricavo differito. Quando si fattura al cliente, i ricavi non fatturati vengono stornati. Il riconoscimento dei ricavi avverrà al momento della fatturazione o secondo la programmazione di riconoscimento del differimento che è stata impostata.
 
 #### <a name="assumptions"></a>Presupposti
 
@@ -151,47 +151,38 @@ Questo esempio mostra come utilizzare i ricavi non fatturati per rilevare l'inte
 
     | Elemento | Data di inizio | Data di fine | Importo | Frequenza di fatturazione | Articolo di differimento | Ricavi non fatturati | Description |
     |---|---|---|---|---|---|---|---|
-    | Licenza | 01 gennaio, AC | 31 dicembre AC+2 | $100,00 | Annualmente | Numero | Sì | Al cliente verrà fatturato $100,00 ogni anno. Il totale $300,00 sarà registrato in anticipo come ricavi non fatturati nello stato patrimoniale e come ricavi in profitti e perdite. Ogni fattura ridurrà l'importo non fatturato. |
-    | Gestione | 01 gennaio, AC | 31 dicembre AC+2 | $30,00 | Annualmente | Sì | Sì | Al cliente verrà fatturato $30,00 ogni anno. Il totale $90,00 sarà registrato in anticipo come ricavi non fatturati e come ricavi differiti nello stato patrimoniale. Ogni fattura ridurrà l'importo non fatturato. Il ricavo differito sarà riconosciuto mensilmente in 36 mesi. |
+    | Licenza | 01 gennaio 2022 | 31 dicembre 2024 | $100,00 | Annuale | Numero | Sì | Al cliente verrà fatturato $100,00 ogni anno. Il totale $300,00 sarà registrato in anticipo come ricavi non fatturati nello stato patrimoniale e come ricavi in profitti e perdite. Ogni fattura ridurrà l'importo non fatturato. |
+    | Gestione | 01 gennaio 2022 | 31 dicembre 2024 | $30,00 | Annuale | Sì | Sì | Al cliente verrà fatturato $30,00 ogni anno. Il totale $90,00 sarà registrato in anticipo come ricavi non fatturati e come ricavi differiti nello stato patrimoniale. Ogni fattura ridurrà l'importo non fatturato. Il ricavo differito sarà riconosciuto mensilmente in 36 mesi. |
 
 6. Sulla pagina **Tutti i programmi di fatturazione** utilizza il processo **Crea scrittura contabile** per registrare il valore del contratto nello stato patrimoniale come ricavi non fatturati.
 
 Vengono create due scritture contabili, una per ogni riga del programma di fatturazione.
 
-| Conto ricavi non fatturati | Conto di contropartita ricavi non fatturati | Importo in Dare | Importo in Avere |
-|---|---|---|---|
-| Conto ricavi non fatturati | | $300,00 | |
-| | Conto di contropartita ricavi non fatturati | | $300,00 |
+| Conto | Importo in Dare | Importo in Avere |
+|---|---|---|
+| Conto ricavi non fatturati | $300,00 | |
+| Conto ricavi | | $300,00 |
 
-| Conto ricavi non fatturati | Ricavi differiti | Importo in Dare | Importo in Avere |
-|---|---|---|---|
-| Conto ricavi non fatturati | | $90,00 | |
-| |Ricavi di manutenzione differiti | | $90,00 |
+| Conto | Importo in Dare | Importo in Avere |
+|---|---|---|
+| Conto ricavi non fatturati | $90,00 | |
+| Ricavi differiti | | $90,00 |
 
-La prima scrittura contabile viene registrata in un conto di contropartita ricavi non fatturati e la seconda in un conto ricavi differiti. Se la riga di fatturazione ha sia ricavi non fatturati che ricavi differiti, viene utilizzato il conto ricavi differiti, non la contropartita ricavi non fatturati. Il contratto prevede che la fattura per il cliente sia creata all'inizio di ogni anno. Usa il processo **Genera fattura** per creare la fattura. Quando viene creata la fattura, vengono create le seguenti scritture contabili.
+Il contratto prevede che la fattura per il cliente sia creata all'inizio di ogni anno. Usa il processo **Genera fattura** per creare la fattura. Quando viene creata la fattura, viene registrato il seguente giustificativo fattura.
 
-| Conto principale | Conto ricavi non fatturati | Importo in Dare | Importo in Avere |
-|---|---|---|---|
-| Contropartita ricavi non fatturati | | $100,00 | |
-| | Conto ricavi non fatturati | | $100,00 |
-| Contabilità clienti | | $100,00 | |
-| | Conto ricavi | | $100,00 |
+| Conto| Importo in Dare | Importo in Avere |
+|---|---|---|
+| Conto ricavi non fatturati | | $130,00 |
+| Contabilità clienti | $130,00 | |
 
-| Conto principale | Conto ricavi non fatturati | Importo in Dare | Importo in Avere |
-|---|---|---|---|
-| Conto ricavi di manutenzione differiti | | $30,00 | |
-| | Conto ricavi non fatturati | | $30,00 |
-| Contabilità clienti | | $30,00 | |
-| | Conto ricavi di manutenzione differiti | | $30,00 |
-
-Questa stessa scrittura contabile verrà creata dalle fatture registrate all'inizio dei due anni successivi. L'importo netto del conto ricavi differiti sarà 0 (zero), poiché non sono presenti arrotondamenti o differenze di cambio. Il ricavo differito deve essere stornato esattamente come è stato accreditato durante il processo **Crea scrittura contabile**. Poiché i ricavi sono ancora differiti e verranno riconosciuti in seguito, l'accredito sul conto ricavi differiti si verifica nuovamente.
+Questa stessa scrittura contabile verrà creata dalle fatture registrate all'inizio dei due anni successivi. Il conto dei ricavi non fatturati viene ridotto ogni anno durante il processo **Genera fattura**. Il conto di contropartita ricavi non fatturati viene utilizzato per bilanciare il conto ricavi non fatturati quando vengono utilizzati tassi di cambio diversi. 
 
 Nell'ultimo passaggio, la scrittura contabile di riconoscimento viene creata ogni mese per riconoscere i ricavi della commissione di manutenzione differiti. La scrittura contabile può essere creata utilizzando la pagina **Elaborazione riconoscimento**. In alternativa, può essere creata selezionando **Riconosci** per le righe sulle pagine **Programma di differimento**.
 
-| Conto ricavi differiti | Conto ricavi | Importo in Dare | Importo in Avere |
-|---|---|---|---|
-| Ricavi di manutenzione differiti | | $2,50 | |
-| | Ricavi di manutenzione | | $2,50 |
+| Conto principale | Importo in Dare | Importo in Avere |
+|---|---|---|
+| Ricavi differiti | $2,50 | |
+| Ricavi | | $2,50 |
 
 Questa scrittura contabile verrà creata ogni volta che viene eseguito il processo di riconoscimento per questo articolo differito (per un totale di 36 volte).
 
@@ -269,18 +260,18 @@ Poiché entrambi gli articoli utilizzano i ricavi non fatturati e l'allocazione 
 
 La tabella seguente mostra la scrittura contabile iniziale per gli articoli e la fattura.
 
-| Conto ricavi non fatturati | Conto ricavi differiti | Importo in Dare | Importo in Avere |
-|---|---|---|---|
-| **Scrittura contabile articolo 1000** | | | |
-| Conto ricavi non fatturati Dare (401250) | | $1.465,26 | |
-| | Conto ricavi differiti Avere (250600) | | $1.465,26 |
-| **Scrittura contabile articolo 0021** | | | |
-| Conto ricavi non fatturati Dare (401250) | | $274,74 | |
-| | Conto ricavi differiti Avere (250600) | | $274,74 |
-| **Fattura** | | | |
-| | Conto ricavi non fatturati Avere | | $1.465,26 |
-| | Conto ricavi non fatturati Avere | | $274,74 |
-| Conto contabilità clienti Dare (130100) | | $1.488,16 | |
+| Conto principale | Importo in Dare | Importo in Avere |
+|---|---|---|
+| **Scrittura contabile articolo 1000** | | | 
+| Conto ricavi non fatturati (401250) | $1.465,26 | |
+| Conto ricavi differiti (250600) | | $1.465,26 |
+| **Scrittura contabile articolo 0021** | | | 
+| Conto ricavi non fatturati (401250) | $274,74 | |
+| Conto ricavi differiti (250600) | | $274,74 |
+| **Fattura** | | |
+| Conto ricavi non fatturati | | $1.465,26 |
+| Conto ricavi non fatturati | | $274,74 |
+| Conto contabilità clienti (130100) | $1.488,16 | |
 
 #### <a name="changes-to-the-billing-schedule-line-billing-detail-line-or-revenue-allocation"></a>Modifiche alla riga del programma di fatturazione, alla riga dei dettagli di fatturazione o all'allocazione dei ricavi
 

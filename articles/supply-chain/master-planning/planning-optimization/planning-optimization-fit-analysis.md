@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 7e32b3ed6ed96de7193cc496e0630969137cd0c1
-ms.sourcegitcommit: 15b331f39d6e3ef811b9c2bf055a4f5b4572bae2
+ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/26/2022
-ms.locfileid: "9591852"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643739"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
@@ -104,7 +104,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Margini di sicurezza | Piani generali con margine di sicurezza: *\#* | Questa funzionalità è ora supportata. Per ulteriori informazioni, vedi [Margini di sicurezza](safety-margins.md) |  Supportata |
 | Garanzia scorte di sicurezza | Record di copertura articoli con "Soddisfa minimo" diverso da "Data odierna + tempo di approvvigionamento": *\#* | L'ottimizzazione della pianificazione utilizza sempre *Data odierna + tempo di approvvigionamento*. Questa modifica viene apportata per preparare una configurazione di pianificazione semplificata in futuro e per fornire un risultato utile. Se il tempo di approvvigionamento non è incluso per la scorta di sicurezza, gli ordini pianificati creati per le scorte a disponibilità ridotta saranno sempre posticipati a causa dei tempi di consegna. Questo comportamento può causare disturbi significativi e ordini pianificati indesiderati. Come procedura consigliata cambiare l'impostazione in modo che venga usato *Data odierna + tempo di approvvigionamento*. Aggiorna i dati master per evitare avvisi. | N/D |
 | Offerte di vendita | Piani generali con offerte di vendita abilitate: *\#* | Questa funzione è in sospeso. Attualmente, le offerte non sono considerate quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | Ciclo di rilascio 2 o successivo del 2022 |
-| Durata a scaffale | Piani generali con durata a scaffale abilitata: *\#* | Questa funzione è in sospeso. Attualmente, la durata a scaffale non viene considerata quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | Supportata |
+| Durata a scaffale | Piani generali con durata a scaffale abilitata: *\#* | Questa funzionalità è ora supportata. | Supportata |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

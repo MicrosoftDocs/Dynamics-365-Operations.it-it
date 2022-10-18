@@ -11,17 +11,25 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: aaf00b5ae459ae2d2a7be85360c9478049d873fd
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 536bf141d473a2886d1ca44dcf92a8febc2d12ce
+ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428386"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9643852"
 ---
 # <a name="turn-on-sensor-data-intelligence-for-your-system"></a>Attivare Intelligence dei dati del sensore per il sistema
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+
+## <a name="video-instructions"></a>Istruzioni video
+
+Il video seguente mostra come attivare la funzione Sensor Data Intelligence e [distribuire le risorse di Azure richieste](sdi-deploy-iot-solution-on-azure.md). L'altra sezione di questo articolo fornisce le stesse istruzioni in un formato basato su testo.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE58g3I]
+
+## <a name="procedure"></a>Procedura
 
 Per poter utilizzare Intelligence dei dati del sensore, è necessario attivarlo per il sistema.
 
