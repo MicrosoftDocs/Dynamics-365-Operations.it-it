@@ -14,6 +14,8 @@
               items:
                 - name: Home page Novità o modifiche negli aggiornamenti piattaforma
                   href: get-started/whats-new-home-page.md
+                - name: Aggiornamento piattaforma per la versione 10.0.31 (febbraio 2023)
+                  href: get-started/whats-new-platform-updates-10-0-31.md
                 - name: Aggiornamento piattaforma per la versione 10.0.30 (novembre 2022)
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Aggiornamento piattaforma per la versione 10.0.29 (ottobre 2022)
@@ -182,6 +184,8 @@
                   href: data-entities/configuration-data-templates.md
                 - name: Monitoraggio delle modifiche a un'entità
                   href: data-entities/entity-change-track.md
+                - name: Consentire il rilevamento delle modifiche alla versione di riga per un'entità
+                  href: data-entities/rowversion-change-track.md
                 - name: Trovare le informazioni sulle entità di dati standard
                   href: data-entities/data-entities-report.md
                 - name: Modelli di dati con più fogli di lavoro
@@ -1228,6 +1232,8 @@
                   href: power-platform/admin-reference.md
                 - name: Abilitare le entità virtuali di Dataverse
                   href: power-platform/enable-virtual-entities.md
+                - name: Tenere traccia delle modifiche per le tabelle virtuali in Dataverse
+                  href: power-platform/track-changes-fin-ops-virtual-table.md
                 - name: Portali Power Apps con le app per la finanza e le operazioni
                   href: power-platform/power-portal-reference.md
                 - name: Domande frequenti sulle entità virtuali per la finanza e le operazioni
@@ -1624,8 +1630,6 @@
                   href: sysadmin/security-reports.md
                 - name: Creare nuovi utenti
                   href: sysadmin/tasks/create-new-users.md
-                - name: Gestione delle sessioni utente
-                  href: sysadmin/user-session-management.md
                 - name: Bloccare l'accesso per posizione con l'accesso condizionale di Azure AD
                   href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Importare utenti in blocco

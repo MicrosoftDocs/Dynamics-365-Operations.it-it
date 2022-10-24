@@ -12,6 +12,8 @@
               items:
                 - name: Home page Novità o modifiche in Finance
                   href: get-started/whats-new-home-page.md
+                - name: Finance 10.0.31 (gennaio)
+                  href: get-started/whats-new-changed-10-0-31.md
                 - name: Finance 10.0.30 (novembre)
                   href: get-started/whats-new-changed-10-0-30.md
                 - name: Finance 10.0.29 (ottobre)
@@ -232,6 +234,26 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Impostare la convalida dell'abbinamento fatture della contabilità fornitori
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Soluzione Invoice Capture
+              items:
+                - name: Panoramica di Invoice Capture
+                  href: accounts-payable/invoice-capture-overview.md
+                - name: Installazione di Invoice Capture
+                  href: accounts-payable/install-invoice-capture.md
+                - name: Configurare Invoice Capture
+                  href: accounts-payable/config-invoice-capture.md
+                - name: Gruppi di configurazione di Invoice Capture
+                  href: accounts-payable/invoice-capture-config-group.md
+                - name: Regole di mapping di Invoice Capture
+                  href: accounts-payable/invoice-capture-mapping-rules.md
+                - name: Area di lavoro di Invoice Capture
+                  href: accounts-payable/invoice-capture-workspace.md
+                - name: Impostazioni avanzate di Invoice Capture
+                  href: accounts-payable/invoice-capture-advanced-settings.md
+                - name: Dashboard di Invoice Capture
+                  href: accounts-payable/invoice-capture-dashboard.md
+                - name: File ricevuti di Invoice Capture
+                  href: accounts-payable/invoice-capture-rec-files.md
             - name: Automazione fattura fornitore
               items:
                 - name: Panoramica dei processi di fatturazione automatica dei fornitori
@@ -424,13 +446,13 @@
                   href: accounts-receivable/subscription-billing-summary.md
                 - name: Fatturazione contratto ricorrente
                   items:
-                    - name: Configurazione fatturazione contratto ricorrente
+                    - name: Configurare la fatturazione contratto ricorrente
                       href: accounts-receivable/sb-recur-bill-parameters.md
-                    - name: Creare programmi di fatturazione
+                    - name: Creare programmazioni di fatturazione
                       href: accounts-receivable/sb-billing-schedules.md
-                    - name: Copiare un programma di fatturazione
+                    - name: Copiare una programmazione di fatturazione
                       href: accounts-receivable/sb-copy-schedules-items.md
-                    - name: Funzionalità del programma di fatturazione
+                    - name: Funzionalità della programmazione di fatturazione
                       href: accounts-receivable/sb-schedule-billing-features.md
                     - name: Fatturazione a fasi
                       href: accounts-receivable/sb-milestonebilling.md

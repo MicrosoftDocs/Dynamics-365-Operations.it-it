@@ -888,6 +888,8 @@
               href: async-customer-mode.md
             - name: Convertire i clienti asincroni in clienti sincroni
               href: convert-async-to-sync.md
+            - name: Sincronizzazione dei controlli delle operazioni dei clienti
+              href: audit-async-customer-operations.md
             - name: Domande frequenti sulla modalità di creazione clienti asincroni
               href: async-customer-mode-faq.md
             - name: Gestione profili clienti
@@ -1296,8 +1298,14 @@
                       href: cookie-consent-module.md
                 - name: Moduli di chat
                   items:
-                    - name: Modulo di chat di Commerce
+                    - name: Panoramica delle funzionalità della chat di Commerce
+                      href: commerce-chat-overview.md
+                    - name: Modulo Chat di Commerce con Multicanale per Customer Service
                       href: commerce-chat-module.md
+                    - name: Chat di Commerce con modulo Power Virtual Agents
+                      href: chat-module-pva.md
+                    - name: Parametri della chat proattiva del modulo di chat di Commerce
+                      href: chat-proactive-chat-parameters.md
             - name: Ricerca
               items:
                 - name: Panoramica della pagina di destinazione di categoria e della pagina dei risultati di ricerca predefinite
