@@ -2,19 +2,19 @@
 title: Domande frequenti sulla modalità di creazione di clienti asincroni
 description: Questo articolo fornisce risposte alle domande frequenti sulla modalità di creazione di clienti asincroni in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/04/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-12-17
-ms.openlocfilehash: bd5741aeb3278f1d40d63bb02ca57571a907dc21
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 64c895fb9f3e55f7680759fa72626be6660aa67c
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9474071"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690204"
 ---
 # <a name="asynchronous-customer-creation-mode-faq"></a>Domande frequenti sulla modalità di creazione di clienti asincroni
 
@@ -44,5 +44,10 @@ I dati memorizzati nella cache in Commerce Scale Unit (CSU) potrebbero non esser
 
 Assicurati che le seguenti azioni siano state eseguite nell'ordine in cui sono elencate qui.
 
-1. Esegui il processo P CDX in Commerce headquarters per assicurarti che i dati dei clienti asincroni archiviati nelle tabelle **RETAILASYNCCUSTOMERV2**, **RETAILASYNCADDRESSV2**, **RETAILASYNCCUSTOMERCONTACT**, **RETAILASYNCCUSTOMERAFFILIATION** e **RETAILASYNCCUSTOMERATTRIBUTEV2** siano disponibili in Commerce headquarters.
+1. Esegui il processo P CDX in Commerce headquarters per assicurarti che i dati dei clienti asincroni archiviati nelle tabelle **RETAILASYNCCUSTOMERV2**, **RETAILASYNCADDRESSV2**, **RETAILASYNCCUSTOMERCONTACT**, **RETAILASYNCCUSTOMERAFFILIATION** e **RETAILASYNCCUSTOMERATTRIBUTEV2**.
 1. Esegui il processo batch **Sincronizza richieste di canale e clienti** in Commerce headquarters. Dopo l'esecuzione riuscita del processo batch, tutti i record che sono stati elaborati correttamente a partire dalle tabelle menzionate in precedenza avranno il campo **OnlineOperationCompleted** impostato su **1**.
+
+### <a name="how-do-i-know-which-customer-management-in-asynchronous-mode-operation-has-failed-and-how-do-i-make-changes-if-they-are-required"></a>Come faccio a sapere quale gestione dei clienti in modalità asincrona ha avuto esito negativo e come posso apportare modifiche se sono necessarie?
+
+Per visualizzare tutte le operazioni di sincronizzazione e il relativo stato di sincronizzazion, in Commerce headquarters, vai a **Commerce and Retail \> Clienti \> Stato di sincronizzazione del cliente**. Per apportare modifiche, modificare un'operazione specifica, aggiornare i campi, seleziona **Salva**, quindi seleziona **Sincronizza** per sincronizzare le modifiche.
+

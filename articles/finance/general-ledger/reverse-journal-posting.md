@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.form: LedgerTransVoucher, LedgerJournalTable
-ms.openlocfilehash: 7e3a22f43bcc312fe60b77db2fc3bc94d15950c5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 8912409ec0d2016ea4af12843319febda98663c5
+ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9284853"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680386"
 ---
 # <a name="reverse-journal-posting"></a>Stornare la registrazione del giornale di registrazione
 
@@ -37,7 +37,7 @@ Prima di poter utilizzare una delle funzionalità descritte in questo articolo, 
 È possibile stornare singolarmente le righe del giornale di registrazione. Con lo storno della registrazione del giornale di registrazione, è inoltre possibile stornare un intero giornale finanziario. Per stornare un giornale di registrazione: 
 
 - Filtrare i giornali di registrazione pubblicati e aprire la visualizzazione **Righe** nel giornale di registrazione.
-- Selezionare il menu **Storna** nella parte superiore della pagina.
+- Seleziona il menu a discesa **Storna intero giornale di registrazione nel menu** a discesa nella parte superiore della pagina.
 - Viene visualizzato il numero totale di giustificativi e righe giustificativo nonché il totale delle righe stornate.
 - Selezionare **Sì** per utilizzare le date di transazione esistenti o **No** per immetterne una nuova. In alcuni casi, il periodo della transazione originale potrebbe essere chiuso ed è necessario immettere una nuova data di transazione per lo storno.
 - Se si seleziona **No**, immettere una data di transazione per lo storno. 

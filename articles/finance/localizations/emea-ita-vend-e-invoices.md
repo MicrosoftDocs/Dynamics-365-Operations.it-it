@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-12-01
 ms.dyn365.ops.version: 10.0.21
 ms.custom: 3984823
 ms.search.form: ''
-ms.openlocfilehash: bd77dc07da7eae1607c2b6865dd93cbbb6d231a3
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 4058bb8ab1bf736ad826d0899d127e37001e95ca
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573210"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690365"
 ---
 # <a name="vendor-electronic-invoices"></a>Fatture elettroniche del fornitore
 
@@ -52,7 +52,7 @@ Segui questi passaggi per impostare la configurazione della fattura elettronica 
    > 
    >     Queste impostazioni predefinite sono richieste per tutti gli scenari, anche se **Reverse charge** non è applicabile.
    >
-   > 2. Nella sezione **Condizioni**, nella colonna **Nome** aggiungi gli altri gruppi di articoli Reverse charge richiesti e associali ai relativi valori nella colonna **Risultato della ricerca**. Per ulteriori dettagli su come impostare i gruppi di articoli Reverese charge, vedi ![Fatture elettroniche dei clienti](emea-ita-e-invoices.md)
+   > 2. Nella sezione **Condizioni**, nella colonna **Nome** aggiungi gli altri gruppi di articoli Reverse charge richiesti e associali ai relativi valori nella colonna **Risultato della ricerca**. Per ulteriori dettagli su come impostare i gruppi di articoli Reverese charge, vedi [Fatture elettroniche dei clienti](emea-ita-e-invoices.md).
 
 
 
@@ -96,6 +96,7 @@ Se al codice IVA non è associato alcun tipo di fattura, verranno inseriti autom
 - **TD16** – Per i fornitori che si trovano in Italia, se una fattura contiene un codice IVA dove **Imposta d'uso** o **Reverse charge** è attivato.
 - **TD17** – Per i fornitori che si trovano nell'Unione Europea (UE), se viene emessa una fattura per la fornitura di **Servizi**.
 - **TD18** – Per i fornitori che si trovano nell'Unione Europea (UE), se viene emessa una fattura per la vendita di **prodotti**.
+- **TD28** – Per i fornitori che si trovano in San Marino e l'importo dell'IVA è maggiore di zero (disponibile dalla versione 273.47 del formato **Fattura fornitore (IT)**).
 
 Se un tipo di fattura richiesto non è immesso, è possibile modificare manualmente il tipo di fattura nel giornale di registrazione fatture fornitore.
 

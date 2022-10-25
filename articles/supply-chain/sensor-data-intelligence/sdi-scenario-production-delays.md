@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 073762581d84646ba12b570e57327b7cab8efd3b
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 25ccbda1628544f14dc32d9bea3f2162ad47d79e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428352"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690023"
 ---
 # <a name="the-production-delays-scenario"></a>Scenario dei ritardi di produzione
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Lo scenario *ritardi di produzione* genera una notifica se la produttività scende al di sotto di un valore di soglia specifico. In questo scenario, un segnale *part-out* viene inviato all'hub IoT Microsoft Azure per ciascun articolo prodotto. In Dynamics 365 Supply Chain Management, il ritardo dell'ordine viene calcolato in base al tempo di esecuzione pianificato dell'ordine di produzione, al numero di articoli che devono essere prodotti, al tempo di esecuzione del processo e al numero di segnali *part-out* ricevuti. Una notifica di ritardo viene generata se il numero di segnali *part-out* per il processo scendono al di sotto del valore della soglia.
 

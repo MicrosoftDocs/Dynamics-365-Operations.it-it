@@ -2,7 +2,7 @@
 title: Importare ed esportare i calcoli delle imposte
 description: Questo articolo fornisce informazioni sulla funzionalità di importazione ed esportazione del servizio di calcolo delle imposte.
 author: Kai-Cloud
-ms.date: 11/22/2021
+ms.date: 10/17/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-11-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 9daee683763d7cb0eb9573497eb4e20cba9b1863
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8666d4971e36279ebd2b1396de7cab37680980e6
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8855175"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690235"
 ---
 # <a name="import-and-export-tax-calculations"></a>Importare ed esportare i calcoli delle imposte
 
@@ -98,3 +98,21 @@ Il foglio di lavoro di Excel che hai scaricato contiene la struttura della grigl
 2. In RCS, nella pagina della funzionalità **Calcolo delle imposte**, nella scheda **Applicabilità del gruppo di imposte**, seleziona **Aggiungi** per inserire un record vuoto in fondo alla griglia **Imposta applicabilità del gruppo di imposte**.
 3. Seleziona **CTRL+V** per incollare le righe copiate nella griglia.
 4. Seleziona **Salva**.
+
+## <a name="import-feature-demo-data"></a>Importare dati demo delle funzionalità
+
+Segui questi passaggi per importare i dati della demo delle funzionalità.
+
+1. Accedere a [RCS](https://marketing.configure.global.dynamics.com/).
+2. Nell'area di lavoro delle **funzioni di globalizzazione** , seleziona **Funzionalità** e quindi il riquadro **Calcolo imposte**.
+3. Seleziona **Importa**, e poi, nella pagina **Importa funzionalità dal repository globale**, seleziona **Sincronizza**. 
+4. Nella tabella, seleziona la funzionalità **tax-calculation-feature-demo-data** funzione, quindi seleziona **Importa**.
+5. Seleziona **Visualizza** per rivedere i codici imposta, i gruppi e le regole di applicabilità definiti nella funzionalità importata.
+6. In Finance, passa all'entità giuridica **DEMF**, quindi vai a **Imposta** \> **Impostazione** \> **Configurazione imposta** \> **Parametri calcolo imposta**.
+7. Nella scheda **Generale**, seleziona **Abilita servizio calcolo imposte**.
+8. Nel campo **Nome impostazione funzionalità** , seleziona **tax-calculation-feature-demo-data**.
+9. Seleziona un **Periodo di liquidazione** e un **Gruppo di registrazione contabile** per i nuovi codici fiscali demo, quindi seleziona **Conferma**.
+10. Seleziona **Salva**.
+
+> [!NOTE]
+> La funzionalità demo **tax-calculation-feature-demo-data** si basa sulla versione della funzionalità **40.54.234** e progettata per la persona giuridica demo **DEMF**. Assicurati che Finance e RCS siano aggiornati alla versione 10.0.26 o successiva.

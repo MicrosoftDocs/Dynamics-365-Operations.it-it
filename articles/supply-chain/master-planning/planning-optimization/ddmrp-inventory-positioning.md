@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: bec36b5b51b937782afdb78d7009a58dcd0942f0
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 847108575cbf7207282db00d731363c8cfad883a
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186735"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689540"
 ---
 # <a name="inventory-positioning"></a>Posizionamento delle scorte
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Il posizionamento delle scorte strategiche prevede l'identificazione dei punti di disaccoppiamento nella supply chain, dove è possibile creare scorte disponibili. Questo approccio viene usato principalmente per abbreviare i lead time e ridurre l'impatto di eventi imprevisti sulla supply chain. Permette di mitigare il cosiddetto "effetto frusta", perché la variabilità della domanda non si ripercuote su tutta la supply chain. (L'*effetto frusta* si riferisce al modo in cui minime fluttuazioni della domanda a livello di vendita al dettaglio possono causare progressivamente fluttuazioni di entità maggiore a livello di vendita all'ingrosso, distributore, produttore e fornitore di materie prime.)
 

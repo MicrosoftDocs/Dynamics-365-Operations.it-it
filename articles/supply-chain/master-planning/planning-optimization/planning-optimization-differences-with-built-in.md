@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: dd9493e85a90c00b2dd50abb6530661c0fbb77dc
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: a23256f3e092b32e1f1d09b708a8d0ca5f403785
+ms.sourcegitcommit: 5d33a3398e7e1d3494bfc3cad342fffa7cfa5b76
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520839"
+ms.lasthandoff: 10/13/2022
+ms.locfileid: "9680010"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Differenze tra la pianificazione generale integrata e l'ottimizzazione della pianificazione
 
@@ -34,11 +34,12 @@ I risultati di Planning Optimization potrebbero differire dai risultati del moto
 | Ordini di reso | Gli ordini di ritorno non sono considerati. |
 | Caratteristiche relative alla programmazione | Per i dettagli, vedere [Programmazione con capacità infinita](infinite-capacity-planning.md#limitations). |
 | Garanzia scorte di sicurezza | Ottimizzazione pianificazione utilizza sempre l'opzione *Data odierna + tempo di approvvigionamento* per il campo **Soddisfa minimo** della pagina **Copertura articolo**. Consente di impedire ordini pianificati indesiderati e altri problemi perché se il tempo di approvvigionamento non è incluso per la scorta di sicurezza, gli ordini pianificati creati per le scorte a disponibilità ridotta saranno sempre posticipati a causa dei tempi di consegna. |
-| Pegging delle scorte di sicurezza e fabbisogni netti | Il tipo di requisito *Scorta di sicurezza* non è incluso e non viene visualizzato nella pagina **fabbisogni netti**. Le scorte di sicurezza non rappresentano la domanda e non sono associate a una data di fabbisogno. Imposta invece un vincolo sulla quantità di scorte che deve essere sempre presente. In ogni caso, il valore del campo **Minimo** viene ancora preso in considerazione durante il calcolo degli ordini pianificati durante la pianificazione generale. Ti consigliamo di ispezionare la colonna **Quantità accumulata** nella pagina **fabbisogni netti** per controllare che questo valore sia stato considerato. |
+| Pegging delle scorte di sicurezza e fabbisogni netti | Il tipo di requisito *Scorta di sicurezza* non è incluso e non viene visualizzato nella pagina **fabbisogni netti**. Le scorte di sicurezza non rappresentano la domanda e non sono associate a una data di fabbisogno. Imposta invece un vincolo sulla quantità di scorte che deve essere sempre presente. In ogni caso, il valore del campo **Minimo** viene ancora preso in considerazione durante il calcolo degli ordini pianificati durante la pianificazione generale. Ti consigliamo di ispezionare la colonna **Quantità accumulata** nella pagina **fabbisogni netti** per controllare che questo valore sia stato considerato. Poiché il pegging è diverso, possono essere suggerite diverse azioni. |
 | Calendari di trasporto | Il valore nella colonna **Calendario di trasporto** nella pagina **Modalità di consegna** è ignorato. |
 | Codice di copertura minimo/massimo senza valori| Con il motore di pianificazione integrato, quando usi un codice di copertura min/max in cui nessun valore minimo o massimo è impostato, il motore di pianificazione tratta il codice di copertura come requisito e crea un ordine per ciascun requisito. Con Ottimizzazione pianificazione, il sistema creerà un ordine per giorno per coprire l'importo completo di tale giorno.  |
 | Fabbisogno netto e ordini pianificati creati manualmente | Con il motore di pianificazione integrato, gli ordini di fornitura creati manualmente per un articolo vengono visualizzati automaticamente tra i fabbisogni netti dell'articolo. Ad esempio, quando si crea un ordine fornitore da un ordine cliente, l'ordine fornitore viene visualizzato nella pagina **Fabbisogno netto** senza richiedere alcuna azione preventiva. Ciò avviene perché il motore di pianificazione integrato registra le transazioni di magazzino nella tabella `inventLogTTS` e mostra le modifiche nella pagina **Fabbisogno netto** per i piani dinamici. Tuttavia, con Ottimizzazione pianificazione, gli ordini creati manualmente non verranno visualizzati tra i fabbisogni netti di un articolo finché non viene eseguita l'Ottimizzazione pianificazione (utilizzando un piano che include l'articolo) o finché non si seleziona **Aggiorna \> Pianificazione principale** nel riquadro azioni della pagina **Fabbisogno netto** che eseguirà la pianificazione generale per l'articolo. Per ulteriori informazioni su come lavorare con la pagina **Fabbisogni netti**, vedi [Fabbisogni netti e informazioni di pegging con Ottimizzazione pianificazione](net-requirements.md). |
 | Assegnazione di risorsa | Quando si lavora con capacità infinita, il motore di pianificazione generale integrato assegna tutti gli ordini pianificati alla stessa risorsa in un determinato gruppo di risorse. Ottimizzazione pianificazione migliora questo aspetto selezionando le risorse in modo casuale in modo che ordini di produzione diversi possano utilizzare risorse diverse. Se desideri utilizzare la stessa risorsa per tutti gli ordini pianificati, devi specificare tale risorsa nel ciclo. |
+| Extended data types (EDT) | Ottimizzazione pianificazione non supporta le modifiche alla precisione degli EDT. Ad esempio, se si estende la precisione della quantità di prodotto da due cifre decimali (impostazione predefinita) a quattro, Ottimizzazione pianificazione utilizzerà comunque solo due cifre decimali. |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

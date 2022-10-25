@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: c160a6477dd41fac0f15f57bb0f46def500f4589
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9643739"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689996"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
@@ -62,7 +62,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | --- | --- | --- | --- |
 | Azioni | Gruppi di copertura con il calcolo delle azioni abilitato: *\#* | Questa funzionalità è ora supportata. | Supportata |
 | Calendari di base | Calendari che utilizzano il calendario di base: *\#* | Questa funzionalità è ora supportata. | Supportata | 
-| Codici smaltimento batch | Smaltimenti batch generali non nettificabili: *\#* | Questa funzione è in sospeso. Attualmente, i codici smaltimento batch vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. | Ciclo di rilascio 2 del 2022 <!-- KFM: Now available? [Use batch disposition codes to mark batches as available or unavailable](../../inventory/batch-disposition-codes.md) --> |
+| Codici smaltimento batch | Smaltimenti batch generali non nettificabili: *\#* | Questa funzionalità è ora supportata. Per informazioni aggiuntive, vedi [Utilizzare i codici smaltimento batch per contrassegnare i batch come disponibili o non disponibili](../../inventory/batch-disposition-codes.md) | Supportata |
 | Capable-to-promise (CTP) | Impostazioni predefinite ordine con controllo data di consegna impostato su CTP: *\#* | In Supply Chain Management 10.0.28 e versioni successive, un processo denominato *CTP per Ottimizzazione pianificazione* rende disponibili le date di spedizione e di ricezione dopo l'esecuzione del piano dinamico. Per le versioni precedenti di Supply Chain Management, l'impostazione CTP legacy viene ignorata quando Pianificazione ottimizzazione è abilitata. | Supportata |
 | Copia piano statico in piano dinamico | La copia del piano statico in quello dinamico è abilitata nei parametri di pianificazione generale. | L'ottimizzazione della pianificazione non copia il piano statico nel piano dinamico, indipendentemente da questa impostazione. In generale, questo concetto è meno rilevante a causa della velocità e della rigenerazione completa fornita dall'ottimizzazione della pianificazione. Se vengono utilizzati due o più piani, è necessario attivare la pianificazione generale per ciascun piano. | N/D |
 | Stabilizzazione | Gruppi di copertura con intervallo temporale di stabilizzazione automatica impostato: *\#* | Nella versione 10.0.7 e successive, la stabilizzazione è supportata come processo di stabilizzazione batch separato al termine della pianificazione generale (a condizione che la funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione* sia stata abilitata in [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Si noti che la stabilizzazione automatica per l'ottimizzazione della pianificazione si basa sulla data dell'ordine di lavoro (data di inizio) e non sulla data del fabbisogno (data di fine). Questo comportamento garantisce che la stabilizzazione degli ordini pianificati si verifichi alla scadenza, senza dover includere i tempi di consegna nel tempo di risposta. | Supportata |
@@ -104,7 +104,7 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Margini di sicurezza | Piani generali con margine di sicurezza: *\#* | Questa funzionalità è ora supportata. Per ulteriori informazioni, vedi [Margini di sicurezza](safety-margins.md) |  Supportata |
 | Garanzia scorte di sicurezza | Record di copertura articoli con "Soddisfa minimo" diverso da "Data odierna + tempo di approvvigionamento": *\#* | L'ottimizzazione della pianificazione utilizza sempre *Data odierna + tempo di approvvigionamento*. Questa modifica viene apportata per preparare una configurazione di pianificazione semplificata in futuro e per fornire un risultato utile. Se il tempo di approvvigionamento non è incluso per la scorta di sicurezza, gli ordini pianificati creati per le scorte a disponibilità ridotta saranno sempre posticipati a causa dei tempi di consegna. Questo comportamento può causare disturbi significativi e ordini pianificati indesiderati. Come procedura consigliata cambiare l'impostazione in modo che venga usato *Data odierna + tempo di approvvigionamento*. Aggiorna i dati master per evitare avvisi. | N/D |
 | Offerte di vendita | Piani generali con offerte di vendita abilitate: *\#* | Questa funzione è in sospeso. Attualmente, le offerte non sono considerate quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | Ciclo di rilascio 2 o successivo del 2022 |
-| Durata a scaffale | Piani generali con durata a scaffale abilitata: *\#* | Questa funzionalità è ora supportata. | Supportata |
+| Durata a scaffale | Piani generali con durata a scaffale abilitata: *\#* | Questa funzione è in sospeso. | Ciclo di rilascio 2 del 2022 |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

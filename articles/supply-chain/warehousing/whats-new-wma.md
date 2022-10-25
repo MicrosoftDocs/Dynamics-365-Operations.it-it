@@ -10,18 +10,33 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a0fa081b0110682af1fcda50b0c912dc5d03fa73
-ms.sourcegitcommit: 29af4c9d9968bbfa4c19fee9de34fed309f6d38b
+ms.openlocfilehash: 645590bbf00f49bb0f3511e7fa02c8f6add661fc
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/01/2022
-ms.locfileid: "9388450"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682616"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo articolo elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20340"></a>Versione 2.0.34.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+- Maggiore stabilità.
+- Prestazioni migliorate.
+- Migliorato il layout dello schermo per consentire più spazio per la scheda dei dettagli.
+- Aggiunta una funzione di ricerca alla pagina **Elenco di lavoro**. I lavoratori possono ora eseguire la scansione o digitare per cercare in tutti i campi e titoli della pagina.
+- L'elenco delle connessioni disponibili è ora ordinato in ordine alfabetico.
+- Risolto un problema per cui le schede duplicate venivano mostrate per gli articoli con più stati di inventario nella stessa posizione.
+- Risolto un problema per cui la pagina **Elenco di selezione ampio** non scorreva per mostrare l'articolo preselezionato.
+- Corretti i colori della barra di ricerca nella pagina **Elenco di selezione ampio**.
+- Risolto un problema per cui il pulsante predefinito definito nell'XML non veniva utilizzato come pulsante di invio.
+- Risolto un problema per cui i pulsanti nei flussi di scansione multipla e di convalida rapida non si aggiornavano quando venivano scansionati nuovi ID.
+- Aggiunto il supporto per più lingue.
 
 ## <a name="version-20320"></a>Versione 2.0.32.0
 

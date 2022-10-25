@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: atrukawk
 ms.search.validFrom: ''
-ms.openlocfilehash: 8ee288a1ec7ae950bdff9da7d373e29daef74d3c
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 04c625b554d96f8ed28ceffef9647fe9cbf7fe2f
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9269406"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689462"
 ---
 # <a name="vat-declaration-germany"></a>Dichiarazione IVA (Germania)
 
@@ -198,7 +198,8 @@ Segui questi passaggi per definire quali codici IVA generano quali caselle nella
 
    Questo formato viene stampato quando si esegue il report **Report IVA per periodo liquidazione**. Viene anche stampato quando si seleziona **Stampa** nella pagina **Pagamenti IVA**.
 
-4. Nella pagina **Uffici IVA**, seleziona l'ufficio IVA, quindi nel campo **Layout del report**, seleziona **Predefinito**.
+4. Se è necessario segnalare le correzioni, nella sezione **Report speciale** sezione, imposta **Includi correzioni** su **Sì**.
+5. Nella pagina **Uffici IVA**, seleziona l'ufficio IVA, quindi nel campo **Layout del report**, seleziona **Predefinito**.
 
 Se stai configurando la dichiarazione IVA in una persona giuridica che ha [più partite IVA](emea-reporting-for-multiple-vat-registrations.md), segui questi passaggi:
 

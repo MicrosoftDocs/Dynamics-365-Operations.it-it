@@ -4,23 +4,25 @@ description: Questo articolo descrive come configurare le deviazioni per le voci
 author: Mirzaab
 ms.date: 09/01/2022
 ms.topic: article
-ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour,WHSMobileAppFlowStepDetourSelectFields
+ms.search.form: WHSMobileAppFlowStepListPage, WHSMobileAppFlowStepAddDetour, WHSMobileAppFlowStepDetourSelectFields, WHSMobileAppFlowStepSelectPromotedFields
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: d8d3d434077fdb145291e2298055f692b78db3d6
-ms.sourcegitcommit: 3d7ae22401b376d2899840b561575e8d5c55658c
+ms.openlocfilehash: 2e387dd4e6499912f2d53dddc17ccc053f1ca699
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9428065"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689312"
 ---
 # <a name="configure-detours-for-steps-in-mobile-device-menu-items"></a>Configurare le deviazioni per i passaggi nelle voci di menu del dispositivo mobile
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!--KFM: Preview until 10.0.31 GA -->
 
 > [!IMPORTANT]
 > Le caratteristiche che sono descritte in questo articolo si applicano solo alla nuova applicazione mobile Warehouse Management. Non riguardano la vecchia app del magazzino, che ora è deprecata.
@@ -38,6 +40,7 @@ Prima di poter configurare le deviazioni per i passaggi nelle voci di menu del d
 1. Attiva le seguenti funzionalità, che forniscono la funzionalità descritta in questo articolo:
     - *Deviazioni app Warehouse Management*<br>(A partire dalla versione 10.0.29 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita.)
     - *Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management*
+    - *Invia automaticamente passaggi di deviazione per l'app per dispositivi mobili Warehouse Management*
 1. Se la funzionalità *Deviazioni dell'app Warehouse Management* e/o *Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management* non è stata attivata, aggiorna i nomi dei campi nell'app per dispositivi mobili Warehouse Management andando a **Warehouse Management \> Impostazioni \> Dispositivo mobile \> Nomi campo app magazzino** e selezionando **Crea impostazione predefinita**. Per ulteriori informazioni, vedi [Configurare i campi per l'app per dispositivi mobili Gestione magazzino](configure-app-field-names-priorities-warehouse.md).
 1. Ripeti il passaggio precedente per ogni persona giuridica (società) in cui si utilizza l'app per dispositivi mobili Warehouse Management.
 
@@ -49,7 +52,7 @@ Utilizza la procedura seguente per impostare una deviazione da un override speci
 1. Trova la combinazione di valori **ID passo** e **Nome voce di menu** che vuoi modificare e quindi seleziona il valore nella colonna **ID passo** .
 1. Nella pagina che appare, nella scheda dettaglio **Deviazioni disponibili (voci di menu)** puoi specificare la voce di menu che deve fungere da deviazione. Puoi anche selezionare quali valori di campo dell'attività principale devono essere automaticamente inoltrati alla e dalla deviazione. Per esempi che mostrano come usare queste impostazioni, vedi gli scenari più avanti in questo articolo.
 
-## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a>Scenario di esempio 1: prelievo vendite in cui una richiesta di posizione funge da deviazione
+## <a name="sample-scenario-1-sales-picking-where-a-location-inquiry-acts-as-a-detour"></a><a name="scenario-1"></a>Scenario di esempio 1: prelievo vendite in cui una richiesta di posizione funge da deviazione
 
 Questo scenario mostra come configurare una richiesta di posizione come una deviazione in un flusso di attività di prelievo vendite diretto dal lavoratore. Questa deviazione consentirà ai lavoratori di cercare tutte le targhe nella posizione da cui stanno prelevando e scegliere la targa che desiderano utilizzare per completare il prelievo. Questo tipo di deviazione può essere utile se il codice a barre è danneggiato e quindi illeggibile dal dispositivo scanner. In alternativa, può essere utile se un lavoratore deve sapere ciò che è effettivamente disponibile nel sistema. Tieni presente che questo scenario funziona solo se scegli da ubicazioni controllate da targa.
 
@@ -74,13 +77,15 @@ In questa procedura, configurerai una deviazione per la voce di menu **Prelievo 
 
     - **Copia da prelievo vendite:** *Ubicazione*
     - **Incolla in richiesta ubicazione:** *Ubicazione*
+    - **Invio automatico:** *Selezionato* (la pagina verrà aggiornata con il valore *Posizione* incollato)
 
 1. Poiché la deviazione in questo scenario è configurata sul passaggio targa, sarà utile se i lavoratori possono riportare la targa dalla richiesta al flusso principale. Pertanto, nella sezione **Restituisci da richiesta ubicazione** seleziona **Aggiungi** sulla barra degli strumenti per aggiungere una riga alla griglia. Quindi imposta i seguenti valori per la nuova riga:
 
     - **Copia da richiesta ubicazione:** *Targa*
     - **Incolla in prelievo vendite:** *Targa*
+    - **Invio automatico:** *Deselezionato* (nessun aggiornamento automatico si verifica al ritorno dalla deviazione con un valore *Targa*)
 
-1. Selezionare **OK**.
+1. Seleziona **OK**.
 
 La deviazione è ora completamente configurata. Un pulsante per avviare la deviazione **Richiesta ubicazioine** apparirà ora sul passaggio targa per la voce di menu **Prelievo vendite**.
 
@@ -131,6 +136,7 @@ In questa procedura, configurerai una deviazione per la voce di menu **Prelievo 
 
     - **Copia da richiesta ubicazione:** *Ubicazione*
     - **Incolla in movimento:** *Loc / LP*
+    - **Invio automatico:** *Deselezionato* (non si verificherà alcun aggiornamento automatico)
 
     In questa deviazione, non ti aspetti che le informazioni vengano ricopiate, perché il flusso principale era una richiesta in cui non sono necessari passaggi aggiuntivi.
 
@@ -153,3 +159,5 @@ In questa procedura, esegui una richiesta ubicazione utilizzando l'app per dispo
 
 > [!NOTE]
 > La funzione *Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management* consente di definire deviazioni a più livelli (deviazioni all'interno di deviazioni), che consentiranno ai lavoratori di saltare da una deviazione esistente a una seconda e poi di nuovo indietro. La funzione supporta immediatamente due livelli di deviazioni e, se necessario, puoi personalizzare il tuo sistema per supportare tre o più livelli di deviazioni creando estensioni di codice sulla tabella `WHSWorkUserSessionState`.
+>
+> La funzionalità *Invia automaticamente passaggi di deviazione per l'app per dispositivi mobili Warehouse Management* può semplificare e accelerare per i lavoratori il completamento dei flussi di deviazione nell'app mobile Warehouse Management. Consente di saltare alcuni passaggi del flusso consentendo all'app di popolare i dati di deviazione sul back-end e quindi di passare automaticamente al passaggio successivo inviando automaticamente la pagina, come mostrato in [*Scenario di esempio 1: prelievo delle vendite in cui una richiesta di ubicazione funge da deviazione*](#scenario-1).

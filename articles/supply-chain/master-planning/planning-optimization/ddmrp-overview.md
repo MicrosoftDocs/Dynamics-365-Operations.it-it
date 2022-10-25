@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: d894b83afe822e013c0c4375e5cfe5e7e8ac8d1d
-ms.sourcegitcommit: 529fc10074b06f4c4dc52f2b4dc1f159c36e8dbc
+ms.openlocfilehash: 31b45fdb92cf8a590ff77104f0c8015fb4d329d5
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "9186754"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689490"
 ---
 # <a name="demand-driven-material-requirements-planning-ddmrp-overview"></a>Panoramica della pianificazione del fabbisogno di materiale basato sulla domanda (DDMRP)
 
 [!include [banner](../../includes/banner.md)]
 [!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Per anni, le società hanno usato la pianificazione dei fabbisogni di materiali (MRP) come sistema per calcolare i materiali e i componenti richiesti per fabbricare un prodotto. Tuttavia, le supply chain ora sono cambiate. Le parti hanno lead time più lunghi perché sempre più spesso provengono da oltreoceano. Di conseguenza, molte società hanno iniziato ad avere problemi di gestione del magazzino e si sono trovate ad affrontare carenze di scorte o scorte in eccesso. Le fluttuazioni del mercato sono aumentate (un problema talvolta acuito da previsioni non accurate) e i clienti chiedono con sempre maggiore frequenza prodotti con un lead time più breve. Questo ha portato a carenze della supply chain a livello mondiale. Inoltre, spesso gli strumenti MRP richiedono ai pianificatori interventi continui in vari ambiti. Così, è difficile capire cosa è veramente importante. Spesso, la soluzione a molti di questi problemi è rappresentata dal passaggio alla pianificazione del fabbisogno di materiale basato sulla domanda (DDMRP).
 

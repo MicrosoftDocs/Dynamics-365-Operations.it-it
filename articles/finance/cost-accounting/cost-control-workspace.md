@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: twheeloc
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f53d5d4daea076cc63308a83292f8f8c1ee1d022
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8d5ded4b08d562fff9ec5fd9a3de591f944e3ee0
+ms.sourcegitcommit: dca54dd3afc7c94795d89c63050b105df2c48e3f
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8853498"
+ms.lasthandoff: 10/15/2022
+ms.locfileid: "9682900"
 ---
 # <a name="cost-control-workspace"></a>Area di lavoro controllo costi 
 
@@ -53,7 +53,7 @@ Nella scheda dettaglio **Filtro dati**, è necessario definire la struttura dei 
 |-------------------------------------------------------------------|-------------|
 | Movimento CoGe di contabilità industriale                                            | Il **Movimento CoGe di contabilità industriale** su cui è basato il report. Il valore deriva dal campo **Unità di controllo costi**. |
 | Unità di controllo costi                                                 | Il valore selezionato determina il movimento CoGe di contabilità industriale e gli oggetti di costo su cui sarà basato il report. |
-| Gerarchia di dimensione statistica, Gerarchia dimensioni di elemento di costo | Un record di configurazione dell'area di lavoro **Controllo costi** può indicare valori monetari o non monetari, ma non nello stesso layout. Selezionare un valore nel campo **Gerarchia dimensioni di elemento di costo** per indicare valori monetari. Selezionare un valore nel campo **Gerarchia di dimensione statistica** per indicare valori non monetari. Il record di gerarchia di dimensione selezionato determina la struttura del reporting e dei livelli di aggregazione.<blockquote>[!NOTE]<br>Per visualizzare affiancati i valori monetari e non monetari, è possibile esportare i dati in Microsoft Excel per il pacchetto di contenuti di Microsoft Power BI.</blockquote> |
+| Gerarchia di dimensione statistica, Gerarchia dimensioni di elemento di costo | Un record di configurazione dell'area di lavoro **Controllo costi** può indicare valori monetari o non monetari, ma non nello stesso layout. Selezionare un valore nel campo **Gerarchia dimensioni di elemento di costo** per indicare valori monetari. Selezionare un valore nel campo **Gerarchia di dimensione statistica** per indicare valori non monetari. Il record di gerarchia di dimensione selezionato determina la struttura del reporting e dei livelli di aggregazione.<blockquote>**NOTA:**<br>Per visualizzare affiancati i valori monetari e non monetari, è possibile esportare i dati in Microsoft Excel per il pacchetto di contenuti di Microsoft Power BI.</blockquote> |
 | Gerarchia dimensioni di oggetto di costo      | Selezionare la gerarchia di dimensione della dimensione oggetto di coste adeguata allo scopo del reporting da definire. |
 | Versione originale budget                                           | Selezionare l'ID della versione budget che funge da budget originale nel contesto del report. |
 | Versione rivista budget                                            | Selezionare l'ID della versione budget che funge da budget rivisto nel contesto del report. |
@@ -64,7 +64,7 @@ Il calcolo dei costi generali viene eseguito con più operazioni di calcolo sui 
 
 | Campo                  | Descrizione |
 |------------------------|-------------|
-| Periodo di calendario fiscale | Selezionare il periodo del calendario fiscale da assegnare a un ID calcolo dei costi generali.<blockquote>[!NOTE]<br>I periodi fiscali elencati nel campo provengono dal calendario fiscale associato alla contabilità industriale.</blockquote> |
+| Periodo di calendario fiscale | Selezionare il periodo del calendario fiscale da assegnare a un ID calcolo dei costi generali.<blockquote>**NOTA:**<br>I periodi fiscali elencati nel campo provengono dal calendario fiscale associato alla contabilità industriale.</blockquote> |
 | Versione effettiva         | Selezionare l'ID calcolo dei costi generali appropriato. |
 | Versione budget         | Selezionare l'ID calcolo dei costi generali appropriato. |
 | Versione budget rivista | Selezionare l'ID calcolo dei costi generali appropriato. |
@@ -77,10 +77,10 @@ I valori indicati nelle colonne selezionate verranno moltiplicati per i valori s
 
 | Campo                | Descrizione |
 |----------------------|-------------|
-| Periodo corrente       | Viene visualizzato il saldo del periodo fiscale corrente.<blockquote>[!NOTE]<br>Per impostazione predefinita, il periodo corrente è determinato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato. Il valore selezionato rappresenta quindi il periodo corrente.</blockquote> |
-| Periodo precedente      | Viene visualizzato il saldo del periodo fiscale precedente. Viene utilizzata la seguente formula:<br>Periodo fiscale corrente - 1<blockquote>[!NOTE]<br>Per impostazione predefinita, il periodo precedente è derivato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato come periodo corrente. Il **Periodo precedente** verrà ricalcolato di conseguenza.</blockquote> |
-| Da inizio anno a oggi         | Viene visualizzato il valore calcolato dall'inizio dell'anno a oggi. Viene utilizzata la seguente formula:<br>YearToDate (periodo fiscale corrente)<blockquote>[!NOTE]<br>Per impostazione predefinita, il periodo corrente è determinato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato. Il valore selezionato rappresenta quindi il periodo corrente e il valore **Da inizio anno a oggi** verrà aggiornato di conseguenza.</blockquote> |
-| Media da inizio anno a oggi | Viene visualizzato il valore medio calcolato dall'inizio dell'anno a oggi. Viene utilizzata la seguente formula:<br>(YearToDate [periodo fiscale corrente]) ÷ (Count [periodo fiscale corrente])<p><strong>Esempio</strong></p><ul><li>**Membro di dimensione statistica:** Dipendenti a tempo pieno</li><li>**Data corrente:** 3-21-2017</li><li>**Periodo:** Periodo fiscale 1, Periodo fiscale 2, Periodo fiscale 3</li><li>**Grandezza:** 10, 10, 12</li></ul>In questo caso, **Media da inizio anno a oggi** = (10 + 10 + 12) ÷ 3 = 10,67<p>Il valore **Media da inizio anno a oggi** può essere calcolato per i membri di dimensione elemento di costo e i membri di dimensione statistica.</p><blockquote>[!NOTE]<br>Per impostazione predefinita, il periodo corrente è determinato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato. Il valore selezionato rappresenta quindi il periodo corrente e i valori **Da inizio anno a oggi** e **Media da inizio anno a oggi** verranno aggiornati di conseguenza.</blockquote> |
+| Periodo corrente       | Viene visualizzato il saldo del periodo fiscale corrente.<blockquote>**NOTA:**<br>Per impostazione predefinita, il periodo corrente è determinato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato. Il valore selezionato rappresenta quindi il periodo corrente.</blockquote> |
+| Periodo precedente      | Viene visualizzato il saldo del periodo fiscale precedente. Viene utilizzata la seguente formula:<br>Periodo fiscale corrente - 1<blockquote>**NOTA:**<br>Per impostazione predefinita, il periodo precedente è derivato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato come periodo corrente. Il **Periodo precedente** verrà ricalcolato di conseguenza.</blockquote> |
+| Da inizio anno a oggi         | Viene visualizzato il valore calcolato dall'inizio dell'anno a oggi. Viene utilizzata la seguente formula:<br>YearToDate (periodo fiscale corrente)<blockquote>**NOTA:**<br>Per impostazione predefinita, il periodo corrente è determinato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato. Il valore selezionato rappresenta quindi il periodo corrente e il valore **Da inizio anno a oggi** verrà aggiornato di conseguenza.</blockquote> |
+| Media da inizio anno a oggi | Viene visualizzato il valore medio calcolato dall'inizio dell'anno a oggi. Viene utilizzata la seguente formula:<br>(YearToDate [periodo fiscale corrente]) ÷ (Count [periodo fiscale corrente])<p><strong>Esempio</strong></p><ul><li>**Membro di dimensione statistica:** Dipendenti a tempo pieno</li><li>**Data corrente:** 3-21-2017</li><li>**Periodo:** Periodo fiscale 1, Periodo fiscale 2, Periodo fiscale 3</li><li>**Grandezza:** 10, 10, 12</li></ul>In questo caso, **Media da inizio anno a oggi** = (10 + 10 + 12) ÷ 3 = 10,67<p>Il valore **Media da inizio anno a oggi** può essere calcolato per i membri di dimensione elemento di costo e i membri di dimensione statistica.</p><blockquote>**NOTA:**<br>Per impostazione predefinita, il periodo corrente è determinato dalla data della sessione. Nell'area di lavoro **Controllo costi**, un periodo fiscale specifico può essere selezionato. Il valore selezionato rappresenta quindi il periodo corrente e i valori **Da inizio anno a oggi** e **Media da inizio anno a oggi** verranno aggiornati di conseguenza.</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>Colonne da visualizzare per costi
 
@@ -88,11 +88,11 @@ Nella scheda dettaglio **Colonne da visualizzare per costi**, il contabile decid
 
 | Campo                 | Descrizione |
 |-----------------------|-------------|
-| Costo fisso            | Questo tipo di colonna mostra il costo fisso, in base all'ID calcolo dei costi generali selezionato.<blockquote>[!NOTE]<br>Questo tipo di colonna mostra un saldo solo quando un ID calcolo dei costi generali è selezionato per il periodo fiscale.</blockquote> |
-| Costo variabile         | Questo tipo di colonna mostra il costo variabile, in base all'ID calcolo dei costi generali selezionato.<blockquote>[!NOTE]<br>Questo tipo di colonna mostra un saldo solo quando un ID calcolo dei costi generali è selezionato per il periodo fiscale.</blockquote> |
-| Costo fisso + variabile | Questo tipo di colonna mostra il costo fisso e il costo variabile, in base all'ID calcolo dei costi generali selezionato.<blockquote>[!NOTE]<br>Questo tipo di colonna mostra un saldo solo quando un ID calcolo dei costi generali è selezionato per il periodo fiscale.</blockquote> |
-| Costo totale            | Questo tipo di colonna mostra il costo totale (costo non classificato, costo fisso e costo variabile).<blockquote>[!NOTE]<br>Questo tipo di colonna mostra sempre il saldo.</blockquote> |
-| Costo non classificato     | Questo tipo di colonna mostra il costo non classificato.<blockquote>[!NOTE]<br>Questa colonna può essere utilizzata per verificare se i costi vengono classificati correttamente dal calcolo dei costi generali o se le regole di comportamento costo devono essere modificate.</blockquote> |
+| Costo fisso            | Questo tipo di colonna mostra il costo fisso, in base all'ID calcolo dei costi generali selezionato.<blockquote>**NOTA:**<br>Questo tipo di colonna mostra un saldo solo quando un ID calcolo dei costi generali è selezionato per il periodo fiscale.</blockquote> |
+| Costo variabile         | Questo tipo di colonna mostra il costo variabile, in base all'ID calcolo dei costi generali selezionato.<blockquote>**NOTA:**<br>Questo tipo di colonna mostra un saldo solo quando un ID calcolo dei costi generali è selezionato per il periodo fiscale.</blockquote> |
+| Costo fisso + variabile | Questo tipo di colonna mostra il costo fisso e il costo variabile, in base all'ID calcolo dei costi generali selezionato.<blockquote>**NOTA:**<br>Questo tipo di colonna mostra un saldo solo quando un ID calcolo dei costi generali è selezionato per il periodo fiscale.</blockquote> |
+| Costo totale            | Questo tipo di colonna mostra il costo totale (costo non classificato, costo fisso e costo variabile).<blockquote>**NOTA:**<br>Questo tipo di colonna mostra sempre il saldo.</blockquote> |
+| Costo non classificato     | Questo tipo di colonna mostra il costo non classificato.<blockquote>**NOTA:**<br>Questa colonna può essere utilizzata per verificare se i costi vengono classificati correttamente dal calcolo dei costi generali o se le regole di comportamento costo devono essere modificate.</blockquote> |
 
 ### <a name="columns-to-display-for-budgeted-costs"></a>Colonne da visualizzare per costi a budget
 
@@ -103,12 +103,12 @@ Nella scheda dettaglio **Colonne da visualizzare per costi a budget**, il contab
 
 | Campo                     | Descrizione |
 |---------------------------|-------------|
-| Budget                    | I saldi budget verranno visualizzati per le colonne selezionate.<blockquote>[!NOTE]<br>I saldi si basano sulle versioni di budget selezionate nella scheda dettaglio **Filtro dati**.</blockquote> |
+| Budget                    | I saldi budget verranno visualizzati per le colonne selezionate.<blockquote>**NOTA:**<br>I saldi si basano sulle versioni di budget selezionate nella scheda dettaglio **Filtro dati**.</blockquote> |
 | Scostamento budget           | Calcolare e visualizzare la differenza tra i valori effettivi e quelli a budget. Viene utilizzata la seguente formula:<br>Saldo budget - Saldo effettivo |
 | Scostamento budget in %      | Calcolare e visualizzare la differenza in percentuale tra i valori effettivi e quelli a budget. Viene utilizzata la seguente formula:<br>(Saldo budget - Saldo effettivo) ÷ Saldo budget |
-| Soglia periodo scostamento | Impostare una soglia per lo scostamento dell'importo monetario per il periodo corrente. Se la soglia viene superata, la riga verrà evidenziata in rosso nell'area di lavoro **Controllo costi**.<blockquote>[!NOTE]<br>Questo campo è valido solo per gli elementi di costo che rappresentano le spese.</blockquote> |
+| Soglia periodo scostamento | Impostare una soglia per lo scostamento dell'importo monetario per il periodo corrente. Se la soglia viene superata, la riga verrà evidenziata in rosso nell'area di lavoro **Controllo costi**.<blockquote>**NOTA:**<br>Questo campo è valido solo per gli elementi di costo che rappresentano le spese.</blockquote> |
 | Soglia anno scostamento   | Impostare una soglia per lo scostamento dell'importo monetario per l'anno. Se la soglia viene superata, la riga verrà evidenziata in rosso nell'area di lavoro **Controllo costi**. |
-| Soglia scostamento %      | Impostare una soglia per lo scostamento in percentuale. Se la soglia viene superata, la riga verrà evidenziata in rosso nell'area di lavoro **Controllo costi**.<blockquote>[!NOTE]<br>La stessa soglia in percentuale si applica al periodo e all'anno correnti.</blockquote> |
+| Soglia scostamento %      | Impostare una soglia per lo scostamento in percentuale. Se la soglia viene superata, la riga verrà evidenziata in rosso nell'area di lavoro **Controllo costi**.<blockquote>**NOTA:**<br>La stessa soglia in percentuale si applica al periodo e all'anno correnti.</blockquote> |
 
 ## <a name="cost-control-workspace"></a>Area di lavoro controllo costi
 

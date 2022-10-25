@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 477b27bf77d2a3ef91a5c2d39f2dfb06d8ad4e59
-ms.sourcegitcommit: 562ea02e1f7409f18ee1cc4750a838bff4381e91
+ms.openlocfilehash: 18fec49f2388159cae0809c63685102a04e90c57
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/08/2022
-ms.locfileid: "9429125"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689188"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10030-november-2022"></a>Anteprima di Dynamics 365 Supply Chain Management 10.0.30 (Novembre 2022)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.30 (novembre 2022)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Questo articolo elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione di anteprima 10.0.30. Questa versione ha il numero di build 10.0.1362 ed è disponibile con il seguente programma:
+Questo articolo elenca le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management versione 10.0.30. Questa versione ha il numero di build 10.0.1362 ed è disponibile con il seguente programma:
 
 - **Anteprima della versione:** settembre 2022
 - **Disponibilità generale della versione (aggiornamento automatico):** ottobre 2022
@@ -35,7 +34,7 @@ Questa tabella elenca le funzionalità incluse in questa versione. Possiamo aggi
 | Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da |
 |---|---|---|---|
 | Produzione | [Monitorare le apparecchiature con Intelligence dei dati del sensore](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Home page di Intelligence dei dati del sensore](../sensor-data-intelligence/sdi-home-page.md) | Gestione funzionalità:<br>*(Anteprima) Intelligence dei dati del sensore* |
-| Warehouse Management | Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management <!-- KFM: Add link when RP updates --> | [Configura le deviazioni per i passaggi nelle voci di menu del dispositivo mobile](../warehousing/warehouse-app-detours.md) | Gestione funzionalità:<br>*Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management* |
+| Warehouse Management | [Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Configura le deviazioni per i passaggi nelle voci di menu del dispositivo mobile](../warehousing/warehouse-app-detours.md) | Gestione funzionalità:<br>*Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management* |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Miglioramento delle funzionalità inclusi in questa versione
 
@@ -52,7 +51,7 @@ Se desideri attivare o disattivare una di queste funzionalità, devi farlo in [G
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Aggiornamenti della piattaforma per app per finanza e operazioni
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.30 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.30 delle app Finance and Operations (novembre 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md). <!--KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.30 include gli aggiornamenti della piattaforma. Per ulteriori informazioni, vedi [Aggiornamenti della piattaforma per la versione 10.0.30 delle app Finance and Operations (novembre 2022)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-30.md).
 
 ### <a name="bug-fixes"></a>Correzioni di bug
 

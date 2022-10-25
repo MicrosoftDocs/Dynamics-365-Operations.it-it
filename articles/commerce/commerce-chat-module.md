@@ -2,19 +2,19 @@
 title: Modulo Chat di Commerce con Multicanale per Customer Service
 description: Questo articolo descrive il modulo Chat di Commerce con Multicanale per Customer Service in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 08/23/2022
+ms.date: 10/18/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2022-07-20
-ms.openlocfilehash: b8eaed3eb015e96b1db6fa2297c341ea9d3ff8ad
-ms.sourcegitcommit: b1df4db7facb5e7094138836c41a65c4a158f01d
+ms.openlocfilehash: 99e8b9d66a04390ab70fd1deff9f95fe28bdfae3
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/13/2022
-ms.locfileid: "9473811"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690318"
 ---
 # <a name="commerce-chat-with-omnichannel-for-customer-service-module"></a>Modulo Chat di Commerce con Multicanale per Customer Service
 
@@ -82,6 +82,9 @@ Per aggiungere il modulo di chat a un frammento di intestazione del tuo sito nel
 1. Nella finestra di dialogo **Seleziona moduli**, seleziona il frammento di chat creato in precedenza, quindi seleziona **OK**.
 1. Selezionare **Salva**, selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 
+> [!NOTE]
+> Per un elenco completo dei parametri di configurazione, vedi [Parametri della chat proattiva del modulo di chat di Commerce](chat-proactive-chat-parameters.md).
+
 ## <a name="add-commerce-headquarters-as-an-application-tab-for-omnichannel-for-customer-service"></a>Aggiungere Commerce headquarters come scheda applicazione per Multicanale per Customer Service
 
 Puoi aggiungere un scheda applicazione per Commerce headquarters in Multicanale per Customer Service. Gli agenti live possono quindi utilizzare l'interfaccia utente per l'esperienza agente di Multicanale per Customer Service per accedere facilmente al modulo Customer Service di Dynamics 365 Commerce che contiene informazioni contestuali per il cliente insieme alle informazioni sui relativi ordini cliente. Inoltre, gli agenti del servizio clienti possono effettuare nuovi ordini, avviare resi e verificare le informazioni sullo stato degli ordini.
@@ -115,6 +118,9 @@ Per abilitare una nuova scheda applicazione per gli agenti dei clienti in Multic
 1. Apri il flusso di lavoro che hai creato per i tuoi agenti, quindi sotto **Impostazioni avanzate**, seleziona **Sessioni predefinite**.
 1. Sotto **Schede applicazione**, seleziona **Aggiungi scheda applicazione esistente**, quindi aggiungi la nuova scheda applicazione creata in precedenza. Questo passaggio garantisce la visualizzazione di una scheda applicazione che carica Commerce headquarters in un modulo iFrame quando un agente riceve una chiamata in chat dal tuo sito Web di e-commerce.
 
+> [!NOTE]
+> Non puoi modificare il modello di sessione di chat predefinito nel flusso di lavoro. Pertanto, è consigliabile creare un nuovo modello o duplicare il modello esistente per aggiornarlo. Per ulteriori informazioni sui modelli, vedi [Modelli associati con il flusso di lavoro](/dynamics365/app-profile-manager/associate-templates).
+
 ## <a name="add-context-variables-in-dynamics-365-omnichannel-for-customer-service"></a>Aggiungere variabili di contesto in Multicanale per Customer Service di Dynamics 365
 
 Per aggiungere variabili di contesto in Multicanale per Customer Service di Dynamics 365, procedi come segue.
@@ -128,3 +134,11 @@ Per aggiungere variabili di contesto in Multicanale per Customer Service di Dyna
 
 > [!NOTE]
 > Se vuoi leggere gli indirizzi email e i nomi degli utenti che hanno effettuato l'accesso da un canale di e-commerce, puoi aggiungere **E-mail** e **Nome** come variabili di contesto di tipo **testo**, oltre alla variabile di contesto **AccountNumber**.
+
+## <a name="additional-resources"></a>Risorse aggiuntive
+
+[Panoramica delle funzionalità della chat di Commerce](commerce-chat-overview.md)
+
+[Modulo chat di Commerce con Power Virtual Agents](chat-module-pva.md)
+
+[Parametri della chat proattiva del modulo di chat di Commerce](chat-proactive-chat-parameters.md)

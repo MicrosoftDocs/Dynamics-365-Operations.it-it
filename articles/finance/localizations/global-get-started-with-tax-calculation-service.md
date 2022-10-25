@@ -2,7 +2,7 @@
 title: Introduzione al calcolo delle imposte
 description: In questo articolo viene illustrato come configurare Calcolo imposte.
 author: EricWangChen
-ms.date: 03/25/2022
+ms.date: 10/18/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
 ms.custom: intro-internal
 ms.search.form: TaxIntegrationTaxServiceParameters
-ms.openlocfilehash: 2b9af7a8bef9d479c4f2ec59ef533403a74251b1
-ms.sourcegitcommit: adadbc6e355e2ad68a1f6af26a1be1f89dc8eec6
+ms.openlocfilehash: 42898823ffc366351c6f58f1fe9b924678ab4b49
+ms.sourcegitcommit: 40c80a617b903c2b26e44b41147e0021c5cb680d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/22/2022
-ms.locfileid: "9573307"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9690385"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introduzione al calcolo delle imposte
 
@@ -124,6 +124,10 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
 7. Vai a **Modello dati fiscali**, espandi la struttura ad albero dei file e quindi seleziona **Configurazione fiscale**.
 8. Seleziona la [versione di configurazione fiscale](global-tax-calcuation-service-overview.md#versions) corretta, in base alla tua versione Finance, e poi seleziona **Importa**.
 9. Nell'area di lavoro delle **funzioni di globalizzazione** , selezionare **Funzioni**, selezionare il riquadro **Calcolo delle tasse** e poi selezionare **Aggiungi**.
+
+    > [!NOTE]
+    > Nella versione 10.0.26 e successive, puoi importare una funzionalità demo per la persona giuridica demo **DEMF**. Per ulteriori informazioni, vedere [Importare i dati demo della funzionalità](tax-calculation-import-export-feature.md).
+
 10. Consente di selezionare uno dei seguenti tipi di funzionalità:
 
     - **Nuova funzionalità** - Crea una configurazione della funzionalità con contenuto vuoto.
@@ -154,8 +158,8 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
     - **Applicabilità del numero di registrazione fiscale del venditore** - Se hai più numeri di registrazione fiscale per un venditore, Calcolo imposta può determinare automaticamente il corretto numero di registrazione fiscale. Nella matrice di questa scheda, definisci le regole che dovrebbero essere usate per fare la determinazione. In caso contrario, Finance e Supply Chain Management continueranno a utilizzare la partita IVA predefinita nei documenti tassabili per le transazioni di acquisto.
     - **Applicabilità del codice elenco** - Determina automaticamente il valore del campo **Codice elenco** attraverso regole più flessibili e configurabili. Nella matrice di questa scheda, definisci le regole che dovrebbero essere usate per fare la determinazione. In caso contrario, Finance e Supply Chain Management continueranno a utilizzare il codice sui documenti tassabili.
 
-14. Nella scheda **Codici imposta** seleziona **Aggiungi** e inserisci il codice imposta e una descrizione.
-15. Seleziona **Componente fiscale**. Il componente fiscale è un gruppo di metodi definiti nella versione precedente della configurazione fiscale selezionata. Sono disponibili i seguenti componenti fiscali:
+15. Nella scheda **Codici imposta** seleziona **Aggiungi** e inserisci il codice imposta e una descrizione.
+16. Seleziona **Componente fiscale**. Il componente fiscale è un gruppo di metodi definiti nella versione precedente della configurazione fiscale selezionata. Sono disponibili i seguenti componenti fiscali:
 
     - Per importo netto
     - Per importo lordo
@@ -163,8 +167,8 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
     - Per margine
     - Imposta sull'imposta
 
-16. Selezionare **Salva**. Diventano disponibili più campi, in base al componente fiscale selezionato.
-17. Utilizza le seguenti opzioni per identificare la natura del codice imposta:
+17. Selezionare **Salva**. Diventano disponibili più campi, in base al componente fiscale selezionato.
+18. Utilizza le seguenti opzioni per identificare la natura del codice imposta:
 
     - È esente
     - È la tassa sull'uso
@@ -179,8 +183,8 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
 
     Mantieni le aliquote fiscali e i limiti di importo delle imposte per questo codice imposta.
 
-18. Ripeti i passaggi dal 14 al 17 per aggiungere tutti gli altri codici imposta necessari.
-19. Nella scheda **Gruppo d'imposta** , seleziona la colonna **Gruppo d'imposta** , aggiungila alla matrice come condizione d'ingresso e poi aggiungi delle righe per mantenere i dati anagrafici del gruppo d'imposta.
+19. Ripeti i passaggi dal 15 al 18 per aggiungere tutti gli altri codici imposta necessari.
+20. Nella scheda **Gruppo d'imposta** , seleziona la colonna **Gruppo d'imposta** , aggiungila alla matrice come condizione d'ingresso e poi aggiungi delle righe per mantenere i dati anagrafici del gruppo d'imposta.
 
     Ecco un esempio.
 
@@ -191,7 +195,7 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
     | BEL_Dom | BEL_VAT21; BEL_VAT6 |
     | BEL_EU       | BEL_Exempt          |
 
-20. Nella scheda **Gruppo d'imposta** degli articoli, seleziona la colonna **Gruppo d'imposta degli articoli** , aggiungila alla matrice come condizione d'ingresso e poi aggiungi delle righe per mantenere i dati anagrafici del gruppo d'imposta degli articoli.
+21. Nella scheda **Gruppo d'imposta** degli articoli, seleziona la colonna **Gruppo d'imposta degli articoli** , aggiungila alla matrice come condizione d'ingresso e poi aggiungi delle righe per mantenere i dati anagrafici del gruppo d'imposta degli articoli.
 
     Ecco un esempio.
 
@@ -200,7 +204,7 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
     | Completo           | DEU_VAT19; BEL_VAT21; DEU_Exempt; BEL_Exempt |
     | Ridotta        | DEU_VAT7; BEL_VAT6; DEU_Exempt; BEL_Exempt   |
 
-21. Nella scheda **Applicabilità del gruppo fiscale** , seleziona le colonne che sono necessarie per determinare il gruppo fiscale corretto e poi seleziona **Aggiungi**. Immetti o seleziona i valori per ciascuna colonna. Il campo del **gruppo fiscale** sarà l'output di questa matrice. Se questa scheda non è configurata, verrà utilizzato il gruppo di imposte sulle vendite sulla linea della transazione.
+22. Nella scheda **Applicabilità del gruppo fiscale** , seleziona le colonne che sono necessarie per determinare il gruppo fiscale corretto e poi seleziona **Aggiungi**. Immetti o seleziona i valori per ciascuna colonna. Il campo del **gruppo fiscale** sarà l'output di questa matrice. Se questa scheda non è configurata, verrà utilizzato il gruppo di imposte sulle vendite sulla linea della transazione.
 
     Ecco un esempio.
 
@@ -214,7 +218,7 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
     > [!NOTE]
     > Se la fascia IVA predefinita nelle righe del documento imponibile è corretta, lascia vuota questa matrice. Per ulteriori informazioni, vedi la sezione [Progettazione runtime](#runtime) in questo articolo.
 
-22. Nella scheda **Applicabilità del gruppo d'imposta dell'articolo** , seleziona le colonne che sono necessarie per determinare il codice d'imposta corretto e poi seleziona **Aggiungi**. Immetti o seleziona i valori per ciascuna colonna. Il campo del **gruppo fiscale dell'articolo** sarà l'output di questa matrice. Se questa scheda non è configurata, verrà utilizzato il gruppo di imposte sulle vendite dell'articolo sulla linea della transazione.
+23. Nella scheda **Applicabilità del gruppo d'imposta dell'articolo** , seleziona le colonne che sono necessarie per determinare il codice d'imposta corretto e poi seleziona **Aggiungi**. Immetti o seleziona i valori per ciascuna colonna. Il campo del **gruppo fiscale dell'articolo** sarà l'output di questa matrice. Se questa scheda non è configurata, verrà utilizzato il gruppo di imposte sulle vendite dell'articolo sulla linea della transazione.
 
     Ecco un esempio.
 
@@ -228,10 +232,10 @@ I passaggi in questa sezione non sono correlati a una persona giuridica specific
 
     Per maggiori informazioni su come i codici fiscali sono determinati in Calcolo imposta, vedi [Logica di determinazione dei gruppi di imposte sulle vendite e dei gruppi di imposte sulle vendite degli articoli](global-sales-tax-group-determination.md).
 
-23. Impostare l'applicabilità dei numeri di registrazione fiscale dei clienti, dei numeri di registrazione fiscale dei fornitori e dei codici elenco in base alle esigenze aziendali.
-24. Selezionare **Salva**, quindi chiudere la pagina.
-25. Selezionare **Cambia stato** \> **Completato**. Dopo che lo stato è cambiato in **Completato**, la versione non può più essere modificata.
-26. Seleziona **Cambia stato** \> **Pubblica**. Questa versione della configurazione della funzione fiscale verrà inviata al repository globale e sarà visibile a ogni persona giuridica in Finance.
+24. Impostare l'applicabilità dei numeri di registrazione fiscale dei clienti, dei numeri di registrazione fiscale dei fornitori e dei codici elenco in base alle esigenze aziendali.
+25. Selezionare **Salva**, quindi chiudere la pagina.
+26. Selezionare **Cambia stato** \> **Completato**. Dopo che lo stato è cambiato in **Completato**, la versione non può più essere modificata.
+27. Seleziona **Cambia stato** \> **Pubblica**. Questa versione della configurazione della funzione fiscale verrà inviata al repository globale e sarà visibile a ogni persona giuridica in Finance.
 
 ## <a name="set-up-tax-calculation-in-dynamics-365"></a>Impostare il calcolo delle tasse in Dynamics 365
 

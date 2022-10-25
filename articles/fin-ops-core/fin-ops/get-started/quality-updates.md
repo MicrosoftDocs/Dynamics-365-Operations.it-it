@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 25306a8ccebb5cd01debc90cf497d4a942840ef4
-ms.sourcegitcommit: 43a0fb019bc67c00c39c2778343ba89924c3322c
+ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9671427"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689226"
 ---
 # <a name="proactive-quality-updates"></a>Aggiornamenti qualitativi proattivi
 
@@ -56,7 +56,9 @@ I dati sulla gestione delle release correnti mostrano che meno del 3% delle regr
 
 - **Schema** – Gli strumenti garantiranno che le build degli aggiornamenti qualitativi includano solo le modifiche dello schema che possono essere applicate mentre il servizio è online. Questo approccio consentirà di preservare la capacità di applicare l'aggiornamento con tempi di inattività prossimi allo zero.
 - **Maggiore controllo delle modifiche** – Attualmente, esiste già una fase supplementare del processo per approvare le modifiche da includere in un aggiornamento qualitativo. Il controllo nella fase supplementare verrà aumentato per contribuire a ridurre il potenziale delle regressioni. Non sono consentite modifiche che causano interruzioni negli aggiornamenti qualitativi e il maggiore controllo delle modifiche contribuirà a garantire il raggiungimento di questo obiettivo.
-- **Visibilità** – Invieremo notifiche tramite e-mail e Lifecycle Services (LCS) per i prossimi aggiornamenti qualitativi proattivi. Inoltre, i team di supporto e i responsabili della gestione degli incidenti avranno visibilità su dove gli aggiornamenti qualitativi sono stati implementati in modo proattivo.
+- **Visibilità** – Invieremo notifiche tramite l'interfaccia di amministrazione, Lifecycle Services (LCS) e altri canali disponibili per i prossimi aggiornamenti qualitativi proattivi. Inoltre, i team di supporto e i responsabili della gestione degli incidenti avranno visibilità su dove gli aggiornamenti qualitativi sono stati implementati in modo proattivo.
+ > [!NOTE]
+ > Il team di Microsoft Communications sta investigando sul continuo degrado degli strumenti di posta elettronica che impedisce il recapito delle notifiche di posta elettronica. Continua a monitorare il Centro messaggi di Microsoft 365 per l'onboarding e i messaggi relativi alla notifica.
 - **Errore sicuro con la versione di anteprima** – La versione di anteprima verrà utilizzata per proteggere le modifiche al codice ove applicabile in una correzione di bug dell'aggiornamento della qualità o utilizzare la versione di anteprima di funzionalità esistente pertinente alla correzione. Se è necessario un fallback o disattivare una modifica dopo una distribuzione proattiva, è possibile farlo tramite il sistema di versione di anteprima per evitare ulteriori errori.
 - **Designazione della sincronizzazione sandbox** – Meno del 20% dei clienti dispone attualmente di più sandbox e mantiene una sandbox distribuita dove la versione corrisponde alla produzione, per agevolare la risoluzione dei problemi. Se un cliente utilizza una sandbox per testare una versione più recente rispetto alla propria produzione, tale sandbox riceverà aggiornamenti qualitativi alla versione più recente.
 
@@ -80,10 +82,10 @@ Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le fines
 
 | Stazione | Regioni | Programmazione completata| Prossima programmazione sandbox
 |---|---|---|---|
-| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 15 settembre al 18 settembre 2022 e dal 19 settembre al 22 settembre 2022 | Dal 7 ottobre al 10 ottobre 2022 |
-| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 25 settembre al 28 settembre 2022 | Dal 7 ottobre al 10 ottobre 2022 |
-| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 26 settembre al 29 settembre 2022 | Dal 7 ottobre al 10 ottobre 2022 |
-| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 28 settembre al 1 ottobre 2022 | Dal 7 ottobre al 10 ottobre 2022 |
+| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 15 settembre al 18 settembre 2022, dal 19 settembre al 22 settembre 2022 e dal 7 ottobre al 10 ottobre 2022 | Dal 25 ottobre al 28 ottobre 2022 |
+| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 25 settembre al 28 settembre 2022 e dal 7 ottobre al 10 ottobre 2022 | Dal 25 ottobre al 28 ottobre 2022 |
+| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 26 settembre al 29 settembre 2022 e dal 7 ottobre al 10 ottobre 2022 | Dal 25 ottobre al 28 ottobre 2022 |
+| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 28 settembre al 1 ottobre 2022 e dal 7 ottobre al 10 ottobre 2022 | Dal 25 ottobre al 28 ottobre 2022 |
 | Stazione 5 | DoD, Government Community Cloud, Cina | Non programmato | Non programmato |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a>Rilascio dell'aggiornamento qualitativo proattivo: 10.0.29

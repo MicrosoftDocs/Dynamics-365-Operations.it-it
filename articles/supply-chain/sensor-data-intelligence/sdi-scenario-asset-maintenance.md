@@ -11,17 +11,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2022-09-02
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: fcd16d09b4293046c457b602857ef8950e8259c6
-ms.sourcegitcommit: c5f2cba3c2b0758e536eeaaa40506659a53085e1
+ms.openlocfilehash: 2d103406118be4385177b678de424df12af69c2e
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9644059"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689402"
 ---
 # <a name="the-asset-maintenance-scenario"></a>Scenario di manutenzione dei cespiti
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [preview-banner](../includes/preview-banner.md)]
+<!-- KFM: Preview until further notice -->
 
 Lo scenario *manutenzione dei cespiti* consente di utilizzare i dati del sensore per creare record di contatori. I record del contatore tengono traccia dell'utilizzo di un cespite macchina e vengono utilizzati come input per generare il programma di manutenzione per i cespiti macchina.
 
@@ -115,6 +116,9 @@ Dopo che i dati sono stati preparati, e lo scenario *manutenzione dei cespiti* Ã
 1. Vai a **Gestione cespiti \> Cespiti \> Tutti i cespiti**.
 1. Trova e seleziona il cespite che vuoi controllare. Se stai utilizzando i dati demo che hai creato in precedenza in questo articolo, seleziona *AK-101*.
 1. Nel riquadro azioni, nella scheda **Cespite**, nel gruppo **Preventivo** seleziona **Contatori** per aprire la pagina dei record dei contatori per il cespite *AK-101*.
+
+> [!NOTE]
+> I record del contatore sono configurati per impostazione predefinita per essere inseriti ogni tre ore, il che significa che i dati del sensore verranno aggregati a quell'intervallo. Ãˆ possibile modificare l'intervallo modificando la query nel componente Analisi di flusso di Azure.
 
 ### <a name="generate-maintenance-work-orders"></a>Generare gli ordini di lavoro in manutenzione
 

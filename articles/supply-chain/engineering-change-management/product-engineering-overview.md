@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b494e15488bed148119aed0e9d62ab1740f38add
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: a01dfd72428c75d1bb24f32c73c9c799a6c5017e
+ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334867"
+ms.lasthandoff: 10/14/2022
+ms.locfileid: "9682508"
 ---
 # <a name="engineering-change-management-overview"></a>Panoramica della gestione delle modifiche di progettazione
 
@@ -73,6 +73,9 @@ Successivamente, attivare le chiavi di configurazione procedendo come segue. Que
 1. Il database deve essere sincronizzato per assicurarti che le chiavi di configurazione siano aggiornate correttamente per riflettere le modifiche. Esegui una delle seguenti operazioni, a seconda del tipo di ambiente su cui stai lavorando:
     - **Per ambienti di livello 1 (sviluppo)**: Apri il tuo progetto in Microsoft Visual Studio e quindi seleziona **Dynamics 365 \> Sincronizza database \> Sincronizza**.
     - **Per ambienti di livello 2 (e superiori)**: il database si sincronizza automaticamente dopo che l'ambiente è entrato e uscito dalla modalità di manutenzione, quindi puoi saltare questo passaggio.
+
+> [!NOTE]
+> Per utilizzare la gestione delle modifiche tecniche, sia la sequenza numerica della distinta base che la sequenza numerica della formula (se si utilizzano formule) devono essere impostate su *Automatico* nella pagina **Sequenze numeriche**.
 
 ### <a name="turn-on-additional-engineering-change-management-features"></a>Attivare le funzionalità di gestione delle modifiche di progettazione aggiuntive
 

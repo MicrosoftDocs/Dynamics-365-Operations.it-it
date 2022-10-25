@@ -2,7 +2,7 @@
 title: Utilizzare le direttive di ubicazione
 description: Questo articolo descrive come utilizzare le direttive di ubicazione. Le direttive ubicazione sono regole definite dall'utente che aiutano a identificare le ubicazioni di prelievo e stoccaggio per il movimento scorte.
 author: Mirzaab
-ms.date: 11/13/2020
+ms.date: 09/28/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7705ea132521353cd6af7245df90aafaf23af885
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4ef8ec0732cd3bd50bca8d334c43d0354e9e3316
+ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8903697"
+ms.lasthandoff: 10/18/2022
+ms.locfileid: "9689668"
 ---
 # <a name="work-with-location-directives"></a>Utilizzare le direttive di ubicazione
 
@@ -47,6 +47,20 @@ Prima di poter creare una direttiva di ubicazione, è necessario seguire questi 
 1. Creare le ubicazioni, i tipi di ubicazione, i profili e i formati delle ubicazioni. Per ulteriori informazioni, vedere [Configurare le ubicazioni in un magazzino abilitato WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 1. Creare siti, zone e gruppi di zone. Per ulteriori informazioni, vedere [Impostare un magazzino](../../commerce/channels-setup-warehouse.md) e [Configurare le ubicazioni in un magazzino abilitato WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 
+## <a name="turn-the-location-directive-scopes-feature-on-or-off"></a><a name="scopes-feature"></a>Attivare o disattivare la funzionalità Ambiti di direttiva ubicazione
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+La funzionalità *Ambiti di direttiva ubicazione* offre maggiore libertà durante la progettazione di direttive di ubicazione e aiuta a ridurre le configurazioni ridondanti. Aggiunge un'opzione **Ambiti**, che sostituisce l'opzione **SKU multipli** precedente. Mentre l'opzione **SKU multipli** può essere impostata solo su *Sì* o *No*, l'opzione **Ambiti** fornisce non solo queste due impostazioni (tramite i valori *Articolo singolo* e *Più articoli*) ma anche altri due (tramite i valori *Articolo o ordine singolo* e *Tutto*). Per ulteriori informazioni su queste impostazioni, vedi [Scheda dettaglio direttive di ubicazione](#location-directives-tab).
+
+Quando è abilitata, l'opzione **Ambito** sostituisce l'opzione **SKU multipli** ed è compatibile al 100% con le configurazioni esistenti.
+
+Per utilizzare questa funzionalità, devi attivarla nel sistema. Gli amministratori possono utilizzare le impostazioni della [gestione delle funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per controllare lo stato della funzione e attivarla o disattivarla. Nell'area di lavoro **Gestione funzionalità**, la funzione è elencata nel modo seguente:
+
+- **Modulo:** *Gestione Magazzino*
+- **Nome funzionalità:** *Ambiti di direttiva ubicazione*
+
 ## <a name="work-order-types-for-location-directives"></a>Tipi di ordine di lavoro per direttive di ubicazione
 
 Molti campi che possono essere impostati per le direttive di ubicazione sono comuni a tutti i tipi di ordine di lavoro. Tuttavia, altri campi sono specifici per particolari tipi di ordini di lavoro.
@@ -68,9 +82,9 @@ La tabella seguente elenca i campi comuni a tutti i tipi di ordine di lavoro.
 | Direttive ubicazione | Sito |
 | Direttive ubicazione | Magazzino |
 | Direttive ubicazione | Codice direttiva |
-| Direttive ubicazione | Più SKU |
+| Direttive ubicazione | Ambito *o* SKU multipli |
 | Righe | Numero progressivo |
-| Righe | Da quantità |
+| Righe | Quantità iniziale |
 | Righe | A quantità |
 | Righe | Unità |
 | Righe | Trova quantità |
@@ -117,7 +131,9 @@ Il riquadro azioni nella pagina **Direttive ubicazione** contiene pulsanti che c
 
 - **Sposta su** - Sposta la direttiva di ubicazione selezionata verso l'alto nella sequenza. Ad esempio, è possibile spostarla dal numero di sequenza 4 al numero di sequenza 3.
 - **Sposta giù** - Sposta la direttiva di ubicazione selezionata verso il basso nella sequenza. Ad esempio, è possibile spostarla dal numero di sequenza 4 al numero di sequenza 5.
+- **Copia** – Apri una finestra di dialogo in cui è possibile creare una copia esatta della direttiva di ubicazione corrente.
 - **Modifica query** - Apre una finestra di dialogo in cui è possibile definire le condizioni in base alle quali deve essere elaborata la direttiva di ubicazione selezionata. Ad esempio, potrebbe essere opportuna applicarla solo a un magazzino specifico.
+- **Test di accettazione** – Apri una pagina in cui è possibile configurare test automatici per determinare come si comporteranno le direttive di ubicazione in condizioni iniziali diverse. In questo modo, puoi convalidare rapidamente le tue direttive mentre le crei e le gestisci. Per ulteriori informazioni, vedi [Testare le direttive di ubicazione con test di accettazione](location-directive-acceptance-tests.md).
 
 ## <a name="location-directives-header"></a>Intestazione direttive di ubicazione
 
@@ -126,7 +142,7 @@ L'intestazione della direttiva di ubicazione include i seguenti campi per il num
 - **Numero progressivo** - Questo campo indica la sequenza con cui il sistema cerca di applicare ciascuna direttiva di ubicazione per il tipo di ordine di lavoro selezionato. I numeri bassi vengono applicati per primi. È possibile modificare la sequenza utilizzando i pulsanti **Sposta su** e **Sposta giù** nel riquadro azioni.
 - **Nome** - Immettere un nome descrittivo per la direttiva di ubicazione. Questo nome deve aiutare a identificare lo scopo generale della direttiva. Ad esempio, immettere *Prelievo ordini cliente in magazzino 24*.
 
-## <a name="location-directives-fasttab"></a>Scheda dettaglio direttive di ubicazione
+## <a name="location-directives-fasttab"></a><a name="location-directives-tab"></a>Scheda dettaglio direttive di ubicazione
 
 I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il tipo di ordine di lavoro selezionato nel campo **Tipo ordine di lavoro** nel riquadro elenco.
 
@@ -145,7 +161,29 @@ I campi nella Scheda dettaglio **Direttive di ubicazione** sono specifici per il
     > [!TIP]
     > Se è impostato un codice di direttiva, il sistema non cercherà le direttive di ubicazione per numero di sequenza quando il lavoro deve essere generato. Cercherà invece per codice di direttiva. In questo modo, è possibile essere più precisi riguardo la direttiva di ubicazione utilizzata per un passaggio particolare in un modello di lavoro, ad esempio la gestione temporanea dei materiali.
 
-- **Più SKU** - Impostare questa opzione su *Sì* per abilitare l'utilizzo di più unità di stockkeeping in un'ubicazione. Ad esempio, è necessario abilitare più unità di stockkeeping per un'ubicazione finale. Se si abilitano più unità di stockkeeping, l'ubicazione di stoccaggio verrà specificata nel lavoro, come previsto. Tuttavia, l'ubicazione di stoccaggio sarà in grado di gestire solo uno stoccaggio multi-articolo (se il lavoro include unità di stockkeeping diverse che devono essere prelevate e stoccate). Non sarà in grado di gestire uno stoccaggio per una singola unità di stockkeeping. Se si imposta questa opzione su *No*, l'ubicazione di stoccaggio verrà specificata solo se lo stoccaggio prevede un solo tipo di unità di stockkeeping.
+- **Ambito** – Utilizza questa opzione per specificare gli scenari a cui verrà applicata la direttiva di ubicazione. Questa opzione sostituisce l'opzione **SKU multipli** ed è disponibile solo se la funzionalità *Ambiti di direttiva ubicazione* è attivata nel sistema. (Per ulteriori informazioni, vedi [Attivare o disattiva la funzionalità Ambiti di direttiva ubicazione](#scopes-feature) .)
+
+    | Impostazione dell'ambito | Ordine singolo con un articolo | Ordini multipli con lo stesso articolo | Ordine singolo con più articoli | Ordini multipli con più articoli |
+    |---|---|---|---|---|
+    | Articolo singolo | Sì | Sì | Numero | Numero |
+    | Più articoli | Numero | Numero | Sì | Sì |
+    | Articolo o ordine singolo | Sì | Sì | Sì | Numero |
+    | Tutti | Sì | Sì | Sì | Sì |
+
+    La tabella seguente descrive quando gli ambiti sono disponibili e se consentono la funzione **Modifica query**.
+
+    | Ambito | Tipo di lavoro supportato | Tipi di ordine di lavoro supportati | Consenti Modifica query |
+    |---|---|---|---|
+    | Articolo singolo | Tutti | Tutti | Sì |
+    | Più articoli | Tutti | Tutti | Numero |
+    | Articolo o ordine singolo | Stoccaggi | Stoccaggio di co-prodotti e sottoprodotti, stoccaggio prodotti finiti, stoccaggio kanban, ordini fornitore, ordini di controllo qualità, rifornimento, ordini di reso, ordini cliente, emissione di trasferimento e ricevuta di trasferimento | Sì |
+    | Tutti | Stoccaggi | Tutti | Numero |
+
+    > [!NOTE]
+    > - Per eseguire stoccaggi sia per più articoli che per singoli articoli, è necessario assicurarsi che esistano direttive di ubicazione che coprano entrambi gli scenari. Ad esempio, è consigliabile configurare una o più direttive di ubicazione *Articolo o ordine singolo* per coprire gli scenari che richiedono l'ottimizzazione (ad esempio tramite modifiche alla query), quindi una o più direttive di ubicazione *Tutto* per coprire gli scenari rimanenti.
+    > - Sebbene gli ambiti *Articolo singolo* e *Più articoli* possono essere utilizzati per gli stoccaggi, questo approccio in genere porta a configurazioni ridondanti. Considera l'utilizzo invece degli ambiti *Articolo o ordine singolo* e *Tutto*, perché questo approccio produrrà una configurazione più pulita.
+
+- **SKU multipli** – Utilizza questa opzione per specificare lo scenario a cui verrà applicata la direttiva di ubicazione. Questa impostazione è sostituita dall'impostazione **Ambito** se la funzionalità *Ambiti di direttiva ubicazione* è attivata nel sistema. (Per ulteriori informazioni, vedi [Attivare o disattivare la funzionalità Ambiti di direttiva ubicazione](#scopes-feature)). Imposta questa opzione su *Sì* per consentire l'utilizzo di più unità di stoccaggio (SKU) in un'ubicazione. Ad esempio, è necessario abilitare più unità di stockkeeping per un'ubicazione finale. Se si abilitano più unità di stockkeeping, l'ubicazione di stoccaggio verrà specificata nel lavoro, come previsto. Tuttavia, l'ubicazione di stoccaggio sarà in grado di gestire solo uno stoccaggio multi-articolo (se il lavoro include unità di stockkeeping diverse che devono essere prelevate e stoccate). Non sarà in grado di gestire uno stoccaggio per una singola unità di stockkeeping. Se si imposta questa opzione su *No*, l'ubicazione di stoccaggio verrà specificata solo se lo stoccaggio prevede un solo tipo di unità di stockkeeping.
 
     > [!IMPORTANT]
     > Per eseguite stoccaggi multi-articolo e per una singola unità di stockkeeping, è necessario specificare due righe con la stessa struttura e la stessa impostazione, ma è necessario impostare l'opzione **Più SKU** su *Sì* per una riga e su *No* per l'altra. Di conseguenza, per le operazioni di stoccaggio, è necessario disporre di due direttive ubicazioni identiche, anche se non è necessario fare distinzione tra unità di stockkeeping singole e più unità di stockkeepng in un iD lavoro. Spesso, se non si impostano entrambe queste direttive di ubicazione, le ubicazioni dei processi aziendali impreviste deriveranno dalla direttiva di ubicazione applicata. È necessario utilizzare una configurazione simile per le direttive di ubicazione **Tipo di lavoro** uguale a *prelievo* se è necessario elaborare ordini che includono più unità di stockkeeping.
@@ -255,6 +293,5 @@ Una volta create le direttive ubicazione, è possibile associare ciascun codice 
 
 - Video: [Approfondimento sulla configurazione della gestione magazzino](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Articolo della Guida: [Controllare il lavoro di magazzino utilizzando i modelli di lavoro e le direttive ubicazione](control-warehouse-location-directives.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
