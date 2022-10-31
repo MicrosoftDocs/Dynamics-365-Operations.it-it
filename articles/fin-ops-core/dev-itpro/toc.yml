@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-30.md
                 - name: Aggiornamento piattaforma per la versione 10.0.29 (ottobre 2022)
                   href: get-started/whats-new-platform-updates-10-0-29.md
-                - name: Aggiornamento piattaforma per la versione 10.0.28 (agosto 2022)
-                  href: get-started/whats-new-platform-updates-10-0-28.md
             - name: Funzionalità rimosse o deprecate
               items:
                 - name: Home page Funzionalità rimosse o deprecate
@@ -1605,7 +1603,11 @@
             - name: Report su codici di licenza e chiavi di configurazione
               href: sysadmin/license-codes-configuration-keys-report.md
             - name: Condivisione dati interaziendali
-              href: sysadmin/cross-company-data-sharing.md
+              href: sysadmin/srs-overview.md
+            - name: Tabelle supportate per la condivisione dei dati
+              href: sysadmin/drs-srs-tables.md
+            - name: Condivisione dei dati per gli sviluppatori
+              href: sysadmin/drs-srs-dev.md
             - name: Modalità manutenzione
               href: sysadmin/maintenance-mode.md
             - name: Account di sistema preconfigurati

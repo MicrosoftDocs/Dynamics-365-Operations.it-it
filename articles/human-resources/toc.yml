@@ -10,18 +10,14 @@
               href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/finance/toc.json
             - name: Novità o modifiche in Human Resources
               items:
+                - name: Human Resources 10.0.31 (infrastruttura unita)
+                  href: ./get-started/whats-new-changed-10-0-31.md
                 - name: Human Resources 10.0.30 (infrastruttura unita)
                   href: ./get-started/whats-new-changed-10-0-30.md
                 - name: Human Resources 10.0.29 (infrastruttura unita)
                   href: ./get-started/whats-new-changed-10-0-29.md
                 - name: Human Resources 10.0.28 (infrastruttura unita)
                   href: ./get-started/whats-new-changed-10.0.28.md
-                - name: Human Resources 10.0.27 (infrastruttura unita)
-                  href: ./get-started/hr-whats-new-changed-10-0-27.md
-                - name: Human Resources 10.0.26 (infrastruttura unita)
-                  href: ./get-started/hr-whats-new-changed-10-0-26.md
-                - name: Human Resources 10.0.25 (infrastruttura unita)
-                  href: ./get-started/hr-whats-new-changed-10-0-25.md
                 - name: Novità in Dynamics 365 Human Resources (autonoma)
                   items:
                     - name: Novità negli archivi 2021 di Dynamics 365 Human Resources (autonoma)
@@ -718,6 +714,8 @@
               href: hr-develop-create-performance-review.md
         - name: Apprendimento
           items:
+            - name: Panoramica del corso
+              href: hr-course-overview.md
             - name: Impostare i corsi di formazione
               href: hr-learning-courses.md
             - name: Panoramica dei questionari

@@ -2,7 +2,7 @@
 title: Modificare e controllare le transazioni di ordini online e di ordini cliente asincroni
 description: In questo articolo viene descritto come modificare e controllare le transazioni di ordini online e ordini cliente asincroni in Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2020
+ms.date: 10/21/2022
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.industry: Retail
-ms.openlocfilehash: dac7ffe6d62aaea11f2f5af0476db446b091938b
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: dbeeff47446c1617da44f34ae56f333717f577a1
+ms.sourcegitcommit: 18b7a02c497709e8d9c7b943d82f1fcc3dafa4cd
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287679"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9712110"
 ---
 # <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Modificare e controllare le transazioni di ordini online e di ordini cliente asincroni
 
@@ -34,12 +34,13 @@ Tra le versioni 10.0.5 e 10.0.6 di Commerce è stato aggiunto il supporto per la
 
 ## <a name="edit-and-audit-order-transactions"></a>Modificare e controllare le transazioni degli ordini
 
-Per modificare e controllare le transazioni di ordini in Commerce Headquarters, seguire questi passaggi.
+Per modificare e controllare le transazioni di ordini in Commerce Headquarters, segui questi passaggi.
 
-1. Installare [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
-1. Nella pagina **Parametri di vendita al dettaglio**, nella scheda **Ordini cliente**, nella Scheda dettaglio **Ordine**, specificare un codice sospensione per **Codice sospensione per errori di sincronizzazione dell'ordine**.
-1. Aprire l'area di lavoro **Dati finanziari punto vendita**. I riquadri **Errori di sincronizzazione ordini online** ed **Errori di sincronizzazione ordini cliente** forniscono una visualizzazione prefiltrata della pagina delle transazioni di vendita al dettaglio. Ciascuno mostra i record delle transazioni che non hanno completato la sincronizzazione per il tipo di ordine corrispondente.
-1. Aprire la pagina **Errori di sincronizzazione ordini online** o la pagina **Errori di sincronizzazione ordini cliente**. Selezionare un record per visualizzare i dettagli dell'errore di sincronizzazione. La Scheda dettaglio **Stato sincronizzazione** fornisce i seguenti dettagli sull'errore:
+1. Installa [Microsoft Dynamics Office Add-in](https://appsource.microsoft.com/product/office/WA104379629?tab=Overview).
+1. Nella pagina **Parametri di Commerce**, nella scheda **Ordini cliente**, nella Scheda dettaglio **Ordine**, specifica un codice sospensione per **Codice sospensione per errori di sincronizzazione dell'ordine**.
+2. Sospendi altri processi di sincronizzazione degli ordini che entreranno in conflitto con i tempi della modifica e del controllo.
+3. Apri l'area di lavoro **Dati finanziari punto vendita**. I riquadri **Errori di sincronizzazione ordini online** ed **Errori di sincronizzazione ordini cliente** forniscono una visualizzazione prefiltrata della pagina delle transazioni di vendita al dettaglio. Ciascuno mostra i record delle transazioni che non hanno completato la sincronizzazione per il tipo di ordine corrispondente.
+4. Aprire la pagina **Errori di sincronizzazione ordini online** o la pagina **Errori di sincronizzazione ordini cliente**. Selezionare un record per visualizzare i dettagli dell'errore di sincronizzazione. La Scheda dettaglio **Stato sincronizzazione** fornisce i seguenti dettagli sull'errore:
 
     - Stato ordine in sospeso
     - Dettagli errori ordini
@@ -67,7 +68,15 @@ Per modificare e controllare le transazioni di ordini in Commerce Headquarters, 
 
 1. Nel file Excel, nel campo **Stato ordine in sospeso**, immetti **Modifica** e quindi pubblica la modifica. In questo modo, impedisci che il processo **Sincronizza ordine** in esecuzione in modalità batch ignori questo record durante l'elaborazione.
 1. Nel file di Excel, modificare i campi appropriati, quindi caricare i dati nuovamente in Commerce Headquarters utilizzando la funzionalità di pubblicazione del componente aggiuntivo Dynamics Excel. Una volta pubblicati i dati, le modifiche si rifletteranno nel sistema. Durante la pubblicazione non viene effettuata alcuna convalida delle modifiche apportate dagli utenti.
-1. È possibile visualizzare un audit trail completo delle modifiche selezionando **Visualizza audit trail** nell'intestazione **Transazione di vendita al dettaglio** per le modifiche a livello di intestazione e nella sezione e nel record pertinenti nella pagina della transazione appropriata. Ad esempio, tutte le modifiche relative alle righe di vendita verranno visualizzate nella pagina **Transazioni di vendita**, mentre tutte le modifiche relative ai pagamenti verranno visualizzate nella pagina **Transazioni di pagamento**. I seguenti dettagli del controllo vengono mantenuti per le modifiche:
+    > [!NOTE]
+    > Se non è possibile trovare il campo da modificare, segui questi passaggi per aggiungere il campo mancante nel foglio di lavoro.
+    >   1. Seleziona **Progettazione** in Connettore dati.
+    >   1. Seleziona l'icona a forma di matita accanto alla tabella in cui desideri aggiungere un campo.
+    >   1. Seleziona il campo nella sezione **Campi disponibili** e quindi seleziona **Aggiungi**.
+    >   1. Aggiungi tutti i campi di cui hai bisogno e quindi seleziona **Aggiorna**.
+    >   1. Al termine dell'aggiornamento, potrebbe essere necessario selezionare **Aggiorna** per aggiornare i valori.
+
+3. È possibile visualizzare un audit trail completo delle modifiche selezionando **Visualizza audit trail** nell'intestazione **Transazione di vendita al dettaglio** per le modifiche a livello di intestazione e nella sezione e nel record pertinenti nella pagina della transazione appropriata. Ad esempio, tutte le modifiche relative alle righe di vendita verranno visualizzate nella pagina **Transazioni di vendita**, mentre tutte le modifiche relative ai pagamenti verranno visualizzate nella pagina **Transazioni di pagamento**. I seguenti dettagli del controllo vengono mantenuti per le modifiche:
 
     - Data e ora modifica
     - Campo

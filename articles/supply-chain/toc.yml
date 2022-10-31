@@ -12,7 +12,7 @@
               items:
                 - name: Home page Novità o modifiche di Supply Chain Management
                   href: get-started/whats-new-home-page.md
-                - name: Supply Chain Management 10.0.31 (febbraio 2022)
+                - name: Supply Chain Management 10.0.31 (febbraio 2023)
                   href: get-started/whats-new-scm-10-0-31.md
                 - name: Supply Chain Management 10.0.30 (novembre 2022)
                   href: get-started/whats-new-scm-10-0-30.md
@@ -3243,6 +3243,8 @@
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
             - name: Certificazione di origine USMCA
               href: transportation/usmca-certification-of-origin.md
+            - name: Fatture commerciali
+              href: transportation/commercial-invoice.md
             - name: Creare una polizza di carico
               href: transportation/create-bill-of-lading.md
             - name: Pianificare i cicli di lavorazione trasporto
@@ -3433,8 +3435,14 @@
                       href: warehousing/pack-materials-packing-material-fees.md
                     - name: Imballare i contenitori per la spedizione
                       href: warehousing/packing-containers.md
+                    - name: Stampa etichette contenitore
+                      href: warehousing/print-container-labels.md
                     - name: Lavoro di imballaggio per l'imballaggio di contenitori in uscita e l'elaborazione di spedizioni
                       href: warehousing/packing-work.md
+                    - name: Contenitori di imballaggio con l'app per dispositivi mobili Warehouse Management
+                      href: warehousing/warehouse-app-packing-containers.md
+                    - name: 'Scenario di esempio: contenitori di imballaggio con l''app per dispositivi mobili Warehouse Management'
+                      href: warehousing/warehouse-app-pack-containers-scenario.md
                     - name: Impostare la riallocazione articolo per prelievo breve
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Sequenza lavori gestiti dal sistema
@@ -3691,7 +3699,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
                     - name: Raggruppamento di sistema in un elenco lavori aperti
                       href: warehousing/system-group-on-open-work-list.md
-                    - name: Layout di distribuzione del documento per le etichette della targa
+                    - name: Layout etichette di distribuzione documenti
                       href: warehousing/document-routing-layout-for-license-plates.md
                     - name: Codici a barre GS1 e codici a matrice
                       href: warehousing/gs1-barcodes.md
@@ -3701,6 +3709,12 @@
                   items:
                     - name: Aggiornare i processi di gestione magazzino da Microsoft Dynamics AX 2012 per la finanza e le operazioni
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+            - name: Telemetria di magazzino
+              items:
+                - name: Abilitare la telemetria di magazzino con Application Insights
+                  href: warehousing/application-insights-warehousing.md
+                - name: Monitorare l'utilizzo e le prestazioni dei dispositivi mobili
+                  href: warehousing/application-insights-wma.md
         - name: Sviluppo di Supply Chain Management
           items:
             - name: Guida per lo sviluppo del controllo Gantt
