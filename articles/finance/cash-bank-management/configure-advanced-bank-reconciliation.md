@@ -2,7 +2,7 @@
 title: Processo di impostazione per la riconciliazione bancaria avanzata
 description: La funzionalità di riconciliazione bancaria avanzata consente di importare rendiconti bancari elettronici e riconciliarli automaticamente con le transazioni bancarie in Microsoft Dynamics 365 Finance. In questo articolo verrà spiegata l'impostazione dei processi per la riconciliazione.
 author: angelad116
-ms.date: 06/20/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a155174ad3bb815b4f0e6f7ffd893ebf7792bd8
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: e9a1757f7901a12a5b0fc3de730953c5b79cbefb
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151882"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715445"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Processo di impostazione per la riconciliazione bancaria avanzata
 

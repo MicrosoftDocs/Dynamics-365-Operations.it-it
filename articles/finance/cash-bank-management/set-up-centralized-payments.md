@@ -2,7 +2,7 @@
 title: Impostare i pagamenti centralizzati
 description: Utilizzare questa procedura per preparare l'elaborazione dei pagamenti in una persona giuridica per conto di altre persone giuridiche appartenenti all'organizzazione.
 author: angelad116
-ms.date: 05/09/2017
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5474f7a698f5c055717e6c5d23b95fe0ecce8961
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151672"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715642"
 ---
 # <a name="set-up-centralized-payments"></a>Impostare i pagamenti centralizzati
 

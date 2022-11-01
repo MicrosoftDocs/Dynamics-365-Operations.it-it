@@ -1,8 +1,8 @@
 ---
 title: Stornare un pagamento fornitore
-description: Questo articolo descrive le differenze tra lo storno, l'eliminazione, l'annullamento e il rifiuto di un pagamento. Inoltre, illustra i due metodi per stornare un assegno fornitore.
-author: abruer
-ms.date: 08/22/2017
+description: Questo articolo descrive le differenze tra lo storno, l'eliminazione, l'annullamento e il rifiuto di un pagamento e illustra come stornare un assegno del fornitore.
+author: angelad116
+ms.date: 10/24/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: twheelo
 ms.custom: 14361
 ms.assetid: 9f0a1883-cbe0-4cc7-b9f3-dd12fb85ebe8
 ms.search.region: Global
-ms.author: shpandey
+ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6216aed10866dbd5d814ae7f6b5a16ee67874fda
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: db82446d42a6d6fd69757d837fb8544e9b2fb224
+ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858558"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9715804"
 ---
 # <a name="reverse-a-vendor-payment"></a>Stornare un pagamento fornitore
 

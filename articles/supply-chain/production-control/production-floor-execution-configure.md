@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: ae574e25c5ef0c1736ec13e2ee3fcc11b323721f
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9336187"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708727"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -164,7 +164,7 @@ Le seguenti impostazioni sono disponibili nella scheda dettaglio **Generale**:
 - **Consenti blocco del touchscreen** - Impostare questa opzione su *Sì* per consentire ai lavoratori di bloccare il touchscreen dell'interfaccia di esecuzione dell'area di produzione di modo che possano pulirla. Quando questa opzione è impostata su *Sì*, un pulsante **Blocca schermo per pulizia** viene aggiunto alla pagina di accesso. Quando un lavoratore seleziona questo pulsante, il touchscreen viene bloccato temporaneamente per impedire un'immissione involontaria. Viene visualizzato anche un timer per il conto alla rovescia. Il lavoratore può pulire in sicurezza il dispositivo e lo schermo. Al termine del conto alla rovescia, il touchscreen si sblocca automaticamente.
 - **Durata blocco schermo** - Quando l'opzione **Consenti blocco del touchscreen** è impostata su *Sì*, utilizzare questa opzione per specificare il numero di secondi in cui il touchscreen deve essere bloccato per la pulizia. La durata deve essere un numero tra 5 e 120 secondi.
 - **Genera targa** - Impostare questa opzione su *Sì* per generare una nuova targa ogni volta che un lavoratore utilizza l'interfaccia di esecuzione dell'area di produzione. Il numero di targa viene generato da una sequenza numerica impostata nella pagina **Parametri di gestione magazzino**. Quando l'opzione è impostata su *No*, i lavoratori devono specificare una targa esistente al momento della dichiarazione di finito.
-- **Stampa etichetta** - Impostare questa opzione su *Sì* per stampare l'etichetta di una targa quando un lavoratore utilizza l'interfaccia di esecuzione dell'area di produzione per la dichiarazione di finito. La configurazione dell'etichetta è impostata nella distribuzione dei documenti, come descritto in [Layout di distribuzione del documento per le etichette della targa](../warehousing/document-routing-layout-for-license-plates.md).
+- **Stampa etichetta** - Impostare questa opzione su *Sì* per stampare l'etichetta di una targa quando un lavoratore utilizza l'interfaccia di esecuzione dell'area di produzione per la dichiarazione di finito. La configurazione dell'etichetta è impostata nella distribuzione dei documenti, come descritto in [Layout delle etichette di distribuzione dei documenti](../warehousing/document-routing-layout-for-license-plates.md).
 
 ### <a name="the-tab-selection-fasttab"></a>Scheda dettaglio Selezione scheda
 

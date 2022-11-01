@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 0f42ad593f59f716fb6cb535d73654d3549ba00e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c3024ca2e3b7eb24ac9a171def4a72cde7493a7a
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8860727"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708619"
 ---
 # <a name="configure-job-card-for-devices"></a>Configura scheda processo per dispositivi
 
@@ -73,7 +73,7 @@ La Scheda dettaglio **Generale** consente di configurare ciascuna delle varie op
 - **Gruppo di risorse** - Selezionare un gruppo di risorse da applicare come criterio di filtro predefinito per l'elenco dei lavori visibili a ciascun lavoratore. Solo i lavori programmati su risorse raggruppate sotto il gruppo di risorse selezionato verranno inizialmente visualizzati dal dispositivo. Se l'opzione **Consenti ai lavoratori di impostare filtri personali** è abilitata, i lavoratori saranno in grado di modificare questo valore, altrimenti questo filtro si applicherà sempre quando questa configurazione di dispositivo è attiva.
 - **Risorsa** - Selezionare una risorsa da applicare come criterio di filtro predefinito per l'elenco dei lavori visibili a ciascun lavoratore. Solo i lavori programmati sulla risorsa selezionata verranno inizialmente visualizzati dal dispositivo. Se l'opzione **Consenti ai lavoratori di impostare filtri personali** è abilitata, i lavoratori saranno in grado di modificare questo valore, altrimenti questo filtro si applicherà sempre quando questa configurazione di dispositivo è attiva.
 - **Genera targa** - Impostare questa opzione su **Sì** per generare una nuova targa ogni volta che un lavoratore utilizza il dispositivo scheda lavoro per la dichiarazione di finito. Il numero di targa viene generato da una sequenza numerica impostata nella pagina **Parametri di gestione magazzino**. Quando impostata su **No**, i lavoratori devono specificare una targa esistente al momento della dichiarazione di finito.
-- **Stampa etichetta** - Impostare questa opzione su **Sì** per stampare l'etichetta di una targa quando un lavoratore utilizza il dispositivo scheda lavoro per la dichiarazione di finito. La configurazione dell'etichetta è impostata nella distribuzione dei documenti, come descritto in [Layout di distribuzione del documento per le etichette della targa](../warehousing/document-routing-layout-for-license-plates.md).
+- **Stampa etichetta** - Impostare questa opzione su **Sì** per stampare l'etichetta di una targa quando un lavoratore utilizza il dispositivo scheda lavoro per la dichiarazione di finito. La configurazione dell'etichetta è impostata nella distribuzione dei documenti, come descritto in [Layout delle etichette di distribuzione dei documenti](../warehousing/document-routing-layout-for-license-plates.md).
 
 <a name="assigned-users"></a>
 

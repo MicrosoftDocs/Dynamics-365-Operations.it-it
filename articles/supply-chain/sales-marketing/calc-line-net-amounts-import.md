@@ -1,6 +1,6 @@
 ---
-title: Ricalcolare gli importi netti di riga durante l'importazione di ordini cliente, offerte e resi
-description: Questo articolo descrive se e come il sistema ricalcola gli importi netti di riga quando vengono importati ordini cliente, offerte e resi. Descrive inoltre come controllare il comportamento in diverse versioni di Microsoft Dynamics 365 Supply Chain Management.
+title: Ricalcolare gli importi netti di riga durante l'importazione di ordini cliente e offerte
+description: Questo articolo descrive se e come il sistema ricalcola gli importi netti di riga quando vengono importati ordini e offerte. Descrive inoltre come controllare il comportamento in diverse versioni di Microsoft Dynamics 365 Supply Chain Management.
 author: Henrikan
 ms.date: 08/05/2022
 ms.topic: article
@@ -11,25 +11,25 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2022-06-08
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 08b30044a93e46c9c83848b60d69c595bc774570
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: edda0c016130e2a273adf8f3d3e00e2d3ae9d5c6
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335557"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719336"
 ---
-# <a name="recalculate-line-net-amounts-when-importing-sales-orders-quotations-and-returns"></a>Ricalcolare gli importi netti di riga durante l'importazione di ordini cliente, offerte e resi
+# <a name="recalculate-line-net-amounts-when-importing-sales-orders-and-quotations"></a>Ricalcolare gli importi netti di riga durante l'importazione di ordini cliente e offerte
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo descrive se e come il sistema ricalcola gli importi netti di riga quando vengono importati ordini cliente, offerte e resi. Descrive inoltre come controllare il comportamento in diverse versioni di Microsoft Dynamics 365 Supply Chain Management.
+Questo articolo descrive se e come il sistema ricalcola gli importi netti di riga quando vengono importati ordini e offerte. Descrive inoltre come controllare il comportamento in diverse versioni di Microsoft Dynamics 365 Supply Chain Management.
 
 ## <a name="how-updates-to-net-line-amounts-are-calculated-on-import"></a>Calcolo degli aggiornamenti degli importi netti di riga durante l'importazione
 
-Supply Chain Management versione 10.0.23 ha introdotto l'[aggiornamento rapido 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Questo aggiornamento rapido ha modificato le condizioni alle quali il campo **Importo netto** di una riga può essere aggiornato o ricalcolato quando vengono importati gli aggiornamenti di ordini cliente, resi e offerte esistenti. Nella versione 10.0.29, puoi sostituire questo aggiornamento rapido attivando la funzionalità *Calcola importo netto riga all'importazione*. Questa funzionalità ha un effetto simile, ma fornisce un'impostazione globale che ti consente di ripristinare il comportamento precedente se necessario. Sebbene il nuovo comportamento renda il sistema più intuitivo, può produrre risultati imprevisti in specifici scenari in cui vengono soddisfatte tutte le seguenti condizioni:
+Supply Chain Management versione 10.0.23 ha introdotto l'[aggiornamento rapido 604418](https://fix.lcs.dynamics.com/issue/results/?q=604418). Questo aggiornamento rapido ha modificato le condizioni alle quali il campo **Importo netto** di una riga può essere aggiornato o ricalcolato quando vengono importati gli aggiornamenti di ordini cliente e offerte. Nella versione 10.0.29, puoi sostituire questo aggiornamento rapido attivando la funzionalità *Calcola importo netto riga all'importazione*. Questa funzionalità ha un effetto simile, ma fornisce un'impostazione globale che ti consente di ripristinare il comportamento precedente se necessario. Sebbene il nuovo comportamento renda il sistema più intuitivo, può produrre risultati imprevisti in specifici scenari in cui vengono soddisfatte tutte le seguenti condizioni:
 
 - I dati che aggiornano i record esistenti vengono importati tramite l'entità *Righe ordine cliente V2*, *Righe di offerta di vendita V2* o *Righe ordine di reso* utilizzando Open Data Protocol (OData), incluse le situazioni in cui utilizzi la doppia scrittura, l'importazione/esportazione tramite Excel e alcune integrazioni di terze parti.
-- I [criteri di valutazione degli accordi commerciali](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper) in vigore stabiliscono i criteri di modifica che limitano gli aggiornamenti al campo **Importo netto** nelle righe di ordine cliente, di offerta di vendita e/o di ordine di reso.
+- I [criteri di valutazione degli accordi commerciali](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper) in vigore stabiliscono i criteri di modifica che limitano gli aggiornamenti al campo **Importo netto** nelle righe di ordine cliente, di offerta di vendita e/o di ordine di reso. Tieni presente che per le righe dell'ordine di reso, il campo **Importo netto** è sempre calcolato e non può essere impostato manualmente.
 - I dati importati includono modifiche al campo **Importo netto** delle righe oppure modifiche (come prezzo unitario, quantità o sconto) che determineranno il valore del campo **Importo netto** delle righe da ricalcolare per uno o più record di riga esistenti.
 
 In questi scenari specifici, i criteri di valutazione degli accordi commerciali limitano gli aggiornamenti al campo **Importo netto** della riga. Questo limite è noto come *criteri di modifica*. A causa di questi criteri, quando utilizzi l'interfaccia utente per modificare o ricalcolare il campo, il sistema ti chiede di confermare se intendi apportare la modifica. Tuttavia, quando importi un record, è il sistema che deve effettuare la scelta. Prima della versione 10.0.23, il sistema lasciava sempre invariato l'importo netto della riga, a meno che l'importo netto della riga in entrata non fosse 0 (zero). Tuttavia, nelle versioni più recenti, il sistema aggiorna o ricalcola sempre l'importo netto come necessario, a meno che non venga espressamente indicato di non farlo. Sebbene il nuovo comportamento sia più logico, potrebbe causare problemi se stai già eseguendo processi o integrazioni che usano il comportamento precedente. In questo articolo viene descritto come ripristinare il comportamento precedente, se necessario.

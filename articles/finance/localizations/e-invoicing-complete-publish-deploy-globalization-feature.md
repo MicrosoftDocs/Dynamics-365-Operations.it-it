@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: 11378991a24e1a5f5e213d64f0f414db2e5c2573
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 9d4a408f2169b220fefd9ab7e9f3b37217fb3cfe
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9279902"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710837"
 ---
 # <a name="complete-publish-and-deploy-a-globalization-feature"></a>Completare, pubblicare e distribuire una funzionalità di globalizzazione
 
@@ -59,8 +59,8 @@ In RCS, usi il comando **Distribuisci** per pubblicare una versione della funzio
 2. Nella scheda **Versioni** sul lato destro della pagina, seleziona la versione della funzionalità di fatturazione elettronica che vuoi distribuire nell'ambiente di servizio o nell'applicazione connessa. La versione selezionata deve avere lo stato **Completa** o **Pubblicata**.
 3. Seleziona **Distribuisci**, quindi seleziona una e entrambe le seguenti opzioni per definire la destinazione della distribuzione:
 
-    - **Applicazione connessa** – La configurazione fornita dalla configurazione dell'applicazione viene scritta nell'istanza di Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management che era stato precedentemente associata ad essa.
-    - **Ambiente di servizio** – La versione della funzionalità di fatturazione elettronica viene distribuita nell'ambiente di servizio. Fatturazione elettronica è quindi pronto per ricevere ed elaborare i documenti elettronici inviati da Finance o Supply Chain Management.
+    - **Applicazione connessa**: questa opzione è facoltativa, ma deve essere utilizzata se desideri che la configurazione fornita dalla configurazione dell'applicazione venga scritta nell'istanza di Microsoft Dynamics 365 Finance o Dynamics 365 Supply Chain Management che era stato precedentemente associata ad essa. Per ignorare questo tipo di distribuzione è necessaria la configurazione manuale dei parametri definiti nella configurazione dell'applicazione di Finance o Supply Chain Management.
+    - **Ambiente di servizio**: distribuisce la versione della funzionalità di fatturazione elettronica nell'ambiente di servizio. Fatturazione elettronica è quindi pronto per ricevere ed elaborare i documenti elettronici inviati da Finance o Supply Chain Management.
 
 > [!NOTE]
 > Di solito, cambierai i parametri della funzione di reporting elettronico (ER) che deve essere distribuita nell'ambiente di servizio. Le modifiche all'applicazione connessa saranno rare. È consigliabile distribuire le nuove versioni all'applicazione connessa solo quando modifichi i parametri corrispondenti della tua applicazione.

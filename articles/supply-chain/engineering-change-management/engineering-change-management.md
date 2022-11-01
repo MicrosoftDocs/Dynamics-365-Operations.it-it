@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 71b5ec792013ae80be643b9581e388c291d608dd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6c578609a64c21a33f10b64a1d77f006b45bac41
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8849592"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714738"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gestire le modifiche ai prodotti di progettazione
 
@@ -141,6 +141,8 @@ Mentre stai esaminando le notifiche degli ordini di produzione nella pagina **No
 ### <a name="create-a-change-order-from-a-change-request"></a>Creare un ordine di modifica da una richiesta di modifica
 
 Un tecnico che esamina una richiesta di modifica di progettazione può creare un ordine di modifica di progettazione direttamente dalla pagina **Richieste di modifica di progettazione**. Nel riquadro azioni, nella scheda **Richiesta di modifica**, nel gruppo **Ordine di modifica di progettazione** selezionare **Copia collegamento e prodotti**.
+
+Assicurati di selezionare la società corretta per il nuovo ordine di modifica di progettazione. Se l'ordine di modifica comporta la modifica del prodotto di progettazione stesso (nuova versione, nuovo prodotto o nuova variante), l'ordine di modifica deve essere assegnato alla società di progettazione. Se è necessaria solo una modifica locale (**Impatto** è impostata su *Nessuno*), l'ordine di modifica può essere assegnato a un'azienda locale e le modifiche verranno applicate al prodotto corrente.
 
 ## <a name="engineering-change-orders"></a>Ordini di modifica di progettazione
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4ee87eee382263897d97512f6b01c786734a8f27
-ms.sourcegitcommit: b3579ac62e1ea15664a114abcc2409cad76d4f19
+ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
+ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/14/2022
-ms.locfileid: "9682536"
+ms.lasthandoff: 10/24/2022
+ms.locfileid: "9714764"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installare e connettere l'app per dispositivi mobili Warehouse Management
 
@@ -63,6 +63,8 @@ Come alternativa all'installazione da un app store, puoi invece scaricare l'app 
 
 - **Android:** [Gestione magazzino (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
     Se scarichi una versione di anteprima, per installarla sono necessari alcuni passaggi aggiuntivi. Per i dettagli, vedere [Test di app Android](/appcenter/distribution/testers/testing-android).
+
+Per informazioni su come installare una build scaricata dall'App Center, vedi [Installare una build](/appcenter/distribution/installation).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Creare un'applicazione servizio Web in Azure Active Directory
 

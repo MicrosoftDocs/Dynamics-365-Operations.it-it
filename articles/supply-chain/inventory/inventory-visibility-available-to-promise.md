@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-04
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 4a0edeedfe42b43ef36c8ca091b01eef815f3632
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: f831c5d5719bbbd72c7cff37b8b35826f48ce6e4
+ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856195"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9719293"
 ---
 # <a name="inventory-visibility-on-hand-change-schedules-and-available-to-promise"></a>Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise
 
@@ -205,6 +205,7 @@ I risultati in questo esempio mostrano un valore di *scorte disponibili previste
 | `/api/environment/{environmentId}/onhand/bulk` | `POST` | Creare più eventi di modifica scorte disponibili. |
 | `/api/environment/{environmentId}/onhand/indexquery` | `POST` | Esegui la query utilizzando il metodo `POST`. |
 | `/api/environment/{environmentId}/onhand` | `GET` | Esegui la query utilizzando il metodo `GET`. |
+| `/api/environment/{environmentId}/onhand/exactquery` | `POST` | Query esatta utilizzando il metodo `POST`. |
 
 Per maggiori informazioni, vedi [API pubbliche di Visibilità inventario](inventory-visibility-api.md).
 
@@ -394,6 +395,8 @@ Nella richiesta, imposta `QueryATP` su *vero* se vuoi eseguire query per le modi
 > [!NOTE]
 > Indipendentemente dal fatto che il parametro `returnNegative` è impostato su *vero* o *falso* nel corpo della richiesta, il risultato includerà valori negativi quando esegui una query per le modifiche scorte disponibili programmate e i risultati ATP. Questi valori negativi verranno inclusi perché, se sono programmati solo ordini di domanda o se le quantità di offerta sono inferiori alle quantità di domanda, le quantità di modifiche programmate per le scorte disponibili saranno negative. Se i valori negativi non fossero inclusi, i risultati sarebbero imprecisi. Per ulteriori informazioni su questa opzione e su come funziona per altri tipi di query, vedi [API pubbliche di Visibilità inventario](inventory-visibility-api.md#query-with-post-method).
 
+### <a name="query-by-using-the-post-method"></a>Eseguire la query utilizzando il metodo POST
+
 ```txt
 Path:
     /api/environment/{environmentId}/onhand/indexquery
@@ -419,14 +422,14 @@ Body:
     }
 ```
 
-L'esempio seguente mostra come creare un corpo della richiesta che può essere inviato a Visibilità inventario utilizzando il metodo `POST`.
+L'esempio seguente mostra come creare un corpo della richiesta di query indice che può essere inviato a Visibilità inventario utilizzando il metodo `POST`.
 
 ```json
 {
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["Bike"],
-        "siteId": ["1"],
+        "SiteId": ["1"],
         "LocationId": ["11"]
     },
     "groupByValues": ["ColorId", "SizeId"],
@@ -435,7 +438,7 @@ L'esempio seguente mostra come creare un corpo della richiesta che può essere i
 }
 ```
 
-### <a name="get-method-example"></a>Esempio di metodo GET
+### <a name="query-by-using-the-get-method"></a>Eseguire la query utilizzando il metodo GET
 
 ```txt
 Path:
@@ -453,7 +456,7 @@ Query(Url Parameters):
     [Filters]
 ```
 
-L'esempio seguente mostra come creare un URL di richiesta come richiesta `GET`.
+L'esempio seguente mostra come creare un URL di richiesta della query indice come richiesta `GET`.
 
 ```txt
 https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand?organizationId=usmf&productId=Bike&SiteId=1&LocationId=11&groupBy=ColorId,SizeId&returnNegative=true&QueryATP=true
@@ -461,9 +464,53 @@ https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.c
 
 Il risultato di questa richiesta `GET` è esattamente uguale al risultato della richiesta `POST` dell'esempio precedente.
 
+### <a name="exact-query-by-using-the-post-method"></a>Query esatta utilizzando il metodo POST
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/exactquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        dimensionDataSource: string, # Optional
+        filters: {
+            organizationId: string[],
+            productId: string[],
+            dimensions: string[],
+            values: string[][],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+L'esempio seguente mostra come creare un corpo della richiesta di query esatta che può essere inviato a Visibilità inventario utilizzando il metodo `POST`.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["Bike"],
+        "dimensions": ["SiteId", "LocationId"],
+        "values": [
+            ["1", "11"]
+        ]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true,
+    "QueryATP":true
+}
+```
+
 ### <a name="query-result-example"></a>Esempio di risultato di query
 
-Entrambi gli esempi di query precedenti possono produrre la seguente risposta. Per questo esempio, il sistema è configurato con le seguenti impostazioni:
+Uno qualsiasi degli esempi di query precedenti possono produrre la seguente risposta. Per questo esempio, il sistema è configurato con le seguenti impostazioni:
 
 - **Misura calcolata ATP:** *iv.onhand = pos.inbound – pos.outbound*
 - **Periodo programmazione:** *7*

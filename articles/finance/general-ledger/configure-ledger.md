@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: d15980b05cfac68f2e2441c86b4506c13b38b4d5
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 14d6ba013a93756f86e959756dd3073851881095
+ms.sourcegitcommit: c6c2486be2359bd30106f7f52bda788239147d8c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8864341"
+ms.lasthandoff: 10/22/2022
+ms.locfileid: "9713891"
 ---
 # <a name="configure-ledgers"></a>Configurare i libri contabili
 
@@ -42,7 +42,7 @@ Ogni persona giuridica in Dynamics 365 Finance può essere configurata per utili
 
 Tieni presente che, se disponi di più strutture dei conti, puoi selezionare solo strutture dei conti che non hanno combinazioni sovrapposte di conti principali e dimensioni finanziarie. Ad esempio, una delle strutture dei tuoi conti è configurata per aggiungere una Business Unit per i conti principali tra 1000 e 1999. In un'altra struttura dei conti, hai aggiunto una dimensione finanziaria Reparto per i conti principali che iniziano con 1. In questo caso, solo una delle strutture dei conti può essere aggiunta nella stessa persona giuridica.
 
-Per configurare le strutture dei conti per il tuo libro mastro, nella pagina **Contabilità generale**, nella Scheda dettaglio **Strutture dei conti**, seleziona **Aggiungi**, seleziona una struttura di conti nell'elenco, quindi scegli **Seleziona**. Potrebbero essere necessari alcuni minuti per aggiungere e salvare le strutture di conti. Tieni presente che le strutture dei conti che selezioni devono essere attive. In caso contrario, i dettagli delle strutture dei conti non saranno efficaci nelle persone giuridiche a cui sono collegati.
+Per configurare le strutture dei conti per il tuo libro mastro, nella pagina **Contabilità generale**, nella Scheda dettaglio **Strutture dei conti**, seleziona **Aggiungi**, seleziona una struttura di conti nell'elenco, quindi scegli **Seleziona**. Saranno necessari alcuni minuti per aggiungere e salvare le strutture di conti. Quando la struttura dei conti modificata viene salvata nella contabilità generale, inizierà il processo per sincronizzare tutte le transazioni non registrate. È necessario attendere il completamento della modifica per la contabilità generale corrente nella persona giuridica in cui viene apportata la modifica prima di poter apportare una modifica alla struttura dei conti per una contabilità generale in un'altra persona giuridica. Tieni presente che le strutture dei conti che selezioni devono essere attive. In caso contrario, i dettagli delle strutture dei conti non saranno efficaci nelle persone giuridiche a cui sono collegati.
 
 Per rimuovere una struttura dei conti, nella pagina **Contabilità generale**, nella Scheda dettaglio **Strutture dei conti**, seleziona **Rimuovi**. Tieni presente che, se rimuovi una struttura dei conti dal libro mastro, non rimuovi le transazioni registrate utilizzando la configurazione di quella struttura dei conti.
 
@@ -70,7 +70,7 @@ Per ulteriori informazioni sul bilanciamento delle voci, vedi [Giornali bilancia
 
 La pagina **Contabilità generale** viene utilizzata anche per controllare e definire le valute che verranno utilizzate quando le transazioni vengono registrate nella contabilità generale. Devi specificare la valuta contabile, che è la valuta utilizzata nella colonna **Valuta contabile** nella contabilità generale su tutti i giustificativi . Inoltre, nella colonna **valuta di dichiarazione** puoi selezionare facoltativamente una seconda valuta. Se selezioni una valuta di dichiarazione, tutte le transazioni verranno registrate in quella valuta nella colonna **Valuta di dichiarazione** nella contabilità generale su tutti i giustificativi.
 
-Se le transazioni vengono registrate in una valuta diversa, il sistema converte automaticamente l'importo della transazione dalla valuta delle transazioni nella valuta contabile e nella valuta di dichiarazione sul giustificativo. Nella pagina **Contabilità generale**, nel campo **Tipo di tasso di cambio valuta contabile** seleziona il tipo di tasso di cambio configurato per i tassi di cambio da utilizzare per convertire i valori dalla valuta della transazione alla valuta contabile su un giustificativo. Se hai selezionato una valuta di dichiarazione, devi anche impostare il campo **Tipo di tasso di cambio valuta di dichiarazione** per indicare il tasso di cambio da utilizzare per convertire i valori dalla valuta della transazione alla valuta di dichiarazione su un giustificativo.
+Se le transazioni vengono registrate in una valuta diversa, il sistema converte automaticamente l'importo della transazione dalla valuta della transazione nella valuta contabile e nella valuta di dichiarazione sul giustificativo. Nella pagina **Contabilità generale**, nel campo **Tipo di tasso di cambio valuta contabile** seleziona il tipo di tasso di cambio configurato per i tassi di cambio da utilizzare per convertire i valori dalla valuta della transazione alla valuta contabile su un giustificativo. Se hai selezionato una valuta di dichiarazione, devi anche impostare il campo **Tipo di tasso di cambio valuta di dichiarazione** per indicare il tasso di cambio da utilizzare per convertire i valori dalla valuta della transazione alla valuta di dichiarazione su un giustificativo.
 
 Se utilizzi la funzionalità di definizione del budget, puoi anche impostare il campo **Tipo di tasso di cambio del budget** per indicare il tasso di cambio da utilizzare per convertire le transazioni di budget da una valuta all'altra.
 

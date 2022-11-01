@@ -15,12 +15,12 @@ ms.dyn365.ops.version: ''
 ms.custom: ''
 ms.assetid: ''
 ms.search.form: ''
-ms.openlocfilehash: a837b85d4893f2915b5fbb5ffaae8eb95f19bc0e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 938b00192acc0ff5534239f2f280792471181fad
+ms.sourcegitcommit: 1ecfc1d8afb2201ab895ae6f93304ba2b120f14b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272271"
+ms.lasthandoff: 10/21/2022
+ms.locfileid: "9710810"
 ---
 # <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Installa il componente aggiuntivo per microservizi in Lifecycle Services
 
@@ -35,7 +35,7 @@ Per registrare un ambiente, attenersi a questa procedura.
 2. Nel progetto, nel dashboard **Ambienti**, selezionare il progetto distribuito. L'ambiente selezionato deve essere in esecuzione.
 3. Nella scheda **Integrazione di Power Platform**, nella sezione **Componenti aggiuntivi dell'ambiente**, seleziona **Installa un nuovo componente aggiuntivo**.
 4. Seleziona **Fatturazione elettronica**.
-5. Nel campo **ID applicazione AAD** inserisci **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Questo valore è un valore fisso. Assicurati di inserire solo un identificatore univoco globale (GUID). Non includere altri simboli, come spazi, virgole, punti o virgolette.
+5. Nel campo **ID applicazione AAD**, immetti il valore fisso **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Questo valore è sempre fisso. Assicurati di inserire solo un identificatore univoco globale (GUID). Non includere altri simboli, come spazi, virgole, punti o virgolette.
 6. Nel campo **ID tenant AAD** immettere l'ID tenant dell'account di sottoscrizione di Azure. Il tentant Azure Active Directory (Azure AD) specificato deve essere lo stesso tenant utilizzato per Regulatory Configuration Service (RCS).
 7. Esaminare i termini e le condizioni e quindi selezionare la casella di controllo.
 8. Seleziona **Installa**. Dopo alcuni minuti, lo stato cambia da **Installazione in corso** in **Installato**. Potrebbe essere necessario aggiornare la pagina per visualizzare la modifica.

@@ -1,5 +1,5 @@
 ---
-title: Layout di distribuzione del documento per le etichette della targa
+title: Layout delle etichette di distribuzione documenti
 description: Questo articolo descrive come utilizzare i metodi di formattazione per stampare i valori sulle etichette.
 author: perlynne
 ms.date: 04/01/2020
@@ -13,23 +13,24 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 10e63353cda93d666d7f23f59508b73e5492c3cc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a4e0c16b71c257cae832870ca58679884047ea16
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847877"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708647"
 ---
-# <a name="document-routing-layout-for-license-plate-labels"></a>Layout della distribuzione del documento per le etichette della targa
+# <a name="document-routing-label-layout"></a>Layout delle etichette di distribuzione documenti
 
 [!include [banner](../includes/banner.md)]
 
+In questo articolo viene descritto come creare layout per etichette di targa, contenitore e ciclo. Fornisce inoltre le linee guida per l'utilizzo del linguaggio di programmazione Zebra (ZPL) utilizzato per creare i layout.
 
-Il layout di distribuzione del documento definisce il layout delle etichette della targa e dei dati che vi vengono stampati. Configurare i punti di attivazione della stampa quando si impostano le voci di menu del dispositivo mobile e i modelli di lavoro.
+I layout delle etichette di distribuzione dei documenti definiscono il modo in cui le etichette vengono disposte e dei dati che vi vengono stampati. Configurare i punti di attivazione della stampa quando si impostano le voci di menu del dispositivo mobile e i modelli di lavoro.
 
-In uno scenario tipico, gli addetti al ricevimento del magazzino stampano le etichette della targa immediatamente dopo aver registrato il contenuto dei pallet che arrivano nell'area di ricevimento. Le etichette fisiche vengono applicate ai pallet. Possono quindi essere utilizzati per la convalida come parte del processo di stoccaggio che segue e delle operazioni di prelievo in uscita future.
+Le informazioni in questo articolo si applicano a tutti i layout delle etichette di distribuzione dei documenti, inclusi i layout per [etichette di targa](tasks/license-plate-label-printing.md), [etichette dei contenitori](print-container-labels.md) e [etichette di ciclo](configure-wave-label-printing.md).
 
-È possibile stampare etichette molto complesse, a condizione che il dispositivo di stampa sia in grado di interpretare il testo che viene inviato. Ad esempio, un layout Zebra Programming Language (ZPL) che include un codice a barre potrebbe assomigliare al seguente esempio.
+È possibile stampare etichette molto complesse, a condizione che il dispositivo di stampa sia in grado di interpretare il testo che viene inviato. Ad esempio, un layout ZPL che include un codice a barre potrebbe assomigliare al seguente esempio.
 
 ```dos
 ^XA~TA000~JSN^LT0^MNW^MTD^PON^PMN^LH0,0^JMA^PR2,2~SD15^JUS^LRN^CI0^XZ
@@ -45,11 +46,9 @@ In uno scenario tipico, gli addetti al ricevimento del magazzino stampano le eti
 ^PQ1,,,Y^XZ
 ```
 
-Come parte del processo di stampa delle etichette, il testo `$LicensePlateId$` in questo esempio verrà sostituito con un valore di dati.
+Come parte del processo di stampa delle etichette, il testo `$LicensePlateId$` in questo esempio verrà sostituito con un valore di dati. Diversi strumenti di generazione di etichette ampiamente disponibili possono aiutare a formattare il testo per il layout dell'etichetta. Molti di questi strumenti supportano il formato `$FieldName$`. Inoltre, Microsoft Dynamics 365 Supply Chain Management utilizza una logica di formattazione speciale come parte della mappatura dei campi per il layout della distribuzione del documento.
 
 Per vedere i valori che verranno stampati, andare a **Gestione magazzino \> Richieste di informazioni e report \> Etichette della targa**.
-
-Diversi strumenti di generazione di etichette ampiamente disponibili possono aiutare a formattare il testo per il layout dell'etichetta. Molti di questi strumenti supportano il formato `$FieldName$`. Inoltre, Microsoft Dynamics 365 Supply Chain Management utilizza una logica di formattazione speciale come parte della mappatura dei campi per il layout della distribuzione del documento.
 
 ## <a name="turn-on-this-feature-for-your-system"></a>Attivare questa funzionalità per il sistema
 
@@ -137,7 +136,10 @@ $DisplayListOfItemsNumbers()[1]$
 
 ## <a name="more-information-about-how-to-print-labels"></a>Ulteriori informazioni sulla stampa delle etichette
 
-Per ulteriori informazioni su come impostare e stampare le etichette, vedere [Abilitare la stampa dell'etichetta della targa](tasks/license-plate-label-printing.md).
+Per ulteriori informazioni su come impostare e stampare le etichette, vedi gli articoli seguenti.
 
+- [Stampa di etichette di targa](tasks/license-plate-label-printing.md)
+- [Stampa di etichette di contenitore](print-container-labels.md)
+- [Stampa di etichette ciclo](configure-wave-label-printing.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

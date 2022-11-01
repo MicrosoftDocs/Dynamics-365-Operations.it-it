@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 62f771f6eda949f13536e700ef13a118881886ef
-ms.sourcegitcommit: 873d66c03a51ecb7082e269f30f5f980ccd9307f
+ms.openlocfilehash: c377a910cca8bbf1fd640b6c9a99810be1a8d40f
+ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9123532"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9708696"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.10 (maggio 2020)
 
@@ -39,7 +39,7 @@ Questa versione include le seguenti funzionalità. I titoli delle funzionalità 
 
 - [Miglioramenti della gestione del carico in entrata per la gestione del magazzino](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Per ulteriori informazioni, vedere [Gestione magazzino dei carichi in entrata per gli ordini fornitore](../warehousing/inbound-load-handling.md).
 
-- [Miglioramenti alla stampa di etichette per la gestione del magazzino](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Per ulteriori informazioni, vedere [Layout di distribuzione del documento per le etichette della targa](../warehousing/document-routing-layout-for-license-plates.md).
+- [Miglioramenti alla stampa di etichette per la gestione del magazzino](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Per altre informazioni, vedi [Layout delle etichette di distribuzione dei documenti](../warehousing/document-routing-layout-for-license-plates.md).
 
 - [La pianificazione generale include articoli con scorte disponibili quando sono abilitati i filtri di preelaborazione](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
