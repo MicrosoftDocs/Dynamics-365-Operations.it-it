@@ -692,20 +692,14 @@
               items:
                 - name: Processo di impostazione riconciliazione estratti conto avanzata
                   href: cash-bank-management/configure-advanced-bank-reconciliation.md
-                - name: Impostare il processo di importazione della riconciliazione estratti conto avanzata
-                  href: cash-bank-management/set-up-advanced-bank-reconciliation-import-process.md
                 - name: Impostare il processo di importazione della riconciliazione estratti conto avanzata usando Creazione di report elettronici
                   href: accounts-payable/import-bai2-er.md
                 - name: Impostare le regole di abbinamento della riconciliazione estratti conto
                   href: cash-bank-management/set-up-bank-reconciliation-matching-rules.md
                 - name: Riconciliare rendiconti bancari utilizzando la riconciliazione estratti conto avanzata
                   href: cash-bank-management/reconcile-bank-statements-advanced-bank-reconciliation.md
-                - name: Importazione MT940 riconciliazione estratti conto avanzata - Aggiornamento entità di dati compositi
-                  href: cash-bank-management/advanced-bank-reconciliation-mt940-data-entity-upgrade-steps.md
                 - name: Panoramica della riconciliazione estratti conto avanzata
                   href: cash-bank-management/advanced-bank-reconciliation-overview.md
-                - name: Risoluzione dei problemi di importazione file rendiconto bancario
-                  href: cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: Aggiornare l'entità composita giornale di registrazione bancario
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Contabilità industriale

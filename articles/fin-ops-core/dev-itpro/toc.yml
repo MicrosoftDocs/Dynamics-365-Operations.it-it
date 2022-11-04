@@ -334,12 +334,16 @@
                       href: deployment/deployenvironment-newinfrastructure.md
                     - name: Domande frequenti sulla distribuzione
                       href: deployment/deploymentFAQ.md
+                    - name: Eseguire la migrazione di un ambiente
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Problemi noti della distribuzione self service
                       href: deployment/known-issues-new-deployment-experience.md
                     - name: Operazioni di gestione delle distribuzioni
                       href: deployment/maintenanceoperationsguide-newinfrastructure.md
                     - name: Aggiornare un ambiente
                       href: deployment/updateenvironment-newinfrastructure.md
+                    - name: Eseguire la migrazione di un ambiente
+                      href: deployment/geo-to-geo-migrations.md
                     - name: Risolvere i problemi relativi agli ambienti distribuiti tramite la distribuzione self service
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Domande frequenti sulla manutenzione programmata in ambienti self-service
@@ -972,6 +976,8 @@
               href: lifecycle-services/lcs-user-guide.md
             - name: Integrazione progetto
               href: lifecycle-services/project-onboarding.md
+            - name: Gestione migrazione del progetto
+              href: lifecycle-services/project-migration-manager.md
             - name: Strumento di stima delle sottoscrizioni
               href: lifecycle-services/subscription-estimator.md
             - name: Configurare la sicurezza

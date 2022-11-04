@@ -2239,6 +2239,16 @@
                   href: procurement/tasks/create-purchasing-policies.md
                 - name: Impostare criteri per le gerarchie di categorie di approvvigionamento
                   href: procurement/tasks/set-up-policies-procurement-category-hierarchies.md
+            - name: Valutazione rischio offerta
+              items:
+                - name: Panoramica della valutazione rischio offerta
+                  href: procurement/supply-risk-assessment-overview.md
+                - name: Configurare la valutazione rischio offerta
+                  href: procurement/supply-risk-assessment-configuration.md
+                - name: Area di lavoro utile per scoprire e gestire i rischi dei fornitori
+                  href: procurement/supply-risk-assessment-workspace.md
+                - name: Report Power BI per l'analisi dei rischi e la classifica delle prestazioni
+                  href: procurement/supply-risk-assessment-reports.md
             - name: Entrate prodotti e fatturazione
               items:
                 - name: Entrata prodotti e ordini fornitore
