@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4cc556c47f7027f2f5d5b24c235b11ced63b3e4e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab5729cd441246a6c04ac060d5a69f949bfe47c5
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905894"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725479"
 ---
 # <a name="manage-folios"></a>Gestire le registrazioni
 
@@ -48,9 +48,9 @@ Nella seguente tabella sono descritti i pulsanti disponibili nella scheda **Gest
 
 | Pulsante | Descrizione |
 |---|---|
-| Registra elenco entrate | Consente di registrare un elenco entrate per tutte le righe di ordine fornitore nella registrazione. Se si utilizzano spedizioni con più società, per ogni società viene aperta una nuova finestra di dialogo per la registrazione degli elenchi entrate. |
-| Registra entrata prodotti | Consente di registrare un entrata prodotti per tutte le righe di ordine fornitore nella registrazione. In caso di viaggi con più società, per ogni società viene aperta una nuova finestra di dialogo per la registrazione delle entrate prodotti. |
-| Registra fattura | Consente di registrare una fattura per tutte le righe di ordine fornitore nella registrazione. In caso di viaggi con più società, per ogni società viene aperta una nuova finestra di dialogo per la registrazione delle fatture. |
+| Registra elenco entrate | Consente di registrare un elenco entrate per tutte le righe di ordine fornitore nella registrazione.  |
+| Registra entrata prodotti | Consente di registrare un entrata prodotti per tutte le righe di ordine fornitore nella registrazione. |
+| Registra fattura | Consente di registrare una fattura per tutte le righe di ordine fornitore nella registrazione.  |
 | Ordine di trasferimento spedizione | Consente di registrare un ordine di trasferimento per tutte le righe di ordine di trasferimento correlate alla registrazione corrente nella relativa spedizione. |
 | Ricevi ordine di trasferimento | Consente di registrare un ricevimento dell'ordine di trasferimento per tutte le righe di ordine di trasferimento correlate alla registrazione corrente nella relativa spedizione. |
 | Ricevi merci in transito | Consente di ricevere tutte le righe dell'ordine in transito nella registrazione. |
@@ -65,7 +65,7 @@ Nella seguente tabella sono descritti i pulsanti disponibili nella scheda **Gene
 
 | Pulsante | Descrizione |
 |---|---|
-| Elenco entrate | Consente di registrare un elenco entrate per tutte le righe di ordine fornitore nella registrazione. In caso di viaggi con più società, per ogni società viene aperta una nuova finestra di dialogo per la registrazione degli elenchi entrate. |
+| Elenco entrate | Consente di registrare un elenco entrate per tutte le righe di ordine fornitore nella registrazione.  |
 | Entrata prodotti | Visualizza il record dell'entrata prodotti, se utilizzato. |
 | Arrivo articoli | Visualizza il giornale di registrazione arrivi articoli, se utilizzato. |
 | Richiesta di informazioni sui costi | Apre la pagina della richiesta di informazioni dei costi per visualizzare tutti i costi di un viaggio, inclusi il contenitore di spedizione, la registrazione e l'ordine fornitore. È possibile modificare la visualizzazione esatta della pagina utilizzando l'azione Visualizza. Nella pagina della richiesta di informazioni sui costi, è possibile visualizzare una qualsiasi delle aree, più l'articolo e il codice di tipo di costo. Rimuovendo questi articoli, è possibile modificare la pagina raggruppando i costi. Questa funzionalità può essere utile se si utilizzano dimensioni e colori. È possibile modificare le dimensioni visualizzate nella pagina. La pagina **Costi** mostra solo i codici di tipo di costo in cui il campo **Dr** nella scheda **Registrazione** è impostato su *Articolo*. |

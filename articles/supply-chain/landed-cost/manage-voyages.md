@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 43f28a7e30dbbe15bb02d26483289f25515fcfca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 4499eeb9cdd4efd9c4b630106c6e052378191f2a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8905865"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725483"
 ---
 # <a name="manage-voyages"></a>Gestire i viaggi
 
@@ -29,7 +29,8 @@ Un viaggio rappresenta in genere un'imbarcazione. Tuttavia, a seconda delle prat
 La pagina **Tutti i viaggi** fornisce dettagli sui viaggi, informazioni su consegne e costi e informazioni su articoli, ordini fornitore e ordini di trasferimento. Per aprire la pagina **Tutti i viaggi**, selezionare **Costo sbarcato \> Viaggi \> Tutti i viaggi**. Questa pagina mostra un elenco di tutti i viaggi correnti. È possibile utilizzare i pulsanti nel riquadro Azioni per creare, eliminare e utilizzare i viaggi. Selezionare un viaggio nell'elenco per visualizzarne i dettagli.
 
 > [!NOTE]
-> Le registrazioni e i contenitori di spedizione sono collegati a un viaggio. Le righe di acquisto sono collegate a un contenitore di spedizione. Se le registrazioni e i contenitori di spedizione sono disattivati, possono anche essere collegati direttamente a un viaggio. Inoltre, i costi immessi qui vengono ripartiti tra tutte le righe di acquisto associate.
+> Le registrazioni e i contenitori di spedizione sono collegati a un viaggio. Le righe di acquisto sono collegate a un contenitore di spedizione. Inoltre, i costi immessi qui vengono ripartiti tra tutte le righe di acquisto associate.
+> L'ordine fornitore del progetto non è supportato in Costo di spedizione.
 
 ## <a name="action-pane"></a>Riquadro azioni
 

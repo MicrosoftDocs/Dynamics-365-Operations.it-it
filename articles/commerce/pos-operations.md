@@ -2,7 +2,7 @@
 title: Operazioni POS online e offline
 description: In questo articolo vengono forniti i dettagli relativi alle operazioni POS in Dynamics 365 Commerce. Specifica dove è possibile richiamare le operazioni nell'applicazione e se sono disponibili in modalità offline.
 author: josaw1
-ms.date: 05/27/2022
+ms.date: 10/27/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 39f827d759f37daf056ff2df6284dda3db113c7f
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272851"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728278"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -101,7 +101,7 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 | 212  | Informazioni sulla scheda della flotta                                   | Questa operazione non è supportata.                                                                                                                                                                                | Non applicabile | Non applicabile     | Non applicabile | Non applicabile    | Non applicabile  |
 | 213  | Pagamento con nota credito                                   | Accetta una nota di credito (giustificativo) emessa dal punto vendita.                                                                                                                                                          | Sì            | Sì                | Numero             | Numero                | Numero              |
 | 214  | Pagamento con gift card                                     | Accetta una gift card emessa dal punto vendita.                                                                                                                                                                      | Sì            | Sì                | Numero             | Numero                | Numero              |
-| 215  | Liquida gift card                                | Questa operazione non è supportata.                                                                                                                                                                                | Sì            | Sì                | Numero             | Numero                | Numero              |
+| 215  | Liquida gift card                                | Transazione di credito con l'intero importo del saldo residuo della gift card se entro il limite di liquidazione configurato.                                                                                                                                                                              | Sì            | Sì                | Numero             | Numero                | Numero              |
 | 216  | Pagamento importo esatto con carta                                    | Questa operazione non è supportata.                                                                                                                                                                                | Non applicabile | Non applicabile     | Non applicabile | Non applicabile    | Non applicabile  |
 | 217  | Pagamento importo esatto con assegno                                   | Questa operazione non è supportata.                                                                                                                                                                                | Non applicabile | Non applicabile     | Non applicabile | Non applicabile    | Non applicabile  |
 | 218  | Pagamento importo esatto con conto cliente                        | Questa operazione non è supportata.                                                                                                                                                                                | Non applicabile | Non applicabile     | Non applicabile | Non applicabile    | Non applicabile  |

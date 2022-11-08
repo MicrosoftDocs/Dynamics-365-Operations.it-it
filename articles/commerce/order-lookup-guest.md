@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 4f381f1ec0ea08f18db3cac474e8990906364504
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 757e83887e318dd6aa54106fb78305f1d94e0f90
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286893"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734269"
 ---
 # <a name="enable-order-lookup-for-guest-checkouts"></a>Abilitare la ricerca degli ordini per checkout guest
 
@@ -73,6 +73,11 @@ Prima che gli utenti guest possano visualizzare i dettagli dell'ordine, la pagin
 Nelle e-mail relative agli ordini, puoi fornire un collegamento o un pulsante che indirizzi i clienti alla pagina dei dettagli del loro ordine. Per aggiungere questo collegamento o pulsante, crea un collegamento ipertestuale HTML che punta alla pagina dei dettagli dell'ordine sul tuo sito di e-commerce e passa l'ID di conferma dell'ordine e l'indirizzo e-mail del cliente come parametri URL, come mostrato nell'esempio seguente.
 
 `<a href="https://[domain]/[orderdetailspage]?confirmationId=%orderconfirmationid%&propertyName=email&propertyValue=%customeremailaddress%" target="_blank">View my order status</a>`
+
+> [!NOTE]
+> Per abilitare la funzione di ricerca dell'ordine, assicurati che la chiave **Offerte** sia abilitata sotto **Configurazione della licenza** > **Chiavi di configurazione**.
+>
+>![La configurazione della chiave della licenza Offerte deve essere attivata](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

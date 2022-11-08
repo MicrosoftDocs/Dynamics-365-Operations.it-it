@@ -2,19 +2,19 @@
 title: Codici di riferimento degli errori del modulo di checkout
 description: Questo articolo descrive i codici di riferimento degli errori del modulo di checkout mostrati nei messaggi di errore rivolti all'utente in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/20/2022
+ms.date: 10/27/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-09-20
-ms.openlocfilehash: cd8269a71e56f23dbe3782ec3ffc69ec3ea6b151
-ms.sourcegitcommit: 6bd8822f7aa781d596b70956bead834117cf302c
+ms.openlocfilehash: 952cb932522b4e0bb91be985e4f8974cb6cd8bc0
+ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709667"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728247"
 ---
 # <a name="checkout-module-error-reference-codes"></a>Codici di riferimento degli errori del modulo di checkout
 
@@ -31,9 +31,13 @@ A seconda dell'errore riscontrato, la tabella in questo articolo include i detta
 - Informazioni da considerare nell'ambiente o nelle configurazioni del connettore di pagamento
 - Informazioni a cui è possibile fare riferimento in un caso di supporto, se è necessaria ulteriore assistenza
 
+## <a name="prerequisites"></a>Prerequisiti
+
+Per abilitare i codici di riferimento degli errori del modulo di pagamento elencati di seguito, nel generatore siti per il tuo sito, vai a **Impostazioni sito \> Estensioni**, e nella sezione **Carrello e pagamento** seleziona **Abilita messaggistica di visualizzazione errori canale online avanzata**. 
+
 ## <a name="checkout-module-error-reference-codes"></a>Codici di riferimento degli errori del modulo di checkout
 
-Utilizzare la tabella seguente per ottenere maggiori dettagli sui riferimenti ai codici errore forniti dai clienti o riscontrati nel punto vendita online.
+Utilizzare la tabella seguente per ottenere maggiori dettagli sui riferimenti ai codici errore forniti dai clienti o riscontrati nel punto vendita online. Scorri verso destra per visualizzare la colonna **Descrizione dell'errore**.
 
 | Codice errore | Codice errore correlati a Dynamics | Descrizione errore |
 | ---------- | ------------------------------ | ----------------- |

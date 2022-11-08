@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 60f9d84b240016671ff726fc3cca2e02cfd811ca
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
+ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689226"
+ms.lasthandoff: 10/29/2022
+ms.locfileid: "9731612"
 ---
 # <a name="proactive-quality-updates"></a>Aggiornamenti qualitativi proattivi
 
@@ -40,13 +40,13 @@ Sono già stati ottenuti numerosi progressi che consentono la consegna proattiva
 
 - **Aggiornamento con tempi di inattività prossimi allo zero** – Per eseguire il push di ambienti più frequenti, è essenziale ridurre l'impatto sulla disponibilità dell'ambiente per preservare i contratti di servizio (SLA, Service Level Agreement) di Dynamics 365. L'aggiornamento con tempi di inattività prossimi allo zero è stato originariamente introdotto per migliorare le patch mensili del sistema operativo utilizzando un failover del cluster per attivare l'immagine aggiornata con interruzioni minime. Il meccanismo per l'applicazione degli aggiornamenti è stato migliorato in modo da ridurre le perturbazioni e riguarderà sia le patch del sistema operativo che la distribuzione degli aggiornamenti qualitativi.
 
-    Per gli utenti interattivi, è possibile che una sessione attiva venga interrotta e che il nuovo tentativo passi all'ambiente aggiornato. Con l'introduzione della [programmazione batch basata su priorità](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), ora disponibile dietro consenso esplicito, la programmazione e l'elaborazione batch vengono ripristinate e riprese immediatamente dopo l'aggiornamento. La programmazione batch basata su priorità sarà disponibile per i clienti prima che inizino a partecipare alla distribuzione proattiva degli aggiornamenti qualitativi per i loro ambienti di produzione.
+Per gli utenti interattivi, è possibile che una sessione attiva venga interrotta e che il nuovo tentativo passi all'ambiente aggiornato. Con l'introduzione della [programmazione batch basata su priorità](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), la programmazione e l'elaborazione batch vengono ripristinate e riprese immediatamente dopo l'aggiornamento. La programmazione batch basata su priorità sarà disponibile per i clienti prima che inizino a partecipare alla distribuzione proattiva degli aggiornamenti qualitativi per i loro ambienti di produzione.
 
 - **Ore notturne** – Le ore notturne sono definite per ogni area di Azure e gli aggiornamenti con tempi di inattività prossimi allo zero si verificheranno durante il periodo di ore notturne.
 
 ## <a name="the-proactive-update-process"></a>Processo di aggiornamento proattivo
 
-La distribuzione degli aggiornamenti qualitativi proattivi seguirà un processo di distribuzione sicura (SDP). Le specifiche dell'SDP si evolveranno, ma gli aggiornamenti qualitativi verranno inizialmente distribuiti in ambienti sandbox. Il processo inizierà con gli ambienti che acconsentono esplicitamente alla distribuzione anticipata. Con l'aumento della percentuale di sandbox distribuite correttamente, inizierà la distribuzione negli ambienti di produzione. Ancora una volta, il processo inizierà con gli ambienti che acconsentono esplicitamente alla distribuzione anticipata. I sistemi di ascolto monitoreranno la telemetria del sistema e gli incidenti Livesite e interromperanno il rollout di una versione specifica se viene rilevata una qualsiasi regressione. I clienti potranno comunque eseguire il pull degli aggiornamenti qualitativi prima dell'implementazione proattiva, se lo desiderano.
+La distribuzione degli aggiornamenti qualitativi proattivi seguirà un processo di distribuzione sicura (SDP). Le specifiche dell'SDP si evolveranno, ma gli aggiornamenti qualitativi verranno inizialmente distribuiti in ambienti sandbox. Con l'aumento della percentuale di sandbox distribuite correttamente, inizierà la distribuzione negli ambienti di produzione. I sistemi di ascolto monitoreranno la telemetria del sistema e gli incidenti Livesite e interromperanno il rollout di una versione specifica se viene rilevata una qualsiasi regressione. I clienti potranno comunque eseguire il pull degli aggiornamenti qualitativi prima dell'implementazione proattiva, se lo desiderano.
 
 I dati sulla gestione delle release correnti mostrano che meno del 3% delle regressioni viene introdotto negli aggiornamenti qualitativi. Con una maggiore attenzione all'eliminazione della regressione e un SDP migliorato, il potenziale impatto delle regressioni sarà notevolmente inferiore rispetto ai guadagni in termini di qualità che si ottengono con una distribuzione più rapida delle correzioni ai clienti.
 
@@ -92,13 +92,13 @@ Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le fines
 **Versione dell'app: 10.0.1326.70**
 **Articolo corrispondente più recente della KB: 748926**
 
-| Stazione | Regioni | Prossima programmazione sandbox
-|---|---|---|
-| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 14 ottobre al 17 ottobre 2022 |
-| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 15 ottobre al 18 ottobre 2022 |
-| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 16 ottobre al 19 ottobre 2022 |
-| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 17 ottobre al 20 ottobre 2022 |
-| Stazione 5 | DoD, Government Community Cloud, Cina | Non programmato |
+| Stazione | Regioni | Programmazione completata | Prossima programmazione sandbox|
+|---|---|---|---|
+| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 14 ottobre al 17 ottobre 2022 | Dal 2 novembre al 5 novembre 2022 |
+| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 15 ottobre al 18 ottobre 2022 | Dal 2 novembre al 5 novembre 2022 |
+| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 16 ottobre al 19 ottobre 2022 | Dal 2 novembre al 5 novembre 2022 |
+| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 17 ottobre al 20 ottobre 2022 | Dal 2 novembre al 5 novembre 2022 |
+| Stazione 5 | DoD, Government Community Cloud, Cina | Non programmato | Non programmato |
 
 > [!IMPORTANT] 
 > Con cinque giorni di anticipo, Microsoft aggiornerà la pianificazione precedente e invierà notifiche tramite posta elettronica all'insieme di ambienti pianificati per ricevere questi aggiornamenti di qualità. La pianificazione precedente è applicabile solo agli ambienti a cui è stato notificato un aggiornamento imminente. Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le finestre di manutenzione pianificate per area?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).

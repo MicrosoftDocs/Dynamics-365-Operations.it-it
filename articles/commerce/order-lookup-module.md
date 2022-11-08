@@ -14,12 +14,12 @@ ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: 8c60ed0c334bf09916dd633302c6d813ea6f16b6
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: a891de4a1da6641a02b8316d16ac2e9a8180fac1
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281456"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734253"
 ---
 # <a name="order-lookup-module"></a>Modulo di ricerca ordini
 
@@ -44,6 +44,12 @@ L'illustrazione seguente mostra un esempio del modulo di cui viene eseguito il r
 ## <a name="add-an-order-lookup-module-to-a-page"></a>Aggiungere un modulo di ricerca ordini a una pagina
 
 Il modulo di ricerca ordini può essere aggiunto al corpo di qualsiasi pagina del sito di e-commerce. Se si desidera utilizzare il modulo di ricerca ordini per abilitare la ricerca per il checkout come guest, assicurarsi di aggiungerlo a una pagina che non richieda l'accesso dell'utente. Per trovare l'impostazione **È necessario l'accesso?** nella visualizzazione ad albero del generatore di siti di Commerce, selezionare lo slot **Pagina predefinita (richiesta)** ed esaminare la parte inferiore del riquadro destro.
+
+
+> [!NOTE]
+> Per abilitare la funzione di ricerca dell'ordine, assicurati che la chiave **Offerte** sia abilitata sotto **Configurazione della licenza** > **Chiavi di configurazione**.
+>
+> ![La configurazione della chiave della licenza Offerte deve essere attivata](./media/Quotations_License_Key_Configuration.png)
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

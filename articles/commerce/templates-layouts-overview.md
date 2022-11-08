@@ -2,7 +2,7 @@
 title: Panoramica modelli e layout
 description: In questo articolo vengono descritti i modelli e i layout in Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-ms.date: 12/12/2019
+ms.date: 10/26/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: e0bf7e942339775b2e9ee15060d555be07c1cdc5
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0664dd1ae06d09557cf8b8ec58baf6d27c1198bd
+ms.sourcegitcommit: 023ae5557e1351a8329a59a41a551e8901db99a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9277935"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9733386"
 ---
 # <a name="templates-and-layouts-overview"></a>Panoramica modelli e layout
 
@@ -66,7 +66,13 @@ Il modello in questo esempio definisce una struttura semplice e un insieme di op
 
 Un passaggio iniziale importante per amministratori di siti e marchi consiste nel trovare il giusto equilibrio tra vincolo e flessibilità degli autori di pagine e layout figlio. Quando i modelli sono utilizzati, questo equilibrio è totalmente configurabile. Determina se gli elementi della pagina vengono aggiornati centralmente (bloccati nel modello) o lasciati in singoli livelli figlio che sono più in basso nella gerarchia delle pagine.
 
-Per iniziare a utilizzare i modelli, vedere [Utilizzare i modelli](work-with-templates.md).
+### <a name="relationship-between-template-defaults-and-page-content"></a>Relazione tra le impostazioni predefinite del modello e il contenuto della pagina
+
+La funzione principale di un modello è semplificare l'esperienza di creazione del modulo quando viene creata una pagina. Anche quando le impostazioni predefinite del modulo sono impostate, o addirittura bloccate, in un modello, non c'è ulteriore connessione dati dalle configurazioni del modulo di una pagina alle impostazioni predefinite del modello, tranne quando la pagina viene modificata. I modelli controllano l'esperienza di creazione per la struttura della pagina e, dopo la creazione di una pagina, le impostazioni predefinite del modello non sono più collegate al contenuto localizzabile in quella pagina. In altre parole, le impostazioni predefinite del modulo impostate in un modello controllano l'esperienza di creazione per le pagine figlio. Non controllano il contenuto di quelle pagine dopo che le pagine sono state create e modificate.
+
+L'unica eccezione al comportamento precedentemente descritto si verifica quando un [frammento](work-with-fragments.md) viene aggiunto a un modello. I frammenti possono essere utilizzati per aggiungere o modificare dinamicamente il contenuto localizzabile in tutte le pagine figlio di un modello o di un layout in qualsiasi momento, anche dopo che molte pagine sono state create da un determinato modello. È consigliabile utilizzare i frammenti nei modelli e nei layout ogni volta che il contenuto localizzabile deve essere aggiunto, rimosso o modificato in modo dinamico in tutte le pagine figlio. Ad esempio, i frammenti dovrebbero essere usati per intestazioni, piè di pagina, metadati/script comuni o qualsiasi altro contenuto che deve essere modificabile centralmente e in tutte le pagine figlio. I frammenti consentono di utilizzare modelli e layout per controllare il contenuto in tutte le pagine figlio.
+
+Per iniziare a utilizzare i modelli, vedi [Utilizzare i modelli](work-with-templates.md).
 
 ## <a name="layouts"></a>Layout
 
@@ -96,7 +102,7 @@ I layout nel sito possono essere *preimpostati* o *personalizzati*:
 
 Il layout preimpostato e i layout personalizzati vengono modificati in diverse parti del set di strumenti di creazione. Poiché i layout personalizzati non hanno dipendenze da altre pagine, vengono modificati direttamente nell'editor di pagine. In questo caso, l'esistenza di un layout è perlopiù visibile all'utente ed è esposta solo nelle proprietà a livello di pagina e attraverso le azioni per le opzioni di layout. Tuttavia, poiché le modifiche ai layout preimpostati possono alterare molte pagine figlio, queste devono essere modificate nell'editor di layout, dove le azioni di pubblicazione prendono in conto tutto l'impatto downstream sulle pagine figlio.
 
-Le seguenti illustrazioni visualizzano scenari per layout preimpostati e personalizzati.
+La seguente illustrazione visualizza gli scenari per layout preimpostati e personalizzati.
 
 ![Scenari con layout preimpostati e personalizzati.](../commerce/media/template-figure1.png)
 

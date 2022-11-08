@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 99dbe17d4e83c2c75d52ca3fd22a1772d8045355
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 609403b251338b7e792f3ab624fb37a1833c919b
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871980"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725523"
 ---
 # <a name="landed-cost-parameters-setup"></a>Impostazione dei parametri di costo sbarcato
 
@@ -125,14 +125,11 @@ Le impostazioni in questa scheda stabiliscono le dimensioni predefinite per cias
 
 La scheda **Sequenze numeriche** della pagina **Parametri di costo sbarcato** elenca ogni tipo di sequenza numerica di riferimento che Costo sbarcato necessita, ma che non è condivisa tra persone giuridiche. Per ogni riferimento nell'elenco, selezionare un codice di sequenza numerica.
 
-> [!NOTE]
-> In una configurazione per più società, è necessario creare sequenze numeriche diverse per ciascuna società (persona giuridica).
 
 ## <a name="shared-number-sequences-tab"></a>Scheda Sequenze numeriche condivise
 
 La scheda **Sequenze numeriche condivise** della pagina **Parametri di costo sbarcato** elenca ogni tipo di sequenza numerica di riferimento che è condivisa tra persone giuridiche per Costo sbarcato. Attualmente, nell'elenco è presente una sola sequenza numerica. Questa sequenza numerica viene utilizzata per l'ID viaggio.
 
-Nella pagina **Tutti i viaggi**, gli utenti possono visualizzare tutti i viaggi di tutte le persone giuridiche. Tuttavia, per modificare ed elaborare un viaggio, gli utenti devono essere nella persona giuridica del record selezionato.
 
 ## <a name="feature-visibility-tab"></a>Scheda Visibilità funzionalità
 

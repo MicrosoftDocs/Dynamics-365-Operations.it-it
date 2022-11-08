@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3723b40209ee1f8fb0ef77cb1ad52d123ff2a02f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0624c251646110644a8a72658a6dd6f8d319c57f
+ms.sourcegitcommit: e25fe4228add88dd37f4f38ece86979e1c621f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869464"
+ms.lasthandoff: 11/01/2022
+ms.locfileid: "9734296"
 ---
 # <a name="recall-order-operation-in-pos"></a>Operazione Richiama ordine nel POS
 
@@ -65,5 +65,11 @@ Un utente può selezionare un'operazione nella barra dell'applicazione. A second
 ## <a name="add-notifications-to-the-recall-order-operation"></a>Aggiungere notifiche all'operazione di richiamo dell'ordine
 
 Se lo si desidera, nella versione 10.0.18 e in quelle successive, è possibile configurare notifiche POS e avvisi con riquadri animati per l'operazione **Richiama ordine** . Per ulteriori informazioni, vedere [ Visualizzare le notifiche degli ordini nel POS](notifications-pos.md).  
+
+> [!NOTE]
+> Per abilitare la funzione di ricerca dell'ordine, assicurati che la chiave **Offerte** sia abilitata sotto **Configurazione della licenza** > **Chiavi di configurazione**.
+>
+> ![La configurazione della chiave della licenza Offerte deve essere attivata](./media/Quotations_License_Key_Configuration.png)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

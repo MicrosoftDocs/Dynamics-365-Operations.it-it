@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: weijiesa
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 22f2512125679f160cb658923893d5f5aa739a2d
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b409017407ce1c027184bdc2292197840c61e04a
+ms.sourcegitcommit: eb9a53d5cf10f1ada68757536d6a94b2cb00929d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8906155"
+ms.lasthandoff: 10/27/2022
+ms.locfileid: "9725445"
 ---
 # <a name="manage-shipping-containers"></a>Gestire contenitori di spedizione
 
@@ -40,9 +40,9 @@ Nella seguente tabella sono descritti i pulsanti disponibili nella scheda **Gest
 
 | Pulsante | Descrizioni |
 |---|---|
-| Registra elenco entrate | Consente di registrare un elenco entrate o di visualizzare gli elenchi entrate prodotti per tutte le righe di ordine fornitore nel contenitore di spedizione. Se si utilizzano spedizioni con più società, per ogni società viene aperta una nuova finestra di dialogo per la registrazione degli elenchi entrate. |
+| Registra elenco entrate | Consente di registrare un elenco entrate o di visualizzare gli elenchi entrate prodotti per tutte le righe di ordine fornitore nel contenitore di spedizione.  |
 | Registra entrata prodotti | Consente di registrare un entrata prodotti per tutte le righe di ordine fornitore nel contenitore di spedizione. |
-| Registra fattura | Consente di registrare una fattura per tutte le righe di ordine fornitore nel contenitore di spedizione. Se si utilizzano spedizioni con più società, per ogni società viene aperta una nuova finestra di dialogo per la registrazione delle fatture. |
+| Registra fattura | Consente di registrare una fattura per tutte le righe di ordine fornitore nel contenitore di spedizione.  |
 | Ordine di trasferimento spedizione | Consente di registrare una spedizione dell'ordine di trasferimento per tutte le righe di ordine di trasferimento nel contenitore di spedizione. Nella finestra di dialogo vengono visualizzate solo le righe nel contenitore di spedizione che rappresentano un tipo di ordine di trasferimento. |
 | Ricevi ordine di trasferimento | Consente di registrare un ricevimento dell'ordine di trasferimento per tutte le righe di ordine di trasferimento nel contenitore di spedizione. La finestra di dialogo di ricevimento è il modo più semplice per ricevere le merci in un contenitore di spedizione o in un viaggio ed è una delle tre opzioni disponibili. È anche possibile ricevere tramite giornali di registrazione arrivi o l'elaborazione via dispositivo mobile. |
 | Crea giornale di registrazione arrivi | È possibile generare un giornale di registrazione arrivi per le organizzazioni utilizzando funzionalità di magazzino avanzate. Le opzioni sono _Inizializza quantità_ (consigliata) e _Crea da merci in transito_ o _Crea da ordini fornitore_. Le ultime due opzioni dipendono dall'utilizzo o meno dell'elaborazione merci in transito. |
@@ -56,7 +56,7 @@ Nella seguente tabella sono descritti i pulsanti disponibili nella scheda **Gene
 
 | Pulsante | Descrizioni |
 |---|---|
-| Elenco entrate | Consente di registrare un elenco entrate per tutte le righe di ordine fornitore nel contenitore di spedizione. In caso di viaggi con più società, per ogni società viene aperta una nuova finestra di dialogo per la registrazione degli elenchi entrate. |
+| Elenco entrate | Consente di registrare un elenco entrate per tutte le righe di ordine fornitore nel contenitore di spedizione.  |
 | Entrata prodotti | Visualizza il record dell'entrata prodotti, se utilizzato. Il processo di entrata prodotti verrà utilizzato solo se le merci non utilizzano la funzionalità Merci in transito. |
 | Arrivo articoli | Visualizza il giornale di registrazione arrivi articoli per il contenitore di spedizione, se tale giornale di registrazione viene utilizzato. |
 | Scali | Gli scali sono utilizzati per identificare parti distinte di un viaggio. I lead time possono essere associati a ciascuno scalo per facilitare la tracciabilità della spedizione. Per ulteriori informazioni, vedere [Configurare percorsi con più scali](multi-leg-journey-setup.md). |
