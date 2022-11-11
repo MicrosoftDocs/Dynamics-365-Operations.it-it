@@ -538,10 +538,14 @@
                       href: ../human-resources/hr-personnel-create-mass-hire-project.md
                 - name: Richieste di selezione del personale (infrastruttura unita)
                   items:
-                    - name: Selezione dei candidati per la posizione
+                    - name: Selezione dei candidati per la mansione
                       href: hr-personnel-recruit.md
         - name: Gestione attività
-          href: hr-task-mgmt.md
+          items:
+            - name: Panoramica
+              href: hr-task-mgmt.md
+            - name: Aggiornamento gestione attività
+              href: hr-task-update.md
         - name: Congedo e assenza
           items:
             - name: Panoramica
@@ -822,7 +826,7 @@
               href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
             - name: Gestire le facilitazioni lavoratore
               href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-    - name: Sviluppo di risorse umane
+    - name: Sviluppo di Human Resources
       items:
         - name: Panoramica
           href: hr-developer-overview.md
@@ -832,6 +836,10 @@
           href: hr-developer-entities.md
         - name: Campi personalizzati
           href: hr-developer-custom-fields.md
+        - name: Sviluppo e personalizzazione
+          items:
+            - name: Enumerazione di base del sesso
+              href: enum-exten.md
         - name: Impostare l'integrazione dei dati
           items:
             - name: Scegliere una tecnologia di integrazione dei dati
