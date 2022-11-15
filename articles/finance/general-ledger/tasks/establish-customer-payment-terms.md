@@ -2,7 +2,7 @@
 title: Definire condizioni di pagamento cliente
 description: Questa procedura consente di definire un'impostazione dello sconto di cassa e della data di scadenza.
 author: aprilolson
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6069d28d84ab1705fd62a33cea7e0b923f0e0705
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 9b2ae5e63a2efb4bc913efa4d88c65a70133a2d9
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9065710"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752778"
 ---
 # <a name="establish-customer-payment-terms"></a>Definire condizioni di pagamento cliente
 
@@ -34,7 +34,11 @@ Questa procedura consente di definire un'impostazione dello sconto di cassa e de
 6. Immettere una data nel campo **Giorno del mese**. La data deve essere immessa come numero, ad esempio "10" e non come "decima". 
 7. Fare clic su **Salva**.
 8. Chiudere la pagina.
-9. Selezionare **Pannello di navigazione > Moduli > Contabilità clienti > Impostazione pagamenti > Termini di pagamento**.
+9. Selezionare **Pannello di navigazione > Moduli > Contabilità clienti > Impostazione pagamenti > Termini di pagamento**. 
+
+>[!NOTE] 
+>Se **Termini di pagamento** è **Contanti**, il campo **Pagamento in contanti** della pagina **Termini di pagamento** deve essere **No**.
+
 10. Fare clic su **Nuovo**. I **Termini di pagamento** vengono utilizzati per definire la modalità di calcolo delle date di scadenza. L'impostazione della data dello sconto di cassa viene definita in una pagina separata. 
 11. Nel campo **Termini di pagamento** immettere un ID.
 12. Nel campo **Descrizione** immettere una descrizione.

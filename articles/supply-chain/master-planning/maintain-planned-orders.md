@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c127b25644e417983672c8111925ecd3a51d6ca
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9df39d271ae61c304f70c38a23e4249eb5920b29
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8850701"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740794"
 ---
 # <a name="maintain-planned-orders"></a>Gestisci ordini pianificati
 
@@ -60,7 +60,7 @@ Se si prevede di stabilizzare più ordini contemporaneamente, parallelizzare l'e
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica piani generali](master-plans.md)
+- [Panoramica piani generali](master-plans.md)
 
 
 

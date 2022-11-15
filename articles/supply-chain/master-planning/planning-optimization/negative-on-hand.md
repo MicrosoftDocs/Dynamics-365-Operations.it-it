@@ -1,6 +1,6 @@
 ---
 title: Pianificazione con quantità disponibili negative
-description: Questo articolo spiega come vengono gestite le quantità disponibili negative quando si utilizza l'ottimizzazione della pianificazione.
+description: Questo articolo spiega come viene gestita la disponibilità negativa.
 author: t-benebo
 ms.date: 07/22/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 04006bb12142be69c84bc8085dd82fc99280e90b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: b4fc8b37fd800e3b4652513f150f9806bf1d5d67
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8856137"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741124"
 ---
 # <a name="planning-with-negative-on-hand-quantities"></a>Pianificazione con quantità disponibili negative
 
@@ -29,7 +29,7 @@ ms.locfileid: "8856137"
 
 Se il sistema mostra una quantità aggregata disponibile negativa, il motore di pianificazione considera la quantità come 0 (zero) per evitare un eccesso di offerta. Ecco come funziona questa funzionalità:
 
-1. La funzione di ottimizzazione della pianificazione aggrega le quantità disponibile al livello più basso delle dimensioni di copertura. (Ad esempio, se *Ubicazione* non è una dimensione di copertura, la pianificazione dell'ottimizzazione aggrega le quantità disponibile a livello di *magazzino*.)
+1. La pianificazione generale aggrega le quantità disponibile al livello più basso delle dimensioni di copertura. (Ad esempio, se *Ubicazione* non è una dimensione di copertura, la pianificazione generale aggrega le quantità disponibile a livello di *magazzino*.)
 1. Se la quantità disponibile aggregata al livello più basso delle dimensioni di copertura è negativa, il sistema presuppone che la quantità disponibile sia effettivamente 0 (zero).
 
 > [!IMPORTANT]
@@ -88,14 +88,6 @@ Il sistema è configurato nel seguente modo:
 - Esiste un ordine cliente per una quantità di *10* pezzi di prodotto *FG*.
 - La quantità dell'ordine cliente viene prenotata fisicamente per le scorte disponibili esistenti.
 
-Quindi regoli la quantità del prodotto *FG* in modo che le scorte disponibili diventino 5. Poiché l'inventario dei prodotti disponibili è 5, la quantità dell'ordine cliente è ora riservata su una quantità che non è disponibile (sarebbe simile se l'inventario disponibile fosse 0, nel qual caso l'ordine cliente sarebbe riservato su un inventario negativo). Se ora esegui la pianificazione generale, verrà creato un ordine pianificato di quantità 5 per *FG* per fornire l'ordine cliente, poiché Ottimizzazione pianificazione utilizzerà sempre la fornitura esistente o creerà un nuovo ordine pianificato per fornire la prenotazione fisica.
-
-## <a name="related-resources"></a>Risorse correlate
-
-- [Panoramica sull'ottimizzazione della pianificazione](planning-optimization-overview.md)
-- [Introduzione all'ottimizzazione della pianificazione](get-started.md)
-- [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md)
-- [Visualizzare la cronologia del piano e i log di pianificazione](plan-history-logs.md)
-- [Annullare un processo di pianificazione](cancel-planning-job.md)
+Quindi regoli la quantità del prodotto *FG* in modo che le scorte disponibili diventino 5. Poiché l'inventario dei prodotti disponibili è 5, la quantità dell'ordine cliente è ora riservata su una quantità che non è disponibile (sarebbe simile se l'inventario disponibile fosse 0, nel qual caso l'ordine cliente sarebbe riservato su un inventario negativo). Se ora esegui la pianificazione generale, verrà creato un ordine pianificato di quantità 5 per *FG* per fornire l'ordine cliente, poiché la pianificazione generale utilizzerà sempre la fornitura esistente o creerà un nuovo ordine pianificato per fornire la prenotazione fisica.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

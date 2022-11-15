@@ -1,6 +1,6 @@
 ---
-title: Contrassegno inventario con Ottimizzazione pianificazione
-description: Questo articolo fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati quando si utilizza l'ottimizzazione della pianificazione.
+title: Applicazione di contrassegni alle scorte
+description: Questo articolo fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 55c83cdbc144f194fe80e8281a35ec7ff43d551e
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: c86db6a670d7d0f7bfe74b7466b9bce766e4a08d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9219939"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740579"
 ---
-# <a name="inventory-marking-with-planning-optimization"></a>Contrassegno inventario con Ottimizzazione pianificazione
+# <a name="inventory-marking"></a>Applicazione di contrassegni alle scorte
 
 [!include [banner](../../includes/banner.md)]
 
-Questo articolo fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati quando si utilizza l'ottimizzazione della pianificazione.
+Questo articolo fornisce informazioni sulle opzioni disponibili per contrassegnare le scorte in ordini consolidati.
 
 *Contrassegno* viene utilizzato per collegare domanda e offerta. Assomiglia al *pegging*, che indica come la pianificazione generale prevede di coprire la domanda. Da un punto di vista della pianificazione, la differenza principale è che il contrassegno è più permanente del pegging.
 

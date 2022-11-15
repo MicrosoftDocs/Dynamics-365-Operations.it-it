@@ -16,12 +16,12 @@ ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.industry: Retail
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
-ms.openlocfilehash: f282c163ef5a74283231492e499201c6d4619115
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: d334701b2865a4f19365a2773641e324326b02e3
+ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9287513"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9751942"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Impostare e gestire immagini per Modern POS (MPOS)
 
@@ -160,7 +160,7 @@ Per tutte le entità, ad eccezione dei prodotti, è possibile sovrascrivere l'UR
     [![Pagina della raccolta di immagini del catalogo.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
-> Attualmente, nella raccolta non vengono visualizzate le anteprime di immagine per gli URL di immagine del modello media. Per le entità di catalogo, lavoratore, cliente e categoria, se l'utente fornisce un URL in modo esplicito tramite questa pagina, si consiglia di indicare quale immagine visualizzare come immagine predefinita, poiché i client Commerce Scale Unit mostrano solo un'immagine per catalogo, cliente, lavoratore e categoria. Se l'utente non specifica un'immagine predefinita, il sistema determina automaticamente l'immagine predefinita e la invia al chiamante del servizio Commerce (MPOS o eCommerce).
+> Solo il rendering delle immagini accessibili pubblicamente e in modo anonimo verrà eseguito su POS. POS supporta il rendering di immagini che sono ospitate esternamente, con il requisito che le immagini vengano restituite come flusso di ottetti in linea alle richieste GET senza intestazioni. Con i criteri di accesso anonimo, in modo specifico per le immagini ospitate su SharePoint che richiedono che le intestazioni delle richieste contengano sia le intestazioni host che quelle user-agent, verrà restituita una risposta "Non consentito". Pertanto, la gestione delle immagini utilizzando SharePoint poiché l'host non è attualmente supportato come predefinito. La pagina della raccolta **Immagini di catalogo** non mostra le anteprime di immagine per gli URL di immagine del modello media. Dal momento che i client Commerce Scale Unit mostrano solo un'immagine per le entità Catalogo, Cliente, Lavoratore e Categoria, se fornisci in modo esplicito un URL tramite questa pagina per le entità di catalogo, lavoratore, cliente e categoria, se l'utente fornisce un URL in modo esplicito tramite questa pagina, si consiglia di indicare quale immagine visualizzare come immagine predefinita. Se non specifichi un'immagine predefinita, il sistema determina automaticamente l'immagine predefinita e la invia al chiamante del servizio Commerce (MPOS o e-commerce).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Sovrascrivere l'URL di immagine per le immagini dei prodotti del catalogo dalla pagina di anteprima
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6e9cb9362fcafab5738e0a1887366e5fd1efbab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: df58017c25737cc946d09bf86ff7ad8bd33f4176
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863971"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9741042"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Pianificazione generale per copertura a livello di sito, magazzino obbligatorio
 
@@ -47,15 +47,11 @@ Nella figura riportata di seguito è illustrato il processo di pianificazione ge
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
-
-[Pianificazione generale a livello di sito e magazzino, magazzino obbligatorio](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-
-[Pianificazione generale per copertura a livello di sito, magazzino obbligatorio](master-plan-site-coverage-warehouse-mandatory.md)
-
-[Pianificazione generale a livello di sito e magazzino, magazzino non obbligatorio](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-
-[Determinare la versione DBA](master-plan-bom-version-determined.md)
+- [Panoramica pianificazione generale e funzionalità multisito](master-plan-multisite-functionality.md)
+- [Pianificazione generale a livello di sito e magazzino, magazzino obbligatorio](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+- [Pianificazione generale per copertura a livello di sito, magazzino obbligatorio](master-plan-site-coverage-warehouse-mandatory.md)
+- [Pianificazione generale a livello di sito e magazzino, magazzino non obbligatorio](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+- [Determinare la versione DBA](master-plan-bom-version-determined.md)
 
 
 

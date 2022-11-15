@@ -16,20 +16,20 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 15ec53c1f13b3017fb6e829bd1c8e99fbb938ce3
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 4459a5d72fafe2596b7fc0cedf060b8f23bb43d2
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689996"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750709"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analisi di adeguatezza dell'ottimizzazione di pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
-Devi analizzare il risultato dell'analisi di adeguatezza dell'ottimizzazione di pianificazione come parte del processo di migrazione. Nota che l'ambito dell'ottimizzazione di pianificazione non è uguale alla funzionalità di pianificazione generale incorporata corrente. Ti consigliamo di collaborare con il tuo partner e di leggere la documentazione per prepararti alla migrazione. 
+Devi analizzare il risultato dell'analisi di adeguatezza dell'ottimizzazione di pianificazione come parte del processo di migrazione. Nota che l'ambito dell'ottimizzazione di pianificazione non è uguale alla funzionalità del motore di pianificazione generale deprecato. Ti consigliamo di collaborare con il tuo partner e di leggere la documentazione per prepararti alla migrazione.
 
-L'analisi di adeguatezza dell'ottimizzazione di pianificazione ti aiuta a identificare dove il risultato potrebbe differire tra il motore di pianificazione generale integrato e l'ottimizzazione di pianificazione. Questa analisi viene eseguita in base alla configurazione e ai dati correnti. 
+L'analisi di adeguatezza dell'ottimizzazione di pianificazione ti aiuta a identificare dove il risultato potrebbe differire tra il motore di pianificazione generale deprecato e l'ottimizzazione di pianificazione. Questa analisi viene eseguita in base alla configurazione e ai dati correnti. 
 
 Per vedere il risultato dell'analisi di adeguatezza dell'ottimizzazione di pianificazione, vai a **Pianificazione generale** \> **Impostazione** \> **Analisi di adeguatezza dell'ottimizzazione di pianificazione** e quindi seleziona **Esegui analisi**. Se l'analisi rileva delle incoerenze, vengono elencate nella stessa pagina. L'esecuzione dell'analisi può richiedere alcuni minuti.
 
@@ -64,7 +64,6 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Calendari di base | Calendari che utilizzano il calendario di base: *\#* | Questa funzionalità è ora supportata. | Supportata | 
 | Codici smaltimento batch | Smaltimenti batch generali non nettificabili: *\#* | Questa funzionalità è ora supportata. Per informazioni aggiuntive, vedi [Utilizzare i codici smaltimento batch per contrassegnare i batch come disponibili o non disponibili](../../inventory/batch-disposition-codes.md) | Supportata |
 | Capable-to-promise (CTP) | Impostazioni predefinite ordine con controllo data di consegna impostato su CTP: *\#* | In Supply Chain Management 10.0.28 e versioni successive, un processo denominato *CTP per Ottimizzazione pianificazione* rende disponibili le date di spedizione e di ricezione dopo l'esecuzione del piano dinamico. Per le versioni precedenti di Supply Chain Management, l'impostazione CTP legacy viene ignorata quando Pianificazione ottimizzazione è abilitata. | Supportata |
-| Copia piano statico in piano dinamico | La copia del piano statico in quello dinamico è abilitata nei parametri di pianificazione generale. | L'ottimizzazione della pianificazione non copia il piano statico nel piano dinamico, indipendentemente da questa impostazione. In generale, questo concetto è meno rilevante a causa della velocità e della rigenerazione completa fornita dall'ottimizzazione della pianificazione. Se vengono utilizzati due o più piani, è necessario attivare la pianificazione generale per ciascun piano. | N/D |
 | Stabilizzazione | Gruppi di copertura con intervallo temporale di stabilizzazione automatica impostato: *\#* | Nella versione 10.0.7 e successive, la stabilizzazione è supportata come processo di stabilizzazione batch separato al termine della pianificazione generale (a condizione che la funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione* sia stata abilitata in [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Si noti che la stabilizzazione automatica per l'ottimizzazione della pianificazione si basa sulla data dell'ordine di lavoro (data di inizio) e non sulla data del fabbisogno (data di fine). Questo comportamento garantisce che la stabilizzazione degli ordini pianificati si verifichi alla scadenza, senza dover includere i tempi di consegna nel tempo di risposta. | Supportata |
 | Stabilizzazione | Record di copertura articoli con stabilizzazione automatica impostata: *\#* | Nella versione 10.0.7 e successive, la stabilizzazione automatica è supportata come processo di stabilizzazione batch separato al termine della pianificazione generale (a condizione che la funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione* è stata abilitata in [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Si noti che la stabilizzazione automatica per l'ottimizzazione della pianificazione si basa sulla data dell'ordine di lavoro (data di inizio) e non sulla data del fabbisogno (data di fine). Questo comportamento garantisce che la stabilizzazione degli ordini pianificati si verifichi alla scadenza, senza dover includere i tempi di consegna nel tempo di risposta. | Supportata |
 | Stabilizzazione | Piani generali con stabilizzazione automatica impostata: *\#* | Nella versione 10.0.7 e successive, la stabilizzazione automatica è supportata come processo di stabilizzazione batch separato al termine della pianificazione generale (a condizione che la funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione* è stata abilitata in [gestione delle funzionalità](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Si noti che la stabilizzazione automatica per l'ottimizzazione della pianificazione si basa sulla data dell'ordine di lavoro (data di inizio) e non sulla data del fabbisogno (data di fine). Questo comportamento garantisce che la stabilizzazione degli ordini pianificati si verifichi alla scadenza, senza dover includere i tempi di consegna nel tempo di risposta. | Supportata |
@@ -93,34 +92,27 @@ La tabella seguente mostra i vari risultati che possono essere mostrati dopo un'
 | Produzione | Versioni formula con sotto/co-prodotti: *\#* | Questa funzione è in sospeso. Attualmente, i coprodotti e i sottoprodotti associati alla versione della formula vengono ignorati quando è abilitata l'ottimizzazione della pianificazione. | Ciclo di rilascio 2 del 2022 |
 | Produzione | Versioni formula con resa: *\#* | Questa funzione è in sospeso. Attualmente, il rendimento associato alla versione della formula viene ignorato quando è abilitata l'ottimizzazione della pianificazione. | Ciclo di rilascio 2 del 2022 |
 | Produzione | Piani che includono la sequenza: *\#* | Questa funzione è in sospeso. Attualmente, la sequenza viene ignorata quando è abilitata l'ottimizzazione della pianificazione, indipendentemente da questa impostazione. | Ciclo di rilascio 2 del 2022 |
-| Produzione | Ordini di produzione rilasciati non avviati, il cui avvio programmato è precedente alla data odierna: *\#* | Questa funzione è in sospeso. Attualmente, se un ordine di produzione viene ritardato, la pianificazione generale presumerà che sarà completato oggi. Ciò è rilevante per gli ordini di produzione rilasciati in cui una data di consegna è nel passato, ma non è stata ancora completata. | Ciclo futuro |
+| Produzione | Ordini di produzione rilasciati non avviati, il cui avvio programmato è precedente alla data odierna: *\#* | Questa funzione è in sospeso. Attualmente, se un ordine di produzione viene ritardato, la pianificazione generale presumerà che sarà completato oggi. Ciò è rilevante per gli ordini di produzione rilasciati in cui una data di consegna è nel passato, ma non è stata ancora completata. | Ciclo di rilascio 2 del 2022 |
 | Produzione | Risorse programmate con capacità limitata: *\#* | Questa funzionalità è ora supportata.| Supportata |
 | Produzione | Cicli di lavorazione utilizzati nella pianificazione: *\#* | Questa funzionalità è supportata. | Supportata |
-| Produzione | Prenotazione riga vendite mediante esplosione: *\#* | La prenotazione della riga di vendita che utilizza l'esplosione non è supportata quando l'ottimizzazione della pianificazione è abilitata. | Ciclo futuro |
-| Produzione | Programmazione con esplosione degli ordini di produzione: *\#* | La programmazione che utilizza l'esplosione degli ordini di produzione non è supportata quando l'ottimizzazione della pianificazione è abilitata. Gli ordini di produzione possono essere programmati singolarmente. | Ciclo futuro |
+| Produzione | Prenotazione riga vendite mediante esplosione: *\#* | La prenotazione della riga di vendita che utilizza l'esplosione non è supportata quando l'ottimizzazione della pianificazione è abilitata. | Ciclo di rilascio 2 del 2022 |
+| Produzione | Programmazione con esplosione degli ordini di produzione: *\#* | La programmazione che utilizza l'esplosione degli ordini di produzione non è supportata quando l'ottimizzazione della pianificazione è abilitata. Gli ordini di produzione possono essere programmati singolarmente. | Ciclo di rilascio 2 del 2022 |
 | Richieste di offerta | Piani generali con richieste di offerte abilitate: *\#* | Questa funzione è in sospeso. Al momento, le richieste di offerta (RdO) non sono considerate richieste quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | Ciclo di rilascio 2 del 2022 |
 | Richieste | Piani generali con richieste abilitate: *\#* | Questa funzionalità è ora supportata. Per ulteriori informazioni, vedi [Richieste di acquisto](purchase-requisitions.md) | Supportata |
 | Margini di sicurezza | Gruppi di copertura con margine di sicurezza: *\#* | Questa funzionalità è ora supportata. Per ulteriori informazioni, vedi [Margini di sicurezza](safety-margins.md) | Supportata |
 | Margini di sicurezza | Piani generali con margine di sicurezza: *\#* | Questa funzionalità è ora supportata. Per ulteriori informazioni, vedi [Margini di sicurezza](safety-margins.md) |  Supportata |
-| Garanzia scorte di sicurezza | Record di copertura articoli con "Soddisfa minimo" diverso da "Data odierna + tempo di approvvigionamento": *\#* | L'ottimizzazione della pianificazione utilizza sempre *Data odierna + tempo di approvvigionamento*. Questa modifica viene apportata per preparare una configurazione di pianificazione semplificata in futuro e per fornire un risultato utile. Se il tempo di approvvigionamento non è incluso per la scorta di sicurezza, gli ordini pianificati creati per le scorte a disponibilità ridotta saranno sempre posticipati a causa dei tempi di consegna. Questo comportamento può causare disturbi significativi e ordini pianificati indesiderati. Come procedura consigliata cambiare l'impostazione in modo che venga usato *Data odierna + tempo di approvvigionamento*. Aggiorna i dati master per evitare avvisi. | N/D |
-| Offerte di vendita | Piani generali con offerte di vendita abilitate: *\#* | Questa funzione è in sospeso. Attualmente, le offerte non sono considerate quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | Ciclo di rilascio 2 o successivo del 2022 |
-| Durata a scaffale | Piani generali con durata a scaffale abilitata: *\#* | Questa funzione è in sospeso. | Ciclo di rilascio 2 del 2022 |
+| Offerte di vendita | Piani generali con offerte di vendita abilitate: *\#* | Questa funzione è in sospeso. Attualmente, le offerte non sono considerate quando è abilitata l'ottimizzazione della pianificazione. Saranno ignorati, indipendentemente da questa impostazione. | Ciclo di rilascio 2 del 2022 |
+| Durata a scaffale | Piani generali con durata a scaffale abilitata: *\#* | Questa funzionalità è ora supportata. | Supportata |
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica sull'ottimizzazione della pianificazione](planning-optimization-overview.md)
-
-[Introduzione a Ottimizzazione pianificazione](get-started.md)
-
-[Differenze tra la pianificazione classica e l'ottimizzazione della pianificazione](planning-optimization-differences-with-built-in.md)
-
-[Parametri non utilizzati da Ottimizzazione pianificazione](not-used-parameters.md)
-
-[Visualizzare i registri di pianificazione e dello storico del piano](plan-history-logs.md)
-
-[Applicare i filtri a un piano](plan-filters.md)
-
-[Annullare un processo di pianificazione](cancel-planning-job.md)
+- [Architettura di sistema della pianificazione generale](../master-planning-architecture.md)
+- [Introduzione alla pianificazione generale](get-started.md)
+- [Differenze tra la pianificazione classica e l'ottimizzazione della pianificazione](planning-optimization-differences-with-built-in.md)
+- [Parametri non utilizzati da Ottimizzazione pianificazione](not-used-parameters.md)
+- [Visualizzare i registri di pianificazione e dello storico del piano](plan-history-logs.md)
+- [Eseguire la pianificazione per un sottoinsieme di articoli](plan-filters.md)
+- [Annullare un processo di pianificazione](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,18 +11,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5c8169a8d2c3e45304142fb6b4d504e620c545a4
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 43da249637c44b3f56e8b5e210a0e44d9ac6cb9d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335257"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740551"
 ---
 # <a name="production-planning"></a>Pianificazione della produzione
 
 [!include [banner](../../includes/banner.md)]
-
-Ottimizzazione pianificazione supporta diversi scenari di produzione. Se si esegue la migrazione dal motore di pianificazione generale integrato esistente, è importante essere a conoscenza di alcuni comportamenti modificati.
 
 Il video seguente offre una breve introduzione ad alcuni dei concetti discussi in questo articolo: [Dynamics 365 Supply Chain Management: miglioramenti di Ottimizzazione pianificazione](https://youtu.be/u1pcmZuZBTw).
 
@@ -46,10 +44,6 @@ Gli ordini di produzione pianificati includono l'ID ciclo di lavorazione richies
 
 - **Ordine di produzione pianificato** - Il lead time si basa sul lead time statico dal prodotto rilasciato.
 - **Ordine di produzione stabilizzato** - Il lead time si basa sulla pianificazione che utilizza le informazioni sul percorso e i relativi vincoli di risorse.
-
-Per ulteriori informazioni sulla disponibilità delle funzionalità previste, vedere [Analisi di adattamento dell'ottimizzazione della pianificazione](planning-optimization-fit-analysis.md).
-
-Se dipendi dalla funzionalità di produzione che non è ancora disponibile per Ottimizzazione pianificazione, puoi continuare a utilizzare il motore di pianificazione generale integrato. Non è richiesta alcuna eccezione.
 
 ## <a name="delays"></a>Ritardi
 
@@ -76,15 +70,15 @@ Puoi utilizzare la pagina **Esplosione** per analizzare la domanda richiesta per
 
 ## <a name="filters"></a><a name="filters"></a>Filtri
 
-Per garantire che Ottimizzazione pianificazione disponga delle informazioni necessarie per calcolare il risultato corretto, è necessario includere tutti i prodotti che hanno una relazione con i prodotti nell'intera struttura DBA dell'ordine pianificato. Per gli scenari di pianificazione che includono la produzione, si consiglia pertanto di evitare esecuzioni di pianificazione generale filtrate.
+Per garantire che la pianificazione generale disponga delle informazioni necessarie per calcolare il risultato corretto, è necessario includere tutti i prodotti che hanno una relazione con i prodotti nell'intera struttura DBA dell'ordine pianificato. Per gli scenari di pianificazione che includono la produzione, si consiglia pertanto di evitare esecuzioni di pianificazione generale filtrate.
 
-Sebbene gli elementi figlio dipendenti vengano rilevati automaticamente e inclusi nelle esecuzioni della pianificazione generale quando viene utilizzato il motore di pianificazione generale integrato, Ottimizzazione pianificazione attualmente non esegue questa azione.
+Sebbene gli elementi figlio dipendenti vengano rilevati automaticamente e inclusi nelle esecuzioni della pianificazione generale quando viene utilizzato il motore di pianificazione generale deprecato, Ottimizzazione pianificazione attualmente non esegue questa azione.
 
 Ad esempio, se un singolo bullone dalla struttura DBA del prodotto A viene utilizzato anche per produrre il prodotto B, tutti i prodotti nella struttura DBA dei prodotti A e B devono essere inclusi nel filtro. Poiché può essere complesso garantire che tutti i prodotti facciano parte del filtro, si consiglia di evitare esecuzioni di pianificazione generale filtrate quando sono coinvolti ordini di produzione. In caso contrario, la pianificazione generale fornirà risultati indesiderati.
 
 ### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Motivi per evitare le esecuzioni di pianificazione generale filtrate
 
-Quando si esegue la pianificazione generale filtrata per un prodotto, Ottimizzazione pianificazione (a differenza del motore di pianificazione generale integrato) non rileva tutti i sottoprodotti e le materie prime nella struttura della distinta base di quel prodotto e quindi non li include nell'esecuzione della pianificazione generale. Anche Ottimizzazione pianificazione identifica il primo livello nella struttura della distinta base del prodotto, non carica alcuna impostazione del prodotto (come il tipo di ordine predefinito o la copertura dell'articolo) dal database.
+Quando si esegue la pianificazione generale filtrata per un prodotto, Ottimizzazione pianificazione (a differenza del motore di pianificazione generale deprecato) non rileva tutti i sottoprodotti e le materie prime nella struttura della distinta base di quel prodotto e quindi non li include nell'esecuzione della pianificazione generale. Anche Ottimizzazione pianificazione identifica il primo livello nella struttura della distinta base del prodotto, non carica alcuna impostazione del prodotto (come il tipo di ordine predefinito o la copertura dell'articolo) dal database.
 
 In Pianificazione ottimizzazione, i dati per l'esecuzione vengono caricati in anticipo e vengono applicati i filtri. Ciò significa che se un sottoprodotto o una materia prima inclusa in un prodotto specifico non fa parte del filtro, le informazioni su di esso non verranno acquisite per l'esecuzione. Inoltre, se il sottoprodotto o la materia prima è incluso anche in un altro prodotto, un'esecuzione filtrata che includa solo il prodotto originale e i suoi componenti eliminerebbe la domanda pianificata esistente creata per l'altro prodotto.
 

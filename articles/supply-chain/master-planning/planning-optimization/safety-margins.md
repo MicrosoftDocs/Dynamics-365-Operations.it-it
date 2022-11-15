@@ -1,6 +1,6 @@
 ---
 title: Margini di sicurezza
-description: In questo articolo viene descritto come utilizzare i margini di sicurezza con il componente aggiuntivo Planning Optimization per Microsoft Dynamics 365 Supply Chain Management.
+description: Questo articolo descrive come funzionano i margini di sicurezza durante la pianificazione generale.
 author: t-benebo
 ms.date: 08/09/2022
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 247b48afab68651cff0ce84c8268a1df35a15c02
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 87b38276a2723374969a67c5413dde15537d04ec
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335197"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740443"
 ---
 # <a name="safety-margins"></a>Margini di sicurezza
 
 [!include [banner](../../includes/banner.md)]
 
-In questo articolo viene descritto come utilizzare i margini di sicurezza con il componente aggiuntivo Planning Optimization per Microsoft Dynamics 365 Supply Chain Management.
+Questo articolo descrive come funzionano i margini di sicurezza durante la pianificazione generale.
 
 ## <a name="safety-margins-overview"></a>Panoramica dei margini di sicurezza
 
@@ -165,12 +165,5 @@ Tutti e tre i tipi di margini di sicurezza sono inclusi quando il sistema determ
 Ad esempio, un articolo ha un lead time di un giorno e un margine su entrata di tre giorni. Un ordine cliente per questo articolo è impostato come richiesto oggi. In questo caso, il ritardo viene calcolato come *lead time* + *margine su entrata* = quattro giorni. Pertanto, se oggi è il 14 agosto, i quattro giorni di ritardo producono una consegna il 18 agosto. Nella figura seguente viene illustrato questo esempio.
 
 ![Esempio di calcolo dei ritardi.](media/safety-margins-delays.png)
-
-## <a name="additional-resources"></a>Risorse aggiuntive
-
-[Introduzione all'ottimizzazione della pianificazione](get-started.md)
-
-[Analisi corrispondenza Ottimizzazione pianificazione](planning-optimization-fit-analysis.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

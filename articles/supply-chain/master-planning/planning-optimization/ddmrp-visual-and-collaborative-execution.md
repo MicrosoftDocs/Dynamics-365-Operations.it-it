@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-06-30
 ms.dyn365.ops.version: 10.0.28
-ms.openlocfilehash: 92e38c6ea19b60ae0a61e55f240ff52698e06933
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: ce32a4449da8e85f958f212f2c2dfd2841ca6887
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689778"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740825"
 ---
 # <a name="visual-and-collaborative-execution"></a>Esecuzione collaborativa e visiva
 
@@ -34,7 +34,7 @@ In Microsoft Dynamics 365 Supply Chain Management, è possibile monitorare visiv
 1. Selezionare un articolo rilasciato impostato come punto di disaccoppiamento. (Per ulteriori informazioni, vedere [Posizionamento delle scorte](ddmrp-inventory-positioning.md).)
 1. Nella scheda **Piano** del riquadro Azioni selezionare **Copertura articolo**.
 1. Nella pagina **Copertura articoli** selezionare un record di copertura articoli che crea un punto di disaccoppiamento. (Questo record mostrerà il nome di un gruppo di copertura impostato per creare punti di disaccoppiamento.)
-1. Selezionare la scheda **Disponibile**. Questa scheda include un grafico che mostra le variazioni della quantità nel tempo, assieme al valore del livello disponibile registrato per un periodo specifico ogni volta che viene eseguita l'ottimizzazione della pianificazione. La scheda include inoltre una tabella che mostra quali delle seguenti categorie hanno fatto registrare livelli disponibili:
+1. Selezionare la scheda **Disponibile**. Questa scheda include un grafico che mostra le variazioni della quantità nel tempo, assieme al valore del livello disponibile registrato per un periodo specifico ogni volta che viene eseguita la pianificazione generale. La scheda include inoltre una tabella che mostra quali delle seguenti categorie hanno fatto registrare livelli disponibili:
 
     - **Critica**: meno della metà del minimo per il periodo.
     - **Bassa**: tra metà del minimo e il minimo.

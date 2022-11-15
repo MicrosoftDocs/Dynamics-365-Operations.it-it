@@ -1,6 +1,6 @@
 ---
 title: Metodi di rifornimento e modifica della quantità
-description: Questo articolo fornisce informazioni sui metodi di rifornimento in Ottimizzazione pianificazione. Spiega anche come la quantità di più ordini per un prodotto influisce sul risultato.
+description: Questo articolo fornisce informazioni sui metodi di rifornimento. Spiega anche come la quantità di più ordini per un prodotto influisce sul risultato.
 author: t-benebo
 ms.date: 6/1/2021
 ms.topic: article
@@ -11,26 +11,26 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3e8ef3d38f1b9bacd89304aaf3f0350050232bd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d1e0fe6c1f49bc0f6887f1b29118c1fee7a6222f
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8873697"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739759"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Metodi di rifornimento e modifica della quantità
 
 [!include [banner](../../includes/banner.md)]
 
-Questo articolo fornisce informazioni sui metodi di rifornimento in Ottimizzazione pianificazione. Spiega anche come la quantità di più ordini per un prodotto influisce sul risultato.
+Questo articolo fornisce informazioni sui metodi di rifornimento. Spiega anche come la quantità di più ordini per un prodotto influisce sul risultato.
 
 I metodi di rifornimento sono anche noti come metodi di copertura e metodi di dimensionamento dei lotti.
 
 ## <a name="coverage-codes"></a>Codici di copertura
 
-L'ottimizzazione della pianificazione può essere configurata per utilizzare differenti metodi di rifornimento. I metodi di rifornimento sono le tecniche che il sistema utilizza per calcolare i requisiti per un prodotto. I metodi di rifornimento sono definiti dai codici di copertura che è possibile impostare sul gruppo di copertura o sul prodotto.
+La pianificazione generale può essere configurata per utilizzare differenti metodi di rifornimento. I metodi di rifornimento sono le tecniche che il sistema utilizza per calcolare i requisiti per un prodotto. I metodi di rifornimento sono definiti dai codici di copertura che è possibile impostare sul gruppo di copertura o sul prodotto.
 
-I seguenti codici di copertura possono essere utilizzati in Ottimizzazione pianificazione:
+È possibile utilizzare i seguenti codici di copertura:
 
 - **Periodo** - Il metodo di rifornimento combina tutta la domanda durante un periodo in un ordine per il prodotto. L'ordine verrà pianificato per il primo giorno del periodo e la relativa quantità soddisferà i fabbisogni netti durante il periodo stabilito. Il periodo inizia con la prima domanda del prodotto e copre la lunghezza definita nel tempo. Il periodo successivo inizierà con i requisiti successivi del prodotto. Il codice di copertura *Periodo* viene spesso utilizzato per il prelievo di scorte non prevedibile, prodotti influenzati dalla stagione o prodotti ad alto costo. Nella figura seguente viene illustrato un esempio.
 
@@ -64,13 +64,13 @@ Nella pagina **Impostazione ordine predefinita** per un prodotto rilasciato, è 
 
 ## <a name="examples-of-replenishment-that-use-the-minmax-coverage-code"></a>Esempi di rifornimento che utilizzano il codice di copertura Min/Max
 
-Se non specifichi un valore nel campo **Multiplo** per un prodotto nella pagina **Impostazione ordine predefinita** e se stai usando il metodo di rifornimento *Min/Max* Ottimizzazione pianificazione rifornisce le scorte fino a un livello specifico quando il livello di disponibilità previsto è inferiore a una soglia specifica.
+Se non specifichi un valore nel campo **Multiplo** per un prodotto nella pagina **Impostazione ordine predefinita** e se stai usando il metodo di rifornimento *Min/Max* la pianificazione generale rifornisce le scorte fino a un livello specifico quando il livello di disponibilità previsto è inferiore a una soglia specifica.
 
 Se definisci una quantità multipla per un prodotto, il metodo di rifornimento *Min/Max* cambia il suo comportamento e considera il valore **Multiplo**.
 
-In altre parole, l'ottimizzazione della pianificazione rifornirà comunque le scorte fino al livello massimo definito quando il livello di disponibilità previsto è inferiore al livello minimo definito. Tuttavia, la quantità di rifornimento deve essere un multiplo del valore **Multiplo**.
+In altre parole, la pianificazione generale rifornirà comunque le scorte fino al livello massimo definito quando il livello di disponibilità previsto è inferiore al livello minimo definito. Tuttavia, la quantità di rifornimento deve essere un multiplo del valore **Multiplo**.
 
-Se la quantità di rifornimento (la differenza tra il livello massimo e il livello di disponibilità previsto) non è un multiplo della quantità multipla definita, Ottimizzazione pianificazione utilizza il primo valore possibile che, insieme al livello di disponibilità previsto, sarà inferiore il livello massimo. Se la somma è inferiore al livello minimo, Ottimizzazione pianificazione utilizza il primo valore che, insieme alla disponibilità prevista, sarà al di sopra del livello massimo.
+Se la quantità di rifornimento (la differenza tra il livello massimo e il livello di disponibilità previsto) non è un multiplo della quantità multipla definita, la pianificazione generale utilizza il primo valore possibile che, insieme al livello di disponibilità previsto, sarà inferiore il livello massimo. Se la somma è inferiore al livello minimo, la pianificazione generale utilizza il primo valore che, insieme alla disponibilità prevista, sarà al di sopra del livello massimo.
 
 Le seguenti sottosezioni forniscono alcuni esempi che mostrano come la quantità di ordini multipli per un prodotto influenzi il risultato del metodo di rifornimento *Min/Max* .
 

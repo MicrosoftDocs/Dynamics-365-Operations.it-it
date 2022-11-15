@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e90780ca2a33725130b261fcaf4cb08d30f3270
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3e0f4184237537464998b2bc1a6ab02561d9d291
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904530"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752805"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Rivalutazione valuta estera per contabilità generale
 
@@ -64,7 +64,9 @@ Il processo di rivalutazione può essere eseguito per una o più persone giuridi
 
 La rivalutazione può essere eseguita per una o più valute estere. La ricerca includerà tutte le valute registrate nell'intervallo di date relativo al tipo di conto principale (Stato patrimoniale o Profitti e perdite), per le persone giuridiche selezionate da rivalutare. La valuta di contabilizzazione sarà inclusa nell'elenco, ma non verrà rivalutato alcun elemento se la valuta di contabilizzazione è selezionata. 
 
-Impostare **Visualizza anteprima prima della registrazione** su **Sì** se si desidera esaminare il risultato della rivalutazione della contabilità generale. L'anteprima nella contabilità generale è diversa dalla simulazione nella rivalutazione valuta estera di Contabilità clienti e Contabilità fornitori. La simulazione in Contabilità clienti e Contabilità fornitori è un report, ma la contabilità generale dispone di un'anteprima che può essere registrata, senza dover eseguire nuovamente il processo di rivalutazione. I risultati dell'anteprima possono essere esportati in Microsoft Excel per mantenere lo storico di come sono stati calcolati gli importi. Non è possibile utilizzare l'elaborazione batch se si desidera visualizzare l'anteprima dei risultati della rivalutazione. Nell'anteprima l'utente ha la possibilità di registrare i risultati di tutte le persone giuridiche che utilizzano il pulsante **Registra**. Se è presente un problema con i risultati relativi a una persona giuridica, l'utente ha anche la possibilità di registrare un sottoinsieme delle persone giuridiche utilizzando il pulsante **Seleziona persone giuridiche da registrare**. 
+Impostare **Visualizza anteprima prima della registrazione** su **Sì** se si desidera esaminare il risultato della rivalutazione della contabilità generale. L'anteprima nella contabilità generale è diversa dalla simulazione nella rivalutazione valuta estera di Contabilità clienti e Contabilità fornitori. La simulazione in Contabilità clienti e Contabilità fornitori è un report, ma la contabilità generale dispone di un'anteprima che può essere registrata, senza dover eseguire nuovamente il processo di rivalutazione. I risultati dell'anteprima possono essere esportati in Microsoft Excel per mantenere lo storico di come sono stati calcolati gli importi. Non è possibile utilizzare l'elaborazione batch se si desidera visualizzare l'anteprima dei risultati della rivalutazione. Nell'anteprima l'utente ha la possibilità di registrare i risultati di tutte le persone giuridiche che utilizzano il pulsante **Registra**. Se è presente un problema con i risultati relativi a una persona giuridica, l'utente ha anche la possibilità di registrare un sottoinsieme delle persone giuridiche utilizzando il pulsante **Seleziona persone giuridiche da registrare**.
+
+Se desideri escludere le rettifiche che sono state registrate utilizzando **Giornale di registrazione rettifiche valuta di dichiarazione** dal processo di rivalutazione, imposta **Escludi rettifiche valuta di segnalazione** su **Sì**. Per impostazione predefinita, le rettifiche alla valuta di dichiarazione sono incluse nella rivalutazione. 
 
 Al completamento del processo di rivalutazione valuta estera, verrà creato un record per tenere traccia dello storico di ciascuna esecuzione.  Un record separato verrà creato per ogni persona giuridica e livello di registrazione.
 

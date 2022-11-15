@@ -1,6 +1,6 @@
 ---
 title: Intervalli temporali di copertura
-description: Questo articolo descrive come configurare gli intervalli temporali di copertura quando si utilizza Ottimizzazione pianificazione. Un intervallo temporale di copertura indica l'orizzonte e il limite di pianificazione.
+description: In questo articolo viene descritto come configurare gli intervalli temporali di copertura. Un intervallo temporale di copertura indica l'orizzonte e il limite di pianificazione.
 author: t-benebo
 ms.date: 01/18/2021
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ebd59e05d2ae227f24e7dae6fae3634aab026c5a
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 987dea4c1b693fc1bb687f97d51288d5e51e7d4c
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8847935"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740115"
 ---
 # <a name="coverage-time-fences"></a>Intervalli temporali di copertura
 
 [!include [banner](../../includes/banner.md)]
 
-Questo articolo descrive come configurare gli *intervalli temporali di copertura* quando si utilizza Ottimizzazione pianificazione. I responsabili della pianificazione possono definire l'orizzonte di pianificazione (l'intervallo temporale di copertura in giorni) ed escludere la domanda e l'offerta che superano tale orizzonte. Pertanto, gli intervalli temporali di copertura aiutano a prevenire i "disturbi" causati da suggerimenti di domanda a cui non è necessario reagire per mesi. Gli esempi includono la previsione del prossimo anno e gli ordini dei clienti che vengono effettuati ben oltre il normale lead time.
+In questo articolo viene descritto come configurare gli *intervalli temporali di copertura*. I responsabili della pianificazione possono definire l'orizzonte di pianificazione (l'intervallo temporale di copertura in giorni) ed escludere la domanda e l'offerta che superano tale orizzonte. Pertanto, gli intervalli temporali di copertura aiutano a prevenire i "disturbi" causati da suggerimenti di domanda a cui non è necessario reagire per mesi. Gli esempi includono la previsione del prossimo anno e gli ordini dei clienti che vengono effettuati ben oltre il normale lead time.
 
 Un intervallo temporale di copertura è il numero di giorni dopo la data odierna (o, più precisamente, la data in cui si esegue la pianificazione) in cui la domanda e l'offerta sono escluse. Per evitare ritardi, è necessario assicurarsi che l'intervallo temporale di copertura sia più lungo del lead time totale. Il valore di sistema predefinito è 100 giorni.
 
@@ -82,9 +82,9 @@ Durante la configurazione degli intervalli temporali di copertura, tenere a ment
 - Le transazioni di fabbisogno non verranno generate per alcuna domanda e offerta che non rientra nell'intervallo temporale di copertura.
 - Se l'offerta e la domanda approvate non rientrano nell'intervallo temporale di copertura, non verranno caricate nel motore. Pertanto, non attiverà alcun rifornimento e i ritardi non verranno calcolati. Tuttavia, questa domanda e offerta non dovrebbero essere cancellate dal sistema.
 - Le variazioni nelle quantità di scorte di sicurezza (dalle chiavi minime) verranno ignorate se non rientrano nell'intervallo temporale di copertura.
-- La domanda interaziendale verrà ignorata se la data di spedizione richiesta calcolata non rientra nell'intervallo temporale di copertura. Si noti che, per la pianificazione generale incorporata, la domanda interaziendale non è limitata dall'intervallo temporale di copertura.
-- Le previsioni della domanda verranno ignorate se la data del budget non è compresa nell'intervallo temporale di copertura. Si noti che, per la pianificazione generale incorporata, le previsioni della domanda non sono limitate dall'intervallo temporale di copertura.
-- Ottimizzazione pianificazione riconosce il fuso orario. Considera il fuso orario nei siti di domanda e offerta e l'ora dell'esecuzione della pianificazione. Ad esempio, la pianificazione generale viene attivata alle 11:00 del 15 ottobre da un sito in Danimarca (fuso orario GMT+1) e viene utilizzato un intervallo temporale di copertura di dieci giorni. In questo caso, l'offerta e la domanda da un sito a Seattle (fuso orario GMT-8) sono incluse fino alle 2:00 del 25 ottobre (= dieci giorni di 24 ore dopo l'attivazione della pianificazione generale, meno la differenza di fuso orario di nove ore). Si noti che il motore di pianificazione generale integrato considera solo la data dell'intervallo temporale. Pertanto, il risultato può differire.
+- La domanda interaziendale verrà ignorata se la data di spedizione richiesta calcolata non rientra nell'intervallo temporale di copertura. Si noti che, per il motore di pianificazione generale deprecato, la domanda interaziendale non è limitata dall'intervallo temporale di copertura.
+- Le previsioni della domanda verranno ignorate se la data del budget non è compresa nell'intervallo temporale di copertura. Si noti che, per il motore di pianificazione generale deprecato, le domande interaziendali non sono limitate dall'intervallo temporale di copertura.
+- Ottimizzazione pianificazione riconosce il fuso orario. Considera il fuso orario nei siti di domanda e offerta e l'ora dell'esecuzione della pianificazione. Ad esempio, la pianificazione generale viene attivata alle 11:00 del 15 ottobre da un sito in Danimarca (fuso orario GMT+1) e viene utilizzato un intervallo temporale di copertura di dieci giorni. In questo caso, l'offerta e la domanda da un sito a Seattle (fuso orario GMT-8) sono incluse fino alle 2:00 del 25 ottobre (= dieci giorni di 24 ore dopo l'attivazione della pianificazione generale, meno la differenza di fuso orario di nove ore). Si noti che il motore di pianificazione generale deprecato considera solo la data dell'intervallo temporale. Pertanto, il risultato può differire.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Richieste di acquisto
-description: In questo articolo viene descritto come le richieste di acquisto sono supportate in Ottimizzazione pianificazione.
+description: Questo articolo descrive le richieste di acquisto.
 author: t-benebo
 ms.date: 01/04/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b4dcae11e83748da3ec0368e1ddf47fedf5de23c
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d9d55186307b18f4c3be78ae0828b08d3c987aad
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8867900"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740686"
 ---
 # <a name="purchase-requisitions"></a>Richieste di acquisto
 
@@ -59,7 +59,7 @@ Quando si imposta un intervallo temporale per le richieste approvate per un sing
 1. Ripetere i passaggi 2 e 3 per ogni piano generale aggiuntivo in cui si desidera impostare un intervallo di tempo per le richieste approvate.
 
 > [!IMPORTANT]
-> **Presto disponibili:** gli intervalli temporali delle richieste approvate non sono ancora supportati per l'ottimizzazione della pianificazione. Fino a quando non sono supportati, tutti i valori immessi nel campo **Intervallo temporale per le richieste approvate (giorni)** verrà ignorato.
+> Gli intervalli temporali delle richieste approvate non sono supportati per l'ottimizzazione della pianificazione. Fino a quando non sono supportati, tutti i valori immessi nel campo **Intervallo temporale per le richieste approvate (giorni)** verrà ignorato.
 
 ## <a name="independent-supply-regardless-of-coverage-code"></a>Fornitura indipendente, indipendentemente dal codice di copertura
 

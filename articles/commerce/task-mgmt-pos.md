@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
-ms.openlocfilehash: 22a71fe66042a9ad189fd6a83a2666dfa64d35d0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 595a51eba1d0cd432d4f4de9405bf9f30a1ae00c
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9281998"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746037"
 ---
 # <a name="task-management-in-pos"></a>Gestione delle attività in POS
 
@@ -36,6 +36,7 @@ I responsabili punto vendita possono eseguire le seguenti operazioni di attivit�
 - **Stato attività** - Modifica lo stato delle attività selezionate.
 - **Filtro** - Per impostazione predefinita vengono visualizzate solo le attività attive. Tuttavia, applicando i filtri, i responsabili possono visualizzare tutte le attività, anche quelle che sono state completate o annullate.
 - **Nuova attività** - Creare un'attività in un elenco di attività esistenti o creare un'attività con unico scopo.
+- **Modifica attività** – Modifica i dettagli di un'attività.
 
 Gli addetti al negozio possono eseguire le seguenti operazioni di attività nell'applicazione POS utilizzando i pulsanti sulla barra dei comandi:
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-03
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4a3c8236183b81ad015b43d7dbf869c177eafd44
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 176f40ad8cd1aa1831bbe50c0ebd91ec0cc3bc89
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335407"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739900"
 ---
 # <a name="scheduling-with-resource-selection-based-on-capability"></a>Pianificazione con selezione delle risorse in base alla capacità
 
@@ -43,7 +43,7 @@ Per assegnare funzionalità a una risorsa operativa, utilizza la scheda dettagli
 - **Validità** – Specifica la data di inizio applicazione dell'assegnazione della risorsa o della capacità. Durante la pianificazione, il sistema non utilizzerà una risorsa o una capacità con un'assegnazione di capacità scaduta, anche se tale risorsa soddisfa i requisiti.
 - **Scadenza** – Specifica la data di fine applicazione dell'assegnazione della risorsa o della capacità. Durante la pianificazione, il sistema non utilizzerà una risorsa o una capacità con un'assegnazione di capacità scaduta, anche se tale risorsa soddisfa i requisiti.
 - **Livello** – Specifica il livello di competenza che la risorsa deve avere per la capacità. Quindi, se specifichi un valore **Livello minimo richiesto** per il requisito della risorsa o capacità, il motore di pianificazione considera il livello di competenza durante la selezione delle risorse. Il sistema seleziona solo le risorse con la capacità richiesta a un livello uguale o superiore al livello minimo che è specificato nei requisiti delle risorse.
-- **Priorità** – Questo campo non è ancora supportato da Ottimizzazione pianificazione. Tuttavia, se stai utilizzando il motore di pianificazione integrato, puoi utilizzare il campo **Priorità** nell'assegnazione della risorsa o della capacità per definire la priorità della risorsa. Quindi, se è selezionata l'opzione *Priorità* nel campo **Selezione risorsa primaria** della pagina **Parametri di programmazione**, il sistema seleziona per prima la risorsa con la massima priorità (il valore numerico più basso nel campo **Priorità**) durante la programmazione.
+- **Priorità** – Questo campo non è ancora supportato da Ottimizzazione pianificazione. Tuttavia, se stai utilizzando il motore di pianificazione generale deprecato, puoi utilizzare il campo **Priorità** nell'assegnazione della risorsa o della capacità per definire la priorità della risorsa. Quindi, se è selezionata l'opzione *Priorità* nel campo **Selezione risorsa primaria** della pagina **Parametri di programmazione**, il sistema seleziona per prima la risorsa con la massima priorità (il valore numerico più basso nel campo **Priorità**) durante la programmazione.
 
 ## <a name="example"></a>Esempio
 

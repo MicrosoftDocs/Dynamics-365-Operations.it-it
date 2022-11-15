@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8d5b7992c7955b9c5b1c7e773fdd467ccba6f9
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: c2e4294cb54e9ba41467f505e361d5ee45f1f27d
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335347"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740524"
 ---
 # <a name="firm-planned-orders"></a>Stabilizza ordini pianificati
 
@@ -33,7 +33,7 @@ Questo articolo descrive ogni metodo in dettaglio.
 
 ## <a name="enable-the-features-that-are-described-in-this-article"></a><a name="enable-features"></a>Abilita le funzionalità descritte in questo articolo
 
-La maggior parte delle funzionalità degli ordini pianificati sono disponibili in tutte le installazioni standard di Microsoft Dynamics 365 Supply Chain Management che utilizzano l'ottimizzazione della pianificazione. Tuttavia, alcune delle funzionalità descritte in questo articolo devono essere attivate in Gestione funzionalità prima di poterle utilizzare.
+La maggior parte delle funzionalità degli ordini pianificati sono disponibili in tutte le installazioni standard di Microsoft Dynamics 365 Supply Chain Management. Tuttavia, alcune delle funzionalità descritte in questo articolo devono essere attivate in Gestione funzionalità prima di poterle utilizzare.
 
 ### <a name="turn-parallelized-firming-of-planned-orders-on-or-off"></a>Attivare o disattivare la stabilizzazione parallela degli ordini pianificati
 
@@ -91,7 +91,7 @@ Per stabilizzare manualmente gli ordini pianificati, individuare e selezionare g
 
 ## <a name="auto-firm-planned-orders"></a>Stabilizzare automaticamente gli ordini pianificati
 
-La stabilizzazione automatica consente di stabilizzare gli ordini pianificati nel processo di pianificazione generale. Puoi Definire un intervallo temporale di stabilizzazione per gruppi di copertura, singoli articoli e combinazioni di articoli e piani generali. Quindi, durante le esecuzioni della pianificazione generale, gli ordini pianificati verranno automaticamente stabilizzati se la data dell'ordine rientra nell'intervallo di tempo specificato per la stabilizzazione. Gli ordini pianificati generati dall'ottimizzazione della pianificazione e l'operazione di pianificazione generale incorporata gestiscono la data dell'ordine (ovvero la data di inizio) in modo diverso.
+La stabilizzazione automatica consente di stabilizzare gli ordini pianificati nel processo di pianificazione generale. Puoi Definire un intervallo temporale di stabilizzazione per gruppi di copertura, singoli articoli e combinazioni di articoli e piani generali. Quindi, durante le esecuzioni della pianificazione generale, gli ordini pianificati verranno automaticamente stabilizzati se la data dell'ordine rientra nell'intervallo di tempo specificato per la stabilizzazione. Gli ordini pianificati generati dall'ottimizzazione della pianificazione e il motore di pianificazione generale deprecato gestiscono la data dell'ordine (ovvero la data di inizio) in modo diverso.
 
 > [!NOTE]
 > La stabilizzazione automatica degli ordini fornitore pianificati può avvenire solo per gli articoli associati a un fornitore.
@@ -99,13 +99,13 @@ La stabilizzazione automatica consente di stabilizzare gli ordini pianificati ne
 > Gli ordini derivati (cioè ordini fornitore in conto lavoro) che sono stabilizzati mostreranno uno stato di *In revisione* quando è abilitato il rilevamento delle modifiche.
 
 > [!IMPORTANT]
-> Prima che la funzionalità descritta in questa sezione possa essere utilizzata con l'ottimizzazione della pianificazione, la [funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*](#enable-features) deve essere attivato per il sistema, come descritto all'inizio di questo articolo. La stabilizzazione automatica può sempre essere utilizzato con il motore di pianificazione generale integrato.
+> Prima che la funzionalità descritta in questa sezione possa essere utilizzata con l'ottimizzazione della pianificazione, la [funzionalità *Stabilizzazione automatica per l'ottimizzazione della pianificazione*](#enable-features) deve essere attivato per il sistema, come descritto all'inizio di questo articolo. La stabilizzazione automatica può sempre essere utilizzato con il motore di pianificazione generale deprecato.
 
-### <a name="auto-firming-with-planning-optimization-vs-the-built-in-planning-engine"></a>Stabilizzazione automatica con l'ottimizzazione della pianificazione e motore di pianificazione integrato
+### <a name="auto-firming-with-planning-optimization-vs-the-deprecated-master-planning-engine"></a>Stabilizzazione automatica con l'ottimizzazione della pianificazione e motore di pianificazione generale deprecato
 
-Sia l'ottimizzazione di pianificazione che il motore di pianificazione integrato possono essere utilizzati per stabilizzare automaticamente gli ordini pianificati. Tuttavia, esistono delle differenze importanti. Ad esempio, l'ottimizzazione di pianificazione utilizza la data dell'ordine (ovvero la data di inizio) per determinare quali ordini pianificati devono essere stabilizzati, mentre il motore di pianificazione integrato utilizza la data del fabbisogno (ovvero la data di fine). Nella seguente tabella vengono riepilogate le differenze.
+Sia l'ottimizzazione di pianificazione che il motore di pianificazione generale deprecato possono essere utilizzati per stabilizzare automaticamente gli ordini pianificati. Tuttavia, esistono delle differenze importanti. Ad esempio, l'ottimizzazione di pianificazione utilizza la data dell'ordine (ovvero la data di inizio) per determinare quali ordini pianificati devono essere stabilizzati, mentre il motore di pianificazione generale deprecato utilizza la data del fabbisogno (ovvero la data di fine). Nella seguente tabella vengono riepilogate le differenze.
 
-| Funzionalità | Ottimizzazione pianificazione | Motore di pianificazione integrato |
+| Funzionalità | Ottimizzazione pianificazione | Motore di pianificazione generale deprecato |
 |---|---|---|
 | **Base data** | La stabilizzazione automatica si basa sulla data dell'ordine (data di inizio). | La stabilizzazione automatica si basa sulla data del fabbisogno (data di fine). |
 | **Lead time** | Poiché la data dell'ordine (data di inizio) attiva la stabilizzazione, non è necessario considerare i lead time come parte dell'intervallo temporale per la stabilizzazione. | Per garantire che gli ordini vengano stabilizzati in modo tempestivo, l'intervallo temporale per la stabilizzazione deve essere più lungo del lead time. |

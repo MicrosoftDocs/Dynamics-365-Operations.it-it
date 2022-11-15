@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f70d05f5663d8249b2435ad353421c278692a9ac
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 722b34e89a54715db39259549c11a78d69d2b4d3
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9218805"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739872"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Funzionalità rimosse o deprecate in Dynamics 365 Supply Chain Management
 
@@ -89,7 +89,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Sostituita da un'altra funzionalità?**   | Sì, l'ottimizzazione di pianificazione sostituirà l'attuale motore di pianificazione generale di Supply Chain Management incorporato. |
 | **Aree del prodotto interessate**         | Supply Chain Management - Pianificazione master |
 | **Opzione di distribuzione**              | Solo cloud. L'ottimizzazione di pianificazione non è supportata con le distribuzioni locali. |
-| **Stato**                         | Deprecato. Entro il 1° aprile 2022 gli scenari di produzione non saranno più supportati per il motore di pianificazione generale di Supply Chain Management integrato. Da quella data, Microsoft interromperà tutti gli sviluppi attivi negli scenari di produzione per il motore di pianificazione integrato, non rilascerà nuove funzionalità e rilascerà solo risoluzioni ai bug critici. Dopo tale data, tutte le aziende che necessitano di assistenza per gli scenari di produzione devono usare Ottimizzazione pianificazione per il calcolo della pianificazione master. Ottimizzazione pianificazione dovrà supportare completamente gli scenari di produzione da Ottobre 2022. Per ulteriori informazioni, vedi [Panoramica di Ottimizzazione pianificazione](../master-planning/planning-optimization/planning-optimization-overview.md).<br><br>Le aziende con implementazioni locali di Supply Chain Management possono continuare a utilizzare il motore di pianificazione integrato per gli scenari di produzione dopo il mese di aprile 2022. Non verranno tuttavia forniti ulteriori miglioramenti delle funzionalità. |
+| **Stato**                         | Deprecato. Entro il 1° aprile 2022 gli scenari di produzione non saranno più supportati per il motore di pianificazione generale di Supply Chain Management integrato. Da quella data, Microsoft interromperà tutti gli sviluppi attivi negli scenari di produzione per il motore di pianificazione integrato, non rilascerà nuove funzionalità e rilascerà solo risoluzioni ai bug critici. Dopo tale data, tutte le aziende che necessitano di assistenza per gli scenari di produzione devono usare Ottimizzazione pianificazione per il calcolo della pianificazione master. Ottimizzazione pianificazione dovrà supportare completamente gli scenari di produzione da Ottobre 2022. (Per ulteriori informazioni, vedi [Panoramica sulla pianificazione generale deprecata](../master-planning/deprecated-master-planning-overview.md) .)<br><br>Le aziende con implementazioni locali di Supply Chain Management possono continuare a utilizzare il motore di pianificazione integrato per gli scenari di produzione dopo il mese di aprile 2022. Non verranno tuttavia forniti ulteriori miglioramenti delle funzionalità. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10011-release"></a>Funzionalità rimosse o deprecate nella versione Supply Chain Management 10.0.11
 
@@ -101,7 +101,7 @@ Questo elenco ha lo scopo di aiutare a tenere in considerazione queste rimozioni
 | **Sostituita da un'altra funzionalità?**   | Sì, l'ottimizzazione di pianificazione sostituirà l'attuale motore di pianificazione generale di Supply Chain Management incorporato. |
 | **Aree del prodotto interessate**         | Supply Chain Management - Pianificazione master |
 | **Opzione di distribuzione**              | Solo cloud. L'ottimizzazione di pianificazione non è supportata con le distribuzioni locali. |
-| **Stato**                         | Deprecato. Entro il 1° aprile 2021 gli scenari di distribuzione non saranno più supportati con il motore di pianificazione generale Dynamics 365 Supply Chain Management. Per gli scenari di distribuzione, i clienti devono utilizzare l'ottimizzazione di pianificazione per i calcoli della pianificazione generale. Per ulteriori informazioni, vedere [Panoramica dell'ottimizzazione di pianificazione](../master-planning/planning-optimization/planning-optimization-overview.md). I clienti con implementazioni locali di Dynamics 365 Supply Chain Management possono continuare a utilizzare il motore di pianificazione generale di Supply Chain Management per gli scenari di distribuzione dopo il mese di aprile 2021. Non verranno tuttavia forniti ulteriori miglioramenti delle funzionalità. |
+| **Stato**                         | Deprecato. Entro il 1° aprile 2021 gli scenari di distribuzione non saranno più supportati con il motore di pianificazione generale Dynamics 365 Supply Chain Management. Per gli scenari di distribuzione, i clienti devono utilizzare l'ottimizzazione di pianificazione per i calcoli della pianificazione generale. (Per ulteriori informazioni, vedi [Panoramica sulla pianificazione generale deprecata](../master-planning/deprecated-master-planning-overview.md) .) I clienti con implementazioni locali di Dynamics 365 Supply Chain Management possono continuare a utilizzare il motore di pianificazione generale di Supply Chain Management per gli scenari di distribuzione dopo il mese di aprile 2021. Non verranno tuttavia forniti ulteriori miglioramenti delle funzionalità. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Annunci precedenti sulle funzionalità rimosse o deprecate
 

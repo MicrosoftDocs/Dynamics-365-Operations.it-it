@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.24
-ms.openlocfilehash: 0d857ef31e0fed2a0d7550197209fac9251d8812
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 876ee36c75a31ca89a9351d0ee1484e66076b6aa
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9069788"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748715"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Modalità di utilizzo dell'interfaccia di esecuzione dell'area di produzione da parte dei lavoratori
 
@@ -146,9 +146,6 @@ Se viene creato un ordine batch da una versione della formula in cui l'opzione *
 In questo caso, il lavoratore può specificare il coprodotto e la quantità da dichiarare selezionando **Variazioni co-prodotti** nella finestra di dialogo Dichiarazione avanzamento. Il lavoratore può quindi selezionare tra tutti i prodotti rilasciati che sono definiti come co-prodotti.
 
 ### <a name="reporting-catch-weight-items"></a>Creazione di report di articoli a peso variabile
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-<!-- KFM: preview until further notice -->
 
 I lavoratori possono utilizzare l'interfaccia di esecuzione dell'area di produzione per dichiarare lo stato di avanzamento degli ordini batch creati per articoli a peso variabile. Gli ordini batch vengono creati da formule che possono essere definite in modo che abbiano articoli a peso variabile come articoli formula, co-prodotti e sottoprodotti. È anche possibile definire una formula per avere righe di formula per gli ingredienti definiti per il peso variabile. Gli articoli a peso variabile utilizzano due unità di misura per tener traccia dell'inventario: la quantità a peso variabile e la quantità di inventario. Ad esempio, nell'industria alimentare, la carne in scatola può essere definita come un articolo a peso variabile, in cui la quantità a peso variabile viene utilizzata per tenere traccia del numero di scatole e la quantità di inventario viene utilizzata per tenere traccia del peso delle scatole.
 

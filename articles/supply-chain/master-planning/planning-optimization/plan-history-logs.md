@@ -1,6 +1,6 @@
 ---
 title: Visualizzare la cronologia del piano e i log di pianificazione
-description: In questo articolo viene descritto come visualizzare lo storico dei processi di pianificazione generati dalla funzionalità di ottimizzazione di pianificazione.
+description: Questo articolo spiega come visualizzare la cronologia dei processi di pianificazione.
 author: t-benebo
 ms.date: 06/01/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: b2c9257fc67a06b57418b2f5b035b2b540131405
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: ab469686a009364bf53cb963506fd2107075a283
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8863942"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740933"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Visualizzare la cronologia del piano e i log di pianificazione
 
 [!include [banner](../../includes/banner.md)]
 
-In questo articolo viene descritto come visualizzare lo storico dei processi di pianificazione generati dalla funzionalità di ottimizzazione di pianificazione in Microsoft Dynamics 365 Supply Chain Management.
+Questo articolo spiega come visualizzare la cronologia dei processi di pianificazione in Microsoft Dynamics 365 Supply Chain Management.
 
 Per visualizzare lo storico per un piano, aprire il piano andando a **Pianificazione generale** \> **Impostazione** \> **Piani** \> **Piani generali** e **Storico**. Lo storico elenca tutti i processi per il piano selezionato. L'elenco include i processi attivi e completati.
 
@@ -47,14 +47,6 @@ Per visualizzare gli errori di stabilizzazione automatica e altri avvisi o error
     - Se stai utilizzando il modulo legacy: nel riquadro azioni, seleziona **Registro** nella scheda **Processo batch**.
 
 1. Seleziona **Dettagli messaggio** per aprire il riquadro **Dettagli messaggio** in cui è possibile visualizzare tutti gli avvisi e gli errori acquisiti durante l'elaborazione.
-
-## <a name="related-resources"></a>Risorse correlate
-
-- [Panoramica sull'ottimizzazione della pianificazione](planning-optimization-overview.md)
-- [Introduzione all'ottimizzazione della pianificazione](get-started.md)
-- [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md)
-- [Applicare i filtri a un piano](plan-filters.md)
-- [Annullare un processo di pianificazione](cancel-planning-job.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

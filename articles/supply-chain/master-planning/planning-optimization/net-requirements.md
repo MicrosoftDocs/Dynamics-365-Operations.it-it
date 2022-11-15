@@ -1,6 +1,6 @@
 ---
-title: Fabbisogni netti e informazioni di pegging con Ottimizzazione pianificazione
-description: Questo articolo fornisce informazioni sui fabbisogni netti calcolati e sul pegging in Ottimizzazione pianificazione.
+title: Requisiti di rete e informazioni sul pegging
+description: Questo articolo fornisce informazioni sui fabbisogni netti calcolati e sul pegging.
 author: t-benebo
 ms.date: 7/28/2021
 ms.topic: article
@@ -11,20 +11,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 259e5793a8dfac67793034d98ccb627fe1947bab
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a31ff5490b08d92f0d966388b65de02bca25b050
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8888530"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748440"
 ---
-# <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Fabbisogni netti e informazioni di pegging con Ottimizzazione pianificazione
+# <a name="net-requirements-and-pegging-information"></a>Requisiti di rete e informazioni sul pegging
 
 [!include [banner](../../includes/banner.md)]
 
-Quando si esegue Ottimizzazione pianificazione, è importante comprenderne l'output, il modo in cui l'offerta esistente copre la domanda e il motivo per cui è stata generata l'offerta specifica. Puoi usare la pagina **Fabbisogni netti** per comprendere meglio i fabbisogni calcolati prodotti dalla pianificazione generale.
+Quando si esegue la pianificazione generale, è importante comprenderne l'output, il modo in cui l'offerta esistente copre la domanda e il motivo per cui è stata generata l'offerta specifica. Puoi usare la pagina **Fabbisogni netti** per comprendere meglio i fabbisogni calcolati prodotti dalla pianificazione generale.
 
-La pagina **Fabbisogni netti** mostra i fabbisogni netti calcolati per il prodotto da Ottimizzazione pianificazione. Mostra anche le impostazioni di copertura che sono state applicate durante l'esecuzione della pianificazione generale, un'analisi dei totali dei fabbisogni per tipo di transazione e informazioni sul pegging.
+La pagina **Fabbisogni netti** mostra i fabbisogni netti calcolati per il prodotto dalla pianificazione generale. Mostra anche le impostazioni di copertura che sono state applicate durante l'esecuzione della pianificazione generale, un'analisi dei totali dei fabbisogni per tipo di transazione e informazioni sul pegging.
 
 ## <a name="open-the-net-requirements-page"></a>Aprire la pagina dei fabbisogni netti
 
@@ -64,8 +64,8 @@ La sezione inferiore della pagina fornisce le seguenti schede:
 I seguenti comandi sono disponibili nel riquadro azioni:
 
 - **Aggiorna \> Pianificazione generale** – Esegui la pianificazione generale direttamente dalla pagina **Fabbisogni netti**.
-- **Aggiorna \> Pianificazione previsionale** – Esegui la pianificazione previsionale direttamente dalla pagina **Fabbisogni netti**. L'ottimizzazione della pianificazione non supporta ancora questa operazione.
-- **Aggiorna \> Programmazione continuità** – Esegui la programmazione della continuità direttamente dalla pagina **Fabbisogni netti**. L'ottimizzazione della pianificazione non supporta ancora questa operazione.
+- **Aggiorna \> Pianificazione previsionale** – Esegui la pianificazione previsionale direttamente dalla pagina **Fabbisogni netti**. L'ottimizzazione della pianificazione non supporta questa operazione.
+- **Aggiorna \> Programmazione continuità** – Esegui la programmazione della continuità direttamente dalla pagina **Fabbisogni netti**. L'ottimizzazione della pianificazione non supporta questa operazione.
 
 ## <a name="example-scenario"></a>Scenario di esempio
 
@@ -133,8 +133,6 @@ Successivamente, apri la pagina **Fabbisogni netti** per il prodotto *1000* per 
     ![Informazioni di pegging per l'ordine cliente](media/pegging-planned-purchase-order.png "Informazioni di pegging per l'ordine cliente")
 
 > [!NOTE]
-> Poiché Ottimizzazione pianificazione non supporta ancora alcune funzionalità, i tipi di fabbisogno *Scorta di sicurezza* e *Lotto scaduto* non sono inclusi nella pagina **Fabbisogni netti**. Per ulteriori informazioni, vedere [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md).
->
-> Se stai utilizzando il motore di pianificazione generale integrato, i prodotti controllati da batch sono supportati. Per i prodotti controllati da batch le scorte disponibili scadute sono mostrate nella pagina **Fabbisogni netti**, ma non è sottoposto a pegging con i fabbisogni della domanda. Le righe delle scorte disponibili scadute di questo tipo sono visualizzate come righe di fabbisogno *Batch scaduto* nella pagina **Fabbisogni netti**.
+> Il requisito *Scorta di sicurezza* non è incluso nella pagina **Fabbisogno netto**.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
