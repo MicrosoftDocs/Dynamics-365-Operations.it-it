@@ -2,19 +2,19 @@
 title: Domini in Dynamics 365 Commerce
 description: In questo articolo viene descritto come vengono gestiti i domini in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/09/2022
+ms.date: 11/08/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: BrShoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: 132aec92d2b3d2765dd6bd261fb4182f8aae679a
-ms.sourcegitcommit: dbb997f252377b8884674edd95e66caf8d817816
+ms.openlocfilehash: f1a2de7984aad7d291b8a4dc68f5690d57ebe6cc
+ms.sourcegitcommit: 2b654e60e2553a5835ab5790db4ccfa58828fae7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/10/2022
-ms.locfileid: "9465195"
+ms.lasthandoff: 11/08/2022
+ms.locfileid: "9750682"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domini in Dynamics 365 Commerce
 
@@ -95,6 +95,12 @@ Ad esempio, è stato eseguito il provisioning dell'ambiente "xyz" e due siti son
 
 Quando una stringa di query di dominio non viene fornita in un ambiente con più domini specificati, Commerce utilizza il primo dominio fornito. Ad esempio, se il percorso "fabrikam" è stato fornito per primo durante la configurazione del sito, l'URL `https://xyz.dynamics365commerce.ms` può essere utilizzato per accedere al sito di contenuto del sito pubblicato per `www.fabrikam.com`.
 
+Puoi anche aggiungere domini personalizzati. Per fare ciò, nella pagina di gestione di Commerce dell'ambiente per il progetto, sotto l'intestazione secondaria **e-Commerce**, seleziona **+ Aggiungi dominio personalizzato**. Il dispositivo di scorrimento mostra i domini personalizzati esistenti e offre la possibilità di aggiungere un nuovo dominio personalizzato.
+
+## <a name="update-which-commerce-scale-unit-is-used"></a>Aggiornare quale Commerce Scale Unit viene utilizzata
+
+La Commerce Scale Unit (CSU) utilizzata da Commerce viene in genere selezionata al momento della creazione iniziale di un ambiente. Commerce consente di modificare l'istanza CSU utilizzata dal tuo ambiente, consentendoti di gestire meglio la tua architettura attraverso la funzionalità self-service e riducendo la necessità di contattare l'assistenza. Per aggiornare la tua istanza CSU, vai alla pagina di gestione di Commerce del tuo ambiente per il progetto, quindi seleziona **Aggiorna unità di scala**. Utilizza il dispositivo di scorrimento **Nuova Commerce Scale Unit** per selezionare una nuova istanza CSU dall'elenco di CSU disponibili per il tuo ambiente.
+
 ## <a name="traffic-forwarding-in-production"></a>Inoltro del traffico in produzione
 
 È possibile simulare più domini utilizzando i parametri della stringa di query del dominio sull'endpoint commerce.dynamics.com. Tuttavia quando è necessario passare in produzione, è necessario inoltrare il traffico per il dominio personalizzato all'endpoint `<e-commerce tenant name>.dynamics365commerce.ms`.
@@ -103,9 +109,9 @@ L'endpoint `<e-commerce tenant name>.dynamics365commerce.ms` non supporta Secure
 
 Per impostare domini personalizzati utilizzando un Front Door Service o una CDN, sono disponibili due opzioni:
 
-- Configurare un Front Door Service come Azure Front Door per gestire il traffico front-end e connettersi all'ambiente Commerce. Ciò fornisce un maggiore controllo sulla gestione del dominio e dei certificati e criteri di sicurezza più granulari.
+- Configura un servizio front-end come Azure Front Door per gestire il traffico front-end e connettersi al tuo ambiente Commerce, che offre un maggiore controllo sulla gestione di domini e certificati e criteri di sicurezza più granulari.
 
-- Usare l'istanza di Azure Front Door fornita da Commerce. Ciò richiede un'azione di coordinamento con il team di Dynamics 365 Commerce per la verifica del dominio e l'ottenimento dei certificati SSL per il dominio di produzione.
+- Utilizza l'istanza Frontdoor di Azure fornita da Commerce che richiede un'azione di coordinamento con il team di Dynamics 365 Commerce per la verifica del dominio e l'ottenimento dei certificati SSL per il dominio di produzione.
 
 > [!NOTE]
 > Se stai utilizzando una rete CDN esterna o un servizio frontdoor, assicurati che la richiesta arrivi alla piattaforma Commerce con il nome host fornito da Commerce, ma con l'intestazione X-Forwarded-Host (XFH) \<custom-domain\>. Ad esempio, se il tuo endpoint Commerce è `xyz.dynamics365commerce.ms` e il dominio personalizzato è `www.fabrikam.com`, l'intestazione host della richiesta inoltrata deve essere `xyz.dynamics365commerce.ms` e l'intestazione XFH deve essere `www.fabrikam.com`.
@@ -115,7 +121,7 @@ Per informazioni su come configurare direttamente un servizio CDN, vedere [Aggiu
 Per usare l'istanza di Azure Front Door fornita da Commerce, è necessario creare una richiesta di assistenza per l'assistenza alla configurazione della rete CDN del team di onboarding di Commerce. 
 
 - Sarà necessario fornire il nome della società, il dominio di produzione, l'ID ambiente e il nome del tenant e-commerce di produzione. 
-- Sarà necessario confermare se si tratta di un dominio esistente (utilizzato per un sito attualmente attivo) o di un nuovo dominio. 
+- Sarà necessario confermare se questa richiesta di servizio è per un dominio esistente (utilizzato per un sito attualmente attivo) o di un nuovo dominio. 
 - Per un nuovo dominio, la verifica del dominio e il certificato SSL possono essere ottenuti in un unico passaggio. 
 - Per un dominio che serve un sito Web esistente, è necessario un processo a più fasi per stabilire la verifica del dominio e il certificato SSL. Questo processo prevede un contratto di servizio (SLA) di 7 giorni lavorativi per l'attivazione di un dominio, poiché include più passaggi sequenziali.
 

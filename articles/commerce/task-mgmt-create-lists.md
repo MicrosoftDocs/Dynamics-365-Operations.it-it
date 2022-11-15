@@ -2,24 +2,24 @@
 title: Creare elenchi di attività e aggiungere attività
 description: Questo articolo descrive come creare elenchi di attività e aggiungervi le attività in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-ms.date: 02/10/2020
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: v-chgriffin
+ms.reviewer: josaw
 ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.search.industry: ''
 ms.search.form: ''
-ms.openlocfilehash: f754ee78547e785fa2386dee6c3d89371bc0de41
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: b81f27f79362516f8a25766c1f663a7691ebb42a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9268921"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746161"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Creare elenchi di attività e aggiungere attività
 
@@ -35,7 +35,7 @@ Sia i manager che i lavoratori possono creare elenchi di attività nel back offi
 
 ## <a name="create-a-task-list"></a>Creare un elenco di attività
 
-Per creare un elenco di attività, completare i passaggi che seguono.
+Prima di iniziare il processo di creazione di un elenco di attività, assicurati di completare le configurazioni nell'articolo [Configura la gestione delle attività](task-mgmt-configure.md). Per creare un elenco di attività, completare i passaggi che seguono.
 
 1. Andare a **Retail e Commerce \> Gestione delle attività \> Amministrazione gestione delle attività**.
 1. Selezionare **Nuovo**, quindi immettere i valori nei campi **Nome**, **Descrizione** e **Proprietario**.

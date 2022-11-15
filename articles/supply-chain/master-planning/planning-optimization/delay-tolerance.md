@@ -10,14 +10,15 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: fa4d2d1506546cacf5f9a7ec936f17601c5727d2
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 78ba4236705f1a200d9fe796eb80d0241b0fa537
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335377"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740470"
 ---
 # <a name="delay-tolerance-negative-days"></a>Tolleranza di ritardo (giorni negativi)
+<!-- KFM: Split topic into PO and classic -->
 
 [!include [banner](../../includes/banner.md)]
 
@@ -47,7 +48,7 @@ Il sistema collega il calcolo della tolleranza di ritardo alla *prima data di ri
 Questa formula garantisce che la pianificazione generale non crei nuovi ordini di fornitura quando esiste una fornitura sufficiente durante il lead time del prodotto.
 
 > [!NOTE]
-> Il calcolo della tolleranza di ritardo in Ottimizzazione pianificazione utilizza sempre il calcolo dinamico dei giorni negativi dalla pianificazione generale incorporata. L'impostazione **Usa giorni negativi dinamici** nella pagina **Parametri di pianificazione generale** non ha alcun effetto su questo comportamento.
+> Il calcolo della tolleranza di ritardo in Ottimizzazione pianificazione utilizza sempre il calcolo dinamico dei giorni negativi dal motore di pianificazione generale deprecato. L'impostazione **Usa giorni negativi dinamici** nella pagina **Parametri di pianificazione generale** non ha alcun effetto su questo comportamento.
 
 Se la fornitura esistente implica un ritardo della domanda inferiore o uguale alla tolleranza di ritardo calcolata, l'ottimizzazione della pianificazione associa la fornitura esistente alla domanda. In alcuni casi, è meglio ritardare la domanda piuttosto che finire con un eccesso di offerta.
 

@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 42010bbc0cfb9714fc2be360c817bad07e184eb3
-ms.sourcegitcommit: 435e69160dbd7f9c61b37ac4440285a5df144622
+ms.openlocfilehash: eb21dc5ca474a87fcabe2dda2a06dda7aa42ebc2
+ms.sourcegitcommit: 719600437fc0895efac374f954a895e4c951da6e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728278"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9736883"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operazioni POS online e offline
 
@@ -42,6 +42,7 @@ Nelle colonne seguenti viene indicato dove è possibile richiamare le operazioni
 
 > [!NOTE]
 > Le operazioni elencate di seguito vengono applicate all'ultima versione di Commerce. È possibile che alcune operazioni siano state modificate o che non siano disponibili nelle versioni precedenti.
+> Per ulteriori dettagli sulle funzionalità e la configurazione offline, fai riferimento all'articolo [Implementazione e risoluzione dei problemi di Commerce offline](dev-itpro/implementation-considerations-offline.md).
 
 | ID   | Operazione                                         | Description                                                                                                                                                                                                    | Operazioni utente    | Schermata transazione | Schermata di benvenuto | Disponibile offline? | Specifica dell'applicazione |
 | ---- | ------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | ------------------ | -------------- | ----------------- | --------------- |

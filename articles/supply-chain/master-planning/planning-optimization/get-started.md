@@ -1,6 +1,6 @@
 ---
-title: Introduzione a Ottimizzazione pianificazione
-description: Questo articolo illustra come iniziare a utilizzare la funzionalità di ottimizzazione di pianificazione.
+title: Introduzione alla pianificazione generale
+description: Questo articolo illustra come iniziare a utilizzare la funzionalità di pianificazione generale in Dynamics 365 Supply Chain Management.
 author: t-benebo
 ms.date: 05/20/2021
 ms.topic: article
@@ -16,27 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 629a84135434ad79f8397649ee9a4a62e49751d9
-ms.sourcegitcommit: 14a27b776befbc6793390f97e8fb0279c0ea18c1
+ms.openlocfilehash: 958de3f9ae6ead6cb6914bd3b7a4560e768013ab
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295931"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740331"
 ---
-# <a name="get-started-with-planning-optimization"></a>Introduzione all'ottimizzazione della pianificazione
+# <a name="get-started-with-master-planning"></a>Introduzione alla pianificazione generale
 
 [!include [banner](../../includes/banner.md)]
 
-Come [annunciato in precedenza](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios), l'ottimizzazione di pianificazione sostituirà il motore di pianificazione generale integrato esistente.
-
-Se attualmente utilizzi il motore di pianificazione generale integrato, dovresti già iniziare a pianificare la migrazione all'ottimizzazione di pianificazione. È importante iniziare subito perché altrimenti le tue operazioni potrebbero risentirne quando viene applicata la deprecazione (sebbene l'applicazione non sia attualmente pianificata). Ti consigliamo vivamente di completare la migrazione non appena Ottimizzazione pianificazione supporta le funzionalità necessarie in modo da poter iniziare a usufruire dei numerosi miglioramenti delle prestazioni e altre nuove funzionalità fornite dal nuovo servizio.
-
-La funzionalità di ottimizzazione di pianificazione non supporta attualmente tutte le funzionalità disponibili nel motore di pianificazione incorporato in Supply Chain Management. Pertanto, è importante valutare se il set di funzionalità attualmente disponibile nell'ottimizzazione di pianificazione soddisfa i requisiti. La funzionalità di ottimizzazione di pianificazione non è attualmente attivata per impostazione predefinita in Dynamics Lifecycle Services (LCS), quindi hai la possibilità di eseguire una tua valutazione prima che la funzionalità venga attivata.
-
-> [!NOTE]
-> Devi richiedere un'eccezione per la migrazione all'ottimizzazione di pianificazione se il processo di pianificazione generale non include la produzione (ordini di produzione pianificati generati tramite la pianificazione generale) e hai bisogno di una versione del motore di pianificazione generale integrato successiva alla versione 10.0.15. A partire dalla versione 10.0.16, verrà visualizzato un errore negli ambienti durante l'esecuzione della pianificazione generale incorporata senza generazione degli ordini di produzione pianificati. L'ottimizzazione di pianificazione deve essere utilizzata per tutte le nuove distribuzioni che non generano ordini di produzione pianificati durante la pianificazione generale. I proprietari di ambienti esistenti che eseguono il motore di pianificazione generale integrato senza la generazione di ordini di produzione pianificati riceveranno una mail con i dettagli sul processo di eccezione. Ti consigliamo di collaborare con un partner per valutare e pianificare la migrazione all'ottimizzazione di pianificazione.
-
-Prima di attivare l'ottimizzazione di pianificazione, si consiglia vivamente di valutare i risultati dell'analisi di adeguatezza dell'ottimizzazione di pianificazione. Per ulteriori informazioni, vedere [Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md).
+La pianificazione generale in Supply Chain Management è fornita da un servizio esterno chiamato componente aggiuntivo Ottimizzazione pianificazione per Dynamics 365 Supply Chain Management. Questo argomento spiega come ottenere e configurare il servizio.
 
 ## <a name="availability"></a>Disponibilità
 
@@ -108,31 +99,15 @@ Lo stato della connessione indica lo stato corrente della connessione tra Supply
 L'impostazione dell'opzione **Usa ottimizzazione di pianificazione** determina il motore di pianificazione utilizzato per la pianificazione generale:
 
 - **Sì** - L'ottimizzazione di pianificazione viene utilizzata per la pianificazione generale.
-- **No** - Il motore di pianificazione incorporato Supply Chain Management viene utilizzato per la pianificazione generale.
+- **No**: il motore di pianificazione generale deprecato viene utilizzato per la pianificazione generale.
 
-Questa impostazione si applica a tutte le persone giuridiche (società). Non è possibile utilizzare Ottimizzazione pianificazione in alcune persone giuridiche e la pianificazione generale incorporata in altre persone giuridiche.
+Questa impostazione si applica a tutte le persone giuridiche (società). Non è possibile utilizzare Ottimizzazione pianificazione in alcune persone giuridiche e il motore di pianificazione generale deprecato in altre persone giuridiche.
 
 > [!NOTE]
-> Se vengono attivati processi batch di pianificazione esistenti creati per il motore di pianificazione integrato Supply Chain Management mentre l'opzione **Usa ottimizzazione di pianificazione** è impostata su **Sì**, i processi verranno completati.
+> Se vengono attivati processi batch di pianificazione esistenti creati per il motore di pianificazione generale deprecato mentre l'opzione **Usa ottimizzazione di pianificazione** è impostata su **Sì**, i processi verranno completati.
 
 ### <a name="integration-with-the-setup"></a>Integrazione con l'impostazione
 
 Se l'Ottimizzazione pianificazione è attivata, la pianificazione generale viene eseguita utilizzando il componente aggiuntivo ottimizzazione di pianificazione. In questo caso, i risultati e le funzionalità della pianificazione generale sono interessati.
 
-## <a name="additional-resources"></a>Risorse aggiuntive
-
-[Condizioni per l'anteprima](https://go.microsoft.com/fwlink/?linkid=2015274)
-
-[Panoramica sull'ottimizzazione della pianificazione](planning-optimization-overview.md)
-
-[Analisi di adeguatezza dell'ottimizzazione di pianificazione](planning-optimization-fit-analysis.md)
-
-[Visualizzare la cronologia del piano e i log di pianificazione](plan-history-logs.md)
-
-[Applicare i filtri a un piano](plan-filters.md)
-
-[Annullare un processo di pianificazione](cancel-planning-job.md)
-
-
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
-

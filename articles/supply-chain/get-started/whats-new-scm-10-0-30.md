@@ -2,7 +2,7 @@
 title: Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.30 (novembre 2022)
 description: Questo articolo descrive le funzionalità nuove o modificate di Microsoft Dynamics 365 Supply Chain Management 10.0.30.
 author: kamaybac
-ms.date: 09/08/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2022-09-08
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: 2983c113487934fd0751efcef9129e1f28d8dce8
-ms.sourcegitcommit: 86c0562ce1ecdf7937125c0f5a6771f178b459e7
+ms.openlocfilehash: 20674ebd9d49b077371998f53d2b22c74f888fc6
+ms.sourcegitcommit: 613be2f35e600ae1a1fa7ea2ae30e78984ca398a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714800"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748466"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10030-november-2022"></a>Novità o modifiche in Dynamics 365 Supply Chain Management 10.0.30 (novembre 2022)
 
@@ -33,6 +33,7 @@ Questa tabella elenca le funzionalità incluse in questa versione. Possiamo aggi
 
 | Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da |
 |---|---|---|---|
+| Inventario e logistica | [Tener traccia delle quantità prenotate temporanee all'interno delle allocazioni](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/track-soft-reserved-quantities-within-allocations) | [Allocazione inventario di Inventory Visibility](../inventory/inventory-visibility-allocation.md) |  Abilitata dalla [configurazione del servizio](../inventory/inventory-visibility-configuration.md) |
 | Produzione | [Monitorare le apparecchiature con Intelligence dei dati del sensore](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/monitor-equipment-sensor-data-intelligence) | [Home page di Intelligence dei dati del sensore](../sensor-data-intelligence/sdi-home-page.md) | Gestione funzionalità:<br>*(Anteprima) Intelligence dei dati del sensore* |
 | Warehouse Management | [Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management](/dynamics365-release-plan/2022wave2/finance-operations/dynamics365-supply-chain-management/multi-level-detours-warehouse-management-mobile-app) | [Configura le deviazioni per i passaggi nelle voci di menu del dispositivo mobile](../warehousing/warehouse-app-detours.md) | Gestione funzionalità:<br>*Deviazioni multilivello per l'app per dispositivi mobili Warehouse Management* |
 

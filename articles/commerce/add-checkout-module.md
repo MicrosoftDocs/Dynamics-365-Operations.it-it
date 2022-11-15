@@ -2,7 +2,7 @@
 title: Modulo Checkout
 description: In questo articolo viene descritto come aggiungere un modulo Checkout a una pagina e impostare le proprietà necessarie.
 author: anupamar-ms
-ms.date: 05/18/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.custom: ''
 ms.assetid: ''
-ms.openlocfilehash: b6f3aef08f723eff8b172db2ca5c355121e93bdc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 295b99c7012e35a40af34d454ff7082d4100c74a
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280476"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746227"
 ---
 # <a name="checkout-module"></a>Modulo Checkout
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In questo articolo viene descritto come aggiungere un modulo Checkout a una pagina e impostare le proprietà necessarie.
 
@@ -104,6 +105,8 @@ Per aggiungere un modulo Checkout a una nuova pagina e impostare le proprietà n
 1. Selezionare **Fine modifica** per archiviare il frammento, quindi selezionare **Pubblica** per pubblicarlo.
 1. Creare un modello che utilizza il nuovo frammento checkout.
 1. Creare una pagina checkout che utilizza il nuovo modello.
+
+> [NOTA] Quando si utilizza l'autorizzazione al pagamento unico come descritto in [Pagamenti avanzati nel checkout dalla vetrina](./dev-itpro/enhanced-sca.md), nella sezione **Informazioni check out** della pagina di checkout, conferma che il contenitore della sezione di checkout sia posizionato per ultimo. In questo modo tutte le informazioni obbligatorie vengono raccolte dalla pagina del checkout prima della verifica del checkout finale e delle azioni di completamento dell'ordine. 
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

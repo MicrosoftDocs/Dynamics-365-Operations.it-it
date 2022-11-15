@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-09-21
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 807834bf5cd062ed24e5e3f3512d8389717a2d39
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 2ef78c73a1c7033735f9586229ff7ba21daaa5ef
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885901"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740906"
 ---
 # <a name="date-and-time-parameters-used-by-planning-optimization"></a>Parametri di data e ora utilizzati da Ottimizzazione pianificazione
 
@@ -23,7 +23,7 @@ ms.locfileid: "8885901"
 
 Questo articolo fornisce informazioni sui parametri di data e ora utilizzati da Ottimizzazione pianificazione durante il suo funzionamento.
 
-Mentre il motore di pianificazione principale integrato utilizza le date delle transazioni in tutti i calcoli, Ottimizzazione pianificazione funziona con i valori di data e ora che vengono convertiti in date. Questa differenza di comportamento può portare a situazioni in cui, ad esempio, le transazioni di previsione create a mezzanotte del giorno in cui viene eseguita la pianificazione generale non vengono incluse perché Ottimizzazione pianificazione ritiene che siano state create prima della data corrente.
+Mentre il motore di pianificazione generale deprecato utilizza le date delle transazioni in tutti i calcoli, Ottimizzazione pianificazione funziona con i valori di data e ora che vengono convertiti in date. Questa differenza di comportamento può portare a situazioni in cui, ad esempio, le transazioni di previsione create a mezzanotte del giorno in cui viene eseguita la pianificazione generale non vengono incluse perché Ottimizzazione pianificazione ritiene che siano state create prima della data corrente.
 
 ## <a name="parameters-for-issue-and-demand-transactions"></a>Parametri per le transazioni della domanda e in uscita
 
