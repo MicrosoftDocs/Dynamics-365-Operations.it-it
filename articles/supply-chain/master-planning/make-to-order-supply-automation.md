@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-07-27
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 9044acb472548a797ed387b08ca6892459785793
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: d376c2f4d8514a4e6122e2e94455d57a39d2babf
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220607"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740196"
 ---
 # <a name="make-to-order-supply-automation"></a>Automazione dell'offerta Produzione su ordine
 
@@ -32,12 +32,6 @@ La funzionalità *Automazione dell'offerta Produzione su ordine* aggiunge vari m
 - Ottimizzare il flusso di informazioni interaziendale. Gli ordini fornitore vengono aggiornati in modo da includere i campi per la modalità di consegna, i termini di consegna e il numero articolo esterno. Questa modifica garantisce che le informazioni dettagliate sulla domanda possano fluire alla società fornitrice.
 
 In questo articolo viene descritto come configurare e utilizzare ogni miglioramento.
-
-> [!NOTE]
-> Tutti i miglioramenti descritti in questo articolo si applicano ai sistemi che utilizzano la pianificazione generale integrata. I due miglioramenti seguenti sono supportati anche dal componente aggiuntivo Ottimizzazione pianificazione per Microsoft Dynamics 365 Supply Chain Management:
->
-> - Tolleranza di ritardo nei piani generali
-> - Controllo sulla sequenza di pegging utilizzata durante la pianificazione generale
 
 ## <a name="turn-on-the-make-to-order-supply-automation-feature"></a>Attivare la funzionalità Automazione dell'offerta Produzione su ordine
 
@@ -73,7 +67,7 @@ Per aprire la pagina **Carico di capacità** in modo da poter esaminare la capac
 
 Queste opzioni sono disponibili nel campo **Aggiorna contrassegno** nella scheda **Aggiornamento standard** della pagina **Parametri di pianificazione generale**, in cui definisci la selezione predefinita per la finestra di dialogo **Stabilizzazione**.
 
-Per ulteriori informazioni, vedi [Contrassegno scorte con Ottimizzazione pianificazione](planning-optimization/marking.md).
+Per ulteriori informazioni, vedere [Applicazione di contrassegni alle scorte](planning-optimization/marking.md).
 
 ## <a name="set-delay-tolerance-negative-days-at-the-master-plan-level"></a>Impostare la tolleranza di ritardo (giorni negativi) a livello di piano generale
 

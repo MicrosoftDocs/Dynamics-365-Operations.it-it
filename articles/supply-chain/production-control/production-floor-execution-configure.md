@@ -2,7 +2,7 @@
 title: Configurare l'interfaccia di esecuzione dell'area di produzione
 description: Questo articolo descrive come creare una o più configurazioni per l'interfaccia di esecuzione dell'area di produzione. Quando si apre l'interfaccia di esecuzione dell'area di produzione, viene automaticamente caricata una configurazione selezionata e un filtro di processo specifici per il browser e il dispositivo. Nella configurazione si impostano i criteri che devono essere applicabili per un utilizzo specifico.
 author: johanhoffmann
-ms.date: 08/05/2022
+ms.date: 11/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7196306b34a72e4c53113dd644f666346f170ed7
-ms.sourcegitcommit: 9e6a9d644a34158390c6e209e80053ccbdb7d974
+ms.openlocfilehash: 641b293617df608bc07b97c077dbcd05664f8e2a
+ms.sourcegitcommit: 4abf9b375fed6885ea11a425c524958fea29c3b9
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9708727"
+ms.lasthandoff: 11/07/2022
+ms.locfileid: "9748688"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurare l'interfaccia di esecuzione dell'area di produzione
 
@@ -85,17 +85,19 @@ Questa funzionalità offre un'esperienza migliorata per la visualizzazione di el
 
 Per utilizzare questa funzionalità, è necessario attivarla per il sistema. A partire dalla versione 10.0.25 di Supply Chain Management, la funzionalità è attivata per impostazione predefinita. A partire dalla versione 10.0.29 di Supply Chain Management, la funzionalità è obbligatoria e non può essere disattivata. Se si sta eseguendo una versione precedente alla versione 10.0.29, gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Mostra i numeri di identificazione, serie e batch completi nell'interfaccia di esecuzione area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-
 A partire dalla versione 10.0.25 di Supply Chain Management, questa funzionalità è attivata per impostazione predefinita. Gli amministratori possono attivare o disattivare questa funzionalità cercando la funzionalità *Mostra i numeri di identificazione, serie e batch completi nell'interfaccia di esecuzione area di produzione* nell'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ### <a name="register-material-consumption"></a>Registra consumo materiali
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until further notice -->
 
 Questa funzionalità consente ai lavoratori di utilizzare l'interfaccia di esecuzione del piano di produzione per registrare il consumo di materiale, i numeri di batch e i numeri di serie. Alcuni produttori, in particolare quelli all'interno delle industrie di processo, devono registrare esplicitamente la quantità di materiale consumato per ogni batch oppure ordine di produzione. Ad esempio, i lavoratori potrebbero utilizzare una bilancia per pesare la quantità di materiale consumato mentre lavorano. Per garantire la completa tracciabilità dei materiali, le organizzazioni devono anche registrare quali numeri di batch sono stati consumati durante la produzione di ciascun prodotto.
 
 Sono disponibili due versioni di questa funzionalità. Una supporta gli articoli che *non sono* abilitati per l'utilizzo di processi di gestione del magazzino (WMS). L'altra supporta gli articoli che *sono* abilitati all'utilizzo di WMS. Per utilizzare questa funzionalità, attiva una o entrambe le seguenti funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) (in questo ordine), a seconda che siano presenti articoli abilitati per WMS:
 
 - *Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (non WMS)*
-- *Registra il consumo di materiali nell'interfaccia di esecuzione dell'area di produzione (abilitato per WMS)*
+- *(Anteprima) Registra il consumo materiali nell'interfaccia di esecuzione area di produzione (abilitato per WMS)*
 
 > [!IMPORTANT]
 > È possibile utilizzare solo la funzionalità non WMS. Tuttavia, se utilizzi WMS, devi abilitare entrambe le funzionalità.
@@ -138,6 +140,25 @@ Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione fu
 
 - *Configurazione aggiuntiva nell'interfaccia di esecuzione dell'area di produzione*
 
+### <a name="enable-the-my-jobs-tab"></a>Abilitare la scheda Mansioni personali
+
+La scheda **Processi personali** consente ai lavoratori di visualizzare facilmente tutti i processi non avviati e non completati assegnati loro specificamente. È utile nelle aziende in cui i processi sono talvolta o sempre assegnati a lavoratori specifici (risorse umane) anziché ad altri tipi di risorse (come le macchine).
+
+Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Scheda Processi personali nell'interfaccia di esecuzione dell'area di produzione*
+
+### <a name="enable-use-of-a-numpad-on-the-sign-in-page"></a>Abilita l'uso di un tastierino numerico nella pagina di accesso
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+<!-- KFM: Preview until 10.0.31 GA -->
+
+Questa funzionalità consente agli amministratori di aggiungere un controllo tastierino numerico alla pagina di accesso per l'interfaccia di esecuzione dell'area di produzione. I lavoratori possono quindi accedere utilizzando il tastierino numerico per inserire l'ID badge o il numero personale.
+
+Per usare questa funzionalità, attiva la seguente funzionalità in [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- *Abilita l'uso di un tastierino numerico nella pagina di accesso*
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Utilizzare le configurazioni di esecuzione dell'area di produzione
 
 Per creare e gestire configurazioni di esecuzione dell'area di produzione, andare a **Controllo produzione \> Imposta \> Esecuzione produzione \> Configura esecuzione area di produzione**. La pagina **Configura esecuzione area di produzione** mostra un elenco di configurazioni esistenti. In questa pagina è possibile effettuare le azioni riportate di seguito:
@@ -161,6 +182,7 @@ Le seguenti impostazioni sono disponibili nella scheda dettaglio **Generale**:
 - **Blocca dipendente** - Quando questa opzione è impostata su *No*, i lavoratori verranno disconnessi immediatamente dopo aver effettuato una registrazione (ad esempio un nuovo lavoro). L'interfaccia tornerà quindi alla pagina di accesso. Quando questa opzione è impostata su *Sì*, i lavoratori rimarranno connessi all'interfaccia di esecuzione dell'area di produzione. Tuttavia, un lavoratore può disconnettersi manualmente di modo che un altro lavoratore possa accedere mentre l'Interfaccia di esecuzione dell'area di produzione continua a funzionare con lo stesso account utente di sistema. Per ulteriori informazioni su questi tipi di account, vedere [Utenti assegnati](config-job-card-device.md#assigned-users).
 - **Utilizza ora di registrazione effettiva** - Impostare questa opzione su *Sì* affinché l'ora di ogni nuova registrazione sia uguale all'ora esatta in cui la registrazione è stata presentata dal lavoratore. Quando questa opzione è impostata su *No*, viene utilizzata l'ora di accesso. Di solito si imposta questa opzione su *Sì* se sono state impostate le opzioni **Blocca dipendente** e/o **Singolo lavoratore** su *Sì* per i casi dove i lavoratori rimangono spesso connessi per periodi più lunghi.
 - **Singolo lavoratore** - Impostare questa opzione su *Sì* se un solo lavoratore utilizza ogni interfaccia di esecuzione dell'area di produzione in cui questa configurazione è attiva. Quando questa opzione è impostata su *Sì*, l'opzione **Blocca dipendente** viene automaticamente impostata su *Sì*. Inoltre, questa impostazione rimuove la necessità (e la possibilità) per il lavoratore di accedere utilizzando un ID badge (o altro ID simile). Al contrario, il lavoratore accede a Microsoft Dynamics 365 Supply Chain Management utilizzando un account utente di sistema collegato a un *lavoratore registrato nel tempo* (nella tabella *lavoratori*) e si connette all'interfaccia di esecuzione dell'area di produzione come quel lavoratore nello stesso tempo.
+- **Abilita tastierino numerico** – Imposta questa opzione su *Sì* per aggiungere un tastierino numerico alla schermata di accesso, che consente ai lavoratori di immettere l'ID badge o il numero personale utilizzando un tastierino numerico touch-screen. Imposta questa opzione su *No* per nascondere il tastierino numerico.
 - **Consenti blocco del touchscreen** - Impostare questa opzione su *Sì* per consentire ai lavoratori di bloccare il touchscreen dell'interfaccia di esecuzione dell'area di produzione di modo che possano pulirla. Quando questa opzione è impostata su *Sì*, un pulsante **Blocca schermo per pulizia** viene aggiunto alla pagina di accesso. Quando un lavoratore seleziona questo pulsante, il touchscreen viene bloccato temporaneamente per impedire un'immissione involontaria. Viene visualizzato anche un timer per il conto alla rovescia. Il lavoratore può pulire in sicurezza il dispositivo e lo schermo. Al termine del conto alla rovescia, il touchscreen si sblocca automaticamente.
 - **Durata blocco schermo** - Quando l'opzione **Consenti blocco del touchscreen** è impostata su *Sì*, utilizzare questa opzione per specificare il numero di secondi in cui il touchscreen deve essere bloccato per la pulizia. La durata deve essere un numero tra 5 e 120 secondi.
 - **Genera targa** - Impostare questa opzione su *Sì* per generare una nuova targa ogni volta che un lavoratore utilizza l'interfaccia di esecuzione dell'area di produzione. Il numero di targa viene generato da una sequenza numerica impostata nella pagina **Parametri di gestione magazzino**. Quando l'opzione è impostata su *No*, i lavoratori devono specificare una targa esistente al momento della dichiarazione di finito.

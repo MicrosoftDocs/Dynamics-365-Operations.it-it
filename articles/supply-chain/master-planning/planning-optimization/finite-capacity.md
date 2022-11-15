@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-19
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 3d116b5f7f456630415378e6cc069907e339068b
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 5f02ec58c88cfd0d663a97de4e3e4dff1cdd5e90
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9689695"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740088"
 ---
 # <a name="finite-capacity-planning-and-scheduling"></a>Programmazione e pianificazione della capacità finita
 
@@ -28,9 +28,8 @@ La capacità finita è un approccio che ti aiuta a capire quanto lavoro può ess
 
 La programmazione e la pianificazione della capacità finita crea una pianificazione più realistica per i processi di produzione rispetto a quella creata dall'approccio di caricamento infinito. Se la capacità delle risorse non è sufficiente, la data di consegna verrà eliminata e il processo verrà pianificato quando la capacità sarà sufficiente.
 
-## <a name="planning-optimization-support-for-finite-capacity-planning"></a>Supporto di Ottimizzazione pianificazione per la pianificazione della capacità finita
-
-La programmazione e la pianificazione della capacità finita funziona pressoché allo stesso modo, indipendentemente dal fatto che tu stia utilizzando l'ottimizzazione della pianificazione o il motore di pianificazione principale integrato. Tuttavia, Ottimizzazione pianificazione non utilizza il parametro limite **Tempo collo di bottiglia**. Quando usi Ottimizzazione pianificazione, le risorse del collo di bottiglia vengono sempre pianificate utilizzando lo stesso intervallo di tempo delle risorse non del collo di bottiglia (come indicato dall'intervallo di tempo della capacità finita).
+> [!NOTE]
+> La programmazione e la pianificazione della capacità finita funziona pressoché allo stesso modo, indipendentemente dal fatto che tu stia utilizzando l'ottimizzazione della pianificazione o il motore di pianificazione generale deprecato. Tuttavia, Ottimizzazione pianificazione non utilizza il parametro limite **Tempo collo di bottiglia**. Quando usi Ottimizzazione pianificazione, le risorse del collo di bottiglia vengono sempre pianificate utilizzando lo stesso intervallo di tempo delle risorse non del collo di bottiglia (come indicato dall'intervallo di tempo della capacità finita).
 
 ## <a name="set-up-finite-capacity-functionality"></a>Configurare la funzionalità di capacità finita
 

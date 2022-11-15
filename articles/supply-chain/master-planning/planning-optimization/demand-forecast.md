@@ -1,6 +1,6 @@
 ---
 title: Pianificazione generale con previsioni della domanda
-description: Questo articolo spiega come includere previsioni della domanda durante la pianificazione generale con l'ottimizzazione della pianificazione.
+description: Questo articolo spiega come includere previsioni della domanda durante la pianificazione generale.
 author: t-benebo
 ms.date: 12/02/2020
 ms.topic: article
@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 63221b5270416cad9cdfb586c697d7700f3b561b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 79a25d6fc5c809947b5b92a32cc00c9a3cc73202
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878992"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9739785"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Pianificazione generale con previsioni della domanda
 
 [!include [banner](../../includes/banner.md)]
 
-È possibile utilizzare una previsione della domanda insieme all'ottimizzazione della pianificazione per tenere conto della domanda prevista nella pianificazione generale. È possibile creare manualmente una previsione della domanda, importarla o generarla utilizzando la funzionalità di previsione della domanda in Microsoft Dynamics 365 Supply Chain Management. Per ulteriori informazioni sulla previsione della domanda, vedere [Panoramica previsioni della domanda](../introduction-demand-forecasting.md).
+È possibile utilizzare una previsione della domanda per tenere conto della domanda prevista nella pianificazione generale. È possibile creare manualmente una previsione della domanda, importarla o generarla utilizzando la funzionalità di previsione della domanda in Microsoft Dynamics 365 Supply Chain Management. Per ulteriori informazioni sulla previsione della domanda, vedere [Panoramica previsioni della domanda](../introduction-demand-forecasting.md).
 
 > [!NOTE]
 > La pianificazione della previsione separata non è supportata con l'ottimizzazione della pianificazione. Di conseguenza, l'impostazione **Piano previsionale corrente** nella pagina **Parametri di pianificazione generale** non ha alcun effetto quando si utilizza l'ottimizzazione della pianificazione.
@@ -50,7 +50,7 @@ Per configurare un piano generale in modo che includa una previsione della doman
     - **Periodo di tempo previsto** - Se si imposta l'opzione **Piano previsionale** su *Sì*, specificare il numero di giorni (dalla data odierna) in cui deve essere applicata la previsione della domanda.
 
     > [!IMPORTANT]
-    > L'impostazione **Piano previsionale** non è ancora supportata con l'ottimizzazione della pianificazione.
+    > L'impostazione **Piano previsionale** non è supportata con l'ottimizzazione della pianificazione.
 
 ## <a name="set-up-a-coverage-group-to-include-a-demand-forecast"></a>Impostare un gruppo di copertura per includere una previsione della domanda
 

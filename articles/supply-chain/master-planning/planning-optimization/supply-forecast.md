@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2022-09-21
 ms.dyn365.ops.version: 10.0.30
-ms.openlocfilehash: dc83d10851958ec67166cb7e40cfd84dceae6651
-ms.sourcegitcommit: 3e04f7e4bc0c29c936dc177d5fa11761a58e9a02
+ms.openlocfilehash: 2bac9355bb1ac00f697ec459f494a64553e0eacc
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9690084"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740143"
 ---
 # <a name="master-planning-with-supply-forecasts"></a>Pianificazione generale con previsioni dell'offerta
 
@@ -168,13 +168,13 @@ Quando si esegue un piano generale configurato per utilizzare *Nessuno* come met
 
 È ora possibile modificare l'ordine fornitore pianificato creato dopo l'ultima esecuzione di pianificazione e modificare la quantità in *15 ea*. È possibile quindi approvare l'ordine. La volta successiva che si esegue il piano generale, verrà creato un ordine fornitore pianificato per il fornitore *US-101*, sito *1*, magazzino *11*, una quantità di *10 ea* e la data *10/10/22*. Questa volta, la quantità verrà ridotta per riflettere la quantità dell'ordine approvato esistente dall'esecuzione della pianificazione precedente.
 
-## <a name="differences-between-planning-optimization-and-the-built-in-planning-engine"></a>Differenze tra Ottimizzazione pianificazione e il motore di pianificazione integrato
+## <a name="differences-between-planning-optimization-and-the-deprecated-master-planning-engine"></a>Differenze tra Ottimizzazione pianificazione e il motore di pianificazione generale deprecato
 
-Le previsioni dell'offerta funzionano in modo leggermente differente, a seconda del motore di pianificazione in uso (pianificazione generale integrata o Ottimizzazione pianificazione). Questa sezione descrive le differenze.
+Le previsioni dell'offerta funzionano in modo leggermente differente, a seconda del motore di pianificazione in uso (Ottimizzazione pianificazione o il motore di pianificazione generale deprecato). Questa sezione descrive le differenze.
 
 ### <a name="vendor-groups"></a>Gruppi di fornitori
 
-Quando si aggiunge una riga di previsione, è possibile specificare un fornitore e un gruppo di fornitori. Nel motore di pianificazione integrato, gli ordini pianificati creati vengono raggruppati in base alla combinazione dei valori del fornitore e del gruppo di fornitori. In Ottimizzazione pianificazione, gli ordini pianificati sono raggruppati per fornitore.
+Quando si aggiunge una riga di previsione, è possibile specificare un fornitore e un gruppo di fornitori. Nel motore di pianificazione generale deprecato, gli ordini pianificati creati vengono raggruppati in base alla combinazione dei valori del fornitore e del gruppo di fornitori. In Ottimizzazione pianificazione, gli ordini pianificati sono raggruppati per fornitore.
 
 La tabella seguente fornisce alcuni esempi di righe di previsione dell'offerta per un articolo.
 
@@ -186,7 +186,7 @@ La tabella seguente fornisce alcuni esempi di righe di previsione dell'offerta p
 
 Il fornitore *VendorA* è il fornitore predefinito per il gruppo di fornitori *VendorGroupA*. È inoltre il fornitore predefinito per l'articolo.
 
-Il motore di pianificazione integrato crea i seguenti ordini:
+Il motore di pianificazione generale deprecato crea i seguenti ordini:
 
 - Un ordine fornitore pianificato per il fornitore *VendorA*, gruppo di fornitori *VendorGroupA* e una quantità di *11*
 - Un ordine fornitore pianificato per il fornitore *VendorA* e una quantità di *7*
@@ -197,7 +197,7 @@ Ottimizzazione pianificazione crea un solo ordine:
 
 ### <a name="reduction-of-general-forecasts-by-more-specific-forecasts"></a>Riduzione delle previsioni generali in previsioni più specifiche
 
-Nel motore di pianificazione generale integrato, il risultato è imprevedibile se alcune previsioni hanno un fornitore ma altre no.
+Nel motore di pianificazione generale deprecato, il risultato è imprevedibile se alcune previsioni hanno un fornitore ma altre no.
 
 In Ottimizzazione pianificazione, le previsioni generali vengono sempre ridotte di previsioni più specifiche, come mostra l'esempio seguente.
 
@@ -218,15 +218,15 @@ La previsione generale (per 15,00 pezzi) è ridotta delle previsioni più specif
 
 ### <a name="respect-for-default-order-settings-when-planned-orders-are-generated"></a>Rispettare le impostazioni dell'ordine predefinite quando vengono generati gli ordini pianificati
 
-Ciascun articolo può avere impostazioni dell'ordine predefinite, ad esempio una quantità minima dell'ordine fornitore. Il motore di pianificazione integrato ignora queste impostazioni e quindi converte le previsioni in ordini pianificati con la stessa quantità. Ottimizzazione pianificazione rispetta queste impostazioni quando gli ordini pianificati vengono generati dalle previsioni dell'offerta. 
+Ciascun articolo può avere impostazioni dell'ordine predefinite, ad esempio una quantità minima dell'ordine fornitore. Il motore di pianificazione generale deprecato ignora queste impostazioni e quindi converte le previsioni in ordini pianificati con la stessa quantità. Ottimizzazione pianificazione rispetta queste impostazioni quando gli ordini pianificati vengono generati dalle previsioni dell'offerta. 
 
 ### <a name="aggregation-of-planned-orders-as-a-result-of-reduction-by-approved-orders"></a>Aggregazione degli ordini pianificati a seguito della riduzione degli ordini approvati
 
-Il motore di pianificazione generale integrato presuppone che un solo ordine ridurrà la previsione dell'offerta esistente. Pertanto, se più ordini corrispondono a una riga di previsione dell'offerta, solo il primo ordine la ridurrà. In Ottimizzazione pianificazione, tutti gli ordini che corrispondono alla riga di previsione dell'offerta la ridurranno.
+Il motore di pianificazione generale deprecato presuppone che un solo ordine ridurrà la previsione dell'offerta esistente. Pertanto, se più ordini corrispondono a una riga di previsione dell'offerta, solo il primo ordine la ridurrà. In Ottimizzazione pianificazione, tutti gli ordini che corrispondono alla riga di previsione dell'offerta la ridurranno.
 
 ### <a name="reduction-of-forecasts-by-matching-vendors-only"></a>Riduzione delle previsioni con corrispondenza solo tra fornitori
 
-Quando il motore di pianificazione generale integrato riduce una previsione in base agli ordini fornitore rilasciati esistenti, non garantisce che il fornitore nell'ordine fornitore corrisponda al fornitore della previsione. Ottimizzazione pianificazione riduce le previsioni solo in base agli ordini fornitore che hanno un valore corrispondente nel campo fornitore.
+Quando il motore di pianificazione generale deprecato riduce una previsione in base agli ordini fornitore rilasciati esistenti, non garantisce che il fornitore nell'ordine fornitore corrisponda al fornitore della previsione. Ottimizzazione pianificazione riduce le previsioni solo in base agli ordini fornitore che hanno un valore corrispondente nel campo fornitore.
 
 Per gli ordini di trasferimento e di produzione, il campo fornitore viene sempre ignorato, poiché non è rilevante per quei tipi di ordine.
 
@@ -234,4 +234,4 @@ Per gli ordini di trasferimento e di produzione, il campo fornitore viene sempre
 
 Se il tipo di ordine predefinito per un articolo è *Trasferimento*, le previsioni possono essere ridotte solo in base a ordini di trasferimento pianificati esistenti. Tuttavia, per gli ordini di produzione e gli ordini fornitore, solo gli ordini rilasciati riducono la previsione dell'offerta.
 
-Il motore di pianificazione integrato riduce per tutti gli stati degli ordini di trasferimento, mentre Ottimizzazione pianificazione riduce le previsioni solo in base agli ordini di trasferimento che si trovano nello stato *Rilasciato*.
+Il motore di pianificazione generale deprecato riduce per tutti gli stati degli ordini di trasferimento, mentre Ottimizzazione pianificazione riduce le previsioni solo in base agli ordini di trasferimento che si trovano nello stato *Rilasciato*.
