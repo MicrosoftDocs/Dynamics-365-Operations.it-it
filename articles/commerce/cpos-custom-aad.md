@@ -2,22 +2,19 @@
 title: Configurare CPOS per utilizzare un'app Azure AD personalizzata
 description: Questo articolo descrive come configurare il POS Cloud (CPOS) per l'utilizzo di un'applicazione Azure Active Directory (Azure AD) personalizzata.
 author: boycez
-ms.date: 08/02/2022
+ms.date: 11/04/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: boycez
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: baa0c3da25308345037b5dd1b4c5907d6213e7f7
-ms.sourcegitcommit: bd3b55e1af28e592c97b540de1e87cd8ba9c35a8
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 5e4ff797410e1e94869cc37684e7622ec0d97842
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/03/2022
-ms.locfileid: "9222969"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746262"
 ---
 # <a name="configure-cpos-to-use-a-custom-azure-ad-app"></a>Configurare CPOS per utilizzare un'app Azure AD personalizzata
 
@@ -52,6 +49,9 @@ Per creare e configurare un'app Server vendita al dettaglio personalizzata in Az
 
 ## <a name="set-up-a-custom-cpos-app-in-azure-ad"></a>Configurare un'app CPOS personalizzata in Azure AD
 
+> [!IMPORTANT]
+> Se stai aggiornando un'app Azure AD CPOS personalizzata esistente creata prima della versione 10.0.21 di Commerce, segui i passaggi in [Aggiornare un'app Azure AD CPOS personalizzato esistente creata prima della versione 10.0.21 di Commerce](#upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021).
+
 Per creare e configurare un'app CPOS personalizzata in Azure AD, procedi come segue.
 
 1. Accedi all'[interfaccia di amministrazione di Azure Active Directory](https://aad.portal.azure.com) utilizzando qualsiasi account utente Azure AD. L'account utente non deve disporre di autorizzazioni di amministratore.
@@ -68,12 +68,25 @@ Per creare e configurare un'app CPOS personalizzata in Azure AD, procedi come se
 1. Nella sezione **Manifesto**, imposta i parametri **oauth2AllowIdTokenImplicitFlow** e **oauth2AllowImplicitFlow** su **true**, quindi seleziona **Salva**.
 1. Nella sezione **Configurazione token**, attieniti alla procedura seguente per aggiungere due attestazioni:
 
-    - Seleziona **Aggiungi un'attestazione facoltativa**. Imposta il campo **Tipo di token** su **ID**, quindi seleziona l'attestazione **sid**. Seleziona **Aggiungi**.
-    - Seleziona **Aggiungi un'attestazione facoltativa**. Imposta il campo **Tipo di token** su **Accesso**, quindi seleziona l'attestazione **sid**. Seleziona **Aggiungi**.
+    1. Seleziona **Aggiungi un'attestazione facoltativa**. Imposta il campo **Tipo di token** su **ID**, quindi seleziona l'attestazione **sid**. Seleziona **Aggiungi**.
+    1. Seleziona **Aggiungi un'attestazione facoltativa**. Imposta il campo **Tipo di token** su **Accesso**, quindi seleziona l'attestazione **sid**. Seleziona **Aggiungi**.
 
 1. Nella sezione **Autorizzazioni API**, seleziona **Aggiungi un'autorizzazione**.
 1. Nella scheda **API utilizzate dalla mia organizzazione**, cerca l'app Server vendita al dettaglio che hai creato nella sezione [Configurare un'app Server vendita al dettaglio personalizzata in Azure AD](#set-up-a-custom-retail-server-app-in-azure-ad). Quindi seleziona **Aggiungi autorizzazioni**.
 1. Nella sezione **Panoramica**, prendi nota del valore nel campo **ID applicazione (client)**.
+
+### <a name="upgrade-an-existing-custom-cpos-azure-ad-app-created-before-commerce-version-10021"></a>Aggiornare un'app Azure AD CPOS personalizzata esistente creata prima della versione 10.0.21 di Commerce
+
+Per aggiornare un'app Azure AD CPOS personalizzata esistente creata prima della versione 10.0.21 di Commerce, segui questi passaggi. 
+
+1. Apri la tua app Azure AD CPOS personalizzata nel portale di Azure.
+1. Seleziona la scheda **Autenticazione**.
+1. Copia e salva l'URI di reindirizzamento originale dal tipo **Web** per utilizzarlo in seguito, quindi eliminalo.
+1. Seleziona **Aggiungi una piattaforma**, quindi seleziona **Applicazione a pagina singola (SPA)**.
+1. Aggiungi l'URI di reindirizzamento Web originale copiato sopra la piattaforma SPA.
+1. Nella sezione **Configurazione token**, attieniti alla procedura seguente per aggiungere due attestazioni:
+    1. Seleziona **Aggiungi un'attestazione facoltativa**. Imposta il campo **Tipo di token** su **ID**, quindi seleziona l'attestazione **sid**. Seleziona **Aggiungi**.
+    1. Seleziona **Aggiungi un'attestazione facoltativa**. Imposta il campo **Tipo di token** su **Accesso**, quindi seleziona l'attestazione **sid**. Seleziona **Aggiungi**.
 
 ## <a name="update-the-cpos-configuration-file"></a>Aggiornare il file di configurazione CPOS
 

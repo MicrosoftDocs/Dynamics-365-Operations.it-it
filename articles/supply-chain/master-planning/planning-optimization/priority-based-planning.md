@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-10-15
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: e17e45f1d4e9f7c62317eac6f3ea1be84017b562
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 1a952fe5734f01325842a8a130b9322eadc67951
+ms.sourcegitcommit: 491ab9ae2b6ed991b4eb0317e396fef542d3a21b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9335287"
+ms.lasthandoff: 11/03/2022
+ms.locfileid: "9740594"
 ---
 # <a name="priority-based-planning"></a>Pianificazione basata sulle priorità
 
 [!include [banner](../../includes/banner.md)]
 
-Questo articolo descrive la funzionalità di pianificazione basata sulle priorità di Microsoft Dynamics 365 Supply Chain Management. La funzionalità aggiunge il supporto per la pianificazione basata sulla domanda, che è una fase della [pianificazione del fabbisogno di materiale basato sulla domanda (DDMRP)](ddmrp-overview.md). La pianificazione basata sulle priorità consente a Ottimizzazione pianificazione di generare ordini pianificati basati sulle priorità di pianificazione anziché sulle date dei requisiti.
+Questo articolo descrive la funzionalità di pianificazione basata sulle priorità di Microsoft Dynamics 365 Supply Chain Management. La funzionalità aggiunge il supporto per la pianificazione basata sulla domanda, che è una fase della [pianificazione del fabbisogno di materiale basato sulla domanda (DDMRP)](ddmrp-overview.md). La pianificazione basata sulle priorità consente al sistema di generare ordini pianificati basati sulle priorità di pianificazione anziché sulle date dei requisiti.
 
 La pianificazione basata sulle priorità consente di assegnare la priorità agli ordini di rifornimento per garantire che la domanda urgente abbia la priorità rispetto alla domanda meno importante. Ad esempio, un ordine di rifornimento per esaurimento scorte avrà la priorità rispetto a un ordine di rifornimento di rifornimento standard. Il sistema può dividere automaticamente gli ordini più grandi in ordini più piccoli separati in cui le righe dell'ordine sono raggruppate per priorità. Può quindi elaborare prima tutti gli ordini ad alta priorità.
 
@@ -37,11 +37,11 @@ Per poter utilizzare la funzionalità, è necessario attivarla per il sistema. G
 
 ## <a name="where-and-how-planning-priorities-are-assigned"></a>Dove e come vengono assegnate le priorità di pianificazione
 
-Le informazioni relative alla *priorità di pianificazione* su domanda e offerta sono la struttura di base della pianificazione basata sulle priorità. La pianificazione delle priorità definisce l'importanza di una linea di domanda o offerta. L'ottimizzazione della pianificazione lo utilizza quando il campo **Codice copertura** è impostato su *Priorità*.
+Le informazioni relative alla *priorità di pianificazione* su domanda e offerta sono la struttura di base della pianificazione basata sulle priorità. La pianificazione delle priorità definisce l'importanza di una linea di domanda o offerta. La pianificazione generale lo utilizza quando il campo **Codice copertura** è impostato su *Priorità*.
 
 La priorità di pianificazione è in genere un numero compreso tra 0 (zero) e 100, dove 0 rappresenta l'importanza più elevata. È mostrato e impostato nel campo **Priorità di pianificazione**. Puoi trovare questo campo nelle seguenti pagine: **Righe di previsione della domanda**, **Dettagli ordini cliente**, **Dettagli ordine fornitore**, **Dettagli ordine di trasferimento** e **Dettagli ordine pianificato**.
 
-Quando il campo **Codice copertura** per l'articolo o il gruppo di copertura in questione è impostato su *Priorità*, Ottimizzazione pianificazione bilancia l'offerta con la domanda utilizzando un approccio basato sulla domanda in quanto calcola la priorità di pianificazione e, per ogni prodotto rilasciato, considera i valori impostati per i campi **Minimo**, **Punto di riordino** e **Massimo** nella pagina **Copertura articoli**.
+Quando il campo **Codice copertura** per l'articolo o il gruppo di copertura in questione è impostato su *Priorità*, la pianificazione generale bilancia l'offerta con la domanda utilizzando un approccio basato sulla domanda in quanto calcola la priorità di pianificazione e, per ogni prodotto rilasciato, considera i valori impostati per i campi **Minimo**, **Punto di riordino** e **Massimo** nella pagina **Copertura articoli**.
 
 > [!NOTE]
 > Il valore *Priorità* è disponibile per il campo **Codice di copertura** solo quando è abilitata l'ottimizzazione della pianificazione.

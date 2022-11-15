@@ -2,7 +2,7 @@
 title: Panoramica dei pagamenti omnicanale
 description: In questo articolo viene fornita una panoramica dei pagamenti omnicanale in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 09/17/2020
+ms.date: 11/04/2020
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,16 +17,17 @@ ms.search.industry: Retail
 ms.author: brshoo
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: d850e532a764d22bc926f5649f4ad2907b49d1a0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a5cc0725b383ca6657bd19b9dd25b0c60b364467
+ms.sourcegitcommit: 9e2e54ff7d15aa51e58309da3eb52366328e199d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8881711"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9746127"
 ---
 # <a name="omni-channel-payments-overview"></a>Panoramica dei pagamenti omnicanale
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In questo articolo viene fornita una panoramica dei pagamenti omnicanale in Dynamics 365 Commerce. Include un elenco completo degli scenari supportati, informazioni su funzionalità, impostazione e risoluzione dei problemi nonché descrizioni di problemi tipici.
 
@@ -169,9 +170,9 @@ Attenersi alla seguente procedura per eseguire lo scenario.
 6. Nella barra di ricerca, immettere **Seattle** quindi selezionare il punto vendita **Seattle** per il prelievo. 
 7. Selezionare **OK** per accettare la data corrente come data di prelievo.
 9. Selezionare **Pagamento con carta** per avviare il pagamento.
-10. Scegliere il pagamento con carta per l'importo dovuto per il deposito. 
+10. Scegliere il pagamento con carta per l'importo dovuto per il deposito.
 11. Completare il pagamento del deposito nel terminale di pagamento. 
-12. Dopo il pagamento del deposito, selezionare l'opzione per utilizzare la stessa carta per l'evasione e attendere il completamento dell'ordine. 
+12. Dopo il pagamento del deposito, selezionare l'opzione per utilizzare la stessa carta per l'evasione e attendere il completamento dell'ordine. Se viene pagato il 100% del deposito (dal passaggio 10 sopra), i fondi vengono acquisiti immediatamente sulla scheda e un token di autorizzazione non sarà disponibile alla fatturazione perché i fondi sono già stati acquisiti e tracciati come pagati.
 13. Avviare il POS per il punto vendita di Seattle.
 14. Nel POS, nella pagina di benvenuto, selezionare l'operazione **Ordini da prelevare** per visualizzare gli ordini per il prelievo nel punto vendita. 
 15. Selezionare una o più righe dall'ordine creato nella vetrina virtuale di riferimento, quindi selezionare **Preleva**.
@@ -198,7 +199,7 @@ Attenersi alla seguente procedura per eseguire lo scenario.
 8. Selezionare **Pagamento con carta** per avviare il pagamento.
 9. Scegliere il pagamento con carta per l'importo dovuto per il deposito. 
 10. Completare il pagamento del deposito nel terminale di pagamento. 
-11. Dopo il pagamento del deposito, selezionare l'opzione per utilizzare la stessa carta per l'evasione e attendere il completamento dell'ordine.
+11. Dopo il pagamento del deposito, selezionare l'opzione per utilizzare la stessa carta per l'evasione e attendere il completamento dell'ordine. Se viene pagato il 100% del deposito (dal passaggio 9 sopra), i fondi vengono acquisiti immediatamente sulla scheda e un token di autorizzazione non sarà disponibile alla fatturazione perché i fondi sono già stati acquisiti e tracciati come pagati.
 
 Quando l'ordine viene prelevato, imballato e fatturato nel back office, i dettagli del pagamento specificati nel POS verranno utilizzati per acquisire i fondi per la merce spedita al cliente. 
 

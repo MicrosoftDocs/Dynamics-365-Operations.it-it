@@ -2,7 +2,7 @@
 title: Aggiornamenti qualitativi proattivi
 description: Questo articolo fornisce informazioni sulla distribuzione proattiva di aggiornamenti qualitativi.
 author: rashmansur
-ms.date: 09/12/2022
+ms.date: 11/07/2022
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: da5881a901d3ba4d01e6d4510a53ca079efd7e75
-ms.sourcegitcommit: c8b97eea28f07b6b179825f3b134c8c8704ff8fc
+ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
+ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/29/2022
-ms.locfileid: "9731612"
+ms.lasthandoff: 11/09/2022
+ms.locfileid: "9752300"
 ---
 # <a name="proactive-quality-updates"></a>Aggiornamenti qualitativi proattivi
 
@@ -25,6 +25,19 @@ ms.locfileid: "9731612"
 Nel corso degli ultimi anni, Microsoft ha fatto continui progressi su ciò che chiamiamo [One Version](../../dev-itpro/lifecycle-services/oneversion-overview.md). Il principio di One Version è semplice: più ci avviciniamo allo scenario che consiste nell'avere tutti i clienti sulla stessa versione del software, più la qualità che possiamo fornire è elevata. Identifichiamo e risolviamo i problemi una sola volta e forniamo queste soluzioni a più clienti più rapidamente.
 
 Questo principio è confermato dai risultati: un minor numero di incidenti per i nostri prodotti. Quando i clienti non utilizzano la stessa versione, constatiamo sistematicamente che sono interessati da problemi per i quali è già disponibile una soluzione. Abbiamo già fatto grandi passi avanti con Dynamics 365 Finance, Dynamics 365 Supply Chain, Dynamics 365 Project Operations e Dynamics 365 Commerce, e grazie ai recenti progressi tecnici, possiamo ormai passare alla fase successiva. Le informazioni seguenti descrivono ciò che faremo, ciò che abbiamo già fatto per preparare il terreno e come e quando introdurremo le nuove funzionalità senza interruzioni.
+
+## <a name="what-you-need-to-know"></a>Cosa hai bisogno di sapere
+
+- Gli aggiornamenti proattivi della qualità vengono applicati su base mensile.
+- Microsoft applicherà aggiornamenti di qualità proattivi a tutti gli ambienti sandbox che eseguono un aggiornamento del servizio che era [in servizio](./public-preview-releases.md#targeted-release-schedule-dates-subject-to-change) quando sono stati creati gli aggiornamenti di qualità proattivi.
+- Saranno consentite eccezioni per gli aggiornamenti proattivi della qualità per i clienti regolamentati dalla Food and Drug Administration (FDA) statunitense.
+- Microsoft sta determinando come verranno gestiti gli aggiornamenti di qualità proattivi per gli ambienti regolamentati e per i clienti cloud sovrani e governativi.
+- Le notifiche relative agli aggiornamenti di qualità proattivi sono pubblicate nel [Centro messaggi Microsoft 365](https://admin.microsoft.com/AdminPortal/) e su un banner nel progetto Microsoft Dynamics Lifecycle Services.
+- Cinque giorni prima dell'applicazione di un aggiornamento proattivo della qualità a un ambiente, i clienti vengono informati che l'aggiornamento si verificherà.
+- I clienti non possono annullare o posticipare gli aggiornamenti di qualità proattivi.
+- Gli aggiornamenti della qualità proattivi vengono installati durante la [finestra di manutenzione pianificata](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows) specifica dell'area geografica.
+- Gli aggiornamenti di qualità sono progettati per avere un basso rischio di problemi o regressioni e questo è supportato dai dati di Microsoft.
+- Microsoft consiglia di eseguire test mirati per problemi specifici o hotfix specifiche correlate a un aggiornamento proattivo della qualità.
 
 ## <a name="focus-on-quality-updates"></a>Aggiornamenti qualitativi
 
@@ -40,7 +53,7 @@ Sono già stati ottenuti numerosi progressi che consentono la consegna proattiva
 
 - **Aggiornamento con tempi di inattività prossimi allo zero** – Per eseguire il push di ambienti più frequenti, è essenziale ridurre l'impatto sulla disponibilità dell'ambiente per preservare i contratti di servizio (SLA, Service Level Agreement) di Dynamics 365. L'aggiornamento con tempi di inattività prossimi allo zero è stato originariamente introdotto per migliorare le patch mensili del sistema operativo utilizzando un failover del cluster per attivare l'immagine aggiornata con interruzioni minime. Il meccanismo per l'applicazione degli aggiornamenti è stato migliorato in modo da ridurre le perturbazioni e riguarderà sia le patch del sistema operativo che la distribuzione degli aggiornamenti qualitativi.
 
-Per gli utenti interattivi, è possibile che una sessione attiva venga interrotta e che il nuovo tentativo passi all'ambiente aggiornato. Con l'introduzione della [programmazione batch basata su priorità](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), la programmazione e l'elaborazione batch vengono ripristinate e riprese immediatamente dopo l'aggiornamento. La programmazione batch basata su priorità sarà disponibile per i clienti prima che inizino a partecipare alla distribuzione proattiva degli aggiornamenti qualitativi per i loro ambienti di produzione.
+    Per gli utenti interattivi, è possibile che una sessione attiva venga interrotta e che il nuovo tentativo passi all'ambiente aggiornato. Con l'introduzione della [programmazione batch basata su priorità](../../dev-itpro/sysadmin/priority-based-batch-scheduling.md), la programmazione e l'elaborazione batch vengono ripristinate e riprese immediatamente dopo l'aggiornamento. La programmazione batch basata su priorità sarà disponibile per i clienti prima che inizino a partecipare alla distribuzione proattiva degli aggiornamenti qualitativi per i loro ambienti di produzione.
 
 - **Ore notturne** – Le ore notturne sono definite per ogni area di Azure e gli aggiornamenti con tempi di inattività prossimi allo zero si verificheranno durante il periodo di ore notturne.
 
@@ -56,9 +69,11 @@ I dati sulla gestione delle release correnti mostrano che meno del 3% delle regr
 
 - **Schema** – Gli strumenti garantiranno che le build degli aggiornamenti qualitativi includano solo le modifiche dello schema che possono essere applicate mentre il servizio è online. Questo approccio consentirà di preservare la capacità di applicare l'aggiornamento con tempi di inattività prossimi allo zero.
 - **Maggiore controllo delle modifiche** – Attualmente, esiste già una fase supplementare del processo per approvare le modifiche da includere in un aggiornamento qualitativo. Il controllo nella fase supplementare verrà aumentato per contribuire a ridurre il potenziale delle regressioni. Non sono consentite modifiche che causano interruzioni negli aggiornamenti qualitativi e il maggiore controllo delle modifiche contribuirà a garantire il raggiungimento di questo obiettivo.
-- **Visibilità** – Invieremo notifiche tramite l'interfaccia di amministrazione, Lifecycle Services (LCS) e altri canali disponibili per i prossimi aggiornamenti qualitativi proattivi. Inoltre, i team di supporto e i responsabili della gestione degli incidenti avranno visibilità su dove gli aggiornamenti qualitativi sono stati implementati in modo proattivo.
- > [!NOTE]
- > Il team di Microsoft Communications sta investigando sul continuo degrado degli strumenti di posta elettronica che impedisce il recapito delle notifiche di posta elettronica. Continua a monitorare il Centro messaggi di Microsoft 365 per l'onboarding e i messaggi relativi alla notifica.
+- **Visibilità** – Le notifiche vengono inviate tramite l'interfaccia di amministrazione, Lifecycle Services e altri canali disponibili per i prossimi aggiornamenti qualitativi proattivi. Inoltre, i team di supporto e i responsabili della gestione degli incidenti avranno visibilità su dove gli aggiornamenti qualitativi sono stati implementati in modo proattivo.
+
+    > [!NOTE]
+    > Il team di Microsoft Communications sta investigando sul continuo degrado degli strumenti di posta elettronica che impedisce il recapito delle notifiche di posta elettronica. Continua a monitorare il Centro messaggi di Microsoft 365 per l'onboarding e i messaggi relativi alla notifica.
+
 - **Errore sicuro con la versione di anteprima** – La versione di anteprima verrà utilizzata per proteggere le modifiche al codice ove applicabile in una correzione di bug dell'aggiornamento della qualità o utilizzare la versione di anteprima di funzionalità esistente pertinente alla correzione. Se è necessario un fallback o disattivare una modifica dopo una distribuzione proattiva, è possibile farlo tramite il sistema di versione di anteprima per evitare ulteriori errori.
 - **Designazione della sincronizzazione sandbox** – Meno del 20% dei clienti dispone attualmente di più sandbox e mantiene una sandbox distribuita dove la versione corrisponde alla produzione, per agevolare la risoluzione dei problemi. Se un cliente utilizza una sandbox per testare una versione più recente rispetto alla propria produzione, tale sandbox riceverà aggiornamenti qualitativi alla versione più recente.
 
@@ -77,8 +92,8 @@ Al momento, gli aggiornamenti di qualità riguardano solo i sandbox. Aggiornerem
 Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le finestre di manutenzione pianificate per area?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 
 ### <a name="proactive-quality-update-release-10028"></a>Rilascio dell'aggiornamento qualitativo proattivo: 10.0.28
-**Versione dell'app: 10.0.1265.89**
-**Articolo corrispondente più recente della KB: 745340**
+**Versione app: 10.0.1265.89**  
+**Articolo della knowledge base corrispondente più recente: 745340**
 
 | Stazione | Regioni | Programmazione completata| Prossima programmazione sandbox
 |---|---|---|---|
@@ -89,19 +104,31 @@ Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le fines
 | Stazione 5 | DoD, Government Community Cloud, Cina | Non programmato | Non programmato |
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a>Rilascio dell'aggiornamento qualitativo proattivo: 10.0.29
-**Versione dell'app: 10.0.1326.70**
-**Articolo corrispondente più recente della KB: 748926**
+**Versione app: 10.0.1326.70**  
+**Articolo della knowledge base corrispondente più recente: 748926**
 
 | Stazione | Regioni | Programmazione completata | Prossima programmazione sandbox|
 |---|---|---|---|
-| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 14 ottobre al 17 ottobre 2022 | Dal 2 novembre al 5 novembre 2022 |
-| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 15 ottobre al 18 ottobre 2022 | Dal 2 novembre al 5 novembre 2022 |
-| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 16 ottobre al 19 ottobre 2022 | Dal 2 novembre al 5 novembre 2022 |
-| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 17 ottobre al 20 ottobre 2022 | Dal 2 novembre al 5 novembre 2022 |
+| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 14 ottobre al 17 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
+| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 15 ottobre al 18 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
+| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 16 ottobre al 19 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
+| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 17 ottobre al 20 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
 | Stazione 5 | DoD, Government Community Cloud, Cina | Non programmato | Non programmato |
 
+### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a>Rilascio dell'aggiornamento qualitativo proattivo: 10.0.30
+**Versione dell'app: TBD**
+**Articolo corrispondente più recente della KB: TBD**
+
+| Stazione | Regioni | Prossima programmazione sandbox |
+|---|---|---|
+| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 1 dicembre al 4 dicembre 2022 |
+| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 2 dicembre al 5 dicembre 2022 |
+| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa settentrionale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 3 dicembre al 6 dicembre 2022 |
+| Stazione 4 | Stati Uniti occidentali, Stati Uniti centrali, Stati Uniti occidentali | Dal 4 dicembre al 7 dicembre 2022 |
+| Stazione 5 | DoD, Government Community Cloud, Cina | Non programmato |
+
 > [!IMPORTANT] 
-> Con cinque giorni di anticipo, Microsoft aggiornerà la pianificazione precedente e invierà notifiche tramite posta elettronica all'insieme di ambienti pianificati per ricevere questi aggiornamenti di qualità. La pianificazione precedente è applicabile solo agli ambienti a cui è stato notificato un aggiornamento imminente. Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le finestre di manutenzione pianificate per area?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
+> Con cinque giorni di anticipo, Microsoft aggiornerà la pianificazione precedente e invierà una notifica per l'insieme di ambienti pianificati per ricevere questi aggiornamenti di qualità. La pianificazione precedente è applicabile solo agli ambienti a cui è stato notificato un aggiornamento imminente. Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le finestre di manutenzione pianificate per area?](../../dev-itpro/deployment/plannedmaintenance-selfservice.md#windows).
 >
 > Per ogni gruppo di aree, o *stazione*, dove è attualmente pianificata l'implementazione di un aggiornamento della qualità, la pianificazione mostra un intervallo di quattro giorni. Gli aggiornamenti della qualità inizieranno solo con gli ambienti sandbox. Quindi, con l'aumento della percentuale di sandbox distribuite correttamente, inizierà la distribuzione negli ambienti di produzione con notifiche anticipate ai clienti.
 > 
@@ -124,13 +151,13 @@ I passaggi seguenti sono una soluzione temporanea mentre continuiamo a lavorare 
 
 Utilizza KB# 745340 per l'addestramento di aggiornamento della qualità 10.0.28 e la relativa versione dell'app 10.0.1265.89.
 
-1. In LCS e apri la pagina **Dettagli ambiente** per il tuo sandbox. 
+1. In Lifecycle Services e apri la pagina **Dettagli ambiente** per il tuo sandbox. 
 2. Nella sezione **Aggiornamenti disponibili** seleziona **Visualizza aggiornamento** per l'ultima build di aggiornamento della qualità. 
 3. Esporta la build in un CSV o in un file Microsoft Excel.
 4. Nel file esportato, ordina le informazioni in base all'ora (prima la meno recente) e quindi cerca il numero KB 745340 nella colonna **ID aggiornamento**. Dovrebbe essere possibile vedere l'elenco delta degli articoli KB.
  
- > [!NOTE]
- > L'esportazione in un file CSV o di Excel deve avvenire prima dell'aggiornamento dell'ambiente. In caso contrario, puoi utilizzare un ambiente con una configurazione simile in cui non è installato l'aggiornamento e seguire i passaggi precedenti.
+> [!NOTE]
+> L'esportazione in un file CSV o di Excel deve avvenire prima dell'aggiornamento dell'ambiente. In caso contrario, puoi utilizzare un ambiente con una configurazione simile in cui non è installato l'aggiornamento e seguire i passaggi precedenti.
 
 [![Esempio di ambiente con aggiornamento della qualità.](./media/how-to-get-kb-list-pqu.png)](./media/how-to-get-kb-list-pqu.png)
 
@@ -139,8 +166,8 @@ Un problema critico o una regressione è uno o più eventi che in genere causano
 
 Se l'ambiente di un singolo cliente è interessato, contatta il supporto Microsoft per aprire un ticket. Sulla base della giustificazione, interromperemo l'implementazione dell'aggiornamento di qualità in tutti gli altri ambienti di quel progetto fino a quando il problema non sarà risolto.
 
-## <a name="can-customers-still-manually-apply-hotfix-updates-from-lcs"></a>I clienti possono ancora applicare manualmente gli aggiornamenti degli hotfix da LCS?
-Sì. Per garantire la parità continua con il funzionamento degli hotfix, gli aggiornamenti degli hotfix possono ancora essere applicati agli ambienti dei clienti in LCS. Tuttavia, è importante notare che gli hotfix distribuiti come parte di un aggiornamento di qualità passano attraverso l'SDP standard prima della distribuzione dell'aggiornamento. Ciò riduce il rischio di regressioni dovute alla qualità superiore. Si consiglia di scegliere un aggiornamento di qualità rispetto all'applicazione manuale degli hotfix per una maggiore affidabilità.
+## <a name="can-customers-still-manually-apply-hotfix-updates-from-lifecycle-services"></a>I clienti possono ancora applicare manualmente gli aggiornamenti degli hotfix da Lifecycle Services?
+Sì. Per garantire la parità continua con il funzionamento degli hotfix, gli aggiornamenti degli hotfix possono ancora essere applicati agli ambienti dei clienti in Lifecycle Services. Tuttavia, è importante notare che gli hotfix distribuiti come parte di un aggiornamento di qualità passano attraverso l'SDP standard prima della distribuzione dell'aggiornamento. Ciò riduce il rischio di regressioni dovute alla qualità superiore. Si consiglia di scegliere un aggiornamento di qualità rispetto all'applicazione manuale degli hotfix per una maggiore affidabilità.
 
 ## <a name="can-customers-proactively-install-a-quality-update-build-ahead-of-the-schedule"></a>I clienti possono installare in modo proattivo un aggiornamento di qualità prima della pianificazione?
 Sì. È possibile installare un aggiornamento di qualità in modo proattivo. Microsoft salterà l'aggiornamento se la versione di build corrente dell'ambiente è uguale o superiore all'aggiornamento di qualità in questione.
@@ -149,7 +176,7 @@ Sì. È possibile installare un aggiornamento di qualità in modo proattivo. Mic
 - Gli aggiornamenti della qualità non vengono applicati negli ambienti di produzione se è previsto un aggiornamento del servizio imminente pianificato entro una settimana dalla pianificazione dell'aggiornamento della qualità.
 - Se un ambiente sandbox ha la stessa versione di build o superiore rispetto all'imminente aggiornamento della qualità, verrà ignorato.
 - Se un ambiente di produzione ha la stessa versione di build o superiore rispetto all'imminente aggiornamento della qualità, verrà ignorato.
-- Se un sandbox ha una versione di build uguale o superiore a causa di un aggiornamento della qualità o di un aggiornamento manuale della produzione, la produzione riceverà comunque la versione pianificata dell'aggiornamento mensile del servizio. Se non si desidera che l'ambiente di produzione pianificato venga aggiornato alla versione di aggiornamento del servizio, è possibile sospendere l'aggiornamento del servizio da LCS. 
+- Se un sandbox ha una versione di build uguale o superiore a causa di un aggiornamento della qualità o di un aggiornamento manuale della produzione, la produzione riceverà comunque la versione pianificata dell'aggiornamento mensile del servizio. Se non si desidera che l'ambiente di produzione pianificato venga aggiornato alla versione di aggiornamento del servizio, è possibile sospendere l'aggiornamento del servizio da Lifecycle Services. 
 - Ti consigliamo di utilizzare l'ultima build di aggiornamento della qualità per testare le modifiche per un aggiornamento del servizio imminente per stabilità e risultati migliorati.
 
 ## <a name="if-an-environment-has-an-upcoming-scheduled-action-and-a-scheduled-quality-update-in-the-same-maintenance-window-will-it-still-receive-the-quality-update"></a>Se un ambiente ha un'azione pianificata imminente e un aggiornamento della qualità pianificato nella stessa finestra di manutenzione, riceverà comunque l'aggiornamento della qualità?
@@ -164,11 +191,11 @@ Il piano per i clienti soggetti a convalida e regolamentazione FDA è ancora in 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Quali versioni degli aggiornamenti del servizio sono supportate per questi aggiornamenti di qualità?
 I clienti che utilizzano tutte le versioni supportate degli aggiornamenti del servizio si qualificano per gli aggiornamenti della qualità. 
 
-## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retailsdk"></a>Le distribuzioni di app per la finanza e le operazioni con componenti di vendita al dettaglio in genere richiedono lavoro aggiuntivo oltre alla ridistribuzione di MPOS. In che modo questi aggiornamenti di qualità influiranno su RetailSDK? 
+## <a name="finance-and-operations-apps-deployments-with-retail-components-typically-require-additional-work-in-addition-to-having-to-redeploy-mpos-how-will-these-quality-updates-impact-the-retail-sdk"></a>Le distribuzioni di app per la finanza e le operazioni con componenti di vendita al dettaglio in genere richiedono lavoro aggiuntivo oltre alla ridistribuzione di MPOS. In che modo questi aggiornamenti di qualità influiranno su Retail SDK? 
 Poiché la natura degli hotfix in sé non cambia nel payload degli aggiornamenti di qualità, non prevediamo alcun impatto aggiuntivo in questo momento specificamente correlato ai componenti di vendita al dettaglio.
 
 ## <a name="is-there-any-impact-to-cloud-hosted-environments-che"></a>C'è qualche impatto sugli ambienti ospitati nel cloud (CHE)? 
-Gli ambienti CHE non rientrano nell'ambito degli aggiornamenti di qualità perché non rientrano nell'ambito di competenza di Microsoft
+Gli ambienti CHE non rientrano nell'ambito degli aggiornamenti di qualità perché non rientrano nell'ambito di competenza di Microsoft.
 
 ## <a name="are-there-any-integration-issues-with-microsoft-dataverse"></a>Ci sono problemi di integrazione con Microsoft Dataverse? 
 Non sono noti problemi di integrazione per gli aggiornamenti di qualità con Dataverse.
