@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2a75d1e3e68837a437b2369ba369b0063e015b12
-ms.sourcegitcommit: 78cbb125f20a33df38bda0546203b8f837cbcd93
+ms.openlocfilehash: a25f20c320b905a2cdd3091e76e3c5e73f1a845a
+ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9751959"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9752750"
 ---
 # <a name="year-end-activities-faq"></a>Domande frequenti sulle attività di fine anno 
 
@@ -94,6 +94,23 @@ Prima di utilizzare la funzionalità, è necessario attivarla nel sistema. Gli a
  
 - Modulo: Contabilità generale
 - Nome funzionalità: Miglioramenti delle prestazioni per la ricostruzione dei set di dimensioni finanziarie
+
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2022"></a>Contabilità fornitori: quali modifiche sono state apportate per supportare la creazione di report di fine anno 1099 per il 2022?
+
+#### <a name="update-to-all-1099-forms"></a>Aggiornamento a tutti i moduli 1099
+Le seguenti modifiche sono state apportate a tutti i moduli 1099 per l'anno fiscale 2022:
+
+  - Nel 2021 l'anno era fisso sui moduli 1099. A partire dal 2022, l'anno viene compilato dal report. 
+
+#### <a name="1099-misc"></a>1099-MISC
+I seguenti aggiornamenti sono stati effettuati sul modulo 1099-MISC per l'anno fiscale 2022:
+
+ - Casella 13: ora indica il requisito di compilazione del Foreign Account Tax Compliance Act (FATCA). 
+ - Casella 14: utilizzata ora per segnalare i pagamenti in eccesso del paracadute d'oro. 
+ - Casella 15: utilizzata ora per segnalare il pagamento nell'ambito dei piani di compensazione differita non qualificata (NQDC). 
+ - Casella 16: utilizzata ora per segnalare le ritenute statali.
+ - Casella 17: utilizzata ora per segnalare il numero di stato del pagatore.
+ - Casella 18: utilizzata ora per segnalare il reddito statale. 
 
 ## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2021"></a>Contabilità fornitori: quali modifiche sono state apportate per supportare la creazione di report di fine anno 1099 per il 2021?
 

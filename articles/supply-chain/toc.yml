@@ -3391,10 +3391,12 @@
                   href: landed-cost\landed-cost-entities-container-activities.md
                 - name: Entità di fatture fornitore
                   href: landed-cost\landed-cost-entities-vendor-invoices.md
-        - name: Gestione magazzino
+        - name: Gestione del magazzino
           items:
-            - name: Panoramica gestione del magazzino
+            - name: Panoramica di gestione del magazzino
               href: warehousing/warehouse-management-overview.md
+            - name: Introduzione alla configurazione del modulo di gestione del magazzino
+              href: warehousing/get-started-with-setting-up-module.md
             - name: Operazioni di magazzino in ingresso
               items:
                 - name: Gestione magazzino dei carichi in entrata per gli ordini fornitore

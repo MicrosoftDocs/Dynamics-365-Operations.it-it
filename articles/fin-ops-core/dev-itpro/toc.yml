@@ -1652,6 +1652,8 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Assegnare gli utenti ai ruoli di sicurezza
                   href: sysadmin/tasks/assign-users-security-roles.md
+                - name: Gruppi di sicurezza di Active Directory
+                  href: sysadmin/active-directory-security-group.md
                 - name: Importare o esportare la configurazione di sicurezza personalizzata utilizzando Gestione dati
                   href: sysadmin/import-export-customized-security.md
                 - name: Diagnostica di sicurezza per registrazioni attività

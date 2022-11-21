@@ -1188,6 +1188,8 @@
                   href: general-ledger/ledger-settlements.md
                 - name: Riconoscimento tra liquidazione saldi contabili e chiusura di fine anno
                   href: general-ledger/awareness-between-ledger-settlement-year-end-close.md
+                - name: Automatizza compensazioni dei saldi contabili
+                  href: general-ledger/auto-settle.md
                 - name: Rivalutazione valuta estera per la contabilità generale
                   href: general-ledger/foreign-currency-revaluation-general-ledger.md
                 - name: Saldi dei conti CoGe

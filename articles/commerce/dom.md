@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 26817321753c8e39d61957b4ea2004f20daf1b2f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: a18441c44869e0e95cf79e35045dd7eacca7e43d
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8878514"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764181"
 ---
 # <a name="distributed-order-management-dom"></a>Gestione ordini distribuiti (DOM)
 
@@ -68,7 +68,7 @@ Nella figura seguente è illustrato il ciclo di vita di un ordine cliente in un 
         > [!NOTE]
         > Il risolutore semplificato viene fornito in modo che i rivenditori al dettaglio possano provare la funzionalità DOM senza dover distribuire la licenza speciale. È consigliabile che le organizzazioni non utilizzino il risolutore semplificato negli ambienti di produzione.
         >
-        > Il Risolutore di produzione migliora le prestazioni (il numero di ordini e righe ordine che è possibile gestire durante un'esecuzione) e la convergenza dei risultati (dal momento che un batch di ordini potrebbe non produrre il migliore risultato in alcuni scenari). Alcune regole come **Ordini parziali** e **Numero massimo di ubicazioni** richiedono il Risolutore di produzione.
+        > Il Risolutore di produzione migliora le prestazioni (il numero di ordini e righe ordine che è possibile gestire durante un'esecuzione) e la convergenza dei risultati (dal momento che un batch di ordini potrebbe non produrre il migliore risultato in alcuni scenari). La regola **Ordini parziali** richiede Risolutore di produzione.
 
 6. Tornare a **Retail e Commerce \> Gestione ordini distribuiti \> Imposta \> Parametri DOM**.
 7. Nella scheda **Sequenze numeriche**, assegnare le sequenze numeriche richieste alle diverse entità DOM.
