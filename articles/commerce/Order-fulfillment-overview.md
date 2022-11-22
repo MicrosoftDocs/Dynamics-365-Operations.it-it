@@ -1,35 +1,37 @@
 ---
 title: Evasione ordine del punto vendita
-description: In questo articolo viene fornita una panoramica dell'evasione ordine del punto vendita.
+description: In questo articolo viene fornita una panoramica dell'evasione ordine del punto vendita in Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 10/30/2017
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: RetailStoreTable, RetailTillLayout
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: Global
-ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f0b6ff8ec105da04b4b2416d8f6864c70c92fc
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bf338c6d0b6a237cad2974d36c23238029fe9b38
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8854980"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785074"
 ---
 # <a name="store-order-fulfillment"></a>Evasione ordine del punto vendita
 
 [!include [banner](includes/banner.md)]
+
+In questo articolo viene fornita una panoramica dell'evasione ordine del punto vendita in Microsoft Dynamics 365 Commerce.
 
 Molti rivenditori vorrebbero ottimizzare l'evasione dell'ordine consentendo ai punti vendita di eseguire gli ordini. L'evasione degli ordini a livello di punto vendita può semplificare gli scenari di scorte in eccesso per un punto vendita specifico o potrebbe essere necessaria da un punto di vista logistico nei casi in cui un punto vendita disponga di capacità aggiuntiva o si trovi a una distanza di spedizione più vicina al cliente. Per rispondere a questa esigenza, un'operazione di evasione degli ordini unificata è disponibile presso il POS.
 
 Negli ordini per l'evasione presso un punto vendita specifico, il magazzino del negozio è indicato sull'intestazione o sulle righe dell'ordine.
 
 L'operazione di evasione dell'ordine presso il POS offre una singola area di lavoro nel POS che può essere utilizzata per elaborare gli ordini. Ciò include tutte le operazioni, dall'accettazione dell'ordine, al contrassegno come spedito o all'avvio del ritiro del presso il punto vendita.
+
+Il seguente video fornisce una panoramica e una demo delle funzionalità di evasione ordini in Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bRXE]
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Accedere all'evasione dell'ordine unificato nel POS
 

@@ -2,7 +2,7 @@
 title: Chiusura in massa del periodo fiscale
 description: In questo articolo viene illustrato come mettere in sospeso un periodo o chiudere in modo permanente un periodo o più di una persona giuridica alla volta.
 author: aprilolson
-ms.date: 08/16/2019
+ms.date: 11/16/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18e2418777e4f8a5f10b946d7cdc217e5e264318
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 8a85d512842b27f2d74507be16a8f2819f483e0d
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872443"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779828"
 ---
 # <a name="mass-financial-period-close"></a>Chiusura in massa del periodo fiscale
 
@@ -26,7 +26,11 @@ ms.locfileid: "8872443"
 
 In questo articolo viene illustrato come mettere in sospeso un periodo o chiudere in modo permanente un periodo o più di una persona giuridica alla volta. Inoltre, l'attività mostrerà come limitare a moduli specifici la registrazione del gruppo utenti.
 
-1. Nel pannello di navigazione, andare a **Contabilità generale > Periodo chiuso > Calendari contabilità generale**. Tenere presente che l'elenco delle persone giuridiche visualizzato dipende dal calendario fiscale selezionato nella pagina. Solo le persone giuridiche che usano il calendario fiscale selezionato vengono visualizzate.
+1. Nel pannello di navigazione, andare a **Contabilità generale > Periodo chiuso > Calendari contabilità generale**. 
+
+>[!NOTE]
+> L'elenco delle persone giuridiche visualizzato dipende dal calendario fiscale selezionato nella pagina. Solo le persone giuridiche che usano il calendario fiscale selezionato vengono visualizzate.
+
 2. Selezionare **Modifica**.
 3. Selezionare il periodo per cui si desidera modificare lo stato.
 4. Selezionare le persone giuridiche per cui si desidera aggiornare lo stato. È possibile selezionare rapidamente tutte le persone giuridiche selezionando il segno di spunta sul lato in alto a sinistra della griglia.  

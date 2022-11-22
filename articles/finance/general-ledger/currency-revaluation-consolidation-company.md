@@ -2,7 +2,7 @@
 title: Rivalutazione della valuta in una società di consolidamento
 description: In questo articolo viene descritto come rivalutare la valuta in una società di consolidamento.
 author: aprilolson
-ms.date: 10/02/2018
+ms.date: 10/02/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fbbc1d0a7ae5b7e288710c99a6af362b3db3d36
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: c05ef0d4d05d5113d3b858dafe49ee9c1c7211d9
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889006"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779664"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Rivalutazione della valuta in una società di consolidamento
 
@@ -41,18 +41,18 @@ Quando si consolidano i dati da una valuta di contabilizzazione a un'altra, è n
 
 | Data       | Conto CoGe               | Valuta | Importo |
 |------------|------------------------------|----------|--------|
-| 11/10/2015 | 110110 – Contanti                | GBP      | 500    |
-| 11/10/2015 | 130100 – Contabilità clienti | GBP      | -500   |
+| 10/11/2020 | 110110 – Contanti                | USD      | 500    |
+| 10/11/2020 | 130100 – Contabilità clienti | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Tassi di cambio
 
 | Dalla valuta | Alla valuta | Data di inizio | Tasso di cambio |
 |---------------|-------------|------------|---------------|
-| EUR           | GBP         | 1/10/2015  | 200           |
-| EUR           | GBP         | 1/11/2015  | 150           |
-| EUR           | GBP         | 1/12/2012  | 100           |
+| EUR           | USD         | 10/1/2020  | 200           |
+| EUR           | USD         | 11/1/2020  | 150           |
+| EUR           | USD         | 12/1/2017  | 100           |
 
-## <a name="perform-the-consolidation-for-october-2015"></a>Eseguire il consolidamento per ottobre 2015
+## <a name="perform-the-consolidation-for-october-2020"></a>Eseguire il consolidamento per ottobre 2020
 ### <a name="balances-in-the-consolidation-company"></a>Saldi della società di consolidamento
 
 | Conto CoGe | Valuta | Importo | Calcolo    |
@@ -60,7 +60,7 @@ Quando si consolidano i dati da una valuta di contabilizzazione a un'altra, è n
 | 110110         | EUR      | 250    | 500 EUR × 50%  |
 | 130100         | EUR      | -250   | -500 EUR × 50% |
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-november-30-2015"></a>Eseguire la rivalutazione della valuta per i conti dal 1° ottobre 2015 fino al 30 novembre 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-november-30-2020"></a>Eseguire la rivalutazione della valuta per i conti dal 1° ottobre 2020 fino al 30 novembre 2020
 ### <a name="balances-in-the-consolidation-company"></a>Saldi della società di consolidamento
 
 | Conto CoGe | Valuta | Importo  | Calcolo                        |
@@ -72,7 +72,7 @@ Quando si consolidano i dati da una valuta di contabilizzazione a un'altra, è n
 
 Verranno visualizzate transazioni aggiuntive per gli importi in valuta di dichiarazione.
 
-## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2015-through-december-31-2015"></a>Eseguire la rivalutazione della valuta per i conti dal 1° ottobre 2015 fino al 31 dicembre 2015
+## <a name="perform-currency-revaluation-for-the-accounts-from-october-1-2020-through-december-31-2020"></a>Eseguire la rivalutazione della valuta per i conti dal 1° ottobre 2020 fino al 31 dicembre 2020
 ### <a name="balances-in-the-consolidation-company"></a>Saldi della società di consolidamento
 
 | Conto CoGe | Valuta | Importo  | Calcolo                                          |

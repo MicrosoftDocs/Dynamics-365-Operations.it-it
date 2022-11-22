@@ -2,23 +2,23 @@
 title: Esportare i dati delle filiali in file
 description: Questo articolo spiega come prepararsi all'esportazione di dati da Microsoft Dynamics 365 Finance e quindi importarli in una persona giuridica consolidata.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 11/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7c5334e206d28a5ae1c8097db5356cd1057b7180
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 30d69f9a2813621df410a29568644f264392fb49
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876155"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779963"
 ---
 # <a name="export-subsidiary-data-to-files"></a>Esportare i dati delle filiali in file
 
@@ -32,14 +32,14 @@ Usi la pagina **Esporta** (**Amministrazione di sistema \> Aree di lavoro \> Imp
 
     | Campo                             | Descrizione |
     |-----------------------------------|-------|
-    | Conto principale                      | Specifica i conti da consolidare. Per includere tutti i conti lascia vuoto questo campo. |
-    | Utilizza conto di consolidamento         | Se hai specificato conti di consolidamento, imposta questa opzione su **Sì**. |
-    | Selezionare il conto di consolidamento di origine | Seleziona **Conto principale** o **Gruppo di conti di consolidamento**. |
-    | Gruppo di conti di consolidamento       | Selezionare un gruppo di conti di consolidamento per il conto di consolidamento selezionato. |
-    | Periodo di consolidamento              | Specifica le date "da" e "a" per il consolidamento. |
-    | Includi importi effettivi            | Imposta questa opzione su **Sì** per includere gli importi effettivi. |
-    | Includi importi di budget            | Imposta questa opzione su **Sì** per includere gli importi di budget in consolidamento. |
-    | Modelli di budget                     | Specifica il modello di budget da includere. |
+    | **Conto principale**                      | Specifica i conti da consolidare. Per includere tutti i conti lascia vuoto questo campo. |
+    | **Utilizza conto di consolidamento**         | Se hai specificato conti di consolidamento, imposta questa opzione su **Sì**. |
+    | **Selezionare il conto di consolidamento di origine** | Seleziona **Conto principale** o **Gruppo di conti di consolidamento**. |
+    | **Gruppo di conti di consolidamento**       | Selezionare un gruppo di conti di consolidamento per il conto di consolidamento selezionato. |
+    | **Periodo di consolidamento**              | Specifica le date "da" e "a" per il consolidamento. |
+    | **Includi importi effettivi**            | Imposta questa opzione su **Sì** per includere gli importi effettivi. |
+    | **Includi importi di budget**            | Imposta questa opzione su **Sì** per includere gli importi di budget in consolidamento. |
+    | **Modelli di budget**                     | Specifica il modello di budget da includere. |
 
 3. Nella scheda **Dimensioni finanziarie** specifica i dettagli del consolidamento:
 

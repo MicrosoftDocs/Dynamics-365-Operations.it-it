@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e8330e26f1450dac27bb837bb56f8bbffefc9bc
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: 49074c11659ae30fd2decdb93b4721441edff2c5
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712204"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780526"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Assegnare al cliente un modello di fattura a testo libero
 
@@ -36,15 +36,16 @@ Questa attività descrive come assegnare un modello di fattura a testo libero a 
 8. Nell'elenco fare clic sul collegamento nella riga selezionata.
 9. Nel campo **Data di inizio fatturazione**, immettere la data alla quale verrà generata la prima fattura.
 10. Nella sezione **Termine ricorrenza**, immettere una data di fine ricorrente.  
-    * Selezionare una delle opzioni seguenti. Nessuna data di fine: le fatture verranno generate indefinitamente finché il modello non verrà rimosso dal conto cliente.
-    * Data di fine fatturazione: selezionare questa opzione e immettere l'ultima data in cui la fattura può essere generata.  
+    Selezionare una delle seguenti opzioni: 
+    - **Nessuna data di fine**: le fatture verranno generate indefinitamente finché il modello non verrà rimosso dal conto cliente.
+    - **Data di fine fatturazione**: selezionare questa opzione e immettere l'ultima data in cui la fattura può essere generata.  
 11. Nel campo **Importo cumulativo massimo**, immettere l'importo cumulativo massimo dopo il quale la generazione delle fatture verrà interrotta. Immettere l'importo cumulativo massimo che può essere raggiunto utilizzando il modello selezionato. Se si immette, ad esempio, 1.000,00 e vengono generate fatture mensili per 100,00 ciascuna, la generazione delle fatture verrà interrotta dopo la decima fattura.  
 12. nella sezione **Genera fatture ricorrenti tramite il valore predefinito da** selezionare Modello di fattura a testo libero o Conto cliente. Scegliere se utilizzare il modello di fattura a testo libero o il conto cliente per determinare i valori predefiniti per lingua, profilo registrazione, fascia IVA, fascia IVA articoli, codice elenco, paese di consegna, valuta, termini di pagamento, metodo di pagamento, specifica di pagamento, scadenzario pagamenti, sconto di cassa, dimensioni finanziarie e distinta ordine di accredito quando vengono create le fatture.  
 13. Nel campo **Criterio di ricorrenza**, selezionare il criterio di ricorrenza.
-    + Giornaliero: selezionare questa opzione e immettere il numero di giorni nel campo Per. Se si immette, ad esempio, 15, la fattura verrà generata ogni 15 giorni per il cliente specificato.
-    + Settimanale: selezionare questa opzione e immettere il numero di settimane nel campo Per. Se si immette, ad esempio, 2, la fattura verrà generata ogni 2 settimane per il cliente specificato.
-    + Mensile: selezionare questa opzione e immettere il numero di mesi nel campo Per. Se si immette, ad esempio, 6, la fattura verrà generata ogni 6 mesi per il cliente specificato.
-    + Annuale: selezionare questa opzione e immettere il numero di anni nel campo Per. Se si immette, ad esempio, 2, la fattura verrà generata ogni 2 anni per il cliente specificato.  
+    - **Giornaliero**: selezionare questa opzione e immettere il numero di giorni nel campo Per. Se si immette, ad esempio, 15, la fattura verrà generata ogni 15 giorni per il cliente specificato.
+    - **Settimanale**: selezionare questa opzione e immettere il numero di settimane nel campo Per. Se si immette, ad esempio, 2, la fattura verrà generata ogni 2 settimane per il cliente specificato.
+    - **Mensile**: selezionare questa opzione e immettere il numero di mesi nel campo Per. Se si immette, ad esempio, 6, la fattura verrà generata ogni 6 mesi per il cliente specificato.
+    - **Annuale**: selezionare questa opzione e immettere il numero di anni nel campo Per. Se si immette, ad esempio, 2, la fattura verrà generata ogni 2 anni per il cliente specificato.  
 14. Nel campo **Per** immettere un numero.
 
 

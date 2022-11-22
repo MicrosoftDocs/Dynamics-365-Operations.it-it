@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.25
-ms.openlocfilehash: d24e117b21e291dba1e41d9fa15187b84ff795cf
-ms.sourcegitcommit: f96e5dec5a808d9819d2a23b8e15ce00aeff475b
+ms.openlocfilehash: bfc1c2021387ed35e6ccb513167e896eddef2eaf
+ms.sourcegitcommit: ea79bf014bbf495ac8e28db29502c8bd85a75f32
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9752722"
+ms.lasthandoff: 11/11/2022
+ms.locfileid: "9759602"
 ---
 # <a name="set-up-advanced-bank-reconciliation-import-by-using-electronic-reporting"></a>Impostare l'importazione avanzata delle riconciliazioni bancarie utilizzando la Creazione di report elettronici
 
@@ -37,6 +37,9 @@ La funzionalità di riconciliazione bancaria avanzata consente di importare rend
 5. Nell'elenco di configurazione, trova il modello di dichiarazione **Riconciliazione estratti conto avanzata \> Formato ABR BAI2**.
 6. Seleziona il formato **BAI2**.
 7. Nella Scheda dettaglio **Versioni** seleziona la versione più recente, quindi selezionare **Importa**.
+
+>[!NOTE]
+>Il **Modello di rendiconto bancario di BAI2** sarà deprecato in un secondo momento. 
 
 ## <a name="set-up-the-bank-statement-format"></a>Impostare il formato dell'estratto conto bancario
 

@@ -2,13 +2,13 @@
 title: Panoramica su eliminazione e consolidamento
 description: Questo articolo fornisce informazioni generali sul processo di consolidamento ed eliminazione. Sono incluse le risposte ad alcune domande frequenti.
 author: panolte
-ms.date: 01/11/2018
+ms.date: 11/11/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom:
 - "13151"
 - intro-internal
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd7647df49883f0e3b6cbb2d21b19ca2acb2f065
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 757c7634fc929ead018d1ddcca4cc223c1a95638
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8871393"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779909"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Panoramica su eliminazione e consolidamento
 
@@ -46,49 +46,38 @@ Le eliminazioni possono essere dichiarate in più modi:
 Sono disponibili molti scenari di consolidamento e ciascun metodo può gestire gli scenari in vari modi.
 
 ## <a name="frequently-asked-questions"></a>Domande frequenti
-1. Si preferisce registrare le eliminazioni in un database. Quali sono le opzioni disponibili?
+Si preferisce registrare le eliminazioni in un database. Quali sono le opzioni disponibili?
+ - Sono disponibili più opzioni. È possibile utilizzare l'opzione **Consolida online** e includere le eliminazioni durante il processo o come proposta. Le transazioni verranno registrate nella società di consolidamento. In alternativa, è possibile avere una società separata in cui si creano manualmente le eliminazioni e quindi utilizzare la società nei report finanziari o nel processo di consolidamento.
 
-Sono disponibili più opzioni. È possibile utilizzare l'opzione **Consolida online** e includere le eliminazioni durante il processo o come proposta. Le transazioni verranno registrate nella società di consolidamento. In alternativa, è possibile avere una società separata in cui si creano manualmente le eliminazioni e quindi utilizzare la società nei report finanziari o nel processo di consolidamento.
+I risultati consolidati sono necessari in più valute di dichiarazione.
+ - L'opzione **Report finanziari** dispone di un numero illimitato di valute di dichiarazione. I dati vengono convertiti durante la creazione del report, in base al tipo di tasso di cambio e al metodo di conversione della valuta impostati sul conto principale. Tuttavia, poiché l'opzione **Consolida online** ha una sola valuta di dichiarazione, è necessaria una società consolidata per ogni valuta di dichiarazione se si utilizza tale opzione. L'opzione **Report finanziari** è il metodo consigliato.
 
-2.  I risultati consolidati sono necessari in più valute di dichiarazione.
+Si desiderano visualizzare i dettagli a livello di transazione per ogni società.
+ - L'opzione **Report finanziari** è la soluzione, perché i dettagli a livello di transazione può essere visualizzati per qualsiasi società quando vengono incluse nella definizione dell'albero gerarchico.
 
-L'opzione **Report finanziari** dispone di un numero illimitato di valute di dichiarazione. I dati vengono convertiti durante la creazione del report, in base al tipo di tasso di cambio e al metodo di conversione della valuta impostati sul conto principale. Tuttavia, poiché l'opzione **Consolida online** ha una sola valuta di dichiarazione, è necessaria una società consolidata per ogni valuta di dichiarazione se si utilizza tale opzione. L'opzione **Report finanziari** è il metodo consigliato.
+Si utilizza la pianificazione o il controllo del budget e deve essere consolidato.
+ - L'opzione **Report finanziari** è la soluzione per consolidare i dati di pianificazione o del controllo del budget.
 
-3. Si desiderano visualizzare i dettagli a livello di transazione per ogni società.
+Le filiali sono dislocate in tutto il mondo e sono disponibili più piani dei conti. Qual è il metodo migliore per il consolidamento dei dati?
+- Sono disponibili più opzioni per gestire i piani dei conti. È possibile utilizzare l'opzione **Consolida online** e quindi si sceglie di utilizzare il conto di consolidamento definito nel conto principale o un gruppo di conti di consolidamento. È inoltre possibile utilizzare l'opzione **Report finanziari**, includere più collegamenti nelle dimensioni finanziarie nella definizione di riga e mappare i conti.
 
-L'opzione **Report finanziari** è la soluzione, perché i dettagli a livello di transazione può essere visualizzati per qualsiasi società quando vengono incluse nella definizione dell'albero gerarchico.
+Sono necessari più livelli di consolidamento. In altre parole, per prima cosa si consolidano tutte le filiali europee nella sterlina inglese (GBP). Quindi con questi dati, l'importo viene consolidato in dollari. Come si può effettuare questa operazione?
+- Quando sono necessari più livelli di consolidamento e si utilizzano valute diverse per ogni livello, è necessario usare l'opzione **Consolida online**. Devono essere create più società di consolidamento diverse nelle contabilità e nelle valute di dichiarazione. Il consolidamento deve quindi essere eseguito più volte. L'opzione **Report finanziari** converte sempre la valuta di contabilizzazione di origine della società nella valuta selezionata.
 
-4. Si utilizza la pianificazione o il controllo del budget e deve essere consolidato.
+Le affiliate utilizzano un sistema diverso. Come si possono consolidare?
+- Utilizzare l'opzione **Consolida con importazione** per importare i saldi in una società di consolidamento.
 
-L'opzione **Report finanziari** è la soluzione per consolidare i dati di pianificazione o del controllo del budget.
+Alcune filiali non sono totalmente di proprietà. Qual è il metodo migliore per il loro consolidamento?
+- Sono disponibili più opzioni per le filiali parzialmente di proprietà. Mediante l'opzione **Report finanziari**, è possibile specificare una definizione dell'albero gerarchico e la proprietà. È inoltre possibile utilizzare una riga o una colonna calcolata per rappresentare l'importo parzialmente di proprietà. È inoltre possibile visualizzare gli interessi di minoranza come riga separata in un report. È inoltre possibile utilizzare l'opzione **Consolida online**. La scheda **Persone giuridiche** include la colonna **Proprietà** in cui è possibile definire la percentuale di proprietà della società consolidata.
 
-5. Le filiali sono dislocate in tutto il mondo e sono disponibili più piani dei conti. Qual è il metodo migliore per il consolidamento dei dati?
+L'organizzazione deve visualizzare i consolidamenti per Business Unit o desidera utilizzare le gerarchie organizzative.
+- L'opzione **Report finanziari** è la soluzione. Le gerarchie organizzative che includono persone giuridiche o dimensioni finanziarie possono essere dichiarate nei report finanziari. È inoltre possibile creare proprie gerarchie multilivello utilizzando una definizione dell'albero gerarchico con una combinazione di persone giuridiche e valori di dimensione.
 
-Sono disponibili più opzioni per gestire i piani dei conti. È possibile utilizzare l'opzione **Consolida online** e quindi si sceglie di utilizzare il conto di consolidamento definito nel conto principale o un gruppo di conti di consolidamento. È inoltre possibile utilizzare l'opzione **Report finanziari**, includere più collegamenti nelle dimensioni finanziarie nella definizione di riga e mappare i conti.
+Sono disponibili più istanze del sistema.
+- Utilizzando l'opzione **Esporta saldi società** per esportare da un'istanza e quindi utilizzando l'opzione **Consolida con importazione** sull'altra istanza, è possibile consolidare i dati.
 
-6. Sono necessari più livelli di consolidamento. In altre parole, per prima cosa si consolidano tutte le filiali europee nella sterlina inglese (GBP). Quindi con questi dati, l'importo viene consolidato in dollari. Come si può effettuare questa operazione?
-
-Quando sono necessari più livelli di consolidamento e si utilizzano valute diverse per ogni livello, è necessario usare l'opzione **Consolida online**. Devono essere create più società di consolidamento diverse nelle contabilità e nelle valute di dichiarazione. Il consolidamento deve quindi essere eseguito più volte. L'opzione **Report finanziari** converte sempre la valuta di contabilizzazione di origine della società nella valuta selezionata.
-
-7. Le affiliate utilizzano un sistema diverso. Come si possono consolidare?
-
-Utilizzare l'opzione **Consolida con importazione** per importare i saldi in una società di consolidamento.
-
-8. Alcune filiali non sono totalmente di proprietà. Qual è il metodo migliore per il loro consolidamento?
-
-Sono disponibili più opzioni per le filiali parzialmente di proprietà. Mediante l'opzione **Report finanziari**, è possibile specificare una definizione dell'albero gerarchico e la proprietà. È inoltre possibile utilizzare una riga o una colonna calcolata per rappresentare l'importo parzialmente di proprietà. È inoltre possibile visualizzare gli interessi di minoranza come riga separata in un report. È inoltre possibile utilizzare l'opzione **Consolida online**. La scheda **Persone giuridiche** include la colonna **Proprietà** in cui è possibile definire la percentuale di proprietà della società consolidata.
-
-9. L'organizzazione deve visualizzare i consolidamenti per Business Unit o desidera utilizzare le gerarchie organizzative.
-
-L'opzione **Report finanziari** è la soluzione. Le gerarchie organizzative che includono persone giuridiche o dimensioni finanziarie possono essere dichiarate nei report finanziari. È inoltre possibile creare proprie gerarchie multilivello utilizzando una definizione dell'albero gerarchico con una combinazione di persone giuridiche e valori di dimensione.
-
-10. Sono disponibili più istanze del sistema.
-
-Utilizzando l'opzione **Esporta saldi società** per esportare da un'istanza e quindi utilizzando l'opzione **Consolida con importazione** sull'altra istanza, è possibile consolidare i dati.
-
-11. È possibile eseguire un consolidamento con il budget nello stato **BOZZA**? 
-            
-Non sarai in grado di elaborare o completare i tuoi budget nella società di consolidamento. Si consiglia di utilizzare Financial Reporting per consolidare i budget in stato di bozza.
+È possibile eseguire un consolidamento con il budget nello stato **BOZZA**? 
+- Non sarai in grado di elaborare o completare i tuoi budget nella società di consolidamento. Si consiglia di utilizzare Financial Reporting per consolidare i budget in stato di bozza.
 
 Per ulteriori informazioni, vedere [Rivalutazione della valuta in una società di consolidamento](../general-ledger/currency-revaluation-consolidation-company.md).
 

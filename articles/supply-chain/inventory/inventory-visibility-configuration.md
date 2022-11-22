@@ -2,7 +2,7 @@
 title: Configurare Inventory Visibility
 description: Questo articolo descrive come configurare la visibilità dell'inventario.
 author: yufeihuang
-ms.date: 05/27/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61819d9c5af64b58697e07be85beebc084ae5935
-ms.sourcegitcommit: 20ce54cb40290dd116ab8b157c0a02d6757c13f5
+ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/20/2022
-ms.locfileid: "9542288"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9765709"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Inventory Visibility
 
 [!include [banner](../includes/banner.md)]
-
 
 Questo articolo descrive come configurare Visibilità inventario utilizzando l'app Visibilità inventario in Power Apps.
 
@@ -53,27 +52,32 @@ Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzional
 |---|---|
 | *OnHandReservation* | Questa funzione ti consente di creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità inventario. Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Questa funzionalità fornisce un riepilogo dell'inventario per i prodotti insieme a tutte le dimensioni. I dati del riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. La frequenza di sincronizzazione predefinita è una volta ogni 15 minuti e può essere impostata fino a una volta ogni 5 minuti. Per ulteriori informazioni, vedere [Riepilogo dell'inventario](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Questa funzione consente di precaricare le query di visibilità inventario sulle scorte disponibili per assemblare elenchi di scorte disponibili con dimensioni preselezionate. La frequenza di sincronizzazione predefinita è una volta ogni 15 minuti. Per ulteriori informazioni, vedere [Riepilogo dell'inventario](inventory-visibility-power-platform.md#preload-the-inventory-visibility-onhand-query). |
+| *onHandIndexQueryPreloadBackgroundService* | Questa funzione consente di precaricare le query di visibilità inventario sulle scorte disponibili per assemblare elenchi di scorte disponibili con dimensioni preselezionate. La frequenza di sincronizzazione predefinita è una volta ogni 15 minuti. Per ulteriori informazioni, vedere [Precaricare una query di scorte disponibili ottimizzata](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | La funzione facoltativa abilita la programmazione delle modifiche scorte disponibili e le funzionalità ATP. Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md). |
 | *Allocazione* | Questa funzione facoltativa consente a Visibilità inventario di avere la capacità di protezione dell'inventario (ringfencing) e controllo delle vendite eccessive. Per ulteriori informazioni, vedi [Allocazione dell'inventario di Visibilità inventario](inventory-visibility-allocation.md). |
 | *Abilita articoli di magazzino in Visibilità inventario* | Questa funzione opzionale consente a Visibilità inventario di supportare gli articoli abilitati per i processi di gestione del magazzino (WMS). Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WMS](inventory-visibility-whs-support.md). |
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Trovare l'endpoint del servizio
 
-Se non conosci l'endpoint corretto del servizio Visibilità inventario, apri la pagina di **configurazione** in Power Apps e poi seleziona **Mostra endpoint del servizio** nell'angolo in alto a destra. La pagina mostrerà l'endpoint di servizio corretto.
+Se non conosci l'endpoint corretto del servizio Visibilità inventario, apri la pagina di **configurazione** in Power Apps e poi seleziona **Mostra dettagli del servizio** nell'angolo in alto a destra. La pagina mostrerà l'endpoint di servizio corretto. Puoi anche trovare l'endpoint in Microsoft Dynamics Lifecycle Services, come descritto in [Trovare l'endpoint in base al tuo ambiente Lifecycle Services](inventory-visibility-api.md#endpoint-lcs).
+
+> [!NOTE]
+> L'utilizzo di un endpoint non corretto può causare un'installazione di Visibilità inventario non riuscita ed errori quando Supply Chain Management viene sincronizzato con Visibilità inventario. Se non sei sicuro di quale sia il tuo endpoint, contatta l'amministratore di sistema. Gli URL di endpoint utilizzano il seguente formato:
+>
+> `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
 ## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configurazione dell'origine dati
 
-Ogni origine dati rappresenta un sistema da cui provengono i dati. Alcuni esempi di nomi delle origini dati includono `fno` (che sta per "app per la finanza e le operazioni Dynamics 365") e `pos` (che sta per "point of sale" ovvero punto vendita). Per default, Supply Chain Management è impostato come fonte di dati predefinita (`fno`) in Visibilità inventario.
+Ogni origine dati rappresenta un sistema da cui provengono i dati. Alcuni esempi di nomi delle origini dati includono `fno` (che corrisponde a Supply Chain Management) e `pos` (che sta per "point of sale", ovvero "POS"). Per default, Supply Chain Management è impostato come fonte di dati predefinita (`fno`) in Visibilità inventario.
 
 > [!NOTE]
-> L'origine dati `fno` è riservata a Supply Chain Management. Se il tuo componente aggiuntivo Visibilità inventario è integrato con un ambiente Supply Chain Management, ti consigliamo di non eliminare le configurazioni relative a `fno` nell'origine dati.
+> L'origine dati `fno` è riservata a Supply Chain Management. Se il tuo componente aggiuntivo Visibilità inventario è integrato con un ambiente Supply Chain Management, è consigliabile non eliminare le configurazioni relative a `fno` nell'origine dati.
 
 Per aggiungere un'origine dati, seguite questi passi.
 
 1. Accedi al tuo ambiente Power Apps e apri **Visibilità inventario**.
 1. Aprire la pagina di **configurazione** .
-1. Nella scheda **Origine dati** , selezionare **Nuova origine dati** per aggiungere un'origine dati.
+1. Nella scheda **Origine dati**, seleziona **Nuova origine dati** per aggiungere un'origine dati (ad esempio `ecommerce` o un altro ID origine dati significativo).
 
 > [!NOTE]
 > Quando si aggiunge un'origine dati, assicurarsi di convalidare il nome dell'origine dati, le misure fisiche e le mappature delle dimensioni prima di aggiornare la configurazione del servizio Visibilità inventario. Non sarà possibile modificare queste impostazioni dopo aver selezionato **Aggiorna configurazione**.
@@ -88,11 +92,11 @@ La configurazione dell'origine dati include le seguenti parti:
 
 Lo scopo della configurazione delle dimensioni è quello di standardizzare l'integrazione multi-sistema per la pubblicazione di eventi e query, sulla base di combinazioni di dimensioni. Visibilità inventario fornisce una lista di dimensioni di base che possono essere mappate dalle dimensioni della vostra fonte di dati. Trentatré dimensioni sono disponibili per la mappatura.
 
-- Per default, se state usando Supply Chain Management come una delle vostre fonti di dati, 13 dimensioni sono mappate alle dimensioni standard di Supply Chain Management. Dodici altre dimensioni (da`inventDimension1` a `inventDimension12`) sono mappate su dimensioni personalizzate in Supply Chain Management. Le otto dimensioni rimanenti sono dimensioni estese che si possono mappare su fonti di dati esterne.
+- Se stai utilizzando Supply Chain Management come una delle tue origini dati, 13 dimensioni sono già mappate alle dimensioni standard di Supply Chain Management per impostazione predefinita. Anche le altre 12 dimensioni (da`inventDimension1` a `inventDimension12`) sono mappate su dimensioni personalizzate in Supply Chain Management. Le otto dimensioni rimanenti (da `ExtendedDimension1` a `ExtendedDimension8`) sono dimensioni estese che si possono mappare su fonti di dati esterne.
 - Se non usate Supply Chain Management come una delle vostre fonti di dati, potete mappare liberamente le dimensioni. La seguente tabella mostra l'elenco completo delle dimensioni disponibili.
 
 > [!NOTE]
-> Se la tua dimensione non è nell'elenco delle dimensioni predefinite e stai usando un'origine dati esterna, ti consigliamo di usare `ExtendedDimension1` attraverso `ExtendedDimension8` per fare la mappatura.
+> Se utilizzi Supply Chain Management e modifichi i mapping delle dimensioni predefinite tra Supply Chain Management e Visibilità inventario, la dimensione modificata non sincronizzerà i dati. Pertanto, se la tua dimensione non è nell'elenco delle dimensioni predefinite e stai usando un'origine dati esterna, ti consigliamo di usare `ExtendedDimension1` attraverso `ExtendedDimension8` per fare la mappatura.
 
 | Tipo di dimensione | Dimensione della base |
 |---|---|
@@ -116,9 +120,9 @@ Lo scopo della configurazione delle dimensioni è quello di standardizzare l'int
 > [!NOTE]
 > I tipi di dimensione che sono elencati nella tabella precedente sono solo per riferimento. Non è necessario definirli in Visibilità dell'inventario.
 >
-> Le dimensioni di inventario (personalizzate) potrebbero essere riservate a Supply Chain Management. In questo caso, potete invece usare le dimensioni estese.
+> Le dimensioni di inventario (personalizzate) potrebbero essere riservate a Supply Chain Management. In questo caso, utilizza invece le dimensioni estese.
 
-I sistemi esterni possono accedere a Visibilità inventario attraverso le sue API RESTful. Per l'integrazione, Visibilità inventario ti permette di configurare l' _origine dati esterna_ e la mappatura dalle _dimensioni esterne_ alle _dimensioni di base_. Ecco un esempio di tabella di mappatura delle dimensioni.
+I sistemi esterni possono accedere a Visibilità inventario attraverso le sue API RESTful. Per l'integrazione, Visibilità inventario ti permette di configurare l' *origine dati esterna* e la mappatura dalle *dimensioni esterne* alle *dimensioni di base*. Ecco un esempio di tabella di mappatura delle dimensioni.
 
 | Dimensione esterna | Dimensione della base |
 |---|---|
@@ -134,20 +138,21 @@ Per aggiungere le mappature delle dimensioni, seguite questi passi.
 
 1. Accedi al tuo ambiente Power Apps e apri **Visibilità inventario**.
 1. Aprire la pagina di **configurazione** .
-1. Nella scheda **Origine dati** , nella sezione **Mappature di dimensione** , selezionare **Aggiungi** per aggiungere le mappature di dimensione.
+1. Nella scheda **Origine dati**, seleziona l'origine dati in cui vuoi eseguire il mapping delle dimensioni. Quindi, nella sezione **Mappature dimensioni**, seleziona **Aggiungi** per aggiungere le mappature di dimensione.
+
     ![Aggiunta di mappature di dimensioni](media/inventory-visibility-dimension-mapping.png "Aggiunta di mappature di dimensioni")
 
 1. Nel campo **Nome della dimensione** , specificare la dimensione di origine.
 1. Nel campo **Dimensione di base di destinazione** , selezionate la dimensione in Visibilità inventario che volete mappare.
-1. Selezionare **Salva**.
+1. Seleziona **Salva**.
 
-Per esempio, se la vostra origine dati include una dimensione di colore del prodotto, potete mapparla alla dimensione base `ColorId` per aggiungere una dimensione personalizzata `ProductColor` nell'origine dati `exterchannel` . Viene poi mappato alla dimensione di base `ColorId` .
+Ad esempio, hai già creato un'origine dati denominata `ecommerce` e che include una dimensione del colore del prodotto. In questo caso, per eseguire la mappatura, puoi prima aggiungere `ProductColor` al campo **Nome dimensione** nell'origine dati `ecommerce` e quindi selezionare `ColorId` nel campo **Dimensione di base di destinazione**.
 
 ### <a name="physical-measures"></a><a name="data-source-configuration-physical-measures"></a>Misure fisiche
 
-Quando una fonte di dati inserisce una variazione d'inventario in Visibilità inventario, inserisce tale variazione utilizzando le *misure fisiche*. Le misure fisiche modificano la quantità e riflettono lo stato dell'inventario. Potete definire le vostre misure fisiche, in base alle vostre esigenze. Le interrogazioni possono essere basate sulle misure fisiche.
+Quando una fonte di dati inserisce una variazione d'inventario in Visibilità inventario, inserisce tale variazione utilizzando le *misure fisiche*. Le misure fisiche modificano la quantità e riflettono lo stato dell'inventario. Puoi definire le tue misure fisiche, in base alle tue esigenze. Le interrogazioni possono essere basate sulle misure fisiche.
 
-Visibilità inventario fornisce una lista di misure fisiche predefinite che sono collegate a Supply Chain Management (la fonte di dati `fno` ). Queste misure fisiche predefinite sono prese dagli stati delle transazioni d'inventario sulla pagina della **lista di disponibilità** in Supply Chain Management **(Inventory Management \> Inquiries and Report \> On-hand list**). La seguente tabella fornisce un esempio di misure fisiche.
+Visibilità inventario fornisce una lista di misure fisiche predefinite che sono mappate a Supply Chain Management (l'origine dati `fno`). Queste misure fisiche predefinite sono prese dagli stati delle transazioni d'inventario sulla pagina della **lista di disponibilità** in Supply Chain Management **(Inventory Management \> Inquiries and Report \> On-hand list**). La seguente tabella fornisce un esempio di misure fisiche.
 
 | Nome della misura fisica | descrizione |
 |---|---|
@@ -164,15 +169,15 @@ Visibilità inventario fornisce una lista di misure fisiche predefinite che sono
 | `QuotationIssue` | Rilascio offerta |
 | `QuotationReceipt` | Ricevimento offerta |
 | `Received` | Ricevute |
-| `Registered` | Registrata |
+| `Registered` | Registrato |
 | `ReservOrdered` | Ordinato prenotato |
 | `ReservPhysical` | Fisico prenotato |
 
-Se l'origine dei dati è Supply Chain Management, non è necessario ricreare le misure fisiche predefinite. Tuttavia, per le fonti di dati esterne, è possibile creare nuove misure fisiche seguendo questi passi.
+Se l'origine dati è Supply Chain Management, non è necessario ricreare le misure fisiche predefinite. Tuttavia, per le fonti di dati esterne, è possibile creare nuove misure fisiche seguendo questi passi.
 
 1. Accedi al tuo ambiente Power Apps e apri **Visibilità inventario**.
 1. Aprire la pagina di **configurazione** .
-1. Nella scheda **Origine dati** , nella sezione **Misure fisiche** , selezionare **Aggiungi**, specificare il nome di una misura sorgente e salvare le modifiche.
+1. Nella scheda **Origine dati**, seleziona l'origine dati a cui aggiungere misure fisiche (ad esempio, l'origine dati `ecommerce`). Quindi, nella sezione **Misure fisiche**, seleziona **Aggiungi** e specifica il nome della misura (ad esempio, `Returned` se vuoi registrare le quantità restituite in questa origine dati in Visibilità inventario). Salvare le modifiche.
 
 ### <a name="calculated-measures"></a>Misure calcolate
 
@@ -181,7 +186,7 @@ Puoi usare Visibilità inventario per interrogare sia le misure fisiche dell'inv
 > [!IMPORTANT]
 > Una misura calcolata è una composizione di misure fisiche. La formula può includere solo misure fisiche senza duplicati, non misure calcolate.
 
-La configurazione permette di definire un insieme di modificatori che vengono aggiunti o sottratti per ottenere la quantità totale aggregata in uscita.
+La configurazione permette di definire un set di formule di misure calcolate che include modificatori di addizione o sottrazione per ottenere la quantità totale aggregata in uscita.
 
 Per configurare una misura calcolata personalizzata, effettuare le seguenti operazioni.
 
@@ -191,7 +196,7 @@ Per configurare una misura calcolata personalizzata, effettuare le seguenti oper
 1. Imposta i seguenti campi per la nuova misura calcolata:
 
     - **Nome nuova misura calcolata** – Immetti il nome della misura calcolata.
-    - **Origine dati** – Seleziona l'origine dati associata al nuovo modificatore. Il sistema di interrogazione è una fonte di dati.
+    - **Origine dati** – Seleziona l'origine dati in cui includere la nuova misura calcolata. Il sistema di interrogazione è una fonte di dati.
 
 1. Seleziona **Aggiungi** per aggiungere un modificatore alla nuova misura calcolata.
 1. Imposta i seguenti campi per il nuovo modificatore:
@@ -200,15 +205,21 @@ Per configurare una misura calcolata personalizzata, effettuare le seguenti oper
     - **Origine dati** – Seleziona l'origine dati in cui deve essere trovata la misura che fornisce il valore del modificatore.
     - **Misura** – Seleziona il nome della misura (dall'origine dati selezionata) che fornisce il valore per il modificatore.
 
-1. Ripeti i passaggi da 5 a 6 finché non hai aggiunto tutti i modificatori richiesti.
+1. Ripetere i passaggi da 5 a 6 fino a quando non sono stati aggiunti tutti i modificatori obbligatori e non è stata completata la formula per la tua misura calcolata.
 1. Seleziona **Salva**.
 
-Per esempio, è possibile che si riceva il seguente risultato di query.
+Ad esempio, un'azienda di moda opera su tre origini dati:
+
+- `pos`: corrisponde al canale del punto vendita.
+- `fno`: corrisponde a Supply Chain Management.
+- `ecommerce`: corrisponde al tuo canale Web.
+
+Senza misure calcolate, quando si esegue una query per il prodotto D0002 (armadio) nel sito 1, magazzino 11 e un valore di dimensione `ColorID` di `Red`, potresti ottenere il seguente risultato della query, che mostra le quantità di inventario in ciascuna misura fisica preconfigurata. Tuttavia, non hai visibilità sul totale disponibile per le quantità di prenotazione nelle tue origini dati.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -224,7 +235,7 @@ Per esempio, è possibile che si riceva il seguente risultato di query.
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
@@ -239,22 +250,22 @@ Si configura quindi una misura calcolata che si chiama `MyCustomAvailableforRese
 
 | Sistema di consumo | Misura calcolata | Origine dati | Misura fisica | Tipo di calcolo |
 |---|---|---|---|---|
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `received` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `scheduled` | `Addition` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `issued` | `Subtraction` |
-| `CustomChannel` | `MyCustomAvailableforReservation` | `externalchannel` | `reserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `availphysical` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedintotal` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `fno` | `orderedreserved` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `inbound` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `pos` | `outbound` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `received` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `scheduled` | `Addition` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `issued` | `Subtraction` |
+| `CrossChannel` | `MyCustomAvailableforReservation` | `ecommerce` | `reserved` | `Subtraction` |
 
 Quando si usa questa formula di calcolo, il nuovo risultato della query includerà la misura personalizzata.
 
 ```json
 [
     {
-        "productId": "T-shirt",
+        "productId": "D0002",
         "dimensions": {
             "SiteId": "1",
             "LocationId": "11",
@@ -270,13 +281,13 @@ Quando si usa questa formula di calcolo, il nuovo risultato della query includer
                 "orderedintotal": 50.0,
                 "orderedreserved": 10.0
             },
-            "externalchannel": {
+            "ecommerce": {
                 "received": 90.0,
                 "scheduled": 30.0,
                 "issued": 60.0,
                 "reserved": 40.0
             },
-            "CustomChannel": {
+            "CrossChannel": {
                 "MyCustomAvailableforReservation": 220.0
             }
         }
@@ -304,7 +315,7 @@ La soluzione include questa configurazione della partizione per impostazione pre
 
 La maggior parte delle volte, la query dell'inventario on-hand non sarà solo al livello più alto "totale". Invece, potresti voler vedere anche i risultati aggregati in base alle dimensioni dell'inventario.
 
-Visibilità inventario fornisce flessibilità permettendovi di impostare gli _indici_ per migliorare le prestazioni delle query. Questi indici sono basati su una dimensione o su una combinazione di dimensioni. Un indice consiste in un *numero di set*, una *dimensione* e una *gerarchia*, come definito nella tabella seguente.
+Visibilità inventario fornisce flessibilità permettendovi di impostare gli *indici* per migliorare le prestazioni delle query. Questi indici sono basati su una dimensione o su una combinazione di dimensioni. Un indice consiste in un *numero di set*, una *dimensione* e una *gerarchia*, come definito nella tabella seguente.
 
 | Nome | descrizione |
 |---|---|
@@ -334,15 +345,15 @@ Questa sezione fornisce un esempio che mostra come funziona la gerarchia.
 
 La seguente tabella fornisce un elenco di inventario disponibile per questo esempio.
 
-| Articolo | ColorId | SizeId | StyleId | Quantità |
+| Elemento | ColorId | SizeId | StyleId | Quantity |
 |---|---|---|---|---|
-| Maglietta | Nero | Piccolo | Largo | 1 |
-| Maglietta | Nero | Piccolo | Regolare | 2 |
-| Maglietta | Nero | Grande | Largo | 3 |
-| Maglietta | Nero | Grande | Regolare | 4 |
-| Maglietta | Rosso | Piccolo | Largo | 5 |
-| Maglietta | Rosso | Piccolo | Regolare | 6 |
-| Maglietta | Rosso | Grande | Regolare | 7 |
+| D0002 | Nero | Piccola | Largo | 1 |
+| D0002 | Nero | Piccola | Regolare | 2 |
+| D0002 | Nero | Grande | Largo | 3 |
+| D0002 | Nero | Grande | Regolare | 4 |
+| D0002 | Rosso | Piccola | Largo | 5 |
+| D0002 | Rosso | Piccola | Regolare | 6 |
+| D0002 | Rosso | Grande | Regolare | 7 |
 
 La tabella seguente mostra come è impostata la gerarchia degli indici.
 
@@ -356,29 +367,29 @@ L'indice permette di interrogare l'inventario in mano nei seguenti modi:
 
 - `()` - Raggruppati per tutti
 
-    - Maglietta, 28
+    - D0002, 28
 
 - `(ColorId)` - Raggruppati per `ColorId`
 
-    - Maglietta, Nero, 10
-    - Maglietta, rosso, 18
+    - D0002, nero, 10
+    - D0002, rosso, 18
 
 - `(ColorId, SizeId)` - Raggruppati per la combinazione di `ColorId` e `SizeId`
 
-    - Maglietta, nero, piccolo, 3
-    - Maglietta, nero, grande, 7
-    - Maglietta, rosso, piccolo, 11
-    - Maglietta, rosso, grande, 7
+    - D0002, nero, piccolo, 3
+    - D0002, nero, grande, 7
+    - D0002, rosso, piccolo, 11
+    - D0002, rosso, grande, 7
 
 - `(ColorId, SizeId, StyleId)` - Raggruppati per la combinazione di `ColorId`, `SizeId`, e `StyleId`
 
-    - Maglietta, nero, piccolo, largo, 1
-    - Maglietta, nero, piccolo, regolare, 2
-    - Maglietta, nero, grande, largo, 3
-    - Maglietta, nero, grande, regolare, 4
-    - Maglietta, rosso, piccolo, largo, 5
-    - Maglietta, rosso, piccolo, regolare, 6
-    - Maglietta, rosso, grande, regolare, 7
+    - D0002, nero, piccolo, largo, 1
+    - D0002, nero, piccolo, regolare, 2
+    - D0002, nero, grande, largo, 3
+    - D0002, nero, grande, rgolare, 4
+    - D0002, rosso, piccolo, largo, 5
+    - D0002, rosso, piccolo, regolare, 6
+    - D0002, rosso, grande, regolare, 7
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configurazione della prenotazione (opzionale)
 
@@ -397,35 +408,35 @@ Prima di impostare questa mappatura, le misure fisiche, le misure calcolate e le
 
 Per definire la mappatura delle soft reservation, seguite questi passi.
 
-1. Definire la misura fisica che serve come misura di riserva morbida (per esempio, `SoftReservOrdered`).
-1. Nella scheda **Misura calcolata** della pagina **Configurazione** , definisci la misura calcolata *disponibile per la prenotazione* (AFR) che contiene la formula di calcolo AFR che vuoi mappare alla misura fisica. Per esempio, si potrebbe impostare `AvailableToReserve` (disponibile per la prenotazione) in modo che sia mappato alla misura fisica precedentemente definita `SoftReservOrdered` . In questo modo, potete trovare quali quantità che hanno lo stato di inventario `SoftReservOrdered` saranno disponibili per la prenotazione. La tabella seguente mostra la formula di calcolo dell'AFR.
+1. Definire la misura fisica che serve come misura di riserva morbida (per esempio, `SoftReservPhysical`).
+1. Nella scheda **Misura calcolata** della pagina **Configurazione** , definisci la misura calcolata *disponibile per la prenotazione* (AFR) che contiene la formula di calcolo AFR che vuoi mappare alla misura fisica. Per esempio, si potrebbe impostare `AvailableToReserve` (disponibile per la prenotazione) in modo che sia mappato alla misura fisica precedentemente definita `SoftReservPhysical` . In questo modo, potete trovare quali quantità che hanno lo stato di inventario `SoftReservPhysical` saranno disponibili per la prenotazione. La tabella seguente mostra la formula di calcolo dell'AFR.
 
     | Tipo di calcolo | Origine dati | Misura fisica |
     |---|---|---|
     | Aggiunta | `fno` | `AvailPhysical` |
     | Aggiunta | `pos` | `Inbound` |
     | Sottrazione | `pos` | `Outbound` |
-    | Sottrazione | `iv` | `SoftReservOrdered` |
+    | Sottrazione | `iv` | `SoftReservPhysical` |
 
-    Si consiglia di configurare la misura calcolata in modo che contenga la misura fisica su cui si basa la misura di prenotazione. In questo modo, la quantità di misura calcolata sarà influenzata dalla quantità di misura di prenotazione. Pertanto, in questo esempio, la misura calcolata `AvailableToReserve` dell'origine dati `iv` dovrebbe contenere la misura fisica `SoftReservOrdered` da `iv` come componente.
+    Si consiglia di configurare la misura calcolata in modo che contenga la misura fisica su cui si basa la misura di prenotazione. In questo modo, la quantità di misura calcolata sarà influenzata dalla quantità di misura di prenotazione. Pertanto, in questo esempio, la misura calcolata `AvailableToReserve` dell'origine dati `iv` dovrebbe contenere la misura fisica `SoftReservPhysical` da `iv` come componente.
 
 1. Aprire la pagina di **configurazione** .
-1. Nella scheda **Mapping prenotazione preliminare** , impostare la mappatura dalla misura fisica alla misura calcolata. Per l'esempio precedente, si potrebbero usare le seguenti impostazioni per mappare `AvailableToReserve` alla misura fisica precedentemente definita `SoftReservOrdered` .
+1. Nella scheda **Mapping prenotazione preliminare** , impostare la mappatura dalla misura fisica alla misura calcolata. Per l'esempio precedente, si potrebbero usare le seguenti impostazioni per mappare `AvailableToReserve` alla misura fisica precedentemente definita `SoftReservPhysical` .
 
     | Fonte di dati della misura fisica | Misura fisica | Disponibile per l'origine dati della prenotazione | Disponibile per la prenotazione misura calcolata |
     |---|---|---|---|
-    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+    | `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
     > [!NOTE]
     > Se non è possibile modificare la scheda **Mapping prenotazione preliminare**, potrebbe essere necessario attivare la funzionalità *OnHandReservation* sulla scheda **Gestione funzionalità**.
 
-Ora, quando fate una prenotazione su `SoftReservOrdered`, Visibilità inventario troverà automaticamente `AvailableToReserve` e la sua formula di calcolo relativa per fare la convalida della prenotazione.
+Ora, quando fate una prenotazione su `SoftReservPhysical`, Visibilità inventario troverà automaticamente `AvailableToReserve` e la sua formula di calcolo relativa per fare la convalida della prenotazione.
 
 Per esempio, avete il seguente inventario a disposizione in Visibilità inventario.
 
 ```json
 {
-    "productId": "T-shirt",
+    "productId": "D0002",
     "dimensions": {
         "SiteId": "1",
         "LocationId": "11",
@@ -433,7 +444,7 @@ Per esempio, avete il seguente inventario a disposizione in Visibilità inventar
     },
     "quantities": {
         "iv": {
-            "SoftReservOrdered": 90
+            "SoftReservPhysical": 90
         },
         "fno": {
             "availphysical": 70.0,
@@ -448,14 +459,14 @@ Per esempio, avete il seguente inventario a disposizione in Visibilità inventar
 
 In questo caso, si applica il seguente calcolo:
 
-`AvailableToReserve` = `fno.availphysical` + `pos.inbound` - `pos.outbound` - `iv.SoftReservOrdered`  
+`AvailableToReserve` = `fno.availphysical` + `pos.inbound` – `pos.outbound` – `iv.SoftReservPhysical`  
 = 70 + 50 – 20 – 90  
 = 10
 
-Pertanto, se si cerca di fare prenotazioni su `iv.SoftReservOrdered`, e la quantità è inferiore o uguale a `AvailableToReserve` (10), si può fare la prenotazione.
+Pertanto, se si cerca di fare prenotazioni su `iv.SoftReservPhysical`, e la quantità è inferiore o uguale a `AvailableToReserve` (10), la richiesta di prenotazione temporanea avrà esito positivo.
 
 > [!NOTE]
-> Quando si chiama l'API di prenotazione, è possibile controllare la convalida della prenotazione specificando il parametro booleano `ifCheckAvailForReserv` nel corpo della richiesta. Un valore di `True` significa che è richiesta la convalida, mentre un valore di `False` significa che la convalida non è richiesta. Il valore predefinito è `True`.
+> Quando si chiama l'API di prenotazione, è possibile controllare la convalida della prenotazione specificando il parametro booleano `ifCheckAvailForReserv` nel corpo della richiesta. Un valore pari a `True` significa che la convalida è obbligatoria, mentre un valore di `False` significa che la convalida non è obbligatoria (anche se potresti ottenere una quantità `AvailableToReserve` negativa, il sistema consentirà comunque la prenotazione temporanea). Il valore predefinito è `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Gerarchia delle prenotazioni soft
 
@@ -488,18 +499,21 @@ Una sequenza di dimensioni valida deve seguire rigorosamente la gerarchia delle 
 
 ## <a name="complete-and-update-the-configuration"></a>Completare e aggiornare la configurazione
 
-Dopo aver completato la configurazione, è necessario impegnare tutte le modifiche a Visibilità inventario. Per impegnare le modifiche, seleziona **Aggiorna configurazione** nell'angolo in alto a destra della pagina **Configurazione** in Power Apps.
+Dopo aver completato la configurazione, è necessario impegnare tutte le modifiche a Visibilità inventario. Segui questi passaggi per eseguire il commit delle modifiche.
 
-La prima volta che selezioni **Aggiorna configurazione**, il sistema richiede le tue credenziali.
+1. In Power Apps, nella pagina **Configurazione**, seleziona **Aggiorna configurazione** nell'angolo in alto a destra. 
+1. Il sistema richiede le credenziali di accesso. Immetti i valori seguenti:
 
-- **ID client** - L'ID dell'applicazione Azure che hai creato per la visibilità dell'inventario.
-- **ID tenant** - Il tuo Azure tenant ID.
-- **Segreto client** - Il segreto dell'applicazione Azure che hai creato per Visibilità inventario.
+    - **ID client** - L'ID dell'applicazione Azure che hai creato per la visibilità dell'inventario.
+    - **ID tenant** - Il tuo Azure tenant ID.
+    - **Segreto client** - Il segreto dell'applicazione Azure che hai creato per Visibilità inventario.
 
-Dopo l'accesso, la configurazione viene aggiornata nel servizio Visibilità inventario.
+    Per ulteriori informazioni su queste credenziali e su come trovarle, vedere [Installare e configurare Visibilità inventario](inventory-visibility-setup.md).
 
-> [!NOTE]
-> Assicurati di convalidare il nome dell'origine dati, le misure fisiche e le mappature delle dimensioni prima di aggiornare la configurazione del servizio Visibilità inventario. Non sarà possibile modificare queste impostazioni dopo aver selezionato **Aggiorna configurazione**.
+    > [!IMPORTANT]
+    > Assicurati di convalidare il nome dell'origine dati, le misure fisiche e le mappature delle dimensioni prima di aggiornare la configurazione. Non sarà possibile modificare queste impostazioni dopo averle aggiornate.
+
+1. Dopo l'accesso, seleziona di nuovo **Aggiorna configurazione**. Il sistema applica le tue impostazioni e mostra cosa è cambiato.
 
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Esempio di configurazione predefinita
 
@@ -694,13 +708,19 @@ Le mappature delle dimensioni elencate nella seguente tabella sono configurate p
 
 Le seguenti misure fisiche sono configurate per l'origine dati `fno` :
 
-- `Ordered`
 - `Arrived`
-- `AvailPhysical`
 - `PhysicalInvent`
 - `ReservPhysical`
+- `onorder`
+- `notspecified`
+- `availordered`
+- `availphysical`
+- `picked`
+- `postedqty`
+- `quotationreceipt`
+- `received`
+- `ordered`
 - `ReservOrdered`
-- `OnOrder`
 
 #### <a name="configuration-of-the-pos-data-source"></a>Configurazione dell'origine dati "pos"
 
@@ -766,47 +786,17 @@ La tabella seguente mostra la mappatura predefinita delle prenotazioni.
 
 | Fonte di dati della misura fisica | Misura fisica | Disponibile per l'origine dati della prenotazione | Disponibile per la prenotazione misura calcolata |
 |---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+| `iv` | `SoftReservPhysical` | `iv` | `AvailableToReserve` |
 
 #### <a name="reservation-hierarchy"></a>Gerarchia prenotazioni
 
 La tabella seguente mostra la gerarchia di prenotazione predefinita.
 
-| Dimensione della base | Hierarchy |
+| Dimensione della base | Gerarchia |
 |---|---|
 | `SiteId` | 1 |
 | `LocationId` | 2 |
 | `ColorId` | 3 |
 | `SizeId` | 4 |
-| `StyleId` | 5 |
-| `BatchId` | 6 |
-| `SerialId` | 7 |
-| `StatusId` | 8 |
-| `LicensePlateId` | 9 |
-| `WMSLocationId` | 10 |
-| `WMSPalletId` | 11 |
-| `ConfigId` | 12 |
-| `VersionId` | 13 |
-| `CustomDimension1` | 14 |
-| `CustomDimension2` | 15 |
-| `CustomDimension3` | 16 |
-| `CustomDimension4` | 17 |
-| `CustomDimension5` | 18 |
-| `CustomDimension6` | 19 |
-| `CustomDimension7` | 20 |
-| `CustomDimension8` | 21 |
-| `CustomDimension9` | 22 |
-| `CustomDimension10` | 23 |
-| `CustomDimension11` | 24 |
-| `CustomDimension12` | 25 |
-| `ExtendedDimension1` | 26 |
-| `ExtendedDimension2` | 27 |
-| `ExtendedDimension3` | 28 |
-| `ExtendedDimension4` | 29 |
-| `ExtendedDimension5` | 30 |
-| `ExtendedDimension6` | 31 |
-| `ExtendedDimension7` | 32 |
-| `ExtendedDimension8` | 33 |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

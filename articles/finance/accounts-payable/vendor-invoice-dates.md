@@ -1,6 +1,6 @@
 ---
 title: Date della fattura fornitore
-description: Questo articolo descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come impostare il sistema in modo che rettifichi automaticamente la data di registrazione.
+description: Questo articolo descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come rettificare automaticamente la data di registrazione.
 author: sunfzam
 ms.date: 2/09/2022
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-08-30
 ms.dyn365.ops.version: 10.0.23
-ms.openlocfilehash: 943a84407d022c2c05bc534a35a2b5d44a94653e
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 022fd0ce07fbb4c54afcf7334c1c9411e01dcf26
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8876414"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775274"
 ---
 # <a name="vendor-invoice-dates"></a>Date della fattura fornitore
 
 [!include [banner](../includes/banner.md)]
 
-Questo articolo descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come impostare il sistema in modo che rettifichi automaticamente la data di registrazione.
+Questo articolo descrive le date che compaiono sulle fatture fornitore. Spiega inoltre come rettificare automaticamente la data di registrazione.
 
-Nella pagina **Fattura fornitore dettagliata in attesa**, l'intestazione della fattura mostra quattro date: la data di ricezione della fattura, la data della fattura, la data di registrazione e la data di scadenza. Quando viene creata una fattura fornitore, per impostazione predefinita vengono immesse le seguenti date:
+Nella pagina **Fattura fornitore dettagliata in attesa**, l'intestazione della fattura mostra quattro date: la **data di ricezione della fattura**, la **data della fattura**, la **data di registrazione** e la **data di scadenza**. Quando viene creata una fattura fornitore, per impostazione predefinita vengono immesse le seguenti date:
 
 - **Data di ricezione fattura** – Questo campo è impostato sulla data di sistema corrente.
 - **Data di registrazione** – Questo campo è impostato sulla data di sistema corrente. 
@@ -37,11 +37,11 @@ Nella pagina **Fattura fornitore dettagliata in attesa**, l'intestazione della f
 
 A volte, una fattura fornitore potrebbe rimanere in sospeso per molto tempo dopo la chiusura del periodo. Quando è pronta per la registrazione, viene ancora utilizzata la vecchia data di registrazione del periodo di registrazione passato. Tuttavia, quel periodo è ora chiuso. Pertanto, un addetto alla contabilità fornitori deve modificare manualmente tutte le date di registrazione nel nuovo periodo di registrazione per tutte le fatture in sospeso create in precedenza.
 
-La funzionalità descritta in questo articolo ti consente di impostare il sistema in modo che rettifichi automaticamente la data di registrazione in base ai requisiti aziendali.
+La funzionalità descritta in questo articolo ti consente di rettificare automaticamente la data di registrazione in base ai requisiti aziendali.
 
 ## <a name="parameter-for-automatically-adjusting-the-vendor-invoice-posting-date"></a>Parametro per la rettifica automatica della data di registrazione della fattura fornitore
 
-Segui questi passaggi per consentire al sistema di rettificare automaticamente la data di registrazione per le fatture fornitore.
+Segui questi passaggi per rettificare automaticamente la data di registrazione per le fatture fornitore.
 
 1.  Passa a **Contabilità fornitori \> Impostazioni \> Parametri contabilità fornitori**.
 2.  Nella scheda **Contabilità generale e IVA** nel campo **Rettifica automaticamente data di registrazione** seleziona uno dei seguenti valori:
@@ -70,7 +70,7 @@ Quando viene modificata la data di registrazione di una fattura fornitore in sos
 
 - **Tasso di cambio** – La data del tasso di cambio è determinata dall'impostazione dell'opzione **Aggiorna contabilità fornitore utilizzando la data fattura** nella scheda **Fattura** della pagina **Parametri contabilità fornitori** (**Contabilità fornitori \> Impostazioni \> Parametri contabilità fornitori**).
 
-    - Se questa opzione è impostata su **sì**, viene utilizzata la data della fattura e la modifica della data di registrazione non influisce sul tasso di cambio.
+    - Se questa opzione è impostata su **Sì**, viene utilizzata la **data della fattura** e la modifica della **data di registrazione** non influisce sul tasso di cambio.
     - Se questa opzione è impostata su **No**, la data di registrazione viene utilizzata per calcolare il tasso di cambio. Quando la data di registrazione viene aggiornata, gli importi di contabilizzazione e di dichiarazione vengono ricalcolati. Pertanto, la convalida della corrispondenza deve essere eseguita nuovamente.
 
 ## <a name="validation"></a>Convalida
@@ -78,4 +78,4 @@ Quando viene modificata la data di registrazione di una fattura fornitore in sos
 Altri due campi nella scheda **Fattura** della pagina **Parametri contabilità fornitori** (**Contabilità fornitori \> Impostazioni \> Parametri contabilità fornitori**) influiscono sull'elaborazione delle fatture:
 
 - Se il campo **Verifica il numero di fattura utilizzato** è impostato su **Rifiuta duplicati entro l'anno fiscale**, il sistema utilizza la data di registrazione per verificare la presenza di fatture duplicate durante la registrazione della fattura.
-- Se il campo **Richiedi data documento sulla fattura fornitore** è impostato su **Opzione di errore**, il campo **Data fattura nell'intestazione fattura in sospeso** è obbligatiorio. Se la data della fattura è successiva alla data di registrazione, il sistema mostra un messaggio di errore.
+- Se il campo **Richiedi data documento sulla fattura fornitore** è impostato su **Opzione di errore**, il campo **Data fattura nell'intestazione fattura in sospeso** è obbligatiorio. Se la data della fattura è successiva alla data di registrazione, verrà visualizzato un messaggio di errore.

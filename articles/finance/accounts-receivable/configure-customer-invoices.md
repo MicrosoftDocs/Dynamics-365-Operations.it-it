@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04c26eec8be61d60908bef67c75958287e7e1a01
-ms.sourcegitcommit: 85141b21ac90f3db1b378c21f9c7f3d8f74e182f
+ms.openlocfilehash: a0d1221e07f6dc4a5a99aa205c4a7f6fb367f000
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129514"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780505"
 ---
 # <a name="create-a-customer-invoice"></a>Creare una fattura cliente
 
@@ -31,11 +31,10 @@ Una **fattura cliente per un ordine cliente** è una fattura correlata a una ven
 Una **fattura a testo libero** non è correlata a un ordine cliente. Contiene righe ordine che includono conti CoGe, descrizioni a testo libero e un importo di vendita immesso manualmente. Non è possibile immettere un numero articolo in questo tipo di fattura. È necessario immettere le informazioni sull'IVA appropriate. In ogni riga fattura viene indicato il conto principale per la vendita, che può essere distribuito in più conti CoGe facendo clic su **Distribuisci importi** nella **fattura a testo libero**. Il saldo cliente, inoltre, viene registrato nel conto riepilogativo dal profilo di registrazione utilizzato per la fattura a testo libero.
 
 Per ulteriori informazioni, vedere:
-
-[Creatr fatture a testo libero](../accounts-receivable/create-free-text-invoice-new.md)
-[Creatr un modello di fattura a testo libero](../accounts-receivable/create-free-text-invoice-template-new.md)
-[Assegnatr un modello di fattura a testo libero a un cliente](tasks/assign-free-text-invoice-template-customer.md)
-[Generatr e registratr fatture a testo libero ricorrenti](tasks/post-recurring-free-text-invoices.md)
+ - [Crea fatture a testo libero](../accounts-receivable/create-free-text-invoice-new.md)
+ - [Creare un modello di fattura a testo libero](../accounts-receivable/create-free-text-invoice-template-new.md)
+ - [Assegnare al cliente un modello di fattura a testo libero](tasks/assign-free-text-invoice-template-customer.md)
+ - [Generare e registrare fatture a testo libero ricorrenti](tasks/post-recurring-free-text-invoices.md)
 
 
 Una **fattura proforma** è una fattura preparata come stima degli importi effettivi prima della registrazione della fattura vera e propria. È possibile stampare una **fattura proforma** sia per una fattura cliente basata su un ordine cliente che per una fattura a testo libero. 
@@ -89,7 +88,13 @@ Utilizzare questo processo quando uno o più ordini cliente sono pronti per la f
  - Selezionare l'opzione **Dividi in base alle informazioni di consegna** per creare una singola fattura per ogni indirizzo di consegna delle righe dell'ordine cliente durante la registrazione. 
 
 ## <a name="post-to-revenue-account-for-sales-order-lines-that-have-no-price-and-no-cost"></a>Registratr su account Ricavi per le righe di ordine senza prezzo e costo
-Sarà disponibile l'opzione per aggiornare l'account **Ricavi** in **Contabilità generale** per le righe di ordini cliente senza prezzo e costo. Per configurare o visualizzare queste informazioni, vai al parametro **Registra in conto ricavi per righe fattura ordine cliente a prezzo e costo zero** nella scheda **Contabilità generale e IVA** della pagina **Parametri contabilità clienti**. (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per aggiornare l'account **Ricavi** per le righe delle fatture degli ordini di vendita senza prezzo e costo. Se questa opzione è selezionata, il giustificativo conterrà 0,00 voci per i tipi di registrazione **Saldo cliente** e **Ricavi**. Un account ricavi viene definito nella pagina dei parametri **Registrazione magazzino**, nella scheda di definizione dell'account **Ordine cliente**. Se questa opzione non viene selezionata, le righe che non hanno informazioni sul prezzo o sul costo non registreranno l'account **Ricavi**. Il giustificativo conterrà invece una voce 0,00 per il tipo di registrazione **Saldo cliente**.
+Sarà disponibile l'opzione per aggiornare l'account **Ricavi** in **Contabilità generale** per le righe di ordini cliente senza prezzo e costo. 
+
+Per configurare o visualizzare queste informazioni:
+1. Vai al parametro **Registra in conto ricavi per righe fattura ordine cliente a prezzo e costo zero** nella scheda **Contabilità generale e IVA** della pagina **Parametri contabilità clienti**. (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). 
+2. Seleziona **Sì** per aggiornare l'account **Ricavi** per le righe delle fatture degli ordini di vendita senza prezzo e costo. 
+ - Se questa opzione è selezionata, il giustificativo conterrà 0,00 voci per i tipi di registrazione **Saldo cliente** e **Ricavi**. Un conto ricavi è definito nella pagina dei parametri **Registrazione magazzino**, nella scheda di definizione dell'account **Ordine cliente**. 
+ - Se questa opzione non è selezionata, le righe che non contengono informazioni sui prezzi o sui costi non verranno pubblicate nel conto **Ricavi**. Il giustificativo conterrà invece una voce 0,00 per il tipo di registrazione **Saldo cliente**.
 
 ## <a name="line-creation-sequence-number-information"></a>Informazioni sul numero di sequenza per la creazione di righe
 Quando si pubblicano le righe della fattura cliente, è possibile creare numeri sequenziali per le righe. I numeri di sequenza per la creazione delle righe vengono assegnati durante il processo di registrazione. Consentire una numerazione non sequenziale permette di migliorare le prestazioni della registrazione delle fatture cliente. I numeri sequenziali per la creazione di righe possono essere usati da integrazioni di terze parti che prevedono l'ordinamento sequenziale. Consultare il reparto IT in merito a eventuali estensioni che potrebbero integrarsi con i numeri sequenziali per la creazione di righe.

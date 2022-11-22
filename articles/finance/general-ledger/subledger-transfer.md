@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: rcarlson
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a53b7834271355aaf11c13c3f1886257a97b1da8
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: 7ef93b81ce37128f7ff400eb4034ffea01756038
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9068992"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779855"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Trasferire il giornale di registrazione secondario alla contabilità generale
 
@@ -35,7 +35,7 @@ Per il trasferimento di batch del giornale di registrazione secondario sono disp
 - **Asincrono**: il trasferimento delle voci di contabilità del giornale di registrazione secondario alla contabilità generale viene pianificato immediatamente. Il giustificativo della contabilità generale verrà registrato non appena le risorse possono elaborare la richiesta sul server.
 - **Batch programmato**: i movimenti contabili del giornale di registrazione secondario che devono essere trasferiti vengono aggiunti alla coda di elaborazione nella contabilità generale. Le voci in coda verranno elaborate nell'ordine in cui sono state ricevute. Ogni giustificativo della contabilità generale aggiorna i conti all'ora pianificata se le risorse possono elaborare il processo batch sul server.
 
-Nella versione 10.0.8, sono stati apportati dei miglioramenti per migliorare le prestazioni dell'opzione **Asincrono**. Questa funzionalità è abilitata con il nome **Ottimizzazione delle prestazioni con trasferimento del giornale di registrazione secondario alla contabilità generale**.
+Sono stati apportati dei miglioramenti per migliorare le prestazioni dell'opzione **Asincrono**. Questa funzionalità è abilitata con il nome **Ottimizzazione delle prestazioni con trasferimento del giornale di registrazione secondario alla contabilità generale**.
 
 La funzionalità per il trasferimento asincrono dei batch del giornale di registrazione secondario aiuta a migliorare il trasferimento dei dati dal giornale di registrazione secondario alla contabilità generale. Raggruppando set di transazioni più piccole e trasferendo le transazioni in gruppi, la funzionalità elabora le transazioni in modo più efficiente. Quando le transazioni sono raggruppate, le risorse del server batch vengono utilizzate in modo più efficiente.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 502a026f2070e92a017733ce2c37bf357eaa10ea
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 9022051ce1c99da7ff62e30583a20656c77d89f9
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8908156"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778676"
 ---
 # <a name="process-collection-letters-example"></a>Esempio di elaborazione di lettere di sollecito
 
@@ -32,11 +32,11 @@ Al termine, procedere come segue.
 
 1. Selezionare **Crediti e riscossioni \> Lettera di sollecito \> Imposta la sequenza lettere di sollecito** e impostare la sequenza delle lettere di sollecito come mostrato nella seguente tabella assegnata al profilo di registrazione cliente.
 
-|     Codice lettera di sollecito      |     Descrizione                           |     Valuta      |     Conto   principale        |     Addebito   in valuta     |     Minimo   oltre        |     Blocco   giorni      |
-|---------------------------------  |---------------------------------------    |-----------------  |-----------------------    |-------------------------- |-----------------------    |---------------------  |
-|     Lettera di   sollecito 1         |     Seconda   notifica a pagamento        |     USD           |                           |     0,00                  |     0,00                  |     2                 |
-|     Lettera di   sollecito 2         |     Seconda   notifica a pagamento        |     USC           |     403150                |     20.00                 |     10.00                 |     3                 |
-|     Incasso                    |     Notifica   finale a pagamento         |     USD           |     403150                |     50.00                 |     100.00                |     15                |
+|   Codice lettera di sollecito      |     Descrizione       |     Valuta      |     Conto   principale        |     Addebito in valuta       |   Minimo   oltre  |   Blocco   giorni        |
+|-----------------------------  |--------------------   |-----------------  |-----------------------    |--------------------   |-----------------------    |------------------ |
+|  Lettera di sollecito 1          |     Prima notifica |     USD          |                   |     0,00              |     0,00                  |     2                 |
+|  Lettera di sollecito 2          |     Seconda notifica a pagamento      |     USD      |     403150         |     20.00         |     10.00     |     3                 |
+|  Collezione                   |     Notifica finale a pagamento       |     USD           |     403150    |     50.00         |     100.00                |     15            |
 
 La figura seguente mostra come le informazioni presenti nella tabella apparirebbero nella pagina **Lettere di sollecito**. 
 

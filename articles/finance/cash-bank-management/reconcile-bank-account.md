@@ -2,24 +2,24 @@
 title: Riconciliare un conto bancario
 description: In questo articolo viene descritta la riconciliazione di un conto bancario.
 author: angelad116
-ms.date: 07/01/2019
+ms.date: 11/16/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d36ff753d368bbbe6944aa5ae5010541ee92156d
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151253"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779529"
 ---
 # <a name="reconcile-a-bank-account"></a>Riconciliare un conto bancario
 
@@ -29,27 +29,27 @@ Quando si riceve un rendiconto bancario, è necessario riconciliare periodicamen
 
 Se un assegno o una distinta di deposito bancario qualsiasi elencati sul rendiconto hanno lo stato **In attesa di annullamento**, non è possibile effettuare la riconciliazione del rendiconto bancario con un conto bancario. Dopo che un revisore registra o rifiuta uno storno di assegni o un annullamento di distinte di deposito bancario, lo stato non è più **In attesa di annullamento** e sarà possibile effettuare la riconciliazione del conto bancario.
 
-1.  Passare a **Gestione cassa e banche** \> **Conti bancari** \> **Conti bancari**. Selezionare il conto bancario da riconciliare con il rendiconto bancario e selezionare **Riconcilia** > **Riconciliazione estratti conto**.
+1. Passare a **Gestione cassa e banche** \> **Conti bancari** \> **Conti bancari**. Selezionare il conto bancario da riconciliare con il rendiconto bancario e selezionare **Riconcilia** > **Riconciliazione estratti conto**.
 
-2.  Immettere le informazioni nei campi **Rendiconto bancario** e **Data rendiconto bancario**. Nel campo **Saldo finale** è possibile immettere il saldo del conto bancario riportato nel rendiconto bancario.
+2. Immettere le informazioni nei campi **Rendiconto bancario** e **Data rendiconto bancario**. Nel campo **Saldo finale** è possibile immettere il saldo del conto bancario riportato nel rendiconto bancario.
 
-3.  Selezionare **Transazioni** per aprire la pagina **Riconciliazione estratti conto**.
+3. Selezionare **Transazioni** per aprire la pagina **Riconciliazione estratti conto**.
 
-4.  Per ciascuna transazione inclusa nel rendiconto bancario, selezionare la casella di controllo **Liquidato** se l'importo in Dynamics 365 Finance corrisponde a quello riportato nel rendiconto. È inoltre possibile immettere o modificare il valore nel campo **Tipo di transazione bancaria**. Questo valore è importante ai fini delle statistiche sulle transazioni bancarie e per alcuni report.
+4. Per ciascuna transazione inclusa nel rendiconto bancario, selezionare la casella di controllo **Liquidato** se l'importo in Dynamics 365 Finance corrisponde a quello riportato nel rendiconto. È inoltre possibile immettere o modificare il valore nel campo **Tipo di transazione bancaria**. Questo valore è importante ai fini delle statistiche sulle transazioni bancarie e per alcuni report.
     
 
-    > [!NOTE]
-    > <P>Non selezionare la casella di controllo <STRONG>Liquidato</STRONG> per le transazioni non riportate nel rendiconto bancario. Queste transazioni continueranno a essere visualizzate in questa pagina finché non verranno riconciliate con un rendiconto bancario successivo.</P>
-    > <P>La casella di controllo <STRONG>Liquidato</STRONG> non è disponibile se la transazione riporta uno stato <STRONG>In attesa di annullamento</STRONG>. Le transazioni possono avere tale stato se in Finance è impostata la revisione obbligatoria di storni e annullamenti prima della relativa registrazione. Dopo la registrazione o il rifiuto dello storno o dell'annullamento da parte di un revisore, lo stato non è più <STRONG>In attesa di annullamento</STRONG>, ed è possibile effettuare la riconciliazione del conto bancario con il rendiconto bancario.</P>
+>[!NOTE]
+>Non selezionare la casella di controllo **Liquidato** per le transazioni non riportate nel rendiconto bancario. Queste transazioni continueranno a essere visualizzate in questa pagina finché non verranno riconciliate con un rendiconto bancario successivo.
+>La casella di controllo **Liquidato** non è disponibile se la transazione riporta uno stato **In attesa di annullamento**. Le transazioni possono avere tale stato se in Finance è impostata la revisione obbligatoria di storni e annullamenti prima della relativa registrazione. Dopo la registrazione o il rifiuto dello storno o dell'annullamento da parte di un revisore, lo stato non è più **In attesa di annullamento**, ed è possibile effettuare la riconciliazione del conto bancario con il rendiconto bancario.
 
-    
-    Selezionare la casella di controllo **Liquidato** per un intervallo di assegni tutti presenti sul rendiconto bancario, fare clic su **Contrassegna intervallo assegni**, quindi indicare l'intervallo.
+
+Selezionare la casella di controllo **Liquidato** per un intervallo di assegni tutti presenti sul rendiconto bancario, fare clic su **Contrassegna intervallo assegni**, quindi indicare l'intervallo.
 
 5.  Se l'importo di una transazione di conto bancario non corrisponde all'importo della transazione nel rendiconto bancario, immettere l'importo di rettifica nel campo **Importo correttivo**.
     
 
-    > [!NOTE]
-    > <P>Se il periodo fiscale della transazione da correggere è chiuso, non sarà possibile utilizzare il campo <STRONG>Importo correttivo</STRONG>. Creare pertanto una riga con una data di transazione compresa in un periodo fiscale aperto per la correzione. In questo caso, è necessario aggiungere le dimensioni finanziarie utilizzate nella transazione originaria e anche, il conto principale di contropartita.</P>
+> [!NOTE]
+> Se il periodo fiscale della transazione da correggere è chiuso, non sarà possibile utilizzare il campo **Importo correttivo**. Creare pertanto una riga con una data di transazione compresa in un periodo fiscale aperto per la correzione. In questo caso, è necessario aggiungere le dimensioni finanziarie utilizzate nella transazione originaria e anche, il conto principale di contropartita.
 
 
 

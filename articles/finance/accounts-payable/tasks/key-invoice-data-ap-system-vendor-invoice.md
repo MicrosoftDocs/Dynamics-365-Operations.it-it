@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ad75439bf3dfa1ed33e35fa9cfee153012e9f60
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4c441d197957674d68c4c92b454a9dca91d76ea0
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716805"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775190"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Dati principali della fattura in contabilità fornitori utilizzando una fattura fornitore
 
@@ -66,9 +66,12 @@ Questa guida attività consentirà di creare una fattura fornitore da un ordine 
 15. Fare clic su **Dettagli abbinamento**. La nuova riga con i servizi non deve essere abbinata, quindi lo stato rimane "Non eseguito".  
 16. Selezionare l'entrata prodotti per l'articolo di magazzino ricevuto. La riga con l'entrata prodotti è stata abbinata, ma la quantità o il prezzo non sono corrispondenti e pertanto restituisce l'esito negativo.  
 17. Immettere un numero nel campo **Prezzo unitario**. Ora che il prezzo unitario corrisponde, lo stato verrà aggiornato su Superato. Se i criteri consentono le discrepanze o se la corrispondenza è solo un avviso, è comunque possibile registrare la fattura.  
-18. Chiudere la pagina.
+18. Chiudi la pagina.
 19. Fare clic su **Registra**.
-20. Chiudere il modulo. Si noti che l'ordine fornitore non è più elencato come ricevuto ma come non fatturato.  
+20. Chiudi la pagina. 
+
+>[!Note] 
+>L'ordine fornitore non è più elencato come ricevuto ma come non fatturato.  
 
 
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8811d4a43dba05e63b270893600a622527834901
-ms.sourcegitcommit: 3754d916799595eb611ceabe45a52c6280a98992
+ms.openlocfilehash: 9ba11a561f320a7f4e787e4fe3f4e6f4fb88bbfb
+ms.sourcegitcommit: ca73177dedf40df16860eaf88b1c701c61992028
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "7982929"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9754112"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Panoramica della configurazione dei prodotti basati su dimensioni
 
@@ -74,7 +74,7 @@ La sequenza naturale per generare un modello prodotto per un prodotto basato su 
 
 La tecnologia di configurazione basata su dimensioni è consigliata per i prodotti con variabilità limitata e la combinazione di dimensione, colore, stile e configurazione delle dimensioni prodotto standard è inadatta per l'identificazione di varianti prodotto specifiche. Un esempio potrebbe essere bicicletta con altezza di telaio, dimensione delle rotelle, i tipi del freno e ingranaggi diversi.
 
-### <a name="next-step"></a>Passaggio successivo 
+### <a name="next-step"></a><a name="sequence"></a>Passaggio successivo
 
 Le seguenti otto guide attività sono elencate nell'ordine in cui è necessario completarle. 
 

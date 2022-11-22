@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a5bf22228749a725baa66ee3094f670c60f0f39a
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 384ce8611a7dbf6adf7b8ae6ad9569e2a41c22d1
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405440"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757169"
 ---
 # <a name="keyboard-shortcuts"></a>Tasti di scelta rapida
 
@@ -50,7 +50,7 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Chiudere una scheda nel riquadro azioni o un menu        | ESC                              |
 | Simulare un clic con il pulsante destro del mouse                          | MAIUSC + F10                        |
 | Apri il menu di scelta rapida    | CTRL + F10                         |
-| Eseguire il pulsante predefinito in un modulo/finestra di dialogo | ALT + INVIO                        |
+| Eseguire il pulsante predefinito in una pagina/finestra di dialogo | ALT + INVIO                        |
 | Fare clic sul pulsante o un riquadro                          | INVIO o Barra spaziatrice                   |
 | Aggiornare le informazioni per un riquadro di conteggio       | ALT + Freccia SU                     |
 | Visualizzare i collegamenti attualmente disponibili              | ALT + MAIUSC + K                      |
@@ -85,13 +85,13 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 |---------------------------------------------------------------------------------------------------------------------|--------------------------|
 | Aprire la griglia per filtrare la colonna corrente                                                                          | CTRL + G                   |
 | Chiudere la griglia per filtrare la colonna corrente                                                                         | ESC                      |
-| Aprire il riquadro filtri (o spostare lo stato attivo tra il riquadro filtri e il modulo principale se il riquadro filtri è già aperto) | ALT + M,F o CTRL + F3       |
+| Aprire il riquadro filtri (o spostare lo stato attivo tra il riquadro filtri e la pagina principale se il riquadro filtri è già aperto) | ALT + M,F o CTRL + F3       |
 | Chiudere il riquadro filtri (con lo stato attivo nel riquadro filtri)                                                               | ESC                      |
 | Aprire le opzioni di filtro/ordinamento avanzate                                                                                        | CTRL + MAIUSC + F3            |
 | Applicare il filtro rapido (quando lo stato attivo è in Filtro rapido)                                                              | INVIO                    |
 | Applicare il filtro della griglia (quando lo stato attivo è nel campo del filtro dell'intestazione della colonna)                                             | INVIO                    |
 
-## <a name="form-shortcuts"></a>Tasti di scelta rapida del modulo
+## <a name="page-shortcuts"></a>Tasti di scelta rapida della pagina
 
 | Azione                                    | Premere             |
 |-----------------------------------------------|-------------------|
@@ -100,21 +100,21 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Salvare il record                                   | ALT + S o CTRL + S   |
 | Ripristinare                              | CTRL + MAIUSC + F5     |
 | Aggiornare dati                                  | MAIUSC + F5          |
-| Spostarsi sul primo campo visibile nel modulo   | ALT + MAIUSC + F       |
+| Spostarsi sul primo campo visibile nella pagina   | ALT + MAIUSC + F       |
 | Attivare/disattivare la modalità di modifica                              | F2                |
-| Allegare un documento                             | CTRL + MAIUSC + A      |
+| Allega un documento                             | CTRL + MAIUSC + A      |
 | Esporta in Excel                               | CTRL + MAIUSC + E      |
 | Spostarsi sul record precedente (all'esterno di una griglia)  | CTRL + Freccia SU     |
 | Spostarsi sul record successivo (all'esterno di una griglia)      | CTRL + Freccia GIÙ   |
 | Spostarsi sul primo record (all'esterno di una griglia)     | CTRL + HOME         |
 | Spostarsi sull'ultimo record (all'esterno di una griglia)      | CTRL + FINE          |
-| Chiudere il modulo (fare clic su Indietro)                   | ESC               |
-| Chiudere il modulo con salvataggio esplicito             | MAIUSC + ESC         |
-| Chiudere il modulo e annullare le modifiche non salvate | ALT + MAIUSC + Q       |
+| Chiudi la pagina (seleziona il pulsante Indietro)<br><br>**Nota:** se si apre una finestra popup (descrizione comando, selezione data, menu a discesa, ecc.), il primo utilizzo di Esc chiuderà il popup.       | ESC               |
+| Chiudere la pagina con salvataggio esplicito             | MAIUSC + ESC         |
+| Chiudi la pagina e ignora tutte le modifiche non salvate | ALT + MAIUSC + Q       |
 
-## <a name="form-navigation-shortcuts"></a>Tasti di scelta rapida per spostarsi nei moduli
+## <a name="page-navigation-shortcuts"></a>Tasti di scelta rapida per spostarsi nella pagina
 
-| Azione                                          | Tasti di premere                                        |
+| Azione                                          | Premere                                        |
 |-----------------------------------------------------|----------------------------------------------|
 | Spostarsi sul campo successivo/precedente                     | TAB/MAIUSC + TAB                              |
 | Spostarsi sulla scheda successiva/precedente                       | ALT + MAIUSC+ Freccia DESTRA/ALT + MAIUSC + Freccia SINISTRA |
@@ -192,13 +192,13 @@ Gli utenti possono trovare i collegamenti attualmente disponibili direttamente d
 | Aprire il riquadro della Guida                                                            | CTRL + ?                     |
 | Apri il parser di traccia                                                         | ALT + MAIUSC + T                |
 | Spostarsi sul pannello di navigazione                                                   | ALT + F1                     |
-| Aggiungere/rimuovere un modulo come preferito (con lo stato attivo su un modulo nel pannello di navigazione)   | MAIUSC + F                    |
+| Aggiungere/rimuovere una pagina come preferito (con lo stato attivo su una pagina nel pannello di navigazione)   | MAIUSC + F                    |
 | Spostarsi nel riquadro azioni standard                                              | ALT + M,A o CTRL + F6         |
 | Spostarsi sul riquadro Filtro (può includerne l'apertura)                        | ALT + M,F o CTRL + F3         |
 | Spostare lo stato attivo sul contenuto della pagina (con lo stato attivo nel riquadro Filtro)                | ALT + M,M o CTRL + F3         |
-| Spostarsi sull'elenco di navigazione nel modulo Dettagli (può includerne l'apertura)    | ALT + M,S o CTRL + F8         |
+| Spostarsi nell'elenco di spostamento (può includerne l'apertura)    | ALT + M,S o CTRL + F8         |
 | Spostare lo stato attivo sul contenuto della pagina (con lo stato attivo nell'elenco di navigazione)            | ALT + M,M o CTRL + F8         |
-| Chiudere l'elenco di navigazione nel modulo Dettagli (con lo stato attivo nell'elenco di navigazione) | ESC                        |
+| Chiudere l'elenco di spostamento (con lo stato attivo nell'elenco di spostamento) | ESC                        |
 | Spostarsi sul contenuto della pagina principale (con lo stato attivo in un altro riquadro)                    | ALT + M,M                    |
 | Spostarsi sul riquadro Dettaglio informazioni (può includerne l'apertura)                       | ALT + M,B o CTRL + F2         |
 | Passa al prossimo callout di funzionalità                                              | Alt + M, C                    |

@@ -10,18 +10,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: da7e8a47496092a00ecc05c17933cc0e0cdb0fd0
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 21abbffe6b16217a0d2e20f662faa080420da12e
+ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702197"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9764241"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Novità o modifiche nell'app per dispositivi mobili Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Questo articolo elenca le funzionalità nuove, le correzioni, i miglioramenti e i problemi noti per ogni versione rilasciata dell'app per dispositivi mobili Warehouse Management per Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20370"></a>Versione 2.0.37.0
+
+Questa versione introduce le seguenti nuove funzionalità, correzioni e miglioramenti:
+- Aggiunta un'impostazione utente che consente ai lavoratori di scegliere dove l'app visualizza le foto dei prodotti (sia nelle schede che nelle intestazioni dei passaggi, solo nelle intestazioni dei passaggi o per niente). 
+- Migliorato il layout della schermata della scheda dei dettagli riducendo le dimensioni del banner del passaggio e il selettore di immissione della quantità, che lascia più spazio per altri contenuti. 
+- Migliorata l'interfaccia utente durante l'esecuzione su un dispositivo Honeywell Thor. 
+- Modalità a schermo intero migliorata (si applica solo ai dispositivi con tastiera hardware). 
+- Risultati migliorati durante l'ordinamento delle schede dei dettagli e delle pagine personalizzate per priorità o sottopriorità (DataPriority o DisplaySubPriority). 
+- Aggiunto il supporto per più lingue. 
+- Maggiore stabilità. 
+- Migliorate diverse immagini e icone. 
 
 ## <a name="version-20350"></a>Versione 2.0.35.0
 

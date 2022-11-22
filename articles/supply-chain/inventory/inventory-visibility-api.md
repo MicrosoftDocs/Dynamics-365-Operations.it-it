@@ -2,7 +2,7 @@
 title: API pubbliche di visibilità dell'inventario
 description: Questo articolo descrive le API pubbliche fornite da Visibilità inventario.
 author: yufeihuang
-ms.date: 12/09/2021
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 82a43954db8b10554c449f3e8d32ba7e5d7c7f27
-ms.sourcegitcommit: ce58bb883cd1b54026cbb9928f86cb2fee89f43d
+ms.openlocfilehash: 8b0b8ca261237fbb2190f2a94cc11b816ae05af5
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9719317"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762836"
 ---
 # <a name="inventory-visibility-public-apis"></a>API pubbliche di visibilità dell'inventario
 
 [!include [banner](../includes/banner.md)]
-
 
 Questo articolo descrive le API pubbliche fornite da Visibilità inventario.
 
@@ -36,38 +35,38 @@ La seguente tabella elenca le API che sono attualmente disponibili:
 
 | Percorso | Metodo | descrizione |
 |---|---|---|
-| /api/environment/{environmentId}/onhand | Registra | [Creare un evento di cambiamento a portata di mano](#create-one-onhand-change-event) |
+| /api/environment/{environmentId}/onhand | Registra | [Creare un evento di cambiamento a portata di mano](#create-one-onhand-change-event)|
 | /api/environment/{environmentId}/onhand/bulk | Registra | [Creare più eventi di cambiamento](#create-multiple-onhand-change-events) |
 | /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Registra | [Impostare/sovrascrivere le quantità disponibili](#set-onhand-quantities) |
-| /api/environment/{environmentId}/onhand/reserve | Registra | [Creare un evento di prenotazione](#create-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/reserve/bulk | Registra | [Creare più eventi di prenotazione](#create-multiple-reservation-events) |
-| /api/environment/{environmentId}/onhand/unreserve | Registra | [Invertire un evento di prenotazione](#reverse-one-reservation-event) |
-| /api/environment/{environmentId}/onhand/unreserve/bulk | Registra | [Invertire più eventi di prenotazione](#reverse-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/reserve | Registra | [Creare un evento di prenotazione temporanea](#create-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/reserve/bulk | Registra | [Creare più eventi di prenotazione temporanea](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/unreserve | Registra | [Invertire un evento di prenotazione temporanea](#reverse-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/unreserve/bulk | Registra | [Invertire più eventi di prenotazione temporanea](#reverse-multiple-reservation-events) |
 | /api/environment/{environmentId}/onhand/changeschedule | Registra | [Crea una modifica scorte disponibili programmata](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/changeschedule/bulk | Registra | [Crea più modifiche scorte disponibili programmate](inventory-visibility-available-to-promise.md) |
-| /api/environment/{environmentId}/onhand/indexquery | Registra | [Interrogare usando il metodo post](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand/changeschedule/bulk | Registra | [Crea più modifiche scorte disponibili con date](inventory-visibility-available-to-promise.md) |
+| /api/environment/{environmentId}/onhand/indexquery | Registra | [Query esatte usando il metodo post](#query-with-post-method) (opzione consigliata) |
 | /api/environment/{environmentId}/onhand | Ottieni | [Interrogare usando il metodo get](#query-with-get-method) |
 | /api/environment/{environmentId}/onhand/exactquery | Registra | [Query esatte usando il metodo post](#exact-query-with-post-method) |
-| /api/environment/{environmentId}/allocation/allocate | Registra | [Creare un evento di allorazione](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/unallocate | Registra | [Creare un evento di annullamento dell'allorazione](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/reallocate | Registra | [Creare un evento di riallorazione](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/consume | Registra | [Creare un evento di consumo](inventory-visibility-allocation.md#using-allocation-api) |
-| /api/environment/{environmentId}/allocation/query | Registra | [Risultato della query di allocazione](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/allocate | Registra | [Creare un evento di allorazione](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/unallocate | Registra | [Creare un evento di annullamento dell'allorazione](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/reallocate | Registra | [Creare un evento di riallorazione](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/consume | Registra | [Creare un evento di consumo](inventory-visibility-allocation.md#using-allocation-api) |
+| /api/environment/{environmentId}/allocation<wbr>/query | Registra | [Risultato della query di allocazione](inventory-visibility-allocation.md#using-allocation-api) |
 
 > [!NOTE]
-> La parte del percorso {environmentId} è l'ID ambiente in Microsoft Dynamics Lifecycle Services (LCS).
+> La parte del percorso {environmentId} è l'ID ambiente in Microsoft Dynamics Lifecycle Services.
 > 
 > L'API in blocco può restituire un massimo di 512 record per ogni richiesta.
 
 Microsoft ha fornito una raccolta di richieste di *Postman* out-of-box. Puoi importare questa collezione nel tuo software *Postman* utilizzando il seguente link condiviso: <https://www.getpostman.com/collections/95a57891aff1c5f2a7c2>.
 
-## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Trova l'endpoint secondo il tuo ambiente Lifecycle Services
+## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a><a name = "endpoint-lcs"></a>Trova l'endpoint secondo il tuo ambiente Lifecycle Services
 
 Il microservizio di Visibilità dell'inventario è distribuito su Microsoft Azure Service Fabric, in più aree geografiche e più regioni. Attualmente non c'è un endpoint centrale che possa reindirizzare automaticamente la tua richiesta alla geografia e alla regione corrispondente. Pertanto, è necessario comporre i pezzi di informazioni in un URL utilizzando il seguente schema:
 
 `https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
 
-Il nome breve della regione può essere trovato nell'ambiente Microsoft Dynamics Lifecycle Services (LCS). La seguente tabella elenca le regioni che sono attualmente disponibili.
+Il nome breve della regione può essere trovato nell'ambiente Lifecycle Services. La seguente tabella elenca le regioni che sono attualmente disponibili.
 
 | Regione Azure        | Nome breve della regione |
 | ------------------- | ----------------- |
@@ -83,16 +82,26 @@ Il nome breve della regione può essere trovato nell'ambiente Microsoft Dynamics
 | Regno Unito occidentale             | wuk               |
 | Giappone orientale          | ejp               |
 | Giappone occidentale          | wjp               |
-| Brasile meridionale        | sbr               |
-| Stati Uniti centro-meridionali    | scus              |
+| India centrale       | cin               |
+| India meridionale         | sin               |
+| Svizzera settentrionale   | nch               |
+| Svizzera occidentale    | wch               |
+| Francia meridionale        | sfr               |
+| Asia orientale           | eas               |
+| Asia sud-orientale     | seas              |
+| Emirati Arabi Uniti settentrionali           | nae               |
+| Norvegia orientale         | eno               |
+| Norvegia occidentale         | wno               |
+| Sudafrica occidentale   | wza               |
+| Sudafrica settentrionale  | nza               |
 
-Il numero dell'isola è dove il tuo ambiente LCS è distribuito su Service Fabric. Attualmente non c'è modo di ottenere queste informazioni dal lato utente.
+Il numero dell'isola è dove il tuo ambiente Lifecycle Services è distribuito su Service Fabric. Attualmente non c'è modo di ottenere queste informazioni dal lato utente.
 
 Microsoft ha costruito un'interfaccia utente (UI) in Power Apps in modo da poter ottenere l'endpoint completo del microservizio. Per maggiori informazioni, vedere [Trovare l'endpoint del servizio](inventory-visibility-configuration.md#get-service-endpoint).
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autenticazione
 
-Il token di sicurezza della piattaforma è usato per chiamare l'API pubblica Visibilità inventario. Pertanto, è necessario generare un _token Azure Active Directory (Azure AD)_ usando l'applicazione Azure AD. È quindi necessario utilizzare il token Azure AD per ottenere il _token di accesso_ dal servizio di sicurezza.
+Il token di sicurezza della piattaforma è usato per chiamare l'API pubblica Visibilità inventario. Pertanto, è necessario generare un token *Azure Active Directory (Azure AD)* usando l'applicazione Azure AD. È quindi necessario utilizzare il token Azure AD per ottenere il *token di accesso* dal servizio di sicurezza.
 
 Microsoft fornisce una raccolta di ottenimento di token *Postman* out-of-box. Puoi importare questa collezione nel tuo software *Postman* utilizzando il seguente link condiviso: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
 
@@ -101,63 +110,63 @@ Per ottenere un token di servizio di sicurezza, seguite questi passi.
 1. Accedi al portale Azure e usalo per trovare i valori `clientId` e `clientSecret` per la tua app Dynamics 365 Supply Chain Management.
 1. Recupera un token Azure AD (`aadToken`) inviando una richiesta HTTP che ha le seguenti proprietà:
 
-   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
-   - **Metodo:** `GET`
-   - **Contenuto del corpo (dati del modulo):**
+    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/v2.0/token`
+    - **Metodo:** `GET`
+    - **Contenuto del corpo (dati del modulo):**
 
-     | Chiave           | Valore                                            |
-     | ------------- | -------------------------------------------------|
-     | client_id     | ${aadAppId}                                      |
-     | client_secret | ${aadAppSecret}                                  |
-     | grant_type    | client_credentials                               |
-     | scope         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
+        | Chiave           | Valore                                            |
+        | ------------- | -------------------------------------------------|
+        | client_id     | ${aadAppId}                                      |
+        | client_secret | ${aadAppSecret}                                  |
+        | grant_type    | client_credentials                               |
+        | scope         | 0cdb527f-a8d1-4bf8-9436-b352c68682b2/.default    |
 
-   Dovreste ricevere un token Azure AD (`aadToken`) in risposta. Il risultato sarà simile all'esempio seguente.
+    Dovreste ricevere un token Azure AD (`aadToken`) in risposta. Il risultato sarà simile all'esempio seguente.
 
-   ```json
-   {
-       "token_type": "Bearer",
-       "expires_in": "3599",
-       "ext_expires_in": "3599",
-       "access_token": "eyJ0eX...8WQ"
-   }
-   ```
+    ```json
+    {
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "access_token": "eyJ0eX...8WQ"
+    }
+    ```
 
 1. Formulare una richiesta JSON (JavaScript Object Notation) che assomigli al seguente esempio.
 
-   ```json
-   {
-       "grant_type": "client_credentials",
-       "client_assertion_type": "aad_app",
-       "client_assertion": "{Your_AADToken}",
-       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-       "context": "{$LCS_environment_id}",
-       "context_type": "finops-env"
-   }
-   ```
+    ```json
+    {
+        "grant_type": "client_credentials",
+        "client_assertion_type": "aad_app",
+        "client_assertion": "{Your_AADToken}",
+        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "{$LCS_environment_id}",
+        "context_type": "finops-env"
+    }
+    ```
 
-   Notare i punti seguenti:
+    Notare i punti seguenti:
 
-   - Il valore `client_assertion` deve essere il token Azure AD (`aadToken`) che avete ricevuto nel passo precedente.
-   - Il valore `context` deve essere l'ID dell'ambiente LCS in cui si desidera distribuire il componente aggiuntivo.
-   - Impostare tutti gli altri valori come mostrato nell'esempio.
+    - Il valore `client_assertion` deve essere il token Azure AD (`aadToken`) che avete ricevuto nel passo precedente.
+    - Il valore `context` deve essere l'ID dell'ambiente Lifecycle Services in cui si desidera distribuire il componente aggiuntivo.
+    - Impostare tutti gli altri valori come mostrato nell'esempio.
 
 1. Recuperare un token di accesso (`access_token`) inviando una richiesta HTTP che ha le seguenti proprietà:
 
-   - **URL:** `https://securityservice.operations365.dynamics.com/token`
-   - **Metodo:** `POST`
-   - **Intestazione HTTP:** Includere la versione dell'API. (La chiave è `Api-Version`, e il valore è `1.0`.)
-   - **Contenuto del corpo:** Includete la richiesta JSON che avete creato nel passo precedente.
+    - **URL:** `https://securityservice.operations365.dynamics.com/token`
+    - **Metodo:** `POST`
+    - **Intestazione HTTP:** Includere la versione dell'API. (La chiave è `Api-Version`, e il valore è `1.0`.)
+    - **Contenuto del corpo:** Includete la richiesta JSON che avete creato nel passo precedente.
 
-   Dovresti ricevere un token di accesso (`access_token`) in risposta. È necessario utilizzare questo token come token portatore per chiamare l'API di visibilità dell'inventario. Ecco un esempio.
+    Dovresti ricevere un token di accesso (`access_token`) in risposta. È necessario utilizzare questo token come token portatore per chiamare l'API di visibilità dell'inventario. Ecco un esempio.
 
-   ```json
-   {
-       "access_token": "{Returned_Token}",
-       "token_type": "bearer",
-       "expires_in": 3600
-   }
-   ```
+    ```json
+    {
+        "access_token": "{Returned_Token}",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+    ```
 
 > [!IMPORTANT]
 > Quando si utilizza la raccolta di richieste di *Postman* per chiamare le API pubbliche di Visibilità inventario, è necessario aggiungere un token di connessione per ogni richiesta. Per trovare il token di connessione, selezionare la scheda **Autorizzazione** nell'URL della richiesta, selezionare il tipo **Token di connessione** e copiare il token di connessione recuperato nell'ultimo passaggio. Nelle sezioni successive di questo articolo, si utilizzerà `$access_token` per rappresentare il token che è stato recuperato nell'ultimo passo.
@@ -178,10 +187,12 @@ La tabella seguente riassume il significato di ogni campo nel corpo JSON.
 | `productId` | Identificatore del prodotto. |
 | `quantities` | La quantità di cui deve essere cambiata la quantità a disposizione. Per esempio, se 10 nuovi libri vengono aggiunti a uno scaffale, questo valore sarà `quantities:{ shelf:{ received: 10 }}`. Se tre libri vengono rimossi dallo scaffale o venduti, questo valore sarà `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | L'origine dei dati delle dimensioni che sono utilizzate nell'evento di modifica del distacco e nella query. Se si specifica l'origine dati, è possibile utilizzare le dimensioni personalizzate dell'origine dati specificata. Visibilità inventario può utilizzare la configurazione delle dimensioni per mappare le dimensioni personalizzate alle dimensioni generali predefinite. Se nessun valore `dimensionDataSource` è specificato, potete usare solo le [dimensioni di base](inventory-visibility-configuration.md#data-source-configuration-dimension) generali nelle vostre query. |
-| `dimensions` | Una coppia chiave-valore dinamica. I valori sono mappati ad alcune delle dimensioni del Supply Chain Management. Tuttavia, puoi anche aggiungere dimensioni personalizzate (per esempio, _Source_) per indicare se l'evento proviene da Supply Chain Management o da un sistema esterno. |
+| `dimensions` | Una coppia chiave-valore dinamica. I valori sono mappati ad alcune delle dimensioni del Supply Chain Management. Tuttavia, puoi anche aggiungere dimensioni personalizzate (per esempio, *Source*) per indicare se l'evento proviene da Supply Chain Management o da un sistema esterno. |
 
 > [!NOTE]
 > I parametri `siteId` e `locationId` costruiscono la [configurazione della partizione](inventory-visibility-configuration.md#partition-configuration). Pertanto, è necessario specificarli nelle dimensioni quando si creano eventi di modifica delle scorte disponibili, si impostano o si sostituiscono le quantità delle scorte disponibili o si creano eventi di prenotazione.
+
+Le seguenti sottosezioni forniscono esempi che mostrano come utilizzare queste API.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Creare un evento di cambiamento a portata di mano
 
@@ -214,17 +225,17 @@ Body:
     }
 ```
 
-L'esempio seguente mostra un esempio di contenuto del corpo. In questo esempio, pubblichi un evento di cambiamento per il prodotto *T-shirt* . Questo evento proviene dal sistema POS (point of sale), e il cliente ha restituito una maglietta rossa al tuo negozio. Questo evento aumenterà la quantità del prodotto *T-shirt* di 1.
+L'esempio seguente mostra un esempio di contenuto del corpo. In questo esempio, l'azienda dispone di un sistema POS (point of sale) che elabora le transazioni in negozio e quindi le variazioni di inventario. Il cliente ha restituito una maglietta rossa al tuo negozio. Per riflettere la modifica, pubblichi un singolo evento di cambiamento per il prodotto *T-shirt* . Questo evento aumenterà la quantità del prodotto *T-shirt* di 1.
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
+    "id": "Test201",
+    "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "posMachineId": "0001",
         "colorId": "red"
     },
@@ -240,12 +251,12 @@ Il seguente esempio mostra un esempio di contenuto del corpo senza `dimensionDat
 
 ```json
 {
-    "id": "123456",
-    "organizationId": "SCM_IV",
-    "productId": "iv_postman_product",
+    "id": "Test202",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
     "dimensions": {
-        "siteId": "iv_postman_site",
-        "locationId": "iv_postman_location",
+        "siteId": "1",
+        "locationId": "11",
         "colorId": "red"
     },
     "quantities": {
@@ -258,7 +269,14 @@ Il seguente esempio mostra un esempio di contenuto del corpo senza `dimensionDat
 
 ### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Creare più eventi di cambiamento
 
-Questa API può creare più record allo stesso tempo. Le uniche differenze tra questa API e l' [API a evento singolo](#create-one-onhand-change-event) sono i valori `Path` e `Body` . Per questa API, `Body` fornisce un array di record. Il numero massimo di record è 512, il che significa che l'API di modifica in blocco disponibile può supportare fino a 512 eventi di modifica alla volta.
+Questa API può creare eventi di modifica, proprio come l'[API a evento singolo](#create-one-onhand-change-event). L'unica differenza è che questa API può creare più record allo stesso tempo. Quindi, i valori `Path` e `Body` differiscono. Per questa API, `Body` fornisce un array di record. Il numero massimo di record è 512. Pertanto, l'API della programmazione delle modifiche delle scorte disponibili può supportare fino a 512 eventi di modifica alla volta. 
+
+Ad esempio, un computer POS di un punto vendita al dettaglio ha elaborato le seguenti due transazioni:
+
+- Un ordine di reso di una maglietta rossa
+- Una transazione di vendita di tre magliette nere
+
+In questo caso, puoi includere entrambi gli aggiornamenti dell'inventario in una chiamata API.
 
 ```txt
 Path:
@@ -295,26 +313,27 @@ L'esempio seguente mostra un esempio di contenuto del corpo.
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_1",
+        "id": "Test203",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "posSite1",
-            "posLocationId": "posLocation1",
+            "SiteId": "Site1",
+            "LocationId": "11",
             "posMachineId&quot;: &quot;0001"
+            "colorId&quot;: &quot;red"
         },
         "quantities": {
             "pos": { "inbound": 1 }
         }
     },
     {
-        "id": "654321",
-        "organizationId": "SCM_IV",
-        "productId": "iv_postman_product_2",
+        "id": "Test204",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
         "dimensions": {
-            "siteId": "iv_postman_site",
-            "locationId": "iv_postman_location",
+            "siteId": "1",
+            "locationId": "11",
             "colorId&quot;: &quot;black"
         },
         "quantities": {
@@ -326,7 +345,7 @@ L'esempio seguente mostra un esempio di contenuto del corpo.
 
 ## <a name="setoverride-on-hand-quantities"></a><a name="set-onhand-quantities"></a>Impostare/sovrascrivere le quantità disponibili
 
-L'API _Set on-hand_ sovrascrive i dati attuali per il prodotto specificato.
+L'API *Set on-hand* sovrascrive i dati attuali per il prodotto specificato. Questa funzionalità viene in genere utilizzata per eseguire gli aggiornamenti del conteggio dell'inventario. Ad esempio, durante il conteggio giornaliero dell'inventario, un punto vendita potrebbe scoprire che l'inventario effettivamente disponibile per una maglietta rossa è 100. Pertanto, la quantità in entrata POS deve essere aggiornata a 100, indipendentemente da quale fosse la quantità precedente. Puoi utilizzare questa API per sovrascrivere il valore esistente.
 
 ```txt
 Path:
@@ -364,18 +383,19 @@ L'esempio seguente mostra un esempio di contenuto del corpo. Il comportamento di
 ```json
 [
     {
-        "id": "123456",
-        "organizationId": "SCM_IV",
+        "id": "Test204",
+        "organizationId": "usmf",
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
-            "posSiteId": "iv_postman_site",
-            "posLocationId": "iv_postman_location",
+            "SiteId": "1",
+            "LocationId": "11",
             "posMachineId": "0001"
+            "colorId": "red"
         },
         "quantities": {
             "pos": {
-                "inbound": 1
+                "inbound": 100
             }
         }
     }
@@ -384,7 +404,7 @@ L'esempio seguente mostra un esempio di contenuto del corpo. Il comportamento di
 
 ## <a name="create-reservation-events"></a>Creare eventi di prenotazione
 
-Per utilizzare l'API di *riserva* , è necessario attivare la funzione di prenotazione e completare la configurazione della prenotazione. Per maggiori informazioni, vedere [Configurazione della prenotazione (opzionale)](inventory-visibility-configuration.md#reservation-configuration).
+Per utilizzare l'API di *riserva* , è necessario attivare la funzione di prenotazione e completare la configurazione della prenotazione. Per ulteriori informazioni (incluso un flusso di dati e uno scenario di esempio), vedere [Configurazione della prenotazione (facoltativa)](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Creare un evento di prenotazione
 
@@ -392,7 +412,7 @@ Per utilizzare l'API di *riserva* , è necessario attivare la funzione di prenot
 
 Quando si chiama l'API di prenotazione, è possibile controllare la convalida della prenotazione specificando il parametro booleano `ifCheckAvailForReserv` nel corpo della richiesta. Un valore di `True` significa che è richiesta la convalida, mentre un valore di `False` significa che la convalida non è richiesta. Il valore predefinito è `True`.
 
-Se si desidera annullare una prenotazione o annullare la prenotazione di quantità di inventario specificate, impostare la quantità su un valore negativo e impostare il parametro `ifCheckAvailForReserv` su `False` per saltare la convalida. Esiste anche un'API per annullare la prenotazione dedicata per fare lo stesso. La differenza è solo nel modo in cui vengono chiamate le due API. È più facile annullare un evento di prenotazione specifico utilizzando `reservationId` con l'API di *annullamento della prenotazione*. Per ulteriori informazioni, vedere la sezione [_Annullare la prenotazione di un evento_](#reverse-reservation-events).
+Se si desidera annullare una prenotazione o annullare la prenotazione di quantità di inventario specificate, impostare la quantità su un valore negativo e impostare il parametro `ifCheckAvailForReserv` su `False` per saltare la convalida. Esiste anche un'API per annullare la prenotazione dedicata per fare lo stesso. La differenza è solo nel modo in cui vengono chiamate le due API. È più facile annullare un evento di prenotazione specifico utilizzando `reservationId` con l'API di *annullamento della prenotazione*. Per ulteriori informazioni, vedere [Annullare la prenotazione di un evento di prenotazione](#reverse-reservation-events).
 
 ```txt
 Path:
@@ -593,7 +613,7 @@ Body:
 
 ## <a name="query-on-hand"></a>Interrogazione a portata di mano
 
-usa l'API *Query on-hand* per recuperare i dati di inventario correnti per i tuoi prodotti. L'API attualmente supporta le query fino a 5000 singoli elementi con il valore `productID`. Più valori `siteID` e `locationID` possono anche essere specificati in ogni query. Il limite massimo è definito dalla seguente equazione:
+usa l'API *Query on-hand* per recuperare i dati di inventario correnti per i tuoi prodotti. Puoi utilizzare questa API ogni volta che devi conoscere lo stock, ad esempio quando desideri esaminare i livelli di stock dei prodotti sul tuo sito Web di e-commerce o quando desideri verificare la disponibilità dei prodotti nelle aree geografiche o nei punti vendita e magazzini vicini. L'API attualmente supporta le query fino a 5000 singoli elementi con il valore `productID`. Più valori `siteID` e `locationID` possono anche essere specificati in ogni query. Il limite massimo è definito dalla seguente equazione:
 
 *NumOf(SiteID) \* NumOf(LocationID) <= 100*.
 
@@ -637,16 +657,16 @@ Il parametro `returnNegative` controlla se i risultati contengono voci negative.
 > [!NOTE]
 > Se hai abilitato la pianificazione delle modifiche scorte disponibili e le funzionalità ATP (available-to-promise), la tua query può includere anche il parametro booleano `QueryATP` che controlla se i risultati della query includono informazioni ATP. Per altre informazioni ed esempi vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md).
 
-L'esempio seguente mostra un esempio di contenuto del corpo.
+L'esempio seguente mostra un esempio di contenuto del corpo. Mostra che è possibile eseguire query sull'inventario disponibile da più posizioni (magazzini).
 
 ```json
 {
     "dimensionDataSource": "pos",
     "filters": {
-        "organizationId": ["SCM_IV"],
-        "productId": ["iv_postman_product"],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "organizationId": ["usmf"],
+        "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "locationId": ["11","12","13"],
         "colorId": ["red"]
     },
     "groupByValues": ["colorId", "sizeId"],
@@ -659,10 +679,10 @@ L'esempio seguente mostra come eseguire query su tutti i prodotti in un sito e i
 ```json
 {
     "filters": {
-        "organizationId": ["SCM_IV"],
+        "organizationId": ["usmf"],
         "productId": [],
-        "siteId": ["iv_postman_site"],
-        "locationId": ["iv_postman_location"],
+        "siteId": ["1"],
+        "locationId": ["11"],
     },
     "groupByValues": ["colorId", "sizeId"],
     "returnNegative": true
@@ -692,6 +712,22 @@ Ecco un esempio di URL. Questa richiesta di get è esattamente la stessa dell'es
 ```txt
 /api/environment/{environmentId}/onhand?organizationId=SCM_IV&productId=iv_postman_product&siteId=iv_postman_site&locationId=iv_postman_location&colorId=red&groupBy=colorId,sizeId&returnNegative=true
 ```
+
+## <a name="on-hand-exact-query"></a><a name="exact-query-with-post-method"></a>Query sulla disponibilità esatta
+
+Le query sulla disponibilità esatta assomigliano alle normali query disponibili, ma consentono di specificare una gerarchia di mapping tra un sito e una posizione. Per esempio, hai i seguenti due siti:
+
+- Sito 1, mappato alla posizione A
+- Sito 2, mappato alla posizione B
+
+Per una normale richiesta di disponibilità, se specifichi `"siteId": ["1","2"]` e `"locationId": ["A","B"]`, Visibilità inventario eseguirà automaticamente query sul risultato per i seguenti siti e località:
+
+- Sito 1, posizione A
+- Sito 1, posizione B
+- Sito 2, posizione A
+- Sito 2, posizione B
+
+Come vedi, la normale query sulla disponibilità non riconosce che la posizione A esiste solo nel sito 1 e la posizione B esiste solo nel sito 2. Pertanto, effettua query ridondanti. Per soddisfare questo mapping gerarchico, è possibile utilizzare una query esatta disponibile e specificare i mapping della posizione nel corpo della query. In questo caso, eseguirai la query e riceverai i risultati solo per il sito 1, posizione A e per il sito 2, posizione B.
 
 ### <a name="exact-query-by-using-the-post-method"></a><a name="exact-query-with-post-method"></a>Query esatte usando il metodo post
 

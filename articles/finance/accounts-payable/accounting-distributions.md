@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d5930ca2ce2bb1ae534f7e2b434836c3a4adeba
-ms.sourcegitcommit: cf27cf277b37666c838043e0695d39d52be5dcdd
+ms.openlocfilehash: 4330c86ee9ae35ce0f2c7bb85db533a39eafac46
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9588955"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779583"
 ---
 # <a name="accounting-distributions"></a>Distribuzioni contabili
 
@@ -51,7 +51,7 @@ Le funzionalità di distribuzione contabile generiche forniscono le seguenti opz
     -   È possibile visualizzare lo stato contabile del documento corrente in **Riferimento**. Lo stato è per l'intero documento e indica se il documento è in corso o completato.
 -   **Visualizza distribuzioni**: consente di visualizzare le distribuzioni contabili per tutte le righe e gli importi monetari del documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
 
-Nella versione 10.0.13, è stata aggiunta una funzionalità che convalida la tabella di distribuzione contabile per garantire che i nuovi campi siano configurati correttamente. Questa funzionalità è chiamata **Abilita una convalida aggiuntiva dei dati per i documenti utilizzando il framework di contabilità dei documenti di origine**. Questa funzionalità verrà attivata per impostazione predefinita a partire dalla versione 10.0.29. 
+È stata aggiunta una funzionalità che convalida la tabella di distribuzione contabile per garantire che i nuovi campi siano configurati correttamente. Questa funzionalità è chiamata **Abilita una convalida aggiuntiva dei dati per i documenti utilizzando il framework di contabilità dei documenti di origine**. Questa funzionalità era attivata per impostazione predefinita nella versione 10.0.29. 
 
 Per ulteriori informazioni, vedere [Distribuzioni contabili e sugli inserimenti nel giornale di registrazione secondario per le fatture fornitore](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
 

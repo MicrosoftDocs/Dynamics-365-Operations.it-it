@@ -2,7 +2,7 @@
 title: Supporto Inventory Visibility per articoli WMS
 description: Questo articolo descrive il supporto di Visibilità inventario per gli articoli abilitati per i processi di gestione del magazzino (articoli WMS).
 author: yufeihuang
-ms.date: 03/10/2022
+ms.date: 11/04/2022
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2022-03-10
 ms.dyn365.ops.version: 10.0.26
-ms.openlocfilehash: 54ce637d2d7b590988f7590eae5248276bcc4b96
-ms.sourcegitcommit: 28a726b3b0726ecac7620b5736f5457bc75a5f84
+ms.openlocfilehash: bed402ecf20c19e81b2687efd90dba600460971a
+ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9066612"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9762741"
 ---
 # <a name="inventory-visibility-support-for-wms-items"></a>Supporto Inventory Visibility per articoli WMS
 
@@ -45,17 +45,17 @@ Quando si utilizza la funzione WMS avanzata per la visibilità inventario, tutti
 
 ## <a name="when-to-use-the-feature"></a>Quando utilizzare la funzionalità
 
-Ti consigliamo di utilizzare la funzione WMS avanzata per la visibilità inventario negli scenari in cui sono soddisfatte tutte le seguenti condizioni:
+Ti consigliamo di utilizzare la funzione WMS per la visibilità inventario negli scenari in cui sono soddisfatte tutte le seguenti condizioni:
 
 - Stai sincronizzando i dati di Supply Chain Management con la visibilità inventario.
 - Stai utilizzando WMS in Supply Chain Management.
-- Gli utenti effettuano prenotazioni per gli articoli WMS a livelli diversi dal livello di magazzino (ad esempio, perché stai utilizzando il lavoro di magazzino).
+- Gli utenti effettuano prenotazioni per gli articoli WMS a livelli sotto il livello di magazzino (ad esempio, a livello di targa perché stai elaborando il lavoro di magazzino).
 
 In altri scenari, i risultati delle query disponibili saranno gli stessi, indipendentemente dal fatto che la funzionalità WMS avanzata per la visibilità dell'inventario sia abilitata. Inoltre, le prestazioni saranno migliori se non si abilita la funzionalità in questi scenari, perché ci sono meno calcoli e meno sovraccarico.
 
-## <a name="enable-the-advanced-wms-feature-for-inventory-visibility"></a>Abilitare la funzione WMS avanzata per la visibilità inventario
+## <a name="enable-the-wms-feature-for-inventory-visibility"></a>Abilitare la funzionalità WMS per la visibilità inventario
 
-Per abilitare la funzione WMS avanzata per la visibilità inventario, segui questi passaggi.
+Per abilitare la funzionalità WMS per la visibilità inventario, segui questi passaggi.
 
 1. Accedi a Supply Chain Management come amministratore.
 1. Apri l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e abilita le seguente funzionalità in questo ordine:
@@ -65,7 +65,7 @@ Per abilitare la funzione WMS avanzata per la visibilità inventario, segui ques
 
 1. Vai a **Inventory Management \> Impostazione \> Visibilità dell'inventario integration parameters**.
 1. Nella Scheda **Abilita articoli WMS**, imposta l'opzione **Abilita articoli WMS** su *Sì*.
-1. Accedere a Power Apps.
+1. Accedi al tuo ambiente Power Apps e apri **Visibilità inventario**.
 1. Apri la pagina **Configurazione**, e poi, nella scheda **Gestione funzionalità** attiva la funzione *AdvancedWHS*.
 1. In Supply Chain Management vai in **Gestione articoli \> Attività periodiche \> Integrazione di Visibilità magazzino**.
 1. Nel riquadro azioni seleziona **Disabilita** per disabilitare temporaneamente la visibilità inventario.
@@ -82,21 +82,24 @@ I risultati delle query per gli articoli WMS sono essenzialmente gli stessi dei 
 - `ReservOrdered`
 - `ReservPhysical`
 
-Tutte le altre misure fisiche vengono calcolate esattamente come quando la funzione WMS avanzata per la visibilità inventario è disabilitata.
+Tutte le altre misure fisiche vengono calcolate esattamente come quando la funzionalità WMS per la visibilità inventario è disabilitata.
 
 Per informazioni dettagliate su come funzionano i calcoli disponibili per gli articoli WMS, vedi il white paper [Prenotazioni in Gestione Magazzino](https://www.microsoft.com/download/details.aspx?id=43284).
 
-Le entità di dati che vengono esportate in Dataverse non possono ancora aggiornare le quantità per gli articoli WMS. Le quantità mostrate nelle entità di dati sono corrette sia per gli articoli non WMS che per le quantità che non sono interessate dalla logica WMS (cioè le misure eccetto `AvailPhysical`, `AvailOrdered`, `ReservPhysical`, e `ReservOrdered` nell'origine dati `fno`).
+## <a name="on-hand-list-view-and-data-entity-for-wms-items"></a>Visualizzazione elenco disponibilità ed entità dati per gli articoli WMS
 
-Sono vietate le modifiche alle quantità di articoli WMS archiviate nell'origine dati di Supply Chain Management. Come per altre funzionalità di Visibilità inventario, questa restrizione viene applicata per aiutare a prevenire i conflitti.
+La pagina **Precarica il riepilogo di visibilità inventario** fornisce una vista per l'entità *Risultati di precaricamento delle query sull'indice di disponibilità*. Diversamente dall'entità *Riepilogo inventario*, l'entità *Risultati di precaricamento delle query sull'indice di disponibilità* fornisce un elenco di scorte disponibili per i prodotti insieme alle dimensioni selezionate. La visibilità inventario sincronizza i dati di riepilogo precaricati ogni 15 minuti.
 
-## <a name="soft-reservations-on-wms-items-in-inventory-visibility"></a>Prenotazione temporanee di articoli WMS di visibilità inventario
+Se utilizzi Visibilità dell'inventario con gli articoli WMS e desideri visualizzare l'elenco delle disponibilità per gli articoli WMS, è consigliabile abilitare la funzionalità *Precarica riepilogo visibilità inventario* (vedi anche [Precaricare una query di scorte disponibili ottimizzata](inventory-visibility-power-platform.md#preload-streamlined-onhand-query)). Un'entità di dati corrispondente in Dataverse archivia il risultato del precaricamento della query, che viene aggiornato ogni 15 minuti. Il nome dell'entità dati è `Onhand Index Query Preload Result`.
 
-In generale, le [prenotazioni temporanee](inventory-visibility-reservations.md) sugli articoli WMS sono supportate. È possibile includere misure fisiche relative a WMS nei calcoli delle prenotazioni temporanee. 
+> [!IMPORTANT]
+> L'entità Dataverse è di sola lettura. Puoi visualizzare ed esportare i dati nelle entità Visibilità inventario, ma **non modificarli**.
 
-In una nota limitazione, il calcolo *disponibile per la prenotazione* non è attualmente supportato per gli articoli WMS. Pertanto, se è presente una prenotazione al di sopra delle dimensioni correnti in cui si verifica una prenotazione temporanea, il calcolo *disponibile per la prenotazione* non è corretto. Le prenotazioni temporanee non saranno interessate quando l'opzione **ifCheckAvailForReserv** è disabilitata nell'[API di prenotazione temporanea](inventory-visibility-api.md#create-one-reservation-event).
+Sono vietate le modifiche alle quantità di articoli WMS archiviate nell'origine dati (`fno`) di Supply Chain Management. Questo comportamento corrisponde al comportamento di altre funzionalità di Visibilità inventario. Questa restrizione viene applicata per aiutare a prevenire i conflitti.
 
-Questo vincolo si applica anche alle funzionalità e alle personalizzazioni basate su prenotazioni temporanee (come l'allocazione).
+## <a name="wms-item-compatibility-for-other-functions-in-inventory-visibility"></a>Compatibilità articoli WMS per altre funzioni in Visibilità inventario
+
+[Prenotazioni temporanee](inventory-visibility-reservations.md) e l'[allocazione di scorte](inventory-visibility-allocation.md) di articoli WMS sono supportati. È possibile includere misure fisiche relative a WMS nei calcoli delle allocazioni e delle prenotazioni temporanee.
 
 ## <a name="calculate-available-to-promise-quantities"></a>Calcolare le quantità available-to-promise
 

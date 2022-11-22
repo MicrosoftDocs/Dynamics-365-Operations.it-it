@@ -2,7 +2,7 @@
 title: Domande frequenti sull'unione dell'infrastruttura Dynamics 365 Human Resources
 description: Questo articolo fornisce le risposte alle domande frequenti sull'unione dell'infrastruttura per Microsoft Dynamics 365 Human Resources e le app per la finanza e le operazioni.
 author: twheeloc
-ms.date: 09/13/2021
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 32698d887b4d228ded588984b09068e3e2fef9a4
-ms.sourcegitcommit: 27ce4fc706100b626b81c3a1023238acd872e76c
+ms.openlocfilehash: 7325231718d7387450391b16b2866f9a2c05bdc4
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9702069"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779637"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Domande frequenti sull'unione dell'infrastruttura Dynamics 365 Human Resources
 
@@ -32,7 +32,7 @@ Microsoft Dynamics 365 Human Resources fornisce gli strumenti che aiutano i team
 - **Trasformazione delle esperienze dei dipendenti.** Trattieni i tuoi migliori elementi fornendo gli strumenti ottimali a manager e dipendenti con esperienze self-service connesse che favoriscono l'impegno e la crescita.
 - **Ottimizzazione dei programmi HR.** Riduci i costi operativi e crea programmi di gestione di congedi e assenze, orario, benefit e retribuzione incentrati sulle persone.
 - **Aumento dell'agilità organizzativa.** Consenti al reparto HR di operare con la destrezza richiesta dall'azienda mediante l'uso di Dataverse e Microsoft Power Platform per centralizzare i dati delle persone ed estendere facilmente Dynamics 365 Human Resources.
-- **Informazioni dettagliate sulla forza lavoro.** Prendi decisioni basate sui dati grazie alla possibilità di analizzare e visualizzare i dati delle persone su dashboard avanzati disponibili su qualsiasi dispositivo.
+- **Scopri le informazioni dettagliate sulla forza lavoro.** Prendi decisioni basate sui dati grazie alla possibilità di analizzare e visualizzare i dati delle persone su dashboard avanzati disponibili su qualsiasi dispositivo.
 
 ## <a name="value-and-benefits-of-the-infrastructure-merge"></a>Valore e vantaggi dell'unione dell'infrastruttura
 

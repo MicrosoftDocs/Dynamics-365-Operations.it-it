@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e2b6d75034c06704cad4cbc800ce3311ef5330e
-ms.sourcegitcommit: 04e6c1c9400e1b582180cf3e0e4767434e736c26
+ms.openlocfilehash: f5120c4e75e821776201d5add2d498feb94d0297
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8712288"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778413"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Distribuzioni contabili e voci di contabilità secondaria per le fatture a testo libero
 
@@ -30,9 +30,9 @@ Le distribuzioni contabili vengono utilizzate per definire il modo in cui import
 
 ## <a name="accounting-distributions"></a>Distribuzioni contabili
 
-È possibile utilizzare i pulsanti riportati di seguito nella pagina Fattura testo libero per visualizzare ed eventualmente modificare le distribuzioni contabili per ogni importo nella fattura testo libero.
+È possibile utilizzare i pulsanti riportati di seguito nella pagina **Fattura testo libero** per visualizzare ed eventualmente modificare le distribuzioni contabili per ogni importo nella fattura testo libero.
 
--   **Distribuisci importi**: consente di visualizzare e modificare le distribuzioni contabili per una singola riga e tutte le righe figlio, ad esempio imposte o spese. È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina Transazioni VAT o Transazioni spese.
+-   **Distribuisci importi**: consente di visualizzare e modificare le distribuzioni contabili per una singola riga e tutte le righe figlio, ad esempio imposte o spese. È inoltre possibile visualizzare e modificare le distribuzioni contabili per la riga figlio direttamente dalla pagina **Transazioni VAT** o **Transazioni spese**.
     -   Modificare gli importi intestazione della fattura a testo libero, ad esempio le spese o gli importi di arrotondamento valuta.
     -   Modificare importi riga fattura a testo libero.
 -   **Visualizza distribuzioni**: visualizza le distribuzioni contabili per tutte le righe del documento. Non è possibile modificare le distribuzioni contabili da questa visualizzazione.
@@ -120,7 +120,7 @@ Quando si immette una fattura a testo libero, ogni importo viene distribuito com
 </table>
 
 ## <a name="distributing-taxes"></a>Distribuzione di imposte
-impossibile creare distribuzioni contabili per imposte fino a quando queste ultime non verranno calcolate. Per calcolare l'IVA, è necessario completare una delle seguenti attività nel modulo Fattura testo libero:
+impossibile creare distribuzioni contabili per imposte fino a quando queste ultime non verranno calcolate. Per calcolare l'IVA, è necessario completare una delle seguenti attività nella pagina **Fattura testo libero**:
 -   Visualizzare l'IVA.
 -   Visualizzare il totale fattura.
 -   Visualizzare il flusso di cassa.

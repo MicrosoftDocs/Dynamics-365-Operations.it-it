@@ -2,7 +2,7 @@
 title: 'Creare elementi di costo  '
 description: Esistono vari modi per creare gli elementi di costo nella contabilità industriale.
 author: kfend
-ms.date: 08/29/2018
+ms.date: 08/29/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
-ms.openlocfilehash: 9ca826e54171a3dc3582dc5ceb716ac009d45674
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0254f486816e852bcda52f90fe4da65c413c7032
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9280722"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779691"
 ---
 # <a name="create-cost-elements"></a>Creare elementi di costo   
 
@@ -28,31 +28,31 @@ Esistono vari modi per creare gli elementi di costo nella contabilità industria
 
 
 ## <a name="create-new-cost-elements"></a>Creare nuovi elementi di costo
-1. Passare a Contabilità industriale > Dimensioni > Dimensioni elemento di costo.
-2. Fare clic su Nuovo.
-3. Digitare un valore nel campo Nome.
-4. Nel campo Connettore dati per membri di dimensione immettere o selezionare un valore.
-5. Nel campo Descrizione digitare un valore.
-6. Fare clic su Salva.
+1. Passare a **Contabilità industriale > Dimensioni > Dimensioni elemento di costo**.
+2. Fare clic su **Nuovo**.
+3. Digitare un valore nel campo **Nome**.
+4. Nel campo **Connettore dati per membri di dimensione** immettere o selezionare un valore.
+5. Digitare un valore nel campo **Descrizione**
+6. Fare clic su **Salva**.
 
 ## <a name="configure-the-data-connector"></a>Configurare il connettore dati
-1. Fare clic su Configura provider membro di dimensione.
-2. Nel campo Piano dei conti immettere o selezionare un valore.
-    * Selezionare Condiviso per utilizzare un piano dei conti condiviso.  
-3. Fare clic su Nuovo.
+1. Fare clic su **Configura provider membro di dimensione**.
+2. Nel campo **Piano dei conti** immettere o selezionare un valore.
+    * Selezionare **Condiviso** per utilizzare un piano dei conti condiviso.  
+3. Fare clic su **Nuovo**.
 4. Nell'elenco contrassegnare la riga selezionata.
     * È possibile applicare filtri ai conti per soddisfare i criteri.  
-5. Nel campo Da conto principale, immettere o selezionare un valore.
-6. Nel campo A conto principale, immettere o selezionare un valore.
-7. Fare clic su OK.
+5. Nel campo **Da conto principale**, immettere o selezionare un valore.
+6. Nel campo **A conto principale**, immettere o selezionare un valore.
+7. Fare clic su **OK**.
 
 ## <a name="import-main-accounts"></a>Importa conti principali
-1. Fare clic su Importa membri di dimensione.
+1. Fare clic su **Importa membri di dimensione**.
     * I conti principali verranno importati nella contabilità industriale e utilizzati come elementi di costo.  
-2. Fare clic su OK.
+2. Fare clic su **OK**.
 
 ## <a name="view-the-imported-accounts-as-cost-elements"></a>Visualizzare i conti importati come elementi di costo
-1. Fare clic su Visualizza membri di dimensione.
+1. Fare clic su **Visualizza membri di dimensione**.
     * Consente di visualizzare i conti CoGe importati come elementi di costo nell'azienda in cui i costi possono fluire.  
 
 

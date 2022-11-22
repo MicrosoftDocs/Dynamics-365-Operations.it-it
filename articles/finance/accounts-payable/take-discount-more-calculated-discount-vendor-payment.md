@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27a6ec8fdba495535227d9d893d59edac5588985
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: cd74c6677f80a9075449908411350f1c81b95b02
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715696"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778359"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Applicare uno sconto maggiore dello sconto calcolato per un pagamento fornitore
 
@@ -32,13 +32,13 @@ Il fornitore 3051 concede a Fabrikam uno sconto di cassa del 4% se una fattura v
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Selezionata | Normale            | Inv-10040 | 3051    | 29/6/2015 | 29/7/2015 | 10040   | 1.000,00                       | GBP      | 940,00           |
+| Selezionato | Normale            | Inv-10040 | 3051    | 6/29/2020 | 7/29/2020 | 10040   | 1,000.00                       | USD      | 940,00           |
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni**.
 
 | Campo                        | Valore     |
 |------------------------------|-----------|
-| Data sconto di cassa           | 12/7/2015 |
+| Data sconto di cassa           | 7/12/2020 |
 | Importo sconto di cassa         | 60.00     |
 | Utilizzare lo sconto di cassa            | Normale    |
 | Sconto di cassa applicato          | 0,00      |

@@ -2,7 +2,7 @@
 title: Chiudere l'anno fiscale
 description: Questa procedura descrive il processo di chiusura di fine anno per il trasferimento dei saldi in un nuovo anno fiscale.
 author: aprilolson
-ms.date: 07/11/2019
+ms.date: 11/11/2022
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8eb36cb856d191d64561060e7de4a1f9fd947882
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 4d52e6789a96defaf1d0132fe97fc183a05af207
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8717476"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779814"
 ---
 # <a name="close-the-fiscal-year"></a>Chiudere l'anno fiscale
 
@@ -40,7 +40,7 @@ Se l'opzione è impostata su **Sì**, due transazioni vengono create. Un giustif
 
 5. Selezionare **Sì** o **No** per l'opzione **Imposta stato anno fiscale su chiuso in modo permanente**.
 
-Se impostata su **Sì**, lo stato dell'anno fiscale verrà impostato su Chiuso in modo permanente. Poiché un anno chiuso in modo permanente non può essere riaperto, la procedura consigliata è di impostare questa opzione su **No**.  
+Se impostata su **Sì**, lo stato dell'anno fiscale verrà impostato su **Chiuso in modo permanente**. Poiché un anno chiuso in modo permanente non può essere riaperto, la procedura consigliata è di impostare questa opzione su **No**.  
 
 6. Selezionare **Sì** o **No** per l'opzione **È necessario compilare il numero del giustificativo durante la chiusura di fine anno**.
 

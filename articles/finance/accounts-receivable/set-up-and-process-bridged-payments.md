@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2022-01-03
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f0609e333fb16ba189b6a971f88fbb5bf900fec
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: bb563008f156e1bfa6e4e9a705e9170342719ce7
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8887979"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775170"
 ---
 # <a name="set-up-and-process-bridged-payments"></a>Impostazione ed elaborazione dei pagamenti provvisori
 
 [!include [banner](../includes/banner.md)]
 
-Un pagamento provvisorio è un pagamento che viene registrato nella contabilità generale in due passaggi. In genere, questo approccio viene utilizzato quando il metodo di pagamento è impostato su **Banca** e devi registrare le transazioni sul conto bancario solo quando la transazione ha autorizzato la banca. Tuttavia, puoi anche usarlo per un conto CoGe. In questo caso, il sistema sposta l'importo da un conto principale a un altro conto principale durante l'elaborazione della registrazione provvisoria.
+Un pagamento provvisorio è un pagamento che viene registrato nella contabilità generale in due passaggi. In genere, questo approccio viene utilizzato quando il metodo di pagamento è impostato su **Banca** e devi registrare le transazioni sul conto bancario solo quando la transazione ha autorizzato la banca. Tuttavia, puoi anche usarlo per un conto CoGe. In questo caso, l'importo verrà spostato da un conto principale a un altro conto principale durante l'elaborazione della registrazione provvisoria.
 
 È possibile creare pagamenti provvisori da Contabilità fornitori o Contabilità clienti. Sebbene questo articolo spieghi come configurare la registrazione provvisoria per la contabilità fornitori, i passaggi per le transazioni di contabilità fornitori sono simili.
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: CustParameters, CustPosting, DefaultDashboard, CustCollectionsPoolsListPage, CustWriteOff, LedgerJournalTable, LedgerJournalTransDaily, CustCollections, CustOpenInvoicesListPage, CustTable
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7da01759fe4aaa7beb1719ede51ac0abfc3b404c
-ms.sourcegitcommit: d1683d033fc74adbc4465dd26f7b0055e7639753
+ms.openlocfilehash: 21aaeda413e767fed1815423b0262127c6692bb6
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8713673"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775301"
 ---
 # <a name="create-a-write-off-journal-for-a-customer"></a>Creare un giornale di registrazione annullamento per un cliente
 
@@ -47,10 +47,10 @@ Questa guida attività indicherà come impostare i parametri per gli annullament
 6. Chiudere la pagina.
 7. Andare a **Pannello di navigazione > Moduli > Contabilità generale > Inserimenti nel giornale di registrazione > Giornali di registrazione generali**.
 8. Selezionare il numero batch del giornale di registrazione contenente l'annullamento. Una riga viene creata per stornare il saldo del cliente. Una o più righe vengono create per registrare l'annullamento nel conto relativo.  
-9. Chiudere la pagina.
-10. Chiudere la pagina.
+9. Chiudi la pagina.
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Annullare transazioni nel modulo delle riscossioni.
+
+## <a name="write-off-transactions-from-the-collections-page"></a>Annullare transazioni nella pagina delle riscossioni
 1. Andare a **Crediti e riscossioni > Riscossioni > Saldi con aging**.
 2. Selezionare il nome del cliente a cui sono associate le transazioni che si desidera annullare. Ad esempio, selezionare Cave Wholesales (US-004).
 3. Contrassegnare la riga per la prima transazione.
@@ -62,8 +62,8 @@ Questa guida attività indicherà come impostare i parametri per gli annullament
 9. Chiudere la pagina.
 10. Fare clic su **Contabilità generale > Scritture contabili > Giornali di registrazione generali**.
 11. Selezionare il numero batch del giornale di registrazione contenente l'annullamento. Una riga viene creata per stornare il saldo del cliente. Una o più righe vengono create per registrare l'annullamento nel conto relativo.  
-12. Chiudere la pagina.
-13. Chiudere la pagina.
+12. Chiudi la pagina.
+
 
 ## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Annullare una fattura nella pagina Fatture cliente aperte
 1. Andare a **Pannello di navigazione > Moduli > Contabilità clienti > Fatture > Fatture cliente aperte**.

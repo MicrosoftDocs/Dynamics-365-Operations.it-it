@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c83ac47bc5e7f7ed223c772591cf8a7c1e63a40
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: b3cc07a1f0ba444250eddcf892681e2ca63e9c1a
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715499"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780519"
 ---
 # <a name="correct-a-free-text-invoice"></a>Correzione di una fattura a testo libero
 
@@ -28,7 +28,11 @@ ms.locfileid: "9715499"
 
 In questo articolo viene illustrato come correggere una fattura a testo libero registrata e come riemetterla in modo corretto.
 
-Per correggere una fattura a testo libero già registrata, aprire la fattura a testo libero registrata. Nella pagina **Fattura** selezionare **Annulla** e quindi selezionare **Fattura corretta**. Selezionare un codice motivo, aggiungere commenti e selezionare la data della nuova fattura corretta. È possibile modificare la fattura corretta e registrarla. 
+Per correggere una fattura a testo libero già registrata: 
+1. Apri la fattura a testo libero registrata. 
+2. Nella pagina **Fattura** selezionare **Annulla** e quindi selezionare **Fattura corretta**. 
+3. Selezionare un codice motivo, aggiungere commenti e selezionare la data della nuova fattura corretta.
+4. È possibile modificare la fattura corretta e registrarla. 
 
 Quando si registra la fattura corretta, una fattura di annullamento viene creata per un importo in Avere equivalente all'importo della fattura originale. Quindi, il saldo combinato della fattura originale e della fattura di annullamento sarà 0 (zero). La fattura di annullamento viene liquidata a fronte della fattura originale. 
 

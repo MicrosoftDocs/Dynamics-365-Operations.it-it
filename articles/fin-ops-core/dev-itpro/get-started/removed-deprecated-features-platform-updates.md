@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2eec4dd71baef54877b4139a331288bf37f4960
-ms.sourcegitcommit: e4b6521337dfff3515f70086b0125d4c23308c71
+ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262300"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785101"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -51,7 +51,7 @@ Nell'ambito del programma [One Dynamics One Platform](/dynamics365-release-plan/
 | Richieste di assistenza | Numero | Sì | Sì. [Distribuzioni self-service](../deployment/infrastructure-stack.md). |
 | Integrazione di SharePoint | Sì | Sì | Numero |
 | Gestione configurazione e dati | Numero | Sì | Numero |
-| Pacchetti di dati del processo | Numero | Sì | Sì. Framework di importazione/esportazione dati (DIXF). |
+| Pacchetti di dati del processo | Numero | Sì | Sì: [Framework di importazione/esportazione dati (DIXF)](/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job) |
 | Aggiornamento dell'ambiente | Numero | Sì | Sì. Sono disponibili gli aggiornamenti del servizio [One Version](../lifecycle-services/oneversion-overview.md). |
 | Stima infrastruttura | Sì | Numero | Numero |
 | Numero di licenze | Sì | Numero | Numero |
@@ -71,10 +71,10 @@ Nell'ambito del programma [One Dynamics One Platform](/dynamics365-release-plan/
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | Stiamo rimuovendo il seguente elenco di suite di crittografia per assicurare la conformità ai nostri protocolli di sicurezza correnti.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Sostituita da un'altra funzionalità?**   | A partire dal 30 novembre 2022, i clienti possono utilizzare solo le nostre [suite di crittografia standard](/power-platform/admin/server-cipher-tls-requirements). Questa modifica ha un impatto sui tuoi client e server che comunicano con i nostri server. Ad esempio, potrebbe influire sulle integrazioni di terze parti che non aderiscono alle nostre suite di crittografia standard. |
+| **Sostituita da un'altra funzionalità?**   | A partire dal 31 gennaio 2023, i clienti possono utilizzare solo le nostre [suite di crittografia standard](/power-platform/admin/server-cipher-tls-requirements). Questa modifica ha un impatto sui tuoi client e server che comunicano con i nostri server. Ad esempio, potrebbe influire sulle integrazioni di terze parti che non aderiscono alle nostre suite di crittografia standard. |
 | **Aree del prodotto interessate**         | App Finanza e operazioni |
 | **Opzione di distribuzione**              | Distribuzioni cloud |
-| **Status**                         | Deprecato. I clienti devono aggiornare i propri server entro il 30 novembre 2022. Per ulteriori informazioni sulla configurazione dell'ordine Suite di crittografia TLS, vedi [Gestire Transport Layer Security (TLS)](/windows-server/security/tls/manage-tls).  |
+| **Status**                         | Deprecato. I clienti devono aggiornare i propri server entro il 31 gennaio 2023. Per ulteriori informazioni sulla configurazione dell'ordine Suite di crittografia TLS, vedi [Gestire Transport Layer Security (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Ritiro delle funzionalità in vigore da giugno 2022

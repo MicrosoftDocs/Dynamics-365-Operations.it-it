@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: ff2232c9e1010ad1e2524df0c7ed4d771b489ed1
-ms.sourcegitcommit: 05069f7e5eb7a9335c0a62031d7663f88e4821df
+ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
+ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/09/2022
-ms.locfileid: "9752300"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9775405"
 ---
 # <a name="proactive-quality-updates"></a>Aggiornamenti qualitativi proattivi
 
@@ -112,7 +112,7 @@ Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le fines
 | Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 14 ottobre al 17 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
 | Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 15 ottobre al 18 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
 | Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 16 ottobre al 19 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
-| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 17 ottobre al 20 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
+| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 17 ottobre al 20 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 15 novembre al 18 novembre 2022 |
 | Stazione 5 | DoD, Government Community Cloud, Cina | Non programmato | Non programmato |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a>Rilascio dell'aggiornamento qualitativo proattivo: 10.0.30

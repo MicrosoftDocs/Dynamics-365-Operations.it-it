@@ -2,25 +2,25 @@
 title: Utilizzare un solo pagamento per liquidare le fatture che coprono più periodi di sconto
 description: Questo articolo mostra come vengono pagate più fatture quando ogni fattura consente di ottenere uno sconto di cassa. Gli scenari in questo articolo evidenziano le variazioni degli sconti di cassa ottenuti, a seconda di quando si effettua il pagamento.
 author: ShivamPandey-msft
-ms.date: 10/26/2017
+ms.date: 11/15/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6035973abea9dacd4b6d4d8bf2fd3c7d6b10fb0
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6bf321a5b0511295f2500f10cdffa9ff6f043bff
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872646"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780543"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Utilizzare un solo pagamento per liquidare le fatture che coprono più periodi di sconto
 
@@ -44,11 +44,11 @@ Se Arnie crea un giornale di registrazione pagamenti per liquidare completamente
 -   Il pagamento per la fattura FTI-10041 è 990,00. Viene applicato uno sconto di cassa dell'1%, ovvero 10,00.
 -   Il pagamento per la fattura FTI-10042 è 980,00. Viene applicato uno sconto di cassa del 2%, ovvero 20,00.
 
-| Contrassegna                     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Valuta | Importo da liquidare |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Selezionata                 | Normale            | FTI-10040 | 4032    | 15/5/2015 | 15/6/2015 | 10040   | 1.000,00                             |                                       | GBP      | 1.000,00         |
-| Selezionato                 | Normale            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | GBP      | 990,00           |
-| Selezionato ed evidenziato | Normale            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | GBP      | 980,00           |
+| Contrassegna | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data   | Data di scadenza  | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Valuta | Importo da liquidare |
+|------|----------|-----------|---------|-----------|-----------|---------|---------------------|---------------------|----------|------------------|
+| Selezionato     | Normale      | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00  |                    | USD      | 1,000.00         |
+| Selezionato     | Normale      | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00  |                    | USD      | 990.00           |
+| Selezionato ed evidenziato | Normale      | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00    |              | USD      | 980.00           |
 
 Dopo che il pagamento viene registrato, il saldo cliente è 0,00.
 
@@ -60,19 +60,19 @@ Se Arnie crea un giornale di registrazione pagamenti per liquidare completamente
 -   Il pagamento per la fattura FTI-10042 è 990,00. Viene applicato uno sconto di cassa dell'1%, ovvero 10,00. Sebbene il 1° luglio sia successivo al periodo per lo sconto del 2%, è ancora nel periodo per lo sconto dell'1%.
 
 | Contrassegna                     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Valuta | Importo da liquidare |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Selezionata                 | Normale            | FTI-10040 | 4032    | 15/5/2015 | 15/6/2015 | 10040   | 1.000,00                             |                                       | GBP      | 1.000,00         |
-| Selezionato                 | Normale            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | GBP      | 990,00           |
-| Selezionato ed evidenziato | Normale            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | GBP      | 990,00           |
+|----------|---------|-----------|---------|-----------|-----------|---------|--------------------|------------------|----------|------------------|
+| Selezionato         | Normale            | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00         |                | USD      | 1,000.00         |
+| Selezionato                 | Normale            | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00  |               | USD      | 990.00           |
+| Selezionato ed evidenziato | Normale            | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00  |             | USD      | 990.00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Liquidazione parziale il 29 giugno
 Il cliente 4032 può pagare un importo parziale, ad esempio metà di ciascuna fattura. Arnie crea un pagamento per il cliente 4032 e quindi apre la pagina **Liquida transazioni**. Nella pagina **Liquida transazioni** Arnie contrassegna tutte le tre righe di fattura per la liquidazione: In ciascuna riga, Arnie immette l'importo da liquidare, in base alle istruzioni fornite dal cliente. Quando una riga è selezionata, Arnie vede l'importo dello sconto per la riga e l'importo dello sconto di cassa che viene applicato. Poiché il cliente paga metà della fattura, Arnie vede che il valore nel campo **Importo sconto di cassa** per FTI-10042 è **20,00**, ma che il valore nel campo **Sconto di cassa applicato** è **10,00**. L'importo del pagamento è 1.485,00.
 
-| Contrassegna                     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Valuta | Importo da liquidare |
-|--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
-| Selezionata                 | Normale            | FTI-10040 | 4032    | 15/5/2015 | 15/6/2015 | 10040   | 1.000,00                             |                                       | GBP      | 500,00           |
-| Selezionato                 | Normale            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | GBP      | 495,00           |
-| Selezionato ed evidenziato | Normale            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | GBP      | 490,00           |
+| Contrassegna   | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Valuta | Importo da liquidare |
+|-------------|-------------------|-----------|---------|-----------|-----------|---------|-----------|------------------|----------|------------------|
+| Selezionato   | Normale       | FTI-10040 | 4032    | 5/15/2020 | 6/15/2020 | 10040   | 1,000.00        |               | USD      | 500.00           |
+| Selezionato                 | Normale            | FTI-10041 | 4032    | 6/25/2020 | 7/25/2020 | 10041   | 1,000.00     |     | USD      | 495,00           |
+| Selezionato ed evidenziato | Normale            | FTI-10042 | 4032    | 6/25/2020 | 7/25/2020 | 10042   | 1,000.00     |         | USD      | 490,00           |
 
 Arnie può inoltre immettere manualmente l'importo del pagamento di 1.485,00 prima di aprire la pagina **Liquida transazioni**. Se Arnie immette manualmente l'importo del pagamento e quindi contrassegna tutte e tre le transazioni, ma non rettifica il valore nel campo **Importo da liquidare** per ciascuna transazione, il seguente messaggio viene visualizzato alla chiusura della pagina:
 
@@ -88,11 +88,11 @@ Arnie visualizza le informazioni nella pagina **Transazioni cliente**.
 
 | Giustificativo    | Tipo di transazione | Data      | Fattura | Importo Dare in valuta transazione | Importo Avere in valuta transazione | Saldo  | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
-| FTI-10040  | Fattura          | 15/5/2015 | 10040   | 1.000,00                             |                                       | 0,00     | GBP      |
-| FTI-10041  | Fattura          | 25/6/2015 | 10041   | 1.000,00                             |                                       | 1.000,00 | GBP      |
-| FTI-10042  | Fattura          | 25/6/2015 | 10042   | 1.000,00                             |                                       | 505,10   | GBP      |
-| ARP-10040  | Pagamento          | 29/6/2015 |         |                                      | 1.485,00                              | 0,00     | GBP      |
-| DISC-10040 | Sconto di cassa    | 29/6/2015 |         |                                      | 9,90                                  | 0,00     | GBP      |
+| FTI-10040  | Fattura          | 5/15/2020 | 10040   | 1,000.00                             |                                       | 0,00     | USD      |
+| FTI-10041  | Fattura          | 6/25/2020 | 10041   | 1,000.00                             |                                       | 1,000.00 | USD      |
+| FTI-10042  | Fattura          | 6/25/2020 | 10042   | 1,000.00                             |                                       | 505,10   | USD      |
+| ARP-10040  | Pagamento          | 6/29/2020 |         |                                      | 1.485,00                              | 0,00     | USD      |
+| DISC-10040 | Sconto di cassa    | 6/29/2020 |         |                                      | 9,90                                  | 0,00     | USD      |
 
 
 

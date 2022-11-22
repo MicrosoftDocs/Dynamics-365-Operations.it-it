@@ -2,28 +2,23 @@
 title: Panoramica della fidelizzazione dei clienti
 description: In questo articolo viene fornita una panoramica delle funzionalità di fidelizzazione dei clienti disponibili nell'applicazione del punto vendita.
 author: bebeale
-ms.date: 02/01/2021
+ms.date: 11/16/2022
 ms.topic: overview
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.custom:
 - "260624"
 - intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
-ms.search.region: global
-ms.search.industry: Retail
+ms.search.region: Global
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
-ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 3d60004367840208f239d69220b3c181109f83d8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: fc7daeb27c25efa21fd34b0456af8892074056d5
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8885613"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785047"
 ---
 # <a name="clienteling-overview"></a>Panoramica della fidelizzazione dei clienti
 
@@ -31,6 +26,11 @@ ms.locfileid: "8885613"
 
 
 Molti rivenditori, in particolare i rivenditori specializzati di fascia alta, desiderano che gli addetti alle vendite stabiliscano relazioni a lungo termine con i clienti chiave. Gli addetti sono tenuti a conoscere le simpatie e le antipatie dei clienti, la cronologia degli acquisti, le preferenze sui prodotti e le date importanti, come anniversari e compleanni. Gli addetti hanno bisogno di un luogo in cui è possibile acquisire queste informazioni per usarle facilmente se necessario. Se queste informazioni sono disponibili in un'unica vista, gli addetti possono facilmente indirizzare i clienti che soddisfano criteri specifici. Ad esempio, possono trovare tutti i clienti che preferiscono acquistare borse o i clienti che si stanno avvicinando a un evento importante, come un compleanno o un anniversario.
+
+Il seguente video illustra uno scenario di esempio di clienteling in Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSP]
 
 ## <a name="client-book"></a>Libro clienti
 

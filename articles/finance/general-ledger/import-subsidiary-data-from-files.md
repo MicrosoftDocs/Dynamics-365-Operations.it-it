@@ -2,23 +2,23 @@
 title: Importare dati delle società affiliate da file
 description: Questo articolo spiega come preparare i dati da sistemi esterni in modo che possano essere importati in Microsoft Dynamics 365 Finance.
 author: jinniew
-ms.date: 10/09/2020
+ms.date: 10/09/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 6886e2ee79ee9e4ccc067dc4f661c1eea646cfa6
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 494f6396d5e6fab6fef9404ad473566b02b1b9ab
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846772"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780098"
 ---
 # <a name="import-subsidiary-data-from-files"></a>Importare dati delle società affiliate da file
 
@@ -32,27 +32,27 @@ Questo articolo spiega come preparare i dati da sistemi esterni in modo che poss
 3. Esportare i dati in un file seguendo i passaggi della procedura "Processo di importazione/esportazione di dati" in [Panoramica processi di importazione ed esportazione dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md). Puoi utilizzare tale procedura per consolidare i dati da un'altra istanza di Dynamics 365 Finance o da Dynamics 365 Business Central. Se stai importando dati da sistemi esterni, i dati devono essere nel formato descritto in [Esportare i dati delle filiali in file](export-subsidiary-data-to-file.md).
 4. Vai a **Consolidamenti \> Consolida con importazione**. Nella pagina **Consolida con importazione** nella scheda **Criteri** specifica i dettagli del report e/o eseguire l'importazione impostando i seguenti campi.
 
-    | Campo                                 | Valore per il report | Valore per l'importazione |
-    |---------------------------------------|----------------------|----------------------|
-    | Descrizione                           | Non applicabile | Immettere una descrizione per identificare l'importazione. |
-    | Conto principale                          | Definisci l'intervallo di account che il rapporto deve includere. Se non si definisce un intervallo, verranno inclusi tutti gli account. | Definisci l'intervallo di account che l'importazione deve includere. Se non si definisce un intervallo, verranno inclusi tutti gli account. |
-    | Periodo di consolidamento                  | Definisci l'intervallo di date da consolidare. | Definisci l'intervallo di date da consolidare. |
-    | Includi importi effettivi                | Imposta questa opzione su **Sì** per includere gli importi effettivi. | Imposta questa opzione su **Sì** per includere gli importi effettivi. |
-    | Includi importi di budget                | Imposta questa opzione su **Sì** per includere gli importi di budget in consolidamento. | Imposta questa opzione su **Sì** per includere gli importi di budget in consolidamento. |
-    | Ricostruire i saldi durante il consolidamento | Imposta questa opzione su **Sì** se il processo di ricostruzione dovrebbe cancellare completamente il saldo e nuovi record e ricreare il saldo. | Imposta questa opzione su **Sì** se il processo di ricostruzione dovrebbe cancellare completamente il saldo e nuovi record e ricreare il saldo. |
-    | Modelli di budget                         | Non applicabile | Se hai scelto di importare gli importi del budget, immetti i modelli di budget da consolidare. |
-    | Tipo di tasso del budget                      | Non applicabile | Immetti il tipo di tasso di cambio del budget. |
+| Campo                                 | Valore per il report | Valore per l'importazione |
+|---------------------------------------|----------------------|----------------------|
+| **Descrizione**                      | Non applicabile | Immettere una descrizione per identificare l'importazione. |
+| **Conto principale**    | Definisci l'intervallo di account che il rapporto deve includere. Se non si definisce un intervallo, verranno inclusi tutti gli account. | Definisci l'intervallo di account che l'importazione deve includere. Se non si definisce un intervallo, verranno inclusi tutti gli account. |
+    | **Periodo di consolidamento**                  | Definisci l'intervallo di date da consolidare. | Definisci l'intervallo di date da consolidare. |
+    | **Includi importi effettivi**                | Imposta questa opzione su **Sì** per includere gli importi effettivi. | Imposta questa opzione su **Sì** per includere gli importi effettivi. |
+| **Includi importi di budget** | Imposta questa opzione su **Sì** per includere gli importi di budget in consolidamento. | Imposta questa opzione su **Sì** per includere gli importi di budget in consolidamento. |
+| **Ricostruire i saldi durante il consolidamento** | Imposta questa opzione su **Sì** se il processo di ricostruzione dovrebbe cancellare completamente il saldo e nuovi record e ricreare il saldo. | Imposta questa opzione su **Sì** se il processo di ricostruzione dovrebbe cancellare completamente il saldo e nuovi record e ricreare il saldo. |
+| **Modelli di budget**                         | Non applicabile | Se hai scelto di importare gli importi del budget, immetti i modelli di budget da consolidare. |
+    | **Tipo di tasso del budget**                      | Non applicabile | Immetti il tipo di tasso di cambio del budget. |
 
 6. Se hai diverse valute contabili, utilizza i campi nella scheda **Conversione valuta** per configurare la traduzione eseguita durante il consolidamento.
 
     | Campo                      | Descrizione |
     |----------------------------|-------------|
-    | Persona giuridica di origine        | Seleziona la persona giuridica da cui stai eseguendo l'importazione. |
-    | Valuta di contabilizzazione di origine | Questa valuta predefinita è la valuta associata alla persona giuridica di origine selezionata nel campo **Persona giuridica di origine**. |
-    | Conti Da e A       | Definire l'intervallo di conti da importare dalla persona giuridica di origine. |
-    | Tipo di tasso di cambio         | Seleziona il tipo di tasso di cambio. I tipi di tasso di cambio vengono assegnati quando crei un conto principale. Per ulteriori informazioni, vedere [Creare un conto principale](tasks/create-main-account.md). |
-    | Applica tasso di cambio da   | Immetti una data per applicare il tasso di cambio in vigore in quella data. In alternativa, inserisci il valore da utilizzare come tasso di cambio. |
-    | Tasso di cambio              | Il tasso di cambio dipende dal tipo di tasso di cambio selezionato nel campo **Tipo di tasso di cambio**. Se hai inserito un tasso di cambio definito dall'utente, puoi definire un tasso. |
+ | **Persona giuridica di origine**        | Seleziona la persona giuridica da cui stai eseguendo l'importazione. |
+ | **Valuta di contabilizzazione di origine** | Questa valuta predefinita è la valuta associata alla persona giuridica di origine selezionata nel campo **Persona giuridica di origine**. |
+ | Conti **Da** e **A**       | Definire l'intervallo di conti da importare dalla persona giuridica di origine. |
+    | **Tipo di tasso di cambio**         | Seleziona il tipo di tasso di cambio. I tipi di tasso di cambio vengono assegnati quando crei un conto principale. Per ulteriori informazioni, vedere [Creare un conto principale](tasks/create-main-account.md). |
+| **Applica tasso di cambio da**   | Immetti una data per applicare il tasso di cambio in vigore in quella data. In alternativa, inserisci il valore da utilizzare come tasso di cambio. |
+| **Tasso di cambio**  | Il tasso di cambio dipende dal tipo di tasso di cambio selezionato nel campo **Tipo di tasso di cambio**. Se hai inserito un tasso di cambio definito dall'utente, puoi definire un tasso. |
 
 7. Imposta l'opzione **Esegui in background** su **Sì** per abilitare l'esecuzione in background del processo di importazione.
 8. Imposta l'opzione **Elaborazione batch** su **Sì** per eseguire il consolidamento come processo batch in un momento specifico. Per eseguire immediatamente il consolidamento, seleziona **OK**. 

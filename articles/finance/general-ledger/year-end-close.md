@@ -2,25 +2,25 @@
 title: Chiusura di fine anno
 description: In questo articolo viene descritto la configurazione e la procedura richieste per l'esecuzione del processo di chiusura di fine anno della contabilità generale.
 author: kweekley
-ms.date: 12/06/2021
+ms.date: 11/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 032c572ec7b29bb6b2823ddde0c4fa76e5f8fcf1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 7e1c7722b560246fb597f0b7f91a70afecf69e22
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8883215"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9779745"
 ---
 # <a name="year-end-close"></a>Chiusura di fine anno
 
@@ -62,7 +62,7 @@ Nella pagina **Configurazione del modello di chiusura di fine anno**:
 
 ## <a name="define-year-end-close-templates"></a>Definire i modelli di chiusura di fine anno
 
-Una volta configurato il sistema, è possibile eseguire il processo di chiusura di fine anno. Nella pagina **Configurazione del modello di chiusura di fine anno**, un modello può essere definito per il gruppo di persone giuridiche per cui il processo di chiusura di fine anno verrà eseguito. Il modello verrà riutilizzato a ogni chiusura di fine anno, ma può essere modificato se l'organizzazione viene modificata.
+Una volta completata la configurazione, è possibile eseguire il processo di chiusura di fine anno. Nella pagina **Configurazione del modello di chiusura di fine anno**, un modello può essere definito per il gruppo di persone giuridiche per cui il processo di chiusura di fine anno verrà eseguito. Il modello verrà riutilizzato a ogni chiusura di fine anno, ma può essere modificato se l'organizzazione viene modificata.
 
 Innanzitutto, imposta il campo **Nome gruppo** del modello e seleziona il calendario fiscale. Il nome del gruppo deve identificare il gruppo di persone giuridiche incluse. Quando determini i gruppi di persone giuridiche, ricorda che le persone giuridiche possono essere incluse nello stesso gruppo solo se per esse è selezionato lo stesso calendario fiscale. Ad esempio, i modelli possono essere impostati in base alla posizione geografica, con gruppi distinti creati per le persone giuridiche nordamericane, le persone giuridiche Europa, Medio Oriente o Africa (EMEA) e le persone giuridiche Asia Pacifico (APAC).
 

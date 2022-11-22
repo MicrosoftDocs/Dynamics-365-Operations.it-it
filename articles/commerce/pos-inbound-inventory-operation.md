@@ -2,26 +2,19 @@
 title: Operazione di magazzino in ingresso in POS
 description: Questo articolo descrive le funzionalità dell'operazione di magazzino in entrata del punto vendita (POS).
 author: hhainesms
-ms.date: 09/17/2020
+ms.date: 11/16/2022
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
 ms.search.region: global
 ms.author: hhaines
-ms.search.validFrom: ''
-ms.dyn365.ops.version: 10.0.9
-ms.custom: ''
-ms.assetid: ''
-ms.search.industry: Retail
-ms.search.form: ''
-ms.openlocfilehash: 3099f03ba2da8a367953ad0d25ee884e41ff9deb
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.search.validFrom: 2017-06-20
+ms.openlocfilehash: 7999c8409c71c7ccf9c1d44bd86ddca6f5e8f6ff
+ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9288354"
+ms.lasthandoff: 11/17/2022
+ms.locfileid: "9785020"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operazione di magazzino in ingresso in POS
 
@@ -31,6 +24,11 @@ In Microsoft Dynamics 365 Commerce versione 10.0.10 e successive, le operazioni 
 
 > [!NOTE]
 > Nella versione di Commerce 10.0.10 e successive, eventuali nuove funzionalità dell'applicazione POS correlate all'inventario del negozio in entrata rispetto agli ordini fornitore e agli ordini di trasferimento verranno aggiunte alle **operazioni in entrata** del POS. Se al momento si sta utilizzando l'operazione di prelievo e ricezione nel POS, consigliamo di sviluppare una strategia per passare alle nuove operazioni in entrata e in uscita. Sebbene l'operazione di prelievo e ricezione non verrà rimossa dal prodotto, non vi saranno ulteriori investimenti dal punto di vista funzionale o prestazionale, dopo la versione 10.0.9.
+
+Il seguente video fornisce una panoramica e dei processi aziendali e delle funzionalità di inventario di magazzino in Dynamics 365 Commerce.
+
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE5bMSx]
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Prerequisito: configurare un framework di documenti asincrono
 

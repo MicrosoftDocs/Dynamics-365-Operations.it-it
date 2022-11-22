@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 6faf71ec5d14584034f9107c33ccce1cd1d393c7
-ms.sourcegitcommit: c98d55a4a6e27239ae6b317872332f01cbe8b875
+ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
+ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/02/2022
-ms.locfileid: "9220334"
+ms.lasthandoff: 11/10/2022
+ms.locfileid: "9757223"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -107,7 +107,7 @@ In alternativa, quando si crea una nuova visualizzazione (mediante l'azione **Sa
 
 La finestra dialogo **Gestisci le mie visualizzazioni** fornisce funzionalità di gestione di base delle visualizzazioni personali e dell'ordine delle visualizzazioni nel selettore di visualizzazioni. Per aprire questa pagina, selezionare il nome della visualizzazione per aprire il menu a discesa del selettore di visualizzazioni, selezionare **Altro**, quindi selezionare **Gestisci le mie visualizzazioni**.
 
-**Versione 10.0.21 o successiva:** Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, la sezione **Visualizzazioni personali** della finestra di dialogo **Gestisci visualizzazioni personali** mostra le viste disponibili per la pagina in sezioni. Tutte le visualizzazioni che sono specifiche dell'entità legale corrente sono mostrate nella loro propria sezione. La sezione **Viste globali** è sempre mostrata, in modo da poter gestire le viste che sono disponibili per la pagina in tutte le entità legali. 
+Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, la sezione **Visualizzazioni personali** della finestra di dialogo **Gestisci visualizzazioni personali** mostra le viste disponibili per la pagina in sezioni. Tutte le visualizzazioni che sono specifiche dell'entità legale corrente sono mostrate nella loro propria sezione. La sezione **Viste globali** è sempre mostrata, in modo da poter gestire le viste che sono disponibili per la pagina in tutte le entità legali. 
 
 Per un elenco delle visualizzazioni disponibili per quella pagina, si ha a disposizione il set di azioni seguente.
 
@@ -138,9 +138,9 @@ Per pubblicare una visualizzazione, attenersi alla procedura riportata di seguit
 
 1. Creare e salvare una copia personale della visualizzazione che si intende pubblicare. 
 2. Con quella visualizzazione attualmente caricata, selezionare il nome della visualizzazione per aprire il menu a discesa del selettore di visualizzazioni. 
-3. Selezionare il pulsante **Altro**, quindi selezionare **Pubblica**. Viene visualizzata la finestra di dialogo Pubblica.
+3. Selezionare il pulsante **Altro**, quindi selezionare **Pubblica**. Viene visualizzata la finestra di dialogo **Pubblica**.
 4. Immettere un nome per la visualizzazione. Questo è il nome che gli utenti che ricevono la visualizzazione vedranno nei relativi selettori di visualizzazioni. I nomi delle visualizzazioni pubblicate per una pagina devono essere univoci. Non sono consentiti nomi duplicati, anche se l'elenco dei ruoli o delle persone giuridiche a cui le visualizzazioni sono applicate differisce.
-5. **Aggiornamento 10.0.17 o successive:** se la funzionalità **(Anteprima) Supporto alla traduzione per le visualizzazioni dell'organizzazione** è attivata, è possibile aggiungere traduzioni per il nome della visualizzazione in tutte le lingue richieste dalla propria organizzazione selezionando il pulsante **Traduzioni** accanto al campo **Nome**. Il nome della visualizzazione verrà quindi mostrato agli utenti nella loro lingua corrente. È inoltre possibile impostare la lingua predefinita per specificare la traduzione che verrà mostrata agli utenti che utilizzano lingue per le quali non è definita alcuna traduzione.
+5. Se la funzionalità **Supporto alla traduzione per le visualizzazioni dell'organizzazione** è attivata, è possibile aggiungere traduzioni per il nome della visualizzazione in tutte le lingue richieste dalla propria organizzazione selezionando il pulsante **Traduzioni** accanto al campo **Nome**. Il nome della visualizzazione verrà quindi mostrato agli utenti nella loro lingua corrente. È inoltre possibile impostare la lingua predefinita per specificare la traduzione che verrà mostrata agli utenti che utilizzano lingue per le quali non è definita alcuna traduzione.
 5. Facoltativo: immettere una descrizione per la visualizzazione, in modo che gli utenti che ricevono questa visualizzazione possano comprenderne meglio lo scopo. 
 6. Determinare se la visualizzazione deve essere pubblicata come visualizzazione predefinita per gli utenti selezionati. Quando una visualizzazione viene impostata come predefinita, gli utenti la vedranno la prossima volta che apriranno la pagina di destinazione. La visualizzazione predefinita globale singola di ogni utente interessato verrà modificata. Tuttavia, gli utenti possono comunque modificare la visualizzazione predefinita dopo la pubblicazione.
 
@@ -150,9 +150,10 @@ Per pubblicare una visualizzazione, attenersi alla procedura riportata di seguit
     > - Se si pubblica una vista come vista predefinita per alcune o tutte le entità legali, si verifica il seguente comportamento:
     >
     >    - Se solo la funzione base **Visualizzazioni salvate** è attivata, la singola vista predefinita globale sarà cambiata per ogni utente mirato. 
-    >    - **Versione 10.0.21 o successiva:** Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, e si pubblica la vista a un sottoinsieme di entità legali, la vista predefinita per quelle entità legali sarà cambiata per ogni utente mirato.
+    >    - ** Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, e si pubblica la vista a un sottoinsieme di entità legali, la vista predefinita per quelle entità legali sarà cambiata per ogni utente mirato.
     >
     > - Se un utente ha ruoli in cui più visualizzazioni vengono pubblicate come predefinite, l'ultima visualizzazione pubblicata verrà utilizzata come visualizzazione predefinita dell'utente. 
+    > - La pubblicazione non funzionerà per le assegnazioni di ruolo effettuate tramite i gruppi AAD. 
 
 8. Aggiungere i ruoli di sicurezza corrispondenti agli utenti che sono interessati da questa visualizzazione. 
 9. Determinare se si desidera pubblicare la visualizzazione nei ruoli figlio di ciascun ruolo di sicurezza selezionato. In tal caso, selezionare la casella di controllo **Includi ruoli figlio** nella riga per i ruoli di sicurezza appropriati. Questa casella di controllo non è disponibile per i ruoli che non hanno ruoli figlio.
@@ -162,7 +163,7 @@ Per pubblicare una visualizzazione, attenersi alla procedura riportata di seguit
     > Siate consapevoli del seguente comportamento se pubblicate una vista per una specifica entità legale, ma non la pubblicate come vista predefinita:
     >
     > - Se solo la funzione base **Visualizzazioni salvate** è attivata, il selettore di vista dell'utente per la pagina mostra inizialmente la vista solo per le entità legali specificate. Tuttavia, dopo che la vista è stata caricata per la prima volta, il selettore della vista per la pagina la mostrerà sempre, indipendentemente dall'entità legale.
-    > - **Versione 10.0.21 o successiva:** Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, il selettore di viste mostrerà sempre e solo la vista per le entità legali specificate.
+    > - Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, il selettore di viste mostrerà sempre e solo la vista per le entità legali specificate.
 
 11. Selezionare **Pubblica**
 
@@ -259,7 +260,7 @@ Per le pagine con grandi selettori di visualizzazione (personalizzazioni e query
 Se si pubblica una vista su una specifica entità legale, ma non si pubblica quella vista come vista predefinita, si verifica il seguente comportamento:
 
 - Se solo la funzione base **Visualizzazioni salvate** è attivata, il selettore di vista dell'utente per la pagina mostra inizialmente la vista solo per le entità legali specificate. Tuttavia, dopo che la vista è stata caricata per la prima volta, il selettore della vista per la pagina la mostrerà sempre, indipendentemente dall'entità legale. Questo comportamento si verifica perché gli utenti ottengono la loro copia personale della vista pubblicata quando viene caricata, e le viste personali sono globali.
-- **Versione 10.0.21 o successiva:** Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, il selettore di viste mostrerà sempre e solo la vista per le entità legali specificate. Questo comportamento si verifica perché la caratteristica permette alle viste (incluse le viste personali) di essere collegate a specifiche entità legali.
+- Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, il selettore di viste mostrerà sempre e solo la vista per le entità legali specificate. Questo comportamento si verifica perché la caratteristica permette alle viste (incluse le viste personali) di essere collegate a specifiche entità legali.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
 

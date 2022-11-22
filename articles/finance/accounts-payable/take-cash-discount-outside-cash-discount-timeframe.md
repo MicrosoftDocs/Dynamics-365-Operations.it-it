@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1abf6722348b57594509e90ca0defc07783a112b
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 26b1eb5e542acf7496d1a0cf7196716a5de75e4e
+ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715885"
+ms.lasthandoff: 11/16/2022
+ms.locfileid: "9780531"
 ---
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Applicare uno sconto di cassa fuori del periodo dello sconto di cassa
 
@@ -37,13 +37,13 @@ April contrassegna la fattura per il pagamento. Non viene applicato alcuno scont
 
 | Contrassegna     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data sconto di cassa | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Selezionata | Sempre            | Inv-10030 | 3052    | 28/6/2015          | 12/7/2015 | 10030   | -2.000,00                      | GBP      | -1.980,00        |
+| Selezionato | Sempre            | Inv-10030 | 3052    | 6/28/2020          | 7/12/2020 | 10030   | -2.000,00                      | USD      | -1.980,00        |
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni**.
 
 | Campo                        | Valore     |
 |------------------------------|-----------|
-| Data sconto di cassa           | 12/7/2015 |
+| Data sconto di cassa           | 7/12/2020 |
 | Importo sconto di cassa         | -20,00    |
 | Utilizzare lo sconto di cassa            | Sempre    |
 | Sconto di cassa applicato          | 0,00      |
@@ -52,16 +52,16 @@ Le informazioni di sconto vengono visualizzate nella parte inferiore della pagin
 ## <a name="date-to-use-for-calculating-discounts--selected-date"></a>Data da utilizzare per il calcolo degli sconti = Data selezionata
 Se sono stati registrati sia la fattura che il pagamento, lo sconto di cassa può comunque essere applicato quando le transazioni vengono liquidate nella pagina **Liquida transazioni**. April modifica il valore del campo **Data da utilizzare per il calcolo degli sconti** in **Data selezionata**. Immette la data del 28 giugno, compresa nel periodo di sconto di cassa della fattura. Tale data viene utilizzata per calcolare lo sconto di cassa per la transazione. Nella pagina **Liquida transazioni aperte**, April vede che, per impostazione predefinita, viene indicato lo sconto completo di 20,00. La riga di fattura indica che l'importo da liquidare è 1.980,00.
 
-| Contrassegna                     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data sconto di cassa | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
-|--------------------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
-| Selezionato ed evidenziato | Normale            | Inv-10030 | 3052    | 28/6/2015          | 12/7/2015 | 10030   | -2.000,00                      | GBP      | -1.980,00        |
-| Selezionato                 | Normale            | APP-10030 | 3052    | 15/7/2015          | 15/7/2015 |         | 500,00                         | GBP      | 500,00           |
+| Contrassegna          | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data sconto di cassa | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
+|--------------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
+| Selezionato ed evidenziato | Normale    | Inv-10030 | 3052    | 6/28/2020         | 7/12/2020 | 10030   | -2.000,00                      | USD      | -1.980,00        |
+| Selezionato                 | Normale    | APP-10030 | 3052    | 7/15/2020          | 7/15/2020 |         | 500.00                         | USD      | 500.00           |
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**. L'importo dello sconto da applicare è 20,00, poiché l'importo da liquidare per la fattura è l'importo predefinito, 1.980,00.
 
 | Campo                        | Valore     |
 |------------------------------|-----------|
-| Data sconto di cassa           | 12/7/2015 |
+| Data sconto di cassa           | 7/12/2020 |
 | Importo sconto di cassa         | -20,00    |
 | Utilizzare lo sconto di cassa            | Normale    |
 | Sconto di cassa applicato          | 0,00      |
@@ -71,14 +71,14 @@ April aggiorna il valore nel campo **Importo da liquidare** in **500,00**. Il va
 
 | Contrassegna                     | Utilizzare lo sconto di cassa | Giustificativo   | Conto | Data      | Data di scadenza  | Fattura | Importo nella valuta della transazione | Valuta | Importo da liquidare |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
-| Selezionato ed evidenziato | Normale            | Inv-10030 | 3052    | 28/6/2015 | 12/7/2015 | 10030   | 2.000,00                       | GBP      | -500,00          |
-| Selezionato                 | Normale            | APP-10030 | 3052    | 15/7/2015 | 15/7/2015 |         | 500,00                         | GBP      | 500,00           |
+| Selezionato ed evidenziato | Normale            | Inv-10030 | 3052    | 6/28/2020 | 7/12/2020 | 10030   | 2,000.00                       | USD      | -500,00          |
+| Selezionato                 | Normale            | APP-10030 | 3052    | 7/15/2020 | 7/15/2020 |         | 500.00                         | USD      | 500.00           |
 
 Le informazioni di sconto vengono visualizzate nella parte inferiore della pagina **Liquida transazioni aperte**. Il valore nel campo **Importo sconto di cassa da applicare** è **5,05**, poiché l'importo da liquidare per la fattura è stato modificato nell'importo del pagamento, 500,00.
 
 | Campo                        | Valore     |
 |------------------------------|-----------|
-| Data sconto di cassa           | 12/7/2015 |
+| Data sconto di cassa           | 7/12/2020 |
 | Importo sconto di cassa         | -20,00    |
 | Utilizzare lo sconto di cassa            | Normale    |
 | Sconto di cassa applicato          | 0,00      |

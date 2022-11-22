@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ceda837cae563dab68969cb9f05de113079d4495
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 3ff76eac54da6621d999d9b629fac920ba8de294
+ms.sourcegitcommit: 9c4638c4bb5b5f8adc7508542a0a2c3e1de5190c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8910260"
+ms.lasthandoff: 11/15/2022
+ms.locfileid: "9778386"
 ---
 # <a name="create-sales-order-invoices"></a>Creare fatture di ordine cliente
 
@@ -32,12 +32,12 @@ Questo articolo spiega come fatturare un ordine cliente, inclusa l'unione delle 
 2. Selezionare un ordine cliente nell'elenco. 
 3. Nel **riquadro azioni**, fare clic su **Fattura > Gnera > Fattura**. Si noti che all'ordine cliente sono associati più documenti di trasporto. Verrà visualizzata solo la parola *più* anziché il numero del documento di trasporto.  
 4. Espandere la sezione **Parametri**.
-    - La registrazione deve essere impostata su Sì per registrare la fattura. È inoltre possibile disabilitare la registrazione e stampare solo la fattura. Tuttavia, è possibile ottenere lo stesso risultato creando una fattura proforma anziché una fattura.  
+    - La registrazione deve essere impostata su **Sì** per registrare la fattura. È inoltre possibile disabilitare la registrazione e stampare solo la fattura. Tuttavia, è possibile ottenere lo stesso risultato creando una fattura proforma anziché una fattura.  
     - Questa opzione viene utilizzata per i processi batch. La query viene eseguita quando viene eseguito il processo batch.
-5. Selezionare "Dopo" nel campo **Stampa**.
+5. Selezionare **Dopo** nel campo **Stampa**.
 6. Selezionare **Sì** per **Stampa fattura**. Gestione stampa consente di stampare più copie della fattura, nonché di inviare la fattura tramite posta elettronica come file PDF.  
-7. Selezionare "Riepiloga" nel campo **Stampa addebiti**.
-8. Nel campo **Verifica limite di credito**, selezionare "Saldo".
+7. Selezionare **Riepiloga** nel campo **Stampa addebiti**.
+8. Nel campo **Verifica limite di credito**, seleziona **Saldo**.
 9. Fare clic su **Annulla**.
 
 ## <a name="combine-orders-into-a-single-invoice"></a>Combina gli ordini in un'unica fattura
@@ -46,8 +46,8 @@ Questo articolo spiega come fatturare un ordine cliente, inclusa l'unione delle 
 3. Selezionare molteplici ordini cliente aperti dallo stesso cliente.
 4. Nel **riquadro azioni**, fare clic su **Fattura > Gnera > Fattura**.
 5. Espandere la sezione **Parametri**.
-6. Nel campo **Quantità** selezionare "Tutto". Si noti che nella sezione relativa alla panoramica vengono elencate due fatture. Ora uniamole in una singola fattura.  
-7. Nel campo **Aggiorna riepilogo per**, selezionare "Conto fatture".
+6. Nel campo **Quantità** selezionare **Tutto**. Si noti che nella sezione relativa alla panoramica vengono elencate due fatture. Ora uniamole in una singola fattura.  
+7. Nel campo **Aggiorna riepilogo per**, selezionare **Conto fatture.**
 8. Fare clic su **Disponi** per unire gli ordini cliente in una singola fattura. I due ordini cliente sono ora uniti in una singola fattura.   
 9. Fare clic su **Annulla**.
 10. Fare clic su **Sì**.
