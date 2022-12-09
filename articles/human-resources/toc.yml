@@ -564,12 +564,14 @@
               href: hr-leave-and-absence-plans.md
             - name: Assegnare i lavoratori a un piano di congedo
               href: hr-leave-and-absence-enroll.md
-            - name: Accumulare piani di congedo e assenza
+            - name: Accumula piani di congedo e assenza
               href: hr-leave-and-absence-accrue.md
-            - name: Sospendere il congedo
+            - name: Congedo sospeso
               href: hr-leave-and-absence-suspend-leave.md
             - name: Richiesta di congedo
               href: hr-employee-self-service-request-leave-of-absence.md
+            - name: Creare una richiesta di congedo a tempo indeterminato
+              href: hr-create-open-leave-absence.md
             - name: Gestire il congedo dei dipendenti
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Visualizzare analisi per congedo e assenza

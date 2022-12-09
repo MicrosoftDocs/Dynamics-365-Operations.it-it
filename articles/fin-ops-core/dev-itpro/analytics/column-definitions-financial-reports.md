@@ -15,12 +15,12 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.form: FinancialReports
-ms.openlocfilehash: d23d6afde0daa44b8527c624305bdfd0fb4cbd53
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 97f6c869e8d05e37ec3001d5de262ab8927d735a
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9291890"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802798"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definizioni di colonna nei report finanziari
 
@@ -34,24 +34,24 @@ Una definizione di colonna può contenere da due a 255 colonne.
 
 ### <a name="create-a-column-definition"></a>Creare una definizione di colonna
 
-1. In Progettazione report, nel pannello di navigazione, fare clic su **Definizioni colonne**.
-2. Scegliere **Nuovo**, quindi **Definiziona colonna** dal menu **File**.
+1. In Report Designer, nel riquadro di spostamento, fai clic su **Definizioni colonne**.
+2. Scegliere **Nuovo**, quindi **Definizione colonna** dal menu **File**.
 3. Aggiungere il contenuto della definizione di colonna.
 
 ### <a name="open-a-column-definition"></a>Aprire una definizione colonna
 
-1. In Progettazione report, nel pannello di navigazione, fare clic su **Definizioni colonne**.
+1. In Report Designer, nel riquadro di spostamento, fai clic su **Definizioni colonne**.
 2. Fare doppio clic su una definizione di colonna per aprirla.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Aggiungere una colonna a una definizione di colonna
 
-1. In Progettazione report, fare clic su **Definizioni colonne** quindi aprire la definizione di colonna da modificare.
+1. In Report Designer, fai clic su **Definizioni colonne** quindi aprire la definizione di colonna da modificare.
 2. Selezionare la colonna in cui una nuova colonna deve essere immessa.
 3. Nel menu **Modifica** fare clic su **Inserisci colonna**. La nuova colonna verrà visualizzata a sinistra di quella selezionata.
 
 ### <a name="delete-a-column-from-a-column-definition"></a>Eliminare una colonna da una definizione di colonna
 
-1. In Progettazione report fare clic su **Definizioni di colonna**, quindi aprire la definizione di colonna da modificare.
+1. In Report Designer, fai clic su **Definizioni colonne** quindi aprire la definizione di colonna da modificare.
 2. Selezionare la colonna da eliminare.
 3. Scegliere **Elimina colonna** dal menu **Modifica**.
 
@@ -72,19 +72,19 @@ Queste informazioni vengono visualizzate nekle seguenti aree nella definizione d
 
 - Le righe di dettaglio della colonna sono le righe sotto le righe di intestazione nella definizione di colonna. Le righe di dettaglio della colonna definiscono le informazioni incluse nel report. Nella tabella riportata di seguito vengono elencate e descritte le righe di dettaglio della colonna.
 
-    | Nome della riga di dettaglio di colonna                                                | Descrizione                                                                                            |
-    |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-    | Tipo di colonna                                                           | (Obbligatorio) Specifica il tipo di dati nella colonna.                                                     |
-    | Codice libro/Categoria attributi                                          | Specifica le informazioni di dati finanziari per le colonne di tipo **FD** e **ATTR**.                       |
-    | Anno fiscale Periodo Periodi coperti                                    | Specifica le informazioni di dati finanziari per le colonne di tipo **FD** .                                     |
-    | Formula                                                               | Specifica una formula di calcolo per le colonne di tipo **CALC**.                                        |
-    | Larghezza colonna Spazi aggiuntivi prima di colonna Sostituzione formato Controllo stampa | Specifica le opzioni di formattazione speciali.                                                                        |
-    | Restrizioni di colonna                                                   | Limita i dati.                                                                                         |
-    | Unità gerarchica                                                        | Limita la colonna, in modo che mostra i dati solo per l'unità gerarchica specificata.                      |
-    | Visualizzazione valuta Filtro valuta                                      | Formato della valuta.                                                                                       |
-    | Filtro dimensioni                                                      | Specifica un filtro per limitare i dati a determinate unità gerarchiche dei dati finanziari.                           |
-    | Filtro attributi                                                      | Specifica un filtro per limitare i dati finanziari.                                                       |
-    | Data di inizio Data di fine                                                   | Limita i dati finanziari a date specifiche.                                                         |
+    | Nome della riga di dettaglio di colonna                                                | Descrizione                                                    |
+    |-----------------------------------------------------------------------|-------------------------------------------------------------------------|
+    | Tipo di colonna                                                           | (Obbligatorio) Specifica il tipo di dati nella colonna.                                      |
+    | Codice libro/Categoria attributi                                          | Specifica le informazioni di dati finanziari per le colonne di tipo **FD** e **ATTR**.     |
+    | Anno fiscale Periodo Periodi coperti                                    | Specifica le informazioni di dati finanziari per le colonne di tipo **FD** .              |
+    | Formula                                                               | Specifica una formula di calcolo per le colonne di tipo **CALC**.                  |
+    | Larghezza colonna Spazi aggiuntivi prima di colonna Sostituzione formato Controllo stampa | Specifica le opzioni di formattazione speciali.                                               |
+    | Restrizioni di colonna                                                   | Limita i dati.                                                                        |
+    | Unità gerarchica                                                        | Limita la colonna, in modo che mostra i dati solo per l'unità gerarchica specificata.      |
+    | Visualizzazione valuta Filtro valuta                                      | Formato della valuta.                                                                      |
+    | Filtro dimensioni                                                      | Specifica un filtro per limitare i dati a determinate unità gerarchiche dei dati finanziari.           |
+    | Filtro attributi                                                      | Specifica un filtro per limitare i dati finanziari.                                      |
+    | Data di inizio Data di fine                                                   | Limita i dati finanziari a date specifiche.                                    |
     | Motivazione                                                         | Allinea a sinistra, al centro o a destra il testo di descrizione specificato nella definizione di riga. |
 
 ## <a name="column-restrictions-in-a-column-definition"></a>Restrizioni di colonna in una definizione di colonna
@@ -99,7 +99,7 @@ La cella **Restrizioni di colonna** può includere i codici che limitano o elimi
 
 #### <a name="add-a-column-restriction-in-a-column-definition"></a>Aggiungere una restrizione di colonna in una definizione di colonna
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic sulla cella **Restrizioni di colonna** per la colonna da limitare.
 3. Nella finestra di dialogo **Restrizioni di colonna**, selezionare uno o più codici nell'elenco e fare clic su **OK**.
 
@@ -121,7 +121,7 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Limitare una colonna a un'unità gerarchica
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic sulla cella **Unità gerarchica** per la colonna da limitare.
 3. Nella finestra di dialogo **Selezione unità gerarchica**, elenco **Albero gerarchico**, selezionare un albero.
 4. Espandere o comprimere l'elenco delle unità, selezionare un'unità gerarchica quindi fare clic su **OK**.
@@ -133,7 +133,7 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 È possibile usare la finestra di dialogo **Intestazione colonna** per aggiungere, modificare ed eliminare le intestazioni che vengono visualizzate nella parte superiore delle colonne in un report. Nella seguente tabella sono descritti i campi della finestra di dialogo **Intestazione colonna**.
 
-| Campo                 | Descrizione |
+| Campo                 | Description |
 |-----------------------|-------------|
 | Testo intestazione colonna    | Questo testo verrà visualizzato nell'intestazione di colonna. È possibile immettere il testo direttamente in questo campo, o fare clic su **Inserisci testo automatico** per selezionare un'opzione che consente di aggiornare l'intestazione di colonna ogni volta che il report viene generato. Per includere più codici testo automatico, fare clic su **Inserisci testo automatico** ancora quindi fare clic su un altro codice nell'elenco. |
 | Opzioni di formattazione        | Applica la formattazione all'intestazione di colonna, ad esempio casella o sottolineatura. |
@@ -142,17 +142,17 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 ### <a name="create-a-column-header"></a>Creare un'intestazione di colonna
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic su una cella di intestazione.
 3. Nella finestra di dialogo **Intestazione colonna**, digitare il testo dell'intestazione di colonna. In alternativa, fare clic su **Inserisci testo automatico** e selezionare un'opzione.
 4. Nel campo **Opzioni di formattazione**, selezionare un formato dell'intestazione.
 5. Nel campo **Estendi da** immettere la lettera di colonna da cui l'intestazione di colonna deve cominciare. Nel campo **Estendi a** immettere la lettera di colonna a cui l'intestazione di colonna deve terminare.
 6. In **Giustificazione**, selezionare se il testo dell'intestazione di colonna deve essere allineato a sinistra, al centro o a destra.
-7. Scegliere **OK**.
+7. Fare clic su **OK**.
 
 ### <a name="add-a-column-header-row"></a>Aggiungere una riga dell'intestazione di colonna
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Selezionare una cella nella riga di intestazione.
 3. Nel menu **Modifica** fare clic su **Inserisci riga**. La nuova riga viene inserita sopra la riga selezionata nel passaggio 2.
 
@@ -161,13 +161,13 @@ Nella seguente tabella sono descritti i codici restrizione della colonna.
 
 ### <a name="delete-a-column-header-row"></a>Eliminare una riga dell'intestazione di colonna
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Nella riga di intestazione, selezionare la cella da eliminare.
 3. Nel menu **Modifica** fare clic su **Elimina riga**.
 
 ### <a name="create-an-automatically-generated-header"></a>Creare un'intestazione generata automaticamente
 
-Progettazione report può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC** e **FD**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Se ad esempio in un anno di calendario standard viene utilizzato **\@CalMonthLong**, il **settimo** mese verrà risolto nel valore **Luglio**. Se il nome del mese deve essere visualizzato solo con lettere maiuscole (ad esempio, **LUGLIO**), immettere il codice della voce di glossario in caratteri maiuscoli nel campo **Testo intestazione di colonna**. Immettere ad esempio **\@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, immettere il seguente testo dell'intestazione: **Periodo \@FiscalPeriod-\@FiscalYear from \@StartDate to \@EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**.
+Report Designer può generare automaticamente le intestazioni di colonna, in base ai codici testo automatico. I codici testo automatico sono variabili che vengono aggiornate in ogni volta che un report viene generato. Qualsiasi intestazione di colonna può includere questi codici per specificare le informazioni di report che possono variare, ad esempio le date o numeri di periodo. Di conseguenza, è possibile utilizzare una sola definizione di colonna per più definizioni di report, periodi e alberi gerarchici. Poiché i codici testo automatico si basano sulle informazioni del calendario dalle righe di dettaglio della definizione di colonna, sono supportati solo per le colonne **CALC** e **FD**. La modalità in cui un codice testo automatico viene visualizzato nella cella di intestazione di colonna influisce sulle informazioni visualizzate nel report. Nella finestra di dialogo **Intestazione di colonna**, i codici testo automatico vengono visualizzati con maiuscole e minuscole. Di conseguenza, il testo verrà visualizzato con maiuscole e minuscole nel report. Se ad esempio in un anno di calendario standard viene utilizzato **\@CalMonthLong**, il **settimo** mese verrà risolto nel valore **Luglio**. Se il nome del mese deve essere visualizzato solo con lettere maiuscole (ad esempio, **LUGLIO**), immettere il codice della voce di glossario in caratteri maiuscoli nel campo **Testo intestazione di colonna**. Immettere ad esempio **\@CALMONTHLONG**. È possibile combinare codici e testo. Ad esempio, immettere il seguente testo dell'intestazione: **Periodo \@FiscalPeriod-\@FiscalYear from \@StartDate to \@EndDate**. L'intestazione del report generata è simile al testo seguente: **Periodo 1-02 da 01/01/02 a 01/31/02**.
 
 > [!NOTE]
 > Il formato di alcune parti del testo, ad esempio la data in formato lungo, dipende dalle impostazioni internazionali del server. Per modificare queste impostazioni, fare clic sul pulsante **Start**, fare clic su **Pannello di controllo**, quindi su **Paese e lingua**. Nella seguente tabella sono elencate le opzioni di testo automatico disponibili per le intestazioni di colonna.
@@ -199,7 +199,7 @@ Le intestazioni con spanning condizionale possono comprendere più colonne basat
 
 #### <a name="create-a-conditional-spanning-header"></a>Creare un'intestazione con spanning condizionale
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic su una cella di intestazione.
 3. Nella finestra di dialogo **Intestazione colonna**, digitare il testo dell'intestazione di colonna. In alternativa, fare clic su **Inserisci testo automatico** e selezionare un'opzione.
 4. Nel campo **Opzioni di formattazione**, selezionare uno stile di formattazione dell'intestazione.
@@ -209,20 +209,20 @@ Le intestazioni con spanning condizionale possono comprendere più colonne basat
 
 #### <a name="example-of-a-conditional-spanning-header"></a>Esempio di un'intestazione con spanning condizionale
 
-Un utente sta creando un report per una previsione dinamica di sei mesi. L'utente desidera che la parola "Effettiva" sia stampata sulle colonne contenenti gli effettivi dati e che la parola "Budget" sia stampata sulle colonne contenenti le previsioni di budget. Ogni mese che il report viene eseguito, è presente una colonna effettiva in più e una colonna budget in meno. Sebbene l'utente possa modificare manualmente la definizione di colonna ogni volta che il report viene generato per rettificare le intestazioni, per risparmiare tempo e lo sforzo, decide di creare intestazioni con spanning condizionale che creeranno automaticamente le intestazioni sulle colonne appropriate ogni volta che il report viene eseguito. L'utente apre Progettazione report, fa clic su **Definizione colonna** nel pannello di navigazione e apre la definizione di colonna del report. L'utente immette le seguenti informazioni. Il periodo di base della definizione di report è 4.
+Un utente sta creando un report per una previsione dinamica di sei mesi. L'utente desidera che la parola "Effettiva" sia stampata sulle colonne contenenti gli effettivi dati e che la parola "Budget" sia stampata sulle colonne contenenti le previsioni di budget. Ogni mese che il report viene eseguito, è presente una colonna effettiva in più e una colonna budget in meno. Sebbene l'utente possa modificare manualmente la definizione di colonna ogni volta che il report viene generato per rettificare le intestazioni, per risparmiare tempo e lo sforzo, decide di creare intestazioni con spanning condizionale che creeranno automaticamente le intestazioni sulle colonne appropriate ogni volta che il report viene eseguito. L'utente apre Report Designer, fa clic su **Definizione colonna** nel pannello di navigazione e apre la definizione di colonna del report. L'utente immette le seguenti informazioni. Il periodo di base della definizione di report è 4.
 
-|      Formattazione         |  A   | B             | C             | D             | E             | V             | G             | H             | I             | J             | K             | L             | L             |
-|---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| Intestazione 1            |      | Effettiva        | Budget        |               |               |               |               |               |               |               |               |               |               |
-| Intestazione 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
-| Intestazione 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
-| Tipo di colonna         | DESC | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | DF            | FD            | FD            |
+|  Formattazione   |  A   | B     | C      | D       | E        | V       | G       | H      | I             | J             | K             | L             | L             |
+|-----------|------|-------|--------|---------|----------|---------|---------|---------|-------------|---------------|---------------|---------------|---------------|
+| Intestazione 1   |    | Effettiva    | Budget        |         |         |        |       |          |        |               |               |               |               |
+| Intestazione 2   |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
+| Intestazione 3    |      |       |        |        |        |         |        |          |               |               |               |               |               |
+| Tipo di colonna  | DESC | DF   | DF     | DF    | DF   | DF    | DF      | DF            | DF            | DF            | DF            | FD            | FD            |
 | Codice libro/Attributo |      | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    | EFFETTIVO        | BUDGET2012    |
-| Anno fiscale         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
-| Periodo              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
+| Anno fiscale |  | BASE   | BASE   | BASE   | BASE   | BASE    | BASE    | BASE     | BASE          | BASE          | BASE          | BASE          | BASE          |
+| Periodo  |     | 1      | 1       | 2      | 2      | 3       | 3       | 4        | 4             | 5             | 5             | 6             | 6             |
 | Periodi coperti     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
-| Larghezza colonna        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
-| Controllo stampa       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
+| Larghezza colonna   | 30   | 10    | 10     | 10     | 10    | 10    | 10    | 10     | 10            | 10            | 10            | 10            | 10            |
+| Controllo stampa  |    | P&lt;=B    | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B   | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B  | P&gt;B   | P&lt;=B       | P&gt;B        |
 
 Quindi fa doppio clic su una cella di intestazione della colonna B per aprire la finestra di dialogo **Intestazione colonna** e immette le seguenti informazioni.
 
@@ -251,7 +251,7 @@ Ora, ogni volta che questo report viene generato, la parola "Effettiva" verrà s
 ## <a name="apply-column-justification"></a>Applicare la giustificazione nelle colonne
 La cella **Giustificazione** viene utilizzata per applicare la formattazione di giustificazione a una colonna di descrizione di un report. Questa opzione influisce solo sulle descrizioni della colonna, non gli effettivi valori.
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic sulla cella **Giustificazione**.
 3. Selezionare uno dei seguenti valori nell'elenco:
 
@@ -274,8 +274,8 @@ La cella **Larghezza colonna** specifica il numero di caratteri da utilizzare pe
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Specificare la larghezza di una colonna del report
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
-2. Nella cella **Larghezza colonna**, immettere il numero di spazi per la larghezza di colonna. La larghezza massima di qualsiasi colonna è 255 caratteri (questo numero include i centesimi, le virgole e le parentesi). In alternativa, per consentire a Progettazione report di selezionare la larghezza appropriata per la colonna, in base al contenuto della cella, fare doppio clic sulla cella **Larghezza colonna**, quindi su **Adattamento automatico**.
+1. In Report Designer apri la definizione di colonna da modificare.
+2. Nella cella **Larghezza colonna**, immettere il numero di spazi per la larghezza di colonna. La larghezza massima di qualsiasi colonna è 255 caratteri (questo numero include i centesimi, le virgole e le parentesi). In alternativa, per consentire a Report Designer di selezionare la larghezza appropriata per la colonna, in base al contenuto della cella, fare doppio clic sulla cella **Larghezza colonna**, quindi su **Adattamento automatico**.
 
 ### <a name="add-space-between-columns"></a>Aggiungere spazio tra colonne
 
@@ -283,7 +283,7 @@ La cella **Spazi aggiuntivi prima di colonna** specifica la larghezza di separat
 
 #### <a name="specify-the-space-between-columns"></a>Specificare lo spazio tra colonne
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Nella cella **Spazi aggiuntivi prima di colonna** immettere il numero di spazi da inserire tra le colonne.
 
 ### <a name="specify-a-format-currency-override"></a>Specificare una sostituzione di formato/valuta
@@ -292,7 +292,7 @@ La cella **Sostituzione formato/valuta** specifica la formattazione dei decimali
 
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Assegnare una sostituzione di formato o valuta a una colonna del report
 
-1. In Progettazione report aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic su una cella **Sostituzione formato/valuta** di una colonna contenente importi.
 3. Nella finestra di dialogo **Sostituzione formato** selezionare le opzioni di formattazione.
 
@@ -306,7 +306,7 @@ La cella **Controllo stampa** può contenere i codici che regolano la visualizza
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Non stampare                                     | Esclude gli importi nella colonna dal report stampato e dai calcoli. Per includere una colonna contrassegnata da non stampare nel calcolo, fare riferimento alla colonna direttamente nella formula di calcolo. Ad esempio, la colonna C da non stampare è inclusa nel calcolo seguente: **B+C+D**. Tuttavia, la colonna C da non stampare non è inclusa nel calcolo seguente: **B:D**. |
 | XCR                | Cambia il segno se il saldo tipico della riga è in Avere | Crea un report di budget o comparativo in cui qualsiasi scostamento sfavorevole (ad esempio minori ricavi o un eccesso di spesa) è sempre negativo. Applicare il codice a un colonna **CALC** per invertire il segno dell'importo della colonna se il saldo tipico di una riga specificata è un credito (identificato da una **C** nella colonna **Saldo normale** della definizione di riga).<p><strong>Nota:</strong> Per le righe <strong>TOT</strong> e </strong>CAL</strong> che in genere portano un saldo in avere, assicurarsi di immettere una <strong>C</strong> nella colonna <strong>Saldo normale</strong> della definizione di riga.</p> |
-| X0                 | Consente di eliminare la colonna se contiene tutti zeri o spazi vuoti          | Esclude una colonna **FD** dal report se tutte le celle nella colonna sono vuote o contengono zeri. |
+| X0            | Consente di eliminare la colonna se contiene tutti zeri o spazi vuoti   | Esclude una colonna **FD** dal report se tutte le celle nella colonna sono vuote o contengono zeri. |
 | SR                 | Elimina arrotondamento                               | Impedisce l'arrotondamento degli importi nella colonna. |
 | XR                 | Consente di eliminare il rollup                                 | Consente di eliminare il rollup. Se il report utilizza un albero gerarchico, non viene eseguito il rollup degli importi nella colonna nei nodi padre successivi. |
 | RP                 | Ripete la colonna su ciascuna pagina                      | Ripete una colonna specificata in ciascuna pagina del report. Ad esempio, è possibile utilizzare il codice di controllo di stampa **RP** per includere una colonna di tipo **ROW** che effettua il pull nei codici di riga in ciascuna pagina. |
@@ -325,7 +325,7 @@ La cella **Controllo stampa** può contenere i codici che regolano la visualizza
 
 #### <a name="add-print-control-codes-to-a-report-column"></a>Aggiungere i codici di controllo di stampa in una colonna del report
 
-1. In Progettazione report aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic sulla cella **Controllo stampa**.
 3. Nella finestra di dialogo **Controllo stampa** selezionare un codice nell'elenco **Seleziona opzioni controllo di stampa**. Per selezionare più di un codice, tenere premuto il tasto Ctrl e selezionare i codici.
 4. Selezionare un'opzione nel campo **Opzioni stampa condizionale**. Per impostazione predefinita, è selezionato **(nessuno)**. È possibile selezionare un solo codice di stampa condizionale alla volta.
@@ -342,7 +342,7 @@ Il tipo di informazioni che ogni colonna di un report include è specificato dal
 
 ### <a name="specify-a-column-type"></a>Specificare un tipo di colonna
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Nella colonna appropriata, fare doppio clic su una cella nella riga **Tipo di colonna**.
 3. Nell'elenco selezionare un tipo di colonna. Nella tabella seguente vengono descritti i diversi tipi di colonna.
 
@@ -436,7 +436,7 @@ La cella **Periodo** identifica i periodi fiscali che la colonna deve includere.
 
 ### <a name="specify-the-periods-for-an-fd-column"></a>Specificare i periodi in una colonna di tipo DF
 
-1. In Progettazione report aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Nella colonna **FD** fare doppio clic sulla cella nella riga **Periodo** e selezionare un'opzione nell'elenco.
 3. Nella barra delle formule sopra il pannello di navigazione, o nella cella **Periodo**, completare la formula. Sostituire qualsiasi cancelletto (\#) con il valore appropriato.
 
@@ -453,19 +453,19 @@ La cella **Periodi coperti** identifica l'importo che la colonna deve visualizza
 
 ### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>Specificare i periodi coperti per una colonna FD
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Nella colonna **FD** fare doppio clic sulla cella nella riga **Periodi coperti** e selezionare un'opzione nell'elenco.
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Filtro attributi in una definizione di colonna
 
-Gli attributi sono valori di dati finanziari che definiscono ulteriormente un conto o una transazione. Gli attributi del conto sono **Cespite**, **Passività**, **Ricavi** e **Spesa**. Gli attributi di transazione sono **Descrizione transazione** e **Data applicazione transazione**. Il supporto di attributi può differire tra i sistemi Microsoft Dynamics ERP. La cella **Filtro attributi** limita i dati nelle colonne **FD** a valori specifici o a intervalli per le categorie di attributo. Sebbene questa funzionalità possa essere utilizzata insieme a una colonna **ATTR**, la colonna **ATTR** non è richiesta. Nella colonna **FD** esiste un limite nei conti o transazioni che il report includerà dal filtro attributi.
+Gli attributi sono valori di dati finanziari che definiscono ulteriormente un conto o una transazione. Gli attributi del conto sono **Cespite**, **Passività**, **Ricavi** e **Spesa**. Gli attributi di transazione sono **Descrizione transazione** e **Data applicazione transazione**. Il supporto di attributi può differire tra i sistemi Microsoft Dynamics 365 Finanace. La cella **Filtro attributi** limita i dati nelle colonne **FD** a valori specifici o a intervalli per le categorie di attributo. Sebbene questa funzionalità possa essere utilizzata insieme a una colonna **ATTR**, la colonna **ATTR** non è richiesta. Nella colonna **FD** esiste un limite nei conti o transazioni che il report includerà dal filtro attributi.
 
 > [!NOTE]
 > Per visualizzare gli attributi supportati dal sistema ERP, vedere la guida di integrazione dei dati per il sistema in uso.
 
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Applicare un filtroattributi per una colonna FD di un report
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic sulla cella **Filtro attributi** per una colonna di tipo **DF**.
 3. Nella finestra di dialogo **Filtro attributi** fare doppio clic su una cella nella colonna **Attributo**, quindi selezionare il tipo di filtro.
 4. Per limitare ulteriormente i risultati, immettere un intervallo nelle colonne **Da** e **A**. Il campo **Da** deve contenere un valore.
@@ -498,7 +498,7 @@ Un filtro dimensioni viene utilizzato per limitare la colonna **FD** a valori di
 
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Applicare un filtro dimensioni per una colonna del report
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Fare doppio clic sulla cella **Filtro dimensioni** per una colonna **FD**.
 3. Nella finestra di dialogo **Dimensioni**, immettere i filtri da applicare.
 4. Scegliere **OK**.
@@ -507,20 +507,20 @@ Un filtro dimensioni viene utilizzato per limitare la colonna **FD** a valori di
 
 Un report con più valute può visualizzare gli importi nella valuta di contabilizzazione della contabilità generale, di dichiarazione della contabilità generale, della transazione di origine o di dichiarazione convertita. La valuta di contabilizzazione di una società è definita nella configurazione Contabilità generale. Non confondere questa impostazione con le opzioni locali del sistema operativo, in cui è possibile configurare i simboli della valuta predefinita utilizzati nei report. Le seguenti celle correlate alla valuta sono disponibili nella definizione di colonna:
 
-- **Visualizzazione di valuta** - Consente di specificare il tipo di valuta (contabilizzazione, dichiarazione, transazione o dichiarazione convertita) in cui sono visualizzate le transazioni. Quando convertita in una funzionalità di valuta di dichiarazione viene a volte definita come conversione valuta. La conversione valuta è la capacità di riportare gli importi di contabilità generale in una valuta che non sia la valuta funzionale o di dichiarazione della società o la valuta in cui la transazione è stata immessa.
-- **Filtro valuta** Consente di specificare un filtro valuta. Solo le transazioni immesse nella valuta selezionata vengono visualizzate nel report.
+- **Visualizzazione di valuta**: consente di specificare il tipo di valuta (contabilizzazione, dichiarazione, transazione o dichiarazione convertita) in cui sono visualizzate le transazioni. Quando convertita in una funzionalità di valuta di dichiarazione viene a volte definita come conversione valuta. La conversione valuta è la capacità di riportare gli importi di contabilità generale in una valuta che non sia la valuta funzionale o di dichiarazione della società o la valuta in cui la transazione è stata immessa.
+- **Filtro valuta**: consente di specificare un filtro valuta. Solo le transazioni immesse nella valuta selezionata vengono visualizzate nel report.
 
-> 
+
 Per determinare la valuta di contabilizzazione di una società, effettuare le operazioni indicate di seguito.
 
-1. In Progettazione report scegliere **Società** dal menu **Società**.
+1. In Report Designer scegli **Società** dal menu **Società**.
 2. Nella finestra di dialogo **Società**, selezionare una società e quindi fare clic su **Visualizza**.
-3. Nella finestra di dialogo **Visualizza società**, in **Opzioni internazionali**, è possibile visualizzare la valuta definita per la società selezionata.
+3. Nella finestra di dialogo **Visualizza società**, in **Opzioni internazionali**, puoi visualizzare la valuta definita per la società selezionata.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Specificare la valuta in un report con più valute
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
-2. Fare doppio clic sulla cella **Visualizzazione valuta** nella colonna **FD** appropriata e selezionare l'opzione per la visualizzazione di informazioni sulla valuta: **Valuta di contabilizzazione per la contabilità generale**, **Conversione valuta di dichiarazione per la contabilità generale**, valuta della transazione oppure eseguire la conversione in una valuta di dichiarazione differente.
+1. In Report Designer apri la definizione di colonna da modificare.
+2. Fai doppio clic sulla cella **Visualizzazione valuta** nella colonna **FD** appropriata e seleziona l'opzione per la visualizzazione di informazioni sulla valuta: **Valuta di contabilizzazione per la contabilità generale**, **Conversione valuta di dichiarazione per la contabilità generale**, valuta della transazione oppure esegui la conversione in una valuta di dichiarazione differente.
 3. Fare doppio clic sulla cella **Filtro valuta** nella colonna **FD** appropriata e selezionare il codice valuta appropriato nell'elenco. Solo le transazioni immesse in questa valuta vengono visualizzate nel report.
 
 
@@ -541,8 +541,8 @@ Nella seguente tabella vengono visualizzati i risultati del report che possono v
 | Cella Visualizzazione valuta                        | Cella Filtro valuta | Risultato report |
 |----------------------------------------------|----------------------|---------------|
 | Valuta transazione                 | **YEN**              | **Y 6.000** – Il risultato mostra solo solo le transazioni immesse in JPY. |
-| Valuta di contabilizzazione della contabilità generale | **YEN**              |**$ 60** – Il risultato mostra solo le transazioni immesse nel JPY e visualizza quelle transazioni in USD.<p><strong>Nota:</strong> Il tasso di conversione è circa 100 JPY per USD.</p> |
-| Valuta di contabilizzazione della contabilità generale | Vuoto                | **$ 2.310** - Il risultato mostra tutti i dati nella valuta di contabilizzazione specificata nella contabilità generale.<p><strong>Nota:</strong> questo importo corrisponde alla somma di tutte le transazioni nella valuta di contabilizzazione.</p> |
+| Valuta per la contabilità da Contabilità generale | **YEN**              |**$ 60** – Il risultato mostra solo le transazioni immesse nel JPY e visualizza quelle transazioni in USD.<p><strong>Nota:</strong> Il tasso di conversione è circa 100 JPY per USD.</p> |
+| Valuta per la contabilità da Contabilità generale | Vuoto                | **$ 2.310** - Il risultato mostra tutti i dati nella valuta di contabilizzazione specificata nella contabilità generale.<p><strong>Nota:</strong> questo importo corrisponde alla somma di tutte le transazioni nella valuta di contabilizzazione.</p> |
 | Valuta transazione                 | Vuoto                | **$ 2.250** – Il risultato mostra tutti gli importi nella valuta in cui la transazione è stata eseguita. Ciò significa che il totale è la somma degli importi in valute diverse. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Colonna di calcolo in una definizione di colonna
@@ -566,7 +566,7 @@ Per aggiungere, sottrarre, moltiplicare, o dividere le colonne, immettere le let
 
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Usare una formula di calcolo in una definizione di colonna
 
-1. In Progettazione report, aprire la definizione di colonna da modificare.
+1. In Report Designer apri la definizione di colonna da modificare.
 2. Nella colonna **CALC** appropriata, immettere una formula nella cella **Formula**.
 
 #### <a name="complex-calculations"></a>Calcoli complessi
@@ -593,7 +593,7 @@ Un calcolo complesso può contenere qualsiasi combinazione di riferimenti a cell
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Definizioni di riga in Progettazione report finanziari](row-definitions-financial-reporting.md)
+[Definizioni di riga in Report Designer finanziari](row-definitions-financial-reporting.md)
 
 [Opzioni di formattazione avanzate nei report finanziari](advanced-formatting-options-financial-reporting.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-09-17
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 151991b399a30087c484262706e414e4e294bf7f
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 86020d9088d8135c83716128a77090608536a78f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715427"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804020"
 ---
 # <a name="create-checks-that-have-blank-status"></a>Creazione di assegni con stato In bianco
 
@@ -35,7 +35,7 @@ Nella pagina **Assegni**, eseguire le attività di manutenzione per gli assegni.
 
 Per aprire la pagina **Assegni**, passare a **Gestione cassa e banche \> Conti bancari \> Conti bancari**, quindi nel riquadro Azioni, nella scheda **Gestione di pagamenti**, nel gruppo **Informazioni correlate**, selezionare **Assegni**. In alternativa, passare a **Gestione cassa e banche \> Richieste di informazioni e report \> Assegni**.
 
-Quindi, per creare assegni con stato **In bianco**, selezionare **Crea assegni in bianco** nel riquadro Azioni. Durante la creazione di assegni in bianco, il conto bancario associato è temporaneamente disattivato. In questo modo si riduce il rischio di generare pagamenti nello stesso momento in cui vengono creati assegni in bianco. Al completamento dell'elaborazione, il conto bancario associato viene riattivato.
+Quindi, per creare assegni con stato **In bianco**, selezionare **Crea assegni in bianco** nel riquadro Azioni. Quando vengono creati assegni in bianco, il conto bancario associato è temporaneamente disattivato. In questo modo si riduce il rischio di generare pagamenti nello stesso momento in cui vengono creati assegni in bianco. Al completamento dell'elaborazione, il conto bancario associato viene riattivato.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

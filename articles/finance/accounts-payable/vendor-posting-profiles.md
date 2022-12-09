@@ -2,7 +2,7 @@
 title: Profili registrazione fornitori
 description: I profili di registrazione fornitore controllano la registrazione delle transazioni fornitore nella contabilità generale.
 author: abruer
-ms.date: 06/12/2019
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
 ms.search.form: VendPosting
-ms.openlocfilehash: 922612e536164c7985f0be107f67ad8bbaef7898
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 09f27ef510f38c10fc265b682a492ba5872b6d3e
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9272980"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799601"
 ---
 # <a name="vendor-posting-profiles"></a>Profili registrazione fornitori
 
@@ -94,7 +94,7 @@ Se si desidera assegnare lo stesso profilo registrazione a tutte le transazioni 
 </tr>
 <tr class="even">
 <td><strong>Arrivo</strong></td>
-<td>Selezionare il conto CoGe in cui devono essere registrate le informazioni sulle fatture fornitore non approvate. Le informazioni vengono immesse nel giornale di registrazione del registro fatture. Si supponga ad esempio che un utente immetta informazioni molto generali sulle fatture fornitore non appena queste vengono inserite nel registro fatture. Alla registrazione del registro fatture, le transazioni verranno registrate nel conto immesso in questo campo e nel campo <strong>Conto di contropartita</strong>. Una volta approvate le fatture, il debito verrà trasferito dal conto Arrivi al conto riepilogativo del fornitore.</td>
+<td>Selezionare il conto CoGe in cui devono essere registrate le informazioni sulle fatture fornitore non approvate. Le informazioni vengono immesse nel <strong>giornale di registrazione del registro fatture</strong>. Si supponga ad esempio che un utente immetta informazioni molto generali sulle fatture fornitore non appena queste vengono inserite nel registro fatture. Alla registrazione del registro fatture, le transazioni verranno registrate nel conto immesso in questo campo e nel campo <strong>Conto di contropartita</strong>. Una volta approvate le fatture, il debito verrà trasferito dal conto Arrivi al conto riepilogativo del fornitore.</td>
 </tr>
 <tr class="odd">
 <td><strong>Conto di contropartita</strong></td>
@@ -110,10 +110,10 @@ Per le transazioni con il profilo registrazione selezionato, specificare se le t
 
 Specificare i valori seguenti per impostare il profilo registrazione
 
-| Campo          | Descrizione                                                                                                                                                                                                    |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Campo          | Descrizione             |
+|----------------|--------------------------------------------------------------------------|
 | **Liquidazione** | Selezionare questa opzione per attivare la liquidazione automatica delle transazioni con questo profilo registrazione. Se questa opzione è deselezionata, è necessario liquidare manualmente le transazioni utilizzando la pagina **Liquida transazioni aperte**. |
-| **Annulla**     | Selezionare questa opzione per poter annullare le transazioni con questo profilo registrazione.                                                                                                               |
+| **Annulla**     | Selezionare questa opzione per poter annullare le transazioni con questo profilo registrazione.                              |
 | **Chiudi**      | Selezionare un profilo registrazione da applicare quando le transazioni con il profilo registrazione specificato vengono chiuse. È considerata chiusa una transazione liquidata completamente.                                       |
 
 

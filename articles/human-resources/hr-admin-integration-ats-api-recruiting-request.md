@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58e509a819e5cda650fddab8dd0c4d55d5148db1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: d89d3e77d096f5908207ac53f4e9022f686ac5f3
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8872270"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806377"
 ---
 # <a name="recruiting-request"></a>Richiesta di selezione
 
@@ -68,7 +68,7 @@ Descrive una richiesta di reclutamento per un lavoro.
     "_mshr_fk_jobtype_id_value": "Guid",
     "_mshr_fk_compensationlevel_id_value": "Guid",
     "mshr_hcmrecruitingrequestentityid": "Guid",
-    "_mshr_fk_recruitingrequestlocation_id_value": “Guid”
+    "_mshr_fk_recruitingrequestlocation_id_value": "Guid"
 }
 ```
 
@@ -87,7 +87,7 @@ Descrive una richiesta di reclutamento per un lavoro.
 | **Stato**<br>mshr_status<br>Set di opzioni *RecruitingRequestStatus* | Lettura/scrittura<br>Richiesto<br> | Indica lo stato della richiesta di selezione. |
 | **Descrizione**<br>mshr_description<br>*String* | Lettura/scrittura<br>Richiesto | Descrive la richiesta. |
 | **ID percorso richieste di selezione**<br>mshr_recruitingrequestlocationid<br>*String* | Lettura/scrittura<br>Facoltativo | L'identificatore univoco leggibile dall'utente dell'ubicazione del lavoro associato a questa richiesta. |
-| **Valore ID posizione selezione**<br>_mshr_fk_recruitinglocation_id_value<br>*GUID* | Sola lettura<br>Facoltativo<br>Chiave esterna: mshr_hcmrecruitingrequestlocationentityid dell'entità mshr_hcmrecruitingrequestlocationentity | Valore GUID generato dal sistema per identificare la posizione della richiesta di selezione selezionata per la richiesta. |
+| **Valore ID posizione selezione**<br>_mshr_fk_recruitingrequestlocation_id_value<br>*GUID* | Sola lettura<br>Facoltativo<br>Chiave esterna: mshr_hcmrecruitingrequestlocationentityid dell'entità mshr_hcmrecruitingrequestlocationentity | Valore GUID generato dal sistema per identificare la posizione della richiesta di selezione selezionata per la richiesta. |
 | **Commenti**<br>mshr_comments<br>*String* | Lettura/scrittura<br>Facoltativo | Commenti sulla richiesta di utilizzo da parte di responsabili delle assunzioni e reclutatori. |
 | **ID lavoro**<br>mshr_jobid<br>*String* | Scrivi una volta<br>Richiesto |   L'identificatore univoco leggibile dall'utente del lavoro condiviso da tutte le posizioni associate a questa richiesta. |
 | **Valore ID lavoro**<br>_mshr_fk_job_id_value<br>*GUID* | Sola lettura<br>Richiesto<br>Chiave esterna: mshr_hcmjobentityid dell'entità mshr_hcmjobentity | L'identificatore univoco generato dal sistema del lavoro condiviso da tutte le posizioni associate a questa richiesta di selezione. |

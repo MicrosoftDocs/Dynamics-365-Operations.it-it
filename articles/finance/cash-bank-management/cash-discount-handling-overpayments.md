@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1afc8aec18c61b1ce488472adf540e47540eaa17
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: d7c4e98481bc3607d3dce68a6b6cb0478524442f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715526"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804157"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Sconti di cassa per eccedenze di pagamento
 
@@ -53,7 +53,9 @@ Il cliente invia un pagamento di 95,00 entro il periodo dello sconto di cassa. I
 | Pagamento       | -95,00 | 0,00    |
 | Sconto di cassa | -10,50 | 0,00    |
 
-Le seguenti voci contabili vengono generate per il pagamento e la liquidazione. **Pagamento**
+Le seguenti voci contabili vengono generate per il pagamento e la liquidazione.
+
+**Pagamento**
 
 | Conto             | Importo in Dare | Importo in Avere |
 |---------------------|--------------|---------------|
@@ -85,7 +87,9 @@ Il cliente invia un pagamento di 95,00 entro il periodo dello sconto di cassa. I
 | Pagamento       | -95,00 | -0,50   |
 | Sconto di cassa | -10,50 | 0,00    |
 
-L'importo dell'eccedenza di pagamento di 0,50 rimarrà come saldo aperto nel pagamento e può essere liquidato in un'altra fattura. Le seguenti voci contabili vengono generate per il pagamento e la liquidazione. **Pagamento**
+L'importo dell'eccedenza di pagamento di 0,50 rimarrà come saldo aperto nel pagamento e può essere liquidato in un'altra fattura. Le seguenti voci contabili vengono generate per il pagamento e la liquidazione. 
+
+**Pagamento**
 
 | Conto             | Importo in Dare | Importo in Avere |
 |---------------------|--------------|---------------|
@@ -118,7 +122,9 @@ Il cliente invia un pagamento di 95,00 entro la data dello sconto di cassa. Il p
 | Pagamento       | -95,00 | -0,00   |
 | Sconto di cassa | -10.00 | 0,00    |
 
-L'importo dello sconto di cassa viene ridotto da 10,50 a 10,00. Il pagamento e la fattura vengono considerati liquidati. **Pagamento**
+L'importo dello sconto di cassa viene ridotto da 10,50 a 10,00. Il pagamento e la fattura vengono considerati liquidati. 
+
+**Pagamento**
 
 | Conto             | Importo in Dare | Importo in Avere |
 |---------------------|--------------|---------------|

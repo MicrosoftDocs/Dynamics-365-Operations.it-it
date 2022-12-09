@@ -14,12 +14,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 576dcd320600f4741a43bfeee53198637bffce15
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 12de50f26127c54c2f82ace43487de10e7125aea
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779529"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804212"
 ---
 # <a name="reconcile-a-bank-account"></a>Riconciliare un conto bancario
 
@@ -63,7 +63,7 @@ Selezionare la casella di controllo **Liquidato** per un intervallo di assegni t
 
 ## <a name="cancel-bank-statement-reconciliation"></a>Annulla riconciliazione rendiconti bancari 
 
-La funzionalità Annulla riconciliazione rendiconti bancari consente di annullare la riconciliazione dei rendiconti bancari. Per utilizzare questa funzionalità, abilitare la funzionalità **Annulla riconciliazione rendiconti bancari** nell'area di lavoro **Gestione funzionalità**. È inoltre necessario abilitare il parametro **Consenti modifica rendiconto bancario**. A tale scopo, andare a **Gestione cassa e banche > Impostazioni >Parametri di gestione cassa e banche > Riconciliazione bancaria**.
+La funzionalità **Annulla riconciliazione rendiconti bancari** consente di annullare la riconciliazione dei rendiconti bancari. Per utilizzare questa funzionalità, abilitare la funzionalità **Annulla riconciliazione rendiconti bancari** nell'area di lavoro **Gestione funzionalità**. È inoltre necessario abilitare il parametro **Consenti modifica rendiconto bancario**. A tale scopo, andare a **Gestione cassa e banche > Impostazioni >Parametri di gestione cassa e banche > Riconciliazione bancaria**.
  
 Le riconciliazioni del rendiconto bancario possono essere annullate solo nell'ordine cronologico in cui sono state immesse. Quando una riconciliazione del rendiconto bancario viene annullata, le nuove transazioni e le rettifiche verranno stornate e tutte le altre transazioni vengono contrassegnate come non riconciliate.
  

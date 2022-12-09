@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-10-01
 ms.dyn365.ops.version: 10.0.31
-ms.openlocfilehash: 05ccd9794ffeba6a09d6fec0a57ffad2b59707ad
-ms.sourcegitcommit: 87e75aa6af2c3280316d7d73eafa14a52353a5e4
+ms.openlocfilehash: ed4325095163415d05a56128cb1f0334440fe0e5
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/21/2022
-ms.locfileid: "9709859"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787528"
 ---
 # <a name="preview-of-dynamics-365-commerce-10031-february-2023"></a>Anteprima di Dynamics 365 Commerce 10.0.31 (febbraio 2023)
 
@@ -38,6 +38,7 @@ Questa tabella elenca le funzionalità incluse in questa versione. Possiamo aggi
 | Pagamenti | [Abilitare Apple Pay con Dynamics 365 Payment Connector per Adyen](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-apple-pay-dynamics-365-payment-connector-adyen)  | I clienti di e-commerce possono utilizzare Apple Pay nel carrello e nelle pagine di checkout quando utilizzano dispositivi o browser supportati. | Consenso esplicito per gli sviluppatori |
 | Pagamenti  |  Commerce ha aggiunto la capacità di limitare il modo in cui gli utenti interagiscono con i token di pagamento ricorrenti nell'interfaccia utente di Commerce headquarters. I moduli di pagamento come **Ordini cliente per servizio clienti**, non mostrano più il token di pagamento ricorrente utilizzato in precedenza da un cliente per utilizzarlo in una nuova transazione. Solo un determinato input "carta su file" nella schermata **Pagamenti clienti** in Commerce o in accordo con un cliente durante il pagamento tramite un ordine clientw, verrà presentato agli utenti del call center o di Commerce headquarters durante l'elaborazione di un pagamento per una nuova transazione. | [Limitare l'utilizzo dei token di pagamento](../dev-itpro/limit-token-usage.md)  |  Gestione funzionalità<p>*Limita l'utilizzo del token di pagamento al contesto dell'ordine*  |
 | POS | [Creare da ordini fornitore da POS](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/create-purchase-orders-pos)  |  L'operazione migliorata di magazzino in ingresso nell'app POS consente agli utenti di creare, modificare e confermare richieste ordini fornitore. |  Gestione funzionalità<p>*Possibilità di creare una richiesta ordine fornitore nel POS*   |
+| Ulteriori lingue disponibili | Sono disponibili quattro nuove lingue | Quattro nuove lingue sono disponibili per la selezione dell'utente nell'elenco delle lingue preferite: coreano, portoghese (Portogallo), vietnamita e cinese (tradizionale). Per selezionare questa opzione, vai a **Opzioni utente \> Preferenze \> Preferenze di lingua e paese**. | Preferenze localizzate |  
 
 
 

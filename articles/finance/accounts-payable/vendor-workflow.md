@@ -2,7 +2,7 @@
 title: Flusso di lavoro fornitori
 description: Modificare le informazioni sul fornitore e utilizzare il flusso di lavoro per approvarle.
 author: sunfzam
-ms.date: 08/24/2018
+ms.date: 11/21/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 1801e3d90bbf80c59bb62329acc593d2c66a179c
-ms.sourcegitcommit: 5d1772bdeb21a9bec6dc49e64550aaf34127a4e2
+ms.openlocfilehash: cfc255265df48e4a47aee4f13016356fb4775aa7
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "8735669"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799466"
 ---
 # <a name="vendor-workflow"></a>Flusso di lavoro fornitori
 
@@ -46,7 +46,7 @@ Prima di poter utilizzare la funzionalità del flusso di lavoro, è necessario a
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Modificare le informazioni sul fornitore e inviare le modifiche al flusso di lavoro
 
-Quando si modifica un campo abilitato per il flusso di lavoro, viene visualizzata la pagina **Modifiche proposte**. In questa pagina vengono visualizzati il valore originale del campo e il nuovo valore immesso. Il campo che è stato modificato viene ripristinato al valore originale. Un messaggio di stato informa anche che le modifiche non sono state inviate. 
+Quando si modifica un campo abilitato per il flusso di lavoro, viene visualizzata la pagina **Modifiche proposte**. In questa pagina vengono visualizzati il valore originale del campo e il nuovo valore immesso. Il campo che è stato modificato viene ripristinato al valore originale. Un messaggio di stato informerà anche che le modifiche non sono state inviate. 
 
 Ogni volta che si modifica un campo che è abilitato per il flusso di lavoro, questo campo viene aggiunto all'elenco nella pagina **Modifiche proposte**. Per eliminare il valore proposto per un campo, utilizzare il pulsante **Elimina** accanto al campo nell'elenco. Per eliminare tutte le modifiche, utilizzare il pulsante **Ignora tutte le modifiche** nella parte inferiore della pagina. Selezionare **OK** per chiudere la pagina.
 

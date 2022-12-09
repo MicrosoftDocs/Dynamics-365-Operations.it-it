@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a202dac3880717e9498212ca34570101188f48ce
-ms.sourcegitcommit: 631d2cea52590af15f208e9af584446e85540fcf
+ms.openlocfilehash: b26d2ec261720499fc309a5fb850de2cb796bd8b
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8725207"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802609"
 ---
 # <a name="trial-balance-financial-reports"></a>Report finanziari del bilancio di verifica
 
@@ -32,8 +32,8 @@ In questo articolo viene descritto i report predefiniti per i bilanci di verific
 
 Tre report del bilancio di verifica sono disponibili nei report finanziari.
 
-| Report predefinito                                 | Funzionamento                                                                                                                                                                                        |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Report predefinito                                 | Funzionamento                                                                            |
+|------------------------------------------------|--------------------------------------------------------------------------------------|
 | Bilancio di verifica dettagliato - Predefinito               | Fornisce informazioni sul saldo per tutti i conti e include i saldi in Avere e in Dare e l'importo netto di questi, insieme alla data della transazione, al giustificativo e alla descrizione del giornale di registrazione.                  |
 | Bilancio di verifica riepilogativo - Predefinito                | Fornisce informazioni sul saldo per tutti i conti e include i saldi di chiusura e di apertura e i saldi in Avere e in Dare, insieme alle differenze nette.                                        |
 | Bilancio di verifica riepilogativo annuale - Predefinito | Fornisce informazioni sul saldo per tutti i conti e include i saldi di chiusura e di apertura e i saldi in Avere e in Dare, insieme alle differenze nette per l'anno corrente e l'anno precedente. |
@@ -54,8 +54,8 @@ I report finanziari del bilancio di verifica utilizzano i seguenti blocchi prede
 
 La definizione di riga, Bilancio di verifica - Predefinito, contiene una singola riga che esegue il pull in tutti i conti principali. Di conseguenza, chiunque può generare il report senza dover apportare eventuali modifiche. Quando si visualizza il report, si analizza la singola riga per visualizzare i dettagli relativi a ciascun conto. È possibile modificare la definizione di riga in modo da includere più dettagli. Per modificare la definizione di riga Bilancio di verifica - Predefinito in modo che includa le righe per tutti i conti, attenersi ai passaggi seguenti.
 
-1.  Fare clic su **Modifica** e quindi su **Inserisci righe da dimensioni**. Il comando **Inserisci righe da dimensioni** consente di scegliere le dimensioni che si desidera inserire nella definizione di riga. Per questa definizione di riga, si utilizza **Conto principale**.
-2.  Assicurarsi che **Conto principale** contenga tutte le e commerciali (&) e quindi fare clic su **OK**.
+1.  Fai clic su **Modifica** e quindi su **Inserisci righe da dimensioni**. Il comando **Inserisci righe da dimensioni** consente di scegliere le dimensioni che si desidera inserire nella definizione di riga. Per questa definizione di riga, si utilizza **Conto principale**.
+2.  Assicurati che **Conto principale** contenga tutte le e commerciali (&) e quindi fai clic su **OK**.
 
 La definizione di riga ora contiene tutti i conti principale per la persona giuridica predefinita.
 

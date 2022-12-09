@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 4298d7114e0237072c242e83e51951a922e34e5a
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: e8f80aa4cc0a7248506e0725881b8f575a0c7ff4
+ms.sourcegitcommit: 29d9a7573bdac004726da88a9d7b2cc9c383e9ca
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780512"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788542"
 ---
 # <a name="create-a-free-text-invoice"></a>Crea una fattura a testo libero
 
@@ -69,6 +69,8 @@ In questo articolo viene illustrato come creare le fatture a testo libero. Per q
     * È possibile modificare il tempo di stampa delle fatture. Selezionare **Corrente** per stampare ogni fattura man mano che viene aggiornata. Selezionare **Dopo** per eseguire la stampa dopo che tutte le fatture sono state aggiornate.
     * Per modificare il modo in cui il limite di credito del cliente viene verificato prima che la fattura venga registrata, modificare il valore nel campo **Tipo di limite di credito**.
     * Puoi selezionare di interrompere la fattura quando si verifica un errore nella scheda **Aggiornamenti** nella pagina **Parametri contabilità clienti** (**Contabilità clienti > Configurazione > Parametri contabilità clienti**). Seleziona **Sì** per il parametro **Interrompi la registrazione di fatture di testo al primo errore** per interrompere la registrazione di fatture a testo libero quando si verifica un errore. Se esegui la registrazione in batch, un errore interromperà il processo di registrazione e lo stato del batch verrà impostato su **Errore**. Se questa opzione non è selezionata, il processo di registrazione ignorerà una fattura con un errore di registrazione e continuerà a registrare fatture aggiuntive. Se esegui la registrazione in un batch, un errore di registrazione non impedirà alle altre fatture di essere registrate. Lo stato del batch sarà **Terminato**. Un report del processo di registrazione dettagliato sarà disponibile per la revisione nella Cronologia processi batch.
+    * In Microsoft Dynamics 365 Finance 10.0.30, la funzionalità **Miglioramento registrazione fatture a testo libero per il calcolo del totale** migliora le prestazioni della registrazione consentendo loro di essere eseguite più efficacemente. Quando questa funzione è abilitata, la pubblicazione salverà i totali calcolati, invece di ricalcolare i totali più volte durante il processo di registrazione. 
+    * In Microsoft Dynamics 365 Finance 10.0.31, la funzionalità **Miglioramento al processo di registrazione batch di fatture a testo libero** migliora le prestazioni della registrazione consentendo loro di essere eseguite più efficacemente. Quando questa funzionalità è abilitata, la pubblicazione utilizza un modello che gestisce autonomamente il carico di lavoro di pubblicazione in batch su un numero fisso di thread, invece di assegnare un numero fisso di documenti su un numero illimitato di thread.
     * Per stampare la fattura, impostare l'opzione su **Sì**.
     * Per registrare la fattura, impostare l'opzione su **Sì**. È possibile stampare la fattura senza registrarla.
 

@@ -2,7 +2,7 @@
 title: Profili di registrazione cliente
 description: Questo articolo descrive i profili di registrazione cliente che controllano la registrazione delle transazioni cliente nella contabilità generale.
 author: JodiChristiansen
-ms.date: 12/22/2021
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0563040590eefab57706b183281c47a82e46076
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 04cf5b8656bccde974fb1adfdf830080e2f52436
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8891697"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799574"
 ---
 # <a name="customer-posting-profiles"></a>Profili di registrazione cliente
 
@@ -58,15 +58,15 @@ Se si desidera assegnare lo stesso profilo registrazione a tutte le transazioni 
 </thead>
 <tbody>
 <tr>
-<td>Profilo registrazione</td>
+<td><strong>Profilo registrazione</strong></td>
 <td>Immettere un codice per il profilo registrazione. Ad esempio, è possibile creare due profili registrazione per ottenere un conto per i saldi cliente in valuta nazionale e un altro conto per i saldi cliente in valuta estera. È possibile chiamare un conto Nazionale e l'altro Estero.</td>
 </tr>
 <tr>
-<td>Description</td>
+<td><strong>Descrizione</strong></td>
 <td>Immettere una descrizione del profilo registrazione. Viene utilizzato solo per identificare meglio il profilo registrazione quando viene visualizzato in questa pagina.</td>
 </tr>
 <tr>
-<td>Codice conto</td>
+<td><strong>Codice conto</strong></td>
 <td>Specificare se il profilo registrazione è applicabile a un singolo cliente, a un gruppo di clienti o a tutti i clienti:
 <ul>
 <li><b>Tabella</b>: il profilo registrazione viene utilizzato per un singolo cliente. Seleziona il conto cliente nel campo <b>Numero conto/gruppo</b>.</li>
@@ -76,33 +76,33 @@ Se si desidera assegnare lo stesso profilo registrazione a tutte le transazioni 
 </td>
 </tr>
 <tr>
-<td>Numero conto/gruppo</td>
+<td><strong>Numero conto/gruppo</strong></td>
 <td>Se si seleziona <b>Tabella</b> nel campo <b>Codice conto</b>, seleziona il numero di conto del cliente associato al profilo registrazione. Se è stato selezionato <b>Gruppo</b>, seleziona il gruppo di clienti. Se si seleziona <b>Tutti</b>, lasciare vuoto questo campo.</td>
 </tr>
 <tr>
-<td>Conto riepilogativo</td>
+<td><strong>Conto riepilogativo</strong></td>
 <td>Selezionare il conto principale che sarà utilizzato come conto commerciale Contabilità clienti per i clienti associati al profilo registrazione. Questo conto è il conto per il tipo di registrazione <b>Saldo cliente</b>.</td>
 </tr>
 <tr>
-<td>Conto liquidità per i pagamenti</td>
-<td>Selezionare il conto CoGe liquidità utilizzato per le previsioni di cassa. Questo campo verrà visualizzato solo se le previsioni di cassa sono abilitate.</td>
+<td><strong>Conto liquidità per i pagamenti</strong></td>
+<td>Seleziona <strong>Conto CoGe liquidità</strong> utilizzato per le previsioni di cassa. Questo campo verrà visualizzato solo se le previsioni di cassa sono abilitate.</td>
 </tr>
 <tr>
-<td>Pagamenti anticipati IVA</td>
+<td><strong>Pagamenti anticipati IVA</strong></td>
 <td><p>Selezionare il conto dell'IVA per i pagamenti incassati in anticipo.</p>
 <p><strong>Nota:</strong> Usa la pagina <b>Parametri contabilità clienti</b> per specificare il profilo registrazione da utilizzare quando un pagamento viene contrassegnato come pagamento anticipato.</p>
 </td>
 </tr>
 <tr>
-<td>Conto per passività di sconto</td>
+<td><strong>Conto per passività di sconto</strong></td>
 <td>Selezionare il conto CoGe per le passività di sconto.</td>
 </tr>
 <tr>
-<td>Sequenza lettere di sollecito</td>
+<td><strong>Sequenza lettere di sollecito</strong></td>
 <td>Selezionare l'identificatore della sequenza lettere di sollecito da utilizzare per i clienti a cui viene assegnato il profilo registrazione.</td>
 </tr>
 <tr>
-<td>Codice interessi</td>
+<td><strong>Codice interessi</strong></td>
 <td>Selezionare il codice interessi da utilizzare per il calcolo degli interessi per i clienti a cui viene assegnato il profilo registrazione.</td>
 </tr>
 </tbody>

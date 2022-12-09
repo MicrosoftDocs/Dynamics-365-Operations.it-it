@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f07748c2dc41f6411add1d54589652baa7fc3fbb
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 95a79b3c391c15099aee0a8d34419e1cf48fafbc
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779440"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803993"
 ---
 # <a name="import-letter-of-credit"></a>Importare la lettera di credito
 
@@ -42,7 +42,10 @@ Questa procedura utilizza la società dimostrativa USMF.
 10. Nell'elenco fare clic sul collegamento nella riga selezionata.
 11. Immettere una data nel campo **Data di registrazione**.
 12. Immettere una data nel campo **Data di consegna**.
-    * Nota: il campo **Tipo di documento bancario** deve essere **Lettera di credito**.  
+
+>[!Note] 
+>Il campo **Tipo di documento bancario** deve essere **Lettera di credito**.  
+
 13. Fare clic su **OK**.
 14. Nel campo **Numero articolo** immettere o selezionare un valore.
 15. Nell'elenco trovare e selezionare il record desiderato.
@@ -97,7 +100,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 1. Nel riquadro azioni, fare clic su **Ricevimento**.
 2. Fare clic su **Entrata prodotti**.
 3. Digitare un valore nel campo **PurchParmTable_Num**.
-    * Selezionare il numero di spedizione creato in riferimento alla lettera di credito.  
+    * Seleziona **Numero di spedizione** creato in riferimento alla lettera di credito.  
 4. Nell'elenco fare clic sul collegamento nella riga selezionata.
 5. Nel campo **Data entrata prodotti** immettere una data.
 6. Fare clic su **OK**.
@@ -108,7 +111,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 1. Passare a **Gestione cassa e banche > Lettere di credito > Lettera di credito di importazione e pagamento all'importazione**.
 2. Nell'elenco trovare e selezionare il record desiderato.
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-    * Verificare lo stato dell'importazione della lettera di credito.     
+    * Verificare **Stato dell'importazione della lettera di credito**.     
 4. Chiudere la pagina.
 5. Chiudere la pagina.
 
@@ -152,10 +155,10 @@ Questa procedura utilizza la società dimostrativa USMF.
 6. Nel campo **Data** immettere una data.
 7. Nel campo **Conto**, specificare i valori desiderati.
 8. Fare clic su **Liquida transazioni**.
-9. Espandere la sezione Totali.
+9. Espandere la sezione **Totali**.
 10. Selezionare un'opzione nel campo **Mostra**.
     * Verificare che i campi **Numero documento bancario** e **Numero spedizione** siano stati aggiornati.  
-11. Selezionare la casella di controllo **Contrassegna**.
+11. Seleziona la casella di controllo **Contrassegna**.
 12. Fare clic su **OK**.
 13. Fare clic sulla scheda Pagamento.
     * Verificare che i campi **Numero documento bancario** e **Numero spedizione** siano stati aggiornati.  
@@ -167,12 +170,12 @@ Questa procedura utilizza la società dimostrativa USMF.
 1. Passare a **Gestione cassa e banche > Lettere di credito > Lettera di credito di importazione e pagamento all'importazione**.
 2. Nell'elenco trovare e selezionare il record desiderato.
 3. Nell'elenco fare clic sul collegamento nella riga selezionata.
-    * Verificare lo stato dell'importazione della lettera di credito.   
+    * Verificare **Stato dell'importazione della lettera di credito**.   
 4. Chiudere la pagina.
 
 ## <a name="verify-the-bank-facility-limit-and-utilization-report"></a>Verificare il report di utilizzo e limite di linee di credito bancarie
 1. Passare a **Gestione cassa e banche > Richieste di informazioni e report Lettere di credito o garanzia > Report di utilizzo e linee di credito bancarie**.
-2. Espandere la sezione Record da includere.
+2. Espandi la sezione **Record da includere**.
 3. Fare clic su **Filtro**.
     * Definire il campo **Criteri** con il conto bancario richiesto.  
 4. Nel campo **Criteri** immettere o selezionare un valore.

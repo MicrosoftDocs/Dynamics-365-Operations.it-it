@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5fbcee713625c597080d1d63ba0ffc70f088799
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0691c65e6a499f713952070811cefaa7a213af7b
+ms.sourcegitcommit: c364f50ea0ad50bac5c30724b6ce301d9574b653
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8901286"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9787555"
 ---
 # <a name="ledger-allocation-rules"></a>Regole di allocazione contabile
 
@@ -28,7 +28,7 @@ ms.locfileid: "8901286"
 
 Questo articolo fornisce informazioni sulle regole di allocazione della contabilità generale. Descrive i vari componenti delle regole di allocazione e i metodi di allocazione che possono essere utilizzati per tali regole.
 
-Le regole di allocazione contabile vengono utilizzate per calcolare e generare automaticamente i giornali di registrazione e le voci contabili per l'allocazione dei saldi contabili o degli importi fissi. I metodi di allocazione possono essere variabili o fissi. I seguenti metodi di allocazione possono essere utilizzati per le regole di allocazione contabile:
+Le regole di allocazione contabile vengono utilizzate per calcolare e generare automaticamente i giornali di registrazione e le voci contabili per l'allocazione dei saldi contabili o degli importi fissi. I metodi di allocazione possono essere variabili o fissi. L'allocazione si basa sul valore della valuta della transazione. Ad esempio, le voci contabili perdita/profitto in valuta estera vengono registrate per rettificare gli importi in valuta contabile e di dichiarazione. Queste voci non sono soggette a regole di allocazione perché il loro valore nella valuta della transazione è 0,00. I seguenti metodi di allocazione possono essere utilizzati per le regole di allocazione contabile:
 
 -   **Base**: il metodo variabile viene utilizzato quando l'allocazione dipende dal saldo contabile, in base ai criteri di filtro. È ad esempio possibile allocare le spese relative alla pubblicità in base alle vendite di ciascun reparto in rapporto alle vendite totali di tutti i reparti.
 -   **Percentuale fissa** e **Peso fisso**: per questi metodi la percentuale o il peso di allocazione è definito direttamente per la regola. Ad esempio, le spese di pubblicità possono essere allocate in modo che il reparto A ne riceva il 70 percento e il reparto B il 30 percento.

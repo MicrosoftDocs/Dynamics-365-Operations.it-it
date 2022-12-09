@@ -1011,7 +1011,23 @@
                 - name: Caricare reindirizzamenti URL in blocco
                   href: upload-bulk-redirects.md
                 - name: Impostare un tenant B2C in Commerce
-                  href: set-up-B2C-tenant.md
+                  items:
+                    - name: Impostare un tenant B2C
+                      href: set-up-B2C-tenant.md
+                    - name: Creare o collegare un tenant Azure AD B2C esistente
+                      href: create-link-aad-b2c-tenant.md
+                    - name: Creare un'applicazione B2C
+                      href: create-b2c-app.md
+                    - name: Creare criteri di flusso utente
+                      href: create-user-flow-policies.md
+                    - name: Aggiungere provider di identità social
+                      href: add-social-identity-providers.md
+                    - name: Aggiornare Commerce headquarters con informazioni Azure AD B2C
+                      href: update-hq-aad-b2c-info.md
+                    - name: Configurare il tenant B2C nel generatore siti
+                      href: config-b2c-tenant-site-builder.md
+                    - name: Informazioni B2C aggiuntive
+                      href: additional-b2c-info.md
                 - name: Impostare pagine personalizzate per l'accesso degli utenti
                   href: custom-pages-user-logins.md
                 - name: Abilitare il collegamento automatico dei record di identità agli account dei clienti
@@ -1570,6 +1586,8 @@
               items:
                 - name: Generare codici QR e stamparli sulle ricevute per l'Arabia Saudita
                   href: localizations/emea-sau-qr-code.md
+                - name: Generare e inviare fatture elettroniche semplificate per l'Arabia Saudita
+                  href: localizations/emea-sau-simplified-e-invoices.md
             - name: Svezia
               items:
                 - name: Funzionalità registratore di cassa
@@ -2988,7 +3006,7 @@
                   href: troubleshoot/payment-type-credit-card-error.md
                 - name: Le imposte sugli ordini online sono calcolate in modo errato
                   href: troubleshoot/tax-miscalculated-online-order.md
-                - name: Errore di sincronizzazione dell'ordine relativo al servizio di pagamento predefinito
+                - name: Problemi di sincronizzazione degli ordini asincroni
                   href: troubleshoot/synchronization-error.md
             - name: Elaborazione pagamenti
               items:

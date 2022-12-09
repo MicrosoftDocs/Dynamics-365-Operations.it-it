@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51c6cb7c5706bb4bd7080c7f7d679e49771443d1
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e6c98246e94670dd5f882fcbbd1f269e57f66faf
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8869838"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805289"
 ---
 # <a name="request-a-leave-of-absence"></a>Richiedere un congedo
 
@@ -51,6 +51,22 @@ ms.locfileid: "8869838"
 1. Nell'area di lavoro **Dipendente self-service**, selezionare **Altro** nel riquadro **Saldi permessi**.
 
 2. Per visualizzare le richieste di congedo, selezionare **Visualizza congedo**.
+
+## <a name="update-a-leave-of-absence-request"></a>Aggiornare una richiesta di congedo
+
+1. Nell'area di lavoro **Self-service dipendenti**, seleziona **Altro (...)** nel riquadro **Congedo e assenza**.
+2. Seleziona la richiesta di congedo da aggiornare, quindi **Aggiorna congedo**.
+3. Nel campo **Data di fine**, aggiorna il valore in modo appropriato per estendere o abbreviare il congedo.
+4. Se la data di fine è confermata, imposta l'opzione **Conferma data di fine** su **Sì**.
+5. Dopo che l'opzione **Conferma data di fine** è stata impostata su **Sì**, puoi caricare un preavviso di rientro al lavoro. Quindi seleziona la casella di controllo per confermare che è stato caricato un preavviso di ritorno al lavoro.
+6. Seleziona **Invia** per aggiornare la richiesta di congedo.
+
+## <a name="cancel-a-leave-of-absence-request"></a>Annullare una richiesta di congedo
+
+1. Nell'area di lavoro **Self-service dipendenti**, seleziona **Altro (...)** nel riquadro **Congedo e assenza**.
+2. Seleziona la richiesta di congedo da annullare, quindi **Aggiorna congedo**.
+3. Impostare l'opzione **Annulla congedo** su **Sì**.
+4. Seleziona **Invia** per annullare la richiesta di congedo.
 
 ## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Importazione delle richieste di congedo da altri sistemi o da sistemi precedenti
 

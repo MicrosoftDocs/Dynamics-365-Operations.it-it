@@ -2,7 +2,7 @@
 title: Aggiornare un processo
 description: Microsoft Dynamics 365 Human Resources è un vero software come un servizio (SaaS, software as a service) che fornisce aggiornamenti di servizio continui e touchless per modifiche di applicazioni o piattaforme.
 author: twheeloc
-ms.date: 09/01/2022
+ms.date: 12/01/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 71815866ef9674f317b7f08ecf2a65b465ddfff3
-ms.sourcegitcommit: d2046cad5de570e6302a4390b41881a7ecb12e26
+ms.openlocfilehash: 197b3c5717494ab3c80a57cda337a9021293bf73
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/15/2022
-ms.locfileid: "9520812"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819298"
 ---
 # <a name="update-process"></a>Aggiornare un processo
 
@@ -41,7 +41,7 @@ Gli aggiornamenti vengono rilasciati a cadenza regolare per tutti gli ambienti. 
 
 Gli aggiornamenti di Human Resources vengono applicati automaticamente a tutti gli ambienti. Human Resources fornisce due tipi di rilasci:
 
-- **Aggiornamenti del servizio**: aggiornamenti bisettimanali che includono correzioni di bug e nuove funzionalità. Gli aggiornamenti del servizio includono anche gli aggiornamenti applicabili della piattaforma quando vengono rilasciati. Per ulteriori informazioni sui rilasci della piattaforma, vedere [Novità o modifiche negli aggiornamenti della piattaforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Gli aggiornamenti prevedono un'implementazione globale in fasi tra le regioni. Per ulteriori informazioni sugli aggiornamenti, vedere [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Aggiornamenti del servizio**: gli aggiornamenti del servizio includono anche gli aggiornamenti applicabili della piattaforma quando vengono rilasciati. Oltre agli aggiornamenti basati sulle eccezioni, gli aggiornamenti regolari del servizio si verificano in seguito agli aggiornamenti della piattaforma Dynamics 365 Finance (generalmente disponibili) di Dynamics 365 Finance. Per ulteriori informazioni sui rilasci della piattaforma, vedere [Novità o modifiche negli aggiornamenti della piattaforma](../fin-ops-core/dev-itpro/get-started/whats-new-home-page.md). Gli aggiornamenti prevedono un'implementazione globale in fasi tra le regioni. Per ulteriori informazioni sugli aggiornamenti, vedere [Novità o modifiche in Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
 - **Aggiornamenti della soluzione Dataverse**: questi aggiornamenti si verificano all'incirca ogni sei settimane, come necessario. Includono nuove entità e modifiche a entità esistenti in Dataverse. Questi aggiornamenti vengono rilasciati nelle stesse aree degli aggiornamenti bisettimanali e richiedono circa sei settimane per replicarsi in tutti i datacenter. Gli aggiornamenti della soluzione possono essere allineati o meno agli aggiornamenti del servizio bisettimanali.
 
@@ -55,15 +55,6 @@ Quando necessario, Human Resources fornisce i seguenti tipi di correzioni:
 - **Correzione di emergenza**: aggiornamenti rapidi proattivi e reattivi in genere autonomi che possono includere modifiche al codice o solo alla configurazione per risolvere problemi del sito live e possono verificarsi separatamente da una versione di aggiornamento del servizio bisettimanale
 
 I rilasci sono verificati, testati e convalidati in un ambiente interno. Dopo essere state autorizzate, le build vengono distribuite alla produzione.
-
-## <a name="release-cadence-exceptions-in-2021"></a>Eccezioni di cadenza di rilascio nel 2021
-
-Per tenere conto delle festività, il programma di rilascio per novembre e dicembre 2021 è il seguente:
-
-- Versione di novembre: 1 novembre - 14 novembre
-- Versione di dicembre: 29 dicembre - 12 dicembre
- 
-La cadenza di rilascio bisettimanale riprenderà come al solito l'10 gennaio 2022.
 
 ## <a name="communications"></a>Comunicazioni
 

@@ -2,21 +2,21 @@
 title: Report valore di magazzino
 description: In questo articolo viene descritto come configurare, generare e utilizzare impostare i report sul valore. Questi report forniscono dettagli sulle quantità e sugli importi fisici e finanziari del magazzino.
 author: JennySong-SH
-ms.date: 08/05/2022
+ms.date: 11/28/2022
 ms.topic: article
-ms.search.form: InventValueProcess, InventValueReportSetup
+ms.search.form: InventValueProcess, InventValueReportSetup, InventValueExecutionHistory, DataManagementWorkspace
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yanansong
 ms.search.validFrom: 2021-10-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f97b5bd228c6f769438d50bb27950b8d8fbda3e8
-ms.sourcegitcommit: 203c8bc263f4ab238cc7534d4dd902fd996d2b0f
+ms.openlocfilehash: 6b21f6a7856526863914aac73d50e5c3a70605e8
+ms.sourcegitcommit: 5f8f042f3f7c3aee1a7303652ea66e40d34216e3
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/23/2022
-ms.locfileid: "9334927"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9806408"
 ---
 # <a name="inventory-value-reports"></a>Report valore di magazzino
 
@@ -129,7 +129,7 @@ Utilizza la pagina **Report valore di magazzino** per configurare il contenuto i
     - **Esternalizzazione diretta**: imposta questa opzione su *Sì* per mostrare i costi di esternalizzazione diretta WIP. Queste informazioni sono utili per il conto lavoro.
     - **Livello dettagli**: seleziona un'opzione di visualizzazione per il report:
 
-        - *Transazioni*: visualizza tutte le transazioni rilevanti sul report. Tieni presente che potresti riscontrare problemi di prestazioni quando visualizzi report che includono un grande volume di transazioni. Pertanto, se vuoi utilizzare questa opzione di visualizzazione, è consigliabile utilizzare il report **Report di archiviazione valori di magazzino**.
+        - *Transazioni*: visualizza tutte le transazioni rilevanti sul report. Potresti riscontrare problemi di prestazioni quando visualizzi report che includono un grande volume di transazioni. Pertanto, se vuoi utilizzare questa opzione di visualizzazione, è consigliabile utilizzare il report **Report di archiviazione valori di magazzino**.
         - *Totali*: visualizza il risultato totale.
 
     - **Includi saldo iniziale**: imposta questa opzione su *Sì* per mostrare il saldo iniziale. Questa opzione è disponibile solo quando il campo **Livello dettagli** è impostato su *Transazioni*.
@@ -172,7 +172,7 @@ Dopo aver generato un report, è possibile visualizzarlo ed esplorarlo in qualsi
     - Usare il campo **Filtro** per filtrare il report in base a qualsiasi valore in una delle diverse colonne disponibili.
     - Utilizzare il menu Visualizza (sopra il campo **Filtro** ) per salvare e caricare le combinazioni preferite di opzioni di ordinamento e filtro.
 
-## <a name="export-an-inventory-value-report-storage-report"></a>Esportare un report di archiviazione valori di magazzino
+## <a name="export-an-inventory-value-report-storage-report"></a><a name="export-stored-report"></a>Esportare un report di archiviazione valori di magazzino
 
 Qualsiasi report generato viene archiviato nell'entità dati **Valori di inventario**. È possibile utilizzare le funzionalità standard di gestione dei dati di Supply Chain Management per esportare i dati da questa entità in qualsiasi formato di dati supportato, come CSV o Excel.
 
@@ -180,7 +180,7 @@ L'esempio seguente mostra come esportare un report **Report di archiviazione val
 
 1. Passare all'**Amministrazione sistema \> Aree di lavoro \> Gestione dati**.
 1. Nella sezione **Importare / Esportare**, selezionare il riquadro **Esportare**.
-1. Nella pagina visualizzata **Esportare**, impostare il processo di esportazione. Immettere innanzitutto un nome di gruppo per il lavoro.
+1. Nella pagina visualizzata **Esportare**, imposta il processo di esportazione. Immettere innanzitutto un nome di gruppo per il lavoro.
 1. Nella sezione **Entità selezionate**, selezionare **Aggiungi entità**.
 1. Nella finestra di dialogo visualizzata, impostare i seguenti campi:
 
@@ -188,12 +188,12 @@ L'esempio seguente mostra come esportare un report **Report di archiviazione val
     - **Formato dei dati di destinazione** - Selezionare il formato in cui esportare i dati.
 
 1. Selezionare **Aggiungi** per aggiungere la nuova riga e quindi selezionare **Chiudi** per chiudere la finestra di dialogo.
-1. In genere, è possibile esportare un report alla volta. Per esportare un report singolo, impostare un filtro per la riga appena aggiunta alla finestra di dialogo **Richiesta**. In questo modo, è possibile definire quale report dall'entità **Valore di inventario** è incluso nell'esportazione. Seguire i passaggi seguenti per Impostare le opzioni di filtro ed esportare un singolo report:
+1. Di solito si esporta un report alla volta. Per esportare un report singolo, impostare un filtro per la riga appena aggiunta alla finestra di dialogo **Richiesta**. In questo modo, è possibile definire quale report dall'entità **Valore di inventario** è incluso nell'esportazione. Seguire i passaggi seguenti per Impostare le opzioni di filtro ed esportare un singolo report:
 
     1. Nella scheda **Intervallo**, selezionare **Aggiungere** per aggiungere una nuova riga.
     2. Impostare il campo **Codice articolo** su *Valore di inventario*.
     3. Impostare il campo **Tabella derivata** su *Valore di inventario*.
-    4. Impostare il campo **Campo** sul campo che si desidera filtrare. Generalmente, userete il campo **Nome esecuzione** e/o il campo **Tempo esecuzione**.
+    4. Impostare il campo **Campo** sul campo che si desidera filtrare. Generalmente, userai il campo **Nome esecuzione** e/o il campo **Tempo esecuzione**.
     5. Impostare il campo **Criteri** sul valore che si desidera cercare nel campo selezionato. (Se si è selezionato il campo **Nome esecuzione** nel passaggio precedente, questo valore sarà il nome del report. Se si è selezionato il campo **Tempo esecuzione**, sarà il momento in cui il report è stato generato).
     6. Se necessario, aggiungere più righe nella scheda **Intervallo** in base alle esigenze, fino a che non è stato identificato in modo univoco il report che si sta cercando.
 
@@ -203,6 +203,34 @@ L'esempio seguente mostra come esportare un report **Report di archiviazione val
 1. Nella pagina visualizzata **Riepilogo dell'esecuzione**, è possibile vedere lo stato del processo di esportazione e l' elenco delle entità esportate. Nella sezione **Stato elaborazione entità** selezionare l'entità **Valore di inventario** nell'elenco e quindi selezionare **Scarica file** per scaricare i dati esportati da tale entità.
 
 Per ulteriori informazioni su come utilizzare la gestione dei dati per esportare i dati, vedere [Panoramica processi di importazione ed esportazione dati](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+## <a name="delete-stored-inventory-value-reports"></a>Elimina i report del valore di magazzino archiviato
+
+Con l'aumentare del numero di report sui valori di inventario archiviati, potrebbero iniziare a occupare troppo spazio nel database. Questa situazione può influire sulle prestazioni del sistema e causare costi di archiviazione dei dati più elevati. Pertanto, probabilmente dovrai ripulire i report di volta in volta eliminando i report meno recenti.
+
+> [!IMPORTANT]
+> Prima di eliminare qualsiasi report sul valore dell'inventario generato in precedenza, ti consigliamo vivamente di [esportare i report](#export-stored-report) e archiviarli esternamente, perché potresti non essere in grado di rigenerarli di nuovo dopo. Questa limitazione esiste perché quando si genera un report del valore di inventario, il sistema funziona a ritroso da oggi ed elabora ogni record di transazione di inventario in ordine inverso man mano che procede. Se provi a guardare troppo indietro quando generi un report, il volume delle transazioni da elaborare potrebbe diventare così grande che il sistema andrà in timeout prima di poter completare la generazione del report. La distanza nel passato per la quale è possibile generare nuovi report dipende dal numero di transazioni di inventario presenti nel sistema per l'intervallo di tempo pertinente.
+
+### <a name="delete-one-report-at-a-time"></a>Elimina un report alla volta
+
+Segui questi passaggi per eliminare un report archiviato alla volta.
+
+1. [Esporta il report](#export-stored-report) che intendi eliminare e archivialo in una posizione esterna per futuro riferimento.
+1. Passare a **Gestione costi \> Richieste di informazioni e report \> Report di archiviazione valori di magazzino**.
+1. Nel riquadro dell'elenco seleziona il report da eliminare.
+1. Nel riquadro delle azioni seleziona **Elimina**.
+1. Un messaggio di avviso ricorda di eseguire il backup dei report generati. Seleziona **Sì** se sei pronto a procedere con l'eliminazione.
+
+### <a name="delete-several-reports-at-the-same-time"></a>Elimina più report contemporaneamente
+
+Segui questi passaggi per eliminare report archiviati contemporaneamente.
+
+1. [Esporta tutti i report](#export-stored-report) che intendi eliminare e archiviali in una posizione esterna per futuro riferimento.
+1. Vai a **Gestione costi \> Contabilità inventario \> Pulizia \> Pulizia dati report valori di magazzino**.
+1. Nella finestra di dialogo **Pulizia dati report valori di magazzino**, nel campo **Elimina il report valore di inventario eseguito in precedenza**, seleziona la data prima della quale tutti i report di valore dell'inventario devono essere eliminati.
+1. Nella scheda dettaglio **Record da includere** puoi impostare altre condizioni dei filtri per limitare il set di report che verranno eliminati. Seleziona **Filtro** per aprire una finestra di dialogo di editor di query standard, in cui puoi definire le proprietà dei report da eliminare.
+1. Nella Scheda dettaglio **Esegui in background**, puoi specificare come, quando e con quale frequenza i report dovranno essere eliminati. I campi funzionano esattamente come funzionano per altri tipi di [processi in background](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) in Supply Chain Management. Tuttavia, in genere eseguirai questo processo manualmente ogni volta che è necessario.
+1. Seleziona **OK** per eliminare i report specifici.
 
 ## <a name="generate-a-standard-inventory-value-report"></a>Generare un report sul valore di magazzino standard
 

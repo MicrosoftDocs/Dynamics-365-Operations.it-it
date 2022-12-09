@@ -1046,9 +1046,11 @@
               href: lifecycle-services/querycookbook.md
             - name: Eliminazione di dati e abbonamenti scaduti
               href: lifecycle-services/expired-subscription-data-deletion.md
-            - name: Microsoft Dynamics 365 - Translation Service
+            - name: Microsoft Dynamics 365 Translation Service
               items:
-                - name: Panoramica Dynamics 365 Translation service
+                - name: Novità in Dynamics Translation Service
+                  href: lifecycle-services/dts-announcements.md
+                - name: Panoramica di Dynamics 365 Translation service
                   href: lifecycle-services/translation-service-overview.md
                 - name: Tradurre file dell'interfaccia utente
                   href: lifecycle-services/use-translation-service.md

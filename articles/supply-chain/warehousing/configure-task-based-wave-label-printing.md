@@ -2,7 +2,7 @@
 title: Pianifica la stampa dell'etichetta ciclo durante il ciclo
 description: Questo articolo descrive come impostare e utilizzare la funzionalità per la stampa di etichette ciclo basata su attività.
 author: perlynne
-ms.date: 06/09/2021
+ms.date: 12/02/2022
 ms.topic: article
 ms.search.form: WHSPostMethod, WHSWavePostMethodTaskConfig, WHSWaveTemplateTable, WHSParameters, WHSWaveTableListPage, WHSWorkTableListPage, WHSWorkTable, BatchJobEnhanced, WHSPlannedWorkOrder
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ac2bc4cce42bada43334b82301d716414cd6d654
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e788e5a9206e46ada6490d4a0196c7ea8ca6af15
+ms.sourcegitcommit: 04e42c495d018e457fb3b038cadc4fe75ecbba12
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8889459"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822364"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Pianifica la stampa dell'etichetta ciclo durante il ciclo
 
@@ -32,7 +32,6 @@ Quando usi la funzionalità *Stampa etichette ciclo basata su attività* il sist
 
 Per utilizzare le funzionalità descritte in questo articolo, è necessario attivarle per il sistema. Usa l'area di lavoro [Gestione funzionalità](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) per attivare le funzionalità nel seguente ordine:
 
-1. *Stampa etichette ciclo* – Questa funzione è necessaria per abilitare il metodo di processo ciclo per la stampa di etichette ciclo.
 1. *Blocco del lavoro a livello di organizzazione* - Questa funzione è necessaria per la configurazione sia manuale che automatica della creazione del lavoro programmato. (A partire dalla versione 10.0.21 di Supply Chain Management, questa funzionalità è obbligatoria, quindi è attivata per impostazione predefinita e non può essere disattivata di nuovo.)
 1. *Stampa etichette ciclo basata su attività* – Questa funzione è necessaria per suddividere la stampa di etichette ciclo in un ambito di transazione separato.
 

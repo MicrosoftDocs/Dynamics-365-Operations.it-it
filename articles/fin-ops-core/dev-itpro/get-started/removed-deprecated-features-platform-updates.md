@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7d74efe7aa4f3a30c116253d647b9d7bec3b508d
-ms.sourcegitcommit: 774f8f97a0b14cf1199bd1802178ccf536a25ade
+ms.openlocfilehash: 6283e07b87dc169d3cbaa71a371839ab9b2d6150
+ms.sourcegitcommit: ee13b854cbd52a3aa33e2449a296aed775862594
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/17/2022
-ms.locfileid: "9785101"
+ms.lasthandoff: 11/21/2022
+ms.locfileid: "9799038"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Funzionalità della piattaforma rimosse o deprecate
 
@@ -71,10 +71,10 @@ Nell'ambito del programma [One Dynamics One Platform](/dynamics365-release-plan/
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo della deprecazione/rimozione** | Stiamo rimuovendo il seguente elenco di suite di crittografia per assicurare la conformità ai nostri protocolli di sicurezza correnti.<br><br>TLS_RSA_WITH_AES_256_GCM_SHA384<br>TLS_RSA_WITH_AES_128_GCM_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA256<br>TLS_RSA_WITH_AES_128_CBC_SHA256<br>TLS_RSA_WITH_AES_256_CBC_SHA<br>TLS_RSA_WITH_AES_256_CBC_SHA  |
-| **Sostituita da un'altra funzionalità?**   | A partire dal 31 gennaio 2023, i clienti possono utilizzare solo le nostre [suite di crittografia standard](/power-platform/admin/server-cipher-tls-requirements). Questa modifica ha un impatto sui tuoi client e server che comunicano con i nostri server. Ad esempio, potrebbe influire sulle integrazioni di terze parti che non aderiscono alle nostre suite di crittografia standard. |
+| **Sostituita da un'altra funzionalità?**   | A partire da gennaio 2023, i clienti possono utilizzare solo le nostre [suite di crittografia standard](/power-platform/admin/server-cipher-tls-requirements). Questa modifica ha un impatto sui tuoi client e server che comunicano con i nostri server. Ad esempio, potrebbe influire sulle integrazioni di terze parti che non aderiscono alle nostre suite di crittografia standard. |
 | **Aree del prodotto interessate**         | App Finanza e operazioni |
 | **Opzione di distribuzione**              | Distribuzioni cloud |
-| **Status**                         | Deprecato. I clienti devono aggiornare i propri server entro il 31 gennaio 2023. Per ulteriori informazioni sulla configurazione dell'ordine Suite di crittografia TLS, vedi [Gestire Transport Layer Security (TLS)](/windows-server/security/tls/manage-tls).  |
+| **Status**                         | Deprecato. I clienti devono aggiornare i propri server entro gennaio 2023. Per ulteriori informazioni sulla configurazione dell'ordine Suite di crittografia TLS, vedi [Gestire Transport Layer Security (TLS)](/windows-server/security/tls/manage-tls).  |
 
 
 ## <a name="feature-deprecation-effective-june-2022"></a>Ritiro delle funzionalità in vigore da giugno 2022

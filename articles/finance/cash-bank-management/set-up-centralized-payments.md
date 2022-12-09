@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4843d9555b86c4ebe1edfe2da763f305357a7423
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 16548572cd70129efcc7dacf0236f3eb4b252d88
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715642"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804049"
 ---
 # <a name="set-up-centralized-payments"></a>Impostare i pagamenti centralizzati
 
@@ -34,7 +34,10 @@ Utilizzare questa procedura per preparare l'elaborazione dei pagamenti in una pe
 -   Impostazione della contabilità interaziendale.
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>Impostare una gerarchia organizzativa per i pagamenti centralizzati
-Per i pagamenti centralizzati è necessario impostare una gerarchia organizzativa. Tale gerarchia organizzativa viene utilizzata per elaborare sia i pagamenti centralizzati dei fornitori che quelli dei clienti. **Nota:** la struttura della gerarchia non è rilevante ai fini dei pagamenti centralizzati. Qualsiasi persona giuridica della gerarchia potrà elaborare pagamenti per conto di qualsiasi altra persona giuridica nella gerarchia. Nella pagina **Gerarchie organizzative** è possibile creare una nuova gerarchia organizzativa. Nel campo **Scopo** è necessario selezionare **Pagamenti centralizzati**. 
+Per i pagamenti centralizzati è necessario impostare una gerarchia organizzativa. Tale gerarchia organizzativa viene utilizzata per elaborare sia i pagamenti centralizzati dei fornitori che quelli dei clienti. 
+
+>[!Note] 
+>La struttura della gerarchia non è rilevante ai fini dei pagamenti centralizzati. Qualsiasi persona giuridica della gerarchia potrà elaborare pagamenti per conto di qualsiasi altra persona giuridica nella gerarchia. Nella pagina **Gerarchie organizzative** è possibile creare una nuova gerarchia organizzativa. Nel campo **Scopo** è necessario selezionare **Pagamenti centralizzati**. 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>Impostare un conto interaziendale per i pagamenti centralizzati
 Quando le transazioni di pagamento nella persona giuridica corrente vengono liquidate con fatture presenti in altre persone giuridiche, vengono create le transazioni relative a importi da versare e da ricevere appropriate per ciascuna persona giuridica. È necessario specificare la persona giuridica in cui vengono registrati gli sconti di cassa applicabili e gli importi di profitti o perdite realizzati. Prima di iniziare, scegliere la persona giuridica da utilizzare per l'elaborazione dei pagamenti fornitore e cliente. Se una persona giuridica elabora i pagamenti fornitore mentre un'altra elabora i pagamenti cliente, sarà necessario passare a ciascuna persona giuridica. Nella pagina **Contabilità interaziendale** è possibile selezionare un record di relazione interaziendale per una persona giuridica per conto della quale verranno elaborati i pagamenti. 

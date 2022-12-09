@@ -11,12 +11,12 @@ ms.author: rashmim
 ms.search.validFrom: 2022-08-19
 ms.search.form: ''
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: d417b16706ac4389e40e25ffbbddde5ebac92db3
-ms.sourcegitcommit: 9740f9b41a7dcf1821c6baccb2e05b9865ac2966
+ms.openlocfilehash: ecfeb3e6c5760b526ade609ee38f83da083b34d2
+ms.sourcegitcommit: e88ecaccd82afa3a915e41df1d4287d99da6a48a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/15/2022
-ms.locfileid: "9775405"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805316"
 ---
 # <a name="proactive-quality-updates"></a>Aggiornamenti qualitativi proattivi
 
@@ -105,19 +105,19 @@ Per informazioni sulle ore notturne per ciascuna area, vedi [Quali sono le fines
 
 ### <a name="proactive-quality-update-release-10029"></a><a name="schedule"></a>Rilascio dell'aggiornamento qualitativo proattivo: 10.0.29
 **Versione app: 10.0.1326.70**  
-**Articolo della knowledge base corrispondente più recente: 748926**
+**Articolo della knowledge base corrispondente più recente: 750332**
 
 | Stazione | Regioni | Programmazione completata | Prossima programmazione sandbox|
 |---|---|---|---|
-| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 14 ottobre al 17 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
-| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 15 ottobre al 18 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
-| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 16 ottobre al 19 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 13 novembre al 16 novembre 2022 |
-| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 17 ottobre al 20 ottobre 2022 e dal 2 novembre al 5 novembre 2022 | Dal 15 novembre al 18 novembre 2022 |
+| Stazione 1 | Canada centrale, Canada orientale, Francia centrale, India centrale, Norvegia orientale, Svizzera occidentale | Dal 14 ottobre al 17 ottobre 2022, dal 2 novembre al 5 novembre 2022, dal 13 novembre al 16 novembre 2022 | Dal 5 all'8 dicembre|
+| Stazione 2 | Francia meridionale, India meridionale, Norvegia occidentale, Svizzera settentrionale, Sud Africa settentrionale, Australia orientale, Regno Unito meridionale, Emirati Arabi Uniti settentrionale, Giappone orientale, Australia sud est, Sud Est Asiatico | Dal 15 ottobre al 18 ottobre 2022, dal 2 novembre al 5 novembre 2022, dal 13 novembre al 16 novembre 2022 | Dal 5 all'8 dicembre|
+| Stazione 3 | Asia orientale, Regno Unito occidentale, Giappone occidentale, Brasile meridionale, Europa occidentale, Stati Uniti orientali, Emirati Arabi Uniti centrali | Dal 16 ottobre al 19 ottobre 2022, dal 2 novembre al 5 novembre 2022, dal 13 novembre al 16 novembre 2022 | Dal 5 all'8 dicembre|
+| Stazione 4 | Nord Europa, Stati Uniti centrali, Stati Uniti occidentali | Dal 17 ottobre al 20 ottobre 2022, dal 2 novembre al 5 novembre 2022, dal 15 novembre al 18 novembre 2022 | Dal 5 all'8 dicembre|
 | Stazione 5 | DoD, Government Community Cloud, Cina | Non programmato | Non programmato |
 
 ### <a name="proactive-quality-update-release-10030"></a><a name="schedule"></a>Rilascio dell'aggiornamento qualitativo proattivo: 10.0.30
-**Versione dell'app: TBD**
-**Articolo corrispondente più recente della KB: TBD**
+**Versione dell'app: 10.0.1362.77**
+**Articolo corrispondente più recente della KB: 767597**
 
 | Stazione | Regioni | Prossima programmazione sandbox |
 |---|---|---|
@@ -147,14 +147,14 @@ Microsoft si impegna a mantenere la pipeline di rilascio sufficientemente effici
 N. L'obiettivo principale degli aggiornamenti di qualità è garantire che elementi fondamentali come sicurezza, privacy, affidabilità, disponibilità e prestazioni siano in continuo miglioramento per i nostri clienti. Ritardando o sospendendo un aggiornamento, la sicurezza, la disponibilità e l'affidabilità saranno a rischio.
 
 ## <a name="how-do-i-know-what-set-of-changes-went-into-a-quality-update-payload"></a>Come posso conoscere quale insieme di modifiche è stato apportato a un payload di aggiornamento di qualità?
-I passaggi seguenti sono una soluzione temporanea mentre continuiamo a lavorare per fornire una soluzione migliore per identificare l'elenco delle modifiche che entrano in un payload di aggiornamento della qualità. 
+Segui i passaggi di seguito per identificare l'elenco delle modifiche che entrano in un payload di aggiornamento qualitativo. 
 
-Utilizza KB# 745340 per l'addestramento di aggiornamento della qualità 10.0.28 e la relativa versione dell'app 10.0.1265.89.
+Utilizza l'addestramento di aggiornamento della qualità 10.0.28 e la relativa versione dell'app 10.0.1265.89.
 
 1. In Lifecycle Services e apri la pagina **Dettagli ambiente** per il tuo sandbox. 
 2. Nella sezione **Aggiornamenti disponibili** seleziona **Visualizza aggiornamento** per l'ultima build di aggiornamento della qualità. 
 3. Esporta la build in un CSV o in un file Microsoft Excel.
-4. Nel file esportato, ordina le informazioni in base all'ora (prima la meno recente) e quindi cerca il numero KB 745340 nella colonna **ID aggiornamento**. Dovrebbe essere possibile vedere l'elenco delta degli articoli KB.
+4. Nel file esportato, filtra e seleziona la **versione della build** che è precedente o uguale al numero build 10.0.1265.89. Dovrebbe essere possibile vedere il payload delta.
  
 > [!NOTE]
 > L'esportazione in un file CSV o di Excel deve avvenire prima dell'aggiornamento dell'ambiente. In caso contrario, puoi utilizzare un ambiente con una configurazione simile in cui non è installato l'aggiornamento e seguire i passaggi precedenti.
@@ -185,8 +185,8 @@ In caso di contesa con un'azione preprogrammata, ad esempio un Ripristino tempor
 ## <a name="can-an-environment-be-brought-back-to-its-previous-state-if-there-are-issues-after-a-quality-update-is-applied"></a>È possibile riportare un ambiente allo stato precedente se si verificano problemi dopo l'applicazione di un aggiornamento della qualità?
 Dopo l'applicazione di un aggiornamento di qualità, non viene eseguito il rollback in nessun caso. Sono disponibili solo opzioni di patch forward per mitigare i problemi.
 
-## <a name="what-about-fda-regulation-and-gpx"></a>Che dire del regolamento FDA e del GPX?
-Il piano per i clienti soggetti a convalida e regolamentazione FDA è ancora in evoluzione. Aspettati presto altri aggiornamenti in questo argomento. Per ora, tutti questi clienti sono esenti da aggiornamenti di qualità. Per garantire che un cliente rientri nelle normative FDA, visita [Offerta Microsoft Azure GPX](/azure/compliance/offerings/offering-gxp).
+## <a name="what-about-fda-regulation-and-gxp"></a>Che dire del regolamento FDA e del GxP?
+Il piano per i clienti soggetti a convalida e regolamentazione FDA è ancora in evoluzione. Aspettati presto altri aggiornamenti in questo argomento. Per ora, tutti questi clienti sono esenti da aggiornamenti di qualità. Per garantire che un cliente rientri nelle normative FDA, visita [Offerta Microsoft Azure GxP](/azure/compliance/offerings/offering-gxp).
 
 ## <a name="what-versions-of-service-updates-are-supported-for-these-quality-updates"></a>Quali versioni degli aggiornamenti del servizio sono supportate per questi aggiornamenti di qualità?
 I clienti che utilizzano tutte le versioni supportate degli aggiornamenti del servizio si qualificano per gli aggiornamenti della qualità. 

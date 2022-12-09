@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30e21c11b067f6def127f3eab026d7255ab1ca29
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 786aecf69bae3d07ac80a55b4dc835dd8129bd59
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779936"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803966"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transazione lettera di garanzia
 
@@ -43,7 +43,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 1. Andare a **Contabilità clienti > Ordini > Tutti gli ordini cliente**.
 2. Fare clic su **Nuovo**.
 3. Nel campo **Conto cliente**, immettere o selezionare un valore.
-4. Espandere la sezione Generale.
+4. Espandere la sezione **Generale**.
 5. Nel campo **Sito** immettere o selezionare un valore.
 6. Nell'elenco fare clic sul collegamento nella riga selezionata.
 7. Nel campo **Magazzino** immettere o selezionare un valore.
@@ -52,9 +52,12 @@ Questa procedura utilizza la società dimostrativa USMF.
 10. Fare clic su **OK**.
 11. Nel campo **Numero articolo** immettere o selezionare un valore.
 12. Immettere un numero nel campo **Prezzo unitario**.
-13. Espandere la sezione Dettagli riga.
-14. Fare clic sulla scheda Consegna.
-    * Nota: selezionare Controllo data di consegna = Nessuno  
+13. Espandere la sezione **Dettagli riga**.
+14. Fare clic sulla scheda **Consegna**.
+
+>[!Note] 
+>Seleziona **Controllo data di consegna** = **Nessuno**  
+
 15. Nel campo **Data di spedizione richiesta** immettere una data.
 16. Nel campo **Data di spedizione confermata** immettere una data.
 
@@ -83,7 +86,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 2. Digitare un valore nel campo **Numero banca**.
     * Verificare i valori nei campi calcolati di **spesa** e **margine**.  
 3. Fare clic su **OK**.
-4. Espandere la sezione Azioni.
+4. Espandere la sezione **Azioni**.
     * Verificare il record 'Ricevi da banca'.  
 5. Fare clic per seguire il collegamento nel campo **Numero batch giornale di registrazione**.
 6. Fare clic su **Righe**.
@@ -102,7 +105,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 9. Nell'elenco trovare e selezionare il record desiderato.
 10. Fare clic su **Assegna al beneficiario** per aprire la finestra di dialogo a discesa.
 11. Fare clic su **OK**.
-12. Espandere la sezione Azioni.
+12. Espandere la sezione **Azioni**.
     * Convalidare il record 'Assegna al beneficiario'.  
 
 ## <a name="process-letter-of-guarantee_increase-value"></a>Elaborare la lettera di garanzia: Aumenta valore
@@ -118,7 +121,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 10. Nell'elenco trovare e selezionare il record desiderato.
 11. Fare clic su **Aumenta valore** per aprire la finestra di dialogo a discesa.
 12. Fare clic su **OK**.
-13. Espandere la sezione Azioni.
+13. Espandere la sezione **Azioni**.
     * Verificare il record 'Aumenta valore'.  
 14. Nell'elenco trovare e selezionare il record desiderato.
 15. Fare clic per seguire il collegamento nel campo **Numero batch giornale di registrazione**.
@@ -137,7 +140,7 @@ Questa procedura utilizza la società dimostrativa USMF.
 9. Nell'elenco trovare e selezionare il record desiderato.
 10. Fare clic su **Liquida** per aprire la finestra di dialogo a discesa.
 11. Fare clic su **OK**.
-12. Espandere la sezione Azioni.
+12. Espandere la sezione **Azioni**.
     * Verificare il record 'Liquida'.  
 13. Nell'elenco trovare e selezionare il record desiderato.
 14. Fare clic per seguire il collegamento nel campo **Numero batch giornale di registrazione**.

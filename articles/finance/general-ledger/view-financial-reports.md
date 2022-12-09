@@ -2,7 +2,7 @@
 title: Visualizza report finanziari
 description: In questo articolo viene descritto come visualizzare ed esplorare i report finanziari in Microsoft Dynamics 365 Finance. Include informazioni sulle varie opzioni che è possibile applicare ai report finanziari per modificare l'aspetto e i dati inclusi.
 author: kweekley
-ms.date: 03/25/2019
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d4b28add4406b2248a2ce842072e577ecd760cd
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 0f932bbef2543e4894c65b9a04c1ef66f1b3ab8e
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8907894"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802393"
 ---
 # <a name="view-financial-reports"></a>Visualizza report finanziari
 
@@ -31,7 +31,7 @@ In questo articolo viene descritto come visualizzare ed esplorare i report finan
 ## <a name="financial-reporting-overview"></a>Panoramica sui report finanziari
 
 ## <a name="open-a-financial-report"></a>Aprire un report finanziario
-Per aprire un report, selezionare il nome del report. La prima volta che un report viene aperto, viene generato automaticamente per il mese precedente. Ad esempio, se si apre un report per la prima volta nell'agosto 2015, il report viene generato per il 31 luglio 2015. Dopo l'apertura di un report, puoi iniziare a esplorarlo eseguendo il drill-down su parti specifiche di dati e modificando le opzioni di report.
+Per aprire un report, selezionare il nome del report. La prima volta che un report viene aperto, viene generato automaticamente per il mese precedente. Ad esempio, se si apre un report per la prima volta nell'agosto 2020, il report viene generato per il 31 luglio 2020. Dopo l'apertura di un report, puoi iniziare a esplorarlo eseguendo il drill-down su parti specifiche di dati e modificando le opzioni di report.
 
 ## <a name="drill-down-on-a-financial-report"></a>Eseguire il drill-down su un report finanziario
 I report finanziari possono includere più livelli di dettaglio. Il livello finanziario è il primo livello che si nota quando si apre un report finanziario. Per accedere al livello di account, selezionare i dati su cui eseguire il drill-down. Ad esempio, per visualizzare i dettagli del conto per le vendite, selezionare i dati di vendita che si desidera esplorare. Dal livello di conto è possibile eseguire il drill-down per visualizzare le transazioni che costituiscono il saldo del conto. Sono disponibili due metodi per visualizzare le transazioni: transazioni report e transazioni giustificativo.
@@ -46,12 +46,12 @@ Se i dati sono dati del budget, è possibile scegliere di aprire le voci contabi
 
 -   Per applicare filtri di attributi a un report, selezionare **Aggiungere un filtro attributi**. Selezionare il tipo di attributo, immettere il valore attributo, quindi fare clic su **OK**. Ad esempio, se si seleziona l'attributo **Categoria conti**, immettere **VENDITE** come valore di attributo. Per rimuovere un filtro di attributo, fare clic su **Cancella**.
 -   Per applicare filtri di dimensioni a un report,  selezionare **Aggiungere un filtro dimensioni**. Selezionare la dimensione e quindi digitare l'ID dimensione o selezionare la dimensione nell'elenco. Per rimuovere un filtro dimensione, fare clic su **Cancella**.
--   Per modificare lo scenario su un report **Effettivi rispetto al budget**, selezionare un nuovo scenario, quindi fare clic su **OK**. Se lo scenario selezionato è per un anno fiscale differente, non verrà restituito alcun risultato. Ad esempio, se viene generato un report per FY2015 e lo scenario corrente è per FY2015 e il nuovo scenario selezionato è per FY2016, non verrà restituito alcun risultato. Se un nuovo scenario per un anno fiscale differente è necessario, generare una nuova versione del report per l'anno fiscale correlato allo scenario.
+-   Per modificare lo scenario su un report **Effettivi rispetto al budget**, selezionare un nuovo scenario, quindi fare clic su **OK**. Se lo scenario selezionato è per un anno fiscale differente, non verrà restituito alcun risultato. Ad esempio, se viene generato un report per FY2015 e lo scenario corrente è per FY2020 e il nuovo scenario selezionato è per FY2016, non verrà restituito alcun risultato. Se un nuovo scenario per un anno fiscale differente è necessario, generare una nuova versione del report per l'anno fiscale correlato allo scenario.
 
 Quando si fa clic su **OK**, tutte le opzioni selezionate sono applicate al report. Se si decide che non si desidera applicare le opzioni selezionate, fare clic su **Annulla**.
 
 ## <a name="update-a-financial-report"></a>Aggiornare un report finanziario
-È possibile aggiornare (aggiornamento) un report finanziario in modo da visualizzare i dati più recenti per il periodo e l'anno in cui il report è stato generato. Ad esempio, se si aggiorna un report finanziario generato per l'ottobre 2015, il report riflette le nuove transazioni registrate per l'ottobre 2015. Per aggiornare un report finanziario, nel Riquadro azioni fare clic su **Aggiorna**. Un report aggiornato è disponibile solo per la persona che l'ha aggiornato. Perché altre persone visualizzino gli stessi dati, il report deve essere pubblicato.
+È possibile aggiornare (aggiornamento) un report finanziario in modo da visualizzare i dati più recenti per il periodo e l'anno in cui il report è stato generato. Ad esempio, se si aggiorna un report finanziario generato per l'ottobre 2020, il report riflette le nuove transazioni registrate per l'ottobre 2020. Per aggiornare un report finanziario, nel Riquadro azioni fare clic su **Aggiorna**. Un report aggiornato è disponibile solo per la persona che l'ha aggiornato. Perché altre persone visualizzino gli stessi dati, il report deve essere pubblicato.
 
 ## <a name="publish-a-financial-report"></a>Pubblicare un report finanziario
 Dopo avere aggiornato un report finanziario, è possibile pubblicarlo. Altre persone dell'organizzazione potranno quindi visualizzarlo. Per pubblicare un report, nel Riquadro azioni fare clic su **Pubblica**.

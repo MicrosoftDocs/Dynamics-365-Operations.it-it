@@ -2,7 +2,7 @@
 title: Visualizzazioni salvate
 description: In questo articolo viene descritto come utilizzare le funzionalità relative alle visualizzazioni salvate.
 author: jasongre
-ms.date: 07/26/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 03b0989d40882c3910b35744715c36babdcc3470
-ms.sourcegitcommit: e02bd317e96faf6182e70fb50b126868a94d9d06
+ms.openlocfilehash: 571a4f403da0d20256f788c791cab273827c91b5
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/10/2022
-ms.locfileid: "9757223"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799493"
 ---
 # <a name="saved-views"></a>Visualizzazioni salvate
 
@@ -55,7 +55,7 @@ Il selettore di visualizzazioni include due variazioni di dimensioni:
  
 Se si seleziona il nome della visualizzazione, viene aperto il selettore di visualizzazioni che visualizza l'elenco delle visualizzazioni disponibili per tale pagina.
 
-**Versione 10.0.21 o successiva:** Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, il selettore di viste mostra le viste disponibili in due sezioni. La prima sezione mostra tutte le viste che sono specifiche per l'entità legale corrente, e la seconda mostra le viste che sono disponibili per tutte le entità legali. La prima sezione è visibile solo se ci sono viste legali specifiche per la pagina.
+Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, il selettore di viste mostra le viste disponibili in due sezioni. La prima sezione mostra tutte le viste che sono specifiche per l'entità legale corrente, e la seconda mostra le viste che sono disponibili per tutte le entità legali. La prima sezione è visibile solo se ci sono viste legali specifiche per la pagina.
 
 - **Visualizzazione standard**: la visualizzazione **Standard** è la visualizzazione predefinita della pagina senza personalizzazioni esplicite applicate.
 - **Visualizzazioni personali**: le visualizzazioni senza lucchetti rappresentano le visualizzazioni personali. Si tratta delle visualizzazioni create personalmente o ricevute da un amministratore.
@@ -81,7 +81,7 @@ Per salvare le modifiche, attenersi alla procedura seguente.
     1. Selezionare **Salva con nome**. 
     2. Nel riquadro **Salva vista come** , inserisci un nome e, opzionalmente, una descrizione per la vista.
     3. Se vuoi che questa vista sia quella predefinita, seleziona **Aggiungi come predefinito**. Per maggiori informazioni sulle viste predefinite, vedere la sezione [Cambiare la vista predefinita](#changing-the-default-view) che segue. 
-    4. **Versione 10.0.21 o successiva:** Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, puoi selezionare se vuoi che questa vista sia disponibile per tutte le entità legali o solo per un sottoinsieme di esse.
+    4. Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, puoi selezionare se vuoi che questa vista sia disponibile per tutte le entità legali o solo per un sottoinsieme di esse.
     5. Selezionare **Salva**.
 
 ## <a name="changing-the-default-view"></a>Modifica della visualizzazione predefinita
@@ -90,7 +90,7 @@ La visualizzazione predefinita è la visualizzazione che il sistema tenta di apr
 
 > [!NOTE]
 > - Nella funzione di base **Visualizzazioni salvate** , c'è un'unica vista globale predefinita per tutte le entità legali. Se si modifica la visualizzazione predefinita, tale visualizzazione verrà aperta per impostazione predefinita, indipendentemente dalla persona giuridica in cui ci si trova attualmente.
-> - **Versione 10.0.21 o successiva:** Quando la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, ogni entità legale può avere la propria vista predefinita per pagina.
+> - Se la funzione **Supporto migliorato per le persone giuridiche per le visualizzazioni salvate** è attivata, ogni entità legale può avere la propria vista predefinita per pagina.
 
 Per cambiare la visualizzazione predefinita di una pagina, seguire questi passaggi:
 
@@ -101,7 +101,7 @@ Per cambiare la visualizzazione predefinita di una pagina, seguire questi passag
 In alternativa, quando si crea una nuova visualizzazione (mediante l'azione **Salva con nome** ), è possibile impostare quella nuova visualizzazione come visualizzazione predefinita impostando l'opzione **Aggiungi come predefinita** prima di salvare la visualizzazione.
 
 > [!WARNING]
-> In alcuni casi, la query associata alla vista predefinita non viene eseguita quando si apre una pagina per la prima volta. Ad esempio, se si apre la pagina tramite un riquadro, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. Inoltre, se aprite una pagina che ha una vista **standard** che ha già una query definita, verrà eseguita la query originale invece di quella della vista predefinita. In questo caso, riceverai un messaggio informativo al caricamento della visualizzazione. Se si cambia visualizzazione dopo che la pagina è stata caricata, è possibile eseguire la query di visualizzazione come previsto. A partire dalla versione 10.0.10, il messaggio informativo che si riceve avrà un'azione incorporata che consente di caricare direttamente la query della visualizzazione predefinita.
+> In alcuni casi, la query associata alla vista predefinita non viene eseguita quando si apre una pagina per la prima volta. Ad esempio, se si apre la pagina tramite un riquadro, la query del riquadro verrà eseguita indipendentemente dalla query associata alla visualizzazione predefinita. Inoltre, se aprite una pagina che ha una vista **standard** che ha già una query definita, verrà eseguita la query originale invece di quella della vista predefinita. In questo caso, riceverai un messaggio informativo quando la vista è caricata con un'azione integrata che ti consente di caricare la query della vista predefinita direttamente. Se si cambia visualizzazione dopo che la pagina è stata caricata, è possibile eseguire la query di visualizzazione come previsto. 
 
 ## <a name="managing-personal-views"></a>Gestione delle visualizzazioni personali
 

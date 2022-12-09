@@ -1,8 +1,8 @@
 ---
-title: Interfaccia Progettazione report
-description: In questo articolo viene illustrato come spostarsi all'interno di Progettazione report e come utilizzare le varie opzioni per soddisfare specifiche esigenze.
+title: Interfaccia Report Designer
+description: In questo articolo viene illustrato come spostarsi all'interno di Report Designer e come utilizzare le varie opzioni per soddisfare specifiche esigenze.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,20 +15,20 @@ ms.dyn365.ops.version: AX 7.0.1
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
 ms.search.form: FinancialReports
-ms.openlocfilehash: 3bc3ddb9f04f7f6f2a63b2ecccfe04fbaf2eadfc
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 25d913e6f5d4c95dceda1291a2c33abe37348574
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274729"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802744"
 ---
-# <a name="report-designer-interface"></a>Interfaccia Progettazione report
+# <a name="report-designer-interface"></a>Interfaccia Report Designer
 
 [!include [banner](../includes/banner.md)]
 
-In questo articolo viene illustrato come spostarsi all'interno di Progettazione report e come utilizzare le varie opzioni per soddisfare specifiche esigenze.
+In questo articolo viene illustrato come spostarsi all'interno di Report Designer e come utilizzare le varie opzioni per soddisfare specifiche esigenze.
 
-## <a name="report-designer-menu-commands"></a>Comandi di menu di Progettazione report
+## <a name="report-designer-menu-commands"></a>Comandi di menu di Report Designer
 
 Di seguito vengono descritti i comandi di menu e le opzioni che è possibile utilizzare per progettare i report finanziari. Alcuni comandi e opzioni di menu sono disponibili solo in condizioni specifiche. Ad esempio, i comandi per la promozione e la retrocessione delle unità gerarchiche sono disponibili solo se si modifica una definizione dell'albero gerarchico.
 
@@ -40,7 +40,7 @@ Il menu **File** è disponibile per tutti gli utenti e comprende i seguenti coma
 |-----------------------------------|-------------|
 | Nuovo                               | Creare una nuova definizione di report, definizione di riga, definizione di colonna, definizione di albero gerarchico, definizione di gruppo di report o cartella. Opzioni aggiuntive sono disponibili, in base al ruolo utente. |
 | Aperto                              | Aprire una definizione di riga, definizione di colonna, definizione di albero gerarchico o definizione di report esistente. |
-| Chiudi                             | Chiudere il blocco predefinito corrente. |
+| Chiusi                             | Chiudere il blocco predefinito corrente. |
 | Chiudi tutto                         | Chiudere tutti i blocchi predefiniti. |
 | Salva                              | Salvare la definizione di riga, definizione di colonna, definizione di albero gerarchico o definizione di report corrente. |
 | Salva con nome                           | Salvare la definizione di riga, definizione di colonna, definizione di albero gerarchico o definizione di report corrente con un nuovo nome. |
@@ -51,7 +51,7 @@ Il menu **File** è disponibile per tutti gli utenti e comprende i seguenti coma
 | Definizioni di riga recenti            | Visualizzare un elenco di definizioni di riga che sono state create o modificate di recente. È possibile selezionare una definizione di riga nell'elenco. |
 | Definizioni di colonna recenti         | Visualizzare un elenco di definizioni di colonna che sono stati create o modificate di recente. È possibile selezionare una definizione di colonna nell'elenco. |
 | Definizioni di albero gerarchico recenti | Visualizzare un elenco di definizioni di albero gerarchico che sono stati create o modificate di recente. È possibile selezionare una definizione di albero gerarchico nell'elenco. |
-| Esci                              | Uscire da Progettazione report. |
+| Esci                              | Uscire da Report Designer. |
 
 ### <a name="edit-menu"></a>Menu Modifica
 
@@ -70,7 +70,7 @@ Il menu **Modifica** è disponibile per gli utenti con ruolo **Progettazione** o
 | Inserisci righe da dimensioni            | Aprire la finestra di dialogo **Inserisci righe da dimensioni** in cui è possibile selezionare i valori di dimensione da includere nella definizione di riga. Questo comando è disponibile da una definizione di riga. |
 | Rinumera righe                          | Rinumerare tutti i codici numerici di riga. Questo comando è disponibile da una definizione di riga. |
 | Collegamenti riga                              | Aprire la finestra di dialogo **Collegamenti riga** in cui è possibile specificare le origini dei collegamenti dei dati nelle definizioni di riga e nelle definizioni di albero gerarchico. Questo comando è disponibile da una definizione di riga. |
-| Rettifica arrotondamento                    | Aprire la finestra di dialogo **Rettifiche arrotondamento** in cui è possibile specificare i parametri per l'arrotondamento. Questo comando è disponibile da una definizione di riga. |
+| Rettifica per arrotondamento                    | Aprire la finestra di dialogo **Rettifiche arrotondamento** in cui è possibile specificare i parametri per l'arrotondamento. Questo comando è disponibile da una definizione di riga. |
 | Gestisci set di dimensioni                  | Aprire la finestra di dialogo **Set di dimensioni** in cui è possibile creare e modificare i set di dimensioni. Questo comando è disponibile da una definizione di riga o una definizione di albero gerarchico. |
 | Inserisci riga                             | Inserire una riga vuota nella definizione di riga o una riga di intestazione vuota nella definizione di colonna. Questo comando è disponibile da una definizione di riga o una definizione di colonna. |
 | Elimina riga                             | Eliminare la riga selezionata dalla definizione di riga o la riga di intestazione selezionata dalla definizione di colonna. Questo comando è disponibile da una definizione di riga o una definizione di colonna. |
@@ -89,17 +89,17 @@ Il menu **Visualizza** è disponibile per tutti gli utenti e comprende i seguent
 |-----------------|------------------------------------------------------------------------|
 | Pannello di navigazione | Mostrare o nascondere il pannello di navigazione.                                      |
 | Barre degli strumenti        | Selezionare le barre degli strumenti che sono visibili.                                  |
-| Barra di stato      | Mostrare o nascondere le informazioni di stato nella finestra **Progettazione report**. |
+| Barra di stato      | Mostra o nascondi le informazioni di stato nella finestra **Report Designer**. |
 | Pagina iniziale    | Apre la pagina **iniziale**.                                             |
 
 ### <a name="format-menu"></a>Menu Formatta
 
 Il menu **Formatta** è disponibile per gli utenti con ruolo **Progettazione** o **Amministratore**. In questo menu sono inclusi i comandi seguenti:
 
-| Comando               | Descrizione |
+| Comando               | Description |
 |-----------------------|-------------|
-| Stili e formattazione | Aprire la finestra di dialogo **Stili e formattazione** in cui è possibile creare e modificare lo stile del testo delle definizioni di riga e delle definizioni di colonna. Questo comando è disponibile da una definizione di riga o una definizione di colonna. |
-| Larghezza colonna          | Aprire la finestra di dialogo **Larghezza colonna** in cui è possibile impostare la larghezza della colonna selezionata. Questo comando è disponibile da una definizione di riga, una definizione di colonna o una definizione di albero gerarchico. |
+| Stili e formattazione | Apri la finestra di dialogo **Stili e formattazione** in cui è possibile creare e modificare lo stile del testo delle definizioni di riga e delle definizioni di colonna. Questo comando è disponibile da una definizione di riga o una definizione di colonna. |
+| Larghezza colonna          | Apri la finestra di dialogo **Larghezza colonna** in cui è possibile impostare la larghezza della colonna selezionata. Questo comando è disponibile da una definizione di riga, una definizione di colonna o una definizione di albero gerarchico. |
 | Nascondi                  | Nascondere la colonna selezionata. Questo comando è disponibile da una definizione di riga, una definizione di colonna o una definizione di albero gerarchico. |
 | Scopri                | Spostare le colonne nascoste tra le colonne visibili selezionate. Questo comando è disponibile da una definizione di riga, una definizione di colonna o una definizione di albero gerarchico. |
 
@@ -110,7 +110,7 @@ Il menu **Società** è disponibile per gli utenti con ruolo **Progettazione** o
 | Comando               | Descrizione                                                                                                            |
 |-----------------------|------------------------------------------------------------------------------------------------------------------------|
 | Società             | Aprire la finestra di dialogo **Società** in cui è possibile creare e modificare le società.                                          |
-| Gruppi di blocchi predefiniti | Aprire la finestra di dialogo **Gruppi di blocco predefinito** in cui è possibile creare, modificare, importare ed esportare i gruppi di blocchi predefiniti. |
+| Gruppi di blocchi predefiniti | Apri la finestra di dialogo **Gruppi di blocco predefinito** in cui è possibile creare, modificare, importare ed esportare i gruppi di blocchi predefiniti. |
 
 ### <a name="go-menu"></a>Menu Vai
 
@@ -138,7 +138,7 @@ Il menu **Strumenti** è disponibile per tutti gli utenti, ma alcuni comandi han
 | Informazioni sistema di origine     | Visualizzare le impostazioni del sistema Microsoft Dynamics ERP. Questo comando è disponibile per gli utenti con ruolo **Progettazione** o **Amministratore**. |
 | Elementi estratti             | Visualizzare le definizioni di riga, le definizioni di colonna, le definizioni di albero gerarchico e le definizioni di report attualmente aperte. Questo comando è disponibile per gli utenti con ruolo **Progettazione** o **Amministratore**. |
 | Aggiorna dati finanziari memorizzati nella cache | Aggiornare i dati nella colonna delle dimensioni finanziarie. |
-| Opzioni                       | Aprire la finestra di dialogo **Opzioni** in cui è possibile modificare le preferenze utente per Progettazione report. |
+| Opzioni                       | Aprire la finestra di dialogo **Opzioni** in cui è possibile modificare le preferenze utente per Report Designer. |
 
 ### <a name="window-menu"></a>Menu Finestra
 
@@ -162,7 +162,7 @@ Il menu **?** è disponibile per tutti gli utenti e comprende i seguenti comandi
 | Aiuto    | Apri la pagina dell'articolo della Guida per i report finanziari. |
 |         |                                                                          |
 
-## <a name="report-designer-toolbar-buttons"></a>Pulsanti della barra degli strumenti di Progettazione report
+## <a name="report-designer-toolbar-buttons"></a>Pulsanti della barra degli strumenti di Report Designer
 Nelle tabelle seguenti vengono descritti i pulsanti della barra degli strumenti che è possibile utilizzare per progettare i report. Alcuni pulsanti della barra degli strumenti sono disponibili solo in circostanze specifiche. Ad esempio, i pulsanti per la promozione e la retrocessione delle unità gerarchiche sono disponibili solo se si modifica una definizione dell'albero gerarchico.
 
 ### <a name="standard-toolbar"></a>Barra degli strumenti standard
@@ -194,28 +194,28 @@ La barra degli strumenti standard consente l'accesso rapido ai comandi di file e
 
 La barra degli strumenti di formattazione consente facilmente l'accesso ai comandi di stile. Nella barra degli strumenti sono inclusi i seguenti pulsanti.
 
-| Pulsante                                                                                                       | descrizione                                             |
-|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Pulsante Stile carattere.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Applicare lo stile del carattere selezionato al testo corrente.      |
-| [![Pulsante Carattere.](./media/fonttype.png)](./media/fonttype.png)                                                 | Impostare il carattere selezionato al testo corrente.              |
-| [![Pulsante Dimensione carattere.](./media/fontsize.png)](./media/fontsize.png)                                            | Impostare la dimensione carattere selezionata al testo corrente (in punti). |
-| [![Pulsante Grassetto.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Rendere il testo in grassetto.                             |
-| [![Pulsante Corsivo.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Rendere il testo in corsivo.                           |
-| [![Pulsante Sottolineatura.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Rendere il testo sottolineato.                             |
-| [![Pulsante Diminuisci rientro.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Ridurre il rientro del testo corrente.                |
-| [![Pulsante Aumenta rientro.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentare il rientro del testo corrente.                |
-| [![Pulsante Colore di sfondo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Modificare il colore di sfondo della cella corrente.        |
-| [![Pulsante Colore carattere.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Modificare il colore del testo corrente.                   |
+| Pulsante                                                                                                       | descrizione                                           |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [![Pulsante Stile carattere.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Applicare lo stile del carattere selezionato al testo corrente.   |
+| [![Pulsante Carattere.](./media/fonttype.png)](./media/fonttype.png)                                                 | Impostare il carattere selezionato al testo corrente.           |
+| [![Pulsante Dimensione carattere.](./media/fontsize.png)](./media/fontsize.png)                                            | Imposta la dimensione carattere selezionata al testo corrente (in punti). |
+| [![Pulsante Grassetto.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Rendere il testo in grassetto.                          |
+| [![Pulsante Corsivo.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Rendere il testo in corsivo.                        |
+| [![Pulsante Sottolineatura.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Rendere il testo sottolineato.                          |
+| [![Pulsante Diminuisci rientro.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Ridurre il rientro del testo corrente.             |
+| [![Pulsante Aumenta rientro.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentare il rientro del testo corrente.             |
+| [![Pulsante Colore di sfondo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Modificare il colore di sfondo della cella corrente.     |
+| [![Pulsante Colore carattere.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Modificare il colore del testo corrente.                |
 
-### <a name="report-designer-toolbar"></a>Barra degli strumenti di Progettazione report
+### <a name="report-designer-toolbar"></a>Barra degli strumenti di Report Designer
 
-La barra degli strumenti di Progettazione report consente l'accesso rapido ai comandi per spostarsi al suo interno. Nella barra degli strumenti sono inclusi i seguenti pulsanti.
+La barra degli strumenti di Report Designer consente l'accesso rapido ai comandi per spostarsi al suo interno. Nella barra degli strumenti sono inclusi i seguenti pulsanti.
 
 | Pulsante                                                                                              | descrizione |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Pulsante Definizione di report.](./media/reportc130389.png)](./media/reportc130389.png)                 | Visualizzare la definizione di report elencata nel menu **Finestra**. |
-| [![Pulsante Definizione di riga.](./media/rowc130389.png)](./media/rowc130389.png)                          | Visualizzare la definizione di riga assegnata alla definizione di report attiva. |
-| [![Pulsante Definizione di colonna.](./media/columnc130389.png)](./media/columnc130389.png)                 | Visualizzare la definizione di colonna assegnata alla definizione di report attiva. |
+| [![Pulsante Definizione di report.](./media/reportc130389.png)](./media/reportc130389.png)            | Visualizzare la definizione di report elencata nel menu **Finestra**. |
+| [![Pulsante Definizione di riga.](./media/rowc130389.png)](./media/rowc130389.png)             | Visualizzare la definizione di riga assegnata alla definizione di report attiva. |
+| [![Pulsante Definizione di colonna.](./media/columnc130389.png)](./media/columnc130389.png)  | Visualizzare la definizione di colonna assegnata alla definizione di report attiva. |
 | [![Pulsante Definizione di albero gerarchico.](./media/treec130389.png)](./media/treec130389.png)             | Visualizzare la definizione di albero gerarchico assegnata alla definizione di report attiva. |
 | [![Pulsante Visualizzatore di report.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Avviare il visualizzatore di report e mostrare la versione più recente del report generato. Questo pulsante è disponibile da una definizione di report se è stato generato almeno un report. |
 | [![Pulsante Genera report.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Genera un report a partire dalla definizione di report attiva. Questo pulsante è disponibile da una definizione di report. |

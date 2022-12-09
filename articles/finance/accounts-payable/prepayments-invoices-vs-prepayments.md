@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62f828b93075c134778da280243c0875edf99300
-ms.sourcegitcommit: 0d5c07ba91a9ceb2eeb11db032fd28037216789d
+ms.openlocfilehash: 1d123a341a471dd37fcc33e0025ce5e98235a27f
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9715831"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804265"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>Fatture di pagamento anticipato e pagamenti anticipati a confronto
 
@@ -65,12 +65,13 @@ Le fatture di pagamento anticipato sono una normale procedura commerciale. Un fo
 
 Il conto di contabilità fornitori riepilogo contropartita è definito nel profilo **Registrazione fornitore**. Per definire il profilo di registrazione predefinito, fai clic su **Contabilità fornitori \>Impsotazioni \> Parametri contabilità fornitori \> Scheda libro mastro e IVA \> Profilo di registrazione con fattura fornitore pagamento anticipato**.
 
-Il **Criterio applicazione pagamento anticipato** indica se il sistema applicherà automaticamente le fatture di pagamento anticipato liquidate alla fattura finale creata manualmente. Le fatture create utilizzando un'entità di dati non faranno riferimento al **Criterio applicazione pagamento anticipato**. Sarà necessario applicare manualmente le fatture di pagamento anticipato liquidate alle fatture create utilizzando un'entità di dati. Per definire il criterio, vai a **Contabilità fornitori \>Impostazioni \> Parametri contabilità fornitori \> Scheda libro mastro e IVA \> Criterio applicazione pagamento anticipato**. Se il campo **Criterio applicazione pagamento anticipato** è impostato su **Automatico**, la fattura di pagamento anticipato verrà automaticamente contrassegnata per la liquidazione con la fattura finale. Se il campo è impostato su **Notifica**, al momento della creazione della fattura finale verrà visualizzata un'indicazione visiva che una fattura di pagamento anticipato è disponibile per l'applicazione.
+**Criterio di applicazione pagamento anticipato** indica se il sistema applicherà automaticamente le fatture di pagamento anticipato liquidate alla fattura finale creata manualmente. Le fatture create utilizzando un'entità di dati non faranno riferimento al **Criterio applicazione pagamento anticipato**. Sarà necessario applicare manualmente le fatture di pagamento anticipato liquidate alle fatture create utilizzando un'entità di dati. Per definire il criterio, vai a **Contabilità fornitori \>Impostazioni \> Parametri contabilità fornitori \> Scheda libro mastro e IVA \> Criterio applicazione pagamento anticipato**. Se il campo **Criterio applicazione pagamento anticipato** è impostato su **Automatico**, la fattura di pagamento anticipato verrà automaticamente contrassegnata per la liquidazione con la fattura finale. Se il campo è impostato su **Notifica**, al momento della creazione della fattura finale verrà visualizzata un'indicazione visiva che una fattura di pagamento anticipato è disponibile per l'applicazione.
 
 ## <a name="create-a-purchase-order-that-contains-prepayment-invoice-information"></a>Creare un ordine fornitore contenente informazioni sulla fattura di pagamento anticipato
 Quando un fornitore comunica che richiede il pagamento anticipato per beni e servizi contenuti in un ordine fornitore, è necessario definire il valore di pagamento anticipato per l'ordine fornitore associato. Vai a **Contabilità fornitori \> Comune \> Ordini fornitore \> Tutti gli ordini fornitore** e trova l'ordine del fornitore. Nel riquadro azioni, seleziona la scheda **Acquisto** e quindi seleziona **Pagamento anticipato**. Immetti le informazioni per il pagamento anticipato, inclusa la descrizione, il valore, l'indicazione di importo fisso di percentuale e un ID categoria di pagamento anticipato. 
 
-Non sono consentite più definizioni di pagamenti anticipati in un ordine fornitore. Se è necessario consentire più pagamenti anticipati in un ordine fornitore, registra i pagamenti utilizzando le registrazioni pagamenti anziché una fattura di pagamento anticipato.
+> [!Note] 
+> Non sono consentite più definizioni di pagamenti anticipati in un ordine fornitore. Se è necessario consentire più pagamenti anticipati in un ordine fornitore, registra i pagamenti utilizzando le registrazioni pagamenti anziché una fattura di pagamento anticipato.
 
 Il pagamento anticipato può essere rimosso dall'ordine fornitore a meno che non sia già stato liquidato un pagamento rispetto alla fattura di pagamento anticipato registrata o non sia stata registrata la fattura standard. Per rimuovere le informazioni di pagamento anticipato dall'ordine fornitore, seleziona **Contabilità fornitori \> Comune \> Ordini fornitore \> Tutti gli ordini fornitore** e trova l'ordine del fornitore. Nel riquadro azioni, seleziona la scheda **Acquisto** e quindi seleziona **Rimuovi pagamento anticipato**.
 

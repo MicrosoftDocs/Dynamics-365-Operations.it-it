@@ -2,7 +2,7 @@
 title: Tipi di conto principale
 description: I tipi di conto principale determinano la modalità di utilizzo di un conto principale nel piano dei conti.
 author: aprilolson
-ms.date: 01/11/2018
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2b260478592c3a49a78ede5921403a96c702e98
-ms.sourcegitcommit: 1d2eeacad11c28889681504cdc509c90e3e8ea86
+ms.openlocfilehash: 0f5611cdb3427079e040d30d97dbc91fca4bb078
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8716861"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799356"
 ---
 # <a name="main-account-types"></a>Tipi di conto principale
 
@@ -28,11 +28,11 @@ ms.locfileid: "8716861"
 
 I tipi di conto principale determinano la modalità di utilizzo di un conto principale nel piano dei conti.
 
-È necessario selezionare un tipo di conto principale quando si crea un conto principale nella pagina Conti principali - piano dei conti.
--   Profitti e perdite, Ricavi e Spese: questi conti principali vengono utilizzati come conti di registrazione. I conti per profitti e perdite vengono utilizzati per registrare ricavi e spese. La somma di tutti i profitti e perdite, ricavi e spese determina i risultati di fine anno. I conti per ricavi e spese hanno la stessa funzione dei conti principali per profitti e perdite.
--   Stato patrimoniale, Cespite, Passività e Capitale netto: questi conti principali vengono utilizzati come conti di transazione per registrare gli importi in Avere o in Dare di una persona giuridica.
--   Totale: questi conti principali vengono utilizzati per aggiungere intervalli di conti. Configurare il tipo di conto principale Totale utilizzando la pagina Intervallo conti, in cui viene visualizzato il totale dei saldi del gruppo per tutti gli intervalli dei conti. Per accedere alla pagina Intervallo conti, fare clic su Totali nella scheda Generale una volta selezionato il tipo di conto Totale.
--   Reporting: questi conti principali vengono utilizzati per i report del rendiconto finanziario (solo per il Brasile).
+È necessario selezionare un tipo di conto principale quando si crea un conto principale nella pagina **Conti principali - piano dei conti**.
+-   **Profitti e perdite**, **Ricavi** e **Spese**: questi conti principali vengono utilizzati come conti di registrazione. I conti **Profitti e perdite** vengono utilizzati per registrare ricavi e spese. La somma di tutti i profitti e perdite, ricavi e spese determina i risultati di fine anno. I conti **Ricavi** e **Spese** hanno la stessa funzione dei conti principali **Profitti e perdite**.
+-   **Stato patrimoniale**, **Cespite**, **Passività** e **Capitale netto**: questi conti principali vengono utilizzati come conti di transazione per registrare gli importi in Avere o in Dare di una persona giuridica.
+-   **Totale**: questi conti principali vengono utilizzati per aggiungere intervalli di conti. Configura il tipo di conto principale **Totale** utilizzando la pagina **Intervallo conti**, in cui viene visualizzato il totale dei saldi del gruppo per tutti gli intervalli dei conti. Per accedere alla pagina **Intervallo conti**, seleziona **Totali** nella scheda **Generale** una volta selezionato il tipo di conto **Totale**.
+-   **Reporting**: questi conti principali vengono utilizzati per i report del rendiconto finanziario (solo per il Brasile).
 
 Per ulteriori informazioni, vedere [Impostare le categorie di conti principali](tasks/set-up-main-account-categories.md).
 

@@ -9,18 +9,18 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: global
-ms.author: gmohanv
+ms.author: stuharg
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.16
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: 5936d16039927812dabf99bd770afcc0e827f1ca
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: c899bd020ec9536a906a98635a6c70fac1355789
+ms.sourcegitcommit: 68efa7b89273d04484566cbe14d3533a8fd4ee53
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276718"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9819271"
 ---
 # <a name="configure-sales-tax-for-online-orders"></a>Configurare l'IVA per gli ordini online
 
@@ -33,6 +33,8 @@ Un canale di e-commerce può supportare opzioni come la consegna o il ritiro deg
 ## <a name="destination-based-taxes-for-online-orders"></a>Imposte basate sulla destinazione per ordini online
 
 In generale, le imposte per gli ordini online spediti agli indirizzi dei clienti sono definite dalla destinazione. Ogni fascia IVA ha una configurazione fiscale basata sulla destinazione della vendita al dettaglio in cui l'azienda può definire i dettagli della destinazione come provincia/regione, stato, contea e città in una forma gerarchica.
+
+La configurazione per **Imposta in base alla destinazione vendita al dettaglio** può essere trovata nella sezione **Modulo imposte > Imposte indirette > IVA > Gruppi IVA**.
 
 ### <a name="orders-delivered-to-customer-address"></a>Ordini consegnati all'indirizzo del cliente
 

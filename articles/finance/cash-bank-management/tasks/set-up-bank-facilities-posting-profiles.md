@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1bfdef0cd535f47bb1df9fb7494043d3dd519c5b
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 0987ae1e9cfbb1e2d2a957a5fd1ad82257292c0a
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9779882"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804103"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>Impostare le linee di credito bancarie e i profili registrazione per le lettere di garanzia
 
@@ -56,11 +56,11 @@ In questa attività viene utilizzata la società dimostrativa USMF.
 8. Nel campo **Tipo di linea di credito** immettere il nome del tipo di linea di credito bancaria correlato al contratto per linea di credito bancaria.
 9. Digitare un valore nel campo **Descrizione**
 10. Nel campo **Gruppo di linee di credito** fare clic sul pulsante a discesa per aprire la ricerca.
-11. Nell'elenco trovare e selezionare il record desiderato.
+11. Trovare e selezionare il record desiderato nell'elenco.
 12. Nell'elenco fare clic sul collegamento nella riga selezionata.
-13. Selezionare **un'opzione nel campo Natura linea di credito.
+13. Selezionare un'opzione nel campo **Natura linea di credito**.
 14. Fare clic su **Salva**.
-15. Chiudi la pagina.
+15. Chiudere la pagina.
 
 ## <a name="bank-posting-profile"></a>Profilo di registrazione bancaria
 1. Andare a **Gestione cassa e banche > Impostazioni > Profilo di registrazione documenti bancari**.

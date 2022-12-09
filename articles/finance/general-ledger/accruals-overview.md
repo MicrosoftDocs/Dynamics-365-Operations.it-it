@@ -2,7 +2,7 @@
 title: Panoramica dei ratei
 description: Questo articolo descrive i ratei e fornisce informazioni su come impostarli e su come creare le transazioni.
 author: aprilolson
-ms.date: 01/11/2018
+ms.date: 11/21/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e10842929ba58b845a1df949ecb7c776ae077e8
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 022d6574895d3263ce1e21a2f04985c418f45b61
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8904703"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799408"
 ---
 # <a name="accruals-overview"></a>Panoramica dei ratei
 
@@ -41,7 +41,9 @@ Gli schemi di attribuzione per competenza vengono utilizzati per impostare i ric
 Dopo aver determinato quali conti utilizzare, è possibile specificare la modalità di creazione del numero di giustificativo quando le transazioni di attribuzione per competenza vengono create. È inoltre possibile specificare la frequenza con cui le transazioni si verificano, il numero di volte in cui le transazioni vengono create e quando le transazioni vengono registrate. Una volta creato lo schema di attribuzione per competenza, è possibile utilizzarlo in alcuni dei giornali di registrazione tramite la funzione Ratei in contabilità generale.
 
 ## <a name="ledger-accruals"></a>Ratei in contabilità generale
-Quando si immette un giornale di registrazione, è possibile fare clic su **Ratei in contabilità generale** sul menu **Funzioni**. Quindi, quando si seleziona lo schema di attribuzione per competenza, verrà visualizzato l'imponibile dal giornale di registrazione che verrà distribuito sul periodo, come determinato dallo schema di attribuzione per competenza. Ad esempio, se si paga l'assicurazione di un dipendente per l'intero anno a gennaio e l'importo è 12.000, è necessario riconoscere tale spesa ogni mese. È possibile selezionare la data di inizio. È inoltre possibile specificare se l'importo attribuito è basato sul conto o sul conto di contropartita. Dopo aver fatto le selezioni, fare clic su **Transazioni** per visualizzare tutte le transazioni create in base allo schema di attribuzione per competenza. Ad esempio, se si distribuiscono i 12.000 delle spese di assicurazione nel corso dell'anno, si vedrà 1.000 per ogni mese. Dopo la registrazione del giornale di registrazione, è possibile visualizzare le transazioni utilizzando la pagina di richiesta informazioni **Transazioni giustificativo**. Se uno schema di attribuzione per competenza non può essere applicato (ad esempio, nel caso di una fattura di ordine cliente o una fattura di ordine fornitore), è possibile accreditare l'importo pagato anticipatamente e addebitare l'importo della spesa. È possibile quindi selezionare **Contropartita** quando si applica lo schema di attribuzione per competenza.
+Quando si immette un giornale di registrazione, è possibile fare clic su **Ratei in contabilità generale** sul menu **Funzioni**. Quindi, quando si seleziona lo schema di attribuzione per competenza, verrà visualizzato l'imponibile dal giornale di registrazione che verrà distribuito sul periodo, come determinato dallo schema di attribuzione per competenza. 
+
+Ad esempio, se si paga l'assicurazione di un dipendente per l'intero anno a gennaio e l'importo è 12.000, è necessario riconoscere tale spesa ogni mese. È possibile selezionare la data di inizio. È inoltre possibile specificare se l'importo attribuito è basato sul conto o sul conto di contropartita. Dopo aver fatto le selezioni, fare clic su **Transazioni** per visualizzare tutte le transazioni create in base allo schema di attribuzione per competenza. Ad esempio, se si distribuiscono i 12.000 delle spese di assicurazione nel corso dell'anno, si vedrà 1.000 per ogni mese. Dopo la registrazione del giornale di registrazione, è possibile visualizzare le transazioni utilizzando la pagina di richiesta informazioni **Transazioni giustificativo**. Se uno schema di attribuzione per competenza non può essere applicato (ad esempio, nel caso di una fattura di ordine cliente o una fattura di ordine fornitore), è possibile accreditare l'importo pagato anticipatamente e addebitare l'importo della spesa. È possibile quindi selezionare **Contropartita** quando si applica lo schema di attribuzione per competenza.
 
 
 Per ulteriori informazioni, vedere [Creare schemi di attribuzione per competenza](tasks/create-accrual-schemes.md) e [Creare transazioni di attribuzione per competenza in contabilità generale](tasks/create-ledger-accrual-transactions.md).

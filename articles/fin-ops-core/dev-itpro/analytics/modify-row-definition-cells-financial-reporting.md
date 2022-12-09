@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c3e9323c2011f7ca6ceb9926575d661c5269e22
-ms.sourcegitcommit: 6b209919de39c15e0ebe4abc9cbcd30618f2af0b
+ms.openlocfilehash: 1c125369a5b2134759bf3650175276acf42b69e0
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "9135541"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802825"
 ---
 # <a name="modify-row-definition-cells"></a>Modificare le celle di definizione riga
 
@@ -51,17 +51,17 @@ Gli esempi seguenti sono validi codici di riga:
 
 ### <a name="change-a-row-code-in-a-row-definition"></a>Modificare un codice di riga in una definizione riga
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
 2. Nella riga appropriata, immettere il nuovo valore nella cella della colonna **Codice riga**.
 
 ### <a name="reset-numeric-row-codes"></a>Reimpostare i codici di riga numerici
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
 2. Nel menu **Modifica** fare clic su **Rinumera righe**.
-3. Nella finestra di dialogo **Rinumera righe**, specificare i nuovi valori per il codice di riga iniziale e l'incremento del codice di riga. È possibile reimpostare i codici di riga numerici su valori equidistanti. Tuttavia, Progettazione report rinumera solo i codici di riga che iniziano con un numero, ad esempio 130 o 246. Non rinumera i codici di riga che iniziano con una lettera, ad esempio INCOME\_93 o TP0693.
+3. Nella finestra di dialogo **Rinumera righe**, specificare i nuovi valori per il codice di riga iniziale e l'incremento del codice di riga. È possibile reimpostare i codici di riga numerici su valori equidistanti. Tuttavia, Report Designer rinumera solo i codici di riga che iniziano con un numero, ad esempio 130 o 246. Non rinumera i codici di riga che iniziano con una lettera, ad esempio INCOME\_93 o TP0693.
 
 > [!NOTE]
-> Quando si rinumerano i codici di riga, Progettazione report aggiorna automaticamente i riferimenti **TOT** e **CAL**. Ad esempio, se una riga **TOT** fa riferimento a un intervallo che inizia con il codice di riga 100 e si rinumerano le righe a partire da 90, il riferimento **TOT** iniziale cambia da 100 a 90.
+> Quando si rinumerano i codici di riga, Report Designer aggiorna automaticamente i riferimenti **TOT** e **CAL**. Ad esempio, se una riga **TOT** fa riferimento a un intervallo che inizia con il codice di riga 100 e si rinumerano le righe a partire da 90, il riferimento **TOT** iniziale cambia da 100 a 90.
 
 ## <a name="add-a-description"></a>Aggiungere una descrizione
 La cella di descrizione fornisce una descrizione dei dati finanziari nella riga del report, ad esempio "Ricavi" o "Reddito netto". Il testo nella cella **Descrizione** viene visualizzato nel report esattamente come lo si immette nella definizione di riga.
@@ -71,19 +71,19 @@ La cella di descrizione fornisce una descrizione dei dati finanziari nella riga 
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Aggiungere la descrizione per una riga di un report
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
 2. Selezionare la cella **Descrizione** quindi immettere il nome della riga di report.
 3. Applicare la formattazione.
 
 ### <a name="add-additional-text-from-a-reporting-tree-in-the-description"></a>Aggiungere testo aggiuntivo da un albero gerarchico nella descrizione
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
 2. Immettere il codice del testo aggiuntivo e qualsiasi altro testo nella cella **Descrizione** appropriata.
 3. Applicare la formattazione.
 
 ### <a name="limit-the-additional-text-to-a-specific-reporting-unit"></a>Limitare il testo aggiuntivo a un'unità gerarchica specifica
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
 2. Individuare la riga in cui deve essere creato il testo aggiuntivo e fare doppio clic sulla cella nella colonna **Unità/Righe/Formule correlate**.
 3. Nella finestra di dialogo **Selezione unità gerarchica**, selezionare nel campo **Albero gerarchico** un albero gerarchico.
 4. Nel campo **Seleziona unità gerarchica per restrizione**, espandere o comprimere l'albero gerarchico e selezionare un'unità gerarchica.
@@ -96,8 +96,8 @@ La cella **Codice formato** offre una selezione di opzioni preformattate per il 
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Aggiungere un codice formato a una riga di report
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi selezionare una definizione di riga da modificare.
-2. Fare doppio clic sulla cella **Codice formato**.
+1. In Report Designer, fai clic su **Definizioni di riga** quindi seleziona una definizione di riga da modificare.
+2. Fai doppio clic sulla cella **Codice formato**.
 3. Selezionare un codice formato nell'elenco. Nella seguente tabella sono descritti i codici formato e le relative azioni.
 
     | Codice formato                   | Interpretazione del codice di formato | Azione |
@@ -149,8 +149,8 @@ Quando si crea una formula di totale di riga, è necessario utilizzare codici di
 
 ### <a name="create-a-row-total"></a>Creare un totale di riga
 
-1. In Progettazione report fare clic su **Definizioni di riga**, quindi aprire la definizione di riga che si intende modificare.
-2. Fare doppio clic sulla cella **Codice formato** nella definizione di riga e selezionare **TOT**.
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+2. Fai doppio clic sulla cella **Codice formato** nella definizione di riga e seleziona **TOT**.
 3. Nella cella **Unità/Righe/Formule correlate**, immettere la formula del totale.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Collegare una riga di formato a una riga di importo
@@ -162,7 +162,7 @@ Nella colonna **Codice formato** in una definizione di riga, i codici di formato
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Collegare una riga di formato a una riga di importo
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi selezionare una definizione di riga da modificare.
+1. In Report Designer, fai clic su **Definizioni di riga** quindi seleziona una definizione di riga da modificare.
 2. Nella riga di formattazione, nella cella **Unità/Righe/Formule correlate**, immettere il codice della riga di importo da eliminare.
 
     > [!NOTE]
@@ -192,15 +192,15 @@ In una definizione di colonna il tipo di colonna **CALC** indica una colonna che
 
 ### <a name="select-the-base-row-in-a-row-definition-for-a-column-calculation"></a>Selezionare la riga di base in una definizione di riga per il calcolo di una colonna
 
-1. In Progettazione report, fare clic su **Definizioni colonne** quindi aprire la definizione di colonna di un conto economico.
+1. In Report Designer, fai clic su **Definizioni colonne** quindi apri la definizione di colonna di un conto economico.
 2. Aggiungere una nuova colonna alla definizione di colonna e impostare il tipo di colonna su **CALC**.
 3. Nella cella **Formula** della nuova colonna, immettere la formula **X/BASEROW**, dove **X** è il tipo di colonna **FD** per visualizzare una percentuale.
-4. Fare doppio clic sulla cella **Sostituzione formato/valuta**.
-5. Nella finestra di dialogo **Sostituzione formato**, nell'elenco **Categoria formato**, selezionare **Percentuale** e fare clic su **OK**.
+4. Fai doppio clic sulla cella **Sostituzione formato/valuta**.
+5. Nella finestra di dialogo **Sostituzione formato**, nell'elenco **Categoria formato**, seleziona **Percentuale** e fai clic su **OK**.
 6. Nel menu **File**, fare clic su **Salva con nome** per salvare la definizione di colonna con un nuovo nome. Aggiungere **CBR** al nome file corrente (ad esempio **CUR\_YTD\_CBR**). La definizione di colonna è nella definizione di colonna della riga di base.
-7. In Progettazione report, fare clic su **Definizioni di riga** e aprire la definizione di riga da modificare utilizzando il calcolo della riga di base.
+7. In Report Designer, fai clic su **Definizioni di riga** e apri la definizione di riga da modificare utilizzando il calcolo della riga di base.
 8. Inserire una nuova riga sopra la riga in cui il calcolo della riga di base deve iniziare.
-9. Fare doppio clic sulla cella **Codice formato** della definizione di riga e selezionare **CBR**.
+9. Fai doppio clic sulla cella **Codice formato** della definizione di riga e seleziona **CBR**.
 10. Nella cella **Unità/Righe/Formule correlate**, immettere il numero di codice della riga di base.
 
 ### <a name="example-of-base-row-calculation"></a>Esempio di calcolo della riga di base
@@ -227,10 +227,10 @@ I codici di ordinamento ordinano conti o valori, ordinano un report di scostamen
 
 ### <a name="select-a-sorting-code"></a>Selezionare un codice di ordinamento
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
-2. Fare doppio clic sulla cella **Codice formato** quindi selezionare un codice di ordinamento.
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+2. Fai doppio clic sulla cella **Codice formato** quindi seleziona un codice di ordinamento.
 3. Nella cella **Unità/Righe/Formule correlate**, specificare l'intervallo dei codici di riga da ordinare. Per specificare un intervallo, immettere il primo codice di riga, due punti (:) e l'ultimo codice di riga. Ad esempio, immettere **160:490** per specificare che l'intervallo è compreso tra la riga 160 e la riga 490.
-4. Nella cella **Restrizione colonna**, immettere la lettera della colonna del report da utilizzare per l'ordinamento.
+4. Nella cella **Restrizione colonna**, immetti la lettera della colonna del report da utilizzare per l'ordinamento.
 
     > [!NOTE]
     > Includere solo le righe di importo nel calcolo di ordinamento.
@@ -239,25 +239,25 @@ I codici di ordinamento ordinano conti o valori, ordinano un report di scostamen
 
 Nel seguente esempio, i valori nella colonna D del report verranno elencati in ordine crescente per le righe da 160 a 490. Inoltre, i valori assoluti nella colonna G del report verranno elencati in ordine decrescente per le righe da 610 a 940.
 
-| Codice di riga | Descrizione                                         | Codice formato | Unità/righe/formule correlate | Saldo normale | Restrizione di colonna | Collegamento a dimensioni finanziarie |
-|----------|-----------------------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
-| 100      | Ordinato per scostamento mensile in ordine crescente       | DES         |                             |                |                    |                              |
-| 130      |                                                     | SORT        | 160:490                     |                | D                  |                              |
-| 160      | Vendite                                               |             |                             | C              |                    | 4100                         |
-| 190      | Resi vendite                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 490      | Interessi attivi                                     |             |                             | C              |                    | 7000                         |
-| 520      |                                                     | DES         |                             |                |                    |                              |
-| 550      | Ordinato per scostamento assoluto da inizio anno in ordine decrescente | DES         |                             |                |                    |                              |
-| 580      |                                                     | ASORTDESC   | 610:940                     |                | G                  |                              |
-| 610      | Vendite                                               |             |                             | Z              |                    | 4100                         |
-| 640      | Sales Returns                                       |             |                             |                |                    | 4110                         |
-|          | ...                                                 |             |                             |                |                    |                              |
-| 940      | Interessi attivi                                     |             |                             | Z              |                    | 7000                         |
+| Codice di riga | Description                             | Codice formato | Unità/righe/formule correlate | Saldo normale | Restrizione di colonna | Collegamento a dimensioni finanziarie |
+|----------|-----------------------------------------|-------------|-----------------------------|----------------|--------------------|------------------------------|
+| 100      | Ordinato per scostamento mensile in ordine crescente       | DES         |                |                |                    |                              |
+| 130      |                                        | SORT        | 160:490                     |                | D                  |                              |
+| 160      | Vendite                                   |             |                             | C              |                    | 4100                         |
+| 190      | Resi vendite                        |             |                             |                |                    | 4110                         |
+|          | ...                             |             |                             |                |                    |                              |
+| 490      | Interessi attivi              |             |                             | C              |                    | 7000                         |
+| 520      |                                     | DES         |                             |                |                    |                              |
+| 550      | Ordinato per scostamento assoluto da inizio anno in ordine decrescente | DES         |             |                |                    |                              |
+| 580      |                              | ASORTDESC   | 610:940                     |                | G                  |                              |
+| 610      | Vendite                     |             |                             | Z              |                    | 4100                         |
+| 640      | Resi vendite                |             |                             |                |                    | 4110                         |
+|          | ...                       |             |                             |                |                    |                              |
+| 940      | Interessi attivi               |             |                             | C              |                    | 7000                         |
 
 
-## <a name="specify-a-format-override-cell"></a>Specificare una cella di sostituzione di formato
-La cella **Sostituzione formato** specifica la formattazione utilizzata per la riga quando il report viene stampato. Questa formattazione sostituisce la formattazione specificata nella definizione di colonna e nella definizione di report. Per impostazione predefinita, la formattazione specificata in tali definizioni è valuta. Se una riga di report elenca il numero di cespiti, ad esempio il numero di edifici, e un'altra riga elenca il valore monetario di tali cespiti, è possibile sostituire la formattazione di valuta e immettere la formattazione numerica per la riga che specifica il numero di edifici. Specificare queste informazioni nella finestra di dialogo **Sostituzione formato**. Le opzioni disponibili dipendono dalla categoria di formato selezionato. L'area **Esempio** della finestra di dialogo mostra i formati di esempio. Sono disponibili le seguenti categorie di formato:
+## <a name="specify-a-format-override-cell"></a>Specifica una cella di sostituzione di formato
+La cella **Sostituzione formato** specifica la formattazione utilizzata per la riga quando il report viene stampato. Questa formattazione sostituisce la formattazione specificata nella definizione di colonna e nella definizione di report. Per impostazione predefinita, la formattazione specificata in tali definizioni è valuta. Se una riga di report elenca il numero di cespiti, ad esempio il numero di edifici, e un'altra riga elenca il valore monetario di tali cespiti, è possibile sostituire la formattazione di valuta e immettere la formattazione numerica per la riga che specifica il numero di edifici. Specifica queste informazioni nella finestra di dialogo **Sostituzione formato**. Le opzioni disponibili dipendono dalla categoria di formato selezionato. L'area **Esempio** della finestra di dialogo mostra i formati di esempio. Sono disponibili le seguenti categorie di formato:
 
 - Formattazione di valuta
 - Formattazione numerica
@@ -266,9 +266,9 @@ La cella **Sostituzione formato** specifica la formattazione utilizzata per la r
 
 ### <a name="override-cell-formatting"></a>Sostituire la formattazione delle celle
 
-1. In Progettazione report, aprire la definizione di riga da modificare.
-2. Nella riga con il formato da sostituire, fare doppio clic sulla cella nella colonna **Sostituzione formato**.
-3. Nella finestra di dialogo **Sostituzione formato**, selezionare le opzioni di formattazione da utilizzare per la riga nel report.
+1. In Report Designer apri la definizione di riga da modificare.
+2. Nella riga con il formato da sostituire, fai doppio clic sulla cella nella colonna **Sostituzione formato**.
+3. Nella finestra di dialogo **Sostituzione formato**, seleziona le opzioni di formattazione da utilizzare per la riga nel report.
 4. Scegliere **OK**.
 
 ### <a name="currency-formatting"></a>Formattazione di valuta
@@ -327,20 +327,20 @@ Il tipo deve rappresentare il valore positivo e quindi il valore negativo. In ge
 | 0.00%;(0.00%)                  | 123456.00% | (123456.00%) | 0.00%   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Specificare una cella saldo normale
-La cella **Saldo normale** in una definizione di riga controlla il segno degli importi in una riga. Per invertire il segno di una riga, o se il saldo normale di un conto è in Avere, immettere una **C** nella cella **Saldo normale** per quella riga. Progettazione report inverte il segno su tutti i saldi contabili in avere della riga. Quando Progettazione report converte i conti, rimuove la caratteristica dare/avere da tutti gli importi e quindi rende il totale diretto. Ad esempio, per calcolare il ricavo netto, sottrarre le spese dal reddito. In genere, le righe di totale e di calcolo non sono interessate da un codice **C**. Tuttavia, il controllo di stampa **XCR** nella definizione di colonna inverte il segno di qualsiasi riga contenente una **C** nella colonna **Saldo normale**. La formattazione è particolarmente importante se si desidera visualizzare tutti gli scostamenti sfavorevoli come importi negativi. Se un numero di totale o calcolo ha il segno errato, immettere una **C** nella cella **Saldo normale** per invertire il segno della riga.
+La cella **Saldo normale** in una definizione di riga controlla il segno degli importi in una riga. Per invertire il segno di una riga o se il saldo normale di un conto è in Avere immetti una **C** nella cella **Saldo normale** per quella riga. Report Designer inverte il segno su tutti i saldi contabili in avere della riga. Quando Report Designer converte i conti, rimuove la caratteristica dare/avere da tutti gli importi e quindi rende il totale diretto. Ad esempio, per calcolare il ricavo netto, sottrarre le spese dal reddito. In genere, le righe di totale e di calcolo non sono interessate da un codice **C**. Tuttavia, il controllo di stampa **XCR** nella definizione di colonna inverte il segno di qualsiasi riga contenente una **C** nella colonna **Saldo normale**. La formattazione è particolarmente importante se si desidera visualizzare tutti gli scostamenti sfavorevoli come importi negativi. Se un numero di totale o calcolo ha il segno errato, immetti una **C** nella cella **Saldo normale** per invertire il segno della riga.
 
-## <a name="specify-a-row-modifier-cell"></a>Specificare una cella del modificatore di riga
+## <a name="specify-a-row-modifier-cell"></a>Specifica una cella del modificatore di riga
 Il contenuto della cella **Modificatore di riga** in una definizione di riga sostituisce gli anni fiscali, i periodi e altre informazioni specificate nella definizione di colonna per la riga. Il modificatore selezionato si applica a ciascun conto nella riga. È possibile modificare ogni riga utilizzando uno o più dei seguenti tipi di modificatori:
 
 - Modificatori di conto
 - Modificatori di codice registro
-- Attributi di transazione e conto
+- Attributi di conto e di transazione
 
 ### <a name="override-a-column-definition"></a>Sostituire una definizione colonna
 
-1. In Progettazione report, aprire la definizione di riga da modificare.
-2. Nella riga in cui si desidera sostituire la definizione di colonna, fare doppio clic sulla cella **Modificatore di riga** .
-3. Nella finestra di dialogo **Modificatore di riga**, selezionare un'opzione nel campo **Modificatore di conto**. Per una descrizione delle opzioni, vedere la sezione Modificatori di conto.
+1. In Report Designer apri la definizione di riga da modificare.
+2. Nella riga in cui si desidera sostituire la definizione di colonna, fai doppio clic sulla cella **Modificatore di riga** .
+3. Nella finestra di dialogo **Modificatore di riga**, seleziona un'opzione nel campo **Modificatore di conto**. Per una descrizione delle opzioni, vedere la sezione Modificatori di conto.
 4. Nel campo **Modificatore di codice registro**, selezionare il codice registro da utilizzare per la riga.
 5. In **Attributi**, seguire questi passaggi per aggiungere una voce per ogni attributo che deve essere incluso nel codice di riga:
 
@@ -356,7 +356,7 @@ Il contenuto della cella **Modificatore di riga** in una definizione di riga sos
 
 ### <a name="account-modifiers"></a>Modificatori di conto
 
-Quando si seleziona un conto specifico, Progettazione report in genere combina il conto e gli anni fiscali, i periodi e altre informazioni specificate nella definizione di colonna. È possibile utilizzare informazioni diverse, ad esempio periodi fiscali diversi, per righe specifiche. Nella seguente tabella vengono indicati i modificatori di conto disponibili. Sostituire il simbolo cancelletto (\#) con un valore uguale o inferiore al numero di periodi di un anno fiscale.
+Quando si seleziona un conto specifico, Report Designer in genere combina il conto e gli anni fiscali, i periodi e altre informazioni specificate nella definizione di colonna. È possibile utilizzare informazioni diverse, ad esempio periodi fiscali diversi, per righe specifiche. Nella seguente tabella vengono indicati i modificatori di conto disponibili. Sostituire il simbolo cancelletto (\#) con un valore uguale o inferiore al numero di periodi di un anno fiscale.
 
 | Modificatore di conto | Cosa viene stampato                                                                           |
 |------------------|-------------------------------------------------------------------------------------------|
@@ -382,11 +382,11 @@ Quando si seleziona un conto specifico, Progettazione report in genere combina i
 
 Alcuni sistemi di contabilità supportano gli attributi di conto e gli attributi di transazione nei dati finanziari. Questi attributi vengono eseguiti come segmenti di conti virtuali e possono riportare ulteriori informazioni sul conto o sulla transazione. Queste informazioni aggiuntive possono essere ID conto, ID batch, codici postali o altri attributi. Se il sistema contabile supporta gli attributi, è possibile utilizzare gli attributi di conto o gli attributi di transazione come modificatori riga nella definizione di riga. Per informazioni su come sostituire le informazioni di riga, vedere la sezione "Sostituire una definizione colonna" in precedenza in questo articolo.
 
-## <a name="specify-a-link-to-financial-dimensions-cell"></a>Specificare il collegamento a una cella di dimensioni finanziarie
-La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai dati finanziari che devono essere inclusi in ciascuna riga del report. Questa cella contiene valori di dimensione. Per aprire la finestra di dialogo **Dimensioni**, fare doppio clic sulla cella **Collegamento a dimensioni finanziarie**.
+## <a name="specify-a-link-to-financial-dimensions-cell"></a>Specifica il collegamento a una cella di dimensioni finanziarie
+La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai dati finanziari che devono essere inclusi in ciascuna riga del report. Questa cella contiene valori di dimensione. Per aprire la finestra di dialogo **Dimensioni**, fai doppio clic sulla cella **Collegamento a dimensioni finanziarie**.
 
 > [!NOTE]
-> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. Per specificare le informazioni per una riga già inclusa nella definizione di riga, aggiungere le informazioni nella cella **Collegamento a Dimensioni finanziarie**. Per aggiungere nuove righe di collegamento ai dati finanziari, utilizzare la finestra di dialogo **Inserisci righe da** per creare nuove righe nella definizione di report. Il titolo di colonna cambia a seconda di come la colonna è stata configurata, come illustrato nella seguente tabella.
+> Tuttavia, in Report Designer non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics 365 Finance che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. Per specificare le informazioni per una riga già inclusa nella definizione di riga, aggiungi le informazioni nella cella **Collegamento a Dimensioni finanziarie**. Per aggiungere nuove righe di collegamento ai dati finanziari, utilizzare la finestra di dialogo **Inserisci righe da** per creare nuove righe nella definizione di report. Il titolo di colonna cambia a seconda di come la colonna è stata configurata, come illustrato nella seguente tabella.
 
 | Tipo di collegamento selezionato       | Descrizione del collegamento delle modifiche di colonna a |
 |----------------------------------|----------------------------------------------------|
@@ -395,8 +395,8 @@ La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai da
 
 ### <a name="specify-a-dimension-or-range"></a>Specificare una dimensione o un intervallo
 
-1. In Progettazione report aprire la definizione di riga da modificare.
-2. Fare doppio clic su una cella della colonna **Collegamento a Dimensioni finanziarie**.
+1. In Report Designer apri la definizione di riga da modificare.
+2. Fai doppio clic su una cella della colonna **Collegamento a Dimensioni finanziarie**.
 3. Nella finestra di dialogo **Dimensioni** fare doppio clic su una cella in corrispondenza del nome della dimensione.
 4. Nella finestra di dialogo per la dimensione, selezionare **Singolo o intervallo**.
 5. Nel campo **Da** immettere la dimensione iniziale o fare clic su ![Sfoglia.](media/browse.gif "Sfoglia") per cercare le dimensioni disponibili. Per immettere un intervallo di dimensioni, immettere la dimensione finale nel campo **A**.
@@ -404,64 +404,64 @@ La cella **Collegamento a dimensioni finanziarie** contiene i collegamenti ai da
 7. Scegliere **OK** per chiudere la finestra di dialogo **Dimensioni**.
 
 ## <a name="display-zero-balance-accounts-in-a-row-definition"></a>Visualizzare conti con saldo zero in una definizione di riga
-Per impostazione predefinita, Progettazione report non stampa una riga se non ha un saldo corrispondente nei dati finanziari. Di conseguenza, è possibile creare una definizione di riga contenente tutti i valori di segmenti naturali o tutti i valori di dimensione e quindi utilizzare la definizione di riga per uno dei reparti.
+Per impostazione predefinita, Report Designer non stampa una riga se non ha un saldo corrispondente nei dati finanziari. Di conseguenza, è possibile creare una definizione di riga contenente tutti i valori di segmenti naturali o tutti i valori di dimensione e quindi utilizzare la definizione di riga per uno dei reparti.
 
 ### <a name="modify-zero-balance-settings"></a>Modificare le impostazioni di saldo zero
 
-1. In Progettazione report, aprire la definizione di report da modificare.
+1. In Report Designer, apri la definizione di report da modificare.
 2. Nella scheda **Impostazioni**, selezionare in **Altra formattazione** le opzioni per la definizione di riga utilizzata nella definizione di report.
 3. Scegliere **Salva** dal menu **File** per salvare le modifiche.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Utilizzare i caratteri jolly e gli intervalli in una definizione di riga
-Quando si immette un valore di segmento naturale nella finestra di dialogo **Dimensioni**, è possibile inserire un carattere jolly (? o \*) in qualsiasi posizione di un segmento. Progettazione report estrae tutti i valori per le posizioni definite senza considerare i caratteri jolly. Ad esempio, la definizione di riga contiene solo i valori di segmenti naturali e i segmenti naturali hanno quattro caratteri. Se si immette **6???** in una riga, Progettazione report include tutti i conti con un valore di segmento naturale che inizia con 6. Se si immette **6\**_, vengono restituiti gli stessi risultati, ma i risultati includono anche i valori di larghezza variabile, ad esempio _* 60** e **600000**. Progettazione report sostituisce ogni carattere jolly (?) con l'intervallo completo di valori possibili che includono lettere e caratteri speciali. Ad esempio, nell'intervallo compreso tra **12?0** e **12?4**, il carattere jolly in **12?0** viene sostituito con il valore minimo del set di caratteri e il carattere jolly in **12?4** viene sostituito con il valore massimo del set di caratteri.
+Quando si immette un valore di segmento naturale nella finestra di dialogo **Dimensioni**, è possibile inserire un carattere jolly (? o \*) in qualsiasi posizione di un segmento. Report Designer estrae tutti i valori per le posizioni definite senza considerare i caratteri jolly. Ad esempio, la definizione di riga contiene solo i valori di segmenti naturali e i segmenti naturali hanno quattro caratteri. Se si immette **6???** in una riga, Report Designer include tutti i conti con un valore di segmento naturale che inizia con 6. Se si immette **6\**_, vengono restituiti gli stessi risultati, ma i risultati includono anche i valori di larghezza variabile, ad esempio _* 60** e **600000**. Report Designer sostituisce ogni carattere jolly (?) con l'intervallo completo di valori possibili che includono lettere e caratteri speciali. Ad esempio, nell'intervallo compreso tra **12?0** e **12?4**, il carattere jolly in **12?0** viene sostituito con il valore minimo del set di caratteri e il carattere jolly in **12?4** viene sostituito con il valore massimo del set di caratteri.
 
 > [!NOTE]
 > È consigliabile evitare di utilizzare i caratteri jolly per i conti iniziali e finali negli intervalli. Se si utilizzano i caratteri jolly nel conto iniziale o finale, è possibile che i risultati siano imprevisti.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>Intervalli di dimensione singola o segmento singolo
 
-È possibile specificare un intervallo di valori di dimensione o di segmento. Il vantaggio di specificare un intervallo consiste nel fatto che non si deve aggiornare la definizione di riga ogni volta che un nuovo valore di dimensione o di segmento viene aggiunto ai dati finanziari. Ad esempio, l'intervallo **+Account=\[6100:6900\]** effettua il pull dei valori dei conti compresi tra 6100 e 6900 nell'importo di riga. Quando un intervallo include un carattere jolly (?), Progettazione report non valuta l'intervallo sulla base di un carattere alla volta. I limiti minimo e massimo dell'intervallo sono determinati e quindi i valori finali e tutti i valori tra loro sono inclusi.
+È possibile specificare un intervallo di valori di dimensione o di segmento. Il vantaggio di specificare un intervallo consiste nel fatto che non si deve aggiornare la definizione di riga ogni volta che un nuovo valore di dimensione o di segmento viene aggiunto ai dati finanziari. Ad esempio, l'intervallo **+Account=\[6100:6900\]** effettua il pull dei valori dei conti compresi tra 6100 e 6900 nell'importo di riga. Quando un intervallo include un carattere jolly (?), Report Designer non valuta l'intervallo sulla base di un carattere alla volta. I limiti minimo e massimo dell'intervallo sono determinati e quindi i valori finali e tutti i valori tra loro sono inclusi.
 
 > [!NOTE]
-> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. È possibile aggiungere una e commerciale (&) solo quando vengono automaticamente create le definizioni di riga utilizzando la finestra di dialogo **Inserisci righe da dimensioni**.
+> Tuttavia, in Report Designer non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics 365 Finance che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. È possibile aggiungere una e commerciale (&) solo quando vengono automaticamente create le definizioni di riga utilizzando la finestra di dialogo **Inserisci righe da dimensioni**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Intervalli di più dimensioni o segmenti
 
-Quando si immette un intervallo utilizzando le combinazioni di più valori di dimensione, il confronto dell'intervallo viene eseguito sulla base di ..\\dimensioni-finanziarie\\una-dimensione-alla-volta. Il confronto dell'intervallo non può essere eseguito in base a carattere alla volta o in base a un segmento parziale. Ad esempio, l'intervallo **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** comprende solo i conti corrispondenti a ogni segmento. In questo esempio, la prima dimensione deve essere compresa nell'intervallo da 5000 a 6000, la seconda dimensione deve essere compresa nell'intervallo da 1000 a 2000 e l'ultima dimensione deve essere 00. Ad esempio, **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** non viene incluso nel report, perché l'ultimo segmento non rientra nell'intervallo specificato. Se il valore del segmento include spazi, racchiudere il valore in parentesi quadre (\[ \]). I seguenti valori sono validi per un segmento a quattro caratteri: **\[ 234\], \[123 \], \[1 34\]**. I valori di dimensione devono essere racchiusi tra parentesi quadre (\[ \]) e Progettazione report aggiunge queste parentesi automaticamente. Quando un intervallo di più segmenti o dimensioni include caratteri jolly (? oppure \*), il limite superiore e inferiore dell'intervallo a più segmenti o dimensioni vengono determinati e vengono inclusi i valori finali e tutti i valori compresi tra loro. Se l'intervallo è ampio, ad esempio l'intervallo di tutti i conti compresi tra 40000 e 99999, è necessario specificare un conto di inizio e un conto di fine validi se possibile.
+Quando si immette un intervallo utilizzando le combinazioni di più valori di dimensione, il confronto dell'intervallo viene eseguito sulla base di ..\\dimensioni-finanziarie\\una-dimensione-alla-volta. Il confronto dell'intervallo non può essere eseguito in base a carattere alla volta o in base a un segmento parziale. Ad esempio, l'intervallo **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** comprende solo i conti corrispondenti a ogni segmento. In questo esempio, la prima dimensione deve essere compresa nell'intervallo da 5000 a 6000, la seconda dimensione deve essere compresa nell'intervallo da 1000 a 2000 e l'ultima dimensione deve essere 00. Ad esempio, **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** non viene incluso nel report, perché l'ultimo segmento non rientra nell'intervallo specificato. Se il valore del segmento include spazi, racchiudere il valore in parentesi quadre (\[ \]). I seguenti valori sono validi per un segmento a quattro caratteri: **\[ 234\], \[123 \], \[1 34\]**. I valori di dimensione devono essere racchiusi tra parentesi quadre (\[ \]) e Report Designer aggiunge queste parentesi automaticamente. Quando un intervallo di più segmenti o dimensioni include caratteri jolly (? oppure \*), il limite superiore e inferiore dell'intervallo a più segmenti o dimensioni vengono determinati e vengono inclusi i valori finali e tutti i valori compresi tra loro. Se l'intervallo è ampio, ad esempio l'intervallo di tutti i conti compresi tra 40000 e 99999, è necessario specificare un conto di inizio e un conto di fine validi se possibile.
 
 > [!NOTE] 
-> Nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. È possibile aggiungere una e commerciale (&) solo quando vengono automaticamente create le definizioni di riga utilizzando la finestra di dialogo **Inserisci righe da dimensioni**.
+> Tuttavia, in Report Designer non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics 365 Finance che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }. È possibile aggiungere una e commerciale (&) solo quando vengono automaticamente create le definizioni di riga utilizzando la finestra di dialogo **Inserisci righe da dimensioni**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Aggiungere o sottrarre da altri conti in una definizione riga
 Per aggiungere o sottrarre gli importi monetari di un conto dagli importi monetari di un altro conto, è possibile utilizzare il segno più (+) e il segno meno (-) nella cella **Collegamento a dimensioni finanziarie**. Nella seguente tabella vengono visualizzati i formati accettabili per l'aggiunta e la sottrazione dei collegamenti ai dati finanziari.
 
-| Operazione                                                                               | Utilizzare questo formato                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| Aggiungere due conti completi.                                                       | +Division=\[000\], Account=\[1205\], Department=\[00\]+Division=\[100\], Account=\[1205\], Department=\[00\] |
-| Aggiungere due valori di segmento.                                                                 | +Account=\[1205\]+Account=\[1210\]                                                                           |
-| Aggiungere i valori di segmento includendo i caratteri jolly.                                    | +Account=\[120?+Account=\[11??\]                                                                             |
-| Aggiungere un intervallo di conti completi.                                                | +Division=\[000:100\], Account=\[1205\], Department=\[00\]                                                   |
-| Aggiungere un intervallo di valori di segmento.                                                          | +Account=\[1200:1205\]                                                                                       |
-| Aggiungere un intervallo di valori di segmento includendo i caratteri jolly.                         | +Account=\[120?:130?\]                                                                                       |
+| Operazione                                            | Utilizzare questo formato                                                                                              |
+|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Aggiungere due conti completi.      | +Division=\[000\], Account=\[1205\], Department=\[00\]+Division=\[100\], Account=\[1205\], Department=\[00\] |
+| Aggiungere due valori di segmento.                    | +Account=\[1205\]+Account=\[1210\]                                                                           |
+| Aggiungere i valori di segmento includendo i caratteri jolly.  | +Account=\[120?+Account=\[11??\]                                                                     |
+| Aggiungere un intervallo di conti completi.              | +Division=\[000:100\], Account=\[1205\], Department=\[00\]                                           |
+| Aggiungere un intervallo di valori di segmento.                | +Account=\[1200:1205\]                                                                                       |
+| Aggiungere un intervallo di valori di segmento includendo i caratteri jolly.         | +Account=\[120?:130?\]                                                           |
 | Sottrarre un conto completo da un altro conto completo.              | +Division=\[000\], Account=\[1205\], Department=\[00\]-Division=\[100\], Account=\[1205\], Department=\[00\] |
-| Sottrarre un valore di segmento da un altro valore di segmento.                                  | +Account=\[1205\]-Account=\[1210\]                                                                           |
-| Sottrarre un valore di segmento che include un carattere jolly da un altro valore di segmento. | +Account=\[1200\]-Account=\[11??\]                                                                           |
-| Sottrarre un intervallo di conti completi.                                           | -Division=\[000:100\], Account=\[1200:1205\], Department=\[00:01\]                                           |
-| Sottrarre un intervallo di valori di segmento.                                                     | -Account=\[1200:1205\]                                                                                       |
-| Sottrarre un intervallo di valori di segmento includendo i caratteri jolly.                    | -Account=\[120?:130?\]                                                                                       |
+| Sottrarre un valore di segmento da un altro valore di segmento.          | +Account=\[1205\]-Account=\[1210\]                                                               |
+| Sottrarre un valore di segmento che include un carattere jolly da un altro valore di segmento. | +Account=\[1200\]-Account=\[11??\]                                        |
+| Sottrarre un intervallo di conti completi.                               | -Division=\[000:100\], Account=\[1200:1205\], Department=\[00:01\]                   |
+| Sottrarre un intervallo di valori di segmento.                   | -Account=\[1200:1205\]                                                                                       |
+| Sottrarre un intervallo di valori di segmento includendo i caratteri jolly.                    | -Account=\[120?:130?\]                                               |
 
-Sebbene sia possibile modificare direttamente i conti, è possibile anche utilizzare la finestra di dialogo **Dimensioni** per applicare la formattazione corretta ai collegamenti dei dati finanziari. I valori possono includere caratteri jolly (? oppure \*). Tuttavia, nella progettazione report non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }.
+Sebbene sia possibile modificare direttamente i conti, è possibile anche utilizzare la finestra di dialogo **Dimensioni** per applicare la formattazione corretta ai collegamenti dei dati finanziari. I valori possono includere caratteri jolly (? oppure \*). Tuttavia, nella Report Designer non è possibile selezionare conti, dimensioni o campi del sistema Microsoft Dynamics ERP che includono uno dei seguenti caratteri riservati: & \*, \[, \], { oppure }.
 
 > [!NOTE]
-> Per eseguire sottrazioni, i valori devono essere racchiusi tra parentesi. Ad esempio, se si immette **450?-(4509)**, viene visualizzato come **+Account=\[4509\]-Account=\[450?\]** e si indica a Progettazione report di sottrarre l'importo per il segmento di conto 4509 dall'importo di un segmento di conto che inizia con 450.
+> Per eseguire sottrazioni, i valori devono essere racchiusi tra parentesi. Ad esempio, se si immette **450?-(4509)**, viene visualizzato come **+Account=\[4509\]-Account=\[450?\]** e si indica a Report Designer di sottrarre l'importo per il segmento di conto 4509 dall'importo di un segmento di conto che inizia con 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Aggiungere o sottrarre i conti da altri conti
 
-1. In Progettazione report, aprire la definizione di riga da modificare.
-2. Nella riga appropriata, fare doppio clic sulla cella della colonna **Collegamento a dimensioni finanziarie**.
+1. In Report Designer apri la definizione di riga da modificare.
+2. Nella riga appropriata, fai doppio clic sulla cella della colonna **Collegamento a dimensioni finanziarie**.
 3. Nella prima riga della finestra di dialogo **Dimensioni**, effettuare le operazioni seguenti:
 
-    1. Nel primo campo, selezionare tutte le dimensioni (impostazione predefinita) o fare clic per aprire la finestra di dialogo **Gestire i set di dimensioni**, in cui è possibile creare, modificare, copiare o eliminare un set.
+    1. Nel primo campo, seleziona tutte le dimensioni (impostazione predefinita) o fai clic per aprire la finestra di dialogo **Gestire i set di dimensioni**, in cui è possibile creare, modificare, copiare o eliminare un set.
     2. Fare doppio clic sulla cella **Operatore +/-** e selezionare l'operatore più (**+**) o meno (**-**) che si applica a uno o più valori o set di dimensioni nella riga.
     3. Nella colonna appropriata del valore di dimensione, fare doppio clic sulla cella per aprire la finestra di dialogo **Dimensioni** e scegliere se il valore di dimensione è associato a un utente o un intervallo, a un set di valori di dimensione o a conti di totalizzazione. Per le descrizioni dei campi della finestra di dialogo **Dimensioni**, vedere la sezione "Descrizione della finestra di dialogo Dimensioni".
     4. Immettere i valori di segmento nella colonna **Da** e nella colonna **A**.
@@ -485,21 +485,21 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 
 ### <a name="create-a-set-of-dimension-values"></a>Creare un set di valori di dimensione
 
-1. In Progettazione report, aprire la definizione di riga, colonna o albero da modificare.
-2. Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
-3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di set di valori di dimensione da creare quindi fare clic su **Nuovo**.
+1. In Report Designer apri la definizione di riga, di colonna o di albero gerarchico da modificare.
+2. Nel menu **Modifica**, fai clic su **Gestire set di valori di dimensione**.
+3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, seleziona il tipo di set di valori di dimensione da creare quindi fai clic su **Nuovo**.
 4. Nella finestra di dialogo **Nuovo** immettere un nome e una descrizione per il set.
 5. Nella colonna **Da**, fare doppio clic su una cella.
 6. Nella finestra di dialogo **Conto**, selezionare il nome del conto nell'elenco o individuare la voce nel campo **Cerca**. Fare clic su **OK**.
 7. Ripetere i passaggi da 5 a 6 nella colonna **A** per progettare una formula per tale operatore.
 8. Quando la formula viene completata, fare clic su **OK**.
-9. Nella finestra di dialogo **Gestisci set di dimensioni** fare clic su **Chiudi**.
+9. Nella finestra di dialogo **Gestisci set di dimensioni** fai clic su **Chiudi**.
 
 ### <a name="update-a-set-of-dimension-values"></a>Aggiornare un set di valori di dimensione
 
-1. In Progettazione report aprire la definizione di riga, di colonna o di albero gerarchico da modificare.
-2. Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
-3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di dimensione.
+1. In Report Designer apri la definizione di riga, di colonna o di albero gerarchico da modificare.
+2. Nel menu **Modifica**, fai clic su **Gestire set di valori di dimensione**.
+3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, seleziona il tipo di dimensione.
 4. Nell'elenco, selezionare il set di valori di dimensione da aggiornare e quindi fare clic su **Modifica**.
 5. Nella finestra di dialogo **Modifica**, modificare i valori di formula da includere nel set.
 
@@ -511,17 +511,17 @@ Un set di valori di dimensione è un gruppo denominato di valori di dimensione. 
 
 ### <a name="copy-a-dimension-set"></a>Copiare un set di dimensioni
 
-1. In Progettazione report, aprire la definizione di riga, colonna o albero da modificare.
-2. Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
-3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di dimensione.
-4. Nell'elenco selezionare il set da copiare e fare clic su **Salva con nome**.
+1. In Report Designer apri la definizione di riga, di colonna o di albero gerarchico da modificare.
+2. Nel menu **Modifica**, fai clic su **Gestire set di valori di dimensione**.
+3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, seleziona il tipo di dimensione.
+4. Nell'elenco selezionare il set da copiare e fai clic su **Salva con nome**.
 5. Immettere un nuovo nome per il set copiato e scegliere **OK**.
 
 ### <a name="delete-a-dimension-set"></a>Eliminare un set di dimensioni
 
-1. In Progettazione report aprire la definizione di riga, di colonna o di albero gerarchico da modificare.
-2. Nel menu **Modifica**, fare clic su **Gestire set di valori di dimensione**.
-3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, selezionare il tipo di dimensione.
+1. In Report Designer apri la definizione di riga, di colonna o di albero gerarchico da modificare.
+2. Nel menu **Modifica**, fai clic su **Gestire set di valori di dimensione**.
+3. Nella finestra di dialogo **Gestire set di valori di dimensione**, campo **Dimensione**, seleziona il tipo di dimensione.
 4. Selezionare il set da eliminare, quindi fare clic su **Elimina**. Fare clic su **Sì** per eliminare definitivamente il set di valori di dimensione.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive

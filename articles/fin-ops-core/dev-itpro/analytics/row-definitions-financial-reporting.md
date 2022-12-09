@@ -1,8 +1,8 @@
 ---
-title: Definizioni di riga in Progettazione report finanziari
+title: Definizioni di riga in Report Designer finanziari
 description: Una definizione di riga è un componente di report, o blocco predefinito, che specifica il contenuto di ciascuna riga in un report finanziario.
 author: aprilolson
-ms.date: 06/20/2017
+ms.date: 11/22/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,14 +15,14 @@ ms.dyn365.ops.version: Version 1611
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.form: FinancialReports
-ms.openlocfilehash: 1481d95bc7a02294b499e07308df2d26a3ab0e3a
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 3325f76f991ea6d2a1b6131f299460e529d63d38
+ms.sourcegitcommit: d27fef61593c6d1e9e26d5c9fad21411bc52fabc
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9274695"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802447"
 ---
-# <a name="row-definitions-in-financial-report-designer"></a>Definizioni di riga in Progettazione report finanziari
+# <a name="row-definitions-in-financial-report-designer"></a>Definizioni di riga in Report Designer finanziari
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,18 +30,18 @@ Una definizione di riga è un componente di report, o blocco predefinito, che sp
 
 ## <a name="create-a-row-definition"></a>Crea nuova definizione di riga
 
-1. In Progettazione report, nel pannello di navigazione, fare clic su **Definizioni di riga**.
-2. Scegliere **Nuovo**, quindi **Definizione riga** dal menu **File**. Per ulteriori informazioni sul contenuto di ogni cella, vedere [Modificare le celle di definizione di riga](modify-row-definition-cells-financial-reporting.md).
+1. In Report Designer, nel riquadro di spostamento, fai clic su **Definizioni di riga**.
+2. Scegli **Nuovo**, quindi **Definizione riga** dal menu **Nuovo**. Per ulteriori informazioni sul contenuto di ogni cella, vedere [Modificare le celle di definizione di riga](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="open-a-row-definition"></a>Aprire una definizione di riga
-1. In Progettazione report, nel pannello di navigazione, fare clic su **Definizioni di riga**.
+1. In Report Designer, nel riquadro di spostamento, fai clic su **Definizioni di riga**.
 2. Fare doppio clic sul nome della definizione di riga da aprire.
 3. Per visualizzare tutti i blocchi predefiniti associati alla definizione di riga, fare clic con il pulsante destro del mouse sulla definizione di riga e selezionare **Associazioni**.
 
 ## <a name="contents-of-a-row-definition"></a> Contenuto di una definizione di riga
 Una definizione di riga può contenere fino a 20.000 righe di dimensione finanziaria e includere le seguenti informazioni:
 
-- Testo descrittivo che aggiunge significato al report creando intestazioni di sezione, righe e spazi, ad esempio **Contante** o **Totale ricavi**.
+- Testo descrittivo che aggiunge significato al report creando intestazioni di sezione, righe e spazi, ad esempio **Contante** o **Totale ricavi**
 - Collegamenti a dati finanziari, che possono includere valori di dimensione in Microsoft Dynamics 365 Finance.
 
     > [!NOTE]
@@ -58,10 +58,10 @@ In genere, ogni riga in una definizione contiene uno dei seguenti tipi di inform
 Esistono due metodi per l'immissione dei dati in una definizione di riga:
 
 - Immettere le informazioni sulla riga manualmente in una nuova definizione di riga. Per ulteriori informazioni, vedere [Modificare le celle di definizione di riga](modify-row-definition-cells-financial-reporting.md).
-- Utilizzare Progettazione report per estrarre informazioni di riga direttamente dalle dimensioni finanziarie. Per ulteriori informazioni, vedere la sezione "Unità/righe/formule correlate" in [Modificare le celle di definizione riga](modify-row-definition-cells-financial-reporting.md).
+- Utilizzare Report Designer per estrarre informazioni di riga direttamente dalle dimensioni finanziarie. Per ulteriori informazioni, vedere la sezione "Unità/righe/formule correlate" in [Modificare le celle di definizione riga](modify-row-definition-cells-financial-reporting.md).
 
 ## <a name="add-dimensions-in-a-row-definition"></a> Aggiungere dimensioni in una definizione di riga
-Una dimensione è un'intersezione di dati e valori. È possibile raggruppare dati e valori in Progettazione report. È quindi possibile classificare e analizzare le transazioni in modo più dettagliato. È possibile utilizzare la finestra di dialogo **Inserire le righe delle dimensioni** per aggiungere contemporaneamente più righe in una definizione di riga. La finestra di dialogo visualizza una colonna per ogni dimensione. Nella seguente tabella vengono descritte le informazioni che è possibile specificare per ogni dimensione.
+Una dimensione è un'intersezione di dati e valori. È possibile raggruppare dati e valori in Report Designer. È quindi possibile classificare e analizzare le transazioni in modo più dettagliato. È possibile utilizzare la finestra di dialogo **Inserire le righe delle dimensioni** per aggiungere contemporaneamente più righe in una definizione di riga. La finestra di dialogo visualizza una colonna per ogni dimensione. Nella seguente tabella vengono descritte le informazioni che è possibile specificare per ogni dimensione.
 
 | Opzione                | Descrizione |
 |-----------------------|-------------|
@@ -71,10 +71,10 @@ Una dimensione è un'intersezione di dati e valori. È possibile raggruppare dat
 
 Per aggiungere le dimensioni a una definizione di riga, effettuare i passaggi seguenti.
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
-2. Nel menu **Modifica** fare clic su **Inserire le righe delle dimensioni**.
-3. Nella finestra di dialogo **Inserisci righe da dimensioni**, nella riga **Dimensioni**, selezionare la cella per la dimensione da trasferire alla definizione di riga e fare clic su **Tutti &&&**.
-4. Per limitare la definizione di riga a un intervallo specifico di valori di dimensione, immettere il valore di dimensione iniziale nella cella **Inizio intervallo dimensioni** e specificare il valore finale della dimensione nella cella **Fine intervallo dimensioni**. Per includere tutti i valori per la dimensione selezionata, lasciare vuote tali celle.
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+2. Nel menu **Modifica** fai clic su **Inserisci righe da dimensioni**.
+3. Nella finestra di dialogo **Inserisci righe da dimensioni**, nella riga **Dimensioni**, seleziona la cella per la dimensione da trasferire alla definizione di riga e fai clic su **Tutti &&&**.
+4. Per limitare la definizione di riga a un intervallo specifico di valori di dimensione, immetti il valore di dimensione iniziale nella cella **Inizio intervallo dimensioni** e specifica il valore finale della dimensione nella cella **Fine intervallo dimensioni**. Per includere tutti i valori per la dimensione selezionata, lasciare vuote tali celle.
 
     > [!NOTE]
     > I caratteri jolly (\* o ?) negli intervalli di dimensioni potrebbero non restituire tutti i risultati desiderati, a seconda delle regole di confronto applicate ai dati nel database ERP.
@@ -94,9 +94,9 @@ In uno stato patrimoniale in cui gli importi sono arrotondati, è possibile che 
 
 Per rettificare l'arrotondamento nello stato patrimoniale, completare i passaggi seguenti.
 
-1. In Progettazione report, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
-2. Scegliere **Rettifica per arrotondamento** dal menu **Modifica**.
-3. Nella finestra di dialogo **Rettifiche arrotondamento**, immettere i valori seguenti:
+1. In Report Designer, fare clic su **Definizioni di riga** quindi aprire la definizione di riga da modificare.
+2. Scegli **Rettifica per arrotondamento** dal menu **Modifica**.
+3. Nella finestra di dialogo **Rettifiche arrotondamento**, immetti i valori seguenti:
 
     - **Riga rettifica arrotondamento**: il codice della riga che deve essere rettificata per bilanciare lo stato patrimoniale.
     - **Riga totale cespiti**: il codice della riga nello stato patrimoniale contenente i cespiti totali.
@@ -124,8 +124,8 @@ Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando
 <td><strong>Creare uno stile di carattere</strong></td>
 <td>
 <ol>
-<li>In Progettazione report, nel menu <strong>Formato</strong>, fare clic su <strong>Stili e formattazione</strong>.</li>
-<li>Nella finestra di dialogo <strong>Stili e formattazione</strong> fare clic su <strong>Nuovo</strong>, quindi immettere un nome univoco per il nuovo stile.</li>
+<li>In Report Designer, nel menu <strong>Formato</strong>, fai clic su <strong>Stili e formattazione</strong>.</li>
+<li>Nella finestra di dialogo <strong>Stili e formattazione</strong> fai clic su <strong>Nuovo</strong>, quindi immetti un nome univoco per il nuovo stile.</li>
 <li>Selezionare le opzioni desiderate per il carattere e quindi fare clic su <strong>OK</strong>.</li>
 </ol>
 </td>
@@ -134,8 +134,8 @@ Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando
 <td><strong>Modificare uno stile di carattere</strong></td>
 <td>
 <ol>
-<li>In Progettazione report, nel menu <strong>Formato</strong>, fare clic su <strong>Stili e formattazione</strong>.</li>
-<li>Nella finestra di dialogo <strong>Stili e formattazione</strong> selezionare lo stile a modificare, quindi fare clic su <strong>Modifica</strong>.</li>
+<li>In Report Designer, nel menu <strong>Formato</strong>, fai clic su <strong>Stili e formattazione</strong>.</li>
+<li>Nella finestra di dialogo <strong>Stili e formattazione</strong> seleziona lo stile a modificare, quindi fai clic su <strong>Modifica</strong>.</li>
 <li>Selezionare le opzioni desiderate per il carattere e quindi fare clic su <strong>OK</strong>.</li>
 </ol>
 </td>
@@ -144,7 +144,7 @@ Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando
 <td><strong>Applicare lo stile di carattere</strong></td>
 <td>
 <ol>
-<li>In Progettazione report, in una definizione o in una definizione di colonna oppure nelle intestazioni e nei piè di pagina, selezionare una o più celle.</li>
+<li>In Report Designer, in una definizione o in una definizione di colonna oppure nelle intestazioni e nei piè di pagina, seleziona una o più celle.</li>
 <li>Nell'elenco <strong>Stile</strong> sulla barra degli strumenti selezionare uno stile di carattere.</li>
 </ol>
 </td>
@@ -156,9 +156,9 @@ Gli importi nello stato patrimoniale vengono ora bilanciati uniformemente quando
 
 La formattazione specificata nella definizione di riga sostituisce la formattazione specificata nella definizione di colonna e nella definizione di report. È possibile modificare il formato di testo utilizzando i controlli sulla barra degli strumenti formattazione. Tali controlli corrispondono ai controlli standard di Microsoft Windows.
 
-1. In Progettazione report aprire la definizione di riga da modificare.
+1. In Report Designer apri la definizione di riga da modificare.
 2. Selezionare le celle da formattare. Per selezionare più celle, tenere premuto CTRL mentre si seleziona la cella.
-3. Fare clic sul pulsante del formato da applicare nella barra degli strumenti. Ad esempio, per impostare il rientro di una riga, selezionare la riga e fare clic su **Aumenta rientro** ![Aumenta rientro](media/indent.gif "Aumenta rientro") sulla barra degli strumenti.
+3. Fare clic sul pulsante del formato da applicare nella barra degli strumenti. Ad esempio, per impostare il rientro di una riga, seleziona la riga e fai clic su **Aumenta rientro** ![Aumenta rientro.](media/indent.gif "Aumenta rientro") sulla barra degli strumenti.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Rettificare le colonne durante la progettazione dei report
 
@@ -166,19 +166,19 @@ Per semplificare la visualizzazione delle colonne su cui si lavora nella definiz
 
 ### <a name="change-the-width-of-a-column-in-the-view-pane"></a>Modificare la larghezza di una colonna del riquadro di visualizzazione
 
-1. In Progettazione report, aprire la definizione di riga da modificare.
-2. Nel menu **Formato**, selezionare **Larghezza colonna**.
-3. Nella finestra di dialogo **Larghezza colonna** immettere un valore e quindi fare clic su **OK**. In alternativa, è possibile trascinare il limite destro di una cella di intestazione della colonna per modificare la larghezza della colonna.
+1. In Report Designer apri la definizione di riga da modificare.
+2. Nel menu **Formato**, seleziona **Larghezza colonna**.
+3. Nella finestra di dialogo **Larghezza colonna** immetti un valore e quindi fai clic su **OK**. In alternativa, è possibile trascinare il limite destro di una cella di intestazione della colonna per modificare la larghezza della colonna.
 
 ### <a name="hide-columns-in-the-view-pane"></a>Nascondere le colonne nel riquadro di visualizzazione
 
-1. In Progettazione report, aprire la definizione di riga da modificare.
+1. In Report Designer apri la definizione di riga da modificare.
 2. Selezionare la colonna o le colonne che si intende ridurre a icona.
 3. Fare clic con il pulsante destro del mouse e scegliere **Nascondi**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Visualizzare tutte le colonne nascoste nel riquadro di visualizzazione
 
-1. In Progettazione report, aprire la definizione di riga da modificare.
+1. In Report Designer apri la definizione di riga da modificare.
 2. Fare clic con il pulsante destro del mouse sulla colonna ridotta che si desidera visualizzare, quindi scegliere **Scopri**.
 
 

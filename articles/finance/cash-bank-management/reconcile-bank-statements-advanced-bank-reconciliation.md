@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0e1d7fc58ad71365275d5e82a277554bee99c43a
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 8e613bc97a41b62e81ebfbcb8c08e33a60603648
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151346"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9803912"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Riconciliare rendiconti bancari utilizzando la riconciliazione bancaria avanzata
 
@@ -37,7 +37,10 @@ Si importano i rendiconti bancari utilizzando l'azione **Importa rendiconto** ne
 -   Per importare un singolo file di rendiconto bancario per un singolo conto, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **No** e selezionare il conto bancario associato con il rendiconto. Fare clic su **Sfoglia** per selezionare il file di rendiconto bancario associato, quindi fare clic su **Carica**.
 -   Per importare un singolo file di rendiconto bancario per più conti, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **Sì**. Fare clic su **Sfoglia** per selezionare il file di rendiconto bancario associato, quindi fare clic su **Carica**.
 
-Se alcuni rendiconti nel file elettronico non possono essere associati a un conto bancario o se sono associati a più conti bancari tramite i campi di identificazione, non verranno importati. Tuttavia, altri rendiconti nel file possono comunque essere importati. L'utente riceve un messaggio indicante che l'importazione dei rendiconti bancari non è riuscita per specifici conti bancari. Tenere presente che l'utente che importa il file di rendiconto bancario deve avere accesso a una persona giuridica per importare i rendiconti per i conti bancari di tale persona giuridica. 
+Se alcuni rendiconti nel file elettronico non possono essere associati a un conto bancario o se sono associati a più conti bancari tramite i campi di identificazione, non verranno importati. Tuttavia, altri rendiconti nel file possono comunque essere importati. L'utente riceve un messaggio indicante che l'importazione dei rendiconti bancari non è riuscita per specifici conti bancari. 
+
+>[!Note] 
+>L'utente che importa il file di rendiconto bancario deve avere accesso a una persona giuridica per importare i rendiconti per i conti bancari di tale persona giuridica. 
 
 È possibile usare un file ZIP per caricare più file di rendiconto in Finance in un unico processo. Per importare più file di rendiconto bancario per più conti, combinare tutti i file di rendiconto bancario in un unico file zip. Nella finestra di dialogo **Importa rendiconti bancari**, impostare l'opzione **Importa rendiconto per più conti bancari in tutte le persone giuridiche** su **Sì**. Fare clic su **Sfoglia** per selezionare il file zip che contiene i file di rendiconto bancario, quindi fare clic su **Carica**. Il processo di importazione riconoscerà il file ZIP e caricherà ciascun rendiconto incluso in esso, indipendentemente dalla persona giuridica del conto bancario.
 

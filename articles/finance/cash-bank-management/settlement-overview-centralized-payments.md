@@ -2,7 +2,7 @@
 title: Panoramica della liquidazione per i pagamenti centralizzati
 description: Questo articolo descrive la liquidazione per i pagamenti centralizzati per Microsoft Dynamics 365 Finance.
 author: angelad116
-ms.date: 08/02/2018
+ms.date: 11/22/2022
 ms.topic: overview
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef71520df5cdae192355e512238d03c1f21b901f
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 42c359edbe49af151ac76c9873c0d429bbe1ca12
+ms.sourcegitcommit: 81bb8e51951395be3f18f45212e47e6c41656f6a
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151164"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9804228"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>Panoramica della liquidazione per i pagamenti centralizzati
 
@@ -84,11 +84,11 @@ Gli sconti di cassa generati durante il processo di compensazione interaziendale
 
 Le eccedenze e le insufficienze di pagamento e le tolleranze di differenza in centesimi vengono determinate in base alla persona giuridica del pagamento in caso di eccedenze di pagamento e in base alla persona giuridica della fattura in caso di insufficienze di pagamento. Il conto di registrazione utilizzato dipende dall'impostazione nel campo **Applicazione sconto di cassa** della pagina **Parametri contabilità clienti** per i clienti e nel campo **Applicazione sconto di cassa** della pagina **Parametri contabilità fornitori** per i fornitori.
 
--   Se l'impostazione dell'applicazione dello sconto di cassa è Specifico, oppure se l'impostazione è Non specifico e lo sconto di cassa applicabile viene registrato in una persona giuridica diversa da quella dell'eccedenza di pagamento, viene utilizzato il conto automatico per Sconto di cassa cliente, Sconto di cassa fornitore o Differenza in centesimi nella valuta di contabilizzazione. È possibile specificare questi conti nella pagina **Conti per transazioni automatiche**.
--   Se l'impostazione di applicazione dello sconto di cassa è Non specifico e lo sconto di cassa è registrato nella stessa persona giuridica dell'eccedenza di pagamento (la persona giuridica del pagamento e quella della fattura sono identiche), il conto dello sconto di cassa verrà rettificato. Se ad esempio una fattura di 100,00 con uno sconto di cassa disponibile di 3,00 viene liquidata con un pagamento di 98,00, il conto dello sconto di cassa verrà rettificato per 1,00. L'importo netto dello sconto sarà 2,00.
--   Se l'impostazione di applicazione dello sconto di cassa è Non specifico, lo sconto di cassa è registrato nella stessa persona giuridica dell'eccedenza di pagamento e l'eccedenza o insufficienza di pagamento viene liquidata con più fatture contenenti sconti di cassa, il conto dello sconto di cassa relativo all'ultima fattura verrà rettificato.
+-   Se l'impostazione dell'applicazione dello sconto di cassa è **Specifico**, oppure se l'impostazione è **Non specifico** e lo sconto di cassa applicabile viene registrato in una persona giuridica diversa da quella dell'eccedenza di pagamento, viene utilizzato il conto automatico per Sconto di cassa cliente, Sconto di cassa fornitore o Differenza in centesimi nella valuta di contabilizzazione. È possibile specificare questi conti nella pagina **Conti per transazioni automatiche**.
+-   Se l'impostazione di applicazione dello sconto di cassa è **Non specifico** e lo sconto di cassa è registrato nella stessa persona giuridica dell'eccedenza di pagamento (la persona giuridica del pagamento e quella della fattura sono identiche), il conto dello sconto di cassa verrà rettificato. Se ad esempio una fattura di 100,00 con uno sconto di cassa disponibile di 3,00 viene liquidata con un pagamento di 98,00, il conto dello sconto di cassa verrà rettificato per 1,00. L'importo netto dello sconto sarà 2,00.
+-   Se l'impostazione di applicazione dello sconto di cassa è **Non specifico**, lo sconto di cassa è registrato nella stessa persona giuridica dell'eccedenza di pagamento e l'eccedenza o insufficienza di pagamento viene liquidata con più fatture contenenti sconti di cassa, il conto dello sconto di cassa relativo all'ultima fattura verrà rettificato.
 
-Se l'impostazione di applicazione dello sconto di cassa è Non specifico, le regole relative alla liquidazione di pagamento non specifica vengono applicate solo nelle seguenti situazioni:
+Se l'impostazione di applicazione dello sconto di cassa è **Non specifico**, le regole relative alla liquidazione di pagamento non specifica vengono applicate solo nelle seguenti situazioni:
 -   Si è verificata un'eccedenza di pagamento.
 -   L'eccedenza di pagamento viene liquidata con una o più fatture contenenti uno sconto di cassa.
 -   Lo sconto di cassa viene registrato nella stessa persona giuridica dell'eccedenza di pagamento.

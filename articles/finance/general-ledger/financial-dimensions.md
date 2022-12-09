@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b07831ab789b570963ff5f425f149ba5a564a38
-ms.sourcegitcommit: e700528679a821237e644b3e21058c36ae1323c3
+ms.openlocfilehash: adfa2c1164550e32b07da25de0d96aa82430b980
+ms.sourcegitcommit: fb9b6969218f2b82f0a4c72bfad75387fe00395c
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/13/2022
-ms.locfileid: "9680360"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9799628"
 ---
 # <a name="financial-dimensions"></a>Dimensioni finanziarie
 
@@ -120,7 +120,7 @@ Le dimensioni derivate con questa impostazione non sostituiscono automaticamente
 
 ### <a name="preventing-changes-with-derived-dimensions"></a>Impedire le modifiche alle dimensioni derivate
  
-Quando si utilizza **Aggiungi segmento"** nella pagina **Dimensioni derivate** per aggiungere un segmento come dimensione derivata, un'opzione viene fornita nella parte inferiore della pagina **Aggiungi segmento** che consente di impedire modifiche alla dimensione quando viene derivata in una pagina. L'impostazione predefinita è non selezionata, in modo che non impedisce la modifica dei valori di dimensioni derivate. Cambiare l'Impostazione su **Sì** se si desidera impedire la modifica della dimensione dopo che è stato derivata. Ad esempio, se il valore della dimensione del reparto è derivato dal valore della dimensione centro di costo, il valore del reparto non può essere modificato se il campo **Impedisci modifiche** è **Sì**. 
+Quando si utilizza **Aggiungi segmento"** nella pagina **Dimensioni derivate** per aggiungere un segmento come dimensione derivata, un'opzione viene fornita nella parte inferiore della pagina **Aggiungi segmento** che consente di impedire modifiche alla dimensione quando viene derivata in una pagina. L'impostazione predefinita non è selezionata, in modo che non impedisce la modifica dei valori di dimensioni derivate. Cambia l'Impostazione su **Sì** se desideri impedire la modifica della dimensione dopo che è stata derivata. Ad esempio, se il valore della dimensione del reparto è derivato dal valore della dimensione centro di costo, il valore del reparto non può essere modificato se il campo **Impedisci modifiche** è **Sì**. 
  
 Questa impostazione non impedisce le modifiche se il valore di dimensione è valido ma non è presente nell'elenco di dimensioni derivate. Ad esempio, se il reparto 20 deriva dal centro di costo 10 e si immette il centro di costo 10, allora non si potrà modificare il reparto 20. Tuttavia, se si immette il centro di costo 20 e non è presente nell'elenco delle dimensioni derivate per il centro di costo, è possibile modificare il valore del reparto. 
  
@@ -137,7 +137,13 @@ Quando si modificano le dimensioni nella scheda dettaglio **Dimensioni  finanzia
 
 Quando si utilizza un'entità per l'importazione dei dati, se tale entità importa dimensioni, vengono applicate le regole delle dimensioni derivate durante l'importazione a meno che l'entità non sostituisca specificamente tali dimensioni.
 
-Per ulteriori informazioni, vedere i seguenti argomenti:
+## <a name="financial-dimension-service"></a>Servizio per dimensioni finanziarie
+
+Il componente aggiuntivo del servizio Dimensione finanziaria è disponibile nell'ambiente Microsoft Dynamics Lifecycle Services. Fornisce prestazioni ottimizzata quando si utilizza il framework Gestione dei dati per importare un giornale di registrazione con un numero elevato di righe. Per utilizzare il servizio, è necessario abilitarlo nella pagina **Parametri del servizio Dimensione finanziaria**. Attualmente, il servizio funziona solo su giornali di registrazione importati con almeno 500 righe. Inoltre, attualmente può elaborare solo giornali di registrazione generali in cui il tipo di conto **Contabilità generale** è impostato nelle righe del giornale di registrazione. Altri tipi di conto nelle righe del giornale di registrazione, come **Cliente**, **Fornitore** e **Banca**, non sono attualmente supportati. Questo servizio non verrà richiamato quando le dimensioni derivate vengono impostate nel sistema.
+
+Il servizio Dimensione finanziaria offre prestazioni migliori quando i giornali di registrazione vengono importati utilizzando un nuovo servizio che viene eseguito in parallelo all'importazione dei dati. Viene eseguito solo sui dati del conto principale e della dimensione finanziaria nel giornale di registrazione e genera le combinazioni di dimensioni specificate nel campo stringa del conto CoGe nelle righe del giornale di registrazione. L'elaborazione converte questa stringa nell'archiviazione di dati strutturati che il framework della dimensione finanziaria utilizza nel resto del prodotto per la convalida, i report di riepilogo e le richieste. Per ulteriori informazioni sui report di riepilogo dei dati delle dimensioni finanziarie, vedi [Set di dimensioni finanziarie](financial-dimension-sets.md).
+
+Per ulteriori informazioni, vedere gli argomenti seguenti:
 
 - [Definire dimensioni finanziarie](tasks/define-financial-dimensions.md)
 - [Gestire modelli predefiniti di dimensione finanziaria](tasks/maintain-financial-dimension-default-templates.md)

@@ -2,7 +2,7 @@
 title: Compensazioni dei saldi contabili
 description: In questo articolo viene illustrato come utilizzare la pagina delle compensazioni dei saldi contabili per liquidare le transazioni contabili e stornare le liquidazioni.
 author: kweekley
-ms.date: 01/31/2022
+ms.date: 11/21/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 39fd6c6677565a4b1e9a9bf6f43a4c630cb5e07b
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 6357629f83873437eb62a4839fafd8efd98fffc1
+ms.sourcegitcommit: 9041fa6e00ecbdf1a1880659d9bdfff4d888f20e
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8902489"
+ms.lasthandoff: 11/22/2022
+ms.locfileid: "9800633"
 ---
 # <a name="ledger-settlements"></a>Compensazioni dei saldi contabili
 
@@ -75,7 +75,7 @@ Per liquidare transazioni contabili, seguire questi passaggi.
 ## <a name="make-transactions-easier-to-find"></a>Facilitare l'individuazione delle transazioni
 Nella pagina **Compensazioni dei saldi contabili** sono disponibili le funzionalità che rendono più semplice visualizzare le transazioni di cui hai richiesto la liquidazione.
 
-- Utilizza il filtro **Contrassegnato** per filtrare le transazioni a seconda che la casella di controllo **Contrassegnato** sia selezionata.
+- Utilizza il filtro **Contrassegnato** per filtrare le transazioni a seconda che la casella di controllo **Contrassegnato** sia selezionata o deselezionata.
 - Utilizza il filtro **Stato** per filtrare le transazioni in base al loro stato.
 - Seleziona **Ordina per importo assoluto** per ordinare gli importi in base al valore assoluto. In questo modo puoi raggruppare addebiti e crediti di pari importo.
 
@@ -90,7 +90,12 @@ Nella pagina **Compensazioni dei saldi contabili** sono disponibili le funzional
     > [!IMPORTANT]
     > Tutte le transazioni che hanno lo stesso ID liquidazione verranno stornate, anche se non contrassegnate. Ad esempio, quattro righe sono state contrassegnate e liquidate. Tutte e quattro le righe hanno lo stesso ID liquidazione. Se contrassegni una di queste quattro righe e poi selezioni **Storna transazioni contrassegnate**, tutte e quattro le righe verranno stornate.
 
+## <a name="unmark-for-selected-users"></a>Deseleziona per gli utenti selezionati
+Seleziona **Deseleziona per gli utenti selezionati** per deselezionare le transazioni regolate dalla contabilità generale per tutte le persone giuridiche in base all'ID utente. Ad esempio, ciò consentirà a un responsabile contabile di deselezionare le transazioni per un utente che è andato in ferie prima di terminare la liquidazione o per un utente che ha lasciato l'organizzazione. L'azione consentirà a queste transazioni di essere contrassegnate per la liquidazione da un altro utente.
 
+
+## <a name="unmark-all-transactions"></a>Deseleziona tutte le transazioni
+Seleziona **Deseleziona tutte le transazioni** per deselezionare tutte le transazioni regolate per tutti gli utenti e tutte le persone giuridiche. Questa azione è disponibile per il ruolo di amministratore.
 
 
 
