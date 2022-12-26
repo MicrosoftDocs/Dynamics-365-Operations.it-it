@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 56e445dcf471fd20695824d5e47cd15f39c022ce
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 1b2f5f56e757e89339c12fd41c59848b4c987a2f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8846859"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831835"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Panoramica consolidamenti finanziari e conversione valuta
 
@@ -64,7 +64,7 @@ Di seguito sono riportati alcuni degli scenari di consolidamento supportati da C
 - Consolidamenti che includono più valute di dichiarazione
 
 ## <a name="legal-entity-setup"></a>Impostazione della persona giuridica
-Prima di elaborare un consolidamento, è necessario impostare la persona giuridica. È possibile eseguire il consolidamento quante volte è necessario e tutti i dati verranno convertiti dalla valuta di contabilizzazione della società di origine nella valuta definita per la società consolidata. Pertanto, per la seguente struttura organizzativa, se è necessario convertire tutte le società nordamericane prima in dollari USA (USD) e poi in euro (EUR), la valuta della società padre, è necessario disporre di almeno due società di consolidamento.
+Prima di elaborare un consolidamento, è necessario impostare la persona giuridica. È possibile eseguire il consolidamento quante volte è necessario e tutti i dati verranno convertiti dalla valuta di contabilizzazione o dalla valuta di dichiarazione della società di origine nella valuta definita per la società consolidata. Pertanto, per la seguente struttura organizzativa, se è necessario convertire tutte le società nordamericane prima in dollari USA (USD) e poi in euro (EUR), la valuta della società padre, è necessario disporre di almeno due società di consolidamento.
 
 ![Struttura organizzativa.](./media/organizational-structure.png "Struttura organizzativa")
 

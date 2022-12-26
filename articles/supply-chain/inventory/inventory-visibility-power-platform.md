@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9886ddbf0b072283cffd73d4bfdc20835ccb3b7c
-ms.sourcegitcommit: 49f8973f0e121eac563876d50bfff00c55344360
+ms.openlocfilehash: 0a4e436cc1af6b71049f75fb66bdfb89ca38df9f
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9762702"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831776"
 ---
 # <a name="use-the-inventory-visibility-app"></a>Utilizzare l'app Visibilità inventario
 
@@ -106,7 +106,7 @@ Per abilitare la pagina **Riepilogo inventario** e impostare la frequenza di sin
 
 1. Aprire la pagina di **configurazione** .
 1. Apri la scheda **Gestione funzionalità e impostazioni**.
-1. Imposta l'interruttore della funzionalità **OnHandMostSpecificBackgroundService** su *Sì*.
+1. Imposta l'interruttore della funzionalità *OnHandMostSpecificBackgroundService* su *Sì*.
 1. Quando la funzionalità è abilitata, la sezione **Configurazione servizio** diventa disponibile e include una riga per la configurazione della funzionalità **OnHandMostSpecificBackgroundService**. Questa impostazione ti consente di scegliere la frequenza con cui i dati del riepilogo dell'inventario vengono sincronizzati. Utilizza i pulsanti **Su** e **Giù** nella colonna **Valore** per modificare l'intervallo di tempo tra le sincronizzazioni (che può arrivare fino a 5 minuti). Quindi selezionare **Salva**.
 
     ![Impostazione OnHandMostSpecificBackgroundService](media/inventory-visibility-ohms-freq.png "Impostazione OnHandMostSpecificBackgroundService")
@@ -125,10 +125,10 @@ Supply Chain Management memorizza una grande quantità di informazioni sulle att
 
 La pagina **Precarica il riepilogo di visibilità inventario** fornisce una vista per l'entità *Risultati di precaricamento delle query sull'indice di disponibilità*. Diversamente dall'entità *Riepilogo inventario*, l'entità *Risultati di precaricamento delle query sull'indice di disponibilità* fornisce un elenco di scorte disponibili per i prodotti insieme alle dimensioni selezionate. La visibilità inventario sincronizza i dati di riepilogo precaricati ogni 15 minuti.
 
-Per visualizzare i dati sulla scheda **Precarica il riepilogo di visibilità inventario** è necessario attivare la funzione *OnHandIndexQueryPreloadBackgroundService* nella scheda **Gestione funzionalità** della pagina **Configurazione** e quindi selezionare **Aggiorna configurazione** (vedi anche [Configurare visibilità inventario](inventory-visibility-configuration.md)).
+Per visualizzare i dati nella scheda **Precarica il riepilogo di visibilità inventario**, devi attivare e configurare la funzionalità *OnHandIndexQueryPreloadBackgroundService*. Vedi [Attivare e configurare le query sulle scorte precaricate](inventory-visibility-configuration.md#query-preload-configuration) per le istruzioni.
 
 > [!NOTE]
-> Come con la funzione *OnhandMostSpecificBackgroudService*, la funzione *OnHandIndexQueryPreloadBackgroundService* tiene traccia solo delle modifiche all'inventario disponibili che si sono verificate dopo l'attivazione della funzione. I dati per i prodotti che non sono cambiati da quando hai attivato la funzione non verranno sincronizzati dalla cache del servizio di inventario nell'ambiente Dataverse. Se la pagina **Riepilogo inventario** non mostra tutte le informazioni disponibili che ti aspetti, vai a **Gestione inventario > Attività periodiche > Integrazione Visibilità inventario**, disabilita il processo batch e riattivalo. Questo eseguirà il push iniziale e tutti i dati verranno sincronizzati con l'entità *Risultati di precaricamento delle query sull'indice di disponibilità* nei prossimi 15 minuti. Se desideri utilizzare questa funzione, ti consigliamo di attivarla prima di creare eventuali modifiche alle scorte disponibili e di abilitare il processo batch **Integrazione Visibilità inventario**.
+> Come con la funzione *OnHandMostSpecificBackgroundService*, la funzione *OnHandIndexQueryPreloadBackgroundService* tiene traccia solo delle modifiche all'inventario disponibili che si sono verificate dopo l'attivazione della funzione. I dati per i prodotti che non sono cambiati da quando hai attivato la funzione non verranno sincronizzati dalla cache del servizio di inventario nell'ambiente Dataverse. Se la pagina **Riepilogo inventario** non mostra tutte le informazioni disponibili che ti aspetti, vai a **Gestione inventario > Attività periodiche > Integrazione Visibilità inventario**, disabilita il processo batch e riattivalo. Questo eseguirà il push iniziale e tutti i dati verranno sincronizzati con l'entità *Risultati di precaricamento delle query sull'indice di disponibilità* nei prossimi 15 minuti. Se desideri utilizzare questa funzione, ti consigliamo di attivarla prima di creare eventuali modifiche alle scorte disponibili e di abilitare il processo batch **Integrazione Visibilità inventario**.
 
 ## <a name="filter-and-browse-the-inventory-summaries"></a><a name="additional-tip-for-viewing-data"></a>Filtrare e sfogliare i riepiloghi dell'inventario
 

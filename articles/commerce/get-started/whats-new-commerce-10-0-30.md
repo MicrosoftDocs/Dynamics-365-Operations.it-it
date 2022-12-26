@@ -2,7 +2,7 @@
 title: Anteprima di Dynamics 365 Commerce 10.0.30 (Novembre 2022)
 description: Questo articolo descrive le funzionalità nuove o modificate in Microsoft Dynamics 365 Commerce 10.0.30.
 author: josaw1
-ms.date: 08/31/2022
+ms.date: 12/07/2022
 ms.topic: article
 audience: Application User
 ms.reviewer: josaw
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2022-09-01
 ms.dyn365.ops.version: 10.0.29
-ms.openlocfilehash: 0149c9671e8baeb26965b4f136ed91d09e2d039b
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: a449c7eff21c059555f9659ea932705858d26275
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405564"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831749"
 ---
 # <a name="preview-of-dynamics-365-commerce-10030-november-2022"></a>Anteprima di Dynamics 365 Commerce 10.0.30 (Novembre 2022)
 
@@ -35,7 +35,7 @@ Questa tabella elenca le funzionalità incluse in questa versione. Possiamo aggi
 | Area funzionale | Funzionalità | Ulteriori informazioni | Abilitato da |
 |---------|------------------|----------------|--------------| 
 | Supporto clienti   | Chatta su un sito di e-commerce utilizzando un bot Power Virtual Agents. | Questa funzionalità darà agli utenti del sito di e-commerce la possibilità di utilizzare un bot di chat Power Virtual Agents per le richieste di supporto. | Abilitato da amministratori/autori per gli utenti finali |
-| Informazioni dettagliate  |  Effettua lo streaming degli eventi di POS Operational Insights sul tuo account Application Insights. | [Accedi ai log in Application Insights](../dev-itpro/retail-component-events-diagnostics-troubleshooting.md#enable-diagnostic-events-in-application-insights)   |  Consenso esplicito per i professionisti IT/sviluppatori   |
+| Informazioni dettagliate  |  Effettua lo streaming degli eventi di POS Operational Insights sul tuo account Application Insights. | [Accedi ai log in Application Insights](../dev-itpro/operational-insights.md#enable-diagnostic-events-in-application-insights)   |  Consenso esplicito per i professionisti IT/sviluppatori   |
 |  Pagamenti  | Supporto per ordini PayPal oltre il periodo di autorizzazione di 29 giorni. | Il periodo massimo di autorizzazione per PayPal è di 29 giorni, dopodiché è necessario generare una nuova autorizzazione e ID ordine. In alternativa, PayPal offre un'opzione in cui un ordine PayPal può essere referenziato come ordine generale, consentendo più autorizzazioni e acquisizioni rispetto allo stesso ID ordine, invece di generare una nuova autorizzazione e ID ordine a 29 giorni). | Quando si configura il connettore di pagamento PayPal in Commerce headquarters, il campo **OrderIntent** è stato aggiunto e può assumere due valori:<p><p>- **Autorizza** - Questa configurazione è l'impostazione predefinita (se il campo è lasciato vuoto, **Autorizza** agirà come predefinito). La configurazione di **OrderIntent** su **Autorizza** esegue la correlazione al valore **processing_instructione** PayPal di **NO_INSTRUCTION**. L'ordine sarà autorizzato con PayPal e l'autorizzazione non potrà essere modificata quando verrà utilizzato questo valore.<p>- **Salva** - quando il valore **OrderIntent** è impostato su **Salva**, viene effettuata la correlazione al valore PayPal **processing_instruction** di **ORDER_SAVED_EXPLICITLY**. I riferimenti dell'ordine verranno salvati nel servizio PayPal quando viene utilizzato questo valore.  |
 | Accesso POS  | [Abilitare le funzionalità di diagnosi self-service per l'accesso al POS](/dynamics365-release-plan/2022wave2/commerce/dynamics365-commerce/enable-self-serve-diagnosis-capabilities-pos-sign-in)  |  Questa funzionalità offre capacità di diagnosi self-service in POS e Commerce headquarters per aiutare i dipendenti e i manager dei punti vendita a identificare e risolvere rapidamente le cause principali dei problemi di accesso al POS.<p><p>- I messaggi di errore mostrati nella schermata di accesso al POS sono stati migliorati per fornire informazioni concrete sulla causa principale che possono aiutare i dipendenti del negozio che utilizzano il POS a capire cosa è andato storto in modo che possano eseguire le azioni necessarie per risolvere il problema.<p>- Una funzione **Accesso test** è disponibile nella pagina **Lavoratori** in Commerce headquarters in modo che i responsabili dei punti vendita che hanno configurato i dispositivi POS possano simulare l'accesso al POS. In caso di errore di accesso, questa funzione fornisce guide utili alla risoluzione dei problemi in modo che i responsabili possano controllare le configurazioni pertinenti, correggere i problemi e convalidare le correzioni.  | In base all'impostazione predefinita |
 

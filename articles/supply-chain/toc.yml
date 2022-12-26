@@ -1809,6 +1809,8 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Pianificazione della produzione
                   href: master-planning/planning-optimization/production-planning.md
+                - name: Impostare lo scarto per calcolare i fabbisogni di materie prime
+                  href: master-planning/scrap-calculations.md
                 - name: Pianificazione generale per prodotti con durata a scaffale limitata
                   href: master-planning/planning-optimization/shelf-life.md
                 - name: Programmazione con capacità infinita
@@ -2355,9 +2357,9 @@
                   href: pim/uom-conversion-per-product-variant.md
                 - name: Creare un prodotto rilasciato per una singola società
                   href: pim/tasks/create-released-product-single-company.md
-                - name: Utilizzare entità di dati
+                - name: Entità di dati del prodotto
                   href: pim/data-entities.md
-                - name: Stato del ciclo di vita del prodotto
+                - name: Stato del ciclo di vita prodotto
                   items:
                     - name: Panoramica dello stato del ciclo di vita del prodotto
                       href: pim/product-lifecycle.md

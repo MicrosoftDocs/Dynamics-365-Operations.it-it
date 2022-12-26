@@ -15,12 +15,12 @@ ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.custom: ''
 ms.assetid: ''
 ms.search.industry: Retail
-ms.openlocfilehash: bbb5f3d4c61907243bed404f3ab7bea05c78b1c0
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 0e1092c0c5c49c6a99dd441c75f545fc831c0b03
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9276456"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831559"
 ---
 # <a name="choose-between-store-commerce-and-cloud-pos"></a>Scegliere tra Store Commerce e Cloud POS
 
@@ -71,7 +71,7 @@ Oltre alla piattaforma e al fattore di forma, i rivenditori devono scegliere anc
 |----------------------------|---------------------|-------------------|-------------------|
 | Store Commerce per Windows | Cloud o RSSU       | Sì               | Sì               |
 | Store Commerce per Android | Cloud o RSSU       | Numero                | Sì               |
-| Store Commerce per iOS     | Cloud o RSSU       | Numero                | Numero                |
+| Store Commerce per iOS     | Cloud o RSSU       | Numero                | Sì               |
 | POS cloud                  | Cloud o RSSU       | Numero                | Numero                |
 
 #### <a name="commerce-scale-unit"></a>Commerce Scale Unit
@@ -90,7 +90,7 @@ I rivenditori devono inoltre considerare in che modo il POS accederà ai disposi
 |----------------------------|----------------|---------------------|--------------------|
 | Store Commerce per Windows | Sì            | Sì                 | Sì                |
 | Store Commerce per Android | Numero             | Sì                 | Sì                |
-| Store Commerce per iOS     | Numero             | Numero                  | Sì                |
+| Store Commerce per iOS     | Numero             | Sì                 | Sì                |
 | POS cloud                  | Numero             | Numero                  | Sì                |
 
 Per ulteriori informazioni su come installare le stazioni hardware, vedere [Configurare e installare una stazione hardware per la vendita al dettaglio](retail-hardware-station-configuration-installation.md).

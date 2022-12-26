@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 915382c14cc9ba89b9d543cfd668a94cecbc0a55
-ms.sourcegitcommit: 4f987aad3ff65fe021057ac9d7d6922fb74f980e
+ms.openlocfilehash: 2a368535c9644e174d1a2460ac0891c9dc1b1b3f
+ms.sourcegitcommit: 44f0b4ef8d74c86b5c5040be37981e32eb43e1a8
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9765709"
+ms.lasthandoff: 12/14/2022
+ms.locfileid: "9850025"
 ---
 # <a name="configure-inventory-visibility"></a>Configurare Inventory Visibility
 
@@ -32,6 +32,7 @@ Prima di iniziare a lavorare con la Visibilità dell'inventario, è necessario c
 - [Configurazione della partizione](#partition-configuration)
 - [Configurazione della gerarchia dell'indice del prodotto](#index-configuration)
 - [Configurazione della prenotazione (opzionale)](#reservation-configuration)
+- [Configurazione precaricamento query (facoltativo)](#query-preload-configuration)
 - [Esempio di configurazione predefinita](#default-configuration-sample)
 
 ## <a name="prerequisites"></a>Prerequisiti
@@ -52,10 +53,13 @@ Il componente aggiuntivo Visibilità inventario aggiunge diverse nuove funzional
 |---|---|
 | *OnHandReservation* | Questa funzione ti consente di creare prenotazioni, consumare prenotazioni, e/o sbloccare quantità di inventario specificate usando Visibilità inventario. Per maggiori informazioni, vedere [Prenotazioni di visibilità dell'inventario](inventory-visibility-reservations.md). |
 | *OnHandMostSpecificBackgroundService* | Questa funzionalità fornisce un riepilogo dell'inventario per i prodotti insieme a tutte le dimensioni. I dati del riepilogo dell'inventario verranno sincronizzati periodicamente da Visibilità inventario. La frequenza di sincronizzazione predefinita è una volta ogni 15 minuti e può essere impostata fino a una volta ogni 5 minuti. Per ulteriori informazioni, vedere [Riepilogo dell'inventario](inventory-visibility-power-platform.md#inventory-summary). |
-| *onHandIndexQueryPreloadBackgroundService* | Questa funzione consente di precaricare le query di visibilità inventario sulle scorte disponibili per assemblare elenchi di scorte disponibili con dimensioni preselezionate. La frequenza di sincronizzazione predefinita è una volta ogni 15 minuti. Per ulteriori informazioni, vedere [Precaricare una query di scorte disponibili ottimizzata](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
+| *OnHandIndexQueryPreloadBackgroundService* | Questa funzione recupera e archivia periodicamente una set di dati di riepilogo dell'inventario disponibile in base alle dimensioni preconfigurate. Fornisce un riepilogo dell'inventario che include solo le dimensioni rilevanti per la tua attività quotidiana e che è compatibile con gli articoli abilitati per i processi di gestione del magazzino (WMS). Per ulteriori informazioni, consulta [Attivare e configurare le query sulle scorte precaricate](#query-preload-configuration) e [Precaricare una query sulle scorte semplificata](inventory-visibility-power-platform.md#preload-streamlined-onhand-query). |
 | *OnhandChangeSchedule* | La funzione facoltativa abilita la programmazione delle modifiche scorte disponibili e le funzionalità ATP. Per altre informazioni vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md). |
 | *Allocazione* | Questa funzione facoltativa consente a Visibilità inventario di avere la capacità di protezione dell'inventario (ringfencing) e controllo delle vendite eccessive. Per ulteriori informazioni, vedi [Allocazione dell'inventario di Visibilità inventario](inventory-visibility-allocation.md). |
 | *Abilita articoli di magazzino in Visibilità inventario* | Questa funzione opzionale consente a Visibilità inventario di supportare gli articoli abilitati per i processi di gestione del magazzino (WMS). Per maggiori informazioni, vedere [Supporto di visibilità inventario per articoli WMS](inventory-visibility-whs-support.md). |
+
+> [!IMPORTANT]
+> Ti consigliamo di utilizzare la funzione *OnHandIndexQueryPreloadBackgroundService* o la funzione *OnHandMostSpecificBackgroundService*, non entrambe. L'abilitazione di entrambe le funzionalità influirà sulle prestazioni.
 
 ## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Trovare l'endpoint del servizio
 
@@ -178,6 +182,15 @@ Se l'origine dati è Supply Chain Management, non è necessario ricreare le misu
 1. Accedi al tuo ambiente Power Apps e apri **Visibilità inventario**.
 1. Aprire la pagina di **configurazione** .
 1. Nella scheda **Origine dati**, seleziona l'origine dati a cui aggiungere misure fisiche (ad esempio, l'origine dati `ecommerce`). Quindi, nella sezione **Misure fisiche**, seleziona **Aggiungi** e specifica il nome della misura (ad esempio, `Returned` se vuoi registrare le quantità restituite in questa origine dati in Visibilità inventario). Salvare le modifiche.
+
+### <a name="extended-dimensions"></a>Dimensioni estese
+
+I clienti che desiderano utilizzare origini dati esterne nell'origine dati possono sfruttare i vantaggi dell'estensibilità offerta da Dynamics 365 creando [Estensioni di classe](../../fin-ops-core/dev-itpro/extensibility/class-extensions.md) per le classi `InventOnHandChangeEventDimensionSet` e `InventInventoryDataServiceBatchJobTask`.
+
+Assicurati di eseguire la sincronizzazione con il database dopo aver creato le estensioni in modo che i campi personalizzati vengano aggiunti nella tabella `InventSum`. Puoi quindi fare riferimento alla sezione Dimensioni in precedenza in questo articolo, per mappare le tue dimensioni personalizzate a una qualsiasi delle otto dimensioni estese in `BaseDimensions` in Inventario.
+
+> [!NOTE] 
+> Per ulteriori dettagli sulla creazione di estensioni, vedi [Home page dell'estensibilità](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md).
 
 ### <a name="calculated-measures"></a>Misure calcolate
 
@@ -496,6 +509,30 @@ Una sequenza di dimensioni valida deve seguire rigorosamente la gerarchia delle 
 ## <a name="available-to-promise-configuration-optional"></a>Configurazione available-to-promise (opzionale)
 
 È possibile impostare la visibilità inventario per pianificare le modifiche future disponibili e calcolare le quantità ATP (available-to-promise). ATP è la quantità di un articolo disponibile e che può essere promessa a un cliente nel prossimo periodo. L'uso di questo calcolo può aumentare notevolmente la capacità di evasione degli ordini. Per utilizzare questa funzione, è necessario abilitarla nella scheda **Gestione funzionalità** e quindi configurarla nella scheda **Impostazione ATP**. Per ulteriori informazioni, vedi [Visibilità dell'inventario con programmazioni di modifiche scorte disponibili e available-to-promise](inventory-visibility-available-to-promise.md).
+
+## <a name="turn-on-and-configure-preloaded-on-hand-queries-optional"></a><a name="query-preload-configuration"></a>Attivare e configurare le query sulle scorte precaricate (facoltativo)
+
+Questa funzione periodicamente recupera e archivia un set di dati di riepilogo dell'inventario disponibile in base alle dimensioni preconfigurate. Fornisce i seguenti vantaggi:
+
+- Una visualizzazione più chiara che memorizza un riepilogo dell'inventario che include solo le dimensioni rilevanti per la tua attività quotidiana.
+- Un riepilogo dell'inventario compatibile con gli articoli abilitati per i processi di gestione del magazzino (WMS).
+
+Consulta [Precaricare una query di scorte disponibili ottimizzata](inventory-visibility-power-platform.md#preload-streamlined-onhand-query) per ulteriori informazioni su come usare questa funzione dopo averla configurata.
+
+> [!IMPORTANT]
+> Ti consigliamo di utilizzare la funzione *OnHandIndexQueryPreloadBackgroundService* o la funzione *OnHandMostSpecificBackgroundService*, non entrambe. L'abilitazione di entrambe le funzionalità influirà sulle prestazioni.
+
+Segui questi passaggi per configurare la funzione:
+
+1. Accedi a Power Apps Visibilità inventario.
+1. Vai a **Configurazione \> Gestione funzionalità e impostazioni**.
+1. Se la funzione *OnHandIndexQueryPreloadBackgroundService* è già abilitata, ti consigliamo di disattivarla per il momento perché il processo di pulizia potrebbe richiedere molto tempo per essere completato. La attiverai di nuovo più avanti in questa procedura.
+1. Apri la scheda **Impostazione precaricamento**.
+1. Nella sezione **Passaggio 1: Pulisci memoria di precaricamento**, seleziona **Pulisci** per pulire il database e renderlo pronto per accettare le nuove impostazioni di raggruppamento.
+1. Nella sezione **Passaggio 2: impostazione di Raggruppa per valori**, nel campo **Raggruppa risultati per** inserisci un elenco di nomi di campo separati da virgole in base ai quali raggruppare i risultati della query. Una volta che hai i dati nel database di archiviazione di precaricamento, non sarai in grado di modificare questa impostazione fino a quando non pulisci il database, come descritto nel passaggio precedente.
+1. Vai a **Configurazione \> Gestione funzionalità e impostazioni**.
+1. Attiva la funzionalità *OnHandIndexQueryPreloadBackgroundService*.
+1. Seleziona **Aggiorna configurazione** nell'angolo in alto a destra della pagina **Configurazione** per eseguire il commit delle modifiche.
 
 ## <a name="complete-and-update-the-configuration"></a>Completare e aggiornare la configurazione
 

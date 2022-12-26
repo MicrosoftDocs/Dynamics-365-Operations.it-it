@@ -2,7 +2,7 @@
 title: Consolidamenti finanziari online
 description: In questo articolo vengono descritti i consolidamenti finanziari online nella contabilità generale.
 author: aprilolson
-ms.date: 07/09/2018
+ms.date: 12/07/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: f6c489156ca869e02ba6387c3464cc1e1a248d9f
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: 5843ac78adf32e738d9882c7f4e9e04a79200700
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8848551"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838281"
 ---
 # <a name="online-financial-consolidations"></a>Consolidamenti finanziari online
 
@@ -45,6 +45,19 @@ Ecco una spiegazione dei vari campi nella scheda:
 - **Periodo di consolidamento** - Utilizzare i campi disponibili in questa sezione per definire il periodo di consolidamento.
 
     - **Da** e **A** - Specificare un intervallo di date per il consolidamento. Se questi campi vengono lasciati vuoti, il consolidamento verrà elaborato per tutti i periodi definiti nel calendario di contabilità generale per la società. È consigliabile non lasciare vuoti questi campi.
+    - **Seleziona importo consolidamento da**: utilizza questo campo per specificare se verranno utilizzati gli importi in valuta di contabilizzazione o gli importi in valuta di dichiarazione delle società di origine per aggiornare gli importi in valuta di contabilizzazione della società di consolidamento.
+
+        - Seleziona **Valuta di contabilizzazione** per utilizzare gli importi in valuta di contabilizzazione delle società di origine per aggiornare gli importi in valuta di contabilizzazione nella società di consolidamento. Quando viene selezionato questo valore, utilizza il campo **Valuta di contabilizzazione consolidata** per definire come verranno calcolate le valute di contabilizzazione nella società di consolidamento.
+        - Seleziona **Valuta di dichiarazione** per utilizzare gli importi in valuta di dichiarazione delle società di origine per calcolare gli importi in valuta di contabilizzazione nella società di consolidamento.
+
+            - Se la valuta di dichiarazione della società di origine è uguale alla valuta di contabilizzazione della società di consolidamento, gli importi in valuta di dichiarazione vengono copiati dalla società di origine alla società di consolidamento.
+            - Se la valuta di dichiarazione della società di origine è diversa dalla valuta di contabilizzazione della società di consolidamento, i valori vengono convertiti utilizzando le informazioni di cambio definite nella scheda **Conversione valuta** di questa pagina per calcolare i valori della società di consolidamento.
+
+    - **Consolida valuta di contabilizzazione** – Questo campo è disponibile solo se il campo **Seleziona importo consolidamento da** è impostato su **Valuta di contabilizzazione**. Utilizzalo per specificare se gli importi in valuta di contabilizzazione delle società di origine vengono convertiti tramite i tassi di cambio o copiati nella società di consolidamento. Seleziona **Usa conversione valuta** per utilizzare le informazioni sul tasso di cambio definite nella scheda **Conversione valuta** per calcolare i saldi della contabilità di consolidamento. Seleziona **Utilizza importo in valuta di contabilizzazione** per copiare gli importi in valuta di contabilizzazione delle società di origine nella società di consolidamento.
+
+        - Se la valuta di contabilizzazione della società di origine è uguale alla valuta di contabilizzazione della società di consolidamento, gli importi in valuta vengono copiati dalla società di origine alla società di consolidamento.
+        - Se la valuta di contabilizzazione della società di origine è diversa dalla valuta di contabilizzazione della società di consolidamento, i valori vengono convertiti utilizzando le informazioni di cambio definite nella scheda **Conversione valuta** per calcolare i valori della società di consolidamento.
+
     - **Includi importi effettivi** - Impostare questa opzione su **Sì** per consolidare i dati effettivi.
     - **Includi importi di budget** - Impostare questa opzione su **Sì** per consolidare i dati del registro di budget.
     - **Ricrea i saldi durante il processo di consolidamento** - Non è consigliabile impostare questa opzione su **Sì**. Ricostruire invece i saldi come processo batch separato.
@@ -80,9 +93,9 @@ Nella scheda **Eliminazione** sono disponibili tre opzioni per elaborare le elim
 Per ulteriori informazioni sulle eliminazioni, vedere [Regole di eliminazione](./elimination-rules.md).
 
 ## <a name="currency-translation"></a>Conversione valuta
-Nella scheda **Conversione valuta** si definiscono la persona giuridica, il conto e il tipo di tasso di cambio e la percentuale. Nel campo **Applica tasso di cambio da** sono disponibili tre opzioni:
+Nella scheda **Conversione valuta** si definiscono la persona giuridica, il conto e il tipo di tasso di cambio e la percentuale. Se la società di consolidamento è mappata su conti principali diversi da quelli della società di origine, il conto principale della società di consolidamento deve essere inserito nei campi **Data iniziale** e **Data finale**, non i conti principali della società di origine. Per ogni riga della persona giuridica e dei conti principali, sono disponibili tre opzioni nel campo **Applica tasso di cambio da**:
 
-- **Data consolidamento** - La data di consolidamento verrà utilizzata per ottenere il tasso di cambio. Questo tasso è equivalente alla quotazione corrente o frequenza di fine mese. Sarà visibile un'anteprima del tasso, ma non sarà possibile modificarlo.
+- **Data consolidamento** – La data definita nel campo **Fine periodo di consolidamento** nella scheda **Criteri** per il consolidamento da usare per ottenere il tasso di cambio. Questo tasso è equivalente alla quotazione corrente o frequenza di fine mese. Sarà visibile un'anteprima del tasso, ma non sarà possibile modificarlo.
 - **Data della transazione** - La data di ogni transazione verrà utilizzata per selezionare un tasso di cambio. Questa opzione viene utilizzata principalmente per i cespiti e spesso è denominata tasso storico. Non è possibile visualizzare un'anteprima del tasso, perché saranno presenti molti tassi per le diverse transazioni nell'intervallo di conti.
 - **Tariffa definita dall'utente** - Dopo avere selezionato questa opzione, è possibile immettere il tasso di cambio desiderato. Questa opzione può essere utile per i tassi di cambio medi o se si esegue il consolidamento in base a un tasso di cambio fisso.
 

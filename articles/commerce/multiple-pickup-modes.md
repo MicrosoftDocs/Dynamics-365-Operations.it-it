@@ -2,7 +2,7 @@
 title: Abilitare più modalità di consegna ritiro per gli ordini cliente
 description: Questo articolo spiega la funzionalità in Microsoft Dynamics 365 Commerce che consente di creare ordini cliente per il ritiro in un negozio.
 author: hhainesms
-ms.date: 06/07/2021
+ms.date: 12/06/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,29 +12,29 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 555ae3900bd7f9c66366f19a6eb2f12503898c93
-ms.sourcegitcommit: 52b7225350daa29b1263d8e29c54ac9e20bcca70
+ms.openlocfilehash: e4d8883b3dc1c4a0e12bcb00b6441f76d73da92e
+ms.sourcegitcommit: 0c927fcb3afd34d870391f05b5393a4673d916e5
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8858910"
+ms.lasthandoff: 12/08/2022
+ms.locfileid: "9831586"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Abilitare più modalità di consegna ritiro per gli ordini cliente
 
 [!include [banner](includes/banner.md)]
 
 
-In Microsoft Dynamics 365 Commerce versione 10.0.16 e successive, le organizzazioni possono definire più modalità di consegna tra le quali gli acquirenti o gli addetti alle vendite possono scegliere quando creano un ordine che verrà ritirato in un negozio. In questo modo, le organizzazioni possono fornire più opzioni di ritiro ai propri acquirenti. Ad esempio, molti rivenditori ora offrono agli acquirenti la possibilità di scegliere tra il ritiro in negozio o il ritiro al piano strada per i loro ordini. Commerce supporta la configurazione di queste diverse modalità di consegna ritiro. Gli utenti possono quindi trarne vantaggio quando creano ordini cliente in qualsiasi canale di Commerce supportato (e-commerce, call center o negozio).
+In Microsoft Dynamics 365 Commerce, le organizzazioni possono definire più modalità di consegna tra le quali gli acquirenti o gli addetti alle vendite possono scegliere quando creano un ordine che verrà ritirato in un negozio. In questo modo, le organizzazioni possono fornire più opzioni di ritiro ai propri acquirenti. Ad esempio, molti rivenditori ora offrono agli acquirenti la possibilità di scegliere tra il ritiro in negozio o il ritiro al piano strada per i loro ordini. Commerce supporta la configurazione di queste diverse modalità di consegna ritiro. Gli utenti possono quindi trarne vantaggio quando creano ordini cliente in qualsiasi canale di Commerce supportato (e-commerce, call center o negozio).
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Abilitare e configurare le modalità di consegna ritiro
 
-Per utilizzare questa funzionalità, attivare la funzionalità **Supporto per più modalità di consegna ritiro** nell'area di lavoro **Gestione funzionalità** in Commerce headquarters. Dopo aver attivato la funzionalità, è necessaria una configurazione aggiuntiva.
+La funzionalità **Supporto per più modalità di consegna ritiro** nell'area di lavoro **Gestione funzionalità** in Commerce headquarters è stata resa obbligatoria e deve essere abilitata nell'ambiente.
 
-In Commerce versione 10.0.15 e precedenti, le organizzazioni possono definire solo una modalità di consegna come modalità di consegna ritiro designata. Questa definizione viene eseguita nella pagina **Parametri di commercio**. Nella versione 10.0.16 e successive, quando si attiva la funzionalità **Supporto per più modalità di consegna ritiro**, la modalità di consegna precedentemente definita come modalità di consegna ritiro nella pagina **Parametri di commercio** viene automaticamente copiata nella nuova configurazione per le modalità di consegna ritiro.
+Se in precedenza hai definito una modalità di consegna del ritiro nella pagina **Parametri di commercio**, tale modalità viene visualizzata nella configurazione corrente per le modalità di consegna del ritiro.
 
 ![Modalità di consegna ritiro nella pagina dei parametri di Commerce.](media/multiplepickupparameter.png)
 
-Dopo aver attivato la funzionalità **Supporto per più modalità di consegna ritiro**, è possibile definire più modalità di consegna ritiro nella griglia **Modalità di consegna ritiro** nella scheda dettaglio **Modalità di consegna** della scheda **Ordini cliente** della pagina **Parametri di commercio**.
+Puoi definire più modalità di consegna del ritiro nella griglia **Modalità di ritiro della consegna** in **Parametri di commercio** > scheda **Ordini cliente** > scheda dettaglio **Modalità di consegna**.  
 
 I campi **Modalità di consegna trasporto** e **Modalità di consegna elettronica** e l'opzione **Mostra solo le opzioni della modalità corriere per gli ordini di spedizione**, sono state riposizionate in questa scheda dettaglio.
 
@@ -47,8 +47,6 @@ Dopo aver definito le modalità di consegna ritiro aggiuntive, aggiungerle alla 
 > [!NOTE]
 > A parte la modalità di consegna ritiro esistente che viene copiata nella griglia **Modalità di consegna ritiro** quando si attiva la funzionalità **Supporto per più modalità di consegna ritiro**, per ogni configurazione aggiuntiva della modalità di consegna ritiro che viene creata è necessario configurare nuove modalità di consegna. Quando si aggiungono modalità di consegna alla griglia **Modalità di consegna ritiro**, Commerce convalida se righe di vendita aperte attive già le utilizzano. Se vengono trovate righe di vendita aperte, viene visualizzato un messaggio di errore. Le modalità di consegna non sono considerate modalità di consegna ritiro fino a quando tutte le righe di vendita aperte che le utilizzano non sono state chiuse (fatturate o annullate).
 
-> [!IMPORTANT]
-> Dopo aver definito più di una modalità di consegna ritiro nella pagina **Parametri di commercio**, la funzionalità **Supporto per più modalità di consegna ritiro** diventa obbligatoria e non può più essere disattivata. Se è necessario disattivare la funzione, rimuovere tutte le modalità di consegna ritiro tranne una dalla griglia **Modalità di consegna ritiro**. Quando viene definita una sola modalità di consegna ritiro, la funzione non è più considerata obbligatoria e può essere disattivata.
 
 ### <a name="e-commerce-site-configurations"></a>Configurazioni del sito di e-commerce
 

@@ -2,23 +2,23 @@
 title: Rivalutazione valuta estera banca
 description: In questo articolo viene fornita una panoramica del processo di rivalutazione valuta estera della banca. Include informazioni su impostazione, esecuzione del processo, calcolo per il processo e storno delle transazioni di rivalutazione.
 author: angelad116
-ms.date: 05/16/2019
+ms.date: 12/19/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BankCurrencyRevalHistory
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: angelading
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8efec304e745332c332030b33363403869870532
-ms.sourcegitcommit: 0b7a034e644f4d93fe55c7baca5a3f89dbe56898
+ms.openlocfilehash: 2d5e8a36d3b4d44c9ad0454db94164adebf80997
+ms.sourcegitcommit: 69d7dd6a2d0dc7f2661c7d1f61e8874c7bde1448
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "9151433"
+ms.lasthandoff: 12/19/2022
+ms.locfileid: "9887261"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Rivalutazione valuta estera banca
 
@@ -39,17 +39,8 @@ Prima di effettuare il processo di rivalutazione, è richiesta l'impostazione ch
 - Nella pagina **Contabilità generale** specificare il tipo di tasso di cambio. Se un tipo di tasso di cambio non è definito nel conto principale, il tipo di tasso di cambio viene utilizzato durante la rivalutazione valuta estera.
 - Nella pagina **Contabilità generale** specificare i profitti realizzati, le perdite realizzate, i profitti non realizzati e le perdite non realizzate per la rivalutazione valuta. I conti di profitti realizzati e perdite realizzate vengono utilizzati quando le transazioni contabilità fornitori e contabilità clienti vengono liquidate. I conti di profitti non realizzati e perdite non realizzate vengono utilizzati per rivalutare le transazioni aperte e i conti principali della contabilità generale.
 - Nella pagina **Conti rivalutazione valuta** selezionare conti di rivalutazione valuta diversi per ogni valuta e società. Se non vengono definiti, vengono utilizzati i conti della pagina **Contabilità generale**.
+- Nella pagina **Parametri di gestione cassa e banche** aggiungi una sequenza numerica per la rivalutazione della valuta estera nella scheda **Sequenze numeriche**.
 
-## <a name="enable-foreign-currency-revaluation"></a>Abilitare la rivalutazione valuta estera
-
-È necessario attivare la funzionalità di rivalutazione valuta estera della banca per poter elaborare le rivalutazioni valuta estera.
-
-1. Andare a **Gestione cassa e banche \> Impostazioni \> Parametri di gestione cassa e banche**.
-2. Nella scheda **Generale**, sotto **Rivalutazione valuta estera**, impostare l'opzione **Abilita rivalutazione della banca** su **Sì** per attivare la funzionalità per la persona giuridica corrente. 
-3. Nella scheda **Sequenze numeriche**, aggiungere una sequenza numerica per la rivalutazione valuta estera.
-4. Aggiornare il browser per visualizzare **Rivalutazione valuta estera** nella sezione **Attività periodiche** della pagina.
-
-È necessario attivare la funzionalità per ogni persona giuridica che utilizzerà la rivalutazione valuta estera. Se si è assegnati al ruolo di amministratore di sistema o di responsabile delle funzionalità, è possibile eliminare questo passaggio abilitando la funzionalità denominata **Abilita rivalutazione della banca senza un parametro** nell'area di lavoro **Gestione funzionalità**.
 
 > [!NOTE]
 > Se la propria persona giuridica utilizza un codice paese russo, polacco o ungherese, è già possibile effettuare la rivalutazione valuta estera della banca. Non sarà possibile utilizzare la rivalutazione valuta estera utilizzata da altri paesi.

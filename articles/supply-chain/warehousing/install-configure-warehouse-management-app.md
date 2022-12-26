@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 940a3c1d60347c365575f29b853b83a028acad53
-ms.sourcegitcommit: 229ea085cf35579a2631ea1e5fc2c602fa47e3f3
+ms.openlocfilehash: 1333881f80c735794784831d4042bfe7d070b796
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 10/24/2022
-ms.locfileid: "9714764"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838474"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Installare e connettere l'app per dispositivi mobili Warehouse Management
 
@@ -58,10 +58,10 @@ Il modo più semplice per installare l'app su un singolo dispositivo è installa
 
 Come alternativa all'installazione da un app store, puoi invece scaricare l'app dal Microsoft App Center. L'App Center fornisce pacchetti installabili che è possibile trasferire localmente. Oltre alla versione corrente, l'App Center consente anche di scaricare versioni precedenti e può fornire versioni di anteprima con funzionalità imminenti che puoi provare. Per scaricare le versioni correnti, precedenti o in anteprima dell'app per dispositivi mobili Gestione magazzino da Microsoft App Center, utilizza uno dei collegamenti seguenti:
 
-- **Windows (UWP):** [Gestione magazzino (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [Gestione magazzino (Windows)](https://aka.ms/wma-windows-official-release)  
     Per istruzioni su come installare un pacchetto scaricato in un dispositivo Windows e quindi configurare i certificati richiesti, vedi [Installare una build dall'App Center](/appcenter/distribution/installation).
 
-- **Android:** [Gestione magazzino (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [Gestione magazzino (Android)](https://aka.ms/wma-android-official-release)  
     Se scarichi una versione di anteprima, per installarla sono necessari alcuni passaggi aggiuntivi. Per i dettagli, vedere [Test di app Android](/appcenter/distribution/testers/testing-android).
 
 Per informazioni su come installare una build scaricata dall'App Center, vedi [Installare una build](/appcenter/distribution/installation).

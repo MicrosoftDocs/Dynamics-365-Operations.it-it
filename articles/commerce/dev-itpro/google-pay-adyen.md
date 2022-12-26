@@ -9,12 +9,12 @@ ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2017-06-20
-ms.openlocfilehash: c3f049946c66fcd8560f7c08a4cb2beab0dcd5b2
-ms.sourcegitcommit: 3d2c0a39c4f987e9ac71df2f2fa6df0f64f10b2b
+ms.openlocfilehash: cdf950fc7b3720543d93e108d4e3c3c2ab254e09
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "9115030"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838393"
 ---
 # <a name="configure-google-pay-with-adyen"></a>Configurare Google Pay con Adyen
 
@@ -90,11 +90,6 @@ Per configurare un punto vendita Commerce online per usare Google Pay, attieniti
 
 1. Una volta completata l'impostazione delle proprietà dei connettori, esegui il processo di pianificazione della distribuzione **1070 (configurazione del canale**).
 
-## <a name="configure-commerce-pos-for-google-pay"></a>Configurare il POS di Commerce per Google Pay
-
-La configurazione del POS usa l'impostazione del campo **Servizio EFT** del profilo hardware per Dynamics 365 Payment Connector per Adyen. Per informazioni su come configurare il servizio di trasferimento elettronico di fondi (EFT) per Dynamics 365 Payment Connector per Adyen in Commerce headquarters, fai riferimento alla sezione [Profilo hardware del POS di Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-Il mapping del processore per il connettore Adyen acquisisce i tipi di carta portafoglio che Google Pay usa nel terminale POS.
 
 ### <a name="use-the-payment-express-module-with-google-pay"></a>Usare il modulo di pagamento rapido con Google Pay
 
@@ -223,6 +218,12 @@ L'ordine di visualizzazione dei metodi di consegna nel modulo di pagamento rapid
 Il modulo di check out usa anche il modulo delle opzioni di consegna quando le modalità di consegna vengono visualizzate durante il checkout. Per ulteriori informazioni, vedere [Modulo Opzioni di consegna](../delivery-options-module.md).
 
 Le modalità di consegna vengono visualizzate man mano che vengono aggiunte all'elenco **Modalità di consegna** nel punto vendita online.
+
+## <a name="configure-commerce-pos-for-google-pay"></a>Configurare il POS di Commerce per Google Pay
+
+La configurazione del POS usa l'impostazione del campo **Servizio EFT** del profilo hardware per Dynamics 365 Payment Connector per Adyen. Per informazioni su come configurare il servizio di trasferimento elettronico di fondi (EFT) per Dynamics 365 Payment Connector per Adyen in Commerce headquarters, fai riferimento a [Profilo hardware del POS di Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+Il mapping del processore per il connettore Adyen acquisisce i tipi di carta portafoglio che Google Pay usa nel terminale POS.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

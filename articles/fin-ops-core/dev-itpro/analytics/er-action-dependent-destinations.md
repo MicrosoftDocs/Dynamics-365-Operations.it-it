@@ -2,7 +2,7 @@
 title: Configurare destinazioni ER dipendenti dall'azione
 description: Questo articolo spiega come configurare destinazioni dipendenti dall'azione per un formato di Creazione di report elettronici (ER) configurato per generare documenti in uscita.
 author: kfend
-ms.date: 02/09/2021
+ms.date: 12/05/2022
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 10.0.17
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.form: ERSolutionTable, ERFormatDestinationTable
-ms.openlocfilehash: babd123e4c8007e3adc545bb92a2dc83bab93f4e
-ms.sourcegitcommit: 87e727005399c82cbb6509f5ce9fb33d18928d30
+ms.openlocfilehash: 80a432a431891c02e4bf5c71cfe2bd9642c41c75
+ms.sourcegitcommit: e9000d0716f7fa45175b03477c533a9df2bfe96d
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 08/12/2022
-ms.locfileid: "9286249"
+ms.lasthandoff: 12/13/2022
+ms.locfileid: "9843799"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurare destinazioni ER dipendenti dall'azione
 
@@ -32,7 +32,7 @@ In Microsoft Dynamics 365 Finance **versione 10.0.17 e successive**, un formato 
 
 ## <a name="make-action-dependent-er-destinations-available"></a>Rendere disponibili destinazioni ER dipendenti dall'azione
 
-Per configurare le destinazioni ER dipendenti dall'azione nell'istanza di Finance corrente e abilitare la [nuova](er-apis-app10-0-17.md) API ER, apri l'area di lavoro [Gestione funzionalità](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) e attiva la funzionalità **Configura destinazioni ER specifiche da utilizzare per diverse azioni PM**. Per utilizzare le destinazioni ER configurate per report [specifici](#reports-list-wave1) in fase di esecuzione, abilitare la funzionalità **Instradare l'output dei report PM in base alle destinazioni ER che sono specifiche dell'azione dell'utente (ciclo 1)**.
+Per configurare le destinazioni ER dipendenti dall'azione nell'istanza di Finance corrente e abilitare la [nuova](er-apis-app10-0-17.md) API ER, apri l'area di lavoro [Gestione funzionalità](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace) e attiva la funzionalità **Configura destinazioni ER specifiche da utilizzare per diverse azioni PM**. Per utilizzare le destinazioni ER configurate per report specifici in fase di esecuzione, abilita la funzionalità **Instrada output dei report Gestione stampa in base alle destinazioni per la creazione di report elettronici specifiche dell'azione utente (ciclo 1)**.
 
 ## <a name="configure-action-dependent-er-destinations"></a>Configurare destinazioni ER dipendenti dall'azione
 
@@ -89,6 +89,51 @@ La figura seguente mostra un esempio di finestra di dialogo **Destinazione del f
 > [!NOTE]
 > Se sono state configurate destinazioni ER per diversi componenti del formato ER in esecuzione, verrà offerta un'opzione separatamente per ogni componente configurato del formato ER.
 
+Se diversi formati ER sono applicabili come modelli di report per il documento selezionato, tutte le destinazioni ER per tutti i modelli di report ER applicabili vengono visualizzate nella finestra di dialogo e disponibili per la rettifica manuale in fase di esecuzione.
+
+Se al documento selezionato non sono applicabili i modelli di report [SQL Server Reporting Services (SSRS)](SSRS-report.md) , la selezione standard delle destinazioni di gestione della stampa viene nascosta dinamicamente.
+
+A partire dalla versione Finance **10.0.31**, è possibile modificare manualmente le destinazioni ER assegnate in fase di esecuzione per i seguenti documenti commerciali:
+
+- Estratto conto cliente
+- Nota d'interesse
+- Nota lettera di sollecito
+- Avviso di pagamento del cliente
+- Avviso di pagamento del fornitore
+
+Per attivare la possibilità di modificare le destinazioni ER in fase di esecuzione, abilita la funzione **Consenti la rettifica delle destinazioni ER in fase di esecuzione** nell'area di lavoro [Gestione funzionalità](../../fin-ops/get-started/feature-management/feature-management-overview.md#the-feature-management-workspace).
+
+> [!IMPORTANT]
+> Per i report **Avviso pagamento cliente** e **Avviso pagamento fornitore** , la possibilità di modificare manualmente le destinazioni ER è disponibile solo se l'anteprima **ForcePrintJobSettings** è abilitata.
+
+[![Rettifica delle destinazioni ER in fase di esecuzione.](./media/ERdestinaiotnChangeUI.jpg)](./media/ERdestinaiotnChangeUI.jpg)
+
+> [!NOTE]
+> Quando l'opzione **Usa destinazione gestione stampa** è impostata su **Sì**, il sistema utilizza le destinazioni ER predefinite configurate per specifici report ER. Tutte le modifiche manuali apportate nella finestra di dialogo vengono ignorate. Imposta l'opzione **Usa destinazione gestione stampa** su **No** per elaborare i documenti nelle destinazioni ER definite nella finestra di dialogo immediatamente prima di eseguire i report.
+
+I seguenti documenti commerciali non presuppongono la selezione esplicita dell'utente di un'azione quando vengono eseguiti:
+
+- Estratto conto cliente
+- Nota d'interesse
+- Nota lettera di sollecito
+- Avviso di pagamento del cliente
+- Avviso di pagamento del fornitore
+
+La seguente logica viene utilizzata per determinare quale azione viene usata durante l'elaborazione dei report precedenti:
+
+- Se l'anteprima **ForcePrintJobSettings** è abilitata:
+
+    - Se l'opzione **Usa destinazione gestione stampa** è impostata su **Sì**, l'azione **Stampa** viene utilizzata.
+    - Se l'opzione **Usa destinazione gestione stampa** è impostata su **No**, l'azione **Visualizza** viene utilizzata.
+
+- Se l'anteprima **ForcePrintJobSettings** non è abilitata:
+
+    - Se l'opzione **Usa destinazione gestione stampa** è impostata su **Sì**, l'azione **Stampa** viene utilizzata per i report **Avviso pagamento cliente** e **Avviso pagamento fornitore**.
+    - Se l'opzione **Usa destinazione gestione stampa** è impostata su **No**, il modello di report SSRS predefinito viene sempre utilizzato per i report **Avviso pagamento cliente** e **Avviso pagamento fornitore**, indipendentemente dalle impostazioni ER configurate.
+    - L'azione **Stampa** viene sempre utilizzata per i report **Estratto conto cliente**, **Nota interessi**, e **Nota lettera di sollecito**.
+
+Per la logica precedente, le azioni **Stampa** o **Visualizza** possono essere utilizzate per configurare le destinazioni dei report ER dipendenti dall'azione. In fase di esecuzione, nella finestra di dialogo vengono filtrate solo le destinazioni ER configurate per un'azione specifica.
+
 ## <a name="verify-the-provided-user-action"></a>Verificare l'azione utente fornita
 
 È possibile verificare quale azione utente, se presente, viene fornita per il formato ER in esecuzione quando si esegue un'azione utente specifica. Questa verifica è importante quando è necessario configurare destinazioni ER dipendenti dall'azione, ma non si è sicuri di quale codice azione utente, se presente, viene fornito. Ad esempio, quando inizi a registrare una fattura a testo libero e imposti l'opzione **Stampa fattura** su **Sì** nella finestra di dialogo **Registra fattura a testo libero**, è possibile impostare l'opzione **Usa destinazione gestione stampa** su **Sì** o **No**.
@@ -105,23 +150,9 @@ Attenersi alla seguente procedura per verificare il codice di azione dell'utente
 
     ![La pagina dei registri di esecuzione della creazione di report elettronici che contiene informazioni sul codice di azione dell'utente fornito per l'esecuzione filtrata di un formato ER.](./media/er-destination-action-dependent-03.png)
 
-## <a name=""></a><a name="reports-list-wave1">Elenco dei documenti aziendali (ciclo 1)</a>
-
-Il seguente elenco di documenti aziendali è controllato dalla funzionalità **Instradare l'output dei report PM in base alle destinazioni ER che sono specifiche dell'azione dell'utente (ciclo 1)**:
-
-- Fattura del cliente (Fattura a testo libero)
-- Fattura del cliente (fattura di vendita)
-- Ordine fornitore
-- Richiesta informazioni su acquisto per ordine fornitore
-- Conferma ordine cliente
-- Lettera di sollecito riscossioni
-- Nota d'interesse
-- Avviso di pagamento del fornitore
-- Richiesta di offerta
-
 ## <a name="additional-resources"></a>Risorse aggiuntive
 
-[Panoramica dei report elettronici](general-electronic-reporting.md)
+[Panoramica della creazione di report elettronici](general-electronic-reporting.md)
 
 [Destinazioni dei report elettronici](electronic-reporting-destinations.md)
 

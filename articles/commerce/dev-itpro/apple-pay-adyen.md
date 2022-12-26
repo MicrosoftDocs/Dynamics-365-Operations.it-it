@@ -9,12 +9,12 @@ ms.reviewer: josaw
 ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2022-06-20
-ms.openlocfilehash: 0949b9d7a4b181605d43956932b4fc095940bd64
-ms.sourcegitcommit: cf6b764824bd1cf2c0dde6d37ddd0a7abab87ff0
+ms.openlocfilehash: 896847cee696e221b2114f7f28a0b56e73fc911b
+ms.sourcegitcommit: bdee5e642d417a13abdb778c14ec5f2dbbf8dee7
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 11/16/2022
-ms.locfileid: "9780372"
+ms.lasthandoff: 12/09/2022
+ms.locfileid: "9838231"
 ---
 # <a name="set-up-apple-pay-with-adyen-in-dynamics-365-commerce"></a>Configurare Apple Pay con Adyen in Dynamics 365 Commerce
 
@@ -102,13 +102,6 @@ Per configurare un punto vendita Commerce online per Apple Pay, attieniti alla s
 
 1. Dopo aver inserito le informazioni dell'esercente, esegui il processo di pianificazione della distribuzione di configurazione del canale **1070**.
 
-## <a name="configure-commerce-pos-for-apple-pay"></a>Configurare il POS di Commerce per Apple Pay
-
-La configurazione del POS usa la configurazione del campo **Servizio EFT** del profilo hardware per Dynamics 365 Payment Connector per Adyen. In Commerce headquarters, configura il servizio di trasferimento elettronico di fondi (EFT) per Dynamics 365 Payment Connector per Adyen come descritto nella sezione [Profilo hardware del POS di Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
-
-Assicurati di aggiungere **ApplePay** all'elenco dei tipi di pagamento nel campo **Tipi di metodi di pagamento supportati**. Utilizza il punto e virgola (;) per separare i tipi di pagamento nell'elenco.
-
-Il mapping del processore per il connettore Adyen acquisisce i tipi di carta portafoglio utilizzati da Apple Pay nel terminale POS.
 
 ### <a name="configure-content-security-policies-in-site-builder"></a>Configurare i criteri di sicurezza del contenuto in Creazione di siti Web
 
@@ -138,6 +131,14 @@ Le impostazioni del modulo **Apple Pay** sono incorporate nel modulo e si connet
 Il pulsante di pagamento **Apple Pay** viene visualizzato solo sui dispositivi Apple Pay supportati (iPhone, iPad e browser Safari che supportano Apple Pay). Se un utente non utilizza uno di questi dispositivi, il pulsante di pagamento **Apple Pay** è nascosto dalla visualizzazione.
 
 Quando un utente seleziona il pulsante di pagamento **Apple Pay**, viene visualizzata una finestra di dialogo **Apple Pay**. In questa finestra l'utente può eseguire l'autenticazione a fronte del proprio browser o dispositivo Apple Pay. La finestra di dialogo **Apple Pay** mostra un riepilogo dell'importo dell'ordine e il metodo di pagamento che l'utente ha configurato sul proprio portafoglio Apple. L'utente può rivedere questi dettagli e quindi selezionare **Paga** per completare il pagamento. Dopo che il pagamento è stato completato, l'utente viene indirizzato alla pagina del sito **Ordine completato** che mostra un riepilogo dettagliato dell'ordine per la transazione completata.
+
+## <a name="configure-commerce-pos-for-apple-pay"></a>Configurare il POS di Commerce per Apple Pay
+
+La configurazione del POS usa la configurazione del campo **Servizio EFT** del profilo hardware per Dynamics 365 Payment Connector per Adyen. In Commerce headquarters, configura il servizio di trasferimento elettronico di fondi (EFT) per Dynamics 365 Payment Connector per Adyen come descritto in [Profilo hardware del POS di Dynamics 365](adyen-connector-setup.md#set-up-a-dynamics-365-pos-hardware-profile).
+
+Assicurati di aggiungere **ApplePay** all'elenco dei tipi di pagamento nel campo **Tipi di metodi di pagamento supportati**. Utilizza il punto e virgola (;) per separare i tipi di pagamento nell'elenco.
+
+Il mapping del processore per il connettore Adyen acquisisce i tipi di carta portafoglio utilizzati da Apple Pay nel terminale POS.
 
 ## <a name="additional-resources"></a>Risorse aggiuntive
 

@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 096f441d39dde0f322ed117ab35a6a4641a38a93
-ms.sourcegitcommit: 1d5cebea3e05b6d758cd01225ae7f566e05698d2
+ms.openlocfilehash: 6d14bba13dbf701a8c27c10ac2d318b071092bc1
+ms.sourcegitcommit: 77ffeccffff28fbb6ff576864d7abddd412cdab6
 ms.translationtype: HT
 ms.contentlocale: it-IT
-ms.lasthandoff: 09/02/2022
-ms.locfileid: "9405467"
+ms.lasthandoff: 12/15/2022
+ms.locfileid: "9852381"
 ---
 # <a name="grid-capabilities"></a>Funzionalità di griglia
 
@@ -225,6 +225,7 @@ Questa sezione mantiene un elenco di problemi noti per il nuovo controllo grigli
 ### <a name="open-issues"></a>Problemi aperti
 - Dopo aver abilitato la funzionalità **Nuovo controllo griglia**, alcune pagine continueranno a utilizzare il controllo griglia esistente. Questo avverrà nelle seguenti situazioni:
  
+    - [Risolto] Problema 762533: errore del client imprevisto durante la selezione di una riga in un elenco di schede.
     - [Risolto] È presente un elenco di schede nella pagina che viene visualizzata in più colonne.
         - Questo tipo di elenco di schede è supportato dal **Nuovo controllo della griglia** a partire dalla versione 10.0.30. Qualsiasi utilizzo di forceLegacyGrid() per questo scopo può essere rimosso. 
     - [Risolto] È presente un elenco di schede raggruppate sulla pagina.

@@ -1422,6 +1422,8 @@
               href: set-up-rfm-analysis.md
             - name: Impostare Microsoft Clarity in Dynamics 365 Commerce
               href: set-up-clarity.md
+            - name: Impostazione di Operational Insights
+              href: dev-itpro/operational-insights.md
         - name: Globalization Studio
           items:
             - name: Panoramica di Globalization Studio
@@ -3056,6 +3058,12 @@
               items:
                 - name: Configurare un ambiente di sviluppo di e-commerce per eseguire il debug su una macchina virtuale Retail Server di livello 1
                   href: troubleshoot/set-up-dev-environment-debugging.md
+            - name: Dati finanziari punto vendita
+              items:
+                - name: Problemi con la riconciliazione dei dati di un report Z
+                  href: troubleshoot/z-report-issues.md
+                - name: Errori di registrazione dei rendiconti dovuti a inventario non disponibile o conflitti di aggiornamento
+                  href: troubleshoot/inventory-errors-posting.md
     - name: Sviluppo e amministrazione delle app per la finanza e le operazioni
       href: ../fin-ops-core/dev-itpro/index.md
     - name: Dynamics 365 Finance
